@@ -1,0 +1,54 @@
+{
+	"id": "suginami-r8-2-45",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第45号",
+	"official": "杉並区児童福祉施設の設備及び運営の基準に関する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第45号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g45.pdf",
+			"fetchedAt": "2026-09-28T10:56:27.547Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "児童福祉施設の設備・運営に区の基準",
+	"category": "子育て",
+	"summary": "杉並区は児童相談所設置市に指定されました。この議案では、保育所や乳児院などの設備、職員配置、運営について区の基準を定めます。2026年11月1日に施行し、子どもへの性暴力防止に関する規定は同年12月25日から施行します。",
+	"changes": [
+		"施設ごとの設備と職員配置の基準を定める",
+		"安全対策や保護者との連絡など、運営の基準を定める",
+		"子どもへの性暴力を防ぐため、犯罪事実確認などを義務付ける",
+		"乳児等通園支援事業に使う保育所の設備・職員の基準を、都の条例から区の条例に切り替える"
+	],
+	"who": [
+		"児童福祉施設を利用する子どもと保護者",
+		"児童福祉施設を運営する事業者"
+	],
+	"why": "児童相談所設置市に指定されたことに伴い、児童福祉施設の設備と運営の基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:02:06.622Z",
+		"inputTokens": 31593,
+		"outputTokens": 1138,
+		"reasoningTokens": 830
+	}
+}

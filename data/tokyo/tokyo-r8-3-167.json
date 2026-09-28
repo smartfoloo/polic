@@ -1,0 +1,53 @@
+{
+	"id": "tokyo-r8-3-167",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第167号議案",
+	"official": "東京都認定こども園の認定要件に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "厚生委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-09-28T10:53:20.876Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
+			"fetchedAt": "2026-09-28T10:53:27.176Z"
+		},
+		{
+			"label": "第167号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_08",
+			"fetchedAt": "2026-09-28T10:54:14.445Z"
+		}
+	],
+	"name": "認定こども園に性暴力防止の措置を義務付け",
+	"category": "子育て",
+	"summary": "現在の条例に、子どもへの性暴力を防ぎ、起きた場合に子どもを保護するための規定を加えます。認定こども園の設置者に、子どもと接する一定の業務に従事する人の犯罪事実確認などを義務付けます。2026年12月25日から施行されます。",
+	"changes": [
+		"認定こども園の設置者に、対象となる業務従事者の犯罪事実確認を義務付ける",
+		"子どもへの性暴力の防止と、起きた場合の子どもの保護に必要な措置を義務付ける"
+	],
+	"who": [
+		"認定こども園に通う子ども",
+		"認定こども園の設置者",
+		"認定こども園で対象となる業務に従事する人"
+	],
+	"why": "関連する法律の施行と改正を受け、子どもへの性暴力の防止などについて条例に規定を設ける必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:24:28.521Z",
+		"inputTokens": 1701,
+		"outputTokens": 1419,
+		"reasoningTokens": 1121
+	}
+}

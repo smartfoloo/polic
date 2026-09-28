@@ -1,0 +1,54 @@
+{
+	"id": "suginami-r8-2-49",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第49号",
+	"official": "杉並区幼保連携型認定こども園以外の認定こども園の認定の要件を定める条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第49号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g49.pdf",
+			"fetchedAt": "2026-09-28T10:56:51.388Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "区が認定こども園の認定基準を定める",
+	"category": "子育て",
+	"summary": "幼保連携型以外の認定こども園については、現在、東京都の条例で認定の条件が定められています。この議案では、杉並区が職員の配置や施設設備、食事の提供などの条件を定めます。令和8年11月1日から施行し、子どもへの性暴力等の防止に関する規定は同年12月25日から施行します。",
+	"changes": [
+		"幼保連携型以外の認定こども園の認定基準を区の条例で定める",
+		"子どもの年齢に応じた職員の配置数や資格、施設設備の基準を定める",
+		"食事の提供方法や保育時間の基準を定める",
+		"設置者に、対象となる従事者の犯罪事実確認などを義務付ける"
+	],
+	"who": [
+		"幼保連携型以外の認定こども園を設置する事業者",
+		"その認定こども園を利用する子どもと保護者"
+	],
+	"why": "杉並区が児童相談所設置市に指定され、認定こども園の認定基準を区で定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:03:27.286Z",
+		"inputTokens": 9859,
+		"outputTokens": 1111,
+		"reasoningTokens": 778
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"id": "tokyo-r8-3-163",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第163号議案",
+	"official": "東京都景観条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "都市整備委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-09-28T10:53:20.876Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
+			"fetchedAt": "2026-09-28T10:53:27.176Z"
+		},
+		{
+			"label": "第163号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_11",
+			"fetchedAt": "2026-09-28T10:54:32.436Z"
+		}
+	],
+	"name": "景観条例が参照する条項番号を変更",
+	"category": "まちづくり",
+	"summary": "現在、東京都景観条例の第10条第3項は「第16条第7項第11号」を参照しています。この議案では、参照先を「第16条第8項第12号」に変更します。",
+	"changes": [
+		"条例が参照する条項番号を第16条第7項第11号から第16条第8項第12号に変える"
+	],
+	"who": [],
+	"why": "景観法の改正に合わせて条例の規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:23:02.369Z",
+		"inputTokens": 1323,
+		"outputTokens": 601,
+		"reasoningTokens": 447
+	}
+}

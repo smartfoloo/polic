@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-81",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第81号議案",
+	"official": "東京都霊園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第81号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_08",
+			"fetchedAt": "2026-09-28T10:47:01.575Z"
+		}
+	],
+	"name": "霊園の使用料上限額と手数料を改定",
+	"category": "税・手数料",
+	"summary": "東京都の霊園では、使用料などの上限額と手数料が条例で定められています。この議案では、一部の金額を引き上げ、一部を引き下げます。2026年4月1日から施行しますが、その時点ですでに納付が必要とされている施行後の使用料には、従来の規定を使います。",
+	"changes": [
+		"使用料などの上限額を改める",
+		"手数料の金額を改める"
+	],
+	"who": [
+		"東京都の霊園の利用者"
+	],
+	"why": "使用料などの上限額と手数料を改める必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:18:07.934Z",
+		"inputTokens": 1869,
+		"outputTokens": 2241,
+		"reasoningTokens": 2039
+	}
+}

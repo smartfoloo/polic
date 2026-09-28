@@ -1,0 +1,49 @@
+{
+	"id": "tokyo-r8-2-124",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第124号議案",
+	"official": "東京都知事等の損害賠償責任の一部免責に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-2.html",
+			"fetchedAt": "2026-09-28T10:52:26.188Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026060209",
+			"fetchedAt": "2026-09-28T10:52:27.046Z"
+		},
+		{
+			"label": "第124号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260602_10_09a",
+			"fetchedAt": "2026-09-28T10:53:20.557Z"
+		}
+	],
+	"name": "知事らの賠償責任条例の引用番号を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、知事らの損害賠償責任を一部免除する条例には、地方自治法の条文番号が記されています。この議案では、引用する条文番号を改めます。令和8年9月24日から施行します。",
+	"changes": [
+		"第243条の2の7第1項への引用を第243条の2の8第1項に改める",
+		"第243条の2の8第3項への引用を第243条の2の9第3項に改める"
+	],
+	"who": [],
+	"why": "地方自治法の改正法の施行などに合わせ、条例の規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:20:04.909Z",
+		"inputTokens": 1360,
+		"outputTokens": 713,
+		"reasoningTokens": 516
+	}
+}

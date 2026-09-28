@@ -1,0 +1,48 @@
+{
+	"id": "suginami-r8-3-85",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第85号",
+	"official": "杉並区景観条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "都市環境委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/28862.html",
+			"fetchedAt": "2026-09-28T10:57:09.664Z"
+		},
+		{
+			"label": "議案第85号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/28566/g85.pdf",
+			"fetchedAt": "2026-09-28T10:57:45.494Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/28566/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:57:21.379Z"
+		}
+	],
+	"name": "景観条例で引用する条項を改める",
+	"category": "まちづくり",
+	"summary": "区の景観条例は、届出や事前協議の規定で景観法の条項を引用しています。この議案では、景観法の改正に合わせて引用先を改めます。",
+	"changes": [
+		"届出や事前協議の規定で引用する景観法の条項を改める"
+	],
+	"who": [],
+	"why": "景観法の改正に伴い、条例の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:05:06.216Z",
+		"inputTokens": 2466,
+		"outputTokens": 519,
+		"reasoningTokens": 372
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"id": "tokyo-r8-1-53",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第53号議案",
+	"official": "学校職員の勤務時間、休日、休暇等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第53号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_56",
+			"fetchedAt": "2026-09-28T10:51:49.608Z"
+		}
+	],
+	"name": "勤務時間などの条例に主務教諭を追加",
+	"category": "教育",
+	"summary": "現在、学校職員の勤務時間などを定める条例には「指導教諭」が記載されています。この議案では、「主務教諭」を加え、業務量の管理などに関する条文の見出しも変えます。令和8年4月1日から施行します。",
+	"changes": [
+		"第2条の「指導教諭」の後に「主務教諭」を加える",
+		"第4条の2の見出しを「業務量管理・健康確保措置」に変える"
+	],
+	"who": [],
+	"why": "国の法律の施行に伴う学校教育法などの改正を受け、条例の規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:11:19.120Z",
+		"inputTokens": 1357,
+		"outputTokens": 715,
+		"reasoningTokens": 516
+	}
+}

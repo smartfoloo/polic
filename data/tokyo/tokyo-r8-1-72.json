@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-72",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第72号議案",
+	"official": "東京都後期高齢者医療財政安定化基金条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第72号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_22",
+			"fetchedAt": "2026-09-28T10:48:25.568Z"
+		}
+	],
+	"name": "後期高齢者医療の基金を使える年度を追加",
+	"category": "健康・医療",
+	"summary": "現在、後期高齢者医療財政安定化基金を使える期間は条例で定められています。この議案では、令和8年度と令和9年度にも基金を使えるようにし、条文を整えます。令和8年4月1日から施行されます。",
+	"changes": [
+		"基金を使える期間に令和8年度と令和9年度を加える",
+		"条文の規定を整える"
+	],
+	"who": [
+		"後期高齢者医療の加入者"
+	],
+	"why": "後期高齢者の保険料率の上昇を抑えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:15:45.335Z",
+		"inputTokens": 1333,
+		"outputTokens": 701,
+		"reasoningTokens": 516
+	}
+}

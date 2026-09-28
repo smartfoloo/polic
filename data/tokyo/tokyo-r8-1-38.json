@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-38",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第38号議案",
+	"official": "東京都行政手続条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第38号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_31",
+			"fetchedAt": "2026-09-28T10:49:19.574Z"
+		}
+	],
+	"name": "聴聞の通知を公示する方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、聴聞の通知を公示する際は、行政機関の事務所の掲示場に掲示します。改正後は、規則で定める方法で広く見られる状態にし、事務所での掲示か、備え付けの端末での表示も行います。2026年5月21日以降に行う通知から適用します。",
+	"changes": [
+		"聴聞の通知内容を、規則で定める方法で広く見られるようにする",
+		"事務所では、掲示か備え付けの端末での表示を行う",
+		"通知が届いたとみなすまでの2週間を、公示の措置を始めた日から数える"
+	],
+	"who": [
+		"聴聞の通知が公示される人"
+	],
+	"why": "行政手続法の改正を踏まえ、聴聞の通知方法などを改めるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:07:59.908Z",
+		"inputTokens": 2036,
+		"outputTokens": 1290,
+		"reasoningTokens": 1034
+	}
+}

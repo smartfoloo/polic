@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-80",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第80号議案",
+	"official": "東京都河川流水占用料等徴収条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第80号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_07",
+			"fetchedAt": "2026-09-28T10:46:55.553Z"
+		}
+	],
+	"name": "河川の土地占用料などを改定",
+	"category": "税・手数料",
+	"summary": "都は、河川区域の土地を占用する際の料金などを定めています。この議案では、占用料などの金額を改めます。2026年4月1日から施行します。",
+	"changes": [
+		"河川区域の土地占用料を地域や占用の種類ごとに改める",
+		"別表にある6,477円の額を6,833円に改める"
+	],
+	"who": [
+		"河川区域の土地を占用する人や事業者"
+	],
+	"why": "利用する人の負担を適切にするためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:17:33.266Z",
+		"inputTokens": 1782,
+		"outputTokens": 959,
+		"reasoningTokens": 788
+	}
+}

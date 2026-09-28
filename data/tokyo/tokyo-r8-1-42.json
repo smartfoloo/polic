@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-42",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第42号議案",
+	"official": "東京都監査委員の給与等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第42号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_42",
+			"fetchedAt": "2026-09-28T10:50:25.603Z"
+		}
+	],
+	"name": "監査委員の給与等の額を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "東京都監査委員の給与等の額は、条例で定められています。この議案では、そのうち5つの額を引き上げます。施行日は2026年4月1日です。",
+	"changes": [
+		"第2条第1項第1号の額を873,000円から897,000円に、第2号の額を857,000円から881,000円に上げる",
+		"第2条第2項の額を435,000円から447,000円に上げる",
+		"第2条第3項の額を241,000円から248,000円に上げる",
+		"第2条第4項の額を16,900円から17,400円に上げる"
+	],
+	"who": [],
+	"why": "東京都特別職報酬等審議会の答申を踏まえ、監査委員の給与等の額を見直すためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:08:49.016Z",
+		"inputTokens": 1310,
+		"outputTokens": 1160,
+		"reasoningTokens": 911
+	}
+}

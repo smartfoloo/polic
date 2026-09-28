@@ -1,0 +1,54 @@
+{
+	"id": "tokyo-r8-1-88",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第88号議案",
+	"official": "火災予防条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第88号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_02",
+			"fetchedAt": "2026-09-28T10:46:25.686Z"
+		}
+	],
+	"name": "林野火災の注意報と火の使用制限を新設",
+	"category": "防災",
+	"summary": "現在の条例には、林野火災の注意報に関する規定はありません。この改正で、注意報が出た区域では、火の使用制限に従うよう努めることを定めます。林野火災を防ぐための警報中の制限と、火を使う行為の届け出対象も追加します。施行日は2026年4月1日です。",
+	"changes": [
+		"林野火災の注意報を出せるようにする",
+		"注意報が出た区域では火の使用制限に従うよう努めることを定める",
+		"林野火災を防ぐための警報中は、屋外で裸火を使い火の粉を飛ばす行為を制限する",
+		"森林計画の対象区域で1月から5月に行う、火の粉が飛ぶ裸火の使用を届け出の対象に加える"
+	],
+	"who": [
+		"注意報や警報の対象区域で火を使う人",
+		"森林計画の対象区域で1月から5月に裸火を使い、火の粉を飛ばす人"
+	],
+	"why": "林野火災を防ぐための規定をより有効にするためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:19:53.973Z",
+		"inputTokens": 2080,
+		"outputTokens": 1363,
+		"reasoningTokens": 1034
+	}
+}

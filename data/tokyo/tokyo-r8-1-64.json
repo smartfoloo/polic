@@ -1,0 +1,55 @@
+{
+	"id": "tokyo-r8-1-64",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第64号議案",
+	"official": "東京都小笠原移住定住促進住宅条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第64号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_15",
+			"fetchedAt": "2026-09-28T10:47:43.555Z"
+		}
+	],
+	"name": "小笠原諸島に移住・定住向け住宅を設置",
+	"category": "住宅",
+	"summary": "東京都小笠原住宅の建て替えに合わせ、都は小笠原諸島に新たな賃貸住宅を設けます。島の住民や都内の別の地域から島へ移る人を対象に、収入や同居などの入居条件を設けます。使用料は世帯収入や住戸の広さに応じて決めます。",
+	"changes": [
+		"小笠原諸島に新たな賃貸住宅を設ける",
+		"収入や同居について入居条件を設ける",
+		"世帯収入や住戸の広さに応じて使用料を決める",
+		"建て替えに伴う使用料の急な上昇を10年間抑える"
+	],
+	"who": [
+		"都内の別の地域から小笠原諸島への移住を希望する人",
+		"小笠原諸島で入居を希望する住民",
+		"建て替えに伴い転居する東京都小笠原住宅の入居者"
+	],
+	"why": "東京都小笠原住宅の建て替えに合わせ、島の住民の生活を安定させ、移住や定住を促す住宅が必要なためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:13:57.632Z",
+		"inputTokens": 8279,
+		"outputTokens": 1393,
+		"reasoningTokens": 1034
+	}
+}

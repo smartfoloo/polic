@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-39",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第39号議案",
+	"official": "東京都人事委員会委員の給与等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第39号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_39",
+			"fetchedAt": "2026-09-28T10:50:07.773Z"
+		}
+	],
+	"name": "人事委員会委員の給料等を増額",
+	"category": "行政のしくみ",
+	"summary": "東京都人事委員会委員の給料等には、87万3,000円、53万円、43万5,000円の額が定められています。この議案では、それぞれ89万7,000円、54万5,000円、44万7,000円に引き上げます。令和8年4月1日から施行します。",
+	"changes": [
+		"87万3,000円を89万7,000円に上げる",
+		"53万円を54万5,000円に上げる",
+		"43万5,000円を44万7,000円に上げる"
+	],
+	"who": [
+		"東京都人事委員会の委員"
+	],
+	"why": "東京都特別職報酬等審議会の答申を踏まえ、委員の給料等の額を改めるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:08:10.083Z",
+		"inputTokens": 1264,
+		"outputTokens": 749,
+		"reasoningTokens": 516
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-85",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第85号議案",
+	"official": "警視庁職員の特殊勤務手当に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第85号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_34",
+			"fetchedAt": "2026-09-28T10:49:37.713Z"
+		}
+	],
+	"name": "警視庁職員の災害時の手当を追加",
+	"category": "行政のしくみ",
+	"summary": "現在の条例には、災害に伴う援助要請を受けて道府県警察の管轄区域内で活動する場合の手当は定められていません。この活動に従事した日1日につき1,080円の手当を設け、別の手当の額も1,680円から2,160円に改めます。2026年4月1日から施行します。",
+	"changes": [
+		"災害に伴う援助要請で道府県警察の管轄区域内で救助や警備などに当たる場合に、1日1,080円の手当を設ける",
+		"既存の手当の額を1,680円から2,160円に改める"
+	],
+	"who": [
+		"特殊勤務手当の対象となる警視庁職員"
+	],
+	"why": "手当の対象や金額を変更し、条文も整理する必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:19:05.681Z",
+		"inputTokens": 1978,
+		"outputTokens": 1557,
+		"reasoningTokens": 1293
+	}
+}

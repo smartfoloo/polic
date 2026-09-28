@@ -1,0 +1,55 @@
+{
+	"id": "suginami-r8-2-42",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第42号",
+	"official": "杉並区指定障害児入所施設の人員、設備及び運営の基準等に関する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第42号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g42.pdf",
+			"fetchedAt": "2026-09-28T10:56:09.365Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "障害児入所施設の職員・設備・運営の基準を定める",
+	"category": "福祉",
+	"summary": "杉並区は2026年2月に、児童相談所を設置する市として指定されました。この議案では、区が指定する障害児入所施設の職員配置や設備、運営の基準を定めます。原則として2026年11月1日から適用し、子どもへの性暴力などを防ぐための基準は同年12月25日から適用します。",
+	"changes": [
+		"福祉型施設の職員配置、設備、運営の基準を設ける",
+		"医療型施設の職員配置、設備、運営の基準を設ける",
+		"子どもへの性暴力などの防止と被害を受けた子どもの保護に必要な措置を施設に義務付ける",
+		"書類の作成や、相手の承諾を得た交付などを電子的に行えるようにする"
+	],
+	"who": [
+		"指定障害児入所施設を運営する事業者",
+		"施設を利用する障害のある子ども",
+		"入所する子どもの保護者"
+	],
+	"why": "杉並区が児童相談所を設置する市に指定され、障害児入所施設の職員配置や設備、運営の基準などを定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:00:55.479Z",
+		"inputTokens": 20821,
+		"outputTokens": 865,
+		"reasoningTokens": 516
+	}
+}

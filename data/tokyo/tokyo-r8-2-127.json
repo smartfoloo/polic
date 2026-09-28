@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-2-127",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第127号議案",
+	"official": "都立学校の学校医、学校歯科医及び学校薬剤師の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-2.html",
+			"fetchedAt": "2026-09-28T10:52:26.188Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026060209",
+			"fetchedAt": "2026-09-28T10:52:27.046Z"
+		},
+		{
+			"label": "第127号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260602_10_08a",
+			"fetchedAt": "2026-09-28T10:53:14.482Z"
+		}
+	],
+	"name": "都立学校の学校医らの介護・葬祭補償額を改定",
+	"category": "教育",
+	"summary": "現在の条例には、都立学校の学校医などに関する介護補償と葬祭補償の額が定められています。この議案では、両方の額を引き上げます。公布の日から施行し、令和8年4月1日以降に支給の理由が生じた分に適用します。",
+	"changes": [
+		"介護補償の最低保障額の一つを月85,490円から月90,790円に上げる",
+		"介護補償の別の額を42,700円から45,400円に上げる",
+		"葬祭補償の額を315,000円から330,000円に上げる"
+	],
+	"who": [
+		"都立学校の学校医・学校歯科医・学校薬剤師"
+	],
+	"why": "公立学校の学校医などの公務災害補償の基準を定める政令の改正を受け、介護補償と葬祭補償の額を変える必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:21:23.275Z",
+		"inputTokens": 1974,
+		"outputTokens": 1618,
+		"reasoningTokens": 1328
+	}
+}

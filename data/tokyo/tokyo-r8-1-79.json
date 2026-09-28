@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-79",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第79号議案",
+	"official": "東京都道路占用料等徴収条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第79号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_06",
+			"fetchedAt": "2026-09-28T10:46:49.529Z"
+		}
+	],
+	"name": "道路や臨港道路の占用料を改定",
+	"category": "税・手数料",
+	"summary": "現在、市部の第一種電柱の占用料は、1本あたり年1,620円です。この額を年1,670円にするなど、道路や臨港道路の占用料を改めます。2026年4月1日から施行します。",
+	"changes": [
+		"市部の第一種電柱の占用料を1本あたり年1,620円から1,670円に上げる",
+		"臨港道路の看板の占用料を表示面積1平方メートルあたり月1,916円から2,025円に上げる"
+	],
+	"who": [
+		"道路や臨港道路を占用する人・事業者"
+	],
+	"why": "道路などを占用する側が支払う額を適正にするためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:17:17.725Z",
+		"inputTokens": 3022,
+		"outputTokens": 1150,
+		"reasoningTokens": 930
+	}
+}

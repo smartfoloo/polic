@@ -1,0 +1,54 @@
+{
+	"id": "suginami-r8-2-44",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第44号",
+	"official": "杉並区児童福祉審議会条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第44号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g44.pdf",
+			"fetchedAt": "2026-09-28T10:56:21.436Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "児童福祉審議会を設置",
+	"category": "行政のしくみ",
+	"summary": "現在、家庭的保育などの事業者に設備や運営の改善を勧告する際、区長は保護者などの意見を聴くことになっています。この議案では、令和8年11月1日に杉並区児童福祉審議会を設けます。勧告の際に意見を聴く相手も、保護者などから審議会に変えます。",
+	"changes": [
+		"委員20人以内の児童福祉審議会を設ける",
+		"審議会の会議は原則公開、部会の会議は原則非公開とする",
+		"設備や運営の改善を勧告する際の意見の聴き先を、保護者などから審議会に変える",
+		"委員長と部会長の報酬を日額21,000円、委員の報酬を日額18,500円と定める"
+	],
+	"who": [
+		"審議会の委員になる人",
+		"家庭的保育などについて、これまで意見を聴かれていた保護者など"
+	],
+	"why": "杉並区が児童相談所設置市に指定され、児童福祉に関する審議会を置く必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:01:49.988Z",
+		"inputTokens": 4468,
+		"outputTokens": 1890,
+		"reasoningTokens": 1552
+	}
+}

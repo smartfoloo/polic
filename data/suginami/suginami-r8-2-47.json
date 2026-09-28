@@ -1,0 +1,54 @@
+{
+	"id": "suginami-r8-2-47",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第47号",
+	"official": "杉並区一時保護委託者の登録等の基準に関する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第47号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g47.pdf",
+			"fetchedAt": "2026-09-28T10:56:39.324Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "子どもの一時保護の委託先に基準",
+	"category": "子育て",
+	"summary": "杉並区は令和8年2月に児童相談所設置市に指定され、一時保護の委託先について区の基準を定める必要が生じました。この議案では、子どもの権利への配慮や施設の設備、職員の配置などの基準を定めます。令和8年11月1日に施行し、子どもへの性暴力を防ぐ規定は同年12月25日に施行します。",
+	"changes": [
+		"委託先に子どもの権利の尊重と虐待の禁止を求める",
+		"施設の設備や夜間の職員配置に基準を設ける",
+		"子どもの生活・教育の支援や苦情への対応を定める",
+		"子どもへの性暴力を防ぐため、職員の犯罪事実確認などを義務付ける"
+	],
+	"who": [
+		"一時保護を委託された施設で暮らす子ども",
+		"一時保護の委託先として登録される事業者"
+	],
+	"why": "杉並区が児童相談所設置市に指定され、一時保護の委託先の登録などに関する基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:02:45.116Z",
+		"inputTokens": 6567,
+		"outputTokens": 1363,
+		"reasoningTokens": 1034
+	}
+}

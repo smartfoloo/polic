@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-87",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第87号議案",
+	"official": "東京消防庁職員の特殊勤務手当に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第87号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_35",
+			"fetchedAt": "2026-09-28T10:49:43.723Z"
+		}
+	],
+	"name": "消防職員の特殊勤務手当の額と対象を変更",
+	"category": "行政のしくみ",
+	"summary": "東京消防庁の職員には、従事する業務に応じて特殊勤務手当が支給されています。この議案では、一部の手当額を変更し、災害が起きた市町村での緊急消防援助隊の活動も支給対象に加えます。令和8年4月1日から施行します。",
+	"changes": [
+		"手当額の一つを710円から670円に下げる",
+		"手当額の一つを1,680円から2,160円に上げる",
+		"災害が起きた市町村での緊急消防援助隊の活動に、1日1,080円の救出救助手当を支給する"
+	],
+	"who": [
+		"対象となる業務に従事する東京消防庁の職員"
+	],
+	"why": "特殊勤務手当の対象業務と金額を見直し、規定を整える必要があるためと、都知事は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:19:33.067Z",
+		"inputTokens": 1715,
+		"outputTokens": 1065,
+		"reasoningTokens": 803
+	}
+}

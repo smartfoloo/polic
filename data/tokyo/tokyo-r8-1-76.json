@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-76",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第76号議案",
+	"official": "東京海区漁業調整委員会委員及び東京都内水面漁場管理委員会委員の報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第76号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_49",
+			"fetchedAt": "2026-09-28T10:51:07.615Z"
+		}
+	],
+	"name": "漁業関係の委員報酬を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "現在、東京海区漁業調整委員会と東京都内水面漁場管理委員会の委員の報酬には、28,400円と26,600円の額が定められています。この議案では、それぞれ29,200円と27,300円に改めます。施行日は令和8年4月1日です。",
+	"changes": [
+		"報酬額の1つを28,400円から29,200円に上げる",
+		"もう1つの報酬額を26,600円から27,300円に上げる"
+	],
+	"who": [
+		"東京海区漁業調整委員会の委員",
+		"東京都内水面漁場管理委員会の委員"
+	],
+	"why": "東京都特別職報酬等審議会の答申を踏まえて委員の報酬額を改めるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:16:34.923Z",
+		"inputTokens": 1416,
+		"outputTokens": 764,
+		"reasoningTokens": 516
+	}
+}

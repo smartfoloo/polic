@@ -1,0 +1,48 @@
+{
+	"id": "tokyo-r8-1-37",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第37号議案",
+	"official": "東京都区市町村振興基金条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第37号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_28",
+			"fetchedAt": "2026-09-28T10:49:01.723Z"
+		}
+	],
+	"name": "区市町村振興基金の額を減らす",
+	"category": "行政のしくみ",
+	"summary": "東京都区市町村振興基金の額は、現在3,139億3,067万2,000円です。2026年4月1日から3,123億4,630万5,000円になります。変更後の額のうち、289億4,935万3,000円を特別区への貸付けに、2,833億9,695万2,000円を市町村への貸付けに充てます。",
+	"changes": [
+		"基金の額を3,139億3,067万2,000円から3,123億4,630万5,000円に減らす"
+	],
+	"who": [],
+	"why": "基金の金額を変更する必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:07:42.618Z",
+		"inputTokens": 1274,
+		"outputTokens": 998,
+		"reasoningTokens": 797
+	}
+}

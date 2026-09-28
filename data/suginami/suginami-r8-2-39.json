@@ -1,0 +1,55 @@
+{
+	"id": "suginami-r8-2-39",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第39号",
+	"official": "杉並区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "区民生活委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第39号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g39.pdf",
+			"fetchedAt": "2026-09-28T10:55:51.370Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "公的年金の申告対象を広げる",
+	"category": "税・手数料",
+	"summary": "現在、公的年金等の扶養親族等申告書は、一定の受給者に提出が義務づけられています。この議案では提出が必要な人を増やし、区民税を申請なしで減免できる場合も設けます。医薬品購入費の控除や住宅ローン控除などの期限、土地の譲渡に関する特例、特定暗号資産の所得への課税方法も変えます。",
+	"changes": [
+		"公的年金等の扶養親族等申告書を提出する必要がある人を増やす",
+		"申請がなくても区長の判断で区民税を減免できるようにする",
+		"医薬品購入費の控除の期限をなくし、住宅ローン控除などの期限を延ばす",
+		"特定暗号資産に関する所得を他の所得と分けて区民税を課す"
+	],
+	"who": [
+		"公的年金等を受け取り、扶養親族等申告書の提出対象になる人",
+		"区民税の減免や税の特例の対象になる人・事業者",
+		"特定暗号資産に関する所得がある人"
+	],
+	"why": "地方税法等の改正に伴い、公的年金等を受け取る人の扶養親族等申告書の提出対象を広げるなどのためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:00:09.840Z",
+		"inputTokens": 19448,
+		"outputTokens": 2399,
+		"reasoningTokens": 2037
+	}
+}

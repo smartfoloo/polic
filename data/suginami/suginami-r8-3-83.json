@@ -1,0 +1,50 @@
+{
+	"id": "suginami-r8-3-83",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第83号",
+	"official": "杉並区印鑑条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "区民生活委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/28862.html",
+			"fetchedAt": "2026-09-28T10:57:09.664Z"
+		},
+		{
+			"label": "議案第83号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/28566/g83.pdf",
+			"fetchedAt": "2026-09-28T10:57:33.601Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/28566/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:57:21.379Z"
+		}
+	],
+	"name": "特定在留カード等で印鑑登録証明書を取得",
+	"category": "くらし・手続き",
+	"summary": "現在、規則で定める人を除く印鑑登録者は、個人番号カードなどを使い、多機能端末機で印鑑登録証明書を取得できます。改正後は、電子証明書が記録された特定在留カードや特定特別永住者証明書でも、申請と受け取りができるようになります。施行は公布の日です。",
+	"changes": [
+		"電子証明書が記録された特定在留カードや特定特別永住者証明書で、多機能端末機から印鑑登録証明書を申請・取得できるようにする"
+	],
+	"who": [
+		"電子証明書が記録された特定在留カードや特定特別永住者証明書を持つ印鑑登録者（規則で定める人を除く）"
+	],
+	"why": "法改正を受け、特定在留カードなどを使った多機能端末機での申請と交付について規定を設けるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:04:45.198Z",
+		"inputTokens": 2793,
+		"outputTokens": 1320,
+		"reasoningTokens": 1034
+	}
+}

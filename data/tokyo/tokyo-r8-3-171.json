@@ -1,0 +1,53 @@
+{
+	"id": "tokyo-r8-3-171",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第171号議案",
+	"official": "火災予防条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "警察・消防委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-09-28T10:53:20.876Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
+			"fetchedAt": "2026-09-28T10:53:27.176Z"
+		},
+		{
+			"label": "第171号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_01",
+			"fetchedAt": "2026-09-28T10:53:32.381Z"
+		}
+	],
+	"name": "サウナ設備と調理器具の防火基準を変更",
+	"category": "防災",
+	"summary": "現在の条例では、サウナ設備を種類ごとに分けていません。この議案では一般サウナ設備と簡易サウナ設備に分け、簡易サウナ設備の基準を定めます。調理器具の周りの排気ダクトなどに油脂が付かないよう管理する規定も加え、こちらは2027年4月1日から施行します。",
+	"changes": [
+		"サウナ設備を一般サウナ設備と簡易サウナ設備に分ける",
+		"簡易サウナ設備に手動・自動の熱源遮断装置を求め、まき式には消火器を置く場合の例外を設ける",
+		"調理器具の周りの排気ダクトなどに油脂が付かないよう管理する"
+	],
+	"who": [
+		"サウナ設備を設ける人や事業者",
+		"調理器具の周りの排気ダクトなどを管理する人や事業者"
+	],
+	"why": "国の省令の施行に伴い、サウナ設備の設置や管理の基準を改める必要があるためと、都知事は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:26:02.841Z",
+		"inputTokens": 2293,
+		"outputTokens": 1785,
+		"reasoningTokens": 1446
+	}
+}

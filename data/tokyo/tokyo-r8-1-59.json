@@ -1,0 +1,50 @@
+{
+	"id": "tokyo-r8-1-59",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第59号議案",
+	"official": "都立学校の学校医、学校歯科医及び学校薬剤師の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第59号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_32",
+			"fetchedAt": "2026-09-28T10:49:25.657Z"
+		}
+	],
+	"name": "都立学校医らの公務災害補償の基礎額を改定",
+	"category": "教育",
+	"summary": "現在、経験年数10年以上15年未満の学校医・学校歯科医の補償基礎額は14,175円です。この議案では、都立学校の学校医、学校歯科医、学校薬剤師の公務災害補償の基礎額を改定し、同じ区分の額を14,397円にします。令和8年4月1日から施行します。",
+	"changes": [
+		"公務災害補償の基礎額を改定する"
+	],
+	"who": [
+		"都立学校の学校医・学校歯科医・学校薬剤師"
+	],
+	"why": "職員の給与に関する条例の改正規定などの施行を受け、補償基礎額を改定する必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:12:30.867Z",
+		"inputTokens": 1663,
+		"outputTokens": 1261,
+		"reasoningTokens": 1027
+	}
+}

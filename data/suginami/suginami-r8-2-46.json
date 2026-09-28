@@ -1,0 +1,54 @@
+{
+	"id": "suginami-r8-2-46",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第46号",
+	"official": "杉並区一時保護施設の設備及び運営の基準に関する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第46号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g46.pdf",
+			"fetchedAt": "2026-09-28T10:56:33.420Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "一時保護施設の設備と運営の基準を定める",
+	"category": "子育て",
+	"summary": "児童福祉法は、児童相談所を設置する市に、一時保護施設の設備と運営の基準を条例で定めるよう求めています。児童相談所設置市に指定された杉並区は、施設の設備や職員の配置、子どもへの支援などの基準を定めます。令和8年11月1日から施行します。",
+	"changes": [
+		"居室や学習室など、施設に必要な設備の基準を定める",
+		"子どもを支える職員の種類や配置人数の基準を定める",
+		"子どもの権利や意見の尊重、生活・学習支援の決まりを定める",
+		"避難訓練や安全計画など、安全管理の決まりを定める"
+	],
+	"who": [
+		"一時保護施設に入所する子ども",
+		"一時保護施設の職員"
+	],
+	"why": "杉並区が児童相談所設置市に指定され、一時保護施設の設備と運営の基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:02:25.123Z",
+		"inputTokens": 9246,
+		"outputTokens": 1266,
+		"reasoningTokens": 968
+	}
+}

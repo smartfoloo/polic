@@ -1,0 +1,51 @@
+{
+	"id": "suginami-r8-2-51",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第51号",
+	"official": "杉並区立自転車駐車場条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "都市環境委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第51号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g51.pdf",
+			"fetchedAt": "2026-09-28T10:57:03.479Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "西永福北に区立自転車駐車場を設置",
+	"category": "交通",
+	"summary": "区は以前、西永福北自転車駐車場を廃止しました。今回、旧駐車場の敷地の一部を借り、約30台を収容する区立駐車場として整備します。その名称と所在地を条例に加え、施行日は規則で定めます。",
+	"changes": [
+		"杉並区立西永福北自転車駐車場を条例に加える",
+		"所在地を杉並区永福3丁目55番3号と定める"
+	],
+	"who": [
+		"西永福北自転車駐車場を利用する人"
+	],
+	"why": "区立自転車駐車場を1か所設けるにあたり、名称と所在地を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:04:10.122Z",
+		"inputTokens": 1588,
+		"outputTokens": 1075,
+		"reasoningTokens": 859
+	}
+}

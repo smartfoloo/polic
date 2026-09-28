@@ -1,0 +1,50 @@
+{
+	"id": "tokyo-r8-3-172",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第172号議案",
+	"official": "特別区の消防団員等の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "警察・消防委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-09-28T10:53:20.876Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
+			"fetchedAt": "2026-09-28T10:53:27.176Z"
+		},
+		{
+			"label": "第172号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_10",
+			"fetchedAt": "2026-09-28T10:54:26.358Z"
+		}
+	],
+	"name": "葬祭補償の定額部分を330,000円に",
+	"category": "防災",
+	"summary": "特別区の消防団員等に関する葬祭補償は、定額部分が315,000円です。この議案では330,000円に改めます。令和8年4月1日以後に支給の理由が生じた分から適用します。",
+	"changes": [
+		"葬祭補償の定額部分を315,000円から330,000円に引き上げる"
+	],
+	"who": [
+		"特別区の消防団員等の葬祭補償を受ける人"
+	],
+	"why": "非常勤消防団員等の損害補償の基準を定める政令の改正に伴い、葬祭補償の額を改める必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:26:14.035Z",
+		"inputTokens": 1677,
+		"outputTokens": 731,
+		"reasoningTokens": 516
+	}
+}

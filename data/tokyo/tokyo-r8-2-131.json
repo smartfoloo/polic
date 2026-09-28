@@ -1,0 +1,48 @@
+{
+	"id": "tokyo-r8-2-131",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第131号議案",
+	"official": "東京都海上公園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "経済・港湾委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-2.html",
+			"fetchedAt": "2026-09-28T10:52:26.188Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026060209",
+			"fetchedAt": "2026-09-28T10:52:27.046Z"
+		},
+		{
+			"label": "第131号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260602_10_05a",
+			"fetchedAt": "2026-09-28T10:52:56.406Z"
+		}
+	],
+	"name": "京浜島ふ頭公園を都の条例から外す",
+	"category": "まちづくり",
+	"summary": "東京都立京浜島ふ頭公園は、現在、都の条例にふ頭公園として載っています。この議案では、大田区への移管に伴い、同公園を条例の一覧から外します。改正は公布の日から施行します。",
+	"changes": [
+		"東京都立京浜島ふ頭公園を都のふ頭公園の一覧から削除する"
+	],
+	"who": [],
+	"why": "海上公園を大田区へ移すため、東京都立京浜島ふ頭公園を都の公園として廃止する必要があると、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:22:28.412Z",
+		"inputTokens": 1169,
+		"outputTokens": 689,
+		"reasoningTokens": 516
+	}
+}

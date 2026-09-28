@@ -1,0 +1,22 @@
+{
+	"id": "tokyo-r8-2-m12",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "議員提出議案第12号",
+	"official": "東京都立小中学校等教材費、修学旅行費等及び入学準備金の助成に関する条例",
+	"by": "member",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-2.html",
+			"fetchedAt": "2026-09-28T10:52:26.188Z"
+		}
+	]
+}

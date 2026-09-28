@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-43",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第43号議案",
+	"official": "東京都議会議員の議員報酬、費用弁償及び期末手当に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第43号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_43",
+			"fetchedAt": "2026-09-28T10:50:31.596Z"
+		}
+	],
+	"name": "都議会議員の報酬額を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "都議会議員の報酬は、現在、103万6,000円から128万8,000円までの5つの額が定められています。この議案では、それぞれの額を引き上げます。2026年4月1日から施行します。",
+	"changes": [
+		"議員報酬の128万8,000円を132万4,000円に上げる",
+		"116万2,000円を119万4,000円に、107万3,000円を110万3,000円に上げる",
+		"105万4,000円を108万3,000円に、103万6,000円を106万5,000円に上げる"
+	],
+	"who": [
+		"東京都議会議員"
+	],
+	"why": "議員報酬の額を改定する必要があるためと、都知事は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:09:05.767Z",
+		"inputTokens": 1352,
+		"outputTokens": 1269,
+		"reasoningTokens": 1034
+	}
+}

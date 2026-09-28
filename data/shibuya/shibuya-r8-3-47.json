@@ -1,0 +1,45 @@
+{
+	"id": "shibuya-r8-3-47",
+	"assembly": "tokyo/shibuya",
+	"approved": false,
+	"number": "議案第47号",
+	"official": "渋谷区役所出張所の設置に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "区民福祉委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-11",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案等",
+			"url": "https://shibukugi.tokyo/kaigi_oshirase/2023021400039/",
+			"fetchedAt": "2026-09-28T10:54:39.026Z"
+		},
+		{
+			"label": "議案第47号（PDF）",
+			"url": "https://shibukugi.tokyo/kaigi_oshirase/2023021400039/file_contents/20263_gian_047.pdf",
+			"fetchedAt": "2026-09-28T10:54:56.997Z"
+		}
+	],
+	"name": "恵比寿駅前出張所の所在地を追加",
+	"category": "くらし・手続き",
+	"summary": "恵比寿駅前出張所の所在地は、現在、渋谷区恵比寿4丁目2番6号です。この議案では、渋谷区恵比寿南1丁目5番5号も所在地に加えます。施行日は区規則で定めます。",
+	"changes": [
+		"恵比寿駅前出張所の所在地に渋谷区恵比寿南1丁目5番5号を加える"
+	],
+	"who": [
+		"恵比寿駅前出張所を利用する区民"
+	],
+	"why": "新たな区民サービスの窓口を開き、区民が利用しやすくするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T10:59:03.763Z",
+		"inputTokens": 1187,
+		"outputTokens": 710,
+		"reasoningTokens": 516
+	}
+}

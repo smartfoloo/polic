@@ -1,0 +1,48 @@
+{
+	"id": "tokyo-r8-1-49",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第49号議案",
+	"official": "東京都公益認定等審議会条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第49号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_29",
+			"fetchedAt": "2026-09-28T10:49:07.585Z"
+		}
+	],
+	"name": "審議会委員の任命規定に公益信託を追加",
+	"category": "行政のしくみ",
+	"summary": "東京都公益認定等審議会の委員を任命する規定には、公益法人が記されています。この議案では、公益信託も規定に加えます。令和8年4月1日から施行します。",
+	"changes": [
+		"委員の任命に関する規定に公益信託を加える"
+	],
+	"who": [],
+	"why": "公益信託に関する法律の施行に伴い、委員の任命に関する規定を整える必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:10:25.129Z",
+		"inputTokens": 1319,
+		"outputTokens": 605,
+		"reasoningTokens": 440
+	}
+}

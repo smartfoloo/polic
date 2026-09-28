@@ -1,0 +1,54 @@
+{
+	"id": "suginami-r8-2-48",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第48号",
+	"official": "杉並区幼保連携型認定こども園の学級の編制、職員、設備及び運営の基準に関する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第48号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g48.pdf",
+			"fetchedAt": "2026-09-28T10:56:45.466Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "幼保連携型認定こども園の基準を区が定める",
+	"category": "子育て",
+	"summary": "幼保連携型認定こども園の職員や設備などの基準は、これまで東京都の条例で定められていました。この議案では、杉並区が学級づくり、職員の配置、設備や運営の基準を定めます。令和8年11月1日から施行し、園児への性暴力を防ぐ規定は同年12月25日から施行します。",
+	"changes": [
+		"学級ごとに専任の保育教諭などを1人以上置く",
+		"園児の年齢と人数に応じた職員数を定める",
+		"園舎や園庭、保育室などの設備の基準を定める",
+		"性暴力の防止に向け、犯罪歴の確認などを義務付ける"
+	],
+	"who": [
+		"幼保連携型認定こども園を利用する園児と保護者",
+		"幼保連携型認定こども園の設置者・運営事業者"
+	],
+	"why": "杉並区が児童相談所設置市に指定され、区で基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:03:09.502Z",
+		"inputTokens": 11568,
+		"outputTokens": 1692,
+		"reasoningTokens": 1378
+	}
+}

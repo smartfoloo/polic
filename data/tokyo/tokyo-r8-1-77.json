@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-77",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第77号議案",
+	"official": "東京都港湾管理条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第77号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_09",
+			"fetchedAt": "2026-09-28T10:47:07.656Z"
+		}
+	],
+	"name": "臨港道路の占用料の上限額を改定",
+	"category": "税・手数料",
+	"summary": "臨港道路に設置する看板の占用料は、表示面積1平方メートルにつき月1,916円です。この議案では、その額を2,025円に改めます。ほかの占用料の上限額も改め、2026年4月1日から施行します。",
+	"changes": [
+		"看板の占用料を表示面積1平方メートルにつき月1,916円から2,025円に改める",
+		"臨港道路の占用料の別の上限額を958円から1,008円に改める",
+		"臨港道路の占用料の別の上限額を230円から240円に改める"
+	],
+	"who": [
+		"臨港道路を占用する事業者"
+	],
+	"why": "受益者負担を適正にするためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:16:48.701Z",
+		"inputTokens": 1280,
+		"outputTokens": 1074,
+		"reasoningTokens": 836
+	}
+}

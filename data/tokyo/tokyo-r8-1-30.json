@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-30",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第30号議案",
+	"official": "東京都附属機関の構成員の報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第30号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_37",
+			"fetchedAt": "2026-09-28T10:49:55.623Z"
+		}
+	],
+	"name": "都の附属機関の構成員の報酬額を改定",
+	"category": "行政のしくみ",
+	"summary": "都の附属機関の構成員の報酬について、条例には35,900円と15,700円の額が定められています。この議案で、それぞれ36,900円と16,100円に変わります。2026年4月1日から施行します。",
+	"changes": [
+		"報酬の限度額を35,900円から36,900円に改める",
+		"別表の金額を15,700円から16,100円に改める"
+	],
+	"who": [
+		"都の附属機関の構成員"
+	],
+	"why": "東京都特別職報酬等審議会の答申を踏まえ、報酬の限度額などを改定する必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:05:51.499Z",
+		"inputTokens": 1305,
+		"outputTokens": 868,
+		"reasoningTokens": 652
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"id": "tokyo-r8-1-54",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第54号議案",
+	"official": "東京都教育委員会委員の報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第54号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_47",
+			"fetchedAt": "2026-09-28T10:50:55.730Z"
+		}
+	],
+	"name": "教育委員会委員の報酬を44万7千円に",
+	"category": "行政のしくみ",
+	"summary": "東京都教育委員会の委員の報酬は、現在43万5千円です。この議案では、2026年4月1日から44万7千円になります。",
+	"changes": [
+		"教育委員会委員の報酬を43万5千円から44万7千円に上げる"
+	],
+	"who": [
+		"東京都教育委員会の委員"
+	],
+	"why": "東京都特別職報酬等審議会の答申を踏まえて報酬額を改定するためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:11:29.509Z",
+		"inputTokens": 1260,
+		"outputTokens": 679,
+		"reasoningTokens": 516
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-75",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第75号議案",
+	"official": "東京都立職業能力開発センター条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "経済・港湾委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第75号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_30",
+			"fetchedAt": "2026-09-28T10:49:13.684Z"
+		}
+	],
+	"name": "職業能力開発センター2校の所在地を変更",
+	"category": "教育",
+	"summary": "条例では、赤羽校の所在地は現在、北区西が丘3丁目7番8号です。赤羽校と大田校の移転に合わせ、条例上の所在地を変更します。改正は令和8年4月1日から施行されます。",
+	"changes": [
+		"赤羽校の条例上の所在地を北区西が丘3丁目7番8号から北区西が丘3丁目13番16号に変える",
+		"大田校の条例上の所在地を大田区本羽田3丁目4番30号に変える"
+	],
+	"who": [
+		"赤羽校や大田校を利用する人"
+	],
+	"why": "赤羽校と大田校の移転に合わせて条例上の所在地を変更する必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:16:24.604Z",
+		"inputTokens": 1367,
+		"outputTokens": 726,
+		"reasoningTokens": 516
+	}
+}

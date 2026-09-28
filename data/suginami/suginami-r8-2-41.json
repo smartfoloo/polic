@@ -1,0 +1,54 @@
+{
+	"id": "suginami-r8-2-41",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第41号",
+	"official": "杉並区指定障害児通所支援の事業等の人員、設備及び運営の基準等に関する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第41号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g41.pdf",
+			"fetchedAt": "2026-09-28T10:56:03.605Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "障害児向け支援の事業所基準を定める",
+	"category": "福祉",
+	"summary": "障害児向け支援の事業者が守る基準は、条例で定めることになっています。杉並区が児童相談所設置市に指定されたことを受け、区が職員の配置や設備、運営の基準を定めます。原則として令和8年11月1日から施行し、一部は同年12月25日から施行します。",
+	"changes": [
+		"児童発達支援と放課後等デイサービスの職員配置・設備・運営の基準を定める",
+		"居宅訪問型児童発達支援と保育所等訪問支援の基準を定める",
+		"複数の事業を一体で行う事業所の特例を定める",
+		"児童対象性暴力等を防ぐための犯罪事実確認などを義務付ける"
+	],
+	"who": [
+		"障害児向け支援を利用する子どもとその保護者",
+		"障害児向け支援の事業者"
+	],
+	"why": "杉並区が児童相談所設置市に指定され、障害児向け支援の事業者が守る基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:00:41.510Z",
+		"inputTokens": 33488,
+		"outputTokens": 1361,
+		"reasoningTokens": 1034
+	}
+}

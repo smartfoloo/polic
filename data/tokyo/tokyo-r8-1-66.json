@@ -1,0 +1,48 @@
+{
+	"id": "tokyo-r8-1-66",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第66号議案",
+	"official": "東京都営住宅条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第66号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_17",
+			"fetchedAt": "2026-09-28T10:47:55.664Z"
+		}
+	],
+	"name": "都営住宅の規定に小笠原の新条例を追加",
+	"category": "住宅",
+	"summary": "都営住宅条例には、東京都特定公共賃貸住宅条例が挙げられています。この議案では、東京都小笠原移住定住促進住宅条例も加えます。改正は公布の日から施行されます。",
+	"changes": [
+		"都営住宅条例で挙げる条例に東京都小笠原移住定住促進住宅条例を加える"
+	],
+	"who": [],
+	"why": "東京都小笠原移住定住促進住宅条例が新たに作られるため、都営住宅条例の記載を改めると都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:14:28.313Z",
+		"inputTokens": 1252,
+		"outputTokens": 686,
+		"reasoningTokens": 516
+	}
+}

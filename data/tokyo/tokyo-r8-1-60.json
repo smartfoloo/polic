@@ -1,0 +1,53 @@
+{
+	"id": "tokyo-r8-1-60",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第60号議案",
+	"official": "東京における宅地開発の無電柱化の推進に関する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第60号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_01",
+			"fetchedAt": "2026-09-28T10:09:27.273Z"
+		}
+	],
+	"name": "宅地開発で電柱・電線の新設を抑える",
+	"category": "まちづくり",
+	"summary": "この議案は、道路整備を伴う住宅用の宅地開発について定めるものです。知事が定める区域では、原則として電柱・電線を新たに設置せず、既存のものを撤去することになります。開発する人には、無電柱化の計画を知事に届け出る義務も生じます。",
+	"changes": [
+		"電柱・電線の新設を原則として行わず、既存のものを原則として撤去する",
+		"無電柱化の計画の届け出を義務付ける",
+		"届け出がない場合などに指導や勧告をできるようにする",
+		"届け出の内容のうち、規則で定める事項を公表する"
+	],
+	"who": [
+		"知事が定める区域で、道路整備を伴う住宅用の宅地開発をする人や事業者"
+	],
+	"why": "都市の防災機能を強め、安全で快適に歩ける空間を確保し、良好な都市景観をつくるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:12:50.133Z",
+		"inputTokens": 3538,
+		"outputTokens": 1333,
+		"reasoningTokens": 1034
+	}
+}

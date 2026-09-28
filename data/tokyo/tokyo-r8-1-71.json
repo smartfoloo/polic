@@ -1,0 +1,50 @@
+{
+	"id": "tokyo-r8-1-71",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第71号議案",
+	"official": "東京都国民健康保険事業費納付金条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第71号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_60",
+			"fetchedAt": "2026-09-28T10:52:13.643Z"
+		}
+	],
+	"name": "国保の子育て支援分の納付金算定を定める",
+	"category": "健康・医療",
+	"summary": "現在の条例には、子ども・子育て支援納付金に係る納付金の所得係数や割合を定めた条文はありません。この議案では、所得係数の決め方と、所得や被保険者数などに関する割合を定めます。令和8年4月1日に施行します。",
+	"changes": [
+		"所得係数を、政令に定める金額の比率を基に知事が定める数とする",
+		"所得などに関する割合を政令に定める数とする",
+		"被保険者数などに関する割合を政令に定める数とする"
+	],
+	"who": [],
+	"why": "国の政令改正を受け、子ども・子育て支援納付金に係る納付金の徴収に必要な事項を定めるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:15:34.562Z",
+		"inputTokens": 1808,
+		"outputTokens": 1595,
+		"reasoningTokens": 1348
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-70",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第70号議案",
+	"official": "東京都女性福祉資金貸付条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第70号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_21",
+			"fetchedAt": "2026-09-28T10:48:19.777Z"
+		}
+	],
+	"name": "専修学校の専攻科も貸付対象に",
+	"category": "福祉",
+	"summary": "現在、女性福祉資金の修学資金と就学支度資金では、専修学校の専門課程が貸付対象です。令和8年4月1日から、専攻科も対象に加わります。",
+	"changes": [
+		"修学資金の貸付対象に専修学校の専攻科を加える",
+		"就学支度資金の貸付対象に専修学校の専攻科を加える"
+	],
+	"who": [
+		"専修学校の専攻科で学ぶ、または入学する女性等"
+	],
+	"why": "女性福祉資金の貸付事業を充実させるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:15:11.344Z",
+		"inputTokens": 1327,
+		"outputTokens": 702,
+		"reasoningTokens": 516
+	}
+}

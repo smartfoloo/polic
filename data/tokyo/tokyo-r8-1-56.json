@@ -1,0 +1,49 @@
+{
+	"id": "tokyo-r8-1-56",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第56号議案",
+	"official": "学校職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第56号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_57",
+			"fetchedAt": "2026-09-28T10:51:55.687Z"
+		}
+	],
+	"name": "学校職員の給与規定に主務教諭を追加",
+	"category": "教育",
+	"summary": "現在、学校職員の給与表の3級には、主任教諭などが記されています。この欄を主務教諭に変え、ほかの給与規定にも主務教諭を加えます。令和8年4月1日から施行します。",
+	"changes": [
+		"給与に関する規定に主務教諭を加える",
+		"給与表の3級の欄を主任教諭・主任養護教諭・主任栄養教諭から主務教諭に改める"
+	],
+	"who": [],
+	"why": "学校教育法などの改正を受け、条例の規定を整える必要があるためと、都知事は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:11:56.365Z",
+		"inputTokens": 1368,
+		"outputTokens": 1039,
+		"reasoningTokens": 843
+	}
+}

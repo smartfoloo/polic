@@ -1,0 +1,48 @@
+{
+	"id": "tokyo-r8-1-67",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第67号議案",
+	"official": "東京都都営住宅等事業会計条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第67号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_18",
+			"fetchedAt": "2026-09-28T10:48:01.611Z"
+		}
+	],
+	"name": "小笠原移住定住促進住宅を事業会計に追加",
+	"category": "住宅",
+	"summary": "都営住宅等の事業会計には、特定公共賃貸住宅が含まれています。この議案では、小笠原移住定住促進住宅の事業も、その会計の対象に加えます。",
+	"changes": [
+		"小笠原移住定住促進住宅の事業を都営住宅等事業会計の対象に加える"
+	],
+	"who": [],
+	"why": "東京都小笠原住宅の建替事業に伴い、小笠原移住定住促進住宅の事業に関する会計の扱いを明確にするためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:14:39.217Z",
+		"inputTokens": 1256,
+		"outputTokens": 695,
+		"reasoningTokens": 516
+	}
+}

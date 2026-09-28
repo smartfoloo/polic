@@ -1,0 +1,53 @@
+{
+	"id": "tokyo-r8-1-73",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第73号議案",
+	"official": "東京都保健医療局関係手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第73号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_05",
+			"fetchedAt": "2026-09-28T10:46:43.501Z"
+		}
+	],
+	"name": "保健医療関係の手数料を引き上げ",
+	"category": "税・手数料",
+	"summary": "現在、液卵製造業と漬物製造業の許可申請手数料は、それぞれ19,800円です。この議案では、両手数料を25,100円に引き上げ、医薬品に関する法改正に合わせて条例の規定も改めます。手数料の改定は令和8年4月1日、医薬品関係の規定変更は同年5月1日からです。",
+	"changes": [
+		"液卵製造業と漬物製造業の許可申請手数料を、それぞれ19,800円から25,100円に上げる",
+		"ほかの手数料を10,800円から12,300円、11,700円から16,400円に上げる",
+		"医薬品に関する規定を法改正に合わせて改める"
+	],
+	"who": [
+		"液卵製造業の許可を申請する事業者",
+		"漬物製造業の許可を申請する事業者"
+	],
+	"why": "受益者負担を適正にし、法改正に合わせて規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:15:58.529Z",
+		"inputTokens": 1867,
+		"outputTokens": 956,
+		"reasoningTokens": 644
+	}
+}

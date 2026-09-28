@@ -1,0 +1,54 @@
+{
+	"id": "tokyo-r8-1-34",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第34号議案",
+	"official": "市町村における東京都の事務処理の特例に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第34号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_24",
+			"fetchedAt": "2026-09-28T10:48:37.681Z"
+		}
+	],
+	"name": "区市町村が扱う都の事務を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、特別区や市町村が扱う都の事務は、条例で定められています。この議案では、建設工事統計に関する事務をその対象から外します。また、職員による園児虐待の通知を受ける事務などを、私立幼稚園分は特別区と市へ、幼保連携型認定こども園分は児童相談所設置区へ移します。",
+	"changes": [
+		"建設工事統計に関する事務を区市町村が扱う対象から外す",
+		"私立幼稚園での園児虐待の通知を受ける事務などを特別区と市に移す",
+		"幼保連携型認定こども園での園児虐待の通知を受ける事務などを児童相談所設置区に移す",
+		"学校職員の給与に関する条例の改正に合わせて規定を整理する"
+	],
+	"who": [
+		"私立幼稚園の園児と保護者",
+		"幼保連携型認定こども園の園児と保護者"
+	],
+	"why": "市町村が扱う事務の範囲に関する規定を改める必要があるためと、都知事は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:07:10.077Z",
+		"inputTokens": 1935,
+		"outputTokens": 1857,
+		"reasoningTokens": 1522
+	}
+}

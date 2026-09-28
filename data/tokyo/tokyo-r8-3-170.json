@@ -1,0 +1,50 @@
+{
+	"id": "tokyo-r8-3-170",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第170号議案",
+	"official": "東京都営空港条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "経済・港湾委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-09-28T10:53:20.876Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
+			"fetchedAt": "2026-09-28T10:53:27.176Z"
+		},
+		{
+			"label": "第170号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_03",
+			"fetchedAt": "2026-09-28T10:53:44.540Z"
+		}
+	],
+	"name": "大島空港の応接室使用料を1時間3,600円に",
+	"category": "税・手数料",
+	"summary": "大島空港ターミナルビルに応接室を設けることに合わせた議案です。応接室の使用料を1時間3,600円と定めます。2026年10月20日から施行します。",
+	"changes": [
+		"応接室の使用料を1時間3,600円と定める"
+	],
+	"who": [
+		"大島空港ターミナルビルの応接室を利用する人"
+	],
+	"why": "応接室の設置に合わせて建物使用料の決まりを改める必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:25:35.757Z",
+		"inputTokens": 1263,
+		"outputTokens": 693,
+		"reasoningTokens": 516
+	}
+}

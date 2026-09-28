@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-122",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第122号議案",
+	"official": "特別区の消防団員等の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第122号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_33",
+			"fetchedAt": "2026-09-28T10:49:31.778Z"
+		}
+	],
+	"name": "消防団員などの公務災害補償の基準額を改定",
+	"category": "行政のしくみ",
+	"summary": "特別区の消防団員などの公務災害補償には、補償基礎額が定められています。この議案では、その額を改定し、扶養親族に関する規定も変更します。2026年4月1日から施行し、傷病・障害・遺族補償年金には同年4月分から新しい規定を適用します。",
+	"changes": [
+		"補償基礎額を9,700円から10,000円、14,500円から15,000円などに引き上げる",
+		"扶養親族に関する額を100円から433円に改める",
+		"扶養親族1人につき383円とする規定を削る"
+	],
+	"who": [
+		"公務災害補償を受ける特別区の消防団員など"
+	],
+	"why": "損害補償の基準を定める政令の改正に伴い、補償基礎額の改定と規定の整理が必要なためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:05:27.447Z",
+		"inputTokens": 1852,
+		"outputTokens": 1643,
+		"reasoningTokens": 1350
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"id": "tokyo-r8-1-35",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第35号議案",
+	"official": "都及び特別区並びに特別区相互間の財政調整に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第35号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_26",
+			"fetchedAt": "2026-09-28T10:48:49.555Z"
+		}
+	],
+	"name": "特別区への交付金の算定基準を変更",
+	"category": "行政のしくみ",
+	"summary": "特別区への財政調整交付金は、経費の種類ごとに定められた基準で算定します。この議案は、その基準を改めます。令和8年4月1日から施行します。",
+	"changes": [
+		"経常的経費の算定に使う単位費用を改める",
+		"投資的経費の算定に使う単位費用を改める"
+	],
+	"who": [],
+	"why": "都と特別区の間や特別区同士で財源の均衡を図り、特別区が自主的・計画的に行政を運営できるようにするためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:07:20.099Z",
+		"inputTokens": 2597,
+		"outputTokens": 711,
+		"reasoningTokens": 516
+	}
+}

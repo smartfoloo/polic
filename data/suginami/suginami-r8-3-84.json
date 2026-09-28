@@ -1,0 +1,51 @@
+{
+	"id": "suginami-r8-3-84",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第84号",
+	"official": "杉並区立児童青少年センター及び児童館条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "保健福祉委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/28862.html",
+			"fetchedAt": "2026-09-28T10:57:09.664Z"
+		},
+		{
+			"label": "議案第84号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/28566/g84.pdf",
+			"fetchedAt": "2026-09-28T10:57:39.520Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/28566/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:57:21.379Z"
+		}
+	],
+	"name": "学童クラブの利用料を月5,800円に",
+	"category": "子育て",
+	"summary": "現在、学童クラブの利用料は児童1人につき月4,000円で、おやつ代は各クラブが別に保護者から集めています。この議案では、おやつ代を利用料として集め、令和9年4月分から利用料を月5,800円に変えます。",
+	"changes": [
+		"学童クラブの利用料を月4,000円から5,800円に上げる",
+		"おやつ代を利用料として集める"
+	],
+	"who": [
+		"学童クラブを利用する児童の保護者"
+	],
+	"why": "おやつ代を区の会計で管理して保護者の利便性と会計の透明性を高め、おやつ代を利用料として集めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:04:57.259Z",
+		"inputTokens": 1736,
+		"outputTokens": 735,
+		"reasoningTokens": 516
+	}
+}

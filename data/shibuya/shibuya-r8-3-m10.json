@@ -1,0 +1,48 @@
+{
+	"id": "shibuya-r8-3-m10",
+	"assembly": "tokyo/shibuya",
+	"approved": false,
+	"number": "議員提出議案第10号",
+	"official": "渋谷区立学校等における学用品、標準服及び修学旅行費等を所得制限なく無償化する条例",
+	"by": "member",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-04",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案等",
+			"url": "https://shibukugi.tokyo/kaigi_oshirase/2023021400039/",
+			"fetchedAt": "2026-09-28T10:54:39.026Z"
+		},
+		{
+			"label": "議員提出議案第10号（PDF）",
+			"url": "https://shibukugi.tokyo/kaigi_oshirase/2023021400039/file_contents/20263_ggia_10.pdf",
+			"fetchedAt": "2026-09-28T10:55:09.112Z"
+		}
+	],
+	"name": "学用品・標準服・修学旅行費を無償に",
+	"category": "教育",
+	"summary": "区立の小学校・中学校・特別支援学校に在籍する区内の児童生徒が対象の議案です。学用品と標準服を給付し、修学旅行や移動教室などの費用を、保護者の所得にかかわらず支給します。令和9年4月1日から施行します。",
+	"changes": [
+		"学校が選ぶ教材などの学用品と、指定された標準服を給付する",
+		"修学旅行や移動教室などへの参加に直接かかる費用を支給する",
+		"保護者の所得による制限を設けない",
+		"短期間だけ在籍することが事前に明らかな場合は対象から外す"
+	],
+	"who": [
+		"区立の小学校・中学校・特別支援学校に在籍する区内の児童生徒とその保護者"
+	],
+	"why": "保護者の経済的負担を減らし、教育を受ける機会を等しくして教育を充実させるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T10:59:39.503Z",
+		"inputTokens": 2156,
+		"outputTokens": 1318,
+		"reasoningTokens": 1034
+	}
+}

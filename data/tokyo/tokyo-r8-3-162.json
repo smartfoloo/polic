@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-3-162",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第162号議案",
+	"official": "東京都都市整備局関係手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "都市整備委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-09-28T10:53:20.876Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
+			"fetchedAt": "2026-09-28T10:53:27.176Z"
+		},
+		{
+			"label": "第162号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_04",
+			"fetchedAt": "2026-09-28T10:53:50.403Z"
+		}
+	],
+	"name": "特定地区の建築制限除外申請に手数料",
+	"category": "税・手数料",
+	"summary": "現在、特定業務施設等誘導地区で建築物の制限を適用しないための許可申請について、都の条例に手数料の規定はありません。この議案では、容積率と建築面積に関する申請、高さに関する申請の手数料を、それぞれ16万円にします。関連する法律の施行日と、この条例の公布日のうち、遅い日から適用します。",
+	"changes": [
+		"容積率と建築面積の制限を適用しないための許可申請手数料を16万円にする",
+		"高さの制限を適用しないための許可申請手数料を16万円にする"
+	],
+	"who": [
+		"特定業務施設等誘導地区で、建築物の制限を適用しない許可を申請する人や事業者"
+	],
+	"why": "建築基準法の改正に伴い、これらの許可申請手数料を定める必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:22:52.178Z",
+		"inputTokens": 1764,
+		"outputTokens": 799,
+		"reasoningTokens": 516
+	}
+}

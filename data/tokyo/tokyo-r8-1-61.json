@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-61",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第61号議案",
+	"official": "東京都都市整備局関係手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第61号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_12",
+			"fetchedAt": "2026-09-28T10:47:25.680Z"
+		}
+	],
+	"name": "マンションの特例許可申請手数料の規定を変更",
+	"category": "税・手数料",
+	"summary": "現在は、マンションの建替えに伴う容積率の特例許可申請について、手数料が定められています。この議案では、手数料の名称にマンションの更新や建物の高さに関する特例を加え、引用する法律名と条文番号も改めます。2026年4月1日から施行します。",
+	"changes": [
+		"手数料の名称にマンションの更新を加える",
+		"容積率に加え、建物の各部分の高さに関する特例を規定に加える",
+		"引用する法律名と条文番号を改める"
+	],
+	"who": [
+		"マンションの建替えや更新に伴い、特例許可を申請する人・事業者"
+	],
+	"why": "マンションに関する法律の改正に合わせ、手数料の規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:13:09.554Z",
+		"inputTokens": 1622,
+		"outputTokens": 1281,
+		"reasoningTokens": 1034
+	}
+}

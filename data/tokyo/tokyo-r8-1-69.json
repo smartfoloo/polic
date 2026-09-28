@@ -1,0 +1,52 @@
+{
+	"id": "tokyo-r8-1-69",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第69号議案",
+	"official": "東京都児童相談所条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第69号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_20",
+			"fetchedAt": "2026-09-28T10:48:13.570Z"
+		}
+	],
+	"name": "児童相談所の記載を品川から大田に変更",
+	"category": "子育て",
+	"summary": "現在、条例の一覧には東京都品川児童相談所が載っています。この議案では、その欄を東京都大田児童相談所に改め、所在地を東京都大田区大森西2丁目3番22号、担当区域を大田区とします。施行日は令和8年8月1日です。",
+	"changes": [
+		"条例の一覧で東京都品川児童相談所の欄を東京都大田児童相談所に改める",
+		"所在地を東京都大田区大森西2丁目3番22号と記載する",
+		"担当区域を大田区と記載する"
+	],
+	"who": [
+		"大田区の住民"
+	],
+	"why": "東京都大田児童相談所の設置に合わせて条例の規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:15:00.966Z",
+		"inputTokens": 1216,
+		"outputTokens": 1063,
+		"reasoningTokens": 849
+	}
+}

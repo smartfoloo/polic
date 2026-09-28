@@ -1,0 +1,53 @@
+{
+	"id": "tokyo-r8-3-164",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第164号議案",
+	"official": "東京都児童福祉施設の設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "厚生委員会",
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-09-28T10:53:20.876Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
+			"fetchedAt": "2026-09-28T10:53:27.176Z"
+		},
+		{
+			"label": "第164号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_05",
+			"fetchedAt": "2026-09-28T10:53:56.695Z"
+		}
+	],
+	"name": "一部の児童福祉施設に性暴力防止策を義務付け",
+	"category": "福祉",
+	"summary": "現在の条例には、児童への性暴力の防止に関する今回の規定はありません。この議案では、対象となる児童福祉施設の設置者に、児童と接する従事者の犯罪事実の確認などを義務付けます。施行日は2026年12月25日です。",
+	"changes": [
+		"対象施設の設置者に、児童への性暴力の防止と、被害を受けた児童の保護に必要な措置を義務付ける",
+		"支配性・継続性・閉鎖性のある環境で児童に接する従事者について、犯罪事実の確認を義務付ける"
+	],
+	"who": [
+		"対象となる児童福祉施設の設置者",
+		"対象施設で、規定に該当する環境で児童に接する従事者",
+		"対象施設を利用する児童"
+	],
+	"why": "関係する法律の施行に伴って児童福祉法などが改正され、児童への性暴力の防止などについて規定を設ける必要があるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:23:22.087Z",
+		"inputTokens": 1749,
+		"outputTokens": 1345,
+		"reasoningTokens": 1034
+	}
+}

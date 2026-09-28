@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-1-50",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第50号議案",
+	"official": "東京都高等学校等教育改革促進基金条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第50号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_11",
+			"fetchedAt": "2026-09-28T10:47:19.532Z"
+		}
+	],
+	"name": "都立高校などの教育改革基金を新設",
+	"category": "教育",
+	"summary": "都立の高校などの教育改革に使う基金を新たに設けます。積立額は予算で決め、運用で得た収益も基金に入れます。条例は公布の日から施行し、令和11年3月31日で効力を失います。",
+	"changes": [
+		"教育改革に使う基金を設ける",
+		"積立額を予算で定める",
+		"運用で得た収益を基金に入れる",
+		"条例の失効時に基金の残額があれば国に納める"
+	],
+	"who": [],
+	"why": "都立の高校などで教育改革を進めるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:10:43.394Z",
+		"inputTokens": 1693,
+		"outputTokens": 1180,
+		"reasoningTokens": 996
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"id": "tokyo-r8-1-62",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第62号議案",
+	"official": "高齢者、障害者等が利用しやすい建築物の整備に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第62号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_14",
+			"fetchedAt": "2026-09-28T10:47:37.928Z"
+		}
+	],
+	"name": "劇場などの車椅子用スペースに基準",
+	"category": "まちづくり",
+	"summary": "現在の条例には、劇場などの客席について、今回の車椅子用スペースの基準はありません。この議案では、階ごとの設置数や同伴者用スペース、配置の決まりを加えます。令和8年10月1日から施行し、それ以降に着手する建築などに適用します。",
+	"changes": [
+		"車椅子使用者用部分を各階に2以上、267席以上の階では座席数の0.75%以上設ける",
+		"車椅子使用者用部分ごとに、横に同伴者用スペースを1以上設ける",
+		"車椅子使用者用部分を2以上、横に並べる",
+		"400席を超える階では左右に、1,000席を超える階では前後と左右に分散する"
+	],
+	"who": [
+		"劇場などで車椅子を使う人",
+		"車椅子を使う人の同伴者",
+		"劇場などを建てる事業者"
+	],
+	"why": "劇場などで多くの人が使いやすい客席を整備するためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:13:29.157Z",
+		"inputTokens": 2520,
+		"outputTokens": 1335,
+		"reasoningTokens": 1034
+	}
+}

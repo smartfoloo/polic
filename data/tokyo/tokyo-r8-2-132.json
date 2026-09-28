@@ -1,0 +1,51 @@
+{
+	"id": "tokyo-r8-2-132",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第132号議案",
+	"official": "東京都消防関係手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "警察・消防委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-2.html",
+			"fetchedAt": "2026-09-28T10:52:26.188Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026060209",
+			"fetchedAt": "2026-09-28T10:52:27.046Z"
+		},
+		{
+			"label": "第132号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260602_10_04a",
+			"fetchedAt": "2026-09-28T10:52:50.359Z"
+		}
+	],
+	"name": "消防関係の手数料を引き上げ",
+	"category": "税・手数料",
+	"summary": "感震装置の型式試験の手数料は、現在37,000円です。この議案では46,300円に上げ、ほかの消防関係の手数料も引き上げます。変更は公布の日からです。",
+	"changes": [
+		"感震装置の型式試験の手数料を37,000円から46,300円に上げる",
+		"ほかの手数料を15,300円から20,600円、8,300円から11,800円に上げる"
+	],
+	"who": [
+		"感震装置の型式試験の手数料を支払う人や事業者"
+	],
+	"why": "サービスを受ける人の負担を適正にするためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:22:39.947Z",
+		"inputTokens": 1255,
+		"outputTokens": 724,
+		"reasoningTokens": 516
+	}
+}

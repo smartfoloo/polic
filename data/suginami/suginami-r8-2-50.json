@@ -1,0 +1,55 @@
+{
+	"id": "suginami-r8-2-50",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第50号",
+	"official": "杉並区家庭的保育事業等の設備及び運営の基準に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第50号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g50.pdf",
+			"fetchedAt": "2026-09-28T10:56:57.513Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "小規模保育の基準と性暴力防止策を改める",
+	"category": "子育て",
+	"summary": "現在、区は家庭的保育や小規模保育などの基準を条例で定めています。この議案では、満3歳以上だけを受け入れる小規模保育の基準を加え、保育士の人数の数え方を変えます。また、家庭的保育などと乳児等通園支援で、子どもへの性暴力を防ぐための犯罪事実確認などを義務付けます。",
+	"changes": [
+		"満3歳以上限定の小規模保育をA型に限り、利用定員などの基準を定める",
+		"理学療法士などを1人まで保育士の人数に含められるようにする",
+		"一定の条件下で保育士を1人とし、同等の知識と経験を持つ人を加えて配置できるようにする",
+		"子どもへの性暴力の防止と被害時の保護のため、犯罪事実確認などを義務付ける"
+	],
+	"who": [
+		"満3歳以上の子どもを小規模保育に預ける家庭",
+		"家庭的保育や乳児等通園支援を利用する子どもと保護者",
+		"小規模保育などを運営する事業者"
+	],
+	"why": "児童福祉法の改正や、専門的な支援と子どもへの性暴力防止に関する国の基準変更に合わせるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:03:54.793Z",
+		"inputTokens": 31463,
+		"outputTokens": 1932,
+		"reasoningTokens": 1552
+	}
+}

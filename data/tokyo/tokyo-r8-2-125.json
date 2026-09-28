@@ -1,0 +1,50 @@
+{
+	"id": "tokyo-r8-2-125",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第125号議案",
+	"official": "都及び特別区並びに特別区相互間の財政調整に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-2.html",
+			"fetchedAt": "2026-09-28T10:52:26.188Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026060209",
+			"fetchedAt": "2026-09-28T10:52:27.046Z"
+		},
+		{
+			"label": "第125号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260602_10_06a",
+			"fetchedAt": "2026-09-28T10:53:02.366Z"
+		}
+	],
+	"name": "特別区への交付金の計算方法を変更",
+	"category": "行政のしくみ",
+	"summary": "特別区への財政調整交付金の計算には、軽自動車税の環境性能割と環境性能割交付金に関する規定があります。この議案では、その規定を削り、軽自動車税の計算上の扱いを改めます。公布の日に施行し、令和8年度から適用します。",
+	"changes": [
+		"軽自動車税の環境性能割と環境性能割交付金に関する規定を削る",
+		"軽自動車税の額を前3年度の課税額に基づいて計算する",
+		"東京都規則に基づいて額を計算する経過措置を設ける"
+	],
+	"who": [],
+	"why": "地方税法などの改正に合わせて規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:20:32.021Z",
+		"inputTokens": 1976,
+		"outputTokens": 1777,
+		"reasoningTokens": 1552
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"id": "tokyo-r8-1-45",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第45号議案",
+	"official": "東京都宿泊税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "財政委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第45号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_04",
+			"fetchedAt": "2026-09-28T10:46:37.532Z"
+		}
+	],
+	"name": "宿泊税を宿泊料金の3％に変更",
+	"category": "税・手数料",
+	"summary": "現在の宿泊税は、1人1泊10,000円以上の宿泊にかかり、税額は100円か200円です。この議案では、簡易宿所と民泊の利用者も対象に加えます。税がかからない基準を13,000円未満に引き上げ、税額を宿泊料金の3％に変更します。",
+	"changes": [
+		"課税対象に簡易宿所と民泊の利用者を加える",
+		"課税免除の基準を1人1泊10,000円未満から13,000円未満に変える",
+		"税額を宿泊料金の3％に変え、税収の使い道を都の観光計画に基づく施策と明確にする",
+		"3か月ごとの申告の条件を緩め、帳簿・書類の保存期間を7年に延ばす"
+	],
+	"who": [
+		"都内で1人1泊10,000円以上の宿泊をする人",
+		"宿泊税を徴収する宿泊施設の事業者"
+	],
+	"why": "宿泊税を取り巻く環境の変化を踏まえ、観光振興を財政面から支えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:09:46.870Z",
+		"inputTokens": 3898,
+		"outputTokens": 1355,
+		"reasoningTokens": 1034
+	}
+}

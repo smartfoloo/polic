@@ -1,0 +1,48 @@
+{
+	"id": "tokyo-r8-1-58",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "第58号議案",
+	"official": "学校職員の特殊勤務手当に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+			"fetchedAt": "2026-09-28T10:09:14.547Z"
+		},
+		{
+			"label": "条例案概要（東京都）",
+			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021019",
+			"fetchedAt": "2026-09-28T10:09:21.581Z"
+		},
+		{
+			"label": "第58号議案（PDF）",
+			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260210_15_59",
+			"fetchedAt": "2026-09-28T10:52:07.653Z"
+		}
+	],
+	"name": "学校職員の手当の規定に主務教諭を追加",
+	"category": "教育",
+	"summary": "現在、学校職員の特殊勤務手当に関する規定には、指導教諭が記されています。この議案では、同じ規定に主務教諭を加えます。施行日は2026年4月1日です。",
+	"changes": [
+		"特殊勤務手当の規定に主務教諭を加える"
+	],
+	"who": [],
+	"why": "学校教育法の改正などに合わせて規定を整えるためと、都は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:12:15.198Z",
+		"inputTokens": 1297,
+		"outputTokens": 660,
+		"reasoningTokens": 516
+	}
+}

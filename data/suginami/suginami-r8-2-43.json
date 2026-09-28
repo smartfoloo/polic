@@ -1,0 +1,53 @@
+{
+	"id": "suginami-r8-2-43",
+	"assembly": "tokyo/suginami",
+	"approved": false,
+	"number": "第43号",
+	"official": "杉並区小児慢性特定疾病審査会条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案・議決結果の一覧",
+			"url": "https://www.city.suginami.tokyo.jp/kugikai/s117/26635.html",
+			"fetchedAt": "2026-09-28T10:55:27.393Z"
+		},
+		{
+			"label": "議案第43号（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/g43.pdf",
+			"fetchedAt": "2026-09-28T10:56:15.361Z"
+		},
+		{
+			"label": "議案説明資料（PDF）",
+			"url": "https://www.city.suginami.tokyo.jp/documents/26621/setumei.pdf",
+			"fetchedAt": "2026-09-28T10:55:39.490Z"
+		}
+	],
+	"name": "小児慢性特定疾病の審査会のルールを定める",
+	"category": "健康・医療",
+	"summary": "小児慢性特定疾病の医療費の支給を認定しないときは、審査会に審査を求める決まりがあります。この議案では、杉並区に置く審査会の委員数や会議のルール、報酬を定めます。2026年11月1日から施行します。",
+	"changes": [
+		"審査会を委員6人以内で構成する",
+		"会議を非公開とし、委員の半数以上の出席で開く",
+		"委員に退任後も職務上の秘密を守る義務を課す",
+		"会長の報酬を日額21,000円、委員の報酬を日額18,500円とする"
+	],
+	"who": [
+		"小児慢性特定疾病の医療費を申請し、支給が認定されない見込みの人"
+	],
+	"why": "杉並区が児童相談所設置市に指定され、区の審査会について定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-sol",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-28T11:01:21.705Z",
+		"inputTokens": 2419,
+		"outputTokens": 1836,
+		"reasoningTokens": 1548
+	}
+}
