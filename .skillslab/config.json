@@ -1,0 +1,24 @@
+{
+  "project": "togikai-board",
+  "createdAt": "2026-09-15",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "id": "design-taste-frontend",
+      "label": "Taste",
+      "skill": "design-taste-frontend"
+    },
+    {
+      "id": "hallmark",
+      "label": "Hallmark",
+      "skill": "hallmark"
+    },
+    {
+      "id": "none",
+      "label": "No skill",
+      "skill": null
+    }
+  ],
+  "directions": 1,
+  "subagents": true
+}

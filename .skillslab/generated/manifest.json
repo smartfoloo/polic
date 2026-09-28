@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "slug": "2026-09-26-gikai-board-website",
+      "title": "ぎかいボード — full website",
+      "prompt": "build the website with ur structure",
+      "createdAt": "2026-09-26",
+      "status": "done",
+      "skills": [
+        {
+          "id": "none",
+          "label": "No skill"
+        }
+      ],
+      "directions": [
+        {
+          "id": "direction-a",
+          "name": "Gikai Board Website",
+          "summary": "build the website with ur structure"
+        }
+      ]
+    },
+    {
+      "slug": "2026-09-15-togikai-board",
+      "title": "Togikai Board — homepage prototype",
+      "prompt": "scaffold a prototype of the UI of the board",
+      "createdAt": "2026-09-15",
+      "status": "done",
+      "skills": [
+        {
+          "id": "none",
+          "label": "No skill"
+        }
+      ],
+      "directions": [
+        {
+          "id": "direction-a",
+          "name": "Togikai Board Prototype",
+          "summary": "scaffold a prototype of the UI of the board"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1241 @@
+<title>都議会ボード</title>
+<style>
+  :root {
+    --color-background: #ffffff;
+    --color-surface: #ffffff;
+    --color-text: #23201a;
+    --color-text-muted: #837a68;
+    --color-primary: #1f6f54;
+    --color-secondary: #b3542c;
+    --color-border: #eae5da;
+    --color-board: #ffffff;
+    --color-board-dark: #f3efe4;
+    --color-hover: #ececea;
+    --color-accent-soft: #eaf2ec;
+    --color-pin: #c33f3f;
+    --color-pending: #8a8272;
+    --color-active: #b3542c;
+    --color-passed: #1f6f54;
+    --color-rejected: #9a4a3a;
+
+    --font-heading: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    min-height: 100vh;
+    padding-bottom: 64px;
+    background-color: var(--color-board);
+    background-image: radial-gradient(rgba(35,32,26,0.06) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  a { color: inherit; }
+
+  /* ---------- header ---------- */
+
+  header.site {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .header-inner {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    background: var(--color-pin);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transform: rotate(-6deg);
+  }
+
+  .brand-mark svg { width: 16px; height: 16px; }
+
+  .brand-name {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--color-text);
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+  }
+
+  .brand-sub {
+    font-size: 11px;
+    color: var(--color-text-muted);
+    margin-top: 1px;
+  }
+
+  .filter-row {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    max-width: 55%;
+  }
+  .filter-row::-webkit-scrollbar { display: none; }
+
+  .filter-chip {
+    flex-shrink: 0;
+    font-size: 12px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--color-border);
+    background: transparent;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .filter-chip:hover {
+    border-color: var(--color-text);
+    color: var(--color-text);
+  }
+
+  .filter-chip.active {
+    background: var(--color-text);
+    border-color: var(--color-text);
+    color: #ffffff;
+  }
+
+  /* ---------- board ---------- */
+
+  .board-wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 34px 24px 0;
+  }
+
+  .board-title {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    margin: 0 0 28px;
+    text-transform: uppercase;
+  }
+
+  /* ---------- session status banner ---------- */
+
+  .session-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 720px;
+    margin: 0 auto 26px;
+    padding: 24px 28px;
+    border-radius: 18px;
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+  }
+
+  .session-banner-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .session-banner.is-open {
+    border-color: var(--color-primary);
+    background: var(--color-accent-soft);
+  }
+
+  .session-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: var(--color-pending);
+  }
+
+  .session-banner.is-open .session-dot {
+    background: var(--color-primary);
+  }
+
+  .session-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .session-headline {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 17px;
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  .session-sub {
+    font-size: 13.5px;
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .session-live-link {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 13.5px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 999px;
+    white-space: nowrap;
+    background: var(--color-primary);
+    color: #ffffff;
+    transition: opacity 0.15s ease;
+  }
+
+  .session-live-link:hover { opacity: 0.85; }
+
+  .session-live-link.is-closed {
+    background: var(--color-background);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+  }
+
+  .board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 26px 18px;
+    justify-items: center;
+  }
+
+  /* ---------- card ---------- */
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 176px;
+    padding: 12px;
+    border-radius: 18px;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(16px) rotate(0deg) scale(0.94);
+    transition: transform 0.1s cubic-bezier(0.2, 0.7, 0.3, 1), background 0.3s ease;
+    font-family: var(--font-heading);
+  }
+
+  .card.revealed {
+    animation: pin-drop 0.1s cubic-bezier(0.2, 0.7, 0.3, 1) forwards;
+  }
+
+  @keyframes pin-drop {
+    to { opacity: 1; transform: translateY(0) rotate(var(--tilt)) scale(1); }
+  }
+
+  .card:hover,
+  .card:focus-visible {
+    background: var(--color-hover);
+  }
+
+  /* the paper itself */
+
+  .paper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    box-shadow:
+      0 2px 3px rgba(35,32,26,0.06),
+      0 10px 18px -10px rgba(35,32,26,0.18);
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 27px,
+      rgba(35,32,26,0.035) 28px
+    );
+    transition: 0.1s ease;
+  }
+
+  .paper-badges {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .paper-official {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 0 12px;
+    margin: 0;
+    font-size: 9.5px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    text-align: left;
+    letter-spacing: 0.01em;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+  }
+
+  .fire {
+    font-size: 17px;
+    line-height: 1;
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.25));
+    animation: flicker 1.8s ease-in-out infinite;
+    transform-origin: 60% 90%;
+  }
+
+  @keyframes flicker {
+    0%, 100% { transform: rotate(-4deg) scale(1); }
+    50% { transform: rotate(4deg) scale(1.08); }
+  }
+
+  .bill-name {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.45;
+    color: var(--color-text);
+    margin: 10px 0 0;
+    text-align: center;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+  }
+
+  .status-pill {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 999px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+
+  .status-pill.pending { background: #eae5d6; color: var(--color-pending); }
+  .status-pill.active { background: #f7e3d6; color: var(--color-active); }
+  .status-pill.passed { background: #dcecE3; color: var(--color-passed); }
+  .status-pill.rejected { background: #f3dcd7; color: var(--color-rejected); }
+
+  /* ---------- detail modal ---------- */
+
+  .scrim {
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 17, 12, 0.55);
+    backdrop-filter: blur(3px);
+    z-index: 50;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .scrim.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .modal {
+    background: var(--color-surface);
+    border-radius: 18px;
+    max-width: 600px;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    padding: 30px 32px 26px;
+    transform: translateY(18px) scale(0.97) rotate(-1deg);
+    transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.3, 1);
+    box-shadow: 0 30px 60px -20px rgba(0,0,0,0.5);
+  }
+
+  .scrim.open .modal {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+
+  .modal-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .modal-name {
+    font-family: var(--font-heading);
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .modal-official {
+    font-size: 12px;
+    color: var(--color-text-muted);
+    margin: 4px 0 0;
+    line-height: 1.6;
+  }
+
+  .modal-close {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color-border);
+    color: var(--color-text-muted);
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .modal-close:hover { background: #dcd4bd; }
+
+  /* every modal text element shares one size (14px) except .modal-name and .modal-official */
+  .modal-status-row,
+  .modal-meta-row,
+  .modal-summary,
+  .modal-section-title,
+  .modal-change-item,
+  .modal-impact-body,
+  .modal-stage,
+  .modal-live-link,
+  .modal-toggle,
+  .modal-sources-inner,
+  .modal .status-pill {
+    font-size: 14px;
+  }
+
+  .modal-status-row {
+    margin: 16px 0 14px;
+  }
+
+  .modal-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    color: var(--color-text-muted);
+    margin: 0 0 18px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .progress-steps {
+    display: flex;
+    align-items: flex-start;
+    margin: 4px 0 12px;
+  }
+
+  .progress-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .progress-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-border);
+    flex-shrink: 0;
+  }
+
+  .progress-step.done .progress-dot {
+    background: var(--color-primary);
+  }
+
+  .progress-step.current .progress-dot {
+    box-shadow: 0 0 0 3px var(--color-accent-soft);
+  }
+
+  .progress-step.rejected .progress-dot {
+    background: var(--color-rejected);
+  }
+
+  .progress-label {
+    font-size: 10px;
+    color: var(--color-text-muted);
+    line-height: 1.3;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .progress-step.done .progress-label {
+    color: var(--color-text);
+    font-weight: 700;
+  }
+
+  .progress-step.rejected .progress-label {
+    color: var(--color-rejected);
+  }
+
+  .progress-line {
+    flex: 1 1 auto;
+    height: 2px;
+    background: var(--color-border);
+    margin-top: 4px;
+  }
+
+  .progress-line.done {
+    background: var(--color-primary);
+  }
+
+  .modal-summary {
+    line-height: 1.8;
+    color: var(--color-text);
+    margin: 0 0 28px;
+  }
+
+  .modal-section {
+    margin: 0 0 28px;
+    padding-top: 24px;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .modal-section.modal-impact {
+    border-top: none;
+  }
+
+  .modal-section-title {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    color: var(--color-text);
+    margin: 0 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .modal-change-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .modal-change-item {
+    position: relative;
+    margin: 0;
+    padding-left: 14px;
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+
+  .modal-change-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.65em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--color-primary);
+  }
+
+  .modal-impact {
+    background: var(--color-accent-soft);
+    border-radius: 12px;
+    padding: 16px 16px;
+  }
+
+  .modal-impact .modal-section-title {
+    color: var(--color-primary);
+  }
+
+  .modal-impact-body {
+    line-height: 1.75;
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  .modal-stage {
+    color: var(--color-text-muted);
+    display: flex;
+    gap: 6px;
+    margin: 0 0 10px;
+  }
+
+  .modal-live-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--color-primary);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .modal-live-link:hover { text-decoration: underline; }
+
+  .modal-toggle {
+    font-family: var(--font-body);
+    color: var(--color-text-muted);
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 7px 11px;
+    cursor: pointer;
+  }
+  .modal-toggle:hover { border-color: var(--color-primary); color: var(--color-primary); }
+
+  .modal-sources {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .modal-sources-inner {
+    padding-top: 12px;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+  }
+  .modal-sources-inner dt { font-weight: 700; color: var(--color-text); margin-top: 8px; }
+  .modal-sources-inner dt:first-child { margin-top: 0; }
+  .modal-sources-inner dd { margin: 0 0 2px; }
+
+  /* ---------- newsletter signup ---------- */
+
+  .newsletter {
+    max-width: 1080px;
+    margin: 56px auto 0;
+    padding: 0 24px;
+  }
+
+  .newsletter-inner {
+    max-width: 460px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 26px 24px;
+    border-radius: 18px;
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+  }
+
+  .newsletter-title {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 15px;
+    color: var(--color-text);
+    margin: 0 0 6px;
+  }
+
+  .newsletter-sub {
+    font-size: 12.5px;
+    color: var(--color-text-muted);
+    margin: 0 0 16px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: 8px;
+  }
+
+  .newsletter-input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+    background: var(--color-background);
+    color: var(--color-text);
+    font-size: 13px;
+    font-family: var(--font-body);
+  }
+  .newsletter-input:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 1px;
+    border-color: var(--color-primary);
+  }
+
+  .newsletter-submit {
+    flex-shrink: 0;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    background: var(--color-primary);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+  }
+  .newsletter-submit:hover { opacity: 0.85; }
+
+  .newsletter-success {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 14px 0 0;
+  }
+  .newsletter-success.show { display: flex; }
+
+  @media (max-width: 480px) {
+    .newsletter-form { flex-direction: column; }
+  }
+
+  /* ---------- footer ---------- */
+
+  footer.site {
+    max-width: 1080px;
+    margin: 40px auto 0;
+    padding: 20px 24px 0;
+    text-align: center;
+  }
+
+  .footer-note {
+    font-size: 11px;
+    color: var(--color-text-muted);
+  }
+
+  /* ---------- responsive ---------- */
+
+  @media (max-width: 480px) {
+    .brand-sub { display: none; }
+    .filter-row { max-width: 48%; }
+    .board-wrap { padding: 24px 16px 0; }
+    .board { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 26px 14px; }
+    .card { max-width: 155px; padding: 18px 10px 14px; }
+    .bill-name { font-size: 13px; }
+  }
+</style>
+
+<header class="site">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 20V10L12 5L20 10V20" stroke="white" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M9 20V13H15V20" stroke="white" stroke-width="1.8" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brand-name">都議会ボード</div>
+        <div class="brand-sub">今、話し合われている議案を貼り出す掲示板</div>
+      </div>
+    </div>
+    <div class="filter-row" id="filterRow">
+      <button class="filter-chip active" data-filter="all">すべて</button>
+      <button class="filter-chip" data-filter="住宅">住宅</button>
+      <button class="filter-chip" data-filter="交通">交通</button>
+      <button class="filter-chip" data-filter="子育て">子育て</button>
+      <button class="filter-chip" data-filter="防災">防災</button>
+      <button class="filter-chip" data-filter="デジタル">デジタル</button>
+      <button class="filter-chip" data-filter="福祉">福祉</button>
+      <button class="filter-chip" data-filter="環境">環境</button>
+    </div>
+  </div>
+</header>
+
+<div class="board-wrap">
+  <div class="session-banner" id="sessionBanner"></div>
+  <p class="board-title">議案ボード — タップで詳しく</p>
+  <main class="board" id="board"></main>
+</div>
+
+<section class="newsletter">
+  <div class="newsletter-inner">
+    <h3 class="newsletter-title">新しい議案や採決結果をメールで受け取る</h3>
+    <p class="newsletter-sub">週1回、気になる分野の動きだけをまとめてお届けします。</p>
+    <form class="newsletter-form" id="newsletterForm">
+      <input type="email" class="newsletter-input" id="newsletterEmail" placeholder="メールアドレス" required>
+      <button type="submit" class="newsletter-submit">登録する</button>
+    </form>
+    <p class="newsletter-success" id="newsletterSuccess">✓ 登録しました。次回の配信でお届けします。</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="footer-note">※本サイトはUIプロトタイプです。表示されている議案・数値はすべて架空のサンプルデータです。</div>
+</footer>
+
+<div class="scrim" id="scrim">
+  <div class="modal" id="modal"></div>
+</div>
+
+<script>
+  // isOpen: true → currently in session. isOpen: false → show the last session's
+  // open/close dates instead. Mock data for this prototype.
+  const SESSION = {
+    isOpen: true,
+    name: "第222回定例会",
+    opened: "2026年9月1日",
+    scheduledClose: "2026年9月26日",
+    lastSession: {
+      name: "第221回定例会",
+      opened: "2026年6月2日",
+      closed: "2026年6月27日"
+    }
+  };
+
+  function renderSessionBanner() {
+    const el = document.getElementById("sessionBanner");
+    if (SESSION.isOpen) {
+      el.classList.add("is-open");
+      el.innerHTML = `
+        <div class="session-banner-info">
+          <span class="session-dot"></span>
+          <div class="session-text">
+            <p class="session-headline">開会中 — ${SESSION.name}</p>
+            <p class="session-sub">${SESSION.opened} 〜 ${SESSION.scheduledClose}（予定）</p>
+          </div>
+        </div>
+        <a href="#" class="session-live-link" onclick="alert('プロトタイプ: 本会議の中継ページ（未実装）'); return false;">🎥 本会議の中継を見る</a>
+      `;
+    } else {
+      const last = SESSION.lastSession;
+      el.classList.remove("is-open");
+      el.innerHTML = `
+        <div class="session-banner-info">
+          <span class="session-dot"></span>
+          <div class="session-text">
+            <p class="session-headline">閉会中</p>
+            <p class="session-sub">前回：${last.name}（${last.opened} 〜 ${last.closed}）</p>
+          </div>
+        </div>
+        <a href="#" class="session-live-link is-closed" onclick="alert('プロトタイプ: 過去の中継アーカイブ（未実装）'); return false;">🎥 これまでの録画を見る</a>
+      `;
+    }
+  }
+
+  const BILLS = [
+    {
+      category: "住宅",
+      name: "都営住宅、子育て世帯の優先枠を3倍に",
+      officialName: "東京都営住宅条例の一部を改正する条例案",
+      status: "審議中",
+      trending: true,
+      party: "都民生活を守る会（仮）",
+      dateLabel: "提出日",
+      dateValue: "2026年7月14日",
+      committee: "住宅政策特別委員会",
+      detail: "現在、都営住宅への入居は抽選が中心で、子育て世帯が優先されるのは一部の枠のみです。この議案は、子どもがいる世帯向けの優先枠を今の3倍に増やし、待機期間を短くすることを目指しています。",
+      whatChanges: [
+        "子育て世帯向けの優先枠を今の3倍に増やす"
+      ],
+      impactYou: "都営住宅への入居を検討している子育て世帯であれば、当選しやすくなります。該当しない世帯への直接の影響はありません。",
+      stageNote: "住宅政策特別委員会での審議を経て、来月の本会議で採決される見込みです。",
+      sources: [
+        ["関連資料", "東京都住宅政策本部 資料No.14（架空）"]
+      ]
+    },
+    {
+      category: "交通",
+      name: "終電後も走る深夜バス、3路線を新設",
+      officialName: "東京都地域公共交通計画の変更に関する議案",
+      status: "提出済み",
+      trending: false,
+      party: "生活インフラ推進の会（仮）",
+      dateLabel: "提出日",
+      dateValue: "2026年9月2日",
+      committee: "都市整備委員会",
+      detail: "終電後に帰宅手段がなく困る医療・物流従事者などの声を受け、主要ターミナル駅から住宅地への深夜バス路線を試験的に新設する内容です。まずは3路線・週5日の運行から始める案になっています。",
+      whatChanges: [
+        "終電後の時間帯に、週5日限定で運行する"
+      ],
+      impactYou: "対象路線の沿線に住んでいて終電後に働くことがある人は、帰宅手段が増えます。対象外の地域に住んでいる場合、影響はありません。",
+      stageNote: "提出されたばかりで、まだ委員会での審議は始まっていません。",
+      sources: [
+        ["関連資料", "都市整備局 深夜交通実態調査（架空）"]
+      ]
+    },
+    {
+      category: "子育て",
+      name: "0〜2歳児の保育料、一律月5千円下げる",
+      officialName: "東京都保育料軽減事業に関する条例の一部を改正する条例案",
+      status: "審議中",
+      trending: true,
+      party: "子育て応援会派（仮）",
+      dateLabel: "提出日",
+      dateValue: "2026年6月28日",
+      committee: "厚生委員会",
+      detail: "現行の保育料は世帯年収によって細かく段階分けされていますが、この議案は制度をシンプルにし、すべての0〜2歳児の世帯で保育料を一律月5千円引き下げることを提案しています。財源は都の基金からの繰入を想定しています。",
+      whatChanges: [
+        "保育料を一律で月5千円引き下げる",
+        "財源は都の基金からの繰入とする"
+      ],
+      impactYou: "0〜2歳児を保育所に預けている世帯は、毎月の保育料負担が軽くなります。対象年齢の子どもがいない世帯には影響しません。",
+      stageNote: "先週、所管委員会で修正案が出され、当初案から対象年齢が絞り込まれました。",
+      sources: [
+        ["関連資料", "福祉保健局 保育料算定基準の見直し（架空）"]
+      ]
+    },
+    {
+      category: "防災",
+      name: "木密地域の建て替え補助を250万円に拡大",
+      officialName: "木造住宅密集地域整備促進事業費補助に関する条例の一部を改正する条例案",
+      status: "成立",
+      trending: false,
+      party: "防災まちづくり議員連盟（仮）",
+      dateLabel: "可決日",
+      dateValue: "2026年8月20日",
+      committee: "防災都市づくり特別委員会",
+      detail: "地震の際に延焼リスクが高い木造住宅密集地域を対象に、建て替え・耐火改修にかかる費用の補助上限を現在の150万円から250万円に引き上げる内容です。対象エリアは都内23区の一部地域が指定されています。",
+      whatChanges: [
+        "建て替え・耐火改修の補助上限を250万円に引き上げる"
+      ],
+      stageNote: "本会議で可決・成立しました。来年度の予算に反映される予定です。",
+      sources: [
+        ["関連資料", "都市整備局 木密地域不燃化プロジェクト（架空）"]
+      ]
+    },
+    {
+      category: "デジタル",
+      name: "都税・申請をスマホアプリ1つに統合",
+      officialName: "東京都行政手続等における情報通信の技術の利用に関する条例の一部を改正する条例案",
+      status: "審議中",
+      trending: true,
+      party: "デジタル都政推進会派（仮）",
+      dateLabel: "提出日",
+      dateValue: "2026年7月30日",
+      committee: "デジタルサービス推進特別委員会",
+      detail: "現在は用途ごとに異なるサイトやアプリを使う必要がある都税の支払いや証明書申請を、一つの公式アプリに統合する計画です。マイナンバーカードと連携し、本人確認をアプリ内で完結させることを想定しています。",
+      whatChanges: [
+        "複数のサイトやアプリに分かれた手続きを1つに統合する",
+        "マイナンバーカードと連携し、本人確認をアプリ内で完結させる"
+      ],
+      impactYou: "都税の支払いや行政手続きをしたことがある人は、手続きが1つのアプリで完結するようになります。",
+      stageNote: "システム開発費の妥当性について、委員会で質疑が続いています。",
+      sources: [
+        ["関連資料", "デジタルサービス局 統合アプリ基本構想（架空）"]
+      ]
+    },
+    {
+      category: "福祉",
+      name: "高齢者ひとり暮らし、見守りセンサー無料化",
+      officialName: "高齢者見守り支援事業費補助に関する条例案",
+      status: "審議中",
+      trending: false,
+      party: "高齢者福祉ネットワーク（仮）",
+      dateLabel: "提出日",
+      dateValue: "2026年7月2日",
+      committee: "厚生委員会",
+      detail: "65歳以上のひとり暮らし世帯を対象に、異常な生活パターンを検知して家族や自治体に通知する見守りセンサーの設置費・月額利用料を都が全額負担する内容です。初年度は希望者のうち先着1万世帯が対象です。",
+      whatChanges: [
+        "見守りセンサーの設置費と月額利用料を都が全額負担する",
+        "異常な生活パターンを検知すると家族や自治体に自動で通知する"
+      ],
+      impactYou: "65歳以上でひとり暮らしをしている、またはそのような家族がいる場合、見守りサービスを無料で利用できる可能性があります。",
+      stageNote: "対象人数の上限をめぐって、委員会で意見が分かれています。",
+      sources: [
+        ["関連資料", "福祉保健局 高齢者見守り事業計画（架空）"]
+      ]
+    },
+    {
+      category: "環境",
+      name: "新築太陽光パネル、費用半額補助案",
+      officialName: "東京都太陽光発電設備等の設置に係る補助に関する条例案",
+      status: "否決",
+      trending: false,
+      party: "グリーン東京の会（仮）",
+      dateLabel: "採決日",
+      dateValue: "2026年5月16日",
+      committee: "環境・建設委員会",
+      detail: "新築の戸建て住宅に太陽光パネルを設置する場合の費用を、都が半額(上限50万円)補助する内容でした。財源規模と、義務化ではなく補助にとどめる制度設計への異論が多く出ていました。",
+      whatChanges: [
+        "設置費用の半額（上限50万円）を補助する計画だった",
+        "本会議の採決で賛成少数となり、否決された"
+      ],
+      stageNote: "本会議で採決の結果、賛成少数のため否決されました。",
+      sources: [
+        ["関連資料", "環境局 太陽光発電導入促進策（架空）"]
+      ]
+    },
+    {
+      category: "住宅",
+      name: "空き家をシェアハウス改修、費用の1/3補助",
+      officialName: "空家等活用促進事業費補助に関する条例案",
+      status: "提出済み",
+      trending: false,
+      party: "都民生活を守る会（仮）",
+      dateLabel: "提出日",
+      dateValue: "2026年9月8日",
+      committee: "住宅政策特別委員会",
+      detail: "都内で増え続ける空き家を、若年層向けの低価格シェアハウスとして再活用する事業者に対し、改修費用の3分の1（上限300万円）を補助する内容です。空き家対策と住宅費負担の軽減を同時に狙っています。",
+      whatChanges: [
+        "改修費用の3分の1（上限300万円）を補助する"
+      ],
+      stageNote: "提出直後で、審議はまだ始まっていません。",
+      sources: [
+        ["関連資料", "住宅政策本部 空き家活用ガイドライン（架空）"]
+      ]
+    },
+    {
+      category: "デジタル",
+      name: "都立図書館、電子書籍を無料開放",
+      officialName: "東京都立図書館条例の一部を改正する条例案",
+      status: "審議中",
+      trending: true,
+      party: "デジタル都政推進会派（仮）",
+      dateLabel: "提出日",
+      dateValue: "2026年8月5日",
+      committee: "文教委員会",
+      detail: "都立図書館の紙の蔵書に加え、主要な電子書籍を都民であれば誰でも無料で借りられるようにする内容です。対応端末を持たない世帯向けに、区役所窓口での端末貸出も併せて検討されています。",
+      whatChanges: [
+        "紙の本に加えて、主要な電子書籍も無料で借りられるようにする",
+        "対応端末がない人向けに、区役所窓口での貸出も検討する"
+      ],
+      impactYou: "都立図書館を利用する、または利用する予定がある都民であれば、電子書籍を無料で借りられるようになります。",
+      stageNote: "出版社側との利用条件の調整が続いています。",
+      sources: [
+        ["関連資料", "生活文化スポーツ局 電子図書館構想（架空）"]
+      ]
+    }
+  ];
+
+  const STATUS_META = {
+    "提出済み": { cls: "pending" },
+    "審議中":   { cls: "active" },
+    "成立":     { cls: "passed" },
+    "否決":     { cls: "rejected" }
+  };
+
+  // deterministic-ish tilt per index so re-renders don't jitter — kept subtle
+  function tiltFor(i) {
+    const seq = [-2, 1.5, -1, 2, -1.5, 1, -2, 1.5, -1, 2];
+    return seq[i % seq.length];
+  }
+
+  function renderCard(bill, index) {
+    const el = document.createElement("article");
+    el.className = "card";
+    el.dataset.category = bill.category;
+    el.tabIndex = 0;
+    el.setAttribute("role", "button");
+    el.setAttribute("aria-label", bill.name + "、詳しく見る");
+    const tilt = tiltFor(index) + "deg";
+    el.style.setProperty("--tilt", tilt);
+    el.style.transitionDelay = (index * 35) + "ms";
+
+    const meta = STATUS_META[bill.status] || STATUS_META["提出済み"];
+
+    el.innerHTML = `
+      <div class="paper">
+        <div class="paper-badges">
+          ${bill.trending ? '<span class="fire">🔥</span>' : ""}
+          <span class="status-pill ${meta.cls}">${bill.status}</span>
+        </div>
+        <p class="paper-official">${bill.officialName}</p>
+      </div>
+      <p class="bill-name">${bill.name}</p>
+    `;
+
+    el.addEventListener("click", () => openModal(bill));
+    el.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(bill); }
+    });
+
+    return el;
+  }
+
+  const boardEl = document.getElementById("board");
+
+  function renderBoard(filter) {
+    boardEl.innerHTML = "";
+    const list = filter === "all" ? BILLS : BILLS.filter(b => b.category === filter);
+    list.forEach((bill, i) => {
+      boardEl.appendChild(renderCard(bill, i));
+    });
+    observeCards();
+  }
+
+  function observeCards() {
+    const cards = document.querySelectorAll(".card:not(.revealed)");
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: "0px 0px -30px 0px" });
+    cards.forEach(c => io.observe(c));
+  }
+
+  document.getElementById("filterRow").addEventListener("click", (e) => {
+    const btn = e.target.closest(".filter-chip");
+    if (!btn) return;
+    document.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
+    btn.classList.add("active");
+    renderBoard(btn.dataset.filter);
+  });
+
+  // ---------- modal (progressive disclosure on click) ----------
+
+  const scrim = document.getElementById("scrim");
+  const modal = document.getElementById("modal");
+
+  function buildProgressSteps(status) {
+    const isRejected = status === "否決";
+    const labels = ["提出", "委員会付託", "委員会審議", "本会議", isRejected ? "否決" : "成立"];
+
+    let currentIndex = 0;
+    if (status === "提出済み") currentIndex = 0;
+    else if (status === "審議中") currentIndex = 2;
+    else currentIndex = 4; // 成立 or 否決
+
+    let html = '<div class="progress-steps">';
+    labels.forEach((label, i) => {
+      let cls = "progress-step";
+      if (i < currentIndex) cls += " done";
+      else if (i === currentIndex) cls += " done current";
+      if (i === 4 && i <= currentIndex && isRejected) cls += " rejected";
+
+      html += `<div class="${cls}"><span class="progress-dot"></span><span class="progress-label">${label}</span></div>`;
+      if (i < labels.length - 1) {
+        html += `<div class="progress-line${i < currentIndex ? " done" : ""}"></div>`;
+      }
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function openModal(bill) {
+    const meta = STATUS_META[bill.status] || STATUS_META["提出済み"];
+    const sourcesHtml = bill.sources.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("");
+
+    const changesHtml = (bill.whatChanges || []).map(line =>
+      `<p class="modal-change-item">${line}</p>`
+    ).join("");
+
+    const impactHtml = bill.impactYou ? `
+      <section class="modal-section modal-impact">
+        <h3 class="modal-section-title">🙋 自分にどう関係する？</h3>
+        <p class="modal-impact-body">${bill.impactYou}</p>
+      </section>
+    ` : "";
+
+    const progressHtml = buildProgressSteps(bill.status);
+
+    modal.innerHTML = `
+      <div class="modal-top">
+        <div>
+          <p class="modal-name">${bill.name}</p>
+          <p class="modal-official">${bill.officialName}</p>
+        </div>
+        <button type="button" class="modal-close" aria-label="閉じる">✕</button>
+      </div>
+      <div class="modal-status-row">
+        <span class="status-pill ${meta.cls}">${bill.status}</span>
+        ${bill.trending ? '<span style="margin-left:8px;">🔥 話題</span>' : ""}
+      </div>
+      <div class="modal-meta-row">
+        <span class="modal-meta-item">🏛️ ${bill.party}</span>
+        <span class="modal-meta-item">🗓️ ${bill.dateValue}${bill.dateLabel.replace(/日$/, "")}</span>
+      </div>
+      <p class="modal-summary">${bill.detail}</p>
+      <section class="modal-section">
+        <h3 class="modal-section-title">📋 何が変わる？</h3>
+        <div class="modal-change-list">${changesHtml}</div>
+      </section>
+      ${impactHtml}
+      <section class="modal-section">
+        <h3 class="modal-section-title">📊 審議経過</h3>
+        ${progressHtml}
+        <p class="modal-stage">${bill.stageNote}</p>
+        <a href="#" class="modal-live-link" onclick="alert('プロトタイプ: ${bill.committee}の中継ページ（未実装）'); return false;">🎥 ${bill.committee}の中継を見る</a>
+      </section>
+      <button type="button" class="modal-toggle" id="modalSourceToggle">出典を見る</button>
+      <div class="modal-sources" id="modalSources">
+        <div class="modal-sources-inner">
+          <dl style="margin:0;">${sourcesHtml}</dl>
+        </div>
+      </div>
+    `;
+    scrim.classList.add("open");
+
+    modal.querySelector(".modal-close").addEventListener("click", closeModal);
+
+    const toggle = modal.querySelector("#modalSourceToggle");
+    const panel = modal.querySelector("#modalSources");
+    toggle.addEventListener("click", () => {
+      const isOpen = panel.style.maxHeight && panel.style.maxHeight !== "0px";
+      panel.style.maxHeight = isOpen ? "0px" : panel.scrollHeight + "px";
+      toggle.textContent = isOpen ? "出典を見る" : "閉じる";
+    });
+  }
+
+  function closeModal() {
+    scrim.classList.remove("open");
+  }
+
+  scrim.addEventListener("click", (e) => {
+    if (e.target === scrim) closeModal();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeModal();
+  });
+
+  renderSessionBanner();
+  renderBoard("all");
+
+  const newsletterForm = document.getElementById("newsletterForm");
+  const newsletterSuccess = document.getElementById("newsletterSuccess");
+  newsletterForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    newsletterForm.style.display = "none";
+    newsletterSuccess.classList.add("show");
+  });
+</script>

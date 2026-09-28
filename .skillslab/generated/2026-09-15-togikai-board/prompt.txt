@@ -1,0 +1,1 @@
+scaffold a prototype of the UI of the board

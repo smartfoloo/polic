@@ -1,0 +1,32 @@
+{
+	"name": "polic",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"collect": "node --env-file-if-exists=.env scripts/collect.js",
+		"draft": "node --env-file-if-exists=.env scripts/draft.js",
+		"translate": "node --env-file-if-exists=.env scripts/translate.js",
+		"update": "npm run collect && npm run draft && npm run translate"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/kit": "^2.63.0",
+		"@sveltejs/vite-plugin-svelte": "^7.1.2",
+		"@types/node": "^24.19.0",
+		"cheerio": "^1.2.0",
+		"openai": "^7.23.0",
+		"robots-parser": "^3.0.1",
+		"svelte": "^5.56.1",
+		"svelte-check": "^4.6.0",
+		"typescript": "^6.0.3",
+		"unpdf": "^1.8.1",
+		"vite": "^8.0.16"
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gikai-board",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8000",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        ".skillslab/generated/2026-09-26-gikai-board-website/direction-a/none"
+      ],
+      "port": 8000
+    }
+  ]
+}

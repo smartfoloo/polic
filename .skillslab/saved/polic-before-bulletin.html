@@ -1,0 +1,4473 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Polic — 地元の政策を、ふだんの言葉で</title>
+  <style>
+    /* Source Serif 4 (Google Fonts, OFL), subset to the logo letters only */
+    @font-face {
+      font-family: "Source Serif 4";
+      font-weight: 400;
+      font-display: swap;
+      src: url(data:font/woff2;base64,d09GMgABAAAAAAWsABAAAAAACrwAAAVSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGUYaFhuCLhx2BmA/U1RBVF4AXBEICoUEhCgLEgABNgIkAyAEIAWGLgcgGzEJyAQe+HfOPzdJsy5Bgnlmhqh2UphYB0Wsq0y87DnwXKT0if6JSOyfMVenr4tGcTRkatpu88P8Y+YJQoQKIZknvEH0ECKhZJ6iK2yee0hFJJWd64cA7G8uREFpbO7cQGr/Ad84qUM+9xip467AJKmo9IcLJCKw068W1hakkQG3x+eZmLwpjQApUZJqF3BQjVyqWVVKrPZpHnP7JpWEL2wozJ+ucCK9rCaKE0pFwhCpGuW+XgQ2ihdMZ5ROLoBerD+tb3VFCEuSTAsZz/g7mvUPGuXuAqK60LmOauRR32K3fme+t/UPnCBTqzCPS+Zh61JhpfKYyus8Nr0aDrYbpa5Ul2pLLwS5bnOTSWLDug2g27CuI24d5jErQ7h73NM/Po7skHaiIquZqKCI/8RZ2MAmTUsbczsiH7GdfJGRTVJU2abYpDkm0ikSyOG9uq6xvoenMPEoEf/fDfJPotFEXPmPqz6SrsA8U4B2D8Zv3rsaybPbf1D0w76h4YDwI0YCrnERQGIpiap6JSSxJ60gFoJZwinOAumx216Ej0pzC2DGQ3s8Cq2MSq2rVUwc9DPCOB5DFl/eaX1h3WNdZV1qXWxdaF5snhDQallE2wXMMwaKF1MifxSoOZ4KRnLLb0mWpSiKosYn2JarcRGqYRj6mD4cqY3qSqQtYqstUtFFn+5EuzI8JcTU1Fymftl7Qff3BYOhjM1CnwmHxdScpgl9JhQi+N572mahozmn5+bEVDisz7z8dMpFN2nTt6T2rrjkAW36vfcIhkL6zKOPpiXc9tZLuujTnWiXhsNCTF2T2iv6EjYQDIVStk/fIqZu1WduJniTLvp0J9ql4bCQe0VfwgYpGAqlfD7y1er2mXd/o+kdbfot/n+Mtx3XXF51zeXXVl1zedXYYNlg5dgVn1/BMmNIz/Lrxq1JYjRQtLrQK4aTepLEsLdwdVFAjCblZKaMlTeuzuzO6+h0OoeSD7TuzM5bV1KYu2msZNNrk8bJ6Zn8pldtLSoYandUj+8qLln+qmsHC2IMZ0Nsz/6f9kXn1paaW0uKzC0NxYWZP3p+C9tEmEXGDj1uu27MJtKBw8xeOT+z3YiaXbVPPrLXxCE61GWlid+kJH+TmPRRcspHLDJ26HHbdWM2kQ4c5ttdRtTson3ybTtMHKJD5W+9ZFth2XB3d9notuKSkm2FZUM9XWVj24oHVtyT5Wpuztp+94oVz2S5mpuydjyNqqKAAMgCfpOueQIBKEIdfdVj7Yiu/M0uy18CfJz7+A6AT+4+/3pr8f9P21fJYUBFAkCAElF2Dm3vsRZbi+2r8qCvXQri4LUrJYll4naWixiyVtW/sXoXrb87z0HjdlzCl3LJqI7ijl6RMr9X+4J45OQWLBXnuSWixMlumWZR61YoFprbxgA3uFVy2euKopD6bcLJMUr0k8xKcPuws9DtJ4JEZUCrcU+t+5Hr8DCBi0naCOBinBH66cPNCEMME6CYXHYToGeDFyAMNvEzwsEexslAd3A5OeTg74qPEZr4ySZMHicbDz6G8OIemulkPR724MNuN+txk+sHKZSZvIZ1uBliT7fbhY/e1+B5jodJTArJJpdcCqlg2CUDXTxM7u2p86Znk0cexVQEJmO4Cf6DuNmPW5mvLAoCiwQ35+nZaPYgVGCqyslcpOL01tFIPT1UhLbExRogbw4AqvEgb81FMr8XhNF1DOBhl+9FB/ATwM0EfidtTBolPnZv6HqcHIi2Wp6O3Leoz8bFxGyv+yfIYQWrMdnHCAGGDaFfZd7eiM2pAbO6unExoWOHmRxWm5lCduu2n/UG+cwB) format("woff2");
+    }
+
+    :root {
+      --color-background: #f4f4f4;
+      --color-surface: #ffffff;
+      --color-surface-alt: #ebebeb;
+      --color-text: #111111;
+      --color-text-muted: #5c5c5c;
+      --color-primary: #3b44b0;
+      --color-primary-strong: #2e358c;
+      --color-primary-soft: #e9eaf7;
+      --color-seat: #5b8def;
+      --color-secondary: #c8462a;
+      --color-secondary-soft: #fbeae4;
+      --color-border: #e0e0e0;
+      --color-border-strong: #c4c4c4;
+      --color-on-primary: #ffffff;
+      --color-status-pending: #555b66;
+      --color-status-pending-bg: #ececec;
+      --color-status-active: #9a5208;
+      --color-status-active-bg: #fbeedd;
+      --color-status-passed: #1b7148;
+      --color-status-passed-bg: #e1f2e8;
+      --color-status-rejected: #ad372b;
+      --color-status-rejected-bg: #f8e3df;
+      --color-highlight: #dcdcdc;
+      --color-hover: #f0f0f0;
+      --color-paper-rule: rgba(0, 0, 0, 0.035);
+      --color-shadow: rgba(0, 0, 0, 0.07);
+      --color-shadow-strong: rgba(0, 0, 0, 0.18);
+      --color-scrim: rgba(0, 0, 0, 0.45);
+      --color-header-bg: rgba(244, 244, 244, 0.9);
+      --font-heading: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
+      --font-logo: "Source Serif 4", Georgia, "Times New Roman", serif;
+      --font-body: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
+      --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      --radius: 14px;
+      --radius-sm: 10px;
+      --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+      --header-h: 60px;
+      --tabbar-h: 0px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      scroll-padding-top: calc(var(--header-h) + 16px);
+    }
+
+    body {
+      margin: 0;
+      background: var(--color-background);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      padding-bottom: var(--tabbar-h);
+      line-break: strict;
+      overflow-wrap: anywhere;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: var(--font-heading);
+      line-height: 1.4;
+      margin: 0;
+      letter-spacing: 0.01em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+      color: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+      border-radius: 6px;
+    }
+
+    .sr {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+    }
+
+    mark {
+      background: var(--color-highlight);
+      color: var(--color-text);
+      border-radius: 3px;
+      padding: 0 1px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .narrow {
+      max-width: 760px;
+    }
+
+    /* ---------- header ---------- */
+    .site-head {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      height: var(--header-h);
+      background: var(--color-header-bg);
+      backdrop-filter: saturate(1.4) blur(10px);
+      -webkit-backdrop-filter: saturate(1.4) blur(10px);
+    }
+
+    .head-inner {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--color-text);
+      font-weight: 800;
+      font-size: 16px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .brand:hover {
+      text-decoration: none;
+    }
+
+    .brand-text {
+      font-family: var(--font-logo);
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1;
+    }
+
+    .region-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      height: 36px;
+      padding: 0 12px 0 14px;
+      border-radius: 999px;
+      border: 1px solid var(--color-border-strong);
+      background: var(--color-surface);
+      font-size: 14px;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: border-color .15s, box-shadow .15s, background .15s;
+      min-width: 0;
+    }
+
+    .region-pill:hover {
+      border-color: var(--color-primary);
+      box-shadow: 0 2px 8px var(--color-shadow);
+    }
+
+    .region-pill[hidden] {
+      display: none;
+    }
+
+    .region-pill svg {
+      width: 14px;
+      height: 14px;
+      color: var(--color-text-muted);
+      flex-shrink: 0;
+    }
+
+    .region-pill .pin {
+      color: var(--color-primary);
+    }
+
+    .head-nav {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .head-nav .region-pill {
+      margin-right: 4px;
+    }
+
+    .head-nav a[aria-current="page"] {
+      color: var(--color-primary);
+      background: var(--color-primary-soft);
+    }
+
+    .icon-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      border: 0;
+      background: transparent;
+      display: inline-grid;
+      place-items: center;
+      color: var(--color-text-muted);
+      transition: background .15s, color .15s;
+    }
+
+    .icon-btn:hover {
+      background: var(--color-surface-alt);
+      color: var(--color-text);
+    }
+
+    .icon-btn svg {
+      width: 19px;
+      height: 19px;
+    }
+
+    @media (max-width: 760px) {
+      :root {
+        --header-h: 56px;
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .brand-text {
+        font-size: 24px;
+      }
+    }
+
+    /* ---------- view transitions ---------- */
+    #main {
+      min-height: 60vh;
+      outline: none;
+    }
+
+    #main.enter {
+      animation: viewIn .32s var(--ease) both;
+    }
+
+    @keyframes viewIn {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    /* ---------- buttons ---------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 0 20px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+      transition: background .15s, border-color .15s, transform .15s, box-shadow .15s, color .15s;
+    }
+
+    .btn:hover {
+      text-decoration: none;
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .btn svg {
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+
+    .btn-primary {
+      background: var(--color-primary);
+      color: var(--color-on-primary);
+    }
+
+    .btn-primary:hover {
+      background: var(--color-primary-strong);
+      box-shadow: 0 6px 16px -6px var(--color-shadow-strong);
+    }
+
+    .btn-ghost {
+      background: var(--color-surface);
+      border-color: var(--color-border-strong);
+      color: var(--color-text);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+    }
+
+    .btn-small {
+      min-height: 36px;
+      padding: 0 14px;
+      font-size: 14px;
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-weight: 700;
+      background: none;
+      border: 0;
+      padding: 0;
+      color: var(--color-primary);
+    }
+
+    .text-link svg {
+      width: 15px;
+      height: 15px;
+      transition: transform .15s;
+    }
+
+    .text-link:hover svg {
+      transform: translateX(3px);
+    }
+
+    .text-link:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .chips {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 2px 2px 6px;
+    }
+
+    .chips::-webkit-scrollbar {
+      display: none;
+    }
+
+    .chip {
+      flex-shrink: 0;
+      height: 36px;
+      padding: 0 14px;
+      border-radius: 999px;
+      border: 1px solid var(--color-border-strong);
+      background: var(--color-surface);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      white-space: nowrap;
+      transition: all .15s;
+    }
+
+    .chip:hover {
+      color: var(--color-text);
+      border-color: var(--color-text-muted);
+    }
+
+    .chip[aria-pressed="true"] {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      color: var(--color-on-primary);
+    }
+
+    .eyebrow {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    .section-title {
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    /* ---------- status ---------- */
+    .status {
+      display: inline-flex;
+      align-items: center;
+      height: 24px;
+      padding: 0 10px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .s-pending {
+      background: var(--color-status-pending-bg);
+      color: var(--color-status-pending);
+    }
+
+    .s-active {
+      background: var(--color-status-active-bg);
+      color: var(--color-status-active);
+    }
+
+    .s-passed {
+      background: var(--color-status-passed-bg);
+      color: var(--color-status-passed);
+    }
+
+    .s-rejected {
+      background: var(--color-status-rejected-bg);
+      color: var(--color-status-rejected);
+    }
+
+    /* ---------- bill cards ---------- */
+    /* paper-document cards, carried over from the original board */
+    .bill-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      gap: 26px 18px;
+      justify-items: center;
+    }
+
+    .bill-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 176px;
+      padding: 12px;
+      border-radius: 18px;
+      background: transparent;
+      color: var(--color-text);
+      transform: rotate(var(--tilt, 0deg));
+      transition: transform 0.1s var(--ease), background 0.3s ease;
+      animation: pin-drop 0.1s var(--ease) both;
+      animation-delay: calc(var(--i, 0) * 35ms);
+    }
+
+    @keyframes pin-drop {
+      from {
+        opacity: 0;
+        transform: translateY(16px) rotate(0deg) scale(0.94);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0) rotate(var(--tilt, 0deg)) scale(1);
+      }
+    }
+
+    .bill-card:hover,
+    .bill-card:focus-visible {
+      text-decoration: none;
+      background: var(--color-hover);
+    }
+
+    .paper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--color-surface);
+      background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, var(--color-paper-rule) 28px);
+      border: 1px solid var(--color-border);
+      border-radius: 14px;
+      box-shadow: 0 2px 3px var(--color-shadow), 0 10px 18px -10px var(--color-shadow-strong);
+    }
+
+    .paper-badges {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .paper-badges .status,
+    .by-tag {
+      height: 20px;
+      padding: 0 8px;
+      font-size: 10.5px;
+    }
+
+    .by-tag {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      font-weight: 700;
+      white-space: nowrap;
+      background: var(--color-surface);
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-border-strong);
+    }
+
+    .paper-official {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      margin: 0;
+      padding: 0 12px;
+      font-size: 9.5px;
+      font-weight: 600;
+      line-height: 1.6;
+      color: var(--color-text-muted);
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+
+    .bill-caption {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      margin-top: 10px;
+      font-size: 13px;
+      font-weight: 800;
+      line-height: 1.45;
+      text-align: center;
+      word-break: keep-all;
+      word-break: auto-phrase;
+      overflow-wrap: break-word;
+      line-break: strict;
+    }
+
+    @media (max-width: 480px) {
+      .bill-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 26px 14px;
+      }
+
+      .bill-card {
+        max-width: 155px;
+        padding: 18px 10px 14px;
+      }
+
+      .paper-badges {
+        left: 7px;
+        right: 7px;
+        top: 8px;
+        gap: 3px;
+      }
+
+      .paper-badges .status,
+      .by-tag {
+        height: 18px;
+        padding: 0 6px;
+        font-size: 9.5px;
+      }
+    }
+
+    .empty {
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--color-text-muted);
+      border: 1px dashed var(--color-border-strong);
+      border-radius: var(--radius);
+    }
+
+    /* ---------- landing ---------- */
+    .hero {
+      padding: 64px 0 56px;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(30px, 4.6vw, 46px);
+      font-weight: 800;
+      line-height: 1.3;
+      letter-spacing: 0;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      color: var(--color-primary);
+    }
+
+    .hero-lead {
+      margin-top: 16px;
+      font-size: 16.5px;
+      color: var(--color-text-muted);
+      max-width: 32em;
+    }
+
+    .hero-actions {
+      margin-top: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-width: 480px;
+    }
+
+    .hero-actions .btn-primary {
+      align-self: flex-start;
+      min-height: 52px;
+      padding: 0 24px;
+      font-size: 16px;
+    }
+
+    .hero-alt {
+      font-size: 13.5px;
+      color: var(--color-text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px 14px;
+    }
+
+    .hero-alt button {
+      background: none;
+      border: 0;
+      padding: 0;
+      color: var(--color-primary);
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .hero-alt button svg {
+      width: 15px;
+      height: 15px;
+    }
+
+    .hero-alt button:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .geo-note {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      min-height: 0;
+    }
+
+    .hero-visual {
+      position: relative;
+    }
+
+    .seats {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .seats circle {
+      fill: var(--color-border-strong);
+      animation: seatIn .5s var(--ease) both;
+      animation-delay: calc(var(--d) * 5ms);
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .seats circle.on {
+      fill: var(--color-seat);
+    }
+
+    .seats circle.alt {
+      fill: var(--color-secondary);
+    }
+
+    @keyframes seatIn {
+      from {
+        opacity: 0;
+        transform: scale(.3);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    .band {
+      padding: 56px 0;
+    }
+
+    .band+.band {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .band-alt {
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .inside-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .inside {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 20px;
+      border-radius: var(--radius);
+      background: var(--color-background);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      transition: border-color .2s, transform .2s var(--ease);
+    }
+
+    .inside:hover {
+      text-decoration: none;
+      border-color: var(--color-primary);
+      transform: translateY(-2px);
+    }
+
+    .inside h3 {
+      font-size: 17px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .inside h3 svg {
+      width: 16px;
+      height: 16px;
+      color: var(--color-primary);
+      transition: transform .15s;
+    }
+
+    .inside:hover h3 svg {
+      transform: translateX(3px);
+    }
+
+    .inside p {
+      color: var(--color-text-muted);
+      font-size: 14px;
+    }
+
+    .mini {
+      height: 88px;
+      border-radius: 10px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      padding: 12px;
+      display: flex;
+      gap: 8px;
+      overflow: hidden;
+    }
+
+    .mini-card {
+      flex: 1;
+      border-radius: 6px;
+      border: 1px solid var(--color-border);
+      padding: 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .mini-card i {
+      display: block;
+      height: 6px;
+      border-radius: 3px;
+      background: var(--color-border);
+    }
+
+    .mini-card i.tag {
+      width: 40%;
+      background: var(--color-status-active-bg);
+    }
+
+    .mini-card i.tag.p {
+      background: var(--color-status-passed-bg);
+    }
+
+    .mini-card i.l1 {
+      width: 90%;
+      background: var(--color-border-strong);
+    }
+
+    .mini-card i.l2 {
+      width: 60%;
+    }
+
+    .mini-tl {
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .mini-bar {
+      display: flex;
+      gap: 3px;
+      height: 14px;
+    }
+
+    .mini-bar span {
+      border-radius: 3px;
+      background: var(--color-border-strong);
+    }
+
+    .mini-bar span.on {
+      background: var(--color-primary);
+    }
+
+    .mini-lines i {
+      display: block;
+      height: 6px;
+      border-radius: 3px;
+      background: var(--color-border);
+      margin-top: 6px;
+    }
+
+    .mini-step {
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      padding: 12px 18px;
+    }
+
+    .mini-step b {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      flex-shrink: 0;
+    }
+
+    .mini-step b.off {
+      background: var(--color-border-strong);
+    }
+
+    .mini-step em {
+      flex: 1;
+      height: 2px;
+      background: var(--color-primary);
+    }
+
+    .mini-step em.off {
+      background: var(--color-border-strong);
+    }
+
+    .trust-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px 28px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .trust-list li {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .trust-list .ic {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: var(--color-primary-soft);
+      color: var(--color-primary);
+      display: grid;
+      place-items: center;
+      margin-bottom: 4px;
+    }
+
+    .trust-list .ic svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .trust-list b {
+      font-size: 15.5px;
+    }
+
+    .trust-list span {
+      font-size: 14px;
+      color: var(--color-text-muted);
+    }
+
+    .involve {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 16px;
+    }
+
+    .panel {
+      padding: 26px;
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .panel h3 {
+      font-size: 19px;
+      font-weight: 800;
+    }
+
+    .panel>p {
+      color: var(--color-text-muted);
+      font-size: 14.5px;
+    }
+
+    .panel .btn {
+      align-self: flex-start;
+      margin-top: 4px;
+    }
+
+    /* ---------- forms ---------- */
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .field label {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .field small {
+      font-size: 12.5px;
+      color: var(--color-text-muted);
+    }
+
+    .input,
+    .select,
+    .textarea {
+      width: 100%;
+      min-width: 0;
+      min-height: 46px;
+      padding: 10px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border-strong);
+      background: var(--color-surface);
+      font-size: 16px;
+      transition: border-color .15s, box-shadow .15s;
+    }
+
+    .textarea {
+      min-height: 120px;
+      resize: vertical;
+      line-height: 1.7;
+    }
+
+    .input:focus,
+    .select:focus,
+    .textarea:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px var(--color-primary-soft);
+    }
+
+    .inline-form {
+      display: flex;
+      gap: 8px;
+    }
+
+    .inline-form .input {
+      flex: 1;
+    }
+
+    .confirm {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 16px;
+      border-radius: var(--radius-sm);
+      background: var(--color-status-passed-bg);
+      color: var(--color-status-passed);
+      animation: rise .35s var(--ease) both;
+    }
+
+    .confirm svg {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .confirm b {
+      display: block;
+      color: var(--color-text);
+    }
+
+    .confirm span {
+      font-size: 13.5px;
+      color: var(--color-text-muted);
+    }
+
+    /* ---------- region search (shared) ---------- */
+    .rs {
+      position: relative;
+    }
+
+    .rs-field {
+      position: relative;
+    }
+
+    .rs-field>svg {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      width: 19px;
+      height: 19px;
+      transform: translateY(-50%);
+      color: var(--color-text-muted);
+      pointer-events: none;
+    }
+
+    .rs-input {
+      width: 100%;
+      height: 54px;
+      padding: 0 16px 0 46px;
+      border-radius: 14px;
+      border: 1.5px solid var(--color-border-strong);
+      background: var(--color-surface);
+      font-size: 16px;
+      box-shadow: 0 2px 6px var(--color-shadow);
+      transition: border-color .15s, box-shadow .15s;
+    }
+
+    .rs-input:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 4px var(--color-primary-soft);
+    }
+
+    .rs-input::placeholder {
+      color: var(--color-text-muted);
+    }
+
+    .rs-list {
+      list-style: none;
+      margin: 8px 0 0;
+      padding: 6px;
+      border-radius: 14px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      box-shadow: 0 16px 36px -16px var(--color-shadow-strong);
+    }
+
+    .rs-list[hidden] {
+      display: none;
+    }
+
+    .hero .rs-list {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 20;
+    }
+
+    .rs-hint {
+      padding: 8px 12px 4px;
+      font-size: 12.5px;
+      color: var(--color-text-muted);
+    }
+
+    .rs-opt {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .rs-opt[aria-selected="true"],
+    .rs-opt:hover {
+      background: var(--color-primary-soft);
+    }
+
+    .rs-opt .lv {
+      flex-shrink: 0;
+      width: 34px;
+      height: 34px;
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      background: var(--color-surface-alt);
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--color-text-muted);
+    }
+
+    .rs-opt .nm {
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .rs-opt .sub {
+      display: block;
+      font-size: 12.5px;
+      color: var(--color-text-muted);
+      font-weight: 400;
+    }
+
+    .rs-opt .soon,
+    .soon-tag {
+      margin-left: auto;
+      flex-shrink: 0;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      background: var(--color-surface-alt);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+
+    .rs-empty {
+      padding: 12px;
+      font-size: 14px;
+      color: var(--color-text-muted);
+    }
+
+    /* ---------- sheet / picker ---------- */
+    .overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      background: var(--color-scrim);
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 9vh 16px 16px;
+      opacity: 0;
+      transition: opacity .22s ease;
+    }
+
+    .overlay.show {
+      display: flex;
+    }
+
+    .overlay.in {
+      opacity: 1;
+    }
+
+    .sheet {
+      width: 100%;
+      max-width: 540px;
+      max-height: 82vh;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      background: var(--color-surface);
+      border-radius: 20px;
+      padding: 22px 22px 26px;
+      box-shadow: 0 30px 70px -20px var(--color-shadow-strong);
+      transform: translateY(12px) scale(.98);
+      transition: transform .26s var(--ease);
+    }
+
+    .overlay.in .sheet {
+      transform: none;
+    }
+
+    .sheet-handle {
+      display: none;
+    }
+
+    .sheet-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .sheet-head h2 {
+      font-size: 19px;
+      font-weight: 800;
+    }
+
+    .picker-geo {
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .picker-sec {
+      margin-top: 22px;
+    }
+
+    .picker-sec h3 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      margin-bottom: 8px;
+      letter-spacing: 0.04em;
+    }
+
+    .area {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .area:last-child {
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .area summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 12px 4px;
+      font-weight: 700;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    .area summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .area summary:hover {
+      color: var(--color-primary);
+    }
+
+    .area summary svg {
+      width: 16px;
+      height: 16px;
+      color: var(--color-text-muted);
+      transition: transform .2s;
+    }
+
+    .area[open] summary svg {
+      transform: rotate(180deg);
+    }
+
+    .area summary .cnt {
+      margin-left: auto;
+      font-size: 12.5px;
+      font-weight: 400;
+      color: var(--color-text-muted);
+    }
+
+    .area-list {
+      list-style: none;
+      margin: 0 0 10px;
+      padding: 0;
+    }
+
+    .area-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-align: left;
+      padding: 10px 12px;
+      border: 0;
+      background: transparent;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    .area-btn:hover {
+      background: var(--color-surface-alt);
+    }
+
+    .area-btn.muni {
+      padding-left: 30px;
+      font-weight: 400;
+    }
+
+    .area-btn .live {
+      margin-left: auto;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--color-status-passed);
+      background: var(--color-status-passed-bg);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+
+    @media (max-width: 760px) {
+      .overlay {
+        align-items: flex-end;
+        padding: 0;
+      }
+
+      .sheet {
+        max-width: none;
+        max-height: 88vh;
+        border-radius: 20px 20px 0 0;
+        padding: 10px 18px calc(24px + env(safe-area-inset-bottom));
+        transform: translateY(100%);
+      }
+
+      .sheet-handle {
+        display: block;
+        width: 40px;
+        height: 5px;
+        border-radius: 3px;
+        background: var(--color-border-strong);
+        margin: 0 auto 12px;
+      }
+    }
+
+    /* ---------- hub ---------- */
+    .hub-head {
+      padding-top: 28px;
+    }
+
+    .hub-title-row {
+      display: flex;
+      align-items: center;
+      gap: 14px 18px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+
+    .hub-title-row h1 {
+      font-size: clamp(26px, 3.4vw, 34px);
+      font-weight: 800;
+    }
+
+    .hub-mtg {
+      margin-left: auto;
+      font-size: 14px;
+    }
+
+    .hub-sub {
+      color: var(--color-text-muted);
+      margin-top: 4px;
+      font-size: 14.5px;
+    }
+
+    .session {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px 20px;
+      flex-wrap: wrap;
+      padding: 16px 20px;
+      border-radius: var(--radius);
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .session.is-open {
+      border-color: var(--color-primary);
+      background: var(--color-primary-soft);
+    }
+
+    .session-state {
+      font-weight: 800;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .state-tag {
+      font-size: 12.5px;
+      font-weight: 800;
+      padding: 2px 10px;
+      border-radius: 999px;
+      background: var(--color-surface-alt);
+      color: var(--color-text-muted);
+    }
+
+    .is-open .state-tag {
+      background: var(--color-primary);
+      color: var(--color-on-primary);
+    }
+
+    .session-dates {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      margin-top: 2px;
+    }
+
+    .hub-head .back {
+      margin-top: 0;
+    }
+
+    .hub-body {
+      padding-top: 20px;
+      padding-bottom: 64px;
+    }
+
+    .hub-body .chips {
+      margin-bottom: 16px;
+    }
+
+    .soon-panel {
+      margin: 28px 0 64px;
+      padding: 32px;
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      border: 1px dashed var(--color-border-strong);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .soon-panel h2 {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .soon-panel p {
+      color: var(--color-text-muted);
+    }
+
+    .soon-panel .row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+
+    /* ---------- meetings list ---------- */
+    .mtg-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .mtg-row {
+      display: grid;
+      grid-template-columns: 64px minmax(0, 1fr) 20px;
+      gap: 16px;
+      align-items: center;
+      padding: 16px 18px;
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      animation: rise .42s var(--ease) both;
+      animation-delay: calc(var(--i, 0) * 40ms);
+      transition: border-color .2s, box-shadow .2s, transform .2s var(--ease);
+    }
+
+    .mtg-row:hover {
+      text-decoration: none;
+      border-color: var(--color-border-strong);
+      box-shadow: 0 10px 24px -14px var(--color-shadow-strong);
+      transform: translateY(-1px);
+    }
+
+    .mtg-row>svg {
+      width: 18px;
+      height: 18px;
+      color: var(--color-text-muted);
+      transition: transform .15s, color .15s;
+    }
+
+    .mtg-row:hover>svg {
+      transform: translateX(3px);
+      color: var(--color-primary);
+    }
+
+    .mtg-date {
+      text-align: center;
+      border-right: 1px solid var(--color-border);
+      padding-right: 14px;
+      line-height: 1.2;
+    }
+
+    .mtg-date b {
+      display: block;
+      font-size: 20px;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .mtg-date span {
+      font-size: 12px;
+      color: var(--color-text-muted);
+    }
+
+    .mtg-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px 12px;
+      font-size: 13px;
+      color: var(--color-text-muted);
+    }
+
+    .body-tag {
+      font-weight: 800;
+      font-size: 14px;
+      color: var(--color-text);
+    }
+
+    .body-tag.edu {
+      color: var(--color-status-passed);
+    }
+
+    .mtg-meta .m {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+    }
+
+    .mtg-meta .m svg {
+      width: 13px;
+      height: 13px;
+    }
+
+    .mtg-decided {
+      margin-top: 4px;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    /* ---------- meeting page ---------- */
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      margin-top: 24px;
+    }
+
+    .back svg {
+      width: 15px;
+      height: 15px;
+      transition: transform .15s;
+    }
+
+    .back:hover {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .back:hover svg {
+      transform: translateX(-3px);
+    }
+
+    .mtg-head {
+      margin-top: 14px;
+    }
+
+    .mtg-head h1 {
+      font-size: clamp(26px, 3.6vw, 34px);
+      font-weight: 800;
+      margin-top: 4px;
+    }
+
+    .mtg-head-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 16px;
+      color: var(--color-text-muted);
+      font-size: 14.5px;
+      margin-top: 6px;
+    }
+
+    .mtg-head-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .mtg-head-meta svg {
+      width: 15px;
+      height: 15px;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .disclose {
+      margin-top: 18px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 13.5px;
+      color: var(--color-text-muted);
+      padding: 12px 14px;
+      border-radius: var(--radius-sm);
+      background: var(--color-surface-alt);
+    }
+
+    .disclose svg {
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+      margin-top: 3px;
+      color: var(--color-primary);
+    }
+
+    .disclose a {
+      font-weight: 700;
+    }
+
+    .points {
+      margin-top: 26px;
+      padding: 22px 24px;
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-primary);
+    }
+
+    .points h2 {
+      font-size: 17px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .points ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .points li {
+      position: relative;
+      padding-left: 18px;
+      line-height: 1.7;
+    }
+
+    .points li::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: .72em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--color-primary);
+    }
+
+    .tl-wrap {
+      margin-top: 30px;
+    }
+
+    .tl-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--color-text-muted);
+      font-family: var(--font-mono);
+      margin-top: 6px;
+    }
+
+    .tl {
+      display: flex;
+      gap: 3px;
+      height: 30px;
+    }
+
+    .tl button {
+      border: 0;
+      padding: 0;
+      min-width: 6px;
+      border-radius: 5px;
+      background: var(--color-border-strong);
+      position: relative;
+      transition: background .15s, transform .15s, opacity .2s;
+    }
+
+    .tl button:hover {
+      background: var(--color-primary);
+      transform: scaleY(1.12);
+    }
+
+    .tl button.hit {
+      background: var(--color-highlight);
+      box-shadow: inset 0 0 0 2px var(--color-status-active);
+    }
+
+    .tl button.dim {
+      opacity: .35;
+    }
+
+    .tl button.act {
+      background: var(--color-primary);
+    }
+
+    .mtg-search {
+      position: sticky;
+      top: calc(var(--header-h) + 8px);
+      z-index: 10;
+      margin-top: 22px;
+    }
+
+    .mtg-search .rs-input {
+      height: 50px;
+    }
+
+    .mtg-search-count {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      margin-top: 8px;
+      min-height: 1.2em;
+    }
+
+    .chapters {
+      list-style: none;
+      margin: 14px 0 64px;
+      padding: 0;
+      position: relative;
+    }
+
+    .chapter {
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr);
+      gap: 20px;
+      padding: 22px 0;
+      border-top: 1px solid var(--color-border);
+      transition: opacity .2s;
+      scroll-margin-top: calc(var(--header-h) + 90px);
+    }
+
+    .chapter.dim {
+      opacity: .38;
+    }
+
+    .chapter.flash .ch-body {
+      animation: flash 1.6s ease;
+    }
+
+    @keyframes flash {
+
+      0%,
+      30% {
+        background: var(--color-primary-soft);
+      }
+
+      100% {
+        background: transparent;
+      }
+    }
+
+    .ch-time {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      padding-top: 3px;
+    }
+
+    .ch-time b {
+      display: block;
+      font-size: 15px;
+      color: var(--color-text);
+      font-weight: 700;
+    }
+
+    .ch-body {
+      border-radius: 10px;
+      margin: -6px -10px;
+      padding: 6px 10px;
+      min-width: 0;
+    }
+
+    .ch-body h3 {
+      font-size: 17.5px;
+      font-weight: 800;
+      line-height: 1.5;
+    }
+
+    .ch-sum {
+      margin-top: 6px;
+    }
+
+    .speakers {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .spk {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--color-surface-alt);
+      max-width: 100%;
+    }
+
+    .spk small {
+      font-weight: 400;
+      color: var(--color-text-muted);
+      font-size: 12px;
+    }
+
+    .ch-bills {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 14px;
+    }
+
+    .ch-bills a {
+      display: inline-flex;
+      gap: 6px;
+      align-items: baseline;
+    }
+
+    .ch-bills .lbl {
+      color: var(--color-text-muted);
+      font-size: 12.5px;
+      flex-shrink: 0;
+    }
+
+    .ch-actions {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      align-items: center;
+    }
+
+    .btn-watch {
+      background: var(--color-text);
+      color: var(--color-surface);
+      border: 0;
+    }
+
+    .btn-watch:hover {
+      background: var(--color-primary);
+    }
+
+    .btn-watch .ts {
+      font-family: var(--font-mono);
+      font-weight: 400;
+      font-size: 12.5px;
+      opacity: .8;
+    }
+
+    .tx-toggle {
+      background: none;
+      border: 0;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--color-text-muted);
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+      padding: 8px 4px;
+    }
+
+    .tx-toggle:hover {
+      color: var(--color-text);
+    }
+
+    .tx-toggle svg {
+      width: 15px;
+      height: 15px;
+      transition: transform .2s;
+    }
+
+    .tx-toggle[aria-expanded="true"] svg {
+      transform: rotate(180deg);
+    }
+
+    .tx {
+      margin-top: 12px;
+      padding: 14px 16px;
+      border-radius: var(--radius-sm);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      animation: rise .3s var(--ease) both;
+    }
+
+    .tx-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 8px;
+      letter-spacing: .04em;
+    }
+
+    .tx-label svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .tx-line {
+      font-size: 14.5px;
+      line-height: 1.85;
+      padding: 4px 0;
+    }
+
+    .tx-line+.tx-line {
+      border-top: 1px dashed var(--color-border);
+    }
+
+    .tx-line b {
+      font-weight: 800;
+      margin-right: 6px;
+    }
+
+    .tx-line .t {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-text-muted);
+      margin-right: 6px;
+    }
+
+    /* ---------- bill modal ---------- */
+    .modal {
+      width: 100%;
+      max-width: 640px;
+      max-height: 86vh;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      background: var(--color-surface);
+      border-radius: 20px;
+      box-shadow: 0 30px 70px -20px var(--color-shadow-strong);
+      transform: translateY(14px) scale(.98);
+      transition: transform .28s var(--ease);
+    }
+
+    .overlay.in .modal {
+      transform: none;
+    }
+
+    @media (min-width: 1100px) {
+      .modal {
+        max-width: 800px;
+      }
+    }
+
+    .bd-head {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: var(--color-surface);
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 24px 26px 16px;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .bd-title {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.45;
+    }
+
+    .bd-official {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      margin-top: 4px;
+      line-height: 1.6;
+    }
+
+    .bd-body {
+      padding: 20px 26px 28px;
+      font-size: 15px;
+    }
+
+    .bd-body * {
+      font-size: 15px;
+    }
+
+    .bd-body .status {
+      height: 28px;
+      padding: 0 12px;
+    }
+
+    .bd-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px 18px;
+      color: var(--color-text-muted);
+    }
+
+    .bd-date .status {
+      margin-left: 4px;
+    }
+
+    .bd-meta span {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .bd-meta svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    .bd-sum {
+      margin-top: 20px;
+      line-height: 1.85;
+    }
+
+    .bd-sec {
+      margin-top: 32px;
+    }
+
+    .bd-sec h3 {
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .changes {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .changes li {
+      position: relative;
+      padding-left: 18px;
+      line-height: 1.65;
+    }
+
+    .changes li::before {
+      content: "";
+      position: absolute;
+      left: 3px;
+      top: calc(.825em - 2.5px);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--color-text);
+    }
+
+    .steps {
+      display: flex;
+      list-style: none;
+      margin: 6px 0 14px;
+      padding: 0;
+    }
+
+    .step {
+      flex: 1 1 0;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      position: relative;
+      text-align: center;
+      color: var(--color-text-muted);
+    }
+
+    .step .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--color-surface);
+      border: 2px solid var(--color-border-strong);
+      position: relative;
+      z-index: 1;
+      transition: background .3s, border-color .3s;
+    }
+
+    .step::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      right: 50%;
+      width: 100%;
+      height: 2px;
+      background: var(--color-border);
+    }
+
+    .step::after {
+      content: "";
+      position: absolute;
+      top: 6px;
+      right: 50%;
+      width: 100%;
+      height: 2px;
+      background: var(--color-primary);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .35s var(--ease);
+      transition-delay: calc(var(--k) * 110ms + 120ms);
+    }
+
+    .step:first-child::before,
+    .step:first-child::after {
+      display: none;
+    }
+
+    .step.done .dot {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+    }
+
+    .overlay.in .step.done::after {
+      transform: scaleX(1);
+    }
+
+    .step.current .dot {
+      box-shadow: 0 0 0 5px var(--color-primary-soft);
+    }
+
+    .step.done .lab {
+      color: var(--color-text);
+      font-weight: 700;
+    }
+
+    .step.rej .dot {
+      background: var(--color-status-rejected);
+      border-color: var(--color-status-rejected);
+    }
+
+    .step.rej .lab {
+      color: var(--color-status-rejected);
+    }
+
+    .step .lab {
+      line-height: 1.35;
+      word-break: keep-all;
+    }
+
+    .term {
+      font: inherit;
+      color: inherit;
+      background: none;
+      border: 0;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      cursor: pointer;
+    }
+
+    .term .q {
+      display: inline-grid;
+      place-items: center;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      font-size: 10px;
+      font-weight: 800;
+      background: var(--color-surface-alt);
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-border-strong);
+    }
+
+    .term:hover .q,
+    .term[aria-expanded="true"] .q {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      color: var(--color-on-primary);
+    }
+
+    .term-pop {
+      position: fixed;
+      z-index: 5;
+      width: min(280px, calc(100vw - 32px));
+      padding: 14px 16px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      box-shadow: 0 14px 34px -10px var(--color-shadow-strong);
+      font-size: 14px;
+      line-height: 1.7;
+      text-align: left;
+      opacity: 0;
+      transform: translateY(-4px);
+      transition: opacity .15s ease, transform .15s var(--ease);
+    }
+
+    .term-pop.in {
+      opacity: 1;
+      transform: none;
+    }
+
+    .term-pop[hidden] {
+      display: none;
+    }
+
+    .term-pop b {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .term-pop a {
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .stage-note {
+      line-height: 1.75;
+    }
+
+    .bd-link {
+      margin-top: 10px;
+    }
+
+    .rel-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .rel-list a {
+      display: block;
+      padding: 12px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      transition: border-color .15s, background .15s;
+    }
+
+    .rel-list a:hover {
+      text-decoration: none;
+      border-color: var(--color-primary);
+      background: var(--color-primary-soft);
+    }
+
+    .rel-list .rm {
+      color: var(--color-text-muted);
+      display: block;
+    }
+
+    .rel-list .rt {
+      font-weight: 700;
+      display: block;
+    }
+
+    .muted {
+      color: var(--color-text-muted);
+    }
+
+    .src-toggle {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border-strong);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: border-color .15s, color .15s;
+    }
+
+    .src-toggle:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+    }
+
+    .src-toggle svg {
+      width: 15px;
+      height: 15px;
+      transition: transform .2s;
+    }
+
+    .src-toggle[aria-expanded="true"] svg {
+      transform: rotate(180deg);
+    }
+
+    .src-panel {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows .3s var(--ease);
+    }
+
+    .src-panel.open {
+      grid-template-rows: 1fr;
+    }
+
+    .src-panel>div {
+      overflow: hidden;
+    }
+
+    .src-panel dl {
+      margin: 12px 0 0;
+      padding: 14px 16px;
+      border-radius: var(--radius-sm);
+      background: var(--color-surface-alt);
+    }
+
+    .src-panel dt {
+      font-weight: 700;
+    }
+
+    .src-panel dd {
+      margin: 0 0 8px;
+      color: var(--color-text-muted);
+    }
+
+    .src-panel dd:last-child {
+      margin-bottom: 0;
+    }
+
+    .bd-foot {
+      margin-top: 28px;
+      padding-top: 16px;
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    @media (max-width: 760px) {
+      .modal {
+        max-width: none;
+        max-height: 92vh;
+        border-radius: 20px 20px 0 0;
+        transform: translateY(100%);
+      }
+
+      .bd-head {
+        padding: 18px 18px 14px;
+      }
+
+      .bd-title {
+        font-size: 20px;
+      }
+
+      .bd-body {
+        padding: 18px 18px calc(28px + env(safe-area-inset-bottom));
+      }
+    }
+
+    @media (max-width: 560px) {
+      .steps {
+        flex-direction: column;
+        gap: 0;
+        margin: 4px 0 12px;
+      }
+
+      .step {
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        text-align: left;
+        padding: 7px 0;
+      }
+
+      .step::before,
+      .step::after {
+        top: auto;
+        bottom: 50%;
+        right: auto;
+        left: 6px;
+        width: 2px;
+        height: 100%;
+        transform-origin: top;
+      }
+
+      .step::after {
+        transform: scaleY(0);
+      }
+
+      .overlay.in .step.done::after {
+        transform: scaleY(1);
+      }
+
+      .step .dot {
+        flex-shrink: 0;
+      }
+    }
+
+    /* ---------- search ---------- */
+    .page-head {
+      padding: 36px 0 8px;
+    }
+
+    .page-head h1 {
+      font-size: clamp(26px, 3.6vw, 34px);
+      font-weight: 800;
+    }
+
+    .page-head p {
+      color: var(--color-text-muted);
+      margin-top: 6px;
+    }
+
+    .search-box {
+      margin-top: 20px;
+    }
+
+    .suggest {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+      align-items: center;
+      font-size: 13px;
+      color: var(--color-text-muted);
+    }
+
+    .results {
+      padding: 24px 0 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .res-group h2 {
+      font-size: 16px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .res-group h2 .n {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      background: var(--color-surface-alt);
+      border-radius: 999px;
+      padding: 0 8px;
+    }
+
+    .hit-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .hit {
+      display: block;
+      padding: 14px 16px;
+      border-radius: var(--radius-sm);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      transition: border-color .15s, transform .2s var(--ease);
+      animation: rise .35s var(--ease) both;
+      animation-delay: calc(var(--i, 0) * 30ms);
+    }
+
+    .hit:hover {
+      text-decoration: none;
+      border-color: var(--color-primary);
+      transform: translateY(-1px);
+    }
+
+    .hit-meta {
+      font-size: 12.5px;
+      color: var(--color-text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 10px;
+      align-items: center;
+    }
+
+    .hit-meta .ts {
+      font-family: var(--font-mono);
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+
+    .hit-title {
+      font-weight: 800;
+      margin-top: 3px;
+      line-height: 1.55;
+    }
+
+    .hit-snip {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      margin-top: 4px;
+      line-height: 1.7;
+    }
+
+    /* ---------- learn / about / join ---------- */
+    .learn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+      padding: 20px 0 64px;
+    }
+
+    .learn-card {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 22px;
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      animation: rise .42s var(--ease) both;
+      animation-delay: calc(var(--i, 0) * 50ms);
+      transition: border-color .2s, transform .2s var(--ease), box-shadow .2s;
+    }
+
+    .learn-card:hover {
+      text-decoration: none;
+      border-color: var(--color-primary);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 26px -16px var(--color-shadow-strong);
+    }
+
+    .learn-card .num {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+
+    .learn-card h2 {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .learn-card p {
+      color: var(--color-text-muted);
+      font-size: 14.5px;
+    }
+
+    .learn-card .min {
+      margin-top: auto;
+      font-size: 12.5px;
+      color: var(--color-text-muted);
+    }
+
+    .article {
+      padding-bottom: 64px;
+    }
+
+    .article .lead {
+      font-size: 17px;
+      margin-top: 14px;
+      line-height: 1.85;
+    }
+
+    .article h2 {
+      font-size: 19px;
+      font-weight: 800;
+      margin-top: 36px;
+    }
+
+    .article p+p {
+      margin-top: 12px;
+    }
+
+    .article .body p {
+      margin-top: 12px;
+      line-height: 1.9;
+    }
+
+    .flow {
+      list-style: none;
+      margin: 20px 0 0;
+      padding: 0;
+      counter-reset: f;
+    }
+
+    .flow li {
+      counter-increment: f;
+      position: relative;
+      padding: 0 0 22px 48px;
+    }
+
+    .flow li::before {
+      content: counter(f);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      color: var(--color-on-primary);
+      font-weight: 800;
+      display: grid;
+      place-items: center;
+      font-size: 14px;
+    }
+
+    .flow li::after {
+      content: "";
+      position: absolute;
+      left: 15px;
+      top: 34px;
+      bottom: 2px;
+      width: 2px;
+      background: var(--color-border);
+    }
+
+    .flow li:last-child::after {
+      display: none;
+    }
+
+    .flow b {
+      display: block;
+      font-size: 16px;
+    }
+
+    .flow span {
+      color: var(--color-text-muted);
+    }
+
+    .next-card {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 20px;
+      border-radius: var(--radius);
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    .next-card:hover {
+      text-decoration: none;
+      border-color: var(--color-primary);
+    }
+
+    .next-card small {
+      display: block;
+      color: var(--color-text-muted);
+      font-size: 12.5px;
+    }
+
+    .next-card b {
+      font-size: 16px;
+    }
+
+    .next-card svg {
+      width: 20px;
+      height: 20px;
+      color: var(--color-primary);
+      flex-shrink: 0;
+      transition: transform .15s;
+    }
+
+    .next-card:hover svg {
+      transform: translateX(4px);
+    }
+
+    .about-sec {
+      padding: 28px 0;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .about-sec:first-of-type {
+      border-top: 0;
+    }
+
+    .about-sec h2 {
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .about-sec p+p {
+      margin-top: 10px;
+    }
+
+    .process {
+      list-style: none;
+      margin: 18px 0 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .process li {
+      padding: 14px;
+      border-radius: var(--radius-sm);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      position: relative;
+    }
+
+    .process li .k {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+
+    .process li b {
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .process li span {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      line-height: 1.6;
+    }
+
+    .process li.human {
+      border-color: var(--color-primary);
+      background: var(--color-primary-soft);
+    }
+
+    .roles {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .role {
+      padding: 20px;
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: border-color .2s;
+    }
+
+    .role:hover {
+      border-color: var(--color-border-strong);
+    }
+
+    .role h3 {
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    .role p {
+      color: var(--color-text-muted);
+      font-size: 14px;
+    }
+
+    .role .time {
+      font-size: 12.5px;
+      color: var(--color-text-muted);
+    }
+
+    .role .text-link {
+      margin-top: 6px;
+      align-self: flex-start;
+    }
+
+    .join-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+      padding-bottom: 64px;
+      align-items: start;
+    }
+
+    .form-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 6px;
+    }
+
+    /* ---------- footer ---------- */
+    .site-foot {
+      border-top: 1px solid var(--color-border);
+      background: var(--color-surface);
+      padding: 36px 0 28px;
+      margin-top: 0;
+    }
+
+    .foot-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px 40px;
+      flex-wrap: wrap;
+    }
+
+    .foot-grid p {
+      color: var(--color-text-muted);
+      font-size: 14px;
+      margin-top: 10px;
+      max-width: 26em;
+    }
+
+    .foot-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      align-content: flex-start;
+    }
+
+    .foot-nav a,
+    .foot-nav button {
+      color: var(--color-text-muted);
+      font-size: 14px;
+      font-weight: 700;
+      background: none;
+      border: 0;
+      padding: 0;
+    }
+
+    .foot-nav a:hover,
+    .foot-nav button:hover {
+      color: var(--color-text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .foot-note {
+      margin-top: 24px;
+      font-size: 12.5px;
+      color: var(--color-text-muted);
+      padding-top: 16px;
+      border-top: 1px solid var(--color-border);
+    }
+
+    /* ---------- responsive ---------- */
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .hero-visual {
+        max-width: 460px;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .process {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .process li:last-child {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .hero {
+        padding: 36px 0 32px;
+      }
+
+      .hero-actions .btn-primary {
+        align-self: stretch;
+      }
+
+      .hero-lead {
+        font-size: 15.5px;
+      }
+
+      .band {
+        padding: 40px 0;
+      }
+
+      .inside-grid,
+      .involve,
+      .roles,
+      .join-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .chapter {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 6px;
+      }
+
+      .ch-time {
+        display: flex;
+        gap: 8px;
+        align-items: baseline;
+      }
+
+      .ch-time b {
+        display: inline;
+      }
+
+      .mtg-row {
+        grid-template-columns: 52px minmax(0, 1fr);
+        padding: 14px;
+        gap: 12px;
+      }
+
+      .mtg-row>svg {
+        display: none;
+      }
+
+      .mtg-date {
+        padding-right: 10px;
+      }
+
+      .mtg-date b {
+        font-size: 18px;
+      }
+
+      .session {
+        padding: 14px 16px;
+      }
+
+      .session .btn {
+        width: 100%;
+      }
+
+      .points {
+        padding: 18px;
+      }
+
+      .inline-form {
+        flex-direction: column;
+      }
+
+      .soon-panel {
+        padding: 22px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: .01ms !important;
+        animation-delay: 0ms !important;
+        transition-duration: .01ms !important;
+        transition-delay: 0ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5" />
+    </symbol>
+    <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="m6 9 6 6 6-6" />
+    </symbol>
+    <symbol id="i-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M5 12h14M13 6l6 6-6 6" />
+    </symbol>
+    <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M19 12H5M11 6l-6 6 6 6" />
+    </symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="m9 6 6 6-6 6" />
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" />
+      <circle cx="12" cy="9.5" r="2.5" />
+    </symbol>
+    <symbol id="i-locate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="12" cy="12" r="7" />
+      <circle cx="12" cy="12" r="2.5" />
+      <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+    </symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M6 6l12 12M18 6 6 18" />
+    </symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z" />
+    </symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+      <path d="M14 3v5h5M9 13h6M9 17h6" />
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7v5l3 2" />
+    </symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <rect x="3.5" y="5" width="17" height="15" rx="2" />
+      <path d="M3.5 10h17M8 3v4M16 3v4" />
+    </symbol>
+    <symbol id="i-group" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="9" cy="8" r="3.2" />
+      <path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6" />
+      <path d="M16 5.2a3.2 3.2 0 0 1 0 6M18 14.4c1.8.8 3 2.6 3 4.6" />
+    </symbol>
+    <symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <rect x="4" y="4" width="16" height="16" rx="3" />
+      <path d="M8 9h8M8 13h8M8 17h5" />
+    </symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <rect x="9" y="3" width="6" height="11" rx="3" />
+      <path d="M5 11a7 7 0 0 0 14 0M12 18v3" />
+    </symbol>
+    <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z" />
+      <path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5" />
+    </symbol>
+    <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 11v6M12 7.5v.5" />
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9" />
+      <path d="m8 12 3 3 5-6" />
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M12 3 5 6v5c0 4.5 3 8.3 7 10 4-1.7 7-5.5 7-10V6z" />
+    </symbol>
+    <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1" />
+      <path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+    </symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M12 3v18M6 21h12M4 7h16M7 7l-3 7a3 3 0 0 0 6 0zM17 7l-3 7a3 3 0 0 0 6 0z" />
+    </symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M4 20h4L19 9l-4-4L4 16z" />
+      <path d="m13.5 6.5 4 4" />
+    </symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18" />
+    </symbol>
+  </svg>
+  <a href="#main" class="sr" id="skip">本文へ移動</a>
+  <header class="site-head">
+    <div class="container head-inner">
+      <a class="brand" href="#/" aria-label="Polic トップ">
+        <span class="brand-text">Polic</span>
+      </a>
+      <nav class="head-nav" aria-label="メイン">
+        <button class="region-pill" type="button" data-open-picker aria-haspopup="dialog" id="regionPill">
+          <svg class="pin">
+            <use href="#i-pin" />
+          </svg>
+          <span id="regionPillName">東京都</span>
+          <svg>
+            <use href="#i-down" />
+          </svg>
+        </button>
+        <a href="#/search" class="icon-btn" data-nav="search" aria-label="検索">
+          <svg>
+            <use href="#i-search" />
+          </svg>
+        </a>
+        <a href="#/about" class="icon-btn" data-nav="about" aria-label="Policについて">
+          <svg>
+            <use href="#i-info" />
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-foot">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <a class="brand" href="#/">
+            <span class="brand-text">Polic</span>
+          </a>
+          <p>ボランティアが運営する非営利プロジェクト</p>
+        </div>
+        <nav class="foot-nav" aria-label="フッター">
+          <a href="#/about">About</a>
+          <a href="#/about?s=corrections">訂正ポリシー</a>
+          <a href="#/join?s=contact">お問い合わせ</a>
+          <a href="#/join">参加する</a>
+          <a href="#/learn">学ぶ</a>
+          <button type="button" data-proto="GitHubリポジトリ">GitHub</button>
+        </nav>
+      </div>
+      <p class="foot-note">※プロトタイプです。内容はすべて架空のサンプルです。</p>
+    </div>
+  </footer>
+  <!-- region picker -->
+  <div class="overlay" id="picker">
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="pickerTitle">
+      <div class="sheet-handle" aria-hidden="true"></div>
+      <div class="sheet-head">
+        <h2 id="pickerTitle">地域を選ぶ</h2>
+        <button class="icon-btn" type="button" data-close-picker aria-label="閉じる">
+          <svg>
+            <use href="#i-close" />
+          </svg>
+        </button>
+      </div>
+      <div class="rs" data-rs="picker"></div>
+      <div class="picker-geo">
+        <button class="btn btn-ghost btn-small" type="button" data-geo="picker">
+          <svg>
+            <use href="#i-locate" />
+          </svg>現在地から探す </button>
+        <span class="geo-note" data-geo-note="picker"></span>
+      </div>
+      <section class="picker-sec">
+        <h3>地方から選ぶ</h3>
+        <div id="pickerBrowse"></div>
+      </section>
+    </div>
+  </div>
+  <!-- bill detail -->
+  <div class="overlay" id="billModal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="billTitle" id="billContent"></div>
+    <div class="term-pop" id="termPop" role="tooltip" hidden></div>
+  </div>
+  <script>
+(function () {
+"use strict";
+
+/* ================= helpers ================= */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const icon = (id) => `<svg aria-hidden="true"><use href="#i-${id}"/></svg>`;
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
+function hl(text, q) {
+  if (!q) return esc(text);
+  return String(text).split(new RegExp("(" + reEsc(q) + ")", "gi")).map((p, i) => (i % 2 ? `<mark>${esc(p)}</mark>` : esc(p))).join("");
+}
+const has = (text, q) => !!q && String(text).toLowerCase().includes(q.toLowerCase());
+const toSec = (t) => t.split(":").reduce((a, b) => a * 60 + Number(b), 0);
+function durJa(t) { const s = toSec(t); const h = Math.floor(s / 3600); const m = Math.round((s % 3600) / 60); return (h ? h + "時間" : "") + m + "分"; }
+function ymd(iso) { const [y, m, d] = iso.split("-").map(Number); return { y, m, d, w: "日月火水木金土"[new Date(y, m - 1, d).getDay()] }; }
+function fmtDate(iso, withDow) { const t = ymd(iso); return `${t.y}年${t.m}月${t.d}日` + (withDow ? `（${t.w}）` : ""); }
+const normQ = (s) => s.trim().replace(/[０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0)).replace(/[ー－‐−]/g, "-");
+
+/* ================= data (all fictional) ================= */
+const REGIONS = {
+  "hokkaido": { name: "北海道議会", place: "北海道", level: "pref", area: "北海道・東北", status: "soon", kw: ["北海道", "ほっかいどう", "札幌"] },
+  "miyagi": { name: "宮城県議会", place: "宮城県", level: "pref", area: "北海道・東北", status: "soon", kw: ["宮城", "みやぎ", "仙台"] },
+  "tokyo": { name: "東京都議会", place: "東京都", head: "知事", level: "pref", area: "関東", status: "full", kw: ["東京", "とうきょう", "tokyo", "都議会"],
+    desc: "東京都の条例や予算を決める議会です。" },
+  "tokyo/shibuya": { name: "渋谷区議会", place: "渋谷区", head: "区長", level: "muni", parent: "tokyo", area: "関東", status: "lite", kw: ["渋谷", "しぶや", "shibuya", "恵比寿", "代々木", "原宿"],
+    desc: "渋谷区の条例や予算を決める議会です。（掲載は一部のみ）" },
+  "tokyo/shinjuku": { name: "新宿区議会", place: "新宿区", level: "muni", parent: "tokyo", area: "関東", status: "soon", kw: ["新宿", "しんじゅく", "高田馬場"] },
+  "tokyo/setagaya": { name: "世田谷区議会", place: "世田谷区", level: "muni", parent: "tokyo", area: "関東", status: "soon", kw: ["世田谷", "せたがや", "三軒茶屋", "下北沢"] },
+  "kanagawa": { name: "神奈川県議会", place: "神奈川県", level: "pref", area: "関東", status: "soon", kw: ["神奈川", "かながわ"] },
+  "kanagawa/yokohama": { name: "横浜市会", place: "横浜市", level: "muni", parent: "kanagawa", area: "関東", status: "soon", kw: ["横浜", "よこはま"] },
+  "saitama": { name: "埼玉県議会", place: "埼玉県", level: "pref", area: "関東", status: "soon", kw: ["埼玉", "さいたま"] },
+  "chiba": { name: "千葉県議会", place: "千葉県", level: "pref", area: "関東", status: "soon", kw: ["千葉", "ちば"] },
+  "aichi": { name: "愛知県議会", place: "愛知県", level: "pref", area: "中部", status: "soon", kw: ["愛知", "あいち", "名古屋"] },
+  "osaka": { name: "大阪府議会", place: "大阪府", level: "pref", area: "近畿", status: "soon", kw: ["大阪", "おおさか"] },
+  "osaka/osaka-city": { name: "大阪市会", place: "大阪市", level: "muni", parent: "osaka", area: "近畿", status: "soon", kw: ["大阪市", "おおさかし", "梅田", "北区"] },
+  "kyoto": { name: "京都府議会", place: "京都府", level: "pref", area: "近畿", status: "soon", kw: ["京都", "きょうと"] },
+  "hyogo": { name: "兵庫県議会", place: "兵庫県", level: "pref", area: "近畿", status: "soon", kw: ["兵庫", "ひょうご", "神戸"] },
+  "hiroshima": { name: "広島県議会", place: "広島県", level: "pref", area: "中国・四国", status: "soon", kw: ["広島", "ひろしま"] },
+  "fukuoka": { name: "福岡県議会", place: "福岡県", level: "pref", area: "九州・沖縄", status: "soon", kw: ["福岡", "ふくおか", "博多"] }
+};
+const AREAS = ["北海道・東北", "関東", "中部", "近畿", "中国・四国", "九州・沖縄"];
+const POSTAL = [
+  { p: "150", muni: "tokyo/shibuya" }, { p: "151", muni: "tokyo/shibuya" },
+  { p: "160", muni: "tokyo/shinjuku" }, { p: "169", muni: "tokyo/shinjuku" },
+  { p: "154", muni: "tokyo/setagaya" }, { p: "156", muni: "tokyo/setagaya" }, { p: "157", muni: "tokyo/setagaya" },
+  { p: "220", muni: "kanagawa/yokohama" }, { p: "231", muni: "kanagawa/yokohama" },
+  { p: "530", muni: "osaka/osaka-city" }, { p: "541", muni: "osaka/osaka-city" }
+];
+
+const DATA = {
+  "tokyo": {
+    members: 127,
+    session: { isOpen: true, name: "第222回定例会", opened: "2026年9月1日", close: "2026年9月26日",
+      last: { name: "第221回定例会", opened: "2026年6月2日", closed: "2026年6月27日" } },
+    bills: [
+      { id: "toei-yusen", category: "住宅", name: "都営住宅、子育て世帯の優先枠を3倍に", official: "東京都営住宅条例の一部を改正する条例案",
+        status: "審議中", stage: 1, by: "head", dateKind: "提案", date: "2026年7月14日", committee: "住宅政策特別委員会",
+        summary: "いまの都営住宅は抽選が中心で、子育て世帯が優先されるのは一部の枠だけです。この提案は、子どもがいる世帯向けの優先枠を今の3倍に増やし、入居までの待ち時間を短くすることを目指しています。",
+        changes: ["子育て世帯向けの優先枠を今の3倍に増やす"],
+        who: ["都営住宅に申し込む子育て世帯", "一般枠で申し込む世帯（枠が減る可能性）"],
+        why: "子育て世帯の入居待ちが平均3年を超えている（架空の数字）ためと、都は説明しています。",
+        stageNote: "住宅政策特別委員会での審議が続いています。今定例会の最終日に採決される見込みです。",
+        sources: [["関連資料", "住宅政策本部 資料No.14（架空）"], ["会議録", "住宅政策特別委員会 2026年9月9日（架空）"]] },
+      { id: "shinya-bus", category: "交通", name: "終電後も走る深夜バス、3路線を新設", official: "東京都地域公共交通計画の変更に関する議案",
+        status: "審議中", stage: 1, by: "head", dateKind: "提案", date: "2026年9月2日", committee: "都市整備委員会",
+        summary: "終電のあとに帰る手段がなく困っている医療や物流で働く人たちの声を受けて、主なターミナル駅から住宅地へ向かう深夜バスを試しに走らせる内容です。まずは3路線・週5日の運行から始める案です。",
+        changes: ["終電後の深夜バスを3路線新しく走らせる", "運行は週5日から始める"],
+        who: ["終電後まで働く人（医療・物流など）", "路線の近くに住む人"],
+        why: "終電後の帰り道についての要望が増えていることを受け、まず試しに走らせると都は説明しています。",
+        stageNote: "都市整備委員会で、所管局からの説明を受けた段階です。",
+        sources: [["関連資料", "都市整備局 深夜交通実態調査（架空）"]] },
+      { id: "hoikuryo", category: "子育て", name: "0〜2歳児の保育料、一律月5千円下げる", official: "東京都保育料軽減事業に関する条例の一部を改正する条例案",
+        status: "審議中", stage: 1, by: "member", party: "子育て応援会派（仮）", dateKind: "提案", date: "2026年6月28日", committee: "厚生委員会",
+        summary: "いまの保育料は世帯の収入によって細かく分かれています。この提案は仕組みをシンプルにして、0〜2歳児のいるすべての世帯で保育料を一律に月5千円下げることを提案しています。お金は都の基金から出すことを想定しています。",
+        changes: ["保育料を一律で月5千円下げる", "財源は都の基金から出す"],
+        who: ["0〜2歳の子を保育所に預けている世帯"],
+        why: "物価が上がり、子育て世帯の負担が増えているためと、提出した会派は説明しています。",
+        stageNote: "厚生委員会で、対象を0〜1歳児に絞る修正案が出されました。",
+        sources: [["関連資料", "福祉局 保育料算定基準の見直し（架空）"], ["会議録", "厚生委員会 2026年9月18日（架空）"]] },
+      { id: "mokumitsu", category: "防災", name: "木造住宅の多い地域、建て替え補助を250万円に", official: "木造住宅密集地域整備促進事業費補助に関する条例の一部を改正する条例案",
+        status: "決定", stage: 3, by: "head", dateKind: "可決", date: "2026年8月20日", committee: "防災都市づくり特別委員会",
+        summary: "地震のときに火が燃え広がりやすい、木造の家が密集した地域を対象に、建て替えや燃えにくくする改修にかかる費用の補助の上限を150万円から250万円に引き上げる内容です。",
+        changes: ["建て替え・耐火改修の補助上限を250万円に引き上げる"],
+        who: ["指定された地域に木造の家を持つ人", "その周りに住む人"],
+        why: "大きな地震で火が広がるおそれのある地域で、建て替えが進んでいないためと、都は説明しています。",
+        stageNote: "本会議で可決されました。来年度から始まる予定です。",
+        sources: [["関連資料", "都市整備局 木密地域不燃化プロジェクト（架空）"]] },
+      { id: "app-tougou", category: "デジタル", name: "都税・申請をスマホアプリ1つにまとめる", official: "東京都行政手続等における情報通信の技術の利用に関する条例の一部を改正する条例案",
+        status: "審議中", stage: 1, by: "head", dateKind: "提案", date: "2026年7月30日", committee: "デジタルサービス推進特別委員会",
+        summary: "都税の支払いや証明書の申請は、いまは用途ごとに別のサイトやアプリを使う必要があります。これを一つの公式アプリにまとめ、マイナンバーカードで本人確認までアプリの中で終わらせる計画です。",
+        changes: ["分かれている手続きを1つのアプリにまとめる", "マイナンバーカードで本人確認をアプリ内で済ませる"],
+        who: ["都税を払う人", "都の手続きや証明書の申請をする人"],
+        why: "手続きごとにサイトが分かれていて使いにくいという声が多いためと、都は説明しています。",
+        stageNote: "システム開発費が妥当かどうかについて、委員会で質疑が続いています。",
+        sources: [["関連資料", "デジタルサービス局 統合アプリ基本構想（架空）"]] },
+      { id: "mimamori", category: "福祉", name: "ひとり暮らしの高齢者、見守りセンサーを無料に", official: "高齢者見守り支援事業費補助に関する条例案",
+        status: "審議中", stage: 1, by: "head", dateKind: "提案", date: "2026年7月2日", committee: "厚生委員会",
+        summary: "65歳以上のひとり暮らし世帯を対象に、ふだんと違う生活の様子を感知して家族や区市町村に知らせる見守りセンサーの設置費と月々の利用料を、都が全額負担する内容です。初年度は希望者のうち先着1万世帯が対象です。",
+        changes: ["見守りセンサーの設置費と利用料を都が全額負担する", "初年度は先着1万世帯を対象にする"],
+        who: ["65歳以上でひとり暮らしの人", "離れて暮らす家族"],
+        why: "ひとり暮らしの高齢者が増え、体調の変化に気づくのが遅れる例があるためと、都は説明しています。",
+        stageNote: "対象を1万世帯にとどめるかどうかで、委員会の意見が分かれています。",
+        sources: [["関連資料", "福祉局 高齢者見守り事業計画（架空）"], ["会議録", "厚生委員会 2026年9月18日（架空）"]] },
+      { id: "taiyoko", category: "環境", name: "新築の太陽光パネル、費用を半額補助する案", official: "東京都太陽光発電設備等の設置に係る補助に関する条例案",
+        status: "否決", stage: 3, by: "member", party: "グリーン東京の会（仮）", dateKind: "採決", date: "2026年5月16日", committee: "環境・建設委員会",
+        summary: "新しく建てる一戸建てに太陽光パネルを付けるとき、その費用の半額（上限50万円）を都が補助する内容でした。必要な予算の大きさや、義務ではなく補助にとどめる仕組みに反対意見が多く出ました。",
+        changes: ["設置費用の半額（上限50万円）を補助する", "対象は新築の一戸建てに限る"],
+        who: ["新しく一戸建てを建てる人"],
+        why: "家庭でつくる再生可能エネルギーを増やすためと、提出した会派は説明していました。",
+        stageNote: "本会議の採決で賛成が少なく、否決されました。",
+        sources: [["関連資料", "環境局 太陽光発電導入促進策（架空）"]] },
+      { id: "akiya", category: "住宅", name: "空き家をシェアハウスに、改修費の3分の1を補助", official: "空家等活用促進事業費補助に関する条例案",
+        status: "提案中", stage: 0, by: "member", party: "都民生活を守る会（仮）", dateKind: "提案", date: "2026年9月8日", committee: "住宅政策特別委員会",
+        summary: "増え続ける空き家を、若い人向けの安いシェアハウスとして使い直す事業者に、改修費用の3分の1（上限300万円）を補助する内容です。空き家を減らすことと、家賃の負担を軽くすることを同時にねらっています。",
+        changes: ["空き家の改修費用の3分の1（上限300万円）を補助する"],
+        who: ["空き家を持っている人", "シェアハウスを運営する事業者", "安い住まいを探す若い人"],
+        why: "空き家が増え続ける一方で、若い人の家賃の負担が重くなっているためと、提出した会派は説明しています。",
+        stageNote: "提案されたばかりで、審議はまだ始まっていません。",
+        sources: [["関連資料", "住宅政策本部 空き家活用ガイドライン（架空）"]] },
+      { id: "denshi-tosho", category: "デジタル", name: "都立図書館の電子書籍を無料で借りられるように", official: "東京都立図書館条例の一部を改正する条例案",
+        status: "審議中", stage: 1, by: "head", dateKind: "提案", date: "2026年8月5日", committee: "文教委員会",
+        summary: "都立図書館の紙の本に加えて、主な電子書籍も都民なら誰でも無料で借りられるようにする内容です。スマホやタブレットを持っていない人のために、区役所の窓口で端末を貸し出すことも検討されています。",
+        changes: ["主な電子書籍を無料で借りられるようにする", "端末がない人向けに窓口での貸し出しを検討する"],
+        who: ["都立図書館を使う人", "図書館まで行きにくい人"],
+        why: "図書館に通うのが難しい人でも本を読めるようにするためと、都は説明しています。",
+        stageNote: "文教委員会に付託され、出版社との利用条件の調整を待っています。",
+        sources: [["関連資料", "生活文化スポーツ局 電子図書館構想（架空）"]] }
+    ],
+    meetings: [
+      { id: "kousei-0918", body: "厚生委員会", kind: "committee", date: "2026-09-18", duration: "3:12:40",
+        decided: "保育料の一律引き下げ案に修正案が出て、採決は最終日に持ち越し。見守りセンサー案は質疑を終えた。",
+        points: ["保育料を月5千円下げる条例案に、対象を0〜1歳児に絞る修正案が出された", "財源となる基金が何年もつのかに質問が集中した", "見守りセンサー無料化では「先着1万世帯」の上限が足りるかが議論になった", "2つの議案は、今定例会の最終日に採決される見込み"],
+        chapters: [
+          { start: "0:00:00", end: "0:14:20", title: "開会と今日の議題", summary: "委員長が、今日扱う2つの議案と質疑の順番を説明しました。",
+            speakers: [["北村 誠", "委員長"]], bills: [],
+            tx: [["北村委員長", "ただいまから厚生委員会を開会いたします。本日は、付託議案2件について質疑を行います。"]] },
+          { start: "0:14:20", end: "1:26:45", title: "保育料引き下げ案：お金は何年もつのか", summary: "提出会派が0〜2歳児の保育料を一律で月5千円下げるねらいを説明。福祉局長は、財源の基金は今の残高で約4年分と答えました。4年後どうするのか、という質問が相次ぎました。",
+            speakers: [["森下 綾", "子育て応援会派（仮）"], ["石原 隆", "福祉局長"], ["宮田 健一", "生活インフラ推進の会（仮）"]], bills: ["hoikuryo"],
+            tx: [["森下委員", "保育料の負担が、第二子をためらう一番の理由になっているという声を多く聞いています。"], ["石原福祉局長", "基金の現在の残高から試算いたしますと、おおむね4年分の財源となります。"], ["宮田委員", "5年目以降の保育料はどうなるのか、見通しを示していただきたい。"]] },
+          { start: "1:26:45", end: "2:05:10", title: "修正案：対象を0〜1歳児に絞る", summary: "財源を長くもたせるため、保育料の引き下げ対象を0〜1歳児に絞る修正案が出されました。提出会派は「まず一番負担の重い時期から」と賛成の考えを示しました。",
+            speakers: [["宮田 健一", "生活インフラ推進の会（仮）"], ["森下 綾", "子育て応援会派（仮）"]], bills: ["hoikuryo"],
+            tx: [["宮田委員", "対象年齢を0歳から1歳までとする修正案を提出いたします。"], ["森下委員", "保育料の負担が最も重い時期に絞ることは、趣旨に沿うものと考えます。"]] },
+          { start: "2:05:10", end: "3:04:30", title: "見守りセンサー無料化：1万世帯で足りるか", summary: "都内のひとり暮らし高齢者は約90万世帯（架空の数字）。先着1万世帯では少なすぎるという意見と、まず試して効果を見るべきという意見に分かれました。",
+            speakers: [["高野 里美", "高齢者福祉ネットワーク（仮）"], ["石原 隆", "福祉局長"], ["北村 誠", "委員長"]], bills: ["mimamori"],
+            tx: [["高野委員", "先着順では、情報が届きにくい方ほど取り残されるのではないでしょうか。"], ["石原福祉局長", "初年度は効果検証を行い、翌年度以降の対象拡大を検討いたします。"]] },
+          { start: "3:04:30", end: "3:12:40", title: "まとめと次回の予定", summary: "2つの議案は質疑を終え、定例会最終日の本会議で採決する予定であることが確認されました。",
+            speakers: [["北村 誠", "委員長"]], bills: ["hoikuryo", "mimamori"],
+            tx: [["北村委員長", "以上で本日の質疑を終了いたします。"]] }
+        ] },
+      { id: "honkaigi-0901", body: "本会議", kind: "plenary", date: "2026-09-01", duration: "4:48:10",
+        decided: "第222回定例会が開会。知事が議案32件を提出し、各会派の代表質問が行われた。",
+        points: ["第222回定例会が開会し、会期を26日間と決めた", "知事が防災と子育てを重点とする考えを述べた", "都税の統合アプリなど、議案32件の説明があった", "代表質問では保育料と都営住宅についての質問が多かった"],
+        chapters: [
+          { start: "0:00:00", end: "0:12:30", title: "開会と会期の決定", summary: "議長が開会を宣言し、会期を9月26日までの26日間とすることを決めました。",
+            speakers: [["小川 正人", "議長"]], bills: [], tx: [["小川議長", "ただいまから第222回定例会を開会いたします。"]] },
+          { start: "0:12:30", end: "1:05:00", title: "知事のあいさつ：防災と子育てを重点に", summary: "知事が今後の都政の方針を説明。木造住宅の多い地域の防災と、子育て世帯の負担を軽くすることを重点に挙げました。",
+            speakers: [["知事", "東京都知事（架空）"]], bills: ["mokumitsu"],
+            tx: [["知事", "首都直下地震への備えと、子育て世帯への支援を、都政の両輪として進めてまいります。"]] },
+          { start: "1:05:00", end: "2:40:00", title: "議案32件の説明", summary: "副知事が今回提出された議案を説明しました。都税や申請を1つのアプリにまとめる条例改正案も含まれています。",
+            speakers: [["副知事", "東京都副知事（架空）"]], bills: ["app-tougou"],
+            tx: [["副知事", "行政手続きを一つのアプリで完結できるよう、条例の改正を提案するものであります。"]] },
+          { start: "2:40:00", end: "3:50:00", title: "代表質問①：保育料と都営住宅", summary: "保育料の引き下げについて、財源の考え方を問う質問がありました。都営住宅の子育て優先枠についても質問が出ました。",
+            speakers: [["森下 綾", "子育て応援会派（仮）"], ["青山 美和", "都民生活を守る会（仮）"], ["知事", "東京都知事（架空）"]], bills: ["hoikuryo", "toei-yusen"],
+            tx: [["森下議員", "保育料の負担軽減について、知事の基本的な考えを伺います。"], ["青山議員", "都営住宅の子育て優先枠の拡大は、待機期間の短縮に直結します。"]] },
+          { start: "3:50:00", end: "4:48:10", title: "代表質問②：深夜の交通と太陽光", summary: "終電後の交通手段について、深夜バス新設案に関する質問がありました。前の定例会で否決された太陽光パネル補助の今後についても問われました。",
+            speakers: [["宮田 健一", "生活インフラ推進の会（仮）"], ["緑川 翔", "グリーン東京の会（仮）"]], bills: ["shinya-bus", "taiyoko"],
+            tx: [["宮田議員", "終電後に帰宅できない医療従事者の実態を、都はどう把握しているのでしょうか。"], ["緑川議員", "太陽光発電の普及策について、否決後の方針を伺います。"]] }
+        ] },
+      { id: "kyoiku-0911", body: "教育委員会", kind: "edu", date: "2026-09-11", duration: "1:52:30",
+        decided: "都立高校のタブレット更新の方針を決めた。部活動の地域移行は報告のみ。",
+        points: ["都立高校で使うタブレットを、来年度から順番に新しくする方針を決めた", "費用の一部を保護者が負担する案は見送られた", "部活動を地域のクラブに移す取り組みの進み具合が報告された", "学校に行きづらい子の学びの場を増やす計画も報告された"],
+        chapters: [
+          { start: "0:00:00", end: "0:05:10", title: "開会", summary: "教育長が開会し、議題3件を確認しました。", speakers: [["佐伯 直子", "教育長"]], bills: [],
+            tx: [["佐伯教育長", "ただいまから定例会を開会します。本日の議題は3件です。"]] },
+          { start: "0:05:10", end: "0:48:00", title: "都立高校のタブレットを新しくする", summary: "導入から5年たったタブレットを来年度から順番に入れ替える方針を決めました。保護者に費用の一部を負担してもらう案は、家庭の負担が大きいとして見送られました。",
+            speakers: [["大野 亮介", "教育委員"], ["教育部長", "教育庁（架空）"]], bills: [],
+            tx: [["大野委員", "保護者負担を求めることは、家庭の状況による差を広げかねません。"], ["教育部長", "保護者負担は求めず、全額を公費で対応する方向で整理いたしました。"]] },
+          { start: "0:48:00", end: "1:30:20", title: "部活動を地域のクラブへ", summary: "休日の部活動を地域のスポーツクラブなどに任せる取り組みの報告。指導者が足りない地域があることや、参加費の負担が課題として挙がりました。",
+            speakers: [["村井 陽子", "教育委員"], ["指導部長", "教育庁（架空）"]], bills: [],
+            tx: [["村井委員", "参加費が理由で部活動をあきらめる生徒が出ないようにしてほしい。"], ["指導部長", "参加費の補助について、区市町村と協議を進めております。"]] },
+          { start: "1:30:20", end: "1:52:30", title: "学校に行きづらい子の学びの場", summary: "学校以外で学べる「校内の別室」や地域の教室を増やす計画が報告されました。オンラインで授業に参加できる仕組みも広げる予定です。",
+            speakers: [["佐伯 直子", "教育長"]], bills: ["denshi-tosho"],
+            tx: [["佐伯教育長", "学校に来られない日も学びが途切れないよう、選択肢を増やしてまいります。電子書籍の活用も検討します。"]] }
+        ] },
+      { id: "toshi-0915", body: "都市整備委員会", kind: "committee", date: "2026-09-15", duration: "2:36:05",
+        decided: "深夜バス3路線の新設案について所管局から説明を受けた。質疑は次回に。",
+        points: ["深夜バスは主要ターミナル駅から住宅地へ3路線、週5日で運行する案", "運転手をどう確保するかが一番の課題として挙がった", "木造住宅の多い地域の補助について、申し込み状況が報告された"],
+        chapters: [
+          { start: "0:00:00", end: "0:58:40", title: "深夜バス案の説明", summary: "都市整備局が深夜バス3路線の案を説明。深夜0時半から2時ごろまで、30分おきに走らせる想定です。",
+            speakers: [["都市整備局長", "都市整備局（架空）"]], bills: ["shinya-bus"],
+            tx: [["都市整備局長", "終電後の0時30分から午前2時まで、30分間隔での運行を想定しております。"]] },
+          { start: "0:58:40", end: "1:52:15", title: "運転手は確保できるのか", summary: "バスの運転手が全国的に足りない中で、深夜の運行を担う人をどう集めるのかについて質問が相次ぎました。",
+            speakers: [["宮田 健一", "生活インフラ推進の会（仮）"], ["桜井 大輔", "都民生活を守る会（仮）"]], bills: ["shinya-bus"],
+            tx: [["桜井委員", "深夜バスの運転手の確保について、事業者との協議状況を伺います。"], ["宮田委員", "深夜手当の上乗せを都が支援する考えはあるのでしょうか。"]] },
+          { start: "1:52:15", end: "2:36:05", title: "木造住宅の多い地域、補助の申し込み状況", summary: "8月に成立した建て替え補助の拡大について、すでに約300件の相談があったと報告されました（架空の数字）。",
+            speakers: [["都市整備局長", "都市整備局（架空）"]], bills: ["mokumitsu"],
+            tx: [["都市整備局長", "補助上限の引き上げ後、約300件のご相談をいただいております。"]] }
+        ] },
+      { id: "jutaku-0909", body: "住宅政策特別委員会", kind: "committee", date: "2026-09-09", duration: "2:05:50",
+        decided: "都営住宅の子育て優先枠を3倍にする案を審議。高齢世帯への影響について質疑があった。",
+        points: ["子育て世帯の優先枠を3倍にすると、一般枠の倍率が上がるという指摘があった", "高齢のひとり暮らし世帯の枠は今のまま維持すると説明された", "空き家をシェアハウスに改修する補助案も付託された"],
+        chapters: [
+          { start: "0:00:00", end: "1:10:30", title: "都営住宅の子育て優先枠を3倍に", summary: "提出会派が、子育て世帯の待ち時間が平均3年を超えている（架空の数字）と説明。優先枠を増やすと一般枠の倍率が上がる、という質問が出ました。",
+            speakers: [["青山 美和", "都民生活を守る会（仮）"], ["住宅政策本部長", "住宅政策本部（架空）"]], bills: ["toei-yusen"],
+            tx: [["青山委員", "子育て世帯の平均待機期間は3年を超えております。"], ["住宅政策本部長", "一般枠の倍率は、現在の約20倍から約24倍になると見込んでおります。"]] },
+          { start: "1:10:30", end: "1:48:00", title: "高齢世帯への影響", summary: "高齢のひとり暮らし世帯の優先枠は減らさない、と住宅政策本部が説明しました。",
+            speakers: [["高野 里美", "高齢者福祉ネットワーク（仮）"], ["住宅政策本部長", "住宅政策本部（架空）"]], bills: ["toei-yusen"],
+            tx: [["高野委員", "高齢単身世帯の枠が削られることはないと、確認させてください。"], ["住宅政策本部長", "高齢単身世帯の優先枠は現行どおり維持いたします。"]] },
+          { start: "1:48:00", end: "2:05:50", title: "空き家をシェアハウスにする補助案", summary: "空き家の改修補助案がこの委員会に付託されたことが報告されました。審議は次回からです。",
+            speakers: [["桜井 大輔", "都民生活を守る会（仮）"]], bills: ["akiya"],
+            tx: [["桜井委員", "空き家対策と若者の住まいの問題を、一緒に解決する提案です。"]] }
+        ] },
+      { id: "digital-0916", body: "デジタルサービス推進特別委員会", kind: "committee", date: "2026-09-16", duration: "2:58:15",
+        decided: "都税・申請アプリ統合案の開発費をめぐって質疑。次回に追加資料が出される。",
+        points: ["アプリ統合の開発費は5年間で約80億円（架空の数字）と説明された", "高すぎるのではという質問に、局は既存システムの維持費が減ると答えた", "スマホを使わない人向けの窓口は残すことが確認された"],
+        chapters: [
+          { start: "0:00:00", end: "1:15:40", title: "開発費は妥当か", summary: "統合アプリの開発費は5年間で約80億円。既存の複数システムの維持費が減るので、長い目で見れば安くなるとデジタルサービス局が説明しました。",
+            speakers: [["山崎 拓也", "デジタル都政推進会派（仮）"], ["デジタルサービス局長", "デジタルサービス局（架空）"]], bills: ["app-tougou"],
+            tx: [["デジタルサービス局長", "既存システムの維持費削減により、7年目以降は費用を上回る効果を見込んでおります。"]] },
+          { start: "1:15:40", end: "2:20:10", title: "スマホを使わない人はどうなる", summary: "アプリを使えない高齢者などのために、区役所などの窓口での手続きは残すことが確認されました。",
+            speakers: [["高野 里美", "高齢者福祉ネットワーク（仮）"], ["デジタルサービス局長", "デジタルサービス局（架空）"]], bills: ["app-tougou"],
+            tx: [["高野委員", "アプリに一本化されて、窓口がなくなるのではと心配する声があります。"], ["デジタルサービス局長", "窓口での手続きは引き続き維持いたします。"]] },
+          { start: "2:20:10", end: "2:58:15", title: "個人情報の守り方", summary: "マイナンバーカードと連携する際の情報の扱いについて質問があり、次回に詳しい資料が出されることになりました。",
+            speakers: [["山崎 拓也", "デジタル都政推進会派（仮）"]], bills: ["app-tougou"],
+            tx: [["山崎委員", "個人情報の保護策について、次回までに詳細な資料をお示しください。"]] }
+        ] }
+    ]
+  },
+  "tokyo/shibuya": {
+    members: 34,
+    session: { isOpen: false, name: "第3回定例会", opened: "2026年9月3日", close: "2026年10月8日",
+      last: { name: "第2回定例会", opened: "2026年6月5日", closed: "2026年6月25日" } },
+    bills: [
+      { id: "kodomo-shokudo", category: "子育て", name: "子ども食堂の運営費を区が補助", official: "渋谷区子ども食堂運営支援事業補助金交付条例案",
+        status: "決定", stage: 3, by: "head", dateKind: "可決", date: "2026年6月25日", committee: "福祉保健委員会",
+        summary: "区内で子ども食堂を開いている団体に、食材費や会場費の一部を区が補助する内容です。1団体あたり年間最大60万円（架空の数字）を想定しています。",
+        changes: ["子ども食堂の食材費や会場費の一部を補助する", "補助は1団体あたり年間最大60万円とする"],
+        who: ["子ども食堂を運営する団体", "子ども食堂を利用する子どもと家族"],
+        why: "食材の値上がりで、続けるのが難しくなっている子ども食堂が増えているためと、区は説明しています。",
+        stageNote: "本会議で可決されました。10月から申し込みが始まります。",
+        sources: [["関連資料", "渋谷区 子ども家庭支援課 資料（架空）"]] },
+      { id: "bichiku", category: "防災", name: "マンションごとに防災用の備蓄を配る", official: "渋谷区集合住宅防災備蓄支援事業に関する条例案",
+        status: "決定", stage: 4, by: "head", dateKind: "可決", date: "2026年6月25日", committee: "総務委員会",
+        summary: "大きな地震のあと、避難所に行かずに自宅で過ごす人が多いマンション向けに、水や簡易トイレなどの備蓄品を建物ごとに区が配る内容です。",
+        changes: ["マンションの管理組合に備蓄品を配る", "水や簡易トイレなど3日分を目安にする"],
+        who: ["区内のマンションに住む人", "マンションの管理組合"],
+        why: "区民の多くがマンションに住み、災害のときは自宅で過ごす人が多いと見込まれるためと、区は説明しています。",
+        stageNote: "本会議で可決され、備蓄品の配布が始まっています。",
+        sources: [["関連資料", "渋谷区 防災課 資料（架空）"]] },
+      { id: "kitchen-car", category: "環境", name: "区立公園のキッチンカー出店を許可制に", official: "渋谷区立公園条例の一部を改正する条例案",
+        status: "否決", stage: 3, by: "member", party: "みどりの渋谷（仮）", dateKind: "採決", date: "2026年6月25日", committee: "都市環境委員会",
+        summary: "区立公園でのキッチンカー出店を、区の許可を受けた事業者だけに限る内容でした。ごみや騒音への対策としては効果が薄いという意見が多く出ました。",
+        changes: ["公園でのキッチンカー出店に区の許可を必要とする", "出店できる時間を午後8時までにする"],
+        who: ["公園に出店するキッチンカーの事業者", "公園を利用する人"],
+        why: "公園でのごみや騒音への苦情が増えているためと、提出した議員は説明していました。",
+        stageNote: "本会議の採決で賛成が少なく、否決されました。",
+        sources: [["関連資料", "渋谷区 公園課 資料（架空）"]] }
+    ],
+    meetings: [
+      { id: "honkaigi-0625", body: "本会議", kind: "plenary", date: "2026-06-25", duration: "2:14:30",
+        decided: "第2回定例会の最終日。子ども食堂の補助と防災備蓄の条例が成立、キッチンカー許可制は否決。",
+        points: ["子ども食堂への補助条例が全会一致で成立した", "マンション向けの防災備蓄条例も成立した", "公園のキッチンカーを許可制にする案は否決された"],
+        chapters: [
+          { start: "0:00:00", end: "0:52:10", title: "子ども食堂の補助、全会一致で成立", summary: "委員長が審査の結果を報告し、全会一致で可決されました。",
+            speakers: [["中西 由佳", "福祉保健委員長"]], bills: ["kodomo-shokudo"],
+            tx: [["中西委員長", "本委員会は、全会一致で原案のとおり可決すべきものと決定いたしました。"]] },
+          { start: "0:52:10", end: "1:30:45", title: "マンションの防災備蓄", summary: "自宅で避難する人を支える仕組みとして賛成多数で成立しました。",
+            speakers: [["原田 浩二", "総務委員長"]], bills: ["bichiku"],
+            tx: [["原田委員長", "在宅避難の支援策として、賛成多数で可決すべきものと決定いたしました。"]] },
+          { start: "1:30:45", end: "2:14:30", title: "キッチンカー許可制は否決", summary: "賛成・反対の討論のあと採決が行われ、賛成少数で否決されました。",
+            speakers: [["緑川 花", "みどりの渋谷（仮）"], ["佐野 健", "区民クラブ（仮）"]], bills: ["kitchen-car"],
+            tx: [["緑川議員", "公園の静けさを守るため、一定のルールが必要です。"], ["佐野議員", "許可制ではなく、ごみの持ち帰りの徹底で対応すべきです。"]] }
+        ] },
+      { id: "kyoiku-0910", body: "教育委員会", kind: "edu", date: "2026-09-10", duration: "1:24:10",
+        decided: "区立中学校の給食費を来年度から無償にする方針を報告。",
+        points: ["区立中学校の給食費を来年度から無償にする方針が報告された", "学校のプールを近くの民間施設に切り替える検討が始まった", "教員の働き方改革の進み具合が報告された"],
+        chapters: [
+          { start: "0:03:00", end: "0:40:20", title: "中学校の給食費を無償に", summary: "来年度から区立中学校の給食費を無償にする方針が報告されました。費用は年間約5億円（架空の数字）です。",
+            speakers: [["藤本 恵", "教育長"]], bills: [],
+            tx: [["藤本教育長", "来年度より、区立中学校の給食費を無償とする方向で準備を進めます。"]] },
+          { start: "0:40:20", end: "1:24:10", title: "学校のプールを民間施設に", summary: "古くなった学校プールを建て直す代わりに、近くの民間スイミング施設を使う案の検討が始まりました。",
+            speakers: [["岡田 修", "教育委員"]], bills: [],
+            tx: [["岡田委員", "移動時間が授業に与える影響も、あわせて検証してください。"]] }
+        ] }
+    ]
+  }
+};
+
+const STATUS_CLS = { "提案中": "s-pending", "審議中": "s-active", "決定": "s-passed", "否決": "s-rejected" };
+
+const LEARN = [
+  { id: "flow", title: "議会と議案の流れ", desc: "議案が出されてから、決まるまでの5つのステップ。", min: 2,
+    lead: "議会で決まることの多くは「議案」という形で出されます。条例（地域のルール）や予算などです。議案は、だいたい次の順番で進みます。",
+    flow: [["提出", "知事や区長、または議員が議案を出します。"], ["委員会付託", "議案の分野に合った委員会に、詳しく調べる役目が任されます。"], ["委員会審議", "委員会で質問や議論をして、賛成か反対かを決めます。"], ["本会議", "議員全員が集まる本会議で、最終的に採決します。"], ["成立・否決", "賛成が多ければ成立し、条例や予算として動き始めます。"]],
+    body: ["Policの「進み具合」は、この流れのどこまで進んだかを表しています。"] },
+  { id: "committee", title: "委員会とは", desc: "議論がいちばん詳しいのは、実は委員会。", min: 2,
+    lead: "委員会は、議員が分野ごとに分かれた少人数のグループです。福祉、住宅、交通など、分野ごとに担当が決まっています。",
+    body: ["議案の中身についての細かい質問や、役所の担当者とのやりとりは、ほとんどが委員会で行われます。本会議だけ見ていても、なぜその結論になったのかはわかりにくいことが多いのです。", "委員会には、ずっと置かれている「常任委員会」と、特定のテーマのために作られる「特別委員会」があります。", "Policの「会議」では、委員会の録画を話題ごとに区切って要約しています。"] },
+  { id: "plenary", title: "本会議とは", desc: "議員全員が集まり、最後に決める場。", min: 2,
+    lead: "本会議は、すべての議員が集まる会議です。議案を最終的に決めるのはここです。",
+    body: ["本会議では、会派の代表が知事や区長に質問する「代表質問」や、議員が個人として質問する「一般質問」も行われます。地域の大きな方針について、トップの考えが聞ける場面です。", "委員会で決まった結論が、本会議でひっくり返ることはあまりありません。でも、採決のときに誰が賛成・反対したかは、ここで記録に残ります。"] },
+  { id: "broadcast", title: "中継の見方", desc: "何時間もある録画を、見たいところだけ見るコツ。", min: 3,
+    lead: "多くの議会は、公式サイトで会議の生中継と録画を公開しています。ただ、1つの会議が3〜5時間になることも珍しくありません。",
+    body: ["全部を見る必要はありません。気になる議案や質問のところだけ見れば十分です。", "画面には、話している人の名前と会派（議員のグループ）が表示されることが多いです。誰がどの立場で話しているかを見ると、議論の流れがつかみやすくなります。"] },
+  { id: "minutes", title: "会議録とは", desc: "発言をそのまま文字にした、公式の記録。", min: 2,
+    lead: "会議録は、会議での発言を一言ずつ文字にした公式の記録です。議会のサイトで誰でも読むことができます。",
+    body: ["会議録が公開されるまでには、会議から数週間から数か月かかることがあります。"] }
+];
+
+/* ================= state ================= */
+const DEFAULT_REGION = "tokyo";
+const state = {
+  region: store.get("gb.region", null),
+  billFilter: {}, mtgFilter: {},
+  viewKey: null, prev: null, modalFromHub: false, lastFocus: null
+};
+const curRegion = () => (state.region && REGIONS[state.region] ? state.region : DEFAULT_REGION);
+
+function billById(region, id) { const d = DATA[region]; return d && d.bills.find((b) => b.id === id); }
+// Same label shape and weight for both kinds of proposer — neutrality requirement.
+function proposer(region, b, withParty) {
+  if (b.by === "head") return `${REGIONS[region].head}の提案`;
+  return withParty ? `議員の提案（${b.party}）` : "議員の提案";
+}
+const jpDate = (s) => { const m = String(s).match(/(\d+)年(\d+)月(\d+)日/); return m ? +m[1] * 10000 + +m[2] * 100 + +m[3] : 0; };
+const byRecent = (list) => list.slice().sort((a, b) => jpDate(b.date) - jpDate(a.date));
+function mtgById(region, id) { const d = DATA[region]; return d && d.meetings.find((m) => m.id === id); }
+function meetingsForBill(region, billId) {
+  const out = [];
+  (DATA[region] ? DATA[region].meetings : []).forEach((m) => m.chapters.forEach((c, i) => { if (c.bills.includes(billId)) out.push({ m, c, i }); }));
+  return out.sort((a, b) => (a.m.date < b.m.date ? 1 : -1));
+}
+
+function chooseRegion(path) {
+  if (!REGIONS[path]) return;
+  state.region = path;
+  store.set("gb.region", path);
+  closePicker(true);
+  location.hash = "#/" + path;
+}
+
+/* ================= region search ================= */
+function searchRegions(raw) {
+  const q = normQ(raw);
+  if (!q) return { hint: "", items: [] };
+  const digits = q.replace(/[〒\s-]/g, "");
+  if (/^\d{1,2}$/.test(digits)) return { hint: "郵便番号を7桁で入力してください", items: [] };
+  if (/^\d{3,7}$/.test(digits)) {
+    const hit = POSTAL.find((e) => digits.startsWith(e.p));
+    if (!hit) {
+      return { hint: digits.length === 7 ? "この郵便番号はサンプルの対応表にありません（例：150-0041、160-0022、530-0001）" : "郵便番号を7桁で入力してください", items: [] };
+    }
+    const code = digits.length === 7 ? `〒${digits.slice(0, 3)}-${digits.slice(3)}` : `〒${digits}…`;
+    const muni = REGIONS[hit.muni];
+    return { hint: `${code} → ${REGIONS[muni.parent].place} ${muni.place}`, items: [{ path: hit.muni }, { path: muni.parent }] };
+  }
+  const ql = q.toLowerCase();
+  const out = [];
+  const push = (p) => { if (!out.some((o) => o.path === p)) out.push({ path: p }); };
+  Object.keys(REGIONS).forEach((p) => {
+    const R = REGIONS[p];
+    const hit = R.name.includes(q) || R.place.includes(q) || R.kw.some((k) => k.toLowerCase().includes(ql) || ql.includes(k.toLowerCase()));
+    if (hit) { push(p); if (R.level === "muni") push(R.parent); }
+  });
+  out.sort((a, b) => (REGIONS[a.path].status === "soon") - (REGIONS[b.path].status === "soon"));
+  return { hint: out.length ? "" : "見つかりませんでした。都道府県名や市区町村名、郵便番号で探せます。", items: out.slice(0, 7) };
+}
+
+function optHTML(item, idx, uid) {
+  const R = REGIONS[item.path];
+  const sub = R.level === "muni" ? REGIONS[R.parent].place : "都道府県";
+  return `<li class="rs-opt" role="option" id="${uid}-o${idx}" aria-selected="false" data-choose="${item.path}">
+    <span class="lv" aria-hidden="true">${R.place.slice(-1)}</span>
+    <span class="nm">${esc(R.place)}<span class="sub">${sub}</span></span>
+    ${R.status === "soon" ? '<span class="soon">準備中</span>' : ""}
+  </li>`;
+}
+
+let rsCount = 0;
+function mountRegionSearch(root, opts = {}) {
+  const uid = "rs" + (++rsCount);
+  root.innerHTML = `
+    <label class="sr" for="${uid}-in">郵便番号または地名で地域を探す</label>
+    <div class="rs-field">${icon("search")}
+      <input id="${uid}-in" class="rs-input" type="search" autocomplete="off" inputmode="search"
+        placeholder="${opts.placeholder || "郵便番号（例：150-0041）または地名"}"
+        role="combobox" aria-expanded="false" aria-controls="${uid}-list" aria-autocomplete="list">
+    </div>
+    <ul class="rs-list" id="${uid}-list" role="listbox" aria-label="候補" hidden></ul>`;
+  const input = root.querySelector("input");
+  const list = root.querySelector("ul");
+  let active = -1;
+  const opts_ = () => $$(".rs-opt", list);
+  function setActive(i) {
+    const o = opts_(); if (!o.length) return;
+    active = (i + o.length) % o.length;
+    o.forEach((el, k) => el.setAttribute("aria-selected", k === active ? "true" : "false"));
+    input.setAttribute("aria-activedescendant", o[active].id);
+    o[active].scrollIntoView({ block: "nearest" });
+  }
+  function render(result) {
+    active = -1; input.removeAttribute("aria-activedescendant");
+    if (!result || (!result.items.length && !result.hint)) { list.hidden = true; input.setAttribute("aria-expanded", "false"); return; }
+    list.innerHTML = (result.hint ? `<li class="rs-hint" role="presentation">${esc(result.hint)}</li>` : "") +
+      result.items.map((it, i) => optHTML(it, i, uid)).join("");
+    list.hidden = false; input.setAttribute("aria-expanded", "true");
+  }
+  input.addEventListener("input", () => render(searchRegions(input.value)));
+  input.addEventListener("focus", () => { if (input.value) render(searchRegions(input.value)); });
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown") { e.preventDefault(); setActive(active + 1); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); setActive(active - 1); }
+    else if (e.key === "Enter") {
+      const o = opts_(); const el = o[active >= 0 ? active : 0];
+      if (el) { e.preventDefault(); chooseRegion(el.dataset.choose); }
+    } else if (e.key === "Escape" && !list.hidden) { e.stopPropagation(); render(null); }
+  });
+  root.addEventListener("focusout", (e) => { if (!root.contains(e.relatedTarget)) setTimeout(() => { if (!root.contains(document.activeElement)) render(null); }, 120); });
+  list.addEventListener("mousedown", (e) => e.preventDefault());
+  root._show = render;
+  root._input = input;
+  return root;
+}
+
+function runGeo(key) {
+  const note = $(`[data-geo-note="${key}"]`);
+  const rs = $(`[data-rs="${key}"]`);
+  if (note) note.textContent = "現在地を確認しています…";
+  setTimeout(() => {
+    if (note) note.textContent = "現在地（デモ）：東京都渋谷区付近 ※実際の位置情報は使っていません";
+    if (rs && rs._show) {
+      rs._show({ hint: "現在地の近く", items: [{ path: "tokyo/shibuya" }, { path: "tokyo" }] });
+      rs._input.focus();
+    }
+  }, 700);
+}
+
+/* ================= picker ================= */
+function renderPickerLists() {
+  const cur = REGIONS[curRegion()];
+  $("#pickerBrowse").innerHTML = AREAS.map((a) => {
+    const prefs = Object.keys(REGIONS).filter((p) => REGIONS[p].area === a && REGIONS[p].level === "pref");
+    const items = [];
+    prefs.forEach((p) => {
+      items.push(p);
+      Object.keys(REGIONS).filter((m) => REGIONS[m].parent === p).forEach((m) => items.push(m));
+    });
+    const open = a === cur.area ? " open" : "";
+    return `<details class="area"${open}><summary>${a}<span class="cnt">${items.length}件</span>${icon("down")}</summary><ul class="area-list">${items.map((p) => {
+      const R = REGIONS[p];
+      const tag = R.status === "soon" ? '<span class="soon-tag">準備中</span>' : R.status === "lite" ? '<span class="live">一部公開</span>' : '<span class="live">公開中</span>';
+      return `<li><button type="button" class="area-btn${R.level === "muni" ? " muni" : ""}" data-choose="${p}">${esc(R.place)}${tag}</button></li>`;
+    }).join("")}</ul></details>`;
+  }).join("");
+}
+
+function showOverlay(el) {
+  el.classList.add("show");
+  requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add("in")));
+  document.body.style.overflow = "hidden";
+}
+function hideOverlay(el, instant) {
+  closeTerm();
+  el.classList.remove("in");
+  const done = () => { el.classList.remove("show"); if (!$(".overlay.show.in")) document.body.style.overflow = ""; };
+  if (instant) done(); else setTimeout(done, 240);
+}
+
+const picker = $("#picker");
+function openPicker() {
+  state.lastFocus = document.activeElement;
+  renderPickerLists();
+  const rs = $('[data-rs="picker"]');
+  if (!rs._input) mountRegionSearch(rs, {});
+  rs._input.value = ""; rs._show(null);
+  $('[data-geo-note="picker"]').textContent = "";
+  showOverlay(picker);
+  setTimeout(() => rs._input.focus(), 60);
+}
+function closePicker(instant) {
+  if (!picker.classList.contains("show")) return;
+  hideOverlay(picker, instant);
+  if (!instant && state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
+}
+picker.addEventListener("click", (e) => { if (e.target === picker) closePicker(); });
+
+/* ================= shared fragments ================= */
+const TILTS = [-2, 1.5, -1, 2, -1.5, 1, -2, 1.5, -1, 2];
+function billCard(region, b, i) {
+  return `<a class="bill-card" href="#/${region}/bills/${b.id}" style="--i:${i};--tilt:${TILTS[i % TILTS.length]}deg">
+    <span class="paper">
+      <span class="paper-badges"><span class="by-tag">${proposer(region, b)}</span><span class="status ${STATUS_CLS[b.status]}">${b.status}</span></span>
+      <span class="paper-official">${esc(b.official)}</span>
+    </span>
+    <span class="bill-caption">${esc(b.name).replace(/、/g, "、<wbr>")}</span>
+  </a>`;
+}
+
+function newsletterForm(id, compact) {
+  return `<form class="${compact ? "form-stack" : "form-stack"}" data-form="newsletter" novalidate>
+    <div class="field"><label class="sr" for="${id}">メールアドレス</label>
+      <div class="inline-form"><input class="input" id="${id}" type="email" required placeholder="メールアドレス" autocomplete="email">
+      <button class="btn btn-primary" type="submit">登録する</button></div>
+    </div>
+  </form>`;
+}
+
+function confirmHTML(title, sub) {
+  return `<div class="confirm" role="status">${icon("check")}<div><b>${title}</b><span>${sub}</span></div></div>`;
+}
+
+/* ================= views ================= */
+function seatsSVG() {
+  const rows = [70, 88, 106, 124, 142, 160];
+  let circles = "", k = 0;
+  const cx = 180, cy = 176;
+  rows.forEach((r, ri) => {
+    const n = Math.floor((Math.PI * r) / 17);
+    for (let j = 0; j <= n; j++) {
+      const a = Math.PI - (Math.PI * j) / n;
+      const x = cx + r * Math.cos(a), y = cy - r * Math.sin(a);
+      const t = j / n;
+      const cls = t < 0.34 && ri > 0 ? "on" : t > 0.82 && ri < 4 ? "alt" : "";
+      circles += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5.2" class="${cls}" style="--d:${k++}"/>`;
+    }
+  });
+  return `<svg class="seats" viewBox="0 0 360 250" role="img" aria-label="議場の座席のイメージ">${circles}</svg>`;
+}
+
+function viewHome() {
+  const saved = state.region && REGIONS[state.region] ? state.region : null;
+  const latest = byRecent(DATA.tokyo.bills).slice(0, 4);
+  return `
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>地元で何が決まっているか、<em>3分でわかる</em></h1>
+        <p class="hero-lead">地元の政策を、ふだんの言葉で。</p>
+        <div class="hero-actions">
+          ${saved ? `<a class="btn btn-primary" href="#/${saved}">前回の地域：${esc(REGIONS[saved].place)} ${icon("right")}</a>
+            <p class="hero-alt" style="margin-top:4px">別の地域を探す</p>` : ""}
+          <div class="rs" data-rs="hero"></div>
+          <div class="hero-alt">
+            <button type="button" data-geo="hero">${icon("locate")}現在地から探す</button>
+            ${saved ? "" : `<a href="#/tokyo">東京都をのぞいてみる</a>`}
+            <button type="button" data-open-picker>一覧から選ぶ</button>
+          </div>
+          <p class="geo-note" data-geo-note="hero" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        ${seatsSVG()}
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">新しい政策と提案</h2>
+        <a class="text-link" href="#/tokyo">すべて見る ${icon("right")}</a>
+      </div>
+      <div class="bill-grid">${latest.map((b, i) => billCard("tokyo", b, i)).join("")}</div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container">
+      <div class="section-head"><h2 class="section-title">Policでできること</h2></div>
+      <div class="inside-grid">
+        <a class="inside" href="#/tokyo">
+          <div class="mini" aria-hidden="true">
+            <div class="mini-card"><i class="tag"></i><i class="l1"></i><i class="l2"></i></div>
+            <div class="mini-card"><i class="tag p"></i><i class="l1"></i><i class="l2"></i></div>
+            <div class="mini-card"><i class="tag"></i><i class="l1"></i><i class="l2"></i></div>
+          </div>
+          <h3>政策と提案 ${icon("right")}</h3>
+          <p>提案から実施まで。</p>
+        </a>
+        <a class="inside" href="#/tokyo/meetings">
+          <div class="mini mini-tl" aria-hidden="true">
+            <div class="mini-bar"><span style="flex:1"></span><span class="on" style="flex:3"></span><span style="flex:1.4"></span><span style="flex:2.2"></span><span style="flex:.6"></span></div>
+            <div class="mini-lines"><i style="width:80%"></i><i style="width:55%"></i></div>
+          </div>
+          <h3>会議の記録 ${icon("right")}</h3>
+          <p>長い会議を、話題ごとに。</p>
+        </a>
+        <a class="inside" href="#/learn">
+          <div class="mini mini-step" aria-hidden="true"><b></b><em></em><b></b><em></em><b></b><em class="off"></em><b class="off"></b><em class="off"></em><b class="off"></b></div>
+          <h3>学ぶ ${icon("right")}</h3>
+          <p>議会のしくみを短く。</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">どうやって作っているか</h2>
+        <a class="text-link" href="#/about">くわしく ${icon("right")}</a>
+      </div>
+      <ul class="trust-list">
+        <li><span class="ic">${icon("doc")}</span><b>公式の資料だけ</b></li>
+        <li><span class="ic">${icon("sparkle")}</span><b>AIの下書きを人が確認</b></li>
+        <li><span class="ic">${icon("scale")}</span><b>どの政党にも寄らない</b></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container involve">
+      <div class="panel">
+        <h3>いっしょに作りませんか</h3>
+        <p>週1〜2時間から。</p>
+        <a class="btn btn-ghost" href="#/join">参加する ${icon("right")}</a>
+      </div>
+      <div class="panel" data-nl-wrap>
+        <h3>新しい政策と提案を週1回メールで</h3>
+        ${newsletterForm("nl-home")}
+      </div>
+    </div>
+  </section>`;
+}
+
+function sessionBanner(region) {
+  const s = DATA[region].session;
+  if (s.isOpen) {
+    return `<div class="session is-open">
+      <div><p class="session-state"><span class="state-tag">開会中</span>${esc(s.name)}</p>
+      <p class="session-dates">${s.opened} 〜 ${s.close}（閉会予定）</p></div>
+      <button class="btn btn-primary btn-small" type="button" data-proto="本会議の中継ページ">${icon("play")}本会議の中継を見る</button>
+    </div>`;
+  }
+  return `<div class="session">
+    <div><p class="session-state"><span class="state-tag">閉会中</span>前回：${esc(s.last.name)}</p>
+    <p class="session-dates">${s.last.opened} 〜 ${s.last.closed}</p></div>
+    <button class="btn btn-ghost btn-small" type="button" data-proto="過去の本会議の録画一覧">${icon("play")}これまでの録画を見る</button>
+  </div>`;
+}
+
+function viewHub(r) {
+  const R = REGIONS[r.region];
+  const d = DATA[r.region];
+  const base = "#/" + r.region;
+  if (R.status === "soon" || !d) {
+    return `<div class="container hub-head">
+      <div class="hub-title-row"><h1 tabindex="-1" data-focus>${esc(R.place)}</h1></div></div>
+    <div class="container"><div class="soon-panel">
+      <span class="soon-tag" style="margin:0">準備中</span>
+      <h2>このページは準備中です</h2>
+      <div class="row">
+        ${R.level === "muni" ? `<a class="btn btn-ghost" href="#/${R.parent}">${esc(REGIONS[R.parent].place)}を見る</a>` : `<a class="btn btn-ghost" href="#/tokyo">東京都（サンプル）を見る</a>`}
+      </div>
+    </div></div>`;
+  }
+  if (r.tab === "meetings") return viewMtgSoon(r);
+  return `<div class="container hub-head">
+    <div class="hub-title-row"><h1 tabindex="-1" data-focus>${esc(R.place)}の政策と提案</h1>
+      <a class="text-link hub-mtg" href="${base}/meetings">会議の記録 ${icon("right")}</a></div>
+    ${R.status === "lite" ? `<p class="hub-sub">一部のみ掲載</p>` : ""}
+  </div>
+  <div class="container hub-body">${billsTab(r.region)}</div>`;
+}
+
+function viewMtgSoon(r) {
+  const R = REGIONS[r.region];
+  return `<div class="container hub-head">
+    <a class="back" href="#/${r.region}">${icon("left")}${esc(R.place)}</a>
+    <div class="hub-title-row"><h1 tabindex="-1" data-focus>会議の記録</h1></div>
+    <div class="soon-panel">
+      <span class="soon-tag" style="margin:0">準備中</span>
+      <h2>このページは準備中です</h2>
+      <p>長い会議の録画を、わかりやすくまとめる機能を作っています。</p>
+      <div class="row">
+        <a class="btn btn-primary" href="#/${r.region}">${esc(R.place)}の政策と提案を見る ${icon("right")}</a>
+      </div>
+    </div>
+  </div>`;
+}
+
+function billsTab(region) {
+  const d = DATA[region];
+  const cats = ["すべて"].concat([...new Set(d.bills.map((b) => b.category))]);
+  const f = state.billFilter[region] || "すべて";
+  return `<div class="chips" role="group" aria-label="分野で絞り込む">${cats.map((c) =>
+    `<button type="button" class="chip" data-bill-filter="${c}" aria-pressed="${c === f}">${c}</button>`).join("")}</div>
+    <div id="billList">${billList(region, f)}</div>`;
+}
+function billList(region, f) {
+  const list = byRecent(DATA[region].bills.filter((b) => f === "すべて" || b.category === f));
+  return list.length ? `<div class="bill-grid">${list.map((b, i) => billCard(region, b, i)).join("")}</div>` : `<p class="empty">この分野の政策・提案はまだありません。</p>`;
+}
+
+function meetingsTab(region) {
+  const f = state.mtgFilter[region] || "all";
+  const kinds = [["all", "すべて"], ["plenary", "本会議"], ["committee", "委員会"], ["edu", "教育委員会"]];
+  return `<div class="chips" role="group" aria-label="会議の種類で絞り込む">${kinds.map(([k, l]) =>
+    `<button type="button" class="chip" data-mtg-filter="${k}" aria-pressed="${k === f}">${l}</button>`).join("")}</div>
+    <div id="mtgList">${mtgList(region, f)}</div>`;
+}
+function mtgList(region, f) {
+  const list = DATA[region].meetings.filter((m) => f === "all" || m.kind === f).slice().sort((a, b) => (a.date < b.date ? 1 : -1));
+  if (!list.length) return `<p class="empty">この種類の会議のまとめはまだありません。</p>`;
+  return `<ul class="mtg-list">${list.map((m, i) => {
+    const t = ymd(m.date);
+    return `<li><a class="mtg-row" href="#/${region}/meetings/${m.id}" style="--i:${i}">
+      <span class="mtg-date"><b>${t.m}/${t.d}</b><span>${t.y} (${t.w})</span></span>
+      <span>
+        <span class="mtg-meta"><span class="body-tag${m.kind === "edu" ? " edu" : ""}">${esc(m.body)}</span>
+          <span class="m">${icon("clock")}録画 ${durJa(m.duration)}</span><span class="m">${m.chapters.length}つの話題</span></span>
+        <span class="mtg-decided" style="display:block">${esc(m.decided)}</span>
+      </span>${icon("chev")}
+    </a></li>`;
+  }).join("")}</ul>`;
+}
+
+function viewMeeting(r) {
+  const m = mtgById(r.region, r.id);
+  if (!m) return viewNotFound();
+  const q = r.q.get("q") || "";
+  return `<div class="container narrow">
+    <a class="back" href="#/${r.region}/meetings">${icon("left")}会議一覧</a>
+    <header class="mtg-head">
+      <h1 tabindex="-1" data-focus>${esc(m.body)}</h1>
+      <p class="mtg-head-meta"><span>${icon("cal")}${fmtDate(m.date, true)}</span><span>${icon("clock")}録画 ${durJa(m.duration)}</span><span>${icon("list")}${m.chapters.length}つの話題</span></p>
+      <div class="btn-row">
+        <button class="btn btn-ghost btn-small" type="button" data-proto="公式の録画ページ">${icon("play")}公式の録画</button>
+        <button class="btn btn-ghost btn-small" type="button" data-proto="会議録（PDF）">${icon("doc")}会議録</button>
+      </div>
+      <p class="disclose">${icon("info")}<span>AIが下書きし、人が確認しています。<a href="#/join?s=contact&topic=correction">誤りを報告</a></span></p>
+    </header>
+
+    <section class="points" aria-labelledby="pts">
+      <h2 id="pts">この会議のポイント</h2>
+      <ul>${m.points.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
+    </section>
+
+    <div class="tl-wrap">
+      <div class="tl" role="group" aria-label="録画のタイムライン（話題ごと）">${m.chapters.map((c, i) => {
+        const w = Math.max(1, toSec(c.end) - toSec(c.start));
+        return `<button type="button" style="flex:${w}" data-jump="${i}" aria-label="${c.start}〜 ${esc(c.title)}" title="${c.start} ${esc(c.title)}"></button>`;
+      }).join("")}</div>
+      <div class="tl-label"><span>0:00:00</span><span>${m.duration}</span></div>
+    </div>
+
+    <div class="mtg-search" role="search">
+      <div class="rs-field">${icon("search")}<label class="sr" for="mq">この会議の中を検索</label>
+        <input id="mq" class="rs-input" type="search" placeholder="この会議の中を検索（例：${m.id === "kousei-0918" ? "保育料" : "予算"}）" value="${esc(q)}" autocomplete="off"></div>
+    </div>
+    <p class="mtg-search-count" id="mqCount" aria-live="polite"></p>
+
+    <ol class="chapters" id="chapters" aria-label="話題ごとのまとめ"></ol>
+  </div>`;
+}
+
+function chapterHTML(region, m, c, i, q, open) {
+  const trMatch = q && c.tx.some(([s, t]) => has(t, q) || has(s, q));
+  const expanded = open || trMatch;
+  const bills = c.bills.map((id) => billById(region, id)).filter(Boolean);
+  return `<li class="chapter" id="ch-${i}" data-ch="${i}">
+    <div class="ch-time"><b>${c.start}</b><span>– ${c.end}</span></div>
+    <div class="ch-body">
+      <h3>${hl(c.title, q)}</h3>
+      <p class="ch-sum">${hl(c.summary, q)}</p>
+      <div class="speakers" aria-label="発言者">${c.speakers.map(([n, a]) => `<span class="spk">${hl(n, q)}<small>${hl(a, q)}</small></span>`).join("")}</div>
+      ${bills.length ? `<div class="ch-bills">${bills.map((b) => `<a href="#/${region}/bills/${b.id}"><span class="lbl">関連する政策・提案</span>${esc(b.name)}</a>`).join("")}</div>` : ""}
+      <div class="ch-actions">
+        <button type="button" class="btn btn-small btn-watch" data-proto="公式録画を ${c.start} から再生">${icon("play")}この場面を見る</button>
+        <button type="button" class="tx-toggle" data-tx="${i}" aria-expanded="${expanded}" aria-controls="tx-${i}">会議録${icon("down")}</button>
+      </div>
+      <div class="tx" id="tx-${i}"${expanded ? "" : " hidden"}>
+        <p class="tx-label">${icon("doc")}会議録より</p>
+        ${c.tx.map(([s, t]) => `<p class="tx-line"><b>${hl(s, q)}</b>${hl(t, q)}</p>`).join("")}
+      </div>
+    </div>
+  </li>`;
+}
+
+function setupMeeting(r) {
+  const m = mtgById(r.region, r.id);
+  if (!m) return;
+  const input = $("#mq");
+  const list = $("#chapters");
+  const count = $("#mqCount");
+  const openSet = new Set();
+  function render() {
+    const q = input.value.trim();
+    let hits = 0;
+    list.innerHTML = m.chapters.map((c, i) => chapterHTML(r.region, m, c, i, q, openSet.has(i))).join("");
+    const segs = $$(".tl button");
+    m.chapters.forEach((c, i) => {
+      const text = [c.title, c.summary, ...c.speakers.flat(), ...c.tx.flat()].join(" ");
+      const match = !q || has(text, q);
+      if (q && match) hits++;
+      $("#ch-" + i).classList.toggle("dim", !match);
+      segs[i].classList.toggle("hit", !!q && match);
+      segs[i].classList.toggle("dim", !!q && !match);
+    });
+    count.textContent = q ? (hits ? `「${q}」を含む場面が${hits}つあります` : `「${q}」を含む場面は見つかりませんでした`) : "";
+  }
+  input.addEventListener("input", () => {
+    render();
+    const q = input.value.trim();
+    history.replaceState(null, "", `#/${r.region}/meetings/${m.id}` + (q ? "?q=" + encodeURIComponent(q) : ""));
+  });
+  list.addEventListener("click", (e) => {
+    const t = e.target.closest("[data-tx]");
+    if (!t) return;
+    const i = Number(t.dataset.tx);
+    const panel = $("#tx-" + i);
+    const open = panel.hidden;
+    panel.hidden = !open;
+    t.setAttribute("aria-expanded", String(open));
+    if (open) openSet.add(i); else openSet.delete(i);
+  });
+  render();
+  const ch = r.q.get("ch");
+  if (ch != null) setTimeout(() => jumpTo(Number(ch)), 80);
+}
+function jumpTo(i) {
+  const el = $("#ch-" + i);
+  if (!el) return;
+  el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+  $$(".tl button").forEach((b, k) => b.classList.toggle("act", k === i));
+}
+
+/* ---------- bill modal ---------- */
+const billModal = $("#billModal");
+const TERMS = { committee: "委員会", plenary: "本会議" };
+function stepper(b) {
+  const rej = b.status === "否決";
+  const labels = ["提案", "委員会", "本会議", rej ? "否決" : "決定"];
+  if (!rej) labels.push("実施");
+  const terms = [null, "committee", "plenary", null, null];
+  const cur = b.stage;
+  return `<ol class="steps" style="--n:${labels.length}" aria-label="進み具合">${labels.map((l, i) => {
+    let cls = "step";
+    if (i <= cur) cls += " done";
+    if (i === cur) cls += " current";
+    if (rej && i === 3) cls += " rej";
+    const lab = terms[i] ? `<button type="button" class="lab term" data-term="${terms[i]}" aria-expanded="false">${l}<span class="q" aria-hidden="true">?</span></button>` : `<span class="lab">${l}</span>`;
+    return `<li class="${cls}" style="--k:${i}"${i === cur ? ' aria-current="step"' : ""}><span class="dot"></span>${lab}</li>`;
+  }).join("")}</ol>`;
+}
+let termBtn = null;
+function closeTerm() {
+  const pop = $("#termPop");
+  if (!termBtn) return false;
+  termBtn.setAttribute("aria-expanded", "false");
+  termBtn = null;
+  pop.classList.remove("in"); pop.hidden = true;
+  return true;
+}
+function toggleTerm(btn) {
+  const same = btn === termBtn;
+  closeTerm();
+  if (same) return;
+  const pop = $("#termPop");
+  const l = LEARN.find((x) => x.id === btn.dataset.term);
+  pop.innerHTML = `<b>${TERMS[btn.dataset.term]}とは</b>${esc(l.lead)} <a href="#/learn/${l.id}">くわしく</a>`;
+  pop.hidden = false;
+  const b = btn.getBoundingClientRect(), w = pop.offsetWidth, h = pop.offsetHeight;
+  const left = Math.min(Math.max(16, b.left + b.width / 2 - w / 2), innerWidth - w - 16);
+  const top = b.bottom + 8 + h > innerHeight - 16 ? b.top - h - 8 : b.bottom + 8;
+  pop.style.left = left + "px"; pop.style.top = top + "px";
+  requestAnimationFrame(() => pop.classList.add("in"));
+  btn.setAttribute("aria-expanded", "true");
+  termBtn = btn;
+}
+function openBill(region, id) {
+  const b = billById(region, id);
+  if (!b) return false;
+  $("#billContent").innerHTML = `
+    <header class="bd-head">
+      <div><h2 class="bd-title" id="billTitle">${esc(b.name)}</h2><p class="bd-official">${esc(b.official)}</p></div>
+      <button class="icon-btn" type="button" data-close-bill aria-label="閉じる">${icon("close")}</button>
+    </header>
+    <div class="bd-body">
+      <p class="bd-meta"><span>${icon("group")}${esc(proposer(region, b, true))}</span><span class="bd-date">${icon("cal")}${b.date}${b.dateKind}<span class="status ${STATUS_CLS[b.status]}">${b.status}</span></span></p>
+      <p class="bd-sum">${esc(b.summary)}</p>
+      <section class="bd-sec"><h3>何が変わる？</h3><ul class="changes">${b.changes.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></section>
+      <section class="bd-sec"><h3>${b.status === "否決" ? "誰に影響するはずだった？" : "誰に影響がある？"}</h3><ul class="changes">${b.who.map((w) => `<li>${esc(w)}</li>`).join("")}</ul></section>
+      <section class="bd-sec"><h3>なんで今？</h3><p>${esc(b.why)}</p></section>
+      <section class="bd-sec"><h3>進み具合</h3>${stepper(b)}<p class="stage-note">${esc(b.stageNote)}</p>
+        <p class="bd-link"><button type="button" class="text-link" data-proto="${esc(b.committee)}の中継ページ">${esc(b.committee)}の中継を見る ${icon("right")}</button></p></section>
+      <section class="bd-sec">
+        <button type="button" class="src-toggle" aria-expanded="false" aria-controls="srcPanel" data-src>出典を見る${icon("down")}</button>
+        <div class="src-panel" id="srcPanel"><div><dl>${b.sources.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div></div>
+      </section>
+      <p class="bd-foot">架空のサンプルデータです。<a href="#/join?s=contact&topic=correction">誤りを報告する</a></p>
+    </div>`;
+  if (!billModal.classList.contains("show")) {
+    state.lastFocus = state.lastFocus || document.activeElement;
+    showOverlay(billModal);
+  }
+  $("#billContent").scrollTop = 0;
+  setTimeout(() => { const c = $("[data-close-bill]"); if (c) c.focus(); }, 50);
+  return true;
+}
+function hideBill() {
+  if (!billModal.classList.contains("show")) return;
+  hideOverlay(billModal);
+  const lf = state.lastFocus; state.lastFocus = null;
+  if (lf && document.contains(lf)) setTimeout(() => lf.focus({ preventScroll: true }), 10);
+}
+function requestCloseBill() {
+  const r = parse();
+  if (state.modalFromHub) history.back();
+  else location.hash = "#/" + r.region;
+}
+billModal.addEventListener("click", (e) => { if (e.target === billModal) requestCloseBill(); });
+
+/* ---------- search ---------- */
+function viewSearch(r) {
+  const q = r.q.get("q") || "";
+  return `<div class="container narrow">
+    <div class="page-head"><h1 tabindex="-1" data-focus>さがす</h1></div>
+    <div class="search-box" role="search">
+      <div class="rs-field">${icon("search")}<label class="sr" for="gq">キーワード</label>
+      <input id="gq" class="rs-input" type="search" placeholder="例：保育料、深夜バス、空き家" value="${esc(q)}" autocomplete="off"></div>
+      <div class="suggest">${["保育料", "都営住宅", "深夜バス", "空き家", "マイナンバー"].map((s) => `<button type="button" class="chip" data-suggest="${s}">${s}</button>`).join("")}</div>
+    </div>
+    <div class="results" id="results" aria-live="polite"></div>
+  </div>`;
+}
+function snippet(text, q, len = 60) {
+  const i = text.toLowerCase().indexOf(q.toLowerCase());
+  if (i < 0) return hl(text.slice(0, len) + (text.length > len ? "…" : ""), q);
+  const s = Math.max(0, i - 20);
+  const part = (s > 0 ? "…" : "") + text.slice(s, s + len) + (s + len < text.length ? "…" : "");
+  return hl(part, q);
+}
+function runSearch(q) {
+  const out = $("#results");
+  if (!q) { out.innerHTML = ""; return; }
+  const bills = [];
+  Object.keys(DATA).forEach((region) => {
+    const d = DATA[region];
+    d.bills.forEach((b) => {
+      const fields = [b.name, b.official, b.summary, b.category, proposer(region, b, true), ...b.changes, ...b.who, b.why];
+      if (fields.some((f) => has(f, q))) bills.push({ region, b, snip: fields.find((f) => has(f, q)) });
+    });
+  });
+  const grp = (title, n, inner) => `<section class="res-group"><h2>${title}<span class="n">${n}件</span></h2>${inner}</section>`;
+  out.innerHTML =
+    grp("政策と提案", bills.length, bills.length ? `<ul class="hit-list">${bills.map(({ region, b, snip }, k) => `<li><a class="hit" style="--i:${k}" href="#/${region}/bills/${b.id}">
+      <span class="hit-meta"><span>${esc(REGIONS[region].place)} · ${proposer(region, b)}</span><span class="status ${STATUS_CLS[b.status]}">${b.status}</span></span>
+      <span class="hit-title" style="display:block">${hl(b.name, q)}</span>
+      ${snip !== b.name ? `<span class="hit-snip" style="display:block">${snippet(snip, q)}</span>` : ""}
+    </a></li>`).join("")}</ul>` : `<p class="muted">該当する政策・提案はありません。</p>`);
+}
+function setupSearch(r) {
+  const input = $("#gq");
+  const go = () => { const q = input.value.trim(); runSearch(q); history.replaceState(null, "", "#/search" + (q ? "?q=" + encodeURIComponent(q) : "")); };
+  input.addEventListener("input", go);
+  $$("[data-suggest]").forEach((b) => b.addEventListener("click", () => { input.value = b.dataset.suggest; go(); input.focus(); }));
+  runSearch(input.value.trim());
+}
+
+/* ---------- learn ---------- */
+function viewLearn() {
+  return `<div class="container">
+    <div class="page-head"><h1 tabindex="-1" data-focus>学ぶ</h1></div>
+    <div class="learn-grid">${LEARN.map((l, i) => `<a class="learn-card" href="#/learn/${l.id}" style="--i:${i}">
+      <h2>${l.title}</h2><p>${l.desc}</p></a>`).join("")}</div>
+  </div>`;
+}
+function viewLearnItem(r) {
+  const i = LEARN.findIndex((l) => l.id === r.id);
+  if (i < 0) return viewNotFound();
+  const l = LEARN[i], next = LEARN[(i + 1) % LEARN.length];
+  return `<div class="container narrow article">
+    <a class="back" href="#/learn">${icon("left")}学ぶ</a>
+    <div class="page-head" style="padding-top:14px"><h1 tabindex="-1" data-focus>${l.title}</h1></div>
+    <p class="lead">${l.lead}</p>
+    ${l.flow ? `<ol class="flow">${l.flow.map(([t, d]) => `<li><b>${t}</b><span>${d}</span></li>`).join("")}</ol>` : ""}
+    <div class="body">${l.body.map((p) => `<p>${p}</p>`).join("")}</div>
+    <a class="next-card" href="#/learn/${next.id}"><span><small>次を読む</small><b>${next.title}</b></span>${icon("right")}</a>
+  </div>`;
+}
+
+/* ---------- about ---------- */
+function viewAbout() {
+  return `<div class="container narrow article">
+    <div class="page-head"><h1 tabindex="-1" data-focus>Policについて</h1></div>
+    <section class="about-sec" id="mission">
+      <p>地元で何が決まっているかを、だれでも3分でわかるように。ボランティアが運営する非営利のプロジェクトです。広告はありません。</p></section>
+    <section class="about-sec" id="process"><h2>要約ができるまで</h2>
+      <ol class="process">
+        <li><span class="k">01</span><b>公式の資料を集める</b></li>
+        <li><span class="k">02</span><b>AIが下書き</b></li>
+        <li class="human"><span class="k">03</span><b>人が確認</b></li>
+        <li><span class="k">04</span><b>元の資料へのリンクつきで公開</b></li>
+      </ol></section>
+    <section class="about-sec" id="neutral"><h2>中立</h2>
+      <p>どの政党も支持せず、賛成・反対もすすめません。</p></section>
+    <section class="about-sec" id="corrections"><h2>まちがいを見つけたら</h2>
+      <p><a href="#/join?s=contact&topic=correction">お問い合わせ</a>から教えてください。3日以内に直し、記録を残します。</p></section>
+  </div>`;
+}
+
+/* ---------- join ---------- */
+function viewJoinSoon() {
+  return `<div class="container hub-head">
+    <div class="hub-title-row"><h1 tabindex="-1" data-focus>参加する</h1></div>
+    <div class="soon-panel">
+      <span class="soon-tag" style="margin:0">準備中</span>
+      <h2>このページは準備中です</h2>
+      <div class="row"><a class="btn btn-ghost" href="#/">トップへ戻る</a></div>
+    </div>
+  </div>`;
+}
+const ROLES = [
+  ["dev", "開発", "サイトとデータの仕組みづくり"],
+  ["review", "要約レビュー", "AIの下書きをチェック"],
+  ["design", "デザイン", "わかりやすい画面づくり"],
+  ["region", "地域の担当", "あなたの地域を追加する"]
+];
+function viewJoin(r) {
+  const role = r.q.get("role");
+  const topic = r.q.get("topic") === "correction" ? "correction" : "volunteer";
+  const roleName = (ROLES.find((x) => x[0] === role) || [])[1] || "";
+  return `<div class="container">
+    <div class="page-head narrow" style="margin:0"><h1 tabindex="-1" data-focus>参加する</h1><p>週1〜2時間から。</p></div>
+    <div class="roles">${ROLES.map(([id, t, d]) => `<div class="role"${role === id ? ' style="border-color:var(--color-primary)"' : ""}>
+      <h3>${t}</h3><p>${d}</p>
+      <button type="button" class="text-link" data-role="${t}">参加したい ${icon("right")}</button></div>`).join("")}</div>
+    <div class="join-grid">
+      <section class="panel" id="contact" aria-labelledby="cth">
+        <h3 id="cth">お問い合わせ</h3>
+        <form class="form-stack" data-form="contact" novalidate>
+          <div class="field"><label for="cname">お名前（任意）</label><input class="input" id="cname" autocomplete="name"></div>
+          <div class="field"><label for="cmail">メールアドレス</label><input class="input" id="cmail" type="email" required autocomplete="email" placeholder="you@example.com"></div>
+          <div class="field"><label for="ctopic">用件</label>
+            <select class="select" id="ctopic">
+              <option value="volunteer"${topic === "volunteer" ? " selected" : ""}>ボランティアに参加したい</option>
+              <option value="correction"${topic === "correction" ? " selected" : ""}>誤りを報告したい</option>
+              <option value="other">取材・その他</option>
+            </select></div>
+          <div class="field"><label for="cmsg">内容</label><textarea class="textarea" id="cmsg" required>${roleName ? `「${esc(roleName)}」の役割に関心があります。` : ""}</textarea></div>
+          <button class="btn btn-primary" type="submit" style="align-self:flex-start">送信する</button>
+        </form>
+      </section>
+      <section class="panel" aria-labelledby="nlh">
+        <h3 id="nlh">新しい政策と提案を週1回メールで</h3>
+        ${newsletterForm("nl-join")}
+      </section>
+    </div>
+  </div>`;
+}
+
+function viewNotFound() {
+  return `<div class="container narrow"><div class="page-head"><h1 tabindex="-1" data-focus>ページが見つかりません</h1><p>URLが正しいか確かめてください。</p></div>
+    <p style="padding-bottom:64px"><a class="btn btn-primary" href="#/">トップへ戻る</a></p></div>`;
+}
+
+/* ================= router ================= */
+function parse() {
+  const raw = decodeURI(location.hash.replace(/^#/, "")) || "/";
+  const qi = raw.indexOf("?");
+  const p = qi >= 0 ? raw.slice(0, qi) : raw;
+  const q = new URLSearchParams(qi >= 0 ? raw.slice(qi + 1) : "");
+  const seg = p.split("/").filter(Boolean);
+  if (!seg.length) return { name: "home", q };
+  if (seg[0] === "search") return { name: "search", q };
+  if (seg[0] === "learn") return seg[1] ? { name: "learnItem", id: seg[1], q } : { name: "learn", q };
+  if (seg[0] === "about") return { name: "about", q };
+  if (seg[0] === "join") return { name: "join", q };
+  if (!REGIONS[seg[0]]) return { name: "notfound", q };
+  let region = seg[0], i = 1;
+  if (seg[1] && REGIONS[seg[0] + "/" + seg[1]]) { region = seg[0] + "/" + seg[1]; i = 2; }
+  const section = seg[i] || "bills";
+  const id = seg[i + 1];
+  if (section === "bills") return { name: "hub", region, tab: "bills", billId: id, q };
+  if (section === "meetings") return id ? { name: "meeting", region, id, q } : { name: "hub", region, tab: "meetings", q };
+  return { name: "notfound", q };
+}
+
+function keyOf(r) {
+  if (r.name === "hub") return `hub:${r.region}:${r.tab}`;
+  if (r.name === "meeting") return `mtg:${r.region}:${r.id}`;
+  if (r.name === "learnItem") return "learn:" + r.id;
+  if (r.name === "join") return "join:" + r.q.toString();
+  if (r.name === "about") return "about:" + (r.q.get("s") || "");
+  return r.name;
+}
+
+function updateChrome(r) {
+  const reg = curRegion();
+  $("#regionPillName").textContent = REGIONS[reg].place;
+  $("#regionPill").setAttribute("aria-label", `地域：${REGIONS[reg].place}（変更する）`);
+  $("#regionPill").hidden = r.name === "home";
+  const active = r.name === "search" || r.name === "about" ? r.name : null;
+  $$("[data-nav]").forEach((a) => {
+    if (a.dataset.nav === active) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
+}
+
+const main = $("#main");
+function router() {
+  const r = parse();
+  if (r.region) {
+    if (state.region !== r.region) {
+      state.region = r.region;
+      store.set("gb.region", r.region);
+    }
+  }
+  closePicker(true);
+  updateChrome(r);
+
+  const key = keyOf(r);
+  const prevKey = state.viewKey;
+  if (key !== prevKey) {
+    let html;
+    switch (r.name) {
+      case "home": html = viewHome(); break;
+      case "hub": html = viewHub(r); break;
+      case "meeting": html = viewMtgSoon(r); break;
+      case "search": html = viewSearch(r); break;
+      case "learn": html = viewLearn(); break;
+      case "learnItem": html = viewLearnItem(r); break;
+      case "about": html = viewAbout(); break;
+      case "join": html = viewJoinSoon(); break;
+      default: html = viewNotFound();
+    }
+    main.innerHTML = html;
+    main.classList.remove("enter"); void main.offsetWidth; main.classList.add("enter");
+    state.viewKey = key;
+    if (r.name === "home") { mountRegionSearch($('[data-rs="hero"]'), {}); }
+    if (r.name === "search") setupSearch(r);
+    window.scrollTo(0, 0);
+    const s = r.q.get("s");
+    if (s) setTimeout(() => { const t = document.getElementById(s); if (t) t.scrollIntoView({ block: "start" }); }, 30);
+    if (prevKey !== null && !(r.name === "hub" && r.billId)) {
+      const f = $("[data-focus]", main); if (f) f.focus({ preventScroll: true });
+    }
+  }
+
+  document.title = titleFor(r);
+  if (r.name === "hub" && r.billId) {
+    state.modalFromHub = billModal.classList.contains("show") ? state.modalFromHub : (state.prev && state.prev.name === "hub" && state.prev.region === r.region && !state.prev.billId);
+    if (!openBill(r.region, r.billId)) { hideBill(); }
+    const b = billById(r.region, r.billId); if (b) document.title = b.name + " — Polic";
+  } else {
+    hideBill();
+    state.modalFromHub = false;
+  }
+  state.prev = r;
+}
+function titleFor(r) {
+  const base = "Polic";
+  if (r.name === "hub" && r.tab === "meetings" || r.name === "meeting") return `会議の記録（準備中） — ${base}`;
+  if (r.name === "hub") return `${REGIONS[r.region].place}の政策と提案 — ${base}`;
+  const map = { search: "さがす", learn: "学ぶ", about: "About", join: "参加する" };
+  if (r.name === "learnItem") { const l = LEARN.find((x) => x.id === r.id); return l ? `${l.title} — ${base}` : base; }
+  return map[r.name] ? `${map[r.name]} — ${base}` : `${base} — 地元の政策を、ふだんの言葉で`;
+}
+
+/* ================= global events ================= */
+document.addEventListener("click", (e) => {
+  const t = e.target;
+  const proto = t.closest("[data-proto]");
+  if (proto) { e.preventDefault(); alert("プロトタイプ: " + proto.dataset.proto + "（未実装）"); return; }
+  if (t.closest("[data-open-picker]")) { e.preventDefault(); openPicker(); return; }
+  if (t.closest("[data-close-picker]")) { closePicker(); return; }
+  if (t.closest("[data-close-bill]")) { requestCloseBill(); return; }
+  const term = t.closest("[data-term]");
+  if (term) { toggleTerm(term); return; }
+  if (termBtn && !t.closest("#termPop")) closeTerm();
+  const ch = t.closest("[data-choose]");
+  if (ch) { chooseRegion(ch.dataset.choose); return; }
+  const geo = t.closest("[data-geo]");
+  if (geo) { runGeo(geo.dataset.geo); return; }
+  const bf = t.closest("[data-bill-filter]");
+  if (bf) {
+    const r = parse(); state.billFilter[r.region] = bf.dataset.billFilter;
+    $$("[data-bill-filter]").forEach((c) => c.setAttribute("aria-pressed", String(c === bf)));
+    $("#billList").innerHTML = billList(r.region, bf.dataset.billFilter); return;
+  }
+  const mf = t.closest("[data-mtg-filter]");
+  if (mf) {
+    const r = parse(); state.mtgFilter[r.region] = mf.dataset.mtgFilter;
+    $$("[data-mtg-filter]").forEach((c) => c.setAttribute("aria-pressed", String(c === mf)));
+    $("#mtgList").innerHTML = mtgList(r.region, mf.dataset.mtgFilter); return;
+  }
+  const jump = t.closest("[data-jump]");
+  if (jump) { jumpTo(Number(jump.dataset.jump)); return; }
+  const src = t.closest("[data-src]");
+  if (src) {
+    const open = src.getAttribute("aria-expanded") !== "true";
+    src.setAttribute("aria-expanded", String(open));
+    src.firstChild.textContent = open ? "出典を閉じる" : "出典を見る";
+    $("#srcPanel").classList.toggle("open", open); return;
+  }
+  const role = t.closest("[data-role]");
+  if (role) {
+    const sel = $("#ctopic"), msg = $("#cmsg");
+    if (sel) sel.value = "volunteer";
+    if (msg) msg.value = `「${role.dataset.role}」の役割に関心があります。`;
+    const c = $("#contact"); if (c) c.scrollIntoView({ behavior: "smooth", block: "start" });
+    setTimeout(() => { const m = $("#cmail"); if (m) m.focus({ preventScroll: true }); }, 350);
+  }
+});
+
+document.addEventListener("submit", (e) => {
+  const f = e.target.closest("form[data-form]");
+  if (!f) return;
+  e.preventDefault();
+  const mail = f.querySelector('input[type="email"]');
+  if (mail && !mail.checkValidity()) { mail.focus(); mail.reportValidity(); return; }
+  const msg = f.querySelector("textarea[required]");
+  if (msg && !msg.value.trim()) { msg.focus(); msg.reportValidity(); return; }
+  if (f.dataset.form === "newsletter") {
+    f.outerHTML = confirmHTML("登録しました", "次回の配信からお届けします。");
+  } else {
+    f.outerHTML = confirmHTML("送信しました", "数日以内にご連絡します。");
+  }
+});
+
+$("#billContent").addEventListener("scroll", closeTerm, { passive: true });
+addEventListener("resize", closeTerm);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    if (picker.classList.contains("show")) { closePicker(); return; }
+    if (closeTerm()) return;
+    if (billModal.classList.contains("show")) { requestCloseBill(); return; }
+  }
+  if (e.key === "Tab") {
+    const ov = picker.classList.contains("show") ? picker : billModal.classList.contains("show") ? billModal : null;
+    if (!ov) return;
+    const f = $$('a[href], button:not([disabled]), input, select, textarea, summary, [tabindex]:not([tabindex="-1"])', ov).filter((el) => el.offsetParent !== null);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (!ov.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
+    else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+});
+
+window.addEventListener("hashchange", router);
+router();
+})();
+</script>
+</body>
+
+</html>
