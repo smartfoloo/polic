@@ -5,7 +5,11 @@ declare global {
 		// interface Error {}
 		// interface Locals {}
 		// interface PageData {}
-		// interface PageState {}
+		// Bill popup (shallow routing): the bill shown over the board, or closed after a direct visit
+		interface PageState {
+			bill?: import('$lib/bills.js').PublicBill;
+			closed?: boolean;
+		}
 		// interface Platform {}
 	}
 }

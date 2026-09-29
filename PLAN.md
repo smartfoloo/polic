@@ -257,20 +257,24 @@ Matches the fields the design already uses.
 - [ ] Fill in the 2027 ward-election notice date and election day in `REVIEW.md` once announced.
 
 ### Step 6 — Site
-- [ ] Build `stageNote` (ja/en) from stage/status/committee, e.g. 「保健福祉委員会で審議中です。」.
-- [ ] Port the design's bill board (category chips, cards) and bill detail (summary, 何が変わる？, 自分にどう関係する？, 5-stop stepper, collapsed 出典) into Svelte components.
-- [ ] Every bill: source links, AI disclosure line, "report an error" mailto.
-- [ ] Build step includes only bills where `publishState()` is `reviewed` or `auto`; label them 「人が確認済み」 or 「AIが作成した要約です。まだ人が確認していません。正確な内容は原文をご確認ください。」 (English: unchecked machine translation unless `en.approved`).
-- [ ] Region picker covers the three pilot assemblies.
-- [ ] `/en/` routes via `[[lang=lang]]`; UI strings in a small ja/en dictionary; language toggle switches the prefix.
-- [ ] English pages use `en` only when `en.approved`; otherwise show Japanese with an "English coming soon" note.
-- [ ] Show each bill's 定例会: a label on the card; on the detail page it sits inline in the meta row (proposer · date · 定例会 ⓘ · status), and the ⓘ opens a popover with the dates and 開会前/開会中/閉会 (from `assemblies.js`).
-- [ ] Bill popup: proposer/date/status and the 定例会 line sit above the thick divider, so reading starts at the summary; only title + close stay pinned, and the divider moves under them once scrolled.
-- [ ] Board header lists the 定例会 we cover (name only, plus 開会中 on the open one; no heading) instead of 「一部のみ掲載」, followed by 「掲載しているのは、これらの定例会に出された条例の議案だけです。予算・契約・人事・報告などは対象外です。」 (en too).
-- [ ] Board order per the Decisions table (pending → decided → no-direct-effect), ties by bill number.
-- [ ] 「よく見られている」 strip from `popular.json` (threshold, hidden when empty, hidden during election freeze).
-- [ ] Bill page sends the view beacon (`fetch('/v/<id>', { method: 'POST', keepalive: true })`) once per mount.
-- [ ] Privacy policy page (incl. short-lived access logs for view counting, aggregates only).
+Built 2026-09-29 from the design reference. Pages: landing, one board per assembly, bill popup (also its own URL), search, About, privacy policy, 404; 会議・学ぶ・参加する are 準備中 pages. Every page also under `/en/`.
+- [x] `stageNote` (ja/en) built from stage/status/committee/date in `src/lib/bills.js`.
+- [x] Board (category chips, paper cards with a fixed emoji per topic) and bill popup (summary, 何が変わる？, 誰に影響がある？ (left out when empty), なんで今？, 5-stop stepper with ? notes, collapsed 出典).
+- [x] Every bill: source links, AI disclosure line, "report an error" mailto (address = `POLIC_CONTACT`, public).
+- [x] Build includes only bills where `publishState()` is `reviewed` or `auto` (`src/lib/server/data.js`); internal fields (`checks`, `draft`, hashes) are stripped. Labels: 「AIが作成し、人が確認した要約です。」 / 「AIが作成した要約です。まだ人が確認していません。正確な内容は原文をご確認ください。」; title-only bills say the text isn't published.
+- [x] Board shows a subtle count of held bills (「ほかに確認中の議案がN件あります。」), no titles.
+- [x] Region picker lists the three pilot assemblies.
+- [x] `/en/` via `[[lang=lang]]`; UI strings inline as `t('日本語', 'English')`; footer link switches language; `<html lang>` set per page.
+- [x] English: shown whenever it matches the current Japanese (`sourceHash`), labelled "not yet checked by a person" unless `en.approved` (per REVIEW.md); otherwise the Japanese with "English coming soon".
+- [x] 定例会: short label on each card; inline in the popup's meta row with an ⓘ note (dates, 開会前/開会中/閉会 as of the build date).
+- [x] Popup: title + close pinned; official title, meta row, 定例会 and disclosure above the thick divider; the divider moves under the title once scrolled. Opening from the board uses shallow routing (URL changes, back closes it); a direct visit shows the board with the bill open.
+- [x] Board header lists the 定例会 we cover (開会中 on the open one) and the coverage sentence.
+- [x] Board order per the Decisions table. Bills with no date (Tokyo member bills) sort by their session's opening date.
+- [x] 「よく見られている」 strip from `data/popular.json` (`{ "visitors": { "<bill id>": <unique visitors, last 14 days> } }`), ≥ 30, top 5, hidden when empty or in an election window.
+- [x] Popup sends the view beacon once per bill shown (skipped in dev).
+- [x] Privacy policy page (`/privacy`): no cookies/analytics, access logs ≤ 14 days, aggregates only, OpenAI (US) named. **Draft: check against the legal briefing before launch.**
+- [x] Search (`/search?q=`): substring match over live bills after NFKC + lowercase (全角/半角 insensitive), all words must match.
+- [x] Fonts self-hosted (`@fontsource`): no third-party requests.
 
 ### Step 7 — Launch
 - [ ] Email each 議会事務局: what we crawl, rate, user-agent, contact.
@@ -291,10 +295,14 @@ Matches the fields the design already uses.
   		log_name views
   		respond 204
   	}
+  	handle_errors 404 {
+  		rewrite * /404.html
+  		file_server
+  	}
   }
   ```
   (`log_name` needs Caddy ≥ 2.8; check the VPS version and test the log routing before launch.)
-- [ ] `scripts/popular.js` + nightly cron: read `views.log`, count unique hashed visitors per bill per day over 14 days, write `data/popular.json`, rebuild.
+- [ ] `scripts/popular.js` + nightly cron: read `views.log`, count unique hashed visitors per bill per day over 14 days, write `data/popular.json` (format in Step 6), rebuild. The nightly rebuild also keeps session states and the election window current.
 - [ ] Add the election-period freeze dates (April 2027) to the review checklist.
 
 ---

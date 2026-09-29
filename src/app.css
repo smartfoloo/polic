@@ -1,0 +1,484 @@
+/* Design tokens and shared pieces, ported from the design reference
+   (.skillslab/generated/2026-09-26-gikai-board-website/direction-a/none). Component styles live in
+   each component. */
+
+:root {
+	--color-background: #eee9de;
+	--color-surface: #f8f5ee;
+	--color-surface-alt: #e9e3d6;
+	--color-text: #1c1a16;
+	--color-text-muted: #5a5347;
+	--color-primary: #1f5f36;
+	--color-primary-strong: #164728;
+	--color-primary-soft: #d6dfc8;
+	--color-seat: #5b8def;
+	--color-secondary: #c8462a;
+	--color-border: #cfc6b3;
+	--color-border-strong: #b3a993;
+	--color-on-primary: #f8f5ee;
+	--color-status-pending: #555b66;
+	--color-status-active: #9a5208;
+	--color-status-passed: #1b7148;
+	--color-status-passed-bg: #dfe8d6;
+	--color-status-rejected: #ad372b;
+	--color-highlight: #ecd99b;
+	--color-hover: #e8e2d5;
+	--color-paper-rule: rgba(28, 26, 22, 0.05);
+	--color-shadow: rgba(28, 26, 22, 0.08);
+	--color-shadow-strong: rgba(28, 26, 22, 0.2);
+	--color-scrim: rgba(28, 26, 22, 0.45);
+	--color-ink: #1c1a16;
+	--color-shadow-hard: #b9b09d;
+	--font-heading: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', YuMincho, serif;
+	--font-logo: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+	--font-body: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Yu Gothic',
+		'Noto Sans JP', Meiryo, sans-serif;
+	--font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+	--ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+	--header-h: 60px;
+}
+
+:root[lang='en'] {
+	--font-heading: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	scroll-padding-top: calc(var(--header-h) + 16px);
+}
+
+/* No page scroll behind an open dialog */
+html:has(dialog[open]) {
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	background: var(--color-background);
+	color: var(--color-text);
+	font-family: var(--font-body);
+	font-size: 15px;
+	line-height: 1.75;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+	line-break: strict;
+	overflow-wrap: anywhere;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--font-heading);
+	font-weight: 700;
+	line-height: 1.4;
+	margin: 0;
+	letter-spacing: 0.02em;
+}
+
+:root[lang='en'] :is(h1, h2, h3) {
+	letter-spacing: -0.005em;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+	color: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+:focus-visible {
+	outline: 2px solid var(--color-primary);
+	outline-offset: 2px;
+}
+
+.sr {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+mark {
+	background: var(--color-highlight);
+	color: var(--color-text);
+	padding: 0 1px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+.narrow {
+	max-width: 760px;
+}
+
+.muted {
+	color: var(--color-text-muted);
+}
+
+@keyframes rise {
+	from {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+/* ---------- buttons and links ---------- */
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	min-height: 44px;
+	padding: 0 20px;
+	border: 1.5px solid var(--color-ink);
+	box-shadow: 3px 3px 0 var(--color-ink);
+	font-weight: 700;
+	font-size: 15px;
+	white-space: nowrap;
+	transition:
+		transform 0.12s var(--ease),
+		box-shadow 0.12s var(--ease),
+		background 0.15s;
+}
+
+.btn:hover {
+	text-decoration: none;
+	transform: translate(-1px, -1px);
+	box-shadow: 4px 4px 0 var(--color-ink);
+}
+
+.btn:active {
+	transform: translate(2px, 2px);
+	box-shadow: 1px 1px 0 var(--color-ink);
+}
+
+.btn svg {
+	width: 17px;
+	height: 17px;
+	flex-shrink: 0;
+}
+
+.btn-primary {
+	background: var(--color-primary);
+	color: var(--color-on-primary);
+}
+
+.btn-primary:hover {
+	background: var(--color-primary-strong);
+}
+
+.btn-ghost {
+	background: var(--color-surface);
+	color: var(--color-text);
+}
+
+.btn-small {
+	min-height: 36px;
+	padding: 0 14px;
+	font-size: 14px;
+}
+
+.text-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	font-weight: 700;
+	background: none;
+	border: 0;
+	padding: 0;
+	color: var(--color-primary);
+}
+
+.text-link svg {
+	width: 15px;
+	height: 15px;
+	transition: transform 0.15s;
+}
+
+.text-link:hover svg {
+	transform: translateX(3px);
+}
+
+.text-link:hover {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.icon-btn {
+	width: 36px;
+	height: 36px;
+	border: 0;
+	background: transparent;
+	display: inline-grid;
+	place-items: center;
+	color: var(--color-text-muted);
+	transition:
+		background 0.15s,
+		color 0.15s;
+}
+
+.icon-btn:hover {
+	background: var(--color-surface-alt);
+	color: var(--color-text);
+}
+
+.icon-btn svg {
+	width: 19px;
+	height: 19px;
+}
+
+.region-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	height: 36px;
+	padding: 0 12px 0 14px;
+	border: 1px solid var(--color-ink);
+	background: var(--color-surface);
+	font-size: 14px;
+	font-weight: 700;
+	white-space: nowrap;
+	transition: box-shadow 0.15s;
+	min-width: 0;
+}
+
+.region-pill:hover {
+	box-shadow: 2px 2px 0 var(--color-ink);
+}
+
+.region-pill svg {
+	width: 14px;
+	height: 14px;
+	color: var(--color-text-muted);
+	flex-shrink: 0;
+}
+
+.region-pill .pin {
+	color: var(--color-primary);
+}
+
+.chips {
+	display: flex;
+	gap: 8px;
+	overflow-x: auto;
+	scrollbar-width: none;
+	padding: 2px 2px 6px;
+}
+
+.chips::-webkit-scrollbar {
+	display: none;
+}
+
+.chip {
+	flex-shrink: 0;
+	height: 36px;
+	padding: 0 14px;
+	border: 1px solid var(--color-ink);
+	background: var(--color-surface);
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--color-text);
+	white-space: nowrap;
+	transition: all 0.15s;
+}
+
+.chip:hover {
+	background: var(--color-hover);
+}
+
+.chip[aria-pressed='true'],
+.chip[aria-pressed='true']:hover {
+	background: var(--color-primary);
+	color: var(--color-on-primary);
+	cursor: default;
+}
+
+/* ---------- status stamps ---------- */
+.status {
+	display: inline-flex;
+	align-items: center;
+	height: 24px;
+	padding: 0 10px;
+	font-size: 12.5px;
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	white-space: nowrap;
+	background: transparent;
+	border: 1.5px solid currentColor;
+	transform: rotate(-4deg);
+}
+
+.s-pending {
+	color: var(--color-status-pending);
+}
+
+.s-active {
+	color: var(--color-status-active);
+}
+
+.s-passed {
+	color: var(--color-status-passed);
+}
+
+.s-rejected {
+	color: var(--color-status-rejected);
+}
+
+/* ---------- pages ---------- */
+.page-head {
+	padding: 36px 0 8px;
+}
+
+.page-head h1 {
+	font-size: clamp(26px, 3.6vw, 34px);
+}
+
+.page-head p {
+	color: var(--color-text-muted);
+	margin-top: 6px;
+}
+
+.back {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	margin-top: 24px;
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--color-text-muted);
+}
+
+.back svg {
+	width: 16px;
+	height: 16px;
+}
+
+.empty {
+	padding: 40px 20px;
+	text-align: center;
+	color: var(--color-text-muted);
+	border: 1.5px dashed var(--color-ink);
+	background: var(--color-surface);
+}
+
+.soon-tag {
+	flex-shrink: 0;
+	font-size: 11.5px;
+	font-weight: 700;
+	color: var(--color-text-muted);
+	background: var(--color-surface-alt);
+	padding: 2px 8px;
+	font-family: var(--font-body);
+	letter-spacing: 0;
+}
+
+/* ---------- dialogs (bill popup, region picker) ---------- */
+dialog.sheet {
+	width: calc(100% - 32px);
+	max-width: 540px;
+	max-height: 82vh;
+	margin: 9vh auto auto;
+	padding: 0;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	background: var(--color-surface);
+	color: var(--color-text);
+	border: 1.5px solid var(--color-ink);
+	animation: sheetIn 0.26s var(--ease) both;
+}
+
+dialog.sheet::backdrop {
+	background: var(--color-scrim);
+	animation: fadeIn 0.22s ease both;
+}
+
+@keyframes sheetIn {
+	from {
+		opacity: 0;
+		transform: translateY(12px) scale(0.98);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes sheetUp {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: none;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 760px) {
+	:root {
+		--header-h: 56px;
+	}
+
+	.container {
+		padding: 0 16px;
+	}
+
+	dialog.sheet {
+		width: 100%;
+		max-width: none;
+		max-height: 92vh;
+		margin: auto 0 0;
+		animation-name: sheetUp;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after,
+	::backdrop {
+		animation-duration: 0.01ms !important;
+		animation-delay: 0ms !important;
+		transition-duration: 0.01ms !important;
+		transition-delay: 0ms !important;
+		scroll-behavior: auto !important;
+	}
+}

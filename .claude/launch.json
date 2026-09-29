@@ -14,6 +14,19 @@
         ".skillslab/generated/2026-09-26-gikai-board-website/direction-a/none"
       ],
       "port": 8000
+    },
+    {
+      "name": "polic-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "5173",
+        "--strictPort"
+      ],
+      "port": 5173
     }
   ]
 }

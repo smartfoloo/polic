@@ -17,6 +17,8 @@
  * @property {string} nameEn
  * @property {string} place
  * @property {string} placeEn
+ * @property {string} head who proposes most bills, for 「知事の提案」
+ * @property {string} headEn
  * @property {'pref' | 'muni'} level
  * @property {string} [parent]
  * @property {string[]} hosts the fetcher refuses any other host
@@ -34,6 +36,8 @@ export const assemblies = [
 		nameEn: 'Tokyo Metropolitan Assembly',
 		place: '東京都',
 		placeEn: 'Tokyo',
+		head: '知事',
+		headEn: 'Governor',
 		level: 'pref',
 		hosts: ['www.gikai.metro.tokyo.lg.jp', 'www.metro.tokyo.lg.jp'],
 		listPages: [{ label: '提出議案と議決結果', url: 'https://www.gikai.metro.tokyo.lg.jp/bill/' }],
@@ -52,6 +56,8 @@ export const assemblies = [
 		nameEn: 'Shibuya City Assembly',
 		place: '渋谷区',
 		placeEn: 'Shibuya',
+		head: '区長',
+		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
 		hosts: ['shibukugi.tokyo'],
@@ -72,6 +78,8 @@ export const assemblies = [
 		nameEn: 'Suginami City Assembly',
 		place: '杉並区',
 		placeEn: 'Suginami',
+		head: '区長',
+		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
 		hosts: ['www.city.suginami.tokyo.jp'],

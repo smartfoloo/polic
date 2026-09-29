@@ -18,6 +18,8 @@
 		"update": "npm run collect && npm run draft && npm run verify && npm run translate"
 	},
 	"devDependencies": {
+		"@fontsource-variable/source-serif-4": "^5.3.0",
+		"@fontsource/noto-serif-jp": "^5.3.0",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.63.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
