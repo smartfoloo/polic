@@ -50,5 +50,34 @@
 		"inputTokens": 11568,
 		"outputTokens": 1692,
 		"reasoningTokens": 1378
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:03:09.502Z",
+		"checkedAt": "2026-09-29T04:08:04.330Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "園児の年齢と人数に応じた職員数を定める",
+				"note": "第12条に定める教育時間は1日4時間、保育を必要とする園児の教育・保育時間は1日8時間を原則とする点が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "園舎や園庭、保育室などの設備の基準を定める",
+				"note": "第20条・第21条に定める食事の園内調理の原則と、条件を満たす場合の園外調理・搬入が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 11659,
+			"outputTokens": 605,
+			"reasoningTokens": 425
+		}
 	}
 }

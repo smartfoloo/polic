@@ -51,5 +51,27 @@
 		"inputTokens": 2520,
 		"outputTokens": 1335,
 		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:13:29.157Z",
+		"checkedAt": "2026-09-29T04:11:01.943Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "400席を超える階では左右に、1,000席を超える階では前後と左右に分散する",
+				"note": "原文の第十二条では、劇場等の客席への経路に車椅子使用者用経路を含める変更もあるが、changesに記載がない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2602,
+			"outputTokens": 570,
+			"reasoningTokens": 466
+		}
 	}
 }

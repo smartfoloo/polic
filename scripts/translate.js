@@ -1,22 +1,20 @@
-// Translates approved Japanese summaries into English. Runs only for bills whose Japanese is
-// approved and whose English is missing or stale (the Japanese changed since translation).
+// Translates Japanese summaries into English for bills that are live (reviewed, or passed the
+// checks), when the English is missing or stale (the Japanese changed since translation).
 // Usage: npm run translate
 
-import { createHash } from 'node:crypto';
 import { loadBills, saveBillFile } from './lib/bills-io.js';
 import { callJson, costReport, MODEL } from './lib/llm.js';
-import { JA_FIELDS, TRANSLATE_INSTRUCTIONS, TRANSLATE_PROMPT_VERSION, TRANSLATE_SCHEMA, TRANSLATE_TITLE_SCHEMA } from './lib/prompts.js';
+import { publishState } from './lib/publish.js';
+import { jaSource, TRANSLATE_INSTRUCTIONS, TRANSLATE_PROMPT_VERSION, TRANSLATE_SCHEMA, TRANSLATE_TITLE_SCHEMA } from './lib/prompts.js';
 
 const EFFORT = 'low';
 /** @type {import('./lib/llm.js').Usage[]} */
 const usages = [];
 
 for (const { path, bill } of await loadBills()) {
-	if (!bill.approved) continue;
+	if (publishState(bill) === 'held') continue;
 
-	const fields = bill.titleOnly ? ['official'] : JA_FIELDS;
-	const ja = Object.fromEntries(fields.map((k) => [k, bill[k]]));
-	const sourceHash = createHash('sha256').update(JSON.stringify(ja)).digest('hex').slice(0, 16);
+	const { ja, hash: sourceHash } = jaSource(bill);
 	if (bill.en?.sourceHash === sourceHash) continue;
 
 	try {

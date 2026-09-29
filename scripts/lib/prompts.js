@@ -1,10 +1,12 @@
 // Prompts and output schemas. Bump a version when its prompt changes, so each bill records
 // which prompt produced it.
 
+import { createHash } from 'node:crypto';
 import { categories } from '../../src/lib/config/categories.js';
 
 export const DRAFT_PROMPT_VERSION = 1;
 export const TRANSLATE_PROMPT_VERSION = 1;
+export const VERIFY_PROMPT_VERSION = 2;
 
 export const DRAFT_INSTRUCTIONS = `あなたは、地方議会の議案を、ふだん政治に関心のない住民にもわかる言葉で説明する編集者です。
 入力には、議案の事実情報と、議会や自治体が公開した原文（議案本文・説明資料・概要）が含まれます。
@@ -95,3 +97,66 @@ export const TRANSLATE_TITLE_SCHEMA = {
 
 /** The Japanese fields a translation is made from; any edit to them makes the English stale. */
 export const JA_FIELDS = /** @type {const} */ (['name', 'official', 'summary', 'changes', 'who', 'why']);
+
+/**
+ * The Japanese a bill's English is translated from, and its hash (stored as en.sourceHash).
+ * @param {any} bill
+ */
+export function jaSource(bill) {
+	const fields = bill.titleOnly ? ['official'] : JA_FIELDS;
+	const ja = Object.fromEntries(fields.map((k) => [k, bill[k]]));
+	return { ja, hash: createHash('sha256').update(JSON.stringify(ja)).digest('hex').slice(0, 16) };
+}
+
+export const VERIFY_INSTRUCTIONS = `あなたは地方議会の議案要約の校閲者です。入力は【原文】と、AIが書いた【要約】です。要約を原文と照らし合わせ、問題だけを挙げてください。書き直しはしないでください。
+
+確認すること:
+1. 事実: 数字・金額・日付・人数・施設名・地名・対象者が原文と一致しているか。漢数字や令和の年は換算して比べる（令和8年＝2026年、一八、四一七人＝18,417人）。
+2. 変更の向き: 「AからBに」の前後が逆になっていないか。「改める」を「加える」とするなど、変更の種類を取り違えていないか。原文に中身が空の「」がある、改正前と改正後の文字列が対になっていないなど、表が崩れていて向きを原文から確かめられないときは、要約が正しそうに見えても severity "check"、kind "direction" で必ず挙げる。
+3. 原文にないこと: 推測、背景説明、効果の予想など、原文に根拠のない記述。
+4. 中立性: name・summary・changes・who に評価や賛否をすすめる言葉がないか。why は提出者の説明として書かれていれば、評価的な言葉があってもよい。
+5. 個人名: 首長・議員・職員などの個人名がないか（役職名はよい）。
+6. 大事な変更の抜け: 住民や事業者に直接関わる主な変更が changes から抜けている場合だけ挙げる。別表の項番号、附則の技術的な内容、内部の財源の内訳などは抜けてよい。抜けは severity "check" にする。
+
+問題がなければ issues は空の配列。推測で問題を作らないこと。確信が持てないものは severity を "check" にする。
+quote には要約の該当部分をそのまま、note には原文のどこと食い違うかを短く書く。`;
+
+export const VERIFY_SCHEMA = {
+	type: 'object',
+	additionalProperties: false,
+	required: ['issues'],
+	properties: {
+		issues: {
+			type: 'array',
+			items: {
+				type: 'object',
+				additionalProperties: false,
+				required: ['field', 'kind', 'severity', 'quote', 'note'],
+				properties: {
+					field: { type: 'string', enum: ['name', 'summary', 'changes', 'who', 'why'] },
+					kind: { type: 'string', enum: ['fact', 'direction', 'unsupported', 'tone', 'name', 'omission'] },
+					severity: { type: 'string', enum: ['error', 'check'] },
+					quote: { type: 'string' },
+					note: { type: 'string' }
+				}
+			}
+		}
+	}
+};
+
+/**
+ * @param {any} bill
+ * @param {string} sourceText
+ */
+export function verifyInput(bill, sourceText) {
+	// category is left out: it is our own label, not a fact the source can confirm.
+	const draft = Object.fromEntries(['name', 'summary', 'changes', 'who', 'why'].map((k) => [k, bill[k]]));
+	return `【件名】
+${bill.official}
+
+【要約】
+${JSON.stringify(draft, null, 2)}
+
+【原文】
+${sourceText}`;
+}

@@ -46,5 +46,27 @@
 		"inputTokens": 1976,
 		"outputTokens": 1777,
 		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:20:32.021Z",
+		"checkedAt": "2026-09-29T04:14:16.154Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "軽自動車税の額を前3年度の課税額に基づいて計算する",
+				"note": "議案本文の第12条第2項の表は、改正前後の文字列の対応が崩れているため、この変更の向きを本文から確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1974,
+			"outputTokens": 611,
+			"reasoningTokens": 516
+		}
 	}
 }

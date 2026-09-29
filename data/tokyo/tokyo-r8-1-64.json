@@ -51,5 +51,48 @@
 		"inputTokens": 8279,
 		"outputTokens": 1393,
 		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:13:57.632Z",
+		"checkedAt": "2026-09-29T04:11:18.898Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "収入や同居について入居条件を設ける",
+				"note": "原文の概要では、60歳未満の単身者は入居対象から除かれる。この主な制限が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "収入や同居について入居条件を設ける",
+				"note": "原文の概要にある収入要件「収入分位70％以下（月収38.7万円以下）」が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "原文では使用権の承継を認める対象を定めているが、その変更が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "原文第16条では使用料2か月分の保証金を徴収すると定めているが、その負担が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 8388,
+			"outputTokens": 807,
+			"reasoningTokens": 565
+		}
 	}
 }

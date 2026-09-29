@@ -22,6 +22,8 @@
  * @property {string[]} hosts the fetcher refuses any other host
  * @property {{ label: string, url: string }[]} listPages entry points for the adapters
  * @property {Session[]} sessions
+ * @property {{ notice: string, day: string } | null} election official notice date (告示日) through election day, ISO;
+ *   no bill goes live without human review in this window. null when none is scheduled or dates aren't announced yet.
  */
 
 /** @type {Assembly[]} */
@@ -36,6 +38,8 @@ export const assemblies = [
 		hosts: ['www.gikai.metro.tokyo.lg.jp', 'www.metro.tokyo.lg.jp'],
 		listPages: [{ label: '提出議案と議決結果', url: 'https://www.gikai.metro.tokyo.lg.jp/bill/' }],
 		// Source: /outline/archive-22.html and /schedule/plenary-session.html
+		// Next metropolitan assembly election: 2029.
+		election: null,
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-27' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-09', closes: '2026-06-24' },
@@ -56,6 +60,8 @@ export const assemblies = [
 			{ label: '議決の結果', url: 'https://shibukugi.tokyo/kaigi_kekka/2023020600027/' }
 		],
 		// Source: shibukugi.tokyo top-page notice
+		// 2027 統一地方選挙 (April): fill in when the dates are announced.
+		election: null,
 		sessions: [
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-11', closes: '2026-10-15' }
 		]
@@ -73,6 +79,8 @@ export const assemblies = [
 			{ label: '議案・議決結果の一覧', url: 'https://www.city.suginami.tokyo.jp/kugikai/kaigi/giangiketsu/index.html' }
 		],
 		// Source: /kugikai/kaigi/nittei/r08/ monthly schedules
+		// 2027 統一地方選挙 (April): fill in when the dates are announced.
+		election: null,
 		sessions: [
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-05-22', closes: '2026-06-12' },
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-09', closes: '2026-10-19' }

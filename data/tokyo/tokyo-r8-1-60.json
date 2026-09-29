@@ -49,5 +49,41 @@
 		"inputTokens": 3538,
 		"outputTokens": 1333,
 		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:12:50.133Z",
+		"checkedAt": "2026-09-29T04:10:42.141Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "無電柱化の計画の届け出を義務付ける",
+				"note": "原文第4条第2項では、規制区域外の宅地開発でも計画を任意に届け出ることができる。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "届け出がない場合などに指導や勧告をできるようにする",
+				"note": "原文第5条では、知事が必要な報告を求め、宅地開発区域への立入調査を行えることも定めている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "届け出の内容のうち、規則で定める事項を公表する",
+				"note": "原文第7条第3項では、届出をしない者や事実と異なる届出をした者が正当な理由なく勧告に従わない場合にも、公表できる。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3614,
+			"outputTokens": 633,
+			"reasoningTokens": 387
+		}
 	}
 }

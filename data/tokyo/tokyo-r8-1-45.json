@@ -50,5 +50,27 @@
 		"inputTokens": 3898,
 		"outputTokens": 1355,
 		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:09:46.870Z",
+		"checkedAt": "2026-09-29T00:59:34.168Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "3か月ごとの申告の条件を緩め、帳簿・書類の保存期間を7年に延ばす",
+				"note": "議案本文では、都内に住所や事業所等がない特別徴収義務者に納税管理人の選任・届出等を求め、正当な理由なく申告しない場合は10万円以下の過料を科す規定も新設している。事業者に直接関わる変更がchangesから抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3999,
+			"outputTokens": 451,
+			"reasoningTokens": 303
+		}
 	}
 }

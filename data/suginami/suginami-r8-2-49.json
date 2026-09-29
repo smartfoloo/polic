@@ -50,5 +50,27 @@
 		"inputTokens": 9859,
 		"outputTokens": 1111,
 		"reasoningTokens": 778
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:03:27.286Z",
+		"checkedAt": "2026-09-29T04:08:13.881Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子どもの年齢に応じた職員の配置数や資格、施設設備の基準を定める",
+				"note": "第20条は、送迎等で自動車を運行する際の子どもの所在確認と、通園用自動車への見落とし防止装置の設置も定めているが、changesに記載がない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 9969,
+			"outputTokens": 539,
+			"reasoningTokens": 422
+		}
 	}
 }

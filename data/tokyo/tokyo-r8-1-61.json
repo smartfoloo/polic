@@ -48,5 +48,27 @@
 		"inputTokens": 1622,
 		"outputTokens": 1281,
 		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:13:09.554Z",
+		"checkedAt": "2026-09-29T04:10:50.524Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "手数料の名称にマンションの更新を加える",
+				"note": "手数料の名称では、対象の「要除却認定マンション」も「要除却等認定マンション」に改められますが、その点がchangesにありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1643,
+			"outputTokens": 568,
+			"reasoningTokens": 479
+		}
 	}
 }

@@ -50,5 +50,34 @@
 		"inputTokens": 33488,
 		"outputTokens": 1361,
 		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:00:41.510Z",
+		"checkedAt": "2026-09-29T00:58:50.465Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "児童発達支援と放課後等デイサービスの職員配置・設備・運営の基準を定める",
+				"note": "議案説明資料では、両サービスの共生型・基準該当型についても基準を定めるとしているが、changesに記載がない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "児童発達支援と放課後等デイサービスの職員配置・設備・運営の基準を定める",
+				"note": "条例第4条は、指定を申請できる者を原則として法人に限ると定めているが、changesに記載がない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 33592,
+			"outputTokens": 416,
+			"reasoningTokens": 229
+		}
 	}
 }

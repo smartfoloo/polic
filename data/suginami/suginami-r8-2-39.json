@@ -51,5 +51,34 @@
 		"inputTokens": 19448,
 		"outputTokens": 2399,
 		"reasoningTokens": 2037
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:00:09.840Z",
+		"checkedAt": "2026-09-29T04:07:04.040Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "医薬品購入費の控除の期限をなくし、住宅ローン控除などの期限を延ばす",
+				"note": "肉用牛の売却による事業所得に係る区民税の課税の特例を令和12年度まで延長する変更が、changesから抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "特定暗号資産に関する所得を他の所得と分けて区民税を課す",
+				"note": "土地譲渡に係る区民税の特例を令和11年度まで延長し、地すべり防止区域内等の土地を対象から除く変更が、changesから抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 19588,
+			"outputTokens": 620,
+			"reasoningTokens": 428
+		}
 	}
 }

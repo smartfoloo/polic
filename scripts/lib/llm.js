@@ -18,7 +18,7 @@ let client;
 /**
  * Structured-output call: the model must return JSON matching `schema` exactly.
  * `store: false` so OpenAI keeps no response state beyond its abuse-monitoring logs.
- * @param {{ effort: 'low' | 'high', instructions: string, input: string, name: string, schema: Record<string, unknown> }} req
+ * @param {{ effort: 'low' | 'medium' | 'high', instructions: string, input: string, name: string, schema: Record<string, unknown> }} req
  * @returns {Promise<{ data: any, usage: Usage }>}
  */
 export async function callJson({ effort, instructions, input, name, schema }) {

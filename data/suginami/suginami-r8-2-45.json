@@ -50,5 +50,27 @@
 		"inputTokens": 31593,
 		"outputTokens": 1138,
 		"reasoningTokens": 830
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:02:06.622Z",
+		"checkedAt": "2026-09-29T00:58:58.017Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "乳児等通園支援事業に使う保育所の設備・職員の基準を、都の条例から区の条例に切り替える",
+				"note": "附則第16項の改正対象は「余裕活用型乳児等通園支援事業」を行う保育所。要約では対象が広く読める。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 31678,
+			"outputTokens": 424,
+			"reasoningTokens": 311
+		}
 	}
 }

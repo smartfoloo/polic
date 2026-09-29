@@ -44,5 +44,21 @@
 		"inputTokens": 1195,
 		"outputTokens": 450,
 		"reasoningTokens": 311
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:14:46.184Z",
+		"checkedAt": "2026-09-29T04:11:39.869Z",
+		"flags": [
+			"copied from the source (26 chars): 「東京都子供・子育て会議の委員の定数を改める必要がある」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1103,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
 	}
 }

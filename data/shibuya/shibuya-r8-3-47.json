@@ -41,5 +41,29 @@
 		"inputTokens": 1187,
 		"outputTokens": 710,
 		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-28T10:59:03.763Z",
+		"checkedAt": "2026-09-29T00:58:42.830Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "恵比寿駅前出張所の所在地に渋谷区恵比寿南1丁目5番5号を加える",
+				"note": "原文では改正前後を示す「」が空で、住所との対応が崩れているため、「加える」変更かどうか確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1147,
+			"outputTokens": 182,
+			"reasoningTokens": 82
+		}
 	}
 }

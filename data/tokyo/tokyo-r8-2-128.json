@@ -51,5 +51,22 @@
 		"inputTokens": 1554,
 		"outputTokens": 1373,
 		"reasoningTokens": 1006
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:21:41.935Z",
+		"checkedAt": "2026-09-29T04:14:23.514Z",
+		"flags": [
+			"copied from the source (31 chars): 「外し、東京都杉並児童相談所を東京都多摩中部児童相談所として設置」",
+			"copied from the source (30 chars): 「東京都杉並児童相談所を東京都多摩中部児童相談所として設置する」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1704,
+			"outputTokens": 119,
+			"reasoningTokens": 105
+		}
 	}
 }

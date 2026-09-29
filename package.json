@@ -12,8 +12,10 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"collect": "node --env-file-if-exists=.env scripts/collect.js",
 		"draft": "node --env-file-if-exists=.env scripts/draft.js",
+		"verify": "node --env-file-if-exists=.env scripts/verify.js",
 		"translate": "node --env-file-if-exists=.env scripts/translate.js",
-		"update": "npm run collect && npm run draft && npm run translate"
+		"review": "node scripts/review.js",
+		"update": "npm run collect && npm run draft && npm run verify && npm run translate"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",

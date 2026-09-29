@@ -51,5 +51,43 @@
 		"inputTokens": 31463,
 		"outputTokens": 1932,
 		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:03:54.793Z",
+		"checkedAt": "2026-09-29T00:59:13.732Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "満3歳以上限定の小規模保育をA型に限り、利用定員などの基準を定める",
+				"note": "原文第42条では、この事業者は卒園後の受け皿となる連携施設との協力を求めなくてよいとする変更もある。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "満3歳以上限定の小規模保育をA型に限り、利用定員などの基準を定める",
+				"note": "原文第39条では、申込者が定員を超える場合、保育の必要性が高い満3歳以上の子どもを優先する選考を定めている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "一定の条件下で保育士を1人とし、同等の知識と経験を持つ人を加えて配置できるようにする",
+				"note": "原文附則第7項・第8項では、一定の教員免許を持つ人や、長時間開所時に区長が認める人を保育士とみなせる変更もある。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 31622,
+			"outputTokens": 1005,
+			"reasoningTokens": 704
+		}
 	}
 }

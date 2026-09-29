@@ -44,5 +44,29 @@
 		"inputTokens": 1252,
 		"outputTokens": 686,
 		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:14:28.313Z",
+		"checkedAt": "2026-09-29T04:11:33.924Z",
+		"flags": [
+			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "都営住宅条例で挙げる条例に東京都小笠原移住定住促進住宅条例を加える",
+				"note": "原文の【例】には「入居可能日から起算して2年間の使用料の減額を廃止する」とあるが、changesに記載がない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1192,
+			"outputTokens": 188,
+			"reasoningTokens": 87
+		}
 	}
 }

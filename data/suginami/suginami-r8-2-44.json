@@ -50,5 +50,27 @@
 		"inputTokens": 4468,
 		"outputTokens": 1890,
 		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:01:49.988Z",
+		"checkedAt": "2026-09-29T04:07:26.057Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "委員長と部会長の報酬を日額21,000円、委員の報酬を日額18,500円と定める",
+				"note": "報酬に関する附則第2項の改正前・改正後の表が崩れており、金額を定める変更の向きを原文から確実に確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4582,
+			"outputTokens": 694,
+			"reasoningTokens": 577
+		}
 	}
 }

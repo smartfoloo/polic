@@ -51,5 +51,27 @@
 		"inputTokens": 2239,
 		"outputTokens": 1511,
 		"reasoningTokens": 1207
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:14:18.513Z",
+		"checkedAt": "2026-09-29T04:11:29.670Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "仮住まい用に、期間を限った使用許可を設ける",
+				"note": "定期使用許可は、原文第二十条の二第一項に定める住宅の除却までの間、または移転先への入居までの間の仮住まいに限られ、第五条第一項から第三項までの条件を満たす人が対象である点が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2327,
+			"outputTokens": 540,
+			"reasoningTokens": 412
+		}
 	}
 }

@@ -47,5 +47,27 @@
 		"inputTokens": 1782,
 		"outputTokens": 959,
 		"reasoningTokens": 788
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:17:33.266Z",
+		"checkedAt": "2026-09-29T04:12:23.283Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "別表にある6,477円の額を6,833円に改める",
+				"note": "原文では、このほかにも別表三・四の項の額を295円から318円、444円から468円、165円から179円、677円から714円に改める。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1730,
+			"outputTokens": 269,
+			"reasoningTokens": 171
+		}
 	}
 }

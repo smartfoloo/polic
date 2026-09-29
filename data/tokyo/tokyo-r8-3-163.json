@@ -44,5 +44,19 @@
 		"inputTokens": 1323,
 		"outputTokens": 601,
 		"reasoningTokens": 447
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:23:02.369Z",
+		"checkedAt": "2026-09-29T04:14:41.939Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1243,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
 	}
 }

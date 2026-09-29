@@ -51,5 +51,27 @@
 		"inputTokens": 2153,
 		"outputTokens": 1783,
 		"reasoningTokens": 1463
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:20:59.658Z",
+		"checkedAt": "2026-09-29T00:59:42.145Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "固定資産税について家屋の20万円や150万円という金額が定められています。",
+				"note": "原文では、家屋に係る20万円の記載を削り、150万円を180万円に改めるとある。150万円を家屋の金額とする記述は原文と合わない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2255,
+			"outputTokens": 471,
+			"reasoningTokens": 365
+		}
 	}
 }

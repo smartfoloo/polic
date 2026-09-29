@@ -51,5 +51,34 @@
 		"inputTokens": 2977,
 		"outputTokens": 2387,
 		"reasoningTokens": 1995
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:06:44.220Z",
+		"checkedAt": "2026-09-29T04:08:53.580Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "私立幼稚園と幼保連携型認定こども園での園児虐待に関する通知の受理などを特別区や市などに移す",
+				"note": "原文では移譲先を分け、私立幼稚園は特別区及び市、幼保連携型認定こども園は児童相談所設置区と説明している。なお、議案本文には「児童相談所設置市」とある。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "宅地開発区域での無電柱化計画の届出受理などを各特別区の事務に加える",
+				"note": "原文は第二条の表二十三の項を「次のように改める」としており、「加える」改正ではない。改正前の同項の内容は提示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3156,
+			"outputTokens": 930,
+			"reasoningTokens": 692
+		}
 	}
 }

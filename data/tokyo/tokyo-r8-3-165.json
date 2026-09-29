@@ -51,5 +51,27 @@
 		"inputTokens": 2189,
 		"outputTokens": 2113,
 		"reasoningTokens": 1757
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:23:53.419Z",
+		"checkedAt": "2026-09-29T04:14:52.622Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "指定児童発達支援事業者に性暴力等の防止と障害児の保護に必要な措置を義務づける",
+				"note": "原文は第五十七条に第四十四条を加えるなど、他の規定にも性暴力防止措置を適用するための改正を含みます。事業者に直接関わる適用範囲の変更が抜けていないか確認が必要です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2328,
+			"outputTokens": 654,
+			"reasoningTokens": 516
+		}
 	}
 }

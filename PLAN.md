@@ -16,7 +16,7 @@ Goal: keep the app as simple as possible.
 | Language | **JavaScript** with light JSDoc on shared shapes (Assembly, Bill); no TypeScript. `npm run check` type-checks `src/` and `scripts/` via `jsconfig.json`. Decided 2026-09-28. |
 | Hosting | Static files served by **Caddy** on the VPS. No server process, no API. |
 | Storage | One JSON file per bill in `data/<assembly>/<bill-id>.json`. Git history is the audit trail. No database. |
-| Review | No admin UI. Drafts are written with `"approved": false`; a reviewer edits the JSON and sets `"approved": true`. |
+| Review | **Tiered** (decided 2026-09-29; one reviewer can't read every bill). No admin UI. `npm run verify` runs code checks + an AI checker (`gpt-6-sol`, medium) on each draft. Bills go live **unchecked but labelled** when they pass; **held** for human review: member bills with AI summaries, any code flag, any AI issue except "omission" notes, and everything in an election window. ~1 in 10 live bills is a spot-check sample. Reviewer sets `"approved": true` → 「人が確認済み」. Logic in `scripts/lib/publish.js`. The legal briefing requires human review only for summaries mentioning candidates (election protocol); reviewing every bill was our stricter rule. |
 | Pipeline | One command, `npm run update`, run by hand during sessions (or one weekly cron). |
 | Session dates | Hardcoded in `src/lib/config/assemblies.js` (~4 sessions/year per assembly). |
 | LLM | **OpenAI API, `gpt-6-sol`** ($2 / $10 per 1M in/out; ~$4–10/year for us) via the official `openai` npm SDK, one model for drafting and translation, id kept in one constant. Reasoning effort: **`high` for drafting** (accuracy), **`low` for translation** (rewording reviewed text). Log reasoning tokens in each bill's `draft` metadata. Chosen over `gpt-6-luna` ($0.10 / $0.50) because the saving is a few dollars a year and misstatements are the top legal risk. Only writes the plain-language fields and English translations. Key in `.env` as `OPENAI_API_KEY`. Decided 2026-09-28. |
@@ -38,7 +38,7 @@ These stay no matter how much we simplify:
 1. **Polite fetching**: at most 1 request every 5–10s, off-peak, respect robots.txt, identifying user-agent with contact email, only fetch listed pages/PDFs (no search forms, no URL guessing), stop on any error or slowdown.
 2. **Facts are parsed, never generated**: official title, number, status, dates, committee, stage come from the source by code. The LLM never writes these.
 3. **New wording only**: summaries restate facts in our own words. Never copy or closely paraphrase explanatory prose (条例案概要, 議案説明資料 are likely copyrighted).
-4. **Human approval** before anything is public.
+4. **Human review where it matters, labels everywhere else**: member bills, flagged bills and anything in an election window need approval; other bills go live after automatic checks, labelled 「AIが作成した要約です。まだ人が確認していません。」 with the source link.
 5. **Source link + AI disclosure** on every bill (English pages also say the translation is unofficial and Japanese is authoritative).
 6. **Scope filter** keeps personal data out (no lawsuits, settlements, appointments, petitions).
 7. **Neutral tone**: no evaluative language, no rankings.
@@ -88,6 +88,78 @@ Budgets are the exception: they get split across committees or go to a 予算/�
 The submission date is inside each bill PDF (`令和８年９月９日提出`).
 
 ---
+
+## Next six: source check (2026-09-28, evening, read-only)
+
+robots.txt allows us on all six hosts (checked through our polite fetcher). Shinjuku's site redirects English-language browsers to a machine-translation proxy (`j-server.com`); our crawler sends no `Accept-Language`, so it gets Japanese.
+
+| Assembly | Bill list + results | Committee | Bill content | Verdict |
+|---|---|---|---|---|
+| 世田谷区議会 | **HTML table per session**: 番号, 件名, 付託先, 議決日, 結果 (`city.setagaya.lg.jp/02030/35744.html`, linked from `/gikai/index.html`). | In the table. | One PDF per bill on a 議案一覧 page per session (`/02252/35916.html`), sessions back to R5. No separate explanation doc found yet (maybe in committee materials). | **Easiest.** Like Suginami, but content as thin as Shibuya's. |
+| 大阪市会 | **HTML table per session** (`/contents/wdu260/result/202605.html`): 番号, 件名 (linked to bill PDF), 付託日+委員会, 委員会結果+日, 本会議結果+日, plus 会派別賛否. | In the table (abbreviated: 財/教/民/都/市/建). | Bill PDF linked from each row (`/result/pdf/2026gian95.pdf`). | **Easiest.** Richest facts of all nine; votes ignored in v1. |
+| 新宿区議会 | Session page lists bills by kind (条例/予算/その他, 区長 vs 議員) (`/kusei/file08_05_...html`); results in one PDF 「議案の概要と審議結果」. | Probably in the results PDF (to check). | **Per-bill PDFs + 「提出案件概要」 PDF** (a summary for each bill, like Suginami's 説明資料) on `/kusei/kuseijoho01_001109_02.html`. Member-bill text not found yet. | **Good.** Rich content; results need PDF parsing. |
+| 名古屋市会 | **HTML table per session**: 議案番号, 案件名, 提出年月日, 付議委員会, 議決年月日, 議決結果 (`/shikai/shingi/1030858/1030859/1052671.html`); member bills on a sibling page. | In the table. | **Not found.** Finance bureau posts budget bills only. 市会だより has per-bill 賛否. | Facts easy, content missing → title-only unless we find the 議案書. |
+| 大阪府議会 | One **PDF (+ .doc)** per session 「提出議案・議決結果」 (`/o170010/gikai_somu/gian0806.html`). | Probably in the PDF (to check). | Member bills in full (PDF + docx incl. 提案理由). Governor bill PDFs exist under `pref.osaka.lg.jp/documents/…` (e.g. `tiji4.pdf`, linked from the 府政記者会 press site); listing page not found yet. | Medium: PDF parsing for facts; content findable. |
+| 愛知県議会 | **HTML table per session**: 議案番号, 議案名, 付託委員会, 議決結果 with date (`/site/gikai/nittei-0806.html#gian`), index at `/site/gikai/kekka-gaiyo.html`; also a PDF of 会派別態度. | In the table. | **Not found online.** Only the governor's 提案説明要旨, 議会ニュース and 県議会だより (text files); the NDL holds printed 議案書. | Facts easy, content missing → title-only or 議会ニュース summaries. |
+
+**Scope filter change needed:** Aichi and Nagoya title ordinances 「…条例の一部改正について」 / 「…条例の制定について」, Osaka City 「…条例案」. `inScope()` must match 条例 before those endings, and still exclude 専決処分報告 (Osaka City lists 「…条例急施専決処分報告について」).
+
+**Proposed build order:** 世田谷区 → 大阪市 → 新宿区 → 大阪府 → 名古屋市 → 愛知県. Before building Nagoya and Aichi, ask each 議会事務局 (in the crawl notice) where the 議案書 is published; if it isn't, their bills are title-only like Tokyo member bills.
+
+## Six more wards: source check (2026-09-29, read-only, in a browser)
+
+robots.txt allows us on every host we'd use (details below). Chiyoda's and Shinagawa's city sites redirect English-language browsers to the `j-server.com` translation proxy, like Shinjuku; our crawler sends no `Accept-Language`, so that shouldn't affect it.
+
+| Assembly | Bill list + results | Committee | Bill content | Verdict |
+|---|---|---|---|---|
+| 港区議会 | **Bill database** on `gikai2.city.minato.tokyo.jp`: `g07_giketsu.asp?kaigi=…&kensu=100` lists 番号, 件名, 議決日 + 結果 per session (back to H14); `bunrui` filters 区長報告/議案/議員提出議案. | On each bill page (`g07_Giketsu_View.asp?SrchID=3592`). | Each bill page has a one-line 概要, plus **概要 PDF and 本文 PDF** (`/voices/GikaiDoc/attach/Gk/GkB856_69.pdf`), and 各会派の態度. | **Easiest of all twelve.** Richer than Suginami. Pages are Shift_JIS. |
+| 品川区議会 | **One HTML page per session** (`gikai.city.shinagawa.tokyo.jp/katsudou/honkaigi-schedule/r08_03t/r08_03t1`): 番号, 件名, a detailed 内容 (before/after amounts, 施行期日), 結果. Per-member votes as a PDF. | Not on that page (in 各委員会の予定・結果, to check). | **Bill PDF (+ .doc/.docx) per bill** (`/wp-content/themes/shinagawakugikai/pdf/r08_03t_85.pdf`). | **Easiest** (tied with Minato). The 内容 column is almost a 説明資料. |
+| 目黒区議会 | 資料 page per session with **one PDF per bill** (`/kugikai/kusei/kugikai/r8-2teirei-siryo.html` → `/documents/20430/8-46.pdf`); **HTML results table** per session (`8-2teirei-giketukeka.html`). | Session page (`r8-3teirei.html`) lists bills by committee, by title only. | Bill PDFs (kept online for 2 years). No explanation doc. The R8 第3回 資料 page isn't up yet (session ends 9/30). | **Easy.** Like Setagaya. Committee needs matching by title. |
+| 中央区議会 | Results per session in HTML (`/honkaigi/r08/teirei-0802.html`): title, one-line summary, result + 会派 votes, **but no bill numbers** (match by title). | Committee-meeting pages (`/calendar/r08/bunkyo_20260928.html`) list 付託議案 by number. | **Bill PDF + committee 資料 PDF** linked from each committee-meeting page (Japanese filenames under `/shiryo/r8/●議案資料/第三定/…`). | **Good.** Rich content, but the parser has to walk meeting pages. |
+| 練馬区議会 | **HTML table per session** (`/gikai/kaigi/r8/dai3teirei/0803gian.html`): 番号, 件名, 付託委員会, 結果, plus a short 内容 paragraph (what changes, 施行日). Separate 議決された議案 page with votes. | In the table. | Only that paragraph. No bill PDFs on the site. Committee materials are on a third-party system (`discusscabinet.net/nerima/`, not checked). | **Facts easy, content thin.** Like Shibuya: summaries from one paragraph. |
+| 千代田区議会 | Results as **one PDF per session** (`gikai-chiyoda-tokyo.jp/kaigi/kekka/files/20262teikekka.pdf`). Bill list + grouped one-line 概要 in the ward's **press release** at session start. | Committee PDFs (to parse). | No bill text found. Committee 資料 PDFs (2–16 MB, `/katsudou/docs/20260703bunkyoushiryou.pdf`) contain per-bill explanations, posted up to 2 weeks after each meeting. | **Hardest of the six.** PDF parsing everywhere, content arrives late. Site renewed 2026-09-01, so URLs may still move. |
+
+**robots.txt:** Minato (`gikai2`) disallows only video and cgi paths; Nerima disallows many city sections but not `/gikai/`; Chiyoda's city site disallows a few unrelated paths; Shinagawa allows all; Meguro, Chiyoda's assembly site and Minato's `www.gikai` host have none (404). **Chuo** names AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, …) and SEO bots with `Disallow: /`, has no `User-agent: *` group, and ends with path rules for `/*?`, `.cgi` and `.php`. PolicBot isn't named, so it's technically allowed, but the intent is to keep AI tools off the site. Decide before building Chuo; asking the 議会局 in the crawl notice is the clean option.
+
+**Watch:** Minato's `www` hosts took over 10 s to load in the browser; our fetcher stops a host after 10 s. The bill database host (`gikai2`) responded normally.
+
+Build order: superseded by "All 23 wards by difficulty" below.
+
+## Remaining 13 wards: source check (2026-09-29, read-only, in a browser)
+
+robots.txt allows us everywhere below: only cgi, video, 工事送達 or translation-proxy paths are disallowed, or there's no robots.txt at all. None names AI crawlers the way Chuo's does. Adachi's and Edogawa's assembly sites redirect English-language browsers to `j-server.com`, like Chiyoda and Shinagawa.
+
+| Assembly | Bill list + results | Committee | Bill content | Verdict |
+|---|---|---|---|---|
+| 江戸川区議会 | **Same bill database as Minato** (`gikai.city.edogawa.tokyo.jp/g07_giketsu.asp?smode=3&kaigi=…&kensu=100`). The list itself has number, title + one-line 概要, result with the vote count per 会派, and committee. | In the list. | 本文 PDF per bill. | **Easiest.** |
+| 足立区議会 | **Same bill database** (`gikai-adachi.jp/g07_giketsu.asp`). | On each bill page. | 本文 PDF per bill (`/voices/GikaiDoc/attach/Gk/…pdf`); no 概要 PDF. | **Easiest.** |
+| 墨田区議会 | **One HTML page per meeting** (`/kugikai/kaigi_info/teireikai/2026/R89gatugian.html`): number, title, 付託委員会, 結果; member bills too. | In the table. | Bill PDF + **新旧対照表** and sometimes a **概要** PDF per bill. | **Easiest.** Year-long session: meetings are named 「令和8年度定例会9月議会」 and bill numbers restart each fiscal year. |
+| 台東区議会 | Session page (`/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.html`): number, title, 提出者, one-line 内容. **HTML results page** per sitting day with committee assignment and 全員賛成 etc. | Results page. | PDF per bill (`08-dai3kai-gian.files/8-3-79.pdf`). | **Easiest.** |
+| 中野区議会 | **HTML list per year** (`kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121`): number, title, short 内容, committee, 議決日 + result. | In the list. | PDF per bill (`/gian/2691113731.pdf`). | **Easiest.** Separate assembly site. |
+| 葛飾区議会 | **HTML 議案一覧・付託表** per session (`katsushika-kugikai.jp/30205.html`): number, title, committee, 概要. Results on `30305.html`. | In the table. | PDF per bill (`/pdf/R8gian58.pdf`, listed on `60581.html`). | **Easiest.** Full-width digits in titles. |
+| 大田区議会 | **HTML table per session** (`/gikai/kugikai_katsudou/honkaigi/r_8/2teirei/r0802teirei_kuchogian.html`): number, title, 議決日, 結果 (全会一致/賛成者多数), committee. Member bills on a sibling page. | In the table. | Bill text in **grouped PDFs** (「第59号議案から第66号議案」), so they need splitting by 議案 number. | **Easy.** Like Suginami. |
+| 板橋区議会 | **HTML 審査状況** per session (committee, merged rows); results as one **PDF** per session. | HTML. | **PDF per bill** (`r80918_hon_69.pdf`). | **Easy.** |
+| 文京区議会 | Bills: **one combined PDF** per session (「議案第33～52号」). Results: one PDF per session with per-member votes. | Committee pages (not checked in depth). | Combined PDF, to split by 議案 number. | **Medium.** Sessions are named by month (「令和8年9月定例議会」). |
+| 江東区議会 | Results: **PDF** per session. Committee agendas as PDFs (`081005kikakusoumu.pdf`). | Agenda PDFs. | No bill text found. Committee 資料 as one PDF per bill, but posted only after the committee meets. | **Medium.** Content arrives late. |
+| 荒川区議会 | HTML bill list per meeting; **HTML results table** with 会派 votes; one HTML page per passed bill with its **提案理由** paragraph. | Not found. | No bill text; only that paragraph. | **Thin**, like Nerima. Year-long session (「令和8年度定例会・9月会議」); numbers restart each fiscal year. |
+| 豊島区議会 | HTML results per session (grouped by outcome) and HTML committee pages listing 付託議案. | HTML. | **Not found.** | **Facts only.** Title-only, like Tokyo member bills, unless we find the 議案書. |
+| 北区議会 | 議決した議案等: a **scanned PDF with no text layer** (OCR needed), posted after the session. Session summary page in HTML. Materials on a third-party system (`discusscabinet.net/kitakugikai/`). | Not found. | Not found. | **Hardest**, with Chiyoda. |
+
+**One adapter, three wards:** Minato, Adachi and Edogawa run the same bill database (`g07_giketsu.asp` / `g07_Giketsu_View.asp`, Shift_JIS, same robots.txt template). Building it once covers all three.
+
+**Session naming:** `parseSessionName` must also handle year-long sessions (Sumida 「令和8年度定例会9月議会」, Arakawa 「令和8年度定例会・9月会議」) and Bunkyo's month names (「令和8年9月定例議会」). Bill ids need the fiscal year where numbers restart.
+
+## All 23 wards by difficulty
+
+| Tier | Wards |
+|---|---|
+| Easiest: bill text per bill + facts in HTML | 港区, 足立区, 江戸川区 (one shared adapter) · 品川区 · 墨田区 · 台東区 · 中野区 · 葛飾区 · 世田谷区 · 杉並区 (live) |
+| Easy: one extra step (split PDFs, results in PDF, match by title) | 大田区 · 板橋区 · 目黒区 · 新宿区 |
+| Medium | 文京区 · 江東区 · 中央区 (robots.txt question first) |
+| Thin: a paragraph or facts only | 渋谷区 (live) · 練馬区 · 荒川区 · 豊島区 |
+| Hard | 千代田区 · 北区 |
+
+**Proposed build order:** the g07 adapter (港区, 足立区, 江戸川区) → 品川区 → 墨田区 → 台東区 → 中野区 → 葛飾区 → 世田谷区 → 大田区 → 板橋区 → 目黒区 → 新宿区, then the medium and thin ones.
 
 ## Bill JSON format
 
@@ -175,19 +247,26 @@ Matches the fields the design already uses.
 - [x] Tested on 6 real bills (incl. a 38k-char ordinance, a member bill, a sensitive topic): all numbers present in sources, longest verbatim run 10–18 chars (terms, not sentences), claims traced to the 説明資料. Cost: 6 drafts $0.17, 3 translations $0.009. Stale-English retranslation and skip-on-rerun confirmed.
 
 ### Step 5 — Review workflow
-- [ ] First real run tonight: `npm run collect` (off-peak), then `npm run draft`, commit `data/`.
-- [ ] `REVIEW.md` checklist: facts match the source, wording is new (not copied), neutral tone, no private names, caption readable.
-- [ ] Reviewer edits JSON, sets `"approved": true`, commits.
-- [ ] English reviewer checks `en` against the Japanese (not the source), sets `"en.approved": true`. Editing the Japanese makes the English stale and it gets retranslated.
+- [x] First real run (2026-09-28 evening): 109 bills collected, 101 drafted ($1.82), committed as `data/`.
+- [x] `REVIEW.md`: the loop (review → edit JSON → `"approved": true` → commit), Japanese checklist (facts vs source incl. kanji numerals and swapped 新旧対照表, new wording, neutral, attributed `why`, no names, 西暦 dates, distinct headlines, `who` empty = sinks to bottom), title-only bills, `factsUpdated` rechecks, English checklist (against the approved Japanese), election-period rule, reader corrections.
+- [x] `npm run review [-- <id filter>]`: read-only queue (Japanese to review, title-only, facts changed after approval, no draft, English to review, English out of date). No automated checks.
+- [x] English staleness uses one shared hash (`jaSource()` in `scripts/lib/prompts.js`) for both `translate` and `review`.
+- [x] Tiered review (2026-09-29): `scripts/lib/checks.js` (code checks), AI checker prompt v2 in `scripts/lib/prompts.js`, `npm run verify` (writes `checks` into each bill), `scripts/lib/publish.js` (reviewed / auto / held), `npm run review` rewritten around the held queue, `translate` covers live bills, `election` windows in `assemblies.js`. Tested on 15 bills: caught shibuya-r8-3-47 (garbled table), suginami-r8-2-45 (scope), tokyo-r8-2-126 (wrong amounts), tokyo-r8-1-68 (copied sentence).
+- [ ] Run `npm run verify` on the remaining drafts (~$0.90–1.10).
+- [ ] Prompt v2 for drafting (optional, ~$1.80 to redraft): 西暦 dates, distinct headlines for sibling bills, caution on 新旧対照表 direction.
+- [ ] Fill in the 2027 ward-election notice date and election day in `REVIEW.md` once announced.
 
 ### Step 6 — Site
 - [ ] Build `stageNote` (ja/en) from stage/status/committee, e.g. 「保健福祉委員会で審議中です。」.
 - [ ] Port the design's bill board (category chips, cards) and bill detail (summary, 何が変わる？, 自分にどう関係する？, 5-stop stepper, collapsed 出典) into Svelte components.
-- [ ] Build step reads only `approved: true` bills.
 - [ ] Every bill: source links, AI disclosure line, "report an error" mailto.
+- [ ] Build step includes only bills where `publishState()` is `reviewed` or `auto`; label them 「人が確認済み」 or 「AIが作成した要約です。まだ人が確認していません。正確な内容は原文をご確認ください。」 (English: unchecked machine translation unless `en.approved`).
 - [ ] Region picker covers the three pilot assemblies.
 - [ ] `/en/` routes via `[[lang=lang]]`; UI strings in a small ja/en dictionary; language toggle switches the prefix.
 - [ ] English pages use `en` only when `en.approved`; otherwise show Japanese with an "English coming soon" note.
+- [ ] Show each bill's 定例会: a label on the card; on the detail page it sits inline in the meta row (proposer · date · 定例会 ⓘ · status), and the ⓘ opens a popover with the dates and 開会前/開会中/閉会 (from `assemblies.js`).
+- [ ] Bill popup: proposer/date/status and the 定例会 line sit above the thick divider, so reading starts at the summary; only title + close stay pinned, and the divider moves under them once scrolled.
+- [ ] Board header lists the 定例会 we cover (name only, plus 開会中 on the open one; no heading) instead of 「一部のみ掲載」, followed by 「掲載しているのは、これらの定例会に出された条例の議案だけです。予算・契約・人事・報告などは対象外です。」 (en too).
 - [ ] Board order per the Decisions table (pending → decided → no-direct-effect), ties by bill number.
 - [ ] 「よく見られている」 strip from `popular.json` (threshold, hidden when empty, hidden during election freeze).
 - [ ] Bill page sends the view beacon (`fetch('/v/<id>', { method: 'POST', keepalive: true })`) once per mount.

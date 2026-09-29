@@ -50,5 +50,27 @@
 		"inputTokens": 9246,
 		"outputTokens": 1266,
 		"reasoningTokens": 968
+	},
+	"checks": {
+		"draftAt": "2026-09-28T11:02:25.123Z",
+		"checkedAt": "2026-09-29T04:07:39.172Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子どもの権利や意見の尊重、生活・学習支援の決まりを定める",
+				"note": "原文第12条は施錠等による児童の行動制限を禁止し、第35条は入所児童や保護者等の苦情に対応する窓口等を定めている。いずれも直接関わる主な規定だが、changesには示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 9321,
+			"outputTokens": 755,
+			"reasoningTokens": 621
+		}
 	}
 }
