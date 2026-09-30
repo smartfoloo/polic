@@ -27,5 +27,73 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-17.pdf",
 			"fetchedAt": "2026-09-30T10:11:15.883Z"
 		}
-	]
+	],
+	"name": "職員の給料表と特別勤務手当の規定を改める",
+	"category": "行政のしくみ",
+	"summary": "職員の給料額や管理職員特別勤務手当の扱いは、条例で定めています。この議案では給料表を改め、特別勤務手当の対象時間帯や額の決め方を変更します。2026年4月1日から施行し、職員の職務の級や号給の切替え方法も定めます。",
+	"changes": [
+		"行政職・医療職の給料表を改める",
+		"管理職員特別勤務手当の対象時間帯の定めを改める",
+		"承認を得て規則で定める勤務の手当額を、定める額の150%にする",
+		"施行時の職務の級や号給の切替え方法を定める"
+	],
+	"who": [
+		"台東区職員"
+	],
+	"why": "職員の管理職員特別勤務手当などに関する規定を整えるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T12:45:59.758Z",
+		"inputTokens": 17797,
+		"cachedTokens": 0,
+		"outputTokens": 1812,
+		"reasoningTokens": 1523
+	},
+	"checks": {
+		"draftAt": "2026-09-30T12:45:59.758Z",
+		"checkedAt": "2026-09-30T12:46:43.294Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 17831,
+			"cachedTokens": 0,
+			"outputTokens": 296,
+			"reasoningTokens": 282
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "158fc35a62813cf0",
+		"name": "Revises Employee Salary Tables and Special Duty Allowance Rules",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Taito Ward Ordinance Concerning Employee Salaries",
+		"summary": "The ordinance sets employee salary amounts and rules for special duty allowances for managerial employees. This bill revises the salary tables and changes the time periods covered by the special duty allowance and how its amount is determined. It takes effect on April 1, 2026, and also sets out how employees’ job grades and salary steps will be changed.",
+		"changes": [
+			"Revises the salary tables for administrative and medical staff",
+			"Revises the time periods covered by the special duty allowance for managerial employees",
+			"Sets the allowance for work specified by regulation with approval at 150% of the prescribed amount",
+			"Sets out how job grades and salary steps will be changed when the ordinance takes effect"
+		],
+		"who": [
+			"Administrative and medical staff",
+			"Managerial employees",
+			"Employees performing work specified by regulation with approval",
+			"Employees whose job grades or salary steps will be changed"
+		],
+		"why": "The mayor says this is to update the rules concerning special duty allowances for managerial employees and other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"generatedAt": "2026-09-30T12:47:30.187Z",
+			"inputTokens": 600,
+			"cachedTokens": 0,
+			"outputTokens": 1678,
+			"reasoningTokens": 1400
+		}
+	}
 }

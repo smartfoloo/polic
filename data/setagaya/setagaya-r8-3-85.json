@@ -27,5 +27,79 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/85.pdf",
 			"fetchedAt": "2026-09-30T10:23:10.584Z"
 		}
-	]
+	],
+	"name": "預かり保育料を1時間100円に",
+	"category": "子育て",
+	"summary": "現在は、利用区分に応じて預かり保育料を定めています。この議案では区分をなくし、1人当たり1時間100円に改めます。区外在住の認定子どもに給食を提供する場合は給食費を加え、改正後の規定は令和9年4月1日以降の利用分に適用します。",
+	"changes": [
+		"預かり保育料を1人当たり1時間100円とし、1時間未満の端数を1時間として数える",
+		"区外在住の教育・保育給付認定子どもへの昼食提供に290円を加算する",
+		"区外在住の教育・保育給付認定子どもへのおやつ提供に50円を加算する"
+	],
+	"who": [
+		"区立認定こども園で預かり保育を利用する子どもや保護者",
+		"区外在住で給食の提供を受ける教育・保育給付認定子どもや保護者"
+	],
+	"why": "預かり保育の利用区分の廃止や料金の変更、規定の整理が必要なためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T12:45:24.643Z",
+		"inputTokens": 1467,
+		"cachedTokens": 0,
+		"outputTokens": 1206,
+		"reasoningTokens": 861
+	},
+	"checks": {
+		"draftAt": "2026-09-30T12:45:24.643Z",
+		"checkedAt": "2026-09-30T12:46:29.565Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "預かり保育料を1人当たり1時間100円とし、1時間未満の端数を1時間として数える",
+				"note": "原文第7条第2項では、端数の切上げは「1日の利用時間の合計」に対して行うと定めています。料金計算に関わるこの条件が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1559,
+			"cachedTokens": 0,
+			"outputTokens": 329,
+			"reasoningTokens": 215
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7d87e1ad5a50a670",
+		"name": "Set supervised childcare fees at ¥100 per hour",
+		"official": "Ordinance Partially Amending the Ward Ordinance on Childcare Fees at Ward-Run Certified Children’s Centers",
+		"summary": "Currently, supervised childcare fees are set according to the type of use. This bill removes those categories and sets the fee at ¥100 per child per hour. If meals are provided to certified children who live outside the ward, the meal fee will be added. The amended provisions will apply to use on or after April 1, 2027.",
+		"changes": [
+			"Set the supervised childcare fee at ¥100 per child per hour, counting any fraction of an hour as one full hour",
+			"Add ¥290 for providing lunch to education and childcare benefit-certified children who live outside the ward",
+			"Add ¥50 for providing snacks to education and childcare benefit-certified children who live outside the ward"
+		],
+		"who": [
+			"Children and parents using supervised childcare at ward-run certified children’s centers",
+			"Education and childcare benefit-certified children who live outside the ward, and their parents, when lunch is provided",
+			"Education and childcare benefit-certified children who live outside the ward, and their parents, when snacks are provided"
+		],
+		"why": "The mayor says the changes are needed to abolish the usage categories for supervised childcare, revise the fees, and reorganize the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"generatedAt": "2026-09-30T12:47:08.220Z",
+			"inputTokens": 660,
+			"cachedTokens": 0,
+			"outputTokens": 1752,
+			"reasoningTokens": 1446
+		}
+	}
 }

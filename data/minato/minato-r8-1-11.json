@@ -32,5 +32,72 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB727_11.pdf",
 			"fetchedAt": "2026-09-30T12:27:35.695Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援事業所の基準を変更",
+	"category": "子育て",
+	"summary": "現在、乳児等通園支援事業の設備や運営に関する基準を条例で定めています。この議案では、運営規程に定める内容や、設備・職員の基準の適用などを改めます。改正は令和8年4月1日から施行します。",
+	"changes": [
+		"運営規程に定める利用定員から、乳児・幼児別の区分をなくす",
+		"利用定員を、子ども・子育て支援法に基づく確認で定める定員として明確にする",
+		"特例保育を行う事業者が同じ事業所で一般型を行う場合、設備・職員の基準を適用しない",
+		"条例中の用語や、運営規程に定める事項を改める"
+	],
+	"who": [
+		"乳児等通園支援事業所",
+		"特例保育を行う事業者"
+	],
+	"why": "国の基準改正を踏まえ、運営規程に関する基準などを変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T12:44:52.674Z",
+		"inputTokens": 1654,
+		"cachedTokens": 0,
+		"outputTokens": 1873,
+		"reasoningTokens": 1548
+	},
+	"checks": {
+		"draftAt": "2026-09-30T12:44:52.674Z",
+		"checkedAt": "2026-09-30T12:46:05.269Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1725,
+			"cachedTokens": 0,
+			"outputTokens": 170,
+			"reasoningTokens": 155
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2db453cb01d86737",
+		"name": "Changes to Standards for Infant and Other Childcare Attendance Support Services",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Facilities and Operation of Infant and Other Childcare Attendance Support Services in Minato Ward",
+		"summary": "The ward currently sets standards for the facilities and operation of infant and other childcare attendance support services by ordinance. This bill revises the matters that must be set out in operating rules and how the standards for facilities and staff apply. The amendments take effect on April 1, 2026.",
+		"changes": [
+			"Removes the separate categories for infants and toddlers from the service capacity specified in the operating rules",
+			"Clarifies that the service capacity is the capacity set through confirmation under the Child and Childrearing Support Act",
+			"Exempts providers carrying out special childcare from the facility and staff standards when they also provide general-type services at the same facility",
+			"Revises terms used in the ordinance and the matters to be specified in the operating rules"
+		],
+		"who": [
+			"Facilities providing infant and other childcare attendance support services",
+			"Providers carrying out special childcare"
+		],
+		"why": "The ward says the standards for operating rules and other matters are being changed in light of revisions to national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"generatedAt": "2026-09-30T12:46:54.499Z",
+			"inputTokens": 652,
+			"cachedTokens": 0,
+			"outputTokens": 1165,
+			"reasoningTokens": 881
+		}
+	}
 }

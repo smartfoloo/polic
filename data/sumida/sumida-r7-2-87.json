@@ -27,5 +27,68 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/01-2-1.pdf",
 			"fetchedAt": "2026-09-30T10:11:46.549Z"
 		}
-	]
+	],
+	"name": "聴聞などの通知をネットでも公示",
+	"category": "行政のしくみ",
+	"summary": "現在、公示による聴聞や弁明の機会の通知では、事務所の掲示場への掲示などが定められています。改正後は、規則で定める方法で公示内容を不特定多数が閲覧できるようにし、掲示場への掲示または事務所の電子画面での閲覧も行います。",
+	"changes": [
+		"公示事項を規則で定める方法で不特定多数が閲覧できる状態に置く",
+		"掲示場への掲示または事務所の電子画面での閲覧を行う",
+		"措置開始から2週間後に通知が到達したものとみなす"
+	],
+	"who": [
+		"聴聞や弁明の機会の通知を公示で受ける人"
+	],
+	"why": "行政手続法の一部改正を踏まえ、公示事項をインターネットなどで閲覧できるようにするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T12:45:40.384Z",
+		"inputTokens": 2067,
+		"cachedTokens": 0,
+		"outputTokens": 1248,
+		"reasoningTokens": 957
+	},
+	"checks": {
+		"draftAt": "2026-09-30T12:45:40.384Z",
+		"checkedAt": "2026-09-30T12:46:34.364Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2102,
+			"cachedTokens": 0,
+			"outputTokens": 102,
+			"reasoningTokens": 88
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c08997f14172c1bd",
+		"name": "Public Notices for Hearings and Other Matters Also Posted Online",
+		"official": "Ordinance Partially Amending the Sumida Ward Administrative Procedure Ordinance",
+		"summary": "Currently, notices of hearings and opportunities to explain oneself that are given by public notice must be posted on the notice board at the office, among other methods. After the amendment, the details of the public notice will be made available for an unspecified number of people to view by methods set out in regulations, and will also be posted on a notice board or made viewable on an electronic screen at the office.",
+		"changes": [
+			"Make public notice details available for an unspecified number of people to view by methods set out in regulations",
+			"Post the details on a notice board or make them viewable on an electronic screen at the office",
+			"Deem the notice to have arrived two weeks after the measures begin"
+		],
+		"who": [
+			"People who receive public notice of a hearing or an opportunity to explain themselves"
+		],
+		"why": "The ward says this is to make public notice details viewable on the internet and by other means, in light of a partial amendment to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"generatedAt": "2026-09-30T12:47:16.743Z",
+			"inputTokens": 597,
+			"cachedTokens": 0,
+			"outputTokens": 1018,
+			"reasoningTokens": 754
+		}
+	}
 }
