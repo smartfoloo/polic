@@ -1,44 +1,29 @@
 // Translates Japanese summaries into English for bills that are live (reviewed, or passed the
 // checks), when the English is missing or stale (the Japanese changed since translation).
-// Usage: npm run translate
+// Usage: npm run translate [-- <bill id> ...]
 
 import { loadBills, saveBillFile } from './lib/bills-io.js';
-import { callJson, costReport, MODELS } from './lib/llm.js';
+import { costReport } from './lib/llm.js';
+import { STEPS, translateBill } from './lib/pipeline.js';
+import { jaSource } from './lib/prompts.js';
 import { publishState } from './lib/publish.js';
-import { jaSource, TRANSLATE_INSTRUCTIONS, TRANSLATE_PROMPT_VERSION, TRANSLATE_SCHEMA, TRANSLATE_TITLE_SCHEMA } from './lib/prompts.js';
 
-const MODEL = MODELS.translate;
-const EFFORT = 'high';
+const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 /** @type {import('./lib/llm.js').Usage[]} */
 const usages = [];
 
 for (const { path, bill } of await loadBills()) {
-	if (publishState(bill) === 'held') continue;
+	if (publishState(bill) === 'held' || (only.length && !only.includes(bill.id))) continue;
 
-	const { ja, hash: sourceHash } = jaSource(bill);
-	if (bill.en?.sourceHash === sourceHash) continue;
+	if (bill.en?.sourceHash === jaSource(bill).hash) continue;
 
 	try {
-		const { data, usage } = await callJson({
-			model: MODEL,
-			effort: EFFORT,
-			instructions: TRANSLATE_INSTRUCTIONS,
-			input: JSON.stringify(ja, null, 2),
-			name: bill.titleOnly ? 'bill_title_translation' : 'bill_translation',
-			schema: bill.titleOnly ? TRANSLATE_TITLE_SCHEMA : TRANSLATE_SCHEMA
-		});
-		usages.push(usage);
-		bill.en = {
-			approved: false,
-			sourceHash,
-			...data,
-			draft: { model: MODEL, effort: EFFORT, promptVersion: TRANSLATE_PROMPT_VERSION, generatedAt: new Date().toISOString(), ...usage }
-		};
+		usages.push(await translateBill(bill));
 		await saveBillFile(path, bill);
-		console.log(`${bill.id}: ${data.name ?? data.official}`);
+		console.log(`${bill.id}: ${bill.en.name ?? bill.en.official}`);
 	} catch (err) {
 		console.log(`  ! ${bill.id}: ${/** @type {Error} */ (err).message}`);
 	}
 }
 
-console.log(usages.length ? costReport(usages, MODEL) : 'Nothing to translate.');
+console.log(usages.length ? costReport(usages, STEPS.translate.model) : 'Nothing to translate.');

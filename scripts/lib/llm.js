@@ -55,9 +55,17 @@ export async function callJson({ model, effort, instructions, input, name, schem
  * @param {keyof typeof PRICE_PER_M} model
  */
 export function costReport(usages, model) {
-	const price = PRICE_PER_M[model];
 	const sum = (/** @type {keyof Usage} */ k) => usages.reduce((a, u) => a + u[k], 0);
 	const [i, c, o, r] = [sum('inputTokens'), sum('cachedTokens'), sum('outputTokens'), sum('reasoningTokens')];
-	const usd = ((i - c) * price.input + c * price.cachedInput + o * price.output) / 1e6;
+	const usd = costUsd({ inputTokens: i, cachedTokens: c, outputTokens: o, reasoningTokens: r }, model);
 	return `${usages.length} calls · ${i} input (${c} cached) / ${o} output tokens (${r} reasoning) · ~$${usd.toFixed(3)}`;
+}
+
+/**
+ * @param {Usage} u
+ * @param {keyof typeof PRICE_PER_M} model
+ */
+export function costUsd(u, model) {
+	const price = PRICE_PER_M[model];
+	return ((u.inputTokens - u.cachedTokens) * price.input + u.cachedTokens * price.cachedInput + u.outputTokens * price.output) / 1e6;
 }

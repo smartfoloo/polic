@@ -18,15 +18,15 @@ The checks (`npm run verify`, after `npm run draft`):
 
 ## The loop
 
-1. `npm run review` lists, in order: **held** bills (with the reasons), the **spot-check sample** (about 1 in 10 live bills, fixed by id), approved bills whose **facts changed**, **English** to review or retranslate, and optional **improvements**. Filter by id: `npm run review -- suginami`.
-2. Open the bill file, `data/<assembly>/<id>.json`, next to its source:
-   - `cache/text/<id>.txt` is the text the AI read (local only, never committed).
-   - `sources` in the JSON links to the official pages and PDFs. When in doubt, the PDF wins.
-3. Fix what the reasons point at, using the checklist below.
-4. Set `"approved": true` (this also clears the hold).
+1. Run `npm run dev` and open **http://localhost:5173/admin**. The left side lists what's waiting, most important first: **held** bills, the **spot-check sample** (about 1 in 10 live bills, fixed by id), approved bills whose **facts changed**, **English** to review or retranslate, and optional **improvements**. `npm run review` prints the same lists in the terminal.
+2. Open a bill. The source text the AI read (`cache/text/<id>.txt`, local only) is on the left, with links to the official pages and PDFs; when in doubt, the PDF wins. The draft is on the right, with the checker's notes under each field and any numbers the source doesn't contain.
+3. Fix what the notes point at, using the checklist below. **Save** (⌘S) writes `data/<assembly>/<id>.json` and re-runs the code checks.
+4. **Approve & next** sets `"approved": true` (this also clears the hold) and opens the next bill.
 5. Commit, a batch at a time, e.g. `chore: Approve held Suginami bills`.
 
-If a draft is beyond fixing, delete its `"draft"` key and run `npm run draft -- <id>` and `npm run verify -- <id>` (about 4¢ together).
+If a draft is beyond fixing, **Re-draft with AI…** runs `draft` and `verify` for that bill again (about 1–4¢; it asks first). From the terminal: delete its `"draft"` key and run `npm run draft -- <id>` and `npm run verify -- <id>`.
+
+The admin page only exists under `npm run dev`; the production server answers 404.
 
 ## Japanese checklist
 
@@ -61,7 +61,7 @@ Bills with `"titleOnly": true` (Tokyo member bills) have no published text, so t
 
 ## Facts changed after approval
 
-When `npm run collect` finds new facts for an approved bill (a vote happened, a committee was assigned), it keeps the bill approved and adds `"factsUpdated": "<date>"`. Check that the summary still reads correctly with the new status, then delete the `factsUpdated` line and commit.
+When `npm run collect` finds new facts for an approved bill (a vote happened, a committee was assigned), it keeps the bill approved and adds `"factsUpdated": "<date>"`. Check that the summary still reads correctly with the new status, then press **Facts OK** (or delete the `factsUpdated` line) and commit.
 
 ## English
 
@@ -75,7 +75,7 @@ English is translated from **our Japanese summary**, never from the source. `npm
 - [ ] `official` is a literal translation of the Japanese title. The site labels it "unofficial translation".
 - Committee and assembly names aren't in `en`; they come from the glossary in `src/lib/config/`.
 
-Then set `"en": { "approved": true, … }` and commit.
+Then press **Approve English** on the English tab (or set `"en": { "approved": true, … }`) and commit.
 
 Editing any Japanese field later makes the English out of date: `npm run review` lists it, and `npm run translate` redoes it and resets `en.approved` to `false`.
 

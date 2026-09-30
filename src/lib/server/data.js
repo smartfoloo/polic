@@ -24,7 +24,7 @@ export const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10
 const all = /** @type {any[]} */ (Object.values(files));
 
 /** @returns {PublicBill} */
-function toPublic(/** @type {any} */ b) {
+export function toPublic(/** @type {any} */ b) {
 	// Unapproved English is shown too, labelled as an unchecked machine translation (REVIEW.md).
 	const enCurrent = b.en && b.en.sourceHash === jaSource(b).hash;
 	return {

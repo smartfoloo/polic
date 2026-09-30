@@ -10,6 +10,9 @@
 	import RegionPicker from '$lib/components/RegionPicker.svelte';
 
 	let { data, children } = $props();
+
+	// The review page (/admin, dev only) is a full-screen tool without the site's header and footer.
+	const admin = $derived(page.route.id?.startsWith('/admin') ?? false);
 </script>
 
 <svelte:head>
@@ -18,13 +21,17 @@
 	<meta name="description" content={t('地元の議会で決まっていることを、ふだんの言葉で。', 'What your local assembly is deciding, in everyday words.')} />
 </svelte:head>
 
-<a class="skip sr" href="#main">{t('本文へ移動', 'Skip to content')}</a>
-<SiteHeader />
-<main id="main" tabindex="-1">
+{#if admin}
 	{@render children()}
-</main>
-<SiteFooter contact={data.contact} />
-<RegionPicker assemblies={data.assemblies} />
+{:else}
+	<a class="skip sr" href="#main">{t('本文へ移動', 'Skip to content')}</a>
+	<SiteHeader />
+	<main id="main" tabindex="-1">
+		{@render children()}
+	</main>
+	<SiteFooter contact={data.contact} />
+	<RegionPicker assemblies={data.assemblies} />
+{/if}
 
 <style>
 	main {

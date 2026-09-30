@@ -6,12 +6,11 @@
 import { readFile } from 'node:fs/promises';
 import { loadBills, saveBillFile } from './lib/bills-io.js';
 import { checkDraft } from './lib/checks.js';
-import { callJson, costReport, MODELS } from './lib/llm.js';
-import { VERIFY_INSTRUCTIONS, VERIFY_PROMPT_VERSION, VERIFY_SCHEMA, verifyInput } from './lib/prompts.js';
+import { costReport } from './lib/llm.js';
+import { checkBill, STEPS } from './lib/pipeline.js';
+import { VERIFY_PROMPT_VERSION } from './lib/prompts.js';
 import { textPath } from './lib/store.js';
 
-const MODEL = MODELS.verify;
-const EFFORT = 'medium';
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 /** @type {import('./lib/llm.js').Usage[]} */
 const usages = [];
@@ -38,32 +37,17 @@ for (const { path, bill } of await loadBills()) {
 	}
 
 	try {
-		const flags = checkDraft(bill, source);
-		const { data, usage } = await callJson({
-			model: MODEL,
-			effort: EFFORT,
-			instructions: VERIFY_INSTRUCTIONS,
-			input: verifyInput(bill, source),
-			name: 'bill_check',
-			schema: VERIFY_SCHEMA
-		});
-		usages.push(usage);
-		bill.checks = {
-			draftAt: bill.draft.generatedAt,
-			checkedAt: new Date().toISOString(),
-			flags,
-			issues: data.issues,
-			ai: { model: MODEL, effort: EFFORT, promptVersion: VERIFY_PROMPT_VERSION, ...usage }
-		};
+		usages.push(await checkBill(bill, source));
 		await saveBillFile(path, bill);
 
-		const n = flags.length + data.issues.length;
+		const { flags, issues } = bill.checks;
+		const n = flags.length + issues.length;
 		console.log(`${bill.id}: ${n ? `${n} to look at` : 'clean'}`);
 		for (const f of flags) console.log(`    code: ${f}`);
-		for (const i of data.issues) console.log(`    ai [${i.severity}] ${i.field}/${i.kind}: 「${i.quote}」 → ${i.note}`);
+		for (const i of issues) console.log(`    ai [${i.severity}] ${i.field}/${i.kind}: 「${i.quote}」 → ${i.note}`);
 	} catch (err) {
 		console.log(`  ! ${bill.id}: ${/** @type {Error} */ (err).message}`);
 	}
 }
 
-console.log(usages.length ? costReport(usages, MODEL) : 'Nothing to verify.');
+console.log(usages.length ? costReport(usages, STEPS.verify.model) : 'Nothing to verify.');
