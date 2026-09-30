@@ -29,7 +29,7 @@ Goal: keep the app as simple as possible.
 | Bill order | Facts only, never an LLM "importance" ranking (neutrality). (1) Still being decided (提案中/審議中), current session, soonest vote first; (2) decided (決定/否決), newest first; (3) bills with an empty `who` (no direct effect on residents) last. Ties by bill number. Decided 2026-09-28. |
 | Popular bills | 「よく見られている」 strip above the board, separate from the main order (no feedback loop). A bill shows only with **≥ N unique visitors in the last 14 days** (start N = 30); if none qualify the strip is hidden. Counts are never displayed. Off during the election freeze. Decided 2026-09-28. |
 | View counting | No new server: the bill page fires one beacon request (`/v/<bill-id>`) that Caddy answers `204` and logs; a nightly script counts unique (hashed IP + UA, per bill, per day) views from the log, writes `popular.json`, and rebuilds. Beacon, not page loads, because SvelteKit navigates client-side and preloads on hover. Caddy logs kept 7–14 days; only aggregates stored. Decided 2026-09-28. |
-| Region scope | **Kanto only** for the near future (茨城・栃木・群馬・埼玉・千葉・東京・神奈川). New assemblies come from there: the 23 wards first, then Tokyo cities and other Kanto cities. The home page region search lists only Kanto (`SEARCH_PREFECTURES` in `src/lib/config/site.js`; town list from 総務省's code list via `npm run municipalities`). Decided 2026-09-30. |
+| Region scope | **Kanto only** for the near future (茨城・栃木・群馬・埼玉・千葉・東京・神奈川). New assemblies come from there: the 23 wards first, then Tokyo cities and other Kanto cities (Tama area checked 2026-09-30, see "Tama area: source check"). The home page region search lists only Kanto (`SEARCH_PREFECTURES` in `src/lib/config/site.js`; town list from 総務省's code list via `npm run municipalities`). Decided 2026-09-30. |
 | Permission | Not legally required for this design. **Notify** each 議会事務局 before crawling; don't wait for a reply. |
 
 ## Non-negotiables (from the legal briefing)
@@ -176,6 +176,63 @@ robots.txt allows us everywhere below: only cgi, video, 工事送達 or translat
 
 Upkeep: 墨田区, 台東区 and 中野区 list pages per (fiscal) year, so add the next year's index to `listPages` when it starts. 葛飾区's 第1回定例会 opening day is unconfirmed (its schedule PDF is a scanned image); 2026-02-16 is its first recorded vote. **品川区長選挙 is on 2026-11-15**, during soft launch: the election window rule covers assembly elections only, so decide whether a mayoral election should also hold unreviewed bills.
 
+## Tama area: source check (2026-09-30, read-only, in a browser)
+
+The 26 cities plus 瑞穂町, 日の出町, 檜原村 and 奥多摩町; the islands are out of scope. One or two sessions checked per assembly. **robots.txt allows us everywhere** (cgi, mobile or translation paths only, or no robots.txt at all); 町田 disallows named SEO bots and CCBot, not `*`. 立川 and 東村山 redirect English-language browsers to `j-server.com`, like the wards.
+
+| Assembly | Bill list + results | Committee | Bill content | Verdict |
+|---|---|---|---|---|
+| 町田市議会 | **Same g07 bill database as Minato/Adachi/Edogawa** (`gikai-machida.jp/g07_giketsu.asp`); sessions 「令和8年9月定例会（第3回）」. | Bill page (議案のカルテ). | 本文 PDF per bill + 議案の概要. City open data also has a 議案審議結果一覧表 XLSX. | **Easiest**: `g07.js` + config. |
+| 立川市議会 | 議案一覧 page per session (`/shigikai/katsudo/1007184/1026374/1026377/1028161.html`): 番号, 議案名, 付託委員会 (or 付託省略), 議決年月日・結果. | In the table. | PDF per bill (`r8gian108.pdf`; 決算 grouped). | **Easiest.** New assembly elected 2026-06-21. |
+| 武蔵野市議会 | Year page of 市長提出議案 (`/shigikai/gian_seigan_chinzyo/shichogian/1053667.html`), a table per session: 番号, 件名, 付託委員会, 委員会 date/result, 本会議 date/result. 議員提出議案 on a sibling page. | In the table (abbreviated). | PDF per bill (`/shiseijoho/reiki_sosho_gian/shigikai_teishutsugian/1054952.html`), plus per-session press-conference 概要. | **Easiest.** |
+| 青梅市議会 | 議案審議結果一覧 per meeting (`/site/gikai/120709.html`): 番号 (議2), 件名 → PDF, **one-sentence 議案概要**, 提出日, committee + date + result, 議決日 + result. | In the table. | PDF per bill. | **Easiest, and the richest.** Year-long session: 「令和8年市議会定例会」 runs May–April, meetings 「5月招集議会」「6月定例議会」…; numbers restart each May. |
+| 府中市議会 | 議決結果 page per session (`/gikai/shingi/naiyo/r8dai2kaigiketukekka.html`): 番号, 件名, 付託委員会, 本会議結果, **plus a CSV** of the same. No vote date. | In the table (本会議直接審議 = none). | PDF per bill (`…/r8sicyotesyutu/2teirei.files/8-2-044.pdf`). | **Easiest.** Date = submission, like Sumida. |
+| 調布市議会 | 会議結果 page per session (`/140010/p077273.html`): a list, not a table: 「41.title / 付託委員会: / 議決年月日: / 結果:」. | In the list (即決 = none). | PDF per bill on 市長提出予定議案 (`/020040/p078144.html` → `/documents/17475/gian36.pdf`), plus a yearly 補足・説明資料 page. | **Easiest.** |
+| 東村山市議会 | 議案一覧 per session (`/gikai/katsudo/gikai_09_gian-kekka/r8/8-9shichougian.html`): 番号, 件名 → PDF + one-line 提出理由, 付託日, committee, 結果 (no vote date). | In the table. | PDF per bill (`r8-56g.pdf`). | **Easiest.** Sessions named by month (「令和8年9月定例会」). |
+| 東大和市議会 | 議案等審議結果 per session (`/shisei/gikai/1008119/1005679/1011960/1012285.html`): 上程日, 付託日, 付託先 (省略), 議決日, 結果. | In the table. | PDF per bill on 市長提出議案 per session (`…/1011940/1012223.html` → `4-35.pdf`). | **Easiest.** Separate series: 第35号議案, 第1号同意, 第2号報告. |
+| 瑞穂町議会 | 議案件名 page per session (`/gikai/result/001/r8/p011439.html`): 番号, 件名 → PDF, 結果. | Not shown. | PDF per bill. | **Easiest** (no committee or vote date). |
+| あきる野市議会 | One page per 会議 (`/0000020596.html`, index `/0000000464.html`): 番号, 件名 → PDF, 採決日, 結果. | Not in the bill table. | PDF per bill. | **Easiest** (no committee). Year-long session with 会議: 「令和8年第1回定例会6月定例会議」「…第1回臨時会議」. |
+| 八王子市議会 | Session page (`/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037524.html`): 番号, 件名, 付託委員会 (abbreviated, legend below), 委員会 date, 議決年月日, 結果. Member bills as PDFs. | In the table. | **Combined** 議案 PDF + **議案の概要** PDF per session (`/shisei/001/001/007/002/p037536.html`), back to H29. | **Easy**: split the combined PDF. Titles 「…条例設定について」. |
+| 三鷹市議会 | 本会議の結果 per session (`gikai.city.mitaka.tokyo.jp/activity/result/2026/custom_2026b.html`): 上程日, 付託日 + committee (or 即決), 審査結果, 議決日 + result (満場一致/賛成多数). | In the table. | **Combined** 提出議案 PDF per send date; the city's 議案概要等 page has 概要 PDFs. | **Easy.** |
+| 小平市議会 | 議決した議案 per session (`/gikai/129/129115.html`): 提出年月日, 付託先, 議決年月日, 結果. | In the table. | **Combined** 議案 PDF on a press-release page per session (`/kurashi/128/128505.html`). | **Easy.** Sessions named by month. |
+| 東久留米市議会 | 会議結果 per session (`/gikai/kaigi/kekka/1028663/1028668.html`): 議決日, 結果, votes by 会派. 付議案件 page: 付託先. | 付議案件 page. | **Combined** 議案 PDF (4.9 MB) + 議案一覧表 PDF. | **Easy.** |
+| 稲城市議会 | **One page per session** (`/gikai/ugoki/1013693/1013956.html`) with everything: 議案番号, 議案名, 審議方法, 議決年月日, 結果, per-committee sections. | In the table. | **Combined** 議案書 PDF (13.6 MB). | **Easy.** |
+| 多摩市議会 | 会議結果 per session (`/shigikai/kaigi/kekka/1019561/1020428.html`): 提出月日, 議案名, 議決月日, 結果. | Not found. | PDFs **grouped by number range** (「第79号議案から第104号議案まで（契約・損害賠償・条例等）」). | **Easy** (no committee). Site slow (one load > 10 s). |
+| 国立市議会 | 会議結果報告 **PDF** per session; session page (`/soshiki/Dept09/Div01/Sec02/gyomu/gikai_kaigi_nittei_kekka/0304/r8/13705.html`). | 付託事件一覧表 PDF. | **PDF per bill** (`/shisei/gikai/5/r8_1/13780.html`). | **Easy/medium**: text easy, facts in small PDFs. Titles end 「…条例案」. |
+| 狛江市議会 | Results as **PDFs** (審査結果一覧 + 賛否一覧表, `/index.cfm/49,145713,404,2590,html`). | 「提出議案及びその取り扱い」 PDF. | **Combined** 議案 PDF in a news post per session (`/index.cfm/49,145796,594,html`). | **Medium**: all PDF, timestamp filenames. |
+| 国分寺市議会 | Results as one **PDF** per session; 付議事項 HTML list. Site renewed 2026-03-03 (old URLs 404). | 委員会審査結果 pages (not checked). | 提出議案一覧 in HTML with a **提案理由** paragraph per bill; no bill PDFs seen. | **Medium/thin.** |
+| 清瀬市議会 | Results as **PDFs** per session (`/sigikai/kaigi/1015946/1016286.html`) with 議案名, **概要**, 議決日, 結果. | Not seen. | 議案一覧 pages appear during a session and are **removed afterwards**. | **Medium/thin**: text only if captured while open. |
+| 福生市議会 | 審議結果 per session (`/assembly/meeting/bill/1020868/1021548.html`): per bill 付託年月日・委員会, 議決年月日・結果, **内容** paragraph. | In the page. | No bill PDFs. | **Thin**, like Nerima. |
+| 羽村市議会 | Year page of 市長提出議案 (`/0000020396.html`): 番号, 件名, **要旨** (reason, 【主な内容】, 【施行日】), 結果 + date. | Not found. | No bill PDFs; the 要旨 is detailed, like Shinagawa's 内容. | **Thin but rich.** |
+| 日野市議会 | 議案等審議結果一覧表 per session (`/shigikai/gian/1030502.html`): votes by 会派, 結果, 議決年月日. | Not found. | Not found. | **Facts only.** |
+| 西東京市議会 | 日程・付議案件・結果 per session (`/sigikai/nittei_kekka/nittei_anken/r8/kaikinainittei0801.html`): 上程月日, 付託委員会, 結果. | In the table. | Member bills (意見書) only. | **Facts only.** |
+| 昭島市議会 | 審議結果 per session (`/gikai/honkaigi/1006709/1011604/1012026.html`): 議決月日, 結果. | Only on the 直前情報 page for the current session, overwritten each time. | Not found. | **Facts only**; committee must be caught while open. |
+| 日の出町議会 | 議案結果 per session (`/0000004700.html`): a list with 審議結果 and sometimes 「…委員会に付託（2月27日）」. | When referred. | Not found. | **Facts only.** |
+| 武蔵村山市議会 | 議決結果 for the **latest session only** (`/shisei/shigikai/1022404/kaigi/1022506.html`); last year's page now 404s. | Not found. | Not found. | **Facts only, transient**: must be collected every session. |
+| 小金井市議会 | Results as **PDFs** per session. | Probably in the PDF. | **Scanned bundles with OCR** per send date (当初送付案件 129 MB). | **Hard.** |
+| 檜原村議会 | **No bill list or results online**: schedule, 一般質問, video and 議会だより only. | — | — | **Not feasible** (newsletter only). |
+| 奥多摩町議会 | **No bill list or results online**: schedule, 一般質問, 会議録 and 議会だより only. | — | — | **Not feasible** (newsletter/minutes only). |
+
+**By difficulty**
+
+| Tier | Assemblies |
+|---|---|
+| Easiest: bill text per bill + facts in HTML | 町田市 (g07) · 立川市 · 武蔵野市 · 青梅市 · 府中市 · 調布市 · 東村山市 · 東大和市 · 瑞穂町 · あきる野市 |
+| Easy: split a combined PDF, or facts in small PDFs | 八王子市 · 三鷹市 · 小平市 · 東久留米市 · 稲城市 · 多摩市 · 国立市 |
+| Medium: everything in PDFs, or text only while open | 狛江市 · 国分寺市 · 清瀬市 |
+| Thin: a paragraph per bill | 福生市 · 羽村市 |
+| Facts only (title-only) | 日野市 · 西東京市 · 昭島市 · 日の出町 · 武蔵村山市 |
+| Hard | 小金井市 |
+| Not feasible now | 檜原村 · 奥多摩町 |
+
+**Shared work before building:**
+- **Combined PDFs** (八王子, 三鷹, 小平, 東久留米, 稲城, 多摩, 狛江): one helper that splits a bundle at each 「第N号議案」/「議案第N号」 heading would cover seven assemblies.
+- **Session names**: month-named sessions (小平, 東村山, 町田 「令和8年9月定例会（第3回）」), 青梅's May–April year (「…6月定例議会」, numbers restart in May) and あきる野's 「令和8年第1回定例会6月定例会議」 all need `parseSessionName` cases.
+- **Scope filter**: titles ending 「…条例設定について」 (八王子), 「…条例の制定について」 (日野) and 「…条例案」 (国立) must count, while 専決処分 stays out.
+- **Transient pages** (昭島 committee, 清瀬 bill text, 武蔵村山 results): they only work if we collect during every session, so crawl weekly while they're open.
+
+**Proposed build order:** 町田市 (g07 config only) → the other nine easiest → the seven easy ones after the PDF splitter → medium, thin and facts-only as time allows. 檜原村 and 奥多摩町 wait until they publish bill lists; ask in the crawl notice.
+
 ## Bill JSON format
 
 Matches the fields the design already uses.
@@ -272,7 +329,7 @@ Matches the fields the design already uses.
 - [ ] Fill in the 2027 ward-election notice date and election day in `REVIEW.md` once announced.
 
 ### Step 6 — Site
-Built 2026-09-29 from the design reference. Pages: landing, one board per assembly, bill popup (also its own URL), search, About, privacy policy, 404; 会議・学ぶ・参加する are 準備中 pages. Every page also under `/en/`.
+Built 2026-09-29 from the design reference. Pages: landing, one board per assembly, bill popup (also its own URL), search, About, privacy policy, 404, 学ぶ; 会議・参加する are 準備中 pages. Every page also under `/en/`.
 - [x] `stageNote` (ja/en) built from stage/status/committee/date in `src/lib/bills.js`.
 - [x] Board (category chips, paper cards with a fixed emoji per topic) and bill popup (summary, 何が変わる？, 誰に影響がある？ (left out when empty), なんで今？, 5-stop stepper with ? notes, collapsed 出典).
 - [x] Every bill: source links, AI disclosure line, "report an error" mailto (address = `POLIC_CONTACT`, public).
@@ -288,6 +345,7 @@ Built 2026-09-29 from the design reference. Pages: landing, one board per assemb
 - [x] 「よく見られている」 strip from `data/popular.json` (`{ "visitors": { "<bill id>": <unique visitors, last 14 days> } }`), ≥ 30, top 5, hidden when empty or in an election window.
 - [x] Popup sends the view beacon once per bill shown (skipped in dev).
 - [x] Privacy policy page (`/privacy`): no cookies/analytics, access logs ≤ 14 days, aggregates only, OpenAI (US) named. **Draft: check against the legal briefing before launch.**
+- [x] 学ぶ (2026-09-30): 11 hand-written explainers in `src/lib/learn.js` (ja/en), grouped 地方自治のしくみ (二元代表制, 首長と役所, 議会と議員, 都と23区, 住民ができること) and 議案と議会 (flow matching the stepper, 委員会, 本会議, 定例会と臨時会, 条例, 議案を出す人). Index + `/learn/<slug>` with 「次を読む」; stepper ? notes link to 委員会 and 本会議. **Needs a read-through against 地方自治法 before launch.**
 - [x] Search (`/search?q=`): substring match over live bills after NFKC + lowercase (全角/半角 insensitive), all words must match.
 - [x] Fonts self-hosted (`@fontsource`): no third-party requests.
 
