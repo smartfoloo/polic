@@ -1,5 +1,5 @@
 // Runs each assembly's adapter for every session in the config and writes data/<assembly>/*.json.
-// Usage: npm run collect [-- --daytime]
+// Usage: npm run collect [-- --daytime] [-- --only minato,taito]
 
 import { assemblies, allHosts } from '../src/lib/config/assemblies.js';
 import { adapters } from './adapters/index.js';
@@ -8,10 +8,15 @@ import { saveBill } from './lib/store.js';
 
 let stopped = 0;
 
+// --only takes the last part of assembly ids (tokyo/minato → minato).
+const i = process.argv.indexOf('--only');
+const only = i > 0 ? process.argv[i + 1]?.split(',') : null;
+const selected = only ? assemblies.filter((a) => only.includes(a.id.split('/').pop() ?? '')) : assemblies;
+
 try {
 	assertOffPeak();
 	allowHosts(allHosts);
-	for (const assembly of assemblies) {
+	for (const assembly of selected) {
 		try {
 			for (const session of assembly.sessions) {
 				const { bills, warnings } = await adapters[assembly.id].collect(assembly, session, politeFetch);

@@ -12,6 +12,9 @@ const BOT = 'PolicBot';
 const MIN_DELAY_MS = 6_000;
 const TIMEOUT_MS = 30_000;
 const SLOW_MS = 10_000;
+// Hosts that are always slow, not under load (港区's g07 database answers in ~15 s at any hour).
+/** @type {Record<string, number>} */
+const SLOW_MS_BY_HOST = { 'gikai2.city.minato.tokyo.jp': 25_000 };
 const CACHE_TTL_MS = 12 * 60 * 60 * 1000;
 const CACHE_DIR = 'cache';
 
@@ -204,7 +207,7 @@ export async function politeFetch(href) {
 	await writeCache(url, meta, body);
 
 	const elapsed = Date.now() - started;
-	if (elapsed > SLOW_MS) throw stopHost(url.host, `${url.host} took ${elapsed}ms — the site may be under load, stopping.`);
+	if (elapsed > (SLOW_MS_BY_HOST[url.host] ?? SLOW_MS)) throw stopHost(url.host, `${url.host} took ${elapsed}ms — the site may be under load, stopping.`);
 
 	return { url: href, body, contentType: meta.contentType, fetchedAt, source: 'network' };
 }

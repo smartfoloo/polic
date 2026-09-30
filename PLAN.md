@@ -30,7 +30,7 @@ Goal: keep the app as simple as possible.
 | Popular bills | 「よく見られている」 strip above the board, separate from the main order (no feedback loop). A bill shows only with **≥ N unique visitors in the last 14 days** (start N = 30); if none qualify the strip is hidden. Counts are never displayed. Off during the election freeze. Decided 2026-09-28. |
 | View counting | No new server: the bill page fires one beacon request (`/v/<bill-id>`) that Caddy answers `204` and logs; a nightly script counts unique (hashed IP + UA, per bill, per day) views from the log, writes `popular.json`, and rebuilds. Beacon, not page loads, because SvelteKit navigates client-side and preloads on hover. Caddy logs kept 7–14 days; only aggregates stored. Decided 2026-09-28. |
 | Region scope | **Kanto only** for the near future (茨城・栃木・群馬・埼玉・千葉・東京・神奈川). New assemblies come from there: the 23 wards first, then Tokyo cities and other Kanto cities (Tama area checked 2026-09-30, see "Tama area: source check"). The home page region search lists only Kanto (`SEARCH_PREFECTURES` in `src/lib/config/site.js`; town list from 総務省's code list via `npm run municipalities`). Decided 2026-09-30. |
-| Permission | Not legally required for this design. **Notify** each 議会事務局 before crawling; don't wait for a reply. |
+| Permission | Not legally required for this design. **Notify** each 議会事務局 once, before launch (what we crawl and publish); don't wait for a reply. Crawling may start before the notice: at our rate the load is negligible and the user-agent carries the contact address. Changed from notify-before-crawling 2026-09-30. |
 
 ## Non-negotiables (from the legal briefing)
 
@@ -350,7 +350,7 @@ Built 2026-09-29 from the design reference. Pages: landing, one board per assemb
 - [x] Fonts self-hosted (`@fontsource`): no third-party requests.
 
 ### Step 7 — Launch
-- [ ] Email each 議会事務局: what we crawl, rate, user-agent, contact.
+- [ ] Email each 議会事務局 before launch: what we crawl and publish, rate, user-agent, contact.
 - [ ] Deploy on the VPS: clone the repo, put `POLIC_CONTACT` in `.env` (read at build time), then `npm ci && npm run build && pm2 start ecosystem.config.cjs`. Updates: `git pull --ff-only && npm ci && npm run build && pm2 restart polic`.
 - [ ] Caddyfile:
   ```
