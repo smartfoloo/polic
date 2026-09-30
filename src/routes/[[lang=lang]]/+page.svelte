@@ -88,8 +88,8 @@
 				<div class="mini mini-step" aria-hidden="true">
 					<b></b><em></em><b></b><em></em><b></b><em class="off"></em><b class="off"></b><em class="off"></em><b class="off"></b>
 				</div>
-				<h3>{t('学ぶ', 'Learn')}<span class="soon-tag">{t('準備中', 'Coming soon')}</span></h3>
-				<p>{t('議会のしくみを短く。', 'How assemblies work, in brief.')}</p>
+				<h3>{t('学ぶ', 'Learn')}<Icon name="right" /></h3>
+				<p>{t('地方自治と議会のしくみを短く。', 'How local government works, in brief.')}</p>
 			</a>
 		</div>
 	</div>

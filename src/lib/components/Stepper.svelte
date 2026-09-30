@@ -1,5 +1,5 @@
 <script>
-	import { t, isEn } from '$lib/i18n.js';
+	import { t, href, isEn } from '$lib/i18n.js';
 	import Popover from './Popover.svelte';
 
 	/** @type {{ bill: import('$lib/bills.js').PublicBill }} */
@@ -13,12 +13,14 @@
 		rejected ? t('否決', 'Rejected') : t('決定', 'Passed'),
 		...(rejected ? [] : [t('実施', 'In effect')])
 	]);
-	const terms = /** @type {Record<number, { ja: [string, string], en: [string, string] }>} */ ({
+	const terms = /** @type {Record<number, { slug: string, ja: [string, string], en: [string, string] }>} */ ({
 		1: {
+			slug: 'committee',
 			ja: ['委員会とは', '委員会は、議員が分野ごとに分かれた少人数のグループです。議案の細かい質問や議論は、ほとんどが委員会で行われます。'],
 			en: ['What is a committee?', 'A committee is a small group of members assigned to one area. Most detailed questions and debate on a bill happen in committee.']
 		},
 		2: {
+			slug: 'plenary',
 			ja: ['本会議とは', '本会議は、すべての議員が集まる会議です。議案を最終的に決めるのはここです。'],
 			en: ['What is a plenary session?', "A plenary session is a meeting of all members. It's where bills are finally decided."]
 		}
@@ -34,6 +36,7 @@
 				<Popover class="lab">
 					{#snippet label()}{name}<span class="q" aria-hidden="true">?</span>{/snippet}
 					<b>{title}</b>{lead}
+					<a class="more" href={href(`/learn/${terms[i].slug}`)}>{t('くわしく', 'Learn more')}</a>
 				</Popover>
 			{:else}
 				<span class="lab">{name}</span>
@@ -166,5 +169,11 @@
 		.dot {
 			flex-shrink: 0;
 		}
+	}
+
+	.more {
+		display: block;
+		margin-top: 6px;
+		font-weight: 700;
 	}
 </style>

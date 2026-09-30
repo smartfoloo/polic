@@ -10,7 +10,7 @@
 			? 'meetings'
 			: route.includes('[...assembly')
 				? 'bills'
-				: route.endsWith('/learn')
+				: route.includes('/learn')
 					? 'learn'
 					: route.endsWith('/search')
 						? 'search'
