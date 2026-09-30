@@ -1,0 +1,36 @@
+{
+	"id": "setagaya-r8-1-11",
+	"assembly": "tokyo/setagaya",
+	"approved": false,
+	"number": "議案第11号",
+	"official": "職員の給与に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "企画総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-02",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案一覧",
+			"url": "https://www.city.setagaya.lg.jp/02252/31437.html",
+			"fetchedAt": "2026-09-29T23:45:50.051Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決内容",
+			"url": "https://www.city.setagaya.lg.jp/02030/32551.html",
+			"fetchedAt": "2026-09-29T23:45:50.054Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議案賛否一覧表",
+			"url": "https://www.city.setagaya.lg.jp/02030/32554.html",
+			"fetchedAt": "2026-09-29T23:45:50.054Z"
+		},
+		{
+			"label": "議案第11号（PDF）",
+			"url": "https://www.city.setagaya.lg.jp/documents/31437/11.pdf",
+			"fetchedAt": "2026-09-30T10:19:22.171Z"
+		}
+	]
+}

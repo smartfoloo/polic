@@ -1,0 +1,26 @@
+{
+	"id": "sumida-r8-6-4",
+	"assembly": "tokyo/sumida",
+	"approved": false,
+	"number": "議案第4号",
+	"official": "墨田区附属機関の設置に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年度定例会6月議会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-12",
+	"sources": [
+		{
+			"label": "令和8年度定例会6月議会 議案等",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R86gatugian.html",
+			"fetchedAt": "2026-09-30T12:22:25.321Z"
+		},
+		{
+			"label": "議案第4号（PDF）",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R86gatugian.files/0806gian4.pdf",
+			"fetchedAt": "2026-09-30T10:14:10.685Z"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "katsushika-r8-2-37",
+	"assembly": "tokyo/katsushika",
+	"approved": false,
+	"number": "議案第37号",
+	"official": "葛飾区非常勤職員の報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-22",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案一覧・付託表",
+			"url": "https://www.katsushika-kugikai.jp/30204.html",
+			"fetchedAt": "2026-09-30T00:10:59.597Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果・賛否一覧",
+			"url": "https://www.katsushika-kugikai.jp/30304.html",
+			"fetchedAt": "2026-09-30T00:10:59.598Z"
+		},
+		{
+			"label": "議案第37号（PDF）",
+			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian37.pdf",
+			"fetchedAt": "2026-09-30T10:39:05.382Z"
+		}
+	]
+}

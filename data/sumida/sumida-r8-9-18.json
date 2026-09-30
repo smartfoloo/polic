@@ -1,0 +1,31 @@
+{
+	"id": "sumida-r8-9-18",
+	"assembly": "tokyo/sumida",
+	"approved": false,
+	"number": "議案第18号",
+	"official": "災害に際し応急措置の業務に従事した者等に係る損害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年度定例会9月議会",
+	"committee": "地域産業都市委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-08",
+	"sources": [
+		{
+			"label": "令和8年度定例会9月議会 議案等",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.html",
+			"fetchedAt": "2026-09-30T12:22:43.464Z"
+		},
+		{
+			"label": "議案第18号（PDF）",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.files/0809gian18.pdf",
+			"fetchedAt": "2026-09-30T12:23:01.490Z"
+		},
+		{
+			"label": "議案第18号 概要（PDF）",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.files/0809tisanto2gaiyo.pdf",
+			"fetchedAt": "2026-09-30T12:23:07.560Z"
+		}
+	]
+}

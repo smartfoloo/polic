@@ -1,0 +1,31 @@
+{
+	"id": "katsushika-r8-1-m3",
+	"assembly": "tokyo/katsushika",
+	"approved": false,
+	"number": "議員提出議案第3号",
+	"official": "葛飾区学童保育クラブ条例の一部を改正する条例",
+	"by": "member",
+	"session": "令和8年第1回定例会",
+	"committee": "保健福祉委員会",
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "否決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案一覧・付託表",
+			"url": "https://www.katsushika-kugikai.jp/30203.html",
+			"fetchedAt": "2026-09-30T00:10:59.597Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果・賛否一覧",
+			"url": "https://www.katsushika-kugikai.jp/30303.html",
+			"fetchedAt": "2026-09-30T00:10:59.598Z"
+		},
+		{
+			"label": "議員提出議案第3号（PDF）",
+			"url": "https://www.katsushika-kugikai.jp/pdf/R8g_gian003.pdf",
+			"fetchedAt": "2026-09-30T10:38:41.711Z"
+		}
+	]
+}

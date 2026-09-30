@@ -1,0 +1,36 @@
+{
+	"id": "minato-r8-2-39",
+	"assembly": "tokyo/minato",
+	"approved": false,
+	"number": "議案第39号",
+	"official": "港区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "区民文教常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案一覧",
+			"url": "https://gikai2.city.minato.tokyo.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F16%2C2026%2F06%2F25%2C141",
+			"fetchedAt": "2026-09-30T12:30:22.785Z"
+		},
+		{
+			"label": "議案第39号の詳細",
+			"url": "https://gikai2.city.minato.tokyo.jp/g07_Giketsu_View.asp?SrchID=3558&Sflg=2",
+			"fetchedAt": "2026-09-30T12:31:37.366Z"
+		},
+		{
+			"label": "議案第39号（PDF）",
+			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB789_39.pdf",
+			"fetchedAt": "2026-09-30T12:31:43.358Z"
+		},
+		{
+			"label": "議案第39号 概要（PDF）",
+			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB788_39.pdf",
+			"fetchedAt": "2026-09-30T12:31:49.695Z"
+		}
+	]
+}

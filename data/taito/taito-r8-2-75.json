@@ -1,0 +1,31 @@
+{
+	"id": "taito-r8-2-75",
+	"assembly": "tokyo/taito",
+	"approved": false,
+	"number": "第75号議案",
+	"official": "災害に際し応急措置の業務に従事した者及び水防に従事した者にかかる損害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "環境・安全安心特別委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会に提出された議案",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.html",
+			"fetchedAt": "2026-09-30T12:18:57.037Z"
+		},
+		{
+			"label": "令和8年第2回定例会の会議結果",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-kekka.html",
+			"fetchedAt": "2026-09-30T12:18:51.058Z"
+		},
+		{
+			"label": "第75号議案（PDF）",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-75.pdf",
+			"fetchedAt": "2026-09-30T12:20:27.032Z"
+		}
+	]
+}

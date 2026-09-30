@@ -1,0 +1,31 @@
+{
+	"id": "sumida-r7-2-104",
+	"assembly": "tokyo/sumida",
+	"approved": false,
+	"number": "議案第104号",
+	"official": "墨田区国民健康保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会2月議会",
+	"committee": "区民福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-30",
+	"sources": [
+		{
+			"label": "令和7年度定例会2月議会 議案等",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.html",
+			"fetchedAt": "2026-09-29T23:56:10.081Z"
+		},
+		{
+			"label": "議案第104号（PDF）",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/gian104.pdf",
+			"fetchedAt": "2026-09-30T10:13:52.788Z"
+		},
+		{
+			"label": "議案第104号 概要（PDF）",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/104gaiyou.pdf",
+			"fetchedAt": "2026-09-30T10:13:58.772Z"
+		}
+	]
+}

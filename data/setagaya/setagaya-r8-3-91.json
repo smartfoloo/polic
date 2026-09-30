@@ -1,0 +1,31 @@
+{
+	"id": "setagaya-r8-3-91",
+	"assembly": "tokyo/setagaya",
+	"approved": false,
+	"number": "議案第91号",
+	"official": "世田谷区特定教育・保育施設及び特定地域型保育事業の運営の基準等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "子ども・若者施策推進特別委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://www.city.setagaya.lg.jp/02252/35916.html",
+			"fetchedAt": "2026-09-29T23:45:50.052Z"
+		},
+		{
+			"label": "令和8年第3回定例会 審議予定案件及び審議結果等",
+			"url": "https://www.city.setagaya.lg.jp/02030/35744.html",
+			"fetchedAt": "2026-09-29T23:45:50.057Z"
+		},
+		{
+			"label": "議案第91号（PDF）",
+			"url": "https://www.city.setagaya.lg.jp/documents/35916/91.pdf",
+			"fetchedAt": "2026-09-30T10:23:40.659Z"
+		}
+	]
+}

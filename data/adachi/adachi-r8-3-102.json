@@ -1,0 +1,31 @@
+{
+	"id": "adachi-r8-3-102",
+	"assembly": "tokyo/adachi",
+	"approved": false,
+	"number": "第102号議案",
+	"official": "足立区多文化共生推進計画審議会条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "区民委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-25",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://www.gikai-adachi.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F14%2C2026%2F10%2F20%2C137",
+			"fetchedAt": "2026-09-29T23:39:32.906Z"
+		},
+		{
+			"label": "第102号議案の詳細",
+			"url": "https://www.gikai-adachi.jp/g07_Giketsu_View.asp?SrchID=4481&Sflg=2",
+			"fetchedAt": "2026-09-29T23:39:32.907Z"
+		},
+		{
+			"label": "第102号議案（PDF）",
+			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4481_R83TG102.pdf",
+			"fetchedAt": "2026-09-30T10:36:23.358Z"
+		}
+	]
+}

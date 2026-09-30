@@ -1,0 +1,36 @@
+{
+	"id": "setagaya-r8-x1-42",
+	"assembly": "tokyo/setagaya",
+	"approved": false,
+	"number": "議案第42号",
+	"official": "世田谷区建築物の建築に係る住環境の整備に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回臨時会",
+	"committee": "都市整備常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "令和8年第1回臨時会 議案一覧",
+			"url": "https://www.city.setagaya.lg.jp/02252/33024.html",
+			"fetchedAt": "2026-09-29T23:45:50.051Z"
+		},
+		{
+			"label": "令和8年第1回臨時会 議決内容",
+			"url": "https://www.city.setagaya.lg.jp/02030/33267.html",
+			"fetchedAt": "2026-09-29T23:45:50.054Z"
+		},
+		{
+			"label": "令和8年第1回臨時会 議案賛否一覧表",
+			"url": "https://www.city.setagaya.lg.jp/02030/33270.html",
+			"fetchedAt": "2026-09-29T23:45:50.055Z"
+		},
+		{
+			"label": "議案第42号（PDF）",
+			"url": "https://www.city.setagaya.lg.jp/documents/33024/42.pdf",
+			"fetchedAt": "2026-09-30T10:21:34.241Z"
+		}
+	]
+}

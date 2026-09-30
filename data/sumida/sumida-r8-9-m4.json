@@ -1,0 +1,26 @@
+{
+	"id": "sumida-r8-9-m4",
+	"assembly": "tokyo/sumida",
+	"approved": false,
+	"number": "議員提出議案第4号",
+	"official": "墨田区議会委員会条例の一部を改正する条例",
+	"by": "member",
+	"session": "令和8年度定例会9月議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-07",
+	"sources": [
+		{
+			"label": "令和8年度定例会9月議会 議案等",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.html",
+			"fetchedAt": "2026-09-30T12:22:43.464Z"
+		},
+		{
+			"label": "議員提出議案第4号（PDF）",
+			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.files/0809giingian4.pdf",
+			"fetchedAt": "2026-09-30T12:23:19.727Z"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "shinagawa-r8-3-91",
+	"assembly": "tokyo/shinagawa",
+	"approved": false,
+	"number": "第91号議案",
+	"official": "品川区立学校の学校医、学校歯科医および学校薬剤師の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-17",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案",
+			"url": "https://gikai.city.shinagawa.tokyo.jp/katsudou/honkaigi-schedule/r08_03t/r08_03t1",
+			"fetchedAt": "2026-09-29T23:51:22.880Z"
+		},
+		{
+			"label": "第91号議案（PDF）",
+			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_03t_91.pdf",
+			"fetchedAt": "2026-09-30T10:19:09.210Z"
+		}
+	]
+}

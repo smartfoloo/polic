@@ -1,0 +1,31 @@
+{
+	"id": "adachi-r8-1-37",
+	"assembly": "tokyo/adachi",
+	"approved": false,
+	"number": "第37号議案",
+	"official": "足立区職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案一覧",
+			"url": "https://www.gikai-adachi.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F19%2C2026%2F03%2F24%2C134",
+			"fetchedAt": "2026-09-30T10:29:53.838Z"
+		},
+		{
+			"label": "第37号議案の詳細",
+			"url": "https://www.gikai-adachi.jp/g07_Giketsu_View.asp?SrchID=4354&Sflg=2",
+			"fetchedAt": "2026-09-30T10:34:11.538Z"
+		},
+		{
+			"label": "第37号議案（PDF）",
+			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4354_R81TG037.pdf",
+			"fetchedAt": "2026-09-30T10:34:17.007Z"
+		}
+	]
+}

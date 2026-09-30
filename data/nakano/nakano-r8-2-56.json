@@ -1,0 +1,26 @@
+{
+	"id": "nakano-r8-2-56",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第56号議案",
+	"official": "中野区家庭的保育事業等の設備及び運営の基準に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "子ども文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-16",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=120",
+			"fetchedAt": "2026-09-30T00:05:53.293Z"
+		},
+		{
+			"label": "第56号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/266239535.pdf",
+			"fetchedAt": "2026-09-30T10:26:45.177Z"
+		}
+	]
+}

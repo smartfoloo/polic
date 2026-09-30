@@ -1,0 +1,26 @@
+{
+	"id": "edogawa-r8-2-59",
+	"assembly": "tokyo/edogawa",
+	"approved": false,
+	"number": "議案第59号",
+	"official": "江戸川区事務手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "建設委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案一覧",
+			"url": "https://www.gikai.city.edogawa.tokyo.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F12%2C2026%2F07%2F01%2C152",
+			"fetchedAt": "2026-09-29T23:39:33.010Z"
+		},
+		{
+			"label": "議案第59号（PDF）",
+			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2787_gian59.pdf",
+			"fetchedAt": "2026-09-30T10:43:11.741Z"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "katsushika-r8-1-25",
+	"assembly": "tokyo/katsushika",
+	"approved": false,
+	"number": "議案第25号",
+	"official": "葛飾区保育所の設置等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案一覧・付託表",
+			"url": "https://www.katsushika-kugikai.jp/30203.html",
+			"fetchedAt": "2026-09-30T00:10:59.597Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果・賛否一覧",
+			"url": "https://www.katsushika-kugikai.jp/30303.html",
+			"fetchedAt": "2026-09-30T00:10:59.598Z"
+		},
+		{
+			"label": "議案第25号（PDF）",
+			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian25.pdf",
+			"fetchedAt": "2026-09-30T10:38:05.291Z"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "edogawa-r8-1-22",
+	"assembly": "tokyo/edogawa",
+	"approved": false,
+	"number": "議案第22号",
+	"official": "江戸川区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案一覧",
+			"url": "https://www.gikai.city.edogawa.tokyo.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F17%2C2026%2F03%2F25%2C149",
+			"fetchedAt": "2026-09-30T10:40:41.715Z"
+		},
+		{
+			"label": "議案第22号（PDF）",
+			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2745_gian22%20.pdf",
+			"fetchedAt": "2026-09-30T10:41:59.635Z"
+		}
+	]
+}

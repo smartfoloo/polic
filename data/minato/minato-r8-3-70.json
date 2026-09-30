@@ -1,0 +1,36 @@
+{
+	"id": "minato-r8-3-70",
+	"assembly": "tokyo/minato",
+	"approved": false,
+	"number": "議案第70号",
+	"official": "港区児童福祉施設の設備及び運営に関する基準を定める条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "保健福祉常任委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-10",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://gikai2.city.minato.tokyo.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F10%2C2026%2F10%2F09%2C142",
+			"fetchedAt": "2026-09-30T12:34:48.527Z"
+		},
+		{
+			"label": "議案第70号の詳細",
+			"url": "https://gikai2.city.minato.tokyo.jp/g07_Giketsu_View.asp?SrchID=3593&Sflg=2",
+			"fetchedAt": "2026-09-30T12:35:12.641Z"
+		},
+		{
+			"label": "議案第70号（PDF）",
+			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB859_70.pdf",
+			"fetchedAt": "2026-09-30T12:35:19.767Z"
+		},
+		{
+			"label": "議案第70号 概要（PDF）",
+			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB858_70.pdf",
+			"fetchedAt": "2026-09-30T12:35:24.806Z"
+		}
+	]
+}

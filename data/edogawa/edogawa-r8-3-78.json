@@ -1,0 +1,26 @@
+{
+	"id": "edogawa-r8-3-78",
+	"assembly": "tokyo/edogawa",
+	"approved": false,
+	"number": "議案第78号",
+	"official": "江戸川区自転車駐車場条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "建設委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://www.gikai.city.edogawa.tokyo.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F24%2C2026%2F10%2F30%2C153",
+			"fetchedAt": "2026-09-29T23:39:33.011Z"
+		},
+		{
+			"label": "議案第78号（PDF）",
+			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2813_gian78.pdf",
+			"fetchedAt": "2026-09-30T10:43:53.812Z"
+		}
+	]
+}

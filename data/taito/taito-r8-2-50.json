@@ -1,0 +1,31 @@
+{
+	"id": "taito-r8-2-50",
+	"assembly": "tokyo/taito",
+	"approved": false,
+	"number": "第50号議案",
+	"official": "東京都台東区家庭的保育事業等の設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "子育て・若者支援特別委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会に提出された議案",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.html",
+			"fetchedAt": "2026-09-30T12:18:57.037Z"
+		},
+		{
+			"label": "令和8年第2回定例会の会議結果",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-kekka.html",
+			"fetchedAt": "2026-09-30T12:18:51.058Z"
+		},
+		{
+			"label": "第50号議案（PDF）",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-50.pdf",
+			"fetchedAt": "2026-09-30T12:19:45.127Z"
+		}
+	]
+}

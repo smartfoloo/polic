@@ -1,0 +1,31 @@
+{
+	"id": "katsushika-r8-3-63",
+	"assembly": "tokyo/katsushika",
+	"approved": false,
+	"number": "議案第63号",
+	"official": "葛飾区印鑑条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "総務委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧・付託表",
+			"url": "https://www.katsushika-kugikai.jp/30205.html",
+			"fetchedAt": "2026-09-30T00:10:59.597Z"
+		},
+		{
+			"label": "令和8年第3回定例会 議決結果・賛否一覧",
+			"url": "https://www.katsushika-kugikai.jp/30305.html",
+			"fetchedAt": "2026-09-30T00:10:59.599Z"
+		},
+		{
+			"label": "議案第63号（PDF）",
+			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian63.pdf",
+			"fetchedAt": "2026-09-30T10:40:23.472Z"
+		}
+	]
+}

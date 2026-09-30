@@ -1,0 +1,31 @@
+{
+	"id": "taito-r8-2-47",
+	"assembly": "tokyo/taito",
+	"approved": false,
+	"number": "第47号議案",
+	"official": "東京都台東区立小中学校等の学校医、学校歯科医及び学校薬剤師の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "区民文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会に提出された議案",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.html",
+			"fetchedAt": "2026-09-30T12:18:57.037Z"
+		},
+		{
+			"label": "令和8年第2回定例会の会議結果",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-kekka.html",
+			"fetchedAt": "2026-09-30T12:18:51.058Z"
+		},
+		{
+			"label": "第47号議案（PDF）",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-47.pdf",
+			"fetchedAt": "2026-09-30T12:19:26.977Z"
+		}
+	]
+}

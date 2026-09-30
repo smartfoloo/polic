@@ -1,0 +1,26 @@
+{
+	"id": "shinagawa-r8-2-65",
+	"assembly": "tokyo/shinagawa",
+	"approved": false,
+	"number": "第65号議案",
+	"official": "品川区手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "建設委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案",
+			"url": "https://gikai.city.shinagawa.tokyo.jp/katsudou/honkaigi-schedule/r08_02t/r08_02t1",
+			"fetchedAt": "2026-09-29T23:51:22.879Z"
+		},
+		{
+			"label": "第65号議案（PDF）",
+			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_65.pdf",
+			"fetchedAt": "2026-09-30T10:18:09.235Z"
+		}
+	]
+}

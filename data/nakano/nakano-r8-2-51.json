@@ -1,0 +1,26 @@
+{
+	"id": "nakano-r8-2-51",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第51号議案",
+	"official": "中野区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "区民委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-16",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=120",
+			"fetchedAt": "2026-09-30T00:05:53.293Z"
+		},
+		{
+			"label": "第51号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/266239446.pdf",
+			"fetchedAt": "2026-09-30T00:05:53.294Z"
+		}
+	]
+}

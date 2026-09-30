@@ -1,0 +1,26 @@
+{
+	"id": "nakano-r8-1-26",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第26号議案",
+	"official": "中野区難病患者福祉手当条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=119",
+			"fetchedAt": "2026-09-30T00:05:53.293Z"
+		},
+		{
+			"label": "第26号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/263294215.pdf",
+			"fetchedAt": "2026-09-30T10:25:33.103Z"
+		}
+	]
+}

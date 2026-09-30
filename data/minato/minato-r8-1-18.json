@@ -1,0 +1,36 @@
+{
+	"id": "minato-r8-1-18",
+	"assembly": "tokyo/minato",
+	"approved": false,
+	"number": "議案第18号",
+	"official": "港区幼稚園教育職員の勤務時間、休日、休暇等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "区民文教常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案一覧",
+			"url": "https://gikai2.city.minato.tokyo.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F18%2C2026%2F03%2F18%2C140",
+			"fetchedAt": "2026-09-30T10:09:52.480Z"
+		},
+		{
+			"label": "議案第18号の詳細",
+			"url": "https://gikai2.city.minato.tokyo.jp/g07_Giketsu_View.asp?SrchID=3529&Sflg=2",
+			"fetchedAt": "2026-09-30T12:29:10.724Z"
+		},
+		{
+			"label": "議案第18号（PDF）",
+			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB740_18.pdf",
+			"fetchedAt": "2026-09-30T12:29:18.040Z"
+		},
+		{
+			"label": "議案第18号 概要（PDF）",
+			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB739_18.pdf",
+			"fetchedAt": "2026-09-30T12:29:22.940Z"
+		}
+	]
+}

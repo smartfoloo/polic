@@ -1,0 +1,26 @@
+{
+	"id": "shinagawa-r8-3-88",
+	"assembly": "tokyo/shinagawa",
+	"approved": false,
+	"number": "第88号議案",
+	"official": "品川区乳児等通園支援事業の設備および運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-17",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案",
+			"url": "https://gikai.city.shinagawa.tokyo.jp/katsudou/honkaigi-schedule/r08_03t/r08_03t1",
+			"fetchedAt": "2026-09-29T23:51:22.880Z"
+		},
+		{
+			"label": "第88号議案（PDF）",
+			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_03t_88.pdf",
+			"fetchedAt": "2026-09-30T10:18:51.248Z"
+		}
+	]
+}

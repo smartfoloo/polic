@@ -1,0 +1,36 @@
+{
+	"id": "setagaya-r8-2-51",
+	"assembly": "tokyo/setagaya",
+	"approved": false,
+	"number": "議案第51号",
+	"official": "世田谷区地区計画等の区域内における建築物の制限に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "都市整備常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-19",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案一覧",
+			"url": "https://www.city.setagaya.lg.jp/02252/33569.html",
+			"fetchedAt": "2026-09-29T23:45:50.052Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決内容",
+			"url": "https://www.city.setagaya.lg.jp/02030/34016.html",
+			"fetchedAt": "2026-09-29T23:45:50.055Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議案賛否一覧表",
+			"url": "https://www.city.setagaya.lg.jp/02030/34017.html",
+			"fetchedAt": "2026-09-29T23:45:50.056Z"
+		},
+		{
+			"label": "議案第51号（PDF）",
+			"url": "https://www.city.setagaya.lg.jp/documents/33569/51.pdf",
+			"fetchedAt": "2026-09-30T10:21:46.365Z"
+		}
+	]
+}

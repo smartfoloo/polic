@@ -7,25 +7,25 @@
 	"by": "head",
 	"session": "令和8年第3回定例会",
 	"committee": "経済・港湾委員会",
-	"status": "提案中",
-	"stage": 0,
+	"status": "審議中",
+	"stage": 1,
 	"dateKind": "提案",
 	"date": "2026-09-18",
 	"sources": [
 		{
 			"label": "令和8年第3回定例会 提出議案と議決結果",
 			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
-			"fetchedAt": "2026-09-28T10:53:20.876Z"
+			"fetchedAt": "2026-09-30T10:08:35.950Z"
 		},
 		{
 			"label": "条例案概要（東京都）",
 			"url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091107",
-			"fetchedAt": "2026-09-28T10:53:27.176Z"
+			"fetchedAt": "2026-09-30T10:08:40.159Z"
 		},
 		{
 			"label": "第169号議案（PDF）",
 			"url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260911_08_02",
-			"fetchedAt": "2026-09-28T10:53:38.523Z"
+			"fetchedAt": "2026-09-30T10:08:51.457Z"
 		}
 	],
 	"name": "回収納付金を受け取る権利の放棄対象を追加",

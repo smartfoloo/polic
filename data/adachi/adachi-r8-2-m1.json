@@ -1,0 +1,31 @@
+{
+	"id": "adachi-r8-2-m1",
+	"assembly": "tokyo/adachi",
+	"approved": false,
+	"number": "議員提出第1号議案",
+	"official": "足立区中小企業者等賃上げ応援助成金条例",
+	"by": "member",
+	"session": "令和8年第2回定例会",
+	"committee": "産業環境委員会",
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "否決",
+	"date": "2026-07-07",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案一覧",
+			"url": "https://www.gikai-adachi.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F22%2C2026%2F07%2F07%2C136",
+			"fetchedAt": "2026-09-29T23:39:32.903Z"
+		},
+		{
+			"label": "議員提出第1号議案の詳細",
+			"url": "https://www.gikai-adachi.jp/g07_Giketsu_View.asp?SrchID=4447&Sflg=2",
+			"fetchedAt": "2026-09-29T23:39:32.905Z"
+		},
+		{
+			"label": "議員提出第1号議案（PDF）",
+			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4447_R81TGG001.pdf",
+			"fetchedAt": "2026-09-30T10:35:59.524Z"
+		}
+	]
+}

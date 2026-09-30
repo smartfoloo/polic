@@ -1,0 +1,31 @@
+{
+	"id": "taito-r8-1-22",
+	"assembly": "tokyo/taito",
+	"approved": false,
+	"number": "第22号議案",
+	"official": "東京都台東区手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会に提出された議案",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.html",
+			"fetchedAt": "2026-09-30T12:16:39.322Z"
+		},
+		{
+			"label": "令和8年第1回定例会の会議結果",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-kekka.html",
+			"fetchedAt": "2026-09-30T12:16:32.772Z"
+		},
+		{
+			"label": "第22号議案（PDF）",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-22.pdf",
+			"fetchedAt": "2026-09-30T12:17:08.883Z"
+		}
+	]
+}

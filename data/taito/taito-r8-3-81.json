@@ -1,0 +1,31 @@
+{
+	"id": "taito-r8-3-81",
+	"assembly": "tokyo/taito",
+	"approved": false,
+	"number": "第81号議案",
+	"official": "東京都台東区手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "区民文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-08",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会に提出された議案",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.html",
+			"fetchedAt": "2026-09-30T12:21:08.983Z"
+		},
+		{
+			"label": "令和8年第3回定例会の会議結果",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-kekka.html",
+			"fetchedAt": "2026-09-30T12:21:03.827Z"
+		},
+		{
+			"label": "第81号議案（PDF）",
+			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-81.pdf",
+			"fetchedAt": "2026-09-30T12:21:27.125Z"
+		}
+	]
+}
