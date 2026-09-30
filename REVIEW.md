@@ -14,7 +14,7 @@ The AI writes drafts; code and a second AI pass check them; you review what they
 
 The checks (`npm run verify`, after `npm run draft`):
 - **Code** (`scripts/lib/checks.js`): 25+ characters copied from the source; an empty 「」 in the source, which means a before/after table lost its contents; a `why` that isn't attributed to the proposer; a headline over 30 characters.
-- **AI** (`gpt-6-sol`, medium effort, prompt in `scripts/lib/prompts.js`): facts and numbers against the source, direction of changes, unsupported claims, tone outside `why`, personal names, and main changes missing from `changes`. Missing-change notes don't hold a bill; they show as optional improvements.
+- **AI** (`gpt-6.1-sol`, medium effort, prompt in `scripts/lib/prompts.js`): facts and numbers against the source, direction of changes, unsupported claims, tone outside `why`, personal names, and main changes missing from `changes`. Missing-change notes don't hold a bill; they show as optional improvements.
 
 ## The loop
 

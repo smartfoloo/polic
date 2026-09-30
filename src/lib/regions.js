@@ -1,8 +1,10 @@
 // Region search for the home page. Every prefecture is searchable; a region is "covered" when it has an
 // assembly in config/assemblies.js. Municipalities come from config/municipalities.json as
-// [prefecture, name, kana]; every assembly with level 'muni' must have a row there to be findable.
+// [prefecture, name, kana], built from 総務省's code list by scripts/municipalities.js (市町村 and 特別区
+// in SEARCH_PREFECTURES, no designated-city wards).
 
 import { prefectures } from './config/prefectures.js';
+import { SEARCH_PREFECTURES } from './config/site.js';
 
 /**
  * @typedef {object} Region
@@ -26,7 +28,7 @@ export function buildRegions(assemblies, municipalities) {
 	const prefOf = (/** @type {import('./bills.js').PublicAssembly} */ a) => assemblies.find((p) => p.id === a.parent)?.place ?? '';
 
 	/** @type {Region[]} */
-	const prefs = prefectures.map(([name, kana, en]) => {
+	const prefs = prefectures.filter(([name]) => SEARCH_PREFECTURES.includes(name)).map(([name, kana, en]) => {
 		const a = assemblies.find((x) => x.level === 'pref' && x.place === name);
 		return { name, nameEn: a?.placeEn ?? en, pref: '', kana, assembly: a?.id };
 	});

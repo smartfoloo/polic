@@ -1,5 +1,6 @@
 // Committee glossary and department → committee mappings.
-// Tokyo: /outline/jurisdiction.html. Shibuya: /about/2023021000185/. Suginami names its committee per bill.
+// Tokyo: /outline/jurisdiction.html. Shibuya: /about/2023021000185/. Suginami and the other wards name the
+// committee per bill.
 // English names are our own unofficial translations; never let the LLM translate these.
 
 /** @type {Record<string, string>} */
@@ -17,7 +18,44 @@ export const committeeEn = {
 	区民福祉委員会: 'Residents and Welfare Committee',
 	総務財政委員会: 'General Affairs and Finance Committee',
 	区民生活委員会: 'Residents Life Committee',
-	保健福祉委員会: 'Health and Welfare Committee'
+	保健福祉委員会: 'Health and Welfare Committee',
+	// 23 wards, standing committees (some wards add 常任 to the name)
+	総務常任委員会: 'General Affairs Committee',
+	企画総務委員会: 'Planning and General Affairs Committee',
+	企画総務常任委員会: 'Planning and General Affairs Committee',
+	区民委員会: 'Residents Committee',
+	区民生活常任委員会: 'Residents Life Committee',
+	区民文教委員会: 'Residents, Education and Culture Committee',
+	区民文教常任委員会: 'Residents, Education and Culture Committee',
+	保健福祉常任委員会: 'Health and Welfare Committee',
+	福祉保健常任委員会: 'Welfare and Health Committee',
+	福祉健康委員会: 'Welfare and Health Committee',
+	文教常任委員会: 'Education and Culture Committee',
+	子ども文教委員会: 'Children, Education and Culture Committee',
+	建設委員会: 'Construction Committee',
+	建設常任委員会: 'Construction Committee',
+	建設環境委員会: 'Construction and Environment Committee',
+	都市整備常任委員会: 'Urban Development Committee',
+	産業環境委員会: 'Industry and Environment Committee',
+	産業建設委員会: 'Industry and Construction Committee',
+	地域産業都市委員会: 'Community, Industry and Urban Development Committee',
+	生活振興環境委員会: 'Community Life and Environment Committee',
+	// 23 wards, special committees
+	予算特別委員会: 'Special Committee on the Budget',
+	決算特別委員会: 'Special Committee on the Accounts',
+	'子育て・若者支援特別委員会': 'Special Committee on Child-Rearing and Youth Support',
+	'子ども・若者施策推進特別委員会': 'Special Committee on Children and Youth Policy',
+	子ども若者支援・共生社会推進特別委員会: 'Special Committee on Children, Youth and an Inclusive Society',
+	'文化・観光特別委員会': 'Special Committee on Culture and Tourism',
+	'交通対策・地区整備特別委員会': 'Special Committee on Transport and District Development',
+	'環境・安全安心特別委員会': 'Special Committee on the Environment and Public Safety',
+	'環境・清掃・リサイクル対策等特別委員会': 'Special Committee on the Environment, Waste and Recycling',
+	地域交通政策推進特別委員会: 'Special Committee on Local Transport Policy',
+	危機管理対策特別委員会: 'Special Committee on Crisis Management',
+	'災害・防犯・オウム問題対策等特別委員会': 'Special Committee on Disasters, Crime Prevention and the Aum Issue',
+	'DX・地域行政・公共施設整備等推進特別委員会': 'Special Committee on DX, Local Administration and Public Facilities',
+	'SDGs推進・行財政改革特別委員会': 'Special Committee on the SDGs and Administrative Reform',
+	'まちづくり・公共交通推進特別委員会': 'Special Committee on Community Development and Public Transport'
 };
 
 /** @type {Record<string, Record<string, string>>} assembly id → department → committee */

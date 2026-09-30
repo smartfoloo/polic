@@ -6,10 +6,11 @@
 import { readFile } from 'node:fs/promises';
 import { loadBills, saveBillFile } from './lib/bills-io.js';
 import { checkDraft } from './lib/checks.js';
-import { callJson, costReport, MODEL } from './lib/llm.js';
+import { callJson, costReport, MODELS } from './lib/llm.js';
 import { VERIFY_INSTRUCTIONS, VERIFY_PROMPT_VERSION, VERIFY_SCHEMA, verifyInput } from './lib/prompts.js';
 import { textPath } from './lib/store.js';
 
+const MODEL = MODELS.verify;
 const EFFORT = 'medium';
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 /** @type {import('./lib/llm.js').Usage[]} */
@@ -39,6 +40,7 @@ for (const { path, bill } of await loadBills()) {
 	try {
 		const flags = checkDraft(bill, source);
 		const { data, usage } = await callJson({
+			model: MODEL,
 			effort: EFFORT,
 			instructions: VERIFY_INSTRUCTIONS,
 			input: verifyInput(bill, source),
@@ -64,4 +66,4 @@ for (const { path, bill } of await loadBills()) {
 	}
 }
 
-console.log(usages.length ? costReport(usages) : 'Nothing to verify.');
+console.log(usages.length ? costReport(usages, MODEL) : 'Nothing to verify.');

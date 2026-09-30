@@ -1,9 +1,15 @@
-// The one place that talks to the LLM. Model and prices live here so switching is a one-line change.
+// The one place that talks to the LLM. Models and prices live here so switching is a one-line change.
 
 import OpenAI from 'openai';
 
-export const MODEL = 'gpt-6-sol';
-const PRICE_PER_M = { input: 2, output: 10 }; // USD, checked 2026-09-28
+// Luna writes (cheap; the check catches its mistakes), Sol checks. Decided 2026-09-30.
+export const MODELS = /** @type {const} */ ({ draft: 'gpt-6-luna', translate: 'gpt-6-luna', verify: 'gpt-6.1-sol' });
+
+/** USD per 1M tokens, checked 2026-09-30. Luna's cached rate wasn't checked, so it's counted at the full rate. */
+const PRICE_PER_M = {
+	'gpt-6-luna': { input: 0.1, cachedInput: 0.1, output: 0.5 },
+	'gpt-6.1-sol': { input: 2, cachedInput: 0.1, output: 10 }
+};
 
 /** @type {OpenAI | undefined} */
 let client;
@@ -11,6 +17,7 @@ let client;
 /**
  * @typedef {object} Usage
  * @property {number} inputTokens
+ * @property {number} cachedTokens included in inputTokens, billed at the cached rate
  * @property {number} outputTokens
  * @property {number} reasoningTokens included in outputTokens
  */
@@ -18,13 +25,13 @@ let client;
 /**
  * Structured-output call: the model must return JSON matching `schema` exactly.
  * `store: false` so OpenAI keeps no response state beyond its abuse-monitoring logs.
- * @param {{ effort: 'low' | 'medium' | 'high', instructions: string, input: string, name: string, schema: Record<string, unknown> }} req
+ * @param {{ model: keyof typeof PRICE_PER_M, effort: 'low' | 'medium' | 'high', instructions: string, input: string, name: string, schema: Record<string, unknown> }} req
  * @returns {Promise<{ data: any, usage: Usage }>}
  */
-export async function callJson({ effort, instructions, input, name, schema }) {
+export async function callJson({ model, effort, instructions, input, name, schema }) {
 	client ??= new OpenAI();
 	const res = await client.responses.create({
-		model: MODEL,
+		model,
 		reasoning: { effort },
 		instructions,
 		input,
@@ -36,16 +43,21 @@ export async function callJson({ effort, instructions, input, name, schema }) {
 		data: JSON.parse(res.output_text),
 		usage: {
 			inputTokens: res.usage?.input_tokens ?? 0,
+			cachedTokens: res.usage?.input_tokens_details?.cached_tokens ?? 0,
 			outputTokens: res.usage?.output_tokens ?? 0,
 			reasoningTokens: res.usage?.output_tokens_details?.reasoning_tokens ?? 0
 		}
 	};
 }
 
-/** @param {Usage[]} usages */
-export function costReport(usages) {
+/**
+ * @param {Usage[]} usages
+ * @param {keyof typeof PRICE_PER_M} model
+ */
+export function costReport(usages, model) {
+	const price = PRICE_PER_M[model];
 	const sum = (/** @type {keyof Usage} */ k) => usages.reduce((a, u) => a + u[k], 0);
-	const [i, o, r] = [sum('inputTokens'), sum('outputTokens'), sum('reasoningTokens')];
-	const usd = (i * PRICE_PER_M.input + o * PRICE_PER_M.output) / 1e6;
-	return `${usages.length} calls · ${i} input / ${o} output tokens (${r} reasoning) · ~$${usd.toFixed(3)}`;
+	const [i, c, o, r] = [sum('inputTokens'), sum('cachedTokens'), sum('outputTokens'), sum('reasoningTokens')];
+	const usd = ((i - c) * price.input + c * price.cachedInput + o * price.output) / 1e6;
+	return `${usages.length} calls · ${i} input (${c} cached) / ${o} output tokens (${r} reasoning) · ~$${usd.toFixed(3)}`;
 }

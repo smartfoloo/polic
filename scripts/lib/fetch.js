@@ -208,3 +208,27 @@ export async function politeFetch(href) {
 
 	return { url: href, body, contentType: meta.contentType, fetchedAt, source: 'network' };
 }
+
+/**
+ * Reads a page from cache/ only, however old, and never touches the network. For testing adapters
+ * against saved pages (scripts/try.js).
+ * @param {string} href
+ * @returns {Promise<FetchResult>}
+ */
+export async function cacheOnlyFetch(href) {
+	const cached = await readCache(new URL(href));
+	if (!cached) throw new Error(`Not in cache: ${href}`);
+	return { url: href, body: cached.body, contentType: cached.meta.contentType, fetchedAt: cached.meta.fetchedAt, source: 'cache' };
+}
+
+/**
+ * Stores a page saved by hand (e.g. from a browser) as if the crawler had fetched it.
+ * @param {string} href
+ * @param {Buffer} body
+ * @param {string} contentType
+ * @param {string} [fetchedAt]
+ */
+export async function saveToCache(href, body, contentType, fetchedAt = new Date().toISOString()) {
+	const sha256 = createHash('sha256').update(body).digest('hex');
+	await writeCache(new URL(href), { url: href, fetchedAt, contentType, sha256 }, body);
+}

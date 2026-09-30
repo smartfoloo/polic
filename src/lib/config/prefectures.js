@@ -1,4 +1,5 @@
-// The 47 prefectures: [name, kana, English]. Kana is what people type on a phone.
+// The 47 prefectures: [name, kana, English]. Kana is what people type on a phone. The search lists
+// only those in SEARCH_PREFECTURES (config/site.js).
 /** @type {[string, string, string][]} */
 export const prefectures = [
 	['北海道', 'ほっかいどう', 'Hokkaido'],

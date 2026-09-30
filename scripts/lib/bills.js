@@ -65,12 +65,14 @@ export function submittedDate(pdfText) {
 
 /**
  * Stable id: <assembly slug>-r<reiwa year>-<session no>-<bill no>, with an m prefix for member bills.
+ * 臨時会 get an x before the session number (第1回臨時会 → x1), since their numbering overlaps 定例会.
  * @param {string} assemblyId
- * @param {{ year: number, n: number }} session
+ * @param {{ year: number, n: number, kind?: string }} session
  * @param {number} billNo
  * @param {'head' | 'member'} by
  */
 export function billId(assemblyId, session, billNo, by) {
 	const slug = assemblyId.split('/').pop();
-	return `${slug}-r${session.year - 2018}-${session.n}-${by === 'member' ? 'm' : ''}${billNo}`;
+	const sn = session.kind === '臨時会' ? `x${session.n}` : session.n;
+	return `${slug}-r${session.year - 2018}-${sn}-${by === 'member' ? 'm' : ''}${billNo}`;
 }

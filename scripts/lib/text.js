@@ -54,10 +54,14 @@ export function parseReiwaDate(s) {
 	return `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 }
 
-// 「令和8年第3回定例会」 → { year: 2026, n: 3 }
+// 「令和8年第3回定例会」 → { year: 2026, n: 3 }; spacing is ignored (「令和8年　第3回　定例会」).
+// Year-long sessions (墨田区) name each meeting instead: 「令和8年度定例会9月議会」 → { year: 2026 (the
+// fiscal year), n: 9 (the month) }. Their bill numbers restart each fiscal year, so ids stay unique.
 /** @param {string} name */
 export function parseSessionName(name) {
-	const m = name.normalize('NFKC').match(/令和(\d+|元)年第(\d+)回(定例会|臨時会)/);
-	if (!m) return null;
-	return { year: toNumber(m[1]) + 2018, n: Number(m[2]), kind: m[3] };
+	const t = name.normalize('NFKC').replace(/\s+/g, '');
+	const m = t.match(/令和(\d+|元)年第(\d+)回(定例会|臨時会)/);
+	if (m) return { year: toNumber(m[1]) + 2018, n: Number(m[2]), kind: m[3] };
+	const y = t.match(/令和(\d+|元)年度定例会(\d+)月議会/);
+	return y ? { year: toNumber(y[1]) + 2018, n: Number(y[2]), kind: '定例会' } : null;
 }

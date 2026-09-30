@@ -1,8 +1,14 @@
 <script>
 	import { t, isEn } from '$lib/i18n.js';
+	import { JOIN_FORM_URL, REGION_REQUEST_URL } from '$lib/config/site.js';
 
 	let { data } = $props();
 	const mail = $derived(data.contact);
+
+	// The Google Forms section appears only for forms linked from the site (config/site.js).
+	const forms = $derived(
+		[JOIN_FORM_URL && t('参加の申し込み', 'signing up to get involved'), REGION_REQUEST_URL && t('対応してほしい地域の依頼', 'asking us to cover a region')].filter(Boolean)
+	);
 </script>
 
 <svelte:head>
@@ -24,6 +30,12 @@
 			<h2>What we collect</h2>
 			<p>This site has no accounts, cookies, ads or analytics tools, and loads nothing from other services. Like most websites, our server keeps an access log: IP address, browser type, time and the page requested.</p>
 		</section>
+		{#if forms.length}
+			<section>
+				<h2>Forms</h2>
+				<p>For {forms.join(' and ')}, we use Google Forms (Google LLC, United States). The form opens on Google's site; what you enter is stored by Google and read by us. We use it only to reply to you and to consider your request, and delete it if you ask. For how Google handles it, see <a href="https://policies.google.com/privacy" rel="noopener external" target="_blank">Google's privacy policy</a>.</p>
+			</section>
+		{/if}
 		<section>
 			<h2>Counting views</h2>
 			<p>When you open a bill, your browser sends one request so we can count views. From the access log we count how many different visitors viewed each bill per day; the IP address and browser type are hashed and used only for that count. We keep only the totals, and delete access logs within 14 days. The totals are used only for the "Most viewed" list, and are never shown as numbers.</p>
@@ -49,6 +61,12 @@
 			<h2>集める情報</h2>
 			<p>このサイトには、アカウント、Cookie、広告、アクセス解析ツールはなく、ほかのサービスからは何も読み込みません。ふつうのウェブサイトと同じように、サーバーはアクセスログ（IPアドレス、ブラウザの種類、日時、見たページ）を記録します。</p>
 		</section>
+		{#if forms.length}
+			<section>
+				<h2>フォーム</h2>
+				<p>{forms.join('や')}には、Googleフォーム（Google LLC、米国）を使っています。フォームはGoogleのサイトで開き、入力した内容はGoogleに保存され、私たちが読みます。入力内容は、お返事と依頼の検討だけに使い、削除のご依頼があれば消します。Googleによる扱いは、<a href="https://policies.google.com/privacy" rel="noopener external" target="_blank">Googleのプライバシーポリシー</a>をご覧ください。</p>
+			</section>
+		{/if}
 		<section>
 			<h2>閲覧数の集計</h2>
 			<p>議案を開くと、閲覧を数えるための通信が1回送られます。アクセスログから、議案ごと・日ごとに何人が見たかを数えます。IPアドレスとブラウザの種類はハッシュ化し、この集計だけに使います。残すのは集計した数だけで、アクセスログは14日以内に消します。集計は「よく見られている」の表示だけに使い、数そのものは表示しません。</p>

@@ -53,7 +53,7 @@
 				{/each}
 			{/each}
 		</ul>
-		<p class="note">{t('ほかの地域は準備中です。', 'More regions are coming.')}</p>
+		<p class="note">{t('ほかの関東の地域は準備中です。', 'More of the Kanto region is coming.')}</p>
 	</div>
 </dialog>
 

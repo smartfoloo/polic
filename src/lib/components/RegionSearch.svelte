@@ -76,7 +76,7 @@
 			aria-controls="region-list"
 			aria-autocomplete="list"
 			aria-activedescendant={open && results.length ? optionId(active) : undefined}
-			placeholder={t('市区町村・都道府県の名前で探す', 'Search by city or prefecture')}
+			placeholder={t('関東の市区町村・都県の名前で探す', 'Search Kanto cities and prefectures')}
 			bind:value={q}
 			oninput={() => {
 				open = true;
@@ -115,7 +115,7 @@
 					{/if}
 				</li>
 			{:else}
-				<li class="none" role="presentation">{t('見つかりません。', 'No match.')}</li>
+				<li class="none" role="presentation">{t('見つかりません。今は関東の地域だけを探せます。', 'No match. Only the Kanto region is searchable for now.')}</li>
 			{/each}
 		</ul>
 	{/if}

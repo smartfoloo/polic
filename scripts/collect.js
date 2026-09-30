@@ -2,14 +2,10 @@
 // Usage: npm run collect [-- --daytime]
 
 import { assemblies, allHosts } from '../src/lib/config/assemblies.js';
-import * as shibuya from './adapters/shibuya.js';
-import * as suginami from './adapters/suginami.js';
-import * as tokyo from './adapters/tokyo.js';
+import { adapters } from './adapters/index.js';
 import { allowHosts, assertOffPeak, CrawlStopped, politeFetch } from './lib/fetch.js';
 import { saveBill } from './lib/store.js';
 
-/** @type {Record<string, { collect: typeof tokyo.collect }>} */
-const adapters = { tokyo, 'tokyo/shibuya': shibuya, 'tokyo/suginami': suginami };
 let stopped = 0;
 
 try {

@@ -96,10 +96,10 @@ export function stageNote(/** @type {PublicBill} */ b) {
 	return t('議会に提出されました。', 'Submitted to the assembly.');
 }
 
-/** Short session name for cards: 令和8年第3回定例会 → 第3回定例会 */
+/** Short session name for cards: 令和8年第3回定例会 → 第3回定例会, 令和8年度定例会9月議会 → 9月議会 */
 export function sessionShort(/** @type {string} */ name, /** @type {PublicAssembly} */ a) {
 	const s = a.sessions.find((x) => x.name === name);
-	return t(name.replace(/^令和\d+年/, ''), s ? s.nameEn.replace(/ \d{4}$/, '') : name);
+	return t(name.replace(/^令和\d+年(度定例会)?/, ''), s ? s.nameEn.replace(/ \d{4}$/, '') : name);
 }
 
 /** @typedef {'before' | 'open' | 'closed'} SessionState */

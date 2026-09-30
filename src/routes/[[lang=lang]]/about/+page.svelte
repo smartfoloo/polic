@@ -22,10 +22,11 @@
 	<section id="mission">
 		<p>
 			{t(
-				'地元で何が決まっているかを、だれでも3分でわかるように。非営利のプロジェクトです。広告はありません。',
-				'So anyone can understand what their town is deciding in three minutes. Polic is a non-profit project. There are no ads.'
+				'Polic は、地元の議会への関心を広げるための、非営利プロジェクトです。広告はありません。',
+				'Polic is a non-profit project to help people pay attention to their local assembly. There are no ads.'
 			)}
 		</p>
+		<p>{t('対象地域：関東の都県と市区町村（順次追加しています）。', 'Coverage: prefectures, cities and towns in the Kanto region, added over time.')}</p>
 	</section>
 
 	<section id="process">
@@ -62,6 +63,15 @@
 		<p>
 			{t('アカウント、Cookie、広告、アクセス解析はありません。', 'No accounts, cookies, ads or analytics.')}
 			<a href={href('/privacy')}>{t('プライバシーポリシー', 'Privacy policy')}</a>
+		</p>
+	</section>
+
+	<section id="credits">
+		<h2>{t('出典', 'Credits')}</h2>
+		<p>
+			{t('地域の検索には、総務省', 'Region search uses data edited from')}
+			<a href="https://www.soumu.go.jp/denshijiti/code.html" rel="noopener external" target="_blank" lang="ja">「全国地方公共団体コード」</a>
+			{t('を加工して作成したデータを使っています。', "(Ministry of Internal Affairs and Communications).")}
 		</p>
 	</section>
 </div>

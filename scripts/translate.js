@@ -3,11 +3,12 @@
 // Usage: npm run translate
 
 import { loadBills, saveBillFile } from './lib/bills-io.js';
-import { callJson, costReport, MODEL } from './lib/llm.js';
+import { callJson, costReport, MODELS } from './lib/llm.js';
 import { publishState } from './lib/publish.js';
 import { jaSource, TRANSLATE_INSTRUCTIONS, TRANSLATE_PROMPT_VERSION, TRANSLATE_SCHEMA, TRANSLATE_TITLE_SCHEMA } from './lib/prompts.js';
 
-const EFFORT = 'low';
+const MODEL = MODELS.translate;
+const EFFORT = 'high';
 /** @type {import('./lib/llm.js').Usage[]} */
 const usages = [];
 
@@ -19,6 +20,7 @@ for (const { path, bill } of await loadBills()) {
 
 	try {
 		const { data, usage } = await callJson({
+			model: MODEL,
 			effort: EFFORT,
 			instructions: TRANSLATE_INSTRUCTIONS,
 			input: JSON.stringify(ja, null, 2),
@@ -39,4 +41,4 @@ for (const { path, bill } of await loadBills()) {
 	}
 }
 
-console.log(usages.length ? costReport(usages) : 'Nothing to translate.');
+console.log(usages.length ? costReport(usages, MODEL) : 'Nothing to translate.');

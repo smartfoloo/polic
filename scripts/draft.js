@@ -4,10 +4,11 @@
 import { readFile } from 'node:fs/promises';
 import { assemblies } from '../src/lib/config/assemblies.js';
 import { loadBills, saveBillFile } from './lib/bills-io.js';
-import { callJson, costReport, MODEL } from './lib/llm.js';
+import { callJson, costReport, MODELS } from './lib/llm.js';
 import { DRAFT_INSTRUCTIONS, DRAFT_PROMPT_VERSION, DRAFT_SCHEMA, draftInput } from './lib/prompts.js';
 import { textPath } from './lib/store.js';
 
+const MODEL = MODELS.draft;
 const EFFORT = 'high';
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 /** @type {import('./lib/llm.js').Usage[]} */
@@ -25,6 +26,7 @@ for (const { path, bill } of await loadBills()) {
 	const assemblyName = assemblies.find((a) => a.id === bill.assembly)?.name ?? bill.assembly;
 	try {
 		const { data, usage } = await callJson({
+			model: MODEL,
 			effort: EFFORT,
 			instructions: DRAFT_INSTRUCTIONS,
 			input: draftInput(bill, assemblyName, source),
@@ -43,4 +45,4 @@ for (const { path, bill } of await loadBills()) {
 	}
 }
 
-console.log(usages.length ? costReport(usages) : 'Nothing to draft.');
+console.log(usages.length ? costReport(usages, MODEL) : 'Nothing to draft.');

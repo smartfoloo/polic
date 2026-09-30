@@ -10,7 +10,15 @@ async function open(body) {
 /** @param {Buffer} body */
 export async function pdfText(body) {
 	const { text } = await extractText(await open(body), { mergePages: true });
-	return stripCjkSpaces(text.replace(/[ \t]+/g, ' '));
+	return stripCjkSpaces(joinVertical(text).replace(/[ \t]+/g, ' '));
+}
+
+// Vertically typeset documents (e.g. Minato's 議案) extract one character per line; join them back.
+/** @param {string} text */
+function joinVertical(text) {
+	const lines = text.split('\n').filter((l) => l.trim());
+	const single = lines.filter((l) => [...l.trim()].length === 1).length;
+	return lines.length && single / lines.length > 0.6 ? text.replace(/\n/g, '') : text;
 }
 
 /**

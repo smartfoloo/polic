@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/state';
 	import { t, href, isEn, otherLangPath } from '$lib/i18n.js';
+	import { JOIN_FORM_URL } from '$lib/config/site.js';
 
 	/** @type {{ contact: string }} */
 	let { contact } = $props();
@@ -18,7 +19,11 @@
 				<a href={href('/about#corrections')}>{t('訂正ポリシー', 'Corrections policy')}</a>
 				<a href={href('/privacy')}>{t('プライバシーポリシー', 'Privacy policy')}</a>
 				<a href="mailto:{contact}">{t('お問い合わせ', 'Contact')}</a>
-				<a href={href('/join')}>{t('参加する', 'Get involved')}</a>
+				{#if JOIN_FORM_URL}
+					<a href={JOIN_FORM_URL} target="_blank" rel="noopener external">{t('参加する', 'Get involved')}</a>
+				{:else}
+					<a href={href('/join')}>{t('参加する', 'Get involved')}</a>
+				{/if}
 				<a href={href('/learn')}>{t('学ぶ', 'Learn')}</a>
 			</nav>
 		</div>

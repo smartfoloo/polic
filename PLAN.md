@@ -16,10 +16,10 @@ Goal: keep the app as simple as possible.
 | Language | **JavaScript** with light JSDoc on shared shapes (Assembly, Bill); no TypeScript. `npm run check` type-checks `src/` and `scripts/` via `jsconfig.json`. Decided 2026-09-28. |
 | Hosting | Static files served by **Caddy** on the VPS. No server process, no API. |
 | Storage | One JSON file per bill in `data/<assembly>/<bill-id>.json`. Git history is the audit trail. No database. |
-| Review | **Tiered** (decided 2026-09-29; one reviewer can't read every bill). No admin UI. `npm run verify` runs code checks + an AI checker (`gpt-6-sol`, medium) on each draft. Bills go live **unchecked but labelled** when they pass; **held** for human review: member bills with AI summaries, any code flag, any AI issue except "omission" notes, and everything in an election window. ~1 in 10 live bills is a spot-check sample. Reviewer sets `"approved": true` → 「人が確認済み」. Logic in `scripts/lib/publish.js`. The legal briefing requires human review only for summaries mentioning candidates (election protocol); reviewing every bill was our stricter rule. |
+| Review | **Tiered** (decided 2026-09-29; one reviewer can't read every bill). No admin UI. `npm run verify` runs code checks + an AI checker (`gpt-6.1-sol`, medium) on each draft. Bills go live **unchecked but labelled** when they pass; **held** for human review: member bills with AI summaries, any code flag, any AI issue except "omission" notes, and everything in an election window. ~1 in 10 live bills is a spot-check sample. Reviewer sets `"approved": true` → 「人が確認済み」. Logic in `scripts/lib/publish.js`. The legal briefing requires human review only for summaries mentioning candidates (election protocol); reviewing every bill was our stricter rule. |
 | Pipeline | One command, `npm run update`, run by hand during sessions (or one weekly cron). |
 | Session dates | Hardcoded in `src/lib/config/assemblies.js` (~4 sessions/year per assembly). |
-| LLM | **OpenAI API, `gpt-6-sol`** ($2 / $10 per 1M in/out; ~$4–10/year for us) via the official `openai` npm SDK, one model for drafting and translation, id kept in one constant. Reasoning effort: **`high` for drafting** (accuracy), **`low` for translation** (rewording reviewed text). Log reasoning tokens in each bill's `draft` metadata. Chosen over `gpt-6-luna` ($0.10 / $0.50) because the saving is a few dollars a year and misstatements are the top legal risk. Only writes the plain-language fields and English translations. Key in `.env` as `OPENAI_API_KEY`. Decided 2026-09-28. |
+| LLM | **OpenAI API, two models** via the official `openai` npm SDK, ids and prices in `scripts/lib/llm.js`. **`gpt-6-luna`** ($0.10 / $0.50 per 1M in/out) drafts and translates, both at **`high`** effort; **`gpt-6.1-sol`** ($2 / $10, $0.10 cached input) runs the AI check at `medium`. Decided 2026-09-30 to cut the 令和8年 backfill for the easiest nine wards from ~$10 to ~$3.50: the check is the safety net, since any issue it finds holds the bill for a person, so the stronger model goes there. Before that (2026-09-28) `gpt-6-sol` did everything; the 101 bills drafted then keep that in their metadata. Log reasoning tokens in each bill's `draft` metadata. Only writes the plain-language fields and English translations. Key in `.env` as `OPENAI_API_KEY`. |
 | Bill scope | Resident-facing only: ordinances (条例) and member bills (議員提出議案). Skip budgets (decided 2026-09-28: only the total is parseable), contracts, reports, lawsuits, 諮問, settlements, appointments. |
 | Votes | No per-faction votes (会派別賛否) in v1. Show result only. |
 | Corrections | `mailto:` "report an error" link on every bill. |
@@ -29,6 +29,7 @@ Goal: keep the app as simple as possible.
 | Bill order | Facts only, never an LLM "importance" ranking (neutrality). (1) Still being decided (提案中/審議中), current session, soonest vote first; (2) decided (決定/否決), newest first; (3) bills with an empty `who` (no direct effect on residents) last. Ties by bill number. Decided 2026-09-28. |
 | Popular bills | 「よく見られている」 strip above the board, separate from the main order (no feedback loop). A bill shows only with **≥ N unique visitors in the last 14 days** (start N = 30); if none qualify the strip is hidden. Counts are never displayed. Off during the election freeze. Decided 2026-09-28. |
 | View counting | No new server: the bill page fires one beacon request (`/v/<bill-id>`) that Caddy answers `204` and logs; a nightly script counts unique (hashed IP + UA, per bill, per day) views from the log, writes `popular.json`, and rebuilds. Beacon, not page loads, because SvelteKit navigates client-side and preloads on hover. Caddy logs kept 7–14 days; only aggregates stored. Decided 2026-09-28. |
+| Region scope | **Kanto only** for the near future (茨城・栃木・群馬・埼玉・千葉・東京・神奈川). New assemblies come from there: the 23 wards first, then Tokyo cities and other Kanto cities. The home page region search lists only Kanto (`SEARCH_PREFECTURES` in `src/lib/config/site.js`; town list from 総務省's code list via `npm run municipalities`). Decided 2026-09-30. |
 | Permission | Not legally required for this design. **Notify** each 議会事務局 before crawling; don't wait for a reply. |
 
 ## Non-negotiables (from the legal briefing)
@@ -147,19 +148,33 @@ robots.txt allows us everywhere below: only cgi, video, 工事送達 or translat
 
 **One adapter, three wards:** Minato, Adachi and Edogawa run the same bill database (`g07_giketsu.asp` / `g07_Giketsu_View.asp`, Shift_JIS, same robots.txt template). Building it once covers all three.
 
-**Session naming:** `parseSessionName` must also handle year-long sessions (Sumida 「令和8年度定例会9月議会」, Arakawa 「令和8年度定例会・9月会議」) and Bunkyo's month names (「令和8年9月定例議会」). Bill ids need the fiscal year where numbers restart.
+**Session naming:** `parseSessionName` handles Sumida's year-long session (「令和8年度定例会9月議会」 → fiscal year + month, id `sumida-r8-9-16`; numbers restart each fiscal year). Still to add: Arakawa 「令和8年度定例会・9月会議」 and Bunkyo's month names (「令和8年9月定例議会」).
 
 ## All 23 wards by difficulty
 
 | Tier | Wards |
 |---|---|
-| Easiest: bill text per bill + facts in HTML | 港区, 足立区, 江戸川区 (one shared adapter) · 品川区 · 墨田区 · 台東区 · 中野区 · 葛飾区 · 世田谷区 · 杉並区 (live) |
+| Easiest: bill text per bill + facts in HTML | 港区, 足立区, 江戸川区 (one shared adapter) · 品川区 · 墨田区 · 台東区 · 中野区 · 葛飾区 · 世田谷区 (all built 2026-09-30) · 杉並区 (live) |
 | Easy: one extra step (split PDFs, results in PDF, match by title) | 大田区 · 板橋区 · 目黒区 · 新宿区 |
 | Medium | 文京区 · 江東区 · 中央区 (robots.txt question first) |
 | Thin: a paragraph or facts only | 渋谷区 (live) · 練馬区 · 荒川区 · 豊島区 |
 | Hard | 千代田区 · 北区 |
 
-**Proposed build order:** the g07 adapter (港区, 足立区, 江戸川区) → 品川区 → 墨田区 → 台東区 → 中野区 → 葛飾区 → 世田谷区 → 大田区 → 板橋区 → 目黒区 → 新宿区, then the medium and thin ones.
+**Proposed build order:** the g07 adapter (港区, 足立区, 江戸川区) → 品川区 → 墨田区 → 台東区 → 中野区 → 葛飾区 → 世田谷区 (done: all 令和8年 sessions, before soft launch) → 大田区 → 板橋区 → 目黒区 → 新宿区, then the medium and thin ones.
+
+**Easiest nine, as built (2026-09-30).** All tested offline against saved pages (`cache/research/<ward>.json`, `node scripts/try.js <id>`); none has had a real crawl yet.
+
+| Ward | Bills from | Committee | Result / date |
+|---|---|---|---|
+| 港区, 足立区, 江戸川区 | g07 bill database (`g07.js`) | Bill page or list | Vote date |
+| 品川区 | 提出議案 page per session; 内容等 → 概要 | Current 委員会 pages (May–May, so earlier sessions get none) | Result only; date = submission |
+| 墨田区 | One page per 「…月議会」 | Abbreviated, spans rows | Result only; date = submission |
+| 台東区 | 提出された議案 page | 会議結果: 「…委員会」に付託 | Vote date from the sitting-day heading |
+| 中野区 | Year page → session (`gian_id`) | Abbreviated | Vote date in the result cell |
+| 葛飾区 | 議案一覧・付託表 + 議案 PDF index (Shift_JIS) | 付託表 | Vote date from the text above each results table |
+| 世田谷区 | 議案一覧 (ward bills only) | 賛否一覧 (closed) or 審議予定案件 (open) | 議決内容 date (closed) or 議決日 (open); member bills title-only |
+
+Upkeep: 墨田区, 台東区 and 中野区 list pages per (fiscal) year, so add the next year's index to `listPages` when it starts. 葛飾区's 第1回定例会 opening day is unconfirmed (its schedule PDF is a scanned image); 2026-02-16 is its first recorded vote. **品川区長選挙 is on 2026-11-15**, during soft launch: the election window rule covers assembly elections only, so decide whether a mayoral election should also hold unreviewed bills.
 
 ## Bill JSON format
 
@@ -194,7 +209,7 @@ Matches the fields the design already uses.
   "why": "…",
   // stageNote is NOT stored: the site builds it from stage/status/committee so it never goes stale.
 
-  "draft": { "model": "gpt-6-sol", "effort": "high", "promptVersion": 1, "generatedAt": "…", "inputTokens": 0, "outputTokens": 0, "reasoningTokens": 0 },
+  "draft": { "model": "gpt-6-luna", "effort": "high", "promptVersion": 1, "generatedAt": "…", "inputTokens": 0, "cachedTokens": 0, "outputTokens": 0, "reasoningTokens": 0 },
 
   // English: translated from the approved Japanese fields above, reviewed separately
   "en": {
@@ -238,7 +253,7 @@ Matches the fields the design already uses.
 
 ### Step 4 — Drafting
 - [x] `scripts/lib/llm.js`: one `callJson` helper (Responses API, strict JSON schema, `store: false`), model id + prices in one place, cost report.
-- [x] `scripts/draft.js` (`npm run draft [-- <id>…]`): for non-title-only bills with no `draft`, send facts + cached source text to `gpt-6-sol` at `high` effort; fill name, category, summary, changes, who, why; save with `"approved": false` and token usage. Redraft = delete the `draft` key.
+- [x] `scripts/draft.js` (`npm run draft [-- <id>…]`): for non-title-only bills with no `draft`, send facts + cached source text to `gpt-6-luna` at `high` effort; fill name, category, summary, changes, who, why; save with `"approved": false` and token usage. Redraft = delete the `draft` key.
 - [x] Prompt rules (`scripts/lib/prompts.js`): only what the source says, own wording, neutral, no personal names (roles only), plain Japanese, half-width digits, `why` attributed to the proposer, `who` empty when residents aren't affected, dictionary-form `changes`.
 - [x] Categories fixed in `src/lib/config/categories.js` (design's 7 + 6 more for real bills), enforced by the schema.
 - [x] `stageNote` moved out of the LLM: the site will build it from facts (Step 6).
