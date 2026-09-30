@@ -14,7 +14,7 @@ Goal: keep the app as simple as possible.
 |---|---|
 | App | SvelteKit + `adapter-static` (Vite). Node is only used to build and run scripts. |
 | Language | **JavaScript** with light JSDoc on shared shapes (Assembly, Bill); no TypeScript. `npm run check` type-checks `src/` and `scripts/` via `jsconfig.json`. Decided 2026-09-28. |
-| Hosting | Static files served by **Caddy** on the VPS. No server process, no API. |
+| Hosting | SvelteKit on **adapter-node**, run by pm2 on the VPS at `127.0.0.1:3005` behind **Caddy**. Every page is still prerendered at build time; the Node server only serves them (no API). Changed from static files 2026-09-30 to match the other apps on the VPS. |
 | Storage | One JSON file per bill in `data/<assembly>/<bill-id>.json`. Git history is the audit trail. No database. |
 | Review | **Tiered** (decided 2026-09-29; one reviewer can't read every bill). No admin UI. `npm run verify` runs code checks + an AI checker (`gpt-6.1-sol`, medium) on each draft. Bills go live **unchecked but labelled** when they pass; **held** for human review: member bills with AI summaries, any code flag, any AI issue except "omission" notes, and everything in an election window. ~1 in 10 live bills is a spot-check sample. Reviewer sets `"approved": true` → 「人が確認済み」. Logic in `scripts/lib/publish.js`. The legal briefing requires human review only for summaries mentioning candidates (election protocol); reviewing every bill was our stricter rule. |
 | Pipeline | One command, `npm run update`, run by hand during sessions (or one weekly cron). |
@@ -351,14 +351,10 @@ Built 2026-09-29 from the design reference. Pages: landing, one board per assemb
 
 ### Step 7 — Launch
 - [ ] Email each 議会事務局: what we crawl, rate, user-agent, contact.
-- [ ] Deploy: build and copy `build/` to the VPS web root.
+- [ ] Deploy on the VPS: clone the repo, put `POLIC_CONTACT` in `.env` (read at build time), then `npm ci && npm run build && pm2 start ecosystem.config.cjs`. Updates: `git pull --ff-only && npm ci && npm run build && pm2 restart polic`.
 - [ ] Caddyfile:
   ```
   polic.example.jp {
-  	root * /var/www/polic
-  	try_files {path} {path}.html {path}/index.html
-  	file_server
-  	encode zstd gzip
   	log views {
   		output file /var/log/caddy/views.log {
   			roll_keep_for 14d
@@ -368,14 +364,11 @@ Built 2026-09-29 from the design reference. Pages: landing, one board per assemb
   		log_name views
   		respond 204
   	}
-  	handle_errors 404 {
-  		rewrite * /404.html
-  		file_server
-  	}
+  	reverse_proxy 127.0.0.1:3005
   }
   ```
   (`log_name` needs Caddy ≥ 2.8; check the VPS version and test the log routing before launch.)
-- [ ] `scripts/popular.js` + nightly cron: read `views.log`, count unique hashed visitors per bill per day over 14 days, write `data/popular.json` (format in Step 6), rebuild. The nightly rebuild also keeps session states and the election window current.
+- [ ] `scripts/popular.js` + nightly cron: read `views.log`, count unique hashed visitors per bill per day over 14 days, write `data/popular.json` (format in Step 6), rebuild, `pm2 restart polic`. The nightly rebuild also keeps session states and the election window current.
 - [ ] Add the election-period freeze dates (April 2027) to the review checklist.
 
 ---
