@@ -27,5 +27,64 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-80.pdf",
 			"fetchedAt": "2026-09-30T12:21:21.115Z"
 		}
-	]
+	],
+	"name": "緑化推進事業用の基金を新設",
+	"category": "環境",
+	"summary": "区の緑化推進基金条例に、新たな基金を加えます。基金の額は5,000,000円で、区が行う緑化推進事業の費用に充てます。",
+	"changes": [
+		"緑化推進基金を新たに設置する",
+		"基金の額を5,000,000円とする",
+		"区が行う緑化推進事業の費用に充てる"
+	],
+	"who": [],
+	"why": "新たな緑化推進基金を設置するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:20:00.914Z",
+		"inputTokens": 1177,
+		"cachedTokens": 0,
+		"outputTokens": 652,
+		"reasoningTokens": 489
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:20:00.914Z",
+		"checkedAt": "2026-09-30T15:53:34.098Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1106,
+			"cachedTokens": 0,
+			"outputTokens": 81,
+			"reasoningTokens": 66
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a1c2b981774d3bf7",
+		"name": "Creates a fund to promote greening",
+		"official": "Ordinance Partially Amending the Taito City Greenery Promotion Fund Ordinance",
+		"summary": "Adds a new fund to the ward's Greenery Promotion Fund Ordinance. The fund will have ¥5,000,000 and will be used to cover the costs of greenery promotion projects carried out by the ward.",
+		"changes": [
+			"Establishes a new Greenery Promotion Fund",
+			"Sets the fund amount at ¥5,000,000",
+			"Uses the fund to cover costs of greenery promotion projects carried out by the ward"
+		],
+		"who": [],
+		"why": "The mayor says this is to establish a new Greenery Promotion Fund.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:21:55.106Z",
+			"inputTokens": 535,
+			"cachedTokens": 0,
+			"outputTokens": 587,
+			"reasoningTokens": 416
+		}
+	}
 }

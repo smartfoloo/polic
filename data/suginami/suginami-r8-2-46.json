@@ -72,5 +72,33 @@
 			"outputTokens": 755,
 			"reasoningTokens": 621
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "360debb3afa66aff",
+		"name": "Sets standards for temporary protection facilities",
+		"official": "Suginami City Ordinance on Standards for the Facilities and Operation of Temporary Protection Facilities",
+		"summary": "The Child Welfare Act requires cities that establish child guidance centers to set standards for the facilities and operation of temporary protection facilities by ordinance. Suginami City, which has been designated a city that establishes a child guidance center, sets standards for facility equipment, staff placement, support for children, and other matters. The ordinance takes effect on November 1, 2026.",
+		"changes": [
+			"Sets standards for facilities needed at the center, such as bedrooms and study rooms",
+			"Sets standards for the types of staff who support children and the number to be assigned",
+			"Sets rules for respecting children's rights and opinions, and for daily life and learning support",
+			"Sets safety management rules, including evacuation drills and safety plans"
+		],
+		"who": [
+			"Children admitted to temporary protection facilities",
+			"Staff at temporary protection facilities"
+		],
+		"why": "The ward says this is because Suginami City has been designated a city that establishes a child guidance center and therefore needs to set standards for the facilities and operation of temporary protection facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:14:56.075Z",
+			"inputTokens": 679,
+			"cachedTokens": 0,
+			"outputTokens": 587,
+			"reasoningTokens": 318
+		}
 	}
 }

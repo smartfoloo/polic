@@ -22,5 +22,64 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2753_gian30%20.pdf",
 			"fetchedAt": "2026-09-30T10:42:48.127Z"
 		}
-	]
+	],
+	"name": "富士公園のバーベキュー場の規定を削除",
+	"category": "まちづくり",
+	"summary": "条例には、総合レクリエーション公園富士公園のバーベキュー場に関する規定があります。この議案で、その規定を削除します。",
+	"changes": [
+		"富士公園バーベキュー場に関する規定を削除する"
+	],
+	"who": [
+		"富士公園バーベキュー場の利用者"
+	],
+	"why": "総合レクリエーション公園などのリニューアル事業に伴い、富士公園バーベキュー場に関する規定を削除するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:30:28.354Z",
+		"inputTokens": 1424,
+		"cachedTokens": 0,
+		"outputTokens": 1416,
+		"reasoningTokens": 1220
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:30:28.354Z",
+		"checkedAt": "2026-09-30T15:27:29.179Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1363,
+			"cachedTokens": 0,
+			"outputTokens": 101,
+			"reasoningTokens": 86
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3faf1c2dac0077d5",
+		"name": "Removes provisions on the barbecue area at Fuji Park",
+		"official": "Ordinance Partially Amending the Edogawa City Parks Ordinance",
+		"summary": "The ordinance contains provisions concerning the barbecue area at Fuji Park in the General Recreation Park. This bill removes those provisions.",
+		"changes": [
+			"Removes provisions concerning the barbecue area at Fuji Park"
+		],
+		"who": [
+			"Users of the Fuji Park barbecue area"
+		],
+		"why": "The ward says it is removing the provisions concerning the Fuji Park barbecue area in connection with the renewal project for the General Recreation Park and other facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:58:21.067Z",
+			"inputTokens": 538,
+			"cachedTokens": 0,
+			"outputTokens": 315,
+			"reasoningTokens": 167
+		}
+	}
 }

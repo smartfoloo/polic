@@ -63,5 +63,32 @@
 			"outputTokens": 40,
 			"reasoningTokens": 26
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d48b7fefe276bc24",
+		"name": "Revises payments to labor relations commission members",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Reimbursement of Expenses for Members of the Tokyo Metropolitan Labor Relations Commission",
+		"summary": "The Tokyo Metropolitan Government sets the amounts paid to labor relations commission members by ordinance. This bill revises four amounts in the ordinance, including changing ¥3,800 to ¥3,900. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises ¥3,800 to ¥3,900",
+			"Raises ¥530,000 to ¥545,000",
+			"Raises ¥473,000 to ¥486,000",
+			"Raises ¥435,000 to ¥447,000"
+		],
+		"who": [
+			"Members of the Tokyo Metropolitan Labor Relations Commission"
+		],
+		"why": "The Tokyo Metropolitan Government says the change revises the members’ remuneration based on recommendations from the Tokyo Metropolitan Special Remuneration and Other Compensation Deliberation Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:17.436Z",
+			"inputTokens": 618,
+			"cachedTokens": 0,
+			"outputTokens": 574,
+			"reasoningTokens": 344
+		}
 	}
 }

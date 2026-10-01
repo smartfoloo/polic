@@ -27,5 +27,82 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian10.pdf",
 			"fetchedAt": "2026-09-30T10:36:35.435Z"
 		}
-	]
+	],
+	"name": "認知症施策の基本理念と役割を定める",
+	"category": "福祉",
+	"summary": "この条例は、認知症と共に生きるまちづくりの基本理念と、区、区民、事業者、関係機関の役割を定めます。区は認知症施策の計画を作り、関係者の意見を反映するよう努めるとともに、施策の実施状況を定期的に評価します。",
+	"changes": [
+		"認知症の人もそうでない人も互いに尊重し、支え合うことを基本理念に定める",
+		"区、区民、事業者、関係機関の役割を定める",
+		"認知症施策の計画を作り、関係者の意見を反映するよう努める",
+		"施策の実施状況を定期的に評価する"
+	],
+	"who": [
+		"認知症の人と家族等",
+		"区民",
+		"区内の事業者や医療・介護などの関係機関"
+	],
+	"why": "認知症になっても住み慣れた地域で自分らしく安心して暮らせる葛飾を実現するため、基本理念などを定める必要があると、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:32:27.936Z",
+		"inputTokens": 2855,
+		"cachedTokens": 0,
+		"outputTokens": 1221,
+		"reasoningTokens": 872
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:32:27.936Z",
+		"checkedAt": "2026-09-30T15:28:28.645Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区、区民、事業者、関係機関の役割を定める",
+				"note": "第６条の事業者の具体的な努力義務が抜けています。従業者の認知症理解の機会を設けること、認知症の人・家族等の働きやすい環境や就労継続への配慮、サービス提供時の本人の意向の重視と必要かつ合理的な配慮は、事業者や住民に直接関わる主な内容です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2948,
+			"cachedTokens": 0,
+			"outputTokens": 285,
+			"reasoningTokens": 126
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d46e2c0f537dad08",
+		"name": "Sets basic principles and roles for building a community where people live with dementia",
+		"official": "Katsushika City Ordinance on Building a Community Where People Live Together with Dementia",
+		"summary": "This ordinance sets out the basic principles for building a community where people live together with dementia, and the roles of the ward, residents, businesses, and related organizations. The ward will draw up a plan for dementia measures, strive to reflect the views of people involved, and regularly evaluate how the measures are being implemented.",
+		"changes": [
+			"Establishes mutual respect and support between people with dementia and people without dementia as a basic principle",
+			"Defines the roles of the ward, residents, businesses, and related organizations",
+			"Draws up a plan for dementia measures and strives to reflect the views of people involved",
+			"Regularly evaluates how the measures are being implemented"
+		],
+		"who": [
+			"People with dementia, their families, and others",
+			"Residents of Katsushika City",
+			"Businesses in Katsushika City and related organizations, including medical and long-term care providers"
+		],
+		"why": "The ward explains that it is necessary to set out basic principles and other matters to make Katsushika City a place where people can continue to live in their familiar community, as themselves and with peace of mind, even after developing dementia.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:32.999Z",
+			"inputTokens": 696,
+			"cachedTokens": 0,
+			"outputTokens": 635,
+			"reasoningTokens": 333
+		}
+	}
 }

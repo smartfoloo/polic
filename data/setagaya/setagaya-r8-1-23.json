@@ -32,5 +32,66 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/23.pdf",
 			"fetchedAt": "2026-09-30T10:19:52.180Z"
 		}
-	]
+	],
+	"name": "上祖師谷たなばた公園を新設",
+	"category": "まちづくり",
+	"summary": "現在の区立公園条例の一覧には、上祖師谷たなばた公園は載っていません。この議案で同公園を新設し、令和8年3月31日から条例を施行します。",
+	"changes": [
+		"上祖師谷たなばた公園を設置する",
+		"所在地を東京都世田谷区上祖師谷7丁目7番1号と定める"
+	],
+	"who": [
+		"上祖師谷たなばた公園を利用する人"
+	],
+	"why": "上祖師谷たなばた公園を設置する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:51:52.766Z",
+		"inputTokens": 1179,
+		"cachedTokens": 0,
+		"outputTokens": 995,
+		"reasoningTokens": 791
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:51:52.766Z",
+		"checkedAt": "2026-09-30T15:38:16.504Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1126,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "80a20b1dc2830687",
+		"name": "Establishes Kamisoshigaya Tanabata Park",
+		"official": "Ordinance Partially Amending the Setagaya City Parks Ordinance",
+		"summary": "Kamisoshigaya Tanabata Park is not included in the current list in the City Parks Ordinance. This bill establishes the park and brings the ordinance into force on March 31, 2026.",
+		"changes": [
+			"Establishes Kamisoshigaya Tanabata Park",
+			"Sets its location at 7-7-1 Kamisoshigaya, Setagaya City, Tokyo"
+		],
+		"who": [
+			"People who use Kamisoshigaya Tanabata Park"
+		],
+		"why": "The ward says this is because it is necessary to establish Kamisoshigaya Tanabata Park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:59.123Z",
+			"inputTokens": 546,
+			"cachedTokens": 0,
+			"outputTokens": 549,
+			"reasoningTokens": 360
+		}
+	}
 }

@@ -32,5 +32,78 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/21.pdf",
 			"fetchedAt": "2026-09-30T10:19:46.218Z"
 		}
-	]
+	],
+	"name": "手当の2つの支給額を引き上げ",
+	"category": "福祉",
+	"summary": "現在、条例で定める2つの区分の支給額は7,500円と5,000円です。改正後はそれぞれ9,000円と10,000円となり、知的障害の支給要件を愛の手帳の等級で示すほか、対象となる疾病を規則で定めます。2026年4月1日から施行し、2026年4月分以後の手当に適用します。",
+	"changes": [
+		"支給額を7,500円から9,000円に引き上げる",
+		"支給額を5,000円から10,000円に引き上げる",
+		"知的障害の支給要件を愛の手帳の等級に基づく基準に改める",
+		"対象となる疾病を規則で定める"
+	],
+	"who": [
+		"世田谷区心身障害者福祉手当の受給者や申請者"
+	],
+	"why": "手当額を変更し、支給要件に関わる障害や疾病の程度の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:51:45.431Z",
+		"inputTokens": 1591,
+		"cachedTokens": 0,
+		"outputTokens": 1509,
+		"reasoningTokens": 1182
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:51:45.431Z",
+		"checkedAt": "2026-09-30T15:38:14.115Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "知的障害の支給要件を愛の手帳の等級に基づく基準に改める",
+				"note": "原文では、区長が障害の程度を認める要件を、愛の手帳の交付を受けていることと、記載された程度が1～3度または4度であることに改めている。手帳の交付を受けていることが支給要件となる点が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1662,
+			"cachedTokens": 0,
+			"outputTokens": 295,
+			"reasoningTokens": 153
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ac7a10a2d11b6d04",
+		"name": "Raises two allowance amounts",
+		"official": "Ordinance Partially Amending the Setagaya City Welfare Allowance for Persons with Physical and Mental Disabilities Ordinance",
+		"summary": "The ordinance currently sets the amounts for two categories at ¥7,500 and ¥5,000. After the amendment, they will be ¥9,000 and ¥10,000, respectively. The eligibility requirements for intellectual disabilities will also be stated in terms of grades of the Ai no Techo, and the diseases covered will be specified by rules. The amendment will take effect on April 1, 2026, and apply to allowances for April 2026 and later.",
+		"changes": [
+			"Raises the allowance from ¥7,500 to ¥9,000",
+			"Raises the allowance from ¥5,000 to ¥10,000",
+			"Changes the eligibility requirements for intellectual disabilities to criteria based on Ai no Techo grades",
+			"Specifies the diseases covered by rules"
+		],
+		"who": [
+			"Recipients and applicants for the Setagaya City welfare allowance for persons with physical and mental disabilities"
+		],
+		"why": "The ward says the allowance amounts need to be changed and the provisions on the degree of disabilities and diseases related to eligibility need to be revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:53.831Z",
+			"inputTokens": 678,
+			"cachedTokens": 0,
+			"outputTokens": 910,
+			"reasoningTokens": 628
+		}
+	}
 }

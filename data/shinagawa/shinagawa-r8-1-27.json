@@ -22,5 +22,89 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_27.pdf",
 			"fetchedAt": "2026-09-30T10:16:15.139Z"
 		}
-	]
+	],
+	"name": "小山台に児童発達支援センターを設置",
+	"category": "福祉",
+	"summary": "現在の条例は、品川区立大原児童発達支援センターについて定めています。この議案で条例の名称や規定を改め、小山台児童発達支援センターを新たに設置します。新しいセンターでは5つの事業を行い、令和10年4月1日に施行されます（規定の整備に関する部分は公布の日）。",
+	"changes": [
+		"条例名を「品川区立児童発達支援センター条例」に改める",
+		"小山台児童発達支援センターを品川区小山台二丁目5番13号に設置する",
+		"小山台のセンターで児童発達支援、放課後等デイサービス、保育所等訪問支援、障害児相談支援事業、特定相談支援事業を行う"
+	],
+	"who": [
+		"小山台児童発達支援センターを利用する人"
+	],
+	"why": "小山台児童発達支援センターを設置し、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:01:12.949Z",
+		"inputTokens": 2317,
+		"cachedTokens": 0,
+		"outputTokens": 1437,
+		"reasoningTokens": 1160
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:01:12.949Z",
+		"checkedAt": "2026-09-30T15:43:54.244Z",
+		"flags": [
+			"copied from the source (26 chars): 「児童発達支援、放課後等デイサービス、保育所等訪問支援」"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "令和10年4月1日に施行されます。",
+				"note": "施行日は一律ではなく、原文の付則第1項では規定整備に関する第1条などは公布の日から施行するとされています。",
+				"dismissed": {
+					"note": "Fixed in the text: the 規定整備 part starts on promulgation.",
+					"at": "2026-10-01T12:12:43.005Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2375,
+			"cachedTokens": 0,
+			"outputTokens": 233,
+			"reasoningTokens": 150
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (26 chars): 「児童発達支援、放課後等デイサービス、保育所等訪問支援」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "16b4fe15a4dd499a",
+		"name": "Establishes a child development support center in Koyamadai",
+		"official": "Ordinance Partially Amending the Shinagawa City Oohara Child Development Support Center Ordinance",
+		"summary": "The current ordinance sets out rules for the Shinagawa City Oohara Child Development Support Center. This bill changes the ordinance’s name and provisions and newly establishes the Koyamadai Child Development Support Center. The new center will provide five services. The ordinance will take effect on April 1, 2028, except for the provisions concerning the updating of rules, which take effect on the date of promulgation.",
+		"changes": [
+			"Renames the ordinance the “Shinagawa City Child Development Support Center Ordinance”",
+			"Establishes the Koyamadai Child Development Support Center at 2-5-13 Koyamadai, Shinagawa City",
+			"Provides child development support, after-school day services, visits to nursery schools and other facilities, consultation support services for children with disabilities, and specified consultation support services at the Koyamadai center"
+		],
+		"who": [
+			"People who use the Koyamadai Child Development Support Center"
+		],
+		"why": "The ward says this is to establish the Koyamadai Child Development Support Center and update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:30:36.788Z",
+			"inputTokens": 670,
+			"cachedTokens": 0,
+			"outputTokens": 1100,
+			"reasoningTokens": 809
+		}
+	}
 }

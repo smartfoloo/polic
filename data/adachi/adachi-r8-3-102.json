@@ -27,5 +27,76 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4481_R83TG102.pdf",
 			"fetchedAt": "2026-09-30T10:36:23.358Z"
 		}
-	]
+	],
+	"name": "多文化共生計画の審議会を設置",
+	"category": "行政のしくみ",
+	"summary": "足立区多文化共生推進計画の策定に必要なことを調査し、審議する審議会を設けます。委員は20人以内とし、委員の日額報酬を7,000円と定めます。",
+	"changes": [
+		"計画の策定を審議する区長の附属機関を設置する",
+		"委員を20人以内とする",
+		"委員の日額報酬を7,000円と定める"
+	],
+	"who": [
+		"審議会の委員"
+	],
+	"why": "審議会を設置する必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:25:36.106Z",
+		"inputTokens": 1820,
+		"cachedTokens": 0,
+		"outputTokens": 693,
+		"reasoningTokens": 479
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:25:36.106Z",
+		"checkedAt": "2026-09-30T15:24:53.898Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "計画の策定を審議する区長の附属機関を設置する",
+				"note": "第7条第4項に定める会議の原則公開（会長が公開不適当と認める場合は例外）が抜けています。住民の傍聴に関わる規定です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1782,
+			"cachedTokens": 0,
+			"outputTokens": 300,
+			"reasoningTokens": 193
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f54c4757a94246b9",
+		"name": "Establishes a council to deliberate on the multicultural coexistence plan",
+		"official": "Adachi City Multicultural Coexistence Promotion Plan Deliberation Council Ordinance",
+		"summary": "Establishes a council to investigate and deliberate on matters needed to formulate Adachi City's Multicultural Coexistence Promotion Plan. The council will have no more than 20 members, and their daily remuneration will be ¥7,000.",
+		"changes": [
+			"Establishes an advisory body to the mayor to deliberate on formulating the plan",
+			"Limits the council to 20 members",
+			"Sets members' daily remuneration at ¥7,000"
+		],
+		"who": [
+			"Council members"
+		],
+		"why": "The mayor explains that this is because it is necessary to establish the council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:36.125Z",
+			"inputTokens": 557,
+			"cachedTokens": 0,
+			"outputTokens": 500,
+			"reasoningTokens": 314
+		}
+	}
 }

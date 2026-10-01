@@ -27,5 +27,100 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-11.pdf",
 			"fetchedAt": "2026-09-30T10:10:39.545Z"
 		}
-	]
+	],
+	"name": "住民や事業者が連携するまちづくりの仕組みを整備",
+	"category": "まちづくり",
+	"summary": "区・区民等・事業者が連携してまちづくりを進めるための基本事項を定めます。活動団体の登録・認定や地区ごとの方針・ルール、一定規模以上の建築に関する届出・協議の仕組みを設け、2つの条例を廃止します。",
+	"changes": [
+		"団体の登録・認定制度を設け、認定を受けた団体が地区の方針原案の提案やルール案の作成・認定申請を行えるようにする",
+		"活動団体への相談員・専門家の派遣、活動場所の提供、運営経費の補助などを設ける",
+		"用途地域ごとの基準を満たす建築構想の届出・公表と、都市開発諸制度を使う建築計画の届出・協議を設ける",
+		"東京都台東区定住基金条例と東京都台東区定住まちづくりに関する基本条例を廃止する"
+	],
+	"who": [
+		"区内でまちづくり活動を行う区民等の団体",
+		"区内で開発事業を行う事業者",
+		"建築構想の対象地区の区民等"
+	],
+	"why": "公民連携によるまちづくりの基本となる事項を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:12:02.755Z",
+		"inputTokens": 10538,
+		"cachedTokens": 0,
+		"outputTokens": 2039,
+		"reasoningTokens": 1655
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:12:02.755Z",
+		"checkedAt": "2026-09-30T15:49:26.537Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "登録・認定団体が地区の方針案やルールを提案・策定する制度を設ける",
+				"note": "第13条・第19条・第22条では、地区まちづくり方針原案の提案やルール案の作成・認定申請を行うのは認定まちづくり団体であり、登録グループは含まれない。",
+				"dismissed": {
+					"note": "Fixed in the text: only 認定まちづくり団体 propose and draft (第13・19・22条).",
+					"at": "2026-10-01T12:13:20.320Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "登録・認定団体が地区の方針案やルールを提案・策定する制度を設ける",
+				"note": "第24条・第25条の、事業者による地区ルールの尊重、認定団体との協議及び協議結果の届出義務が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "用途地域ごとの基準を満たす建築構想の届出・公表と、都市開発諸制度を使う建築計画の届出・協議を設ける",
+				"note": "第35条の、届出・協議等に従わない事業者への勧告と、正当な理由なく勧告に従わない場合の公表が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 10666,
+			"cachedTokens": 0,
+			"outputTokens": 565,
+			"reasoningTokens": 174
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "10656947d3f59186",
+		"name": "Sets up a framework for residents and businesses to work together on community development",
+		"official": "Comprehensive Ordinance on Community Development in Taito City, Tokyo",
+		"summary": "Sets out basic matters for the ward, residents and others, and businesses to work together to advance community development. It establishes systems to register and certify community groups, set policies and rules for each district, and require notifications and consultations for construction projects above a certain scale. It also repeals two ordinances.",
+		"changes": [
+			"Register and certify groups, allowing certified groups to propose draft district policies, prepare draft rules, and apply for their certification",
+			"Provide consultation staff and experts, activity spaces, and operating-cost subsidies for community groups",
+			"Require notification and publication of building concepts that meet standards for each use district, and notification and consultation on building plans that use urban development systems",
+			"Repeal the Taito City, Tokyo Ordinance on the Residential Settlement Fund and the Taito City, Tokyo Basic Ordinance on Community Development for Residential Settlement"
+		],
+		"who": [
+			"Groups of residents and others carrying out community development activities in the ward",
+			"Businesses carrying out development projects in the ward",
+			"Residents and others in areas covered by building concepts"
+		],
+		"why": "The ward says this is to establish the basic matters for community development through public-private collaboration.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:33:51.249Z",
+			"inputTokens": 748,
+			"cachedTokens": 0,
+			"outputTokens": 933,
+			"reasoningTokens": 631
+		}
+	}
 }

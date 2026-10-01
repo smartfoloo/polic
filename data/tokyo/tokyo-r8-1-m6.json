@@ -18,5 +18,20 @@
 			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
 			"fetchedAt": "2026-09-28T10:09:14.547Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "d64d76ff552f1e53",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Nippori-Toneri Liner Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:27.747Z",
+			"inputTokens": 323,
+			"cachedTokens": 0,
+			"outputTokens": 149,
+			"reasoningTokens": 113
+		}
+	}
 }

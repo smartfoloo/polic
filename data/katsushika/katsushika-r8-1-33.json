@@ -27,5 +27,99 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian33.pdf",
 			"fetchedAt": "2026-09-30T10:38:23.641Z"
 		}
-	]
+	],
+	"name": "国民健康保険料に子育て支援分を追加",
+	"category": "健康・医療",
+	"summary": "この条例では、国民健康保険料の算定方法や金額を定めています。議案では、現在の保険料率や金額を改め、新たに子ども・子育て支援納付金分を設けます。改正は2026年4月1日に施行します。",
+	"changes": [
+		"基礎分の所得割率を7.71%から7.51%に、均等割額を47,300円から47,600円に、賦課限度額を66万円から67万円に改める",
+		"後期高齢者支援金分の所得割率を2.69%から2.80%に、均等割額を16,800円から17,600円に改める",
+		"介護納付金分の所得割率を2.25%から2.43%に、均等割額を16,600円から17,800円に改める",
+		"子ども・子育て支援納付金分を新設し、所得割率を0.27%、均等割額を1,800円、18歳以上均等割額を73円、賦課限度額を3万円とする"
+	],
+	"who": [
+		"葛飾区の国民健康保険加入者"
+	],
+	"why": "保険料率などを改め、必要な改正を行うためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:35:59.297Z",
+		"inputTokens": 5318,
+		"cachedTokens": 0,
+		"outputTokens": 1556,
+		"reasoningTokens": 1170
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:35:59.297Z",
+		"checkedAt": "2026-09-30T15:30:26.813Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率を0.27%、均等割額を1,800円、18歳以上均等割額を73円、賦課限度額を3万円とする",
+				"note": "第19条の６で新設する、18歳に達した日以後の最初の３月31日までの被保険者に対する子ども・子育て支援納付金分の均等割の減額が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率を0.27%、均等割額を1,800円、18歳以上均等割額を73円、賦課限度額を3万円とする",
+				"note": "第19条の２の減額対象となる所得基準の変更（30万5,000円から31万円、56万円から57万円）、既存の均等割減額額の改定、子ども・子育て支援納付金分の減額追加が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率を0.27%、均等割額を1,800円、18歳以上均等割額を73円、賦課限度額を3万円とする",
+				"note": "第19条の４の未就学児に係る既存の均等割減額額の改定と、子ども・子育て支援納付金分の均等割減額の追加が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率を0.27%、均等割額を1,800円、18歳以上均等割額を73円、賦課限度額を3万円とする",
+				"note": "第19条の５で追加する、出産被保険者の産前産後期間に係る子ども・子育て支援納付金分の所得割・均等割の減額が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5447,
+			"cachedTokens": 0,
+			"outputTokens": 789,
+			"reasoningTokens": 149
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ae036397f1213278",
+		"name": "Adds a child-rearing support contribution to National Health Insurance premiums",
+		"official": "Ordinance Partially Amending the Katsushika City National Health Insurance Ordinance",
+		"summary": "This ordinance sets out how National Health Insurance premiums are calculated and their amounts. The bill revises the current premium rates and amounts and establishes a new child and child-rearing support contribution. The amendments take effect on April 1, 2026.",
+		"changes": [
+			"Changes the basic portion's income-based rate from 7.71% to 7.51%, per-person amount from ¥47,300 to ¥47,600, and assessment limit from ¥660,000 to ¥670,000",
+			"Changes the portion for support payments for older people from age 75 from an income-based rate of 2.69% to 2.80% and a per-person amount of ¥16,800 to ¥17,600",
+			"Changes the nursing care contribution portion's income-based rate from 2.25% to 2.43% and per-person amount from ¥16,600 to ¥17,800",
+			"Establishes a child and child-rearing support contribution portion, with an income-based rate of 0.27%, a per-person amount of ¥1,800, a per-person amount of ¥73 for people aged 18 and over, and an assessment limit of ¥30,000"
+		],
+		"who": [
+			"People enrolled in National Health Insurance in Katsushika City"
+		],
+		"why": "The ward says the amendments are needed to revise the premium rates and make the necessary changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:01:07.138Z",
+			"inputTokens": 731,
+			"cachedTokens": 0,
+			"outputTokens": 1043,
+			"reasoningTokens": 686
+		}
+	}
 }

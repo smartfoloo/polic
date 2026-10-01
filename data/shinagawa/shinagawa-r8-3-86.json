@@ -22,5 +22,82 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_03t_86.pdf",
 			"fetchedAt": "2026-09-30T10:18:39.161Z"
 		}
-	]
+	],
+	"name": "一時保護委託者の登録基準を定める",
+	"category": "福祉",
+	"summary": "一時保護の委託を受けて子どもを保護する人（一時保護委託者）の登録などに関する基準を定める条例案です。基準は国の内閣府令に定める内容に沿うものとし、委託先の施設で暮らす子どもの安全で衛生的な生活を目的とします。原則として公布日の翌日から施行し、児童福祉法改正法附則に関する規定は公布日から施行します。",
+	"changes": [
+		"一時保護委託者の登録などに関する最低基準を定める",
+		"最低基準を国の内閣府令に定める内容によるものとする",
+		"区が最低基準の向上に努めるものとする"
+	],
+	"who": [
+		"一時保護を委託される人",
+		"一時保護で施設に入所する児童"
+	],
+	"why": "一時保護委託者の登録などの基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:06:00.152Z",
+		"inputTokens": 1493,
+		"cachedTokens": 0,
+		"outputTokens": 1118,
+		"reasoningTokens": 813
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:06:00.152Z",
+		"checkedAt": "2026-09-30T15:46:09.445Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "区内で一時保護を委託する人の登録などに関する基準",
+				"note": "原文第1・2条の登録対象は、一時保護の委託を受けて保護を行う「一時保護委託者」であり、委託する側の人ではない。",
+				"dismissed": {
+					"note": "Fixed in the text: the people registered are the ones who take children in.",
+					"at": "2026-10-01T12:13:20.320Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1547,
+			"cachedTokens": 0,
+			"outputTokens": 263,
+			"reasoningTokens": 159
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d43f1be743eeb090",
+		"name": "Sets registration standards for temporary protection providers",
+		"official": "Shinagawa City Ordinance on Standards for the Registration, etc. of Persons Entrusted with Temporary Protection",
+		"summary": "This draft ordinance sets standards for registering people who are entrusted with temporarily protecting children (temporary protection providers), and related matters. The standards are to follow the requirements set out in a national Cabinet Office Order, with the aim of ensuring that children living in facilities entrusted with their care have a safe and hygienic life. As a rule, the ordinance takes effect the day after its promulgation. Provisions related to the supplementary provisions of the Act to Amend the Child Welfare Act take effect on the date of promulgation.",
+		"changes": [
+			"Sets minimum standards for registering temporary protection providers and related matters",
+			"Requires the minimum standards to follow the requirements set out in a national Cabinet Office Order",
+			"Requires the ward to work to improve the minimum standards"
+		],
+		"who": [
+			"People entrusted with temporary protection",
+			"Children placed in facilities for temporary protection"
+		],
+		"why": "The ward says this is because standards for registering temporary protection providers and related matters need to be established.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:32:11.668Z",
+			"inputTokens": 669,
+			"cachedTokens": 0,
+			"outputTokens": 778,
+			"reasoningTokens": 516
+		}
+	}
 }

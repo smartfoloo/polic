@@ -22,5 +22,65 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2788_gian60.pdf",
 			"fetchedAt": "2026-09-30T10:43:17.641Z"
 		}
-	]
+	],
+	"name": "共育プラザ葛西臨海分室を新設",
+	"category": "子育て",
+	"summary": "条例では、共育プラザを児童福祉法に基づく施設として定めています。この議案で、児童福祉施設に類する施設として葛西臨海分室を加えます。施行日は令和8年9月1日です。",
+	"changes": [
+		"共育プラザを児童福祉施設またはそれに類する施設として位置づける",
+		"葛西臨海分室（臨海町2丁目2番2号）を設置する"
+	],
+	"who": [
+		"共育プラザ葛西臨海分室を利用する人"
+	],
+	"why": "児童福祉施設に類する施設として葛西臨海分室を新たに設置するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:31:02.511Z",
+		"inputTokens": 1279,
+		"cachedTokens": 0,
+		"outputTokens": 846,
+		"reasoningTokens": 634
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:31:02.511Z",
+		"checkedAt": "2026-09-30T15:27:54.958Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1266,
+			"cachedTokens": 0,
+			"outputTokens": 75,
+			"reasoningTokens": 60
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9cb3a4c157828313",
+		"name": "Establishes a new Kasai Rinkai branch of Coiku Plaza",
+		"official": "Ordinance Partially Amending the Edogawa City Ordinance on Coiku Plaza",
+		"summary": "The ordinance designates Coiku Plaza as a facility under the Child Welfare Act. This bill adds the Kasai Rinkai branch as a facility similar to a child welfare facility. It takes effect on September 1, 2026.",
+		"changes": [
+			"Designates Coiku Plaza as a child welfare facility or a similar facility, and establishes the Kasai Rinkai branch at 2-2-2 Rinkaicho"
+		],
+		"who": [
+			"People who use the Coiku Plaza Kasai Rinkai branch"
+		],
+		"why": "The ward says this is to newly establish the Kasai Rinkai branch as a facility similar to a child welfare facility.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:58:40.604Z",
+			"inputTokens": 585,
+			"cachedTokens": 0,
+			"outputTokens": 1231,
+			"reasoningTokens": 1024
+		}
+	}
 }

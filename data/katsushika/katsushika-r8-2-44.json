@@ -27,5 +27,68 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian44.pdf",
 			"fetchedAt": "2026-09-30T10:39:47.381Z"
 		}
-	]
+	],
+	"name": "渋江公園の仮設施設廃止と公園追加",
+	"category": "まちづくり",
+	"summary": "条例には、渋江公園の仮設施設に関する規定があります。この議案でその規定を削り、中川かわまち左岸公園を別表に加えます。条例は2026年7月1日に施行されますが、公園を別表に加える部分は区規則で定める日に施行されます。",
+	"changes": [
+		"渋江公園の仮設施設を廃止する",
+		"中川かわまち左岸公園を別表に加える"
+	],
+	"who": [
+		"渋江公園を利用する人",
+		"中川かわまち左岸公園を利用する人"
+	],
+	"why": "渋江公園の仮設施設を廃止し、必要な改正を行うためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:38:33.787Z",
+		"inputTokens": 1192,
+		"cachedTokens": 0,
+		"outputTokens": 1156,
+		"reasoningTokens": 906
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:38:33.787Z",
+		"checkedAt": "2026-09-30T15:31:46.454Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1185,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "649ea1a04a4727c0",
+		"name": "Ends temporary facilities at Shibue Park and adds a park",
+		"official": "Ordinance Partially Amending the Katsushika City Parks Ordinance",
+		"summary": "The ordinance includes provisions about temporary facilities at Shibue Park. This bill removes those provisions and adds Nakagawa Kawamachi Left Bank Park to the list. The ordinance takes effect on July 1, 2026, but the part adding the park to the list takes effect on a date set by city rules.",
+		"changes": [
+			"Abolishes the temporary facilities at Shibue Park",
+			"Adds Nakagawa Kawamachi Left Bank Park to the list"
+		],
+		"who": [
+			"People who use Shibue Park",
+			"People who use Nakagawa Kawamachi Left Bank Park"
+		],
+		"why": "The ward says this is to abolish the temporary facilities at Shibue Park and make the necessary amendments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:01:34.717Z",
+			"inputTokens": 592,
+			"cachedTokens": 0,
+			"outputTokens": 602,
+			"reasoningTokens": 388
+		}
+	}
 }

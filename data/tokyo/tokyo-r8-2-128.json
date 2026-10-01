@@ -67,6 +67,48 @@
 			"inputTokens": 1704,
 			"outputTokens": 119,
 			"reasoningTokens": 105
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (31 chars): 「外し、東京都杉並児童相談所を東京都多摩中部児童相談所として設置」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			},
+			{
+				"flag": "copied from the source (30 chars): 「東京都杉並児童相談所を東京都多摩中部児童相談所として設置する」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6bf2d8615642855a",
+		"name": "Changes a child guidance center's name and service areas",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Child Guidance Center Ordinance",
+		"summary": "Currently, Suginami City is included in the area served by the Tokyo Metropolitan Government's child guidance centers, while Koganei City and Kokubunji City are served by the Tokyo Kodaira Child Guidance Center. On November 1, 2026, Suginami City will be removed from the areas served by the Tokyo Metropolitan Government's child guidance centers, and the Tokyo Suginami Child Guidance Center will be established under the name Tokyo Tama-Chubu Child Guidance Center. On April 1, 2027, responsibility for Koganei City and Kokubunji City will also change to the Tokyo Tama-Chubu Child Guidance Center.",
+		"changes": [
+			"Remove Suginami City from the area served by the Tokyo Metropolitan Government's child guidance centers",
+			"Establish the Tokyo Suginami Child Guidance Center under the name Tokyo Tama-Chubu Child Guidance Center",
+			"Make the Tokyo Tama-Chubu Child Guidance Center responsible for Musashino City and Mitaka City",
+			"Transfer responsibility for Koganei City and Kokubunji City from the Tokyo Kodaira Child Guidance Center to the Tokyo Tama-Chubu Child Guidance Center"
+		],
+		"who": [
+			"People who use child guidance center services in Suginami City",
+			"People who use child guidance center services in Musashino City and Mitaka City",
+			"People who use child guidance center services in Koganei City",
+			"People who use child guidance center services in Kokubunji City"
+		],
+		"why": "The Tokyo Metropolitan Government says the amendments are to reorganize provisions concerning Suginami City's administrative work following an amendment to the Order for Enforcement of the Child Welfare Act, and to make changes needed to establish the Tokyo Tama-Chubu Child Guidance Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:36:14.491Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 1625,
+			"reasoningTokens": 1207
 		}
 	}
 }

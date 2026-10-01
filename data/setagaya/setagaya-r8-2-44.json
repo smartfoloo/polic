@@ -32,5 +32,95 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/33569/44.pdf",
 			"fetchedAt": "2026-09-30T10:21:40.280Z"
 		}
-	]
+	],
+	"name": "年金受給者の申告範囲などを見直し",
+	"category": "税・手数料",
+	"summary": "条例では、公的年金等の受給者が扶養親族などについて申告する手続を定めています。この議案は、申告の対象範囲や記載事項を見直し、住宅ローン控除と土地譲渡の税の特例に関する規定も変更します。規定ごとに令和9年1月1日または令和10年1月1日から施行します。",
+	"changes": [
+		"扶養親族等申告書を提出する公的年金等受給者の範囲と記載事項を改める",
+		"住宅ローン控除に関する特例の適用期間を延長する",
+		"地すべり防止区域、急傾斜地崩壊危険区域、土砂災害特別警戒区域、浸水被害防止区域にある土地について、租税特別措置法で定める一部の譲渡（第31条の2第2項第13号から第15号）を、優良住宅地等のための譲渡の特例から除く"
+	],
+	"who": [
+		"公的年金等を受給し、申告書の提出要件に該当する人",
+		"住宅ローン控除の対象となる納税者",
+		"災害リスクの指定区域内にある土地を譲渡する人"
+	],
+	"why": "地方税法等の改正に伴い、源泉徴収の対象となる年金額の引上げに合わせて申告書の提出範囲を見直し、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:54:29.025Z",
+		"inputTokens": 4424,
+		"cachedTokens": 0,
+		"outputTokens": 2658,
+		"reasoningTokens": 2286
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:54:29.025Z",
+		"checkedAt": "2026-09-30T15:39:35.708Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "災害リスクの指定区域内にある土地の譲渡を、優良住宅地等のための税の特例対象から外す",
+				"note": "原文の付則第11条第4項は、租税特別措置法第31条の2第2項第13号から第15号までに掲げる譲渡に限定しており、指定区域内の土地の譲渡全般を除外するものではない。",
+				"dismissed": {
+					"note": "Fixed in the text: the land rule names the four zones and the transfers in 第31条の2第2項第13–15号; why now says 源泉徴収の対象となる年金額.",
+					"at": "2026-10-01T12:09:53.468Z"
+				}
+			},
+			{
+				"field": "why",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "年金額の引上げに合わせて申告書の提出範囲を見直し",
+				"note": "原文の説明は「源泉徴収の対象となる年金額」の引上げであり、年金支給額自体の引上げではない。",
+				"dismissed": {
+					"note": "Fixed in the text: the land rule names the four zones and the transfers in 第31条の2第2項第13–15号; why now says 源泉徴収の対象となる年金額.",
+					"at": "2026-10-01T12:09:53.468Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4538,
+			"cachedTokens": 0,
+			"outputTokens": 396,
+			"reasoningTokens": 141
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9acd222e14986613",
+		"name": "Reviews declaration requirements for pension recipients",
+		"official": "Ordinance Partially Amending the Setagaya City Special Ward Tax Ordinance",
+		"summary": "The ordinance sets out the procedure for recipients of public pensions and other pensions to declare dependents and other matters. This bill revises who must file a declaration and what information it must include. It also changes provisions on the home loan tax deduction and special tax treatment for land transfers. The provisions take effect on January 1, 2027, or January 1, 2028, depending on the provision.",
+		"changes": [
+			"Revises which recipients of public pensions and other pensions must submit a declaration of dependents, etc., and what information it must include",
+			"Extends the period for applying the special provision for the home loan tax deduction",
+			"Excludes certain transfers specified in the Act on Special Measures Concerning Taxation (Article 31-2, paragraph 2, items 13 through 15) of land in landslide prevention areas, areas at risk of steep-slope collapse, special warning zones for sediment-related disasters, and flood damage prevention areas from the special provision for transfers for high-quality residential land, etc."
+		],
+		"who": [
+			"Recipients of public pensions and other pensions who meet the requirements for submitting a declaration",
+			"Taxpayers eligible for the home loan tax deduction",
+			"People who transfer land in designated disaster-risk areas"
+		],
+		"why": "The ward says the bill revises who must submit a declaration to reflect the increase in the pension amount subject to withholding following amendments to the Local Tax Act and other laws, and makes related adjustments to the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:28:08.423Z",
+			"inputTokens": 788,
+			"cachedTokens": 0,
+			"outputTokens": 1044,
+			"reasoningTokens": 678
+		}
+	}
 }

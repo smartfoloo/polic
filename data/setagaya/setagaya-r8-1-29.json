@@ -32,5 +32,62 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/29.pdf",
 			"fetchedAt": "2026-09-30T10:20:28.255Z"
 		}
-	]
+	],
+	"name": "認定こども園の認定要件の参照規定を変更",
+	"category": "子育て",
+	"summary": "認定こども園の認定要件を定める条例で、保育士登録を示す条文の参照先を改めます。幼稚園型認定こども園に関する参照規定も加え、公布の日から施行します。",
+	"changes": [
+		"保育士登録の参照先を第18条の18第1項から第3項に改める",
+		"幼稚園型認定こども園について学校教育法第28条第2項で準用する規定を参照先に加える"
+	],
+	"who": [],
+	"why": "国の施設・運営基準の改正に伴い、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:52:52.266Z",
+		"inputTokens": 1379,
+		"cachedTokens": 0,
+		"outputTokens": 1166,
+		"reasoningTokens": 937
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:52:52.266Z",
+		"checkedAt": "2026-09-30T15:38:48.498Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1347,
+			"cachedTokens": 0,
+			"outputTokens": 76,
+			"reasoningTokens": 61
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6d388b68e19a8868",
+		"name": "Changes references in certification requirements for certified childcare centers",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Certification Requirements for Certified Childcare Centers Other Than Integrated-Type Certified Childcare Centers",
+		"summary": "This ordinance sets the certification requirements for certified childcare centers. It changes the provision cited for nursery teacher registration and adds a reference concerning kindergarten-type certified childcare centers. It takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the reference for nursery teacher registration from Article 18-18, paragraph 1, to paragraph 3",
+			"Adds a reference to the provisions applied under Article 28, paragraph 2, of the School Education Act concerning kindergarten-type certified childcare centers"
+		],
+		"who": [],
+		"why": "The ward says this is to update the ordinance provisions in response to revisions to the national standards for facilities and operations.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:07:24.893Z",
+			"inputTokens": 599,
+			"cachedTokens": 0,
+			"outputTokens": 712,
+			"reasoningTokens": 508
+		}
+	}
 }

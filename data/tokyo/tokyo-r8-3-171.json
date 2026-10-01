@@ -63,5 +63,32 @@
 			"outputTokens": 380,
 			"reasoningTokens": 366
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cc9862c094db59ec",
+		"name": "Changes fire safety standards for sauna equipment and cooking appliances",
+		"official": "Ordinance Partially Amending the Fire Prevention Ordinance",
+		"summary": "The current ordinance does not distinguish between types of sauna equipment. This bill divides sauna equipment into general sauna equipment and simple sauna equipment, and sets standards for simple sauna equipment. It also adds a provision requiring people to manage exhaust ducts and other areas around cooking appliances to prevent grease from accumulating on them. This provision will take effect on April 1, 2027.",
+		"changes": [
+			"Divides sauna equipment into general sauna equipment and simple sauna equipment",
+			"Requires simple sauna equipment to have a manual or automatic heat-source shutoff device, and allows an exception for wood-fired equipment when a fire extinguisher is provided",
+			"Requires people to manage exhaust ducts and other areas around cooking appliances to prevent grease from accumulating on them"
+		],
+		"who": [
+			"People and businesses that install sauna equipment",
+			"People and businesses that manage exhaust ducts and other areas around cooking appliances"
+		],
+		"why": "The governor says the standards for installing and managing sauna equipment need to be revised following the enforcement of a national ministerial ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:30:23.903Z",
+			"inputTokens": 681,
+			"cachedTokens": 0,
+			"outputTokens": 821,
+			"reasoningTokens": 555
+		}
 	}
 }

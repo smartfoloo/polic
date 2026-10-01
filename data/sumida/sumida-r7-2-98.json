@@ -27,5 +27,101 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/98gaiyou.pdf",
 			"fetchedAt": "2026-09-30T10:13:40.530Z"
 		}
-	]
+	],
+	"name": "公園の釣り場と占用料を改める",
+	"category": "まちづくり",
+	"summary": "現在、隅田公園内に魚つり場があります。この議案では、大横川親水公園の管理を指定管理者に行わせ、同公園の魚つり場を有料にする一方、隅田公園内の魚つり場を廃止し、利用料金や公園の占用料を改めます。主な規定は令和9年10月1日から施行され、一部は令和9年7月1日から施行されます。",
+	"changes": [
+		"大横川親水公園の管理を指定管理者に行わせる",
+		"大横川親水公園魚つり場を有料施設に加え、1人1回2時間以内の料金を一般は平日200円・土日祝日400円、小学生・中学生・65歳以上は平日100円・土日祝日200円、学齢に達しない人は無料とする",
+		"隅田公園内の魚つり場を廃止する",
+		"隅田公園と大横川親水公園の指定区域で事業・営業活動を伴う占用の料金を、時間帯ごとの料金から使用時間に応じた料金に改め、1平方メートル・1日あたり4時間まで24円、4時間超6時間まで35円、6時間超8時間まで70円、8時間超は94円とする"
+	],
+	"who": [
+		"大横川親水公園魚つり場の利用者",
+		"隅田公園内魚つり場の利用者",
+		"公園内で事業・営業活動を伴う占用をする人や事業者"
+	],
+	"why": "指定管理者による管理に伴って占用料などを改め、大横川親水公園魚つり場を有料施設にし、隅田公園の再整備に伴って同公園内の魚つり場を廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:10:10.092Z",
+		"inputTokens": 3047,
+		"cachedTokens": 0,
+		"outputTokens": 2788,
+		"reasoningTokens": 2298
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:10:10.092Z",
+		"checkedAt": "2026-09-30T15:48:28.726Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "指定区域で事業・営業活動を伴う占用の料金を、1平方メートル・1日あたり4時間まで24円、4時間超6時間まで35円、6時間超8時間まで70円、8時間超は94円とする",
+				"note": "原文の別表第5・第8の占用料改正部分は、「を」「に改める」と表の文字列の配置が崩れており、改正前後の対応と変更の向きを確実に確認できない。",
+				"dismissed": {
+					"note": "Checked against the PDF (別紙1): the new fees are the 改正案 column; the old ones were by time of day.",
+					"at": "2026-10-01T12:13:20.320Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "指定区域で事業・営業活動を伴う占用の料金を、1平方メートル・1日あたり4時間まで24円、4時間超6時間まで35円、6時間超8時間まで70円、8時間超は94円とする",
+				"note": "原文の別表第5・第8には、対象区域を隅田公園のみとする記載と、隅田公園及び大横川親水公園とする記載がある。対象となる公園の範囲の変更が要約から抜けているため、改正前後の対応と併せて確認が必要。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "大横川親水公園魚つり場を有料施設に加え、1人1回2時間以内の料金を一般は平日200円・土日祝日400円、小学生・中学生・65歳以上は平日100円・土日祝日200円、学齢に達しない人は無料とする",
+				"note": "別表第8付記3に追加される備付器具の利用料金が抜けている。器具1組・2時間以内につき100円の範囲内で、指定管理者が区長の承認を得て定める額を徴収する。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3280,
+			"cachedTokens": 0,
+			"outputTokens": 761,
+			"reasoningTokens": 292
+		},
+		"dismissedFlags": []
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "13144181bc7da1e1",
+		"name": "Revises fishing areas and park occupancy fees",
+		"official": "Ordinance Partially Amending the Sumida City Parks Ordinance",
+		"summary": "There is currently a fishing area in Sumida Park. This bill would have a designated manager manage Oyokogawa Shinsui Park and charge a fee for its fishing area, while abolishing the fishing area in Sumida Park. It would also revise use fees and park occupancy fees. The main provisions will take effect on October 1, 2027, and some provisions will take effect on July 1, 2027.",
+		"changes": [
+			"Have a designated manager manage Oyokogawa Shinsui Park",
+			"Add the Oyokogawa Shinsui Park fishing area as a paid facility, charging per person per visit for up to 2 hours: ¥200 on weekdays and ¥400 on weekends and public holidays for general visitors; ¥100 on weekdays and ¥200 on weekends and public holidays for elementary and junior high school students and people aged 65 or older; and no fee for people below school age",
+			"Abolish the fishing area in Sumida Park",
+			"Change occupancy fees for business or commercial activities in designated areas of Sumida Park and Oyokogawa Shinsui Park from fees based on time of day to fees based on duration of use: per square meter per day, ¥24 for up to 4 hours, ¥35 for more than 4 hours and up to 6 hours, ¥70 for more than 6 hours and up to 8 hours, and ¥94 for more than 8 hours"
+		],
+		"who": [
+			"Users of the Oyokogawa Shinsui Park fishing area",
+			"Users of the fishing area in Sumida Park",
+			"People and businesses occupying park space for business or commercial activities"
+		],
+		"why": "The ward says the changes are being made to revise occupancy fees and other fees in connection with management by a designated manager, to make the Oyokogawa Shinsui Park fishing area a paid facility, and to abolish the fishing area in Sumida Park in connection with the park's redevelopment.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:33:18.212Z",
+			"inputTokens": 862,
+			"cachedTokens": 0,
+			"outputTokens": 1242,
+			"reasoningTokens": 773
+		}
+	}
 }

@@ -27,5 +27,70 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4447_R81TGG001.pdf",
 			"fetchedAt": "2026-09-30T10:35:59.524Z"
 		}
-	]
+	],
+	"name": "賃上げした区内事業者に助成金を支給",
+	"category": "まちづくり",
+	"summary": "この議案は、区内の中小企業者等に賃上げ助成金を支給する制度を設ける内容です。賃上げの条件や助成額、申請方法などを定めています。",
+	"changes": [
+		"区内に主たる事業所と本店登記があり、1年以上事業を続ける事業者などを対象とする",
+		"1時間当たり70円以上賃上げし、賃上げ後の賃金を最低賃金に70円を加えた額以上とする",
+		"賃上げ後の賃金を1年間続ける見込みがあることを条件とする",
+		"賃上げした従業員1人につき6万円、事業者ごとに上限100万円を年度1回支給する"
+	],
+	"who": [
+		"区内の中小企業者等",
+		"賃上げの対象となる従業員"
+	],
+	"why": "物価高騰を上回る賃上げと人材確保を進めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:25:30.518Z",
+		"inputTokens": 3426,
+		"cachedTokens": 0,
+		"outputTokens": 1510,
+		"reasoningTokens": 1178
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:25:30.518Z",
+		"checkedAt": "2026-09-30T15:24:44.578Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "議会では否決されました。",
+				"note": "原文には議会の採決結果の記載がなく、否決されたことは確認できません。",
+				"dismissed": {
+					"note": "True (status 否決, from the voting results page), but the checker only sees the bill text. Sentence removed: the site shows the result as the status stamp.",
+					"at": "2026-10-01T11:30:44.894Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区内に主たる事業所と本店登記があり、1年以上事業を続ける事業者などを対象とする",
+				"note": "第3条の主な対象要件である、区税・都税・国税の滞納がないこと、公的機関から賃上げ目的の助成金を受けておらず受ける見込みもないことが抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "1時間当たり70円以上賃上げし、賃上げ後の賃金を最低賃金に70円を加えた額以上とする",
+				"note": "第2条第2項・第3項では、賃上げは賞与や各種手当を除く基本給単価の引上げと定義されています。助成対象となる賃上げの範囲が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3501,
+			"cachedTokens": 0,
+			"outputTokens": 454,
+			"reasoningTokens": 101
+		}
+	}
 }

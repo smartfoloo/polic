@@ -27,5 +27,91 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4385_R81TG013.pdf",
 			"fetchedAt": "2026-09-30T10:30:53.027Z"
 		}
-	]
+	],
+	"name": "手数料の対象と法律の引用を改める",
+	"category": "税・手数料",
+	"summary": "現在の条例では、医薬品やマンションに関する手数料の規定に、改正前の法律名や条文番号が使われています。この議案では法改正に合わせて記載を更新し、マンション関係では、手数料の対象に「各部分の高さ」と、要除却等認定マンションの更新がされるマンションを加えます。施行日は原則として令和8年4月1日で、別表第2の改正は同年5月1日からです。",
+	"changes": [
+		"医薬品関係の手数料表にある法律の条文番号を改める",
+		"マンション関係の手数料表にある法律名と条文番号を更新する",
+		"マンション関係の手数料規定に、各部分の高さと、要除却等認定マンションの更新がされるマンションを加える"
+	],
+	"who": [
+		"マンションの建替えや更新に関する手続きを申請する人"
+	],
+	"why": "医薬品やマンションに関する法律の改正に伴い、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:20:13.095Z",
+		"inputTokens": 1305,
+		"cachedTokens": 0,
+		"outputTokens": 2266,
+		"reasoningTokens": 1950
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:20:13.095Z",
+		"checkedAt": "2026-09-30T15:21:49.389Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "要除却等認定マンションの更新に伴う建築",
+				"note": "原文で追加する対象は「要除却等認定マンションの更新がされるマンション」であり、更新に伴う「建築」とはしていません。",
+				"dismissed": {
+					"note": "Already fixed in the text: it now says 要除却等認定マンションの更新がされるマンション.",
+					"at": "2026-10-01T12:11:03.256Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "マンション関係の手数料規定に各部分の高さと更新に伴う建築を加える",
+				"note": "原文は「建築されるマンション」に「又は要除却等認定マンションの更新がされるマンション」を加えるもので、追加対象を「更新に伴う建築」とするのは不正確です。",
+				"dismissed": {
+					"note": "Already fixed in the text: it now says 要除却等認定マンションの更新がされるマンション.",
+					"at": "2026-10-01T12:11:03.256Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1368,
+			"cachedTokens": 0,
+			"outputTokens": 342,
+			"reasoningTokens": 158
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "75b2a783ab14d721",
+		"name": "Revises fee categories and legal references",
+		"official": "Ordinance Partially Amending the Adachi City Administrative Fee Ordinance",
+		"summary": "The current ordinance uses pre-amendment law names and article numbers in its provisions on fees related to pharmaceuticals and condominiums. This bill updates those references to reflect amendments to the laws. For condominium-related fees, it also adds “the height of each part” and condominiums subject to the renewal of condominiums certified as requiring demolition, etc. to the items subject to fees. The ordinance will generally take effect on April 1, 2026. The amendments to Appendix Table 2 will take effect on May 1, 2026.",
+		"changes": [
+			"Amends the article numbers in the laws listed in the fee schedule for pharmaceuticals",
+			"Updates the law names and article numbers in the fee schedule for condominiums",
+			"Adds the height of each part and condominiums subject to the renewal of condominiums certified as requiring demolition, etc. to the items subject to condominium-related fees"
+		],
+		"who": [
+			"People applying for procedures related to condominium rebuilding or renewal"
+		],
+		"why": "The ward says this is to update the provisions following amendments to laws concerning pharmaceuticals and condominiums.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:20:16.451Z",
+			"inputTokens": 671,
+			"cachedTokens": 0,
+			"outputTokens": 1405,
+			"reasoningTokens": 1116
+		}
+	}
 }

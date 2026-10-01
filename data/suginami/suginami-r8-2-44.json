@@ -61,7 +61,11 @@
 				"kind": "direction",
 				"severity": "check",
 				"quote": "委員長と部会長の報酬を日額21,000円、委員の報酬を日額18,500円と定める",
-				"note": "報酬に関する附則第2項の改正前・改正後の表が崩れており、金額を定める変更の向きを原文から確実に確認できません。"
+				"note": "報酬に関する附則第2項の改正前・改正後の表が崩れており、金額を定める変更の向きを原文から確実に確認できません。",
+				"dismissed": {
+					"note": "The table is broken but readable: it adds a row for the new council (chair and heads 21,000円, members 18,500円 a day).",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
 			}
 		],
 		"ai": {
@@ -71,6 +75,34 @@
 			"inputTokens": 4582,
 			"outputTokens": 694,
 			"reasoningTokens": 577
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ec3e8d8595584870",
+		"name": "Establishes a child welfare council",
+		"official": "Suginami City Child Welfare Council Ordinance",
+		"summary": "Currently, when recommending that providers of home-based childcare and similar services improve their facilities or operations, the mayor must hear the views of parents and others. This bill establishes the Suginami City Child Welfare Council on November 1, 2026. It also changes who is consulted when recommendations are made, from parents and others to the council.",
+		"changes": [
+			"Establishes a child welfare council with no more than 20 members",
+			"Makes council meetings public in principle and subcommittee meetings closed in principle",
+			"Changes who is consulted when recommending improvements to facilities or operations, from parents and others to the council",
+			"Sets daily compensation at ¥21,000 for the chair and subcommittee chairs, and ¥18,500 for council members"
+		],
+		"who": [
+			"People who will serve as council members",
+			"Parents and others whose views were previously heard about home-based childcare and similar services"
+		],
+		"why": "Suginami City says this is because it was designated as a city that establishes a child guidance center and therefore needs to have a council that deliberates on child welfare.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:32:19.492Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 789,
+			"reasoningTokens": 512
 		}
 	}
 }

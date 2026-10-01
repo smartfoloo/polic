@@ -22,5 +22,60 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/gian91.pdf",
 			"fetchedAt": "2026-09-30T10:12:28.769Z"
 		}
-	]
+	],
+	"name": "印鑑条例の引用条文を修正",
+	"category": "行政のしくみ",
+	"summary": "現在、条例第20条は「第12条の2第4項第2号ロ」を引用しています。この議案で引用先を「第12条の2第4項第3号ロ」に改め、施行日は墨田区規則で定めます。",
+	"changes": [
+		"第20条の引用先を第12条の2第4項第2号ロから第3号ロに改める"
+	],
+	"who": [],
+	"why": "電気通信事業法の一部改正で引用条文の位置が変わるため、必要な規定を整えるものと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:08:36.181Z",
+		"inputTokens": 1113,
+		"cachedTokens": 0,
+		"outputTokens": 651,
+		"reasoningTokens": 480
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:08:36.181Z",
+		"checkedAt": "2026-09-30T15:47:24.427Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1047,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1859c7f04cdec29a",
+		"name": "Corrects the article cited in the seal ordinance",
+		"official": "Ordinance Partially Amending the Sumida City Seal Registration Ordinance",
+		"summary": "Article 20 of the ordinance currently cites “Article 12-2, paragraph 4, item 2(b).” This bill changes the reference to “Article 12-2, paragraph 4, item 3(b).” The effective date will be set by Sumida City rules.",
+		"changes": [
+			"Changes Article 20’s reference from Article 12-2, paragraph 4, item 2(b), to item 3(b)"
+		],
+		"who": [],
+		"why": "The ward says this is to make the necessary adjustments because a partial amendment to the Telecommunications Business Act changes the location of the cited provision.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:32:54.571Z",
+			"inputTokens": 534,
+			"cachedTokens": 0,
+			"outputTokens": 691,
+			"reasoningTokens": 504
+		}
+	}
 }

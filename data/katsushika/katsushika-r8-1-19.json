@@ -27,5 +27,71 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian19.pdf",
 			"fetchedAt": "2026-09-30T10:37:29.522Z"
 		}
-	]
+	],
+	"name": "基金の名称と目的を新交通整備に変更",
+	"category": "交通",
+	"summary": "現在は、新金貨物線の旅客化を目的とする基金です。この議案で、基金の名称と目的を「新金線を活用した新交通」に関するものに改め、2026年4月1日から施行します。",
+	"changes": [
+		"基金の名称を「葛飾区新金線を活用した新交通整備基金」に改める",
+		"基金の目的を「新金線を活用した新交通」に改める"
+	],
+	"who": [],
+	"why": "基金の名称と目的を改める必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:34:14.641Z",
+		"inputTokens": 1204,
+		"cachedTokens": 0,
+		"outputTokens": 758,
+		"reasoningTokens": 591
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:34:14.641Z",
+		"checkedAt": "2026-09-30T15:29:28.051Z",
+		"flags": [
+			"copied from the source (25 chars): 「を「葛飾区新金線を活用した新交通整備基金」に改める」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1136,
+			"cachedTokens": 0,
+			"outputTokens": 37,
+			"reasoningTokens": 22
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (25 chars): 「を「葛飾区新金線を活用した新交通整備基金」に改める」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "33522e8ad1c45e93",
+		"name": "Renames the fund and changes its purpose to new transit using the Shinkin Line",
+		"official": "Ordinance Partially Amending the Katsushika City Shinkin Freight Line Passenger Service Development Fund Ordinance",
+		"summary": "The fund currently aims to make the Shinkin Freight Line available for passenger services. This bill changes the fund’s name and purpose to concern “new transit using the Shinkin Line” and takes effect on April 1, 2026.",
+		"changes": [
+			"Renames the fund “Katsushika City New Transit Development Fund Using the Shinkin Line”",
+			"Changes the fund’s purpose to “new transit using the Shinkin Line”"
+		],
+		"who": [],
+		"why": "The mayor says the fund’s name and purpose need to be changed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:23:30.984Z",
+			"inputTokens": 543,
+			"cachedTokens": 0,
+			"outputTokens": 586,
+			"reasoningTokens": 399
+		}
+	}
 }

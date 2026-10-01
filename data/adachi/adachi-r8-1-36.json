@@ -27,5 +27,82 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4353_R81TG036.pdf",
 			"fetchedAt": "2026-09-30T10:34:05.414Z"
 		}
-	]
+	],
+	"name": "区長等の旅費と教育長らの給料を改定",
+	"category": "行政のしくみ",
+	"summary": "教育委員会教育長の給料は745,800円、常勤の監査委員は617,900円です。この議案で、それぞれ769,700円、717,400円に改め、区長等の旅行にかかる交通費や宿泊費の支給基準も見直します。2026年4月1日から施行し、旅行に関する改正は同日以降に出発する旅行に適用します。",
+	"changes": [
+		"教育委員会教育長の給料を745,800円から769,700円に改める",
+		"常勤の監査委員の給料を617,900円から717,400円に改める",
+		"鉄道・船舶の運賃は最上級を上限とし、外国旅行の航空運賃には等級に応じた上限を設ける",
+		"宿泊費を国家公務員等の旅費支給規程に定める指定職職員等の額に基づいて支給する"
+	],
+	"who": [
+		"教育委員会教育長",
+		"常勤の監査委員",
+		"区長等で旅行する人"
+	],
+	"why": "区長等の旅費の支給額などを改め、教育長と常勤の監査委員の給料を改定するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:22:58.903Z",
+		"inputTokens": 1841,
+		"cachedTokens": 0,
+		"outputTokens": 2358,
+		"reasoningTokens": 1980
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:22:58.903Z",
+		"checkedAt": "2026-09-30T15:23:11.670Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "宿泊費を国家公務員等の旅費支給規程に定める指定職職員等の額に基づいて支給する",
+				"note": "第3条第2項で旅費の費目を改め、包括宿泊費・宿泊手当などを規定する変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1967,
+			"cachedTokens": 0,
+			"outputTokens": 269,
+			"reasoningTokens": 165
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "23c1097c4da7de23",
+		"name": "Revises travel expenses for the mayor and others and salaries for education officials",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries, etc. for the Adachi City Mayor, etc.",
+		"summary": "The salary of the superintendent of the Board of Education is ¥745,800, and that of the full-time audit commissioner is ¥617,900. This bill changes these amounts to ¥769,700 and ¥717,400, respectively, and also revises the standards for paying transportation and accommodation costs for travel by the mayor and others. The ordinance takes effect on April 1, 2026. The amendments concerning travel apply to trips departing on or after that date.",
+		"changes": [
+			"Raises the superintendent of the Board of Education’s salary from ¥745,800 to ¥769,700",
+			"Raises the full-time audit commissioner’s salary from ¥617,900 to ¥717,400",
+			"Limits rail and ship fares to the highest class and sets class-based limits on airfares for overseas travel",
+			"Pays accommodation expenses based on the amounts for designated senior officials, etc., set out in the travel expense regulations for national public employees, etc."
+		],
+		"who": [
+			"Superintendent of the Board of Education",
+			"Full-time audit commissioner",
+			"The mayor and others who travel"
+		],
+		"why": "The ward says the purpose is to revise the travel expense amounts, etc., for the mayor and others, and the salaries of the superintendent and the full-time audit commissioner.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:03.753Z",
+			"inputTokens": 726,
+			"cachedTokens": 0,
+			"outputTokens": 1424,
+			"reasoningTokens": 1084
+		}
+	}
 }

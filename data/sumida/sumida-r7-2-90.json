@@ -27,5 +27,68 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/01-5-1.pdf",
 			"fetchedAt": "2026-09-30T10:12:22.910Z"
 		}
-	]
+	],
+	"name": "選挙ビラ・ポスターの公費負担上限を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "区議会議員選挙と区長選挙では、選挙運動用ビラやポスターの作成費が一定の限度内で公費負担されます。この議案で、ビラの1枚あたりの限度額を7円73銭から8円38銭に、ポスターの上限額を掲示場278か所の場合で466,762円から479,550円に引き上げます。",
+	"changes": [
+		"ビラの作成単価の限度額を1枚7円73銭から8円38銭に引き上げる",
+		"ポスターの公費負担限度額を掲示場278か所の場合で466,762円から479,550円に引き上げる"
+	],
+	"who": [
+		"墨田区議会議員選挙の候補者",
+		"墨田区長選挙の候補者"
+	],
+	"why": "国会議員選挙のビラ・ポスター作成費の公費負担限度額が引き上げられたことを受け、区議会議員選挙と区長選挙の限度額も改定額に準じて引き上げるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:08:30.885Z",
+		"inputTokens": 2198,
+		"cachedTokens": 0,
+		"outputTokens": 1285,
+		"reasoningTokens": 928
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:08:30.885Z",
+		"checkedAt": "2026-09-30T15:47:22.457Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2299,
+			"cachedTokens": 0,
+			"outputTokens": 63,
+			"reasoningTokens": 49
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e76fd3ec5dd312b5",
+		"name": "Raises public expense coverage caps for election leaflets and posters",
+		"official": "Ordinance Partially Amending the Ordinance on Public Expense Coverage for Election Campaigning in Elections for Sumida City Assembly Members and Sumida City Mayor",
+		"summary": "In elections for the city assembly and mayor, public funds cover the cost of producing election campaign leaflets and posters up to set limits. This bill raises the limit per leaflet from ¥7.73 to ¥8.38, and raises the poster limit from ¥466,762 to ¥479,550 when there are 278 posting locations.",
+		"changes": [
+			"Raises the production cost limit per leaflet from ¥7.73 to ¥8.38",
+			"Raises the public expense coverage limit for posters from ¥466,762 to ¥479,550 when there are 278 posting locations"
+		],
+		"who": [
+			"Candidates in Sumida City Assembly elections",
+			"Candidates in Sumida City mayoral elections"
+		],
+		"why": "The ward says it is raising the limits for city assembly and mayoral elections in line with the revised limits, following an increase in the public expense coverage limits for producing leaflets and posters in national Diet member elections.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:16:40.760Z",
+			"inputTokens": 727,
+			"cachedTokens": 0,
+			"outputTokens": 488,
+			"reasoningTokens": 218
+		}
+	}
 }

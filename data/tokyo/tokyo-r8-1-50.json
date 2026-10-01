@@ -61,5 +61,30 @@
 			"outputTokens": 51,
 			"reasoningTokens": 37
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c250f5ea023f0e9a",
+		"name": "Creates a fund for education reform at Tokyo metropolitan high schools and other schools",
+		"official": "Tokyo Metropolitan High Schools and Other Educational Reform Promotion Fund Ordinance",
+		"summary": "Creates a new fund for education reform at Tokyo metropolitan high schools and other schools. The amount set aside will be determined in the budget, and any earnings from managing the fund will also be added to it. The ordinance takes effect on the day it is promulgated and expires on March 31, 2029.",
+		"changes": [
+			"Creates a fund for education reform",
+			"Sets the amount to be set aside in the budget",
+			"Adds earnings from managing the fund to the fund",
+			"Pays any remaining fund balance to the national government when the ordinance expires"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says this is to advance education reform at Tokyo metropolitan high schools and other schools.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:28.611Z",
+			"inputTokens": 551,
+			"cachedTokens": 0,
+			"outputTokens": 531,
+			"reasoningTokens": 326
+		}
 	}
 }

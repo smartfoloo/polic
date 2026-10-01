@@ -22,5 +22,80 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_03t_89.pdf",
 			"fetchedAt": "2026-09-30T10:18:57.447Z"
 		}
-	]
+	],
+	"name": "3歳以上限定の小規模保育の運営基準を追加",
+	"category": "子育て",
+	"summary": "国の施設・事業の運営基準が改正されました。この議案は、満3歳以上の子どもを対象とする小規模保育事業について、利用定員や選考方法などの基準を定めます。成立した場合、原則として公布日の翌日から施行されます。",
+	"changes": [
+		"満3歳以上限定の小規模保育事業所ごとに利用定員を定める",
+		"申込みなどが定員を超えた場合、保育の必要性や家族の状況を見て、必要性が高い子どもを優先する",
+		"連携施設を確保する際に求める連携協力の一部を不要とする",
+		"教育認定子どもに特別利用地域型保育を提供する場合の基準を定める"
+	],
+	"who": [
+		"満3歳以上限定の小規模保育事業を利用する子どもと保護者",
+		"満3歳以上限定の小規模保育事業を行う事業者"
+	],
+	"why": "国の運営基準の改正に伴い、満3歳以上限定の小規模保育事業の運営基準を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:06:47.139Z",
+		"inputTokens": 6567,
+		"cachedTokens": 0,
+		"outputTokens": 2010,
+		"reasoningTokens": 1683
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:06:47.139Z",
+		"checkedAt": "2026-09-30T15:46:26.494Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "教育認定子どもに特別利用地域型保育を提供する場合の基準を定める",
+				"note": "新設の第51条の2にある、教育認定子どもと在園の満3歳以上保育認定子どもの総数を利用定員以内とする制限と、抽選・申込順など公正な方法による選考が抜けている。通常の保育必要性による優先選考とは異なる、利用者に直接関わる基準。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6675,
+			"cachedTokens": 0,
+			"outputTokens": 298,
+			"reasoningTokens": 147
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "25fbca39f9ffc71f",
+		"name": "Adds operating standards for small-scale childcare for children aged 3 and over",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses",
+		"summary": "The national standards for operating facilities and childcare businesses have been revised. This bill sets standards, including capacity and selection methods, for small-scale childcare programs serving only children aged 3 and over. If enacted, it will generally take effect the day after it is promulgated.",
+		"changes": [
+			"Set the capacity for each small-scale childcare program serving only children aged 3 and over",
+			"When applications and other requests exceed capacity, give priority to children with greater need, taking into account the need for childcare and family circumstances",
+			"Make some of the required cooperation unnecessary when securing partner facilities",
+			"Set standards for providing special-use community-based childcare to children with an education certification"
+		],
+		"who": [
+			"Children aged 3 and over who use small-scale childcare programs serving only children in this age group, and their parents or guardians",
+			"Operators of small-scale childcare programs serving only children aged 3 and over"
+		],
+		"why": "The ward says this is to set operating standards for small-scale childcare programs serving only children aged 3 and over, in response to revisions to the national operating standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:57.288Z",
+			"inputTokens": 726,
+			"cachedTokens": 0,
+			"outputTokens": 749,
+			"reasoningTokens": 440
+		}
+	}
 }

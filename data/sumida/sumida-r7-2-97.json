@@ -27,5 +27,85 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/97gaiyou.pdf",
 			"fetchedAt": "2026-09-30T10:13:28.763Z"
 		}
-	]
+	],
+	"name": "建替え中にコミュニティ住宅を使える対象を拡大",
+	"category": "住宅",
+	"summary": "条例では、コミュニティ住宅を一時的に利用できる場合を定めています。この改正で、規則で定める区域に住む人が、木造準耐火建築物等への建替えに伴って一時的に住宅が必要な場合も利用できるようになります。令和8年4月1日から施行されます。",
+	"changes": [
+		"木造準耐火建築物等の定義を条例に加える",
+		"規則で定める区域の居住者が、建替え中にコミュニティ住宅を一時使用できるようにする",
+		"利用できる人を、特別区民税または市町村民税を滞納していない人に限る",
+		"建替えが対象要件に当たらなくなった場合などを、一時使用の終了条件に加える"
+	],
+	"who": [
+		"規則で定める区域に住み、木造準耐火建築物等への建替えで一時的に住宅が必要な人"
+	],
+	"why": "木密地域不燃化プロジェクト推進事業の制度拡充を受け、老朽建築物の建替えをさらに促すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:09:51.633Z",
+		"inputTokens": 1790,
+		"cachedTokens": 0,
+		"outputTokens": 1905,
+		"reasoningTokens": 1584
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:09:51.633Z",
+		"checkedAt": "2026-09-30T15:48:13.919Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "規則で定める区域の居住者が、建替え中にコミュニティ住宅を一時使用できるようにする",
+				"note": "第４条第２項第２号では、現在の居住地での建替えであることと、建替え先の木造準耐火建築物等から仮設建築物を除くことが定められているが、これらの対象条件が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "規則で定める区域の居住者が、建替え中にコミュニティ住宅を一時使用できるようにする",
+				"note": "第４条第２項の「いずれにも該当する者」を「いずれかに該当するもの」に改め、各号の両方ではなくいずれかに該当すればよいとする資格要件の変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1888,
+			"cachedTokens": 0,
+			"outputTokens": 481,
+			"reasoningTokens": 228
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "535a468df8935966",
+		"name": "Expands eligibility to use community housing during rebuilding",
+		"official": "Ordinance Partially Amending the Sumida City Community Housing Ordinance",
+		"summary": "The ordinance sets out the circumstances in which community housing may be used temporarily. This amendment will also allow people who live in areas specified by rules to use it when they temporarily need housing because they are rebuilding as wooden buildings with quasi-fire-resistant construction, etc. It will take effect on April 1, 2026.",
+		"changes": [
+			"Adds a definition of wooden buildings with quasi-fire-resistant construction, etc., to the ordinance",
+			"Allows residents of areas specified by rules to use community housing temporarily during rebuilding",
+			"Limits eligibility to people who are not behind on their special ward resident tax or municipal resident tax payments",
+			"Adds cases where rebuilding no longer meets the eligibility requirements, etc., as conditions for ending temporary use"
+		],
+		"who": [
+			"People who live in areas specified by rules and temporarily need housing while rebuilding as wooden buildings with quasi-fire-resistant construction, etc."
+		],
+		"why": "The ward says this is to further encourage the rebuilding of aging buildings, following the expansion of the program to promote fireproofing in densely built wooden areas.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:17:19.192Z",
+			"inputTokens": 698,
+			"cachedTokens": 0,
+			"outputTokens": 914,
+			"reasoningTokens": 639
+		}
+	}
 }

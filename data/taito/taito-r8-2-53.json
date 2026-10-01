@@ -27,5 +27,93 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-53.pdf",
 			"fetchedAt": "2026-09-30T12:20:03.045Z"
 		}
-	]
+	],
+	"name": "旅館業者への指導・勧告や公表を規定",
+	"category": "行政のしくみ",
+	"summary": "現在の条例には、営業者の遵守事項違反に対する指導や勧告などの規定がありません。この議案で、第6条に違反した営業者への指導・勧告や、従わない場合の措置命令を定めます。また、一定の命令を受けた営業者などを公表できるようにします。",
+	"changes": [
+		"第6条に違反した営業者に、是正に必要な措置を指導・勧告できるようにする",
+		"指導・勧告に従わない営業者に、期間を定めて措置を命じられるようにする",
+		"法第7条の2第1項・第2項の命令や、この条例の第13条の命令に従わない営業者、法第7条の2第3項・第8条の命令を受けた営業者、法第8条で許可を取り消された営業者を公表できるようにする",
+		"公表する内容に、営業者の氏名など、施設の名称・所在地、命令や許可取消しの内容を含める"
+	],
+	"who": [
+		"旅館業の営業者"
+	],
+	"why": "営業者の遵守事項違反に対する指導や勧告などについて規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:18:55.286Z",
+		"inputTokens": 1525,
+		"cachedTokens": 0,
+		"outputTokens": 1545,
+		"reasoningTokens": 1170
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:18:55.286Z",
+		"checkedAt": "2026-09-30T15:53:01.267Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在の条例には、営業者の遵守事項違反に対する指導や勧告などの規定がありません。",
+				"note": "原文は指導・勧告等の条文を新設するとしていますが、現行条例全体に関連規定がないことまでは確認できません。",
+				"dismissed": {
+					"note": "The bill adds this provision, so saying it was not there before follows from the bill itself.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "法第7条の2第1項・第2項または第13条の命令に従わない営業者",
+				"note": "原文の「前条」は新設する条例第13条を指します。要約の表記では、法第13条を指すとも読めるため確認が必要です。",
+				"dismissed": {
+					"note": "Fixed in the text: 第13条 is the ordinance’s new article, not the law’s.",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1645,
+			"cachedTokens": 0,
+			"outputTokens": 443,
+			"reasoningTokens": 255
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "196f2f688271898f",
+		"name": "Sets rules for guidance, recommendations, orders, and public disclosure of hotel operators",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Taito City Hotel Business Act Enforcement Ordinance",
+		"summary": "The current ordinance has no provisions for guidance or recommendations when operators violate the requirements they must observe. This bill provides for guidance and recommendations to operators who violate Article 6, and for orders to take measures if they do not comply. It also allows the names of operators who have received certain orders, among others, to be made public.",
+		"changes": [
+			"Allows guidance and recommendations to operators who violate Article 6 on measures needed to correct the violation",
+			"Allows operators who do not follow guidance or recommendations to be ordered to take measures within a specified period",
+			"Allows the publication of operators who do not comply with orders under Article 7-2, paragraphs 1 and 2 of the Hotel Business Act, or Article 13 of this ordinance; operators who have received orders under Article 7-2, paragraph 3, or Article 8 of the Act; and operators whose licenses have been revoked under Article 8 of the Act",
+			"Includes the operator's name and other information, the facility's name and location, and details of the order or license revocation in the published information"
+		],
+		"who": [
+			"Hotel business operators"
+		],
+		"why": "The ward says this is to establish provisions on guidance and recommendations, among other things, for violations of the requirements operators must observe.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:35:15.522Z",
+			"inputTokens": 726,
+			"cachedTokens": 0,
+			"outputTokens": 2068,
+			"reasoningTokens": 1732
+		}
+	}
 }

@@ -32,5 +32,66 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB786_38.pdf",
 			"fetchedAt": "2026-09-30T12:31:22.400Z"
 		}
-	]
+	],
+	"name": "職員の宿泊費の上限を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "現在、職員に支給する宿泊費の1日当たりの上限は、国内旅行が19,000円、外国旅行が59,000円です。この議案で、国内旅行は21,000円、外国旅行は64,000円に引き上げます。改正後の上限は、条例の施行日以後に出発する旅行に適用されます。",
+	"changes": [
+		"国内旅行の宿泊費の1日当たりの上限を19,000円から21,000円に引き上げる",
+		"外国旅行の宿泊費の1日当たりの上限を59,000円から64,000円に引き上げる"
+	],
+	"who": [
+		"港区職員"
+	],
+	"why": "国の旅費支給規程の改正内容を踏まえ、区職員に支給する宿泊費の上限を引き上げるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:43:19.506Z",
+		"inputTokens": 1434,
+		"cachedTokens": 0,
+		"outputTokens": 696,
+		"reasoningTokens": 421
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:43:19.506Z",
+		"checkedAt": "2026-09-30T15:34:05.737Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1456,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e77ff06a20a45427",
+		"name": "Raises the cap on staff accommodation expenses",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on Travel Expenses for Minato City Employees",
+		"summary": "The current daily cap on accommodation expenses paid to employees is ¥19,000 for domestic travel and ¥59,000 for overseas travel. This bill raises the caps to ¥21,000 for domestic travel and ¥64,000 for overseas travel. The revised caps will apply to trips departing on or after the date the ordinance takes effect.",
+		"changes": [
+			"Raises the daily cap on accommodation expenses for domestic travel from ¥19,000 to ¥21,000",
+			"Raises the daily cap on accommodation expenses for overseas travel from ¥59,000 to ¥64,000"
+		],
+		"who": [
+			"Minato City employees"
+		],
+		"why": "The ward says this is to raise the cap on accommodation expenses paid to ward employees in light of revisions to the national travel expense payment rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:34.662Z",
+			"inputTokens": 621,
+			"cachedTokens": 0,
+			"outputTokens": 402,
+			"reasoningTokens": 178
+		}
+	}
 }

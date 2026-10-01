@@ -27,5 +27,87 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/91.pdf",
 			"fetchedAt": "2026-09-30T10:23:40.659Z"
 		}
-	]
+	],
+	"name": "3歳以上限定の小規模保育の基準を追加",
+	"category": "子育て",
+	"summary": "現在の条例は、特定教育・保育施設や地域型保育事業の運営基準を定めています。この改正で、満3歳以上限定小規模保育事業の定員や利用者の選考、教育認定子どもの受け入れに関する規定を加え、関連する用語も整理します。条例改正は原則として令和9年4月1日から施行し、一部は公布日に施行します。",
+	"changes": [
+		"事業所ごとに、満3歳以上保育認定子どもの利用定員を定める",
+		"定員を超える場合は、保育の必要度や家族の状況を踏まえ、必要性が高い子どもを優先して選考する",
+		"連携施設の確保で求める協力の一部を不要とする",
+		"教育認定子どもに特別利用地域型保育を提供する場合の基準と定員上限を定める"
+	],
+	"who": [
+		"満3歳以上限定小規模保育事業の運営事業者",
+		"同事業を利用する子どもの保護者"
+	],
+	"why": "国の運営基準の改正に合わせ、満3歳以上限定小規模保育事業の規定を加え、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:58:13.389Z",
+		"inputTokens": 6396,
+		"cachedTokens": 0,
+		"outputTokens": 2230,
+		"reasoningTokens": 1845
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:58:13.389Z",
+		"checkedAt": "2026-09-30T15:42:14.509Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "教育認定子どもに特別利用地域型保育を提供する場合の基準と定員上限を定める",
+				"note": "新設する第51条の2第3項には、特別利用地域型保育の選考を抽選や申込順などの公正な方法で行う規定があるが、この選考方法が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "教育認定子どもに特別利用地域型保育を提供する場合の基準と定員上限を定める",
+				"note": "新設する第51条の2第3項では、第43条第4項の費用に食事提供費（第13条第4項第3号ア・イに掲げるものを除く）を加える読替えを定めているが、保護者の費用負担に関わるこの変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6520,
+			"cachedTokens": 0,
+			"outputTokens": 649,
+			"reasoningTokens": 401
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d6beb58c731e6ed7",
+		"name": "Adds standards for small-scale childcare limited to children aged 3 and over",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Standards, etc. for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Services",
+		"summary": "The current ordinance sets standards for the operation of specified education and childcare facilities and community-based childcare services. This amendment adds provisions on capacity, user selection, and accepting children with education certification for small-scale childcare services limited to children aged 3 and over. It also organizes related terminology. The amendment will generally take effect on April 1, 2027, with some provisions taking effect on the date of promulgation.",
+		"changes": [
+			"Sets a capacity at each service location for children aged 3 and over who are certified for childcare",
+			"When applicants exceed capacity, gives priority to children with greater need, taking into account their need for childcare and their family circumstances",
+			"Makes some of the cooperation required to secure partner facilities unnecessary",
+			"Sets standards and a capacity limit for providing special-use community-based childcare to children with education certification"
+		],
+		"who": [
+			"Operators of small-scale childcare services limited to children aged 3 and over",
+			"Parents and guardians of children using these services"
+		],
+		"why": "The ward says this is to add provisions for small-scale childcare services limited to children aged 3 and over in line with revisions to national operating standards, and to adjust the ordinance’s provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:35.044Z",
+			"inputTokens": 753,
+			"cachedTokens": 0,
+			"outputTokens": 1105,
+			"reasoningTokens": 772
+		}
+	}
 }

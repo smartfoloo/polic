@@ -22,5 +22,68 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_66.pdf",
 			"fetchedAt": "2026-09-30T10:18:15.191Z"
 		}
-	]
+	],
+	"name": "大崎駅東口第4地区に建築制限を追加",
+	"category": "まちづくり",
+	"summary": "条例に大崎駅東口第4地区の建築ルールを加えます。区域をA〜E地区に分け、建築物の用途や規模、敷地面積、壁面の位置、高さなどを定めます。",
+	"changes": [
+		"A〜E地区ごとに建築物の用途を制限する",
+		"地区ごとに建築物の規模、敷地面積の最低限度、壁面の位置、高さを定める",
+		"歩行者デッキや案内板などは壁面位置の制限の対象外とする"
+	],
+	"who": [
+		"大崎駅東口第4地区内で建築を行う人や事業者"
+	],
+	"why": "地区整備計画の区域となった地区について、建築物の用途や敷地などの制限を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:05:00.517Z",
+		"inputTokens": 3692,
+		"cachedTokens": 0,
+		"outputTokens": 1542,
+		"reasoningTokens": 1301
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:05:00.517Z",
+		"checkedAt": "2026-09-30T15:45:31.174Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3709,
+			"cachedTokens": 0,
+			"outputTokens": 90,
+			"reasoningTokens": 75
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e0ec5540ead7eb86",
+		"name": "Adds building restrictions in Osaki Station East Exit District 4",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Restrictions on Buildings in Areas Covered by District Plans, etc.",
+		"summary": "Adds building rules for Osaki Station East Exit District 4 to the ordinance. It divides the area into Districts A–E and sets rules on building uses and size, lot area, wall positions, height, and other matters.",
+		"changes": [
+			"Restricts building uses in each of Districts A–E",
+			"Sets rules for building size, minimum lot area, wall positions, and height in each district",
+			"Exempts pedestrian decks, information boards, and similar structures from wall-position restrictions"
+		],
+		"who": [
+			"People and businesses carrying out construction in Osaki Station East Exit District 4"
+		],
+		"why": "The ward says it is necessary to set restrictions on building uses, lot areas, and other matters for districts that now fall within the area of a District Improvement Plan.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:31:46.395Z",
+			"inputTokens": 627,
+			"cachedTokens": 0,
+			"outputTokens": 704,
+			"reasoningTokens": 467
+		}
+	}
 }

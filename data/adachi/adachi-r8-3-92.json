@@ -27,5 +27,80 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4465_R83TG092.pdf",
 			"fetchedAt": "2026-09-30T10:36:05.000Z"
 		}
-	]
+	],
+	"name": "印鑑登録の規定と対象カードを見直す",
+	"category": "くらし・手続き",
+	"summary": "現在の条例には、旧仮名遣いや「引替交付」などの表記があります。議案では表記や用語を整え、第18条第3項に特定在留カードと特定特別永住者証明書を加え、参照する条文番号も改めます。条例全体は公布日に施行し、カードに関する改正部分は令和8年6月14日から適用するとしています。",
+	"changes": [
+		"第18条第3項に特定在留カードと特定特別永住者証明書を加える",
+		"第18条第3項の参照先を第12条の2第4項第2号ロから第3号ロに改める",
+		"「引替交付」を「引換交付」に、「まつ消」を「抹消」に改める",
+		"旧仮名遣いや読点などの表記を整える"
+	],
+	"who": [
+		"特定在留カードを持つ人",
+		"特定特別永住者証明書を持つ人"
+	],
+	"why": "出入国管理及び難民認定法等の一部改正への対応と、条例の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:26:02.674Z",
+		"inputTokens": 1985,
+		"cachedTokens": 0,
+		"outputTokens": 2827,
+		"reasoningTokens": 2475
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:26:02.674Z",
+		"checkedAt": "2026-09-30T15:25:03.066Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "旧仮名遣いや読点などの表記を整える",
+				"note": "第5条第3項第2号の「東京都の区市町村」を「市区町村」に改める変更が抜けています。地域の範囲に関わる変更であり、単なる表記整理とは区別して確認が必要です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2082,
+			"cachedTokens": 0,
+			"outputTokens": 227,
+			"reasoningTokens": 118
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fce6c34a746732f9",
+		"name": "Revises seal registration rules and eligible cards",
+		"official": "Ordinance Partially Amending the Adachi City Seal Registration Ordinance",
+		"summary": "The current ordinance uses old kana spellings and terms such as “replacement issuance.” The bill updates the wording and terminology, adds specified residence cards and specified special permanent resident certificates to Article 18, paragraph 3, and changes the article number it refers to. The bill states that the ordinance as a whole will take effect on the date it is promulgated, and that the amendments concerning cards will apply from June 14, 2026.",
+		"changes": [
+			"Adds specified residence cards and specified special permanent resident certificates to Article 18, paragraph 3",
+			"Changes the reference in Article 18, paragraph 3, from Article 12-2, paragraph 4, item 2(b), to item 3(b)",
+			"Changes “replacement issuance” to “exchange issuance” and “erasure” to “cancellation”",
+			"Standardizes old kana spellings, commas, and other notation"
+		],
+		"who": [
+			"People who hold a specified residence card",
+			"People who hold a specified special permanent resident certificate"
+		],
+		"why": "The ward says this is to respond to partial amendments to the Immigration Control and Refugee Recognition Act and other laws, and because the ordinance's provisions need to be updated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:51.267Z",
+			"inputTokens": 692,
+			"cachedTokens": 0,
+			"outputTokens": 1137,
+			"reasoningTokens": 825
+		}
+	}
 }

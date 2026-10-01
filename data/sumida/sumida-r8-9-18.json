@@ -27,5 +27,70 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.files/0809tisanto2gaiyo.pdf",
 			"fetchedAt": "2026-09-30T12:23:07.560Z"
 		}
-	]
+	],
+	"name": "災害時の応急措置に関する補償を見直し",
+	"category": "防災",
+	"summary": "災害時に応急措置の業務に従事した人などへの損害補償では、補償基礎額の最低額は8,900円、最高額は14,200円です。議案は、最低額を10,000円、最高額を15,000円に引き上げ、子の扶養親族加算額と葬祭補償の定額部分も引き上げる一方、配偶者を扶養親族加算の対象から除きます。条例は公布日に施行し、補償基礎額などの引上げは令和8年4月1日から適用し、配偶者加算の対象除外は公布日から適用します。",
+	"changes": [
+		"補償基礎額の最低額を8,900円から10,000円に、最高額を14,200円から15,000円に引き上げる",
+		"子の扶養親族加算額を333円から433円に引き上げ、配偶者を加算対象から除く",
+		"葬祭補償の定額部分を315,000円から330,000円に引き上げる"
+	],
+	"who": [
+		"災害時に応急措置の業務に従事し、損害補償の対象となる人",
+		"対象者の扶養親族（配偶者や子など）"
+	],
+	"why": "本条例が準拠する国の政令の改正を踏まえ、補償基礎額などを引き上げ、扶養親族加算の対象から配偶者を除くためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:11:31.753Z",
+		"inputTokens": 2894,
+		"cachedTokens": 0,
+		"outputTokens": 2594,
+		"reasoningTokens": 2165
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:11:31.753Z",
+		"checkedAt": "2026-09-30T15:49:10.974Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3099,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 34
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7cc7cc36c64f7e84",
+		"name": "Revises compensation for people carrying out emergency measures during disasters",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Losses for Persons Engaged in Emergency Measures in the Event of a Disaster and Others",
+		"summary": "For compensation for losses to people who carry out emergency measures during disasters and others, the minimum base compensation amount is ¥8,900 and the maximum is ¥14,200. The bill raises the minimum to ¥10,000 and the maximum to ¥15,000, and also raises the dependent allowance for children and the fixed portion of funeral compensation, while removing spouses from those eligible for the dependent allowance. The ordinance will take effect on the date it is promulgated. The increases to the base compensation amount and other amounts will apply from April 1, 2026, and the exclusion of spouses from eligibility for the dependent allowance will apply from the date of promulgation.",
+		"changes": [
+			"Raises the minimum base compensation amount from ¥8,900 to ¥10,000 and the maximum from ¥14,200 to ¥15,000",
+			"Raises the dependent allowance for children from ¥333 to ¥433 and excludes spouses from eligibility for the allowance",
+			"Raises the fixed portion of funeral compensation from ¥315,000 to ¥330,000"
+		],
+		"who": [
+			"People who carry out emergency measures during disasters and are eligible for compensation for losses",
+			"Dependants of eligible people, such as spouses and children"
+		],
+		"why": "The ward says the changes will raise the base compensation amount and other amounts and remove spouses from those eligible for the dependent allowance, in light of amendments to the national government Cabinet Order on which this ordinance is based.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:17:42.723Z",
+			"inputTokens": 828,
+			"cachedTokens": 0,
+			"outputTokens": 1026,
+			"reasoningTokens": 652
+		}
+	}
 }

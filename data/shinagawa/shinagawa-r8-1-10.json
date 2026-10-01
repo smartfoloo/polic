@@ -22,5 +22,70 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_10.pdf",
 			"fetchedAt": "2026-09-30T10:14:33.291Z"
 		}
-	]
+	],
+	"name": "条例や規則の公布方法を見直す",
+	"category": "行政のしくみ",
+	"summary": "品川区の条例は、条例や規則などの公布・公表方法を定めています。この議案では、区のウェブサイトへの掲載や署名に代わる措置を盛り込み、規則や規程の公布・公表方法も定め直します。公布の日から施行されます。",
+	"changes": [
+		"条例の署名に、総務省令で定める署名に代わる措置を含める",
+		"公布方法に区のウェブサイトへの掲載を加える",
+		"区長が定める規則の公布に必要な事項を定める",
+		"区の機関が定める規則や規程の公表方法を定める"
+	],
+	"who": [
+		"区の条例や規則などを確認する区民"
+	],
+	"why": "区民の利便性向上と行政運営の簡素化・効率化を図るためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:59:03.027Z",
+		"inputTokens": 1519,
+		"cachedTokens": 0,
+		"outputTokens": 1601,
+		"reasoningTokens": 1327
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:59:03.027Z",
+		"checkedAt": "2026-09-30T15:42:35.219Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1545,
+			"cachedTokens": 0,
+			"outputTokens": 79,
+			"reasoningTokens": 65
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b585a8b213928144",
+		"name": "Revises how ordinances and rules are promulgated",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Official Promulgation",
+		"summary": "The Shinagawa City ordinance sets out how ordinances, rules and other documents are promulgated and made public. This bill adds posting on the ward's website and measures that can be used in place of signatures, and revises how rules and regulations are promulgated and made public. It takes effect on the date it is promulgated.",
+		"changes": [
+			"Includes measures specified by a Ministry of Internal Affairs and Communications ordinance as alternatives to signing ordinances",
+			"Adds posting on the ward's website as a method of promulgation",
+			"Sets out requirements for promulgating rules established by the mayor",
+			"Sets out how rules and regulations established by bodies of Shinagawa City are to be made public"
+		],
+		"who": [
+			"Residents who check the ward's ordinances and rules"
+		],
+		"why": "The ward says this is to improve convenience for residents and simplify and make administrative operations more efficient.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:58.982Z",
+			"inputTokens": 615,
+			"cachedTokens": 0,
+			"outputTokens": 968,
+			"reasoningTokens": 720
+		}
+	}
 }

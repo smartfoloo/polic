@@ -27,5 +27,69 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian41.pdf",
 			"fetchedAt": "2026-09-30T10:39:29.560Z"
 		}
-	]
+	],
+	"name": "法律改正に合わせ参照条項を変更",
+	"category": "行政のしくみ",
+	"summary": "条例では、障害者の日常生活及び社会生活を総合的に支援するための法律の第5条第18項を参照しています。この議案で参照先を第5条第19項に改め、公布の日から施行します。",
+	"changes": [
+		"参照する条項を第5条第18項から第5条第19項に改める"
+	],
+	"who": [],
+	"why": "障害者の日常生活及び社会生活を総合的に支援するための法律の改正に伴い、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:38:02.331Z",
+		"inputTokens": 1189,
+		"cachedTokens": 0,
+		"outputTokens": 515,
+		"reasoningTokens": 325
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:38:02.331Z",
+		"checkedAt": "2026-09-30T15:31:27.303Z",
+		"flags": [
+			"copied from the source (29 chars): 「障害者の日常生活及び社会生活を総合的に支援するための法律の」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1122,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (29 chars): 「障害者の日常生活及び社会生活を総合的に支援するための法律の」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d601db4c5517f1ff",
+		"name": "Changes the referenced provision to match a law amendment",
+		"official": "Ordinance Partially Amending the Katsushika City Ordinance on the Establishment, etc. of the Children's Comprehensive Center",
+		"summary": "The ordinance refers to Article 5, paragraph 18, of the Act for Comprehensive Support for the Daily and Social Lives of Persons with Disabilities. This bill changes the reference to Article 5, paragraph 19, and will take effect on the date of promulgation.",
+		"changes": [
+			"Changes the referenced provision from Article 5, paragraph 18, to Article 5, paragraph 19"
+		],
+		"who": [],
+		"why": "The ward says this is to update the provisions in line with amendments to the Act for Comprehensive Support for the Daily and Social Lives of Persons with Disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:24:11.504Z",
+			"inputTokens": 544,
+			"cachedTokens": 0,
+			"outputTokens": 551,
+			"reasoningTokens": 362
+		}
+	}
 }

@@ -27,5 +27,80 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-54.pdf",
 			"fetchedAt": "2026-09-30T12:20:09.010Z"
 		}
-	]
+	],
+	"name": "住宅宿泊事業の制限区域などを定める",
+	"category": "まちづくり",
+	"summary": "条例を改め、住宅宿泊事業の実施を制限する区域を区全域とします。この扱いは2026年10月1日以降に事業の届出をする住宅に適用し、それ以前に届出済みの住宅には従来の規定を適用します。事業者や管理業者への指導・勧告、業務改善命令や違反者の公表についても定めます。",
+	"changes": [
+		"住宅宿泊事業の実施を制限する区域を区全域とする",
+		"住宅宿泊事業者や住宅宿泊管理業者に指導・勧告できるようにする",
+		"指導・勧告に従わない者に業務改善を命じられるようにする",
+		"命令に従わない者などを公表できるようにし、氏名等、届出住宅の所在地、届出番号、命令の内容を公表事項とする"
+	],
+	"who": [
+		"住宅宿泊事業者",
+		"住宅宿泊管理業者"
+	],
+	"why": "住宅宿泊事業の実施の制限などに関する規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:19:10.158Z",
+		"inputTokens": 1966,
+		"cachedTokens": 0,
+		"outputTokens": 1794,
+		"reasoningTokens": 1452
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:19:10.158Z",
+		"checkedAt": "2026-09-30T15:53:09.772Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "住宅宿泊事業の実施を制限する区域を区全域とする",
+				"note": "付則第2項では、改正後の第17条は2026年10月1日以降に届出をする住宅に適用し、それ以前に届出済みの住宅は従前の扱いとしています。summaryにはありますが、対象を左右するこの適用範囲がchangesから抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2052,
+			"cachedTokens": 0,
+			"outputTokens": 278,
+			"reasoningTokens": 150
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b1f8b56099f092ad",
+		"name": "Sets restricted areas for residential accommodation businesses",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on the Operation of Residential Accommodation Businesses",
+		"summary": "The ordinance is amended to make the entire city a restricted area for operating residential accommodation businesses. This applies to homes for which a business notification is filed on or after October 1, 2026. Homes for which a notification was filed before then remain subject to the previous rules. The ordinance also sets out guidance and recommendations for business operators and management companies, orders to improve operations, and publication of information about violators.",
+		"changes": [
+			"Makes the entire city an area where residential accommodation businesses are restricted",
+			"Allows the ward to give guidance and make recommendations to residential accommodation business operators and residential accommodation management companies",
+			"Allows the ward to order those who do not follow guidance or recommendations to improve their operations",
+			"Allows the ward to publish information about those who do not follow orders and others, including their names and other details, the locations of notified homes, notification numbers, and the contents of orders"
+		],
+		"who": [
+			"Residential accommodation business operators",
+			"Residential accommodation management companies"
+		],
+		"why": "The ward says this is to put provisions in place concerning restrictions on the operation of residential accommodation businesses, among other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:21:18.137Z",
+			"inputTokens": 692,
+			"cachedTokens": 0,
+			"outputTokens": 858,
+			"reasoningTokens": 564
+		}
+	}
 }

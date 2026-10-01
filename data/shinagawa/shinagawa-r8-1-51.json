@@ -22,5 +22,110 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_51.pdf",
 			"fetchedAt": "2026-09-30T10:17:33.294Z"
 		}
-	]
+	],
+	"name": "国保料に子ども・子育て支援分を追加",
+	"category": "健康・医療",
+	"summary": "現在の国民健康保険料は、基礎賦課額、後期高齢者支援金等賦課額、介護納付金賦課額で算定しています。この議案で、令和8年度分から子ども・子育て支援納付金分を設け、各区分の保険料率などと低所得世帯の軽減基準を改めます。",
+	"changes": [
+		"子ども・子育て支援納付金分に所得割0.27%、均等割1,800円、18歳以上の均等割73円を設ける",
+		"基礎賦課額の所得割を7.71%から7.51%、均等割を47,300円から47,600円、限度額を66万円から67万円に改める",
+		"後期高齢者支援金等分の所得割を2.69%から2.80%、均等割を16,800円から17,600円に、介護納付金分の所得割を2.25%から2.43%、均等割を16,600円から17,800円に改める",
+		"低所得世帯の保険料軽減に使う所得基準額を引き上げる"
+	],
+	"who": [
+		"品川区の国民健康保険加入者",
+		"保険料軽減の対象となる低所得世帯"
+	],
+	"why": "子ども・子育て支援金制度の創設に伴い、支援納付金分の保険料率などを定め、基礎賦課額の保険料率などを改める必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:03:32.738Z",
+		"inputTokens": 6018,
+		"cachedTokens": 0,
+		"outputTokens": 1981,
+		"reasoningTokens": 1524
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:03:32.738Z",
+		"checkedAt": "2026-09-30T15:45:02.554Z",
+		"flags": [
+			"copied from the source (27 chars): 「基礎賦課額、後期高齢者支援金等賦課額、介護納付金賦課額」"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分に所得割0.27%、均等割1,800円、18歳以上の均等割73円を設ける",
+				"note": "新設する第16条の10に定める、子ども・子育て支援納付金分の賦課限度額3万円が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分に所得割0.27%、均等割1,800円、18歳以上の均等割73円を設ける",
+				"note": "新設する第19条の6に定める、18歳に達した日以後の最初の3月31日までの被保険者について、支援納付金分の被保険者均等割額を全額減額する変更が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "低所得世帯の保険料軽減に使う所得基準額を引き上げる",
+				"note": "第19条の2の改正では、所得基準額の引上げに加え、支援納付金分の均等割にも低所得世帯向けの減額を設けているが、その変更が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分に所得割0.27%、均等割1,800円、18歳以上の均等割73円を設ける",
+				"note": "第19条の5に追加する第7号・第8号に定める、出産被保険者の産前産後期間に係る支援納付金分の所得割・均等割の減額が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6227,
+			"cachedTokens": 0,
+			"outputTokens": 644,
+			"reasoningTokens": 108
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (27 chars): 「基礎賦課額、後期高齢者支援金等賦課額、介護納付金賦課額」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2b441867b45d0ff1",
+		"name": "Adds a child and childcare support contribution to National Health Insurance premiums",
+		"official": "Ordinance Partially Amending the Shinagawa City National Health Insurance Ordinance",
+		"summary": "National Health Insurance premiums are currently calculated from the basic assessment amount, the assessment amount for support contributions for older people, and the assessment amount for long-term care contributions. This bill adds a child and childcare support contribution portion starting with premiums for fiscal year 2026, and revises the premium rates and other amounts for each portion, as well as the income thresholds for reductions for low-income households.",
+		"changes": [
+			"Sets an income-based rate of 0.27%, a per-person amount of ¥1,800, and a per-person amount of ¥73 for people aged 18 and over for the child and childcare support contribution portion",
+			"Changes the income-based rate for the basic assessment amount from 7.71% to 7.51%, the per-person amount from ¥47,300 to ¥47,600, and the limit from ¥660,000 to ¥670,000",
+			"Changes the income-based rate for support contributions for older people from 2.69% to 2.80% and the per-person amount from ¥16,800 to ¥17,600; changes the income-based rate for long-term care contributions from 2.25% to 2.43% and the per-person amount from ¥16,600 to ¥17,800",
+			"Raises the income thresholds used to reduce premiums for low-income households"
+		],
+		"who": [
+			"Shinagawa City residents enrolled in National Health Insurance",
+			"Low-income households eligible for premium reductions"
+		],
+		"why": "The mayor says this is necessary to set the premium rates and other amounts for the contribution portion following the creation of the child and childcare support contribution system, and to revise the premium rates and other amounts for the basic assessment portion.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:31:32.986Z",
+			"inputTokens": 801,
+			"cachedTokens": 0,
+			"outputTokens": 853,
+			"reasoningTokens": 436
+		}
+	}
 }

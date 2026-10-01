@@ -61,5 +61,30 @@
 			"outputTokens": 41,
 			"reasoningTokens": 27
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c9e36f5556796fd7",
+		"name": "Raises compensation for Public Safety Commission members",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation and Reimbursement of Expenses for Members of the Tokyo Metropolitan Public Safety Commission",
+		"summary": "Compensation for members of the Tokyo Metropolitan Public Safety Commission is currently set at ¥530,000 and ¥435,000. This bill raises these amounts to ¥545,000 and ¥447,000, respectively. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises compensation from ¥530,000 to ¥545,000",
+			"Raises compensation from ¥435,000 to ¥447,000"
+		],
+		"who": [
+			"Members of the Tokyo Metropolitan Public Safety Commission"
+		],
+		"why": "The Tokyo Metropolitan Government says it is revising the compensation amounts in light of the recommendation from the Tokyo Metropolitan Special Positions Compensation Deliberative Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:46.724Z",
+			"inputTokens": 591,
+			"cachedTokens": 0,
+			"outputTokens": 468,
+			"reasoningTokens": 262
+		}
 	}
 }

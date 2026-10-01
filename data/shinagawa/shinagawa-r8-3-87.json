@@ -22,5 +22,72 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_03t_87.pdf",
 			"fetchedAt": "2026-09-30T10:18:45.312Z"
 		}
-	]
+	],
+	"name": "3歳以上限定保育と性暴力防止の基準を追加",
+	"category": "子育て",
+	"summary": "家庭的保育事業などの設備や運営に関する区の基準を定める条例です。この議案は、満3歳以上だけを対象とする小規模保育事業の基準を設け、児童対象性暴力等の防止や、発生時に利用乳幼児を保護するための対応も定めます。",
+	"changes": [
+		"満3歳以上限定小規模保育事業の設備・運営基準を定める",
+		"児童対象性暴力等の防止と、発生時に利用乳幼児を保護するための対応を定める",
+		"該当する従事者の犯罪事実確認などを事業者に求める"
+	],
+	"who": [
+		"家庭的保育事業等を行う事業者",
+		"家庭的保育事業等を利用する乳幼児",
+		"利用乳幼児と接する業務に従事する人"
+	],
+	"why": "国の基準が改正されたことに伴い、新たな事業の設備・運営基準などを定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:06:19.697Z",
+		"inputTokens": 2220,
+		"cachedTokens": 0,
+		"outputTokens": 2434,
+		"reasoningTokens": 2136
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:06:19.697Z",
+		"checkedAt": "2026-09-30T15:46:13.602Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2299,
+			"cachedTokens": 0,
+			"outputTokens": 107,
+			"reasoningTokens": 93
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1fbf6628a5b8250b",
+		"name": "Adds standards for small-scale childcare for children aged 3 and over and preventing sexual violence",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Standards for Facilities and Operations of Home-Based Childcare Services, etc.",
+		"summary": "This ordinance sets Shinagawa City's standards for the facilities and operations of home-based childcare services and similar services. The bill sets standards for small-scale childcare services that serve only children aged 3 and over. It also sets out measures to prevent sexual violence against children and similar conduct, and to protect infants and toddlers using the service if such conduct occurs.",
+		"changes": [
+			"Sets standards for the facilities and operations of small-scale childcare services serving only children aged 3 and over",
+			"Sets out measures to prevent sexual violence against children and similar conduct, and to protect infants and toddlers using the service if it occurs",
+			"Requires providers to verify the criminal records of relevant workers, among other checks"
+		],
+		"who": [
+			"Providers of home-based childcare services and similar services",
+			"Infants and toddlers using home-based childcare services and similar services",
+			"People whose work involves contact with infants and toddlers using the service"
+		],
+		"why": "The ward says national standards were revised, making it necessary to set standards for the facilities and operations of the new service, among other things.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:41.491Z",
+			"inputTokens": 690,
+			"cachedTokens": 0,
+			"outputTokens": 662,
+			"reasoningTokens": 363
+		}
+	}
 }

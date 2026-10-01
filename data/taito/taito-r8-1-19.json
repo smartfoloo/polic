@@ -27,5 +27,60 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-19.pdf",
 			"fetchedAt": "2026-09-30T12:16:50.898Z"
 		}
-	]
+	],
+	"name": "上原奨学基金の額を7,000,000円に",
+	"category": "教育",
+	"summary": "上原奨学基金の額は6,000,000円です。この議案で、基金の額を7,000,000円に改めます。条例は公布の日から施行します。",
+	"changes": [
+		"上原奨学基金の額を6,000,000円から7,000,000円に改める"
+	],
+	"who": [],
+	"why": "上原奨学基金の額を改定するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:12:57.903Z",
+		"inputTokens": 1119,
+		"cachedTokens": 0,
+		"outputTokens": 500,
+		"reasoningTokens": 361
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:12:57.903Z",
+		"checkedAt": "2026-09-30T15:49:57.314Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1021,
+			"cachedTokens": 0,
+			"outputTokens": 35,
+			"reasoningTokens": 20
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "96f83a663ee91785",
+		"name": "Sets the Uehara Scholarship Fund at ¥7,000,000",
+		"official": "Ordinance Partially Amending the Taito City, Tokyo, Scholarship Fund Ordinance",
+		"summary": "The Uehara Scholarship Fund is ¥6,000,000. Under this bill, the fund amount will be changed to ¥7,000,000. The ordinance takes effect on the date it is promulgated.",
+		"changes": [
+			"Raises the Uehara Scholarship Fund from ¥6,000,000 to ¥7,000,000"
+		],
+		"who": [],
+		"why": "The ward says this is to revise the amount of the Uehara Scholarship Fund.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:18:53.466Z",
+			"inputTokens": 506,
+			"cachedTokens": 0,
+			"outputTokens": 433,
+			"reasoningTokens": 270
+		}
+	}
 }

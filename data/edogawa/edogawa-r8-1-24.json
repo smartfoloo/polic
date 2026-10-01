@@ -22,5 +22,78 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2747_gian24%20.pdf",
 			"fetchedAt": "2026-09-30T10:42:12.994Z"
 		}
-	]
+	],
+	"name": "児童文学館に年間パスポートを新設",
+	"category": "教育",
+	"summary": "現在の利用料金に年間パスポートの区分はありません。この議案で区分を新設し、料金を区民は一般1,500円・子ども600円、区民以外は一般2,100円・子ども900円とします。パスポートは交付日から1年間有効で、記名された本人だけが使えます。",
+	"changes": [
+		"年間パスポートの料金を区民は一般1,500円・子ども600円、区民以外は一般2,100円・子ども900円に定める",
+		"年間パスポートの有効期間を交付日から1年間とする",
+		"年間パスポートを記名された本人に限り利用できるものとし、提示すれば利用料金を納付した扱いとする"
+	],
+	"who": [
+		"江戸川区民の児童文学館利用者",
+		"区民以外の児童文学館利用者"
+	],
+	"why": "利用料金に年間パスポートの区分を設け、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:29:15.757Z",
+		"inputTokens": 1476,
+		"cachedTokens": 0,
+		"outputTokens": 2771,
+		"reasoningTokens": 2467
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:29:15.757Z",
+		"checkedAt": "2026-09-30T15:26:40.714Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "年間パスポートの有効期間を交付日から1年間とする",
+				"note": "別表第一備考四にある、満了日が休館日の場合は、その後の最も近い開館日まで有効期間を延長する例外が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1531,
+			"cachedTokens": 0,
+			"outputTokens": 173,
+			"reasoningTokens": 79
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "42da7d482eb188fe",
+		"name": "Introduces annual passes at the Children's Literature Museum",
+		"official": "Ordinance Partially Amending the Edogawa City Kakuno Eiko Children's Literature Museum Ordinance",
+		"summary": "The current usage fees do not include an annual-pass category. This bill creates one, setting the fees at ¥1,500 for adults and ¥600 for children who live in Edogawa City, and ¥2,100 for adults and ¥900 for children who live elsewhere. The pass is valid for one year from the date it is issued and may be used only by the person named on it.",
+		"changes": [
+			"Sets annual-pass fees at ¥1,500 for adults and ¥600 for children who live in Edogawa City, and ¥2,100 for adults and ¥900 for children who live elsewhere",
+			"Sets the annual pass’s validity period at one year from the date it is issued",
+			"Limits use of the annual pass to the person named on it, and treats presentation of the pass as payment of the usage fee"
+		],
+		"who": [
+			"Children's Literature Museum visitors who live in Edogawa City",
+			"Children's Literature Museum visitors who live elsewhere"
+		],
+		"why": "The ward says this is to create an annual-pass category among the usage fees and set out the relevant rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:58:03.215Z",
+			"inputTokens": 656,
+			"cachedTokens": 0,
+			"outputTokens": 581,
+			"reasoningTokens": 285
+		}
+	}
 }

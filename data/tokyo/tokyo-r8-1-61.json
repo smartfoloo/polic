@@ -70,5 +70,31 @@
 			"outputTokens": 568,
 			"reasoningTokens": 479
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "036303b127beed3e",
+		"name": "Changes rules for condominium special-permission application fees",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Urban Development Bureau Related Fees Ordinance",
+		"summary": "Fees are currently set for applications for special permission regarding floor-area ratios in connection with condominium rebuilding. This bill adds exceptions concerning condominium renewal and building height to the fee name, and updates the cited law name and article numbers. It will take effect on April 1, 2026.",
+		"changes": [
+			"Adds condominium renewal to the name of the fee",
+			"Adds exceptions concerning the height of each part of a building, in addition to floor-area ratios",
+			"Updates the cited law name and article numbers"
+		],
+		"who": [
+			"People and businesses applying for special permission in connection with condominium rebuilding or renewal"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to update the fee provisions in line with revisions to laws concerning condominiums.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:25:31.170Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 627,
+			"reasoningTokens": 411
+		}
 	}
 }

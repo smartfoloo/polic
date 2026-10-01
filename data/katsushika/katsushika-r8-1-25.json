@@ -27,5 +27,66 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian25.pdf",
 			"fetchedAt": "2026-09-30T10:38:05.291Z"
 		}
-	]
+	],
+	"name": "区立保育所に乳児等通園支援事業を追加",
+	"category": "子育て",
+	"summary": "現在の条例では、区立保育所で行う事業に乳児等通園支援事業は含まれていません。この議案で事業を追加し、利用料は1時間300円を超えない範囲で規則に定めます。施行日は令和8年4月1日です。",
+	"changes": [
+		"区立保育所が行う事業に乳児等通園支援事業を加える",
+		"利用料を1時間当たり300円を超えない範囲で規則に定める"
+	],
+	"who": [
+		"乳児等通園支援事業の利用承認を受けた人"
+	],
+	"why": "区立保育所の事業に乳児等通園支援事業を加え、関連する規定を整えるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:35:26.825Z",
+		"inputTokens": 1489,
+		"cachedTokens": 0,
+		"outputTokens": 781,
+		"reasoningTokens": 550
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:35:26.825Z",
+		"checkedAt": "2026-09-30T15:30:01.912Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1490,
+			"cachedTokens": 0,
+			"outputTokens": 51,
+			"reasoningTokens": 37
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a0cedc1a3a592100",
+		"name": "Adds infant and other child attendance support service to city-run childcare centers",
+		"official": "Ordinance Partially Amending the Katsushika City Ordinance on the Establishment, etc. of Childcare Centers",
+		"summary": "Under the current ordinance, the infant and other child attendance support service is not included among the services provided at city-run childcare centers. This bill adds the service and sets the fee by rule at no more than ¥300 per hour. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds the infant and other child attendance support service to the services provided by city-run childcare centers",
+			"Sets the fee by rule at no more than ¥300 per hour"
+		],
+		"who": [
+			"People approved to use the infant and other child attendance support service"
+		],
+		"why": "The mayor says this is to add the infant and other child attendance support service to the services provided by city-run childcare centers and to update related provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:00:55.219Z",
+			"inputTokens": 608,
+			"cachedTokens": 0,
+			"outputTokens": 888,
+			"reasoningTokens": 662
+		}
+	}
 }

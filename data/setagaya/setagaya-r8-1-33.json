@@ -32,5 +32,69 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/33.pdf",
 			"fetchedAt": "2026-09-30T10:20:52.321Z"
 		}
-	]
+	],
+	"name": "助成対象の財団名を公益財団法人に変更",
+	"category": "行政のしくみ",
+	"summary": "条例の別表には、一般財団法人世田谷トラストまちづくりが記載されています。この議案で、公益財団法人への移行に合わせ、法人名の記載を改めます。",
+	"changes": [
+		"条例の別表に記載する法人名を「公益財団法人世田谷トラストまちづくり」に改める"
+	],
+	"who": [],
+	"why": "一般財団法人世田谷トラストまちづくりが公益財団法人へ移行するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:53:17.744Z",
+		"inputTokens": 1208,
+		"cachedTokens": 0,
+		"outputTokens": 552,
+		"reasoningTokens": 390
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:53:17.744Z",
+		"checkedAt": "2026-09-30T15:39:00.567Z",
+		"flags": [
+			"copied from the source (25 chars): 「を「公益財団法人世田谷トラストまちづくり」に改める」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1133,
+			"cachedTokens": 0,
+			"outputTokens": 51,
+			"reasoningTokens": 36
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (25 chars): 「を「公益財団法人世田谷トラストまちづくり」に改める」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "04b6aaec22423b9b",
+		"name": "Updates the name of the foundation eligible for grants",
+		"official": "Ordinance Partially Amending the Ordinance on Grants and Other Assistance to Incorporated Foundations in Setagaya City",
+		"summary": "The ordinance's attached table lists General Incorporated Foundation Setagaya Trust and Community Design. This bill revises the name listed for the organization to reflect its transition to a public interest incorporated foundation.",
+		"changes": [
+			"Changes the name listed in the ordinance's attached table to “Public Interest Incorporated Foundation Setagaya Trust and Community Design”"
+		],
+		"who": [],
+		"why": "The ward says this is because General Incorporated Foundation Setagaya Trust and Community Design is transitioning to a public interest incorporated foundation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:27:57.940Z",
+			"inputTokens": 534,
+			"cachedTokens": 0,
+			"outputTokens": 650,
+			"reasoningTokens": 482
+		}
+	}
 }

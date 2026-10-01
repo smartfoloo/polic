@@ -32,5 +32,101 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/25.pdf",
 			"fetchedAt": "2026-09-30T10:20:04.379Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援の運営基準を定める",
+	"category": "子育て",
+	"summary": "子ども・子育て支援法の改正を受け、区は特定乳児等通園支援事業の運営基準を条例で定めます。利用定員や保護者との面談、費用、事故対応、記録の保存などについて定め、2026年4月1日に施行します。",
+	"changes": [
+		"1時間当たりの利用定員を定め、定員を超える提供を禁止する",
+		"初めて支援を提供する前に保護者と面談し、重要事項を説明して同意を得る",
+		"保護者から受け取れる費用の種類や範囲、説明と領収証の交付を定める",
+		"支援の記録などを整備し、所定の記録を完結後5年間保存する"
+	],
+	"who": [
+		"特定乳児等通園支援事業者",
+		"特定乳児等通園支援を利用する子どもと保護者"
+	],
+	"why": "子ども・子育て支援法の改正に伴い、事業の運営基準などを定めるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:52:10.276Z",
+		"inputTokens": 11240,
+		"cachedTokens": 0,
+		"outputTokens": 1461,
+		"reasoningTokens": 1124
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:52:10.276Z",
+		"checkedAt": "2026-09-30T15:38:30.770Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "1時間当たりの利用定員を定め、定員を超える提供を禁止する",
+				"note": "第4条第2項は、利用時間数や開所日数などを考慮した1月当たりの利用定員の設定も義務付けているが、記載がない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "支援の記録などを整備し、所定の記録を完結後5年間保存する",
+				"note": "第18条の緊急時の連絡・措置、第25条の虐待等の禁止、第31条の事故防止、事故時の連絡・措置、損害賠償など、子どもの安全に直接関わる基準が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "初めて支援を提供する前に保護者と面談し、重要事項を説明して同意を得る",
+				"note": "第6条の正当な理由のない利用拒否の禁止、第26条の秘密保持・情報提供時の事前同意、第29条の苦情窓口設置など、利用者の権利に直接関わる基準が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "支援の記録などを整備し、所定の記録を完結後5年間保存する",
+				"note": "第36条は、報告・検査の拒否や虚偽報告などに対する10万円以下の過料を定めているが、罰則の記載がない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 11316,
+			"cachedTokens": 0,
+			"outputTokens": 605,
+			"reasoningTokens": 118
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3ae08d36aca40bfb",
+		"name": "Sets operating standards for infant and other child daycare support",
+		"official": "Setagaya City Ordinance on Standards, etc. for the Operation of Specified Infant and Other Child Daycare Support Services",
+		"summary": "Following revisions to the Child and Child-rearing Support Act, Setagaya City will set operating standards for specified infant and other child daycare support services by ordinance. The ordinance covers service capacity, meetings with parents, fees, responses to accidents, and the retention of records. It will take effect on April 1, 2026.",
+		"changes": [
+			"Sets the maximum number of children who may receive support per hour and prohibits providing support beyond that limit",
+			"Requires providers to meet with parents before providing support for the first time, explain important matters, and obtain their consent",
+			"Sets the types and limits of fees that providers may collect from parents, and requires providers to explain the fees and issue receipts",
+			"Requires providers to maintain records of support and other matters, and retain specified records for five years after they are completed"
+		],
+		"who": [
+			"Providers of specified infant and other child daycare support services",
+			"Children who use specified infant and other child daycare support services and their parents"
+		],
+		"why": "The mayor says the ordinance is needed to set operating standards for these services following revisions to the Child and Child-rearing Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:07:11.807Z",
+			"inputTokens": 691,
+			"cachedTokens": 0,
+			"outputTokens": 821,
+			"reasoningTokens": 516
+		}
+	}
 }

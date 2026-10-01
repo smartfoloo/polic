@@ -32,5 +32,66 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/31.pdf",
 			"fetchedAt": "2026-09-30T10:20:40.226Z"
 		}
-	]
+	],
+	"name": "加熱式たばこを喫煙規制の対象に",
+	"category": "環境",
+	"summary": "現在の条例では、喫煙を、たばこに火をつけて煙を出すこととして定めています。議案では、たばこの定義を加え、加熱して煙や蒸気を出す場合も喫煙に含めます。",
+	"changes": [
+		"たばこを健康増進法第28条第1号に規定するものと定める",
+		"喫煙に、たばこを燃焼または加熱して出る煙（蒸気を含む）を含める"
+	],
+	"who": [
+		"加熱式たばこを使う人"
+	],
+	"why": "区たばこルールの喫煙制限に加熱式たばこを含めるため、たばこの定義を加え、喫煙の定義を見直すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:53:07.809Z",
+		"inputTokens": 1359,
+		"cachedTokens": 0,
+		"outputTokens": 1031,
+		"reasoningTokens": 802
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:53:07.809Z",
+		"checkedAt": "2026-09-30T15:38:55.822Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1349,
+			"cachedTokens": 0,
+			"outputTokens": 152,
+			"reasoningTokens": 138
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "70059fea8ec81e8d",
+		"name": "Brings heated tobacco under smoking restrictions",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Environmental Beautification, etc.",
+		"summary": "The current ordinance defines smoking as lighting tobacco and producing smoke. The bill adds a definition of tobacco and includes producing smoke or vapor by heating tobacco in the definition of smoking.",
+		"changes": [
+			"Defines tobacco as that specified in Article 28, item 1 of the Health Promotion Act",
+			"Includes smoke (including vapor) produced by burning or heating tobacco in the definition of smoking"
+		],
+		"who": [
+			"People who use heated tobacco"
+		],
+		"why": "The ward says it is adding a definition of tobacco and revising the definition of smoking so that heated tobacco is covered by the smoking restrictions in the ward's tobacco rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:07:35.133Z",
+			"inputTokens": 605,
+			"cachedTokens": 0,
+			"outputTokens": 562,
+			"reasoningTokens": 370
+		}
+	}
 }

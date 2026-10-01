@@ -22,5 +22,66 @@
 			"url": "https://kugikai-nakano.jp/gian/263294414.pdf",
 			"fetchedAt": "2026-09-30T10:26:03.639Z"
 		}
-	]
+	],
+	"name": "学校医などの介護補償額を改定",
+	"category": "福祉",
+	"summary": "学校医、学校歯科医、学校薬剤師の公務災害に対する介護補償額は、条例で定められています。この議案では2種類の額を引き上げます。条例は公布日に施行され、改定額は令和7年8月1日以後に支給理由が生じた補償に適用されます。",
+	"changes": [
+		"介護補償額を177,950円から186,050円に改める",
+		"介護補償額を88,980円から92,980円に改める"
+	],
+	"who": [
+		"公務災害で介護補償を受ける学校医、学校歯科医、学校薬剤師"
+	],
+	"why": "国の政令改正に伴い、介護補償額を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:47:57.645Z",
+		"inputTokens": 1692,
+		"cachedTokens": 0,
+		"outputTokens": 968,
+		"reasoningTokens": 733
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:47:57.645Z",
+		"checkedAt": "2026-09-30T15:36:06.181Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1700,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "11afa513a3756c10",
+		"name": "Revises care compensation amounts for school doctors and others",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Compensation for Work-Related Accidents Involving School Doctors, School Dentists, and School Pharmacists at Nakano City Elementary and Junior High Schools",
+		"summary": "The care compensation amounts for work-related accidents involving school doctors, school dentists, and school pharmacists are set by ordinance. This bill raises two of the amounts. The ordinance takes effect on the day it is promulgated. The revised amounts apply to compensation for which the reason for payment arises on or after August 1, 2025.",
+		"changes": [
+			"Raises the care compensation amount from ¥177,950 to ¥186,050",
+			"Raises the care compensation amount from ¥88,980 to ¥92,980"
+		],
+		"who": [
+			"School doctors, school dentists, and school pharmacists who receive care compensation for work-related accidents"
+		],
+		"why": "The ward says the amounts are being revised in response to an amendment to a national government ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:26:28.050Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 593,
+			"reasoningTokens": 349
+		}
+	}
 }

@@ -27,5 +27,70 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/67.pdf",
 			"fetchedAt": "2026-09-30T10:22:04.191Z"
 		}
-	]
+	],
+	"name": "区民健康村の宿泊・食事にキャンセル料を設定",
+	"category": "くらし・手続き",
+	"summary": "現在の条例には、宿泊施設や食事のキャンセル料を定める規定がありません。改正案では、利用を取りやめる時期に応じたキャンセル料を定めます。新しい規定は、公布日以後に申し込み、2027年4月1日以後に利用する場合に適用されます。",
+	"changes": [
+		"宿泊施設は、利用予定日の3日以上前なら0円、2日前なら利用料金の30%、1日前の指定時間までなら50%、それ以後は100%とする",
+		"食事は、利用予定日の1日前の指定時間までなら0円、それ以後は利用料金の100%とする",
+		"申請を取り消さず利用予定日に施設を利用しなかった場合、当日に取り消したものとみなす",
+		"規則で定める場合は指定管理者が納付を免除できるようにし、10円未満の端数は切り捨てる"
+	],
+	"who": [
+		"区民健康村の宿泊施設や食事を申し込む人"
+	],
+	"why": "宿泊施設と食事の利用にキャンセル料の規定を設けるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:55:25.449Z",
+		"inputTokens": 1749,
+		"cachedTokens": 0,
+		"outputTokens": 1723,
+		"reasoningTokens": 1408
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:55:25.449Z",
+		"checkedAt": "2026-09-30T15:40:26.144Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1836,
+			"cachedTokens": 0,
+			"outputTokens": 229,
+			"reasoningTokens": 214
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "762e1eb510ce2c4b",
+		"name": "Sets cancellation fees for lodging and meals at the Residents' Health Village",
+		"official": "Ordinance Partially Amending the Setagaya City Residents' Health Village Ordinance",
+		"summary": "The current ordinance has no provisions setting cancellation fees for accommodation facilities or meals. The proposed amendment sets cancellation fees based on when a person cancels their planned use. The new provisions apply to applications made on or after the date the amendment is promulgated for use on or after April 1, 2027.",
+		"changes": [
+			"Set the fee for accommodation facilities at ¥0 if canceled at least 3 days before the planned date of use, 30% of the usage fee if canceled 2 days before, 50% if canceled by a specified time on the day before, and 100% after that",
+			"Set the fee for meals at ¥0 if canceled by a specified time on the day before the planned date of use, and 100% of the usage fee after that",
+			"Treat a booking as canceled on the planned date of use if the applicant does not cancel but does not use the facility that day",
+			"Allow the designated manager to waive payment in cases specified by rules, and round down any amount under ¥10"
+		],
+		"who": [
+			"People who book accommodation facilities or meals at the Residents' Health Village"
+		],
+		"why": "The ward says this is to establish cancellation fee provisions for the use of accommodation facilities and meals.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:27.425Z",
+			"inputTokens": 687,
+			"cachedTokens": 0,
+			"outputTokens": 841,
+			"reasoningTokens": 516
+		}
+	}
 }

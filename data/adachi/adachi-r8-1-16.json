@@ -27,5 +27,66 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4388_R81TG016.pdf",
 			"fetchedAt": "2026-09-30T10:31:28.927Z"
 		}
-	]
+	],
+	"name": "後期高齢者医療の公示送達方法を変更",
+	"category": "行政のしくみ",
+	"summary": "後期高齢者医療に関する公示送達は、現在、掲示して行います。この議案で、公示事項を不特定多数が閲覧できる状態にしたうえで、書面の掲示か、区の事務所にある電子計算機の画面で閲覧できる方法に改めます。",
+	"changes": [
+		"公示事項を所定の方法で不特定多数が閲覧できる状態にする",
+		"公示事項を記した書面の掲示、または区の事務所に設置した電子計算機の画面での閲覧とする"
+	],
+	"who": [
+		"公示送達の対象となる人"
+	],
+	"why": "地方税法等の一部改正に伴い、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:20:37.152Z",
+		"inputTokens": 1396,
+		"cachedTokens": 0,
+		"outputTokens": 1197,
+		"reasoningTokens": 973
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:20:37.152Z",
+		"checkedAt": "2026-09-30T15:21:57.729Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1394,
+			"cachedTokens": 0,
+			"outputTokens": 55,
+			"reasoningTokens": 41
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7923b1efe10b9086",
+		"name": "Changes the method of service by public notice for late-stage elderly medical care",
+		"official": "Ordinance Partially Amending the Adachi City Ordinance on Medical Care for the Latter-Stage Elderly",
+		"summary": "Currently, service by public notice concerning medical care for the latter-stage elderly is carried out by posting. This bill changes the method so that, after the matters to be announced are made available for public viewing, they are either posted in writing or made available for viewing on a computer screen at an Adachi City office.",
+		"changes": [
+			"Make the matters to be announced available for public viewing",
+			"Carry out service by posting a written notice or allowing the matters to be viewed on a computer screen at an Adachi City office"
+		],
+		"who": [
+			"People subject to service by public notice"
+		],
+		"why": "The ward says this is to update the provisions following partial amendments to the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:54:54.989Z",
+			"inputTokens": 599,
+			"cachedTokens": 0,
+			"outputTokens": 1056,
+			"reasoningTokens": 835
+		}
+	}
 }

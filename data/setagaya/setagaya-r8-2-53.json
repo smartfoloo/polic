@@ -32,5 +32,76 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/33569/53.pdf",
 			"fetchedAt": "2026-09-30T10:21:58.302Z"
 		}
-	]
+	],
+	"name": "公園の飲食店使用料を1㎡あたり月1,859円に",
+	"category": "まちづくり",
+	"summary": "世田谷区立公園条例の使用料表に、飲食店の区分を加える議案です。世田谷区立玉川野毛町公園の飲食店に関する使用料を、1平方メートル当たり月1,859円とし、令和8年7月18日に施行します。",
+	"changes": [
+		"飲食店の設置等に係る使用料を1平方メートル当たり月1,859円とする"
+	],
+	"who": [
+		"世田谷区立玉川野毛町公園に飲食店を設置・管理する事業者"
+	],
+	"why": "玉川野毛町公園の飲食店に関する公園施設の設置などに係る使用料を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:55:05.535Z",
+		"inputTokens": 1271,
+		"cachedTokens": 0,
+		"outputTokens": 679,
+		"reasoningTokens": 436
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:55:05.535Z",
+		"checkedAt": "2026-09-30T15:40:13.611Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "name",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "公園の飲食店使用料を月1,859円に",
+				"note": "原文は「1平方メートル1月1,859円」。面積当たりの単価であり、月額一律1,859円ではありません。",
+				"dismissed": {
+					"note": "Fixed in the text: per ㎡ per month.",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1257,
+			"cachedTokens": 0,
+			"outputTokens": 196,
+			"reasoningTokens": 111
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "772785860ad4299f",
+		"name": "Sets park restaurant use fee at ¥1,859 per square meter per month",
+		"official": "Ordinance Partially Amending the Setagaya City Parks Ordinance",
+		"summary": "This bill adds a restaurant category to the fee schedule in the Setagaya City Parks Ordinance. It sets the fee for restaurants in Setagaya City Tamagawa Nogemachi Park at ¥1,859 per square meter per month, effective July 18, 2026.",
+		"changes": [
+			"Sets the fee for installing a restaurant and related activities at ¥1,859 per square meter per month"
+		],
+		"who": [
+			"Businesses that install and manage restaurants in Setagaya City Tamagawa Nogemachi Park"
+		],
+		"why": "The ward says this is to set fees for installing park facilities and related activities for restaurants in Tamagawa Nogemachi Park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:28:35.158Z",
+			"inputTokens": 589,
+			"cachedTokens": 0,
+			"outputTokens": 514,
+			"reasoningTokens": 311
+		}
+	}
 }

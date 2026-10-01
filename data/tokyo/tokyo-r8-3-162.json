@@ -61,5 +61,31 @@
 			"outputTokens": 145,
 			"reasoningTokens": 131
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d71d91346b58e1c6",
+		"name": "Sets fees for applications to exempt buildings from restrictions in designated areas",
+		"official": "Ordinance Partially Amending the Ordinance on Fees Related to the Tokyo Metropolitan Government Bureau of Urban Development",
+		"summary": "There are currently no fee provisions in Tokyo Metropolitan Government ordinances for applications for permission not to apply building restrictions in districts designated to attract specified business facilities, etc. This bill sets the fee at ¥160,000 for applications concerning floor-area ratio and building area restrictions, and at ¥160,000 for applications concerning height restrictions. The ordinance will apply from whichever is later: the date the relevant law comes into force or the date this ordinance is promulgated.",
+		"changes": [
+			"Sets the fee for applications for permission not to apply floor-area ratio and building area restrictions at ¥160,000",
+			"Sets the fee for applications for permission not to apply height restrictions at ¥160,000"
+		],
+		"who": [
+			"People and businesses applying for permission not to apply floor-area ratio and building area restrictions in districts designated to attract specified business facilities, etc.",
+			"People and businesses applying for permission not to apply height restrictions in districts designated to attract specified business facilities, etc."
+		],
+		"why": "The Tokyo Metropolitan Government says these application fees need to be set because of amendments to the Building Standards Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:26.210Z",
+			"inputTokens": 654,
+			"cachedTokens": 0,
+			"outputTokens": 808,
+			"reasoningTokens": 516
+		}
 	}
 }

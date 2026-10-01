@@ -63,5 +63,32 @@
 			"outputTokens": 125,
 			"reasoningTokens": 111
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5b0d44aba169b332",
+		"name": "Requires some child welfare facilities to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Ordinance on Standards for the Equipment and Operation of Child Welfare Facilities",
+		"summary": "The current ordinance has no provisions of the kind proposed here on preventing sexual violence against children. This bill requires operators of the facilities covered to check the criminal records of workers who come into contact with children, among other measures. It takes effect on December 25, 2026.",
+		"changes": [
+			"Requires operators of covered facilities to take necessary measures to prevent sexual violence against children and protect children who have suffered harm",
+			"Requires criminal record checks for workers who come into contact with children in environments marked by power imbalance, ongoing contact, and lack of openness"
+		],
+		"who": [
+			"Operators of covered child welfare facilities",
+			"Workers at covered facilities who come into contact with children in environments covered by the provisions",
+			"Children who use covered facilities"
+		],
+		"why": "The Tokyo Metropolitan Government says this is necessary because, with the relevant law taking effect, the Child Welfare Act and other laws were amended and provisions need to be established to prevent sexual violence against children and address related matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:36.212Z",
+			"inputTokens": 697,
+			"cachedTokens": 0,
+			"outputTokens": 749,
+			"reasoningTokens": 480
+		}
 	}
 }

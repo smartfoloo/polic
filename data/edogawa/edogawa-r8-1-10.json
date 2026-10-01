@@ -22,5 +22,82 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2733_gian10%20.pdf",
 			"fetchedAt": "2026-09-30T10:40:48.436Z"
 		}
-	]
+	],
+	"name": "区の外部監査と対象範囲を定める",
+	"category": "行政のしくみ",
+	"summary": "区が包括外部監査契約に基づく監査を受けるためのルールを定めます。監査は毎会計年度行い、必要がある場合は、区から財政的援助や出資を受ける団体なども監査の対象にできます。",
+	"changes": [
+		"区が毎会計年度、包括外部監査契約に基づく監査を受ける",
+		"包括外部監査人が、区から財政的援助を受ける団体や区の出資先などの事務を必要に応じて監査できる",
+		"包括外部監査人が、区が元金や利子の支払いを保証するものや、区が受益権を持つ信託の事務を必要に応じて監査できる",
+		"包括外部監査人が、区から管理を委ねられた公の施設の管理業務を必要に応じて監査できる"
+	],
+	"who": [
+		"区から財政的援助を受ける団体など",
+		"区の出資先など",
+		"区から公の施設の管理を委ねられている事業者など"
+	],
+	"why": "外部監査契約に基づく監査に必要な事項を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:26:45.851Z",
+		"inputTokens": 1649,
+		"cachedTokens": 0,
+		"outputTokens": 1552,
+		"reasoningTokens": 1180
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:26:45.851Z",
+		"checkedAt": "2026-09-30T15:25:41.427Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "包括外部監査人が、区から財政的援助を受ける団体や区の出資先などの事務を必要に応じて監査できる",
+				"note": "原文第二条第三項第一・二号では、監査する事務を当該援助・出資に係るものに限定し、出資先も政令で定めるものに限定しています。これらの限定がなく、対象団体の事務全般を監査できるように読めます。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1768,
+			"cachedTokens": 0,
+			"outputTokens": 484,
+			"reasoningTokens": 334
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d4234e7484a54762",
+		"name": "Sets rules for external audits and their scope",
+		"official": "Ordinance Concerning Audits Based on External Audit Contracts of Edogawa City",
+		"summary": "Sets rules for Edogawa City to undergo audits under comprehensive external audit contracts. Audits will be conducted every fiscal year. When necessary, organizations that receive financial assistance or investment from the ward may also be audited.",
+		"changes": [
+			"Requires Edogawa City to undergo an audit under a comprehensive external audit contract every fiscal year",
+			"Allows the comprehensive external auditor, when necessary, to audit the affairs of organizations receiving financial assistance from the ward and entities in which the ward has invested",
+			"Allows the comprehensive external auditor, when necessary, to audit the affairs of matters for which the ward guarantees payment of principal or interest, and of trusts in which the ward holds beneficiary rights",
+			"Allows the comprehensive external auditor, when necessary, to audit the management of public facilities entrusted by the ward to others"
+		],
+		"who": [
+			"Organizations receiving financial assistance from the ward, etc.",
+			"Entities in which the ward has invested, etc.",
+			"Operators entrusted by the ward with managing public facilities, etc."
+		],
+		"why": "The ward says this is to set out matters necessary for audits based on external audit contracts.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:57:05.873Z",
+			"inputTokens": 719,
+			"cachedTokens": 0,
+			"outputTokens": 1049,
+			"reasoningTokens": 760
+		}
+	}
 }

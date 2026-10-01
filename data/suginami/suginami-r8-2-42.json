@@ -65,5 +65,34 @@
 			"outputTokens": 276,
 			"reasoningTokens": 262
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a0a0c927fcb562d8",
+		"name": "Sets standards for staffing, facilities, and operations at residential facilities for children with disabilities",
+		"official": "Suginami City Ordinance on Standards, etc. for Staffing, Facilities, and Operations of Designated Residential Facilities for Children with Disabilities",
+		"summary": "In February 2026, Suginami City was designated as a city that establishes a child guidance center. This bill sets standards for the staffing, facilities, and operations of residential facilities for children with disabilities designated by the city. The standards will generally apply from November 1, 2026. The standards for preventing sexual violence against children and protecting children who have suffered harm will apply from December 25 of the same year.",
+		"changes": [
+			"Set standards for staffing, facilities, and operations at welfare-type facilities",
+			"Set standards for staffing, facilities, and operations at medical-type facilities",
+			"Require facilities to take measures needed to prevent sexual violence and other harm to children and protect children who have suffered harm",
+			"Allow documents to be prepared and delivered electronically, with the other party's consent for delivery"
+		],
+		"who": [
+			"Businesses operating designated residential facilities for children with disabilities",
+			"Children with disabilities who use the facilities",
+			"Parents or guardians of children admitted to the facilities"
+		],
+		"why": "The ward says these standards are needed because Suginami City was designated as a city that establishes a child guidance center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:14:36.817Z",
+			"inputTokens": 738,
+			"cachedTokens": 0,
+			"outputTokens": 642,
+			"reasoningTokens": 330
+		}
 	}
 }

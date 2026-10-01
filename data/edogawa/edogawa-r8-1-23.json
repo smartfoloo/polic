@@ -22,5 +22,60 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2746_gian23%20.pdf",
 			"fetchedAt": "2026-09-30T10:42:05.710Z"
 		}
-	]
+	],
+	"name": "手数料条例の参照条文を変更",
+	"category": "行政のしくみ",
+	"summary": "条例の健康部の表にある項目は、法律の第14条第15項を参照しています。この議案で参照先を第14条第13項に改め、2026年5月1日から施行します。",
+	"changes": [
+		"参照先を第14条第15項から第14条第13項に改める"
+	],
+	"who": [],
+	"why": "法律の改正で条文の位置が変わるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:28:55.874Z",
+		"inputTokens": 1232,
+		"cachedTokens": 0,
+		"outputTokens": 598,
+		"reasoningTokens": 456
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:28:55.874Z",
+		"checkedAt": "2026-09-30T15:26:34.126Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1140,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cd53b9695b3e8803",
+		"name": "Changes a reference in the administrative fees ordinance",
+		"official": "Ordinance Partially Amending the Edogawa City Administrative Fees Ordinance",
+		"summary": "An item in the Health Department table of the ordinance refers to Article 14, paragraph 15 of the law. This bill changes the reference to Article 14, paragraph 13 and takes effect on May 1, 2026.",
+		"changes": [
+			"Changes the reference from Article 14, paragraph 15 to Article 14, paragraph 13"
+		],
+		"who": [],
+		"why": "The ward says this is because an amendment to the law changed the location of the provision.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:57:58.294Z",
+			"inputTokens": 507,
+			"cachedTokens": 0,
+			"outputTokens": 375,
+			"reasoningTokens": 217
+		}
+	}
 }

@@ -60,5 +60,29 @@
 			"outputTokens": 29,
 			"reasoningTokens": 15
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e1f3a722d6ccacb4",
+		"name": "Sets fixed asset review committee members' compensation at ¥29,200",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation and Expense Reimbursement for Members of the Tokyo Metropolitan Fixed Asset Valuation Review Committee",
+		"summary": "Members of the Tokyo Metropolitan Fixed Asset Valuation Review Committee currently receive ¥28,400. Their compensation will change to ¥29,200 starting April 1, 2026.",
+		"changes": [
+			"Raises committee members' compensation from ¥28,400 to ¥29,200"
+		],
+		"who": [
+			"Members of the Tokyo Metropolitan Fixed Asset Valuation Review Committee"
+		],
+		"why": "The Tokyo Metropolitan Government says it is revising the compensation amount based on the recommendation of the Tokyo Metropolitan Council on Remuneration for Special Positions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:09.074Z",
+			"inputTokens": 568,
+			"cachedTokens": 0,
+			"outputTokens": 532,
+			"reasoningTokens": 346
+		}
 	}
 }

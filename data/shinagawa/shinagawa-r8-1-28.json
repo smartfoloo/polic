@@ -22,5 +22,78 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_28.pdf",
 			"fetchedAt": "2026-09-30T10:16:21.311Z"
 		}
-	]
+	],
+	"name": "福祉会館の事業規定を法改正に合わせて整理",
+	"category": "福祉",
+	"summary": "条例では、品川区立心身障害者福祉会館の事業などを定めています。法律の改正に合わせて、事業の規定や法律の条番号に関する記載を改めます。改正条例は公布の日から施行します。",
+	"changes": [
+		"会館の事業に関する規定を、機能訓練などと支援法第77条第1項第9号の事業を含む内容に改める",
+		"第3条第1号のイを削り、ウをイ、エをウに繰り上げる",
+		"支援法第5条の参照箇所を第18項から第19項に改める",
+		"第6条第1項で、第3条第1号アの対象を機能訓練に限ると明記する"
+	],
+	"who": [],
+	"why": "障害者の日常生活及び社会生活を総合的に支援するための法律の改正に伴い、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:01:23.279Z",
+		"inputTokens": 1323,
+		"cachedTokens": 0,
+		"outputTokens": 1181,
+		"reasoningTokens": 872
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:01:23.279Z",
+		"checkedAt": "2026-09-30T15:44:04.485Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "第3条第1号のイを削除し、後の号を繰り上げる",
+				"note": "原文で繰り上げるのは第3条第1号内のウとエ（ウをイ、エをウ）です。「後の号」では、第2号以降を繰り上げるようにも読めます。",
+				"dismissed": {
+					"note": "Fixed in the text.",
+					"at": "2026-10-01T12:12:43.005Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1385,
+			"cachedTokens": 0,
+			"outputTokens": 417,
+			"reasoningTokens": 305
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b29a891c17927191",
+		"name": "Updates welfare center program rules to reflect legal amendments",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on the Welfare Center for People with Physical and Mental Disabilities",
+		"summary": "The ordinance sets out the programs and other matters of the Shinagawa City Welfare Center for People with Physical and Mental Disabilities. To reflect amendments to the law, it revises provisions on the center’s programs and references to article numbers in the law. The amending ordinance takes effect on the day it is promulgated.",
+		"changes": [
+			"Revises the provisions on the center’s programs to include functional training and other services, as well as programs under Article 77, paragraph 1, item 9 of the Act",
+			"Deletes item (i)(b) of Article 3 and renumbers items (i)(c) and (i)(d) as (i)(b) and (i)(c), respectively",
+			"Changes the reference to Article 5 of the Act from paragraph 18 to paragraph 19",
+			"Specifies in Article 6, paragraph 1, that the scope of Article 3, item (1)(a) is limited to functional training"
+		],
+		"who": [],
+		"why": "The ward says this is to update the ordinance’s provisions following amendments to the Act for Comprehensive Support of the Daily and Social Life of Persons with Disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:30:47.090Z",
+			"inputTokens": 663,
+			"cachedTokens": 0,
+			"outputTokens": 1144,
+			"reasoningTokens": 836
+		}
+	}
 }

@@ -27,5 +27,72 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-82.pdf",
 			"fetchedAt": "2026-09-30T12:21:33.038Z"
 		}
-	]
+	],
+	"name": "介護補償の限度額と葬祭補償額を引き上げ",
+	"category": "福祉",
+	"summary": "現在、介護補償の限度額は85,490円と42,700円、葬祭補償額は315,000円です。議案ではこれらをそれぞれ90,790円、45,400円、330,000円に改め、令和8年4月1日以後に支給の対象となる事由が生じた補償に適用します。",
+	"changes": [
+		"介護補償の限度額を85,490円から90,790円に改める",
+		"介護補償のもう1区分の限度額を42,700円から45,400円に改める",
+		"葬祭補償額を315,000円から330,000円に改める"
+	],
+	"who": [
+		"台東区立小中学校等の学校医",
+		"台東区立小中学校等の学校歯科医",
+		"台東区立小中学校等の学校薬剤師"
+	],
+	"why": "介護補償の限度額と葬祭補償の額を改定するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:20:43.304Z",
+		"inputTokens": 1732,
+		"cachedTokens": 0,
+		"outputTokens": 1609,
+		"reasoningTokens": 1281
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:20:43.304Z",
+		"checkedAt": "2026-09-30T15:53:51.575Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1805,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6c585710dbd8170e",
+		"name": "Raises the maximum care compensation and funeral compensation amounts",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Work-Related Accidents of School Physicians, School Dentists, and School Pharmacists at Taito City Municipal Elementary and Junior High Schools, etc.",
+		"summary": "The current maximum care compensation amounts are ¥85,490 and ¥42,700, and the funeral compensation amount is ¥315,000. The bill changes these to ¥90,790, ¥45,400, and ¥330,000, respectively, and applies to compensation for which the event giving rise to eligibility for payment occurs on or after April 1, 2026.",
+		"changes": [
+			"Raises one maximum care compensation amount from ¥85,490 to ¥90,790",
+			"Raises the other maximum care compensation amount from ¥42,700 to ¥45,400",
+			"Raises the funeral compensation amount from ¥315,000 to ¥330,000"
+		],
+		"who": [
+			"School physicians at Taito City municipal elementary and junior high schools, etc.",
+			"School dentists at Taito City municipal elementary and junior high schools, etc.",
+			"School pharmacists at Taito City municipal elementary and junior high schools, etc."
+		],
+		"why": "The mayor says the purpose is to revise the maximum care compensation amounts and the funeral compensation amount.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:22:14.196Z",
+			"inputTokens": 701,
+			"cachedTokens": 0,
+			"outputTokens": 1057,
+			"reasoningTokens": 754
+		}
+	}
 }

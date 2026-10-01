@@ -59,5 +59,28 @@
 			"outputTokens": 246,
 			"reasoningTokens": 232
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "da8395a01314b92c",
+		"name": "Changes calculation standards for grants to special wards",
+		"official": "Ordinance Partially Amending the Ordinance on Fiscal Adjustment between the Tokyo Metropolitan Government and the Special Wards and among the Special Wards",
+		"summary": "Fiscal adjustment grants to the special wards are calculated using standards set for each type of expenditure. This bill revises those standards. It takes effect on April 1, 2026.",
+		"changes": [
+			"Revises the unit costs used to calculate recurring expenditures",
+			"Revises the unit costs used to calculate investment-related expenditures"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says this is to balance financial resources between the Tokyo Metropolitan Government and the special wards, and among the special wards, and to enable the special wards to administer their affairs independently and according to plan.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:05.276Z",
+			"inputTokens": 576,
+			"cachedTokens": 0,
+			"outputTokens": 562,
+			"reasoningTokens": 370
+		}
 	}
 }

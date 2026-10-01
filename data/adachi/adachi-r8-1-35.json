@@ -27,5 +27,76 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4352_R81TG035.pdf",
 			"fetchedAt": "2026-09-30T10:33:52.915Z"
 		}
-	]
+	],
+	"name": "調査出頭者などの費用項目を改める",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、区議会などの調査に出頭する人や公聴会に参加する人に支払う費用の種類を定めています。この議案では、費用の種類を示す表記を7種から8種に改め、条文の表記も整えます。2026年4月1日から施行します。",
+	"changes": [
+		"費用の種類を示す表記を7種から8種に改める",
+		"条文中の接続表現や表記を整える"
+	],
+	"who": [
+		"区議会などの調査に出頭する人",
+		"公聴会に参加する人"
+	],
+	"why": "区職員の旅費に関する条例の改正に伴う対応と、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:22:40.127Z",
+		"inputTokens": 1310,
+		"cachedTokens": 0,
+		"outputTokens": 1040,
+		"reasoningTokens": 790
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:22:40.127Z",
+		"checkedAt": "2026-09-30T15:23:05.720Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "費用の種類を示す表記を7種から8種に改める",
+				"note": "原文第2条第2項では「車賃、旅行雑費、宿泊料及び食卓料」を「その他の交通費、宿泊費、包括宿泊費、宿泊手当及び旅行雑費」に改めている。種類数だけでなく、費用項目の具体的な変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1307,
+			"cachedTokens": 0,
+			"outputTokens": 205,
+			"reasoningTokens": 74
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ed41b1b21a604de1",
+		"name": "Revises expense categories for people appearing for investigations",
+		"official": "Ordinance Partially Amending the Ordinance on Reimbursement of Expenses for Persons Appearing for Investigations Conducted by the Ward Assembly, etc., and Persons Participating in Public Hearings",
+		"summary": "The current ordinance sets out the types of expenses paid to people who appear for investigations conducted by the ward assembly, etc., and people who participate in public hearings. This bill changes the notation used to show the types of expenses from 7 types to 8 and also tidies up the wording of the provisions. It takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the notation used to show the types of expenses from 7 types to 8",
+			"Tidies up connecting expressions and other wording in the provisions"
+		],
+		"who": [
+			"People who appear for investigations conducted by the ward assembly, etc.",
+			"People who participate in public hearings"
+		],
+		"why": "The ward says this is to respond to an amendment to the ordinance concerning travel expenses for ward employees and to tidy up the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:55:53.017Z",
+			"inputTokens": 618,
+			"cachedTokens": 0,
+			"outputTokens": 484,
+			"reasoningTokens": 229
+		}
+	}
 }

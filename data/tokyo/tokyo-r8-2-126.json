@@ -30,7 +30,7 @@
 	],
 	"name": "固定資産税の金額と特例割合を改める",
 	"category": "税・手数料",
-	"summary": "現在の都税条例には、固定資産税について家屋の20万円や150万円という金額が定められています。この議案では、家屋の扱いを改め、150万円を180万円に変更します。また、対象となる再生可能エネルギー発電設備の固定資産税の特例割合と、改修した建築物の固定資産税・都市計画税の減額割合を定めます。",
+	"summary": "この議案では、固定資産税の規定を改め、家屋に係る20万円の記載を削り、150万円を180万円に変更します。また、対象となる再生可能エネルギー発電設備の固定資産税の特例割合と、改修した建築物の固定資産税・都市計画税の減額割合を定めます。",
 	"changes": [
 		"固定資産税の規定に家屋を加え、家屋の20万円という記載をなくす",
 		"固定資産税の規定中の150万円を180万円に変える",
@@ -62,7 +62,11 @@
 				"kind": "fact",
 				"severity": "error",
 				"quote": "固定資産税について家屋の20万円や150万円という金額が定められています。",
-				"note": "原文では、家屋に係る20万円の記載を削り、150万円を180万円に改めるとある。150万円を家屋の金額とする記述は原文と合わない。"
+				"note": "原文では、家屋に係る20万円の記載を削り、150万円を180万円に改めるとある。150万円を家屋の金額とする記述は原文と合わない。",
+				"dismissed": {
+					"note": "Fixed in the text: no longer says 150万円 is a 家屋 amount.",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
 			}
 		],
 		"ai": {
@@ -72,6 +76,35 @@
 			"inputTokens": 2255,
 			"outputTokens": 471,
 			"reasoningTokens": 365
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "148cfbf2dc27cbc6",
+		"name": "Revises property tax amounts and special rates",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Tax Ordinance",
+		"summary": "This bill revises provisions on property tax, removes the reference to ¥200,000 for buildings, and changes ¥1,500,000 to ¥1,800,000. It also sets special rates for property tax on eligible renewable energy power generation facilities and reduction rates for property tax and city planning tax on renovated buildings.",
+		"changes": [
+			"Adds buildings to the property tax provision and removes the ¥200,000 reference for buildings",
+			"Changes ¥1,500,000 to ¥1,800,000 in the property tax provision",
+			"Sets the special rate at one-third or one-half for eligible renewable energy power generation facilities",
+			"Sets the reduction rate at one-third for buildings with eligible renovations"
+		],
+		"who": [
+			"Owners of eligible land or buildings",
+			"Owners of eligible renewable energy power generation facilities",
+			"Owners of buildings with eligible renovations"
+		],
+		"why": "The Tokyo Metropolitan Government says the Tokyo Metropolitan Government Tax Ordinance needs to be revised in line with amendments to the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:36:00.965Z",
+			"inputTokens": 679,
+			"cachedTokens": 0,
+			"outputTokens": 715,
+			"reasoningTokens": 444
 		}
 	}
 }

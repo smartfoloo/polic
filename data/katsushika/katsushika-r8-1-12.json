@@ -27,5 +27,60 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian12.pdf",
 			"fetchedAt": "2026-09-30T10:36:47.412Z"
 		}
-	]
+	],
+	"name": "文化事務を区長の担当に",
+	"category": "行政のしくみ",
+	"summary": "文化に関する事務のうち、文化財の保護はこの議案の対象外です。それ以外の文化事務を区長が管理・執行することとし、令和8年4月1日から施行します。",
+	"changes": [
+		"文化財の保護を除く文化事務を区長が管理・執行する"
+	],
+	"who": [],
+	"why": "文化に関する事務を区長が管理・執行する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:32:53.766Z",
+		"inputTokens": 1175,
+		"cachedTokens": 0,
+		"outputTokens": 673,
+		"reasoningTokens": 504
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:32:53.766Z",
+		"checkedAt": "2026-09-30T15:28:32.524Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1089,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2b5d24cf1124e0ef",
+		"name": "Assigns cultural affairs to the mayor",
+		"official": "Katsushika City Ordinance on Special Exceptions to the Authority and Duties for Affairs Related to Education",
+		"summary": "Protection of cultural properties is excluded from the cultural affairs covered by this bill. The mayor will manage and carry out all other cultural affairs. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Assigns the management and execution of cultural affairs, excluding the protection of cultural properties, to the mayor"
+		],
+		"who": [],
+		"why": "The ward says it is necessary for the mayor to manage and carry out cultural affairs.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:43.728Z",
+			"inputTokens": 519,
+			"cachedTokens": 0,
+			"outputTokens": 531,
+			"reasoningTokens": 377
+		}
+	}
 }

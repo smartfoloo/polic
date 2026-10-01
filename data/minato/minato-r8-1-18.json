@@ -32,5 +32,66 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB739_18.pdf",
 			"fetchedAt": "2026-09-30T12:29:22.940Z"
 		}
-	]
+	],
+	"name": "幼稚園管理職員の勤務時間を時間単位で変更",
+	"category": "教育",
+	"summary": "これまでは、管理職手当を受ける幼稚園教育職員が週休日に勤務する場合、勤務時間を時間単位で割り振り直す仕組みがありませんでした。この議案で、勤務日の勤務時間を1時間単位で週休日に割り振れるようにします。令和8年4月1日から施行されます。",
+	"changes": [
+		"勤務日の勤務時間を1時間単位で週休日に割り振り直せるようにする",
+		"1勤務日の勤務時間を複数の週休日に分けて割り振れるようにする"
+	],
+	"who": [
+		"管理職手当を受ける幼稚園教育職員"
+	],
+	"why": "管理職員が週休日に勤務する場合に、時間単位で勤務時間を割り振り直せるようにするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:41:20.508Z",
+		"inputTokens": 1564,
+		"cachedTokens": 0,
+		"outputTokens": 1617,
+		"reasoningTokens": 1383
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:41:20.508Z",
+		"checkedAt": "2026-09-30T15:33:07.420Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1572,
+			"cachedTokens": 0,
+			"outputTokens": 59,
+			"reasoningTokens": 45
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1a27fb40903d422e",
+		"name": "Changes kindergarten managers' working hours in one-hour units",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on Working Hours, Holidays, Leave, etc. for Kindergarten Education Staff",
+		"summary": "Until now, there was no system for rescheduling working hours in hourly units when kindergarten education staff who receive a managerial allowance worked on a regular day off. This bill allows working hours on a workday to be reassigned to regular days off in one-hour units. It takes effect on April 1, 2026.",
+		"changes": [
+			"Allows working hours on workdays to be reassigned to regular days off in one-hour units",
+			"Allows the working hours of one workday to be divided among multiple regular days off"
+		],
+		"who": [
+			"Kindergarten education staff who receive a managerial allowance"
+		],
+		"why": "The ward says this is to allow managers who work on regular days off to have their working hours rescheduled in hourly units.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:02:53.360Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 810,
+			"reasoningTokens": 583
+		}
+	}
 }

@@ -32,5 +32,64 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/24.pdf",
 			"fetchedAt": "2026-09-30T10:19:58.912Z"
 		}
-	]
+	],
+	"name": "成城みつ池広場を新設",
+	"category": "まちづくり",
+	"summary": "現在の条例に、成城みつ池広場は記載されていません。この議案で、住所を世田谷区成城4丁目20番20号とする広場を新たに加え、令和8年3月31日から施行します。",
+	"changes": [
+		"身近な広場に成城みつ池広場を加える"
+	],
+	"who": [
+		"成城みつ池広場を利用する人"
+	],
+	"why": "成城みつ池広場を設置する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:51:58.110Z",
+		"inputTokens": 1165,
+		"cachedTokens": 0,
+		"outputTokens": 658,
+		"reasoningTokens": 476
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:51:58.110Z",
+		"checkedAt": "2026-09-30T15:38:18.970Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1090,
+			"cachedTokens": 0,
+			"outputTokens": 33,
+			"reasoningTokens": 19
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "132b9870909ded9e",
+		"name": "Adds Seijo Mitsuike Plaza",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Neighborhood Plazas",
+		"summary": "The current ordinance does not list Seijo Mitsuike Plaza. This bill adds a plaza at 4-20-20 Seijo, Setagaya City, and takes effect on March 31, 2026.",
+		"changes": [
+			"Adds Seijo Mitsuike Plaza to the list of neighborhood plazas"
+		],
+		"who": [
+			"People who use Seijo Mitsuike Plaza"
+		],
+		"why": "The ward says this is necessary to establish Seijo Mitsuike Plaza.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:07:04.590Z",
+			"inputTokens": 527,
+			"cachedTokens": 0,
+			"outputTokens": 659,
+			"reasoningTokens": 498
+		}
+	}
 }

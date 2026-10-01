@@ -62,5 +62,31 @@
 			"outputTokens": 62,
 			"reasoningTokens": 48
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "066415c5fae42d2c",
+		"name": "Changes child guidance center listing from Shinagawa to Ota",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Child Guidance Center Ordinance",
+		"summary": "The ordinance’s list currently includes the Tokyo Shinagawa Child Guidance Center. This bill changes that listing to the Tokyo Ota Child Guidance Center, gives its address as 2-3-22 Omori-nishi, Ota City, Tokyo, and sets Ota City as its area of responsibility. It will take effect on August 1, 2026.",
+		"changes": [
+			"Replace the Tokyo Shinagawa Child Guidance Center listing in the ordinance with the Tokyo Ota Child Guidance Center",
+			"List the address as 2-3-22 Omori-nishi, Ota City, Tokyo",
+			"List Ota City as the area of responsibility"
+		],
+		"who": [
+			"Residents of Ota City"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to align the ordinance with the establishment of the Tokyo Ota Child Guidance Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:16.742Z",
+			"inputTokens": 584,
+			"cachedTokens": 0,
+			"outputTokens": 977,
+			"reasoningTokens": 741
+		}
 	}
 }

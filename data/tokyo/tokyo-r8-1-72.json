@@ -61,5 +61,30 @@
 			"outputTokens": 83,
 			"reasoningTokens": 69
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "114ce3248c6f1b8f",
+		"name": "Adds fiscal years when the fund for medical care for older people can be used",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on the Financial Stabilization Fund for Medical Care for Older People",
+		"summary": "The ordinance currently sets the period during which the Financial Stabilization Fund for Medical Care for Older People can be used. This bill adds FY2026 and FY2027 to that period and adjusts the wording of the ordinance. It takes effect on April 1, 2026.",
+		"changes": [
+			"Add FY2026 and FY2027 to the period during which the fund can be used",
+			"Adjust the provisions of the ordinance"
+		],
+		"who": [
+			"People enrolled in medical care for older people"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to limit increases in health insurance premium rates for older people.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:33.611Z",
+			"inputTokens": 561,
+			"cachedTokens": 0,
+			"outputTokens": 579,
+			"reasoningTokens": 375
+		}
 	}
 }

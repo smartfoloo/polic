@@ -22,5 +22,66 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_20.pdf",
 			"fetchedAt": "2026-09-30T10:15:33.129Z"
 		}
-	]
+	],
+	"name": "子ども家庭支援センター2施設の所在地変更",
+	"category": "子育て",
+	"summary": "現在、品川区子ども家庭支援センターは品川区二葉一丁目7番15号に、品川区地域子ども家庭支援センター荏原は品川区西五反田六丁目6番6号にあります。所在地をそれぞれ品川区広町二丁目1番36号、品川区荏原二丁目9番6号に変更します。変更はそれぞれ令和8年4月27日、同年5月7日からです。",
+	"changes": [
+		"品川区子ども家庭支援センターの所在地を品川区二葉一丁目7番15号から品川区広町二丁目1番36号に変更する",
+		"品川区地域子ども家庭支援センター荏原の所在地を品川区西五反田六丁目6番6号から品川区荏原二丁目9番6号に変更する"
+	],
+	"who": [
+		"各センターを利用する人"
+	],
+	"why": "2施設の位置を変更する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:00:13.416Z",
+		"inputTokens": 1431,
+		"cachedTokens": 0,
+		"outputTokens": 881,
+		"reasoningTokens": 605
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:00:13.416Z",
+		"checkedAt": "2026-09-30T15:43:14.370Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1486,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f97e03e88e9068e0",
+		"name": "Changes the locations of two child and family support centers",
+		"official": "Ordinance Partially Amending the Shinagawa City Child and Family Support Center Ordinance",
+		"summary": "The Shinagawa City Child and Family Support Center is currently at 1-7-15 Futaba, Shinagawa City, and the Shinagawa City Regional Child and Family Support Center Ebara is at 6-6-6 Nishigotanda, Shinagawa City. Their locations will be changed to 2-1-36 Hiromachi, Shinagawa City, and 2-9-6 Ebara, Shinagawa City, respectively. The changes take effect on April 27, 2026, and May 7, 2026, respectively.",
+		"changes": [
+			"Moves the Shinagawa City Child and Family Support Center from 1-7-15 Futaba, Shinagawa City, to 2-1-36 Hiromachi, Shinagawa City",
+			"Moves the Shinagawa City Regional Child and Family Support Center Ebara from 6-6-6 Nishigotanda, Shinagawa City, to 2-9-6 Ebara, Shinagawa City"
+		],
+		"who": [
+			"People who use either center"
+		],
+		"why": "The ward says the locations of the two facilities need to be changed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:11:44.451Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 898,
+			"reasoningTokens": 601
+		}
+	}
 }

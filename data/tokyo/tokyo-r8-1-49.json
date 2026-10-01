@@ -58,5 +58,27 @@
 			"outputTokens": 67,
 			"reasoningTokens": 53
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ca2ba70f1a3e99e8",
+		"name": "Adds public interest trusts to council member appointment rules",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Ordinance on the Tokyo Metropolitan Council for Public Interest Certification, etc.",
+		"summary": "The rules for appointing members of the Tokyo Metropolitan Council for Public Interest Certification, etc. refer to public interest corporations. This bill also adds public interest trusts to the rules. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds public interest trusts to the rules on appointing council members"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says the rules on appointing council members need to be updated because the law on public interest trusts is coming into force.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:23.820Z",
+			"inputTokens": 530,
+			"cachedTokens": 0,
+			"outputTokens": 450,
+			"reasoningTokens": 282
+		}
 	}
 }

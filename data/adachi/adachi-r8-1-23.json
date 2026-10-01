@@ -27,5 +27,64 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4395_R81TG023.pdf",
 			"fetchedAt": "2026-09-30T10:32:17.007Z"
 		}
-	]
+	],
+	"name": "特定用途建築物の説明対象を拡大",
+	"category": "まちづくり",
+	"summary": "条例第6条第1項は、中高層建築物等の建築に関する説明の対象者を定めています。この改正で、規則で定める特定用途建築物の場合は、近隣関係住民も説明対象に加わります。令和8年4月1日から施行します。",
+	"changes": [
+		"特定用途建築物に該当する場合の説明対象者を広げる"
+	],
+	"who": [
+		"特定用途建築物の近隣関係住民"
+	],
+	"why": "中高層建築物等の建築に関する説明の対象者を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:21:17.482Z",
+		"inputTokens": 1217,
+		"cachedTokens": 0,
+		"outputTokens": 1022,
+		"reasoningTokens": 830
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:21:17.482Z",
+		"checkedAt": "2026-09-30T15:22:31.387Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1181,
+			"cachedTokens": 0,
+			"outputTokens": 212,
+			"reasoningTokens": 198
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0ccb8449ef18c169",
+		"name": "Expands who must be informed about buildings with specified uses",
+		"official": "Ordinance Partially Amending the Adachi City Ordinance on the Prevention and Adjustment of Disputes Related to the Construction of Mid- and High-Rise Buildings, etc.",
+		"summary": "Article 6, paragraph 1 of the ordinance sets out who must receive explanations about the construction of mid- and high-rise buildings, etc. Under this amendment, nearby residents will also be included when the building is one with a specified use as set out in the rules. The amendment takes effect on April 1, 2026.",
+		"changes": [
+			"Adds nearby residents to those who must receive explanations when a building has a specified use"
+		],
+		"who": [
+			"Nearby residents of buildings with specified uses"
+		],
+		"why": "The ward says this is to revise who must receive explanations about the construction of mid- and high-rise buildings, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:55:13.670Z",
+			"inputTokens": 578,
+			"cachedTokens": 0,
+			"outputTokens": 576,
+			"reasoningTokens": 360
+		}
+	}
 }

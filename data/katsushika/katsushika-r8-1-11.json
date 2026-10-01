@@ -27,5 +27,64 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian11.pdf",
 			"fetchedAt": "2026-09-30T10:36:41.308Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援事業の運営基準を定める",
+	"category": "子育て",
+	"summary": "子ども・子育て支援法の改正に伴い、区内の特定乳児等通園支援事業の運営基準を定めます。基準は、令和7年内閣府令第95号に定められたものとし、令和8年4月1日に施行します。",
+	"changes": [
+		"国の内閣府令に定める基準を区の運営基準とする"
+	],
+	"who": [
+		"特定乳児等通園支援事業を運営する事業者"
+	],
+	"why": "子ども・子育て支援法の改正に伴い、区の運営基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:32:35.314Z",
+		"inputTokens": 1388,
+		"cachedTokens": 0,
+		"outputTokens": 922,
+		"reasoningTokens": 712
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:32:35.314Z",
+		"checkedAt": "2026-09-30T15:28:30.401Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1366,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "918bf648c05b3a5b",
+		"name": "Sets operating standards for infant and other childcare attendance support services",
+		"official": "Ordinance Establishing Standards for the Operation of Specified Infant and Other Childcare Attendance Support Businesses in Katsushika City",
+		"summary": "In response to the amendment of the Child and Childcare Support Act, the ward sets operating standards for specified infant and other childcare attendance support services in the ward. The standards are those set out in Cabinet Office Order No. 95 of 2025, and take effect on April 1, 2026.",
+		"changes": [
+			"Uses the standards set out in the national Cabinet Office Order as the City's operating standards"
+		],
+		"who": [
+			"Operators of specified infant and other childcare attendance support services"
+		],
+		"why": "The ward says it needs to set its operating standards in response to the amendment of the Child and Childcare Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:38.973Z",
+			"inputTokens": 590,
+			"cachedTokens": 0,
+			"outputTokens": 719,
+			"reasoningTokens": 516
+		}
+	}
 }

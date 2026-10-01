@@ -32,5 +32,85 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB792_41.pdf",
 			"fetchedAt": "2026-09-30T12:32:35.668Z"
 		}
-	]
+	],
+	"name": "専門職を保育士の配置数に算入",
+	"category": "子育て",
+	"summary": "現行条例には、今回対象となる専門職等を保育士の数に算入する規定はありません。この議案では、条件を満たす専門職等を1人まで保育士とみなせるようにし、保育を行う際に保育士が支援できる体制を求めます。条例内の引用条項番号なども改め、公布の日から施行します。",
+	"changes": [
+		"条件を満たす理学療法士などを1人まで保育士とみなせるようにする",
+		"保育士とみなす人が保育を行う際、保育士が支援できる体制を確保する",
+		"条例内の引用条項番号などを改める"
+	],
+	"who": [
+		"保育所の運営者",
+		"保育所で働く対象の専門職"
+	],
+	"why": "障害のある子どもや医療的ケア児の受入れを進め、ニーズに応じた専門的支援を確保・充実するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:43:57.804Z",
+		"inputTokens": 2237,
+		"cachedTokens": 0,
+		"outputTokens": 2165,
+		"reasoningTokens": 1857
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:43:57.804Z",
+		"checkedAt": "2026-09-30T15:34:25.673Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "条件を満たす理学療法士などを1人まで保育士とみなせるようにする",
+				"note": "算入対象を決める主な条件が具体的に示されていません。原文では対象者全員に子育てに関する知識・経験を求め、障害児の療育に関する知識・経験を有する者については療育指導業務に5年以上従事した経験も求めています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保育士とみなす人が保育を行う際、保育士が支援できる体制を確保する",
+				"note": "原文の第四十三条第三項ただし書では、支援を行う保育士から付則第五項、第十項、第十一項により保育士とみなされる者を除いています。支援者の範囲を限定する条件が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2291,
+			"cachedTokens": 0,
+			"outputTokens": 575,
+			"reasoningTokens": 280
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0f6bee8c74f9537a",
+		"name": "Counts specialists toward the required number of childcare workers",
+		"official": "Ordinance Partially Amending the Minato City Ordinance Setting Standards for Equipment and Operation of Child Welfare Facilities",
+		"summary": "The current ordinance has no provision for counting the specialists and others covered by this proposal toward the number of childcare workers. This bill allows up to one eligible specialist or other person to be treated as a childcare worker, and requires a system that enables childcare workers to provide support when that person provides childcare. It also revises cited article numbers and other references in the ordinance, and takes effect on the date of promulgation.",
+		"changes": [
+			"Allow up to one eligible physical therapist or other specialist to be treated as a childcare worker",
+			"Ensure that childcare workers can provide support when a person treated as a childcare worker provides childcare",
+			"Revise cited article numbers and other references in the ordinance"
+		],
+		"who": [
+			"Operators of childcare centers",
+			"Specialists covered by the bill who work at childcare centers"
+		],
+		"why": "The ward says this is to promote the acceptance of children with disabilities and children who need medical care, and to secure and improve specialized support suited to their needs.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:52.705Z",
+			"inputTokens": 668,
+			"cachedTokens": 0,
+			"outputTokens": 493,
+			"reasoningTokens": 223
+		}
+	}
 }

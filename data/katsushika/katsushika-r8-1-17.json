@@ -27,5 +27,83 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian17.pdf",
 			"fetchedAt": "2026-09-30T10:37:17.471Z"
 		}
-	]
+	],
+	"name": "管理職員特別勤務手当の対象時間を拡大",
+	"category": "教育",
+	"summary": "現在は、週休日等以外の日の午前0時から始まる時間帯の勤務が、管理職員特別勤務手当の対象です。改正後は対象時間の始まりを午後10時にし、週休日等に当たる時間を除いて翌日にかけて対象とします。また、一定の勤務について手当額を通常の1.5倍とする規定を設けます。",
+	"changes": [
+		"週休日等以外の日の支給対象時間を午後10時から翌日にかけてに広げ、週休日等に当たる時間を除く",
+		"人事委員会の承認を得て教育委員会規則で定める勤務について、手当額を通常額の150%にする"
+	],
+	"who": [
+		"幼稚園教育職員の管理職"
+	],
+	"why": "管理職の職務や職責をより重視する給与体系の見直しに伴い、手当の支給対象時間を広げるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:33:53.466Z",
+		"inputTokens": 1444,
+		"cachedTokens": 0,
+		"outputTokens": 1128,
+		"reasoningTokens": 860
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:33:53.466Z",
+		"checkedAt": "2026-09-30T15:29:16.819Z",
+		"flags": [
+			"copied from the source (25 chars): 「人事委員会の承認を得て教育委員会規則で定める勤務に」"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "人事委員会の承認を得て教育委員会規則で定める勤務について、手当額を通常額の150%にする",
+				"note": "原文は第23条第3項第1号の既存の150％規定を削り、前2項の勤務を対象とする規定を同項に加えています。150％の適用対象を広げる変更である点が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1487,
+			"cachedTokens": 0,
+			"outputTokens": 619,
+			"reasoningTokens": 485
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (25 chars): 「人事委員会の承認を得て教育委員会規則で定める勤務に」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6dccd1e4bc53f22d",
+		"name": "Expands hours eligible for special work allowances for managers",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries for Kindergarten Education Personnel",
+		"summary": "Currently, work during the period beginning at 12 a.m. on days other than weekly days off, etc., is eligible for the special work allowance for managers. Under the amendment, eligible hours will begin at 10 p.m. and extend into the following day, excluding hours that fall on weekly days off, etc. It also establishes a rule setting the allowance for certain work at 1.5 times the usual amount.",
+		"changes": [
+			"Extends eligible hours on days other than weekly days off, etc., from 10 p.m. into the following day, excluding hours that fall on weekly days off, etc.",
+			"Sets the allowance at 150% of the usual amount for work specified by Board of Education rules with approval from the Personnel Commission"
+		],
+		"who": [
+			"Kindergarten education personnel in management positions"
+		],
+		"why": "The ward says this is to expand the hours covered by the allowance as part of a review of the pay system that places greater emphasis on managers’ duties and responsibilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:23:25.192Z",
+			"inputTokens": 645,
+			"cachedTokens": 0,
+			"outputTokens": 986,
+			"reasoningTokens": 716
+		}
+	}
 }

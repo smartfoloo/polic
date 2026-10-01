@@ -27,5 +27,64 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian64.pdf",
 			"fetchedAt": "2026-09-30T10:40:29.327Z"
 		}
-	]
+	],
+	"name": "仮設自転車駐車場の位置を変更",
+	"category": "交通",
+	"summary": "現在、立石北第三仮設自転車駐車場の位置は立石七丁目2番です。この議案では、位置を立石四丁目18番8号、立石七丁目3番16号、立石七丁目23番先に改めます。施行日は葛飾区規則で定めます。",
+	"changes": [
+		"位置を立石七丁目2番から立石四丁目18番8号、立石七丁目3番16号、立石七丁目23番先に改める"
+	],
+	"who": [
+		"立石北第三仮設自転車駐車場を利用する人"
+	],
+	"why": "駐車場の位置を改める必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:39:31.711Z",
+		"inputTokens": 1221,
+		"cachedTokens": 0,
+		"outputTokens": 721,
+		"reasoningTokens": 495
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:39:31.711Z",
+		"checkedAt": "2026-09-30T15:32:12.232Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1193,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "196a3f05e6774264",
+		"name": "Changes the location of a temporary bicycle parking lot",
+		"official": "Ordinance Partially Amending the Katsushika City Bicycle Parking Lots and Bicycle Parking Areas Ordinance",
+		"summary": "The Tateishi North No. 3 Temporary Bicycle Parking Lot is currently located at 2, Tateishi 7-chome. This bill changes its location to 18-8, Tateishi 4-chome; 3-16, Tateishi 7-chome; and in front of 23, Tateishi 7-chome. The effective date will be set by Katsushika City regulations.",
+		"changes": [
+			"Changes the location from 2, Tateishi 7-chome to 18-8, Tateishi 4-chome; 3-16, Tateishi 7-chome; and in front of 23, Tateishi 7-chome"
+		],
+		"who": [
+			"People who use the Tateishi North No. 3 Temporary Bicycle Parking Lot"
+		],
+		"why": "The mayor says this is because the parking lot's location needs to be changed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:02:10.263Z",
+			"inputTokens": 583,
+			"cachedTokens": 0,
+			"outputTokens": 508,
+			"reasoningTokens": 259
+		}
+	}
 }

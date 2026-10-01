@@ -22,5 +22,74 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2811_gian76.pdf",
 			"fetchedAt": "2026-09-30T10:43:42.577Z"
 		}
-	]
+	],
+	"name": "印鑑登録の保証人の範囲を拡大",
+	"category": "くらし・手続き",
+	"summary": "現行の条例では、印鑑登録の申請や記録の扱いが定められています。この議案では、申請者の本人確認で保証人になれる範囲を広げます。また、登録記録の保存方法や、印鑑登録証明書に関するカードの規定などを改めます。",
+	"changes": [
+		"本人確認に使う保証人の範囲を広げる",
+		"印鑑登録原票を磁気ディスクで作成し、紙の台帳も作成・保管できるようにする",
+		"個人番号カードの規定に特定在留カードと特定特別永住者証明書を含める",
+		"申請や届出に関する規定から、所定の書類を使う旨の記載を削る"
+	],
+	"who": [
+		"印鑑登録を申請する人",
+		"保証人になろうとする人",
+		"特定在留カードまたは特定特別永住者証明書を持つ人"
+	],
+	"why": "本人確認における保証人の範囲を広げるほか、規定を整える必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:31:49.856Z",
+		"inputTokens": 1595,
+		"cachedTokens": 0,
+		"outputTokens": 1585,
+		"reasoningTokens": 1240
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:31:49.856Z",
+		"checkedAt": "2026-09-30T15:28:07.981Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1681,
+			"cachedTokens": 0,
+			"outputTokens": 99,
+			"reasoningTokens": 85
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2f045d44377686b8",
+		"name": "Expands who can act as a guarantor for seal registration",
+		"official": "Ordinance Partially Amending the Edogawa City Seal Registration Ordinance",
+		"summary": "The current ordinance sets out how applications for seal registration are made and how registration records are handled. This bill expands who can act as a guarantor when verifying an applicant’s identity. It also changes how registration records are kept and provisions on cards related to seal registration certificates.",
+		"changes": [
+			"Expand who can act as a guarantor for identity verification",
+			"Create seal registration records on magnetic disks and allow paper registers to be created and kept",
+			"Include Specified Residence Cards and Specified Special Permanent Resident Certificates in the provisions on Individual Number Cards",
+			"Remove wording requiring prescribed forms from provisions on applications and notifications"
+		],
+		"who": [
+			"People applying for seal registration",
+			"People seeking to act as guarantors",
+			"People with a Specified Residence Card or Specified Special Permanent Resident Certificate"
+		],
+		"why": "The mayor says this is necessary to expand who can act as a guarantor for identity verification and to update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:02.256Z",
+			"inputTokens": 686,
+			"cachedTokens": 0,
+			"outputTokens": 704,
+			"reasoningTokens": 446
+		}
+	}
 }

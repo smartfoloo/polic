@@ -61,5 +61,30 @@
 			"outputTokens": 48,
 			"reasoningTokens": 34
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bafe4e3133bb2bbf",
+		"name": "Sets the after-school club fee at ¥5,800 per month",
+		"official": "Ordinance Partially Amending the Suginami City Children's and Youth Centers and Children's Halls Ordinance",
+		"summary": "Currently, the after-school club fee is ¥4,000 per child per month, and each club collects snack costs separately from parents. Under this bill, snack costs will be collected as part of the user fee, and the fee will change to ¥5,800 per month starting with the fee for April 2027.",
+		"changes": [
+			"Raises the after-school club fee from ¥4,000 to ¥5,800 per month",
+			"Collects snack costs as part of the user fee"
+		],
+		"who": [
+			"Parents of children who use after-school clubs"
+		],
+		"why": "The ward says this is to manage snack costs through the ward's accounts, improve convenience for parents and accounting transparency, and collect snack costs as part of the user fee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:47.815Z",
+			"inputTokens": 597,
+			"cachedTokens": 0,
+			"outputTokens": 662,
+			"reasoningTokens": 435
+		}
 	}
 }

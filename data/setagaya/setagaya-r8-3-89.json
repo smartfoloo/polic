@@ -27,5 +27,72 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/89.pdf",
 			"fetchedAt": "2026-09-30T10:23:28.660Z"
 		}
-	]
+	],
+	"name": "保育事業者に性暴力防止措置を義務化",
+	"category": "子育て",
+	"summary": "この条例は、家庭的保育事業などの設備や運営の基準を定めています。改正案は、利用乳幼児と接する特定の環境にいる従事者の犯罪事実確認などを通じ、児童対象性暴力等を防ぎ、発生した場合に利用乳幼児を保護するための措置を求めます。性暴力等の防止規定は令和8年12月25日から、その他の改正は令和9年4月1日から施行されます。",
+	"changes": [
+		"特定の環境で利用乳幼児と接する従事者について犯罪事実確認などを求める",
+		"児童対象性暴力等の防止と発生時の保護に必要な措置を義務づける",
+		"満3歳以上限定小規模保育事業に関する適用規定などを整理する"
+	],
+	"who": [
+		"家庭的保育事業などを運営する事業者",
+		"利用乳幼児と接する対象業務の従事者",
+		"家庭的保育事業などを利用する乳幼児"
+	],
+	"why": "家庭的保育事業等の設備及び運営の基準の改正を受け、児童対象性暴力等を防ぐ規定を設け、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:57:41.719Z",
+		"inputTokens": 2023,
+		"cachedTokens": 0,
+		"outputTokens": 2390,
+		"reasoningTokens": 1999
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:57:41.719Z",
+		"checkedAt": "2026-09-30T15:41:55.320Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2153,
+			"cachedTokens": 0,
+			"outputTokens": 97,
+			"reasoningTokens": 83
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1e56568df96efe29",
+		"name": "Requires childcare providers to take measures to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Standards for Equipment and Operation of Home-Based Childcare Businesses, etc.",
+		"summary": "This ordinance sets standards for the equipment and operation of home-based childcare businesses and similar services. The proposed amendment requires measures to prevent sexual violence against children, etc., including criminal record checks for workers in certain settings who come into contact with infants and toddlers using the services, and to protect those infants and toddlers if such violence occurs. The provisions on preventing sexual violence, etc., take effect on December 25, 2026; the other amendments take effect on April 1, 2027.",
+		"changes": [
+			"Require criminal record checks, etc., for workers in certain settings who come into contact with infants and toddlers using the services",
+			"Require measures to prevent sexual violence against children, etc., and to protect infants and toddlers if it occurs",
+			"Clarify provisions on applying the rules to small-scale childcare businesses limited to children aged 3 and over, etc."
+		],
+		"who": [
+			"Operators of home-based childcare businesses and similar services",
+			"Workers in covered roles who come into contact with infants and toddlers using the services",
+			"Infants and toddlers who use home-based childcare businesses and similar services"
+		],
+		"why": "The ward says the amendment is needed in response to revisions to the standards for equipment and operation of home-based childcare businesses and similar services, to establish provisions to prevent sexual violence against children, etc., and to adjust the ordinance's provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:17.422Z",
+			"inputTokens": 751,
+			"cachedTokens": 0,
+			"outputTokens": 1022,
+			"reasoningTokens": 670
+		}
+	}
 }

@@ -59,5 +59,28 @@
 			"outputTokens": 167,
 			"reasoningTokens": 153
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3617151e9c9cbd6b",
+		"name": "Organizes administrative rules on school staff salaries",
+		"official": "Ordinance Partially Amending the Ordinance on Special Exceptions to Administrative Procedures of the Tokyo Metropolitan Board of Education",
+		"summary": "The current ordinance includes references such as “dependent allowance” in provisions on administrative work concerning school staff salaries. This bill replaces that term with “dependent relatives” and revises references to Board of Education rules. It takes effect on the date of promulgation.",
+		"changes": [
+			"Changes “dependent allowance” to “dependent relatives”",
+			"Revises references to administrative work based on Board of Education rules"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says the provisions are being adjusted to align with amendments to the ordinance on school staff salaries.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:33.242Z",
+			"inputTokens": 553,
+			"cachedTokens": 0,
+			"outputTokens": 553,
+			"reasoningTokens": 374
+		}
 	}
 }

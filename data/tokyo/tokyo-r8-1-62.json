@@ -73,5 +73,34 @@
 			"outputTokens": 570,
 			"reasoningTokens": 466
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "456b352278c195fb",
+		"name": "Sets standards for wheelchair spaces in theaters and similar venues",
+		"official": "Ordinance Partially Amending the Ordinance on the Development of Buildings That Are Easy for Older People, Persons with Disabilities, etc. to Use",
+		"summary": "The current ordinance has no standards for wheelchair spaces in seating areas at theaters and similar venues. This bill adds requirements for the number of spaces on each floor, spaces for companions, and the placement of the spaces. It will take effect on October 1, 2026, and apply to construction and other work that begins on or after that date.",
+		"changes": [
+			"Provide at least 2 spaces for wheelchair users on each floor, and on floors with 267 or more seats, provide spaces equal to at least 0.75% of the number of seats",
+			"Provide at least 1 space for a companion beside each space for a wheelchair user",
+			"Place at least 2 spaces for wheelchair users side by side",
+			"On floors with more than 400 seats, distribute the spaces on the left and right; on floors with more than 1,000 seats, distribute them at the front and back as well as on the left and right"
+		],
+		"who": [
+			"People who use wheelchairs at theaters and similar venues",
+			"Companions of people who use wheelchairs",
+			"Businesses that build theaters and similar venues"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to provide seating areas at theaters and similar venues that are easy for many people to use.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:25:39.333Z",
+			"inputTokens": 693,
+			"cachedTokens": 0,
+			"outputTokens": 1045,
+			"reasoningTokens": 704
+		}
 	}
 }

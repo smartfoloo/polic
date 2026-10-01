@@ -32,5 +32,68 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB723_9.pdf",
 			"fetchedAt": "2026-09-30T12:26:56.561Z"
 		}
-	]
+	],
+	"name": "母子生活支援施設に親子の短期支援を追加",
+	"category": "福祉",
+	"summary": "母子生活支援施設が行う事業に、母子一体型ショートケア事業を加えます。この事業では、病気や疲労などで家庭での子どもの養育が一時的に難しい保護者と子どもを、施設に受け入れて支援します。条例は令和8年4月1日から施行されます。",
+	"changes": [
+		"母子一体型ショートケア事業を施設の事業に加える",
+		"対象の保護者と子どもを施設に入所させて事業を実施する",
+		"事業に使う部屋数を区規則で定める"
+	],
+	"who": [
+		"家庭で一時的に子どもを養育することが難しい保護者とその子ども"
+	],
+	"why": "母子生活支援施設が行う事業に母子一体型ショートケア事業を加えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:43:01.155Z",
+		"inputTokens": 1418,
+		"cachedTokens": 0,
+		"outputTokens": 1032,
+		"reasoningTokens": 743
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:43:01.155Z",
+		"checkedAt": "2026-09-30T15:33:59.395Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1453,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a0af163754adb35a",
+		"name": "Adds short-term parent-and-child support to facility services",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on Mother-and-Child Living Support Facilities",
+		"summary": "Adds a parent-and-child short-term care service to the services provided by mother-and-child living support facilities. The service accepts and supports caregivers and children at a facility when illness, fatigue, or other reasons make it temporarily difficult for the caregiver to care for the child at home. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Adds the parent-and-child short-term care service to the services provided by the facility",
+			"Provides the service by admitting eligible caregivers and children to the facility",
+			"Sets the number of rooms used for the service in rules set by the ward"
+		],
+		"who": [
+			"Caregivers who temporarily have difficulty caring for a child at home, and their children"
+		],
+		"why": "The ward says the change adds the parent-and-child short-term care service to the services provided by mother-and-child living support facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:25:22.590Z",
+			"inputTokens": 635,
+			"cachedTokens": 0,
+			"outputTokens": 757,
+			"reasoningTokens": 512
+		}
+	}
 }

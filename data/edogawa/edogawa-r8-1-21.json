@@ -22,5 +22,68 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2744_gian21%20.pdf",
 			"fetchedAt": "2026-09-30T10:41:53.614Z"
 		}
-	]
+	],
+	"name": "所在不明者への不利益処分の公示方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在は、対象者の所在が分からない場合、行政庁の事務所の掲示場に必要事項を掲示して通知します。この議案で、公示事項を定められた方法で広く閲覧できる状態にし、さらに事務所の掲示場への掲示か、事務所に設置した電子計算機の画面で閲覧できる状態にする方法へ改めます。措置を始めてから2週間が経過すると、通知が届いたものとみなします。令和8年5月21日から施行します。",
+	"changes": [
+		"公示事項を規則で定める方法で不特定多数が閲覧できる状態に置く",
+		"公示事項を書いた書面を事務所の掲示場に掲示するか、事務所の電子計算機の画面で閲覧できる状態に置く",
+		"措置を始めてから2週間が経過したときに通知が届いたものとみなす"
+	],
+	"who": [
+		"不利益処分の対象となる予定で、所在が判明しない人"
+	],
+	"why": "行政手続法の改正を踏まえ、公示方法などの規定を改める必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:28:40.312Z",
+		"inputTokens": 1802,
+		"cachedTokens": 0,
+		"outputTokens": 1111,
+		"reasoningTokens": 751
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:28:40.312Z",
+		"checkedAt": "2026-09-30T15:26:27.593Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1909,
+			"cachedTokens": 0,
+			"outputTokens": 104,
+			"reasoningTokens": 90
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f029e023886426b2",
+		"name": "Changes public notice methods for adverse dispositions when whereabouts are unknown",
+		"official": "Ordinance Partially Amending the Edogawa City Administrative Procedure Ordinance",
+		"summary": "Currently, when a person's whereabouts are unknown, the administrative authority notifies them by posting the required information on the notice board at its office. This bill changes the method so that the information to be publicly announced is made widely accessible by a method set out in rules, and is also either posted on the notice board at the office or made viewable on a computer screen installed there. The person is deemed to have received the notice once 2 weeks have passed from the start of these measures. The ordinance takes effect on May 21, 2026.",
+		"changes": [
+			"Make the information to be publicly announced accessible to an unspecified number of people by a method set out in rules",
+			"Post a written notice containing the information on the office notice board, or make it viewable on a computer screen installed at the office",
+			"Deem the person to have received the notice once 2 weeks have passed from the start of these measures"
+		],
+		"who": [
+			"People who may be subject to an adverse disposition and whose whereabouts are unknown"
+		],
+		"why": "The mayor says the provisions on public notice methods and related matters need to be revised in light of amendments to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:57:53.744Z",
+			"inputTokens": 703,
+			"cachedTokens": 0,
+			"outputTokens": 1007,
+			"reasoningTokens": 701
+		}
+	}
 }

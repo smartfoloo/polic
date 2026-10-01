@@ -22,5 +22,78 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2750_gian27%20.pdf",
 			"fetchedAt": "2026-09-30T10:42:29.706Z"
 		}
-	]
+	],
+	"name": "通園支援事業の運営基準を設定",
+	"category": "子育て",
+	"summary": "現在、区の条例では特定乳児等通園支援事業の運営基準を定めていません。この議案で、国の府令に定める基準を区の条例上の基準とし、2026年4月1日から施行します。",
+	"changes": [
+		"国の府令に定める基準を区の運営基準とする",
+		"条例の施行に必要な事項を区長が別に定める"
+	],
+	"who": [
+		"特定乳児等通園支援事業の運営者"
+	],
+	"why": "法の規定に基づき、区の事業運営基準を条例で定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:29:48.802Z",
+		"inputTokens": 1455,
+		"cachedTokens": 0,
+		"outputTokens": 1224,
+		"reasoningTokens": 998
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:29:48.802Z",
+		"checkedAt": "2026-09-30T15:27:00.265Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在、区の条例では特定乳児等通園支援事業の運営基準を定めていません。",
+				"note": "原文は運営基準を条例で定めることを示していますが、現行の区条例に基準がないとは明記していません。",
+				"dismissed": {
+					"note": "This is a new ordinance, not an amendment, so the ward had no ordinance standards for it before.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1428,
+			"cachedTokens": 0,
+			"outputTokens": 126,
+			"reasoningTokens": 28
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "87229e9a2188f742",
+		"name": "Sets operating standards for childcare attendance support services",
+		"official": "Edogawa City Ordinance Establishing Standards for the Operation of Specified Infant and Other Childcare Attendance Support Services",
+		"summary": "Edogawa City’s current ordinance does not set operating standards for specified infant and other childcare attendance support services. This bill adopts the standards set out in the national Cabinet Office Ordinance as the standards under Edogawa City’s ordinance, effective April 1, 2026.",
+		"changes": [
+			"Adopts the standards set out in the national Cabinet Office Ordinance as Edogawa City’s operating standards",
+			"Allows the mayor to separately set matters needed to implement the ordinance"
+		],
+		"who": [
+			"Operators of specified infant and other childcare attendance support services"
+		],
+		"why": "The ward says the law requires operating standards for the ward’s services to be set by ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:22:38.710Z",
+			"inputTokens": 582,
+			"cachedTokens": 0,
+			"outputTokens": 801,
+			"reasoningTokens": 595
+		}
+	}
 }

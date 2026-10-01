@@ -75,29 +75,29 @@
 	"en": {
 		"approved": false,
 		"sourceHash": "2db453cb01d86737",
-		"name": "Changes to Standards for Infant and Other Childcare Attendance Support Services",
-		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Facilities and Operation of Infant and Other Childcare Attendance Support Services in Minato Ward",
-		"summary": "The ward currently sets standards for the facilities and operation of infant and other childcare attendance support services by ordinance. This bill revises the matters that must be set out in operating rules and how the standards for facilities and staff apply. The amendments take effect on April 1, 2026.",
+		"name": "Changes standards for infant and young child attendance support services",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Facilities and Operation of Minato City Infant and Other Child Attendance Support Services",
+		"summary": "The standards for the facilities and operation of infant and other child attendance support services are currently set by ordinance. This bill revises the required contents of operating regulations and how standards for facilities and staff apply. The amendments take effect on April 1, 2026.",
 		"changes": [
-			"Removes the separate categories for infants and toddlers from the service capacity specified in the operating rules",
-			"Clarifies that the service capacity is the capacity set through confirmation under the Child and Childrearing Support Act",
-			"Exempts providers carrying out special childcare from the facility and staff standards when they also provide general-type services at the same facility",
-			"Revises terms used in the ordinance and the matters to be specified in the operating rules"
+			"Removes the separate capacity categories for infants and young children from the capacity set out in operating regulations",
+			"Clarifies that the capacity is the one set through confirmation under the Act on Child and Child-Rearing Support",
+			"Exempts providers offering special-case childcare from facility and staff standards when they also offer the general type at the same facility",
+			"Revises terms in the ordinance and the matters to be included in operating regulations"
 		],
 		"who": [
-			"Facilities providing infant and other childcare attendance support services",
-			"Providers carrying out special childcare"
+			"Infant and other child attendance support service facilities",
+			"Providers offering special-case childcare"
 		],
-		"why": "The ward says the standards for operating rules and other matters are being changed in light of revisions to national standards.",
+		"why": "The ward says the changes are being made to revise standards concerning operating regulations and other matters in light of amendments to national standards.",
 		"draft": {
 			"model": "gpt-6-luna",
 			"effort": "high",
-			"promptVersion": 1,
-			"generatedAt": "2026-09-30T12:46:54.499Z",
-			"inputTokens": 652,
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:02:35.770Z",
+			"inputTokens": 688,
 			"cachedTokens": 0,
-			"outputTokens": 1165,
-			"reasoningTokens": 881
+			"outputTokens": 1280,
+			"reasoningTokens": 1004
 		}
 	}
 }

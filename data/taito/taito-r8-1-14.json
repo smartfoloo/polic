@@ -27,5 +27,64 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-14.pdf",
 			"fetchedAt": "2026-09-30T10:10:57.944Z"
 		}
-	]
+	],
+	"name": "こども家庭部を新設",
+	"category": "行政のしくみ",
+	"summary": "現在の組織条例に、こども家庭部はありません。この議案で同部を新設し、子供や若者に関する施策、子育て支援、保育、青少年育成を所管事務に加えます。",
+	"changes": [
+		"こども家庭部を新設する",
+		"子供施策と若者育成支援施策の企画・調整を所管する",
+		"児童育成、子育て支援、保育、青少年育成を所管する"
+	],
+	"who": [],
+	"why": "こども家庭部を新設し、分掌事務を改めるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:12:26.951Z",
+		"inputTokens": 1250,
+		"cachedTokens": 0,
+		"outputTokens": 702,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:12:26.951Z",
+		"checkedAt": "2026-09-30T15:49:46.098Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1205,
+			"cachedTokens": 0,
+			"outputTokens": 216,
+			"reasoningTokens": 202
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "21bfdb85d8d947ba",
+		"name": "Establishes a Children and Families Department",
+		"official": "Ordinance Partially Amending the Taito City Office Organization Ordinance",
+		"summary": "The current organization ordinance does not include a Children and Families Department. This bill establishes the department and adds policies concerning children and young people, parenting support, childcare, and youth development to its areas of responsibility.",
+		"changes": [
+			"Establishes a Children and Families Department",
+			"Makes the department responsible for planning and coordinating policies for children and support policies for young people",
+			"Makes the department responsible for child development, parenting support, childcare, and youth development"
+		],
+		"who": [],
+		"why": "The mayor says this is to establish a Children and Families Department and revise its assigned duties.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:18:16.198Z",
+			"inputTokens": 555,
+			"cachedTokens": 0,
+			"outputTokens": 525,
+			"reasoningTokens": 347
+		}
+	}
 }

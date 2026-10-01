@@ -62,5 +62,31 @@
 			"outputTokens": 138,
 			"reasoningTokens": 124
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ab1bfa8e1f61165a",
+		"name": "Establishes a child guidance center in Suginami City",
+		"official": "Ordinance Establishing the Suginami City Child Guidance Center",
+		"summary": "Suginami City was designated in February 2026 as a municipality that may establish a child guidance center. This bill establishes a child guidance center responsible for the city at 1-14-8 Asagayaminami. The ordinance takes effect on November 1, 2026.",
+		"changes": [
+			"Establishes a child guidance center in Suginami City",
+			"Sets its location at 1-14-8 Asagayaminami",
+			"Sets its area of responsibility as all of Suginami City"
+		],
+		"who": [
+			"People who use a child guidance center in Suginami City"
+		],
+		"why": "The ward says this is because Suginami City was designated as a municipality that may establish a child guidance center, and it was necessary to set the center's location and other details.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:14:23.001Z",
+			"inputTokens": 573,
+			"cachedTokens": 0,
+			"outputTokens": 436,
+			"reasoningTokens": 206
+		}
 	}
 }

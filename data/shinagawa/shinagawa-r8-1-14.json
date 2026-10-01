@@ -22,5 +22,64 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_14.pdf",
 			"fetchedAt": "2026-09-30T10:14:57.283Z"
 		}
-	]
+	],
+	"name": "区職員の定数を2,752人に引き上げ",
+	"category": "行政のしくみ",
+	"summary": "現在の職員定数は2,703人です。議案では、令和8年4月1日から2,752人に改め、令和9年3月31日までは定数を超える人数を120人まで定数外として扱います。また、条例に「主務教諭」を加えます。",
+	"changes": [
+		"職員定数を2,703人から2,752人に増やす",
+		"定数を超える人数を120人まで定数外として扱う",
+		"「主務教諭」を規定に加える"
+	],
+	"who": [],
+	"why": "児童相談所の体制整備と行財政の見直しに伴う措置が必要なためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:59:32.134Z",
+		"inputTokens": 1286,
+		"cachedTokens": 0,
+		"outputTokens": 730,
+		"reasoningTokens": 499
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:59:32.134Z",
+		"checkedAt": "2026-09-30T15:42:57.400Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1269,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "064cb4939b8fdd1e",
+		"name": "Raises the employee staffing limit to 2,752",
+		"official": "Ordinance Partially Amending the Shinagawa City Employee Staffing Quota Ordinance",
+		"summary": "The current employee staffing limit is 2,703. The bill changes it to 2,752 from April 1, 2026, and allows up to 120 employees above the limit to be treated as outside the limit through March 31, 2027. It also adds “chief supervising teacher” to the ordinance.",
+		"changes": [
+			"Raises the employee staffing limit from 2,703 to 2,752",
+			"Treats up to 120 employees above the limit as outside the limit",
+			"Adds “chief supervising teacher” to the ordinance"
+		],
+		"who": [],
+		"why": "The ward says these measures are needed in connection with establishing staffing arrangements for the child guidance center and reviewing administrative and financial operations.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:11:15.865Z",
+			"inputTokens": 574,
+			"cachedTokens": 0,
+			"outputTokens": 648,
+			"reasoningTokens": 436
+		}
+	}
 }

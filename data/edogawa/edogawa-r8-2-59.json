@@ -22,5 +22,83 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2787_gian59.pdf",
 			"fetchedAt": "2026-09-30T10:43:11.741Z"
 		}
-	]
+	],
+	"name": "条例内の法律名と条文の引用を更新",
+	"category": "行政のしくみ",
+	"summary": "条例では、マンションの建替え等に関する法律名や条文を引用しています。この議案で、引用する法律名と条文を改め、関連する規定を整えます。",
+	"changes": [
+		"引用する法律名と条文を改める",
+		"関連する規定を整える"
+	],
+	"who": [],
+	"why": "マンションの建替え等の円滑化に関する法律の改正に伴い、引用箇所などを整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:30:55.707Z",
+		"inputTokens": 1070,
+		"cachedTokens": 0,
+		"outputTokens": 585,
+		"reasoningTokens": 435
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:30:55.707Z",
+		"checkedAt": "2026-09-30T15:27:51.587Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "引用する法律名と条文を改める",
+				"note": "概要には同旨の記載がありますが、議案本文は「『容積率』『』」など改正前後の対応が崩れており、具体的な変更の向きを確認できません。",
+				"dismissed": {
+					"note": "The draft follows the 概要 and makes no before/after claim from the broken text.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 990,
+			"cachedTokens": 0,
+			"outputTokens": 152,
+			"reasoningTokens": 61
+		},
+		"dismissedFlags": [
+			{
+				"flag": "source has a garbled before/after table: check the direction of changes against the PDF",
+				"note": "The draft makes no before/after claim from the broken table, so it is not affected.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e41fd0d8887f7bd",
+		"name": "Updates cited law titles and article references in the ordinance",
+		"official": "Ordinance Partially Amending the Edogawa City Ordinance on Administrative Service Fees",
+		"summary": "The ordinance cites the name and articles of the Act on Facilitation of Reconstruction of Condominiums, etc. This bill changes the cited law title and article references and adjusts related provisions.",
+		"changes": [
+			"Amends the cited law title and article references",
+			"Adjusts related provisions"
+		],
+		"who": [],
+		"why": "The ward says this is to update the cited passages and other references following amendments to the Act on Facilitation of Reconstruction of Condominiums.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:23:01.415Z",
+			"inputTokens": 517,
+			"cachedTokens": 0,
+			"outputTokens": 475,
+			"reasoningTokens": 317
+		}
+	}
 }

@@ -22,5 +22,68 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2789_gian61.pdf",
 			"fetchedAt": "2026-09-30T10:43:23.815Z"
 		}
-	]
+	],
+	"name": "看護師等を支援する保育士の範囲を整理",
+	"category": "子育て",
+	"summary": "区の条例には、保育所で保育を行う看護師等を支援する保育士に関する規定があります。この議案では、支援を行う保育士の範囲を改め、保育士とみなされる人などを除くことを定めます。",
+	"changes": [
+		"看護師等を支援する保育士から、保育士とみなされる人や別途支援を行う人を除く",
+		"保育士の定義を省令の規定に合わせて改める"
+	],
+	"who": [
+		"保育所の運営者",
+		"保育所で働く保育士や看護師等"
+	],
+	"why": "国の児童福祉施設の設備及び運営に関する基準の改正に伴い、条例の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:31:15.500Z",
+		"inputTokens": 1476,
+		"cachedTokens": 0,
+		"outputTokens": 1802,
+		"reasoningTokens": 1532
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:31:15.500Z",
+		"checkedAt": "2026-09-30T15:27:57.875Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1493,
+			"cachedTokens": 0,
+			"outputTokens": 62,
+			"reasoningTokens": 47
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "814dda2beb8241bc",
+		"name": "Clarifies the scope of childcare workers who support nurses and others",
+		"official": "Ordinance Partially Amending the Edogawa City Ordinance Establishing Standards for Equipment and Operation of Child Welfare Facilities",
+		"summary": "The ward's ordinance includes provisions on childcare workers who support nurses and others providing childcare at nursery schools. This bill revises the scope of childcare workers who provide support and stipulates that people deemed to be childcare workers, among others, are excluded.",
+		"changes": [
+			"Excludes people deemed to be childcare workers and people who provide separate support from the childcare workers who support nurses and others",
+			"Revises the definition of a childcare worker to match the provisions of the ministerial ordinance"
+		],
+		"who": [
+			"Nursery school operators",
+			"Childcare workers, nurses, and others working at nursery schools"
+		],
+		"why": "The ward says this is necessary to bring the ordinance's provisions into line with amendments to the national Standards for Equipment and Operation of Child Welfare Facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:58:46.641Z",
+			"inputTokens": 632,
+			"cachedTokens": 0,
+			"outputTokens": 742,
+			"reasoningTokens": 510
+		}
+	}
 }

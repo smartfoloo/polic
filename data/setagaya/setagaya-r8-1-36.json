@@ -32,5 +32,76 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/36.pdf",
 			"fetchedAt": "2026-09-30T10:21:10.221Z"
 		}
-	]
+	],
+	"name": "介護保険料の所得計算に特例を追加",
+	"category": "福祉",
+	"summary": "現在、介護保険料率は条例に定める合計所得金額をもとに算定します。この改正で、令和7年の給与収入が551,000円以上1,900,000円未満の第1号被保険者について、令和8年度分の一部の保険料率を計算する際の特例を設けます。",
+	"changes": [
+		"給与所得に給与収入から550,000円を差し引いた額を加えて合計所得金額を計算する",
+		"給与所得に100,000円を加えて合計所得金額を計算する",
+		"給与所得に650,000円から令和7年給与所得控除額を差し引いた額を加えて合計所得金額を計算する"
+	],
+	"who": [
+		"令和7年に給与収入が所定の範囲にあった第1号被保険者"
+	],
+	"why": "介護保険法施行令の改正を受け、保険料率の計算に特別な扱いを設ける必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:54:03.451Z",
+		"inputTokens": 3377,
+		"cachedTokens": 0,
+		"outputTokens": 3037,
+		"reasoningTokens": 2718
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:54:03.451Z",
+		"checkedAt": "2026-09-30T15:39:23.421Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "給与所得に給与収入から550,000円を差し引いた額を加えて合計所得金額を計算する",
+				"note": "3つの計算方法それぞれの適用範囲が抜けている。原文第11条第1～3項では、令和7年の給与収入が順に551,000円以上651,000円未満、651,000円以上1,619,000円未満、1,619,000円以上1,900,000円未満の場合に適用すると定めている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3440,
+			"cachedTokens": 0,
+			"outputTokens": 330,
+			"reasoningTokens": 172
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dd74b3d0864e020d",
+		"name": "Adds a special rule to the income calculation for long-term care insurance premiums",
+		"official": "Ordinance Partially Amending the Setagaya City Long-Term Care Insurance Ordinance",
+		"summary": "Currently, long-term care insurance premium rates are calculated based on the total income amount set out in the ordinance. This amendment establishes a special rule for calculating some of the premium rates for fiscal 2026 for Category 1 insured persons whose salary income in 2025 was at least ¥551,000 and less than ¥1,900,000.",
+		"changes": [
+			"Add the amount remaining after subtracting ¥550,000 from salary income to employment income when calculating total income",
+			"Add ¥100,000 to employment income when calculating total income",
+			"Add the amount remaining after subtracting the 2025 employment income deduction from ¥650,000 to employment income when calculating total income"
+		],
+		"who": [
+			"Category 1 insured persons whose salary income in 2025 was within the specified range"
+		],
+		"why": "The city says it is necessary to establish special treatment when calculating premium rates following an amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:14.077Z",
+			"inputTokens": 664,
+			"cachedTokens": 0,
+			"outputTokens": 1051,
+			"reasoningTokens": 783
+		}
+	}
 }

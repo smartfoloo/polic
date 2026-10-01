@@ -27,5 +27,80 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4391_R81TG019.pdf",
 			"fetchedAt": "2026-09-30T10:31:40.974Z"
 		}
-	]
+	],
+	"name": "認知症施策の基本理念と役割を定める",
+	"category": "福祉",
+	"summary": "区はこれまでも認知症に関する施策を進めてきました。この議案では、認知症の人の尊厳や意思を尊重する基本理念を定め、区の責務や区民・事業者の役割を明らかにします。令和8年4月1日に施行します。",
+	"changes": [
+		"認知症施策の基本理念と区の責務を定める",
+		"認知症の人や家族への支援策を総合的・計画的に進める",
+		"区民や事業者の役割を定める"
+	],
+	"who": [
+		"認知症の人",
+		"認知症の人の家族等",
+		"区民や区内の事業者"
+	],
+	"why": "認知症基本法の施行に伴い、区の基本理念を定め、認知症に関する施策を総合的かつ計画的に進めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:20:43.843Z",
+		"inputTokens": 2853,
+		"cachedTokens": 0,
+		"outputTokens": 906,
+		"reasoningTokens": 616
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:20:43.843Z",
+		"checkedAt": "2026-09-30T15:22:04.428Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区民や事業者の役割を定める",
+				"note": "第6条に定める、事業者が認知症の人に必要かつ合理的な配慮を行う努力義務と、保健医療・福祉サービス提供者がサービス選択への配慮や情報提供等を行う努力義務の具体的内容が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2892,
+			"cachedTokens": 0,
+			"outputTokens": 228,
+			"reasoningTokens": 84
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "121c8e225fdccd34",
+		"name": "Sets basic principles and roles for dementia policies",
+		"official": "Adachi City Ordinance on Living in This Town Forever Alongside Dementia",
+		"summary": "The ward has already been advancing policies related to dementia. This bill establishes basic principles that respect the dignity and wishes of people with dementia, and clarifies the ward's responsibilities and the roles of residents and businesses. It will take effect on April 1, 2026.",
+		"changes": [
+			"Establishes basic principles for dementia policies and the ward's responsibilities",
+			"Advances support measures for people with dementia and their families comprehensively and systematically",
+			"Defines the roles of residents and businesses"
+		],
+		"who": [
+			"People with dementia",
+			"Families and others of people with dementia",
+			"Residents and businesses in the ward"
+		],
+		"why": "The ward says this is to establish the ward's basic principles following the Dementia Basic Act's entry into force and to advance dementia-related policies comprehensively and systematically.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:55:01.679Z",
+			"inputTokens": 635,
+			"cachedTokens": 0,
+			"outputTokens": 810,
+			"reasoningTokens": 582
+		}
+	}
 }

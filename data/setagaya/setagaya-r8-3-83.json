@@ -27,5 +27,82 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/83.pdf",
 			"fetchedAt": "2026-09-30T10:22:58.217Z"
 		}
-	]
+	],
+	"name": "区立幼稚園を集約して2園を設置",
+	"category": "教育",
+	"summary": "現在の松丘幼稚園と桜丘幼稚園を集約し、「さくらのおか幼稚園」を設置します。また、三島幼稚園と中町幼稚園を集約し、「たまがわのもり幼稚園」を設置します。施行日は令和9年4月1日です。",
+	"changes": [
+		"松丘幼稚園と桜丘幼稚園を集約する",
+		"さくらのおか幼稚園を桜丘5丁目2番19号に設置する",
+		"三島幼稚園と中町幼稚園を集約する",
+		"たまがわのもり幼稚園を中町4丁目38番21号に設置する"
+	],
+	"who": [
+		"松丘幼稚園、桜丘幼稚園、三島幼稚園、中町幼稚園の園児や保護者"
+	],
+	"why": "松丘幼稚園と桜丘幼稚園、三島幼稚園と中町幼稚園をそれぞれ集約し、新たな幼稚園を設置するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:56:47.475Z",
+		"inputTokens": 1394,
+		"cachedTokens": 0,
+		"outputTokens": 1489,
+		"reasoningTokens": 1187
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:56:47.475Z",
+		"checkedAt": "2026-09-30T15:41:31.635Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "松丘幼稚園と桜丘幼稚園を集約する",
+				"note": "原文の松丘幼稚園等の項の削除に続く砧幼稚園の表記改正部分は、引用符と改正前後の文字列の対応が崩れており、変更の向きを確認できない。集約自体は提出理由で確認できる。",
+				"dismissed": {
+					"note": "The merger is confirmed by the stated reason; the draft makes no claim from the broken part.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1475,
+			"cachedTokens": 0,
+			"outputTokens": 685,
+			"reasoningTokens": 563
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1da9e680e6b07c63",
+		"name": "Consolidates municipal kindergartens to establish two new kindergartens",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on the Establishment of Municipal Schools",
+		"summary": "The city will bring together the current Matsu-ga-oka Kindergarten and Sakuragaoka Kindergarten to establish Sakura no Oka Kindergarten. It will also bring together Mishima Kindergarten and Nakamachi Kindergarten to establish Tamagawa no Mori Kindergarten. The ordinance will take effect on April 1, 2027.",
+		"changes": [
+			"Brings together Matsu-ga-oka Kindergarten and Sakuragaoka Kindergarten",
+			"Establishes Sakura no Oka Kindergarten at 5-2-19 Sakuragaoka",
+			"Brings together Mishima Kindergarten and Nakamachi Kindergarten",
+			"Establishes Tamagawa no Mori Kindergarten at 4-38-21 Nakamachi"
+		],
+		"who": [
+			"Children and parents or guardians at Matsu-ga-oka Kindergarten, Sakuragaoka Kindergarten, Mishima Kindergarten, and Nakamachi Kindergarten"
+		],
+		"why": "The ward says this is to bring together Matsu-ga-oka Kindergarten and Sakuragaoka Kindergarten, and Mishima Kindergarten and Nakamachi Kindergarten, respectively, and establish new kindergartens.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:29:22.248Z",
+			"inputTokens": 679,
+			"cachedTokens": 0,
+			"outputTokens": 962,
+			"reasoningTokens": 673
+		}
+	}
 }

@@ -22,5 +22,89 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/gian99.pdf",
 			"fetchedAt": "2026-09-30T10:13:46.609Z"
 		}
-	]
+	],
+	"name": "管理職員特別勤務手当の対象を拡大",
+	"category": "教育",
+	"summary": "現在、管理職員特別勤務手当は、週休日等以外の日の午前0時から午前5時までの勤務などが対象です。この議案で、対象となる時間帯を午後10時から翌日の午前5時までに広げ、手当額を1.5倍にする勤務を教育委員会規則で定めます。",
+	"changes": [
+		"支給対象時間を午後10時から翌日の午前5時までに広げる（週休日等に含まれる時間を除く）",
+		"手当額を1.5倍にする勤務を教育委員会規則で定める"
+	],
+	"who": [
+		"管理職員特別勤務手当の対象となる幼稚園教育職員"
+	],
+	"why": "特別区人事委員会の勧告などを踏まえ、手当の対象時間を広げ、手当額を1.5倍にする勤務を教育委員会規則で定めるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:10:25.916Z",
+		"inputTokens": 1413,
+		"cachedTokens": 0,
+		"outputTokens": 2160,
+		"reasoningTokens": 1870
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:10:25.916Z",
+		"checkedAt": "2026-09-30T15:48:41.043Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在、管理職員特別勤務手当は、週休日等以外の日の午前0時から午前5時までの勤務などが対象です。この議案で、対象となる時間帯を午後10時から翌日の午前5時までに広げ",
+				"note": "原文には開始時刻を午前0時から午後10時に改める記載はありますが、終了時刻の「午前5時」は示されておらず、確認が必要です。",
+				"dismissed": {
+					"note": "Only the start time changes; 午前5時 is the existing end time, as in the same change in 江戸川区, 葛飾区 and 世田谷区.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "支給対象時間を午後10時から翌日の午前5時までに広げる（週休日等に含まれる時間を除く）",
+				"note": "原文の改正指示だけでは、終了時刻が「翌日の午前5時」であることを確認できません。",
+				"dismissed": {
+					"note": "Only the start time changes; 午前5時 is the existing end time, as in the same change in 江戸川区, 葛飾区 and 世田谷区.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1450,
+			"cachedTokens": 0,
+			"outputTokens": 513,
+			"reasoningTokens": 293
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8fc8ce5b4f88a351",
+		"name": "Expands the hours covered by the special work allowance for managerial staff",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries of Kindergarten Education Staff",
+		"summary": "Currently, the special work allowance for managerial staff covers work from midnight to 5 a.m. on days other than weekly days off, etc. This bill extends the covered hours to 10 p.m. through 5 a.m. the following day and provides that the Board of Education will set, by rule, which work qualifies for an allowance of 1.5 times the amount.",
+		"changes": [
+			"Extends the hours eligible for payment from 10 p.m. to 5 a.m. the following day, excluding hours that fall on weekly days off, etc.",
+			"Provides that the Board of Education will set by rule which work qualifies for an allowance of 1.5 times the amount"
+		],
+		"who": [
+			"Kindergarten education staff eligible for the special work allowance for managerial staff"
+		],
+		"why": "The mayor says this is to extend the hours covered by the allowance and to set, by Board of Education rule, which work qualifies for an allowance of 1.5 times the amount, in light of recommendations from the Special Ward Personnel Commission, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:33:28.953Z",
+			"inputTokens": 641,
+			"cachedTokens": 0,
+			"outputTokens": 1039,
+			"reasoningTokens": 753
+		}
+	}
 }

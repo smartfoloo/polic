@@ -58,5 +58,27 @@
 			"outputTokens": 86,
 			"reasoningTokens": 72
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c883fdd7f11541d9",
+		"name": "Removes Keihinjima Pier Park from Tokyo's list of pier parks",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Marine Park Ordinance",
+		"summary": "Tokyo Metropolitan Keihinjima Pier Park is currently listed in a Tokyo ordinance as a pier park. This bill removes the park from the ordinance's list as part of its transfer to Ota City. The amendment takes effect on the date of promulgation.",
+		"changes": [
+			"Removes Tokyo Metropolitan Keihinjima Pier Park from the list of Tokyo pier parks"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says Tokyo Metropolitan Keihinjima Pier Park must be abolished as a Tokyo park in order to transfer the marine park to Ota City.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:06.134Z",
+			"inputTokens": 533,
+			"cachedTokens": 0,
+			"outputTokens": 650,
+			"reasoningTokens": 476
+		}
 	}
 }

@@ -65,5 +65,34 @@
 			"outputTokens": 488,
 			"reasoningTokens": 474
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "88ed98f0d34e61b7",
+		"name": "Expands use of individual numbers in medical assistance procedures",
+		"official": "Ordinance Partially Amending the Suginami City Ordinance on the Use of Individual Numbers and the Provision of Specific Personal Information",
+		"summary": "Currently, medical expense assistance for children and for pregnancy-induced hypertension syndrome, etc., is not listed in the ordinance as administrative work in which individual numbers may be used. This bill adds these two types of work. It also allows information such as public assistance and health insurance information to be used in three types of work, including medical expense assistance related to air pollution.",
+		"changes": [
+			"Allow individual numbers to be used for administrative work on medical expense assistance for children",
+			"Allow individual numbers to be used for administrative work on medical expense assistance for pregnancy-induced hypertension syndrome, etc.",
+			"Allow information such as public assistance and health insurance information to be used in these two types of work and in work on medical expense assistance related to air pollution",
+			"Allow information on medical expense assistance for children to be used in work on child allowance payments"
+		],
+		"who": [
+			"People receiving medical expense assistance for children",
+			"People receiving medical expense assistance for pregnancy-induced hypertension syndrome, etc.",
+			"People receiving medical expense assistance for health problems caused by air pollution"
+		],
+		"why": "Suginami City says the changes will make it unnecessary to submit documents proving insurance eligibility for assistance for children and for pregnancy-induced hypertension syndrome, etc., and will allow eligibility for air pollution-related assistance to be confirmed using only a My Number health insurance card.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:33.371Z",
+			"inputTokens": 796,
+			"cachedTokens": 0,
+			"outputTokens": 1065,
+			"reasoningTokens": 723
+		}
 	}
 }

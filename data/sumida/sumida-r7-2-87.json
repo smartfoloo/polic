@@ -68,27 +68,27 @@
 	"en": {
 		"approved": false,
 		"sourceHash": "c08997f14172c1bd",
-		"name": "Public Notices for Hearings and Other Matters Also Posted Online",
-		"official": "Ordinance Partially Amending the Sumida Ward Administrative Procedure Ordinance",
-		"summary": "Currently, notices of hearings and opportunities to explain oneself that are given by public notice must be posted on the notice board at the office, among other methods. After the amendment, the details of the public notice will be made available for an unspecified number of people to view by methods set out in regulations, and will also be posted on a notice board or made viewable on an electronic screen at the office.",
+		"name": "Publishes notices of hearings and other matters online too",
+		"official": "Ordinance Partially Amending the Sumida City Administrative Procedures Ordinance",
+		"summary": "Currently, notices of hearings or opportunities to make a statement by public notice must be posted on bulletin boards at offices, among other methods. After the amendment, the details of the public notice will be made available for viewing by the general public using methods set out in rules. They will also be posted on bulletin boards or made viewable on electronic screens at offices.",
 		"changes": [
-			"Make public notice details available for an unspecified number of people to view by methods set out in regulations",
-			"Post the details on a notice board or make them viewable on an electronic screen at the office",
-			"Deem the notice to have arrived two weeks after the measures begin"
+			"Make the matters to be publicly announced available for viewing by an unspecified number of people using methods set out in rules",
+			"Post them on bulletin boards or make them viewable on electronic screens at offices",
+			"Deem the notice to have been delivered two weeks after the measure begins"
 		],
 		"who": [
-			"People who receive public notice of a hearing or an opportunity to explain themselves"
+			"People who receive public notice of a hearing or an opportunity to make a statement"
 		],
-		"why": "The ward says this is to make public notice details viewable on the internet and by other means, in light of a partial amendment to the Administrative Procedure Act.",
+		"why": "The ward says this is to make matters announced by public notice viewable on the internet and other channels, following a partial amendment to the Administrative Procedure Act.",
 		"draft": {
 			"model": "gpt-6-luna",
 			"effort": "high",
-			"promptVersion": 1,
-			"generatedAt": "2026-09-30T12:47:16.743Z",
-			"inputTokens": 597,
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:16:27.968Z",
+			"inputTokens": 633,
 			"cachedTokens": 0,
-			"outputTokens": 1018,
-			"reasoningTokens": 754
+			"outputTokens": 752,
+			"reasoningTokens": 498
 		}
 	}
 }

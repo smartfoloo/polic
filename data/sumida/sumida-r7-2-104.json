@@ -27,5 +27,80 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/104gaiyou.pdf",
 			"fetchedAt": "2026-09-30T10:13:58.772Z"
 		}
-	]
+	],
+	"name": "国保料の料率を改定し支援分を新設",
+	"category": "健康・医療",
+	"summary": "現在、国民健康保険料には医療分、後期高齢者支援金等分、介護納付金分があります。2026年度分から各分の料率などを改め、子ども・子育て支援納付金分を新たに加えます。",
+	"changes": [
+		"子ども・子育て支援納付金分を新設し、所得割を0.27%、均等割を1人あたり1,800円、18歳以上均等割を1人あたり73円、上限を30,000円とする",
+		"基礎分の所得割を7.71%から7.51%、均等割を1人あたり47,300円から47,600円、賦課限度額を660,000円から670,000円に改める",
+		"後期高齢者支援金等分の所得割を2.69%から2.80%、均等割を1人あたり16,800円から17,600円にし、介護納付金分も所得割を2.25%から2.43%、均等割を1人あたり16,600円から17,800円に改める",
+		"新たな支援分について、低所得世帯や未就学児、出産被保険者への減額を設け、18歳未満の被保険者に係る均等割額を減額する"
+	],
+	"who": [
+		"墨田区の国民健康保険加入者",
+		"低所得世帯や未就学児、出産被保険者のいる世帯"
+	],
+	"why": "特別区国民健康保険事業の共通基準に基づく料率改定と、法改正に伴う新たな納付金の規定整備が必要なためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:07:34.434Z",
+		"inputTokens": 7847,
+		"cachedTokens": 0,
+		"outputTokens": 2821,
+		"reasoningTokens": 2331
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:07:34.434Z",
+		"checkedAt": "2026-09-30T15:46:50.975Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "新たな支援分について、低所得世帯や未就学児、出産被保険者への減額を設け、18歳未満の被保険者に係る均等割額を減額する",
+				"note": "新たな支援分以外の減額改定が抜けている。第19条の2では低所得世帯の減額判定基準を30万5,000円から31万円、56万円から57万円へ引き上げ、既存3区分の減額額も改定する。第19条の4では未就学児の基礎分・後期高齢者支援金等分の減額額も改定する。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 8080,
+			"cachedTokens": 0,
+			"outputTokens": 361,
+			"reasoningTokens": 169
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "21244f8bb84d59c1",
+		"name": "Revises national health insurance rates and adds a new support contribution",
+		"official": "Ordinance Partially Amending the Sumida City National Health Insurance Ordinance",
+		"summary": "National health insurance premiums currently include a medical care portion, a portion for contributions to support older people in the later stage of life, and a long-term care contribution portion. Starting with fiscal year 2026, the rates and other amounts for each portion will be revised, and a new child and childcare support contribution portion will be added.",
+		"changes": [
+			"Introduces a child and childcare support contribution portion, with an income-based rate of 0.27%, a per-person amount of ¥1,800, a per-person amount of ¥73 for people aged 18 and over, and a maximum of ¥30,000",
+			"Changes the basic portion’s income-based rate from 7.71% to 7.51%, its per-person amount from ¥47,300 to ¥47,600, and its maximum charge from ¥660,000 to ¥670,000",
+			"Changes the portion for contributions to support older people in the later stage of life to an income-based rate of 2.80% from 2.69% and a per-person amount of ¥17,600 from ¥16,800; also changes the long-term care contribution portion to an income-based rate of 2.43% from 2.25% and a per-person amount of ¥17,800 from ¥16,600",
+			"Provides reductions in the new support portion for low-income households, preschool children, and insured persons who have given birth, and reduces the per-person amount for insured persons under 18"
+		],
+		"who": [
+			"National health insurance members in Sumida City",
+			"Households with low incomes, preschool children, or insured persons who have given birth"
+		],
+		"why": "The ward says the rates need to be revised in line with the common standards for the special wards’ national health insurance program, and the rules for the new contribution need to be updated following a change in the law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:59.529Z",
+			"inputTokens": 834,
+			"cachedTokens": 0,
+			"outputTokens": 932,
+			"reasoningTokens": 477
+		}
+	}
 }

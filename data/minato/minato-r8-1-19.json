@@ -32,5 +32,68 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB741_19.pdf",
 			"fetchedAt": "2026-09-30T12:29:41.556Z"
 		}
-	]
+	],
+	"name": "管理職特別勤務手当の対象時間帯を拡大",
+	"category": "教育",
+	"summary": "区は、管理職特別勤務手当の支給対象となる時間帯を広げます。また、人事委員会の承認を得て教育委員会規則で定める勤務は、手当額を所定額の1.5倍にします。改正は2026年4月1日から施行します。",
+	"changes": [
+		"支給対象時間帯の始まりを午前0時から午後10時に改める",
+		"週休日等に含まれる時間を支給対象から除く",
+		"人事委員会の承認を得て教育委員会規則で定める勤務の手当額を所定額の1.5倍にする"
+	],
+	"who": [
+		"港区立幼稚園の管理職の教育職員"
+	],
+	"why": "特別区人事委員会の勧告を受け、管理職特別勤務手当の支給対象時間帯を広げるなどのためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:41:36.486Z",
+		"inputTokens": 1342,
+		"cachedTokens": 0,
+		"outputTokens": 2394,
+		"reasoningTokens": 2109
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:41:36.486Z",
+		"checkedAt": "2026-09-30T15:33:13.195Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1375,
+			"cachedTokens": 0,
+			"outputTokens": 148,
+			"reasoningTokens": 134
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9f416c62636c3df5",
+		"name": "Expands the hours eligible for the special management-duty allowance",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on Salaries of Educational Staff at Minato City Kindergartens",
+		"summary": "The city will expand the hours when the special management-duty allowance can be paid. It will also set the allowance for duties specified in Board of Education rules with Personnel Commission approval at 1.5 times the prescribed amount. The amendments will take effect on April 1, 2026.",
+		"changes": [
+			"Changes the start of eligible hours from 12:00 a.m. to 10:00 p.m.",
+			"Excludes hours that fall on weekly holidays, etc. from eligibility",
+			"Sets the allowance at 1.5 times the prescribed amount for duties specified in Board of Education rules with Personnel Commission approval"
+		],
+		"who": [
+			"Management-level educational staff at Minato City kindergartens"
+		],
+		"why": "The city says the changes are being made in response to a recommendation from the Special Ward Personnel Commission, including to expand the hours when the special management-duty allowance can be paid.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:24:51.854Z",
+			"inputTokens": 638,
+			"cachedTokens": 0,
+			"outputTokens": 743,
+			"reasoningTokens": 482
+		}
+	}
 }

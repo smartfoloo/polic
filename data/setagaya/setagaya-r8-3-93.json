@@ -27,5 +27,74 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/93.pdf",
 			"fetchedAt": "2026-09-30T10:23:50.648Z"
 		}
-	]
+	],
+	"name": "認定こども園に性暴力防止策を義務づけ",
+	"category": "子育て",
+	"summary": "現在の条例に、園児への性暴力等を防ぐための規定を加えます。園の設置者に、園児と接する一部の業務従事者の犯罪事実確認などを行い、性暴力等が起きた場合に園児を保護するための措置を求めます。主な改正は2026年12月25日から施行されます。",
+	"changes": [
+		"園児への性暴力等を防ぎ、起きた場合に園児を保護するための措置を義務づける",
+		"支配性・継続性・閉鎖性のある環境で園児と接する業務の従事者について、犯罪事実確認などを求める",
+		"職員の規定に主務養護教諭を加える",
+		"第24条第2項の規定を改める"
+	],
+	"who": [
+		"幼保連携型認定こども園に通う園児",
+		"幼保連携型認定こども園の設置者",
+		"園児と接する業務に従事する職員"
+	],
+	"why": "基準の改正に伴い、児童対象性暴力等の防止に関する規定を設け、条文を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:58:31.842Z",
+		"inputTokens": 1652,
+		"cachedTokens": 0,
+		"outputTokens": 1318,
+		"reasoningTokens": 937
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:58:31.842Z",
+		"checkedAt": "2026-09-30T15:42:26.367Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1772,
+			"cachedTokens": 0,
+			"outputTokens": 72,
+			"reasoningTokens": 58
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "493beaca7c0d795a",
+		"name": "Requires certified childcare centers to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Standards for Class Organization, Staff, Facilities, and Operation of Integrated-Type Certified Centers for Early Childhood Education and Care",
+		"summary": "The ordinance adds provisions to prevent sexual violence and similar acts against children attending the centers. It requires center operators to check the criminal records of certain workers who come into contact with children and to take measures to protect children if sexual violence or similar acts occur. The main amendments take effect on December 25, 2026.",
+		"changes": [
+			"Require measures to prevent sexual violence and similar acts against children attending the centers and to protect them if such acts occur",
+			"Require criminal-record checks and other measures for workers whose duties involve contact with children in environments marked by power imbalance, continuity, and closedness",
+			"Add the supervising school nurse-teacher to the staff provisions",
+			"Amend the provisions of Article 24, paragraph 2"
+		],
+		"who": [
+			"Children attending integrated-type certified centers for early childhood education and care",
+			"Operators of integrated-type certified centers for early childhood education and care",
+			"Staff whose duties involve contact with children attending the centers"
+		],
+		"why": "The ward says that, following revisions to the standards, it is necessary to establish provisions to prevent sexual violence and similar acts against children and to make related adjustments to the wording of the ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:43.303Z",
+			"inputTokens": 754,
+			"cachedTokens": 0,
+			"outputTokens": 935,
+			"reasoningTokens": 613
+		}
+	}
 }

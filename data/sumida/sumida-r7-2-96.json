@@ -27,5 +27,76 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/96gaiyou.pdf",
 			"fetchedAt": "2026-09-30T10:13:16.611Z"
 		}
-	]
+	],
+	"name": "不燃建築物の助成金を1棟460万円に",
+	"category": "まちづくり",
+	"summary": "これまでは、不燃建築物を建てる建築主への助成金は1棟につき210万円でした。この議案で、助成金を460万円に増やし、助成対象かどうかを建築確認の申請時に区長が確認する仕組みなどを設けます。",
+	"changes": [
+		"助成金を1棟210万円から460万円に増やす",
+		"国や他の自治体などの助成金を受けた場合の扱いを規則で定める",
+		"建築確認の申請時に助成対象かどうかの確認を受け、建築内容を変える場合は区長の承認を受ける"
+	],
+	"who": [
+		"不燃建築物を建てる建築主"
+	],
+	"why": "建設費の高騰や建物所有者の高齢化などを踏まえ、不燃建築物の建築をさらに促すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:09:38.022Z",
+		"inputTokens": 2475,
+		"cachedTokens": 0,
+		"outputTokens": 776,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:09:38.022Z",
+		"checkedAt": "2026-09-30T15:48:03.917Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "助成金を1棟210万円から460万円に増やす",
+				"note": "増額の適用対象は、2026年4月1日以後に検査済証を交付された不燃建築物です。それより前に交付された建物には従前の額を適用するという、受給額に直接関わる条件が抜けています（付則第2項）。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2506,
+			"cachedTokens": 0,
+			"outputTokens": 203,
+			"reasoningTokens": 80
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c0604a2286b0ead4",
+		"name": "Raises grants for fire-resistant buildings to ¥4.6 million per building",
+		"official": "Ordinance Partially Amending the Sumida City Ordinance on Promoting the Construction of Fire-Resistant Buildings",
+		"summary": "Until now, building owners constructing fire-resistant buildings could receive a grant of ¥2.1 million per building. This bill raises the grant to ¥4.6 million and establishes a system under which the mayor checks whether a project is eligible for a grant when an application for building confirmation is submitted.",
+		"changes": [
+			"Raises the grant from ¥2.1 million to ¥4.6 million per building",
+			"Sets rules for how to handle cases where recipients receive grants from the national government, other local governments, or similar bodies",
+			"Requires a check of grant eligibility when an application for building confirmation is submitted, and the mayor’s approval if the building plans are changed"
+		],
+		"who": [
+			"Building owners constructing fire-resistant buildings"
+		],
+		"why": "The ward says this is to further promote the construction of fire-resistant buildings in light of rising construction costs and the aging of building owners, among other factors.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:17:10.651Z",
+			"inputTokens": 637,
+			"cachedTokens": 0,
+			"outputTokens": 776,
+			"reasoningTokens": 516
+		}
+	}
 }

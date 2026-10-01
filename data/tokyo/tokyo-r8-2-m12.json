@@ -18,5 +18,20 @@
 			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-2.html",
 			"fetchedAt": "2026-09-28T10:52:26.188Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1509a86c2f97b8e6",
+		"official": "Ordinance on Subsidies for Teaching Material Costs, School Trip Costs, and Other Expenses, and School Entrance Preparation Funds for Tokyo Metropolitan Elementary and Junior High Schools, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:19.453Z",
+			"inputTokens": 332,
+			"cachedTokens": 0,
+			"outputTokens": 309,
+			"reasoningTokens": 259
+		}
+	}
 }

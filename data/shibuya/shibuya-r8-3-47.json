@@ -54,7 +54,11 @@
 				"kind": "direction",
 				"severity": "check",
 				"quote": "恵比寿駅前出張所の所在地に渋谷区恵比寿南1丁目5番5号を加える",
-				"note": "原文では改正前後を示す「」が空で、住所との対応が崩れているため、「加える」変更かどうか確認できません。"
+				"note": "原文では改正前後を示す「」が空で、住所との対応が崩れているため、「加える」変更かどうか確認できません。",
+				"dismissed": {
+					"note": "Checked against the PDF: the new entry lists both 恵比寿四丁目2番6号 and 恵比寿南一丁目5番5号, so the address is added.",
+					"at": "2026-10-01T12:12:43.005Z"
+				}
 			}
 		],
 		"ai": {
@@ -64,6 +68,37 @@
 			"inputTokens": 1147,
 			"outputTokens": 182,
 			"reasoningTokens": 82
+		},
+		"dismissedFlags": [
+			{
+				"flag": "source has a garbled before/after table: check the direction of changes against the PDF",
+				"note": "Checked against the PDF: the new entry lists both 恵比寿四丁目2番6号 and 恵比寿南一丁目5番5号, so the address is added.",
+				"at": "2026-10-01T12:12:43.005Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7e54d354133529a7",
+		"name": "Adds a location for the Ebisu Station Front Branch Office",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment of Shibuya City Office Branches",
+		"summary": "The Ebisu Station Front Branch Office is currently located at 4-2-6 Ebisu, Shibuya City. This bill adds 1-5-5 Ebisu-minami, Shibuya City as another location. The effective date will be set by the ward's rules.",
+		"changes": [
+			"Adds 1-5-5 Ebisu-minami, Shibuya City as a location for the Ebisu Station Front Branch Office"
+		],
+		"who": [
+			"Residents who use the Ebisu Station Front Branch Office"
+		],
+		"why": "The ward says this is to open a new service counter for residents and make it easier for them to use.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:29:54.958Z",
+			"inputTokens": 567,
+			"cachedTokens": 0,
+			"outputTokens": 625,
+			"reasoningTokens": 420
 		}
 	}
 }

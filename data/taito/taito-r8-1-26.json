@@ -27,5 +27,66 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-26.pdf",
 			"fetchedAt": "2026-09-30T12:17:32.973Z"
 		}
-	]
+	],
+	"name": "少年自然の家の利用者区分を変更",
+	"category": "教育",
+	"summary": "現在、条例では利用者の区分を「中学生以下」としています。この議案で、「高校生等相当年齢以下の者」に改め、18歳に達した日以後の最初の3月31日までの人と定めます。令和8年4月1日以降の利用に適用されます。",
+	"changes": [
+		"利用者区分を「中学生以下」から「高校生等相当年齢以下の者」に改める",
+		"「高校生等相当年齢以下の者」を、18歳に達した日以後の最初の3月31日までの人と定める"
+	],
+	"who": [
+		"少年自然の家を利用する高校生等相当年齢の人"
+	],
+	"why": "少年自然の家の利用者の区分を改めるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:14:40.483Z",
+		"inputTokens": 1284,
+		"cachedTokens": 0,
+		"outputTokens": 932,
+		"reasoningTokens": 683
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:14:40.483Z",
+		"checkedAt": "2026-09-30T15:50:34.318Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1281,
+			"cachedTokens": 0,
+			"outputTokens": 69,
+			"reasoningTokens": 54
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1038a235ed9bac76",
+		"name": "Changes user categories for the Youth Nature House",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on the Youth Nature House",
+		"summary": "The ordinance currently classifies users as “junior high school students and younger.” This bill changes that to “people up to an age equivalent to high school students, etc.” and defines them as people up to and including the first March 31 after the date they turn 18. The change applies to use from April 1, 2026.",
+		"changes": [
+			"Changes the user category from “junior high school students and younger” to “people up to an age equivalent to high school students, etc.”",
+			"Defines “people up to an age equivalent to high school students, etc.” as people up to and including the first March 31 after the date they turn 18"
+		],
+		"who": [
+			"People of high-school-equivalent age who use the Youth Nature House"
+		],
+		"why": "The mayor says this is to revise the user categories for the Youth Nature House.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:19:43.208Z",
+			"inputTokens": 597,
+			"cachedTokens": 0,
+			"outputTokens": 696,
+			"reasoningTokens": 451
+		}
+	}
 }

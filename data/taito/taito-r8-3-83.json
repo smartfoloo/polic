@@ -27,5 +27,80 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-83.pdf",
 			"fetchedAt": "2026-09-30T12:21:39.020Z"
 		}
-	]
+	],
+	"name": "施設管理を指定管理者に担わせる",
+	"category": "行政のしくみ",
+	"summary": "台東デザイナーズビレッジの条例を全部改正します。施設の管理を区長が指定する団体に担わせ、創業支援や入居者と区内事業者との交流促進などを行わせます。",
+	"changes": [
+		"施設の管理を、区長が議会の議決を経て指定する団体に担わせる",
+		"創業予定または創業後5年以内で、創造的な制作・企画・開発を主な業務とする個人や中小企業者を入居対象とする",
+		"事務所の利用期間を3年以内とし、特に必要な場合は2年まで延長可能とする",
+		"事務所の利用料金の上限を室番号ごとに月額15,000円、30,000円または31,000円とし、交流室と制作室は無料とする"
+	],
+	"who": [
+		"事務所への入居を希望する個人や中小企業者",
+		"施設の管理を希望する法人や団体"
+	],
+	"why": "指定管理者による施設管理を実施するためなどと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:20:58.694Z",
+		"inputTokens": 4203,
+		"cachedTokens": 0,
+		"outputTokens": 1878,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:20:58.694Z",
+		"checkedAt": "2026-09-30T15:53:58.943Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事務所の利用料金の上限を室番号ごとに月額15,000円、30,000円または31,000円とし、交流室と制作室は無料とする",
+				"note": "入居者の直接の費用負担として、第12条の利用料金3月分の保証金の納付と、第16条の共益費の徴収が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4273,
+			"cachedTokens": 0,
+			"outputTokens": 276,
+			"reasoningTokens": 153
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7ac2cafa2f34cb9f",
+		"name": "Assigns facility management to a designated organization",
+		"official": "Taito City Ordinance on the Taito Designers Village",
+		"summary": "The ordinance on Taito Designers Village will be completely revised. The ward will have an organization designated by the mayor manage the facility and provide startup support, promote exchanges between tenants and businesses in the ward, and carry out other activities.",
+		"changes": [
+			"Assigns facility management to an organization designated by the mayor with the approval of the assembly",
+			"Makes individuals and small and medium-sized businesses eligible to rent offices if they are planning to start a business or have been in business for no more than 5 years, and their main work is creative production, planning, or development",
+			"Limits office use to 3 years, with extensions of up to 2 years when especially necessary",
+			"Sets monthly maximum office fees at ¥15,000, ¥30,000, or ¥31,000 depending on the room number, and makes the exchange room and production room free"
+		],
+		"who": [
+			"Individuals and small and medium-sized businesses seeking to rent an office",
+			"Companies and organizations seeking to manage the facility"
+		],
+		"why": "The mayor says this is to implement facility management by a designated manager, among other reasons.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:22:21.138Z",
+			"inputTokens": 670,
+			"cachedTokens": 0,
+			"outputTokens": 877,
+			"reasoningTokens": 591
+		}
+	}
 }

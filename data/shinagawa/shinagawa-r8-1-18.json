@@ -22,5 +22,82 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_18.pdf",
 			"fetchedAt": "2026-09-30T10:15:21.464Z"
 		}
-	]
+	],
+	"name": "主務教諭を関係条例の対象に加える",
+	"category": "教育",
+	"summary": "現行の関係条例には、主務教諭の職名が含まれていません。法律の施行で主務教諭の職が設けられることに伴い、勤務時間や給与、旅費などに関する4つの条例に職名を加えます。施行日は令和8年4月1日です。",
+	"changes": [
+		"職員の勤務時間、休日、休暇等に関する条例に主務教諭を加える",
+		"学校教育職員の勤務時間、休日、休暇等に関する条例に主務教諭を加える",
+		"学校教育職員の給与等に関する特別措置に関する条例に主務教諭を加える",
+		"学校教育職員の旅費に関する条例に主務教諭を加える"
+	],
+	"who": [
+		"主務教諭"
+	],
+	"why": "法律の施行で主務教諭の職が設けられることに伴い、関係規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:00:02.358Z",
+		"inputTokens": 1692,
+		"cachedTokens": 0,
+		"outputTokens": 1110,
+		"reasoningTokens": 812
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:00:02.358Z",
+		"checkedAt": "2026-09-30T15:43:11.128Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "学校教育職員の給与等の特別措置に関する条例に主務教諭を加える",
+				"note": "原文の条例名は「学校教育職員の給与等に関する特別措置に関する条例」であり、条例名が一致していません。",
+				"dismissed": {
+					"note": "Fixed in the text: full ordinance name.",
+					"at": "2026-10-01T12:12:43.005Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1745,
+			"cachedTokens": 0,
+			"outputTokens": 136,
+			"reasoningTokens": 42
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d37b1bef40c430c3",
+		"name": "Adds chief teachers to the scope of related ordinances",
+		"official": "Ordinance to Make Necessary Revisions to Related Ordinances Following Enforcement of the Act Partially Amending the Act on Special Measures Concerning Salaries and Other Matters for Educational Personnel of Public Compulsory Education Schools, etc.",
+		"summary": "The current related ordinances do not include the job title of chief teacher. As the law's enforcement establishes the chief teacher position, the job title will be added to four ordinances concerning working hours, salaries, travel expenses, and other matters. The effective date is April 1, 2026.",
+		"changes": [
+			"Adds chief teachers to the Ordinance on Working Hours, Holidays, Leave, etc. for Staff Members",
+			"Adds chief teachers to the Ordinance on Working Hours, Holidays, Leave, etc. for School Education Staff",
+			"Adds chief teachers to the Ordinance on Special Measures Concerning Salaries and Other Matters for School Education Staff",
+			"Adds chief teachers to the Ordinance on Travel Expenses for School Education Staff"
+		],
+		"who": [
+			"Chief teachers"
+		],
+		"why": "The ward says this is to update the relevant provisions in connection with the establishment of the chief teacher position when the law takes effect.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:30:13.279Z",
+			"inputTokens": 680,
+			"cachedTokens": 0,
+			"outputTokens": 726,
+			"reasoningTokens": 443
+		}
+	}
 }

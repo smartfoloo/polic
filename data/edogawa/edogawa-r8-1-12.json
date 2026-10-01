@@ -22,5 +22,72 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2735_gian12%20.pdf",
 			"fetchedAt": "2026-09-30T10:40:59.621Z"
 		}
-	]
+	],
+	"name": "職員の勤務時間と子育て部分休暇を拡充",
+	"category": "行政のしくみ",
+	"summary": "現在、職員の勤務時間や休暇は条例で定められています。この議案では、条件を満たす職員について、申告を踏まえて勤務時間を割り振る制度を設けます。また、子育て部分休暇の対象となる子と取得できる時間の範囲を広げ、2026年4月1日から施行します。",
+	"changes": [
+		"条件を満たす職員について、4週間以内の期間で週38時間45分の勤務時間を別に定められるようにする",
+		"勤務時間申告職員は、申告により月曜日から金曜日までの日に勤務時間を暦日単位で割り振れるようにする",
+		"子育て部分休暇の対象となる子に、区規則で定める子を加える",
+		"子育て部分休暇を勤務時間の全部または一部で取得できるようにする"
+	],
+	"who": [
+		"フレックスタイム制の対象となる区職員",
+		"子育て部分休暇を利用する区職員"
+	],
+	"why": "職員の柔軟な働き方を推進するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:27:07.005Z",
+		"inputTokens": 1660,
+		"cachedTokens": 0,
+		"outputTokens": 1859,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:27:07.005Z",
+		"checkedAt": "2026-09-30T15:25:47.368Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1745,
+			"cachedTokens": 0,
+			"outputTokens": 73,
+			"reasoningTokens": 58
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c6555fe26c6daa93",
+		"name": "Expands staff working hours and childcare partial leave",
+		"official": "Ordinance Partially Amending the Ordinance on Staff Working Hours, Holidays, Leave, etc.",
+		"summary": "Staff working hours and leave are currently set by ordinance. This bill establishes a system for assigning working hours based on declarations from staff who meet certain conditions. It also expands which children are covered by childcare partial leave and the range of hours for which it can be taken. The changes will take effect on April 1, 2026.",
+		"changes": [
+			"Allow working hours of 38 hours and 45 minutes per week to be set separately over a period of up to 4 weeks for staff who meet certain conditions",
+			"Allow staff who submit a working-hours declaration to assign their hours by calendar day on weekdays from Monday to Friday, based on their declaration",
+			"Add children specified by the ward’s rules to the children covered by childcare partial leave",
+			"Allow childcare partial leave to be taken for all or part of working hours"
+		],
+		"who": [
+			"Ward employees eligible for the flextime system",
+			"Ward employees who use childcare partial leave"
+		],
+		"why": "The ward says the changes are intended to promote flexible ways of working for staff.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:57:11.990Z",
+			"inputTokens": 689,
+			"cachedTokens": 0,
+			"outputTokens": 795,
+			"reasoningTokens": 513
+		}
+	}
 }

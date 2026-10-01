@@ -22,5 +22,87 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_13.pdf",
 			"fetchedAt": "2026-09-30T10:14:51.162Z"
 		}
-	]
+	],
+	"name": "区職員などのハラスメント相談制度を整備",
+	"category": "行政のしくみ",
+	"summary": "区職員などへのハラスメントを防ぎ、相談や問題への対応をするための仕組みを条例で定めます。相談窓口や調査機関を設け、条例は2026年7月1日に施行します。",
+	"changes": [
+		"区長等、職員、管理監督者の責務を定める",
+		"内部・外部の相談窓口と、事実関係を調べる機関を設ける",
+		"ハラスメントが認定された場合の措置や、相談・調査への協力を理由とする不利益な扱いの禁止を定める",
+		"ハラスメント問題調査委員会の委員長・委員の報酬額を定める"
+	],
+	"who": [
+		"品川区の職員、派遣労働者、同じ職場で働く受託業務の従事者など",
+		"区長・副区長・教育長"
+	],
+	"why": "職員等へのハラスメントを防ぎ、相談を申し出た人への対応などを定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:59:26.074Z",
+		"inputTokens": 5085,
+		"cachedTokens": 0,
+		"outputTokens": 805,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:59:26.074Z",
+		"checkedAt": "2026-09-30T15:42:55.646Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "ハラスメントが認定された場合の措置や、相談・調査への協力を理由とする不利益な扱いの禁止を定める",
+				"note": "第14条の具体的な措置（区長等によるハラスメントは事実の公表、職員によるものは懲戒処分等）が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "内部・外部の相談窓口と、事実関係を調べる機関を設ける",
+				"note": "第13条の当事者・関係者のプライバシーへの配慮と、相談業務に携わる者や調査協力者の秘密保持義務が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5158,
+			"cachedTokens": 0,
+			"outputTokens": 395,
+			"reasoningTokens": 191
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6e6a5ad5129946cc",
+		"name": "Sets up a harassment consultation system for city employees and others",
+		"official": "Shinagawa City Ordinance on the Prevention, etc. of Harassment of City Employees, etc.",
+		"summary": "The ordinance establishes a system to prevent harassment of city employees and others and to respond to consultations and problems. It sets up consultation desks and an investigation body. The ordinance takes effect on July 1, 2026.",
+		"changes": [
+			"Defines the responsibilities of the mayor and others, employees, and managers and supervisors",
+			"Establishes internal and external consultation desks and a body to investigate the facts",
+			"Sets out measures for cases where harassment is confirmed and prohibits unfavorable treatment for cooperating with a consultation or investigation",
+			"Sets the compensation amounts for the chair and members of the Harassment Issues Investigation Committee"
+		],
+		"who": [
+			"Shinagawa City employees, dispatched workers, people engaged in contracted work at the same workplace, and others",
+			"The mayor, deputy mayor, and superintendent of education"
+		],
+		"why": "The ward says this is necessary to prevent harassment of employees and others and to set out how to respond to people who seek advice.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:11:10.207Z",
+			"inputTokens": 666,
+			"cachedTokens": 0,
+			"outputTokens": 970,
+			"reasoningTokens": 706
+		}
+	}
 }

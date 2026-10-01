@@ -22,5 +22,89 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_31.pdf",
 			"fetchedAt": "2026-09-30T10:16:39.183Z"
 		}
-	]
+	],
+	"name": "介護保険料の算定に2026年度特例",
+	"category": "福祉",
+	"summary": "介護保険料率は、所得額などを基に算定されています。この議案は、2026年度分について、給与収入に応じた所得の計算方法と、住民税が課されているものとして扱う条件に特例を設けます。2026年4月1日に施行します。",
+	"changes": [
+		"保険料率を算定する所得額に、給与収入に応じた調整を加える",
+		"世帯内に一定の条件を満たす人がいる場合、保険料率の算定上、その人に住民税が課されているものとして扱う",
+		"条例中の「区民税」を「特別区民税」に改める"
+	],
+	"who": [
+		"住所などの条件に当てはまり、2025年の給与収入が55万1,000円以上190万円未満の第1号被保険者",
+		"世帯主か世帯員に、2025年の給与収入が55万1,000円以上190万円未満で住民税が課されていない人がいる第1号被保険者"
+	],
+	"why": "2026年度の保険料率の算定基準などに特例を設ける必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:01:56.146Z",
+		"inputTokens": 4681,
+		"cachedTokens": 0,
+		"outputTokens": 2517,
+		"reasoningTokens": 2188
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:01:56.146Z",
+		"checkedAt": "2026-09-30T15:44:18.830Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "上記の条件に当てはまる人がいる世帯の第1号被保険者",
+				"note": "付則第11条の課税みなしには、給与収入・住所だけでなく、住民税が非課税であることや合計所得金額等の追加条件がある。また、条件を満たす世帯主・世帯員は第1号被保険者に限られない。第10条の対象者と同じ条件ではない。",
+				"dismissed": {
+					"note": "Fixed in the text: who now names the extra conditions (no 住民税, income range) and the household rule.",
+					"at": "2026-10-01T12:09:21.506Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "世帯内に一定の条件を満たす人がいる場合、保険料率の算定上、その人に住民税が課されているものとして扱う",
+				"note": "付則第11条第1項の世帯員等の課税みなしは記載されているが、同条第2項の、条件を満たす第1号被保険者本人を住民税が課されている者とみなす変更が明示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4763,
+			"cachedTokens": 0,
+			"outputTokens": 455,
+			"reasoningTokens": 188
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5d2522c39cd58ea3",
+		"name": "Sets special rules for calculating long-term care insurance premiums in fiscal 2026",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance Concerning the Long-Term Care Insurance System",
+		"summary": "Long-term care insurance premium rates are calculated based on income and other factors. For fiscal 2026, this bill establishes special rules for calculating income based on wage income and for determining when a person is treated as being subject to resident tax. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adjusts the income amount used to calculate premium rates based on wage income",
+			"Treats a person as being subject to resident tax when someone in the household meets certain conditions, for the purpose of calculating premium rates",
+			"Changes “ward resident tax” in the ordinance to “special ward resident tax”"
+		],
+		"who": [
+			"Category 1 insured persons who meet conditions such as those related to their address and whose wage income in 2025 was ¥551,000 or more but less than ¥1,900,000",
+			"Category 1 insured persons whose household head or another household member had wage income of ¥551,000 or more but less than ¥1,900,000 in 2025 and was not subject to resident tax"
+		],
+		"why": "The ward says it is necessary to establish special rules for the standards used to calculate premium rates for fiscal 2026 and other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:31:09.192Z",
+			"inputTokens": 702,
+			"cachedTokens": 0,
+			"outputTokens": 711,
+			"reasoningTokens": 388
+		}
+	}
 }

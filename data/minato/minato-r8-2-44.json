@@ -32,5 +32,78 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB798_44.pdf",
 			"fetchedAt": "2026-09-30T12:33:31.546Z"
 		}
-	]
+	],
+	"name": "専門職を保育従事職員に充てられるように",
+	"category": "子育て",
+	"summary": "条例は、認定こども園の職員の資格要件などを定めています。改正後は、条件を満たす専門職など1人を保育従事職員の代わりにできます。代わる人は、補助者の場合を除き教育課程に基づく教育に従事できず、保育を行う際は保育士として登録された人の支援を受けられる体制が必要です。",
+	"changes": [
+		"理学療法士、作業療法士、言語聴覚士、所定の心理担当職員、または障害児療育の指導業務を5年以上経験した人を、子育ての知識・経験がある場合に1人まで代替可能にする",
+		"心理担当職員は、短大を除く大学・大学院で心理学を修め、個人・集団心理療法の技術を持つ人などとする",
+		"代わる職員は補助者の場合を除き教育課程に基づく教育に従事できず、保育時に保育士として登録された人の支援を受けられる体制を必要とする"
+	],
+	"who": [
+		"幼保連携型認定こども園以外の認定こども園の運営者",
+		"該当する認定こども園で働く保育従事職員や専門職"
+	],
+	"why": "国の認定基準の改正を踏まえ、職員の資格要件などを変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:44:29.330Z",
+		"inputTokens": 2132,
+		"cachedTokens": 0,
+		"outputTokens": 2840,
+		"reasoningTokens": 2438
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:44:29.330Z",
+		"checkedAt": "2026-09-30T15:34:38.971Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "理学療法士、作業療法士、言語聴覚士、所定の心理担当職員、または障害児療育の指導業務を5年以上経験した人を、子育ての知識・経験がある場合に1人まで代替可能にする",
+				"note": "第六条第五項では、代替する人は当該認定こども園に勤務する者に限られ、障害児療育の指導経験者には療育に関する知識・経験も必要です。これらの資格・勤務条件が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2310,
+			"cachedTokens": 0,
+			"outputTokens": 391,
+			"reasoningTokens": 224
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6d55a77d7e6ae863",
+		"name": "Allows specialists to serve as childcare staff",
+		"official": "Ordinance Partially Amending the Ordinance Prescribing Requirements for Certification of Certified Childcare Centers Other Than Integrated Centers for Early Childhood Education and Care in Minato City",
+		"summary": "The ordinance sets qualification requirements and other rules for staff at certified childcare centers. After the amendment, one specialist or other person who meets the conditions may replace a childcare staff member. Unless serving as an assistant, the replacement staff member cannot provide education based on the curriculum. When providing childcare, arrangements must be in place for them to receive support from someone registered as a childcare worker.",
+		"changes": [
+			"Allows up to one person to replace a childcare staff member if they have knowledge and experience in childcare and are a physical therapist, occupational therapist, speech-language-hearing therapist, designated psychological staff member, or someone with at least 5 years of experience in instructional work supporting children with disabilities",
+			"Defines psychological staff members as including people who studied psychology at a university other than a junior college or at graduate school, and have skills in individual and group psychotherapy",
+			"Bars replacement staff members from providing education based on the curriculum unless they are assistants, and requires arrangements for them to receive support from someone registered as a childcare worker when providing childcare"
+		],
+		"who": [
+			"Operators of certified childcare centers other than integrated centers for early childhood education and care",
+			"Childcare staff and specialists working at those certified childcare centers"
+		],
+		"why": "The ward says it is changing staff qualification requirements and other rules in light of revisions to the national certification standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:04:12.658Z",
+			"inputTokens": 801,
+			"cachedTokens": 0,
+			"outputTokens": 956,
+			"reasoningTokens": 608
+		}
+	}
 }

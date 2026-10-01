@@ -22,5 +22,89 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2743_gian20%20.pdf",
 			"fetchedAt": "2026-09-30T10:41:47.641Z"
 		}
-	]
+	],
+	"name": "障害福祉の支援事務で個人番号情報を利用",
+	"category": "デジタル",
+	"summary": "現在の条例には、今回追加する区独自の障害福祉関連事務が、個人番号を使う事務として定められていません。この議案で各種支援事務を加え、庁内で連携する事務と特定個人情報を定めます。令和8年4月1日から施行します。",
+	"changes": [
+		"障害者向けの各種支援事務を独自利用事務に加える",
+		"事務ごとに庁内連携で扱う特定個人情報を定める",
+		"関連する事務や情報の規定を整理する"
+	],
+	"who": [
+		"障害福祉に関する支援を利用する人"
+	],
+	"why": "国の法律に列挙されていない事務で特定個人情報を利用・照会し、必要な範囲で庁内連携するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:28:31.442Z",
+		"inputTokens": 6393,
+		"cachedTokens": 0,
+		"outputTokens": 1226,
+		"reasoningTokens": 972
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:28:31.442Z",
+		"checkedAt": "2026-09-30T15:26:23.572Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "関連する事務や情報の規定を整理する",
+				"note": "原文の別表第二の六・七・十一・十二・二十一・三十五の項の改正部分は、空の「」や文字列の混在で改正前後の対応が崩れており、変更の向き・内容を確認できません。",
+				"dismissed": {
+					"note": "The draft makes no before/after claim from the broken table, so it is not affected.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6421,
+			"cachedTokens": 0,
+			"outputTokens": 260,
+			"reasoningTokens": 152
+		},
+		"dismissedFlags": [
+			{
+				"flag": "source has a garbled before/after table: check the direction of changes against the PDF",
+				"note": "The draft makes no before/after claim from the broken table, so it is not affected.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a430cfb72373eb8e",
+		"name": "Uses individual-number information for disability welfare support tasks",
+		"official": "Ordinance Partially Amending the Edogawa City Ordinance on the Use of Individual Numbers",
+		"summary": "The current ordinance does not list the ward's own disability welfare-related administrative tasks being added by this bill as tasks that use individual numbers. This bill adds various support-related administrative tasks and specifies the tasks coordinated within the ward government and the specific personal information involved. It takes effect on April 1, 2026.",
+		"changes": [
+			"Add various support-related administrative tasks for people with disabilities to the ward's own individual-number-use tasks",
+			"Specify, for each task, the specific personal information handled through coordination within the ward government",
+			"Organize provisions on related tasks and information"
+		],
+		"who": [
+			"People using disability welfare support services"
+		],
+		"why": "The ward says this is to use and check specific personal information for tasks not listed in national law, and to coordinate within the ward government to the extent necessary.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:22:25.032Z",
+			"inputTokens": 630,
+			"cachedTokens": 0,
+			"outputTokens": 889,
+			"reasoningTokens": 655
+		}
+	}
 }

@@ -18,5 +18,20 @@
 			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
 			"fetchedAt": "2026-09-28T10:09:14.547Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "65da814f7b86dadd",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Tramway Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:19.365Z",
+			"inputTokens": 316,
+			"cachedTokens": 0,
+			"outputTokens": 142,
+			"reasoningTokens": 113
+		}
+	}
 }

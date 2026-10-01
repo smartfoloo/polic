@@ -27,5 +27,74 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4382_R81TG010.pdf",
 			"fetchedAt": "2026-09-30T10:30:16.918Z"
 		}
-	]
+	],
+	"name": "区政情報の開示請求と審査手続を見直し",
+	"category": "行政のしくみ",
+	"summary": "足立区の条例は、区政情報の開示請求や、その決定に対する審査請求の手続きを定めています。この議案は、ネットなどで公表・提供される情報の扱いを加え、審査会への諮問や第三者への対応、情報を検索する手段に関する規定を見直します。",
+	"changes": [
+		"ネットなどで公表・提供している区政情報の開示請求の扱いを定める",
+		"区政情報を検索するための手段も一般に利用できるようにする",
+		"審査会への諮問を省略する場合を定め、諮問を知らせる相手を広げる",
+		"第三者からの審査請求を退ける場合などに、開示決定時の手続を適用する"
+	],
+	"who": [
+		"区政情報の開示請求をする人",
+		"開示に反対する意見書を出した第三者",
+		"審査請求の審査請求人や参加人"
+	],
+	"why": "ネットなどで公表・提供している区政情報の開示請求の扱いを定め、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:19:41.267Z",
+		"inputTokens": 1976,
+		"cachedTokens": 0,
+		"outputTokens": 3711,
+		"reasoningTokens": 3354
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:19:41.267Z",
+		"checkedAt": "2026-09-30T15:21:29.107Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2081,
+			"cachedTokens": 0,
+			"outputTokens": 63,
+			"reasoningTokens": 48
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "08cf3a842c687d42",
+		"name": "Revises disclosure request and review procedures for city government information",
+		"official": "Ordinance Partially Amending the Adachi City Information Disclosure Ordinance",
+		"summary": "The Adachi City ordinance sets out procedures for requesting disclosure of city government information and for requesting a review of decisions on those requests. This bill adds rules for handling information published or provided online and elsewhere, and revises provisions concerning referrals to the review board, responses to third parties, and ways to search for information.",
+		"changes": [
+			"Sets out how to handle disclosure requests for city government information published or provided online and elsewhere",
+			"Makes ways to search for city government information generally available",
+			"Specifies when a referral to the review board may be omitted and expands who is notified of a referral",
+			"Applies the procedures used when making a disclosure decision in cases such as rejecting a third party’s request for review"
+		],
+		"who": [
+			"People requesting disclosure of city government information",
+			"Third parties who submitted written opinions opposing disclosure",
+			"Applicants for review and participants in review proceedings"
+		],
+		"why": "The ward says this is to set out how disclosure requests for city government information published or provided online and elsewhere are handled, and to put the necessary provisions in place.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:54:25.574Z",
+			"inputTokens": 698,
+			"cachedTokens": 0,
+			"outputTokens": 743,
+			"reasoningTokens": 459
+		}
+	}
 }

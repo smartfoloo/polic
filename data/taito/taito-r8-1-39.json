@@ -27,5 +27,84 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-39.pdf",
 			"fetchedAt": "2026-09-30T12:18:32.913Z"
 		}
-	]
+	],
+	"name": "介護保険料の算定に令和8年度特例",
+	"category": "福祉",
+	"summary": "令和8年度分の介護保険料率は、所得額などを使って算定します。この議案は、一定の給与収入がある人について、所得額や住民税の課税状況の扱いを特例として定め、条件を満たす場合に保険料を減額できるようにします。",
+	"changes": [
+		"給与収入の範囲に応じ、保険料率の算定に使う所得額を特例計算する",
+		"一定の給与収入などの条件に当たる人を、保険料率の算定上、住民税が課されている者とみなす",
+		"条件を満たす場合に、保険料を減額できるようにする"
+	],
+	"who": [
+		"令和7年の給与収入が55万1,000円以上190万円未満の第1号被保険者",
+		"世帯主か世帯員に、令和7年の給与収入が55万1,000円以上190万円未満で住民税が課されていない人がいる第1号被保険者",
+		"世帯主か世帯員に、令和7年度は住民税が課されておらず、この特例で課税扱いになる人がいるため、保険料段階が上がる第1号被保険者（減額の対象）"
+	],
+	"why": "介護保険法施行令の改正に伴い、令和8年度の保険料率の算定などに特例を設けるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:16:40.810Z",
+		"inputTokens": 5310,
+		"cachedTokens": 0,
+		"outputTokens": 1514,
+		"reasoningTokens": 1219
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:16:40.810Z",
+		"checkedAt": "2026-09-30T15:51:55.676Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "令和8年度の第1号被保険者で、令和7年中の給与収入が55万1,000円以上190万円未満の人",
+				"note": "対象を本人の給与収入がこの範囲にある人に限定していますが、付則第2条の4第1項と第2条の5第1号では、世帯主・世帯員が条件に該当する第1号被保険者も対象となり、本人の給与収入がこの範囲にあることは必須ではありません。",
+				"dismissed": {
+					"note": "Fixed in the text: who now includes people whose 世帯主 or 世帯員 meets the conditions.",
+					"at": "2026-10-01T12:09:21.506Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5379,
+			"cachedTokens": 0,
+			"outputTokens": 333,
+			"reasoningTokens": 177
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "11a64bb6d56e2aae",
+		"name": "Special rules for calculating long-term care insurance premiums for FY 2026",
+		"official": "Ordinance Partially Amending the Taito City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates for FY 2026 are calculated using income and other factors. This bill sets special rules for how income and resident tax status are treated for people with certain amounts of employment income, allowing their premiums to be reduced when they meet the conditions.",
+		"changes": [
+			"Apply a special calculation to the income used to calculate premium rates, based on the range of employment income",
+			"Treat people who meet conditions such as having a certain amount of employment income as subject to resident tax when calculating premium rates",
+			"Allow premiums to be reduced when the conditions are met"
+		],
+		"who": [
+			"Category 1 insured persons with employment income of at least ¥551,000 and less than ¥1,900,000 in 2025",
+			"Category 1 insured persons whose household head or another household member had employment income of at least ¥551,000 and less than ¥1,900,000 in 2025 and was not subject to resident tax",
+			"Category 1 insured persons whose premium bracket increases because their household head or another household member was not subject to resident tax in FY 2025 but is treated as subject to tax under this special rule (eligible for a reduction)"
+		],
+		"why": "The ward says it is establishing special rules for calculating premium rates for FY 2026 and related matters in response to an amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:34:42.576Z",
+			"inputTokens": 774,
+			"cachedTokens": 0,
+			"outputTokens": 993,
+			"reasoningTokens": 637
+		}
+	}
 }

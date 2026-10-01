@@ -27,5 +27,70 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-56.pdf",
 			"fetchedAt": "2026-09-30T12:20:20.963Z"
 		}
-	]
+	],
+	"name": "東上野・蔵前に仮設駐車場を設置",
+	"category": "交通",
+	"summary": "現在の条例には、東上野・蔵前の仮設駐車場は含まれていません。この改正で2つを加え、利用時間を東上野は午前9時30分から午後4時30分まで、蔵前は午前10時から午後4時までとします。施行日は区の規則で定めます。",
+	"changes": [
+		"東上野仮設駐車場を条例に加える",
+		"蔵前仮設駐車場を条例に加える",
+		"東上野仮設駐車場の利用時間を午前9時30分から午後4時30分までとする",
+		"蔵前仮設駐車場の利用時間を午前10時から午後4時までとする"
+	],
+	"who": [
+		"観光バス駐車場を利用する人"
+	],
+	"why": "2つの仮設駐車場を設置するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:19:33.048Z",
+		"inputTokens": 1385,
+		"cachedTokens": 0,
+		"outputTokens": 1126,
+		"reasoningTokens": 869
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:19:33.048Z",
+		"checkedAt": "2026-09-30T15:53:17.284Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1415,
+			"cachedTokens": 0,
+			"outputTokens": 69,
+			"reasoningTokens": 55
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "05da09089641ac3e",
+		"name": "Sets up temporary parking lots in Higashiueno and Kuramae",
+		"official": "Ordinance Partially Amending the Taito City Tourist Bus Parking Lot Ordinance",
+		"summary": "The current ordinance does not include the temporary parking lots in Higashiueno and Kuramae. This amendment adds both lots and sets their operating hours: 9:30 a.m. to 4:30 p.m. in Higashiueno, and 10 a.m. to 4 p.m. in Kuramae. The effective date will be set by the ward's rules.",
+		"changes": [
+			"Adds the Higashiueno Temporary Parking Lot to the ordinance",
+			"Adds the Kuramae Temporary Parking Lot to the ordinance",
+			"Sets the Higashiueno Temporary Parking Lot's operating hours from 9:30 a.m. to 4:30 p.m.",
+			"Sets the Kuramae Temporary Parking Lot's operating hours from 10 a.m. to 4 p.m."
+		],
+		"who": [
+			"People who use tourist bus parking lots"
+		],
+		"why": "The ward says this is to establish the two temporary parking lots.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:21:37.005Z",
+			"inputTokens": 639,
+			"cachedTokens": 0,
+			"outputTokens": 667,
+			"reasoningTokens": 400
+		}
+	}
 }

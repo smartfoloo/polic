@@ -22,5 +22,56 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.files/0809gian17.pdf",
 			"fetchedAt": "2026-09-30T12:22:55.323Z"
 		}
-	]
+	],
+	"name": "景観条例を一部改正",
+	"category": "まちづくり",
+	"summary": "墨田区景観条例の一部を改正する議案です。原文に改正内容が記載されていないため、現在の制度や具体的な変更点は確認できません。",
+	"changes": [],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:11:14.174Z",
+		"inputTokens": 906,
+		"cachedTokens": 0,
+		"outputTokens": 303,
+		"reasoningTokens": 213
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:11:14.174Z",
+		"checkedAt": "2026-09-30T15:49:08.335Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 753,
+			"cachedTokens": 0,
+			"outputTokens": 34,
+			"reasoningTokens": 19
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0f267607e0e7d780",
+		"name": "Partially amends the landscape ordinance",
+		"official": "Ordinance Partially Amending the Sumida City Landscape Ordinance",
+		"summary": "This is a bill to partially amend the Sumida City Landscape Ordinance. The original text does not state what the amendments are, so the current system and specific changes cannot be confirmed.",
+		"changes": [],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:17:34.376Z",
+			"inputTokens": 444,
+			"cachedTokens": 0,
+			"outputTokens": 270,
+			"reasoningTokens": 168
+		}
+	}
 }

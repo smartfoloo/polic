@@ -22,5 +22,70 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_03t_91.pdf",
 			"fetchedAt": "2026-09-30T10:19:09.210Z"
 		}
-	]
+	],
+	"name": "学校医などの公務災害補償額を引き上げ",
+	"category": "教育",
+	"summary": "現在、介護補償の2つの区分は85,490円と42,700円で、葬祭補償は315,000円です。議案では、それぞれ90,790円、45,400円、330,000円に改めます。公布日に施行し、令和8年4月1日以降に支給理由が生じた補償に適用します。",
+	"changes": [
+		"介護補償の一方の額を85,490円から90,790円に引き上げる",
+		"介護補償のもう一方の額を42,700円から45,400円に引き上げる",
+		"葬祭補償の額を315,000円から330,000円に引き上げる"
+	],
+	"who": [
+		"品川区立学校の学校医・学校歯科医・学校薬剤師",
+		"介護補償または葬祭補償を受ける人"
+	],
+	"why": "公立学校の学校医などの公務災害補償の基準を定める政令の改正に伴い、介護補償と葬祭補償の額を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:07:12.925Z",
+		"inputTokens": 1819,
+		"cachedTokens": 0,
+		"outputTokens": 1539,
+		"reasoningTokens": 1188
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:07:12.925Z",
+		"checkedAt": "2026-09-30T15:46:32.742Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1921,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 41
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bd80fe2aeb2d8087",
+		"name": "Raises work-related accident compensation for school doctors and others",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Work-Related Accidents Involving School Physicians, School Dentists, and School Pharmacists at Shinagawa City Schools",
+		"summary": "The two current levels of nursing-care compensation are ¥85,490 and ¥42,700, and funeral compensation is ¥315,000. The bill changes them to ¥90,790, ¥45,400, and ¥330,000, respectively. The ordinance takes effect on the date it is promulgated and applies to compensation for which the reason for payment arises on or after April 1, 2026.",
+		"changes": [
+			"Raises one level of nursing-care compensation from ¥85,490 to ¥90,790",
+			"Raises the other level of nursing-care compensation from ¥42,700 to ¥45,400",
+			"Raises funeral compensation from ¥315,000 to ¥330,000"
+		],
+		"who": [
+			"School physicians, school dentists, and school pharmacists at Shinagawa City schools",
+			"People receiving nursing-care or funeral compensation"
+		],
+		"why": "The city says it is changing the amounts of nursing-care and funeral compensation following an amendment to the Cabinet Order that sets compensation standards for work-related accidents involving school physicians and others at public schools.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:14:11.025Z",
+			"inputTokens": 723,
+			"cachedTokens": 0,
+			"outputTokens": 667,
+			"reasoningTokens": 367
+		}
+	}
 }

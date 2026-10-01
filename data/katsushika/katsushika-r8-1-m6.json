@@ -27,5 +27,52 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8g_gian006.pdf",
 			"fetchedAt": "2026-09-30T10:38:59.307Z"
 		}
-	]
+	],
+	"name": "住宅宿泊事業の制限に期限を設定",
+	"category": "くらし・手続き",
+	"summary": "現行条例では、住宅宿泊事業の実施制限の期間を「当分」としています。この議案は、期間を条例の施行日から令和11年3月31日までとする内容です。",
+	"changes": [
+		"住宅宿泊事業の実施制限に令和11年3月31日までの期限を設ける"
+	],
+	"who": [
+		"住宅宿泊事業を行う事業者"
+	],
+	"why": "住宅宿泊事業の実施を制限する必要があるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:37:06.566Z",
+		"inputTokens": 1205,
+		"cachedTokens": 0,
+		"outputTokens": 1299,
+		"reasoningTokens": 1128
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:37:06.566Z",
+		"checkedAt": "2026-09-30T15:30:53.239Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "議会では否決されました。",
+				"note": "原文に議決結果の記載はなく、否決されたことは確認できません。",
+				"dismissed": {
+					"note": "True (status 否決, from the voting results page), but the checker only sees the bill text. Sentence removed: the site shows the result as the status stamp.",
+					"at": "2026-10-01T11:30:44.894Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1139,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 0
+		}
+	}
 }

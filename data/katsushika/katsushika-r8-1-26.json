@@ -27,5 +27,68 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian26.pdf",
 			"fetchedAt": "2026-09-30T10:38:11.610Z"
 		}
-	]
+	],
+	"name": "東立石自転車置場を廃止",
+	"category": "交通",
+	"summary": "現在の条例は、自転車駐車場と自転車置場について定めています。この議案で東立石自転車置場を廃止し、条例名や自転車置場に関する規定を改めます。",
+	"changes": [
+		"東立石自転車置場を廃止する",
+		"自転車置場に関する規定を削る",
+		"条例の題名を「葛飾区自転車駐車場条例」に改める"
+	],
+	"who": [
+		"東立石自転車置場を利用する人"
+	],
+	"why": "東立石自転車置場を廃止し、あわせて必要な改正を行うためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:35:34.307Z",
+		"inputTokens": 1739,
+		"cachedTokens": 0,
+		"outputTokens": 1001,
+		"reasoningTokens": 776
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:35:34.307Z",
+		"checkedAt": "2026-09-30T15:30:04.613Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1711,
+			"cachedTokens": 0,
+			"outputTokens": 55,
+			"reasoningTokens": 40
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2d917db12e0fb6ff",
+		"name": "Discontinues the Higashi-Tateishi Bicycle Parking Area",
+		"official": "Ordinance Partially Amending the Katsushika City Bicycle Parking Lot and Bicycle Parking Area Ordinance",
+		"summary": "The current ordinance sets rules for bicycle parking lots and bicycle parking areas. This bill discontinues the Higashi-Tateishi Bicycle Parking Area and revises the ordinance title and provisions concerning bicycle parking areas.",
+		"changes": [
+			"Discontinues the Higashi-Tateishi Bicycle Parking Area",
+			"Removes provisions concerning bicycle parking areas",
+			"Changes the ordinance title to the “Katsushika City Bicycle Parking Lot Ordinance”"
+		],
+		"who": [
+			"People who use the Higashi-Tateishi Bicycle Parking Area"
+		],
+		"why": "The mayor says this is to discontinue the Higashi-Tateishi Bicycle Parking Area and make the necessary related amendments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:00:58.812Z",
+			"inputTokens": 582,
+			"cachedTokens": 0,
+			"outputTokens": 369,
+			"reasoningTokens": 163
+		}
+	}
 }

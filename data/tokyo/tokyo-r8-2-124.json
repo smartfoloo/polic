@@ -59,5 +59,28 @@
 			"outputTokens": 38,
 			"reasoningTokens": 24
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "af9f285b68d8cb2d",
+		"name": "Updates citations in ordinance on partial liability exemption for the governor and others",
+		"official": "Ordinance Partially Amending the Ordinance on Partial Exemption from Liability for Damages of the Governor of Tokyo and Others",
+		"summary": "The ordinance that partially exempts the governor and others from liability for damages currently cites article numbers in the Local Autonomy Act. This bill updates the cited article numbers. It takes effect on September 24, 2026.",
+		"changes": [
+			"Changes the citation from Article 243-2-7, paragraph 1, to Article 243-2-8, paragraph 1",
+			"Changes the citation from Article 243-2-8, paragraph 3, to Article 243-2-9, paragraph 3"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says this is to bring the ordinance provisions into line with the enforcement of the amended Local Autonomy Act, among other things.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:33.328Z",
+			"inputTokens": 577,
+			"cachedTokens": 0,
+			"outputTokens": 629,
+			"reasoningTokens": 408
+		}
 	}
 }

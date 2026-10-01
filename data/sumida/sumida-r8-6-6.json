@@ -27,5 +27,80 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R86gatugian.files/0806kobungaiyo.pdf",
 			"fetchedAt": "2026-09-30T12:22:37.376Z"
 		}
-	]
+	],
+	"name": "学校施設の利用料を1時間単位に",
+	"category": "教育",
+	"summary": "現在は時間帯ごとに学校施設を貸し出しています。この議案では、1時間単位の貸し出しに変え、利用時間の区分と施設ごとの使用料を改めます。改正は令和9年2月1日からで、予約システムの導入も予定されています。",
+	"changes": [
+		"施設の貸し出しを時間帯ごとの区分から1時間単位に変える",
+		"昼間を午前9時から午後6時まで、夜間を午後6時から午後9時までとし、施設ごとの1時間当たりの使用料を定める",
+		"屋内運動場を昼間330円・夜間520円、教室を80円・170円、校庭を200円・340円、集会施設を大1,020円・1,160円、小200円・230円、柔道場と剣道場を440円・560円にする",
+		"区内に住所を有する者など以外の使用料には基本額の5割相当額を加え、教育委員会が必要と認める場合は午後9時から午後10時までの使用も認める"
+	],
+	"who": [
+		"墨田区立学校施設の利用者",
+		"区内に住所を有する者など以外の利用者"
+	],
+	"why": "施設を使いやすくし、学校施設をより効率的に貸し出すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:10:59.102Z",
+		"inputTokens": 2110,
+		"cachedTokens": 0,
+		"outputTokens": 1560,
+		"reasoningTokens": 1202
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:10:59.102Z",
+		"checkedAt": "2026-09-30T15:49:02.535Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "原文の概要・参考1にある、予約システム導入に伴うインターネットでの空き状況確認・申請等と、利用券購入からオンライン決済への変更がchangesに記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2247,
+			"cachedTokens": 0,
+			"outputTokens": 321,
+			"reasoningTokens": 232
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0aecb54d348b83b8",
+		"name": "Moves school facility rentals to hourly units",
+		"official": "Ordinance Partially Amending the Sumida City School Facilities Use Ordinance",
+		"summary": "School facilities are currently rented out in time slots. This bill changes rentals to one-hour units and revises the usage periods and fees for each facility. The changes take effect on February 1, 2027, and a reservation system is also planned.",
+		"changes": [
+			"Changes facility rentals from time slots to one-hour units",
+			"Sets daytime hours as 9 a.m. to 6 p.m. and nighttime hours as 6 p.m. to 9 p.m., and establishes hourly fees for each facility",
+			"Sets daytime and nighttime fees at ¥330 and ¥520 for indoor gyms, ¥80 and ¥170 for classrooms, ¥200 and ¥340 for school grounds, ¥1,020 and ¥1,160 for large assembly facilities, ¥200 and ¥230 for small assembly facilities, and ¥440 and ¥560 for judo and kendo halls",
+			"Adds an amount equal to 50% of the basic fee for users other than people with an address in Sumida City, etc., and allows use from 9 p.m. to 10 p.m. when the Board of Education deems it necessary"
+		],
+		"who": [
+			"Users of Sumida City school facilities",
+			"Users other than people with an address in Sumida City, etc."
+		],
+		"why": "The ward says the changes are intended to make the facilities easier to use and to rent out school facilities more efficiently.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:17:27.453Z",
+			"inputTokens": 736,
+			"cachedTokens": 0,
+			"outputTokens": 1068,
+			"reasoningTokens": 718
+		}
+	}
 }

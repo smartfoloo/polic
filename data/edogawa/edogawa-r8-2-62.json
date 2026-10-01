@@ -22,5 +22,60 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2790_gian62.pdf",
 			"fetchedAt": "2026-09-30T10:43:29.679Z"
 		}
-	]
+	],
+	"name": "完了地区の事業規定を削除",
+	"category": "まちづくり",
+	"summary": "現在の規程には、篠崎駅西部地区の土地区画整理事業に関する2地区分の規定があります。この議案で、事業が完了した1地区に関する規定を削除します。",
+	"changes": [
+		"篠崎町7丁目4番、5番、8番及び9番の事業規定を削除する"
+	],
+	"who": [],
+	"why": "土地区画整理事業が1地区で完了したため、その地区に関する規定を削除する必要があると、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:31:21.439Z",
+		"inputTokens": 1261,
+		"cachedTokens": 0,
+		"outputTokens": 678,
+		"reasoningTokens": 497
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:31:21.439Z",
+		"checkedAt": "2026-09-30T15:27:59.970Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1188,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d2646c3c04dda441",
+		"name": "Deletes regulations for a completed district",
+		"official": "Ordinance Partially Amending the Regulations for Implementing the Tokyo City Planning Project Shinozaki Station West District Land Readjustment Project",
+		"summary": "The current regulations contain provisions for two districts relating to the land readjustment project in the Shinozaki Station West District. This bill removes the provisions relating to one district where the project has been completed.",
+		"changes": [
+			"Deletes the project regulations for lots 4, 5, 8 and 9 in Shinozaki-machi 7-chome"
+		],
+		"who": [],
+		"why": "The ward says the provisions for that district need to be removed because the land readjustment project has been completed in one district.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:23:07.191Z",
+			"inputTokens": 538,
+			"cachedTokens": 0,
+			"outputTokens": 604,
+			"reasoningTokens": 424
+		}
+	}
 }

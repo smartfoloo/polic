@@ -72,5 +72,33 @@
 			"outputTokens": 451,
 			"reasoningTokens": 303
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "263c014652937dbe",
+		"name": "Changes accommodation tax to 3% of accommodation charges",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Accommodation Tax Ordinance",
+		"summary": "The current accommodation tax applies to stays costing ¥10,000 or more per person per night, and the tax is ¥100 or ¥200. This bill also makes users of simple lodging facilities and private lodgings subject to the tax. It raises the tax-exemption threshold to stays costing less than ¥13,000 and changes the tax to 3% of the accommodation charge.",
+		"changes": [
+			"Adds users of simple lodging facilities and private lodgings to those subject to the tax",
+			"Changes the tax-exemption threshold from less than ¥10,000 to less than ¥13,000 per person per night",
+			"Changes the tax to 3% of the accommodation charge and clarifies that the revenue will be used for measures based on the Tokyo Metropolitan Government’s tourism plan",
+			"Relaxes the conditions for filing tax returns every three months and extends the period for keeping books and documents to 7 years"
+		],
+		"who": [
+			"People staying in Tokyo for ¥10,000 or more per person per night",
+			"Businesses operating accommodation facilities that collect the accommodation tax"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to support tourism promotion financially, in light of changes in the environment surrounding the accommodation tax.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:04.409Z",
+			"inputTokens": 692,
+			"cachedTokens": 0,
+			"outputTokens": 782,
+			"reasoningTokens": 472
+		}
 	}
 }

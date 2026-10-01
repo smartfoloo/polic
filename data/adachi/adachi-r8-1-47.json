@@ -27,5 +27,60 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4364_R81TG047.pdf",
 			"fetchedAt": "2026-09-30T10:35:04.932Z"
 		}
-	]
+	],
+	"name": "保育事業の基準の参照条文を修正",
+	"category": "行政のしくみ",
+	"summary": "家庭的保育事業等の設備や運営の基準を定める条例の一部を改めます。第12条の参照先を変更し、この条例は公布日から施行します。",
+	"changes": [
+		"第12条の参照先を「第33条の10各号」から「第33条の10第1項各号」に改める"
+	],
+	"who": [],
+	"why": "児童福祉法の一部改正に伴い、条例の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:23:46.264Z",
+		"inputTokens": 1169,
+		"cachedTokens": 0,
+		"outputTokens": 528,
+		"reasoningTokens": 344
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:23:46.264Z",
+		"checkedAt": "2026-09-30T15:23:45.212Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1102,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9cedae6cf9fef132",
+		"name": "Corrects a cross-reference in childcare service standards",
+		"official": "Ordinance Partially Amending the Adachi City Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "Partially amends the ordinance establishing standards for the equipment and operation of home-based childcare services, etc. It changes the reference in Article 12, and this ordinance takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the reference in Article 12 from “each item of Article 33-10” to “each item of paragraph 1 of Article 33-10”"
+		],
+		"who": [],
+		"why": "The ward explains that this is necessary to adjust the ordinance provisions following a partial amendment to the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:19.982Z",
+			"inputTokens": 545,
+			"cachedTokens": 0,
+			"outputTokens": 505,
+			"reasoningTokens": 322
+		}
+	}
 }

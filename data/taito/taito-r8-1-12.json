@@ -27,5 +27,96 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-12.pdf",
 			"fetchedAt": "2026-09-30T10:10:45.516Z"
 		}
-	]
+	],
+	"name": "障害者グループホームこじまを設置",
+	"category": "福祉",
+	"summary": "台東区に障害者グループホームこじまを設置します。所在地は台東区小島1丁目5番5号で、共同生活援助や短期入所などを行い、区が指定する団体が管理します。",
+	"changes": [
+		"小島1丁目5番5号にグループホームを設置する",
+		"共同生活援助や短期入所などを行う",
+		"施設の管理を区が指定する団体に行わせる",
+		"利用料金とサービス利用に伴う実費の負担を定める"
+	],
+	"who": [
+		"障害福祉サービス受給者証を交付された知的障害者・身体障害者",
+		"法律に基づく措置の決定を受けた人",
+		"区長が適当と認める人"
+	],
+	"why": "障害者グループホームこじまを設置するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:12:13.846Z",
+		"inputTokens": 3227,
+		"cachedTokens": 0,
+		"outputTokens": 1494,
+		"reasoningTokens": 1217
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:12:13.846Z",
+		"checkedAt": "2026-09-30T15:49:36.997Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用料金とサービス利用に伴う実費の負担を定める",
+				"note": "第11条では、指定管理者が特に必要と認める場合に実費を減額・免除できると定めているが、この負担軽減の規定が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "共同生活援助や短期入所などを行う",
+				"note": "第9条の利用手続と、区長が適当と認める者に対する申請・承認の要件、承認をしない場合、第12条の承認取消し・利用制限・停止の規定が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用料金とサービス利用に伴う実費の負担を定める",
+				"note": "第13条では、施設・設備に損害を与えた利用者の賠償義務と、やむを得ない理由がある場合の減額・免除を定めているが、この負担に関する規定が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3250,
+			"cachedTokens": 0,
+			"outputTokens": 452,
+			"reasoningTokens": 163
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c129d14d60804952",
+		"name": "Establishes Kojima Group Home for People with Disabilities",
+		"official": "Taito City Ordinance on City-Run Group Homes for People with Disabilities",
+		"summary": "Taito City will establish Kojima Group Home for People with Disabilities at 1-5-5 Kojima, Taito City. It will provide assistance with communal living, short-term stays and other services. An organization designated by the ward will manage the facility.",
+		"changes": [
+			"Establishes a group home at 1-5-5 Kojima",
+			"Provides assistance with communal living, short-term stays and other services",
+			"Has an organization designated by the ward manage the facility",
+			"Sets user fees and costs incurred for using services"
+		],
+		"who": [
+			"People with intellectual or physical disabilities who have been issued a disability welfare service recipient certificate",
+			"People covered by a decision under the law",
+			"People whom the mayor considers appropriate"
+		],
+		"why": "The ward says this is to establish Kojima Group Home for People with Disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:18:04.221Z",
+			"inputTokens": 618,
+			"cachedTokens": 0,
+			"outputTokens": 969,
+			"reasoningTokens": 729
+		}
+	}
 }

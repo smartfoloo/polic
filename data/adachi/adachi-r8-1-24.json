@@ -27,5 +27,70 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4396_R81TG024.pdf",
 			"fetchedAt": "2026-09-30T10:32:29.014Z"
 		}
-	]
+	],
+	"name": "建築審査会の旅費区分を見直す",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、旅費を7種に分けています。この議案では、旅費の区分を8種に変更し、「もつて」などの表記も改めます。令和8年4月1日から施行されます。",
+	"changes": [
+		"旅費の区分を7種から8種に改める",
+		"「もつて」を「もって」に、「あつた」を「あった」に改める"
+	],
+	"who": [],
+	"why": "足立区職員の旅費に関する条例の改正に伴い、あわせて規定を整えるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:21:32.887Z",
+		"inputTokens": 1215,
+		"cachedTokens": 0,
+		"outputTokens": 2195,
+		"reasoningTokens": 2015
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:21:32.887Z",
+		"checkedAt": "2026-09-30T15:22:38.963Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "旅費の区分を7種から8種に改める",
+				"note": "第9条第2項では、種類数だけでなく「車賃、旅行雑費、宿泊料及び食卓料」を「その他の交通費、宿泊費、包括宿泊費、宿泊手当及び旅行雑費」に改めています。具体的な旅費の費目変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1166,
+			"cachedTokens": 0,
+			"outputTokens": 308,
+			"reasoningTokens": 185
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "92d9341fe7af2741",
+		"name": "Revises travel expense categories for the Building Review Board",
+		"official": "Ordinance Partially Amending the Adachi City Building Review Board Ordinance",
+		"summary": "The current ordinance divides travel expenses into 7 categories. This bill changes the number of categories to 8 and revises spellings such as “もつて.” It takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the travel expense categories from 7 to 8",
+			"Changes “もつて” to “もって” and “あつた” to “あった”"
+		],
+		"who": [],
+		"why": "The mayor says the provisions are being adjusted at the same time in connection with amendments to the Ordinance on Travel Expenses for Adachi City employees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:55:18.970Z",
+			"inputTokens": 547,
+			"cachedTokens": 0,
+			"outputTokens": 527,
+			"reasoningTokens": 341
+		}
+	}
 }

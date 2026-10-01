@@ -60,5 +60,29 @@
 			"outputTokens": 296,
 			"reasoningTokens": 282
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "de9363223c1ee366",
+		"name": "Revises the base amount for duty-related accident compensation at Tokyo Metropolitan schools",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Duty-Related Accidents of School Doctors, School Dentists, and School Pharmacists at Tokyo Metropolitan Schools",
+		"summary": "The current base amount for compensation for school doctors and school dentists with 10 or more but less than 15 years of experience is ¥14,175. This bill revises the base amounts for duty-related accident compensation for school doctors, school dentists, and school pharmacists at Tokyo Metropolitan schools, setting the amount for the same category at ¥14,397. It will take effect on April 1, 2026.",
+		"changes": [
+			"Revises the base amount for duty-related accident compensation"
+		],
+		"who": [
+			"School doctors, school dentists, and school pharmacists at Tokyo Metropolitan schools"
+		],
+		"why": "The Tokyo Metropolitan Government says the base amount needs to be revised following the implementation of provisions amending the ordinance on employee salaries, among other things.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:25:16.126Z",
+			"inputTokens": 627,
+			"cachedTokens": 0,
+			"outputTokens": 724,
+			"reasoningTokens": 484
+		}
 	}
 }

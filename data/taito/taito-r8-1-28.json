@@ -27,5 +27,74 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-28.pdf",
 			"fetchedAt": "2026-09-30T12:17:44.982Z"
 		}
-	]
+	],
+	"name": "保健福祉の修学資金貸付制度を廃止",
+	"category": "福祉",
+	"summary": "現在の保健福祉修学資金等貸付制度を廃止します。廃止前に申請した人の貸付けと返済には、廃止前の条例が引き続き適用されます。",
+	"changes": [
+		"保健福祉修学資金等貸付制度を廃止する",
+		"申請済みの修学資金等の貸付けと償還には廃止前の条例を適用する"
+	],
+	"who": [
+		"廃止前に修学資金等を申請した人"
+	],
+	"why": "保健福祉修学資金等貸付制度を廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:15:03.568Z",
+		"inputTokens": 1235,
+		"cachedTokens": 0,
+		"outputTokens": 982,
+		"reasoningTokens": 760
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:15:03.568Z",
+		"checkedAt": "2026-09-30T15:50:46.292Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保健福祉修学資金等貸付制度を廃止する",
+				"note": "原文の付則第1項にある施行日（2026年4月1日）が抜けており、制度廃止の時点が示されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1203,
+			"cachedTokens": 0,
+			"outputTokens": 167,
+			"reasoningTokens": 73
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "92043f7b7d42f247",
+		"name": "Ends the health and welfare study loan program",
+		"official": "Ordinance to Repeal the Taito City Health and Welfare Scholarship and Other Loan Ordinance",
+		"summary": "The current health and welfare scholarship and other loan program will be discontinued. For loans to people who applied before the repeal and their repayments, the ordinance in effect before the repeal will continue to apply.",
+		"changes": [
+			"Discontinues the health and welfare scholarship and other loan program",
+			"Applies the ordinance in effect before the repeal to loans and repayments for people who have already applied"
+		],
+		"who": [
+			"People who applied for a study loan or other loan before the repeal"
+		],
+		"why": "The ward says it is repealing the health and welfare scholarship and other loan program.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:19:49.508Z",
+			"inputTokens": 573,
+			"cachedTokens": 0,
+			"outputTokens": 732,
+			"reasoningTokens": 547
+		}
+	}
 }

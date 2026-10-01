@@ -32,5 +32,68 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB719_7.pdf",
 			"fetchedAt": "2026-09-30T12:26:20.187Z"
 		}
-	]
+	],
+	"name": "芝公園駅に自転車駐車場を設置",
+	"category": "交通",
+	"summary": "条例に定める自転車駐車場に、芝公園駅の施設を加えます。利用方法は一時利用とします。",
+	"changes": [
+		"港区立芝公園駅自転車駐車場を設置する",
+		"所在地を東京都港区芝公園二丁目513番4とする",
+		"利用方法を一時利用とする"
+	],
+	"who": [
+		"芝公園駅自転車駐車場を利用する人"
+	],
+	"why": "芝公園駅自転車駐車場を設置するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:42:44.492Z",
+		"inputTokens": 1246,
+		"cachedTokens": 0,
+		"outputTokens": 1050,
+		"reasoningTokens": 887
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:42:44.492Z",
+		"checkedAt": "2026-09-30T15:33:47.960Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1188,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 37
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4ba80b4a005ac048",
+		"name": "Adds bicycle parking at Shibakoen Station",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on Preventing Bicycle Abandonment and Developing Bicycle Parking Facilities",
+		"summary": "Adds the facility at Shibakoen Station to the bicycle parking facilities set out in the ordinance. It will be for short-term use.",
+		"changes": [
+			"Establishes the Minato City Shibakoen Station Bicycle Parking Facility",
+			"Sets its location at 2-chome, 513-4 Shibakoen, Minato City, Tokyo",
+			"Sets the facility for short-term use"
+		],
+		"who": [
+			"People who use the Shibakoen Station Bicycle Parking Facility"
+		],
+		"why": "The ward says this is to establish the Shibakoen Station Bicycle Parking Facility.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:24.397Z",
+			"inputTokens": 557,
+			"cachedTokens": 0,
+			"outputTokens": 449,
+			"reasoningTokens": 253
+		}
+	}
 }

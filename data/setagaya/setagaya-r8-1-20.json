@@ -32,5 +32,78 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/20.pdf",
 			"fetchedAt": "2026-09-30T10:19:40.177Z"
 		}
-	]
+	],
+	"name": "区民会館の営利利用と物品販売時の料金を見直し",
+	"category": "まちづくり",
+	"summary": "これまでは、区民会館の集会室などを営利目的で利用できませんでした。令和8年7月1日から営利目的で利用できるようになり、別表にある「1,000円以上」の基準は「2,000円を超える」に変わります。令和8年10月1日からは、催し物に関連する物品販売を伴う利用の料金に、基本使用料等の50%相当額が加算されます。",
+	"changes": [
+		"区民会館の集会室などを営利目的で利用できるようにする",
+		"別表にある「1,000円以上」の基準を「2,000円を超える」に改める",
+		"催し物に関連する物品販売を行う場合、基本使用料・基本利用料金にそれぞれ50%相当額を加算する。ただし、別の規定に該当する場合や区長が特別の理由を認めた場合を除く"
+	],
+	"who": [
+		"区民会館を営利目的で利用する人や団体",
+		"区民会館で催し物に関連する物品を販売する利用者"
+	],
+	"why": "区民会館の集会室などで営利目的の利用を可能にし、施設の使用目的などに応じた使用料等の規定を見直すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:51:33.617Z",
+		"inputTokens": 2233,
+		"cachedTokens": 0,
+		"outputTokens": 2516,
+		"reasoningTokens": 2154
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:51:33.617Z",
+		"checkedAt": "2026-09-30T15:38:06.790Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区民会館の集会室などを営利目的で利用できるようにする",
+				"note": "第9条第2項第2号を「世田谷区立玉川区民会館別館に限る」に改める規定があり、営利目的の利用を可能にする対象について、同別館が例外となる点が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2368,
+			"cachedTokens": 0,
+			"outputTokens": 298,
+			"reasoningTokens": 181
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "00303aa780b7d405",
+		"name": "Revises charges for commercial use of community halls and sales of goods",
+		"official": "Ordinance Partially Amending the Setagaya City Community Hall Ordinance, etc.",
+		"summary": "Until now, rooms such as meeting rooms in community halls could not be used for commercial purposes. From July 1, 2026, they may be used for commercial purposes, and the standard in the appendix, “¥1,000 or more,” will change to “more than ¥2,000.” From October 1, 2026, an amount equivalent to 50% of the basic usage fee, etc. will be added to the charge for use involving the sale of goods related to an event.",
+		"changes": [
+			"Allow commercial use of meeting rooms and other spaces in community halls",
+			"Change the standard in the appendix from “¥1,000 or more” to “more than ¥2,000”",
+			"Add an amount equivalent to 50% of the basic usage fee and basic usage charge, respectively, when goods related to an event are sold, except where another provision applies or the mayor recognizes a special reason"
+		],
+		"who": [
+			"People and organizations using community halls for commercial purposes",
+			"Users selling goods related to events at community halls"
+		],
+		"why": "The ward says this is to allow commercial use of meeting rooms and other spaces in community halls and to review provisions on usage fees, etc. according to the purpose of use of the facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:46.282Z",
+			"inputTokens": 737,
+			"cachedTokens": 0,
+			"outputTokens": 1318,
+			"reasoningTokens": 986
+		}
+	}
 }

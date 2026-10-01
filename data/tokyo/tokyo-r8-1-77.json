@@ -62,5 +62,33 @@
 			"outputTokens": 442,
 			"reasoningTokens": 428
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bb61d732e5fa8d0e",
+		"name": "Revises the maximum occupancy fees for port roads",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Port Management Ordinance",
+		"summary": "The monthly fee for occupying space with a sign installed on a port road is ¥1,916 per square meter of display area. This bill changes it to ¥2,025. It also revises the maximum amounts for other occupancy fees. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Raises the sign occupancy fee from ¥1,916 to ¥2,025 per month per square meter of display area",
+			"Raises another maximum occupancy fee for port roads from ¥958 to ¥1,008",
+			"Raises another maximum occupancy fee for port roads from ¥230 to ¥240"
+		],
+		"who": [
+			"Businesses occupying port roads",
+			"Businesses occupying port roads",
+			"Businesses occupying port roads"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to ensure that beneficiaries bear an appropriate share of the costs.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:12.076Z",
+			"inputTokens": 605,
+			"cachedTokens": 0,
+			"outputTokens": 1191,
+			"reasoningTokens": 954
+		}
 	}
 }

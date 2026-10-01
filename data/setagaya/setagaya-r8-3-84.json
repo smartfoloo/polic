@@ -27,5 +27,87 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/84.pdf",
 			"fetchedAt": "2026-09-30T10:23:05.381Z"
 		}
-	]
+	],
+	"name": "区立幼稚園の対象年齢と預かり保育料を変更",
+	"category": "子育て",
+	"summary": "現在の条例では、預かり保育は教育課程の終了後に行う形で定められています。この議案では、教育活動の開始前や終了後、教育活動がない日も対象にし、利用料を1人1時間あたり100円とします。また、幼稚園ごとに受け入れる年齢を定めます。",
+	"changes": [
+		"預かり保育を教育活動の開始前・終了後や教育活動がない日にも行える形にする",
+		"預かり保育料を1人1時間あたり100円とする",
+		"利用時間の1時間未満の端数を1時間として計算する",
+		"対象年齢を区立幼稚園ごとに定める"
+	],
+	"who": [
+		"区立幼稚園を利用する子どもの保護者",
+		"区立幼稚園で預かり保育を利用する子どもの保護者"
+	],
+	"why": "区立幼稚園の集約化計画に基づき、集約する幼稚園で3歳児保育を始め、預かり保育の日数や時間を広げるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:57:01.489Z",
+		"inputTokens": 1696,
+		"cachedTokens": 0,
+		"outputTokens": 1894,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:57:01.489Z",
+		"checkedAt": "2026-09-30T15:41:42.003Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "対象年齢を区立幼稚園ごとに定める",
+				"note": "原文の別表では、さくらのおか幼稚園・たまがわのもり幼稚園の年齢を3歳、給田・砧・八幡山幼稚園を4歳と定めている。3歳児の受け入れ対象となる園が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用時間の1時間未満の端数を1時間として計算する",
+				"note": "原文第4条第2項では「1日の利用時間の合計」の端数を切り上げる。料金計算の単位が1日ごとの合計であることが抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1785,
+			"cachedTokens": 0,
+			"outputTokens": 479,
+			"reasoningTokens": 227
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6a4d5b342a15a9bd",
+		"name": "Changes age eligibility and supervised childcare fees at Setagaya City kindergartens",
+		"official": "Ordinance Partially Amending the Setagaya City Kindergarten Childcare Fees Ordinance",
+		"summary": "Under the current ordinance, supervised childcare takes place after the educational program ends. This bill also allows it before and after educational activities and on days when no educational activities are held, and sets the fee at ¥100 per child per hour. It also sets the eligible age at each kindergarten.",
+		"changes": [
+			"Allows supervised childcare before and after educational activities and on days when no educational activities are held",
+			"Sets the supervised childcare fee at ¥100 per child per hour",
+			"Counts any part of an hour of use as one full hour",
+			"Sets the eligible age separately for each city-run kindergarten"
+		],
+		"who": [
+			"Parents or guardians of children who attend city-run kindergartens",
+			"Parents or guardians of children who use supervised childcare at city-run kindergartens"
+		],
+		"why": "The mayor says the changes are intended to start childcare for 3-year-olds at kindergartens being consolidated under the city-run kindergarten consolidation plan, and to expand the number of days and hours when supervised childcare is available.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:02.600Z",
+			"inputTokens": 691,
+			"cachedTokens": 0,
+			"outputTokens": 779,
+			"reasoningTokens": 497
+		}
+	}
 }

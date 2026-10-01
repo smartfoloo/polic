@@ -27,5 +27,66 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/78.pdf",
 			"fetchedAt": "2026-09-30T10:22:40.318Z"
 		}
-	]
+	],
+	"name": "風景づくりの規定の表現を改める",
+	"category": "まちづくり",
+	"summary": "現在の条例では、景観法の条文番号や「区域ごと」「新築」などの表現を使っています。この議案で、参照する条文番号や一部の表現を改めます。施行日は規則で定めます。",
+	"changes": [
+		"景観法の引用を「第16条第7項第11号」から「第16条第8項第12号」に改める",
+		"第29条第3項第4号の「以下」を削る",
+		"「区域ごと」を「区分ごと」に改める",
+		"第30条第2号の「新築」を「新設」に改める"
+	],
+	"who": [],
+	"why": "景観法の改正などに伴って条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:56:10.827Z",
+		"inputTokens": 1178,
+		"cachedTokens": 0,
+		"outputTokens": 951,
+		"reasoningTokens": 707
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:56:10.827Z",
+		"checkedAt": "2026-09-30T15:40:51.879Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1165,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9f7ff3f95d5cb89e",
+		"name": "Revises wording in landscape regulations",
+		"official": "Ordinance Partially Amending the Setagaya City Landscape Creation Ordinance",
+		"summary": "The current ordinance uses article numbers from the Landscape Act and expressions such as “for each area” and “new construction.” This bill revises the referenced article numbers and some wording. The effective date will be set by rule.",
+		"changes": [
+			"Changes the Landscape Act reference from “Article 16, paragraph 7, item 11” to “Article 16, paragraph 8, item 12”",
+			"Deletes “below” from Article 29, paragraph 3, item 4",
+			"Changes “for each area” to “for each category”",
+			"Changes “new construction” in Article 30, item 2 to “new installation”"
+		],
+		"who": [],
+		"why": "The ward says this is to update the ordinance’s provisions in line with amendments to the Landscape Act and other changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:51.998Z",
+			"inputTokens": 588,
+			"cachedTokens": 0,
+			"outputTokens": 554,
+			"reasoningTokens": 326
+		}
+	}
 }

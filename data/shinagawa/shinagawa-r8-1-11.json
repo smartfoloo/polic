@@ -22,5 +22,89 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_11.pdf",
 			"fetchedAt": "2026-09-30T10:14:39.207Z"
 		}
-	]
+	],
+	"name": "聴聞などの通知方法を見直す",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、聴聞の実施などに関する通知に、区役所掲示板への掲示を使う方法が定められています。この議案では公示の方法を改め、規則で定める方法での閲覧に加え、掲示板への掲示または区の事務所にあるコンピューター画面で閲覧できるようにします。通知は、措置を始めてから2週間後に届いたものとみなします。",
+	"changes": [
+		"公示事項を不特定多数の人が閲覧できる状態にする方法を規則で定める",
+		"公示事項を書面で区役所掲示板に掲示するか、区の事務所にあるコンピューター画面で閲覧できるようにする",
+		"通知が届いたものとみなす時点を、措置開始から2週間後とする"
+	],
+	"who": [
+		"不利益処分の名あて人となる可能性がある人"
+	],
+	"why": "行政手続法の改正に伴い、聴聞の実施などに関する通知の公示方法を見直すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:59:14.828Z",
+		"inputTokens": 1803,
+		"cachedTokens": 0,
+		"outputTokens": 1573,
+		"reasoningTokens": 1239
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:59:14.828Z",
+		"checkedAt": "2026-09-30T15:42:43.017Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "通知が届いたものとみなす時点を、措置開始から2週間後とする",
+				"note": "第15条第4項では確認できるが、第22条第3項の改正指示には中身が空の「」があり、準用規定での変更の向きは確認できない。",
+				"dismissed": {
+					"note": "The two-week rule is confirmed in 第15条第4項; 第22条 applies it by reference.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1889,
+			"cachedTokens": 0,
+			"outputTokens": 294,
+			"reasoningTokens": 191
+		},
+		"dismissedFlags": [
+			{
+				"flag": "source has a garbled before/after table: check the direction of changes against the PDF",
+				"note": "The draft makes no before/after claim from the broken table, so it is not affected.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dca06b196f0e6273",
+		"name": "Revises how notices for hearings and other matters are given",
+		"official": "Ordinance Partially Amending the Shinagawa City Administrative Procedure Ordinance",
+		"summary": "Under the current ordinance, notices about holding hearings and other matters may be given by posting them on the ward office notice board. This bill changes the method of public notice. In addition to making the information available for viewing by methods set out in rules, it allows the information to be posted on a notice board or viewed on computer screens at the ward's offices. A notice is deemed to have been received two weeks after the measure begins.",
+		"changes": [
+			"Set out in rules how public-notice information is made available for viewing by an unspecified number of people",
+			"Make public-notice information available in writing on a notice board or on computer screens at the ward's offices",
+			"Deem a notice to have been received two weeks after the measure begins"
+		],
+		"who": [
+			"People who may be named as recipients of adverse dispositions"
+		],
+		"why": "The ward says it is reviewing the public-notice method for notices about holding hearings and other matters in response to amendments to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:30:05.393Z",
+			"inputTokens": 676,
+			"cachedTokens": 0,
+			"outputTokens": 1115,
+			"reasoningTokens": 847
+		}
+	}
 }

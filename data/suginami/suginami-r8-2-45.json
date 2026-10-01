@@ -35,7 +35,7 @@
 		"施設ごとの設備と職員配置の基準を定める",
 		"安全対策や保護者との連絡など、運営の基準を定める",
 		"子どもへの性暴力を防ぐため、犯罪事実確認などを義務付ける",
-		"乳児等通園支援事業に使う保育所の設備・職員の基準を、都の条例から区の条例に切り替える"
+		"余裕活用型乳児等通園支援事業を行う保育所の設備・職員の基準を、都の条例から区の条例に切り替える"
 	],
 	"who": [
 		"児童福祉施設を利用する子どもと保護者",
@@ -61,7 +61,11 @@
 				"kind": "fact",
 				"severity": "check",
 				"quote": "乳児等通園支援事業に使う保育所の設備・職員の基準を、都の条例から区の条例に切り替える",
-				"note": "附則第16項の改正対象は「余裕活用型乳児等通園支援事業」を行う保育所。要約では対象が広く読める。"
+				"note": "附則第16項の改正対象は「余裕活用型乳児等通園支援事業」を行う保育所。要約では対象が広く読める。",
+				"dismissed": {
+					"note": "Fixed in the text: limited to 余裕活用型 (附則第16項).",
+					"at": "2026-10-01T12:13:20.320Z"
+				}
 			}
 		],
 		"ai": {
@@ -71,6 +75,34 @@
 			"inputTokens": 31678,
 			"outputTokens": 424,
 			"reasoningTokens": 311
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "86a9bf548a1619ed",
+		"name": "Sets standards for child welfare facilities and their operation",
+		"official": "Suginami City Ordinance on Standards for the Equipment and Operation of Child Welfare Facilities",
+		"summary": "Suginami City has been designated as a city that establishes a child guidance center. This bill sets city standards for the facilities, staffing and operation of nursery schools, infant homes and other institutions. It will take effect on November 1, 2026. The provisions on preventing sexual violence against children will take effect on December 25, 2026.",
+		"changes": [
+			"Sets standards for the facilities and staffing at each type of institution",
+			"Sets operating standards, including safety measures and communication with parents",
+			"Requires criminal background checks and other measures to prevent sexual violence against children",
+			"Switches the standards for facilities and staffing at nursery schools providing childcare services for infants and other children using spare capacity from a Tokyo Metropolitan Government ordinance to a Suginami City ordinance"
+		],
+		"who": [
+			"Children and parents who use child welfare facilities",
+			"Operators of child welfare facilities"
+		],
+		"why": "The city says it needs to set standards for the facilities and operation of child welfare institutions because it has been designated as a city that establishes a child guidance center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:32:30.585Z",
+			"inputTokens": 695,
+			"cachedTokens": 0,
+			"outputTokens": 1137,
+			"reasoningTokens": 857
 		}
 	}
 }

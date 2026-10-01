@@ -27,5 +27,64 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4422_R82TG059.pdf",
 			"fetchedAt": "2026-09-30T10:35:47.922Z"
 		}
-	]
+	],
+	"name": "木造住宅の2回目の耐震診断助成に期限を設けない",
+	"category": "住宅",
+	"summary": "現在の条例では、耐震診断の助成に期限が設けられています。この改正で、木造住宅の耐震診断に対する2回目の助成金は、期限の対象外になります。",
+	"changes": [
+		"木造住宅の耐震診断に対する2回目の助成金の期限をなくす"
+	],
+	"who": [
+		"木造住宅で2回目の耐震診断助成を受ける人"
+	],
+	"why": "耐震診断の再診断に対する助成期限をなくすためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:25:10.604Z",
+		"inputTokens": 1135,
+		"cachedTokens": 0,
+		"outputTokens": 852,
+		"reasoningTokens": 657
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:25:10.604Z",
+		"checkedAt": "2026-09-30T15:24:30.800Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1082,
+			"cachedTokens": 0,
+			"outputTokens": 81,
+			"reasoningTokens": 66
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b6b9978aa8f71c44",
+		"name": "Removes the deadline for a second seismic assessment subsidy for wooden homes",
+		"official": "Ordinance Partially Amending the Adachi City Housing and Building Seismic Assessment Subsidy Ordinance",
+		"summary": "Under the current ordinance, subsidies for seismic assessments have a deadline. This amendment exempts the second subsidy for a seismic assessment of a wooden home from that deadline.",
+		"changes": [
+			"Removes the deadline for a second subsidy for seismic assessments of wooden homes"
+		],
+		"who": [
+			"People receiving a second seismic assessment subsidy for a wooden home"
+		],
+		"why": "The ward says this is to remove the deadline for subsidies for repeat seismic assessments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:27.127Z",
+			"inputTokens": 546,
+			"cachedTokens": 0,
+			"outputTokens": 403,
+			"reasoningTokens": 242
+		}
+	}
 }

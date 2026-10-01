@@ -58,5 +58,27 @@
 			"outputTokens": 146,
 			"reasoningTokens": 132
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4d31613ece86be26",
+		"name": "Reduces the amount of the Municipalities Promotion Fund",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Municipalities Promotion Fund Ordinance",
+		"summary": "The amount of the Tokyo Metropolitan Government Municipalities Promotion Fund is currently ¥313,930,672,000. From April 1, 2026, it will be ¥312,346,305,000. Of the amount after the change, ¥28,949,353,000 will be used for loans to the special wards, and ¥283,396,952,000 for loans to municipalities.",
+		"changes": [
+			"Reduces the fund amount from ¥313,930,672,000 to ¥312,346,305,000"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says the fund amount needs to be changed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:17.365Z",
+			"inputTokens": 565,
+			"cachedTokens": 0,
+			"outputTokens": 785,
+			"reasoningTokens": 591
+		}
 	}
 }

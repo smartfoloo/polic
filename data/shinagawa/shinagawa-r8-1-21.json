@@ -22,5 +22,68 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_21.pdf",
 			"fetchedAt": "2026-09-30T10:15:39.206Z"
 		}
-	]
+	],
+	"name": "三ツ木保育園を廃止し所在地を変更",
+	"category": "子育て",
+	"summary": "現在、条例には三ツ木保育園が区立保育所として定められ、東五反田保育園の所在地は品川区東五反田五丁目24番1号です。この議案で、三ツ木保育園を公私連携型保育所への移行に伴い廃止し、東五反田保育園の所在地を品川区西五反田六丁目6番18号に変更します。",
+	"changes": [
+		"三ツ木保育園を廃止する",
+		"東五反田保育園の所在地を品川区西五反田六丁目6番18号に変更する"
+	],
+	"who": [
+		"三ツ木保育園の利用者",
+		"東五反田保育園の利用者"
+	],
+	"why": "公私連携型保育所への移行に伴い三ツ木保育園を廃止し、東五反田保育園の所在地を変更する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:00:19.352Z",
+		"inputTokens": 1374,
+		"cachedTokens": 0,
+		"outputTokens": 804,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:00:19.352Z",
+		"checkedAt": "2026-09-30T15:43:17.956Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1415,
+			"cachedTokens": 0,
+			"outputTokens": 101,
+			"reasoningTokens": 87
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fbbb4c4e24c6e68d",
+		"name": "Abolishes Mitsugi Nursery School and changes Higashi-Gotanda Nursery School's address",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on City-Run Nursery Schools",
+		"summary": "The current ordinance lists Mitsugi Nursery School as a city-run nursery school and gives Higashi-Gotanda Nursery School's address as 5-24-1 Higashi-Gotanda, Shinagawa City. This bill abolishes Mitsugi Nursery School in connection with its transition to a public-private partnership nursery school and changes Higashi-Gotanda Nursery School's address to 6-6-18 Nishi-Gotanda, Shinagawa City.",
+		"changes": [
+			"Abolishes Mitsugi Nursery School",
+			"Changes Higashi-Gotanda Nursery School's address to 6-6-18 Nishi-Gotanda, Shinagawa City"
+		],
+		"who": [
+			"Users of Mitsugi Nursery School",
+			"Users of Higashi-Gotanda Nursery School"
+		],
+		"why": "The ward says these changes are necessary because Mitsugi Nursery School is transitioning to a public-private partnership nursery school and Higashi-Gotanda Nursery School's address is changing.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:11:54.253Z",
+			"inputTokens": 632,
+			"cachedTokens": 0,
+			"outputTokens": 785,
+			"reasoningTokens": 516
+		}
+	}
 }

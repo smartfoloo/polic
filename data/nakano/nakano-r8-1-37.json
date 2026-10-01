@@ -22,5 +22,84 @@
 			"url": "https://kugikai-nakano.jp/gian/2636125516.pdf",
 			"fetchedAt": "2026-09-30T10:26:21.766Z"
 		}
-	]
+	],
+	"name": "介護保険料の所得計算と減免手続に特例",
+	"category": "福祉",
+	"summary": "介護保険料率の算定には、所得額などが使われます。この議案は、令和8年度分について、給与所得の計算方法と保険料の減免手続に特例を設けます。",
+	"changes": [
+		"給与所得を含む合計所得金額について、給与収入額に応じた3通りの算定方法を定める",
+		"一定の条件に当てはまる人を、保険料率の算定上、特別区民税が課されている人として扱う",
+		"区長が特に必要と認める場合、保険料の減免申請や書類の提出を不要にできる"
+	],
+	"who": [
+		"令和7年の給与収入が55万1,000円以上190万円未満の第1号被保険者",
+		"世帯主か世帯員に、令和7年の給与収入が55万1,000円以上190万円未満で住民税が課されていない人がいる第1号被保険者",
+		"区長が減免手続の特例を必要と認める人"
+	],
+	"why": "令和8年度の保険料率算定に関する所得額の算定方法などと、同年度分の保険料減免手続の特例措置を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:48:49.804Z",
+		"inputTokens": 5063,
+		"cachedTokens": 0,
+		"outputTokens": 1744,
+		"reasoningTokens": 1409
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:48:49.804Z",
+		"checkedAt": "2026-09-30T15:36:36.695Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "令和8年度分の介護保険料の算定対象者のうち、令和7年に給与所得がある人",
+				"note": "対象を広く示しすぎています。附則第10条の所得計算の特例は、住所要件を満たす第1号被保険者で、令和7年の給与収入が551,000円以上1,900,000円未満の人に限定されています。第11条の課税扱いの特例にも、給与収入額や非課税に関する条件があります。",
+				"dismissed": {
+					"note": "Fixed in the text: who now includes people whose 世帯主 or 世帯員 meets the conditions.",
+					"at": "2026-10-01T12:09:21.506Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5147,
+			"cachedTokens": 0,
+			"outputTokens": 343,
+			"reasoningTokens": 185
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c5e5dcb610415863",
+		"name": "Special rules for long-term care insurance income calculations and premium relief procedures",
+		"official": "Ordinance Partially Amending the Nakano City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are calculated using income amounts, among other things. For FY 2026, this bill establishes special rules for calculating employment income and for procedures to reduce or exempt premiums.",
+		"changes": [
+			"Set out three methods for calculating total income, including employment income, based on salary earnings",
+			"Treat people who meet certain conditions as subject to Special Ward Resident Tax when calculating premium rates",
+			"Allow the mayor to waive applications for premium reductions or exemptions and the submission of documents when the mayor considers this especially necessary"
+		],
+		"who": [
+			"Category 1 insured persons with 2025 salary earnings of at least ¥551,000 and less than ¥1,900,000",
+			"Category 1 insured persons whose household includes a head or member who had 2025 salary earnings of at least ¥551,000 and less than ¥1,900,000 and is not subject to resident tax",
+			"People for whom the mayor considers special procedures for premium reductions or exemptions necessary"
+		],
+		"why": "The ward says it is necessary to establish methods for calculating income for FY 2026 premium rates, among other things, and special procedures for reducing or exempting premiums for that fiscal year.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:26:39.641Z",
+			"inputTokens": 729,
+			"cachedTokens": 0,
+			"outputTokens": 1345,
+			"reasoningTokens": 1031
+		}
+	}
 }

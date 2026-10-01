@@ -32,5 +32,96 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/33569/52.pdf",
 			"fetchedAt": "2026-09-30T10:21:52.208Z"
 		}
-	]
+	],
+	"name": "劇場の車椅子用客席の基準を追加",
+	"category": "まちづくり",
+	"summary": "現在の条例には、劇場等の客席に必要な車椅子使用者用部分の数や配置の基準がありません。改正により、座席数に応じた設置数や、同伴者用座席の配置などを定めます。新しい基準は、2026年10月1日以降に着手する建築とその維持保全に適用されます。",
+	"changes": [
+		"各階の座席数が266以下なら2か所以上、266を超えるなら座席数の75／10,000に当たる数（端数切り上げ）以上を設ける",
+		"各車椅子使用者用部分の横に同伴者用の座席またはスペースを1以上設け、2か所以上を横に隣接させる",
+		"座席数が400を超える階は縦通路を挟む位置にも分散し、1,000を超える階は横通路を挟む位置にも分散する"
+	],
+	"who": [
+		"劇場等を新築・用途変更する事業者",
+		"劇場等を利用する車椅子使用者と同伴者"
+	],
+	"why": "建築物の整備に関する条例の改正に伴い、劇場等の客席の規定を加え、関連する規定を整える必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:54:59.700Z",
+		"inputTokens": 2442,
+		"cachedTokens": 0,
+		"outputTokens": 2621,
+		"reasoningTokens": 2232
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:54:59.700Z",
+		"checkedAt": "2026-09-30T15:40:07.545Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "各階の座席数が266以下なら2か所、266を超えるなら座席数の75／10,000に当たる数を端数切り上げて設ける",
+				"note": "第14条の3第1項は、算出した数「以上」を設ける最低基準。要約では「以上」が抜け、設置数が固定されているように読める。",
+				"dismissed": {
+					"note": "Fixed in the text: these are minimums (以上).",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "座席数が400を超える階は縦通路を挟む位置にも分散し、1,000を超える階は横通路を挟む位置にも分散する",
+				"note": "第15条第2号・第4号・第6号の改正で、劇場等の客席に関する「経路」に車椅子使用者用経路を含める変更が、changesに記載されていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "各階の座席数が266以下なら2か所、266を超えるなら座席数の75／10,000に当たる数を端数切り上げて設ける",
+				"note": "附則第3項は、施行時に現存する特別特定建築物で、指定された類似用途間の用途変更をするものには新基準を適用しないと規定している。この適用除外がchangesに記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2574,
+			"cachedTokens": 0,
+			"outputTokens": 580,
+			"reasoningTokens": 209
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fb6362094f58c1c3",
+		"name": "Adds standards for wheelchair seating in theaters",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Buildings That Are Safe, Secure, and Easy for Elderly People, People with Disabilities, and Others to Use",
+		"summary": "The current ordinance has no standards for the number or placement of wheelchair-user spaces needed in seating areas at theaters and similar venues. The amendment sets the required number according to the number of seats, as well as rules for placing seats for companions. The new standards apply to construction and maintenance of buildings started on or after October 1, 2026.",
+		"changes": [
+			"Provide at least 2 spaces on floors with 266 seats or fewer; on floors with more than 266 seats, provide at least a number equal to 75/10,000 of the number of seats, rounding up",
+			"Place at least 1 seat or space for a companion next to each wheelchair-user space, and place at least 2 wheelchair-user spaces next to each other",
+			"On floors with more than 400 seats, distribute the spaces across vertical aisles; on floors with more than 1,000 seats, also distribute them across horizontal aisles"
+		],
+		"who": [
+			"Businesses constructing theaters and similar venues or changing their use",
+			"Wheelchair users who use theaters and similar venues, and their companions"
+		],
+		"why": "The mayor says that, following an amendment to the ordinance on building improvements, provisions for seating at theaters and similar venues need to be added and related provisions adjusted.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:28:30.112Z",
+			"inputTokens": 755,
+			"cachedTokens": 0,
+			"outputTokens": 1329,
+			"reasoningTokens": 986
+		}
+	}
 }

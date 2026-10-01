@@ -27,5 +27,76 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian14.pdf",
 			"fetchedAt": "2026-09-30T10:36:59.533Z"
 		}
-	]
+	],
+	"name": "住登外者の情報管理を個人番号の利用対象に",
+	"category": "行政のしくみ",
+	"summary": "現在、条例では個人番号を利用できる区や教育委員会の事務と、そこで扱う情報を定めています。この議案で、住民基本台帳に記録されていないものの、区民とは別に管理が必要な人の情報を管理する事務を加え、関連する情報項目も改めます。",
+	"changes": [
+		"区長が行う住登外者の情報管理事務を個人番号の利用対象に加える",
+		"教育委員会が行う住登外者の情報管理事務を個人番号の利用対象に加える",
+		"関連する事務で扱う情報項目に住登外者宛名情報を加える"
+	],
+	"who": [
+		"葛飾区の住民基本台帳に記録されておらず、区民とは別に管理が必要な人"
+	],
+	"why": "住登外者の情報を管理する事務を個人番号の利用対象に加えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:33:14.287Z",
+		"inputTokens": 2578,
+		"cachedTokens": 0,
+		"outputTokens": 911,
+		"reasoningTokens": 619
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:33:14.287Z",
+		"checkedAt": "2026-09-30T15:28:42.309Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "関連する事務で扱う情報項目に住登外者宛名情報を加える",
+				"note": "原文の別表第2の21、28の3・28の4、37の項では、住登外者宛名情報だけでなく、介護保険給付、生活保護、障害福祉などに関する情報も追加しており、この情報利用範囲の拡大が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2615,
+			"cachedTokens": 0,
+			"outputTokens": 235,
+			"reasoningTokens": 80
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c71dc24e687627b7",
+		"name": "Adds management of information on people not in the resident register to uses of Individual Numbers",
+		"official": "Ordinance Partially Amending the Katsushika City Ordinance on the Use of Individual Numbers and the Provision of Specific Personal Information",
+		"summary": "The current ordinance specifies the work of the city and the Board of Education for which Individual Numbers may be used, as well as the information handled in that work. This bill adds work managing information on people who are not listed in the Basic Resident Register but whose information must be managed separately from that of city residents, and revises related information items.",
+		"changes": [
+			"Adds the mayor's work managing information on people not listed in the Basic Resident Register to the uses of Individual Numbers",
+			"Adds the Board of Education's work managing information on people not listed in the Basic Resident Register to the uses of Individual Numbers",
+			"Adds addressee information for people not listed in the Basic Resident Register to the information items handled in related work"
+		],
+		"who": [
+			"People who are not listed in Katsushika City's Basic Resident Register and whose information must be managed separately from that of city residents"
+		],
+		"why": "The ward says this is to add work managing information on people not listed in the Basic Resident Register to the uses of Individual Numbers.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:55.334Z",
+			"inputTokens": 649,
+			"cachedTokens": 0,
+			"outputTokens": 906,
+			"reasoningTokens": 615
+		}
+	}
 }

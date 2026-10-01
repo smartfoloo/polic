@@ -27,5 +27,64 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/69.pdf",
 			"fetchedAt": "2026-09-30T10:22:16.274Z"
 		}
-	]
+	],
+	"name": "太子堂出張所の所在地を変更",
+	"category": "行政のしくみ",
+	"summary": "太子堂出張所は、東京都世田谷区太子堂二丁目17番1号にあります。この議案で、所在地を東京都世田谷区太子堂四丁目1番1号に変更します。施行日は規則で定めます。",
+	"changes": [
+		"太子堂出張所の所在地を東京都世田谷区太子堂二丁目17番1号から東京都世田谷区太子堂四丁目1番1号に変更する"
+	],
+	"who": [
+		"太子堂出張所を利用する人"
+	],
+	"why": "太子堂出張所の位置を変更する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:55:39.183Z",
+		"inputTokens": 1133,
+		"cachedTokens": 0,
+		"outputTokens": 586,
+		"reasoningTokens": 384
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:55:39.183Z",
+		"checkedAt": "2026-09-30T15:40:36.278Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1079,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5fdd857498c17be4",
+		"name": "Changes the location of the Taishido Branch Office",
+		"official": "Ordinance Partially Amending the Setagaya City Branch Office Establishment Ordinance",
+		"summary": "The Taishido Branch Office is located at 2-chome 17-1, Taishido, Setagaya City, Tokyo. This bill changes its location to 4-chome 1-1, Taishido, Setagaya City, Tokyo. The effective date will be set by regulation.",
+		"changes": [
+			"Changes the location of the Taishido Branch Office from 2-chome 17-1, Taishido, Setagaya City, Tokyo, to 4-chome 1-1, Taishido, Setagaya City, Tokyo"
+		],
+		"who": [
+			"People who use the Taishido Branch Office"
+		],
+		"why": "The ward says this is because it is necessary to change the location of the Taishido Branch Office.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:32.321Z",
+			"inputTokens": 547,
+			"cachedTokens": 0,
+			"outputTokens": 553,
+			"reasoningTokens": 326
+		}
+	}
 }

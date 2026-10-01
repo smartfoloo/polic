@@ -27,5 +27,68 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4392_R81TG020.pdf",
 			"fetchedAt": "2026-09-30T10:31:52.903Z"
 		}
-	]
+	],
+	"name": "介護保険料の所得判定に特例を設ける",
+	"category": "福祉",
+	"summary": "介護保険料率は、所得額や住民税の課税状況などをもとに算定します。この議案は、税制改正を踏まえ、令和8年度分の保険料率を計算するときの給与所得額と課税状況の判定に特例を設けます。令和8年4月1日から施行します。",
+	"changes": [
+		"給与収入の額に応じた、保険料率算定時の給与所得の計算方法を定める",
+		"一定の条件に当てはまる人を、保険料率の算定上、住民税が課されている人として扱う"
+	],
+	"who": [
+		"介護保険の第1号被保険者で、令和7年に対象範囲の給与収入があった人",
+		"第1号被保険者の世帯主や世帯員で、給与収入などの条件に当てはまる人"
+	],
+	"why": "令和7年度税制改正を踏まえた令和8年度分の介護保険料の特例措置を定める必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:20:53.974Z",
+		"inputTokens": 4821,
+		"cachedTokens": 0,
+		"outputTokens": 1371,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:20:53.974Z",
+		"checkedAt": "2026-09-30T15:22:07.992Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4907,
+			"cachedTokens": 0,
+			"outputTokens": 64,
+			"reasoningTokens": 50
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "84587b63d15714d4",
+		"name": "Creates special rules for assessing income for long-term care insurance premiums",
+		"official": "Ordinance Partially Amending the Adachi City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are calculated based on factors such as income and resident tax status. In light of tax law changes, this bill establishes special rules for assessing employment income and resident tax status when calculating premium rates for FY2026. It takes effect on April 1, 2026.",
+		"changes": [
+			"Sets out how employment income is calculated for premium rates according to the amount of salary earnings",
+			"Treats people who meet certain conditions as subject to resident tax when calculating premium rates"
+		],
+		"who": [
+			"Category 1 insured persons under long-term care insurance who had salary earnings within the specified range in 2025",
+			"Household heads and household members of Category 1 insured persons who meet conditions such as those relating to salary earnings"
+		],
+		"why": "The mayor says it is necessary to establish special measures for FY2026 long-term care insurance premiums in light of the FY2025 tax reform.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:55:08.001Z",
+			"inputTokens": 681,
+			"cachedTokens": 0,
+			"outputTokens": 718,
+			"reasoningTokens": 463
+		}
+	}
 }

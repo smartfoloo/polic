@@ -61,5 +61,30 @@
 			"outputTokens": 63,
 			"reasoningTokens": 49
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b9af95dee18cf05b",
+		"name": "Revises remuneration for election managers and others",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Reimbursement of Expenses for Election Managers, etc.",
+		"summary": "The ordinance sets remuneration for election managers and others at ¥11,500 and ¥9,000. This bill changes those amounts to ¥11,800 and ¥9,200, respectively. It takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the remuneration amount of ¥11,500 to ¥11,800",
+			"Changes the remuneration amount of ¥9,000 to ¥9,200"
+		],
+		"who": [
+			"People serving as election managers and others"
+		],
+		"why": "The Tokyo Metropolitan Government says the remuneration amounts for election managers and others are being revised in light of the recommendation from the Tokyo Metropolitan Special Remuneration Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:38.790Z",
+			"inputTokens": 589,
+			"cachedTokens": 0,
+			"outputTokens": 501,
+			"reasoningTokens": 295
+		}
 	}
 }

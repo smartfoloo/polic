@@ -27,5 +27,74 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-75.pdf",
 			"fetchedAt": "2026-09-30T12:20:27.032Z"
 		}
-	]
+	],
+	"name": "葬祭補償の額を33万円に改定",
+	"category": "防災",
+	"summary": "現在、葬祭補償の額は31万5,000円です。この議案で基本額を33万円にし、補償基礎額の60倍が33万円を上回る場合は、その60倍を補償額とします。改正後の額は、2026年4月1日以後に支給理由が生じた葬祭補償に適用されます。",
+	"changes": [
+		"葬祭補償額を31万5,000円から33万円に改める",
+		"33万円が補償基礎額の60倍に満たない場合、補償額をその60倍とする"
+	],
+	"who": [
+		"応急措置や水防に従事した人に関する葬祭補償を受ける人"
+	],
+	"why": "葬祭補償の額を改定するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:19:42.074Z",
+		"inputTokens": 1662,
+		"cachedTokens": 0,
+		"outputTokens": 1174,
+		"reasoningTokens": 905
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:19:42.074Z",
+		"checkedAt": "2026-09-30T15:53:23.285Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "33万円が補償基礎額の60倍に満たない場合、補償額をその60倍とする",
+				"note": "原文の付則第7条では、この取扱いは「当分の間」の暫定措置とされていますが、その限定が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1674,
+			"cachedTokens": 0,
+			"outputTokens": 204,
+			"reasoningTokens": 106
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "569d4f779269038d",
+		"name": "Sets the basic funeral compensation amount at ¥330,000",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Damage to Persons Engaged in Emergency Measures in the Event of a Disaster and Persons Engaged in Flood Prevention",
+		"summary": "The current funeral compensation amount is ¥315,000. This bill sets the basic amount at ¥330,000. If 60 times the compensation base amount is more than ¥330,000, the compensation amount will be that 60 times the base amount. The revised amount applies to funeral compensation for which the reason for payment arises on or after April 1, 2026.",
+		"changes": [
+			"Changes the funeral compensation amount from ¥315,000 to ¥330,000",
+			"Sets the compensation amount at 60 times the compensation base amount if ¥330,000 is less than that amount"
+		],
+		"who": [
+			"People eligible for funeral compensation related to those engaged in emergency measures or flood prevention"
+		],
+		"why": "The ward says this is to revise the amount of funeral compensation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:21:44.588Z",
+			"inputTokens": 648,
+			"cachedTokens": 0,
+			"outputTokens": 918,
+			"reasoningTokens": 674
+		}
+	}
 }

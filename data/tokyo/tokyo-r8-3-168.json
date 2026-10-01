@@ -63,5 +63,32 @@
 			"outputTokens": 343,
 			"reasoningTokens": 329
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a31f3527eca8599d",
+		"name": "Requires certified childcare centers to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on Standards for Class Organization, Staff, Facilities, and Operations of Integrated Certified Centers for Early Childhood Education and Care",
+		"summary": "The Tokyo Metropolitan Government is adding provisions to its ordinance to prevent sexual violence against children at integrated certified centers for early childhood education and care. Operators must take necessary measures to prevent sexual violence and protect children if harm occurs, including checking the criminal records of covered workers who interact with children. The ordinance takes effect on December 25, 2026.",
+		"changes": [
+			"Requires operators to check the criminal records of covered workers who interact with children",
+			"Requires operators to take necessary measures to prevent sexual violence and protect children if harm occurs"
+		],
+		"who": [
+			"Children at integrated certified centers for early childhood education and care",
+			"Operators of integrated certified centers for early childhood education and care",
+			"Workers subject to criminal record checks"
+		],
+		"why": "The Tokyo Metropolitan Government says this is because laws concerning integrated certified centers for early childhood education and care were amended following the entry into force of related laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:30:04.100Z",
+			"inputTokens": 705,
+			"cachedTokens": 0,
+			"outputTokens": 1104,
+			"reasoningTokens": 841
+		}
 	}
 }

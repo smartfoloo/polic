@@ -22,5 +22,64 @@
 			"url": "https://kugikai-nakano.jp/gian/266239556.pdf",
 			"fetchedAt": "2026-09-30T10:26:57.710Z"
 		}
-	]
+	],
+	"name": "大和学童クラブの所在地を変更",
+	"category": "子育て",
+	"summary": "大和学童クラブの所在地を、大和町四丁目14番9号から若宮三丁目54番7号に変更します。施行日は、公布から3か月以内の範囲で規則により定められます。",
+	"changes": [
+		"大和学童クラブの位置を東京都中野区大和町四丁目14番9号から東京都中野区若宮三丁目54番7号に変更する"
+	],
+	"who": [
+		"大和学童クラブを利用する子どもと保護者"
+	],
+	"why": "大和学童クラブの位置を改める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:50:14.835Z",
+		"inputTokens": 1174,
+		"cachedTokens": 0,
+		"outputTokens": 431,
+		"reasoningTokens": 253
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:50:14.835Z",
+		"checkedAt": "2026-09-30T15:37:09.096Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1123,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d9ee7e15fbc982d2",
+		"name": "Changes the location of Yamato After-School Club",
+		"official": "Ordinance Partially Amending the Nakano City After-School Children's Club Ordinance",
+		"summary": "The location of Yamato After-School Club will change from 4-14-9 Yamatocho, Nakano City, Tokyo, to 3-54-7 Wakamiya, Nakano City, Tokyo. The effective date will be set by regulation, within three months of promulgation.",
+		"changes": [
+			"Moves Yamato After-School Club from 4-14-9 Yamatocho, Nakano City, Tokyo, to 3-54-7 Wakamiya, Nakano City, Tokyo"
+		],
+		"who": [
+			"Children and parents who use Yamato After-School Club"
+		],
+		"why": "The ward says the location of Yamato After-School Club needs to be changed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:27.360Z",
+			"inputTokens": 547,
+			"cachedTokens": 0,
+			"outputTokens": 488,
+			"reasoningTokens": 277
+		}
+	}
 }

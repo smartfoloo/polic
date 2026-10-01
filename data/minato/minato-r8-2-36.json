@@ -32,5 +32,64 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB782_36.pdf",
 			"fetchedAt": "2026-09-30T12:30:41.662Z"
 		}
-	]
+	],
+	"name": "医療費助成の事務で個人番号を利用可能に",
+	"category": "デジタル",
+	"summary": "現在、区が個人番号を利用できる事務に、大気汚染に係る健康障害者への医療費助成の事務は含まれていません。この議案で、助成の申請受付や疾病の認定、医療券の交付などを加えます。施行は令和9年4月1日です。",
+	"changes": [
+		"大気汚染に係る健康障害者への医療費助成の事務を、個人番号を利用できる事務に加える"
+	],
+	"who": [
+		"大気汚染に係る健康障害者への医療費助成を申請する人"
+	],
+	"why": "都から移譲された助成事務で、個人番号の利用と情報連携を可能にするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:43:07.278Z",
+		"inputTokens": 1768,
+		"cachedTokens": 0,
+		"outputTokens": 846,
+		"reasoningTokens": 596
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:43:07.278Z",
+		"checkedAt": "2026-09-30T15:34:02.280Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1765,
+			"cachedTokens": 0,
+			"outputTokens": 45,
+			"reasoningTokens": 31
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "63e0222ba73bf203",
+		"name": "Allows personal numbers to be used for medical expense assistance administration",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on the Use of Personal Numbers and the Provision of Specific Personal Information",
+		"summary": "Currently, assistance for medical expenses for people whose health has been affected by air pollution is not among the administrative tasks for which the ward can use personal numbers. This bill adds tasks such as accepting applications for assistance, certifying illnesses, and issuing medical vouchers. It takes effect on April 1, 2027.",
+		"changes": [
+			"Adds administration of medical expense assistance for people whose health has been affected by air pollution to the tasks for which personal numbers can be used"
+		],
+		"who": [
+			"People applying for medical expense assistance for health conditions related to air pollution"
+		],
+		"why": "The ward says this will enable personal numbers to be used and information to be linked for assistance administration transferred from the Tokyo Metropolitan Government.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:30.691Z",
+			"inputTokens": 605,
+			"cachedTokens": 0,
+			"outputTokens": 716,
+			"reasoningTokens": 497
+		}
+	}
 }

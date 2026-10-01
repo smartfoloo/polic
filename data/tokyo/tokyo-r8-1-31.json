@@ -60,5 +60,29 @@
 			"outputTokens": 51,
 			"reasoningTokens": 37
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4e033f0c911a12d1",
+		"name": "Raises the remuneration cap for part-time employees to ¥347,000",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration, etc. for Part-Time Employees",
+		"summary": "The current cap on remuneration for part-time employees is ¥338,000. This bill raises it to ¥347,000. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises the remuneration cap from ¥338,000 to ¥347,000"
+		],
+		"who": [
+			"Part-time employees of the Tokyo Metropolitan Government"
+		],
+		"why": "The Tokyo Metropolitan Government says the cap on remuneration for part-time employees is being revised in light of the recommendations from the Tokyo Metropolitan Government Council on Remuneration, etc. for Special Positions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:22:49.236Z",
+			"inputTokens": 544,
+			"cachedTokens": 0,
+			"outputTokens": 411,
+			"reasoningTokens": 226
+		}
 	}
 }

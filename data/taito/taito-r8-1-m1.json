@@ -27,5 +27,38 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1giin.pdf",
 			"fetchedAt": "2026-09-30T12:18:39.117Z"
 		}
-	]
+	],
+	"name": "常任委員会の所管にこども家庭部を追加",
+	"category": "行政のしくみ",
+	"summary": "現在、条例では常任委員会の所管に区民部と教育委員会を定めています。この議案で、こども家庭部も所管に加えます。",
+	"changes": [
+		"常任委員会の所管にこども家庭部を加える"
+	],
+	"who": [],
+	"why": "区役所の組織改正に伴って常任委員会の所管を改めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:16:45.476Z",
+		"inputTokens": 1313,
+		"cachedTokens": 0,
+		"outputTokens": 533,
+		"reasoningTokens": 387
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:16:45.476Z",
+		"checkedAt": "2026-09-30T15:51:58.311Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1228,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 33
+		}
+	}
 }

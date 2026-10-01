@@ -59,5 +59,28 @@
 			"outputTokens": 93,
 			"reasoningTokens": 79
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cd498eefd1e17812",
+		"name": "Adds chief teachers to school staff pay rules",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries for School Personnel",
+		"summary": "Currently, Grade 3 of the school staff salary scale lists senior teachers and others. This entry will be changed to chief teachers, and chief teachers will be added to other salary provisions. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Adds chief teachers to the salary provisions",
+			"Changes the Grade 3 entry in the salary table from senior teachers, senior school nurse teachers, and senior nutrition teachers to chief teachers"
+		],
+		"who": [],
+		"why": "The governor says the ordinance needs to be updated following amendments to the School Education Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:58.410Z",
+			"inputTokens": 565,
+			"cachedTokens": 0,
+			"outputTokens": 854,
+			"reasoningTokens": 675
+		}
 	}
 }

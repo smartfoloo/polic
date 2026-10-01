@@ -22,5 +22,93 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2786_gian58.pdf",
 			"fetchedAt": "2026-09-30T10:43:05.651Z"
 		}
-	]
+	],
+	"name": "住宅ローン控除の適用期限を延長",
+	"category": "税・手数料",
+	"summary": "個人の区民税では、住宅借入金等特別税額控除の対象となる入居年や控除の期限が定められています。この議案で、入居期限を令和12年まで、控除の適用期限を令和25年度まで延ばします。公的年金等の受給者の申告や、特定の区域にある土地の譲渡に関する規定も改めます。",
+	"changes": [
+		"住宅借入金等特別税額控除の対象となる入居期限を令和7年から令和12年に延ばす",
+		"住宅借入金等特別税額控除の適用期限を令和20年度から令和25年度に延ばす",
+		"公的年金等の受給者が提出する申告書の対象者や記載事項を改める",
+		"地すべり防止区域、急傾斜地崩壊危険区域、土砂災害特別警戒区域、浸水被害防止区域にある土地について、租税特別措置法で定める一部の譲渡（第31条の2第2項第13号から第15号）を、優良住宅地等のための譲渡の特例から除く"
+	],
+	"who": [
+		"住宅借入金等特別税額控除の対象となる区民税の納税者",
+		"公的年金等を受け取り、区民税の申告書を提出する人",
+		"対象となる土地を譲渡する区民税の所得割納税者"
+	],
+	"why": "地方税法の改正に伴い、個人の区民税に係る住宅借入金等特別税額控除の適用期限を延ばし、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:30:50.326Z",
+		"inputTokens": 4385,
+		"cachedTokens": 0,
+		"outputTokens": 1667,
+		"reasoningTokens": 1274
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:30:50.326Z",
+		"checkedAt": "2026-09-30T15:27:47.171Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "災害危険区域などにある土地の対象となる譲渡を、優良住宅地等のための譲渡の扱いから除く",
+				"note": "原文の対象は地すべり防止区域、急傾斜地崩壊危険区域、土砂災害特別警戒区域、浸水被害防止区域。「災害危険区域」は別の法定区域とも読めるため、対象区域の表現を確認する必要がある。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones and limits it to the transfers in 租税特別措置法第31条の2第2項第13–15号.",
+					"at": "2026-10-01T12:09:53.468Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "災害危険区域などにある土地の対象となる譲渡を、優良住宅地等のための譲渡の扱いから除く",
+				"note": "付則第十一条第一項・第二項の適用期限を令和8年度から令和11年度へ延長する変更が抜けている。土地等の譲渡に係る納税者に直接関わる変更。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4558,
+			"cachedTokens": 0,
+			"outputTokens": 561,
+			"reasoningTokens": 264
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b5bbd73da83f8145",
+		"name": "Extends the deadline for the home loan tax deduction",
+		"official": "Ordinance Partially Amending the Edogawa City Special Ward Tax Ordinance",
+		"summary": "For individual resident tax, the years in which a person must move into a home to qualify for the special tax credit for housing loans, and the period for which the credit applies, are set by law. This bill extends the move-in deadline to 2030 and the credit’s application period through fiscal year 2043. It also revises provisions on tax returns filed by recipients of public pensions and other pensions, and on transfers of land in certain designated areas.",
+		"changes": [
+			"Extends the move-in deadline for the special tax credit for housing loans from 2025 to 2030",
+			"Extends the application period for the special tax credit for housing loans from fiscal year 2038 through fiscal year 2043",
+			"Revises who must file, and what must be included in, tax returns submitted by recipients of public pensions and other pensions",
+			"Excludes certain transfers under the Act on Special Measures Concerning Taxation (Article 31-2, paragraph 2, items 13 through 15) of land in landslide prevention areas, areas at risk of steep-slope collapse, special warning zones for sediment-related disasters, and areas designated to prevent flood damage from the special treatment for transfers of land for high-quality residential development and similar purposes"
+		],
+		"who": [
+			"Individual resident taxpayers eligible for the special tax credit for housing loans",
+			"People who receive public pensions or other pensions and file an individual resident tax return",
+			"Income-based resident taxpayers who transfer covered land"
+		],
+		"why": "The ward says this is to extend the application period for the special tax credit for housing loans for individual resident tax and revise related provisions in line with amendments to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:22:56.163Z",
+			"inputTokens": 833,
+			"cachedTokens": 0,
+			"outputTokens": 928,
+			"reasoningTokens": 516
+		}
+	}
 }

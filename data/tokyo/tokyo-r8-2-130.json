@@ -61,5 +61,30 @@
 			"outputTokens": 60,
 			"reasoningTokens": 46
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5b265d662f9ad0ff",
+		"name": "Adds school nurse teachers in charge to staff centers are encouraged to assign",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on Standards for Class Organization, Staff, Facilities, and Operation of Integrated-type Certified Centers for Early Childhood Education and Care",
+		"summary": "At present, integrated-type certified centers for early childhood education and care are expected to make efforts to assign chief school nurse teachers and others. This bill adds school nurse teachers in charge to the staff covered and also revises wording in another article. It takes effect on the date of promulgation.",
+		"changes": [
+			"Add a school nurse teacher in charge to the staff that centers are encouraged to assign",
+			"Delete “as provided for in Article 14, paragraph 6 of the Act” from Article 24, paragraph 2"
+		],
+		"who": [
+			"Operators of integrated-type certified centers for early childhood education and care"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to align the rules with revisions to national standards and make other adjustments to provisions on assigning school nurse teachers in charge.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:59.632Z",
+			"inputTokens": 619,
+			"cachedTokens": 0,
+			"outputTokens": 1274,
+			"reasoningTokens": 1027
+		}
 	}
 }

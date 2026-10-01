@@ -27,5 +27,78 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-29.pdf",
 			"fetchedAt": "2026-09-30T12:17:50.974Z"
 		}
-	]
+	],
+	"name": "子育て短期支援事業の費用負担を追加",
+	"category": "子育て",
+	"summary": "現在の条例には、子育て短期支援事業を利用したときの費用負担に関する規定はありません。改正後は、利用した人が規則で定める費用を区長に納めることになります。",
+	"changes": [
+		"利用時に規則で定める費用を区長に納める規定を加える",
+		"条例中の「子ども」を「子供」に改める"
+	],
+	"who": [
+		"子育て短期支援事業を利用する人"
+	],
+	"why": "子育て短期支援事業の利用などに関する規定を整備するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:15:10.208Z",
+		"inputTokens": 1339,
+		"cachedTokens": 0,
+		"outputTokens": 739,
+		"reasoningTokens": 547
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:15:10.208Z",
+		"checkedAt": "2026-09-30T15:50:57.650Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在の条例には、子育て短期支援事業を利用したときの費用負担に関する規定はありません。",
+				"note": "原文は第12条に費用納付の規定を加える内容ですが、現行条例の全文は示されておらず、費用負担に関する規定が一切ないとは確認できません。",
+				"dismissed": {
+					"note": "The bill adds this provision, so saying it was not there before follows from the bill itself.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1298,
+			"cachedTokens": 0,
+			"outputTokens": 440,
+			"reasoningTokens": 324
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c8d6d186902ba9be",
+		"name": "Adds user costs for short-term childcare support services",
+		"official": "Ordinance Partially Amending the Taito City Child and Family Support Center Ordinance",
+		"summary": "The current ordinance has no provision on costs for using short-term childcare support services. After the amendment, people who use the services will pay the mayor the costs specified by rules.",
+		"changes": [
+			"Adds a provision requiring users to pay the mayor the costs specified by rules",
+			"Replaces the Japanese wording “子ども” with “子供” in the ordinance"
+		],
+		"who": [
+			"People who use short-term childcare support services"
+		],
+		"why": "The mayor says this is to establish provisions concerning the use of short-term childcare support services, among other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:34:16.645Z",
+			"inputTokens": 568,
+			"cachedTokens": 0,
+			"outputTokens": 640,
+			"reasoningTokens": 459
+		}
+	}
 }

@@ -22,5 +22,64 @@
 			"url": "https://kugikai-nakano.jp/gian/263294215.pdf",
 			"fetchedAt": "2026-09-30T10:25:33.103Z"
 		}
-	]
+	],
+	"name": "難病患者福祉手当を月15,500円に",
+	"category": "福祉",
+	"summary": "現在、難病患者福祉手当の額は月10,000円です。この議案により、令和8年4月分から月15,500円に改定します。",
+	"changes": [
+		"手当の額を月10,000円から月15,500円に改定する"
+	],
+	"who": [
+		"難病患者福祉手当を受給する人"
+	],
+	"why": "難病患者福祉手当の額を改める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:47:13.372Z",
+		"inputTokens": 1213,
+		"cachedTokens": 0,
+		"outputTokens": 491,
+		"reasoningTokens": 340
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:47:13.372Z",
+		"checkedAt": "2026-09-30T15:35:45.510Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1137,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d8ca889230328248",
+		"name": "Raises welfare allowance for people with intractable diseases to ¥15,500 per month",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Welfare Allowances for People with Intractable Diseases",
+		"summary": "The welfare allowance for people with intractable diseases is currently ¥10,000 per month. Under this bill, it will be changed to ¥15,500 per month starting with the April 2026 payment.",
+		"changes": [
+			"Raises the monthly allowance from ¥10,000 to ¥15,500"
+		],
+		"who": [
+			"People receiving the welfare allowance for people with intractable diseases"
+		],
+		"why": "The ward says it is necessary to revise the amount of the welfare allowance for people with intractable diseases.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:05:36.510Z",
+			"inputTokens": 523,
+			"cachedTokens": 0,
+			"outputTokens": 388,
+			"reasoningTokens": 202
+		}
+	}
 }

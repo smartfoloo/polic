@@ -27,5 +27,70 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4402_R81TG030.pdf",
 			"fetchedAt": "2026-09-30T10:33:05.822Z"
 		}
-	]
+	],
+	"name": "学童保育の職員基準と特例期間を変更",
+	"category": "子育て",
+	"summary": "いまの条例では、放課後児童健全育成事業の職員に関する規定や特例の期間を定めています。今回、職員の定義や条文の引用を整理し、特例期間をこの改正条例の施行日から令和9年3月31日までに改めます。",
+	"changes": [
+		"職員の定義を第7条から第8条に移す",
+		"条文の引用と「区長」の表記を改める",
+		"特例期間をこの改正条例の施行日から令和9年3月31日までに改める"
+	],
+	"who": [
+		"放課後児童健全育成事業者",
+		"放課後児童支援員"
+	],
+	"why": "放課後児童支援員の不足に対応する「みなし支援員制度」の導入や、児童福祉法などの改正に伴い、規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:21:59.325Z",
+		"inputTokens": 1425,
+		"cachedTokens": 0,
+		"outputTokens": 1883,
+		"reasoningTokens": 1590
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:21:59.325Z",
+		"checkedAt": "2026-09-30T15:22:48.650Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1468,
+			"cachedTokens": 0,
+			"outputTokens": 75,
+			"reasoningTokens": 61
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "eb960d9cbeaaf595",
+		"name": "Changes staff standards and the special measure period",
+		"official": "Ordinance Partially Amending the Adachi City Ordinance Establishing Standards for Facilities and Operations of After-School Child Healthy Development Programs",
+		"summary": "The current ordinance sets out rules on staff for after-school child healthy development programs and the period of a special measure. This amendment clarifies the definition of staff and the references to other provisions, and changes the special measure period to run from the effective date of this amending ordinance through March 31, 2027.",
+		"changes": [
+			"Moves the definition of staff from Article 7 to Article 8",
+			"Revises references to other provisions and the wording for “the mayor”",
+			"Changes the special measure period to run from the effective date of this amending ordinance through March 31, 2027"
+		],
+		"who": [
+			"After-school child healthy development program operators",
+			"After-school childcare support staff"
+		],
+		"why": "The ward says the provisions need to be adjusted because of the introduction of the “deemed support staff system” to address a shortage of after-school childcare support staff, and amendments to the Child Welfare Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:55:35.349Z",
+			"inputTokens": 659,
+			"cachedTokens": 0,
+			"outputTokens": 937,
+			"reasoningTokens": 666
+		}
+	}
 }

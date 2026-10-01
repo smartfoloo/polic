@@ -61,5 +61,30 @@
 			"outputTokens": 69,
 			"reasoningTokens": 55
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dc44a7640c93a646",
+		"name": "Raises pay and other amounts for audit commissioners",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries, etc., of Tokyo Metropolitan Government Audit Commissioners",
+		"summary": "The pay and other amounts for Tokyo Metropolitan Government audit commissioners are set by ordinance. This bill raises five of those amounts. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises the amount in Article 2, paragraph 1, item 1 from ¥873,000 to ¥897,000, and the amount in item 2 from ¥857,000 to ¥881,000",
+			"Raises the amount in Article 2, paragraph 2 from ¥435,000 to ¥447,000",
+			"Raises the amount in Article 2, paragraph 3 from ¥241,000 to ¥248,000",
+			"Raises the amount in Article 2, paragraph 4 from ¥16,900 to ¥17,400"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says it is reviewing the pay and other amounts for audit commissioners in light of the recommendation from the Tokyo Metropolitan Government Council on Remuneration, etc. for Special-Status Officials.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:44.802Z",
+			"inputTokens": 622,
+			"cachedTokens": 0,
+			"outputTokens": 697,
+			"reasoningTokens": 427
+		}
 	}
 }

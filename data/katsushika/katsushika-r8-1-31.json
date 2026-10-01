@@ -27,5 +27,80 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian31.pdf",
 			"fetchedAt": "2026-09-30T10:38:17.781Z"
 		}
-	]
+	],
+	"name": "給与収入に応じた介護保険料判定の特例",
+	"category": "福祉",
+	"summary": "令和7年度の税制改正により、保険料段階が変わる可能性のある第1号被保険者がいます。この議案では、令和8年度の保険料計算に特例を設け、税制改正前と同様の判定となるようにします。",
+	"changes": [
+		"令和7年の給与収入が55万1,000円以上190万円未満の人について、所得額の算定方法を3区分で特例化する",
+		"一定の要件に当たる人を、保険料段階の判定上、住民税が課されている人として扱う"
+	],
+	"who": [
+		"令和7年の給与収入が55万1,000円以上190万円未満の第1号被保険者",
+		"世帯主か世帯員に、令和7年の給与収入が55万1,000円以上190万円未満で住民税が課されていない人がいる第1号被保険者"
+	],
+	"why": "令和7年度の税制改正の影響で保険料段階が変わる可能性のある第1号被保険者について、改正前と同様の判定にする必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:35:46.884Z",
+		"inputTokens": 4734,
+		"cachedTokens": 0,
+		"outputTokens": 1575,
+		"reasoningTokens": 1250
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:35:46.884Z",
+		"checkedAt": "2026-09-30T15:30:12.512Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "令和7年に給与収入が55万1,000円以上190万円未満で、保険料段階の判定に影響を受ける第1号被保険者",
+				"note": "対象を本人に給与収入がある第1号被保険者に限定していますが、原文第7条第1項では、世帯主や世帯員が要件に該当する場合も本人の保険料段階の判定に関わります。",
+				"dismissed": {
+					"note": "Fixed in the text: who now includes people whose 世帯主 or 世帯員 meets the conditions.",
+					"at": "2026-10-01T12:09:21.506Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4803,
+			"cachedTokens": 0,
+			"outputTokens": 294,
+			"reasoningTokens": 154
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ab84c44649f31448",
+		"name": "Special rules for determining long-term care insurance premiums based on salary income",
+		"official": "Ordinance Partially Amending the Katsushika City Long-Term Care Insurance Ordinance",
+		"summary": "The FY2025 tax reform may change the premium category for some Category 1 insured persons. This bill establishes special rules for calculating premiums for FY2026 so that they are assessed in the same way as before the tax reform.",
+		"changes": [
+			"Apply special rules in three categories when calculating income for people with 2025 salary income of at least ¥551,000 but less than ¥1,900,000",
+			"Treat people who meet certain requirements as subject to resident tax when determining their premium category"
+		],
+		"who": [
+			"Category 1 insured persons with 2025 salary income of at least ¥551,000 but less than ¥1,900,000",
+			"Category 1 insured persons whose household head or another household member has 2025 salary income of at least ¥551,000 but less than ¥1,900,000 and is not subject to resident tax"
+		],
+		"why": "The ward says this is necessary to assess Category 1 insured persons whose premium category may change because of the FY2025 tax reform in the same way as before the reform.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:23:44.193Z",
+			"inputTokens": 706,
+			"cachedTokens": 0,
+			"outputTokens": 905,
+			"reasoningTokens": 616
+		}
+	}
 }

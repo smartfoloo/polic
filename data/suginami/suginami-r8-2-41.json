@@ -79,5 +79,33 @@
 			"outputTokens": 416,
 			"reasoningTokens": 229
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fbbba450f9065416",
+		"name": "Sets standards for providers of services for children with disabilities",
+		"official": "Suginami City Ordinance on Standards for Staffing, Facilities, and Operation, etc., of Designated Day Services for Children with Disabilities, etc.",
+		"summary": "Providers of support services for children with disabilities are required to follow standards set by ordinance. Following Suginami City's designation as a city with a child guidance center, the city will set standards for staffing, facilities, and operations. The ordinance will generally take effect on November 1, 2026, with some provisions taking effect on December 25 of the same year.",
+		"changes": [
+			"Set staffing, facilities, and operational standards for child development support and after-school day services",
+			"Set standards for home-visit child development support and visits to nursery schools and other facilities",
+			"Set exceptions for facilities that provide multiple services as one integrated operation",
+			"Require criminal-record checks and other measures to prevent sexual violence against children, etc."
+		],
+		"who": [
+			"Children who use support services for children with disabilities and their parents or guardians",
+			"Providers of support services for children with disabilities"
+		],
+		"why": "The ward says this is necessary because Suginami City has been designated as a city with a child guidance center and standards must be set for providers of support services for children with disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:14:31.121Z",
+			"inputTokens": 719,
+			"cachedTokens": 0,
+			"outputTokens": 964,
+			"reasoningTokens": 665
+		}
 	}
 }

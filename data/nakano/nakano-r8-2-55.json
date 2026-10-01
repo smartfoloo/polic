@@ -22,5 +22,64 @@
 			"url": "https://kugikai-nakano.jp/gian/266239527.pdf",
 			"fetchedAt": "2026-09-30T10:26:40.296Z"
 		}
-	]
+	],
+	"name": "保育施設利用者への補助上限額を引上げ",
+	"category": "子育て",
+	"summary": "認証保育所等を利用する児童の保護者への補助について、上限額を引き上げます。上限額は子どもの区分に応じて70,000円、73,300円、または73,700円となり、2026年10月分から適用されます。",
+	"changes": [
+		"子どもの区分に応じて補助上限額を70,000円、73,300円、または73,700円にする"
+	],
+	"who": [
+		"認証保育所等を利用する児童の保護者"
+	],
+	"why": "認証保育所等を利用する児童の保護者への補助上限額を引き上げるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:49:45.511Z",
+		"inputTokens": 1474,
+		"cachedTokens": 0,
+		"outputTokens": 1241,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:49:45.511Z",
+		"checkedAt": "2026-09-30T15:36:54.773Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1452,
+			"cachedTokens": 0,
+			"outputTokens": 69,
+			"reasoningTokens": 54
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0fe8c07e843aa72b",
+		"name": "Raises the subsidy cap for childcare facility users",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on the Collection of Nursery School Fees, etc.",
+		"summary": "Raises the subsidy cap for parents of children using certified childcare centers and other facilities. The cap will be ¥70,000, ¥73,300, or ¥73,700, depending on the child's category, and will apply starting with October 2026.",
+		"changes": [
+			"Sets the subsidy cap at ¥70,000, ¥73,300, or ¥73,700, depending on the child's category"
+		],
+		"who": [
+			"Parents of children using certified childcare centers and other facilities"
+		],
+		"why": "The ward says this is to raise the subsidy cap for parents of children using certified childcare centers and other facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:16.873Z",
+			"inputTokens": 585,
+			"cachedTokens": 0,
+			"outputTokens": 416,
+			"reasoningTokens": 222
+		}
+	}
 }

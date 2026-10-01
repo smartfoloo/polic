@@ -27,5 +27,54 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8g_gian001.pdf",
 			"fetchedAt": "2026-09-30T10:38:29.312Z"
 		}
-	]
+	],
+	"name": "区議の費用弁償の対象を見直す",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、区議会議員が招集に応じるため、または委員会に出席するために旅行した場合も、費用弁償の規定があります。この議案は、その旅行に関する記載を削り、第7条第2項の地域に関する文言も改める内容です。",
+	"changes": [
+		"招集に応じるための旅行を費用弁償の規定から削る",
+		"委員会に出席するための旅行を費用弁償の規定から削る",
+		"第7条第2項の「東京都（」の後に「葛飾区及び」を加える"
+	],
+	"who": [
+		"区議会議員"
+	],
+	"why": "費用弁償の支給範囲を改めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:36:17.598Z",
+		"inputTokens": 1377,
+		"cachedTokens": 0,
+		"outputTokens": 2480,
+		"reasoningTokens": 2239
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:36:17.598Z",
+		"checkedAt": "2026-09-30T15:30:31.055Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "議案は否決されました。",
+				"note": "原文には議案の採決結果や否決されたとの記載がありません。",
+				"dismissed": {
+					"note": "True (status 否決, from the voting results page), but the checker only sees the bill text. Sentence removed: the site shows the result as the status stamp.",
+					"at": "2026-10-01T11:30:44.894Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1389,
+			"cachedTokens": 0,
+			"outputTokens": 97,
+			"reasoningTokens": 37
+		}
+	}
 }

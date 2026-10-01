@@ -27,5 +27,72 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-24.pdf",
 			"fetchedAt": "2026-09-30T12:17:20.915Z"
 		}
-	]
+	],
+	"name": "区内の児童・生徒の文化施設入館料を無料に",
+	"category": "教育",
+	"summary": "現在、5施設では児童・生徒の入館料として、個人は100円または250円、団体は50円または150円を徴収しています。議案では、台東区内に住むか区内に通学する児童・生徒の入館料を無料にします。対象は、したまちミュージアム、一葉記念館、朝倉彫塑館、旧東京音楽学校奏楽堂、書道博物館です。",
+	"changes": [
+		"児童・生徒の個人・団体入館料に無料の扱いを設ける"
+	],
+	"who": [
+		"台東区内に在住または在学する児童・生徒"
+	],
+	"why": "台東区内に在住または在学する児童・生徒の入館料を無料にするためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:14:07.456Z",
+		"inputTokens": 2167,
+		"cachedTokens": 0,
+		"outputTokens": 1839,
+		"reasoningTokens": 1602
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:14:07.456Z",
+		"checkedAt": "2026-09-30T15:50:19.764Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "児童・生徒の個人・団体入館料に無料の扱いを設ける",
+				"note": "第2条には、一葉記念館条例第10条第1項ただし書から「教師が引率する区立学校児童、生徒又は」を削る変更もありますが、changesに記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2174,
+			"cachedTokens": 0,
+			"outputTokens": 218,
+			"reasoningTokens": 109
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e61947dbd731832",
+		"name": "Makes admission to cultural facilities free for children and students in Taito City",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Taito City Shitamachi Museum Ordinance, etc.",
+		"summary": "Currently, five facilities charge children and students admission fees of ¥100 or ¥250 for individuals and ¥50 or ¥150 for groups. The bill makes admission free for children and students who live in Taito City or attend school there. The facilities are the Shitamachi Museum, Ichiyo Memorial Museum, Asakura Museum of Sculpture, Former Tokyo Music School Concert Hall, and Calligraphy Museum.",
+		"changes": [
+			"Makes individual and group admission free for children and students"
+		],
+		"who": [
+			"Children and students who live in or attend school in Taito City"
+		],
+		"why": "The mayor says this is to make admission free for children and students who live in or attend school in Taito City.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:19:26.113Z",
+			"inputTokens": 614,
+			"cachedTokens": 0,
+			"outputTokens": 904,
+			"reasoningTokens": 688
+		}
+	}
 }

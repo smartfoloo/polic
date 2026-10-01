@@ -58,5 +58,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7f3e197119bbc904",
+		"name": "Repeals regulations for three land readjustment projects",
+		"official": "Ordinance to Abolish the Implementation Regulations for the Tama Land Readjustment Project under the Tama Urban Planning, etc.",
+		"summary": "The Tama, northern Adachi City area around Toneri Town, and southern Mizue Station land readjustment projects each have their own implementation regulations. This bill abolishes the three sets of regulations from April 1, 2026.",
+		"changes": [
+			"Abolishes the implementation regulations for the Tama, northern Adachi City area around Toneri Town, and southern Mizue Station land readjustment projects"
+		],
+		"who": [
+			"People affected by the three land readjustment projects"
+		],
+		"why": "The Tokyo Metropolitan Government says this is because the Tama Urban Planning Tama Land Readjustment Project and related projects have ended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:25:51.253Z",
+			"inputTokens": 544,
+			"cachedTokens": 0,
+			"outputTokens": 1334,
+			"reasoningTokens": 1133
+		}
 	}
 }

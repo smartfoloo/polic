@@ -94,5 +94,34 @@
 			"outputTokens": 807,
 			"reasoningTokens": 565
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d5357b6663ce3040",
+		"name": "Sets up housing for people moving to and settling in the Ogasawara Islands",
+		"official": "Tokyo Metropolitan Government Ogasawara Relocation and Settlement Promotion Housing Ordinance",
+		"summary": "Along with rebuilding Tokyo Ogasawara Housing, the Tokyo Metropolitan Government will provide new rental housing in the Ogasawara Islands. It will set occupancy requirements, including requirements related to income and living with others, for island residents and people moving to the islands from other parts of Tokyo. Rent will be determined based on household income and the size of the housing unit.",
+		"changes": [
+			"Provides new rental housing in the Ogasawara Islands",
+			"Sets occupancy requirements related to income and living with others",
+			"Sets rent based on household income and housing unit size",
+			"Limits sudden rent increases due to rebuilding for 10 years"
+		],
+		"who": [
+			"People wishing to move to the Ogasawara Islands from other parts of Tokyo",
+			"Residents seeking housing in the Ogasawara Islands",
+			"Tenants of Tokyo Ogasawara Housing who will relocate due to rebuilding"
+		],
+		"why": "The Tokyo Metropolitan Government says that, in connection with rebuilding Tokyo Ogasawara Housing, housing is needed to stabilize the lives of island residents and encourage people to move to and settle in the islands.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:25:56.582Z",
+			"inputTokens": 702,
+			"cachedTokens": 0,
+			"outputTokens": 611,
+			"reasoningTokens": 314
+		}
 	}
 }

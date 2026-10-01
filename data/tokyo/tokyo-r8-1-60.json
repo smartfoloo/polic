@@ -85,5 +85,32 @@
 			"outputTokens": 633,
 			"reasoningTokens": 387
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4099b257d5451117",
+		"name": "Limits new utility poles and wires in residential developments",
+		"official": "Ordinance on Promoting the Undergrounding of Utility Poles in Residential Land Development in Tokyo",
+		"summary": "This bill sets rules for residential land development that involves road construction. In areas designated by the governor, utility poles and wires will generally not be newly installed, and existing ones will generally be removed. Developers will also be required to notify the governor of their plans to underground utility poles and wires.",
+		"changes": [
+			"Generally prohibits installing new utility poles and wires and requires existing ones to be removed",
+			"Requires developers to notify the governor of plans to underground utility poles and wires",
+			"Allows guidance or recommendations when no notification is filed, among other cases",
+			"Publishes items specified by regulation from among the notification details"
+		],
+		"who": [
+			"People and businesses carrying out residential land development involving road construction in areas designated by the governor"
+		],
+		"why": "The Tokyo Metropolitan Government says the aim is to strengthen urban disaster-prevention capabilities, ensure safe and comfortable spaces for walking, and create a good urban landscape.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:25:25.437Z",
+			"inputTokens": 676,
+			"cachedTokens": 0,
+			"outputTokens": 1036,
+			"reasoningTokens": 786
+		}
 	}
 }

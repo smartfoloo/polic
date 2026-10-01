@@ -60,5 +60,29 @@
 			"outputTokens": 44,
 			"reasoningTokens": 30
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8fa16c93b38c6b8e",
+		"name": "Raises education board members' pay to ¥447,000",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Expense Reimbursement for Members of the Tokyo Metropolitan Board of Education",
+		"summary": "Members of the Tokyo Metropolitan Board of Education currently receive ¥435,000. Under this bill, their pay will rise to ¥447,000 starting April 1, 2026.",
+		"changes": [
+			"Raises education board members' pay from ¥435,000 to ¥447,000"
+		],
+		"who": [
+			"Members of the Tokyo Metropolitan Board of Education"
+		],
+		"why": "The Tokyo Metropolitan Government says it is revising the amount of remuneration based on the recommendation of the Tokyo Metropolitan Special Remuneration and Other Compensation Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:46.625Z",
+			"inputTokens": 545,
+			"cachedTokens": 0,
+			"outputTokens": 391,
+			"reasoningTokens": 208
+		}
 	}
 }

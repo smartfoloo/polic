@@ -27,5 +27,108 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4405_R81TG049.pdf",
 			"fetchedAt": "2026-09-30T10:35:29.376Z"
 		}
-	]
+	],
+	"name": "国保料に子ども・子育て支援分を新設",
+	"category": "健康・医療",
+	"summary": "令和8年4月1日から、国民健康保険料に子ども・子育て支援納付金分が加わります。この区分の所得割率は0.27%、被保険者均等割額は1人1,800円、18歳以上被保険者均等割額は1人73円で、賦課限度額は3万円です。あわせて、ほかの保険料率や均等割額を改め、保険料が軽減される世帯の所得の基準を、被保険者1人あたり30万5,000円から31万円、56万円から57万円に引き上げます。",
+	"changes": [
+		"子ども・子育て支援納付金分を新設し、所得割率を0.27%、被保険者均等割額を1人1,800円、18歳以上被保険者均等割額を1人73円、賦課限度額を3万円とする",
+		"子ども・子育て支援納付金分の均等割額を、18歳に達した日以後の最初の3月31日までの人は全額減額し、所得の低い世帯や未就学児、出産する人も減額する",
+		"医療分の所得割率を7.71%から7.51%に、均等割額を47,300円から47,600円に改め、賦課限度額を66万円から67万円に引き上げる",
+		"後期高齢者支援金分の所得割率を2.69%から2.80%に、均等割額を16,800円から17,600円に改め、介護納付金分の所得割率を2.25%から2.43%に、均等割額を16,600円から17,800円に改める"
+	],
+	"who": [
+		"足立区の国民健康保険加入者",
+		"国民健康保険に加入する18歳未満の人",
+		"国民健康保険に加入中に出産する人"
+	],
+	"why": "国民健康保険法施行令の改正への対応など、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 2,
+		"generatedAt": "2026-10-01T11:57:34.628Z",
+		"inputTokens": 5505,
+		"cachedTokens": 0,
+		"outputTokens": 3753,
+		"reasoningTokens": 3233
+	},
+	"checks": {
+		"draftAt": "2026-10-01T11:57:34.628Z",
+		"checkedAt": "2026-10-01T11:57:50.655Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分に、被保険者均等割額の減額制度を設ける",
+				"note": "新設する第19条の6の、18歳に達した日以後の最初の3月31日以前の被保険者について、支援納付金分の被保険者均等割額を全額減額する変更が明示されていません。",
+				"dismissed": {
+					"note": "Fixed in the text: the full reduction up to the first March 31 after turning 18 (第19条の6).",
+					"at": "2026-10-01T12:00:28.920Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分に、被保険者均等割額の減額制度を設ける",
+				"note": "第19条の5に追加する、出産被保険者の産前産後期間に応じて支援納付金分の所得割額・被保険者均等割額・18歳以上被保険者均等割額を減額する変更が抜けています。",
+				"dismissed": {
+					"note": "Fixed in the text: reductions for people giving birth are mentioned.",
+					"at": "2026-10-01T12:00:28.920Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分に、被保険者均等割額の減額制度を設ける",
+				"note": "第19条の2の軽減判定基準額を30万5,000円から31万円、56万円から57万円に改める変更と、第19条の2・第19条の4の既存区分の軽減額の改定がchangesに記載されていません。",
+				"dismissed": {
+					"note": "Fixed in the text: the income thresholds for reduced premiums (31万円, 57万円) are in the summary.",
+					"at": "2026-10-01T12:00:28.920Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5727,
+			"cachedTokens": 0,
+			"outputTokens": 677,
+			"reasoningTokens": 253
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f57038fdd541c382",
+		"name": "Adds a child and childcare support contribution to national health insurance premiums",
+		"official": "Ordinance Partially Amending the Adachi City National Health Insurance Ordinance",
+		"summary": "Starting April 1, 2026, a child and childcare support contribution will be added to national health insurance premiums. For this contribution, the income-based rate will be 0.27%, the per-capita amount will be ¥1,800 per insured person, the per-capita amount for insured people aged 18 and over will be ¥73 per person, and the assessment limit will be ¥30,000. The ordinance will also revise other premium rates and per-capita amounts, and raise the income thresholds for households eligible for reduced premiums from ¥305,000 to ¥310,000 and from ¥560,000 to ¥570,000 per insured person.",
+		"changes": [
+			"Add a child and childcare support contribution, with an income-based rate of 0.27%, a per-capita amount of ¥1,800 per insured person, a per-capita amount of ¥73 per insured person aged 18 and over, and an assessment limit of ¥30,000",
+			"Fully waive the child and childcare support contribution's per-capita amount for people through the first March 31 after the date they turn 18, and reduce it for low-income households, preschool children, and people giving birth",
+			"Revise the medical-care component's income-based rate from 7.71% to 7.51% and its per-capita amount from ¥47,300 to ¥47,600, and raise its assessment limit from ¥660,000 to ¥670,000",
+			"Revise the late-stage elderly support contribution component's income-based rate from 2.69% to 2.80% and its per-capita amount from ¥16,800 to ¥17,600; revise the long-term care contribution component's income-based rate from 2.25% to 2.43% and its per-capita amount from ¥16,600 to ¥17,800"
+		],
+		"who": [
+			"Adachi City National Health Insurance enrollees",
+			"People under 18 enrolled in National Health Insurance",
+			"People who give birth while enrolled in National Health Insurance"
+		],
+		"why": "The ward says this is to update the ordinance provisions, including in response to revisions to the Order for Enforcement of the National Health Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:21:33.013Z",
+			"inputTokens": 937,
+			"cachedTokens": 0,
+			"outputTokens": 1811,
+			"reasoningTokens": 1285
+		}
+	}
 }

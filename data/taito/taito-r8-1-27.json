@@ -27,5 +27,93 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-27.pdf",
 			"fetchedAt": "2026-09-30T12:17:38.914Z"
 		}
-	]
+	],
+	"name": "区民館の施設名と利用条件を変更",
+	"category": "まちづくり",
+	"summary": "現在、条例では区民館の施設名や利用条件を定めています。この議案で、一部施設の名称を変更し、談話室、軽運動コーナー、トレーニング室の使用時間と入館条件を定めます。主な改正は令和8年11月1日から、第4集会室をプレイルームにする改正は令和9年4月1日から施行されます。",
+	"changes": [
+		"施設区分に「軽運動コーナー」を加える",
+		"一部施設の「トレーニング室」を「軽運動コーナー」に改める",
+		"談話室、軽運動コーナー、トレーニング室は、午前9時から午後9時まで使用でき、午後8時までに入館した人に限る",
+		"第4集会室を「プレイルーム」に改める"
+	],
+	"who": [
+		"区民館の施設を利用する人"
+	],
+	"why": "区民館の施設に関する規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:14:55.398Z",
+		"inputTokens": 2056,
+		"cachedTokens": 0,
+		"outputTokens": 1677,
+		"reasoningTokens": 1388
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:14:55.398Z",
+		"checkedAt": "2026-09-30T15:50:41.214Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "談話室や運動室の使用時間と入館条件を定めます",
+				"note": "原文で使用時間と入館条件を定める対象は、談話室・軽運動コーナー・トレーニング室であり、「運動室」ではありません。",
+				"dismissed": {
+					"note": "Fixed in the text: 談話室、軽運動コーナー、トレーニング室 (there is no 運動室).",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "談話室と対象施設の運動室は、午前9時から午後9時まで使用でき、午後8時までに入館した人に限る",
+				"note": "時間と入館条件は一致していますが、原文の対象施設は談話室・軽運動コーナー・トレーニング室です。「運動室」という施設名はありません。",
+				"dismissed": {
+					"note": "Fixed in the text: 談話室、軽運動コーナー、トレーニング室 (there is no 運動室).",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2089,
+			"cachedTokens": 0,
+			"outputTokens": 315,
+			"reasoningTokens": 123
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6b0bef9eda62a9d2",
+		"name": "Changes community hall names and conditions of use",
+		"official": "Ordinance Partially Amending the Taito City Community Hall Ordinance",
+		"summary": "The ordinance currently sets the names of community hall facilities and the conditions for using them. This bill changes the names of some facilities and sets the hours of use and entry conditions for the conversation room, light exercise area, and training room. The main amendments will take effect on November 1, 2026. The amendment changing Meeting Room No. 4 into a playroom will take effect on April 1, 2027.",
+		"changes": [
+			"Add “light exercise area” to the facility categories",
+			"Change “training room” to “light exercise area” at some facilities",
+			"Allow use of the conversation room, light exercise area, and training room from 9:00 a.m. to 9:00 p.m., limited to people who enter by 8:00 p.m.",
+			"Change Meeting Room No. 4 to a “playroom”"
+		],
+		"who": [
+			"People who use community hall facilities"
+		],
+		"why": "The ward says this is to organize the provisions concerning community hall facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:34:10.058Z",
+			"inputTokens": 649,
+			"cachedTokens": 0,
+			"outputTokens": 917,
+			"reasoningTokens": 645
+		}
+	}
 }

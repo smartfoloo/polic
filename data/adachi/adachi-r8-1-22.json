@@ -27,5 +27,113 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4394_R81TG022.pdf",
 			"fetchedAt": "2026-09-30T10:32:05.371Z"
 		}
-	]
+	],
+	"name": "西新井公園周辺の建築ルールを定める",
+	"category": "まちづくり",
+	"summary": "西新井公園周辺地区では、地区計画が決定されています。この条例で、区域内の建築物の用途や容積率、敷地面積、壁面の位置などの基準を定めます。",
+	"changes": [
+		"風俗営業などに使う建築物を建てられないようにする",
+		"容積率の上限を暫定200％・目標300％とし（補助第255号線の供用開始後は適用しない）、敷地面積の最低限度を83㎡とする",
+		"壁面を道路境界線から0.5mまたは1.0m、敷地境界線から5.0m以上離し、道路に面する塀は道路面から0.6mを超える部分をコンクリートブロック造などにしないようにする",
+		"用途・容積率・敷地面積・壁面の位置の制限に違反した場合、設計者や建築主などに20万円以下の罰金を科す"
+	],
+	"who": [
+		"区域内で建築する建築主",
+		"区域内の建築物を設計・施工する事業者"
+	],
+	"why": "地区計画の決定に伴い、条例の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:21:09.485Z",
+		"inputTokens": 6522,
+		"cachedTokens": 0,
+		"outputTokens": 2069,
+		"reasoningTokens": 1749
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:21:09.485Z",
+		"checkedAt": "2026-09-30T15:22:24.049Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "条例の制限に違反した建築主や設計者などに20万円以下の罰金を科す",
+				"note": "第13条の罰則対象は第3～6条の違反に限定されており、第7条の塀の構造制限など、条例の制限すべての違反が対象ではない。",
+				"dismissed": {
+					"note": "Fixed in the text: the fine covers only the use, floor-area, lot-size and wall-position rules (第3–6条).",
+					"at": "2026-10-01T11:55:18.279Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "容積率の上限を暫定200％・目標300％とし、敷地面積の最低限度を83㎡とする",
+				"note": "第4条第6項では、補助第255号線の道路供用開始告示後は同条第1項の容積率制限を適用しないとしている。この適用終了条件が抜けている。",
+				"dismissed": {
+					"note": "Fixed in the text: the floor-area limits stop applying once 補助第255号線 opens (第4条第6項).",
+					"at": "2026-10-01T11:55:18.279Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "壁面の後退距離を定め、道路に面する塀は道路面から0.6mを超える部分にコンクリートブロック造などを使えないようにする",
+				"note": "別表に定める主な後退距離（指定部分に応じ、道路境界線から0.5mまたは1.0m、敷地境界線から5.0m）が抜けている。",
+				"dismissed": {
+					"note": "Fixed in the text: setback distances added.",
+					"at": "2026-10-01T11:55:18.279Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "容積率の上限を暫定200％・目標300％とし、敷地面積の最低限度を83㎡とする",
+				"note": "第5条第2項の、施行時に最低敷地面積を満たさない既存の土地でも、その全部を一つの敷地として使う場合は原則として制限を適用しない措置が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6590,
+			"cachedTokens": 0,
+			"outputTokens": 747,
+			"reasoningTokens": 221
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a8dc76d408bb6d6e",
+		"name": "Sets building rules around Nishiarai Park",
+		"official": "Adachi City Ordinance on Restrictions on Buildings within the Area of the Nishiarai Park Surrounding District District Plan",
+		"summary": "A district plan has been adopted for the area around Nishiarai Park. This ordinance sets standards for building uses, floor-area ratios, site areas, wall positions and other matters within the area.",
+		"changes": [
+			"Prohibits construction of buildings used for adult entertainment businesses and similar uses",
+			"Sets the temporary maximum floor-area ratio at 200%, with a target of 300% (this does not apply after Auxiliary Route No. 255 opens to traffic), and sets the minimum site area at 83 m²",
+			"Requires walls to be set back 0.5 m or 1.0 m from road boundaries and at least 5.0 m from site boundaries, and prohibits the portions of road-facing fences more than 0.6 m above road level from being made of concrete block or similar materials",
+			"Imposes a fine of up to ¥200,000 on designers, building owners and others who violate restrictions on use, floor-area ratio, site area or wall positions"
+		],
+		"who": [
+			"Building owners constructing within the area",
+			"Businesses designing or constructing buildings within the area"
+		],
+		"why": "The ward says the ordinance needs to be brought into line with the district plan following its adoption.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:20:27.863Z",
+			"inputTokens": 733,
+			"cachedTokens": 0,
+			"outputTokens": 1248,
+			"reasoningTokens": 928
+		}
+	}
 }

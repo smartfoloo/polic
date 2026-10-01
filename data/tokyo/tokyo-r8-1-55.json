@@ -60,5 +60,29 @@
 			"outputTokens": 66,
 			"reasoningTokens": 52
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e6e2b3cf07e87f1d",
+		"name": "Sets the superintendent's salary at ¥1,153,000",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries, etc. of the Superintendent of the Tokyo Metropolitan Board of Education",
+		"summary": "The salary of the superintendent of the Tokyo Metropolitan Board of Education is currently set at ¥1,122,000. This bill raises it to ¥1,153,000. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises the salary from ¥1,122,000 to ¥1,153,000"
+		],
+		"who": [
+			"The superintendent of the Tokyo Metropolitan Board of Education"
+		],
+		"why": "The Tokyo Metropolitan Government says the salary is being revised based on the recommendations of the Special Position Remuneration and Other Benefits Deliberation Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:51.160Z",
+			"inputTokens": 545,
+			"cachedTokens": 0,
+			"outputTokens": 501,
+			"reasoningTokens": 307
+		}
 	}
 }

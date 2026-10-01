@@ -22,5 +22,72 @@
 			"url": "https://kugikai-nakano.jp/gian/263293811.pdf",
 			"fetchedAt": "2026-09-30T10:25:03.906Z"
 		}
-	]
+	],
+	"name": "区職員の給料表と手当の規定を改正",
+	"category": "行政のしくみ",
+	"summary": "区職員の給料月額や昇給、管理職員特別勤務手当は条例で定めています。この議案は、給料表と昇給の制度を改め、手当の対象時間や額に関する規定を変更します。2026年4月1日から施行します。",
+	"changes": [
+		"職員の給料月額表を改める",
+		"昇給の制度を改める",
+		"管理職員特別勤務手当の対象時間と額に関する規定を改める",
+		"一定の勤務について、手当を定める額の1.5倍とする規定を加える"
+	],
+	"who": [
+		"中野区職員",
+		"管理職員"
+	],
+	"why": "給料月額と昇給の制度を改め、管理職員特別勤務手当の対象時間や額に関する規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:46:28.820Z",
+		"inputTokens": 17472,
+		"cachedTokens": 0,
+		"outputTokens": 1316,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:46:28.820Z",
+		"checkedAt": "2026-09-30T15:35:28.737Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 17502,
+			"cachedTokens": 0,
+			"outputTokens": 101,
+			"reasoningTokens": 87
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9175363a9f3a91d6",
+		"name": "Revises salary scales and allowance rules for city employees",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries of Nakano City Employees",
+		"summary": "The monthly salaries, salary increases, and special work allowance for managerial staff are set by ordinance. This bill revises the salary scales and salary increase system, and changes provisions on the hours eligible for the allowance and its amount. It takes effect on April 1, 2026.",
+		"changes": [
+			"Revises the monthly salary table for employees",
+			"Revises the salary increase system",
+			"Revises provisions on the eligible hours and amount for the special work allowance for managerial staff",
+			"Adds a provision setting the allowance for certain work at 1.5 times the prescribed amount"
+		],
+		"who": [
+			"Nakano City employees",
+			"Managerial staff"
+		],
+		"why": "Nakano City says it is necessary to revise monthly salary amounts and the salary increase system, and to adjust provisions on the eligible hours and amount for the special work allowance for managerial staff.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:05:10.393Z",
+			"inputTokens": 628,
+			"cachedTokens": 0,
+			"outputTokens": 942,
+			"reasoningTokens": 694
+		}
+	}
 }

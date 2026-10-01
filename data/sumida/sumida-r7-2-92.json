@@ -22,5 +22,76 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/gian92.pdf",
 			"fetchedAt": "2026-09-30T10:12:35.213Z"
 		}
-	]
+	],
+	"name": "税や後期高齢者医療の公示方法を追加",
+	"category": "税・手数料",
+	"summary": "現在、公示送達は書面を掲示して行っています。この議案で、公示事項をインターネット等で閲覧できる状態にするほか、区の事務所に設置した端末で閲覧できる方法も設けます。",
+	"changes": [
+		"公示事項を不特定多数の人が閲覧できる状態にする方法を加える",
+		"書面の掲示に加え、区の事務所の端末で閲覧できる方法を認める"
+	],
+	"who": [
+		"特別区税の公示送達を受ける人",
+		"後期高齢者医療に関する公示送達を受ける人"
+	],
+	"why": "地方税法の一部改正を踏まえ、公示送達をインターネット等でも行えるようにするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:08:46.330Z",
+		"inputTokens": 1766,
+		"cachedTokens": 0,
+		"outputTokens": 1393,
+		"reasoningTokens": 1159
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:08:46.330Z",
+		"checkedAt": "2026-09-30T15:47:35.395Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "公示事項を不特定多数の人が閲覧できる状態にする方法を加える",
+				"note": "原文の両条例第6条は、不特定多数が閲覧できる状態にする措置をとるとともに、書面掲示または区の端末での閲覧措置を行う規定。前者が単なる選択肢ではなく、後者と併せて必要になる点が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1770,
+			"cachedTokens": 0,
+			"outputTokens": 415,
+			"reasoningTokens": 278
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ce307b898c77234c",
+		"name": "Adds ways to publish notices about taxes and medical care for older residents",
+		"official": "Ordinance Partially Amending the Sumida City Special Ward Tax Ordinance and the Sumida City Ordinance on Medical Care for People Aged 75 and Older",
+		"summary": "Currently, official notices are served by posting them in writing. This bill adds a way to make the matters in public notices available to view online and through other means, and also allows them to be viewed on terminals installed at ward offices.",
+		"changes": [
+			"Adds a way to make public notice information available for the general public to view, including online",
+			"Allows people to view notices on terminals at ward offices, in addition to posted documents"
+		],
+		"who": [
+			"People served by public notice for special ward taxes",
+			"People served by public notice concerning medical care for people aged 75 and older"
+		],
+		"why": "The ward says this is to allow service by public notice to be carried out over the internet and through other means, in light of a partial revision to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:16:49.677Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 914,
+			"reasoningTokens": 667
+		}
+	}
 }

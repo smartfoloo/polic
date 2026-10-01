@@ -22,5 +22,66 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_39.pdf",
 			"fetchedAt": "2026-09-30T10:17:27.290Z"
 		}
-	]
+	],
+	"name": "選挙ビラ・ポスターの公費負担単価を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "区議会議員と区長の選挙では、運動用ビラやポスターの作成費用に公費負担の単価が定められています。この議案で、単価を7円73銭から8円38銭に、541円31銭から586円88銭に引き上げます。公布日に施行され、その日以後に選挙期日が告示される選挙に適用されます。",
+	"changes": [
+		"公費負担の単価を7円73銭から8円38銭に引き上げる",
+		"公費負担の単価を541円31銭から586円88銭に引き上げる"
+	],
+	"who": [
+		"区議会議員選挙・区長選挙の候補者"
+	],
+	"why": "公職選挙法施行令の改正を踏まえ、ビラやポスターの作成にかかる公費負担の単価を改めるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:03:17.427Z",
+		"inputTokens": 1423,
+		"cachedTokens": 0,
+		"outputTokens": 1213,
+		"reasoningTokens": 904
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:03:17.427Z",
+		"checkedAt": "2026-09-30T15:44:51.288Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1484,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7280fb56e7716aca",
+		"name": "Raises public expense coverage rates for election flyers and posters",
+		"official": "Ordinance Partially Amending the Ordinance on Public Expense Coverage for Election Campaigns in Elections for Members of the Shinagawa City Assembly and Mayor of Shinagawa City",
+		"summary": "In elections for the Shinagawa City Assembly and mayor, public expense coverage rates are set for producing campaign flyers and posters. This bill raises the rates from ¥7.73 to ¥8.38 and from ¥541.31 to ¥586.88. It takes effect on the date it is promulgated and applies to elections whose election dates are officially announced on or after that date.",
+		"changes": [
+			"Raises the public expense coverage rate from ¥7.73 to ¥8.38",
+			"Raises the public expense coverage rate from ¥541.31 to ¥586.88"
+		],
+		"who": [
+			"Candidates in Shinagawa City Assembly and mayoral elections"
+		],
+		"why": "The mayor says the rates for public expense coverage of flyer and poster production costs are being revised in light of amendments to the Order for Enforcement of the Public Offices Election Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:12:56.718Z",
+			"inputTokens": 680,
+			"cachedTokens": 0,
+			"outputTokens": 624,
+			"reasoningTokens": 370
+		}
+	}
 }

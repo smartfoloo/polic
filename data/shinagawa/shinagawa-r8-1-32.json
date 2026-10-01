@@ -22,5 +22,64 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_32.pdf",
 			"fetchedAt": "2026-09-30T10:16:45.151Z"
 		}
-	]
+	],
+	"name": "アツミマンションの使用料を月78,000円に",
+	"category": "住宅",
+	"summary": "アツミマンションの使用料は、現在、月額72,000円です。この議案で月額78,000円に改め、2026年4月1日から施行します。",
+	"changes": [
+		"月額使用料を72,000円から78,000円に改める"
+	],
+	"who": [
+		"アツミマンションの入居者"
+	],
+	"why": "アツミマンションの使用料を改める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:01:59.394Z",
+		"inputTokens": 1137,
+		"cachedTokens": 0,
+		"outputTokens": 385,
+		"reasoningTokens": 242
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:01:59.394Z",
+		"checkedAt": "2026-09-30T15:44:20.544Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1059,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "222f8193b2a291cb",
+		"name": "Sets the monthly fee for Atsumi Mansion at ¥78,000",
+		"official": "Ordinance Partially Amending the Shinagawa City Senior Citizens' Housing Ordinance",
+		"summary": "The current monthly fee for Atsumi Mansion is ¥72,000. This bill changes it to ¥78,000 per month, effective April 1, 2026.",
+		"changes": [
+			"Raises the monthly fee from ¥72,000 to ¥78,000"
+		],
+		"who": [
+			"Atsumi Mansion residents"
+		],
+		"why": "The ward says the fee for Atsumi Mansion needs to be revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:12:23.939Z",
+			"inputTokens": 514,
+			"cachedTokens": 0,
+			"outputTokens": 308,
+			"reasoningTokens": 156
+		}
+	}
 }

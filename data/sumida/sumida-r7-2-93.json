@@ -22,5 +22,66 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/gian93.pdf",
 			"fetchedAt": "2026-09-30T10:12:40.657Z"
 		}
-	]
+	],
+	"name": "健康増進事業と健康増進室を廃止",
+	"category": "健康・医療",
+	"summary": "現在の条例には、センターの健康増進事業や健康増進室についての規定があります。この議案で事業と施設を廃止し、関連する規定を整理します。改正は2026年4月1日から施行します。",
+	"changes": [
+		"健康増進事業と、その実施施設を廃止する",
+		"規則を指す表記を整理する"
+	],
+	"who": [
+		"健康増進事業や健康増進室を利用する人"
+	],
+	"why": "センターのあり方を検討した結果を踏まえ、健康増進事業とその施設を廃止し、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:08:53.074Z",
+		"inputTokens": 1229,
+		"cachedTokens": 0,
+		"outputTokens": 808,
+		"reasoningTokens": 614
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:08:53.074Z",
+		"checkedAt": "2026-09-30T15:47:37.288Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1192,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4f50b0f8e9d3551b",
+		"name": "Ends health promotion services and health promotion room",
+		"official": "Ordinance Partially Amending the Sumida Welfare and Health Center Ordinance",
+		"summary": "The current ordinance contains provisions about the center’s health promotion services and health promotion room. This bill abolishes the services and facility and revises related provisions. The amendments take effect on April 1, 2026.",
+		"changes": [
+			"Abolishes the health promotion services and the facility where they are provided",
+			"Revises wording that refers to the rules"
+		],
+		"who": [
+			"People who use the health promotion services or health promotion room"
+		],
+		"why": "The ward says this is to abolish the health promotion services and facility and make the necessary revisions to the provisions, based on the results of a review of the center’s role.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:16:53.952Z",
+			"inputTokens": 566,
+			"cachedTokens": 0,
+			"outputTokens": 449,
+			"reasoningTokens": 254
+		}
+	}
 }

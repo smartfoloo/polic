@@ -30,11 +30,11 @@
 	],
 	"name": "特別区が扱う事務の範囲を変更",
 	"category": "行政のしくみ",
-	"summary": "都の事務のうち、特別区が扱う範囲は条例で定められています。この議案では、私立幼稚園や幼保連携型認定こども園での園児虐待に関する通知の受理などを、特別区や市などに移します。また、特別区が扱う開発許可や無電柱化計画の届出に関する事務を加え、建設工事統計に関する事務を削ります。",
+	"summary": "都の事務のうち、特別区が扱う範囲は条例で定められています。この議案では、私立幼稚園や幼保連携型認定こども園での園児虐待に関する通知の受理などを、特別区や市などに移します。また、特別区が扱う開発許可に関する事務を加え、無電柱化計画の届出などを含むよう事務の項目を改め、建設工事統計に関する事務を削ります。",
 	"changes": [
 		"私立幼稚園と幼保連携型認定こども園での園児虐待に関する通知の受理などを特別区や市などに移す",
 		"土砂災害警戒区域などでの開発許可などを各特別区の事務に加える",
-		"宅地開発区域での無電柱化計画の届出受理などを各特別区の事務に加える",
+		"宅地開発区域での無電柱化計画の届出受理などを含むよう、各特別区の事務の項目（表23の項）を改める",
 		"建設工事統計に関する事務を削除する"
 	],
 	"who": [
@@ -69,7 +69,11 @@
 				"kind": "direction",
 				"severity": "check",
 				"quote": "宅地開発区域での無電柱化計画の届出受理などを各特別区の事務に加える",
-				"note": "原文は第二条の表二十三の項を「次のように改める」としており、「加える」改正ではない。改正前の同項の内容は提示されていない。"
+				"note": "原文は第二条の表二十三の項を「次のように改める」としており、「加える」改正ではない。改正前の同項の内容は提示されていない。",
+				"dismissed": {
+					"note": "Fixed in the text: item 23 is rewritten (改める), so the draft no longer says it is added.",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
 			}
 		],
 		"ai": {
@@ -79,6 +83,35 @@
 			"inputTokens": 3156,
 			"outputTokens": 930,
 			"reasoningTokens": 692
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3625cca1887428c1",
+		"name": "Changes the scope of duties handled by special wards",
+		"official": "Ordinance Partially Amending the Ordinance on Special Cases for the Handling of Tokyo Metropolitan Government Duties in Special Wards",
+		"summary": "An ordinance sets which Tokyo Metropolitan Government duties are handled by special wards. This bill transfers to special wards, cities, and others the receipt of notifications concerning abuse of children at private kindergartens and integrated centers for early childhood education and care, among other duties. It also adds duties related to development permits handled by special wards, revises the list of duties to include receiving notifications of plans to eliminate utility poles, and removes duties related to construction work statistics.",
+		"changes": [
+			"Transfers the receipt of notifications concerning abuse of children at private kindergartens and integrated centers for early childhood education and care, among other duties, to special wards, cities, and others",
+			"Adds development permits in landslide disaster warning zones and other areas to the duties of each special ward",
+			"Revises item 23 in the table of duties for each special ward to include receiving notifications of plans to eliminate utility poles in residential land development areas, among other duties",
+			"Removes duties related to construction work statistics"
+		],
+		"who": [
+			"Children attending and operators of private kindergartens and integrated centers for early childhood education and care",
+			"People and businesses carrying out specified development activities in landslide disaster warning zones and other areas",
+			"People and businesses submitting plans to eliminate utility poles in residential land development areas"
+		],
+		"why": "The Tokyo Metropolitan Government says the rules defining the scope of duties handled by special wards need to be reviewed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:35:39.389Z",
+			"inputTokens": 808,
+			"cachedTokens": 0,
+			"outputTokens": 1279,
+			"reasoningTokens": 915
 		}
 	}
 }

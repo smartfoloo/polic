@@ -27,5 +27,72 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/90.pdf",
 			"fetchedAt": "2026-09-30T10:23:34.264Z"
 		}
-	]
+	],
+	"name": "通園支援事業所に性暴力防止措置を追加",
+	"category": "子育て",
+	"summary": "乳児等通園支援事業所の設備・運営基準を定める条例に、新たな規定を加えます。利用乳幼児と接する業務のうち、支配性・継続性・閉鎖性のある環境で働く人について、犯罪事実確認などの措置を事業者に求めます。性暴力等が行われた場合に利用乳幼児を保護する規定も設け、令和8年12月25日に施行します。",
+	"changes": [
+		"対象となる職員について犯罪事実確認などの措置を事業者に義務付ける",
+		"性暴力等が行われた場合に利用乳幼児を保護するための措置を求める",
+		"利用定員の意味を子ども・子育て支援法の確認で定める定員として明記する"
+	],
+	"who": [
+		"乳児等通園支援事業者",
+		"利用乳幼児と接する業務に従事する人",
+		"利用乳幼児"
+	],
+	"why": "基準の改正に伴い、児童対象性暴力等の防止に関する規定を設け、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:57:56.831Z",
+		"inputTokens": 1828,
+		"cachedTokens": 0,
+		"outputTokens": 2251,
+		"reasoningTokens": 1891
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:57:56.831Z",
+		"checkedAt": "2026-09-30T15:41:59.844Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1927,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 46
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a8b7e57ebb332468",
+		"name": "Adds sexual violence prevention measures for child attendance support facilities",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Standards for Facilities and Operations of Infant and Other Child Attendance Support Services",
+		"summary": "This adds new provisions to the ordinance that sets standards for the facilities and operations of infant and other child attendance support service facilities. It requires providers to take measures such as checking criminal records for people whose work involves contact with children using the service and who work in environments characterized by dominance, continuity, and closedness. It also establishes provisions to protect children using the service if sexual violence or similar acts occur. The ordinance will take effect on December 25, 2026.",
+		"changes": [
+			"Require providers to take measures such as checking criminal records for covered staff",
+			"Require measures to protect children using the service if sexual violence or similar acts occur",
+			"Specify that the service capacity means the capacity set in the confirmation under the Child and Child-Rearing Support Act"
+		],
+		"who": [
+			"Infant and other child attendance support service providers",
+			"People whose work involves contact with children using the service",
+			"Children using the service"
+		],
+		"why": "The ward says the ordinance is being updated to establish provisions on preventing sexual violence and similar acts against children, in line with the revision of the standards, and to adjust the ordinance's provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:26.149Z",
+			"inputTokens": 722,
+			"cachedTokens": 0,
+			"outputTokens": 1033,
+			"reasoningTokens": 725
+		}
+	}
 }

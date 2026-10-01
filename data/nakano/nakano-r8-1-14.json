@@ -22,5 +22,68 @@
 			"url": "https://kugikai-nakano.jp/gian/26329382.pdf",
 			"fetchedAt": "2026-09-30T10:24:57.555Z"
 		}
-	]
+	],
+	"name": "不利益処分の通知方法を見直す",
+	"category": "行政のしくみ",
+	"summary": "不利益処分をしようとするとき、意見を述べる手続の通知方法として、区の事務所の掲示場への掲示が定められています。この議案で、規則で定める方法で不特定多数が閲覧できるようにしたうえ、区の事務所で書面を掲示するか、電子画面を閲覧できるようにします。公示の措置を始めてから2週間が経つと、通知が届いたものと扱います。",
+	"changes": [
+		"通知事項を不特定多数が閲覧できる状態に置く公示方法に改める",
+		"区の事務所で書面を掲示するか、電子画面を閲覧できるようにする",
+		"通知が届いたものと扱うまでの期間の起点を、公示の措置を始めた日に改める"
+	],
+	"who": [
+		"不利益処分の対象となり、意見陳述の手続に関する通知を受ける人"
+	],
+	"why": "行政手続法の改正に伴い、通知方法の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:46:18.298Z",
+		"inputTokens": 1918,
+		"cachedTokens": 0,
+		"outputTokens": 1358,
+		"reasoningTokens": 1030
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:46:18.298Z",
+		"checkedAt": "2026-09-30T15:35:24.643Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1994,
+			"cachedTokens": 0,
+			"outputTokens": 159,
+			"reasoningTokens": 144
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "53d98648c8f7bdfd",
+		"name": "Revises how notices of adverse dispositions are given",
+		"official": "Ordinance Partially Amending the Nakano City Administrative Procedure Ordinance",
+		"summary": "When the ward plans to impose an adverse disposition, the prescribed way to notify people about the procedure for stating their views is to post a notice on a notice board at a ward office. Under this bill, the ward will make the notice details available for viewing by an unspecified number of people using a method set by rules, and then either post a written notice at a ward office or make it viewable on an electronic display. Once two weeks have passed since the public-notice measures began, the notice will be treated as having been received.",
+		"changes": [
+			"Changes the public-notice method to make the notice details available for viewing by an unspecified number of people",
+			"Posts a written notice at a ward office or makes it viewable on an electronic display",
+			"Changes the starting point for the period before notice is treated as received to the day the public-notice measures begin"
+		],
+		"who": [
+			"People who are subject to an adverse disposition and receive notice about the procedure for stating their views"
+		],
+		"why": "The ward says this is to update the rules on notification methods in line with revisions to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:05:02.793Z",
+			"inputTokens": 670,
+			"cachedTokens": 0,
+			"outputTokens": 1071,
+			"reasoningTokens": 779
+		}
+	}
 }

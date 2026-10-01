@@ -32,5 +32,64 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB737_17.pdf",
 			"fetchedAt": "2026-09-30T12:29:07.157Z"
 		}
-	]
+	],
+	"name": "赤羽幼稚園の位置を三田1丁目に変更",
+	"category": "教育",
+	"summary": "赤羽幼稚園は現在、港区三田2丁目6番2号にあります。この議案で、所在地を港区三田1丁目4番52号に変更します。",
+	"changes": [
+		"赤羽幼稚園の位置を港区三田2丁目6番2号から港区三田1丁目4番52号に変更する"
+	],
+	"who": [
+		"赤羽幼稚園に通う子どもと保護者"
+	],
+	"why": "赤羽幼稚園の位置を変更するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:41:08.644Z",
+		"inputTokens": 1119,
+		"cachedTokens": 0,
+		"outputTokens": 554,
+		"reasoningTokens": 395
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:41:08.644Z",
+		"checkedAt": "2026-09-30T15:33:04.278Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1050,
+			"cachedTokens": 0,
+			"outputTokens": 95,
+			"reasoningTokens": 80
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "98e9c4989a0f33fa",
+		"name": "Moves Akabane Kindergarten to 1-chome, Mita",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on the Establishment of Municipal Schools",
+		"summary": "Akabane Kindergarten is currently located at 2-6-2 Mita, Minato City. This bill changes its address to 1-4-52 Mita, Minato City.",
+		"changes": [
+			"Changes Akabane Kindergarten’s location from 2-6-2 Mita, Minato City, to 1-4-52 Mita, Minato City"
+		],
+		"who": [
+			"Children attending Akabane Kindergarten and their guardians"
+		],
+		"why": "The mayor says this is to change the location of Akabane Kindergarten.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:02:47.021Z",
+			"inputTokens": 528,
+			"cachedTokens": 0,
+			"outputTokens": 505,
+			"reasoningTokens": 320
+		}
+	}
 }

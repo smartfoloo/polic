@@ -63,5 +63,31 @@
 			"outputTokens": 121,
 			"reasoningTokens": 107
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "66bc6b85e87b84a8",
+		"name": "Raises fees related to health and medical care",
+		"official": "Ordinance Partially Amending the Ordinance on Fees Related to the Tokyo Metropolitan Bureau of Public Health and Medical Care",
+		"summary": "The permit application fees for liquid egg manufacturing and pickle manufacturing are currently ¥19,800 each. This bill raises both fees to ¥25,100 and revises the ordinance provisions to reflect legal changes concerning pharmaceuticals. The fee changes take effect on April 1, 2026, and the changes to the provisions concerning pharmaceuticals take effect on May 1 of the same year.",
+		"changes": [
+			"Raises the permit application fees for liquid egg and pickle manufacturing from ¥19,800 each to ¥25,100 each",
+			"Raises other fees from ¥10,800 to ¥12,300 and from ¥11,700 to ¥16,400, and revises provisions concerning pharmaceuticals to reflect legal changes"
+		],
+		"who": [
+			"Businesses applying for permits to manufacture liquid eggs",
+			"Businesses applying for permits to manufacture pickles"
+		],
+		"why": "The Tokyo Metropolitan Government says the changes are intended to set the costs borne by beneficiaries at an appropriate level and align the provisions with legal changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:43.394Z",
+			"inputTokens": 688,
+			"cachedTokens": 0,
+			"outputTokens": 1127,
+			"reasoningTokens": 858
+		}
 	}
 }

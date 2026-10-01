@@ -27,5 +27,65 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-32.pdf",
 			"fetchedAt": "2026-09-30T12:18:09.025Z"
 		}
-	]
+	],
+	"name": "レンタサイクル事業を廃止",
+	"category": "交通",
+	"summary": "台東区レンタサイクル条例が定められています。この議案では、レンタサイクル事業を廃止し、その条例も廃止します。条例は公布の日から施行します。",
+	"changes": [
+		"レンタサイクル事業を廃止する",
+		"東京都台東区レンタサイクル条例を廃止する"
+	],
+	"who": [
+		"レンタサイクル利用者"
+	],
+	"why": "レンタサイクル事業を廃止するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:15:30.457Z",
+		"inputTokens": 1069,
+		"cachedTokens": 0,
+		"outputTokens": 719,
+		"reasoningTokens": 570
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:15:30.457Z",
+		"checkedAt": "2026-09-30T15:51:14.777Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 987,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e10d43ec827644d7",
+		"name": "Ends the rental bicycle service",
+		"official": "Ordinance to Repeal the Tokyo Metropolitan Taito City Rental Bicycle Ordinance",
+		"summary": "The Taito City Rental Bicycle Ordinance is in place. This bill ends the rental bicycle service and repeals the ordinance. The ordinance will take effect on the date of promulgation.",
+		"changes": [
+			"Ends the rental bicycle service and repeals the ordinance"
+		],
+		"who": [
+			"Rental bicycle users"
+		],
+		"why": "The mayor says this is to end the rental bicycle service.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:20:03.134Z",
+			"inputTokens": 521,
+			"cachedTokens": 0,
+			"outputTokens": 654,
+			"reasoningTokens": 516
+		}
+	}
 }

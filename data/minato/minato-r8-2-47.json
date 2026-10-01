@@ -32,5 +32,74 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB804_47.pdf",
 			"fetchedAt": "2026-09-30T12:34:41.120Z"
 		}
-	]
+	],
+	"name": "給付型奨学金の多子世帯の判定範囲を拡大",
+	"category": "教育",
+	"summary": "区の給付型奨学金では、多子世帯に当たるかどうかを判定する基準に、特定親族は含まれていません。この改正で、合計所得金額が95万円以下の特定親族を判定基準に加えます。令和8年10月1日に施行されます。",
+	"changes": [
+		"合計所得金額が95万円以下の特定親族を、多子世帯等の判定基準に加える"
+	],
+	"who": [
+		"給付型奨学金の対象となる学生等がいる世帯",
+		"多子世帯等に当たるか判定を受ける世帯"
+	],
+	"why": "国の奨学金制度で特定親族が多子世帯等の判定基準に加えられたことを踏まえ、区の制度でも対象範囲を広げて学生等を支援するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:44:55.155Z",
+		"inputTokens": 1795,
+		"cachedTokens": 0,
+		"outputTokens": 983,
+		"reasoningTokens": 722
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:44:55.155Z",
+		"checkedAt": "2026-09-30T15:34:54.494Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "合計所得金額が95万円以下の特定親族を、多子世帯等の判定基準に加える",
+				"note": "議案本文には「扶養親族等である者又はこれに準ずる者として区長が認める」への改正もあります。区長が認める準ずる者を判定対象に含める変更が抜けていないか確認が必要です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1830,
+			"cachedTokens": 0,
+			"outputTokens": 270,
+			"reasoningTokens": 142
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ec84d91dd898bd69",
+		"name": "Expands the criteria for identifying multiple-child households for grant scholarships",
+		"official": "Ordinance Partially Amending the Minato City Ordinance on Scholarship Funds",
+		"summary": "The City’s grant scholarship does not include specified relatives in the criteria used to determine whether a household is a multiple-child household. This amendment adds specified relatives whose total income is ¥950,000 or less to the criteria. It takes effect on October 1, 2026.",
+		"changes": [
+			"Adds specified relatives with total income of ¥950,000 or less to the criteria for determining multiple-child households, etc."
+		],
+		"who": [
+			"Households with students or others eligible for the grant scholarship",
+			"Households assessed to determine whether they qualify as multiple-child households, etc."
+		],
+		"why": "The City says it is expanding the scope of its program to support students and others, in light of the national scholarship system adding specified relatives to the criteria for determining multiple-child households, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:04:20.630Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 959,
+			"reasoningTokens": 732
+		}
+	}
 }

@@ -22,5 +22,64 @@
 			"url": "https://kugikai-nakano.jp/gian/266239546.pdf",
 			"fetchedAt": "2026-09-30T10:26:51.070Z"
 		}
-	]
+	],
+	"name": "こども園の職員配置基準に職種を追加",
+	"category": "子育て",
+	"summary": "現在の条例には、幼保連携型認定こども園の職員配置に関する規定があります。この議案で、その規定に「主務養護教諭」を加えます。公布の日から施行します。",
+	"changes": [
+		"職員配置に関する規定に「主務養護教諭」を加える"
+	],
+	"who": [
+		"幼保連携型認定こども園の運営者"
+	],
+	"why": "職員配置に関する基準の改正に合わせて、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:50:11.059Z",
+		"inputTokens": 1298,
+		"cachedTokens": 0,
+		"outputTokens": 840,
+		"reasoningTokens": 671
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:50:11.059Z",
+		"checkedAt": "2026-09-30T15:37:07.297Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1238,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b4e6dcc49c896eae",
+		"name": "Adds a staff role to staffing standards for integrated childcare centers",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Standards for Class Organization, Staff, Facilities and Operation of Integrated Type Certified Centers for Early Childhood Education and Care",
+		"summary": "The current ordinance includes rules on staffing at integrated type certified centers for early childhood education and care. This bill adds “chief school nurse teacher” to those rules. It takes effect on the day it is promulgated.",
+		"changes": [
+			"Adds “chief school nurse teacher” to the rules on staffing"
+		],
+		"who": [
+			"Operators of integrated type certified centers for early childhood education and care"
+		],
+		"why": "The ward says the ordinance needs to be updated to reflect revisions to the staffing standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:23.183Z",
+			"inputTokens": 565,
+			"cachedTokens": 0,
+			"outputTokens": 534,
+			"reasoningTokens": 350
+		}
+	}
 }

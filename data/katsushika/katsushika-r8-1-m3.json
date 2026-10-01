@@ -27,5 +27,53 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8g_gian003.pdf",
 			"fetchedAt": "2026-09-30T10:38:41.711Z"
 		}
-	]
+	],
+	"name": "学童保育クラブの使用料を0円に",
+	"category": "子育て",
+	"summary": "現在、使用料は区分に応じて定められています。この議案は、使用料を0円とし、第7条と第8条を削除する内容で、施行日は令和8年10月1日としています。",
+	"changes": [
+		"使用料を0円にする",
+		"第7条と第8条を削除する"
+	],
+	"who": [
+		"学童保育クラブを利用する子どもの保護者"
+	],
+	"why": "子どもの遊びや生活を支援し、居場所を確保するためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:36:36.147Z",
+		"inputTokens": 1362,
+		"cachedTokens": 0,
+		"outputTokens": 1038,
+		"reasoningTokens": 837
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:36:36.147Z",
+		"checkedAt": "2026-09-30T15:30:42.400Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "議案は否決されています。",
+				"note": "原文に議決結果の記載はなく、否決されたことは確認できない。",
+				"dismissed": {
+					"note": "True (status 否決, from the voting results page), but the checker only sees the bill text. Sentence removed: the site shows the result as the status stamp.",
+					"at": "2026-10-01T11:30:44.894Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1305,
+			"cachedTokens": 0,
+			"outputTokens": 119,
+			"reasoningTokens": 58
+		}
+	}
 }

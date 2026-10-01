@@ -27,5 +27,60 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-85.pdf",
 			"fetchedAt": "2026-09-30T12:21:51.062Z"
 		}
-	]
+	],
+	"name": "景観条例の引用条文を改める",
+	"category": "まちづくり",
+	"summary": "現在、条例第12条第2項では景観法第16条第7項第11号を引用しています。この議案は、引用先を第16条第8項第12号に改めます。施行日は、関係する法律の施行日と条例の公布日のうち、遅い日です。",
+	"changes": [
+		"第12条第2項の引用を「第16条第7項第11号」から「第16条第8項第12号」に改める"
+	],
+	"who": [],
+	"why": "景観法の改正に伴い、引用条文を整理するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:21:14.965Z",
+		"inputTokens": 1166,
+		"cachedTokens": 0,
+		"outputTokens": 653,
+		"reasoningTokens": 453
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:21:14.965Z",
+		"checkedAt": "2026-09-30T15:54:16.001Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1109,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8bcdcaa89b2427c5",
+		"name": "Updates the cited provision in the landscape ordinance",
+		"official": "Ordinance Partially Amending the Taito City Landscape Ordinance of Tokyo",
+		"summary": "Currently, Article 12, Paragraph 2 of the ordinance cites Article 16, Paragraph 7, Item 11 of the Landscape Act. This bill changes the citation to Article 16, Paragraph 8, Item 12. The effective date will be the later of the date the relevant law takes effect and the date the ordinance is promulgated.",
+		"changes": [
+			"Changes the citation in Article 12, Paragraph 2 from Article 16, Paragraph 7, Item 11 to Article 16, Paragraph 8, Item 12"
+		],
+		"who": [],
+		"why": "The mayor explains that the citation is being updated following amendments to the Landscape Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:22:27.316Z",
+			"inputTokens": 541,
+			"cachedTokens": 0,
+			"outputTokens": 669,
+			"reasoningTokens": 474
+		}
+	}
 }

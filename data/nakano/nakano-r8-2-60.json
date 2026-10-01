@@ -22,5 +22,80 @@
 			"url": "https://kugikai-nakano.jp/gian/266239612.pdf",
 			"fetchedAt": "2026-09-30T10:27:09.707Z"
 		}
-	]
+	],
+	"name": "一時保護委託先の施設・運営基準を定める",
+	"category": "福祉",
+	"summary": "児童福祉法の改正に伴い、中野区が一時保護を委託する事業者や施設の登録などに関する基準を定めます。子どもの権利や施設の設備、職員配置、生活支援などのルールを設け、2026年10月1日に施行します。",
+	"changes": [
+		"子どもの権利を尊重し、虐待や施錠による行動制限を禁止する",
+		"災害への備えや毎月1回以上の避難・消火訓練、車の乗降時に子どもの所在を確認する体制を整える",
+		"施設の設備や職員配置、衛生管理、食事、健康管理の基準を定める",
+		"子どもの生活支援や教育、親子関係の再構築支援、記録や苦情対応のルールを定める"
+	],
+	"who": [
+		"一時保護を委託される事業者",
+		"委託施設に入所する子ども"
+	],
+	"why": "児童福祉法の改正に伴い、一時保護委託者の登録等の基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:50:32.853Z",
+		"inputTokens": 5755,
+		"cachedTokens": 0,
+		"outputTokens": 1146,
+		"reasoningTokens": 819
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:50:32.853Z",
+		"checkedAt": "2026-09-30T15:37:26.168Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子どもの権利を尊重し、虐待や施錠による行動制限を禁止する",
+				"note": "第7条の児童対象性暴力等の防止措置が抜けています。児童と接する一定の業務従事者の犯罪事実確認など、必要な措置を義務付けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5861,
+			"cachedTokens": 0,
+			"outputTokens": 208,
+			"reasoningTokens": 73
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "091c1d1da9eb360e",
+		"name": "Sets standards for facilities and operations providing temporary protection",
+		"official": "Ordinance on Standards for the Registration, etc. of Providers Entrusted with Temporary Protection in Nakano City",
+		"summary": "Following amendments to the Child Welfare Act, Nakano City will set standards for registering businesses and facilities that it entrusts with providing temporary protection. The rules cover children’s rights, facility equipment, staffing, and support for daily life. The ordinance takes effect on October 1, 2026.",
+		"changes": [
+			"Respect children’s rights and prohibit abuse and restricting children’s movement by locking doors",
+			"Prepare for disasters, hold evacuation and firefighting drills at least once a month, and set up a system to check where children are when they get into or out of vehicles",
+			"Set standards for facility equipment, staffing, hygiene, meals, and health management",
+			"Set rules for supporting children’s daily lives and education, helping rebuild parent-child relationships, keeping records, and handling complaints"
+		],
+		"who": [
+			"Businesses entrusted with providing temporary protection",
+			"Children admitted to entrusted facilities"
+		],
+		"why": "The ward says the standards are needed following amendments to the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:27:18.667Z",
+			"inputTokens": 708,
+			"cachedTokens": 0,
+			"outputTokens": 552,
+			"reasoningTokens": 282
+		}
+	}
 }

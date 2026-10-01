@@ -32,5 +32,60 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/34.pdf",
 			"fetchedAt": "2026-09-30T10:20:58.220Z"
 		}
-	]
+	],
+	"name": "職員の派遣先法人の名称を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、条例では職員の派遣先の一つを「一般財団法人世田谷トラストまちづくり」と定めています。この議案で、同法人の公益財団法人への移行に合わせ、条例上の名称を改めます。",
+	"changes": [
+		"派遣先の名称を「一般財団法人世田谷トラストまちづくり」から「公益財団法人世田谷トラストまちづくり」に改める"
+	],
+	"who": [],
+	"why": "一般財団法人世田谷トラストまちづくりが公益財団法人へ移行するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:53:22.572Z",
+		"inputTokens": 1210,
+		"cachedTokens": 0,
+		"outputTokens": 557,
+		"reasoningTokens": 374
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:53:22.572Z",
+		"checkedAt": "2026-09-30T15:39:02.404Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1155,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c719ee37f1647ae4",
+		"name": "Changes name of organization receiving dispatched employees",
+		"official": "Ordinance Partially Amending the Ordinance on Dispatching Employees to Public-Interest Corporations, etc.",
+		"summary": "The ordinance currently names “General Incorporated Foundation Setagaya Trust and Community Development” as one of the organizations to which employees are dispatched. This bill changes the name in the ordinance to reflect the organization’s transition to a public interest incorporated foundation.",
+		"changes": [
+			"Changes the name of the organization receiving dispatched employees from “General Incorporated Foundation Setagaya Trust and Community Development” to “Public Interest Incorporated Foundation Setagaya Trust and Community Development”"
+		],
+		"who": [],
+		"why": "The ward says this is because General Incorporated Foundation Setagaya Trust and Community Development is becoming a public interest incorporated foundation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:07:44.266Z",
+			"inputTokens": 553,
+			"cachedTokens": 0,
+			"outputTokens": 519,
+			"reasoningTokens": 333
+		}
+	}
 }

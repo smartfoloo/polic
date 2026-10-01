@@ -62,5 +62,31 @@
 			"outputTokens": 251,
 			"reasoningTokens": 237
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ac88043db68e5d2b",
+		"name": "Adds another case in which the right to receive recovery payments may be waived",
+		"official": "Ordinance Partially Amending the Ordinance on Waiver of the Right to Receive Recovery Payments Related to Grants Provided by the Tokyo Metropolitan Government to the Tokyo Credit Guarantee Association",
+		"summary": "The ordinance sets out the cases in which the Tokyo Metropolitan Government may waive its right to receive recovery payments from the Tokyo Credit Guarantee Association. This bill would also allow the right to be waived in cases based on an early business revitalization plan to which the association intends to agree to a proposed change in rights. This change will take effect on December 11, 2026, and the correction of the article numbers will take effect on the day the ordinance is promulgated.",
+		"changes": [
+			"Allows the Tokyo Metropolitan Government to waive its right to receive recovery payments in cases based on an early business revitalization plan to which the association intends to agree to a proposed change in rights",
+			"Revises the article numbers cited in the ordinance"
+		],
+		"who": [
+			"Businesses covered by early business revitalization plans",
+			"Tokyo Credit Guarantee Association"
+		],
+		"why": "The Tokyo Metropolitan Government says that the provisions on waiving the right, among other things, need to be revised in light of the enforcement of a law setting out procedures for adjusting businesses’ debts.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:30:11.957Z",
+			"inputTokens": 701,
+			"cachedTokens": 0,
+			"outputTokens": 951,
+			"reasoningTokens": 651
+		}
 	}
 }

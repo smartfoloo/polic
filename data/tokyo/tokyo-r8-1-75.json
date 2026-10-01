@@ -61,5 +61,30 @@
 			"outputTokens": 79,
 			"reasoningTokens": 65
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7ced906ff4ac94e4",
+		"name": "Changes the addresses of two vocational ability development centers",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Vocational Ability Development Center Ordinance",
+		"summary": "The ordinance currently lists the Akabane Center's address as 3-7-8 Nishigaoka, Kita City. In line with the relocation of the Akabane and Ota centers, the addresses listed in the ordinance will be changed. The amendment will take effect on April 1, 2026.",
+		"changes": [
+			"Changes the address listed in the ordinance for the Akabane Center from 3-7-8 Nishigaoka, Kita City, to 3-13-16 Nishigaoka, Kita City",
+			"Changes the address listed in the ordinance for the Ota Center to 3-4-30 Honhaneda, Ota City"
+		],
+		"who": [
+			"People who use the Akabane Center or the Ota Center"
+		],
+		"why": "The Tokyo Metropolitan Government says the addresses listed in the ordinance need to be changed in line with the relocation of the Akabane and Ota centers.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:57.311Z",
+			"inputTokens": 584,
+			"cachedTokens": 0,
+			"outputTokens": 646,
+			"reasoningTokens": 390
+		}
 	}
 }

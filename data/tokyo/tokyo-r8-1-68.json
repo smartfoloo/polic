@@ -48,9 +48,7 @@
 	"checks": {
 		"draftAt": "2026-09-28T11:14:46.184Z",
 		"checkedAt": "2026-09-29T04:11:39.869Z",
-		"flags": [
-			"copied from the source (26 chars): 「東京都子供・子育て会議の委員の定数を改める必要がある」"
-		],
+		"flags": [],
 		"issues": [],
 		"ai": {
 			"model": "gpt-6-sol",
@@ -59,6 +57,28 @@
 			"inputTokens": 1103,
 			"outputTokens": 12,
 			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e4987fc1c660d1df",
+		"name": "Raises the cap on Tokyo Metropolitan Children and Childcare Council members to 30",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Children and Childcare Council Ordinance",
+		"summary": "The Tokyo Metropolitan Children and Childcare Council currently has no more than 25 members. The cap will be raised to 30 starting April 1, 2026.",
+		"changes": [
+			"Raises the membership cap from 25 to 30"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says it is necessary to revise the number of members on the Tokyo Metropolitan Children and Childcare Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:35:46.952Z",
+			"inputTokens": 505,
+			"cachedTokens": 0,
+			"outputTokens": 388,
+			"reasoningTokens": 239
 		}
 	}
 }

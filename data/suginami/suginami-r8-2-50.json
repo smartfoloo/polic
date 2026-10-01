@@ -88,6 +88,42 @@
 			"inputTokens": 31622,
 			"outputTokens": 1005,
 			"reasoningTokens": 704
+		},
+		"dismissedFlags": [
+			{
+				"flag": "source has a garbled before/after table: check the direction of changes against the PDF",
+				"note": "Checked against the PDF: every change the draft lists is an addition, as it says.",
+				"at": "2026-10-01T12:13:20.320Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f922345b7b8f8e7f",
+		"name": "Revises standards for small-scale childcare and measures to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Suginami City Ordinance on Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "The ward currently sets standards by ordinance for home-based childcare, small-scale childcare, and similar services. This bill adds standards for small-scale childcare that accepts only children aged 3 and older, and changes how the number of childcare workers is counted. It also requires criminal background checks, etc., to prevent sexual violence against children in home-based childcare and similar services and infant and other childcare support.",
+		"changes": [
+			"Limit small-scale childcare for children aged 3 and older to Type A and set standards for capacity, etc.",
+			"Allow up to one physical therapist or similar professional to be counted as a childcare worker",
+			"Allow one childcare worker to be assigned under certain conditions, together with a person who has equivalent knowledge and experience",
+			"Require criminal background checks, etc., to prevent sexual violence against children and protect them if they are victimized"
+		],
+		"who": [
+			"Families placing children aged 3 and older in small-scale childcare",
+			"Children and parents using home-based childcare or infant and other childcare support",
+			"Operators of small-scale childcare services, etc."
+		],
+		"why": "The ward says this is to align with amendments to the Child Welfare Act and changes to national standards on specialized support and preventing sexual violence against children.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:32:38.457Z",
+			"inputTokens": 774,
+			"cachedTokens": 0,
+			"outputTokens": 846,
+			"reasoningTokens": 516
 		}
 	}
 }

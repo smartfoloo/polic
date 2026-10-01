@@ -61,5 +61,30 @@
 			"outputTokens": 50,
 			"reasoningTokens": 36
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c233c3578edfc988",
+		"name": "Raises fees for fire services",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on Fees Related to Fire Services",
+		"summary": "The fee for type testing of seismic sensing devices is currently ¥37,000. This bill raises it to ¥46,300 and also raises other fire-related fees. The changes take effect on the date of promulgation.",
+		"changes": [
+			"Raises the fee for type testing of seismic sensing devices from ¥37,000 to ¥46,300",
+			"Raises other fees from ¥15,300 to ¥20,600 and from ¥8,300 to ¥11,800"
+		],
+		"who": [
+			"People and businesses that pay the fee for type testing of seismic sensing devices"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to make the burden on people receiving the services appropriate.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:12.565Z",
+			"inputTokens": 576,
+			"cachedTokens": 0,
+			"outputTokens": 674,
+			"reasoningTokens": 473
+		}
 	}
 }

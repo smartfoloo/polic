@@ -58,5 +58,27 @@
 			"outputTokens": 74,
 			"reasoningTokens": 60
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5993f6c66a746edf",
+		"name": "Revises provisions cited in the landscape ordinance",
+		"official": "Ordinance Partially Amending the Suginami City Landscape Ordinance",
+		"summary": "The city’s landscape ordinance cites provisions of the Landscape Act in its rules on notifications and prior consultations. This bill updates the cited provisions to reflect amendments to the Landscape Act.",
+		"changes": [
+			"Updates the provisions of the Landscape Act cited in the rules on notifications and prior consultations"
+		],
+		"who": [],
+		"why": "The ward says this is necessary to bring the ordinance provisions into line with amendments to the Landscape Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:52.397Z",
+			"inputTokens": 507,
+			"cachedTokens": 0,
+			"outputTokens": 325,
+			"reasoningTokens": 182
+		}
 	}
 }

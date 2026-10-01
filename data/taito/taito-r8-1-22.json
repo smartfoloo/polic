@@ -27,5 +27,60 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-22.pdf",
 			"fetchedAt": "2026-09-30T12:17:08.883Z"
 		}
-	]
+	],
+	"name": "手数料条例の引用条文を整理",
+	"category": "行政のしくみ",
+	"summary": "手数料条例の保健衛生の項では、法律の条文を引用しています。この議案では、その引用を第14条第15項から第13項に改めます。令和8年5月1日から施行されます。",
+	"changes": [
+		"引用する条文を第14条第15項から第13項に改める"
+	],
+	"who": [],
+	"why": "医薬品等に関する法律の改正に伴い、引用条文を整理するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:13:32.194Z",
+		"inputTokens": 1181,
+		"cachedTokens": 0,
+		"outputTokens": 662,
+		"reasoningTokens": 512
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:13:32.194Z",
+		"checkedAt": "2026-09-30T15:50:10.339Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1096,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2833950ddbe72827",
+		"name": "Updates the cited provision in the fee ordinance",
+		"official": "Ordinance Partially Amending the Taito City Fee Ordinance",
+		"summary": "The health and sanitation section of the fee ordinance cites an article of a law. This bill changes the citation from Article 14, paragraph 15, to paragraph 13. It takes effect on May 1, 2026.",
+		"changes": [
+			"Changes the cited provision from Article 14, paragraph 15, to paragraph 13"
+		],
+		"who": [],
+		"why": "The mayor says this is to update the cited provision following amendments to the law concerning pharmaceuticals, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:19:04.233Z",
+			"inputTokens": 513,
+			"cachedTokens": 0,
+			"outputTokens": 515,
+			"reasoningTokens": 360
+		}
+	}
 }

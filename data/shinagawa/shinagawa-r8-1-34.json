@@ -22,5 +22,66 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_34.pdf",
 			"fetchedAt": "2026-09-30T10:16:57.318Z"
 		}
-	]
+	],
+	"name": "高齢者世帯等への建築助成を拡充",
+	"category": "住宅",
+	"summary": "現行の条例に、高齢者世帯等の定義と助成金を拡充する場合を加えます。高齢者世帯等に属する建築主が耐火建築物等を建てる場合が対象で、令和8年4月1日に施行します。",
+	"changes": [
+		"65歳以上の人や障害に関する手帳の交付を受けた人、要介護・要支援認定を受けた人などが属する世帯を定義する",
+		"高齢者世帯等に属する建築主が対象建築物を建てる場合を、助成金拡充の対象に加える"
+	],
+	"who": [
+		"高齢者や障害者等が属する世帯の建築主"
+	],
+	"why": "高齢者または障害者等が耐火建築物等を建築する際の助成金を拡充するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:02:20.773Z",
+		"inputTokens": 1621,
+		"cachedTokens": 0,
+		"outputTokens": 1520,
+		"reasoningTokens": 1240
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:02:20.773Z",
+		"checkedAt": "2026-09-30T15:44:26.236Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1656,
+			"cachedTokens": 0,
+			"outputTokens": 75,
+			"reasoningTokens": 60
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e2eaa81fc7cabf06",
+		"name": "Expands building grants for households with older residents and others",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Subsidies to Promote the Fireproofing of Buildings",
+		"summary": "The ordinance adds a definition of households with older residents and others, and adds cases in which grants are expanded. The grants apply when a building owner in one of these households constructs a fire-resistant building or similar structure. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Define households that include people aged 65 or older, people issued disability-related certificates, people certified as needing long-term care or support, and others",
+			"Add cases where building owners in households with older residents and others construct eligible buildings to the scope of expanded grants"
+		],
+		"who": [
+			"Building owners in households that include older residents, people with disabilities, and others"
+		],
+		"why": "The ward says this is to increase grants when older people, people with disabilities, and others construct fire-resistant buildings or similar structures.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:31:24.500Z",
+			"inputTokens": 632,
+			"cachedTokens": 0,
+			"outputTokens": 717,
+			"reasoningTokens": 478
+		}
+	}
 }

@@ -27,5 +27,91 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian39.pdf",
 			"fetchedAt": "2026-09-30T10:39:17.883Z"
 		}
-	]
+	],
+	"name": "区民税の年金申告や控除の扱いを改正",
+	"category": "税・手数料",
+	"summary": "区民税の申告や控除の扱いは、区の条例で定められています。この議案では、地方税法の改正に合わせ、公的年金の申告や住宅ローン控除などの扱いを改めます。",
+	"changes": [
+		"公的年金受給者が提出する申告書の対象者と記載事項を改める",
+		"住宅ローン控除の適用期間を令和25年度まで延ばし、対象となる居住年を令和12年までとする",
+		"地すべり防止区域、急傾斜地崩壊危険区域、土砂災害特別警戒区域、浸水被害防止区域にある土地について、租税特別措置法で定める一部の譲渡（第31条の2第2項第13号から第15号）を、優良住宅地等のための譲渡の特例から除く"
+	],
+	"who": [
+		"条例で定める要件に当てはまる公的年金受給者",
+		"住宅ローン控除の対象となる区民税の所得割納税者",
+		"土砂災害や浸水の危険がある指定区域で、特例の対象となる土地を譲渡する区民税の所得割納税者"
+	],
+	"why": "地方税法の改正に伴い、条例を改正する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:37:52.008Z",
+		"inputTokens": 4922,
+		"cachedTokens": 0,
+		"outputTokens": 1454,
+		"reasoningTokens": 1158
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:37:52.008Z",
+		"checkedAt": "2026-09-30T15:31:22.133Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "指定された災害危険区域などにある土地の譲渡を、優良住宅地等のための特例の対象から除く",
+				"note": "原文の付則第11条第４項では、除外対象を租税特別措置法第31条の２第２項第13号から第15号までに掲げる譲渡に限定している。区域内の土地の譲渡全般を除外するものではない。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones and limits it to the transfers in 租税特別措置法第31条の2第2項第13–15号.",
+					"at": "2026-10-01T12:09:53.468Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "指定された災害危険区域などにある土地の譲渡を、優良住宅地等のための特例の対象から除く",
+				"note": "付則第11条第１項・第２項の適用期限を令和８年度から令和11年度に延長する変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4994,
+			"cachedTokens": 0,
+			"outputTokens": 513,
+			"reasoningTokens": 246
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0ad6f267e7b7f37e",
+		"name": "Revises rules for pension declarations and deductions in resident tax",
+		"official": "Ordinance Partially Amending the Katsushika City Special Ward Tax Ordinance",
+		"summary": "The ward's ordinance sets the rules for resident tax declarations and deductions. This bill revises the rules for public pension declarations and housing loan deductions, among other things, to reflect amendments to the Local Tax Act.",
+		"changes": [
+			"Revises who must submit declarations as public pension recipients and what information they must include",
+			"Extends the period for applying the housing loan deduction through FY 2043 (Reiwa 25) and sets the eligible years of residence through 2030 (Reiwa 12)",
+			"Excludes certain transfers specified in the Act on Special Measures Concerning Taxation (Article 31-2, paragraph 2, items 13 to 15) of land in landslide prevention zones, steep-slope collapse danger zones, special warning zones for sediment disasters, and flood damage prevention zones from the special treatment for transfers for quality residential land, etc."
+		],
+		"who": [
+			"Public pension recipients who meet the requirements set by the ordinance",
+			"Taxpayers subject to the income-based portion of resident tax who qualify for the housing loan deduction",
+			"Taxpayers subject to the income-based portion of resident tax who transfer land eligible for the special treatment in designated areas at risk of sediment disasters or flooding"
+		],
+		"why": "The ward says the ordinance needs to be amended to reflect changes to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:23:59.992Z",
+			"inputTokens": 750,
+			"cachedTokens": 0,
+			"outputTokens": 921,
+			"reasoningTokens": 580
+		}
+	}
 }

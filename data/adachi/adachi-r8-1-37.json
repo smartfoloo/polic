@@ -27,5 +27,101 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4354_R81TG037.pdf",
 			"fetchedAt": "2026-09-30T10:34:17.007Z"
 		}
-	]
+	],
+	"name": "区職員の給料表と手当を改定",
+	"category": "行政のしくみ",
+	"summary": "現在、区職員の給料や各種手当は条例で定められています。この議案は給料表を改め、通勤手当の上限の計算方法や管理職員特別勤務手当の対象時間などを変更します。2026年4月1日に施行します。",
+	"changes": [
+		"給料表の金額を改定し、対象職員の号給を切り替える",
+		"通勤手当の各算定額を月額に換算した合計が15万円を超える場合、支給月数に15万円を掛けた額を上限とする",
+		"通勤手当規則を定める際に人事委員会の承認を得る",
+		"管理職員特別勤務手当の夜間対象時間を広げ、規則で定める勤務の手当額を1.5倍にする"
+	],
+	"who": [
+		"給料表の対象となる区職員",
+		"通勤手当を受ける区職員",
+		"管理職員特別勤務手当の対象となる区職員"
+	],
+	"why": "給料表の改定と管理職員特別勤務手当の対象時間の拡大、規定の整備が必要なためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:23:17.168Z",
+		"inputTokens": 12218,
+		"cachedTokens": 0,
+		"outputTokens": 2439,
+		"reasoningTokens": 2116
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:23:17.168Z",
+		"checkedAt": "2026-09-30T15:23:26.058Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "給料表の金額を改定し、対象職員の号給を切り替える",
+				"note": "別表第1ア・別表第2イ・ウの改正前後の数値列が混在しており、給料額の変更の対応関係・向きを原文から確実に確認できない。",
+				"dismissed": {
+					"note": "The draft makes no before/after claim from the broken table, so it is not affected.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "給料表の金額を改定し、対象職員の号給を切り替える",
+				"note": "第6条第4項で、行政職給料表（一）の6級の職員について「4号給」に対する「0号給」の例外を加える変更が記載されていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "通勤手当の各算定額を月額に換算した合計が15万円を超える場合、支給月数に15万円を掛けた額を上限とする",
+				"note": "第16条第4項で、新たに給料表の適用を受ける職員のうち、従前の住居から新幹線鉄道等で通勤する一定の職員を対象に加える変更が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 12323,
+			"cachedTokens": 0,
+			"outputTokens": 612,
+			"reasoningTokens": 294
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "421ab1bf37c3b4c4",
+		"name": "Revises Adachi City employees’ pay scales and allowances",
+		"official": "Ordinance Partially Amending the Adachi City Ordinance on Compensation for Adachi City Employees",
+		"summary": "The salaries and various allowances of Adachi City employees are currently set by ordinance. This bill revises the pay scale and changes how the cap on commuting allowances is calculated, as well as the hours covered by the special work allowance for managerial employees. It takes effect on April 1, 2026.",
+		"changes": [
+			"Revises the amounts in the pay scale and moves the affected employees to different salary steps",
+			"Caps the commuting allowance at ¥150,000 multiplied by the number of months for which it is paid if the total of the monthly equivalents of the calculated amounts exceeds ¥150,000",
+			"Requires approval from the personnel committee when setting rules on commuting allowances",
+			"Extends the nighttime hours covered by the special work allowance for managerial employees and raises the allowance for duties set out in rules to 1.5 times its current amount"
+		],
+		"who": [
+			"Adachi City employees covered by the pay scale",
+			"Adachi City employees who receive commuting allowances",
+			"The personnel committee",
+			"Adachi City employees eligible for the special work allowance for managerial employees"
+		],
+		"why": "The ward says the changes are needed to revise the pay scale, expand the hours covered by the special work allowance for managerial employees, and update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:21:00.291Z",
+			"inputTokens": 703,
+			"cachedTokens": 0,
+			"outputTokens": 2229,
+			"reasoningTokens": 1901
+		}
+	}
 }

@@ -63,5 +63,32 @@
 			"outputTokens": 46,
 			"reasoningTokens": 32
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5f3e8df575cd7db9",
+		"name": "Raises pay for Tokyo election commissioners and alternate members",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Expense Reimbursement for Tokyo Metropolitan Election Commissioners",
+		"summary": "The remuneration for Tokyo Metropolitan Election Commissioners and alternate members is set by ordinance. This bill raises three remuneration amounts in the ordinance. The amended ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Raises one remuneration amount from ¥530,000 to ¥545,000",
+			"Raises one remuneration amount from ¥435,000 to ¥447,000",
+			"Raises one remuneration amount from ¥26,600 to ¥27,300"
+		],
+		"who": [
+			"Tokyo Metropolitan Election Commissioners",
+			"Alternate members of the Tokyo Metropolitan Election Commission"
+		],
+		"why": "The Tokyo Metropolitan Government says the remuneration amounts for election commissioners and alternate members are being revised based on a recommendation from the Tokyo Metropolitan Government Special Positions Remuneration Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:33.436Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 641,
+			"reasoningTokens": 420
+		}
 	}
 }

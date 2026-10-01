@@ -22,5 +22,72 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R86gatugian.files/0806gian4.pdf",
 			"fetchedAt": "2026-09-30T10:14:10.685Z"
 		}
-	]
+	],
+	"name": "都市計画マスタープラン改定検討委員会を設置",
+	"category": "まちづくり",
+	"summary": "都市計画マスタープランの改定に向けた調査や検討を行う委員会を、区長の附属機関に加えます。条例は公布の日から施行されます。",
+	"changes": [
+		"改定に向けて調査・検討する委員会を区長の附属機関に加える"
+	],
+	"who": [],
+	"why": "都市計画マスタープランの改定に向け、専門的な視点から調査・検討する委員会を設ける必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:10:31.001Z",
+		"inputTokens": 1189,
+		"cachedTokens": 0,
+		"outputTokens": 564,
+		"reasoningTokens": 393
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:10:31.001Z",
+		"checkedAt": "2026-09-30T15:48:45.954Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "name",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "都市計画マスタープラン改定委員会",
+				"note": "原文の委員会名は「墨田区都市計画マスタープラン改定検討委員会」であり、「検討」が抜けています。",
+				"dismissed": {
+					"note": "Fixed in the text: full committee name.",
+					"at": "2026-10-01T12:13:20.320Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1123,
+			"cachedTokens": 0,
+			"outputTokens": 139,
+			"reasoningTokens": 58
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "df66562fee38a582",
+		"name": "Establishes a committee to consider revising the City Planning Master Plan",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment of Auxiliary Bodies of Sumida City",
+		"summary": "The committee will be added to the mayor’s auxiliary bodies to conduct research and studies toward revising the City Planning Master Plan. The ordinance will take effect on the day it is promulgated.",
+		"changes": [
+			"Adds a committee to research and consider the revision to the mayor’s auxiliary bodies"
+		],
+		"who": [],
+		"why": "The mayor says a committee is needed to research and consider the revision from specialized perspectives.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:33:33.928Z",
+			"inputTokens": 541,
+			"cachedTokens": 0,
+			"outputTokens": 404,
+			"reasoningTokens": 250
+		}
+	}
 }

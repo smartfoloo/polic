@@ -22,5 +22,68 @@
 			"url": "https://kugikai-nakano.jp/gian/263293856.pdf",
 			"fetchedAt": "2026-09-30T10:25:15.588Z"
 		}
-	]
+	],
+	"name": "個人番号で扱う事務と情報を追加",
+	"category": "デジタル",
+	"summary": "条例は、区が個人番号を利用できる事務と、その事務で使える特定個人情報を定めています。改正で、大気汚染による健康障害者への医療費助成の事務と、そこで使う住民票関係情報または医療保険給付関係情報を追加します。また、別の2つの事務で使える情報に住登外者宛名情報を加えます。新たに追加する規定は令和9年2月1日から、一部の改正は公布の日から施行します。",
+	"changes": [
+		"大気汚染による健康障害者への医療費助成の事務を個人番号の利用対象に加える",
+		"同事務で使う情報に、規則で定める住民票関係情報または医療保険給付関係情報を加える",
+		"2つの事務で使える情報に住登外者宛名情報を加える"
+	],
+	"who": [
+		"大気汚染による健康障害者への医療費助成を利用する人"
+	],
+	"why": "個人番号を利用できる事務と、その事務で利用できる特定個人情報を追加するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:46:52.138Z",
+		"inputTokens": 1483,
+		"cachedTokens": 0,
+		"outputTokens": 1643,
+		"reasoningTokens": 1289
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:46:52.138Z",
+		"checkedAt": "2026-09-30T15:35:39.440Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1585,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 28
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cfcb38e3aa0a2a68",
+		"name": "Adds matters and information for which individual numbers may be used",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on the Use of Individual Numbers and the Provision of Specific Personal Information",
+		"summary": "The ordinance specifies the administrative matters for which the ward may use individual numbers and the specific personal information that may be used for those matters. The amendment adds the administration of medical expense assistance for people with health problems caused by air pollution, and the resident record-related information or medical insurance benefit-related information used for that administration. It also adds name-and-address information for people not registered as residents to the information that may be used for two other matters. The new provisions will take effect on February 1, 2027, and some amendments will take effect on the date of promulgation.",
+		"changes": [
+			"Adds the administration of medical expense assistance for people with health problems caused by air pollution as a matter for which individual numbers may be used",
+			"Adds resident record-related information or medical insurance benefit-related information specified by rules to the information used for that matter",
+			"Adds name-and-address information for people not registered as residents to the information that may be used for two matters"
+		],
+		"who": [
+			"People receiving medical expense assistance for health problems caused by air pollution"
+		],
+		"why": "The ward says this is to add matters for which individual numbers may be used and specific personal information that may be used for those matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:05:22.703Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 1540,
+			"reasoningTokens": 1220
+		}
+	}
 }

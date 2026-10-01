@@ -27,5 +27,87 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-79.pdf",
 			"fetchedAt": "2026-09-30T12:21:15.087Z"
 		}
-	]
+	],
+	"name": "産業交流施設を設置",
+	"category": "まちづくり",
+	"summary": "台東区小島二丁目9番10号に産業交流施設を設置する議案です。多目的ショールームや講堂などを設け、指定管理者による運営と利用料金の仕組みを定めます。",
+	"changes": [
+		"小島二丁目9番10号に産業交流施設を設置する",
+		"多目的ショールームや多目的ルーム、講堂などを設ける",
+		"指定管理者に施設の管理・運営を行わせる",
+		"施設ごとの利用料金の上限額を定める"
+	],
+	"who": [
+		"施設を利用する人・団体",
+		"指定管理者となる団体"
+	],
+	"why": "産業交流施設を設置するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:19:55.240Z",
+		"inputTokens": 4132,
+		"cachedTokens": 0,
+		"outputTokens": 1463,
+		"reasoningTokens": 1233
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:19:55.240Z",
+		"checkedAt": "2026-09-30T15:53:30.401Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "小島二丁目9番10号に産業交流施設を設置する",
+				"note": "利用者に直接関わる利用時間（午前9時～午後10時、第10条）と休館日（12月29日～翌年1月3日、第9条）が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "施設ごとの利用料金の上限額を定める",
+				"note": "利用には申請と指定管理者の承認が必要であること（第11条。オープンスペース・催事スペースは独占利用の場合）と、利用料金の前納義務（第13条第1項）が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4105,
+			"cachedTokens": 0,
+			"outputTokens": 300,
+			"reasoningTokens": 113
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b47f3e9b95402ade",
+		"name": "Establishes an industrial exchange facility",
+		"official": "Taito City Industrial Exchange Facility Ordinance",
+		"summary": "This bill establishes an industrial exchange facility at 9-10, 2-chome, Kojima, Taito City. It provides for a multipurpose showroom, an auditorium, and other facilities, and sets out a system for operation by a designated manager and for user fees.",
+		"changes": [
+			"Establishes an industrial exchange facility at 9-10, 2-chome, Kojima, Taito City",
+			"Provides a multipurpose showroom, multipurpose rooms, an auditorium, and other facilities",
+			"Assigns a designated manager to manage and operate the facility",
+			"Sets maximum user fees for each facility"
+		],
+		"who": [
+			"People and groups using the facility",
+			"Organizations that may become the designated manager"
+		],
+		"why": "The mayor says this is to establish an industrial exchange facility.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:21:49.904Z",
+			"inputTokens": 566,
+			"cachedTokens": 0,
+			"outputTokens": 639,
+			"reasoningTokens": 419
+		}
+	}
 }

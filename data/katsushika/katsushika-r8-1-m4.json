@@ -27,5 +27,54 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8g_gian004.pdf",
 			"fetchedAt": "2026-09-30T10:38:47.454Z"
 		}
-	]
+	],
+	"name": "区立保育所の延長保育料を0円に",
+	"category": "子育て",
+	"summary": "この議案は、区立保育所で延長保育を利用した場合の保育料を0円にする内容です。保育短時間の認定を受けた子どもの延長保育料も0円とし、令和8年10月分から適用する案です。",
+	"changes": [
+		"延長保育料を0円にする",
+		"保育短時間の延長保育料を0円にする"
+	],
+	"who": [
+		"区立保育所で延長保育を利用する子どもの保護者",
+		"区立保育所で保育短時間の認定を受けた子どもの保護者"
+	],
+	"why": "保育料を完全無償化するため、延長保育料を改める必要があるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:36:45.475Z",
+		"inputTokens": 1610,
+		"cachedTokens": 0,
+		"outputTokens": 1203,
+		"reasoningTokens": 970
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:36:45.475Z",
+		"checkedAt": "2026-09-30T15:30:45.651Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "議会で否決されました。",
+				"note": "原文には議会での採決結果や否決された旨の記載がない。",
+				"dismissed": {
+					"note": "True (status 否決, from the voting results page), but the checker only sees the bill text. Sentence removed: the site shows the result as the status stamp.",
+					"at": "2026-10-01T11:30:44.894Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1613,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 0
+		}
+	}
 }

@@ -27,5 +27,89 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian42.pdf",
 			"fetchedAt": "2026-09-30T10:39:35.387Z"
 		}
-	]
+	],
+	"name": "2地区の建築物の制限を改める",
+	"category": "まちづくり",
+	"summary": "現在、条例では地区計画の区域内で建てられる建物などを定めています。この議案で、小菅一丁目地区の東京拘置所地区（宿舎地区）では、計画図で壁面の位置を定めた部分に面する敷地の建物について、外壁や柱を原則として計画図に示す位置までにし、東金町一丁目西地区の建築制限も改めます。",
+	"changes": [
+		"計画図で壁面の位置を定めた部分に面する敷地の建物は、外壁や柱を原則として計画図に示す位置までにする",
+		"歩行者の安全性や快適性のため区長が必要と認めるひさし等は、壁面位置の制限の対象外とする",
+		"東金町一丁目西地区のA・B地区の建築制限を改める"
+	],
+	"who": [
+		"小菅一丁目地区の東京拘置所地区（宿舎地区）で建築する人",
+		"東金町一丁目西地区で建築する人"
+	],
+	"why": "小菅一丁目地区の東京拘置所地区（宿舎地区）の壁面位置の制限を計画図に合わせるなど、必要な改正を行うためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:38:17.179Z",
+		"inputTokens": 3347,
+		"cachedTokens": 0,
+		"outputTokens": 2049,
+		"reasoningTokens": 1705
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:38:17.179Z",
+		"checkedAt": "2026-09-30T15:31:41.216Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "宿舎地区の建物の外壁や柱の位置を、原則として計画図に示す位置までに制限する",
+				"note": "原文の対象は、計画図で壁面位置の制限を定めた部分に面する敷地上の建築物に限られる。要約では宿舎地区の建物全般が対象のように読める。",
+				"dismissed": {
+					"note": "Fixed in the text: limited to lots facing the wall-position line on the 計画図.",
+					"at": "2026-10-01T12:11:03.256Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "東金町一丁目西地区のA・B地区の建築制限を改める",
+				"note": "改正後の表にある用途制限、A地区の最低敷地面積・壁面位置・高さの制限など、住民や事業者に関わる具体的な内容が示されていない。改正前の表がないため、どれが実質的な変更か確認が必要。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3434,
+			"cachedTokens": 0,
+			"outputTokens": 576,
+			"reasoningTokens": 340
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b864860ab19c4716",
+		"name": "Revises building restrictions in two districts",
+		"official": "Ordinance Partially Amending the Katsushika City Ordinance on Restrictions on Buildings in Areas within District Plans and Disaster Prevention Block Improvement District Plans",
+		"summary": "The current ordinance specifies the buildings and other structures that may be built in areas covered by district plans. Under this bill, in the Tokyo Detention House District (residential facilities district) of the Kosuge 1-chome District, exterior walls and columns of buildings on sites facing parts where wall positions are specified in the plan drawing must generally not extend past the positions shown in the drawing. The bill also revises building restrictions in the Higashi-Kanamachi 1-chome West District.",
+		"changes": [
+			"Require exterior walls and columns of buildings on sites facing specified parts to generally not extend past the positions shown in the plan drawing",
+			"Exempt eaves and similar structures that the mayor considers necessary for pedestrian safety and comfort from wall-position restrictions",
+			"Revise building restrictions in the A and B districts of the Higashi-Kanamachi 1-chome West District"
+		],
+		"who": [
+			"People building in the Tokyo Detention House District (residential facilities district) of the Kosuge 1-chome District",
+			"People building in the Higashi-Kanamachi 1-chome West District"
+		],
+		"why": "The ward says it is making necessary amendments, including bringing the wall-position restrictions in the Tokyo Detention House District (residential facilities district) of the Kosuge 1-chome District into line with the plan drawing.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:24:24.585Z",
+			"inputTokens": 742,
+			"cachedTokens": 0,
+			"outputTokens": 1442,
+			"reasoningTokens": 1091
+		}
+	}
 }

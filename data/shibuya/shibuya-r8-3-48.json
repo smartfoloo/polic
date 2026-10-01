@@ -56,5 +56,30 @@
 			"outputTokens": 452,
 			"reasoningTokens": 438
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4aeba2e16e686cf4",
+		"name": "Adds specified residence cards and other documents to seal procedures",
+		"official": "Ordinance Partially Amending the Shibuya City Seal Ordinance",
+		"summary": "The ordinance currently lists the Individual Number Card as a card used for seal-related procedures. This bill also adds specified residence cards and specified special permanent resident certificates, and revises references concerning residence cards and related documents.",
+		"changes": [
+			"Adds specified residence cards and specified special permanent resident certificates to provisions concerning Individual Number Cards",
+			"Removes references to residence cards and special permanent resident certificates from the list of documents"
+		],
+		"who": [
+			"Residents of Shibuya City who use specified residence cards or specified special permanent resident certificates"
+		],
+		"why": "The ward says this is to align with amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:51.200Z",
+			"inputTokens": 591,
+			"cachedTokens": 0,
+			"outputTokens": 528,
+			"reasoningTokens": 333
+		}
 	}
 }

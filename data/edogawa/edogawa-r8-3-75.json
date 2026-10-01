@@ -22,5 +22,67 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2810_gian75.pdf",
 			"fetchedAt": "2026-09-30T10:43:35.801Z"
 		}
-	]
+	],
+	"name": "大気汚染の医療費助成で情報を連携",
+	"category": "デジタル",
+	"summary": "国の法律の別表に載っていない事務について、区が庁内で情報を連携する場合は、条例の別表第二に事務と使う特定個人情報を追加します。この議案では、大気汚染に関係する医療費助成の事務と、医療保険の資格情報などを加えます。条例は公布の日から施行します。",
+	"changes": [
+		"大気汚染の影響による疾病の医療費助成事務を追加する",
+		"規則で定める高齢者医療と国民健康保険の被保険者資格情報、生活保護関係情報を追加する"
+	],
+	"who": [
+		"大気汚染の影響による疾病の医療費助成に関する手続をする人"
+	],
+	"why": "国の法律の別表にない事務について、必要な範囲で庁内連携するためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:31:36.047Z",
+		"inputTokens": 1443,
+		"cachedTokens": 0,
+		"outputTokens": 1686,
+		"reasoningTokens": 1400
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:31:36.047Z",
+		"checkedAt": "2026-09-30T15:28:03.997Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1474,
+			"cachedTokens": 0,
+			"outputTokens": 119,
+			"reasoningTokens": 105
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fc3dfaf757a5eb49",
+		"name": "Links information for medical expense assistance related to air pollution",
+		"official": "Ordinance Partially Amending the Edogawa City Ordinance on the Use of Individual Numbers",
+		"summary": "For administrative work not listed in the tables attached to national laws, when the ward shares information internally, the ordinance adds the work and the specific personal information used to Appendix Table 2. This bill adds administrative work for medical expense assistance related to air pollution, along with health insurance eligibility information and other information. The ordinance takes effect on the date it is promulgated.",
+		"changes": [
+			"Adds administrative work for medical expense assistance for illnesses caused by air pollution",
+			"Adds eligibility information for elderly medical care and National Health Insurance, as specified by rules, and information related to public assistance"
+		],
+		"who": [
+			"People applying for medical expense assistance for illnesses caused by air pollution",
+			"People whose elderly medical care or National Health Insurance eligibility information, or public assistance-related information, is used"
+		],
+		"why": "The mayor says this is to share information internally, to the extent necessary, about administrative work not listed in the tables attached to national laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:58:56.891Z",
+			"inputTokens": 634,
+			"cachedTokens": 0,
+			"outputTokens": 1123,
+			"reasoningTokens": 864
+		}
+	}
 }

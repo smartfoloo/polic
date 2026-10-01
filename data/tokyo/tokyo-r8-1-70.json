@@ -61,5 +61,30 @@
 			"outputTokens": 42,
 			"reasoningTokens": 28
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e657c271d8c55504",
+		"name": "Adds advanced courses at specialized training colleges to loan eligibility",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Women's Welfare Fund Loan Ordinance",
+		"summary": "Currently, the study loan and school enrollment preparation loan under the Women's Welfare Fund are available for professional courses at specialized training colleges. From April 1, 2026, advanced courses will also be eligible.",
+		"changes": [
+			"Adds advanced courses at specialized training colleges to the study loan eligibility",
+			"Adds advanced courses at specialized training colleges to the school enrollment preparation loan eligibility"
+		],
+		"who": [
+			"Women and others who study or enroll in advanced courses at specialized training colleges"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to improve its Women's Welfare Fund loan program.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:21.869Z",
+			"inputTokens": 558,
+			"cachedTokens": 0,
+			"outputTokens": 473,
+			"reasoningTokens": 292
+		}
 	}
 }

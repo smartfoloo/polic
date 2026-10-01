@@ -32,5 +32,73 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/27.pdf",
 			"fetchedAt": "2026-09-30T10:20:16.173Z"
 		}
-	]
+	],
+	"name": "児童指導員の任用要件に資格を追加",
+	"category": "福祉",
+	"summary": "現在の条例では、一時保護施設の児童指導員の任用要件を定めています。この議案で、要件にこども家庭ソーシャルワーカーの資格を加え、条例は公布日に施行します。",
+	"changes": [
+		"児童指導員の任用要件にこども家庭ソーシャルワーカーの資格を加える"
+	],
+	"who": [
+		"一時保護施設で児童指導員として任用される人"
+	],
+	"why": "一時保護施設の設備及び運営の基準の改正に伴い、児童指導員の任用要件を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:52:26.555Z",
+		"inputTokens": 1299,
+		"cachedTokens": 0,
+		"outputTokens": 858,
+		"reasoningTokens": 643
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:52:26.555Z",
+		"checkedAt": "2026-09-30T15:38:35.370Z",
+		"flags": [
+			"copied from the source (25 chars): 「員の任用要件にこども家庭ソーシャルワーカーの資格を」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1253,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (25 chars): 「員の任用要件にこども家庭ソーシャルワーカーの資格を」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e1471c9bbd60f5e",
+		"name": "Adds a qualification to requirements for appointing child guidance staff",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Standards for Facilities and Operations of Temporary Protection Facilities",
+		"summary": "The current ordinance sets requirements for appointing child guidance staff at temporary protection facilities. This bill adds the Child and Family Social Worker qualification to those requirements. The ordinance will take effect on the day it is promulgated.",
+		"changes": [
+			"Adds the Child and Family Social Worker qualification to the requirements for appointing child guidance staff"
+		],
+		"who": [
+			"People appointed as child guidance staff at temporary protection facilities"
+		],
+		"why": "The ward says this is to revise the requirements for appointing child guidance staff in line with revisions to the standards for facilities and operations of temporary protection facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:27:43.818Z",
+			"inputTokens": 573,
+			"cachedTokens": 0,
+			"outputTokens": 416,
+			"reasoningTokens": 226
+		}
+	}
 }

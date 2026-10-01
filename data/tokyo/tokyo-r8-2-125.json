@@ -33,7 +33,7 @@
 	"summary": "特別区への財政調整交付金の計算には、軽自動車税の環境性能割と環境性能割交付金に関する規定があります。この議案では、その規定を削り、軽自動車税の計算上の扱いを改めます。公布の日に施行し、令和8年度から適用します。",
 	"changes": [
 		"軽自動車税の環境性能割と環境性能割交付金に関する規定を削る",
-		"軽自動車税の額を前3年度の課税額に基づいて計算する",
+		"軽自動車税の計算から環境性能割の区分をなくし、前3年度の課税額だけで計算する",
 		"東京都規則に基づいて額を計算する経過措置を設ける"
 	],
 	"who": [],
@@ -57,7 +57,11 @@
 				"kind": "direction",
 				"severity": "check",
 				"quote": "軽自動車税の額を前3年度の課税額に基づいて計算する",
-				"note": "議案本文の第12条第2項の表は、改正前後の文字列の対応が崩れているため、この変更の向きを本文から確認できません。"
+				"note": "議案本文の第12条第2項の表は、改正前後の文字列の対応が崩れているため、この変更の向きを本文から確認できません。",
+				"dismissed": {
+					"note": "Checked against the PDF: before = 環境性能割 + 種別割 rows, after = one 軽自動車税 row on 前三年度の課税額.",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
 			}
 		],
 		"ai": {
@@ -67,6 +71,30 @@
 			"inputTokens": 1974,
 			"outputTokens": 611,
 			"reasoningTokens": 516
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "64dc9a07e81ae3aa",
+		"name": "Changes how grants to special wards are calculated",
+		"official": "Ordinance Partially Amending the Ordinance on Fiscal Adjustment between the Tokyo Metropolitan Government and the Special Wards and among the Special Wards",
+		"summary": "The calculation of fiscal adjustment grants to the special wards includes provisions concerning the environmental performance levy on light motor vehicle tax and grants related to that levy. This bill removes those provisions and changes how light motor vehicle tax is treated in the calculation. It takes effect on the date of promulgation and applies from FY2026.",
+		"changes": [
+			"Removes provisions concerning the environmental performance levy on light motor vehicle tax and grants related to that levy",
+			"Excludes the environmental performance levy category from the light motor vehicle tax calculation and calculates the amount using only taxable amounts for the previous three fiscal years",
+			"Establishes transitional measures to calculate amounts under Tokyo Metropolitan Government regulations"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says this is to align the provisions with revisions to the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:35:54.378Z",
+			"inputTokens": 618,
+			"cachedTokens": 0,
+			"outputTokens": 825,
+			"reasoningTokens": 588
 		}
 	}
 }

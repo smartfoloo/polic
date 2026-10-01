@@ -27,5 +27,74 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-48.pdf",
 			"fetchedAt": "2026-09-30T12:19:33.037Z"
 		}
-	]
+	],
+	"name": "外国人相談などを追加し部屋の規定を削除",
+	"category": "教育",
+	"summary": "現在の条例では、男女平等推進プラザの事業や、学習館のマルチメディアルームに関する規定があります。この議案では、プラザの事業に外国人相談や多文化共生に関する支援を加え、マルチメディアルームの規定を削ります。",
+	"changes": [
+		"男女平等推進プラザの事業に外国人の相談を加える",
+		"多文化共生を進める団体や個人への支援を加える",
+		"既存事業の規定に多文化共生を加える",
+		"マルチメディアルームの規定を削る"
+	],
+	"who": [
+		"外国人相談を利用する人",
+		"多文化共生の推進活動を行う団体・個人",
+		"マルチメディアルームの利用者"
+	],
+	"why": "生涯学習センターの施設に関する規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:17:51.531Z",
+		"inputTokens": 1342,
+		"cachedTokens": 0,
+		"outputTokens": 1528,
+		"reasoningTokens": 1274
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:17:51.531Z",
+		"checkedAt": "2026-09-30T15:52:24.159Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1378,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b245c05378b389d9",
+		"name": "Adds foreign resident consultations and removes room provisions",
+		"official": "Ordinance Partially Amending the Taito City Lifelong Learning Center Ordinance",
+		"summary": "The current ordinance contains provisions on the programs of the Gender Equality Promotion Plaza and on the Learning Center's multimedia room. This bill adds consultations for foreign residents and support related to multicultural coexistence to the Plaza's programs, and removes the provisions on the multimedia room.",
+		"changes": [
+			"Adds consultations for foreign residents to the Gender Equality Promotion Plaza's programs",
+			"Adds support for organizations and individuals working to promote multicultural coexistence",
+			"Adds multicultural coexistence to the provisions on existing programs",
+			"Removes the provisions on the multimedia room"
+		],
+		"who": [
+			"People who use consultation services for foreign residents",
+			"Organizations and individuals working to promote multicultural coexistence",
+			"Users of the multimedia room"
+		],
+		"why": "The ward says this is to organize the provisions concerning the facilities of the Lifelong Learning Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:20:42.039Z",
+			"inputTokens": 637,
+			"cachedTokens": 0,
+			"outputTokens": 482,
+			"reasoningTokens": 252
+		}
+	}
 }

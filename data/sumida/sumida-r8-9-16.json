@@ -22,5 +22,66 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R89gatugian.files/0809gian16.pdf",
 			"fetchedAt": "2026-09-30T12:22:49.465Z"
 		}
-	]
+	],
+	"name": "印鑑登録証明の申請に使えるカードを追加",
+	"category": "くらし・手続き",
+	"summary": "現在、条例では、個人番号カードを使って多機能端末機から印鑑登録証明を申請する方法が定められています。この議案で、特定在留カードと特定特別永住者証明書も利用できるようにします。改正後の規定は令和8年6月14日から適用されます。",
+	"changes": [
+		"特定在留カードまたは特定特別永住者証明書を、多機能端末機での印鑑登録証明の申請等に使えるようにする"
+	],
+	"who": [
+		"特定在留カードを持つ人",
+		"特定特別永住者証明書を持つ人"
+	],
+	"why": "出入国管理及び難民認定法等の改正に伴い、これらのカードを使って多機能端末機から印鑑登録証明を申請できるようにするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:11:10.903Z",
+		"inputTokens": 1263,
+		"cachedTokens": 0,
+		"outputTokens": 1219,
+		"reasoningTokens": 933
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:11:10.903Z",
+		"checkedAt": "2026-09-30T15:49:05.537Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1290,
+			"cachedTokens": 0,
+			"outputTokens": 51,
+			"reasoningTokens": 36
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f99f4e2a283aa80f",
+		"name": "Adds cards for applying for seal registration certificates",
+		"official": "Ordinance Partially Amending the Sumida City Seal Registration Ordinance",
+		"summary": "The current ordinance sets out how to apply for a seal registration certificate at a multifunction terminal using an Individual Number Card. This bill will also allow specified residence cards and specified special permanent resident certificates to be used. The amended provisions will apply from June 14, 2026.",
+		"changes": [
+			"Allows specified residence cards or specified special permanent resident certificates to be used for applications for seal registration certificates and related procedures at a multifunction terminal"
+		],
+		"who": [
+			"People who hold a specified residence card",
+			"People who hold a specified special permanent resident certificate"
+		],
+		"why": "The ward says this will allow people to apply for a seal registration certificate at a multifunction terminal using these cards, following amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:17:31.622Z",
+			"inputTokens": 626,
+			"cachedTokens": 0,
+			"outputTokens": 438,
+			"reasoningTokens": 224
+		}
+	}
 }

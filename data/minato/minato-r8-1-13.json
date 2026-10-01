@@ -32,5 +32,78 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB731_13.pdf",
 			"fetchedAt": "2026-09-30T12:27:52.526Z"
 		}
-	]
+	],
+	"name": "学童クラブ2施設の実施場所を変更・追加",
+	"category": "子育て",
+	"summary": "現在、放課GO→学童クラブあかばねは港区三田二丁目6番2号で、放課GO→学童クラブしばはまは港区芝浦一丁目16番31号で実施されています。あかばねの場所を三田一丁目4番52号に変更し、しばはまの場所に芝浦三丁目1番16号を加えます。施行日は、それぞれ区規則で定めます。",
+	"changes": [
+		"あかばねの実施場所を港区三田二丁目6番2号から三田一丁目4番52号に変更する",
+		"しばはまの実施場所に港区芝浦三丁目1番16号を加える"
+	],
+	"who": [
+		"放課GO→学童クラブあかばね・しばはまを利用する子どもと保護者"
+	],
+	"why": "2つの学童クラブの実施場所を変更・追加するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:40:23.750Z",
+		"inputTokens": 1243,
+		"cachedTokens": 0,
+		"outputTokens": 905,
+		"reasoningTokens": 643
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:40:23.750Z",
+		"checkedAt": "2026-09-30T15:32:45.309Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "しばはまの実施場所に港区芝浦三丁目1番16号を加える",
+				"note": "原文はしばはまの場所を追加すると説明していますが、改正前後の表が対になっておらず、列挙された2住所のうち芝浦三丁目1番16号が追加分か確認できません。",
+				"dismissed": {
+					"note": "The new row lists both addresses and the 概要 says one is added; 芝浦一丁目16番31号 is the existing one.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1277,
+			"cachedTokens": 0,
+			"outputTokens": 259,
+			"reasoningTokens": 149
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1e47d3313fbde6a9",
+		"name": "Changes and adds locations for two after-school clubs",
+		"official": "Ordinance Partially Amending the Minato City After-School GO→ School-Age Childcare Club Ordinance",
+		"summary": "After-School GO→ School-Age Childcare Club Akabane is currently run at 2-6-2 Mita, Minato City, and After-School GO→ School-Age Childcare Club Shibahama is currently run at 1-16-31 Shibaura, Minato City. The location of Akabane will be changed to 1-4-52 Mita, and 3-1-16 Shibaura will be added as a location for Shibahama. The dates when each change takes effect will be set by ward regulations.",
+		"changes": [
+			"Change Akabane’s location from 2-6-2 Mita, Minato City, to 1-4-52 Mita",
+			"Add 3-1-16 Shibaura, Minato City, as a location for Shibahama"
+		],
+		"who": [
+			"Children and parents or guardians using After-School GO→ School-Age Childcare Clubs Akabane and Shibahama"
+		],
+		"why": "The ward says this is to change and add locations for the two school-age childcare clubs.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:24:35.571Z",
+			"inputTokens": 631,
+			"cachedTokens": 0,
+			"outputTokens": 659,
+			"reasoningTokens": 354
+		}
+	}
 }

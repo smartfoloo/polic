@@ -27,5 +27,89 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/68.pdf",
 			"fetchedAt": "2026-09-30T10:22:10.486Z"
 		}
-	]
+	],
+	"name": "文化生活情報センターの一部施設を廃止",
+	"category": "まちづくり",
+	"summary": "条例で定める施設のうち、メディア工房と情報プラザを廃止します。また、公益財団法人せたがや文化財団が条例の目的に沿った事業を行う場合に、区長が指定するセンターの施設等を無料で使わせることができる規定を設けます（区が使う場合を除く）。",
+	"changes": [
+		"メディア工房と情報プラザを廃止する",
+		"せたがや文化財団が条例の目的に沿う事業を行う場合、区長が指定する施設等の区域を使わせることができる特例を設ける",
+		"特例による施設等の使用料を無料にする"
+	],
+	"who": [
+		"メディア工房や情報プラザを利用する人",
+		"公益財団法人せたがや文化財団"
+	],
+	"why": "メディア工房と情報プラザを廃止し、規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:55:34.236Z",
+		"inputTokens": 1491,
+		"cachedTokens": 0,
+		"outputTokens": 1176,
+		"reasoningTokens": 918
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:55:34.236Z",
+		"checkedAt": "2026-09-30T15:40:34.442Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "条例の目的に沿った事業を行う場合に、区長が指定するセンターの施設等を無料で使える規定を設けます。",
+				"note": "新設する第18条の特例は、公益財団法人せたがや文化財団が事業を行う場合に限られ、区が使用する場合は除かれます。要約では対象の限定がなく、一般に利用できるように読めます。",
+				"dismissed": {
+					"note": "Fixed in the text: the free use is only for せたがや文化財団 (第18条).",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区長が指定する施設等の区域を条例の目的に沿う事業で使える特例を設ける",
+				"note": "特例の対象が公益財団法人せたがや文化財団であることと、区が使用する場合を除くという主な利用条件が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1492,
+			"cachedTokens": 0,
+			"outputTokens": 322,
+			"reasoningTokens": 103
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7869c749dc8cf711",
+		"name": "Abolishes some facilities at the Setagaya City Cultural Life Information Center",
+		"official": "Ordinance Partially Amending the Setagaya City Setagaya Cultural Life Information Center Ordinance",
+		"summary": "The ordinance will abolish the Media Workshop and Information Plaza, two of the facilities it specifies. It will also allow the mayor to let the Setagaya Cultural Foundation use designated facilities and other areas of the Center free of charge when it carries out programs in line with the ordinance’s purpose. This does not apply when the City uses them.",
+		"changes": [
+			"Abolishes the Media Workshop and Information Plaza",
+			"Allows the mayor to let the Setagaya Cultural Foundation use areas of facilities and other designated spaces for programs in line with the ordinance’s purpose",
+			"Makes use of facilities and other spaces under this exception free of charge"
+		],
+		"who": [
+			"People who use the Media Workshop or Information Plaza",
+			"The Public Interest Incorporated Foundation Setagaya Cultural Foundation"
+		],
+		"why": "The ward says the changes are needed to abolish the Media Workshop and Information Plaza and revise the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:28:49.937Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 741,
+			"reasoningTokens": 484
+		}
+	}
 }

@@ -72,5 +72,33 @@
 			"outputTokens": 875,
 			"reasoningTokens": 778
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bc7584d322d85cfb",
+		"name": "Sets standards for providers of temporary child protection",
+		"official": "Suginami City Ordinance on Standards for Registration, etc., of Providers Entrusted with Temporary Protection",
+		"summary": "Suginami City was designated as a city with a child guidance center in February 2026, creating a need for the city to set standards for providers entrusted with temporary child protection. This bill sets standards for respecting children's rights, facility equipment, staffing, and other matters. It takes effect on November 1, 2026. Provisions to prevent sexual violence against children take effect on December 25, 2026.",
+		"changes": [
+			"Requires providers to respect children's rights and prohibit abuse",
+			"Sets standards for facility equipment and night-time staffing",
+			"Sets out support for children's daily lives and education, and how to handle complaints",
+			"Requires checks of staff members' criminal records, among other measures, to prevent sexual violence against children"
+		],
+		"who": [
+			"Children living in facilities entrusted with temporary child protection",
+			"Providers registered to provide temporary child protection"
+		],
+		"why": "The ward says this is necessary because Suginami City was designated as a city with a child guidance center and needs to set standards for registering providers entrusted with temporary child protection.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:03.776Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 936,
+			"reasoningTokens": 653
+		}
 	}
 }

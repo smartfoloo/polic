@@ -58,5 +58,27 @@
 			"outputTokens": 40,
 			"reasoningTokens": 26
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d4f90a642e972e8d",
+		"name": "Raises the total authorized number of Tokyo Metropolitan Government employees to 33,692",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Employee Staffing Ordinance",
+		"summary": "The total authorized number of Tokyo Metropolitan Government employees is 33,526. This bill changes it to 33,692. It takes effect on April 1, 2026.",
+		"changes": [
+			"Increases the total authorized number of Tokyo Metropolitan Government employees from 33,526 to 33,692"
+		],
+		"who": [],
+		"why": "The governor says this is because it is necessary to revise the authorized staffing level.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:22:53.193Z",
+			"inputTokens": 496,
+			"cachedTokens": 0,
+			"outputTokens": 421,
+			"reasoningTokens": 268
+		}
 	}
 }

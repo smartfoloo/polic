@@ -22,5 +22,64 @@
 			"url": "https://kugikai-nakano.jp/gian/263612547.pdf",
 			"fetchedAt": "2026-09-30T10:26:15.978Z"
 		}
-	]
+	],
+	"name": "高額療養費資金・出産資金の貸付を廃止",
+	"category": "健康・医療",
+	"summary": "区は、国民健康保険の高額療養費資金と出産資金を貸し付けています。この事業を令和8年4月1日に廃止します。施行前に申し込んだ貸付けは、資格や返済などを従来どおり扱います。",
+	"changes": [
+		"高額療養費資金と出産資金の貸付事業を廃止する"
+	],
+	"who": [
+		"高額療養費資金や出産資金の貸付を利用する人"
+	],
+	"why": "貸付事業を廃止する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:48:28.341Z",
+		"inputTokens": 1276,
+		"cachedTokens": 0,
+		"outputTokens": 1347,
+		"reasoningTokens": 1159
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:48:28.341Z",
+		"checkedAt": "2026-09-30T15:36:27.664Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1236,
+			"cachedTokens": 0,
+			"outputTokens": 247,
+			"reasoningTokens": 232
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bfe5eb52d2c261b3",
+		"name": "Ends loans for high-cost medical expenses and childbirth costs",
+		"official": "Ordinance to Repeal the Nakano City National Health Insurance Ordinance on Loans for High-Cost Medical Expense Funds and Childbirth Funds",
+		"summary": "The ward provides loans for high-cost medical expense funds and childbirth funds under National Health Insurance. This program will end on April 1, 2026. Loans applied for before the ordinance takes effect will continue to be handled under the existing rules for eligibility, repayment, and other matters.",
+		"changes": [
+			"Ends the loan program for high-cost medical expense funds and childbirth funds"
+		],
+		"who": [
+			"People who use loans for high-cost medical expense funds or childbirth funds"
+		],
+		"why": "The ward says the loan program needs to be discontinued.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:07.033Z",
+			"inputTokens": 569,
+			"cachedTokens": 0,
+			"outputTokens": 561,
+			"reasoningTokens": 374
+		}
+	}
 }

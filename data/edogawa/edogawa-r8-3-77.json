@@ -22,5 +22,65 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2812_gian77.pdf",
 			"fetchedAt": "2026-09-30T10:43:48.921Z"
 		}
-	]
+	],
+	"name": "一時保護委託者の登録基準を条例化",
+	"category": "福祉",
+	"summary": "児童福祉法に基づき、江戸川区の一時保護委託者の登録などに関する基準を条例で定めます。基準は国の内閣府令に沿ったものとし、施行に必要な事項は区長が別に定めます。",
+	"changes": [
+		"登録などの基準を国の内閣府令に定める内容に合わせる",
+		"条例の施行に必要な事項を区長が別に定める"
+	],
+	"who": [
+		"一時保護委託者"
+	],
+	"why": "児童福祉法に基づき、登録などの基準を条例で定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:31:57.320Z",
+		"inputTokens": 1395,
+		"cachedTokens": 0,
+		"outputTokens": 868,
+		"reasoningTokens": 666
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:31:57.320Z",
+		"checkedAt": "2026-09-30T15:28:10.106Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1369,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4ae07bf443757596",
+		"name": "Sets registration standards for temporary protection providers by ordinance",
+		"official": "Edogawa City Ordinance Establishing Standards for the Registration, etc. of Temporary Protection Providers",
+		"summary": "Under the Child Welfare Act, Edogawa City will set standards for registering temporary protection providers and related matters by ordinance. The standards will follow the national Cabinet Office Order, and the mayor will separately set the matters needed to implement the ordinance.",
+		"changes": [
+			"Aligns registration standards and related criteria with the national Cabinet Office Order, and has the mayor separately set matters needed to implement the ordinance"
+		],
+		"who": [
+			"Temporary protection providers"
+		],
+		"why": "The ward says it is necessary under the Child Welfare Act to set standards for registration and related matters by ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:11.837Z",
+			"inputTokens": 581,
+			"cachedTokens": 0,
+			"outputTokens": 1055,
+			"reasoningTokens": 874
+		}
+	}
 }

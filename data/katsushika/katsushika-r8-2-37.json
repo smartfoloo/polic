@@ -27,5 +27,68 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian37.pdf",
 			"fetchedAt": "2026-09-30T10:39:05.382Z"
 		}
-	]
+	],
+	"name": "非常勤職員の報酬上限を3万円に",
+	"category": "行政のしくみ",
+	"summary": "条例に定める報酬の上限は2万9,000円です。この議案で上限を3万円に引き上げ、災害医療サブコーディネーターを条文に加えます。",
+	"changes": [
+		"報酬の上限を2万9,000円から3万円に引き上げる",
+		"災害医療サブコーディネーターを条文に加える"
+	],
+	"who": [
+		"葛飾区の非常勤職員",
+		"災害医療サブコーディネーター"
+	],
+	"why": "報酬の上限を引き上げるほか、必要な改正を行うためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:37:30.574Z",
+		"inputTokens": 1267,
+		"cachedTokens": 0,
+		"outputTokens": 858,
+		"reasoningTokens": 630
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:37:30.574Z",
+		"checkedAt": "2026-09-30T15:31:00.577Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1240,
+			"cachedTokens": 0,
+			"outputTokens": 57,
+			"reasoningTokens": 43
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a57044c9fbe8e776",
+		"name": "Raises the pay cap for part-time staff to ¥30,000",
+		"official": "Ordinance Partially Amending the Katsushika City Ordinance on Remuneration and Expense Reimbursement for Part-Time Staff",
+		"summary": "The ordinance sets the pay cap at ¥29,000. This bill raises the cap to ¥30,000 and adds disaster medical sub-coordinators to the ordinance.",
+		"changes": [
+			"Raises the pay cap from ¥29,000 to ¥30,000",
+			"Adds disaster medical sub-coordinators to the ordinance"
+		],
+		"who": [
+			"Part-time staff of Katsushika City",
+			"Disaster medical sub-coordinators"
+		],
+		"why": "The ward says this is to raise the pay cap and make other necessary amendments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:01:20.307Z",
+			"inputTokens": 587,
+			"cachedTokens": 0,
+			"outputTokens": 472,
+			"reasoningTokens": 284
+		}
+	}
 }

@@ -22,5 +22,80 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_65.pdf",
 			"fetchedAt": "2026-09-30T10:18:09.235Z"
 		}
-	]
+	],
+	"name": "マンション除却などの証明書手数料を整備",
+	"category": "税・手数料",
+	"summary": "現在の条例では、マンションの建替えや売却などに関する証明書の手数料を定めています。この議案では、法改正に合わせて証明書の種類や対象を改め、マンション除却事業などに関する新たな証明書の手数料を1通400円とします。また、建替えや更新に伴う特例許可申請の対象も見直します。",
+	"changes": [
+		"マンション除却事業や敷地分割事業などに関する新たな証明書の手数料を1通400円と定める",
+		"マンション再生や売却に関する証明書の対象や名称を改める",
+		"特例許可申請の対象に、更新されるマンションの容積率または各部分の高さを加える",
+		"関係法令の引用条文や制度名を改める"
+	],
+	"who": [
+		"マンション除却や敷地分割などの証明書を申請する人",
+		"マンションの建替えや更新について特例許可を申請する人"
+	],
+	"why": "法改正に伴い証明書の手数料を定め、受益者負担を適正化する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:04:48.667Z",
+		"inputTokens": 5732,
+		"cachedTokens": 0,
+		"outputTokens": 2436,
+		"reasoningTokens": 2070
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:04:48.667Z",
+		"checkedAt": "2026-09-30T15:45:27.618Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "特例許可申請の対象に、更新されるマンションの容積率または各部分の高さを加える",
+				"note": "原文の別表⑸の表56の10では、更新されるマンションだけでなく、要除却認定マンションの建替えにより新たに建築されるマンションについても「各部分の高さ」の特例許可申請を対象に加えている。この変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5846,
+			"cachedTokens": 0,
+			"outputTokens": 242,
+			"reasoningTokens": 107
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d2b87e5c8ae40f14",
+		"name": "Sets fees for certificates related to condominium demolition and other matters",
+		"official": "Ordinance Partially Amending the Shinagawa City Fee Ordinance",
+		"summary": "The current ordinance sets fees for certificates related to condominium rebuilding, sale and other matters. In line with amendments to the law, this bill revises the types of certificates and who they cover, and sets the fee for each new certificate related to condominium demolition projects and other matters at ¥400. It also reviews which applications for special permits are covered when a condominium is rebuilt or renewed.",
+		"changes": [
+			"Sets the fee for each new certificate related to condominium demolition projects, site subdivision projects and other matters at ¥400",
+			"Revises the coverage and names of certificates related to condominium renewal and sale",
+			"Adds the floor-area ratio or the height of each part of a condominium being renewed to the matters covered by special permit applications",
+			"Updates references to relevant laws and the names of systems"
+		],
+		"who": [
+			"People applying for certificates related to condominium demolition, site subdivision and other matters",
+			"People applying for special permits for condominium rebuilding or renewal"
+		],
+		"why": "The ward says it is necessary to set certificate fees in line with amendments to the law and to adjust the burden on beneficiaries appropriately.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:30.166Z",
+			"inputTokens": 707,
+			"cachedTokens": 0,
+			"outputTokens": 571,
+			"reasoningTokens": 283
+		}
+	}
 }

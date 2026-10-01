@@ -59,5 +59,28 @@
 			"outputTokens": 84,
 			"reasoningTokens": 70
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8bcb520ade187d65",
+		"name": "Increases the police officer quota by 98",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment of the Metropolitan Police Department",
+		"summary": "The number of police officers is currently set by ordinance. This bill increases the quota by 98 from April 1, 2026, through March 31, 2027. All 98 additional positions will be for police constables.",
+		"changes": [
+			"Increases the police officer quota by 98 above the number set by ordinance",
+			"Designates all 98 additional positions for police constables"
+		],
+		"who": [],
+		"why": "The governor says this is because it is necessary to make an exception to the police officer quota.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:50.759Z",
+			"inputTokens": 535,
+			"cachedTokens": 0,
+			"outputTokens": 364,
+			"reasoningTokens": 190
+		}
 	}
 }

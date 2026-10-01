@@ -27,5 +27,72 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian20.pdf",
 			"fetchedAt": "2026-09-30T10:37:35.690Z"
 		}
-	]
+	],
+	"name": "区税の公示送達に画面表示を追加",
+	"category": "税・手数料",
+	"summary": "区税の公示送達は、条例で掲示して行う方法が定められています。この議案では、区の事務所に設置した電子計算機の画面で公示事項を閲覧できる状態にする方法も使えるようにします。",
+	"changes": [
+		"公示送達を、掲示または区の事務所の電子計算機画面で閲覧できる状態にする方法で行えるようにする"
+	],
+	"who": [
+		"区税に関する公示送達の対象となる人"
+	],
+	"why": "地方税法の改正に伴い、公示送達の方法を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:34:24.227Z",
+		"inputTokens": 1457,
+		"cachedTokens": 0,
+		"outputTokens": 1069,
+		"reasoningTokens": 853
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:34:24.227Z",
+		"checkedAt": "2026-09-30T15:29:34.043Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "公示送達を、掲示または区の事務所の電子計算機画面で閲覧できる状態にする方法で行えるようにする",
+				"note": "第６条では、掲示または区の事務所での画面表示に加え、地方税法施行規則第１条の８第１項に規定する方法で公示事項を不特定多数の者が閲覧できる状態に置く措置も義務付けている。この変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1417,
+			"cachedTokens": 0,
+			"outputTokens": 236,
+			"reasoningTokens": 62
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "72be7e326fbb5a7a",
+		"name": "Adds on-screen display as a method for public notice of city taxes",
+		"official": "Ordinance Partially Amending the Katsushika City Special Ward Tax Ordinance",
+		"summary": "For city taxes, the ordinance sets out posting as the method for service by public notice. This bill would also allow notices to be served by making the relevant information viewable on a computer screen installed at a city office.",
+		"changes": [
+			"Allows service by public notice through either posting or making the information viewable on a computer screen at a city office"
+		],
+		"who": [
+			"People who are subject to service by public notice concerning city taxes"
+		],
+		"why": "Katsushika City says this is to change the method of service by public notice following an amendment to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:00:11.977Z",
+			"inputTokens": 559,
+			"cachedTokens": 0,
+			"outputTokens": 441,
+			"reasoningTokens": 253
+		}
+	}
 }

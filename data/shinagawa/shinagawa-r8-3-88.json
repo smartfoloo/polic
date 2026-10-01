@@ -22,5 +22,68 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_03t_88.pdf",
 			"fetchedAt": "2026-09-30T10:18:51.248Z"
 		}
-	]
+	],
+	"name": "通園支援事業に性暴力防止の基準を追加",
+	"category": "子育て",
+	"summary": "国の乳児等通園支援事業の基準が改正されました。これを受け、条例に、対象となる従事者の犯罪事実確認などを事業者に求める基準を加えます。施行日は令和8年12月25日です。",
+	"changes": [
+		"児童対象性暴力等の防止と、発生時に利用乳幼児を保護するための措置を定める",
+		"利用乳幼児と接する対象従事者について、犯罪事実確認など必要な措置を求める"
+	],
+	"who": [
+		"乳児等通園支援事業者",
+		"乳児等通園支援事業を利用する乳幼児"
+	],
+	"why": "国の基準改正に伴い、児童対象性暴力等の防止に関する基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:06:30.907Z",
+		"inputTokens": 1545,
+		"cachedTokens": 0,
+		"outputTokens": 1393,
+		"reasoningTokens": 1118
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:06:30.907Z",
+		"checkedAt": "2026-09-30T15:46:16.720Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1569,
+			"cachedTokens": 0,
+			"outputTokens": 67,
+			"reasoningTokens": 52
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "03e549467983ecc9",
+		"name": "Adds child sexual violence prevention standards to attendance support services",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Standards for Facilities and Operations of Infant and Other Children’s Attendance Support Services",
+		"summary": "The national standards for infant and other children’s attendance support services have been amended. In response, the ordinance adds standards requiring providers to take measures such as checking the criminal records of covered workers. It takes effect on December 25, 2026.",
+		"changes": [
+			"Set out measures to prevent sexual violence against children and similar acts, and to protect children using the service if such acts occur",
+			"Require necessary measures, including criminal record checks, for covered workers who come into contact with children using the service"
+		],
+		"who": [
+			"Providers of infant and other children’s attendance support services",
+			"Infants and young children who use infant and other children’s attendance support services"
+		],
+		"why": "The ward says this is necessary to set standards for preventing sexual violence against children and similar acts, following the revision of the national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:49.330Z",
+			"inputTokens": 637,
+			"cachedTokens": 0,
+			"outputTokens": 689,
+			"reasoningTokens": 444
+		}
+	}
 }

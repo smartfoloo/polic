@@ -22,5 +22,87 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2751_gian28%20.pdf",
 			"fetchedAt": "2026-09-30T10:42:35.614Z"
 		}
-	]
+	],
+	"name": "給与所得控除見直しに伴う保険料判定の特例",
+	"category": "福祉",
+	"summary": "介護保険料の段階は、所得などをもとに判定されます。令和7年度の税制改正で給与所得控除の最低保障額が引き上げられ、保険料段階が変わる可能性がある第1号被保険者について、見直し前と同様の判定になるよう、所得額や住民税の扱いに特例を設けます。",
+	"changes": [
+		"保険料率の算定に使う所得額の計算方法に特例を設ける",
+		"一定の条件を満たす場合、市町村民税が課されているものとして保険料率を算定する"
+	],
+	"who": [
+		"令和7年の給与収入が55万1,000円以上190万円未満の第1号被保険者",
+		"世帯主か世帯員に、令和7年の給与収入が55万1,000円以上190万円未満で住民税が課されていない人がいる第1号被保険者"
+	],
+	"why": "介護保険法施行令の改正に伴い、給与所得控除の見直しで保険料段階が変わり得る第1号被保険者を、見直し前と同様に判定するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:30:00.854Z",
+		"inputTokens": 4867,
+		"cachedTokens": 0,
+		"outputTokens": 1684,
+		"reasoningTokens": 1353
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:30:00.854Z",
+		"checkedAt": "2026-09-30T15:27:11.344Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "給与収入があり、所得や住民税の状況などが所定の条件に当てはまる介護保険の第1号被保険者",
+				"note": "付則第十一条第一項では、世帯主や世帯員が条件に該当する場合も判定の対象となるため、影響を受ける第1号被保険者本人に給与収入がある場合だけには限られない。",
+				"dismissed": {
+					"note": "Fixed in the text: who now includes people whose 世帯主 or 世帯員 meets the conditions.",
+					"at": "2026-10-01T12:09:21.506Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保険料率の算定に使う所得額の計算方法に特例を設ける",
+				"note": "付則第十条・第十一条の特例は令和8年度（2026年度）の保険料率の算定に限られるが、changesにはこの適用年度の限定が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4945,
+			"cachedTokens": 0,
+			"outputTokens": 483,
+			"reasoningTokens": 216
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4a935d96e9036816",
+		"name": "Special rules for determining insurance premiums after the employment income deduction review",
+		"official": "Ordinance Partially Amending the Edogawa City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium tiers are determined based on income and other factors. The FY2025 tax reform raised the minimum guaranteed amount for the employment income deduction, which could change the premium tier for some Category 1 insured persons. Special rules will apply to how their income and resident tax are treated so that they are assessed in the same way as before the review.",
+		"changes": [
+			"Set special rules for calculating the income used to determine the premium rate",
+			"When certain conditions are met, calculate the premium rate on the assumption that municipal resident tax is levied"
+		],
+		"who": [
+			"Category 1 insured persons with employment income of at least ¥551,000 and less than ¥1.9 million in 2025",
+			"Category 1 insured persons whose household head or another household member had employment income of at least ¥551,000 and less than ¥1.9 million in 2025 and was not subject to resident tax"
+		],
+		"why": "The ward says this is to ensure that Category 1 insured persons whose premium tier could change because of the review of the employment income deduction are assessed in the same way as before the review, following an amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:22:47.050Z",
+			"inputTokens": 718,
+			"cachedTokens": 0,
+			"outputTokens": 897,
+			"reasoningTokens": 579
+		}
+	}
 }

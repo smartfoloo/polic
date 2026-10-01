@@ -22,5 +22,99 @@
 			"url": "https://kugikai-nakano.jp/gian/26623964.pdf",
 			"fetchedAt": "2026-09-30T10:27:03.135Z"
 		}
-	]
+	],
+	"name": "大学などに通う人への奨学金を定める",
+	"category": "教育",
+	"summary": "経済的な理由で大学などで学ぶのが難しい人に、中野区が奨学金を支給する制度を定めます。対象となる人や奨学金の種類・額、支給期間、審査の仕組みを決めます。",
+	"changes": [
+		"給付奨学生などを対象とし、住所や年齢などの要件を定める",
+		"授業料や入学金に関する奨学金を設け、額の算定方法を定める",
+		"支給期間を年度ごとに決め、正規の修業年限分を上限とする",
+		"審査委員会を設置し、奨学金の支給を審査する"
+	],
+	"who": [
+		"大学などで学ぶ、支給要件を満たす学生"
+	],
+	"why": "支給対象者や奨学金の種類・額・期間、審査委員会などを定める必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:50:24.598Z",
+		"inputTokens": 4620,
+		"cachedTokens": 0,
+		"outputTokens": 1227,
+		"reasoningTokens": 930
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:50:24.598Z",
+		"checkedAt": "2026-09-30T15:37:20.100Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "給付奨学生などを対象とし、住所や年齢などの要件を定める",
+				"note": "第4条の主な対象要件である、生計維持者が申請日まで1年以上区内に住所を有すること（例外あり）、入学等の年度末に30歳未満であることが具体的に示されていません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "授業料や入学金に関する奨学金を設け、額の算定方法を定める",
+				"note": "第5条に定める授業料等の加算支給分（上限20万円）や、一定の所得区分では通常分と入学金分をそれぞれ3分の2とする点が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "支給期間を年度ごとに決め、正規の修業年限分を上限とする",
+				"note": "第9・10条の受給者の報告・資料提出義務、支給決定の取消し・支給停止、取消し部分の支給済み奨学金の返還が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "授業料や入学金に関する奨学金を設け、額の算定方法を定める",
+				"note": "概要及び附則に示された制度の施行日（2027年4月1日）が抜けており、支給制度がいつから始まるか分かりません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4666,
+			"cachedTokens": 0,
+			"outputTokens": 586,
+			"reasoningTokens": 107
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7e69cfe1d7ca0024",
+		"name": "Sets scholarships for people attending universities and other institutions",
+		"official": "Nakano City Ordinance on the Provision of Scholarships",
+		"summary": "Nakano City will establish a scholarship program for people who have difficulty studying at universities and other institutions for financial reasons. The ordinance sets out who is eligible, the types and amounts of scholarships, the period of support, and the review process.",
+		"changes": [
+			"Sets requirements such as residence and age for scholarship recipients and others",
+			"Establishes scholarships for tuition and admission fees and sets how their amounts are calculated",
+			"Determines the support period each fiscal year, capped at the standard period of study",
+			"Establishes a review committee to consider scholarship awards"
+		],
+		"who": [
+			"Students at universities and other institutions who meet the requirements for receiving scholarships"
+		],
+		"why": "The mayor says this is necessary to set out who is eligible, the types, amounts and periods of scholarships, and the review committee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:32.723Z",
+			"inputTokens": 641,
+			"cachedTokens": 0,
+			"outputTokens": 551,
+			"reasoningTokens": 327
+		}
+	}
 }

@@ -22,5 +22,66 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2754_gian31%20.pdf",
 			"fetchedAt": "2026-09-30T10:42:54.870Z"
 		}
-	]
+	],
+	"name": "一時的な保育料を1日500円に",
+	"category": "子育て",
+	"summary": "保護者が一時的に保育できない場合などに行う保育の保育料は、月額6,000円を限度に、規則で定める額となっています。この議案では、保育料を1日当たり500円に改め、関連する規定も整えます。2026年4月1日から施行します。",
+	"changes": [
+		"保育料を月額上限6,000円の規則で定める額から1日当たり500円に改める",
+		"関連する規定を整える"
+	],
+	"who": [
+		"一時的に保護者による保育が難しい場合などに、江戸川区立幼稚園の保育を利用する人"
+	],
+	"why": "一時的に保護者による保育が難しい状況などを考慮した保育について、保育料の限度額を撤廃し、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:30:34.598Z",
+		"inputTokens": 1237,
+		"cachedTokens": 0,
+		"outputTokens": 800,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:30:34.598Z",
+		"checkedAt": "2026-09-30T15:27:30.848Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1270,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "30e4f37a02d64b77",
+		"name": "Sets temporary childcare fee at ¥500 per day",
+		"official": "Ordinance Partially Amending the Edogawa City Municipal Kindergarten Use Ordinance",
+		"summary": "The fee for childcare provided when a parent or guardian is temporarily unable to care for a child, for example, is an amount set by rules, up to a monthly maximum of ¥6,000. This bill changes the fee to ¥500 per day and also adjusts related provisions. It will take effect on April 1, 2026.",
+		"changes": [
+			"Changes the fee from an amount set by rules, subject to a monthly maximum of ¥6,000, to ¥500 per day",
+			"Adjusts related provisions"
+		],
+		"who": [
+			"People who use childcare at Edogawa City municipal kindergartens when a parent or guardian is temporarily unable to provide care, for example"
+		],
+		"why": "The ward says this is to remove the fee limit and adjust the provisions for childcare that takes into account situations in which a parent or guardian is temporarily unable to provide care, among other circumstances.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:58:26.831Z",
+			"inputTokens": 631,
+			"cachedTokens": 0,
+			"outputTokens": 725,
+			"reasoningTokens": 477
+		}
+	}
 }

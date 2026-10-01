@@ -60,5 +60,29 @@
 			"outputTokens": 118,
 			"reasoningTokens": 104
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8c25331e1eb25130",
+		"name": "Sets fixed asset valuers' compensation at ¥29,200",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on Compensation and Expense Reimbursement for Fixed Asset Valuers",
+		"summary": "The compensation for Tokyo Metropolitan Government fixed asset valuers is currently ¥28,400. This bill changes it to ¥29,200, effective April 1, 2026.",
+		"changes": [
+			"Raises compensation from ¥28,400 to ¥29,200"
+		],
+		"who": [
+			"Tokyo Metropolitan Government fixed asset valuers"
+		],
+		"why": "The Tokyo Metropolitan Government says the compensation needs to be revised in light of the recommendation from the Tokyo Metropolitan Government Council on Remuneration for Special Positions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:13.732Z",
+			"inputTokens": 548,
+			"cachedTokens": 0,
+			"outputTokens": 450,
+			"reasoningTokens": 275
+		}
 	}
 }

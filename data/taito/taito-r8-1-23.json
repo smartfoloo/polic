@@ -27,5 +27,70 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-23.pdf",
 			"fetchedAt": "2026-09-30T12:17:14.952Z"
 		}
-	]
+	],
+	"name": "学校医等の公務災害補償基礎額を改定",
+	"category": "教育",
+	"summary": "学校医、学校歯科医、学校薬剤師の公務災害補償には、職種などに応じた補償基礎額が定められています。この議案で金額を引き上げ、改定額は原則として令和7年4月1日以後に支給事由が生じた補償に適用します。それ以前に支給事由が生じた傷病・障害・遺族補償年金も、同日以後の期間分は対象です。",
+	"changes": [
+		"学校医・学校歯科医の補償基礎額を8,529円から9,060円、9,909円から10,332円、12,351円と13,575円から14,175円、15,837円から16,467円、16,866円から17,496円に改める",
+		"学校薬剤師の補償基礎額を7,164円から7,629円、7,932円から8,340円、9,438円から9,873円、10,701円から11,073円、11,610円から11,907円、11,970円から12,246円に改める",
+		"令和7年4月1日から令和8年3月31日まで、学校医・学校歯科医の勤続年数10年以上15年未満の補償基礎額を14,175円ではなく12,951円とする"
+	],
+	"who": [
+		"区立小中学校等の学校医・学校歯科医",
+		"区立小中学校等の学校薬剤師"
+	],
+	"why": "学校医等の補償基礎額を改定するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:13:51.900Z",
+		"inputTokens": 2055,
+		"cachedTokens": 0,
+		"outputTokens": 2403,
+		"reasoningTokens": 1932
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:13:51.900Z",
+		"checkedAt": "2026-09-30T15:50:12.614Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2274,
+			"cachedTokens": 0,
+			"outputTokens": 38,
+			"reasoningTokens": 23
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0e00c63824f209a6",
+		"name": "Revises base compensation amounts for school doctors and other school personnel",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Work-Related Accidents Involving School Doctors, School Dentists, and School Pharmacists at Taito City Municipal Elementary and Junior High Schools and Other Schools",
+		"summary": "Compensation for work-related accidents involving school doctors, school dentists, and school pharmacists is based on amounts set according to factors such as occupation. This bill raises those amounts. In principle, the revised amounts apply to compensation for which the event giving rise to payment occurs on or after April 1, 2025. They also apply, for periods from that date onward, to injury-and-illness, disability, and survivors’ compensation pensions for which the event giving rise to payment occurred before that date.",
+		"changes": [
+			"Raises the compensation base amounts for school doctors and school dentists as follows: ¥8,529 to ¥9,060; ¥9,909 to ¥10,332; ¥12,351 and ¥13,575 to ¥14,175; ¥15,837 to ¥16,467; and ¥16,866 to ¥17,496",
+			"Raises the compensation base amounts for school pharmacists as follows: ¥7,164 to ¥7,629; ¥7,932 to ¥8,340; ¥9,438 to ¥9,873; ¥10,701 to ¥11,073; ¥11,610 to ¥11,907; and ¥11,970 to ¥12,246",
+			"Sets the compensation base amount for school doctors and school dentists with 10 years or more but less than 15 years of service at ¥12,951 instead of ¥14,175 from April 1, 2025, through March 31, 2026"
+		],
+		"who": [
+			"School doctors and school dentists at Taito City municipal elementary and junior high schools and other schools",
+			"School pharmacists at Taito City municipal elementary and junior high schools and other schools"
+		],
+		"why": "The ward says this is to revise the compensation base amounts for school doctors and other school personnel.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:19:18.333Z",
+			"inputTokens": 846,
+			"cachedTokens": 0,
+			"outputTokens": 1959,
+			"reasoningTokens": 1493
+		}
+	}
 }

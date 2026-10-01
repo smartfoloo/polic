@@ -32,5 +32,64 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB784_37.pdf",
 			"fetchedAt": "2026-09-30T12:31:00.002Z"
 		}
-	]
+	],
+	"name": "損害賠償責任条例の引用番号を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、条例は地方自治法などの条項番号を引用しています。この議案で、法改正に合わせて条例内の引用番号を変更します。",
+	"changes": [
+		"第一条の「243条の2の7第1項」を「243条の2の8第1項」に改める",
+		"第一条の「243条の2の8第3項」を「243条の2の9第3項」に改める",
+		"第二条の「173条の4第1項第1号」を「173条の5第1項第1号」に改める"
+	],
+	"who": [],
+	"why": "地方自治法などの一部改正に伴い、条例で引用している条項番号を変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:43:14.378Z",
+		"inputTokens": 1525,
+		"cachedTokens": 0,
+		"outputTokens": 804,
+		"reasoningTokens": 575
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:43:14.378Z",
+		"checkedAt": "2026-09-30T15:34:03.808Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1501,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "18c450f61ef6c21b",
+		"name": "Changes citation numbers in the liability ordinance",
+		"official": "Ordinance Partially Amending the Ordinance on Partial Exemption from Liability for Damages of the Mayor of Minato City, etc.",
+		"summary": "The ordinance currently cites article numbers in laws such as the Local Autonomy Act. This bill changes the cited numbers in the ordinance to reflect amendments to those laws.",
+		"changes": [
+			"Changes Article 1's reference from Article 243-2-7, paragraph 1, to Article 243-2-8, paragraph 1",
+			"Changes Article 1's reference from Article 243-2-8, paragraph 3, to Article 243-2-9, paragraph 3",
+			"Changes Article 2's reference from Article 173-4, paragraph 1, item 1, to Article 173-5, paragraph 1, item 1"
+		],
+		"who": [],
+		"why": "The ward says the article numbers cited in the ordinance are being changed to reflect partial amendments to the Local Autonomy Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:25:28.040Z",
+			"inputTokens": 587,
+			"cachedTokens": 0,
+			"outputTokens": 570,
+			"reasoningTokens": 324
+		}
+	}
 }

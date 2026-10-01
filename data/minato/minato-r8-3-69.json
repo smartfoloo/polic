@@ -32,5 +32,95 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB856_69.pdf",
 			"fetchedAt": "2026-09-30T12:35:06.737Z"
 		}
-	]
+	],
+	"name": "旅館や公衆浴場のサウナに安全基準を追加",
+	"category": "健康・医療",
+	"summary": "改正案は、旅館業施設と公衆浴場のサウナに、温度計、内部を確認できる窓、非常用ブザーなどの設備と扉の基準を設け、緊急時に迅速に対応できる体制も義務付けます。公布日から施行します。施行時に許可を受けている施設のうち基準を満たさないものは、非常用ブザーの設置・点検を令和9年9月30日まで、扉の基準を同年3月31日まで猶予し、旅館業施設では窓などの基準を適用しません。施行後にサウナを新設・増設・変更する場合は猶予の対象外です。",
+	"changes": [
+		"サウナに熱気の温度を示す温度計を設ける",
+		"内部を確認できる窓などと非常用ブザーを設け、ブザーを定期点検し使用中の作動を確認する",
+		"扉を内部から容易に開けられる構造とし、閉じ込めのおそれがある装置を設けない",
+		"事故などの緊急時に迅速に対応できる体制を整える"
+	],
+	"who": [
+		"サウナを設ける旅館業施設の運営者",
+		"サウナを設ける公衆浴場の運営者"
+	],
+	"why": "令和7年12月15日に赤坂地区のサウナ施設で死亡事故が発生し、利用者の安全をさらに確保するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:45:15.222Z",
+		"inputTokens": 2837,
+		"cachedTokens": 0,
+		"outputTokens": 2678,
+		"reasoningTokens": 2248
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:45:15.222Z",
+		"checkedAt": "2026-09-30T15:35:06.612Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "温度計や非常用ブザーなど、今回加えるサウナの設備基準は現行条例に定められていません。",
+				"note": "原文には現行条例の規定全文がなく、公衆浴場の既存規定の削除もあるため、これらの基準が現行条例にないとは確認できません。",
+				"dismissed": {
+					"note": "Fixed in the text: dropped the claim about the current ordinance, and the grace period now covers only facilities that don’t meet the rules, not new or changed saunas.",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			},
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "施行時に許可を受けている施設は、非常用ブザーの設置・点検を令和9年9月30日まで、扉の基準を同年3月31日まで猶予します。旅館業施設では、内部を確認できる窓などの基準も既存施設には適用しません。",
+				"note": "附則第2・3項の対象は、施行時に許可を受けているサウナ設置施設のうち該当基準を満たさないものです。また、施行後にサウナを新設・増設・変更する場合は猶予・適用除外の対象外です。要約では既存施設全般が対象となる記述になっています。",
+				"dismissed": {
+					"note": "Fixed in the text: dropped the claim about the current ordinance, and the grace period now covers only facilities that don’t meet the rules, not new or changed saunas.",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3011,
+			"cachedTokens": 0,
+			"outputTokens": 531,
+			"reasoningTokens": 190
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ec7750e909c349a7",
+		"name": "Adds safety standards for saunas at lodging facilities and public baths",
+		"official": "Ordinance Partially Amending the Minato City Ordinance Implementing the Hotel Business Act and the Minato City Ordinance Implementing the Public Bathhouse Act",
+		"summary": "The proposal sets standards for equipment and doors in saunas at lodging facilities and public baths. These include a thermometer, a window that allows staff to see inside, and an emergency buzzer. It also requires a system for responding quickly to emergencies. The ordinance takes effect on the date it is promulgated. Facilities licensed when it takes effect that do not meet the standards have until September 30, 2027, to install and inspect emergency buzzers, and until March 31, 2027, to meet the door standards. The standards for windows and similar features will not apply to lodging facilities. Saunas newly installed, expanded, or modified after the ordinance takes effect are not eligible for these grace periods.",
+		"changes": [
+			"Install a thermometer that shows the temperature of the hot air in the sauna",
+			"Install a window or similar feature that allows the interior to be checked and an emergency buzzer; inspect the buzzer regularly and confirm it works while the sauna is in use",
+			"Ensure the door can be opened easily from the inside and do not install devices that could trap people inside",
+			"Set up a system for responding quickly to emergencies such as accidents"
+		],
+		"who": [
+			"Operators of lodging facilities with saunas",
+			"Operators of public baths with saunas"
+		],
+		"why": "The ward says the changes are intended to further protect users’ safety following a fatal accident at a sauna facility in the Akasaka area on December 15, 2025.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:25:51.634Z",
+			"inputTokens": 804,
+			"cachedTokens": 0,
+			"outputTokens": 1192,
+			"reasoningTokens": 808
+		}
+	}
 }

@@ -22,5 +22,64 @@
 			"url": "https://kugikai-nakano.jp/gian/263293749.pdf",
 			"fetchedAt": "2026-09-30T10:24:39.036Z"
 		}
-	]
+	],
+	"name": "マンション関連手数料の規定を法改正に合わせて変更",
+	"category": "税・手数料",
+	"summary": "条例の別表には、マンション関係の手数料に関する規定があります。この議案では、マンション関連の法律改正に合わせて、引用する条文や法律名、対象の表現などを改めます。",
+	"changes": [
+		"マンション管理適正化法の引用条文番号を改める",
+		"マンション建替え等円滑化法の名称と引用条文番号を改める",
+		"対象の表現に各部分の高さやマンションの更新を加え、用語を改める"
+	],
+	"who": [],
+	"why": "マンション関連の2つの法律の改正に合わせて規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:45:49.173Z",
+		"inputTokens": 1846,
+		"cachedTokens": 0,
+		"outputTokens": 1301,
+		"reasoningTokens": 1080
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:45:49.173Z",
+		"checkedAt": "2026-09-30T15:35:15.101Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1814,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 33
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a5965023b75e4a7c",
+		"name": "Updates condominium-related fee rules to reflect legal amendments",
+		"official": "Ordinance Partially Amending the Nakano City Administrative Fees Ordinance",
+		"summary": "The ordinance's attached table contains provisions on fees related to condominiums. This bill revises the cited article numbers, law names, and wording describing what is covered, in line with amendments to condominium-related laws.",
+		"changes": [
+			"Revises the cited article numbers in the Act on Advancement of Proper Condominium Management",
+			"Revises the name of the Act on Facilitation of Reconstruction of Condominiums and its cited article numbers",
+			"Adds the height of each part and condominium renewal to the description of what is covered, and revises terminology"
+		],
+		"who": [],
+		"why": "The ward says the provisions are being updated to reflect amendments to two condominium-related laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:04:40.321Z",
+			"inputTokens": 564,
+			"cachedTokens": 0,
+			"outputTokens": 500,
+			"reasoningTokens": 301
+		}
+	}
 }

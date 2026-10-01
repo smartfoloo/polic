@@ -22,5 +22,94 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_67.pdf",
 			"fetchedAt": "2026-09-30T10:18:21.613Z"
 		}
-	]
+	],
+	"name": "区登録文化財の制度を新設",
+	"category": "まちづくり",
+	"summary": "現行条例では、区指定文化財について定めています。この議案で新たに区登録文化財の制度を設け、登録の手続や管理、修理への支援などを定めます。2026年8月1日から施行します。",
+	"changes": [
+		"区登録文化財を5種類に分けて登録する制度を設ける",
+		"所有者などに管理や変更・損傷時の届出を定める",
+		"管理や修理への補助、勧告、保存・公開に関する支援を定める",
+		"区民の責務に区との協働を加える"
+	],
+	"who": [
+		"区登録文化財の所有者や保持者・保持団体",
+		"文化財の保存に関わる区民"
+	],
+	"why": "区内にある文化財の保存と活用のため、登録手続や管理・修理の支援などを定める必要があると、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:05:13.314Z",
+		"inputTokens": 7991,
+		"cachedTokens": 0,
+		"outputTokens": 1314,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:05:13.314Z",
+		"checkedAt": "2026-09-30T15:45:43.241Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "管理や修理への補助、勧告、保存・公開に関する支援を定める",
+				"note": "新第47条では、補助や区の費用負担で修理等をした文化財を有償譲渡した場合、原則として所定の金額を区に納付する義務を設けている。この所有者の金銭的負担が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区登録文化財を5種類に分けて登録する制度を設ける",
+				"note": "新第71条では、誰でも区と密接な関係のある文化財について、指定・登録の申出ができる制度を設けている。この住民等が利用できる手続が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区登録文化財を5種類に分けて登録する制度を設ける",
+				"note": "第2条の改正では、文化財の定義に民俗技術、都城跡・城跡、峡谷・海浜・山岳、動物とその生息地等を加えている。条例が扱う文化財の範囲の拡大が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 8019,
+			"cachedTokens": 0,
+			"outputTokens": 539,
+			"reasoningTokens": 154
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3761be9dd45309af",
+		"name": "Creates a city-registered cultural properties system",
+		"official": "Ordinance Partially Amending the Shinagawa City Cultural Properties Protection Ordinance",
+		"summary": "The current ordinance sets out rules for city-designated cultural properties. This bill establishes a new system for city-registered cultural properties and sets out registration procedures, management requirements, and support for repairs. It takes effect on August 1, 2026.",
+		"changes": [
+			"Establishes a system for registering cultural properties in five categories",
+			"Sets out management requirements and reporting requirements for owners and others when a property is changed or damaged",
+			"Provides for subsidies for management and repairs, recommendations, and support for preservation and public access",
+			"Adds cooperation with the city to residents’ responsibilities"
+		],
+		"who": [
+			"Owners, holders, and holder organizations of city-registered cultural properties",
+			"Residents involved in preserving cultural properties"
+		],
+		"why": "The ward says it is necessary to set out registration procedures and support for management and repairs, among other things, in order to preserve and make use of cultural properties in the city.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:35.970Z",
+			"inputTokens": 622,
+			"cachedTokens": 0,
+			"outputTokens": 721,
+			"reasoningTokens": 469
+		}
+	}
 }

@@ -62,5 +62,31 @@
 			"outputTokens": 315,
 			"reasoningTokens": 301
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6f61b7952be44b7c",
+		"name": "Changes the amounts and eligibility for special duty allowances for fire department staff",
+		"official": "Ordinance Partially Amending the Ordinance on Special Duty Allowances for Tokyo Fire Department Employees",
+		"summary": "Tokyo Fire Department employees receive special duty allowances according to the work they do. This bill changes some allowance amounts and adds activities by Emergency Fire Response Teams in municipalities where a disaster has occurred to the work eligible for an allowance. It takes effect on April 1, 2026.",
+		"changes": [
+			"Lowers one allowance amount from ¥710 to ¥670",
+			"Raises one allowance amount from ¥1,680 to ¥2,160",
+			"Provides a rescue and lifesaving allowance of ¥1,080 per day for Emergency Fire Response Team activities in municipalities where a disaster has occurred"
+		],
+		"who": [
+			"Tokyo Fire Department employees engaged in eligible work"
+		],
+		"why": "The governor says it is necessary to review which duties qualify for special duty allowances and the amounts, and to update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:03.543Z",
+			"inputTokens": 639,
+			"cachedTokens": 0,
+			"outputTokens": 504,
+			"reasoningTokens": 270
+		}
 	}
 }

@@ -73,5 +73,34 @@
 			"outputTokens": 654,
 			"reasoningTokens": 516
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "811d1fc7173512e6",
+		"name": "Adds sexual violence prevention measures to day support for children with disabilities",
+		"official": "Ordinance Partially Amending the Ordinance on Standards for Staffing, Facilities, and Operations of Tokyo-Designated Day Support Services for Children with Disabilities",
+		"summary": "The Tokyo Metropolitan Government sets standards by ordinance for staffing and operations, among other things, at support services that children with disabilities attend. This bill requires designated child development support providers to take necessary measures to prevent sexual violence against children and similar acts, and to protect children with disabilities who have been victimized. The main amendments take effect on December 25, 2026. Some changes, such as changes to terminology, take effect on the date of promulgation.",
+		"changes": [
+			"Require designated child development support providers to take necessary measures to prevent sexual violence against children and similar acts, and to protect children with disabilities",
+			"Include criminal record checks for applicable workers among the necessary measures",
+			"Change “instruction and training room” to “developmental support room”",
+			"Change “instruction and training” to “developmental support”"
+		],
+		"who": [
+			"Designated child development support providers",
+			"Children with disabilities who receive designated child development support",
+			"Workers who interact with children with disabilities in settings characterized by power imbalance, ongoing contact, and isolation"
+		],
+		"why": "The Tokyo Metropolitan Government says the changes are being made to establish provisions to prevent sexual violence against children and similar acts, in line with revisions to the Child Welfare Act and other laws, and to update the wording of the ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:44.609Z",
+			"inputTokens": 755,
+			"cachedTokens": 0,
+			"outputTokens": 1006,
+			"reasoningTokens": 660
+		}
 	}
 }

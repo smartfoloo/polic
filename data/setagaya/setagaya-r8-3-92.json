@@ -27,5 +27,93 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/92.pdf",
 			"fetchedAt": "2026-09-30T10:23:45.217Z"
 		}
-	]
+	],
+	"name": "認定こども園に性暴力防止措置を義務化",
+	"category": "子育て",
+	"summary": "現在の条例には、児童対象性暴力等を防ぐための規定はありません。この改正で、幼保連携型以外の認定こども園の設置者に、対象となる業務従事者の犯罪事実確認などを義務づけ、性暴力等が起きた場合に子どもを適切に保護するための措置も求めます。2026年12月25日に施行します。",
+	"changes": [
+		"対象となる業務従事者の犯罪事実確認など、必要な措置を講じる",
+		"児童対象性暴力等を防ぎ、発生時に子どもを適切に保護する"
+	],
+	"who": [
+		"幼保連携型以外の認定こども園の設置者",
+		"対象となる業務従事者",
+		"幼保連携型以外の認定こども園に通う子ども"
+	],
+	"why": "国が定める施設の設備・運営基準の改正を受け、児童対象性暴力等の防止に関する規定を設ける必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:58:21.176Z",
+		"inputTokens": 1574,
+		"cachedTokens": 0,
+		"outputTokens": 964,
+		"reasoningTokens": 679
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:58:21.176Z",
+		"checkedAt": "2026-09-30T15:42:23.127Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在の条例には、児童対象性暴力等を防ぐための規定はありません。",
+				"note": "原文は第19条の新設を示していますが、現行条例の全文はなく、関連規定が一切ないことまでは確認できません。",
+				"dismissed": {
+					"note": "The bill adds this provision, so saying it was not there before follows from the bill itself.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			},
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "認定こども園の設置者",
+				"note": "改正対象は「幼保連携型認定こども園以外」の認定こども園です。対象の限定がなく、幼保連携型も含む表現になっています。",
+				"dismissed": {
+					"note": "Fixed in the text: limited to 幼保連携型以外の認定こども園.",
+					"at": "2026-10-01T12:12:43.005Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1628,
+			"cachedTokens": 0,
+			"outputTokens": 364,
+			"reasoningTokens": 199
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0902ec4fb1a81775",
+		"name": "Requires certified childcare centers to take measures to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Requirements for Certifying Certified Childcare Centers Other Than Integrated Early Childhood Education and Care Centers",
+		"summary": "The current ordinance has no provisions to prevent sexual violence against children, etc. This amendment requires operators of certified childcare centers other than integrated early childhood education and care centers to take measures such as checking the criminal records of workers in covered roles. It also requires them to take steps to protect children appropriately if sexual violence, etc. occurs. It takes effect on December 25, 2026.",
+		"changes": [
+			"Take necessary measures, including checking the criminal records of workers in covered roles",
+			"Prevent sexual violence against children, etc., and protect children appropriately if it occurs"
+		],
+		"who": [
+			"Operators of certified childcare centers other than integrated early childhood education and care centers",
+			"Workers in covered roles",
+			"Children attending certified childcare centers other than integrated early childhood education and care centers"
+		],
+		"why": "The ward says provisions to prevent sexual violence against children, etc. are needed because the national standards for facilities and operations have been amended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:29:38.962Z",
+			"inputTokens": 709,
+			"cachedTokens": 0,
+			"outputTokens": 931,
+			"reasoningTokens": 659
+		}
+	}
 }

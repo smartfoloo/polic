@@ -79,5 +79,33 @@
 			"outputTokens": 605,
 			"reasoningTokens": 425
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3ffa01332fab03f0",
+		"name": "Sets standards for integrated certified early childhood education and care centers",
+		"official": "Suginami City Ordinance on Standards for Class Organization, Staff, Facilities, and Operation of Integrated Certified Centers for Early Childhood Education and Care",
+		"summary": "Standards for staff, facilities, and other matters at integrated certified centers for early childhood education and care were previously set by Tokyo Metropolitan Government ordinance. This bill sets Suginami City standards for class organization, staffing, facilities, and operations. It takes effect on November 1, 2026. Provisions to prevent sexual violence against children enrolled at the centers take effect on December 25, 2026.",
+		"changes": [
+			"Assign at least one dedicated childcare teacher or other staff member to each class",
+			"Set staffing levels according to the ages and number of children",
+			"Set standards for facilities such as center buildings, playgrounds, and classrooms",
+			"Require checks of criminal records and other measures to prevent sexual violence"
+		],
+		"who": [
+			"Children attending integrated certified centers for early childhood education and care, and their parents",
+			"Establishers and operators of integrated certified centers for early childhood education and care"
+		],
+		"why": "The ward says Suginami City needs to set the standards itself because it was designated as a city that establishes a child guidance center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:11.771Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 973,
+			"reasoningTokens": 677
+		}
 	}
 }

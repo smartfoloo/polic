@@ -32,5 +32,62 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/10.pdf",
 			"fetchedAt": "2026-09-30T10:19:16.315Z"
 		}
-	]
+	],
+	"name": "清掃・リサイクル部を環境政策部に統合",
+	"category": "行政のしくみ",
+	"summary": "現在、環境政策部と清掃・リサイクル部は別に置かれています。この議案で清掃・リサイクル部を環境政策部に統合し、廃棄物の減量や適正な処理も環境政策部の担当に加えます。令和8年4月1日から実施します。",
+	"changes": [
+		"清掃・リサイクル部をなくし、環境政策部に統合する",
+		"廃棄物の減量や適正な処理を環境政策部の担当に加える"
+	],
+	"who": [],
+	"why": "環境政策や清掃・リサイクル事業に関する施策をまとめて進めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:50:38.121Z",
+		"inputTokens": 1222,
+		"cachedTokens": 0,
+		"outputTokens": 652,
+		"reasoningTokens": 419
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:50:38.121Z",
+		"checkedAt": "2026-09-30T15:37:27.836Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1198,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7e510af920b23f20",
+		"name": "Merges the Sanitation and Recycling Department into the Environment Policy Department",
+		"official": "Ordinance Partially Amending the Setagaya City Organization Ordinance",
+		"summary": "Currently, the Environment Policy Department and the Sanitation and Recycling Department are separate. This bill merges the Sanitation and Recycling Department into the Environment Policy Department and adds waste reduction and proper waste handling to the Environment Policy Department's responsibilities. The change will take effect on April 1, 2026.",
+		"changes": [
+			"Abolishes the Sanitation and Recycling Department and merges it into the Environment Policy Department",
+			"Adds waste reduction and proper waste handling to the Environment Policy Department's responsibilities"
+		],
+		"who": [],
+		"why": "Setagaya City says this is to bring together and advance measures related to environmental policy and sanitation and recycling services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:36.581Z",
+			"inputTokens": 576,
+			"cachedTokens": 0,
+			"outputTokens": 438,
+			"reasoningTokens": 244
+		}
+	}
 }

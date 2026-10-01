@@ -60,5 +60,29 @@
 			"outputTokens": 51,
 			"reasoningTokens": 37
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "611a10b3b662542a",
+		"name": "Get seal registration certificates using specified residence cards and certificates",
+		"official": "Ordinance Partially Amending the Suginami City Seal Registration Ordinance",
+		"summary": "Currently, people registered to use a seal, except those specified by rules, can use Individual Number Cards and other cards to obtain seal registration certificates from multifunction terminals. After the amendment, they will also be able to apply for and receive certificates using specified residence cards or specified special permanent resident certificates that contain an electronic certificate. The ordinance will take effect on the date of promulgation.",
+		"changes": [
+			"Allows people to apply for and obtain seal registration certificates from multifunction terminals using specified residence cards or specified special permanent resident certificates that contain an electronic certificate"
+		],
+		"who": [
+			"People registered to use a seal who hold a specified residence card or specified special permanent resident certificate containing an electronic certificate (except those specified by rules)"
+		],
+		"why": "The ward says it is establishing provisions for applications and issuance at multifunction terminals using specified residence cards and similar documents, following a change in the law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:41.542Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 876,
+			"reasoningTokens": 636
+		}
 	}
 }

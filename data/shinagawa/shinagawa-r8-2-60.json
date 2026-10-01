@@ -22,5 +22,74 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_60.pdf",
 			"fetchedAt": "2026-09-30T10:17:39.406Z"
 		}
-	]
+	],
+	"name": "区民税の寄附控除や申告ルールを変更",
+	"category": "税・手数料",
+	"summary": "区民税の寄附金控除や、公的年金を受け取る人の申告に関するルールを改めます。現在期限のある医療費控除の特例は、スイッチOTC医薬品分の期限をなくし、それ以外の医薬品分と住宅ローン控除の期限を5年延ばします。原則2027年1月1日から施行し、寄附金控除額の計算割合と土地譲渡の特例に関する改正は2028年1月1日から施行します。",
+	"changes": [
+		"公益信託の信託財産にするために支出した関連寄附金を控除対象に加え、控除額の算定割合を改める",
+		"公的年金を受け取る人が扶養親族等申告書を提出する範囲を広げる",
+		"スイッチOTC医薬品分の医療費控除特例の期限をなくし、それ以外の医薬品分と住宅ローン控除の期限を5年延長する",
+		"一部の危険区域内にある土地の譲渡を、優良住宅地等のための課税特例の対象外とする"
+	],
+	"who": [
+		"公益信託の信託事務に関連する寄附をした人",
+		"公的年金を受け取る人",
+		"医療費控除や住宅ローン控除、土地譲渡の特例を受ける人"
+	],
+	"why": "地方税法等の改正に伴い、条例を改正する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:03:52.229Z",
+		"inputTokens": 4882,
+		"cachedTokens": 0,
+		"outputTokens": 2793,
+		"reasoningTokens": 2343
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:03:52.229Z",
+		"checkedAt": "2026-09-30T15:45:05.076Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5079,
+			"cachedTokens": 0,
+			"outputTokens": 65,
+			"reasoningTokens": 50
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "da19b57ea7f9183b",
+		"name": "Changes resident tax deductions for donations and filing rules",
+		"official": "Ordinance Partially Amending the Shinagawa City Special Ward Tax Ordinance",
+		"summary": "The ordinance revises the rules for resident tax deductions for donations and for tax filings by people receiving public pensions. For the medical expense deduction measures that currently have deadlines, it removes the deadline for expenses on switch OTC medicines and extends the deadlines by 5 years for expenses on other medicines and for the mortgage loan deduction. The ordinance generally takes effect on January 1, 2027. Amendments to the rate used to calculate donation deductions and to the special tax treatment for land transfers take effect on January 1, 2028.",
+		"changes": [
+			"Adds donations made to fund the trust property of a public interest trust to those eligible for deductions, and revises the rate used to calculate the deduction amount",
+			"Expands the categories of public pension recipients who submit a declaration of dependents and other information",
+			"Removes the deadline for the medical expense deduction measure for switch OTC medicines and extends the deadlines by 5 years for other medicines and for the mortgage loan deduction",
+			"Excludes transfers of land in some hazardous areas from the special tax treatment for high-quality residential land and similar purposes"
+		],
+		"who": [
+			"People who made donations related to the administration of a public interest trust",
+			"People receiving public pensions",
+			"People eligible for the medical expense deduction, the mortgage loan deduction, or special tax treatment for land transfers"
+		],
+		"why": "The ward says the ordinance needs to be amended in connection with revisions to the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:05.982Z",
+			"inputTokens": 792,
+			"cachedTokens": 0,
+			"outputTokens": 1131,
+			"reasoningTokens": 770
+		}
+	}
 }

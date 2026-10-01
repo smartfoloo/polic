@@ -60,5 +60,29 @@
 			"outputTokens": 125,
 			"reasoningTokens": 111
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dffbacf7990a80fe",
+		"name": "Sets the Oshima Airport reception room fee at ¥3,600 per hour",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Airports Ordinance",
+		"summary": "This bill accompanies the addition of a reception room to the Oshima Airport Terminal Building. It sets the fee for using the room at ¥3,600 per hour. It takes effect on October 20, 2026.",
+		"changes": [
+			"Sets the reception room fee at ¥3,600 per hour"
+		],
+		"who": [
+			"People who use the reception room in the Oshima Airport Terminal Building"
+		],
+		"why": "The Tokyo Metropolitan Government says the rules on building-use fees need to be revised to accompany the addition of the reception room.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:30:16.752Z",
+			"inputTokens": 540,
+			"cachedTokens": 0,
+			"outputTokens": 414,
+			"reasoningTokens": 237
+		}
 	}
 }

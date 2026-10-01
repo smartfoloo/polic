@@ -18,5 +18,20 @@
 			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
 			"fetchedAt": "2026-09-28T10:09:14.547Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "ab5a62143dbdda5c",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Subway Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:25.350Z",
+			"inputTokens": 318,
+			"cachedTokens": 0,
+			"outputTokens": 230,
+			"reasoningTokens": 201
+		}
+	}
 }

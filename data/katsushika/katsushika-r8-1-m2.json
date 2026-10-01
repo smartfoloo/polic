@@ -27,5 +27,54 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8g_gian002.pdf",
 			"fetchedAt": "2026-09-30T10:38:35.526Z"
 		}
-	]
+	],
+	"name": "子どもの国保均等割額を軽減",
+	"category": "健康・医療",
+	"summary": "議員提出の議案は、国民健康保険料の子どもの均等割額を軽減する内容です。2026年度以降、未就学児は0円にし、未就学児を除く18歳未満は半額にする案で、施行日は2026年10月1日としています。",
+	"changes": [
+		"未就学児の被保険者均等割額を0円にする",
+		"18歳未満（未就学児を除く）の被保険者均等割額を半額にする"
+	],
+	"who": [
+		"世帯主と同じ世帯に属する未就学児の国民健康保険加入者（納税義務者を除く）",
+		"世帯主と同じ世帯に属する18歳未満の国民健康保険加入者（未就学児と納税義務者を除く）"
+	],
+	"why": "区民の福祉向上を図るためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:36:27.102Z",
+		"inputTokens": 1641,
+		"cachedTokens": 0,
+		"outputTokens": 1291,
+		"reasoningTokens": 989
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:36:27.102Z",
+		"checkedAt": "2026-09-30T15:30:37.096Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "議会で否決されました。",
+				"note": "原文には議会での採決結果の記載がなく、否決されたことは確認できません。",
+				"dismissed": {
+					"note": "True (status 否決, from the voting results page), but the checker only sees the bill text. Sentence removed: the site shows the result as the status stamp.",
+					"at": "2026-10-01T11:30:44.894Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1684,
+			"cachedTokens": 0,
+			"outputTokens": 134,
+			"reasoningTokens": 68
+		}
+	}
 }

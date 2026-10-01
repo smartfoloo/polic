@@ -61,5 +61,30 @@
 			"outputTokens": 99,
 			"reasoningTokens": 85
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "58de2b005d2285c4",
+		"name": "Revises maximum cemetery use fees and charges",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Cemetery Ordinance",
+		"summary": "At cemeteries run by the Tokyo Metropolitan Government, an ordinance sets maximum amounts for use fees and related charges, as well as administrative fees. This bill raises some amounts and lowers others. It takes effect on April 1, 2026. However, the previous provisions will apply to use fees for after the ordinance takes effect that are already required to be paid as of that date.",
+		"changes": [
+			"Revises the maximum amounts for use fees and related charges",
+			"Revises the amounts of administrative fees"
+		],
+		"who": [
+			"Users of Tokyo Metropolitan Government cemeteries"
+		],
+		"why": "The Tokyo Metropolitan Government says the maximum amounts for use fees and related charges, and the administrative fees, need to be revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:35.443Z",
+			"inputTokens": 567,
+			"cachedTokens": 0,
+			"outputTokens": 854,
+			"reasoningTokens": 644
+		}
 	}
 }

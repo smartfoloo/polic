@@ -27,5 +27,72 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian15.pdf",
 			"fetchedAt": "2026-09-30T10:37:05.366Z"
 		}
-	]
+	],
+	"name": "手続のオンライン化と添付書類の省略を拡大",
+	"category": "デジタル",
+	"summary": "現在の条例は、区の手続を情報通信技術で行うためのルールを定めています。今回の改正で、オンラインで行える手続を広げます。手数料のオンライン納付や、条件を満たす添付書類の省略も可能にします。",
+	"changes": [
+		"オンライン申請の手数料を、実施機関が定める方法で納付できるようにする",
+		"区が必要な情報を確認できる場合、住民票の写しなどの添付を省略できるようにする",
+		"オンラインで行いにくい部分を除き、手続の一部をオンラインで行えるようにする",
+		"受け取る側が所定の方法で希望を示した場合に、処分通知等をオンラインで受け取れるようにする"
+	],
+	"who": [
+		"区の手続を申請する人",
+		"区から処分通知等を受ける人"
+	],
+	"why": "デジタル社会の進展を踏まえ、区民の利便性を高め、行政運営を簡素化・効率化するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:33:27.108Z",
+		"inputTokens": 3560,
+		"cachedTokens": 0,
+		"outputTokens": 1555,
+		"reasoningTokens": 1222
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:33:27.108Z",
+		"checkedAt": "2026-09-30T15:28:49.108Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3638,
+			"cachedTokens": 0,
+			"outputTokens": 197,
+			"reasoningTokens": 182
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3631fd9f2e58c2cd",
+		"name": "Expands online procedures and waivers of supporting documents",
+		"official": "Ordinance Partially Amending the Katsushika City Ordinance on the Use of Information and Communications Technology in Administrative Procedures, etc.",
+		"summary": "The current ordinance sets rules for carrying out the ward’s procedures using information and communications technology. This amendment expands the procedures that can be carried out online. It also allows fees to be paid online and supporting documents to be omitted when certain conditions are met.",
+		"changes": [
+			"Allow fees for online applications to be paid using methods set by the agency carrying out the procedure",
+			"Allow supporting documents, such as a copy of a resident record, to be omitted when the ward can confirm the necessary information",
+			"Allow part of a procedure to be carried out online, except for parts that are difficult to handle online",
+			"Allow people to receive official decision notices and other notices online if they indicate their preference using the prescribed method"
+		],
+		"who": [
+			"People applying for the ward’s procedures",
+			"People receiving official decision notices and other notices from the ward"
+		],
+		"why": "The ward says this is to improve convenience for residents and simplify and make administrative operations more efficient in light of the development of a digital society.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:00:00.215Z",
+			"inputTokens": 691,
+			"cachedTokens": 0,
+			"outputTokens": 533,
+			"reasoningTokens": 252
+		}
+	}
 }

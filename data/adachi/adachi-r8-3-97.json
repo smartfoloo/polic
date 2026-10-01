@@ -27,5 +27,80 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4480_R83TG097.pdf",
 			"fetchedAt": "2026-09-30T10:36:17.063Z"
 		}
-	]
+	],
+	"name": "区長らの給料月額を一時減額",
+	"category": "行政のしくみ",
+	"summary": "区長、副区長、教育委員会教育長の給料月額は、別の条例の別表で定められています。この議案では、令和8年10月1日から10月31日まで、区長は別表の額から20%、副区長と教育委員会教育長は10%を減らした額にします。",
+	"changes": [
+		"区長の給料月額を別表の額から20%減らす",
+		"副区長と教育委員会教育長の給料月額を別表の額から10%減らす",
+		"減額後の給料月額に1,000円未満の端数がある場合は切り捨てる"
+	],
+	"who": [
+		"区長",
+		"副区長",
+		"教育委員会教育長"
+	],
+	"why": "区長、副区長及び教育長の給料月額を減額する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:26:35.534Z",
+		"inputTokens": 1349,
+		"cachedTokens": 0,
+		"outputTokens": 1152,
+		"reasoningTokens": 873
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:26:35.534Z",
+		"checkedAt": "2026-09-30T15:25:27.081Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区長の給料月額を別表の額から20%減らす",
+				"note": "第1条ただし書では、給料条例第4条及び退職手当に関する条例第3条の適用については減額の特例の対象外としていますが、この例外が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1376,
+			"cachedTokens": 0,
+			"outputTokens": 324,
+			"reasoningTokens": 219
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "32d8d932c1937a08",
+		"name": "Temporarily reduces the monthly salaries of the mayor and others",
+		"official": "Ordinance on Special Provisions for the Salaries of the Adachi City Mayor, etc.",
+		"summary": "The monthly salaries of the mayor, deputy mayor, and superintendent of the Board of Education are set in a schedule to a separate ordinance. Under this bill, from October 1 to October 31, 2026, the mayor’s salary will be reduced by 20% from the amount in the schedule, and the deputy mayor’s and superintendent’s salaries will each be reduced by 10%.",
+		"changes": [
+			"Reduces the mayor’s monthly salary by 20% from the amount in the schedule",
+			"Reduces the deputy mayor’s and superintendent of the Board of Education’s monthly salaries by 10% from the amounts in the schedule",
+			"Rounds down any remainder of less than ¥1,000 in the reduced monthly salary"
+		],
+		"who": [
+			"Mayor",
+			"Deputy mayor",
+			"Superintendent of the Board of Education"
+		],
+		"why": "The ward explains that the salaries of the mayor, deputy mayor, and superintendent need to be reduced.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:21:50.329Z",
+			"inputTokens": 621,
+			"cachedTokens": 0,
+			"outputTokens": 637,
+			"reasoningTokens": 370
+		}
+	}
 }

@@ -27,5 +27,72 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4423_R82TG060.pdf",
 			"fetchedAt": "2026-09-30T10:35:53.476Z"
 		}
-	]
+	],
+	"name": "校外施設から鋸南自然の家を削除",
+	"category": "教育",
+	"summary": "条例には、足立区立鋸南自然の家が校外施設として定められています。この議案で同施設を一覧から削り、体育館の午前の使用料を2,300円、午後を3,500円とし、宿泊者の使用は無料とします。",
+	"changes": [
+		"足立区立鋸南自然の家を施設一覧から削る",
+		"午前（午前9時から午後0時30分まで）の体育館使用料を2,300円にする",
+		"午後（午後1時から午後5時まで）の体育館使用料を3,500円にする",
+		"宿泊者の体育館使用料を無料にする"
+	],
+	"who": [
+		"足立区立鋸南自然の家の利用者",
+		"体育館の利用者"
+	],
+	"why": "足立区立鋸南自然の家を廃止する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:25:19.506Z",
+		"inputTokens": 1176,
+		"cachedTokens": 0,
+		"outputTokens": 1223,
+		"reasoningTokens": 953
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:25:19.506Z",
+		"checkedAt": "2026-09-30T15:24:34.986Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1198,
+			"cachedTokens": 0,
+			"outputTokens": 87,
+			"reasoningTokens": 73
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a18f308da028c572",
+		"name": "Removes Kyonan Nature House from the list of off-site facilities",
+		"official": "Ordinance Partially Amending the Adachi City Off-Site Facilities Ordinance",
+		"summary": "The ordinance lists Adachi City Kyonan Nature House as an off-site facility. This bill removes the facility from the list, sets the gym fee at ¥2,300 in the morning and ¥3,500 in the afternoon, and makes use free for overnight guests.",
+		"changes": [
+			"Removes Adachi City Kyonan Nature House from the list of facilities",
+			"Sets the gym fee for the morning (9:00 a.m. to 12:30 p.m.) at ¥2,300",
+			"Sets the gym fee for the afternoon (1:00 p.m. to 5:00 p.m.) at ¥3,500",
+			"Makes gym use free for overnight guests"
+		],
+		"who": [
+			"Users of Adachi City Kyonan Nature House",
+			"Gym users"
+		],
+		"why": "The city says this is because Adachi City Kyonan Nature House needs to be discontinued.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:31.561Z",
+			"inputTokens": 616,
+			"cachedTokens": 0,
+			"outputTokens": 476,
+			"reasoningTokens": 217
+		}
+	}
 }

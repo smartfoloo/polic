@@ -27,5 +27,78 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian23.pdf",
 			"fetchedAt": "2026-09-30T10:37:53.952Z"
 		}
-	]
+	],
+	"name": "障害児の手当受給者を本人に変更",
+	"category": "福祉",
+	"summary": "現在、障害児に係る心身障害者福祉手当の受給者は保護者です。この議案では、受給者を障害児本人に改め、難病患者福祉手当を受けている場合の受給資格なども見直します。令和8年4月1日に施行され、受給者の変更などは同日以降の認定申請に係る支給に適用されます。",
+	"changes": [
+		"障害児に係る受給者を保護者から障害児本人に変える",
+		"難病患者福祉手当を受けている障害者・障害児を心身障害者福祉手当の対象外とする",
+		"手当額の定め方を、対象者1人ごとから区分に応じた形に変える"
+	],
+	"who": [
+		"心身障害者福祉手当の対象となる障害児とその保護者",
+		"難病患者福祉手当を受けている障害者・障害児"
+	],
+	"why": "障害児に係る受給者を保護者から障害児本人とするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:35:10.632Z",
+		"inputTokens": 1553,
+		"cachedTokens": 0,
+		"outputTokens": 3126,
+		"reasoningTokens": 2815
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:35:10.632Z",
+		"checkedAt": "2026-09-30T15:29:51.252Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "障害児に係る受給者を保護者から障害児本人に変える",
+				"note": "第6条で、障害児が20歳に達して保護者の受給資格が消滅する場合の支給終了月を前月とする特例を削除しています。支給期間に関わる変更が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1638,
+			"cachedTokens": 0,
+			"outputTokens": 233,
+			"reasoningTokens": 118
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "85e501f24f2f34f6",
+		"name": "Changes the recipient of the disability allowance for children to the child",
+		"official": "Ordinance Partially Amending the Katsushika City Welfare Allowance for People with Physical and Mental Disabilities Ordinance",
+		"summary": "Currently, the recipient of the Welfare Allowance for People with Physical and Mental Disabilities for a child with a disability is the child's guardian. This bill changes the recipient to the child with a disability and also revises eligibility and other requirements for people receiving the Welfare Allowance for Patients with Intractable Diseases. The ordinance takes effect on April 1, 2026. The changes, including the change in recipient, apply to payments for certification applications submitted on or after that date.",
+		"changes": [
+			"Changes the recipient for a child with a disability from the child's guardian to the child",
+			"Makes people with disabilities and children with disabilities receiving the Welfare Allowance for Patients with Intractable Diseases ineligible for the Welfare Allowance for People with Physical and Mental Disabilities",
+			"Changes how allowance amounts are determined, from an amount per eligible person to amounts based on categories"
+		],
+		"who": [
+			"Children with disabilities eligible for the Welfare Allowance for People with Physical and Mental Disabilities, and their guardians",
+			"People with disabilities and children with disabilities receiving the Welfare Allowance for Patients with Intractable Diseases"
+		],
+		"why": "The ward says the change is being made so that the recipient for a child with a disability is the child rather than the guardian.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:00:35.173Z",
+			"inputTokens": 692,
+			"cachedTokens": 0,
+			"outputTokens": 1166,
+			"reasoningTokens": 838
+		}
+	}
 }

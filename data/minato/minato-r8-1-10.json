@@ -32,5 +32,80 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB725_10.pdf",
 			"fetchedAt": "2026-09-30T12:27:14.712Z"
 		}
-	]
+	],
+	"name": "障害福祉センターに分館を設置し対象を拡大",
+	"category": "福祉",
+	"summary": "現在、条例には分館の定めがありません。この議案で、港区芝四丁目18番7号に分館を設け、発達障害者の社会生活への適応に必要な訓練などを行います。また、自立訓練の利用対象者の条件を改め、対象範囲を広げます。",
+	"changes": [
+		"分館を港区芝四丁目18番7号に設置する",
+		"分館で発達障害者の社会生活への適応に必要な訓練を行う",
+		"自立訓練の対象を18歳以上とし、対象者の条件を改める"
+	],
+	"who": [
+		"障害保健福祉センターを利用する人",
+		"自立訓練の利用を希望する18歳以上の人",
+		"発達障害者生活訓練を利用する人"
+	],
+	"why": "分館を新設し、自立訓練の利用対象者の範囲を広げるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:40:16.074Z",
+		"inputTokens": 1566,
+		"cachedTokens": 0,
+		"outputTokens": 2669,
+		"reasoningTokens": 2361
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:40:16.074Z",
+		"checkedAt": "2026-09-30T15:32:38.506Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "自立訓練の対象を18歳以上とし、対象者の条件を改める",
+				"note": "第七条第一項第四号の改正では、身体障害者に限る要件を削除し、知的障害者福祉法に基づく措置を対象に加えています。利用対象者の範囲を広げる具体的な変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1620,
+			"cachedTokens": 0,
+			"outputTokens": 278,
+			"reasoningTokens": 153
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4d8b7d794d656fa0",
+		"name": "Establishes a branch of the disability welfare center and expands eligibility",
+		"official": "Ordinance Partially Amending the Minato City Disability Health and Welfare Center Ordinance",
+		"summary": "The current ordinance has no provision for a branch. This bill establishes a branch at 4-18-7 Shiba, Minato City, where it will provide training and other services needed to help people with developmental disabilities adapt to social life. It also revises the conditions for using independent living training, expanding the range of eligible users.",
+		"changes": [
+			"Establishes a branch at 4-18-7 Shiba, Minato City",
+			"Provides training at the branch to help people with developmental disabilities adapt to social life",
+			"Sets the minimum age for independent living training at 18 and revises the eligibility conditions"
+		],
+		"who": [
+			"People who use the Disability Health and Welfare Center",
+			"People aged 18 or older who wish to use independent living training",
+			"People who use life skills training for people with developmental disabilities"
+		],
+		"why": "The ward says the bill will establish a branch and expand the range of people eligible to use independent living training.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:02:26.024Z",
+			"inputTokens": 657,
+			"cachedTokens": 0,
+			"outputTokens": 577,
+			"reasoningTokens": 307
+		}
+	}
 }

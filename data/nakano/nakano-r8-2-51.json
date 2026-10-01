@@ -22,5 +22,97 @@
 			"url": "https://kugikai-nakano.jp/gian/266239446.pdf",
 			"fetchedAt": "2026-09-30T00:05:53.294Z"
 		}
-	]
+	],
+	"name": "住宅ローン控除と土地譲渡特例を見直し",
+	"category": "税・手数料",
+	"summary": "現在の区民税条例は、住宅ローン控除や土地譲渡の特例の期限、公的年金を受け取る人の申告方法などを定めています。この議案で、控除や特例の期間を延ばし、年金の申告書に関する対象者や記載事項を改めるほか、土砂災害や浸水の危険がある4種類の指定区域では、一部の土地譲渡を特例から除きます。",
+	"changes": [
+		"住宅ローン控除の入居期限を令和12年まで、適用年度を令和25年度まで延ばす",
+		"公的年金を受け取る人の申告対象者と申告書の記載事項を改める",
+		"優良住宅地等のための土地譲渡特例の適用期限を令和11年度まで延ばす",
+		"地すべり防止区域、急傾斜地崩壊危険区域、土砂災害特別警戒区域、浸水被害防止区域にある土地について、租税特別措置法で定める一部の譲渡（第31条の2第2項第13号から第15号）を、優良住宅地等のための譲渡の特例から除く"
+	],
+	"who": [
+		"住宅ローン控除を受ける人",
+		"公的年金を受け取り、区民税の申告に関係する人",
+		"優良住宅地等の特例に関係する土地を譲渡する人"
+	],
+	"why": "地方税法の改正に伴い、住宅ローン控除などの適用期限を延ばし、土地譲渡に関する課税特例などの規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:49:24.252Z",
+		"inputTokens": 4625,
+		"cachedTokens": 0,
+		"outputTokens": 2998,
+		"reasoningTokens": 2588
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:49:24.252Z",
+		"checkedAt": "2026-09-30T15:36:48.425Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "災害などの危険区域内の土地を譲渡特例から除きます",
+				"note": "付則第11条第4項の除外は、租税特別措置法第31条の2第2項第13号～第15号に該当する譲渡で、指定された4種類の区域内にある土地等に限られます。危険区域内の土地を一律に除外する規定ではありません。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones and limits it to the transfers in 租税特別措置法第31条の2第2項第13–15号.",
+					"at": "2026-10-01T12:09:53.468Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "土砂災害や浸水の危険区域内の土地譲渡を、優良住宅地等の特例から除外する",
+				"note": "付則第11条第4項は、特定の類型の譲渡に限定しています。また対象区域は地すべり防止区域、急傾斜地崩壊危険区域、土砂災害特別警戒区域、浸水被害防止区域であり、土砂災害や浸水の危険区域全般ではありません。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones and limits it to the transfers in 租税特別措置法第31条の2第2項第13–15号.",
+					"at": "2026-10-01T12:09:53.468Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4782,
+			"cachedTokens": 0,
+			"outputTokens": 464,
+			"reasoningTokens": 149
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e4f74ad7fa1526a8",
+		"name": "Revises the housing loan tax deduction and land transfer tax benefits",
+		"official": "Ordinance Partially Amending the Nakano City Special Ward Tax Ordinance",
+		"summary": "The current ward resident tax ordinance sets deadlines for the housing loan tax deduction and special measures for land transfers, as well as filing procedures for people receiving public pension income. This bill extends the periods for the deduction and special measures, revises who is covered by the pension declaration form and what information must be entered on it, and excludes some land transfers from the special measure in four types of designated areas at risk of landslides or flooding.",
+		"changes": [
+			"Extends the deadline to move into a home for the housing loan tax deduction through 2030, and the applicable tax years through FY2043",
+			"Revises who is covered by the declaration requirements for people receiving public pension income and what information must be entered on the form",
+			"Extends the deadline for the land-transfer tax benefit for high-quality residential land, etc., through FY2029",
+			"Excludes certain land transfers specified in Article 31-2, paragraph 2, items 13 to 15 of the Act on Special Measures Concerning Taxation from the land-transfer benefit for high-quality residential land, etc., when the land is in a landslide prevention area, steep-slope collapse hazard area, special sediment disaster warning area, or flood damage prevention area"
+		],
+		"who": [
+			"People claiming the housing loan tax deduction",
+			"People receiving public pension income who are involved in filing ward resident tax declarations",
+			"People transferring land covered by the special measure for high-quality residential land, etc."
+		],
+		"why": "The ward says this is to extend the applicable deadlines for the housing loan tax deduction and other measures, and to adjust provisions on tax benefits for land transfers, in response to amendments to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:26:54.022Z",
+			"inputTokens": 831,
+			"cachedTokens": 0,
+			"outputTokens": 1616,
+			"reasoningTokens": 1202
+		}
+	}
 }

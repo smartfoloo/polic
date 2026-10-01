@@ -58,5 +58,27 @@
 			"outputTokens": 239,
 			"reasoningTokens": 225
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "821e43cf44b78419",
+		"name": "Adds Ogasawara relocation and settlement promotion housing to the project account",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on the Accounts for Metropolitan Housing and Related Projects",
+		"summary": "The accounts for metropolitan housing and related projects include specific public rental housing. This bill also adds the Ogasawara relocation and settlement promotion housing project to the scope of those accounts.",
+		"changes": [
+			"Adds the Ogasawara relocation and settlement promotion housing project to the accounts for metropolitan housing and related projects"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says this is to clarify how the accounts for the Ogasawara relocation and settlement promotion housing project are handled in connection with the rebuilding project for Tokyo Metropolitan Ogasawara Housing.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:08.232Z",
+			"inputTokens": 547,
+			"cachedTokens": 0,
+			"outputTokens": 677,
+			"reasoningTokens": 494
+		}
 	}
 }

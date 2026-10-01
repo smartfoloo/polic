@@ -64,5 +64,33 @@
 			"outputTokens": 525,
 			"reasoningTokens": 511
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "93dbfb25d69e7f47",
+		"name": "Changes Tokyo affairs handled by municipalities",
+		"official": "Ordinance Partially Amending the Ordinance on Special Cases for Handling Tokyo Metropolitan Government Affairs in Municipalities",
+		"summary": "Currently, an ordinance specifies which Tokyo Metropolitan Government affairs are handled by special wards, cities, towns, and villages. This bill removes affairs relating to construction work statistics from that scope. It also transfers affairs such as receiving reports of staff abusing children at private kindergartens to special wards and cities, and affairs relating to integrated certified centers for early childhood education and care to wards with child guidance centers.",
+		"changes": [
+			"Removes affairs relating to construction work statistics from those handled by special wards, cities, towns, and villages",
+			"Transfers affairs such as receiving reports of staff abusing children at private kindergartens to special wards and cities",
+			"Transfers affairs such as receiving reports of staff abusing children at integrated certified centers for early childhood education and care to wards with child guidance centers",
+			"Revises provisions to align with amendments to the ordinance on school staff salaries"
+		],
+		"who": [
+			"Children at private kindergartens and their parents",
+			"Children at integrated certified centers for early childhood education and care and their parents"
+		],
+		"why": "The governor says this is necessary to revise provisions on the scope of affairs handled by municipalities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:00.130Z",
+			"inputTokens": 722,
+			"cachedTokens": 0,
+			"outputTokens": 815,
+			"reasoningTokens": 516
+		}
 	}
 }

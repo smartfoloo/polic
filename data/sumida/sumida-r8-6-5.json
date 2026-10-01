@@ -27,5 +27,82 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2026/R86gatugian.files/0806tisantogaiyo.pdf",
 			"fetchedAt": "2026-09-30T10:14:22.797Z"
 		}
-	]
+	],
+	"name": "東武曳舟駅前地区に建築制限を追加",
+	"category": "まちづくり",
+	"summary": "区の条例では、地区計画区域内の建築物に制限を設けています。改正により、東武曳舟駅前地区の地区整備計画区域が加わり、営業用途や敷地面積、壁面位置のルールが定められます。",
+	"changes": [
+		"地区整備計画区域を条例の適用区域に加える",
+		"店舗型・無店舗型の性風俗営業などに使う建築物を禁止する",
+		"敷地面積の最低限度を500平方メートルとし、公衆便所などの公益上必要な建物と、歩行者の回遊性・利便性やにぎわいのために設ける公園施設等の敷地は除く",
+		"計画図3で定める壁面位置の制限を設け、落下物防護のひさし・バルコニー等と転落防止用の鉄柵等は除く"
+	],
+	"who": [
+		"東武曳舟駅前地区の地区整備計画区域内で建築を計画する人や事業者"
+	],
+	"why": "東武曳舟駅前地区の地区計画が都市計画決定されたため、区域を条例に加えて建築物の制限を設ける必要があると、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:10:47.288Z",
+		"inputTokens": 2444,
+		"cachedTokens": 0,
+		"outputTokens": 2125,
+		"reasoningTokens": 1775
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:10:47.288Z",
+		"checkedAt": "2026-09-30T15:48:54.006Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "公衆便所などの公益施設や公園施設等の敷地は除く",
+				"note": "原文では、公園施設等の敷地の適用除外は「歩行者の回遊性及び利便性の向上並びににぎわいのある複合市街地の形成のために設ける」ものに限定されている。要約ではこの条件がなく、公園施設等全般が除外されるように読める。",
+				"dismissed": {
+					"note": "Fixed in the text: the 公園施設等 exception has its condition.",
+					"at": "2026-10-01T12:13:20.320Z"
+				}
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2537,
+			"cachedTokens": 0,
+			"outputTokens": 307,
+			"reasoningTokens": 165
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "967cae0989939377",
+		"name": "Adds building restrictions in the area in front of Tobu Hikifune Station",
+		"official": "Ordinance Partially Amending the Sumida City Ordinance on Restrictions on Buildings in Areas Covered by District Plans",
+		"summary": "The city's ordinance sets restrictions on buildings in district plan areas. The amendment adds the district development plan area in front of Tobu Hikifune Station and sets rules for business uses, site area, and wall locations.",
+		"changes": [
+			"Add the district development plan area to the areas covered by the ordinance",
+			"Ban buildings used for storefront or non-storefront adult entertainment businesses and similar businesses",
+			"Set the minimum site area at 500 square meters, except for sites for buildings needed for the public interest, such as public toilets, and park facilities and similar facilities provided to support pedestrian circulation, convenience, and vibrancy",
+			"Set wall-location restrictions specified in Plan Drawing 3, except for eaves, balconies, and similar structures that protect against falling objects, and iron fences and similar structures that prevent falls"
+		],
+		"who": [
+			"People and businesses planning construction in the district development plan area in front of Tobu Hikifune Station"
+		],
+		"why": "The ward says that, because the district plan for the area in front of Tobu Hikifune Station was adopted as an urban planning decision, the area needs to be added to the ordinance and building restrictions need to be set.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:33:40.971Z",
+			"inputTokens": 734,
+			"cachedTokens": 0,
+			"outputTokens": 649,
+			"reasoningTokens": 331
+		}
+	}
 }

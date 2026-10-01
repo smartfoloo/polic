@@ -22,5 +22,74 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_64.pdf",
 			"fetchedAt": "2026-09-30T10:18:03.246Z"
 		}
-	]
+	],
+	"name": "前年度非課税者の介護保険料を減免",
+	"category": "福祉",
+	"summary": "令和7年度と令和8年度の住民税が非課税でも、条例の別の規定により令和8年度は課税扱いとなり、介護保険料の段階が上がる場合があります。この改正で、その影響を受ける第1号被保険者の保険料を、申請なしで減免できるようにします。",
+	"changes": [
+		"区長が申請なしで保険料を減免できるようにする",
+		"減免額を、決定した保険料と前条を適用しない場合の保険料との差額とする"
+	],
+	"who": [
+		"令和8年度の保険料段階が上がる第1号被保険者"
+	],
+	"why": "令和8年度における前年度非課税者の保険料減免に関する特例を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:04:30.453Z",
+		"inputTokens": 1661,
+		"cachedTokens": 0,
+		"outputTokens": 1385,
+		"reasoningTokens": 1115
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:04:30.453Z",
+		"checkedAt": "2026-09-30T15:45:21.203Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区長が申請なしで保険料を減免できるようにする",
+				"note": "対象条件が抜けている。原文では、本人・世帯主・世帯員の中に令和7・8年度とも市町村民税が非課税で付則第11条によりみなし課税となる者がいて、そのため本人の保険料段階が高くなった場合に限る。本人だけでなく世帯内のみなし課税者による影響も対象となる。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1680,
+			"cachedTokens": 0,
+			"outputTokens": 352,
+			"reasoningTokens": 203
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "106902c8e25edefd",
+		"name": "Reduces care insurance premiums for people exempt from resident tax in the previous fiscal year",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on the Long-Term Care Insurance System",
+		"summary": "Even if a person is exempt from resident tax in FY2025 and FY2026, another provision of the ordinance may treat them as taxable in FY2026, which may raise their long-term care insurance premium tier. This amendment allows premiums for affected Category 1 insured persons to be reduced or exempted without an application.",
+		"changes": [
+			"Allows the mayor to reduce or exempt premiums without an application",
+			"Sets the reduction amount as the difference between the determined premium and the premium that would apply if the preceding Article were not applied"
+		],
+		"who": [
+			"Category 1 insured persons whose premium tier rises in FY2026"
+		],
+		"why": "The ward says this is to establish a special measure for reducing premiums in FY2026 for people who were exempt from resident tax in the previous fiscal year.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:25.472Z",
+			"inputTokens": 618,
+			"cachedTokens": 0,
+			"outputTokens": 692,
+			"reasoningTokens": 455
+		}
+	}
 }

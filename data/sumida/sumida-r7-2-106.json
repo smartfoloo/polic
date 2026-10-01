@@ -22,5 +22,87 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/106gian.pdf",
 			"fetchedAt": "2026-09-30T10:14:04.639Z"
 		}
-	]
+	],
+	"name": "軽自動車の環境性能割を廃止",
+	"category": "税・手数料",
+	"summary": "現在、条例には軽自動車税の環境性能割に関する規定があります。この改正で環境性能割を廃止し、住宅ローン控除の適用対象となる居住年の期限を令和12年まで延ばします。また、公的年金を受け取る人の申告対象や申告書の記載事項も改めます。",
+	"changes": [
+		"軽自動車税の環境性能割に関する規定を削除する",
+		"住宅ローン控除の適用対象となる居住年の期限を令和12年まで延ばす",
+		"公的年金等を受け取る人の申告対象と申告書の記載事項を改める"
+	],
+	"who": [
+		"軽自動車を取得する人",
+		"住宅ローン控除を受ける人",
+		"公的年金等を受け取り、申告書を提出する人"
+	],
+	"why": "地方税法等の改正に伴い、住宅ローン控除の適用期限の延長や軽自動車税の環境性能割の廃止などが必要なためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:07:46.121Z",
+		"inputTokens": 6216,
+		"cachedTokens": 0,
+		"outputTokens": 1670,
+		"reasoningTokens": 1341
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:07:46.121Z",
+		"checkedAt": "2026-09-30T15:47:04.469Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "付則第11条では、土地等の譲渡に関する特例の期限を令和8年度から令和11年度へ延長し、一定の災害危険区域内の土地等の譲渡を優良住宅地等のための譲渡から除外しています。この変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "付則第6条第2項では、軽自動車税の特例の対象期間を「令和4年4月1日から令和8年3月31日」から「令和7年4月1日から令和10年3月31日」へ変更しています。環境性能割の廃止とは別の、この特例の変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6287,
+			"cachedTokens": 0,
+			"outputTokens": 524,
+			"reasoningTokens": 271
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "494804d82a17953a",
+		"name": "Ends the environmental performance levy on light motor vehicles",
+		"official": "Ordinance Partially Amending the Sumida City Special Ward Tax Ordinance",
+		"summary": "The ordinance currently includes provisions on the environmental performance levy for light motor vehicle tax. This amendment abolishes the levy and extends through 2030 the deadline for the year of residence to qualify for the housing loan tax deduction. It also changes who among recipients of public pensions, etc., must file a declaration and what information they must include on the declaration form.",
+		"changes": [
+			"Removes provisions on the environmental performance levy for light motor vehicle tax",
+			"Extends through 2030 the deadline for the year of residence to qualify for the housing loan tax deduction",
+			"Changes who among recipients of public pensions, etc., must file a declaration and what information they must include on the declaration form"
+		],
+		"who": [
+			"People acquiring light motor vehicles",
+			"People claiming the housing loan tax deduction",
+			"People receiving public pensions, etc., and submitting a declaration"
+		],
+		"why": "The ward says changes to the Local Tax Act and other laws make it necessary to extend the deadline for the housing loan tax deduction and abolish the environmental performance levy for light motor vehicle tax, among other changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:16:05.739Z",
+			"inputTokens": 671,
+			"cachedTokens": 0,
+			"outputTokens": 676,
+			"reasoningTokens": 391
+		}
+	}
 }

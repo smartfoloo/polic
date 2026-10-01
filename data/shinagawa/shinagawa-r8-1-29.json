@@ -22,5 +22,71 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_29.pdf",
 			"fetchedAt": "2026-09-30T10:16:27.144Z"
 		}
-	]
+	],
+	"name": "条例の法律引用条文を改める",
+	"category": "福祉",
+	"summary": "条例では、施設の事業に関する規定で法律の条文を参照しています。この議案では、法律の改正に合わせて、参照する条文番号を改めます。公布の日から施行されます。",
+	"changes": [
+		"第6条の2の2第4項の引用を第3項に改める",
+		"第6条の2の2第6項の引用を第5項に改める",
+		"第6条の2の2第7項の引用を第6項に改める",
+		"第5条第18項・第14項の引用を、それぞれ第19項・第15項に改める"
+	],
+	"who": [],
+	"why": "児童福祉法と障害者の日常生活及び社会生活を総合的に支援するための法律の改正に伴い、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:01:30.627Z",
+		"inputTokens": 1312,
+		"cachedTokens": 0,
+		"outputTokens": 751,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:01:30.627Z",
+		"checkedAt": "2026-09-30T15:44:06.078Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1326,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e15b43ceadb65514",
+		"name": "Updates legal citations in the ordinance",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on the Comprehensive Support Facility for Children and Persons with Disabilities",
+		"summary": "The ordinance refers to provisions of laws in rules about the facility's services. This bill updates the cited provision numbers to reflect amendments to the laws. It will take effect on the date of promulgation.",
+		"changes": [
+			"Changes the reference in Article 6-2-2, paragraph 4, to paragraph 3",
+			"Changes the reference in Article 6-2-2, paragraph 6, to paragraph 5",
+			"Changes the reference in Article 6-2-2, paragraph 7, to paragraph 6",
+			"Changes the references in Article 5, paragraphs 18 and 14, to paragraphs 19 and 15, respectively"
+		],
+		"who": [
+			"Not specified",
+			"Not specified",
+			"Not specified",
+			"Not specified"
+		],
+		"why": "The ward says this is to update the provisions following amendments to the Child Welfare Act and the Act for Comprehensive Support for the Daily and Social Lives of Persons with Disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:31:02.111Z",
+			"inputTokens": 611,
+			"cachedTokens": 0,
+			"outputTokens": 1344,
+			"reasoningTokens": 1077
+		}
+	}
 }

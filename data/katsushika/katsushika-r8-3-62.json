@@ -27,5 +27,64 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian62.pdf",
 			"fetchedAt": "2026-09-30T10:40:17.445Z"
 		}
-	]
+	],
+	"name": "災害対応の損害補償から配偶者加算を廃止",
+	"category": "防災",
+	"summary": "現在は、損害補償の基礎額に配偶者に関する加算があります。この議案で、その加算をなくします。条例は公布日から施行し、施行前に支給の理由が生じた補償などには、種類や期間に応じて改正前の規定を適用します。",
+	"changes": [
+		"損害補償の基礎額にある配偶者加算を廃止する"
+	],
+	"who": [
+		"損害補償を受ける人のうち、配偶者に関する加算の対象となる人"
+	],
+	"why": "国の政令改正を踏まえ、配偶者に係る補償基礎額の加算を廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:39:16.388Z",
+		"inputTokens": 1589,
+		"cachedTokens": 0,
+		"outputTokens": 1166,
+		"reasoningTokens": 915
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:39:16.388Z",
+		"checkedAt": "2026-09-30T15:32:07.057Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1581,
+			"cachedTokens": 0,
+			"outputTokens": 39,
+			"reasoningTokens": 24
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c1d1b08f3b61186c",
+		"name": "Abolishes the spouse supplement to disaster response compensation",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Damage Relating to Persons Engaged in Emergency Response Duties in the Event of a Disaster, etc.",
+		"summary": "At present, the basic amount of compensation includes an additional amount for a spouse. This bill abolishes that supplement. The ordinance will take effect on the date it is promulgated. For compensation, etc., where the reason for payment arose before it takes effect, the provisions before amendment will apply according to the type and period.",
+		"changes": [
+			"Abolishes the spouse supplement included in the basic amount of compensation for damage"
+		],
+		"who": [
+			"People receiving compensation for damage who qualify for the spouse-related supplement"
+		],
+		"why": "The ward says this is to abolish the supplement to the basic compensation amount for spouses, in response to an amendment to a national government order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:24:29.444Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 583,
+			"reasoningTokens": 366
+		}
+	}
 }

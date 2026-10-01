@@ -27,5 +27,68 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-16.pdf",
 			"fetchedAt": "2026-09-30T10:11:09.866Z"
 		}
-	]
+	],
+	"name": "医療費助成事務で個人番号を利用",
+	"category": "デジタル",
+	"summary": "条例では、個人番号を利用する事務や情報を定めています。この議案で、大気汚染による健康障害者への医療費助成事務と、その事務で使う医療保険給付関係情報を加えます。また、別表第3の参照条文も改めます。別表第3の改正は2026年4月1日、その他の改正は2026年10月1日から施行します。",
+	"changes": [
+		"大気汚染による健康障害者への医療費助成事務を個人番号の利用対象に加える",
+		"医療保険給付関係情報を利用する情報に加える",
+		"別表第3第6項の参照条文を第157条第5号から第17号まで及び第19号に改める"
+	],
+	"who": [
+		"大気汚染による健康障害者への医療費助成の対象者"
+	],
+	"why": "個人番号の利用範囲を改めるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:12:46.615Z",
+		"inputTokens": 1376,
+		"cachedTokens": 0,
+		"outputTokens": 969,
+		"reasoningTokens": 690
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:12:46.615Z",
+		"checkedAt": "2026-09-30T15:49:53.239Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1428,
+			"cachedTokens": 0,
+			"outputTokens": 78,
+			"reasoningTokens": 64
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a01c7b7092f568b5",
+		"name": "Uses personal numbers for medical expense assistance administration",
+		"official": "Ordinance Partially Amending the Taito City Ordinance for Enforcement of the Act on the Use of Numbers to Identify a Specific Individual in Administrative Procedures, etc.",
+		"summary": "The ordinance specifies the administrative tasks for which personal numbers may be used and the information used for those tasks. This bill adds the administration of medical expense assistance for people with health problems caused by air pollution, and information related to medical insurance benefits used for that administration. It also revises the provisions referenced in Appendix Table 3. The amendment to Appendix Table 3 takes effect on April 1, 2026, and the other amendments take effect on October 1, 2026.",
+		"changes": [
+			"Adds medical expense assistance administration for people with health problems caused by air pollution to the tasks for which personal numbers may be used",
+			"Adds information related to medical insurance benefits to the information that may be used",
+			"Changes the provisions referenced in Item 6 of Appendix Table 3 to Article 157, items (5) through (17) and (19)"
+		],
+		"who": [
+			"People eligible for medical expense assistance for health problems caused by air pollution"
+		],
+		"why": "The mayor says this is to revise the scope of use of personal numbers.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:18:32.531Z",
+			"inputTokens": 675,
+			"cachedTokens": 0,
+			"outputTokens": 1003,
+			"reasoningTokens": 709
+		}
+	}
 }

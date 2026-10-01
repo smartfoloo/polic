@@ -69,5 +69,30 @@
 			"outputTokens": 269,
 			"reasoningTokens": 171
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "041a68ebd3f197af",
+		"name": "Revises fees for occupying river land",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on Collection of River Water Occupancy Fees, etc.",
+		"summary": "The Tokyo Metropolitan Government sets fees, etc. for occupying land within river areas. This bill revises the amounts of the occupancy fees, etc. It takes effect on April 1, 2026.",
+		"changes": [
+			"Revises river-area land occupancy fees according to location and type of occupancy",
+			"Changes the amount listed in the appended table from ¥6,477 to ¥6,833"
+		],
+		"who": [
+			"People and businesses that occupy land within river areas"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to ensure that the burden on users is appropriate.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:27.849Z",
+			"inputTokens": 542,
+			"cachedTokens": 0,
+			"outputTokens": 423,
+			"reasoningTokens": 235
+		}
 	}
 }

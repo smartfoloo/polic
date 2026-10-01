@@ -22,5 +22,64 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_69.pdf",
 			"fetchedAt": "2026-09-30T10:18:33.255Z"
 		}
-	]
+	],
+	"name": "預かり保育の条例上の額を450円から490円に",
+	"category": "子育て",
+	"summary": "条例第5条第4項の金額を450円から490円に改めます。概要では、保育の必要性の認定を受けた児童の預かり保育利用料を軽減するとしています。改正後の規定は令和8年10月分から適用されます。",
+	"changes": [
+		"第5条第4項の金額を450円から490円に改める"
+	],
+	"who": [
+		"保育の必要性の認定を受け、区立幼稚園の預かり保育を利用する児童"
+	],
+	"why": "子ども・子育て支援法施行規則の改正に伴い、保育の必要性の認定を受けた児童の預かり保育利用料を軽減するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:05:41.551Z",
+		"inputTokens": 1251,
+		"cachedTokens": 0,
+		"outputTokens": 2151,
+		"reasoningTokens": 1900
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:05:41.551Z",
+		"checkedAt": "2026-09-30T15:45:54.841Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1252,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2b1ffb97a2923ee6",
+		"name": "Raises the ordinance amount for supervised childcare from ¥450 to ¥490",
+		"official": "Ordinance Partially Amending the Shinagawa City Municipal Kindergarten Ordinance",
+		"summary": "Changes the amount in Article 5, paragraph 4, from ¥450 to ¥490. The outline says this will reduce the supervised childcare fee for children certified as needing childcare. The revised provisions apply from October 2026.",
+		"changes": [
+			"Changes the amount in Article 5, paragraph 4, from ¥450 to ¥490"
+		],
+		"who": [
+			"Children certified as needing childcare who use supervised childcare at municipal kindergartens"
+		],
+		"why": "The ward says this change is being made to reduce the supervised childcare fee for children certified as needing childcare, following an amendment to the Enforcement Regulations of the Child and Child-Rearing Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:31:58.061Z",
+			"inputTokens": 596,
+			"cachedTokens": 0,
+			"outputTokens": 642,
+			"reasoningTokens": 443
+		}
+	}
 }

@@ -27,5 +27,96 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-52.pdf",
 			"fetchedAt": "2026-09-30T12:19:56.964Z"
 		}
-	]
+	],
+	"name": "満3歳以上限定の小規模保育基準を追加",
+	"category": "子育て",
+	"summary": "区内の保育施設や地域型保育事業の運営基準を定めています。この議案では、満3歳以上の子どもだけを受け入れる小規模保育事業の区分を設け、定員や利用選考などのルールを加えます。",
+	"changes": [
+		"満3歳以上限定小規模保育事業の定義を設ける",
+		"事業所ごとに満3歳以上の保育認定子どもの利用定員を定める",
+		"定員を超える申込みがある場合、保育の必要度や家族の状況を踏まえて利用者を選考する",
+		"教育認定子どもに特別利用地域型保育を提供する場合の基準を設ける"
+	],
+	"who": [
+		"満3歳以上限定小規模保育事業者",
+		"満3歳以上の子どもを預ける保護者",
+		"特別利用地域型保育を利用する教育認定子どもの保護者"
+	],
+	"why": "国の運営基準の改正に伴い、満3歳以上限定小規模保育事業などの規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:18:43.580Z",
+		"inputTokens": 7120,
+		"cachedTokens": 0,
+		"outputTokens": 1214,
+		"reasoningTokens": 867
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:18:43.580Z",
+		"checkedAt": "2026-09-30T15:52:50.551Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "定員を超える申込みがある場合、保育の必要度や家族の状況を踏まえて利用者を選考する",
+				"note": "新設する第39条第3項では、申込児童と既存利用児童の合計が定員を超える場合に、保育の必要性が高い子どもを優先すると規定している。既存利用児童を含む判定と優先利用の原則が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "教育認定子どもに特別利用地域型保育を提供する場合の基準を設ける",
+				"note": "新設する第51条の2では、教育認定子どもと既存の保育認定子どもの合計を定員以内とすることや、抽選・申込順など公正な方法で選考することを規定している。利用者に直接関わる主要な基準が具体的に示されていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "満3歳以上限定小規模保育事業の定義を設ける",
+				"note": "新設する第42条第8項では、満3歳以上限定小規模保育事業者が連携施設を確保する際、第1項第3号の連携協力を求める必要がないと規定している。事業者に直接関わるこの変更がchangesにない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 7208,
+			"cachedTokens": 0,
+			"outputTokens": 653,
+			"reasoningTokens": 215
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d642eaff39a926bc",
+		"name": "Adds standards for small-scale childcare limited to children aged 3 and older",
+		"official": "Ordinance Partially Amending the Taito City, Tokyo Ordinance on Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses",
+		"summary": "The ward sets standards for the operation of childcare facilities and community-based childcare businesses in the ward. This bill creates a category of small-scale childcare businesses that accept only children aged 3 and older, and adds rules on capacity and user selection, among other things.",
+		"changes": [
+			"Define small-scale childcare businesses limited to children aged 3 and older",
+			"Set a user capacity at each business location for children aged 3 and older who are certified as needing childcare",
+			"Select users based on their need for childcare and family circumstances when applications exceed capacity",
+			"Set standards for providing special-use community-based childcare to children certified for education"
+		],
+		"who": [
+			"Operators of small-scale childcare businesses limited to children aged 3 and older",
+			"Parents who use childcare for children aged 3 and older",
+			"Parents of children certified for education who use special-use community-based childcare"
+		],
+		"why": "The ward says it is making these changes to align its provisions for small-scale childcare businesses limited to children aged 3 and older, among other things, with revisions to the national operating standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:21:10.854Z",
+			"inputTokens": 714,
+			"cachedTokens": 0,
+			"outputTokens": 1197,
+			"reasoningTokens": 887
+		}
+	}
 }

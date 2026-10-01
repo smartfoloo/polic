@@ -22,5 +22,80 @@
 			"url": "https://kugikai-nakano.jp/gian/263294353.pdf",
 			"fetchedAt": "2026-09-30T10:25:57.046Z"
 		}
-	]
+	],
+	"name": "特定乳児等通園支援の運営基準を定める",
+	"category": "子育て",
+	"summary": "子ども・子育て支援法の改正に伴い、中野区で特定乳児等通園支援事業の運営基準を定めます。利用定員や利用時の面談、費用、職員体制など、事業者が守る事項を設けます。施行日は令和8年4月1日です。",
+	"changes": [
+		"1時間当たりと1月当たりの利用定員を定める",
+		"利用開始にあたり、保護者との面談や重要事項の説明、同意を求める",
+		"利用者から受け取れる費用や、支払い時の説明、領収証の交付について定める",
+		"職員体制や事故対応、苦情受付、記録保存などの運営基準を設ける"
+	],
+	"who": [
+		"特定乳児等通園支援事業者",
+		"特定乳児等通園支援を利用する未就学児と保護者"
+	],
+	"why": "子ども・子育て支援法の改正に伴い、事業の運営基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:47:49.811Z",
+		"inputTokens": 10674,
+		"cachedTokens": 0,
+		"outputTokens": 1229,
+		"reasoningTokens": 923
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:47:49.811Z",
+		"checkedAt": "2026-09-30T15:36:03.739Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "職員体制や事故対応、苦情受付、記録保存などの運営基準を設ける",
+				"note": "利用者の保護に直接関わる、正当な理由のない利用拒否の禁止（第5条）、差別的取扱い・虐待の禁止（第23・24条）、秘密保持と外部への情報提供時の保護者の事前同意（第25条）が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 10759,
+			"cachedTokens": 0,
+			"outputTokens": 262,
+			"reasoningTokens": 108
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4a5eed262e8384c2",
+		"name": "Sets operating standards for the specified infant and other child attendance support program",
+		"official": "Ordinance on Operating Standards for Nakano City’s Specified Infant and Other Child Attendance Support Program",
+		"summary": "Following amendments to the Child and Child-Rearing Support Act, Nakano City will set operating standards for the specified infant and other child attendance support program. The standards will set requirements that providers must follow, including user capacity, interviews when the service is used, fees, and staffing arrangements. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Sets the number of users allowed per hour and per month",
+			"Requires an interview with guardians, an explanation of important matters, and their consent before use begins",
+			"Specifies the fees that may be collected from users, explanations at the time of payment, and the issuing of receipts",
+			"Sets operating standards for staffing, accident response, complaint handling, and record retention"
+		],
+		"who": [
+			"Providers of the specified infant and other child attendance support program",
+			"Preschool children who use the specified infant and other child attendance support service and their guardians"
+		],
+		"why": "The ward says it is necessary to set operating standards for the program following amendments to the Child and Child-Rearing Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:05:50.189Z",
+			"inputTokens": 690,
+			"cachedTokens": 0,
+			"outputTokens": 1004,
+			"reasoningTokens": 715
+		}
+	}
 }

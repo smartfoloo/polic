@@ -61,5 +61,30 @@
 			"outputTokens": 45,
 			"reasoningTokens": 31
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "42a14053e0e65b5b",
+		"name": "Raises the cap on chartered vehicle fares",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Chartered Motor Vehicle Ordinance",
+		"summary": "The current cap on time-based fares for chartered vehicles is ¥7,680 per hour. This bill raises the cap to ¥10,272 and changes the ¥170 listed in the ordinance's table to ¥243. The effective date will be set by Tokyo Metropolitan Government regulations.",
+		"changes": [
+			"Raises the cap on time-based passenger fares from ¥7,680 to ¥10,272 per hour",
+			"Changes the ¥170 listed in the ordinance's table to ¥243"
+		],
+		"who": [
+			"People who use chartered vehicles in Tokyo"
+		],
+		"why": "The Tokyo Metropolitan Government says the cap is being revised in light of the implementation of an order to change fares and charges for general chartered passenger vehicle services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:42.172Z",
+			"inputTokens": 591,
+			"cachedTokens": 0,
+			"outputTokens": 799,
+			"reasoningTokens": 591
+		}
 	}
 }

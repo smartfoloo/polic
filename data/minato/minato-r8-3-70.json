@@ -32,5 +32,70 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB858_70.pdf",
 			"fetchedAt": "2026-09-30T12:35:24.806Z"
 		}
-	]
+	],
+	"name": "子どもと接する特定業務の犯罪事実確認を義務化",
+	"category": "子育て",
+	"summary": "国の基準などの改正を受け、港区の7つの条例に、子どもへの性暴力等を防ぐための基準を加えます。施設や事業の設置者などに、犯罪事実確認や必要な措置を義務付けます。施行日は2026年12月25日です。",
+	"changes": [
+		"犯罪事実確認など、性暴力等を防ぐための措置を基準に加える",
+		"性暴力等が起きた場合に子どもを適切に保護する措置を定める"
+	],
+	"who": [
+		"条例改正の対象となる施設や事業の設置者・事業者",
+		"子どもと接する特定の業務に従事する人",
+		"対象となる施設や事業を利用する子ども"
+	],
+	"why": "国の基準などの改正を踏まえ、児童対象性暴力等を防ぐための措置を義務付けるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:45:32.151Z",
+		"inputTokens": 4755,
+		"cachedTokens": 0,
+		"outputTokens": 2376,
+		"reasoningTokens": 2070
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:45:32.151Z",
+		"checkedAt": "2026-09-30T15:35:09.945Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4806,
+			"cachedTokens": 0,
+			"outputTokens": 78,
+			"reasoningTokens": 64
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a1961765f8bf1a86",
+		"name": "Makes criminal record checks mandatory for certain jobs involving children",
+		"official": "Ordinance Partially Amending the Minato City Ordinance Establishing Standards for Equipment and Operation of Child Welfare Facilities, etc.",
+		"summary": "Following revisions to national standards and other rules, the ordinance adds standards to 7 Minato City ordinances to prevent sexual violence against children, etc. It requires the people who establish or operate facilities and businesses to check criminal records and take necessary measures. It takes effect on December 25, 2026.",
+		"changes": [
+			"Add measures such as criminal record checks to the standards for preventing sexual violence, etc.",
+			"Set out measures to appropriately protect children if sexual violence, etc. occurs"
+		],
+		"who": [
+			"People who establish or operate facilities and businesses covered by the ordinance amendments",
+			"People engaged in certain jobs involving contact with children",
+			"Children who use the covered facilities and businesses"
+		],
+		"why": "The ward says the measures are required to prevent sexual violence against children, etc., in light of revisions to national standards and other rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:04:27.374Z",
+			"inputTokens": 667,
+			"cachedTokens": 0,
+			"outputTokens": 857,
+			"reasoningTokens": 609
+		}
+	}
 }

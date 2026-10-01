@@ -27,5 +27,80 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4365_R81TG048.pdf",
 			"fetchedAt": "2026-09-30T10:35:17.428Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援の運営基準を改正",
+	"category": "子育て",
+	"summary": "区は、乳児等通園支援事業の設備や運営に関する基準を条例で定めています。この議案では、用語や利用定員の定義を整え、職員要件や設備・職員基準の特例を改めます。令和8年4月1日から施行します。",
+	"changes": [
+		"事業者を「事業所」とするなど、用語や規定の表現を改める",
+		"利用定員を、子ども・子育て支援法の確認で定める定員と明記する",
+		"一般型事業の職員要件に関する規定を改める",
+		"特例保育を行う事業者が同じ事業所で一般型事業を行う場合、設備・職員基準を適用しない"
+	],
+	"who": [
+		"乳児等通園支援事業所の運営者",
+		"特例保育を行う事業者"
+	],
+	"why": "乳児等通園支援事業の整備及び運営に関する基準の改正に伴い、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:24:00.899Z",
+		"inputTokens": 2024,
+		"cachedTokens": 0,
+		"outputTokens": 2000,
+		"reasoningTokens": 1663
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:24:00.899Z",
+		"checkedAt": "2026-09-30T15:23:52.417Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "一般型事業の職員要件に関する規定を改める",
+				"note": "第22条第1項の改正で、認定地方公共団体の区域内の事業所では、その区域に係る地域限定保育士を職員要件に含めるという具体的な変更が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2111,
+			"cachedTokens": 0,
+			"outputTokens": 252,
+			"reasoningTokens": 143
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "59af4fa3cdee4eff",
+		"name": "Revises operating standards for infant and other childcare support",
+		"official": "Ordinance Partially Amending the Adachi City Ordinance Establishing Standards for Facilities and Operation of Infant and Other Childcare Support Programs",
+		"summary": "The ward sets standards for the facilities and operation of infant and other childcare support programs by ordinance. This bill revises terminology and the definition of capacity, and changes staffing requirements and exceptions to facility and staffing standards. It takes effect on April 1, 2026.",
+		"changes": [
+			"Revises terminology and wording, including changing “operator” to “establishment”",
+			"Specifies that capacity means the capacity set through confirmation under the Act on Child and Childcare Support",
+			"Revises provisions on staffing requirements for general-type programs",
+			"Exempts a provider conducting special-case childcare from facility and staffing standards when it also conducts a general-type program at the same establishment"
+		],
+		"who": [
+			"Operators of infant and other childcare support establishments",
+			"Providers conducting special-case childcare"
+		],
+		"why": "The ward says this is to update the ordinance provisions in response to amendments to the standards for the establishment and operation of infant and other childcare support programs.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:21:17.465Z",
+			"inputTokens": 701,
+			"cachedTokens": 0,
+			"outputTokens": 790,
+			"reasoningTokens": 516
+		}
+	}
 }

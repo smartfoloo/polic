@@ -32,5 +32,60 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB794_42.pdf",
 			"fetchedAt": "2026-09-30T12:32:55.346Z"
 		}
-	]
+	],
+	"name": "条例の引用条項を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、条例は児童福祉法施行規則の「第五条の二の八」を引用しています。この議案で、引用先を「第五条の二の八第一項」に改めます。公布の日から施行します。",
+	"changes": [
+		"引用する条項を「第五条の二の八」から「第五条の二の八第一項」に改める"
+	],
+	"who": [],
+	"why": "児童福祉法施行規則の改正に伴い、条例で引用する条項番号を変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:44:02.782Z",
+		"inputTokens": 1460,
+		"cachedTokens": 0,
+		"outputTokens": 604,
+		"reasoningTokens": 446
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:44:02.782Z",
+		"checkedAt": "2026-09-30T15:34:27.393Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1383,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1118d5164e50ef91",
+		"name": "Changes the cited provision in the ordinance",
+		"official": "Ordinance Partially Amending the Minato City Ordinance Prescribing Standards for Equipment and Operation of Temporary Protection Facilities",
+		"summary": "The ordinance currently cites “Article 5-2-8” of the Enforcement Regulations of the Child Welfare Act. This bill changes the citation to “Article 5-2-8, Paragraph 1.” It will take effect on the date of promulgation.",
+		"changes": [
+			"Changes the cited provision from “Article 5-2-8” to “Article 5-2-8, Paragraph 1”"
+		],
+		"who": [],
+		"why": "The ward says this is to change the provision number cited in the ordinance following an amendment to the Enforcement Regulations of the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:57.290Z",
+			"inputTokens": 536,
+			"cachedTokens": 0,
+			"outputTokens": 553,
+			"reasoningTokens": 365
+		}
+	}
 }

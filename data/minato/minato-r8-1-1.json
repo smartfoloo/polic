@@ -32,5 +32,68 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB707_1.pdf",
 			"fetchedAt": "2026-09-30T10:10:10.710Z"
 		}
-	]
+	],
+	"name": "聴聞などの通知方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、公示送達による通知では、行政庁の事務所の掲示場への掲示などを使います。改正後は、公示内容を不特定多数が閲覧できる状態に置き、事務所の掲示場に掲示するか、事務所の電子計算機画面で閲覧できるようにします。通知は、その措置を始めてから2週間後に届いたものとみなされ、2026年5月21日以後の通知に適用されます。",
+	"changes": [
+		"公示事項を不特定多数が閲覧できる状態に置く",
+		"掲示場に掲示するか、事務所の電子計算機画面で閲覧できる状態にする",
+		"通知を措置開始から2週間後に到達したものとみなす"
+	],
+	"who": [
+		"聴聞などの通知を公示で受ける人"
+	],
+	"why": "行政手続法の改正を踏まえ、聴聞などの通知に使う公示送達の方法を変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:39:56.122Z",
+		"inputTokens": 1859,
+		"cachedTokens": 0,
+		"outputTokens": 1493,
+		"reasoningTokens": 1210
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:39:56.122Z",
+		"checkedAt": "2026-09-30T15:32:30.497Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1917,
+			"cachedTokens": 0,
+			"outputTokens": 391,
+			"reasoningTokens": 377
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "179f6a080c945757",
+		"name": "Changes how notices of hearings are served",
+		"official": "Ordinance Partially Amending the Minato City Administrative Procedure Ordinance",
+		"summary": "Currently, notices served by public notice are given by methods such as posting them on a notice board at the administrative authority’s office. After the amendment, the information in the notice will be made available for anyone to view, either by posting it on the office notice board or making it viewable on a computer screen at the office. The notice will be considered delivered two weeks after these measures begin. The changes will apply to notices issued on or after May 21, 2026.",
+		"changes": [
+			"Make the information in public notices available for anyone to view",
+			"Post the information on the office notice board or make it viewable on a computer screen at the office",
+			"Consider a notice delivered two weeks after the measures begin"
+		],
+		"who": [
+			"People who receive notices of hearings and similar proceedings by public notice"
+		],
+		"why": "Minato City says the method of serving notices of hearings and similar proceedings by public notice is being changed in light of revisions to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:02:21.312Z",
+			"inputTokens": 652,
+			"cachedTokens": 0,
+			"outputTokens": 735,
+			"reasoningTokens": 473
+		}
+	}
 }

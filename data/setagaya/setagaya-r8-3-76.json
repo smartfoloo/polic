@@ -27,5 +27,90 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/76.pdf",
 			"fetchedAt": "2026-09-30T10:22:28.193Z"
 		}
-	]
+	],
+	"name": "障害児への性暴力防止措置を定める",
+	"category": "福祉",
+	"summary": "この条例は、指定障害児通所支援の事業に関する人員・設備・運営の基準を定めています。改正後は、指定児童発達支援事業者に、児童対象性暴力等の防止や、発生した場合の障害児の保護に必要な措置を求めます。施行日は2026年12月25日です。",
+	"changes": [
+		"指定児童発達支援事業者に児童対象性暴力等の防止と発生時の障害児の保護に必要な措置を求める",
+		"障害児と支配性・継続性・閉鎖性のある環境で接する業務従事者について、犯罪事実確認などの措置を求める"
+	],
+	"who": [
+		"指定児童発達支援事業者",
+		"障害児と支配性・継続性・閉鎖性のある環境で接する業務従事者",
+		"障害児"
+	],
+	"why": "児童福祉法に基づく国の基準改正に伴い、児童等への性暴力等を防ぐ規定を設け、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:55:54.681Z",
+		"inputTokens": 1690,
+		"cachedTokens": 0,
+		"outputTokens": 1353,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:55:54.681Z",
+		"checkedAt": "2026-09-30T15:40:47.897Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "障害児と接する業務従事者の犯罪事実確認などの措置を求める",
+				"note": "原文の犯罪事実確認の対象は、障害児と接する者のうち「支配性、継続性及び閉鎖性のある環境」で接する業務従事者に限定されている。要約では対象が広く読める。",
+				"dismissed": {
+					"note": "Fixed in the text: limited to staff in a 支配性・継続性・閉鎖性 setting.",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "指定児童発達支援事業者に児童対象性暴力等の防止と発生時の障害児の保護に必要な措置を求める",
+				"note": "第61条、第82条、第83条、第95条、第100条の参照規定に第44条を含め、防止措置の適用を広げる改正がchangesに記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1753,
+			"cachedTokens": 0,
+			"outputTokens": 411,
+			"reasoningTokens": 177
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bb4b31eeaf8755f4",
+		"name": "Sets out measures to prevent sexual violence against children with disabilities",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Standards for Staffing, Facilities, and Operation, etc., of Businesses Providing Designated Day Services for Children with Disabilities",
+		"summary": "This ordinance sets standards for the staffing, facilities, and operation of businesses providing designated day services for children with disabilities. After the amendment, designated child development support providers will be required to take measures to prevent sexual violence and other acts targeting children, and to protect children with disabilities if such acts occur. The amendment takes effect on December 25, 2026.",
+		"changes": [
+			"Requires designated child development support providers to take measures to prevent sexual violence and other acts targeting children",
+			"Requires those providers to take necessary measures to protect children with disabilities if such acts occur",
+			"Requires measures, including criminal-record checks, for workers who interact with children with disabilities in settings marked by power imbalance, ongoing contact, and limited openness"
+		],
+		"who": [
+			"Designated child development support providers",
+			"Children with disabilities",
+			"Workers who interact with children with disabilities in settings marked by power imbalance, ongoing contact, and limited openness"
+		],
+		"why": "The ward says the amendment is intended to establish provisions to prevent sexual violence and other acts against children and others, and to organize the related provisions, following revisions to national standards under the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:29:03.531Z",
+			"inputTokens": 725,
+			"cachedTokens": 0,
+			"outputTokens": 1592,
+			"reasoningTokens": 1274
+		}
+	}
 }

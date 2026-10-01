@@ -22,5 +22,74 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_17.pdf",
 			"fetchedAt": "2026-09-30T10:15:15.306Z"
 		}
-	]
+	],
+	"name": "管理職などの給料表と手当を見直す",
+	"category": "行政のしくみ",
+	"summary": "職員の給料表や管理職員特別勤務手当は、条例で定められています。この議案では給料表や手当の扱いを改め、令和8年4月1日から適用します。",
+	"changes": [
+		"管理職などに適用する給料表を改める",
+		"技能・業務系職員の給料表を改める",
+		"一般事務などの部長級職員の標準昇給号給数を0号給にする",
+		"管理職員特別勤務手当の対象時間や額の算定方法を改める"
+	],
+	"who": [
+		"管理職員",
+		"一般事務などの部長級職員",
+		"技能・業務系職員"
+	],
+	"why": "特別区人事委員会の勧告などを踏まえて給料表や手当を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:59:53.748Z",
+		"inputTokens": 17615,
+		"cachedTokens": 0,
+		"outputTokens": 1404,
+		"reasoningTokens": 1131
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:59:53.748Z",
+		"checkedAt": "2026-09-30T15:43:05.493Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 17639,
+			"cachedTokens": 0,
+			"outputTokens": 72,
+			"reasoningTokens": 58
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "56162f16d3d24b69",
+		"name": "Revises pay scales and allowances for managers and others",
+		"official": "Ordinance Partially Amending the Ordinance Concerning Employee Salaries",
+		"summary": "Employees’ pay scales and the special work allowance for management staff are set by ordinance. This bill revises the pay scales and the treatment of allowances, effective April 1, 2026.",
+		"changes": [
+			"Revises the pay scales for managers and others",
+			"Revises the pay scales for skilled and operations staff",
+			"Sets the standard number of pay steps for department-head-level employees in general administration and similar roles at 0",
+			"Revises the eligible hours and method for calculating the amount of the special work allowance for management staff"
+		],
+		"who": [
+			"Management staff",
+			"Department-head-level employees in general administration and similar roles",
+			"Skilled and operations staff"
+		],
+		"why": "The ward says it is revising the pay scales and allowances in light of recommendations from the Special Ward Personnel Commission and other factors.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:11:30.185Z",
+			"inputTokens": 616,
+			"cachedTokens": 0,
+			"outputTokens": 637,
+			"reasoningTokens": 398
+		}
+	}
 }

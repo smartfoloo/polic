@@ -32,5 +32,66 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB717_6.pdf",
 			"fetchedAt": "2026-09-30T12:26:02.557Z"
 		}
-	]
+	],
+	"name": "税の公示送達方法を見直す",
+	"category": "税・手数料",
+	"summary": "現在、納税通知書などの公示送達は、書面を掲示して行います。この議案では、公示事項を規則で定める方法で不特定多数が閲覧できるようにし、書面の掲示か、区の事務所にあるコンピューター画面で閲覧できるようにする方法に改めます。",
+	"changes": [
+		"公示事項を規則で定める方法で不特定多数が閲覧できる状態にする",
+		"書面の掲示のほか、区の事務所のコンピューター画面で閲覧できる方法を設ける"
+	],
+	"who": [
+		"納税通知書などの公示送達の対象となる人"
+	],
+	"why": "地方税法の改正に伴い、公示送達の方法を変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:42:37.110Z",
+		"inputTokens": 1466,
+		"cachedTokens": 0,
+		"outputTokens": 1782,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:42:37.110Z",
+		"checkedAt": "2026-09-30T15:33:45.336Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1466,
+			"cachedTokens": 0,
+			"outputTokens": 53,
+			"reasoningTokens": 38
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "17945b047a0ec270",
+		"name": "Revises how tax notices are publicly served",
+		"official": "Ordinance Partially Amending the Minato City Special Ward Tax Ordinance",
+		"summary": "Currently, tax notices and other documents are publicly served by posting a written notice. This bill changes the method so that the matters to be publicly announced can be viewed by an unspecified number of people using a method set by rules, either through a posted written notice or on a computer screen at a city office.",
+		"changes": [
+			"Make the matters to be publicly announced viewable by an unspecified number of people using a method set by rules",
+			"Allow viewing on a computer screen at a city office as well as by posting a written notice"
+		],
+		"who": [
+			"People subject to public service of tax notices and other documents"
+		],
+		"why": "The ward says this is to change the method of public service following an amendment to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:13.396Z",
+			"inputTokens": 597,
+			"cachedTokens": 0,
+			"outputTokens": 626,
+			"reasoningTokens": 412
+		}
+	}
 }

@@ -32,5 +32,64 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB790_40.pdf",
 			"fetchedAt": "2026-09-30T12:32:07.351Z"
 		}
-	]
+	],
+	"name": "三田松坂児童遊園を廃止",
+	"category": "まちづくり",
+	"summary": "現在、条例には三田松坂児童遊園が記載されています。この議案で同園を条例から削除し、2026年7月14日をもって廃止します。改正条例は2026年7月15日に施行します。",
+	"changes": [
+		"三田松坂児童遊園を条例の対象から削除する"
+	],
+	"who": [
+		"三田松坂児童遊園を利用する人"
+	],
+	"why": "三田五丁目西地区第一種市街地再開発事業に伴い、児童遊園を移設して再整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:43:41.228Z",
+		"inputTokens": 1292,
+		"cachedTokens": 0,
+		"outputTokens": 822,
+		"reasoningTokens": 646
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:43:41.228Z",
+		"checkedAt": "2026-09-30T15:34:12.962Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1239,
+			"cachedTokens": 0,
+			"outputTokens": 35,
+			"reasoningTokens": 20
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6b40c90f0cedaaee",
+		"name": "Abolishes Mita Matsuzaka Children's Playground",
+		"official": "Ordinance Partially Amending the Minato City Children's Playground Ordinance",
+		"summary": "Mita Matsuzaka Children's Playground is currently listed in the ordinance. This bill removes the playground from the ordinance and abolishes it effective July 14, 2026. The amended ordinance takes effect on July 15, 2026.",
+		"changes": [
+			"Removes Mita Matsuzaka Children's Playground from the ordinance"
+		],
+		"who": [
+			"People who use Mita Matsuzaka Children's Playground"
+		],
+		"why": "The ward says this is to relocate and redevelop the playground in connection with the Mita 5-chome West District Type 1 Urban Redevelopment Project.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:47.992Z",
+			"inputTokens": 542,
+			"cachedTokens": 0,
+			"outputTokens": 362,
+			"reasoningTokens": 180
+		}
+	}
 }

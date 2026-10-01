@@ -27,5 +27,72 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/01-4-1.pdf",
 			"fetchedAt": "2026-09-30T10:12:10.655Z"
 		}
-	]
+	],
+	"name": "投票管理者などの報酬を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "投票管理者や投票立会人などの報酬は、役割や従事時間に応じて定められています。この議案で一部の報酬を引き上げ、投票箱を送致する場合の加算を設けます。",
+	"changes": [
+		"投票管理者の報酬を17,000円から20,000円に、期日前投票管理者を15,000円から18,000円に上げる",
+		"投票立会人の報酬を14,000円から16,000円に、期日前投票立会人を12,000円から14,000円に上げる",
+		"半日従事する投票管理者の報酬を9,500円から10,000円に、期日前投票管理者を8,500円から9,000円に上げる",
+		"投票所・期日前投票所の投票管理者と、投票所の投票立会人が投票箱を送致する場合、報酬に2,000円を加える"
+	],
+	"who": [
+		"投票管理者・期日前投票管理者",
+		"投票立会人・期日前投票立会人"
+	],
+	"why": "物価高騰や賃金上昇などを踏まえ、国会議員の選挙等の執行経費の基準に関する法律の改正に合わせて報酬額を見直すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:08:21.847Z",
+		"inputTokens": 1876,
+		"cachedTokens": 0,
+		"outputTokens": 1855,
+		"reasoningTokens": 1444
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:08:21.847Z",
+		"checkedAt": "2026-09-30T15:47:19.832Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2031,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 28
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "75c7cb497f56ae7d",
+		"name": "Raises remuneration for polling place managers, etc.",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Expense Reimbursement for the Sumida City Election Administrator, etc.",
+		"summary": "Remuneration for polling place managers, polling place observers, and others is set according to their roles and the time they work. This bill raises some of the remuneration and adds an extra payment when ballot boxes are transported.",
+		"changes": [
+			"Raises remuneration for polling place managers from ¥17,000 to ¥20,000, and for early voting site managers from ¥15,000 to ¥18,000",
+			"Raises remuneration for polling place observers from ¥14,000 to ¥16,000, and for early voting site observers from ¥12,000 to ¥14,000",
+			"Raises remuneration for polling place managers working half a day from ¥9,500 to ¥10,000, and for early voting site managers from ¥8,500 to ¥9,000",
+			"Adds ¥2,000 to remuneration when polling place or early voting site managers, or polling place observers, transport ballot boxes"
+		],
+		"who": [
+			"Polling place managers and early voting site managers",
+			"Polling place observers and early voting site observers"
+		],
+		"why": "The ward explains that it is reviewing remuneration amounts in light of rising prices and wages, among other factors, and in line with amendments to the Act on Standards for Expenses for Conducting Elections of Members of the National Diet, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:16:35.903Z",
+			"inputTokens": 770,
+			"cachedTokens": 0,
+			"outputTokens": 1033,
+			"reasoningTokens": 699
+		}
+	}
 }

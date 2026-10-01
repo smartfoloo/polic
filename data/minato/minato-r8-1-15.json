@@ -32,5 +32,64 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB735_15.pdf",
 			"fetchedAt": "2026-09-30T12:28:29.056Z"
 		}
-	]
+	],
+	"name": "みなと芸術センターの使用料を後納可能に",
+	"category": "税・手数料",
+	"summary": "現在の条例には、みなと芸術センターの使用料について定めがあります。この議案で、区長が必要と認める場合は、使用料を後納できるようにします。",
+	"changes": [
+		"区長が必要と認める場合に、使用料の後納を可能にする"
+	],
+	"who": [
+		"みなと芸術センターを利用する人"
+	],
+	"why": "みなと芸術センターの使用料を後納できるようにするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:40:52.343Z",
+		"inputTokens": 1135,
+		"cachedTokens": 0,
+		"outputTokens": 657,
+		"reasoningTokens": 502
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:40:52.343Z",
+		"checkedAt": "2026-09-30T15:32:57.748Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1058,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "650d1e594d0902ac",
+		"name": "Allows Minato Arts Center fees to be paid after use",
+		"official": "Ordinance Partially Amending the Minato City Minato Arts Center Ordinance",
+		"summary": "The current ordinance sets out rules for fees for using the Minato Arts Center. This bill allows fees to be paid after use when the mayor considers it necessary.",
+		"changes": [
+			"Allows fees to be paid after use when the mayor considers it necessary"
+		],
+		"who": [
+			"People who use the Minato Arts Center"
+		],
+		"why": "The ward says this is to allow fees for using the Minato Arts Center to be paid after use.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:02:39.122Z",
+			"inputTokens": 524,
+			"cachedTokens": 0,
+			"outputTokens": 311,
+			"reasoningTokens": 155
+		}
+	}
 }

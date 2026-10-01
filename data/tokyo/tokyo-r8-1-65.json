@@ -73,5 +73,34 @@
 			"outputTokens": 540,
 			"reasoningTokens": 412
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d581b7a75857998b",
+		"name": "Ends usage fee reductions for Ogasawara Housing and allows temporary use",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ogasawara Housing Ordinance",
+		"summary": "Ogasawara Housing has a rule that reduces usage fees for two years from the date a home becomes available for occupancy. This bill removes that rule and allows homes to be used for a limited period as temporary housing during rebuilding. People already receiving a reduction will continue to receive the same treatment as before.",
+		"changes": [
+			"Ends the usage fee reduction for two years from the date a home becomes available for occupancy",
+			"Keeps existing usage fee reductions in place for people already receiving them",
+			"Allows homes to be used for a limited period as temporary housing",
+			"Requires residents to vacate when the permit period ends, with extensions allowed when especially necessary"
+		],
+		"who": [
+			"People moving into Ogasawara Housing",
+			"People currently receiving a reduction in Ogasawara Housing usage fees",
+			"People using Ogasawara Housing as temporary housing"
+		],
+		"why": "The Tokyo Metropolitan Government says the rules are being revised in connection with the Ogasawara Housing rebuilding project.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:02.462Z",
+			"inputTokens": 683,
+			"cachedTokens": 0,
+			"outputTokens": 664,
+			"reasoningTokens": 390
+		}
 	}
 }

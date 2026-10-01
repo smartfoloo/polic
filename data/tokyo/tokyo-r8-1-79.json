@@ -61,5 +61,31 @@
 			"outputTokens": 77,
 			"reasoningTokens": 63
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ca0ae998c0115ab6",
+		"name": "Revises occupancy fees for roads and port roads",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Road Occupancy Fee Collection Ordinance, etc.",
+		"summary": "The current annual occupancy fee for a Type 1 utility pole in the cities is ¥1,620 per pole. The fees for occupying roads and port roads will be revised, including raising this fee to ¥1,670 per year. The changes take effect on April 1, 2026.",
+		"changes": [
+			"Raises the annual occupancy fee for a Type 1 utility pole in the cities from ¥1,620 to ¥1,670 per pole",
+			"Raises the monthly occupancy fee for signs on port roads from ¥1,916 to ¥2,025 per square meter of display area"
+		],
+		"who": [
+			"People and businesses occupying roads",
+			"People and businesses occupying port roads"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to ensure that the amounts paid by those occupying roads and other areas are appropriate.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:24.046Z",
+			"inputTokens": 589,
+			"cachedTokens": 0,
+			"outputTokens": 716,
+			"reasoningTokens": 479
+		}
 	}
 }

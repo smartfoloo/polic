@@ -27,5 +27,111 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-84.pdf",
 			"fetchedAt": "2026-09-30T12:21:45.146Z"
 		}
-	]
+	],
+	"name": "住宅宿泊事業の実施制限区域を定める",
+	"category": "住宅",
+	"summary": "現在は、住宅宿泊事業の実施制限に関する規定で、区内全域を対象区域としています。この議案では、第一種・第二種中高層住居専用地域と第一種・第二種文教地区では年間を通じて事業を実施できないことを定めます。また、住宅宿泊管理業者である事業者が自ら管理業務を行う場合の規定も加えます。",
+	"changes": [
+		"第一種・第二種中高層住居専用地域と第一種・第二種文教地区では、全ての期間、住宅宿泊事業を実施できないこととする",
+		"届出住宅のある建物の敷地の一部がこれらの区域に入る場合は、敷地全体をその区域として扱う",
+		"住宅宿泊管理業者である事業者が自ら管理業務を行う場合の管理方法に関する規定を加える"
+	],
+	"who": [
+		"対象区域で住宅宿泊事業を営む人",
+		"住宅宿泊管理業者で、自ら管理業務を行う住宅宿泊事業者"
+	],
+	"why": "住宅宿泊事業の実施制限などに関する規定を整えるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:21:09.688Z",
+		"inputTokens": 1823,
+		"cachedTokens": 0,
+		"outputTokens": 1339,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:21:09.688Z",
+		"checkedAt": "2026-09-30T15:54:14.164Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "住居専用地域と文教地区では全ての期間、住宅宿泊事業を実施できないこととする",
+				"note": "原文第17条第1項第1号の対象は、第一種・第二種中高層住居専用地域と第一種・第二種文教地区に限定されています。「住居専用地域」全般ではありません。summaryにも同じ対象範囲の不正確さがあります。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones (第17条第1項第1号), limits the whole-lot rule to them, and adds the 住宅宿泊管理業者 condition.",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "対象区域の一部が制限区域に入る建物の敷地は、敷地全体を制限区域として扱う",
+				"note": "原文第17条第4項は、届出住宅のある建物の敷地の一部が同条第1項第1号の区域に属する場合に、その敷地全体を同号の区域とみなす規定です。制限のある区域一般に適用する規定ではありません。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones (第17条第1項第1号), limits the whole-lot rule to them, and adds the 住宅宿泊管理業者 condition.",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "事業者が自ら管理業務を行う場合の管理方法に関する規定を加える",
+				"note": "原文第8条第1項第6号は、事業を営もうとする者が「住宅宿泊管理業者であって」自ら管理業務を行う場合に限定しています。この条件が抜けています。summaryとwhoでも同じ条件が抜けています。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones (第17条第1項第1号), limits the whole-lot rule to them, and adds the 住宅宿泊管理業者 condition.",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "住居専用地域と文教地区では全ての期間、住宅宿泊事業を実施できないこととする",
+				"note": "付則では、2027年1月1日以後に届出をする住宅に改正後の第8条・第17条を適用し、それ以前に届出済みの住宅は従前の扱いとしています。新たな実施制限の適用対象を左右する重要な条件が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1875,
+			"cachedTokens": 0,
+			"outputTokens": 785,
+			"reasoningTokens": 223
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fac8561627cd42e1",
+		"name": "Sets areas where private lodging businesses are restricted",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on the Operation of Private Lodging Businesses",
+		"summary": "At present, the provisions on restrictions on private lodging businesses cover the whole ward. This bill provides that businesses cannot operate at any time of year in Category I and II Medium-to-High-Rise Exclusive Residential Districts and Category I and II Educational Districts. It also adds provisions on management methods for cases where an operator that is a private lodging management service provider carries out the management duties itself.",
+		"changes": [
+			"Prohibits private lodging businesses throughout the year in Category I and II Medium-to-High-Rise Exclusive Residential Districts and Category I and II Educational Districts",
+			"Treats the entire site as being within one of these areas if any part of the site of a building containing a notified dwelling is in one of them",
+			"Adds provisions on management methods for cases where an operator that is a private lodging management service provider carries out the management duties itself"
+		],
+		"who": [
+			"People operating private lodging businesses in the designated areas",
+			"Private lodging business operators who are private lodging management service providers and carry out management duties themselves"
+		],
+		"why": "The mayor says this is to organize the provisions on restrictions on private lodging businesses and related matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:35:27.931Z",
+			"inputTokens": 713,
+			"cachedTokens": 0,
+			"outputTokens": 1259,
+			"reasoningTokens": 957
+		}
+	}
 }

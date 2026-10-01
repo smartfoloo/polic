@@ -27,5 +27,60 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian40.pdf",
 			"fetchedAt": "2026-09-30T10:39:23.362Z"
 		}
-	]
+	],
+	"name": "手数料条例の法律参照を改める",
+	"category": "行政のしくみ",
+	"summary": "事務手数料条例の別表第1には、法律の第14条第15項を参照する箇所があります。この議案で参照先を第14条第13項に改め、公布の日から施行します。",
+	"changes": [
+		"別表第1の124の6の項の参照先を第14条第15項から第14条第13項に改める"
+	],
+	"who": [],
+	"why": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律の改正に伴い、規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:37:57.858Z",
+		"inputTokens": 1167,
+		"cachedTokens": 0,
+		"outputTokens": 581,
+		"reasoningTokens": 379
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:37:57.858Z",
+		"checkedAt": "2026-09-30T15:31:24.299Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1112,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e60e30116cdfc0bb",
+		"name": "Updates a legal reference in the fees ordinance",
+		"official": "Ordinance Partially Amending the Katsushika City Administrative Fees Ordinance",
+		"summary": "Appendix 1 of the Administrative Fees Ordinance contains a reference to Article 14, paragraph 15 of the law. This bill changes the reference to Article 14, paragraph 13 and takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the reference in item 124-6 of Appendix 1 from Article 14, paragraph 15 to Article 14, paragraph 13"
+		],
+		"who": [],
+		"why": "The ward says the provisions need to be adjusted following amendments to the Act on Securing Quality, Efficacy and Safety of Products Including Pharmaceuticals and Medical Devices.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:24:06.225Z",
+			"inputTokens": 547,
+			"cachedTokens": 0,
+			"outputTokens": 512,
+			"reasoningTokens": 330
+		}
+	}
 }

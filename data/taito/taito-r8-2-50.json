@@ -27,5 +27,72 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-50.pdf",
 			"fetchedAt": "2026-09-30T12:19:45.127Z"
 		}
-	]
+	],
+	"name": "保育事業の職員配置や安全対策を見直す",
+	"category": "子育て",
+	"summary": "区は、家庭的保育事業などの設備や運営に基準を設けています。この議案で、満3歳以上限定の小規模保育事業などに関する規定と、一部の事業所での保育士数の数え方を改めます。児童対象性暴力等を防ぐ措置も定め、第13条の改正は2026年12月25日から施行します。",
+	"changes": [
+		"満3歳以上限定小規模保育事業に関する設備・運営の基準を整える",
+		"保育事業所で、要件を満たす理学療法士などを1人まで保育士数に算入できるようにする",
+		"看護師等や専門職が保育を行う場合の、保育士による支援体制を定める",
+		"対象職員の犯罪事実確認など、児童対象性暴力等を防ぎ、発生時に子どもを保護する措置を求める"
+	],
+	"who": [
+		"家庭的保育事業などの事業者",
+		"保育事業を利用する子どもと保護者"
+	],
+	"why": "国の家庭的保育事業等の基準改正に伴い、満3歳以上限定小規模保育事業などの規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:18:14.745Z",
+		"inputTokens": 3722,
+		"cachedTokens": 0,
+		"outputTokens": 2303,
+		"reasoningTokens": 1917
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:18:14.745Z",
+		"checkedAt": "2026-09-30T15:52:34.611Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3849,
+			"cachedTokens": 0,
+			"outputTokens": 331,
+			"reasoningTokens": 316
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c580a3b5e958ed6e",
+		"name": "Revises staffing and safety requirements for childcare businesses",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on Standards for the Facilities and Operation of Home-Based Childcare Businesses, etc.",
+		"summary": "The ward sets standards for the facilities and operation of home-based childcare businesses and similar services. This bill revises provisions on small-scale childcare businesses limited to children aged 3 and older, and on how the number of childcare workers is counted at some facilities. It also establishes measures to prevent sexual violence against children and similar acts. The amendment to Article 13 will take effect on December 25, 2026.",
+		"changes": [
+			"Set standards for the facilities and operation of small-scale childcare businesses limited to children aged 3 and older",
+			"Allow up to one qualified physical therapist or other professional to be counted as a childcare worker at a childcare facility",
+			"Establish support arrangements by childcare workers when nurses and other professionals provide childcare",
+			"Require measures to prevent sexual violence against children and similar acts, including checks for criminal records of covered staff, and to protect children if such acts occur"
+		],
+		"who": [
+			"Operators of home-based childcare businesses and similar services",
+			"Children and parents who use childcare services"
+		],
+		"why": "The ward says the provisions are being updated to reflect revisions to the national standards for home-based childcare businesses and similar services, including provisions on small-scale childcare businesses limited to children aged 3 and older.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:20:54.507Z",
+			"inputTokens": 746,
+			"cachedTokens": 0,
+			"outputTokens": 986,
+			"reasoningTokens": 659
+		}
+	}
 }

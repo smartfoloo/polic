@@ -72,5 +72,33 @@
 			"outputTokens": 539,
 			"reasoningTokens": 422
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "59f749f4dc8b65fb",
+		"name": "Sets accreditation standards for non-integrated certified childcare centers",
+		"official": "Ordinance Establishing Requirements for Accrediting Certified Childcare Centers Other Than Integrated Centers for Early Childhood Education and Care in Suginami City",
+		"summary": "Accreditation requirements for certified childcare centers other than integrated centers for early childhood education and care are currently set by a Tokyo Metropolitan Government ordinance. Under this bill, Suginami City will set requirements for staff placement, facilities and equipment, and meal provision, among other things. The ordinance will take effect on November 1, 2026. Provisions on preventing sexual violence and other harm against children will take effect on December 25 of the same year.",
+		"changes": [
+			"Set accreditation standards in a city ordinance for certified childcare centers other than integrated centers for early childhood education and care",
+			"Set standards for the number and qualifications of staff according to children's ages, and for facilities and equipment",
+			"Set standards for how meals are provided and for childcare hours",
+			"Require operators to check the criminal records of covered workers, among other things"
+		],
+		"who": [
+			"Operators of certified childcare centers other than integrated centers for early childhood education and care",
+			"Children and parents or guardians who use those centers"
+		],
+		"why": "Suginami City says it needs to set the accreditation standards because it was designated as a city responsible for establishing a child guidance center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:19.349Z",
+			"inputTokens": 727,
+			"cachedTokens": 0,
+			"outputTokens": 828,
+			"reasoningTokens": 516
+		}
 	}
 }

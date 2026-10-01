@@ -64,5 +64,33 @@
 			"outputTokens": 446,
 			"reasoningTokens": 432
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9cb75a543f13ae52",
+		"name": "Adds wildfire advisories and restrictions on using fire",
+		"official": "Ordinance Partially Amending the Fire Prevention Ordinance",
+		"summary": "The current ordinance has no provisions on wildfire advisories. This amendment provides that people in areas where an advisory has been issued should make efforts to comply with restrictions on the use of fire. It also adds restrictions during warnings to prevent wildfires and adds activities involving the use of fire to the activities that must be reported. It takes effect on April 1, 2026.",
+		"changes": [
+			"Allows wildfire advisories to be issued",
+			"Sets out that people in areas where an advisory has been issued should make efforts to comply with restrictions on the use of fire",
+			"Restricts the outdoor use of open flames that send sparks flying during wildfire-prevention warnings",
+			"Adds the use of open flames that send sparks flying in areas covered by a forest plan from January through May to the activities requiring notification"
+		],
+		"who": [
+			"People who use fire in areas covered by an advisory or warning",
+			"People who use open flames that send sparks flying in areas covered by a forest plan from January through May"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to make the provisions for preventing wildfires more effective.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:12.621Z",
+			"inputTokens": 703,
+			"cachedTokens": 0,
+			"outputTokens": 1126,
+			"reasoningTokens": 840
+		}
 	}
 }

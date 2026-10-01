@@ -27,5 +27,64 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian58.pdf",
 			"fetchedAt": "2026-09-30T10:39:53.511Z"
 		}
-	]
+	],
+	"name": "一時保護の委託先登録基準を定める",
+	"category": "福祉",
+	"summary": "この議案は、葛飾区で一時保護を委託する人や事業者の登録などに関する基準を定めるものです。基準は令和8年内閣府令第16号に基づき、条例は公布の日から施行する内容です。",
+	"changes": [
+		"登録などに関する基準を令和8年内閣府令第16号の定めに合わせる"
+	],
+	"who": [
+		"一時保護の委託を受ける人や事業者"
+	],
+	"why": "児童福祉法の改正に伴い、区の登録などに関する基準を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:38:40.336Z",
+		"inputTokens": 1337,
+		"cachedTokens": 0,
+		"outputTokens": 768,
+		"reasoningTokens": 567
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:38:40.336Z",
+		"checkedAt": "2026-09-30T15:31:50.028Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1305,
+			"cachedTokens": 0,
+			"outputTokens": 90,
+			"reasoningTokens": 75
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0c936449d0f45512",
+		"name": "Sets registration standards for temporary custody providers",
+		"official": "Ordinance Establishing Standards Concerning the Registration, etc. of Persons Entrusted with Temporary Custody in Katsushika City",
+		"summary": "This bill sets standards for registering people and businesses to whom Katsushika City entrusts temporary custody. The standards are based on Reiwa 8 Cabinet Office Order No. 16, and the ordinance will take effect on the day it is promulgated.",
+		"changes": [
+			"Aligns standards for registration and related matters with Reiwa 8 Cabinet Office Order No. 16"
+		],
+		"who": [
+			"People and businesses entrusted with temporary custody"
+		],
+		"why": "The ward says the amendment to the Child Welfare Act makes it necessary to set standards for registration and related matters in the ward.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:01:41.115Z",
+			"inputTokens": 578,
+			"cachedTokens": 0,
+			"outputTokens": 756,
+			"reasoningTokens": 565
+		}
+	}
 }

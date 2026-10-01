@@ -62,5 +62,31 @@
 			"outputTokens": 59,
 			"reasoningTokens": 45
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8b5b1d536420d6b2",
+		"name": "Raises pay for Tokyo Metropolitan Assembly members",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration, Reimbursement of Expenses, and Year-End Allowances for Members of the Tokyo Metropolitan Assembly",
+		"summary": "Pay for Tokyo Metropolitan Assembly members is currently set at five levels, ranging from ¥1,036,000 to ¥1,288,000. This bill raises each amount. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises the remuneration of ¥1,288,000 to ¥1,324,000",
+			"Raises ¥1,162,000 to ¥1,194,000 and ¥1,073,000 to ¥1,103,000",
+			"Raises ¥1,054,000 to ¥1,083,000 and ¥1,036,000 to ¥1,065,000"
+		],
+		"who": [
+			"Tokyo Metropolitan Assembly members"
+		],
+		"why": "The governor says the amounts need to be revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:50.928Z",
+			"inputTokens": 625,
+			"cachedTokens": 0,
+			"outputTokens": 635,
+			"reasoningTokens": 402
+		}
 	}
 }

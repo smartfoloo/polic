@@ -32,5 +32,76 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/13.pdf",
 			"fetchedAt": "2026-09-30T10:19:34.379Z"
 		}
-	]
+	],
+	"name": "マンションの容積率・高さの申請規定を改正",
+	"category": "税・手数料",
+	"summary": "現在の手数料条例では、マンションの容積率に関する特例許可申請などを、改正前の法律名や条文番号で定めています。この議案で、法律の改正に合わせて法律名や条文番号を改め、特例許可の対象に各部分の高さを加えます。",
+	"changes": [
+		"法律名や参照する条文番号を改める",
+		"特例許可の対象に各部分の高さを加える",
+		"対象となるマンションの用語を改める"
+	],
+	"who": [
+		"マンションの容積率や各部分の高さに関する特例許可を申請する人"
+	],
+	"why": "法律の改正に伴い、マンションの容積率の特例許可申請に関する規定を改め、関連する規定も整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:51:13.351Z",
+		"inputTokens": 1504,
+		"cachedTokens": 0,
+		"outputTokens": 1358,
+		"reasoningTokens": 1090
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:51:13.351Z",
+		"checkedAt": "2026-09-30T15:37:58.582Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "対象となるマンションの用語を改める",
+				"note": "原文では用語の変更に加え、「要除却等認定マンションの更新がされるマンション」を対象に加える改正があるが、その対象拡大が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1514,
+			"cachedTokens": 0,
+			"outputTokens": 216,
+			"reasoningTokens": 98
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e41c6742e9769a36",
+		"name": "Amends application rules for apartment building floor-area ratios and height",
+		"official": "Ordinance Partially Amending the Setagaya City Fee Ordinance",
+		"summary": "The current fee ordinance sets out applications for special permits relating to apartment building floor-area ratios and other matters using former law names and article numbers. This bill updates the law names and article numbers to reflect amendments to the law, and adds the height of each part of a building to the matters covered by special permits.",
+		"changes": [
+			"Update the law names and cited article numbers",
+			"Add the height of each part of a building to the matters covered by special permits",
+			"Change the term used for eligible apartment buildings"
+		],
+		"who": [
+			"People applying for special permits relating to apartment building floor-area ratios or the height of each part of a building"
+		],
+		"why": "The ward says this is to amend provisions on applications for special permits relating to apartment building floor-area ratios following amendments to the law, and to update related provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:27:39.411Z",
+			"inputTokens": 610,
+			"cachedTokens": 0,
+			"outputTokens": 701,
+			"reasoningTokens": 467
+		}
+	}
 }

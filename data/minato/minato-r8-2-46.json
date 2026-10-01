@@ -40,7 +40,7 @@
 		"満3歳以上限定小規模保育事業の運営基準を追加する",
 		"事業所ごとに利用定員を定める",
 		"定員を超える場合は保育の必要性や家族の状況を考慮して選考する",
-		"教育認定子どもを受け入れる場合の選考を公正な方法で行う"
+		"教育認定子どもを受け入れる場合、抽選や申込順など公正な方法で選考する"
 	],
 	"who": [
 		"満3歳以上の子どもを預ける保護者",
@@ -67,7 +67,11 @@
 				"kind": "direction",
 				"severity": "check",
 				"quote": "教育認定子どもを受け入れる場合の選考を公正な方法で行う",
-				"note": "新設する第五十一条の二第三項に公正な方法による選考の記載はあるが、読み替え対象は「満三歳未満保育認定子ども」となっており、第三十九条第三項の「満三歳以上保育認定子ども」と一致しない。原文の読み替え関係の確認が必要。"
+				"note": "新設する第五十一条の二第三項に公正な方法による選考の記載はあるが、読み替え対象は「満三歳未満保育認定子ども」となっており、第三十九条第三項の「満三歳以上保育認定子ども」と一致しない。原文の読み替え関係の確認が必要。",
+				"dismissed": {
+					"note": "Supported by 第51条の2第3項 (the 第39条第3項 読み替え); the table text is broken, not the draft.",
+					"at": "2026-10-01T12:11:03.256Z"
+				}
 			},
 			{
 				"field": "changes",
@@ -92,6 +96,34 @@
 			"cachedTokens": 0,
 			"outputTokens": 628,
 			"reasoningTokens": 288
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d53efc7e96f95c91",
+		"name": "Adds standards for small-scale childcare limited to children aged 3 and over",
+		"official": "Ordinance Partially Amending the Minato City Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses",
+		"summary": "In response to revisions to national standards, Minato City will amend its ordinance. It will add operating rules, including capacity and methods for selecting users, for small-scale childcare businesses that serve only children aged 3 and over.",
+		"changes": [
+			"Add operating standards for small-scale childcare businesses limited to children aged 3 and over",
+			"Set a capacity for each facility",
+			"Select applicants when applications exceed capacity, taking into account the need for childcare and family circumstances",
+			"When accepting children certified for education, select them fairly, using methods such as a lottery or order of application"
+		],
+		"who": [
+			"Parents and guardians of children aged 3 and over who use childcare",
+			"Operators of small-scale childcare businesses limited to children aged 3 and over"
+		],
+		"why": "The ward says this is to establish the necessary operating standards for a business that, following an amendment to the Child Welfare Act, can now be operated beyond the boundaries of specific areas.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:25:40.581Z",
+			"inputTokens": 681,
+			"cachedTokens": 0,
+			"outputTokens": 664,
+			"reasoningTokens": 381
 		}
 	}
 }

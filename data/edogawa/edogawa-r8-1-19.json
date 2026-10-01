@@ -22,5 +22,62 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2742_gian19%20.pdf",
 			"fetchedAt": "2026-09-30T10:41:41.626Z"
 		}
-	]
+	],
+	"name": "木全・手嶋基金を廃止",
+	"category": "教育",
+	"summary": "区には、木全・手嶋育英事業基金があります。この議案で基金を廃止し、施行時に残額があれば子ども未来教育基金に編入します。",
+	"changes": [
+		"木全・手嶋育英事業基金を廃止する",
+		"施行時に基金の残額がある場合、子ども未来教育基金に編入する"
+	],
+	"who": [],
+	"why": "修学が難しい人への支援が高等教育の修学支援新制度で実施され、区も給付型奨学金制度を新設することを踏まえたものと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:28:21.954Z",
+		"inputTokens": 1330,
+		"cachedTokens": 0,
+		"outputTokens": 852,
+		"reasoningTokens": 668
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:28:21.954Z",
+		"checkedAt": "2026-09-30T15:26:16.307Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1287,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5796c42a744c1380",
+		"name": "Repeals the Kimata-Teshima Fund",
+		"official": "Ordinance to Repeal the Kimata-Teshima Scholarship Program Fund Ordinance",
+		"summary": "The ward has the Kimata-Teshima Scholarship Program Fund. This bill abolishes the fund and, if any balance remains when it takes effect, transfers it to the Children’s Future Education Fund.",
+		"changes": [
+			"Abolishes the Kimata-Teshima Scholarship Program Fund",
+			"Transfers any remaining balance to the Children’s Future Education Fund when the ordinance takes effect"
+		],
+		"who": [],
+		"why": "The ward says this is based on the fact that support for people who have difficulty pursuing their studies is provided through the New Study Support System for Higher Education, and that the ward is also establishing a new grant-type scholarship program.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:57:44.371Z",
+			"inputTokens": 555,
+			"cachedTokens": 0,
+			"outputTokens": 622,
+			"reasoningTokens": 430
+		}
+	}
 }

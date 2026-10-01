@@ -27,5 +27,64 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/75.pdf",
 			"fetchedAt": "2026-09-30T10:22:22.433Z"
 		}
-	]
+	],
+	"name": "世田谷保健福祉センターの所在地を変更",
+	"category": "福祉",
+	"summary": "世田谷区立世田谷保健福祉センターの所在地は、東京都世田谷区世田谷4丁目22番35号です。この議案で、所在地を東京都世田谷区世田谷4丁目22番33号に改めます。令和8年10月19日から施行します。",
+	"changes": [
+		"所在地を世田谷区世田谷4丁目22番35号から同4丁目22番33号に変更する"
+	],
+	"who": [
+		"世田谷保健福祉センターを利用する人"
+	],
+	"why": "センターの所在地を変更する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:55:43.223Z",
+		"inputTokens": 1163,
+		"cachedTokens": 0,
+		"outputTokens": 529,
+		"reasoningTokens": 325
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:55:43.223Z",
+		"checkedAt": "2026-09-30T15:40:38.052Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1111,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "01cdc56b542580d9",
+		"name": "Changes the address of Setagaya Health and Welfare Center",
+		"official": "Ordinance Partially Amending the Setagaya City Health and Welfare Center Ordinance",
+		"summary": "The address of Setagaya City Setagaya Health and Welfare Center is 4-chome 22-35, Setagaya, Setagaya City, Tokyo. This bill changes the address to 4-chome 22-33, Setagaya, Setagaya City, Tokyo. It takes effect on October 19, 2026.",
+		"changes": [
+			"Changes the address from 4-chome 22-35 to 4-chome 22-33, Setagaya, Setagaya City"
+		],
+		"who": [
+			"People who use Setagaya Health and Welfare Center"
+		],
+		"why": "The ward says this is because the center's address needs to be changed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:37.495Z",
+			"inputTokens": 553,
+			"cachedTokens": 0,
+			"outputTokens": 611,
+			"reasoningTokens": 400
+		}
+	}
 }

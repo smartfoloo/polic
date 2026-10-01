@@ -32,5 +32,64 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB711_3.pdf",
 			"fetchedAt": "2026-09-30T12:25:21.261Z"
 		}
-	]
+	],
+	"name": "管理職員の勤務時間を時間単位で調整",
+	"category": "行政のしくみ",
+	"summary": "現在の条例には、管理職員が週休日に勤務する場合、勤務時間を1時間単位で割り振り直す規定はありません。この改正で、区規則で定める期間内の勤務日から勤務時間を移し、週休日に割り振れるようにします。令和8年4月1日から施行します。",
+	"changes": [
+		"区規則で定める期間内の勤務日の勤務時間を1時間単位で週休日に割り振り直せるようにする"
+	],
+	"who": [
+		"港区の管理職員"
+	],
+	"why": "管理職員が週休日に勤務する場合に、時間単位で勤務時間を割り振り直せるようにするためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:42:00.381Z",
+		"inputTokens": 1497,
+		"cachedTokens": 0,
+		"outputTokens": 1139,
+		"reasoningTokens": 932
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:42:00.381Z",
+		"checkedAt": "2026-09-30T15:33:25.527Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1475,
+			"cachedTokens": 0,
+			"outputTokens": 53,
+			"reasoningTokens": 39
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ef3ae4bea41ef8e2",
+		"name": "Allows managers' work hours to be rescheduled in one-hour increments",
+		"official": "Ordinance Partially Amending the Ordinance on Working Hours, Holidays, Leave, etc. of Minato City Employees",
+		"summary": "The current ordinance has no provision for rescheduling managers' work hours in one-hour increments when they work on a weekly day off. This amendment allows work hours to be moved from workdays within a period set by city rules and assigned to weekly days off. It takes effect on April 1, 2026.",
+		"changes": [
+			"Allows work hours on workdays within a period set by city rules to be reassigned to weekly days off in one-hour increments"
+		],
+		"who": [
+			"Management employees of Minato City"
+		],
+		"why": "The city says this is to allow managers' work hours to be reassigned in hourly units when they work on a weekly day off.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:03.486Z",
+			"inputTokens": 583,
+			"cachedTokens": 0,
+			"outputTokens": 521,
+			"reasoningTokens": 308
+		}
+	}
 }

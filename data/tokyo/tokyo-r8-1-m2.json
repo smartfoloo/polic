@@ -18,5 +18,20 @@
 			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
 			"fetchedAt": "2026-09-28T10:09:14.547Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "c367d394fb0dd22c",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Ordinance Concerning Welfare Allowances for Persons with Physical and Mental Disabilities",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:17.215Z",
+			"inputTokens": 326,
+			"cachedTokens": 0,
+			"outputTokens": 211,
+			"reasoningTokens": 172
+		}
+	}
 }

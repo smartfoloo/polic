@@ -62,5 +62,31 @@
 			"outputTokens": 257,
 			"reasoningTokens": 243
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "67da19d9b2582c51",
+		"name": "Changes how hearing notices are made public",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Administrative Procedure Ordinance",
+		"summary": "Currently, notices of hearings are made public by posting them on bulletin boards at administrative offices. After the amendment, the notice will be made widely accessible by a method set out in rules, and will also be posted at the office or displayed on a terminal provided there. This applies to notices issued on or after May 21, 2026.",
+		"changes": [
+			"Make the contents of hearing notices widely accessible by a method set out in rules",
+			"Post the notice at the office or display it on a terminal provided there",
+			"Count the two-week period until a notice is deemed delivered from the day the public-notice measures begin"
+		],
+		"who": [
+			"People whose hearing notices are made public"
+		],
+		"why": "The Tokyo Metropolitan Government says the methods for notifying people of hearings and other matters are being revised in light of amendments to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:22.477Z",
+			"inputTokens": 624,
+			"cachedTokens": 0,
+			"outputTokens": 531,
+			"reasoningTokens": 296
+		}
 	}
 }

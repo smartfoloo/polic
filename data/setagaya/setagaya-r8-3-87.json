@@ -27,5 +27,68 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/87.pdf",
 			"fetchedAt": "2026-09-30T10:23:16.236Z"
 		}
-	]
+	],
+	"name": "印鑑登録の保証人の範囲を変更",
+	"category": "くらし・手続き",
+	"summary": "現在、印鑑登録の保証人の範囲を定める規定に「東京都の」という文言があります。この文言を削り、「引替交付」の表記を「引換交付」に改めます。2026年11月2日から施行されます。",
+	"changes": [
+		"保証人の範囲を定める規定から「東京都の」を削る",
+		"「引替交付」を「引換交付」に改める"
+	],
+	"who": [
+		"印鑑登録を申請する人",
+		"印鑑登録申請の保証人になる人"
+	],
+	"why": "保証人になれる人の範囲を改め、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:57:09.945Z",
+		"inputTokens": 1146,
+		"cachedTokens": 0,
+		"outputTokens": 1038,
+		"reasoningTokens": 840
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:57:09.945Z",
+		"checkedAt": "2026-09-30T15:41:43.971Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1106,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b7ff1a2099267ca6",
+		"name": "Changes who can be a guarantor for seal registration",
+		"official": "Ordinance Partially Amending the Setagaya City Seal Registration Ordinance",
+		"summary": "The current provision defining who can be a guarantor for seal registration includes the wording “of the Tokyo Metropolitan Government.” This wording will be removed, and the written term “引替交付” will be changed to “引換交付.” The ordinance takes effect on November 2, 2026.",
+		"changes": [
+			"Removes “of the Tokyo Metropolitan Government” from the provision defining who can be a guarantor",
+			"Changes the written term “引替交付” to “引換交付”"
+		],
+		"who": [
+			"People applying for seal registration",
+			"People acting as guarantors on seal registration applications"
+		],
+		"why": "The ward says this is to revise who can be a guarantor and update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:09.664Z",
+			"inputTokens": 567,
+			"cachedTokens": 0,
+			"outputTokens": 787,
+			"reasoningTokens": 571
+		}
+	}
 }

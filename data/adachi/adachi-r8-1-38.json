@@ -27,5 +27,66 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4355_R81TG038.pdf",
 			"fetchedAt": "2026-09-30T10:34:29.011Z"
 		}
-	]
+	],
+	"name": "こども計画審議会を廃止",
+	"category": "行政のしくみ",
+	"summary": "足立区こども計画審議会を設置する条例があります。この議案で条例を廃止し、報酬と費用弁償に関する条例から審議会の項目を削ります。2026年4月1日から施行します。",
+	"changes": [
+		"足立区こども計画審議会条例を廃止する",
+		"報酬と費用弁償に関する条例から審議会の項目を削る"
+	],
+	"who": [
+		"足立区こども計画審議会の委員"
+	],
+	"why": "足立区こども計画審議会を廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:23:23.222Z",
+		"inputTokens": 1196,
+		"cachedTokens": 0,
+		"outputTokens": 750,
+		"reasoningTokens": 550
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:23:23.222Z",
+		"checkedAt": "2026-09-30T15:23:28.281Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1170,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8eeaea77e52cbec5",
+		"name": "Abolishes the Adachi City Children’s Plan Council",
+		"official": "Ordinance to Repeal the Adachi City Children’s Plan Council Ordinance",
+		"summary": "An ordinance establishes the Adachi City Children’s Plan Council. This bill repeals that ordinance and removes the council’s entry from the ordinance on remuneration and reimbursement of expenses. It takes effect on April 1, 2026.",
+		"changes": [
+			"Repeals the Adachi City Children’s Plan Council Ordinance",
+			"Removes the council’s entry from the ordinance on remuneration and reimbursement of expenses"
+		],
+		"who": [
+			"Members of the Adachi City Children’s Plan Council"
+		],
+		"why": "The ward says the purpose is to abolish the Adachi City Children’s Plan Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:08.719Z",
+			"inputTokens": 572,
+			"cachedTokens": 0,
+			"outputTokens": 462,
+			"reasoningTokens": 276
+		}
+	}
 }

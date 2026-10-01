@@ -59,5 +59,28 @@
 			"outputTokens": 102,
 			"reasoningTokens": 88
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aa9bc8921b5f3d83",
+		"name": "Adds lead teachers to the working hours ordinance",
+		"official": "Ordinance Partially Amending the Ordinance on Working Hours, Holidays, Leave, etc. of School Personnel",
+		"summary": "The current ordinance setting working hours and other conditions for school personnel mentions “instructional teachers.” This bill adds “lead teachers” and changes the heading of a provision on workload management and other matters. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds “lead teachers” after “instructional teachers” in Article 2",
+			"Changes the heading of Article 4-2 to “Workload Management and Health Protection Measures”"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says this is to bring the ordinance provisions into line following amendments to the School Education Act and other laws in connection with the enforcement of national laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:42.661Z",
+			"inputTokens": 575,
+			"cachedTokens": 0,
+			"outputTokens": 628,
+			"reasoningTokens": 427
+		}
 	}
 }

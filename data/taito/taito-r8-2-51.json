@@ -27,5 +27,70 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-51.pdf",
 			"fetchedAt": "2026-09-30T12:19:51.187Z"
 		}
-	]
+	],
+	"name": "通園支援事業者に性暴力防止措置を義務付け",
+	"category": "子育て",
+	"summary": "現在の条例に、児童対象性暴力等を防ぐための規定を加えます。事業者に、対象となる従事者の犯罪事実確認などと、性暴力等が起きた場合に利用乳幼児を保護するための措置を求めます。施行日は2026年12月25日です。",
+	"changes": [
+		"児童対象性暴力等を防ぎ、発生時に利用乳幼児を保護するための措置を講じる",
+		"支配性、継続性、閉鎖性のある環境で利用乳幼児と接する業務従事者について犯罪事実確認などを行う"
+	],
+	"who": [
+		"乳児等通園支援事業者",
+		"対象となる業務従事者",
+		"乳児等通園支援事業を利用する乳幼児"
+	],
+	"why": "国の基準が改正されたことに伴い、児童対象性暴力等の防止に関する規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:18:26.009Z",
+		"inputTokens": 1564,
+		"cachedTokens": 0,
+		"outputTokens": 1289,
+		"reasoningTokens": 1004
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:18:26.009Z",
+		"checkedAt": "2026-09-30T15:52:36.389Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1620,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "312404f80805cdd8",
+		"name": "Requires attendance support providers to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on Standards for Facilities and Operation of Infant and Other Child Attendance Support Services",
+		"summary": "Adds provisions to the current ordinance to prevent sexual violence against children, etc. It requires providers to check the criminal records of covered workers and take measures to protect infants and toddlers using the service if sexual violence, etc. occurs. The ordinance takes effect on December 25, 2026.",
+		"changes": [
+			"Take measures to prevent sexual violence against children, etc., and protect infants and toddlers using the service if it occurs",
+			"Check criminal records, etc., of workers who come into contact with infants and toddlers using the service in environments characterized by control, continuity, and closedness"
+		],
+		"who": [
+			"Providers of infant and other child attendance support services",
+			"Workers covered by the requirements",
+			"Infants and toddlers who use infant and other child attendance support services"
+		],
+		"why": "The ward says it is updating provisions on preventing sexual violence against children, etc., following a revision to national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:21:01.139Z",
+			"inputTokens": 677,
+			"cachedTokens": 0,
+			"outputTokens": 695,
+			"reasoningTokens": 437
+		}
+	}
 }

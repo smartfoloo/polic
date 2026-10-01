@@ -32,5 +32,70 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/26.pdf",
 			"fetchedAt": "2026-09-30T10:20:10.323Z"
 		}
-	]
+	],
+	"name": "児童福祉施設の職員要件を見直す",
+	"category": "福祉",
+	"summary": "区の条例では、児童福祉施設に置く職員の任用要件を定めています。この議案で、複数の要件に「こども家庭ソーシャルワーカー」の資格を加え、一部の要件から社会福祉士や精神保健福祉士の資格を削ります。条例は公布の日から施行します。",
+	"changes": [
+		"複数の職員の任用要件にこども家庭ソーシャルワーカーの資格を加える",
+		"一部の任用要件から社会福祉士や精神保健福祉士の資格を削る",
+		"第90条と第91条の要件に精神保健福祉士とこども家庭ソーシャルワーカーの資格を加える"
+	],
+	"who": [
+		"児童福祉施設の運営者",
+		"児童福祉施設の職員として任用される人"
+	],
+	"why": "国の基準の改正に伴い、職員の任用要件を改め、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:52:19.821Z",
+		"inputTokens": 2090,
+		"cachedTokens": 0,
+		"outputTokens": 1306,
+		"reasoningTokens": 989
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:52:19.821Z",
+		"checkedAt": "2026-09-30T15:38:33.389Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2146,
+			"cachedTokens": 0,
+			"outputTokens": 46,
+			"reasoningTokens": 31
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dd24d67e37ac9670",
+		"name": "Revises staff requirements for child welfare facilities",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Standards for Equipment and Operation of Child Welfare Facilities",
+		"summary": "The ward's ordinance sets requirements for appointing staff at child welfare facilities. This bill adds the Child and Family Social Worker qualification to several requirements and removes the Certified Social Worker and Certified Psychiatric Social Worker qualifications from some requirements. The ordinance will take effect on the date it is promulgated.",
+		"changes": [
+			"Adds the Child and Family Social Worker qualification to several staff appointment requirements",
+			"Removes the Certified Social Worker and Certified Psychiatric Social Worker qualifications from some appointment requirements",
+			"Adds the Certified Psychiatric Social Worker and Child and Family Social Worker qualifications to the requirements in Articles 90 and 91"
+		],
+		"who": [
+			"Operators of child welfare facilities",
+			"People appointed as staff at child welfare facilities"
+		],
+		"why": "The ward says this is to revise staff appointment requirements and adjust the provisions in line with changes to national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:07:18.609Z",
+			"inputTokens": 676,
+			"cachedTokens": 0,
+			"outputTokens": 845,
+			"reasoningTokens": 602
+		}
+	}
 }

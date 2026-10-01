@@ -27,5 +27,85 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-25.pdf",
 			"fetchedAt": "2026-09-30T12:17:27.111Z"
 		}
-	]
+	],
+	"name": "体育施設の使用者区分を18歳相当まで広げる",
+	"category": "まちづくり",
+	"summary": "体育施設の使用者区分のうち5項目では、対象を「中学生以下」としています。この議案で、対象に18歳になった後、最初に迎える3月31日までの人を含めます。改正は2026年4月1日に施行されます。",
+	"changes": [
+		"「中学生以下」の区分を「高校生等相当年齢以下の者」に改める",
+		"清島温水プールの一般回数券を返却した場合、未使用分に応じた額から1回分の利用料金を差し引いて還付する仕組みを設ける",
+		"清島温水プールの一般定期券を年齢区分に応じた定期券に交換し、通用期間の残りに応じた差額を還付する仕組みを設ける"
+	],
+	"who": [
+		"体育施設を利用する18歳相当年齢以下の人",
+		"清島温水プールの一般回数券や定期券を持つ高校生等相当年齢の人"
+	],
+	"why": "施設の使用者の区分を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:14:31.617Z",
+		"inputTokens": 2062,
+		"cachedTokens": 0,
+		"outputTokens": 2908,
+		"reasoningTokens": 2574
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:14:31.617Z",
+		"checkedAt": "2026-09-30T15:50:31.147Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "清島温水プールの一般回数券を返却した場合、未使用分に応じた額から1回分の利用料金を差し引いて還付する仕組みを設ける",
+				"note": "原文付則4の還付は、2026年3月31日までに購入した回数券に限る経過措置。この購入期限が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "清島温水プールの一般定期券を年齢区分に応じた定期券に交換し、通用期間の残りに応じた差額を還付する仕組みを設ける",
+				"note": "原文付則5・6の交換・還付は、2026年3月31日までに購入し、同年4月を通用期間に含む定期券に限る経過措置。これらの対象条件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2140,
+			"cachedTokens": 0,
+			"outputTokens": 415,
+			"reasoningTokens": 166
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "375678b20a96adb9",
+		"name": "Extends the sports facility age category through the first March 31 after turning 18",
+		"official": "Ordinance Partially Amending the Taito City Sports Facilities Ordinance",
+		"summary": "Five of the sports facility user categories are currently limited to junior high school students and younger. This bill includes people up to March 31 following their 18th birthday (the first March 31 after they turn 18). The amendment takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the “junior high school students and younger” category to “people of high school student-equivalent age and younger”",
+			"Creates a system to refund the value of unused uses, minus the fee for one use, when a general-use coupon book for Kiyoshima Heated Swimming Pool is returned",
+			"Allows general season tickets for Kiyoshima Heated Swimming Pool to be exchanged for season tickets based on age category, with the difference refunded according to the remaining validity period"
+		],
+		"who": [
+			"People of high-school-student-equivalent age and younger who use sports facilities",
+			"People of high-school-student-equivalent age who hold general-use coupon books or season tickets for Kiyoshima Heated Swimming Pool"
+		],
+		"why": "The ward says the purpose is to revise the user categories for the facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:19:37.153Z",
+			"inputTokens": 675,
+			"cachedTokens": 0,
+			"outputTokens": 1123,
+			"reasoningTokens": 822
+		}
+	}
 }

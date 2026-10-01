@@ -27,5 +27,91 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-33.pdf",
 			"fetchedAt": "2026-09-30T12:18:14.916Z"
 		}
-	]
+	],
+	"name": "大規模建築物も条例の対象に加える",
+	"category": "まちづくり",
+	"summary": "現在は、集合住宅の建築や管理に関する基準を定めています。この議案では、敷地面積が300平方メートル以上で、規則で定める規模以上の大規模建築物なども対象に加え、設備や住戸の基準を改めます。令和8年10月1日から施行します。",
+	"changes": [
+		"大規模建築物と複合建築物を条例の対象に加える",
+		"規則で定める床面積以上の、小売店・飲食店、金融機関、遊技場に当たる大規模建築物や複合建築物に、自転車駐車施設の設置を義務づける",
+		"集合住宅や複合建築物に宅配ボックスを設け、対象となる建築物に防災備蓄倉庫を設ける",
+		"バリアフリー措置と家族向け住戸の設置基準を改める"
+	],
+	"who": [
+		"対象となる集合住宅などを建てる建築主",
+		"集合住宅等の所有者や、管理を委託された事業者"
+	],
+	"why": "条例の対象に大規模建築物を加え、建築や管理に関する基準を改めるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:15:46.419Z",
+		"inputTokens": 5179,
+		"cachedTokens": 0,
+		"outputTokens": 1847,
+		"reasoningTokens": 1503
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:15:46.419Z",
+		"checkedAt": "2026-09-30T15:51:34.129Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "一定規模以上の対象建築物に、自転車駐車施設の設置を義務づける",
+				"note": "新設の第9条第3項は、規則で定める床面積以上で、小売店・飲食店、金融機関、遊技場に該当する大規模建築物又は複合建築物が対象。規模だけで義務が生じるように読めるため、用途の限定を要確認。",
+				"dismissed": {
+					"note": "Fixed in the text: the bicycle-parking rule names the uses (第9条第3項).",
+					"at": "2026-10-01T12:13:56.752Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "大規模建築物と複合建築物を条例の対象に加える",
+				"note": "新設の第3条の2で、建築基準法第85条の仮設建築物及び第87条の3の建築物を条例の適用対象から除外する変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5267,
+			"cachedTokens": 0,
+			"outputTokens": 466,
+			"reasoningTokens": 232
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6bfe9f8ff2ca8983",
+		"name": "Brings large-scale buildings within the scope of the ordinance",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on the Construction and Management of Multi-unit Housing",
+		"summary": "The ordinance currently sets standards for the construction and management of multi-unit housing. This bill would also bring large-scale buildings and other buildings within its scope if they have a site area of at least 300 square meters and are at least the size specified by rules. It would revise standards for facilities and dwelling units. It will take effect on October 1, 2026.",
+		"changes": [
+			"Add large-scale buildings and mixed-use buildings to the scope of the ordinance",
+			"Require bicycle parking facilities at large-scale and mixed-use buildings used for retail stores, restaurants, financial institutions, or amusement facilities, if their floor area meets the minimum set by rules",
+			"Require parcel lockers in multi-unit housing and mixed-use buildings, and disaster-preparedness supply warehouses in buildings covered by the rules",
+			"Revise standards for barrier-free measures and family-oriented dwelling units"
+		],
+		"who": [
+			"Developers constructing covered multi-unit housing and other buildings",
+			"Owners of multi-unit housing and other buildings, and businesses contracted to manage them"
+		],
+		"why": "The mayor says this is to bring large-scale buildings within the scope of the ordinance and revise standards for construction and management.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:34:33.041Z",
+			"inputTokens": 728,
+			"cachedTokens": 0,
+			"outputTokens": 1006,
+			"reasoningTokens": 697
+		}
+	}
 }

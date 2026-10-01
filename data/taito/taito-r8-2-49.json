@@ -27,5 +27,64 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-49.pdf",
 			"fetchedAt": "2026-09-30T12:19:39.125Z"
 		}
-	]
+	],
+	"name": "小島社会教育館の所在地を変更",
+	"category": "教育",
+	"summary": "小島社会教育館の位置は、現在「小島一丁目5番2号」です。この議案により、「小島一丁目5番5号」に改めます。",
+	"changes": [
+		"所在地を小島一丁目5番2号から小島一丁目5番5号に改める"
+	],
+	"who": [
+		"小島社会教育館の利用者"
+	],
+	"why": "小島社会教育館の位置を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:17:56.553Z",
+		"inputTokens": 1159,
+		"cachedTokens": 0,
+		"outputTokens": 424,
+		"reasoningTokens": 269
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:17:56.553Z",
+		"checkedAt": "2026-09-30T15:52:25.736Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1062,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2f3134ed4c5177cd",
+		"name": "Changes the location of Kojima Social Education Hall",
+		"official": "Ordinance Partially Amending the Taito City Social Education Center and Social Education Hall Ordinance",
+		"summary": "Kojima Social Education Hall is currently located at 1-5-2 Kojima. This bill changes its address to 1-5-5 Kojima.",
+		"changes": [
+			"Changes the address from 1-5-2 Kojima to 1-5-5 Kojima"
+		],
+		"who": [
+			"Users of Kojima Social Education Hall"
+		],
+		"why": "The ward says this is to change the location of Kojima Social Education Hall.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:20:46.828Z",
+			"inputTokens": 508,
+			"cachedTokens": 0,
+			"outputTokens": 507,
+			"reasoningTokens": 346
+		}
+	}
 }

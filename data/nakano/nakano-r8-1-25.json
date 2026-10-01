@@ -22,5 +22,64 @@
 			"url": "https://kugikai-nakano.jp/gian/263294125.pdf",
 			"fetchedAt": "2026-09-30T10:25:27.081Z"
 		}
-	]
+	],
+	"name": "第二種手当を月7,750円に統一",
+	"category": "福祉",
+	"summary": "現在、障害者福祉手当の第二種手当は、年齢によって額が分かれています。この議案で年齢による区分をなくし、月額を7,750円に改めます。令和8年4月1日から施行します。",
+	"changes": [
+		"第二種手当の年齢による額の区分をなくし、月額を7,750円に改める"
+	],
+	"who": [
+		"障害者福祉手当の第二種手当を受ける人"
+	],
+	"why": "第二種手当の年齢による額の区分をなくし、額を改める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:47:08.813Z",
+		"inputTokens": 1297,
+		"cachedTokens": 0,
+		"outputTokens": 506,
+		"reasoningTokens": 313
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:47:08.813Z",
+		"checkedAt": "2026-09-30T15:35:43.020Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1263,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a3711c6b1d1606be",
+		"name": "Sets the second-category benefit at ¥7,750 per month",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Welfare Allowances for Persons with Disabilities",
+		"summary": "Currently, the amount of the second-category disability welfare allowance varies by age. This bill removes the age-based categories and sets the monthly amount at ¥7,750. It takes effect on April 1, 2026.",
+		"changes": [
+			"Removes the age-based categories for the second-category benefit and sets the monthly amount at ¥7,750"
+		],
+		"who": [
+			"People receiving the second-category disability welfare allowance"
+		],
+		"why": "The ward says it is necessary to remove the age-based categories for the second-category benefit and revise the amount.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:05:32.528Z",
+			"inputTokens": 565,
+			"cachedTokens": 0,
+			"outputTokens": 376,
+			"reasoningTokens": 193
+		}
+	}
 }

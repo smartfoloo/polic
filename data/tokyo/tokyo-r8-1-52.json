@@ -58,5 +58,27 @@
 			"outputTokens": 56,
 			"reasoningTokens": 42
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "622e84bdecfb783c",
+		"name": "Raises the number of school staff to 69,381",
+		"official": "Ordinance Partially Amending the Ordinance on the Number of School Staff",
+		"summary": "The current number of school staff is 68,903. This bill increases it to 69,381. The change takes effect on April 1, 2026.",
+		"changes": [
+			"Increases the number of school staff from 68,903 to 69,381"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says the number of school staff needs to be changed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:24:36.579Z",
+			"inputTokens": 491,
+			"cachedTokens": 0,
+			"outputTokens": 339,
+			"reasoningTokens": 196
+		}
 	}
 }

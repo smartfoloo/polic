@@ -58,5 +58,27 @@
 			"outputTokens": 77,
 			"reasoningTokens": 63
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ac250105d06b52b3",
+		"name": "Raises unit costs for financial adjustment between Tokyo and the special wards",
+		"official": "Ordinance on Special Provisions for the Financial Adjustment for Fiscal Year 2025 Between the Tokyo Metropolitan Government and the Special Wards, and Among the Special Wards",
+		"summary": "Unit costs set by ordinance form the basis for calculating financial adjustments between the Tokyo Metropolitan Government and the special wards, and among the special wards. For fiscal year 2025 only, some of these unit costs will be raised. The ordinance takes effect on the date it is promulgated.",
+		"changes": [
+			"Raises some of the unit costs used to calculate financial adjustments"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says this is because the financial adjustments for fiscal year 2025 between the Tokyo Metropolitan Government and the special wards, and among the special wards, need to be recalculated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:10.461Z",
+			"inputTokens": 563,
+			"cachedTokens": 0,
+			"outputTokens": 594,
+			"reasoningTokens": 392
+		}
 	}
 }

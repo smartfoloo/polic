@@ -22,5 +22,68 @@
 			"url": "https://kugikai-nakano.jp/gian/2636125610.pdf",
 			"fetchedAt": "2026-09-30T10:26:27.399Z"
 		}
-	]
+	],
+	"name": "再エネ設備の説明対象を用途・規模で定める",
+	"category": "環境",
+	"summary": "促進区域内では、建築士が建築主に再生可能エネルギー利用設備を説明する建築物の範囲を定めます。法第20条第2号・第3号に挙げられた用途以外で、建築部分の床面積の合計が10平方メートルを超える建築物が対象です。2026年4月1日から施行し、その日以降に建築士が設計を委託されたものに適用します。",
+	"changes": [
+		"法第20条第2号・第3号に挙げられた用途を対象から除く",
+		"建築部分の床面積の合計が10平方メートルを超える建築物を対象とする"
+	],
+	"who": [
+		"建築主",
+		"建築士"
+	],
+	"why": "説明義務の対象となる建築物の用途と規模を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:49:03.016Z",
+		"inputTokens": 1659,
+		"cachedTokens": 0,
+		"outputTokens": 1643,
+		"reasoningTokens": 1357
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:49:03.016Z",
+		"checkedAt": "2026-09-30T15:36:38.566Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1696,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fbdceae2642e9855",
+		"name": "Defines which uses and building sizes require explanations about renewable energy equipment",
+		"official": "Ordinance Specifying the Uses and Scale of Construction of Buildings Subject to Explanation Requirements within Areas Promoting the Use of Renewable Energy in Buildings in Nakano City",
+		"summary": "Within promotion areas, this ordinance defines which buildings require architects to explain renewable energy equipment to the building owner. It applies to buildings with uses other than those listed in Article 20, Items 2 and 3 of the Act, if the total floor area of the building portion exceeds 10 square meters. It takes effect on April 1, 2026, and applies to buildings for which an architect is commissioned to prepare a design on or after that date.",
+		"changes": [
+			"Excludes uses listed in Article 20, Items 2 and 3 of the Act",
+			"Covers buildings where the total floor area of the building portion exceeds 10 square meters"
+		],
+		"who": [
+			"Building owners",
+			"Architects"
+		],
+		"why": "The ward says this is because it is necessary to define the uses and sizes of buildings subject to the explanation requirement.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:12.582Z",
+			"inputTokens": 661,
+			"cachedTokens": 0,
+			"outputTokens": 579,
+			"reasoningTokens": 320
+		}
+	}
 }

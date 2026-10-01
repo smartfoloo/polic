@@ -27,5 +27,70 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4397_R81TG025.pdf",
 			"fetchedAt": "2026-09-30T10:32:41.012Z"
 		}
-	]
+	],
+	"name": "環状七号線A地区を条例の対象区域に追加",
+	"category": "まちづくり",
+	"summary": "この条例は、沿道地区計画の区域内にある建築物の制限を定めています。この議案では、環状七号線A地区の区域を加え、条例の参照先を更新します。",
+	"changes": [
+		"別表第1の沿道地区計画の告示を令和8年1月23日告示第38号アに改める",
+		"環状七号線A地区の区域を示す別表第6を追加する",
+		"条例の参照先に別表第6を加える",
+		"仮名遣いや表記を整える"
+	],
+	"who": [
+		"環状七号線A地区内で建築する人や事業者"
+	],
+	"why": "沿道地区計画の変更に伴い、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:21:41.267Z",
+		"inputTokens": 1642,
+		"cachedTokens": 0,
+		"outputTokens": 990,
+		"reasoningTokens": 768
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:21:41.267Z",
+		"checkedAt": "2026-09-30T15:22:42.847Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1642,
+			"cachedTokens": 0,
+			"outputTokens": 78,
+			"reasoningTokens": 64
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a78172177ac283c4",
+		"name": "Adds the Route 7 Ring Road A District to the area covered by the ordinance",
+		"official": "Ordinance Partially Amending the Ordinance on Restrictions on Buildings within the Area of the Roadside District Plan Related to Adachi City",
+		"summary": "This ordinance sets restrictions on buildings in areas covered by roadside district plans. This bill adds the area of the Route 7 Ring Road A District and updates the references in the ordinance.",
+		"changes": [
+			"Changes the roadside district plan notice listed in Appendix Table 1 to Notice No. 38(a), dated January 23, 2026",
+			"Adds Appendix Table 6, which shows the area of the Route 7 Ring Road A District",
+			"Adds Appendix Table 6 to the ordinance references",
+			"Standardizes kana usage and notation"
+		],
+		"who": [
+			"People and businesses building within the Route 7 Ring Road A District"
+		],
+		"why": "The ward says this is to update the ordinance provisions in line with changes to the roadside district plan.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:55:27.656Z",
+			"inputTokens": 614,
+			"cachedTokens": 0,
+			"outputTokens": 1044,
+			"reasoningTokens": 806
+		}
+	}
 }

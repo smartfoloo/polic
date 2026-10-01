@@ -63,5 +63,32 @@
 			"outputTokens": 40,
 			"reasoningTokens": 26
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ff3a194e6cfe9a3a",
+		"name": "Raises the loan limits for women’s welfare funds",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Women’s Welfare Fund Loan Ordinance",
+		"summary": "Under the current ordinance, the loan limit for business startup funds is ¥3,580,000. This bill raises it to ¥3,720,000 and also raises the limits for five other types of funds. The ordinance takes effect on the date of promulgation, and the new limits apply to applications submitted on or after April 1, 2026.",
+		"changes": [
+			"Raises the loan limit for business startup funds from ¥3,580,000 to ¥3,720,000",
+			"Raises the loan limit for business continuation funds from ¥1,790,000 to ¥1,860,000",
+			"Raises the medical and nursing care fund limit from ¥480,000 to ¥510,000 and the living expenses fund limit from ¥114,000 to ¥118,000",
+			"Raises the marriage fund limit from ¥330,000 to ¥340,000 and the education fund limit from ¥54,000 to ¥55,500"
+		],
+		"who": [
+			"People applying for loans from the Women’s Welfare Fund"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to enhance the Women’s Welfare Fund lending program.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:28:48.685Z",
+			"inputTokens": 697,
+			"cachedTokens": 0,
+			"outputTokens": 967,
+			"reasoningTokens": 669
+		}
 	}
 }

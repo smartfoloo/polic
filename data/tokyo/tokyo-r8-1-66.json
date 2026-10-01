@@ -35,7 +35,7 @@
 		"都営住宅条例で挙げる条例に東京都小笠原移住定住促進住宅条例を加える"
 	],
 	"who": [],
-	"why": "東京都小笠原移住定住促進住宅条例が新たに作られるため、都営住宅条例の記載を改めると都は説明しています。",
+	"why": "東京都小笠原移住定住促進住宅条例が新たに作られるため、都営住宅条例の記載を改めると、都は説明しています。",
 	"draft": {
 		"model": "gpt-6-sol",
 		"effort": "high",
@@ -48,9 +48,7 @@
 	"checks": {
 		"draftAt": "2026-09-28T11:14:28.313Z",
 		"checkedAt": "2026-09-29T04:11:33.924Z",
-		"flags": [
-			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
-		],
+		"flags": [],
 		"issues": [
 			{
 				"field": "changes",
@@ -67,6 +65,28 @@
 			"inputTokens": 1192,
 			"outputTokens": 188,
 			"reasoningTokens": 87
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f1166263fe6b627e",
+		"name": "Adds Ogasawara ordinance to Tokyo metropolitan housing rules",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Housing Ordinance",
+		"summary": "The Tokyo Metropolitan Housing Ordinance lists the Tokyo Metropolitan Specific Public Rental Housing Ordinance. This bill also adds the Tokyo Metropolitan Ogasawara Relocation and Settlement Promotion Housing Ordinance. The amendment takes effect on the date it is promulgated.",
+		"changes": [
+			"Adds the Tokyo Metropolitan Ogasawara Relocation and Settlement Promotion Housing Ordinance to the ordinances listed in the Tokyo Metropolitan Housing Ordinance"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says it is amending the entry in the Tokyo Metropolitan Housing Ordinance because the Tokyo Metropolitan Ogasawara Relocation and Settlement Promotion Housing Ordinance is being newly established.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:35:43.091Z",
+			"inputTokens": 533,
+			"cachedTokens": 0,
+			"outputTokens": 384,
+			"reasoningTokens": 195
 		}
 	}
 }

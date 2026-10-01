@@ -22,5 +22,60 @@
 			"url": "https://kugikai-nakano.jp/gian/26329435.pdf",
 			"fetchedAt": "2026-09-30T10:25:45.053Z"
 		}
-	]
+	],
+	"name": "審議会条例の引用条項を改める",
+	"category": "行政のしくみ",
+	"summary": "条例では、空家等対策の推進に関する特別措置法の第6条第1項を引用しています。この議案で引用先を第7条第1項に改め、公布日に施行します。",
+	"changes": [
+		"引用する条項を第6条第1項から第7条第1項に改める"
+	],
+	"who": [],
+	"why": "空家等対策の推進に関する特別措置法の改正に伴い、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:47:25.116Z",
+		"inputTokens": 1154,
+		"cachedTokens": 0,
+		"outputTokens": 445,
+		"reasoningTokens": 266
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:47:25.116Z",
+		"checkedAt": "2026-09-30T15:35:54.425Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1082,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7b4b8df03e83aa32",
+		"name": "Updates the cited article in the council ordinance",
+		"official": "Ordinance Partially Amending the Nakano City Vacant Houses, etc. Measures Council Ordinance",
+		"summary": "The ordinance cites Article 6, Paragraph 1 of the Act on Special Measures for the Promotion of Measures to Address Vacant Houses, etc. This bill changes the citation to Article 7, Paragraph 1. It takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the cited provision from Article 6, Paragraph 1 to Article 7, Paragraph 1"
+		],
+		"who": [],
+		"why": "The ward says this is to update the provisions following an amendment to the Act on Special Measures for the Promotion of Measures to Address Vacant Houses, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:26:08.418Z",
+			"inputTokens": 527,
+			"cachedTokens": 0,
+			"outputTokens": 622,
+			"reasoningTokens": 440
+		}
+	}
 }

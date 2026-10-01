@@ -27,5 +27,73 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian43.pdf",
 			"fetchedAt": "2026-09-30T10:39:41.531Z"
 		}
-	]
+	],
+	"name": "河川の占用料などを改定",
+	"category": "税・手数料",
+	"summary": "河川の流水占用料などの額を、用途や区分ごとに改めます。条例は公布日に施行し、施行日以後に申請する占用に新しい額を適用します。それ以前の申請には従来の額を適用します。",
+	"changes": [
+		"工業用等（発電用を除く。）の額を6,477円から6,833円に改める",
+		"第1種の額を2,485円から2,613円に、第2種の額を1,242円から1,306円に改める",
+		"第3種から第5種までと第8種の額を4,143円から4,355円に改める",
+		"第6種の額を2,071円から2,177円に、第7種の額を6,214円から6,533円に改める"
+	],
+	"who": [
+		"河川の占用を申請する人・事業者"
+	],
+	"why": "流水占用料等の額を改める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:38:24.939Z",
+		"inputTokens": 1353,
+		"cachedTokens": 0,
+		"outputTokens": 1029,
+		"reasoningTokens": 751
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:38:24.939Z",
+		"checkedAt": "2026-09-30T15:31:43.055Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1404,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "525492a6b66a707d",
+		"name": "Revises river use fees",
+		"official": "Ordinance Partially Amending the Katsushika City Ordinance on Collection of River Flow Occupancy Fees, etc.",
+		"summary": "The amounts of fees for using river water and related fees will be revised according to use and category. The ordinance will take effect on the day it is promulgated, and the new amounts will apply to river occupancy applications submitted on or after the effective date. The previous amounts will apply to applications submitted before then.",
+		"changes": [
+			"Raises the fee for industrial use, etc. (excluding power generation) from ¥6,477 to ¥6,833",
+			"Raises the Category 1 fee from ¥2,485 to ¥2,613 and the Category 2 fee from ¥1,242 to ¥1,306",
+			"Raises the fees for Categories 3 through 5 and Category 8 from ¥4,143 to ¥4,355",
+			"Raises the Category 6 fee from ¥2,071 to ¥2,177 and the Category 7 fee from ¥6,214 to ¥6,533"
+		],
+		"who": [
+			"People and businesses applying to occupy a river",
+			"People and businesses applying to occupy a river",
+			"People and businesses applying to occupy a river",
+			"People and businesses applying to occupy a river"
+		],
+		"why": "The ward says the amounts of fees for using river water and related fees need to be revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:01:29.756Z",
+			"inputTokens": 656,
+			"cachedTokens": 0,
+			"outputTokens": 1039,
+			"reasoningTokens": 712
+		}
+	}
 }

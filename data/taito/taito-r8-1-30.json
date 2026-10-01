@@ -27,5 +27,78 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei1/08-dai1kai-gian.files/8-1-30.pdf",
 			"fetchedAt": "2026-09-30T12:17:56.983Z"
 		}
-	]
+	],
+	"name": "東上野乳児保育園で通園支援事業を実施",
+	"category": "子育て",
+	"summary": "現在の条例には、東上野乳児保育園で乳児等通園支援事業を行う規定がありません。この改正で同園が事業を実施し、指定管理者が事業を行う場合は、利用料金を設定できるようになります。",
+	"changes": [
+		"東上野乳児保育園で乳児等通園支援事業を行う",
+		"事業の実施時間を別に定める",
+		"指定管理者が事業を行う場合、利用料金を1時間当たり300円以内で設定できる",
+		"利用料金を指定管理者の収入として受け取れる"
+	],
+	"who": [
+		"乳児等通園支援事業を利用する人"
+	],
+	"why": "乳児等通園支援事業の実施などに関する規定を整えるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:15:17.340Z",
+		"inputTokens": 1492,
+		"cachedTokens": 0,
+		"outputTokens": 738,
+		"reasoningTokens": 502
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:15:17.340Z",
+		"checkedAt": "2026-09-30T15:51:04.379Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "東上野乳児保育園で乳児等通園支援事業を行う",
+				"note": "第9条に「幼児教育事業の実施に関すること（認定こども園に限る。）」を追加する変更が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1499,
+			"cachedTokens": 0,
+			"outputTokens": 257,
+			"reasoningTokens": 161
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "91ce1bb746c13a1e",
+		"name": "Carries out attendance support at Higashiueno Infant Nursery",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on Municipal Nursery Schools",
+		"summary": "The current ordinance has no provision for carrying out the infant and toddler attendance support program at Higashiueno Infant Nursery. Under this amendment, the nursery will carry out the program, and the designated manager will be able to set user fees if it operates the program.",
+		"changes": [
+			"Carries out the infant and toddler attendance support program at Higashiueno Infant Nursery",
+			"Sets the program's operating hours separately",
+			"Allows the designated manager to set user fees of up to ¥300 per hour when it operates the program",
+			"Allows user fees to be received as income by the designated manager"
+		],
+		"who": [
+			"People who use the infant and toddler attendance support program"
+		],
+		"why": "The mayor says this is to establish provisions concerning the implementation of the infant and toddler attendance support program and related matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:19:56.837Z",
+			"inputTokens": 611,
+			"cachedTokens": 0,
+			"outputTokens": 808,
+			"reasoningTokens": 574
+		}
+	}
 }

@@ -27,5 +27,69 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4372_R81TGG001.pdf",
 			"fetchedAt": "2026-09-30T10:35:42.471Z"
 		}
-	]
+	],
+	"name": "賃上げした事業者に従業員1人6万円を助成",
+	"category": "まちづくり",
+	"summary": "この条例案は、区内の中小企業者等が従業員の賃上げをした場合に、区が助成金を支給する制度を定めます。時給換算で70円以上の賃上げなどの条件があり、助成額は従業員1人につき6万円、事業者ごとの上限は100万円です。条例案では、2026年10月1日から施行するとしています。",
+	"changes": [
+		"賃上げの条件に、時給換算で70円以上の引上げ、引上げ後の賃金が最低賃金より70円以上高いこと、1年間続ける見込みを設ける",
+		"助成額を、賃上げした従業員1人につき6万円として事業者に支給する",
+		"事業者ごとの上限を100万円とし、支給を1年度1回に限る"
+	],
+	"who": [
+		"区内に主な事業所と本店登記があり、1年以上事業を続けている中小企業者等",
+		"賃上げを受ける従業員"
+	],
+	"why": "物価高騰を上回る賃上げと人材確保を進めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:24:46.636Z",
+		"inputTokens": 3427,
+		"cachedTokens": 0,
+		"outputTokens": 1431,
+		"reasoningTokens": 1066
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:24:46.636Z",
+		"checkedAt": "2026-09-30T15:24:17.704Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "name",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "賃上げした従業員に1人6万円を助成",
+				"note": "第3条の助成対象者は中小企業者等であり、従業員本人への支給ではない。第5条は従業員数を基準に事業者への助成額を定めている。",
+				"dismissed": {
+					"note": "Fixed in the text: the grant goes to the business, 6万円 per employee.",
+					"at": "2026-10-01T12:14:09.204Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "賃上げの条件に、時給換算で70円以上の引上げ、引上げ後の賃金が最低賃金より70円以上高いこと、1年間続ける見込みを設ける",
+				"note": "第2条第2・3項では、対象の賃上げを賞与・各種手当を除く基本給単価の引上げと定義している。この重要な条件が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事業者ごとの上限を100万円とし、支給を1年度1回に限る",
+				"note": "第3条の主な対象要件である税の滞納がないこと、他の公的な賃上げ助成金を受給しておらず受給見込みもないことがchangesに記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3534,
+			"cachedTokens": 0,
+			"outputTokens": 480,
+			"reasoningTokens": 156
+		}
+	}
 }

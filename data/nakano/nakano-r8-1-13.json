@@ -22,5 +22,72 @@
 			"url": "https://kugikai-nakano.jp/gian/262310119.pdf",
 			"fetchedAt": "2026-09-30T10:24:51.277Z"
 		}
-	]
+	],
+	"name": "区長などの給料と期末手当を改定",
+	"category": "行政のしくみ",
+	"summary": "区長、副区長、教育長、常勤の監査委員の給料と期末手当の額を定めています。この議案で、給料の額と期末手当の支給割合を改めます。施行日は2026年3月1日です。",
+	"changes": [
+		"区長の給料を1,264,600円から1,306,300円に改める",
+		"副区長の給料を1,015,200円から1,048,700円に改める",
+		"教育長の給料を889,900円から919,300円に、常勤の監査委員の給料を808,500円から835,200円に改める",
+		"期末手当の支給割合を100分の197から100分の199に、100分の173.5から100分の175.5に改める"
+	],
+	"who": [
+		"区長",
+		"副区長、教育長、常勤の監査委員"
+	],
+	"why": "給料と期末手当の額を改める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:46:07.188Z",
+		"inputTokens": 1314,
+		"cachedTokens": 0,
+		"outputTokens": 978,
+		"reasoningTokens": 662
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:46:07.188Z",
+		"checkedAt": "2026-09-30T15:35:19.056Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1378,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "837fbf432d70c31e",
+		"name": "Revises salaries and year-end allowances for the mayor and others",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Salaries, etc. for the Mayor, etc.",
+		"summary": "The ordinance sets the salaries and year-end allowance amounts for the mayor, deputy mayor, superintendent of education, and full-time audit commissioner. This bill revises the salary amounts and the rates for year-end allowances. It takes effect on March 1, 2026.",
+		"changes": [
+			"Raises the mayor’s salary from ¥1,264,600 to ¥1,306,300",
+			"Raises the deputy mayor’s salary from ¥1,015,200 to ¥1,048,700",
+			"Raises the superintendent of education’s salary from ¥889,900 to ¥919,300, and the full-time audit commissioner’s salary from ¥808,500 to ¥835,200",
+			"Changes the year-end allowance rates from 197/100 to 199/100, and from 173.5/100 to 175.5/100"
+		],
+		"who": [
+			"The mayor",
+			"The deputy mayor, superintendent of education, and full-time audit commissioner"
+		],
+		"why": "The ward says the salary and year-end allowance amounts need to be revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:04:54.568Z",
+			"inputTokens": 664,
+			"cachedTokens": 0,
+			"outputTokens": 843,
+			"reasoningTokens": 549
+		}
+	}
 }

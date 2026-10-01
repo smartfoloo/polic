@@ -22,5 +22,78 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2741_gian18%20.pdf",
 			"fetchedAt": "2026-09-30T10:41:35.553Z"
 		}
-	]
+	],
+	"name": "管理職員特別勤務手当の対象を拡充",
+	"category": "教育",
+	"summary": "条例では、管理職員特別勤務手当の支給について定めています。この議案では、手当の対象となる時間の扱いを改め、人事委員会の承認を得て教育委員会規則で定める勤務には、手当額を通常の1.5倍にする扱いを広げます。2026年4月1日から施行します。",
+	"changes": [
+		"手当の算定対象となる時間帯の始まりを午前0時から午後10時に改める",
+		"週休日等に含まれる時間を算定対象から除く",
+		"前2項の勤務時間を考慮し、人事委員会の承認を得て教育委員会規則で定める勤務に手当額の1.5倍を適用する"
+	],
+	"who": [
+		"管理職の幼稚園教育職員"
+	],
+	"why": "特別区人事委員会の勧告に基づき、管理職員特別勤務手当を拡充し、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:28:15.488Z",
+		"inputTokens": 1429,
+		"cachedTokens": 0,
+		"outputTokens": 1821,
+		"reasoningTokens": 1540
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:28:15.488Z",
+		"checkedAt": "2026-09-30T15:26:14.360Z",
+		"flags": [
+			"copied from the source (25 chars): 「人事委員会の承認を得て教育委員会規則で定める勤務に」",
+			"copied from the source (25 chars): 「人事委員会の承認を得て教育委員会規則で定める勤務に」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1488,
+			"cachedTokens": 0,
+			"outputTokens": 67,
+			"reasoningTokens": 53
+		},
+		"dismissedFlags": [
+			{
+				"flag": "copied from the source (25 chars): 「人事委員会の承認を得て教育委員会規則で定める勤務に」",
+				"note": "Official name or fixed legal wording, not prose to rewrite.",
+				"at": "2026-10-01T11:27:53.157Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b74aead6ee2d349b",
+		"name": "Expands eligibility for the special work allowance for managers",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries for Kindergarten Education Staff",
+		"summary": "The ordinance sets out the payment of a special work allowance for managerial staff. This bill changes how eligible work hours are treated and expands the application of an allowance 1.5 times the usual amount to work prescribed by Board of Education rules with the approval of the Personnel Commission. It takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the start of the time period counted for calculating the allowance from midnight to 10 p.m.",
+			"Excludes hours included in weekly days off, etc., from the calculation.",
+			"Applies an allowance 1.5 times the usual amount to work prescribed by Board of Education rules with the approval of the Personnel Commission, taking into account the working hours in the preceding two paragraphs."
+		],
+		"who": [
+			"Kindergarten education staff in managerial positions"
+		],
+		"why": "The ward says this is to expand the special work allowance for managerial staff and adjust the provisions, based on a recommendation from the Special Wards Personnel Commission.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:22:17.469Z",
+			"inputTokens": 660,
+			"cachedTokens": 0,
+			"outputTokens": 938,
+			"reasoningTokens": 674
+		}
+	}
 }

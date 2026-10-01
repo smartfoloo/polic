@@ -63,5 +63,32 @@
 			"outputTokens": 125,
 			"reasoningTokens": 111
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aba31f00de1dde89",
+		"name": "Requires certified childcare centers to take measures to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Government Ordinance on Certification Requirements for Certified Early Childhood Education and Care Centers",
+		"summary": "The ordinance adds provisions to prevent sexual violence against children and protect children if it occurs. It requires operators of certified early childhood education and care centers to check the criminal records of people engaged in certain work involving contact with children. It takes effect on December 25, 2026.",
+		"changes": [
+			"Require operators of certified early childhood education and care centers to check the criminal records of people engaged in covered work",
+			"Require measures to prevent sexual violence against children and protect children if it occurs"
+		],
+		"who": [
+			"Children attending certified early childhood education and care centers",
+			"Operators of certified early childhood education and care centers",
+			"People engaged in covered work at certified early childhood education and care centers"
+		],
+		"why": "The Tokyo Metropolitan Government explains that provisions on preventing sexual violence against children and related matters need to be added to the ordinance following the enactment and amendment of related laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:55.267Z",
+			"inputTokens": 680,
+			"cachedTokens": 0,
+			"outputTokens": 573,
+			"reasoningTokens": 320
+		}
 	}
 }

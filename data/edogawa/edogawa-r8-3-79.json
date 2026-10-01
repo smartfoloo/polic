@@ -22,5 +22,81 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2814_gian79.pdf",
 			"fetchedAt": "2026-09-30T10:43:59.792Z"
 		}
-	]
+	],
+	"name": "西一之江みのり公園に分区園を新設",
+	"category": "まちづくり",
+	"summary": "この議案で、西一之江みのり公園に分区園を新たに設けます。1区画を1周期利用する使用料は14,000円です。利用条件や周期途中から利用する場合の使用料も定め、2027年4月1日に施行します。",
+	"changes": [
+		"西一之江みのり公園分区園を公園施設に加える",
+		"1区画あたり1周期の使用料を14,000円と定める",
+		"利用できる人を区内居住者とし、1世帯1区画、利用周期を定める",
+		"周期途中からの使用料を利用開始時期に応じて定め、承認を受けた農作物の採取等を損傷禁止の例外とする"
+	],
+	"who": [
+		"江戸川区内に住む人"
+	],
+	"why": "分区園を新たな公園施設として設置し、使用料を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:32:17.195Z",
+		"inputTokens": 1686,
+		"cachedTokens": 0,
+		"outputTokens": 1578,
+		"reasoningTokens": 1277
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:32:17.195Z",
+		"checkedAt": "2026-09-30T15:28:21.197Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用できる人を区内居住者とし、1世帯1区画、利用周期を定める",
+				"note": "原文では利用周期を「4月1日から翌々年の2月末日まで」とし、承認は1周期単位と定めている。利用期間に直接関わる具体的な条件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1729,
+			"cachedTokens": 0,
+			"outputTokens": 282,
+			"reasoningTokens": 168
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7590c163e213963a",
+		"name": "Adds garden plots to Nishi-Ichinoe Minori Park",
+		"official": "Ordinance Partially Amending the Edogawa City Parks Ordinance",
+		"summary": "This bill establishes an allotment garden at Nishi-Ichinoe Minori Park. The fee for using one plot for one cycle is ¥14,000. It also sets eligibility rules and fees for starting partway through a cycle. The ordinance will take effect on April 1, 2027.",
+		"changes": [
+			"Adds the allotment garden at Nishi-Ichinoe Minori Park as a park facility",
+			"Sets the fee for using one plot for one cycle at ¥14,000",
+			"Limits eligibility to Edogawa City residents, allows one plot per household, and sets the usage cycle",
+			"Sets fees for starting partway through a cycle according to the start time, and makes approved crop harvesting, etc., an exception to the ban on causing damage"
+		],
+		"who": [
+			"People using the allotment garden at Nishi-Ichinoe Minori Park",
+			"People using one plot for one cycle",
+			"Edogawa City residents using the garden, with one plot allowed per household",
+			"People starting partway through a cycle and people approved to harvest crops, etc."
+		],
+		"why": "The ward says it is necessary to establish the allotment garden as a new park facility and set a usage fee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:27.827Z",
+			"inputTokens": 643,
+			"cachedTokens": 0,
+			"outputTokens": 1370,
+			"reasoningTokens": 1047
+		}
+	}
 }

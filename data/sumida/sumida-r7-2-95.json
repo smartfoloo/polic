@@ -27,5 +27,85 @@
 			"url": "https://www.city.sumida.lg.jp/kugikai/kaigi_info/teireikai/2025/r7-2gian.files/95gaiyou.pdf",
 			"fetchedAt": "2026-09-30T10:13:04.628Z"
 		}
-	]
+	],
+	"name": "住宅の耐震改修助成を拡大",
+	"category": "防災",
+	"summary": "現在の木造住宅を対象とする助成に、昭和56年5月31日以前に着工された区内の非木造住宅も加えます。除却の助成対象区域は、緊急対応地区内から区内全域に広がります。条例は令和8年4月1日施行で、指定道路沿道住宅の助成率引上げの廃止は令和9年4月1日施行です。",
+	"changes": [
+		"非木造住宅の耐震改修等を助成対象に加える",
+		"除却の助成対象区域を区内全域に広げる",
+		"耐震改修工事の助成率を一般住宅で2分の1から3分の2、高齢者等居住住宅で6分の5から10分の9に上げ、高齢者等の対象に精神障害者保健福祉手帳の所持者と要介護・要支援認定者を加える",
+		"指定道路沿道住宅の耐震改修工事に対する助成率の引上げを廃止する"
+	],
+	"who": [
+		"住宅の耐震改修等や除却の助成を申請する人"
+	],
+	"why": "住宅の耐震化を進めるため、また指定道路沿道では道路幅員の確保を進めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:09:32.034Z",
+		"inputTokens": 3983,
+		"cachedTokens": 0,
+		"outputTokens": 2966,
+		"reasoningTokens": 2588
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:09:32.034Z",
+		"checkedAt": "2026-09-30T15:47:56.509Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "耐震改修工事の助成率を一般住宅で2分の1から3分の2、高齢者等居住住宅で6分の5から10分の9に上げ、高齢者等の対象に精神障害者保健福祉手帳の所持者と要介護・要支援認定者を加える",
+				"note": "原文の改正概要2⑵イでは、規則で定める住宅改修助成事業と併用して工事を行った住宅も、助成率を6分の5から10分の9に引き上げる対象です。この対象が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "非木造住宅の耐震改修等を助成対象に加える",
+				"note": "原文の参考「改正前後の助成内容一覧」には、住宅の計画作成等、耐震改修工事、耐震装置設置、除却の助成限度額の引上げも示されています。住民に直接関わる変更ですが、changesに記載がありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4106,
+			"cachedTokens": 0,
+			"outputTokens": 493,
+			"reasoningTokens": 164
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "59899f2eee07d713",
+		"name": "Expands housing seismic retrofit subsidies",
+		"official": "Ordinance Partially Amending the Sumida City Wooden Housing Seismic Retrofit Promotion Subsidy Ordinance",
+		"summary": "The existing subsidy program for wooden housing will also cover non-wooden homes in Sumida City whose construction began on or before May 31, 1981. The area eligible for demolition subsidies will expand from emergency response districts to all of Sumida City. The ordinance takes effect on April 1, 2026. The repeal of the higher subsidy rate for homes along designated roads takes effect on April 1, 2027.",
+		"changes": [
+			"Add seismic retrofits and other work on non-wooden homes to the work eligible for subsidies",
+			"Expand the area eligible for demolition subsidies from emergency response districts to all of Sumida City",
+			"Raise the subsidy rate for seismic retrofit work from one-half to two-thirds for general homes, and from five-sixths to nine-tenths for homes occupied by older people and others; add holders of mental disability health and welfare certificates and people certified as needing long-term care or support to the eligible groups",
+			"End the higher subsidy rate for seismic retrofit work on homes along designated roads"
+		],
+		"who": [
+			"People applying for subsidies for seismic retrofits and other work on housing or for demolition"
+		],
+		"why": "The ward says this is to promote seismic retrofitting of housing and to ensure road widths along designated roads.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:17:04.068Z",
+			"inputTokens": 729,
+			"cachedTokens": 0,
+			"outputTokens": 1144,
+			"reasoningTokens": 818
+		}
+	}
 }

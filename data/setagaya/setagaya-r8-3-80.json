@@ -27,5 +27,64 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/80.pdf",
 			"fetchedAt": "2026-09-30T10:22:52.288Z"
 		}
-	]
+	],
+	"name": "若林五丁目公園を廃止",
+	"category": "まちづくり",
+	"summary": "現在、世田谷区立公園条例の公園一覧に、若林五丁目公園が載っています。この議案で公園を廃止し、一覧から削除します。条例は令和8年10月29日から施行されます。",
+	"changes": [
+		"世田谷区立若林五丁目公園を廃止する"
+	],
+	"who": [
+		"若林五丁目公園の利用者"
+	],
+	"why": "若林五丁目公園を廃止する必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:56:37.369Z",
+		"inputTokens": 1103,
+		"cachedTokens": 0,
+		"outputTokens": 902,
+		"reasoningTokens": 724
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:56:37.369Z",
+		"checkedAt": "2026-09-30T15:41:13.170Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1024,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "da79360291a93a66",
+		"name": "Abolishes Wakabayashi 5-chome Park",
+		"official": "Ordinance Partially Amending the Setagaya City Parks Ordinance",
+		"summary": "Wakabayashi 5-chome Park is currently listed among the parks in the Setagaya City Parks Ordinance. This bill abolishes the park and removes it from the list. The ordinance takes effect on October 29, 2026.",
+		"changes": [
+			"Abolishes Wakabayashi 5-chome Park in Setagaya City"
+		],
+		"who": [
+			"Users of Wakabayashi 5-chome Park"
+		],
+		"why": "The mayor says that the park needs to be abolished.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:56.086Z",
+			"inputTokens": 520,
+			"cachedTokens": 0,
+			"outputTokens": 383,
+			"reasoningTokens": 215
+		}
+	}
 }

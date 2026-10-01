@@ -27,5 +27,93 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei2/08-dai2kai-gian.files/8-2-45.pdf",
 			"fetchedAt": "2026-09-30T12:19:15.104Z"
 		}
-	]
+	],
+	"name": "住宅ローン控除を令和25年度まで延長",
+	"category": "税・手数料",
+	"summary": "現在、区民税の住宅借入金等特別税額控除には、対象となる居住年や適用年度の期限があります。この議案で、居住年の期限を令和7年から令和12年に、適用年度を令和20年度から令和25年度に延ばします。あわせて、公的年金等を受ける人の申告事項や、土砂災害などの指定区域にある土地の譲渡に関する特例も見直します。",
+	"changes": [
+		"住宅借入金等特別税額控除の適用年度を令和20年度から令和25年度に延ばす",
+		"控除の対象となる居住年の期限を令和7年から令和12年に延ばす",
+		"公的年金等を受ける人の区民税申告の対象や記載事項を改める",
+		"地すべり防止区域、急傾斜地崩壊危険区域、土砂災害特別警戒区域、浸水被害防止区域にある土地について、租税特別措置法で定める一部の譲渡（第31条の2第2項第13号から第15号）を、優良住宅地等のための譲渡の特例から除く"
+	],
+	"who": [
+		"住宅借入金等特別税額控除の対象となる住宅に住む人",
+		"公的年金等を受け、申告事項に該当する人",
+		"地すべり防止区域などにある土地を譲渡する人"
+	],
+	"why": "地方税法の改正に伴い、住宅借入金等特別税額控除の特例を延長するなどのためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:17:14.304Z",
+		"inputTokens": 5778,
+		"cachedTokens": 0,
+		"outputTokens": 1959,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:17:14.304Z",
+		"checkedAt": "2026-09-30T15:52:11.794Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "地すべり防止区域などにある土地の譲渡を、優良住宅地等向けの特例対象から外す",
+				"note": "原文の付則第11条第4項は、租税特別措置法第31条の2第2項第13号から第15号までに該当する譲渡に限定しており、区域内の土地の譲渡すべてを対象から外すわけではない。",
+				"dismissed": {
+					"note": "Fixed in the text: names the four zones and limits it to the transfers in 租税特別措置法第31条の2第2項第13–15号.",
+					"at": "2026-10-01T12:09:53.468Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "地すべり防止区域などにある土地の譲渡を、優良住宅地等向けの特例対象から外す",
+				"note": "原文の付則第11条第1項・第2項にある、土地譲渡に関する特例の期限を令和8年度から令和11年度へ延長する変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5929,
+			"cachedTokens": 0,
+			"outputTokens": 331,
+			"reasoningTokens": 96
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "614f3d51befe1873",
+		"name": "Extends the housing loan tax credit through FY2043",
+		"official": "Ordinance Partially Amending the Taito City Special Ward Tax Ordinance",
+		"summary": "The resident tax housing loan tax credit currently has deadlines for the years in which people must move into an eligible home and for the fiscal years in which the credit applies. This bill extends the deadline for moving in from 2025 to 2030 and the applicable fiscal year deadline from FY2038 to FY2043. It also revises declaration requirements for people receiving public pensions and special treatment for transfers of land in designated areas for landslides and other disasters.",
+		"changes": [
+			"Extends the applicable fiscal years for the housing loan tax credit from FY2038 to FY2043",
+			"Extends the deadline for moving into a home eligible for the credit from 2025 to 2030",
+			"Revises who must file a resident tax return and what it must include for people receiving public pensions, etc.",
+			"Excludes certain transfers specified in the Act on Special Measures Concerning Taxation (Article 31-2, Paragraph 2, Items 13 through 15) from the special treatment for transfers for quality residential land, when the land is in a landslide prevention area, steep-slope collapse hazard area, special alert area for sediment disasters, or flood damage prevention area"
+		],
+		"who": [
+			"People living in homes eligible for the housing loan tax credit",
+			"People receiving public pensions, etc., who are subject to the declaration requirements",
+			"People transferring land in areas such as landslide prevention areas"
+		],
+		"why": "The mayor says the bill is intended, among other things, to extend the special measures for the housing loan tax credit following amendments to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:34:54.157Z",
+			"inputTokens": 822,
+			"cachedTokens": 0,
+			"outputTokens": 1103,
+			"reasoningTokens": 710
+		}
+	}
 }

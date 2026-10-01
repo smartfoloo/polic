@@ -73,5 +73,34 @@
 			"outputTokens": 459,
 			"reasoningTokens": 362
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aa6f1b5e81846188",
+		"name": "Extends vehicle tax exemptions and land tax reductions",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Tax Ordinance",
+		"summary": "Exemptions from the vehicle tax for electric vehicles and other vehicles, and tax reductions for commercial land and small residential lots, are in effect. The deadline for first registration of eligible vehicles is extended by five years, to March 31, 2031, and the tax reductions on land will continue in FY2026. The method of service by publication and the retention period for tax-related books and records are also changed.",
+		"changes": [
+			"Extends the exemption from the vehicle tax by vehicle type for electric vehicles and other vehicles by five years",
+			"Continues the reduction in fixed asset tax and city planning tax for commercial land and similar properties where the burden level exceeds 65%",
+			"Continues the measure that halves the city planning tax on small residential lots",
+			"Extends the retention period for tax-related books and records from five years to seven years"
+		],
+		"who": [
+			"People registering electric vehicles and other eligible vehicles for the first time",
+			"Owners of commercial land and similar properties where the burden level exceeds 65%",
+			"Owners of small residential lots"
+		],
+		"why": "The Tokyo Metropolitan Government says the changes are needed to continue the vehicle tax exemptions and reductions in taxes on land, and to make other amendments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:23:58.179Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 816,
+			"reasoningTokens": 505
+		}
 	}
 }

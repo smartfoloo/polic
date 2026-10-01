@@ -61,5 +61,30 @@
 			"outputTokens": 67,
 			"reasoningTokens": 53
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "90fbfcf80656a117",
+		"name": "Establishes a Suginami City bicycle parking facility in Nishi-Eifuku Kita",
+		"official": "Ordinance Partially Amending the Suginami City Bicycle Parking Facility Ordinance",
+		"summary": "The ward previously abolished the Nishi-Eifuku Kita Bicycle Parking Facility. This time, it will rent part of the former facility’s site and develop it as a ward-run bicycle parking facility with space for about 30 bicycles. The ward will add its name and location to the ordinance, and the effective date will be set by rules.",
+		"changes": [
+			"Add the Suginami City Nishi-Eifuku Kita Bicycle Parking Facility to the ordinance",
+			"Set its location as 3-55-3 Eifuku, Suginami City"
+		],
+		"who": [
+			"People who use the Nishi-Eifuku Kita Bicycle Parking Facility"
+		],
+		"why": "The ward says it is necessary to set a name and location when establishing one ward-run bicycle parking facility.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:15:24.262Z",
+			"inputTokens": 592,
+			"cachedTokens": 0,
+			"outputTokens": 562,
+			"reasoningTokens": 332
+		}
 	}
 }

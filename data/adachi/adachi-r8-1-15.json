@@ -27,5 +27,66 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4387_R81TG015.pdf",
 			"fetchedAt": "2026-09-30T10:31:16.992Z"
 		}
-	]
+	],
+	"name": "税の公示送達に電子画面での閲覧を追加",
+	"category": "税・手数料",
+	"summary": "現在、税に関する公示送達は掲示して行います。この議案では、公示内容を所定の方法で閲覧できるようにしたうえで、書面の掲示か、区の事務所にある電子計算機の画面で閲覧できる方法を選べるようにします。",
+	"changes": [
+		"公示内容を所定の方法で不特定多数の人が閲覧できる状態にする",
+		"公示内容を記載した書面の掲示か、区の事務所の電子画面での閲覧を可能にする"
+	],
+	"who": [
+		"公示送達の対象となる納税者"
+	],
+	"why": "地方税法等の改正に伴う対応と、条例の規定を整えるためと区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:20:27.799Z",
+		"inputTokens": 1473,
+		"cachedTokens": 0,
+		"outputTokens": 1040,
+		"reasoningTokens": 793
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:20:27.799Z",
+		"checkedAt": "2026-09-30T15:21:53.229Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1467,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6f641f95445250ae",
+		"name": "Adds electronic viewing to tax notices served by public notice",
+		"official": "Ordinance Partially Amending the Adachi City Special Ward Tax Ordinance",
+		"summary": "Tax-related notices served by public notice are currently posted. This bill would make the contents of a notice available for viewing by a prescribed method, and allow the notice to be either posted in writing or viewed on an electronic screen at a ward office.",
+		"changes": [
+			"Make the contents of public notices available for viewing by an unspecified number of people in the prescribed manner",
+			"Allow the contents to be posted in writing or viewed on an electronic screen at a ward office"
+		],
+		"who": [
+			"Taxpayers whose notices are served by public notice"
+		],
+		"why": "The ward says this is to respond to amendments to the Local Tax Act and other laws, and to bring the ordinance's provisions into line.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:54:46.086Z",
+			"inputTokens": 589,
+			"cachedTokens": 0,
+			"outputTokens": 561,
+			"reasoningTokens": 354
+		}
+	}
 }

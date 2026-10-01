@@ -27,5 +27,64 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4482_R83TG103.pdf",
 			"fetchedAt": "2026-09-30T10:36:29.070Z"
 		}
-	]
+	],
+	"name": "景観条例の条項参照を更新",
+	"category": "まちづくり",
+	"summary": "条例の一部の規定では、別の条項を参照しています。この議案では、参照先の番号を3か所で改めます。施行日は、改正法の施行日と条例の公布日のうち遅い日です。",
+	"changes": [
+		"第12条第1項第2号イの参照先を「第8条第2項第4号ロ」から「第8条第2項第4号ハ」に改める",
+		"第14条第3項の参照先を「第16条第7項第11号」から「第16条第8項第12号」に改める",
+		"第19条の参照先を「同条第7項」から「同条第8項」に改める"
+	],
+	"who": [],
+	"why": "景観法の一部改正に伴い、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:25:42.919Z",
+		"inputTokens": 1195,
+		"cachedTokens": 0,
+		"outputTokens": 913,
+		"reasoningTokens": 672
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:25:42.919Z",
+		"checkedAt": "2026-09-30T15:24:55.958Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1207,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "400f94181c978591",
+		"name": "Updates clause references in the Landscape Ordinance",
+		"official": "Ordinance Partially Amending the Adachi City Landscape Ordinance",
+		"summary": "Some provisions of the ordinance refer to other provisions. This bill changes the referenced numbers in three places. It will take effect on the later of the effective date of the amended law and the date the ordinance is promulgated.",
+		"changes": [
+			"Changes the reference in Article 12, paragraph 1, item 2(a) from Article 8, paragraph 2, item 4(b) to Article 8, paragraph 2, item 4(c)",
+			"Changes the reference in Article 14, paragraph 3, from Article 16, paragraph 7, item 11 to Article 16, paragraph 8, item 12",
+			"Changes the reference in Article 19 from paragraph 7 of the same article to paragraph 8 of the same article"
+		],
+		"who": [],
+		"why": "The ward says this is to align the ordinance provisions with the partial amendment to the Landscape Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:56:40.350Z",
+			"inputTokens": 605,
+			"cachedTokens": 0,
+			"outputTokens": 516,
+			"reasoningTokens": 273
+		}
+	}
 }

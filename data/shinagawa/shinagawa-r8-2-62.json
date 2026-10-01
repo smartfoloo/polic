@@ -22,5 +22,66 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_02t_62.pdf",
 			"fetchedAt": "2026-09-30T10:17:51.616Z"
 		}
-	]
+	],
+	"name": "預かり保育料の軽減に関する額を変更",
+	"category": "子育て",
+	"summary": "現行の条例では、預かり保育利用料に関する額を37,000円としています。この議案では、保育の必要性の認定を受けた幼児の利用料を軽減するため、この額を40,300円に改めます。改正は令和8年10月1日に施行され、規定を整える部分は公布日に施行されます。",
+	"changes": [
+		"利用料の軽減に関する額を37,000円から40,300円に改める",
+		"第8条の規定の参照先を改める"
+	],
+	"who": [
+		"保育の必要性の認定を受けた幼児の保護者"
+	],
+	"why": "子ども・子育て支援法施行令の改正に伴い、預かり保育利用料の軽減と規定の整備が必要なためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:04:11.014Z",
+		"inputTokens": 1445,
+		"cachedTokens": 0,
+		"outputTokens": 1920,
+		"reasoningTokens": 1649
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:04:11.014Z",
+		"checkedAt": "2026-09-30T15:45:09.488Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1466,
+			"cachedTokens": 0,
+			"outputTokens": 53,
+			"reasoningTokens": 39
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1000ff74e3fe4e93",
+		"name": "Changes the amount used to reduce supervised childcare fees",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Preschool Education Facilities for Infants and Young Children",
+		"summary": "The current ordinance sets the amount related to supervised childcare fees at ¥37,000. This bill changes that amount to ¥40,300 to reduce fees for young children certified as needing childcare. The amendment takes effect on October 1, 2026, and the part that updates the provisions takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the amount related to fee reductions from ¥37,000 to ¥40,300",
+			"Updates the cross-reference in Article 8"
+		],
+		"who": [
+			"Guardians of young children certified as needing childcare"
+		],
+		"why": "The ward says that an amendment to the Order for Enforcement of the Child and Child-Rearing Support Act makes it necessary to reduce supervised childcare fees and update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:13:19.635Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 1021,
+			"reasoningTokens": 798
+		}
+	}
 }

@@ -27,5 +27,64 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4386_R81TG014.pdf",
 			"fetchedAt": "2026-09-30T10:31:05.565Z"
 		}
-	]
+	],
+	"name": "いじめ等特別調査委員会を廃止",
+	"category": "行政のしくみ",
+	"summary": "足立区には、いじめ等特別調査委員会を設置する条例があります。この議案で条例を廃止し、区の附属機関の報酬などを定める条例から、同委員会の項を削ります。公布日に施行し、元委員の秘密を守る義務はその後も続きます。",
+	"changes": [
+		"委員会を設置する条例を廃止する",
+		"報酬および費用弁償を定める条例から同委員会の項を削る",
+		"元委員の秘密を守る義務を廃止後も続ける"
+	],
+	"who": [],
+	"why": "委員会を廃止する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:20:19.169Z",
+		"inputTokens": 1278,
+		"cachedTokens": 0,
+		"outputTokens": 726,
+		"reasoningTokens": 489
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:20:19.169Z",
+		"checkedAt": "2026-09-30T15:21:51.266Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1263,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8ba8ec07cab484ae",
+		"name": "Abolishes the special committee on bullying and related matters",
+		"official": "Ordinance to Repeal the Ordinance Establishing the Adachi City Special Committee for Investigating Bullying and Related Matters",
+		"summary": "Adachi City has an ordinance establishing a special committee to investigate bullying and related matters. This bill repeals that ordinance and deletes the committee's entry from the ordinance setting out remuneration and expense reimbursement for the ward's auxiliary bodies. The repeal takes effect on the date of promulgation, and former committee members' duty to keep information confidential continues after that date.",
+		"changes": [
+			"Repeals the ordinance establishing the committee",
+			"Deletes the committee's entry from the ordinance setting out remuneration and expense reimbursement",
+			"Continues former committee members' duty to keep information confidential after the repeal"
+		],
+		"who": [],
+		"why": "The ward says it is necessary to abolish the committee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:54:40.123Z",
+			"inputTokens": 586,
+			"cachedTokens": 0,
+			"outputTokens": 540,
+			"reasoningTokens": 330
+		}
+	}
 }

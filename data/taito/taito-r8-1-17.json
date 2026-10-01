@@ -69,31 +69,28 @@
 	"en": {
 		"approved": false,
 		"sourceHash": "158fc35a62813cf0",
-		"name": "Revises Employee Salary Tables and Special Duty Allowance Rules",
-		"official": "Ordinance Partially Amending the Tokyo Metropolitan Taito Ward Ordinance Concerning Employee Salaries",
-		"summary": "The ordinance sets employee salary amounts and rules for special duty allowances for managerial employees. This bill revises the salary tables and changes the time periods covered by the special duty allowance and how its amount is determined. It takes effect on April 1, 2026, and also sets out how employees’ job grades and salary steps will be changed.",
+		"name": "Revises employee pay scales and special duty allowance rules",
+		"official": "Ordinance Partially Amending the Taito City Ordinance on Salaries of Employees",
+		"summary": "The ordinance sets employees’ salaries and how special duty allowances for management staff are handled. This bill revises the salary scales and changes the hours covered by the special duty allowance and how its amount is set. It takes effect on April 1, 2026, and also sets out how employees’ job grades and salary steps will be changed over.",
 		"changes": [
-			"Revises the salary tables for administrative and medical staff",
-			"Revises the time periods covered by the special duty allowance for managerial employees",
-			"Sets the allowance for work specified by regulation with approval at 150% of the prescribed amount",
-			"Sets out how job grades and salary steps will be changed when the ordinance takes effect"
+			"Revises the salary scales for administrative and medical staff",
+			"Revises the hours covered by the special duty allowance for management staff",
+			"Sets the allowance for work prescribed by rule with approval at 150% of the specified amount",
+			"Sets out how job grades and salary steps will be changed over when the ordinance takes effect"
 		],
 		"who": [
-			"Administrative and medical staff",
-			"Managerial employees",
-			"Employees performing work specified by regulation with approval",
-			"Employees whose job grades or salary steps will be changed"
+			"Taito City employees"
 		],
-		"why": "The mayor says this is to update the rules concerning special duty allowances for managerial employees and other matters.",
+		"why": "The mayor says this is to update provisions concerning special duty allowances for management staff and other matters relating to employees.",
 		"draft": {
 			"model": "gpt-6-luna",
 			"effort": "high",
-			"promptVersion": 1,
-			"generatedAt": "2026-09-30T12:47:30.187Z",
-			"inputTokens": 600,
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:18:41.899Z",
+			"inputTokens": 636,
 			"cachedTokens": 0,
-			"outputTokens": 1678,
-			"reasoningTokens": 1400
+			"outputTokens": 1140,
+			"reasoningTokens": 892
 		}
 	}
 }

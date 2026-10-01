@@ -58,5 +58,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "75034632fc078739",
+		"name": "Adds lead teachers to special duty allowance rules for school staff",
+		"official": "Ordinance Partially Amending the Ordinance on Special Duty Allowances for School Staff",
+		"summary": "The current rules on special duty allowances for school staff list instructional teachers. This bill adds lead teachers to the same rules. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds lead teachers to the special duty allowance rules"
+		],
+		"who": [],
+		"why": "The Tokyo Metropolitan Government says the rules are being updated to reflect amendments to the School Education Act and other changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:25:09.420Z",
+			"inputTokens": 513,
+			"cachedTokens": 0,
+			"outputTokens": 530,
+			"reasoningTokens": 385
+		}
 	}
 }

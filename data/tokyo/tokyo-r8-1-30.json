@@ -61,5 +61,30 @@
 			"outputTokens": 71,
 			"reasoningTokens": 57
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2689efdd1c6dfff9",
+		"name": "Revises remuneration for members of Tokyo Metropolitan Government affiliated bodies",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Reimbursement of Expenses for Members of Tokyo Metropolitan Government Affiliated Bodies",
+		"summary": "The ordinance sets remuneration amounts of ¥35,900 and ¥15,700 for members of Tokyo Metropolitan Government affiliated bodies. Under this bill, these amounts will change to ¥36,900 and ¥16,100, respectively. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Raises the remuneration ceiling from ¥35,900 to ¥36,900",
+			"Changes the amount in the appended table from ¥15,700 to ¥16,100"
+		],
+		"who": [
+			"Members of Tokyo Metropolitan Government affiliated bodies"
+		],
+		"why": "The Tokyo Metropolitan Government says it needs to revise the remuneration ceiling and other amounts in light of the recommendations of the Tokyo Metropolitan Government Special Positions Remuneration Review Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:22:44.692Z",
+			"inputTokens": 602,
+			"cachedTokens": 0,
+			"outputTokens": 550,
+			"reasoningTokens": 323
+		}
 	}
 }

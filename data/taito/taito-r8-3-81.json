@@ -27,5 +27,72 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-3-81.pdf",
 			"fetchedAt": "2026-09-30T12:21:27.125Z"
 		}
-	]
+	],
+	"name": "証明書の端末交付手数料を設定",
+	"category": "税・手数料",
+	"summary": "現在、条例では各種証明書の交付手数料を定めています。この議案では、多機能端末機で交付する場合の料金や2027年中の一部の料金を改め、戸籍の附票を手数料額の対象に加えます。",
+	"changes": [
+		"特別区税に関する証明を多機能端末機で交付する場合、1件150円とする",
+		"戸籍証明書を多機能端末機で交付する場合、1通300円とする",
+		"第19項の手数料額の対象に戸籍の附票を加える",
+		"特例期間を2027年1月1日から12月31日までとし、対象項目の300円を10円または80円に改める"
+	],
+	"who": [
+		"特別区税に関する証明を申請する人",
+		"戸籍証明書や戸籍の附票を申請する人"
+	],
+	"why": "多機能端末機で特別区税に関する証明などを交付する際の手数料を新設するなどのためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:20:30.169Z",
+		"inputTokens": 1393,
+		"cachedTokens": 0,
+		"outputTokens": 3926,
+		"reasoningTokens": 3594
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:20:30.169Z",
+		"checkedAt": "2026-09-30T15:53:49.659Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1468,
+			"cachedTokens": 0,
+			"outputTokens": 566,
+			"reasoningTokens": 552
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ec7d992ffa81336d",
+		"name": "Sets fees for certificates issued at multifunction terminals",
+		"official": "Ordinance Partially Amending the Taito City Fee Ordinance",
+		"summary": "The ordinance currently sets fees for issuing various certificates. This bill revises fees for certificates issued at multifunction terminals and some fees for 2027, and adds the supplementary family register record to the items subject to a fee.",
+		"changes": [
+			"Sets the fee at ¥150 per certificate for certificates related to special ward taxes issued at multifunction terminals",
+			"Sets the fee at ¥300 per certificate for family register certificates issued at multifunction terminals",
+			"Adds the supplementary family register record to the items subject to the fee in Item 19",
+			"Sets the special period as January 1 through December 31, 2027, and changes the ¥300 fee for applicable items to ¥10 or ¥80"
+		],
+		"who": [
+			"People applying for certificates related to special ward taxes",
+			"People applying for family register certificates or supplementary family register records"
+		],
+		"why": "The mayor says this is to establish fees for issuing certificates related to special ward taxes and other documents at multifunction terminals, among other reasons.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:22:05.810Z",
+			"inputTokens": 674,
+			"cachedTokens": 0,
+			"outputTokens": 1322,
+			"reasoningTokens": 1059
+		}
+	}
 }

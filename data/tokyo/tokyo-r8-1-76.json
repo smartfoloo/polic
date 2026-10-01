@@ -62,5 +62,31 @@
 			"outputTokens": 153,
 			"reasoningTokens": 139
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ad4470940c9fa808",
+		"name": "Raises remuneration for fisheries-related committee members",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Expense Reimbursement for Members of the Tokyo Sea Area Fisheries Adjustment Commission and the Tokyo Metropolitan Inland Water Fisheries Management Commission",
+		"summary": "The current remuneration for members of the Tokyo Sea Area Fisheries Adjustment Commission and the Tokyo Metropolitan Inland Water Fisheries Management Commission is set at ¥28,400 and ¥26,600. This bill changes these amounts to ¥29,200 and ¥27,300, respectively. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises one remuneration amount from ¥28,400 to ¥29,200",
+			"Raises the other remuneration amount from ¥26,600 to ¥27,300"
+		],
+		"who": [
+			"Members of the Tokyo Sea Area Fisheries Adjustment Commission",
+			"Members of the Tokyo Metropolitan Inland Water Fisheries Management Commission"
+		],
+		"why": "The Tokyo Metropolitan Government says the remuneration amounts are being revised based on the recommendations of the Tokyo Metropolitan Special Salaries and Remuneration Deliberation Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:27:01.505Z",
+			"inputTokens": 655,
+			"cachedTokens": 0,
+			"outputTokens": 484,
+			"reasoningTokens": 236
+		}
 	}
 }

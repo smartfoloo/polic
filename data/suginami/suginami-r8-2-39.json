@@ -80,5 +80,34 @@
 			"outputTokens": 620,
 			"reasoningTokens": 428
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e0c6ee7d8dbecf3f",
+		"name": "Expands who must file a public pension declaration",
+		"official": "Ordinance Partially Amending the Suginami City Special Ward Tax Ordinance",
+		"summary": "Currently, certain recipients are required to submit a declaration of dependents and other information for public pensions and similar payments. This bill expands the group of people who must submit one and allows resident tax to be reduced or exempted in some cases without an application. It also changes deadlines for the deduction for medicine purchases and the mortgage tax credit, among other measures, special provisions relating to transfers of land, and how income from specified crypto-assets is taxed.",
+		"changes": [
+			"Expands the group of people required to submit a declaration of dependents and other information for public pensions and similar payments",
+			"Allows the mayor to reduce or exempt resident tax at the mayor's discretion, even without an application",
+			"Removes the deadline for the deduction for medicine purchases and extends deadlines for the mortgage tax credit and other measures",
+			"Taxes income from specified crypto-assets separately from other income for resident tax"
+		],
+		"who": [
+			"People receiving public pensions and similar payments who are required to submit a declaration of dependents and other information",
+			"People and businesses eligible for resident tax reductions or exemptions, or special tax measures",
+			"People with income from specified crypto-assets"
+		],
+		"why": "The ward says the changes are being made in response to amendments to the Local Tax Act and other laws, including to expand who must submit the declaration among people receiving public pensions and similar payments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:14:18.690Z",
+			"inputTokens": 738,
+			"cachedTokens": 0,
+			"outputTokens": 953,
+			"reasoningTokens": 613
+		}
 	}
 }

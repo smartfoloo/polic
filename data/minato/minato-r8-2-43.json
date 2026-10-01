@@ -32,5 +32,66 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB796_43.pdf",
 			"fetchedAt": "2026-09-30T12:33:13.866Z"
 		}
-	]
+	],
+	"name": "認定こども園の職員配置基準を変更",
+	"category": "子育て",
+	"summary": "港区の条例で定める幼保連携型認定こども園の職員配置基準を改めます。必ず配置する職員の種類に主務保育教諭を、配置に努める職員の種類に主務養護教諭を加えます。公布の日から施行します。",
+	"changes": [
+		"必ず配置する職員の種類に主務保育教諭を加える",
+		"配置に努める職員の種類に主務養護教諭を加える"
+	],
+	"who": [
+		"幼保連携型認定こども園の運営者"
+	],
+	"why": "国の基準改正を踏まえて職員の配置基準を変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:44:09.370Z",
+		"inputTokens": 1712,
+		"cachedTokens": 0,
+		"outputTokens": 813,
+		"reasoningTokens": 605
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:44:09.370Z",
+		"checkedAt": "2026-09-30T15:34:29.246Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1692,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cce9116877c3bb78",
+		"name": "Revises staffing standards for integrated certified early childhood education and care centers",
+		"official": "Ordinance Partially Amending the Minato City Ordinance Establishing Standards for Class Organization, Staff, Facilities, and Operation of Integrated Certified Centers for Early Childhood Education and Care",
+		"summary": "The ward will revise the staffing standards for integrated certified centers for early childhood education and care set out in Minato City's ordinance. It will add a lead childcare and education teacher to the types of staff that must be assigned, and a lead health teacher to the types of staff that centers should make an effort to assign. The amendment will take effect on the date it is promulgated.",
+		"changes": [
+			"Add a lead childcare and education teacher to the types of staff that must be assigned",
+			"Add a lead health teacher to the types of staff that centers should make an effort to assign"
+		],
+		"who": [
+			"Operators of integrated certified centers for early childhood education and care"
+		],
+		"why": "The ward says it is changing the staffing standards in light of revisions to national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:04:04.937Z",
+			"inputTokens": 608,
+			"cachedTokens": 0,
+			"outputTokens": 901,
+			"reasoningTokens": 656
+		}
+	}
 }

@@ -32,5 +32,60 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/33024/42.pdf",
 			"fetchedAt": "2026-09-30T10:21:34.241Z"
 		}
-	]
+	],
+	"name": "条例内の法律の参照箇所を変更",
+	"category": "行政のしくみ",
+	"summary": "この条例では、障害者総合支援法の第5条第17項を参照しています。法改正に伴い、参照先を第5条第18項に改めます。",
+	"changes": [
+		"条例の参照先を第5条第17項から第18項に改める"
+	],
+	"who": [],
+	"why": "障害者総合支援法の改正に伴い、条例の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:58:51.110Z",
+		"inputTokens": 1212,
+		"cachedTokens": 0,
+		"outputTokens": 563,
+		"reasoningTokens": 397
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:58:51.110Z",
+		"checkedAt": "2026-09-30T15:42:31.497Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1122,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2a7ac1f24e0a372b",
+		"name": "Updates a legal reference in the ordinance",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on the Development of the Living Environment in Connection with the Construction of Buildings",
+		"summary": "This ordinance refers to Article 5, paragraph 17 of the Act for Comprehensive Support of Persons with Disabilities. Following an amendment to the Act, it changes the reference to Article 5, paragraph 18.",
+		"changes": [
+			"Changes the reference in the ordinance from Article 5, paragraph 17 to paragraph 18"
+		],
+		"who": [],
+		"why": "The ward says it is necessary to update the ordinance provisions following an amendment to the Act for Comprehensive Support of Persons with Disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:10:46.719Z",
+			"inputTokens": 524,
+			"cachedTokens": 0,
+			"outputTokens": 348,
+			"reasoningTokens": 179
+		}
+	}
 }

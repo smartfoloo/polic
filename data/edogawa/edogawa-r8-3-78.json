@@ -22,5 +22,66 @@
 			"url": "https://www.gikai.city.edogawa.tokyo.jp/voices/GikaiDoc/attach/Gk/Gk2813_gian78.pdf",
 			"fetchedAt": "2026-09-30T10:43:53.812Z"
 		}
-	]
+	],
+	"name": "西葛西駅東駐輪場の位置を変更",
+	"category": "交通",
+	"summary": "現在、条例では西葛西駅東駐輪場の位置を江戸川区西葛西6丁目22番8号としています。この議案で、位置を6丁目23番12号に変更し、条文の一部も整えます。",
+	"changes": [
+		"駐輪場の位置を江戸川区西葛西6丁目22番8号から6丁目23番12号に変更する",
+		"第7条第4項の参照先を第2項から次項に改める"
+	],
+	"who": [
+		"西葛西駅東駐輪場の利用者"
+	],
+	"why": "土地所有者から返還の求めがあったことに伴い、駐輪場の位置を変更し、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:32:03.389Z",
+		"inputTokens": 1231,
+		"cachedTokens": 0,
+		"outputTokens": 679,
+		"reasoningTokens": 445
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:32:03.389Z",
+		"checkedAt": "2026-09-30T15:28:12.322Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1215,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c62c7ce1fdb641cc",
+		"name": "Changes the location of the Nishikasai Station East Bicycle Parking Lot",
+		"official": "Ordinance Partially Amending the Edogawa City Bicycle Parking Lot Ordinance",
+		"summary": "The ordinance currently lists the location of the Nishikasai Station East Bicycle Parking Lot as 6-22-8 Nishikasai, Edogawa City. This bill changes it to 6-23-12 Nishikasai, Edogawa City, and also adjusts part of the wording in the ordinance.",
+		"changes": [
+			"Changes the bicycle parking lot’s location from 6-22-8 Nishikasai, Edogawa City, to 6-23-12 Nishikasai, Edogawa City",
+			"Changes the reference in Article 7, Paragraph 4, from Paragraph 2 to the following paragraph"
+		],
+		"who": [
+			"Users of the Nishikasai Station East Bicycle Parking Lot"
+		],
+		"why": "The ward says the location is being changed and the provisions adjusted because the landowner requested the return of the land.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:59:17.888Z",
+			"inputTokens": 584,
+			"cachedTokens": 0,
+			"outputTokens": 690,
+			"reasoningTokens": 448
+		}
+	}
 }

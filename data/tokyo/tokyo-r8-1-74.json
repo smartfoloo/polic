@@ -63,5 +63,32 @@
 			"outputTokens": 133,
 			"reasoningTokens": 119
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "11c874760f151aea",
+		"name": "Sets facility standards for unattended sales using fully automated cooking machines",
+		"official": "Ordinance Partially Amending the Food Sanitation Act Enforcement Ordinance",
+		"summary": "The Tokyo Metropolitan Government’s ordinance sets facility standards for food service businesses. This bill sets standards for selling food cooked using fully automated cooking machines when no staff are stationed on site. The effective date is April 1, 2026.",
+		"changes": [
+			"Require equipment to check the facility’s sanitary conditions",
+			"Require a function that lets the business operator stop the cooking machine in an emergency and a function that stops the machine automatically",
+			"Require functions to protect cooked food from contamination and prevent it from being served after a set period",
+			"Require the business operator’s contact information to be posted and exempt some existing standards from applying"
+		],
+		"who": [
+			"Businesses that sell food cooked using fully automated cooking machines without staff stationed on site"
+		],
+		"why": "The Tokyo Metropolitan Government says this is to set standards for facilities using fully automated cooking machines and adjust the provisions in line with the enforcement of a ministerial ordinance amending the Enforcement Regulations of the Food Sanitation Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:26:52.127Z",
+			"inputTokens": 667,
+			"cachedTokens": 0,
+			"outputTokens": 934,
+			"reasoningTokens": 673
+		}
 	}
 }

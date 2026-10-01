@@ -27,5 +27,109 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/35916/79.pdf",
 			"fetchedAt": "2026-09-30T10:22:46.190Z"
 		}
-	]
+	],
+	"name": "下高井戸駅周辺に建築ルールを追加",
+	"category": "まちづくり",
+	"summary": "現在、下高井戸駅周辺地区はこの条例の適用区域に含まれていません。改正後は、地区整備計画が定められた区域を加え、地区の区分に応じて建物の用途や敷地面積、壁面の位置、高さなどを制限します。",
+	"changes": [
+		"下高井戸駅周辺地区の地区整備計画区域を条例の適用区域に加える",
+		"商業地区と近隣商業地区で、風俗営業等の一部の営業、ナイトクラブ等、倉庫業の倉庫を禁止する",
+		"商業地区で、1号・2号壁面線に面する建物の1階のうち壁面線に面する部分を住宅等に使うことを制限する（出入口を除く）",
+		"地区ごとに敷地面積の最低限度、壁面の位置、建物の高さや用途の制限を定める"
+	],
+	"who": [
+		"下高井戸駅周辺地区の対象区域で建築する人・事業者",
+		"同地区で対象となる営業を営む事業者"
+	],
+	"why": "条例の適用区域を広げる必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:56:29.712Z",
+		"inputTokens": 5324,
+		"cachedTokens": 0,
+		"outputTokens": 2368,
+		"reasoningTokens": 2021
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:56:29.712Z",
+		"checkedAt": "2026-09-30T15:41:09.561Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "商業地区1",
+				"note": "原文の地区名は「商業地区」。直後の「１」は禁止用途の列挙番号であり、地区名の一部ではない。changes内の2か所で誤っている。",
+				"dismissed": {
+					"note": "Fixed in the text: 商業地区 (the 1 was a list number), and the ground-floor rule covers only the part facing the 1号・2号壁面線.",
+					"at": "2026-10-01T12:12:43.005Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "壁面線に面する建物の1階を住宅等に使うことを制限する（出入口を除く）",
+				"note": "原文は1号・2号壁面線に面する1階部分だけを対象としており、当該建物の1階全体を制限するものではない。",
+				"dismissed": {
+					"note": "Fixed in the text: 商業地区 (the 1 was a list number), and the ground-floor rule covers only the part facing the 1号・2号壁面線.",
+					"at": "2026-10-01T12:12:43.005Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "地区ごとに敷地面積の最低限度、壁面の位置、建物の高さや用途の制限を定める",
+				"note": "原文の商業地区には、法第68条の5の5第1項の認定を受けた建築物の敷地について、道路幅員等に応じた容積率の制限もあるが、changesに記載がない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "地区ごとに敷地面積の最低限度、壁面の位置、建物の高さや用途の制限を定める",
+				"note": "原文の商業地区には、壁面後退部分への軒・ひさし・出窓・階段等の突出を制限する規定もあるが、changesに記載がない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5414,
+			"cachedTokens": 0,
+			"outputTokens": 816,
+			"reasoningTokens": 354
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f6a189ff4db7af1a",
+		"name": "Adds building rules around Shimotakaido Station",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Restrictions on Buildings in Areas Covered by District Plans, etc.",
+		"summary": "The area around Shimotakaido Station is currently not included in the area covered by this ordinance. After the amendment, areas covered by district improvement plans will be added, and restrictions will be set on building use, lot size, the position of walls, building height, and other matters according to each district’s classification.",
+		"changes": [
+			"Add areas covered by the district improvement plan for the area around Shimotakaido Station to the area covered by the ordinance",
+			"Prohibit some entertainment businesses, etc., nightclubs, and warehouses used for warehousing businesses in commercial and neighborhood commercial districts",
+			"Restrict the use for housing, etc. of the parts of first floors facing Wall Lines No. 1 and No. 2 in commercial districts, except for entrances",
+			"Set minimum lot sizes and restrictions on wall positions, building height, and building use for each district"
+		],
+		"who": [
+			"People and businesses constructing buildings in the designated area around Shimotakaido Station",
+			"Businesses operating activities covered by the restrictions in the same district"
+		],
+		"why": "The ward says this is because it is necessary to expand the area where the ordinance applies.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:29:13.011Z",
+			"inputTokens": 719,
+			"cachedTokens": 0,
+			"outputTokens": 852,
+			"reasoningTokens": 542
+		}
+	}
 }

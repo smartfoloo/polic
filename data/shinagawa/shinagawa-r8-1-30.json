@@ -22,5 +22,64 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_30.pdf",
 			"fetchedAt": "2026-09-30T10:16:33.203Z"
 		}
-	]
+	],
+	"name": "障害福祉関連3条例の条項番号を修正",
+	"category": "福祉",
+	"summary": "障害者総合支援法の改正に伴い、関連する3つの条例に書かれた法律の条項番号を改めます。公布の日から施行します。",
+	"changes": [
+		"知的障害者グループホーム条例の参照先を第5条第17項から第18項に改める",
+		"介護福祉専門学校修学資金貸付条例の参照先を第14項から第15項、第17項から第18項に改める",
+		"発達障害者支援施設条例の参照先を第5条第14項から第15項に改める"
+	],
+	"who": [],
+	"why": "障害者総合支援法の改正に伴い、関係条例の規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:01:36.856Z",
+		"inputTokens": 1506,
+		"cachedTokens": 0,
+		"outputTokens": 838,
+		"reasoningTokens": 615
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:01:36.856Z",
+		"checkedAt": "2026-09-30T15:44:07.871Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1505,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2a34bdf943428841",
+		"name": "Updates provision numbers in three disability welfare ordinances",
+		"official": "Ordinance on Organizing Related Ordinances in Connection with the Enforcement of the Act Partially Amending the Act on Comprehensive Support for the Daily and Social Life of Persons with Disabilities, etc.",
+		"summary": "Following an amendment to the Act on Comprehensive Support for the Daily and Social Life of Persons with Disabilities, the provision numbers of the law cited in three related ordinances will be revised. The ordinance will take effect on the date of promulgation.",
+		"changes": [
+			"Changes the reference in the Ordinance on Group Homes for Persons with Intellectual Disabilities from Article 5, paragraph 17 to paragraph 18",
+			"Changes the references in the Ordinance on Loans for School Expenses for Students at Care and Welfare Vocational Schools from paragraph 14 to paragraph 15, and from paragraph 17 to paragraph 18",
+			"Changes the reference in the Ordinance on Support Facilities for Persons with Developmental Disabilities from Article 5, paragraph 14 to paragraph 15"
+		],
+		"who": [],
+		"why": "The ward says the provisions of the related ordinances need to be adjusted following the amendment to the Act on Comprehensive Support for the Daily and Social Life of Persons with Disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:12:18.217Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 655,
+			"reasoningTokens": 377
+		}
+	}
 }

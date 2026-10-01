@@ -22,5 +22,68 @@
 			"url": "https://gikai.city.shinagawa.tokyo.jp/wp-content/themes/shinagawakugikai/pdf/r08_01t_26.pdf",
 			"fetchedAt": "2026-09-30T10:16:09.224Z"
 		}
-	]
+	],
+	"name": "小山台福祉園を新設",
+	"category": "福祉",
+	"summary": "現在の条例に、小山台福祉園は含まれていません。この議案で、品川区立小山台福祉園を品川区小山台二丁目5番13号に設置し、生活介護と就労継続支援を提供します。施設の設置は令和10年4月1日からです。",
+	"changes": [
+		"品川区立小山台福祉園を設置する",
+		"所在地を品川区小山台二丁目5番13号とする",
+		"生活介護と就労継続支援を提供する"
+	],
+	"who": [
+		"小山台福祉園を利用する人"
+	],
+	"why": "小山台福祉園を設置するほか、規定を整備する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:01:03.171Z",
+		"inputTokens": 1538,
+		"cachedTokens": 0,
+		"outputTokens": 942,
+		"reasoningTokens": 696
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:01:03.171Z",
+		"checkedAt": "2026-09-30T15:43:48.204Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1537,
+			"cachedTokens": 0,
+			"outputTokens": 192,
+			"reasoningTokens": 178
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "923f6e5d93023b19",
+		"name": "Establishes Koyamadai Welfare Center",
+		"official": "Ordinance Partially Amending the Shinagawa City Ordinance on Welfare Facilities for People with Intellectual Disabilities",
+		"summary": "The current ordinance does not include Koyamadai Welfare Center. Under this bill, Shinagawa City will establish Shinagawa City Koyamadai Welfare Center at 2-5-13 Koyamadai, Shinagawa City, and provide daily living care and continuous employment support. The facility will be established starting April 1, 2028.",
+		"changes": [
+			"Establishes Shinagawa City Koyamadai Welfare Center",
+			"Sets its address at 2-5-13 Koyamadai, Shinagawa City",
+			"Provides daily living care and continuous employment support"
+		],
+		"who": [
+			"People who use Koyamadai Welfare Center"
+		],
+		"why": "The ward says this is necessary to establish Koyamadai Welfare Center and make other adjustments to the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:30:27.036Z",
+			"inputTokens": 596,
+			"cachedTokens": 0,
+			"outputTokens": 710,
+			"reasoningTokens": 480
+		}
+	}
 }

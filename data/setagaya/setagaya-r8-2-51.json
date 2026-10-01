@@ -32,5 +32,118 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/33569/51.pdf",
 			"fetchedAt": "2026-09-30T10:21:46.365Z"
 		}
-	]
+	],
+	"name": "東名ジャンクション周辺に建築制限を追加",
+	"category": "まちづくり",
+	"summary": "現在、条例では地区計画の区域ごとに建物の制限を定めています。今回、外環道東名ジャンクション周辺地区を対象区域に加え、同地区や喜多見地区などの建築基準を定めたり改めたりします。",
+	"changes": [
+		"外環道東名ジャンクション周辺地区を条例の適用区域に加える",
+		"同地区に容積率、最低敷地面積、壁面の位置などの基準を定める",
+		"喜多見地区などの建ぺい率・容積率などの基準を改める",
+		"田直地区などの区域や基準の記載を削る"
+	],
+	"who": [
+		"外環道東名ジャンクション周辺地区で建築を行う人や事業者",
+		"基準が改められる喜多見地区などで建築を行う人や事業者"
+	],
+	"why": "外環道東名ジャンクション周辺地区の地区計画決定に伴い、条例の適用区域を広げる必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:54:41.987Z",
+		"inputTokens": 5342,
+		"cachedTokens": 0,
+		"outputTokens": 1868,
+		"reasoningTokens": 1572
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:54:41.987Z",
+		"checkedAt": "2026-09-30T15:39:54.412Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "同地区に建ぺい率・容積率、最低敷地面積、壁面の位置などの基準を定める",
+				"note": "外環道東名ジャンクション周辺地区の追加表には容積率等の数値はありますが、建ぺい率の基準は読み取れません。建ぺい率も定めるとする根拠を確認してください。",
+				"dismissed": {
+					"note": "Fixed in the text: 建ぺい率 removed; the new table shows 容積率, lot size and wall position only.",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "喜多見地区などの建ぺい率・容積率などの基準を改める",
+				"note": "原文末尾の別表第3の改正は引用符と表の配置が崩れており、大蔵・喜多見地区と喜多見北部地区の改正前後の対応を確認できません。地区に関する変更の向きは確認が必要です。",
+				"dismissed": {
+					"note": "The draft makes no before/after claim from the broken table, so it is not affected.",
+					"at": "2026-10-01T11:27:53.157Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "同地区に建ぺい率・容積率、最低敷地面積、壁面の位置などの基準を定める",
+				"note": "追加表にある喜多見東住宅地区の住戸専用部分30㎡未満の住宅・共同住宅や、多摩堤通り沿道地区の運動施設・自動車教習所等に関する用途制限が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "同地区に建ぺい率・容積率、最低敷地面積、壁面の位置などの基準を定める",
+				"note": "追加表にある田直住宅地区、喜多見東住宅地区、高速道路周辺地区の建築物の高さ制限（敷地条件に応じて10～15ｍ）が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5413,
+			"cachedTokens": 0,
+			"outputTokens": 879,
+			"reasoningTokens": 362
+		},
+		"dismissedFlags": [
+			{
+				"flag": "source has a garbled before/after table: check the direction of changes against the PDF",
+				"note": "The draft makes no before/after claim from the broken table, so it is not affected.",
+				"at": "2026-10-01T12:11:45.776Z"
+			}
+		]
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c415d0d01c76e92b",
+		"name": "Adds building restrictions around the Tomei Junction",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on Restrictions on Buildings in Areas Covered by District Plans, etc.",
+		"summary": "The ordinance currently sets building restrictions for each district plan area. This amendment adds the area around the Tomei Junction on the Gaikan Expressway to the areas covered, and sets or revises building standards for that area, the Kitami area, and other areas.",
+		"changes": [
+			"Adds the area around the Tomei Junction on the Gaikan Expressway to the areas covered by the ordinance",
+			"Sets standards for the area, including floor-area ratio, minimum lot size, and wall location",
+			"Revises standards such as building coverage ratio and floor-area ratio in the Kitami area and other areas",
+			"Removes descriptions of areas and standards for the Tanaoshi area and other areas"
+		],
+		"who": [
+			"People and businesses undertaking construction in the area around the Tomei Junction on the Gaikan Expressway",
+			"People and businesses undertaking construction in the Kitami area and other areas where standards are being revised"
+		],
+		"why": "The mayor says the area covered by the ordinance needs to be expanded because a district plan has been adopted for the area around the Tomei Junction on the Gaikan Expressway.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:28:19.114Z",
+			"inputTokens": 681,
+			"cachedTokens": 0,
+			"outputTokens": 1118,
+			"reasoningTokens": 817
+		}
+	}
 }

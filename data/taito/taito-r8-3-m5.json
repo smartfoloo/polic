@@ -27,5 +27,42 @@
 			"url": "https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/r8tei3/08-dai3kai-gian.files/8-5giin.pdf",
 			"fetchedAt": "2026-09-30T12:21:57.070Z"
 		}
-	]
+	],
+	"name": "区民館のトレーニング室の利用条件を変更",
+	"category": "まちづくり",
+	"summary": "この議案は、区民館条例の一部改正の内容をさらに改めるものです。トレーニング室の利用時間を午前9時から午後9時までとし、午後8時までに入館した人が利用できるようにします。",
+	"changes": [
+		"トレーニング室の使用時間を午前9時から午後9時までとする",
+		"午後8時までに入館した人に利用を限る",
+		"第4条第2項を改める規定を削る"
+	],
+	"who": [
+		"区民館のトレーニング室を利用する人"
+	],
+	"why": "区民館の施設に関する規定を整えるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T15:21:25.203Z",
+		"inputTokens": 1646,
+		"cachedTokens": 0,
+		"outputTokens": 1267,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-09-30T15:21:25.203Z",
+		"checkedAt": "2026-09-30T15:54:17.764Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1620,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

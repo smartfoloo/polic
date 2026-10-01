@@ -27,5 +27,74 @@
 			"url": "https://www.katsushika-kugikai.jp/pdf/R8gian18.pdf",
 			"fetchedAt": "2026-09-30T10:37:23.337Z"
 		}
-	]
+	],
+	"name": "学校医らの公務災害補償額を改定",
+	"category": "福祉",
+	"summary": "条例で定める介護補償の月額限度額と、公務災害補償の基礎額を改めます。介護補償の2種類の限度額を上げ、別表の補償基礎額も引き上げます。介護補償の改定は令和7年8月1日以後、別表の改定は令和7年4月1日以後に関係する補償に適用します。",
+	"changes": [
+		"介護補償の月額限度額を17万7,950円から18万6,050円に、8万8,980円から9万2,980円に改める",
+		"別表に定める補償基礎額を改める"
+	],
+	"who": [
+		"葛飾区立学校の学校医・学校歯科医・学校薬剤師のうち、公務災害補償を受ける人"
+	],
+	"why": "介護補償の月額限度額を改めるほか、必要な改正を行うためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:34:07.971Z",
+		"inputTokens": 2200,
+		"cachedTokens": 0,
+		"outputTokens": 1789,
+		"reasoningTokens": 1465
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:34:07.971Z",
+		"checkedAt": "2026-09-30T15:29:25.313Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "別表に定める補償基礎額を改める",
+				"note": "付則第５項では、別表１の項の「10年以上15年未満」の補償基礎額を、令和７年４月１日から令和８年３月31日までは14,175円ではなく12,951円とする特例が定められています。受給額に直接関わる期間限定の取扱いが抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2271,
+			"cachedTokens": 0,
+			"outputTokens": 325,
+			"reasoningTokens": 185
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4e4538ee42668ab7",
+		"name": "Revises public-duty accident compensation for school physicians and others",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Accidents in the Course of Public Duties for School Physicians, School Dentists, and School Pharmacists at Katsushika City Schools",
+		"summary": "The ordinance’s monthly maximum amounts for care compensation and the base amounts for public-duty accident compensation will be revised. The two types of maximum amounts for care compensation will be raised, as will the base compensation amounts in the table. The revisions to care compensation will apply to compensation related to events on or after August 1, 2025, and the revisions to the table will apply to compensation related to events on or after April 1, 2025.",
+		"changes": [
+			"Raises the two monthly maximum amounts for care compensation from ¥177,950 to ¥186,050 and from ¥88,980 to ¥92,980",
+			"Revises the base compensation amounts set out in the table"
+		],
+		"who": [
+			"School physicians, school dentists, and school pharmacists at Katsushika City schools who receive compensation for accidents in the course of public duties"
+		],
+		"why": "The ward says this is to revise the monthly maximum amounts for care compensation and make other necessary amendments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:00:07.279Z",
+			"inputTokens": 694,
+			"cachedTokens": 0,
+			"outputTokens": 918,
+			"reasoningTokens": 630
+		}
+	}
 }

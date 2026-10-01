@@ -22,5 +22,70 @@
 			"url": "https://kugikai-nakano.jp/gian/266239518.pdf",
 			"fetchedAt": "2026-09-30T10:26:33.126Z"
 		}
-	]
+	],
+	"name": "歩行喫煙と路上喫煙地区の規定を削除",
+	"category": "環境",
+	"summary": "現在の条例には、吸い殻などの散乱防止に加え、歩行喫煙や路上喫煙禁止地区に関する規定があります。この議案で、歩行喫煙と路上喫煙禁止地区に関する規定を削除します。施行日は令和8年10月1日です。",
+	"changes": [
+		"歩行喫煙の防止に関する規定を削除する",
+		"路上喫煙禁止地区に関する規定を削除する",
+		"平成17年の改正条例の第2条を削除し、附則を改める"
+	],
+	"who": [
+		"歩行喫煙をする人",
+		"路上喫煙禁止地区を利用する人"
+	],
+	"why": "中野区受動喫煙防止対策条例の施行に伴い、歩行喫煙の防止と路上喫煙禁止地区に関する規定を廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:49:35.682Z",
+		"inputTokens": 1665,
+		"cachedTokens": 0,
+		"outputTokens": 1536,
+		"reasoningTokens": 1244
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:49:35.682Z",
+		"checkedAt": "2026-09-30T15:36:52.098Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1707,
+			"cachedTokens": 0,
+			"outputTokens": 87,
+			"reasoningTokens": 73
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "10abe2b755fa5962",
+		"name": "Removes provisions on smoking while walking and street-smoking prohibition areas",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Preventing the Scattering of Cigarette Butts, Empty Cans, etc., and Smoking While Walking, etc.",
+		"summary": "The current ordinance includes provisions on preventing littering of cigarette butts and other items, as well as provisions on smoking while walking and areas where street smoking is prohibited. This bill removes the provisions on smoking while walking and areas where street smoking is prohibited. It takes effect on October 1, 2026.",
+		"changes": [
+			"Removes provisions on preventing smoking while walking",
+			"Removes provisions on areas where street smoking is prohibited",
+			"Deletes Article 2 of the 2005 amendment ordinance and revises the supplementary provisions"
+		],
+		"who": [
+			"People who smoke while walking",
+			"People who use areas where street smoking is prohibited"
+		],
+		"why": "The ward says these provisions are being abolished following the implementation of the Nakano City Ordinance on Measures to Prevent Secondhand Smoke.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:27:02.627Z",
+			"inputTokens": 660,
+			"cachedTokens": 0,
+			"outputTokens": 986,
+			"reasoningTokens": 737
+		}
+	}
 }

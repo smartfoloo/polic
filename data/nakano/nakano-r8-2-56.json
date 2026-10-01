@@ -22,5 +22,91 @@
 			"url": "https://kugikai-nakano.jp/gian/266239535.pdf",
 			"fetchedAt": "2026-09-30T10:26:45.177Z"
 		}
-	]
+	],
+	"name": "保育施設の健康診断と職員配置基準を変更",
+	"category": "子育て",
+	"summary": "現在は、児童相談所などで利用開始前に受けた健康診断を、利用開始時の健康診断として扱える場合があります。この議案では、母子保健法に基づく健康診査の扱いを定め、保育士数の算定方法と年齢別の職員配置基準に関する特例を改めます。",
+	"changes": [
+		"母子保健法に基づく健康診査を、利用開始時・定期・臨時の健康診断として扱えるようにする",
+		"一定の理学療法士などを1人まで保育士数に算入できるようにし、保育士の支援体制を求める",
+		"3歳以上4歳未満の児童の職員配置基準に関する特例期間を令和10年3月31日までとする",
+		"保育の提供に支障が出るおそれがある場合、当分の間、4歳以上の児童の職員配置は改正前の基準のままとする"
+	],
+	"who": [
+		"家庭的保育事業等を利用する乳幼児",
+		"家庭的保育事業等の運営者"
+	],
+	"why": "家庭的保育事業等の設備・運営基準などの改正に伴い、区の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:50:03.271Z",
+		"inputTokens": 3663,
+		"cachedTokens": 0,
+		"outputTokens": 2235,
+		"reasoningTokens": 1859
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:50:03.271Z",
+		"checkedAt": "2026-09-30T15:37:05.508Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "保育の提供に支障が出るおそれがある場合、4歳以上の児童の職員配置基準を適用しない扱いを設ける",
+				"note": "第2条で適用しないのは改正後の配置基準のみで、改正前の配置基準は引き続き効力を有する。配置基準自体を適用しないわけではない。",
+				"dismissed": {
+					"note": "Fixed in the text: the old staffing rule keeps applying (付則第3項).",
+					"at": "2026-10-01T12:11:45.776Z"
+				}
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "一定の理学療法士などを1人まで保育士数に算入できるようにし、保育士の支援体制を求める",
+				"note": "第29条・第31条・第44条・第47条の各第5項にある、看護師等と特定理学療法士等の双方が保育を行う場合、看護師等には特定理学療法士等の支援担当とは別の保育士による支援体制を確保する義務が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3786,
+			"cachedTokens": 0,
+			"outputTokens": 455,
+			"reasoningTokens": 187
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0ebe70eb06d3624c",
+		"name": "Changes health checks and staffing standards for childcare services",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "Currently, health checks received before starting to use a service, such as at a child guidance center, may be treated as the health check required when use begins. This bill sets out how health examinations under the Maternal and Child Health Act are to be treated, and revises exceptions related to how the number of childcare workers is calculated and to age-specific staffing standards.",
+		"changes": [
+			"Allow health examinations under the Maternal and Child Health Act to be treated as health checks at the start of use, regular health checks, or temporary health checks",
+			"Allow certain physical therapists and others to be counted as up to one childcare worker, and require a support system for childcare workers",
+			"Set March 31, 2028, as the end date for the exception period for staffing standards for children aged 3 to under 4",
+			"For the time being, keep the pre-amendment staffing standard for children aged 4 and over when there is a risk that providing childcare will be hindered"
+		],
+		"who": [
+			"Infants and young children using home-based childcare services, etc.",
+			"Operators of home-based childcare services, etc."
+		],
+		"why": "The ward says it is adjusting its provisions in response to amendments to standards for the equipment and operation of home-based childcare services, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-10-01T12:27:13.162Z",
+			"inputTokens": 739,
+			"cachedTokens": 0,
+			"outputTokens": 1151,
+			"reasoningTokens": 813
+		}
+	}
 }

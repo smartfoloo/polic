@@ -22,5 +22,96 @@
 			"url": "https://kugikai-nakano.jp/gian/263612538.pdf",
 			"fetchedAt": "2026-09-30T10:26:09.560Z"
 		}
-	]
+	],
+	"name": "国保料率を改定し子育て支援納付金を新設",
+	"category": "健康・医療",
+	"summary": "この条例は、中野区の国民健康保険料の率や金額を改め、新たに子ども・子育て支援納付金分を設けます。所得に応じた軽減や、18歳未満の被保険者の均等割額を減額する仕組みも定めます。令和8年4月1日から施行し、改正内容は令和8年度以降の保険料に適用します。",
+	"changes": [
+		"医療分の所得割率を7.92%から8.03%に、均等割額を45,600円から47,100円に改め、賦課限度額を660,000円から670,000円に引き上げる",
+		"後期高齢者支援金分の所得割率を2.87%から2.94%に、均等割額を16,200円から17,400円に改める",
+		"介護納付金分の所得割率を2.20%から2.53%に、均等割額を17,400円から17,700円に改める",
+		"子ども・子育て支援納付金分を新設し、所得割率0.27%、均等割額1,800円、18歳以上分73円、賦課限度額30,000円とする"
+	],
+	"who": [
+		"中野区の国民健康保険加入者",
+		"18歳未満の被保険者がいる世帯",
+		"出産する国民健康保険加入者"
+	],
+	"why": "保険料率などを改め、法令改正に伴って子ども・子育て支援納付金の賦課方法などを定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:48:16.854Z",
+		"inputTokens": 5509,
+		"cachedTokens": 0,
+		"outputTokens": 2794,
+		"reasoningTokens": 2313
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:48:16.854Z",
+		"checkedAt": "2026-09-30T15:36:20.457Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "医療分の所得割率を7.92%から8.03%に、均等割額を45,600円から47,100円に改め、賦課限度額を660,000円から670,000円に引き上げる",
+				"note": "第19条の2の所得に応じた軽減基準額の改定（305,000円から310,000円、560,000円から570,000円）や各区分の減額額の改定、子ども・子育て支援納付金分への軽減追加がchangesにありません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率0.27%、均等割額1,800円、18歳以上分73円、賦課限度額30,000円とする",
+				"note": "第19条の4の未就学児に係る均等割減額額の改定と、第19条の6の子ども・子育て支援納付金分の均等割減額が抜けています。後者の対象は18歳に達した後の最初の3月31日までの被保険者です。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率0.27%、均等割額1,800円、18歳以上分73円、賦課限度額30,000円とする",
+				"note": "第19条の5で、出産被保険者の産前産後期間について、子ども・子育て支援納付金分の所得割・均等割・18歳以上均等割を減額する規定を追加していますが、changesにありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5738,
+			"cachedTokens": 0,
+			"outputTokens": 743,
+			"reasoningTokens": 228
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "11a9b910e25badf7",
+		"name": "Revises National Health Insurance premium rates and creates a child and childcare support contribution",
+		"official": "Ordinance Partially Amending the Nakano City National Health Insurance Ordinance",
+		"summary": "This ordinance revises the rates and amounts of National Health Insurance premiums in Nakano City and creates a new child and childcare support contribution component. It also sets out reductions based on income and a system for reducing the per-person amount for insured persons under 18. It takes effect on April 1, 2026, and the changes apply to premiums from fiscal 2026 onward.",
+		"changes": [
+			"Raises the income-based rate for the medical care portion from 7.92% to 8.03%, the per-person amount from ¥45,600 to ¥47,100, and the assessment limit from ¥660,000 to ¥670,000",
+			"Revises the income-based rate for the late-stage elderly support contribution portion from 2.87% to 2.94%, and the per-person amount from ¥16,200 to ¥17,400",
+			"Revises the income-based rate for the long-term care contribution portion from 2.20% to 2.53%, and the per-person amount from ¥17,400 to ¥17,700",
+			"Creates a child and childcare support contribution component, with an income-based rate of 0.27%, a per-person amount of ¥1,800, a portion of ¥73 for people aged 18 and over, and an assessment limit of ¥30,000"
+		],
+		"who": [
+			"National Health Insurance enrollees in Nakano City",
+			"Households with insured persons under 18",
+			"National Health Insurance enrollees giving birth"
+		],
+		"why": "The ward says it is necessary to revise the premium rates and other amounts and, following revisions to laws and regulations, to set out how the child and childcare support contribution will be assessed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:06:01.329Z",
+			"inputTokens": 825,
+			"cachedTokens": 0,
+			"outputTokens": 1458,
+			"reasoningTokens": 1031
+		}
+	}
 }

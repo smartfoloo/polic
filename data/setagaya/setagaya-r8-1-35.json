@@ -32,5 +32,87 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/35.pdf",
 			"fetchedAt": "2026-09-30T10:21:04.400Z"
 		}
-	]
+	],
+	"name": "国保料率を改定し子育て支援分を新設",
+	"category": "健康・医療",
+	"summary": "国民健康保険料の料率や均等割額などを改定します。令和8年度分から子ども・子育て支援納付金分の保険料を設け、18歳未満の被保険者の均等割額を減額する仕組みも定めます。",
+	"changes": [
+		"医療分の所得割率を7.71%から7.51%に、均等割額を47,300円から47,600円に改める",
+		"後期高齢者支援金分を所得割率2.69%・均等割額16,800円から2.80%・17,600円に、介護納付金分を2.25%・16,600円から2.43%・17,800円に改める",
+		"医療分の賦課限度額を660,000円から670,000円に引き上げる",
+		"子ども・子育て支援納付金分に所得割0.27%、均等割1,800円、18歳以上均等割73円、賦課限度額30,000円を設け、18歳未満の均等割額を減額する"
+	],
+	"who": [
+		"世田谷区の国民健康保険加入者",
+		"18歳未満の国民健康保険加入者がいる世帯"
+	],
+	"why": "保険料率などを見直し、国民健康保険法の改正に合わせて子ども・子育て支援納付金分の保険料率などを定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:53:42.577Z",
+		"inputTokens": 5747,
+		"cachedTokens": 0,
+		"outputTokens": 3021,
+		"reasoningTokens": 2583
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:53:42.577Z",
+		"checkedAt": "2026-09-30T15:39:14.482Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "医療分の所得割率を7.71%から7.51%に、均等割額を47,300円から47,600円に改める",
+				"note": "第19条の2にある低所得世帯の軽減判定基準額の変更（305,000円から310,000円、560,000円から570,000円）や、均等割の減額額の改定が記載されていません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分に所得割0.27%、均等割1,800円、18歳以上均等割73円、賦課限度額30,000円を設け、18歳未満の均等割額を減額する",
+				"note": "第19条の2・第19条の4・第19条の5で、子ども・子育て支援納付金分にも低所得世帯、未就学児、出産被保険者の産前産後期間に係る減額を設けることが抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5928,
+			"cachedTokens": 0,
+			"outputTokens": 554,
+			"reasoningTokens": 226
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8834a754ebb7c965",
+		"name": "Revises national health insurance rates and adds child-rearing support component",
+		"official": "Ordinance Partially Amending the Setagaya City National Health Insurance Ordinance",
+		"summary": "The ordinance revises national health insurance premium rates and per-capita amounts. Starting with fiscal year 2026, it establishes a premium component for the child and childcare support contribution and sets out a system to reduce the per-capita amount for insured people under age 18.",
+		"changes": [
+			"Changes the medical-care income-based rate from 7.71% to 7.51% and the per-capita amount from ¥47,300 to ¥47,600",
+			"Changes the late-stage elderly support contribution from an income-based rate of 2.69% and a per-capita amount of ¥16,800 to 2.80% and ¥17,600; changes the long-term care contribution from 2.25% and ¥16,600 to 2.43% and ¥17,800",
+			"Raises the cap on the medical-care premium from ¥660,000 to ¥670,000",
+			"Sets a 0.27% income-based rate, a ¥1,800 per-capita amount, a ¥73 per-capita amount for people aged 18 and over, and a ¥30,000 premium cap for the child and childcare support contribution; reduces the per-capita amount for people under age 18"
+		],
+		"who": [
+			"People enrolled in national health insurance in Setagaya City",
+			"Households with a person under age 18 enrolled in national health insurance"
+		],
+		"why": "The ward says this is to review premium rates and other amounts, and to set rates and other amounts for the child and childcare support contribution in line with the revision of the National Health Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:05.531Z",
+			"inputTokens": 783,
+			"cachedTokens": 0,
+			"outputTokens": 830,
+			"reasoningTokens": 428
+		}
+	}
 }

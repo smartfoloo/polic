@@ -64,5 +64,33 @@
 			"outputTokens": 137,
 			"reasoningTokens": 123
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2eaa78af51f649f9",
+		"name": "Requires residential facilities for children with disabilities to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Ordinance on Standards for Staffing, Facilities, and Operation of Tokyo-Designated Residential Facilities for Children with Disabilities",
+		"summary": "The Tokyo Metropolitan Government's ordinance sets standards for staffing, facilities, and operation at designated residential facilities for children with disabilities. This bill requires operators of designated welfare-type residential facilities for children with disabilities to take measures to prevent sexual violence against children and to protect children with disabilities if harm occurs. It takes effect on December 25, 2026.",
+		"changes": [
+			"Require facility operators to take measures to prevent sexual violence against children",
+			"Require criminal-record checks for certain workers who have contact with children with disabilities",
+			"Require measures to protect children with disabilities if sexual violence occurs"
+		],
+		"who": [
+			"Operators of designated welfare-type residential facilities for children with disabilities",
+			"Certain workers who have contact with children with disabilities at the facilities",
+			"Children with disabilities who use designated welfare-type residential facilities"
+		],
+		"why": "The Tokyo Metropolitan Government says the provisions are being established to prevent sexual violence against children and for other purposes, following the entry into force of relevant laws and amendments to the Child Welfare Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:29:50.402Z",
+			"inputTokens": 717,
+			"cachedTokens": 0,
+			"outputTokens": 649,
+			"reasoningTokens": 363
+		}
 	}
 }

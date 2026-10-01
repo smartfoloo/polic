@@ -32,5 +32,60 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/37.pdf",
 			"fetchedAt": "2026-09-30T10:21:16.295Z"
 		}
-	]
+	],
+	"name": "条例に記載する団体名を変更",
+	"category": "住宅",
+	"summary": "現在、条例では「一般財団法人世田谷トラストまちづくり」と記載されています。この議案で、その記載を「公益財団法人世田谷トラストまちづくり」に改めます。",
+	"changes": [
+		"条例中の団体名を「一般財団法人世田谷トラストまちづくり」から「公益財団法人世田谷トラストまちづくり」に改める"
+	],
+	"who": [],
+	"why": "一般財団法人世田谷トラストまちづくりが公益財団法人へ移行することに伴い、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:54:09.600Z",
+		"inputTokens": 1211,
+		"cachedTokens": 0,
+		"outputTokens": 813,
+		"reasoningTokens": 629
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:54:09.600Z",
+		"checkedAt": "2026-09-30T15:39:27.797Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1162,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 28
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fcca5969676f87f8",
+		"name": "Changes the organization name listed in the ordinance",
+		"official": "Ordinance Partially Amending the Setagaya City Ordinance on the Supply of Setagaya no Ie",
+		"summary": "The ordinance currently names the General Incorporated Foundation Setagaya Trust and Community Development. This bill changes that name to the Public Interest Incorporated Foundation Setagaya Trust and Community Development.",
+		"changes": [
+			"Changes the organization name in the ordinance from the General Incorporated Foundation Setagaya Trust and Community Development to the Public Interest Incorporated Foundation Setagaya Trust and Community Development"
+		],
+		"who": [],
+		"why": "The ward says this is to make the necessary provisions because the General Incorporated Foundation Setagaya Trust and Community Development is transitioning to a Public Interest Incorporated Foundation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:09:19.003Z",
+			"inputTokens": 559,
+			"cachedTokens": 0,
+			"outputTokens": 547,
+			"reasoningTokens": 369
+		}
+	}
 }

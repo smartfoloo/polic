@@ -32,5 +32,62 @@
 			"url": "https://www.city.setagaya.lg.jp/documents/31437/32.pdf",
 			"fetchedAt": "2026-09-30T10:20:46.257Z"
 		}
-	]
+	],
+	"name": "清掃・リサイクル審議会の規定を削除",
+	"category": "環境",
+	"summary": "条例には、清掃・リサイクル審議会に関する規定があります。この議案では、同審議会と環境審議会の統合に伴い、その規定を削除し、条文の参照先も改めます。参照先の変更は2026年4月1日から、ほかの改正は2026年6月1日から施行します。",
+	"changes": [
+		"清掃・リサイクル審議会に関する規定を削除する",
+		"第39条の3第2項の参照先を「第2条第6項」から「第2条第7項」に改める"
+	],
+	"who": [],
+	"why": "清掃・リサイクル審議会と環境審議会の統合に伴い、関連規定を削除し、規定を整える必要があるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:53:13.076Z",
+		"inputTokens": 1323,
+		"cachedTokens": 0,
+		"outputTokens": 670,
+		"reasoningTokens": 399
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:53:13.076Z",
+		"checkedAt": "2026-09-30T15:38:57.388Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1329,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7c2093eabd561858",
+		"name": "Removes provisions for the Cleaning and Recycling Council",
+		"official": "Ordinance Partially Amending the Setagaya City Cleaning and Recycling Ordinance",
+		"summary": "The ordinance contains provisions about the Cleaning and Recycling Council. This bill deletes those provisions and revises references in the ordinance to reflect the integration of that council with the Environmental Council. The change to the references takes effect on April 1, 2026, and the other amendments take effect on June 1, 2026.",
+		"changes": [
+			"Deletes provisions about the Cleaning and Recycling Council",
+			"Changes the reference in Article 39-3, paragraph 2, from “Article 2, paragraph 6” to “Article 2, paragraph 7”"
+		],
+		"who": [],
+		"why": "The mayor says the related provisions need to be deleted and the ordinance adjusted because the Cleaning and Recycling Council and the Environmental Council are being integrated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:07:39.535Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 454,
+			"reasoningTokens": 240
+		}
+	}
 }

@@ -32,5 +32,74 @@
 			"url": "https://gikai2.city.minato.tokyo.jp/voices/GikaiDoc/attach/Gk/GkB788_39.pdf",
 			"fetchedAt": "2026-09-30T12:31:49.695Z"
 		}
-	]
+	],
+	"name": "区民税の控除や各種特例の期限を見直す",
+	"category": "税・手数料",
+	"summary": "特定一般用医薬品等の購入費に関する医療費控除の特例は、令和9年度までの適用とされています。この議案では、その期限をなくすほか、公的年金等を受け取る人の申告義務の範囲や、住宅・軽自動車・土地などに関する税の特例を見直します。",
+	"changes": [
+		"特定一般用医薬品等の購入費に関する医療費控除の特例の適用期限をなくす",
+		"公的年金等を受け取る人の扶養親族等申告書の提出義務者を広げる",
+		"住宅借入金等特別税額控除の居住期限を令和7年12月31日から令和12年12月31日まで延長し、肉用牛の売却に関する課税特例を令和12年度分まで延長する",
+		"軽自動車税の軽減特例を令和10年度分まで、優良住宅地等のための土地譲渡に関する特例を令和11年度分まで延長し、災害の危険がある区域内の土地等には後者を適用しない"
+	],
+	"who": [
+		"公的年金等を受け取る人",
+		"特定一般用医薬品等の購入費に関する医療費控除や住宅借入金等特別税額控除を利用する人",
+		"対象となる軽自動車を取得する人、肉用牛を売却する人、土地等を譲渡する人"
+	],
+	"why": "地方税法の改正に伴い、条例の適用期限や規定を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:43:32.109Z",
+		"inputTokens": 5488,
+		"cachedTokens": 0,
+		"outputTokens": 1723,
+		"reasoningTokens": 1251
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:43:32.109Z",
+		"checkedAt": "2026-09-30T15:34:10.522Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5704,
+			"cachedTokens": 0,
+			"outputTokens": 130,
+			"reasoningTokens": 115
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "96af452adbcc3f53",
+		"name": "Revises deadlines for resident tax deductions and special measures",
+		"official": "Ordinance Partially Amending the Minato City Special Ward Tax Ordinance",
+		"summary": "The special measure for the medical expense deduction on the cost of buying specified general-use medicines, etc., is set to apply through fiscal year 2027. This bill removes that deadline, expands who among people receiving public pensions, etc., must file a declaration of dependents, etc., and revises special tax measures concerning housing, light motor vehicles, land, and other matters.",
+		"changes": [
+			"Removes the deadline for the special measure for the medical expense deduction on the cost of buying specified general-use medicines, etc.",
+			"Expands who among people receiving public pensions, etc., must submit a declaration of dependents, etc.",
+			"Extends the residence deadline for the special tax credit for housing loans, etc., from December 31, 2025, to December 31, 2030, and extends the tax special measure for sales of beef cattle through fiscal year 2030",
+			"Extends the tax-reduction measure for light motor vehicles through fiscal year 2028 and the special measure for transfers of land for high-quality residential areas, etc., through fiscal year 2029, and excludes land, etc., in areas at risk of disasters from the latter measure"
+		],
+		"who": [
+			"People receiving public pensions, etc.",
+			"People using the medical expense deduction for costs of buying specified general-use medicines, etc., or the special tax credit for housing loans, etc.",
+			"People acquiring eligible light motor vehicles, selling beef cattle, or transferring land, etc."
+		],
+		"why": "The ward says the ordinance’s deadlines and provisions are being revised in line with amendments to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:03:44.837Z",
+			"inputTokens": 813,
+			"cachedTokens": 0,
+			"outputTokens": 1327,
+			"reasoningTokens": 933
+		}
+	}
 }

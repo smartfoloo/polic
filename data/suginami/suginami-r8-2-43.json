@@ -63,5 +63,32 @@
 			"outputTokens": 92,
 			"reasoningTokens": 78
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "57fc20765d39f59c",
+		"name": "Sets rules for the pediatric chronic specified disease review committee",
+		"official": "Suginami City Pediatric Chronic Specified Disease Review Committee Ordinance",
+		"summary": "When payment of medical expenses for pediatric chronic specified diseases is not approved, the rules require that a review be requested from a review committee. This bill sets the number of members, meeting rules, and compensation for the committee established in Suginami City. It takes effect on November 1, 2026.",
+		"changes": [
+			"Limits the committee to no more than 6 members",
+			"Requires meetings to be closed to the public and held with at least half of the members present",
+			"Requires members to keep information learned through their duties confidential even after leaving office",
+			"Sets daily compensation at ¥21,000 for the chair and ¥18,500 for members"
+		],
+		"who": [
+			"People who apply for medical expense benefits for pediatric chronic specified diseases and are expected to be denied"
+		],
+		"why": "The ward says this is because Suginami City has been designated a city that operates a child guidance center, and rules need to be established for the City's review committee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T16:14:43.019Z",
+			"inputTokens": 660,
+			"cachedTokens": 0,
+			"outputTokens": 785,
+			"reasoningTokens": 525
+		}
 	}
 }

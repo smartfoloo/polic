@@ -27,5 +27,76 @@
 			"url": "https://www.gikai-adachi.jp/voices/GikaiDoc/attach/Gk/Gk4384_R81TG012.pdf",
 			"fetchedAt": "2026-09-30T10:30:40.971Z"
 		}
-	]
+	],
+	"name": "附属機関の委員報酬上限を3万5,000円に",
+	"category": "行政のしくみ",
+	"summary": "現在、附属機関の委員報酬の上限は3万円です。この議案で上限を3万5,000円に引き上げ、費用弁償の区分なども改めます。令和8年4月1日から施行します。",
+	"changes": [
+		"委員報酬の上限額を3万円から3万5,000円に引き上げる",
+		"費用弁償の種類や交通費・宿泊費の区分を改める",
+		"条文中の表記を改める"
+	],
+	"who": [
+		"足立区の附属機関の委員"
+	],
+	"why": "委員の報酬上限額を引き上げ、区職員の旅費に関する条例の改正に合わせるほか、規定を整えるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 1,
+		"generatedAt": "2026-09-30T14:19:57.204Z",
+		"inputTokens": 1381,
+		"cachedTokens": 0,
+		"outputTokens": 1104,
+		"reasoningTokens": 836
+	},
+	"checks": {
+		"draftAt": "2026-09-30T14:19:57.204Z",
+		"checkedAt": "2026-09-30T15:21:40.216Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "費用弁償の種類や交通費・宿泊費の区分を改める",
+				"note": "第４条第３項には「区域」の次に「以外の区域」を加え、「以外の者」を削る改正もあり、費用弁償の対象者の区分に関わる変更が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1397,
+			"cachedTokens": 0,
+			"outputTokens": 273,
+			"reasoningTokens": 159
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d1921978d7ee8c51",
+		"name": "Raises the cap on compensation for members of affiliated bodies to ¥35,000",
+		"official": "Ordinance Partially Amending the Adachi City Ordinance on Compensation and Expense Reimbursement for Members of Adachi City Affiliated Bodies",
+		"summary": "The current cap on compensation for members of affiliated bodies is ¥30,000. This bill raises the cap to ¥35,000 and also revises categories of expense reimbursement. It will take effect on April 1, 2026.",
+		"changes": [
+			"Raises the cap on member compensation from ¥30,000 to ¥35,000",
+			"Revises the types of expense reimbursement and the categories for transportation and accommodation costs",
+			"Revises wording in the provisions"
+		],
+		"who": [
+			"Members of Adachi City affiliated bodies"
+		],
+		"why": "The mayor says the changes are intended to raise the cap on member compensation, bring the rules into line with amendments to the ordinance on travel expenses for City employees, and tidy up the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 2,
+			"generatedAt": "2026-09-30T15:54:35.251Z",
+			"inputTokens": 631,
+			"cachedTokens": 0,
+			"outputTokens": 592,
+			"reasoningTokens": 357
+		}
+	}
 }
