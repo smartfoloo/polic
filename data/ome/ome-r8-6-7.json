@@ -1,0 +1,26 @@
+{
+	"id": "ome-r8-6-7",
+	"assembly": "tokyo/ome",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "青梅市特定教育・保育施設および特定地域型保育事業の運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年市議会定例会6月定例議会",
+	"committee": "福祉文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "議案審議結果一覧（令和8年市議会定例会6月定例議会）",
+			"url": "https://www.city.ome.tokyo.jp/site/gikai/120709.html",
+			"fetchedAt": "2026-10-01T14:24:33.954Z"
+		},
+		{
+			"label": "議案第7号（PDF）",
+			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/80139.pdf",
+			"fetchedAt": "2026-10-01T14:27:10.379Z"
+		}
+	]
+}

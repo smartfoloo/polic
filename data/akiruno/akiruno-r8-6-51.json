@@ -1,0 +1,26 @@
+{
+	"id": "akiruno-r8-6-51",
+	"assembly": "tokyo/akiruno",
+	"approved": false,
+	"number": "議案第51号",
+	"official": "あきる野市都市計画税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会6月定例会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会6月定例会議",
+			"url": "https://www.city.akiruno.tokyo.jp/0000020596.html",
+			"fetchedAt": "2026-10-01T14:36:25.904Z"
+		},
+		{
+			"label": "議案第51号（PDF）",
+			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20596/gian51.pdf",
+			"fetchedAt": "2026-10-01T14:38:51.519Z"
+		}
+	]
+}

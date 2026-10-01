@@ -1,0 +1,26 @@
+{
+	"id": "ome-r8-9-53",
+	"assembly": "tokyo/ome",
+	"approved": false,
+	"number": "議案第53号",
+	"official": "地方自治法の一部改正に伴う関係条例の整理に関する条例",
+	"by": "head",
+	"session": "令和8年市議会定例会9月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-02",
+	"sources": [
+		{
+			"label": "議案審議結果一覧（令和8年市議会定例会9月定例議会）",
+			"url": "https://www.city.ome.tokyo.jp/site/gikai/124462.html",
+			"fetchedAt": "2026-10-01T14:25:46.509Z"
+		},
+		{
+			"label": "議案第53号（PDF）",
+			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/81545.pdf",
+			"fetchedAt": "2026-10-01T14:28:16.449Z"
+		}
+	]
+}

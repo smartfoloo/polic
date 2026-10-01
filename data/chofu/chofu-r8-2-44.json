@@ -1,0 +1,31 @@
+{
+	"id": "chofu-r8-2-44",
+	"assembly": "tokyo/chofu",
+	"approved": false,
+	"number": "議案第44号",
+	"official": "調布市下水道事業の設置等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "建設委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会市長提出予定議案",
+			"url": "https://www.city.chofu.lg.jp/020040/p078144.html",
+			"fetchedAt": "2026-10-01T14:30:04.910Z"
+		},
+		{
+			"label": "議案第44号（PDF）",
+			"url": "https://www.city.chofu.lg.jp/documents/17475/gian44.pdf",
+			"fetchedAt": "2026-10-01T14:33:51.673Z"
+		},
+		{
+			"label": "令和8年第2回定例会会議結果",
+			"url": "https://www.city.chofu.lg.jp/140010/p077273.html",
+			"fetchedAt": "2026-10-01T14:29:58.519Z"
+		}
+	]
+}

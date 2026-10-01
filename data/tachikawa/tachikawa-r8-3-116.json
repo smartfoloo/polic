@@ -1,0 +1,26 @@
+{
+	"id": "tachikawa-r8-3-116",
+	"assembly": "tokyo/tachikawa",
+	"approved": false,
+	"number": "議案第116号",
+	"official": "立川市公園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会議案一覧",
+			"url": "https://www.city.tachikawa.lg.jp/shigikai/katsudo/1007184/1026374/1026377/1028161.html",
+			"fetchedAt": "2026-10-01T14:18:58.498Z"
+		},
+		{
+			"label": "議案第116号（PDF）",
+			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/028/161/r8gian116.pdf",
+			"fetchedAt": "2026-10-01T14:26:56.801Z"
+		}
+	]
+}

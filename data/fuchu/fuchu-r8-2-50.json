@@ -1,0 +1,31 @@
+{
+	"id": "fuchu-r8-2-50",
+	"assembly": "tokyo/fuchu",
+	"approved": false,
+	"number": "第50号議案",
+	"official": "府中市市税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-04",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会市長提出議案",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/2teirei.html",
+			"fetchedAt": "2026-10-01T14:27:37.969Z"
+		},
+		{
+			"label": "第50号議案（PDF）",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/2teirei.files/8-2-050.pdf",
+			"fetchedAt": "2026-10-01T14:32:04.748Z"
+		},
+		{
+			"label": "令和8年第2回定例会議決結果",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai2kaigiketukekka.html",
+			"fetchedAt": "2026-10-01T14:26:52.140Z"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "machida-r8-1-30",
+	"assembly": "tokyo/machida",
+	"approved": false,
+	"number": "第30号議案",
+	"official": "町田市立学校設置条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年3月定例会（第1回）",
+	"committee": "文教社会常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年3月定例会（第1回） 議案一覧",
+			"url": "https://www.gikai-machida.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F03%2F09%2C2026%2F03%2F30%2C174",
+			"fetchedAt": "2026-10-01T14:19:01.804Z"
+		},
+		{
+			"label": "第30号議案の詳細",
+			"url": "https://www.gikai-machida.jp/g07_Giketsu_View.asp?SrchID=6690&Sflg=2",
+			"fetchedAt": "2026-10-01T14:22:59.915Z"
+		},
+		{
+			"label": "第30号議案（PDF）",
+			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6690_30gou.pdf",
+			"fetchedAt": "2026-10-01T14:23:05.927Z"
+		}
+	]
+}

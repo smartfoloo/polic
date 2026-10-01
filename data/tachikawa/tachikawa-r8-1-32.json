@@ -1,0 +1,26 @@
+{
+	"id": "tachikawa-r8-1-32",
+	"assembly": "tokyo/tachikawa",
+	"approved": false,
+	"number": "議案第32号",
+	"official": "立川市乳児等通園支援事業の設備及び運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会議案一覧",
+			"url": "https://www.city.tachikawa.lg.jp/shigikai/katsudo/1007184/1026374/1026375/1026380.html",
+			"fetchedAt": "2026-10-01T14:21:56.659Z"
+		},
+		{
+			"label": "議案第32号（PDF）",
+			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian32.pdf",
+			"fetchedAt": "2026-10-01T14:23:44.685Z"
+		}
+	]
+}

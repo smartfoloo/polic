@@ -1,0 +1,26 @@
+{
+	"id": "tachikawa-r8-3-107",
+	"assembly": "tokyo/tachikawa",
+	"approved": false,
+	"number": "議案第107号",
+	"official": "立川市子どもの福祉審議会条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "厚生委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-04",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会議案一覧",
+			"url": "https://www.city.tachikawa.lg.jp/shigikai/katsudo/1007184/1026374/1026377/1028161.html",
+			"fetchedAt": "2026-10-01T14:18:58.498Z"
+		},
+		{
+			"label": "議案第107号（PDF）",
+			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/028/161/r8gian107.pdf",
+			"fetchedAt": "2026-10-01T14:26:26.719Z"
+		}
+	]
+}

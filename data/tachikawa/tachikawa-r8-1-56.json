@@ -1,0 +1,26 @@
+{
+	"id": "tachikawa-r8-1-56",
+	"assembly": "tokyo/tachikawa",
+	"approved": false,
+	"number": "議案第56号",
+	"official": "立川市特定教育・保育施設及び特定地域型保育事業の運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会議案一覧",
+			"url": "https://www.city.tachikawa.lg.jp/shigikai/katsudo/1007184/1026374/1026375/1026380.html",
+			"fetchedAt": "2026-10-01T14:21:56.659Z"
+		},
+		{
+			"label": "議案第56号（PDF）",
+			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian56.pdf",
+			"fetchedAt": "2026-10-01T14:25:26.711Z"
+		}
+	]
+}

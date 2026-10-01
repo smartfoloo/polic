@@ -1,0 +1,31 @@
+{
+	"id": "fuchu-r8-1-18",
+	"assembly": "tokyo/fuchu",
+	"approved": false,
+	"number": "第18号議案",
+	"official": "府中市地区計画の区域内における建築物の制限に関する条例及び府中市景観条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "建設環境委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-16",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会市長提出議案",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/1teirei.html",
+			"fetchedAt": "2026-10-01T14:30:04.643Z"
+		},
+		{
+			"label": "第18号議案（PDF）",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/1teirei.files/8-1-018.pdf",
+			"fetchedAt": "2026-10-01T14:31:28.636Z"
+		},
+		{
+			"label": "令和8年第1回定例会議決結果",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
+			"fetchedAt": "2026-10-01T14:29:58.629Z"
+		}
+	]
+}

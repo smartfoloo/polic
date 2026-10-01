@@ -1,0 +1,26 @@
+{
+	"id": "tachikawa-r8-2-76",
+	"assembly": "tokyo/tachikawa",
+	"approved": false,
+	"number": "議案第76号",
+	"official": "立川市斎場条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-05-28",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会議案一覧",
+			"url": "https://www.city.tachikawa.lg.jp/shigikai/katsudo/1007184/1026374/1026376/1027155.html",
+			"fetchedAt": "2026-10-01T14:20:11.712Z"
+		},
+		{
+			"label": "議案第76号（PDF）",
+			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/027/155/r8gian76.pdf",
+			"fetchedAt": "2026-10-01T14:26:08.715Z"
+		}
+	]
+}

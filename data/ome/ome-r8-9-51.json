@@ -1,0 +1,26 @@
+{
+	"id": "ome-r8-9-51",
+	"assembly": "tokyo/ome",
+	"approved": false,
+	"number": "議案第51号",
+	"official": "青梅市文化交流センター条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年市議会定例会9月定例議会",
+	"committee": "福祉文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"sources": [
+		{
+			"label": "議案審議結果一覧（令和8年市議会定例会9月定例議会）",
+			"url": "https://www.city.ome.tokyo.jp/site/gikai/124462.html",
+			"fetchedAt": "2026-10-01T14:25:46.509Z"
+		},
+		{
+			"label": "議案第51号（PDF）",
+			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/81543.pdf",
+			"fetchedAt": "2026-10-01T14:28:04.479Z"
+		}
+	]
+}

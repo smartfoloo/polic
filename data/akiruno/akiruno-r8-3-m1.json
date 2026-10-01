@@ -1,0 +1,26 @@
+{
+	"id": "akiruno-r8-3-m1",
+	"assembly": "tokyo/akiruno",
+	"approved": false,
+	"number": "議員提出議案第1号",
+	"official": "あきる野市議会議員定数条例の一部を改正する条例",
+	"by": "member",
+	"session": "令和8年第1回定例会3月定例会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-16",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会3月定例会議",
+			"url": "https://www.city.akiruno.tokyo.jp/0000020278.html",
+			"fetchedAt": "2026-10-01T14:36:19.495Z"
+		},
+		{
+			"label": "議員提出議案第1号（PDF）",
+			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/giinR8-1.pdf",
+			"fetchedAt": "2026-10-01T14:38:39.513Z"
+		}
+	]
+}

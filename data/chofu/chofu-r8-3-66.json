@@ -1,0 +1,31 @@
+{
+	"id": "chofu-r8-3-66",
+	"assembly": "tokyo/chofu",
+	"approved": false,
+	"number": "議案第66号",
+	"official": "調布市景観条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "建設委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-28",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会市長提出予定議案",
+			"url": "https://www.city.chofu.lg.jp/020040/p078147.html",
+			"fetchedAt": "2026-10-01T14:34:03.463Z"
+		},
+		{
+			"label": "議案第66号（PDF）",
+			"url": "https://www.city.chofu.lg.jp/documents/18151/gian66.pdf",
+			"fetchedAt": "2026-10-01T14:34:27.474Z"
+		},
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.chofu.lg.jp/140010/p077280.html",
+			"fetchedAt": "2026-10-01T14:31:20.266Z"
+		}
+	]
+}

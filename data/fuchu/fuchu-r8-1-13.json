@@ -1,0 +1,31 @@
+{
+	"id": "fuchu-r8-1-13",
+	"assembly": "tokyo/fuchu",
+	"approved": false,
+	"number": "第13号議案",
+	"official": "府中市立保育所条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-16",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会市長提出議案",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/1teirei.html",
+			"fetchedAt": "2026-10-01T14:30:04.643Z"
+		},
+		{
+			"label": "第13号議案（PDF）",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/1teirei.files/8-1-013.pdf",
+			"fetchedAt": "2026-10-01T14:30:58.611Z"
+		},
+		{
+			"label": "令和8年第1回定例会議決結果",
+			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
+			"fetchedAt": "2026-10-01T14:29:58.629Z"
+		}
+	]
+}

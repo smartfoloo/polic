@@ -1,0 +1,31 @@
+{
+	"id": "machida-r8-3-76",
+	"assembly": "tokyo/machida",
+	"approved": false,
+	"number": "第76号議案",
+	"official": "町田市市民農園条例を廃止する条例",
+	"by": "head",
+	"session": "令和8年9月定例会（第3回）",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "令和8年9月定例会（第3回） 議案一覧",
+			"url": "https://www.gikai-machida.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F08%2F27%2C2026%2F09%2F30%2C177",
+			"fetchedAt": "2026-10-01T14:19:13.711Z"
+		},
+		{
+			"label": "第76号議案の詳細",
+			"url": "https://www.gikai-machida.jp/g07_Giketsu_View.asp?SrchID=6823&Sflg=2",
+			"fetchedAt": "2026-10-01T14:25:59.950Z"
+		},
+		{
+			"label": "第76号議案（PDF）",
+			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6823_76gou.pdf",
+			"fetchedAt": "2026-10-01T14:26:05.971Z"
+		}
+	]
+}

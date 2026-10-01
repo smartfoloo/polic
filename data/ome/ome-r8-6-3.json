@@ -1,0 +1,26 @@
+{
+	"id": "ome-r8-6-3",
+	"assembly": "tokyo/ome",
+	"approved": false,
+	"number": "議案第3号",
+	"official": "青梅市行政手続における特定の個人を識別するための番号の利用等に関する法律にもとづく個人番号の利用および特定個人情報の提供に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年市議会定例会6月定例議会",
+	"committee": "総務企画委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "議案審議結果一覧（令和8年市議会定例会6月定例議会）",
+			"url": "https://www.city.ome.tokyo.jp/site/gikai/120709.html",
+			"fetchedAt": "2026-10-01T14:24:33.954Z"
+		},
+		{
+			"label": "議案第3号（PDF）",
+			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/80135.pdf",
+			"fetchedAt": "2026-10-01T14:26:52.290Z"
+		}
+	]
+}

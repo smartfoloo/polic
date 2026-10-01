@@ -1,0 +1,26 @@
+{
+	"id": "akiruno-r8-3-9",
+	"assembly": "tokyo/akiruno",
+	"approved": false,
+	"number": "議案第9号",
+	"official": "あきる野市国民健康保険税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会3月定例会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会3月定例会議",
+			"url": "https://www.city.akiruno.tokyo.jp/0000020278.html",
+			"fetchedAt": "2026-10-01T14:36:19.495Z"
+		},
+		{
+			"label": "議案第9号（PDF）",
+			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/gian9.pdf",
+			"fetchedAt": "2026-10-01T14:38:21.551Z"
+		}
+	]
+}

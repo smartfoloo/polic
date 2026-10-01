@@ -1,0 +1,31 @@
+{
+	"id": "machida-r8-2-58",
+	"assembly": "tokyo/machida",
+	"approved": false,
+	"number": "第58号議案",
+	"official": "町田市中心市街地開発推進基金条例",
+	"by": "head",
+	"session": "令和8年6月定例会（第2回）",
+	"committee": "建設常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-29",
+	"sources": [
+		{
+			"label": "令和8年6月定例会（第2回） 議案一覧",
+			"url": "https://www.gikai-machida.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F01%2C2026%2F06%2F29%2C176",
+			"fetchedAt": "2026-10-01T14:19:07.722Z"
+		},
+		{
+			"label": "第58号議案の詳細",
+			"url": "https://www.gikai-machida.jp/g07_Giketsu_View.asp?SrchID=6771&Sflg=2",
+			"fetchedAt": "2026-10-01T14:24:47.950Z"
+		},
+		{
+			"label": "第58号議案（PDF）",
+			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6771_58gou.pdf",
+			"fetchedAt": "2026-10-01T14:24:53.964Z"
+		}
+	]
+}
