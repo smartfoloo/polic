@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/state';
+	import { KINDS } from '$lib/admin/flags.js';
 	import { groupByQueue } from '$lib/admin/order.js';
 
 	let { data, children } = $props();
@@ -14,6 +15,8 @@
 	// Bills with nothing waiting only show up when you search for them.
 	const done = $derived(query ? filtered.filter((b) => !b.queues.length) : []);
 	const assemblies = $derived([...new Set(data.bills.map((b) => b.assembly))]);
+	// Flag labels only where you're checking the Japanese, not in the English queues.
+	const showFlags = (/** @type {string[]} */ queues) => ['held', 'sample', 'improve'].includes(queues[0]);
 </script>
 
 <svelte:head>
@@ -45,6 +48,13 @@
 									<a href="/admin/{b.id}" aria-current={page.params.id === b.id ? 'page' : undefined}>
 										<span class="name">{b.name}</span>
 										<span class="id">{b.id}</span>
+										{#if showFlags(b.queues) && b.flags.length}
+											<span class="flag-tags">
+												{#each b.flags as f (f.kind)}
+													<span class="flag-tag {KINDS[f.kind]?.tone}">{KINDS[f.kind]?.label ?? f.kind}{f.n > 1 ? ` ×${f.n}` : ''}</span>
+												{/each}
+											</span>
+										{/if}
 									</a>
 								</li>
 							{/each}
@@ -201,6 +211,39 @@
 		font-family: var(--font-mono);
 		font-size: 11.5px;
 		opacity: 0.7;
+	}
+
+	.flag-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 3px;
+		margin-top: 3px;
+	}
+
+	.flag-tag {
+		--tone: var(--color-status-active);
+		padding: 0 5px;
+		border: 1px solid var(--tone);
+		color: var(--tone);
+		font-size: 10.5px;
+		font-weight: 800;
+		line-height: 1.5;
+	}
+
+	.flag-tag.error {
+		--tone: var(--color-status-rejected);
+	}
+
+	.flag-tag.info {
+		--tone: var(--color-primary);
+	}
+
+	.flag-tag.muted {
+		--tone: var(--color-text-muted);
+	}
+
+	li a[aria-current='page'] .flag-tag {
+		--tone: var(--color-on-primary);
 	}
 
 	.main {

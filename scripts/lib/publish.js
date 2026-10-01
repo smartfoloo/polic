@@ -22,11 +22,13 @@ export function holdReasons(bill, date = today()) {
 	if (!bill.draft) return ['no draft yet'];
 	if (!bill.checks || bill.checks.draftAt !== bill.draft.generatedAt) return ['not checked yet (npm run verify)'];
 
+	// Flags someone looked at and dismissed as wrong (checks.dismissedFlags, issue.dismissed) don't hold.
+	const dismissed = new Set((bill.checks.dismissedFlags ?? []).map((/** @type {any} */ d) => d.flag));
 	const reasons = [];
 	if (bill.by === 'member') reasons.push('member bill: always reviewed');
-	reasons.push(...bill.checks.flags.map((/** @type {string} */ f) => `code: ${f}`));
+	reasons.push(...bill.checks.flags.filter((/** @type {string} */ f) => !dismissed.has(f)).map((/** @type {string} */ f) => `code: ${f}`));
 	for (const i of bill.checks.issues) {
-		if (i.kind !== 'omission') reasons.push(`ai [${i.severity}] ${i.field}/${i.kind}: 「${i.quote}」 → ${i.note}`);
+		if (i.kind !== 'omission' && !i.dismissed) reasons.push(`ai [${i.severity}] ${i.field}/${i.kind}: 「${i.quote}」 → ${i.note}`);
 	}
 	return reasons;
 }

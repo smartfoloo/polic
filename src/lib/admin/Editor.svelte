@@ -2,13 +2,15 @@
 	// One bill on the review page. Mounted fresh for each bill and after each AI rewrite, so the form
 	// starts from what is saved in data/; plain saves keep it mounted (scroll and search stay put).
 	import { tick, untrack } from 'svelte';
+	import { SvelteSet } from 'svelte/reactivity';
 	import { enhance } from '$app/forms';
 	import { beforeNavigate, goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import { categories } from '$lib/config/categories.js';
 	import BillDetail from '$lib/components/BillDetail.svelte';
+	import { FIELD_LABEL, flagsOf, KINDS, sortFlags } from './flags.js';
+	import Flags from './Flags.svelte';
 	import ListField from './ListField.svelte';
-	import Notes from './Notes.svelte';
 	import { missingNumbers, sourceNumbers } from './numbers.js';
 
 	/** @type {{ data: any, form: any, next: string | null }} */
@@ -47,24 +49,97 @@
 		if (dirty && nav.to?.url.pathname !== page.url.pathname && !confirm('Discard unsaved changes?')) nav.cancel();
 	});
 
-	// Source pane search; clicking a quoted flag searches for it too.
+	// Source pane search, also driven by the flags. Ignores whitespace: PDF text breaks lines mid-phrase.
 	let query = $state('');
 	/** @type {HTMLElement | undefined} */
 	let sourceEl = $state();
 	const escape = (/** @type {string} */ s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-	const parts = $derived(query.trim() ? data.source.split(new RegExp(`(${escape(query.trim())})`)) : [data.source]);
+	const pattern = $derived.by(() => {
+		const q = query.replace(/\s+/g, '');
+		return q ? new RegExp(`(${[...q].map(escape).join('\\s*')})`) : null;
+	});
+	const parts = $derived(pattern ? data.source.split(pattern) : [data.source]);
 	const hits = $derived((parts.length - 1) / 2);
 	$effect(() => {
-		if (!query.trim()) return;
+		if (!pattern) return;
 		tick().then(() => sourceEl?.querySelector('mark')?.scrollIntoView({ block: 'center' }));
 	});
 
+	// Flags: the saved checks plus a live number check on the current text.
 	const numbers = sourceNumbers(untrack(() => data.source));
-	const missing = (/** @type {string | string[]} */ v) => (data.source ? missingNumbers([v].flat().join('\n'), numbers) : []);
-	const issuesFor = (/** @type {string} */ field) => (bill.checks?.issues ?? []).filter((/** @type {any} */ i) => i.field === field);
-	// Hold reasons that aren't tied to a field (AI notes show under their field instead).
-	const general = $derived(data.status.reasons.filter((/** @type {string} */ r) => !r.startsWith('ai ')));
-	const quoted = (/** @type {string} */ r) => r.match(/「(.+?)」/)?.[1];
+	const numberFlags = $derived(
+		data.source
+			? FIELDS.flatMap((k) =>
+					missingNumbers([ja[k]].flat().join('\n'), numbers).map((n) => ({
+						kind: 'number',
+						field: k,
+						quote: n,
+						note: `${n} isn't in the source text. Check it against the PDF; the source may write it another way.`
+					}))
+				)
+			: []
+	);
+	const flags = $derived.by(() => {
+		/** @type {Map<string, number>} */
+		const seen = new Map();
+		// Keys must be unique for the lists; repeats get a counter.
+		return sortFlags([...flagsOf(bill, data.status.reasons), ...numberFlags]).map((f) => {
+			const base = [f.kind, f.field, f.quote, f.note].join('|');
+			const n = seen.get(base) ?? 0;
+			seen.set(base, n + 1);
+			return { ...f, key: n ? `${base}#${n}` : base };
+		});
+	});
+	const done = new SvelteSet();
+	// Hold reasons that aren't flags, e.g. "not checked yet".
+	const other = $derived(data.status.reasons.filter((/** @type {string} */ r) => !/^(ai |code: |member bill|election period)/.test(r)));
+
+	function flash(/** @type {Element} */ el) {
+		el.classList.remove('flash');
+		void (/** @type {HTMLElement} */ (el).offsetWidth);
+		el.classList.add('flash');
+	}
+
+	/** Where `quote` is in `value`, ignoring whitespace. */
+	function locate(/** @type {string} */ value, /** @type {string} */ quote) {
+		const i = value.indexOf(quote);
+		if (i >= 0) return [i, i + quote.length];
+		const pos = [];
+		let squashed = '';
+		for (let k = 0; k < value.length; k++) {
+			if (/\s/.test(value[k])) continue;
+			pos.push(k);
+			squashed += value[k];
+		}
+		const q = quote.replace(/\s+/g, '');
+		const j = q ? squashed.indexOf(q) : -1;
+		return j >= 0 ? [pos[j], pos[j + q.length - 1] + 1] : null;
+	}
+
+	/** Scrolls to the flagged field and selects the quoted text in it. Copied text is also found in the source. */
+	function jump(/** @type {import('./flags.js').Flag} */ f) {
+		if (f.kind === 'copied' && f.quote) query = f.quote;
+		const box = f.field && document.getElementById(`f-${f.field}`);
+		if (!box) return;
+		box.scrollIntoView({ block: 'center', behavior: 'smooth' });
+		flash(box);
+		if (!f.quote) return;
+		for (const el of box.querySelectorAll('input, textarea')) {
+			const input = /** @type {HTMLInputElement | HTMLTextAreaElement} */ (el);
+			const at = locate(input.value, f.quote);
+			if (!at) continue;
+			input.focus({ preventScroll: true });
+			input.setSelectionRange(at[0], at[1]);
+			return;
+		}
+	}
+
+	function toCard(/** @type {number} */ i) {
+		const card = document.getElementById(`flag-${i}`);
+		if (!card) return;
+		card.scrollIntoView({ block: 'center', behavior: 'smooth' });
+		flash(card);
+	}
 
 	const preview = $derived({ ...data.preview, ...ja, reviewed: !!bill.approved });
 
@@ -98,6 +173,17 @@
 </script>
 
 <svelte:window {onkeydown} />
+
+{#snippet marks(/** @type {string} */ field)}
+	{@const list = flags.map((f, i) => ({ f, i })).filter(({ f }) => f.field === field && !f.dismissed)}
+	{#if list.length}
+		<p class="marks">
+			{#each list as { f, i } (f.key)}
+				<button type="button" class="mk {KINDS[f.kind]?.tone}" class:done={done.has(f.key)} onclick={() => toCard(i)}>↑ {KINDS[f.kind]?.label ?? f.kind}</button>
+			{/each}
+		</p>
+	{/if}
+{/snippet}
 
 <form class="editor" method="POST" bind:this={formEl} use:enhance={submit}>
 	<header class="top">
@@ -143,20 +229,13 @@
 				{#if bill.titleOnly}
 					<p class="empty">Title-only bill: no summary to check. It goes live with its official title.</p>
 				{:else}
-					{#if general.length}
+					{#if other.length}
 						<div class="box">
-							<h3>Why it's held</h3>
-							<ul>
-								{#each general as r (r)}
-									{@const q = quoted(r)}
-									<li>
-										{r}
-										{#if q && data.source}<button type="button" class="link" onclick={() => (query = q)}>find in source</button>{/if}
-									</li>
-								{/each}
-							</ul>
+							<h3>Not ready</h3>
+							<ul>{#each other as r (r)}<li>{r}</li>{/each}</ul>
 						</div>
 					{/if}
+					<Flags {flags} {done} onjump={jump} onfind={(t) => (query = t)} />
 					{#if bill.factsUpdated}
 						<div class="box">
 							<h3>Facts changed on {bill.factsUpdated}</h3>
@@ -164,11 +243,11 @@
 						</div>
 					{/if}
 
-					<label class="field">
+					<label class="field" id="f-name">
 						<span class="label">Headline <small>見出し · {[...ja.name].length}/30</small></span>
 						<input bind:value={ja.name} class:over={[...ja.name].length > 30} />
 					</label>
-					<Notes issues={issuesFor('name')} missing={missing(ja.name)} />
+					{@render marks('name')}
 
 					<label class="field">
 						<span class="label">Category <small>カテゴリ</small></span>
@@ -177,29 +256,29 @@
 						</select>
 					</label>
 
-					<label class="field">
+					<label class="field" id="f-summary">
 						<span class="label">Summary <small>要約</small></span>
 						<textarea rows="4" bind:value={ja.summary}></textarea>
 					</label>
-					<Notes issues={issuesFor('summary')} missing={missing(ja.summary)} />
+					{@render marks('summary')}
 
-					<div class="field">
+					<div class="field" id="f-changes">
 						<span class="label">What changes <small>何が変わる</small></span>
 						<ListField bind:items={ja.changes} add="Add change" />
 					</div>
-					<Notes issues={issuesFor('changes')} missing={missing(ja.changes)} />
+					{@render marks('changes')}
 
-					<div class="field">
+					<div class="field" id="f-who">
 						<span class="label">Who is affected <small>対象 · empty moves the bill to the bottom of the board</small></span>
 						<ListField bind:items={ja.who} add="Add group" />
 					</div>
-					<Notes issues={issuesFor('who')} missing={missing(ja.who)} />
+					{@render marks('who')}
 
-					<label class="field">
+					<label class="field" id="f-why">
 						<span class="label">Why <small>理由 · must end 「…と、区は説明しています。」</small></span>
 						<textarea rows="3" bind:value={ja.why}></textarea>
 					</label>
-					<Notes issues={issuesFor('why')} missing={missing(ja.why)} />
+					{@render marks('why')}
 
 					<details class="facts">
 						<summary>Facts from the source (edit the adapter, not here)</summary>
@@ -468,14 +547,54 @@
 		padding-left: 18px;
 	}
 
-	.link {
-		margin-left: 6px;
-		padding: 0;
-		border: 0;
-		background: none;
-		color: var(--color-primary);
-		font-size: 12.5px;
-		text-decoration: underline;
+	.marks {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4px;
+		margin-top: 4px;
+	}
+
+	.mk {
+		--tone: var(--color-status-active);
+		padding: 0 7px;
+		border: 1px solid var(--tone);
+		background: transparent;
+		color: var(--tone);
+		font-size: 11.5px;
+		font-weight: 800;
+	}
+
+	.mk.error {
+		--tone: var(--color-status-rejected);
+	}
+
+	.mk.info {
+		--tone: var(--color-primary);
+	}
+
+	.mk.muted {
+		--tone: var(--color-text-muted);
+	}
+
+	.mk.done {
+		opacity: 0.4;
+	}
+
+	.mk:hover {
+		background: var(--color-surface);
+	}
+
+	.draft :global(.flash) {
+		animation: flash 1.2s var(--ease);
+	}
+
+	@keyframes flash {
+		0%,
+		30% {
+			background-color: var(--color-highlight);
+			outline: 2px solid var(--color-ink);
+			outline-offset: 4px;
+		}
 	}
 
 	.field {

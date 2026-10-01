@@ -13,7 +13,7 @@ The AI writes drafts; code and a second AI pass check them; you review what they
 | **held** | Anything else: member bills, flagged bills, drafts not checked yet, and **every bill in an election window** (`election` in `src/lib/config/assemblies.js`). | Not shown |
 
 The checks (`npm run verify`, after `npm run draft`):
-- **Code** (`scripts/lib/checks.js`): 25+ characters copied from the source; an empty 「」 in the source, which means a before/after table lost its contents; a `why` that isn't attributed to the proposer; a headline over 30 characters.
+- **Code** (`scripts/lib/checks.js`): 25+ characters copied from the source (except in `why`, which is the proposer's reason and attributed to them); an empty 「」 in the source, which means a before/after table lost its contents; a `why` that isn't attributed to the proposer; a headline over 30 characters.
 - **AI** (`gpt-6.1-sol`, medium effort, prompt in `scripts/lib/prompts.js`): facts and numbers against the source, direction of changes, unsupported claims, tone outside `why`, personal names, and main changes missing from `changes`. Missing-change notes don't hold a bill; they show as optional improvements.
 
 ## The loop
@@ -25,6 +25,8 @@ The checks (`npm run verify`, after `npm run draft`):
 5. Commit, a batch at a time, e.g. `chore: Approve held Suginami bills`.
 
 If a draft is beyond fixing, **Re-draft with AI…** runs `draft` and `verify` for that bill again (about 1–4¢; it asks first). From the terminal: delete its `"draft"` key and run `npm run draft -- <id>` and `npm run verify -- <id>`.
+
+**Resolved flags.** A flag that turns out to be wrong after checking the source (an official name flagged as copied, a broken table the draft makes no claim from), or that has been fixed in the text, can be marked resolved with a short reason (`checks.dismissedFlags` for code flags, `dismissed` on an AI issue). It no longer holds the bill: the bill goes live like any unchecked one, without being approved. The admin page shows resolved flags greyed out with the reason and a **Reopen** button. A new draft (`npm run draft`) replaces the checks, so this doesn't carry over to text it wasn't made on.
 
 The admin page only exists under `npm run dev`; the production server answers 404.
 
@@ -39,7 +41,7 @@ Read the draft against the source, not from memory.
 - [ ] `changes` covers the main changes. For a long ordinance, the 1–4 most important ones are enough.
 
 **Wording**
-- [ ] Our own words. No sentence copied or closely paraphrased from the 説明資料, 概要 or 提案理由. Official names, amounts and legal terms may be reused.
+- [ ] Our own words in `name`, `summary`, `changes` and `who`. No sentence copied or closely paraphrased from the 説明資料 or 概要. Official names, amounts and legal terms may be reused. `why` may keep the 提案理由's wording, since it is attributed to the proposer.
 - [ ] Neutral. No judgement words: 画期的, ようやく, 問題, 不十分, 大幅な負担増, 待望の, 〜すべき. Describe what changes; let readers judge.
 - [ ] `why` is attributed to the proposer: 「〜ためと、区は説明しています。」 / 「〜と、提出した議員は説明しています。」. Never state the reason as fact.
 - [ ] No personal names, only roles: 区長, 都知事, 提出した議員.

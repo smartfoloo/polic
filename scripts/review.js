@@ -23,7 +23,7 @@ for (const { bill } of await loadBills()) {
 		if (q === 'held') {
 			rows.held.push([head, ...reasons.map((r) => indent + r), `${indent}${textPath(bill.id)} · ${bill.sources.at(-1)?.url ?? ''}`].join('\n'));
 		} else if (q === 'improve') {
-			const notes = bill.checks.issues.filter((/** @type {any} */ i) => i.kind === 'omission');
+			const notes = bill.checks.issues.filter((/** @type {any} */ i) => i.kind === 'omission' && !i.dismissed);
 			rows.improve.push([head, ...notes.map((/** @type {any} */ i) => `${indent}${i.note}`)].join('\n'));
 		} else if (q === 'facts') {
 			rows.facts.push(`${head}  (changed ${bill.factsUpdated})`);

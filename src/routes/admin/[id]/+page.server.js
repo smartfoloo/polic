@@ -104,6 +104,19 @@ export const actions = {
 		return { message: 'English approved.' };
 	},
 
+	/** Puts a dismissed flag back, so it holds the bill again. */
+	undismiss: async ({ params, request }) => {
+		assertDev();
+		const { path, bill } = await findBill(params.id);
+		const ref = JSON.parse(String((await request.formData()).get('ref') ?? '{}'));
+		if (typeof ref.flag === 'string') bill.checks.dismissedFlags = (bill.checks.dismissedFlags ?? []).filter((/** @type {any} */ d) => d.flag !== ref.flag);
+		else if (Number.isInteger(ref.issue) && bill.checks.issues[ref.issue]) delete bill.checks.issues[ref.issue].dismissed;
+		else return fail(400, { message: 'Unknown flag.' });
+		if (!bill.checks.dismissedFlags?.length) delete bill.checks.dismissedFlags;
+		await saveBillFile(path, bill);
+		return { message: 'Flag restored.' };
+	},
+
 	factsOk: async ({ params }) => {
 		assertDev();
 		const { path, bill } = await findBill(params.id);

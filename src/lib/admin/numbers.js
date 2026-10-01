@@ -1,5 +1,5 @@
 // Numbers in a draft that the source doesn't contain, for the review page. Sources write numbers in
-// kanji (一八、四一七人, 百五十万円) and years in 令和; drafts write 150万円 and 2026年. Both sides are
+// kanji (一八、四一七人, 百五十万円, 零, 百分の百五十) and years in 令和; drafts write 150万円 and 2026年. Both sides are
 // brought to plain integers before comparing, so only real differences are shown.
 
 const DIGITS = '〇一二三四五六七八九';
@@ -11,7 +11,7 @@ const ERA = { 令和: 2018, 平成: 1988, 昭和: 1925 };
 function normalize(/** @type {string} */ s) {
 	return s
 		.normalize('NFKC')
-		.replace(/[〇○一二三四五六七八九]/g, (c) => String(c === '○' ? 0 : DIGITS.indexOf(c)))
+		.replace(/[〇○零一二三四五六七八九]/g, (c) => String('○零'.includes(c) ? 0 : DIGITS.indexOf(c)))
 		.replace(/(\d)[,、]\s*(?=\d{3}(?!\d))/g, '$1');
 }
 
@@ -39,6 +39,11 @@ const RUN = /(?:\d+(?:\.\d+)?|[十百千万億])+/g;
 export function sourceNumbers(/** @type {string} */ source) {
 	const text = normalize(source.replace(/\s+/g, ''));
 	const found = new Set((text.match(RUN) ?? []).map(parseRun));
+	// 百分の百五十 → 1.5 and 150 (drafts write 1.5倍 or 150%)
+	for (const m of text.matchAll(/([\d十百千万]+)分の([\d十百千万.]+)/g)) {
+		const ratio = Number(parseRun(m[2])) / Number(parseRun(m[1]));
+		if (Number.isFinite(ratio)) for (const n of [ratio, ratio * 100]) found.add(String(Math.round(n * 1000) / 1000));
+	}
 	for (const m of text.matchAll(/(令和|平成|昭和)(元|[\d十]+)年/g)) {
 		found.add(String(ERA[/** @type {keyof ERA} */ (m[1])] + (m[2] === '元' ? 1 : Number(parseRun(m[2])))));
 	}

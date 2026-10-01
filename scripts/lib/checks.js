@@ -3,7 +3,8 @@
 // Both only raise flags for a person to look at; they never change a draft.
 
 export const COPY_RUN = 25; // characters copied verbatim from the source that trigger a flag
-const DRAFT_FIELDS = /** @type {const} */ (['name', 'summary', 'changes', 'who', 'why']);
+// `why` is left out: it is the proposer's own reason, attributed to them, so close wording is fine.
+const COPY_FIELDS = /** @type {const} */ (['name', 'summary', 'changes', 'who']);
 
 /**
  * @param {any} bill
@@ -12,7 +13,7 @@ const DRAFT_FIELDS = /** @type {const} */ (['name', 'summary', 'changes', 'who',
  */
 export function checkDraft(bill, source) {
 	const flags = [];
-	const text = DRAFT_FIELDS.map((k) => [bill[k] ?? ''].flat().join('\n')).join('\n');
+	const text = COPY_FIELDS.map((k) => [bill[k] ?? ''].flat().join('\n')).join('\n');
 
 	// Long verbatim runs from the source (repeating the official title is fine).
 	const flat = text.replace(/\s+/g, '');

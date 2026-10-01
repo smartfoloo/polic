@@ -1,5 +1,5 @@
 /**
- * @typedef {{ id: string, assembly: string, name: string, state: string, queues: string[] }} AdminBill
+ * @typedef {{ id: string, assembly: string, name: string, state: string, queues: string[], flags: { kind: string, n: number }[] }} AdminBill
  * @typedef {{ id: string, label: string, hint: string }} AdminQueue
  */
 

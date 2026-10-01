@@ -34,7 +34,7 @@ export function reviewStatus(bill) {
 	}
 	if (state === 'auto') {
 		if (inSample(bill.id) && !bill.titleOnly) queues.push('sample');
-		if ((bill.checks?.issues ?? []).some((/** @type {any} */ i) => i.kind === 'omission')) queues.push('improve');
+		if ((bill.checks?.issues ?? []).some((/** @type {any} */ i) => i.kind === 'omission' && !i.dismissed)) queues.push('improve');
 	}
 	if (state === 'reviewed' && bill.factsUpdated) queues.push('facts');
 	if (!bill.en || bill.en.sourceHash !== jaSource(bill).hash) queues.push('enStale');
