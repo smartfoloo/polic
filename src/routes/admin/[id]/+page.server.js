@@ -4,7 +4,7 @@ import { assertDev, findBill, loadApiKey, readSource, saveBillFile } from '$lib/
 import { publicAssemblies, toPublic } from '$lib/server/data.js';
 import { checkDraft } from '../../../../scripts/lib/checks.js';
 import { costUsd } from '../../../../scripts/lib/llm.js';
-import { checkBill, draftBill, STEPS, translateBill } from '../../../../scripts/lib/pipeline.js';
+import { checkBill, draftBill, fixBill, STEPS, translateBill } from '../../../../scripts/lib/pipeline.js';
 import { jaSource } from '../../../../scripts/lib/prompts.js';
 import { reviewStatus } from '../../../../scripts/lib/queues.js';
 
@@ -16,6 +16,8 @@ const estimate = (/** @type {number} */ chars) => {
 	const input = 1850 + 0.53 * chars;
 	return {
 		redraft: costUsd(usage(input, 1600), STEPS.draft.model) + costUsd(usage(input + 500, 300), STEPS.verify.model),
+		// If the check finds problems: one rewrite from the notes and a second check.
+		fix: costUsd(usage(input + 800, 1600), STEPS.draft.model) + costUsd(usage(input + 500, 300), STEPS.verify.model),
 		translate: costUsd(usage(700, 1400), STEPS.translate.model)
 	};
 };
@@ -134,9 +136,11 @@ export const actions = {
 		try {
 			const d = await draftBill(bill, source);
 			const c = await checkBill(bill, source);
+			const f = await fixBill(bill, source);
 			await saveBillFile(path, bill);
 			const n = bill.checks.flags.length + bill.checks.issues.length;
-			return { message: `Re-drafted and checked: ${n ? `${n} to look at` : 'clean'} · ${usd(costUsd(d, STEPS.draft.model) + costUsd(c, STEPS.verify.model))}` };
+			const cost = costUsd(d, STEPS.draft.model) + costUsd(c, STEPS.verify.model) + (f ? costUsd(f.fix, STEPS.draft.model) + costUsd(f.check, STEPS.verify.model) : 0);
+			return { message: `Re-drafted${f ? ', fixed from the checker’s notes' : ''} and checked: ${n ? `${n} to look at` : 'clean'} · ${usd(cost)}` };
 		} catch (err) {
 			return fail(502, { message: `AI call failed: ${/** @type {Error} */ (err).message}` });
 		}

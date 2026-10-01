@@ -7,6 +7,7 @@ import { categories } from '../../src/lib/config/categories.js';
 export const DRAFT_PROMPT_VERSION = 2;
 export const TRANSLATE_PROMPT_VERSION = 2;
 export const VERIFY_PROMPT_VERSION = 2;
+export const FIX_PROMPT_VERSION = 1;
 
 export const DRAFT_INSTRUCTIONS = `あなたは、地方議会の議案を、ふだん政治に関心のない住民にもわかる言葉で説明する編集者です。
 入力には、議案の事実情報と、議会や自治体が公開した原文（議案本文・説明資料・概要）が含まれます。
@@ -52,6 +53,35 @@ export function draftInput(bill, assemblyName, sourceText) {
 提出: ${bill.by === 'member' ? '議員' : '首長'}
 委員会: ${bill.committee ?? '不明'}
 状態: ${bill.status}
+
+【原文】
+${sourceText}`;
+}
+
+// The drafter fixing its own draft from the checker's notes. A fresh check decides afterwards.
+export const FIX_INSTRUCTIONS = `${DRAFT_INSTRUCTIONS}
+
+今回は、すでに書いた要約を直します。入力には【いまの要約】、校閲者とコードチェックの【指摘】、【原文】があります。
+- 指摘ごとに原文を確かめ、指摘が正しければその部分を直す。
+- 指摘が原文から見て正しくなければ、その部分は変えない。
+- 指摘に関係のない部分は変えない。
+- 出力は直したあとの要約全体。`;
+
+/**
+ * @param {any} bill
+ * @param {string[]} notes
+ * @param {string} sourceText
+ */
+export function fixInput(bill, notes, sourceText) {
+	const draft = Object.fromEntries(['name', 'category', 'summary', 'changes', 'who', 'why'].map((k) => [k, bill[k]]));
+	return `【件名】
+${bill.official}
+
+【いまの要約】
+${JSON.stringify(draft, null, 2)}
+
+【指摘】
+${notes.map((n) => `- ${n}`).join('\n')}
 
 【原文】
 ${sourceText}`;

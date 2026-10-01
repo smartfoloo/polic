@@ -11,7 +11,11 @@
 	const filtered = $derived(
 		data.bills.filter((b) => (!assembly || b.assembly === assembly) && (!query || b.id.includes(query) || b.name.includes(query)))
 	);
-	const groups = $derived(groupByQueue(filtered, data.queues));
+	const groups = $derived(groupByQueue(filtered, data.queues).filter((g) => g.items.length));
+	const todo = $derived(groups.filter((g) => g.group === 'todo'));
+	const optional = $derived(groups.filter((g) => g.group === 'optional'));
+	const scripts = $derived(groups.filter((g) => g.group === 'script'));
+	const count = (/** @type {typeof groups} */ gs) => gs.reduce((n, g) => n + g.items.length, 0);
 	// Bills with nothing waiting only show up when you search for them.
 	const done = $derived(query ? filtered.filter((b) => !b.queues.length) : []);
 	const assemblies = $derived([...new Set(data.bills.map((b) => b.assembly))]);
@@ -24,6 +28,32 @@
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
+{#snippet queue(/** @type {(typeof groups)[number]} */ g, /** @type {boolean} */ open)}
+	<details {open}>
+		<summary title={g.hint}><span>{g.label}</span><b>{g.items.length}</b></summary>
+		{#if g.group === 'script'}
+			<p class="note">{g.hint.split(': ')[0]}. Clears with <code>{g.hint.split(': ')[1]}</code>.</p>
+		{/if}
+		<ul>
+			{#each g.items as b (b.id)}
+				<li>
+					<a href="/admin/{b.id}" aria-current={page.params.id === b.id ? 'page' : undefined}>
+						<span class="name">{b.name}</span>
+						<span class="id">{b.id}</span>
+						{#if showFlags(b.queues) && b.flags.length}
+							<span class="flag-tags">
+								{#each b.flags as f (f.kind)}
+									<span class="flag-tag {KINDS[f.kind]?.tone}">{KINDS[f.kind]?.label ?? f.kind}{f.n > 1 ? ` ×${f.n}` : ''}</span>
+								{/each}
+							</span>
+						{/if}
+					</a>
+				</li>
+			{/each}
+		</ul>
+	</details>
+{/snippet}
+
 <div class="admin">
 	<aside class="side">
 		<a class="brand" href="/admin">Polic <span>review</span></a>
@@ -35,33 +65,17 @@
 			</select>
 		</div>
 		<nav class="queues">
-			{#each groups as g (g.id)}
-				{#if g.items.length}
-					<details open={g.id !== 'waiting'}>
-						<summary title={g.hint}><span>{g.label}</span><b>{g.items.length}</b></summary>
-						{#if g.id === 'waiting'}
-							<p class="note">Run <code>npm run draft</code> and <code>npm run verify</code>.</p>
-						{/if}
-						<ul>
-							{#each g.items as b (b.id)}
-								<li>
-									<a href="/admin/{b.id}" aria-current={page.params.id === b.id ? 'page' : undefined}>
-										<span class="name">{b.name}</span>
-										<span class="id">{b.id}</span>
-										{#if showFlags(b.queues) && b.flags.length}
-											<span class="flag-tags">
-												{#each b.flags as f (f.kind)}
-													<span class="flag-tag {KINDS[f.kind]?.tone}">{KINDS[f.kind]?.label ?? f.kind}{f.n > 1 ? ` ×${f.n}` : ''}</span>
-												{/each}
-											</span>
-										{/if}
-									</a>
-								</li>
-							{/each}
-						</ul>
-					</details>
-				{/if}
-			{/each}
+			{#each todo as g (g.id)}{@render queue(g, true)}{/each}
+			{#if !todo.length && !query}
+				<p class="note clear">Nothing to do. The rest is optional.</p>
+			{/if}
+			{#if optional.length}
+				<details class="section" open={!!query}>
+					<summary title="Already live. Read these only if you have time."><span>Optional</span><b>{count(optional)}</b></summary>
+					{#each optional as g (g.id)}{@render queue(g, !!query)}{/each}
+				</details>
+			{/if}
+			{#each scripts as g (g.id)}{@render queue(g, !!query)}{/each}
 			{#if done.length}
 				<details open>
 					<summary><span>Nothing waiting</span><b>{done.length}</b></summary>
@@ -165,6 +179,20 @@
 		font-family: var(--font-mono);
 		font-size: 12px;
 		color: var(--color-text-muted);
+	}
+
+	.section > summary {
+		background: var(--color-surface);
+		color: var(--color-text-muted);
+	}
+
+	.section details summary {
+		position: static;
+		padding-left: 24px;
+	}
+
+	.clear {
+		padding: 16px;
 	}
 
 	.note {

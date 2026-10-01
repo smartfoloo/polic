@@ -151,7 +151,7 @@
 	const submit = ({ formData, action, cancel }) => {
 		const name = action.search.replace('?/', '');
 		const unsaved = dirty ? ' Your unsaved edits will be lost.' : '';
-		if (name === 'redraft' && !confirm(`Re-draft this bill with AI and check it again?\n\nAbout $${data.estimate.redraft.toFixed(3)}, and it takes about a minute. The current draft is replaced.${unsaved}`)) return cancel();
+		if (name === 'redraft' && !confirm(`Re-draft this bill with AI and check it again?\n\nAbout $${data.estimate.redraft.toFixed(3)}, or $${(data.estimate.redraft + data.estimate.fix).toFixed(3)} if the check finds problems and it fixes them once. Takes a minute or two. The current draft is replaced.${unsaved}`)) return cancel();
 		if (name === 'retranslate' && !confirm(`Retranslate the English with AI?\n\nAbout $${data.estimate.translate.toFixed(3)}.${unsaved}`)) return cancel();
 		formData.set('json', JSON.stringify(name.endsWith('En') ? en : ja));
 		busy = name;

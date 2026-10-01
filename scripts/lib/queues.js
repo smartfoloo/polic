@@ -4,14 +4,16 @@
 import { jaSource } from './prompts.js';
 import { holdReasons, inSample, publishState } from './publish.js';
 
+// group: todo (blocks the site or an approval), optional (live already; read if you have time),
+// script (a command clears it, not a person).
 export const QUEUES = /** @type {const} */ ([
-	{ id: 'held', label: 'Held', hint: 'Fix and approve, or it stays off the site' },
-	{ id: 'sample', label: 'Spot check', hint: 'Live but unchecked, in the 1-in-10 sample: read and approve' },
-	{ id: 'facts', label: 'Facts changed', hint: 'Approved, then collect found new facts: recheck the summary' },
-	{ id: 'en', label: 'English to review', hint: 'Compare with the Japanese' },
-	{ id: 'enStale', label: 'English out of date', hint: 'The Japanese changed: retranslate' },
-	{ id: 'improve', label: 'Could be more complete', hint: 'Live but unchecked; the checker noted missing changes (optional)' },
-	{ id: 'waiting', label: 'Waiting for AI', hint: 'Not drafted or not checked yet: npm run draft / verify' }
+	{ id: 'held', group: 'todo', label: 'Held', hint: 'Fix and approve, or it stays off the site' },
+	{ id: 'facts', group: 'todo', label: 'Facts changed', hint: 'Approved, then collect found new facts: recheck the summary' },
+	{ id: 'sample', group: 'optional', label: 'Spot check', hint: 'Live but unchecked, in the 1-in-10 sample: read and approve' },
+	{ id: 'improve', group: 'optional', label: 'Could be more complete', hint: 'Live but unchecked; the checker noted missing changes' },
+	{ id: 'en', group: 'optional', label: 'English to review', hint: 'Live; compare with the Japanese' },
+	{ id: 'enStale', group: 'script', label: 'English out of date', hint: 'The Japanese changed: npm run translate' },
+	{ id: 'waiting', group: 'script', label: 'Waiting for AI', hint: 'Not drafted or not checked yet: npm run draft / verify' }
 ]);
 
 /** @typedef {(typeof QUEUES)[number]['id']} QueueId */

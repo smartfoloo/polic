@@ -3,12 +3,16 @@
 
 import { assemblies } from '../../src/lib/config/assemblies.js';
 import { checkDraft } from './checks.js';
+import { holdReasons } from './publish.js';
 import { callJson, MODELS } from './llm.js';
 import {
 	DRAFT_INSTRUCTIONS,
 	DRAFT_PROMPT_VERSION,
 	DRAFT_SCHEMA,
 	draftInput,
+	FIX_INSTRUCTIONS,
+	FIX_PROMPT_VERSION,
+	fixInput,
 	jaSource,
 	TRANSLATE_INSTRUCTIONS,
 	TRANSLATE_PROMPT_VERSION,
@@ -70,9 +74,46 @@ export async function checkBill(bill, source) {
 		checkedAt: new Date().toISOString(),
 		flags,
 		issues: data.issues,
-		ai: { model, effort, promptVersion: VERIFY_PROMPT_VERSION, ...usage }
+		ai: { model, effort, promptVersion: VERIFY_PROMPT_VERSION, ...usage },
+		// Dismissals match the exact flag text, so they only carry over while the flag is unchanged.
+		...(bill.checks?.dismissedFlags ? { dismissedFlags: bill.checks.dismissedFlags } : {})
 	};
 	return usage;
+}
+
+/**
+ * What a rewrite could fix: open checker notes (not omissions) and code flags, minus a garbled
+ * source table, which no rewrite changes.
+ * @param {any} bill
+ */
+export function fixableNotes(bill) {
+	const reasons = holdReasons(bill);
+	return reasons.filter((r) => r.startsWith('ai ') || (r.startsWith('code: ') && !r.startsWith('code: source has a garbled')));
+}
+
+/**
+ * The drafter rewrites the draft once from the checker's notes, then a fresh check runs. Only once
+ * per draft (draft.fixed), so a bill the fix doesn't settle stays held for a person.
+ * @param {any} bill
+ * @param {string} source
+ * @returns {Promise<{ fix: import('./llm.js').Usage, check: import('./llm.js').Usage } | null>}
+ */
+export async function fixBill(bill, source) {
+	const notes = fixableNotes(bill);
+	if (!notes.length || bill.draft.fixed || bill.approved) return null;
+	const { model, effort } = STEPS.draft;
+	const { data, usage } = await callJson({
+		model,
+		effort,
+		instructions: FIX_INSTRUCTIONS,
+		input: fixInput(bill, notes, source),
+		name: 'bill_draft',
+		schema: DRAFT_SCHEMA
+	});
+	const at = new Date().toISOString();
+	Object.assign(bill, data);
+	bill.draft = { ...bill.draft, generatedAt: at, fixed: { model, effort, promptVersion: FIX_PROMPT_VERSION, at, notes, ...usage } };
+	return { fix: usage, check: await checkBill(bill, source) };
 }
 
 /**

@@ -1,12 +1,14 @@
 // Lists what is waiting for you. Read-only: it changes nothing. The admin page (/admin, with
 // npm run dev) shows the same queues with the source text next to each draft.
-// Usage: npm run review [-- <text to filter ids by, e.g. suginami or tokyo-r8-3>]
+// Usage: npm run review [-- <text to filter ids by, e.g. suginami or tokyo-r8-3>] [--all]
+// Without --all, the optional and script queues only show a count.
 
 import { loadBills } from './lib/bills-io.js';
 import { QUEUES, reviewStatus } from './lib/queues.js';
 import { textPath } from './lib/store.js';
 
 const filter = process.argv.slice(2).find((a) => !a.startsWith('--')) ?? '';
+const all = process.argv.includes('--all');
 
 /** @type {Record<string, string[]>} */
 const rows = Object.fromEntries(QUEUES.map((q) => [q.id, []]));
@@ -37,7 +39,7 @@ for (const q of QUEUES) {
 	const list = rows[q.id];
 	if (!list.length) continue;
 	console.log(`\n${q.label}: ${q.hint} (${list.length})`);
-	// Waiting bills are for the scripts, not for you: show the count only.
-	if (q.id !== 'waiting') for (const r of list) console.log(`  ${r}`);
+	if (q.group === 'todo' || (all && q.id !== 'waiting')) for (const r of list) console.log(`  ${r}`);
 }
+if (!all) console.log('\nOptional and script queues show counts only: npm run review -- --all');
 console.log(`\nLive: ${counts.reviewed} reviewed, ${counts.auto} unchecked · Held: ${counts.held}${filter ? ` (filter: ${filter})` : ''}`);

@@ -15,16 +15,17 @@ The AI writes drafts; code and a second AI pass check them; you review what they
 The checks (`npm run verify`, after `npm run draft`):
 - **Code** (`scripts/lib/checks.js`): 25+ characters copied from the source (except in `why`, which is the proposer's reason and attributed to them); an empty 「」 in the source, which means a before/after table lost its contents; a `why` that isn't attributed to the proposer; a headline over 30 characters.
 - **AI** (`gpt-6.1-sol`, medium effort, prompt in `scripts/lib/prompts.js`): facts and numbers against the source, direction of changes, unsupported claims, tone outside `why`, personal names, and main changes missing from `changes`. Missing-change notes don't hold a bill; they show as optional improvements.
+- **One fix** (`fixBill` in `scripts/lib/pipeline.js`): when the check finds problems, the drafter rewrites the draft once from the notes (keeping text a note got wrong), and a fresh check runs. Only what that second check still flags holds the bill. The notes it worked from are kept in `draft.fixed.notes`. A broken source table isn't sent, since no rewrite changes it. `npm run verify -- --no-fix` skips it. About 1¢ per flagged bill.
 
 ## The loop
 
-1. Run `npm run dev` and open **http://localhost:5173/admin**. The left side lists what's waiting, most important first: **held** bills, the **spot-check sample** (about 1 in 10 live bills, fixed by id), approved bills whose **facts changed**, **English** to review or retranslate, and optional **improvements**. `npm run review` prints the same lists in the terminal.
+1. Run `npm run dev` and open **http://localhost:5173/admin**. The left side lists what needs you: **held** bills and approved bills whose **facts changed**. Everything else is already live and sits under a collapsed **Optional** section: the **spot-check sample** (about 1 in 10 live bills, fixed by id), **English** to review, and **could be more complete** notes. **English out of date** clears with `npm run translate`, not by hand. `npm run review` prints the same in the terminal (`-- --all` lists the optional bills too).
 2. Open a bill. The source text the AI read (`cache/text/<id>.txt`, local only) is on the left, with links to the official pages and PDFs; when in doubt, the PDF wins. The draft is on the right, with the checker's notes under each field and any numbers the source doesn't contain.
 3. Fix what the notes point at, using the checklist below. **Save** (⌘S) writes `data/<assembly>/<id>.json` and re-runs the code checks.
 4. **Approve & next** sets `"approved": true` (this also clears the hold) and opens the next bill.
 5. Commit, a batch at a time, e.g. `chore: Approve held Suginami bills`.
 
-If a draft is beyond fixing, **Re-draft with AI…** runs `draft` and `verify` for that bill again (about 1–4¢; it asks first). From the terminal: delete its `"draft"` key and run `npm run draft -- <id>` and `npm run verify -- <id>`.
+If a draft is beyond fixing, **Re-draft with AI…** runs `draft`, `verify` and the one fix for that bill again (about 1–2¢; it asks first). From the terminal: delete its `"draft"` key and run `npm run draft -- <id>` and `npm run verify -- <id>`.
 
 **Resolved flags.** A flag that turns out to be wrong after checking the source (an official name flagged as copied, a broken table the draft makes no claim from), or that has been fixed in the text, can be marked resolved with a short reason (`checks.dismissedFlags` for code flags, `dismissed` on an AI issue). It no longer holds the bill: the bill goes live like any unchecked one, without being approved. The admin page shows resolved flags greyed out with the reason and a **Reopen** button. A new draft (`npm run draft`) replaces the checks, so this doesn't carry over to text it wasn't made on.
 
@@ -36,7 +37,7 @@ Read the draft against the source, not from memory.
 
 **Facts**
 - [ ] Every number, amount, date, place and group in `summary`, `changes`, `who` and `why` appears in the source. Watch kanji numerals (「一八、四一七人」 = 18,417人) and 令和 → 西暦 conversions.
-- [ ] Before/after is the right way round. Comparison tables (新旧対照表) often lose their layout in PDFs, so the old and new values can be swapped or look like additions. Check the PDF (example: shibuya-r8-3-47, where the office address is probably replaced, not added).
+- [ ] Before/after is the right way round. Comparison tables (新旧対照表) often lose their layout in PDFs, so the old and new values can be swapped or look like additions. Check the PDF (example: shibuya-r8-3-47, where the text loses the table but the PDF shows both addresses, so one is added).
 - [ ] Nothing is added that the source doesn't say: no background, no predictions, no "this means that…".
 - [ ] `changes` covers the main changes. For a long ordinance, the 1–4 most important ones are enough.
 
