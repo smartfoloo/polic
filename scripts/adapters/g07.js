@@ -1,4 +1,4 @@
-// 港区・足立区・江戸川区 share one bill database ("g07": g07_giketsu.asp, Shift_JIS).
+// 港区・足立区・江戸川区 and 町田市 share one bill database ("g07": g07_giketsu.asp, Shift_JIS).
 // The search page's session dropdown gives each session an id; the list for that session has a row per
 // bill. Minato and Adachi link each bill to a detail page (committee, vote date, result, 概要, PDFs);
 // Edogawa puts all of that in the list row (title + 概要 + PDF, result, 付託日 + committee).
@@ -69,6 +69,8 @@ export async function collect(assembly, session, get) {
 		const num = /** @type {NonNullable<ReturnType<typeof parseNumber>>} */ (parseNumber($(tds[cNum]).text()));
 		const titleCell = $(tds[cTitle]).clone();
 		titleCell.find('.comment3, .fourdown').remove();
+		// 町田 puts the detail link after the title as 「議案の審査状況(議案のカルテ)」 instead of on it.
+		titleCell.find('a').filter((_, el) => /カルテ|審査状況/.test($(el).text())).remove();
 		const official = squash(titleCell.text());
 		if (!inScope(official)) continue;
 		if (num.by === 'committee') {

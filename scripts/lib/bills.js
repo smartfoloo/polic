@@ -35,9 +35,11 @@ import { parseReiwaDate, stripCjkSpaces } from './text.js';
  */
 
 // v1 scope: ordinances only. Budgets, contracts, reports, appointments, 意見書 etc. are skipped.
+// Some Tama cities title them 「…条例設定について」 (八王子) or 「…条例の制定について」; 専決処分 never
+// ends this way, so it stays out.
 /** @param {string} title */
 export function inScope(title) {
-	return /条例(案)?$/.test(title.trim());
+	return /条例(案|設定について|の制定について)?$/.test(title.normalize('NFKC').trim());
 }
 
 /**
@@ -75,4 +77,43 @@ export function billId(assemblyId, session, billNo, by) {
 	const slug = assemblyId.split('/').pop();
 	const sn = session.kind === '臨時会' ? `x${session.n}` : session.n;
 	return `${slug}-r${session.year - 2018}-${sn}-${by === 'member' ? 'm' : ''}${billNo}`;
+}
+
+/**
+ * Bill numbers as the Tama cities write them: 議案第36号 / 第55号議案 / 第35号議案 (head) ·
+ * 議員提出議案第1号 / 議員提出第1号議案 (member) · 委員会提出議案第1号 (committee). Notes such as 「（※）」
+ * are ignored. Anything else (報告, 同意, 諮問) is null.
+ * @returns {{ by: 'head' | 'member' | 'committee', n: number, label: string } | null}
+ */
+export function parseBillNumber(/** @type {string} */ text) {
+	const label = text.normalize('NFKC').replace(/\s+/g, '').replace(/\(.*?\)|※/g, '');
+	const m = label.match(/^(議員提出|委員会提出)?(?:議案)?第(\d+)号(?:議案)?$/);
+	if (!m) return null;
+	return { by: m[1] === '議員提出' ? 'member' : m[1] ? 'committee' : 'head', n: Number(m[2]), label };
+}
+
+// 「立川市景観条例の一部を改正する条例 （PDF 42.4 KB）」 / 「… [PDFファイル／644KB]」 → the title alone.
+/** @param {string} s */
+export function stripFileNote(s) {
+	return s
+		.normalize('NFKC')
+		.replace(/[(（[]\s*(PDF|Word|Excel)[^)）\]]*[)）\]]/gi, '')
+		.replace(/[\u200b\s]+/g, ' ')
+		.trim();
+}
+
+/**
+ * Facts from a result: 可決/否決 with a vote date, or still under way. The date is the vote date once
+ * decided, otherwise the submission date (from the bill PDF) when known.
+ * @param {string} result result text, may include a 令和 date
+ * @param {string | null} committee
+ * @param {string | null} submitted ISO date
+ * @param {string | null} [voteDate] ISO date when it sits apart from the result text
+ * @returns {Pick<BillFacts, 'status' | 'stage' | 'dateKind' | 'date'> | null}
+ */
+export function outcome(result, committee, submitted, voteDate = null) {
+	const st = statusFrom(result.replace(/令和.{1,12}?日/, ''), committee !== null);
+	if (!st) return null;
+	const voted = st.stage === 3 ? (voteDate ?? parseReiwaDate(result)) : null;
+	return { ...st, dateKind: voted ? (st.status === '否決' ? '否決' : '可決') : '提案', date: voted ?? submitted };
 }

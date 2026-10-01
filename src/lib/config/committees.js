@@ -40,6 +40,13 @@ export const committeeEn = {
 	産業建設委員会: 'Industry and Construction Committee',
 	地域産業都市委員会: 'Community, Industry and Urban Development Committee',
 	生活振興環境委員会: 'Community Life and Environment Committee',
+	// Tama area, standing committees
+	健康福祉常任委員会: 'Health and Welfare Committee',
+	文教社会常任委員会: 'Education and Community Committee',
+	福祉文教委員会: 'Welfare and Education Committee',
+	環境建設委員会: 'Environment and Construction Committee',
+	総務企画委員会: 'General Affairs and Planning Committee',
+	環境まちづくり委員会: 'Environment and Community Development Committee',
 	// 23 wards, special committees
 	予算特別委員会: 'Special Committee on the Budget',
 	決算特別委員会: 'Special Committee on the Accounts',

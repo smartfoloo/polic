@@ -33,7 +33,7 @@ export function checkDraft(bill, source) {
 
 	// The reason is the proposer's, so it must be attributed to them.
 	if (bill.why && !/と、(?:[^、。]*(?:区|都|市|府|県|町|村|知事|区長|市長|町長|村長)|提出した議員)は説明しています。$/.test(bill.why.trim())) {
-		flags.push('reason is not attributed (should end 「…と、区は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)');
+		flags.push('reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)');
 	}
 
 	if ([...(bill.name ?? '')].length > 30) flags.push(`headline is ${[...bill.name].length} characters (aim for about 25)`);

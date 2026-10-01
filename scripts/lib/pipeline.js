@@ -37,12 +37,12 @@ export const STEPS = /** @type {const} */ ({
  */
 export async function draftBill(bill, source) {
 	const { model, effort } = STEPS.draft;
-	const assemblyName = assemblies.find((a) => a.id === bill.assembly)?.name ?? bill.assembly;
+	const assembly = assemblies.find((a) => a.id === bill.assembly);
 	const { data, usage } = await callJson({
 		model,
 		effort,
 		instructions: DRAFT_INSTRUCTIONS,
-		input: draftInput(bill, assemblyName, source),
+		input: draftInput(bill, assembly?.name ?? bill.assembly, source, assembly?.head),
 		name: 'bill_draft',
 		schema: DRAFT_SCHEMA
 	});

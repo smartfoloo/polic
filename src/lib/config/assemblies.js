@@ -319,6 +319,192 @@ export const assemblies = [
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-12', closes: '2026-07-01' },
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-24', closes: '2026-10-30' }
 		]
+	},
+	// Tama area, in 団体コード order.
+	{
+		id: 'tokyo/machida',
+		name: '町田市議会',
+		nameEn: 'Machida City Assembly',
+		place: '町田市',
+		placeEn: 'Machida',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.gikai-machida.jp'],
+		listPages: [{ label: '議案の概要・議決結果', url: 'https://www.gikai-machida.jp/g07_giketsu.asp?Sflg=2' }],
+		// Source: session dropdown on the 議案の概要・議決結果 page (g07 bill database), checked 2026-10-01
+		election: null,
+		sessions: [
+			{ name: '令和8年1月臨時会（第1回）', nameEn: '1st Extraordinary Session 2026', opened: '2026-01-26', closes: '2026-01-26' },
+			{ name: '令和8年3月定例会（第1回）', nameEn: '1st Regular Session 2026', opened: '2026-03-09', closes: '2026-03-30' },
+			{ name: '令和8年6月定例会（第2回）', nameEn: '2nd Regular Session 2026', opened: '2026-06-01', closes: '2026-06-29' },
+			{ name: '令和8年9月定例会（第3回）', nameEn: '3rd Regular Session 2026', opened: '2026-08-27', closes: '2026-09-30' }
+		]
+	},
+	{
+		id: 'tokyo/tachikawa',
+		name: '立川市議会',
+		nameEn: 'Tachikawa City Assembly',
+		place: '立川市',
+		placeEn: 'Tachikawa',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.tachikawa.lg.jp'],
+		listPages: [{ label: '令和8年の各定例会・臨時会の概要', url: 'https://www.city.tachikawa.lg.jp/shigikai/katsudo/1007184/1026374/index.html' }],
+		// Source: each session's 日程表 (first and last 本会議), checked 2026-10-01. Assembly elected 2026-06-21.
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-24' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-05-07', closes: '2026-05-28' },
+			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-07-21', closes: '2026-07-21' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-04', closes: '2026-10-02' }
+		]
+	},
+	{
+		id: 'tokyo/musashino',
+		name: '武蔵野市議会',
+		nameEn: 'Musashino City Assembly',
+		place: '武蔵野市',
+		placeEn: 'Musashino',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.musashino.lg.jp'],
+		listPages: [
+			{ label: '令和8年 市長提出議案', url: 'https://www.city.musashino.lg.jp/shigikai/gian_seigan_chinzyo/shichogian/1053667.html' },
+			{ label: '令和8年議員提出議案', url: 'https://www.city.musashino.lg.jp/shigikai/gian_seigan_chinzyo/giingian/1054064.html' }
+		],
+		// Source: 令和8年会議の結果・記録 (shigikai/kaigi_kekka/teireikai_rinjikai_kekka/1053870.html), checked 2026-10-01
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-27' },
+			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-11', closes: '2026-05-12' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-09', closes: '2026-06-25' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-01', closes: '2026-09-29' }
+		]
+	},
+	{
+		id: 'tokyo/ome',
+		name: '青梅市議会',
+		nameEn: 'Ome City Assembly',
+		place: '青梅市',
+		placeEn: 'Ome',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.ome.tokyo.jp'],
+		listPages: [{ label: '議案審議結果一覧', url: 'https://www.city.ome.tokyo.jp/site/gikai/50399.html' }],
+		// A year-long session from May; each meeting is listed as a session. Dates: first 提出日 and last
+		// 議決日 on each meeting's 議案審議結果一覧, checked 2026-10-01.
+		election: null,
+		sessions: [
+			{ name: '令和7年市議会定例会令和8年1月臨時議会', nameEn: '2025 Regular Session, January 2026 extraordinary meeting', opened: '2026-01-26', closes: '2026-01-26' },
+			{ name: '令和7年市議会定例会令和8年2月定例議会', nameEn: '2025 Regular Session, February 2026 meeting', opened: '2026-02-24', closes: '2026-03-26' },
+			{ name: '令和8年市議会定例会5月招集議会', nameEn: '2026 Regular Session, May meeting', opened: '2026-05-13', closes: '2026-05-13' },
+			{ name: '令和8年市議会定例会6月定例議会', nameEn: '2026 Regular Session, June meeting', opened: '2026-06-11', closes: '2026-06-25' },
+			{ name: '令和8年市議会定例会9月定例議会', nameEn: '2026 Regular Session, September meeting', opened: '2026-09-02', closes: '2026-09-29' }
+		]
+	},
+	{
+		id: 'tokyo/fuchu',
+		name: '府中市議会',
+		nameEn: 'Fuchu City Assembly',
+		place: '府中市',
+		placeEn: 'Fuchu',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.fuchu.tokyo.jp'],
+		// Order matters to the adapter: bills, then results.
+		listPages: [
+			{ label: '令和8年市長提出議案', url: 'https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/index.html' },
+			{ label: '議決内容', url: 'https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/index.html' }
+		],
+		// Source: 会期日程 pages (gikai/shingi/gikai/), first and last 本会議, checked 2026-10-01.
+		// 第1回臨時会 only had 専決処分, so it isn't listed.
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-16', closes: '2026-03-16' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-04', closes: '2026-06-22' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-08-31', closes: '2026-09-30' }
+		]
+	},
+	{
+		id: 'tokyo/chofu',
+		name: '調布市議会',
+		nameEn: 'Chofu City Assembly',
+		place: '調布市',
+		placeEn: 'Chofu',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.chofu.lg.jp'],
+		// Order matters to the adapter: bills, then results.
+		listPages: [
+			{ label: '市議会提出予定議案・資料（令和8年）', url: 'https://www.city.chofu.lg.jp/shiseijouhou/gikai/yoteigian/r08/index.html' },
+			{ label: '会議結果（令和8年）', url: 'https://www.city.chofu.lg.jp/shiseijouhou/gikai/kaigikekka/r08/index.html' }
+		],
+		// Source: 会期 on each session's 会議結果 page, checked 2026-10-01
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-27', closes: '2026-03-26' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-01', closes: '2026-06-18' },
+			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-08-04', closes: '2026-08-04' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-01', closes: '2026-09-28' }
+		]
+	},
+	{
+		id: 'tokyo/higashiyamato',
+		name: '東大和市議会',
+		nameEn: 'Higashiyamato City Assembly',
+		place: '東大和市',
+		placeEn: 'Higashiyamato',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.higashiyamato.lg.jp'],
+		// Order matters to the adapter: results, then bills.
+		listPages: [
+			{ label: '令和8年 審議結果', url: 'https://www.city.higashiyamato.lg.jp/shisei/gikai/1008119/1005679/1011960/index.html' },
+			{ label: '令和8年 市長提出議案', url: 'https://www.city.higashiyamato.lg.jp/shisei/gikai/1008119/1005630/1011940/index.html' }
+		],
+		// Source: the dates in each 議案等審議結果 page title, checked 2026-10-01
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-20', closes: '2026-03-23' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-02', closes: '2026-06-19' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-01', closes: '2026-09-25' }
+		]
+	},
+	{
+		id: 'tokyo/akiruno',
+		name: 'あきる野市議会',
+		nameEn: 'Akiruno City Assembly',
+		place: 'あきる野市',
+		placeEn: 'Akiruno',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.akiruno.tokyo.jp'],
+		listPages: [{ label: '会議開催状況', url: 'https://www.city.akiruno.tokyo.jp/0000000464.html' }],
+		// A year-long 定例会 with several meetings, each listed as a session. Source: the 日程 table on each
+		// meeting's page, checked 2026-10-01. The 開会会議 of 第1回定例会 (1月6日) had no ordinances.
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会第1回臨時会議', nameEn: '2026 1st Regular Session, 1st extraordinary meeting', opened: '2026-01-15', closes: '2026-01-15' },
+			{ name: '令和8年第1回定例会3月定例会議', nameEn: '2026 1st Regular Session, March meeting', opened: '2026-02-16', closes: '2026-03-26' },
+			{ name: '令和8年第1回定例会6月定例会議', nameEn: '2026 1st Regular Session, June meeting', opened: '2026-05-28', closes: '2026-06-18' },
+			{ name: '令和8年第2回定例会開会会議', nameEn: '2026 2nd Regular Session, opening meeting', opened: '2026-08-04', closes: '2026-08-04' }
+		]
 	}
 ];
 

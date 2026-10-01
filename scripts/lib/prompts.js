@@ -4,8 +4,8 @@
 import { createHash } from 'node:crypto';
 import { categories } from '../../src/lib/config/categories.js';
 
-export const DRAFT_PROMPT_VERSION = 2;
-export const TRANSLATE_PROMPT_VERSION = 2;
+export const DRAFT_PROMPT_VERSION = 3;
+export const TRANSLATE_PROMPT_VERSION = 3;
 export const VERIFY_PROMPT_VERSION = 2;
 export const FIX_PROMPT_VERSION = 1;
 
@@ -25,7 +25,7 @@ export const DRAFT_INSTRUCTIONS = `あなたは、地方議会の議案を、ふ
 - summary: 2〜3文、です・ます調。いまどうなっていて、この議案で何が変わるか。可決・否決などの採決結果は書かない（サイトに別に表示する）。
 - changes: 変わる点を1〜4個。短い一行で、常体の辞書形で終える（例「利用料を月4,000円から5,800円に上げる」）。見出しやコロンを付けない。誰が対象か・いつからかは書かない。
 - who: この議案で実際に影響を受ける住民や事業者を0〜3個。法改正に合わせた文言の整理など、住民に直接の影響がないときは空の配列。
-- why: 提案の理由を一文で、提出者の説明として書く（例「〜ためと、区は説明しています。」「〜ためと、提出した議員は説明しています。」）。原文に理由がなければ空文字。`;
+- why: 提案の理由を一文で、提出者の説明として書く（例「〜ためと、区は説明しています。」「〜ためと、市は説明しています。」「〜ためと、提出した議員は説明しています。」）。首長の議案は自治体名ではなく「区」「市」「町」「都」と書く。原文に理由がなければ空文字。`;
 
 export const DRAFT_SCHEMA = {
 	type: 'object',
@@ -45,12 +45,13 @@ export const DRAFT_SCHEMA = {
  * @param {any} bill
  * @param {string} assemblyName
  * @param {string} sourceText
+ * @param {string} [head] 区長, 市長, 町長 or 知事
  */
-export function draftInput(bill, assemblyName, sourceText) {
+export function draftInput(bill, assemblyName, sourceText, head = '首長') {
 	return `【事実情報】
 議会: ${assemblyName}
 件名: ${bill.official}
-提出: ${bill.by === 'member' ? '議員' : '首長'}
+提出: ${bill.by === 'member' ? '議員' : head}
 委員会: ${bill.committee ?? '不明'}
 状態: ${bill.status}
 
@@ -92,9 +93,9 @@ export const TRANSLATE_INSTRUCTIONS = `Translate a Japanese plain-language summa
 Rules:
 1. Translate only what is written. Add nothing, drop nothing, no background knowledge.
 2. Keep numbers, amounts and dates exact. Write yen as ¥5,800.
-3. Keep the neutral tone. Keep attributions such as 「〜と、区は説明しています」 → "The ward says …".
+3. Keep the neutral tone. Keep attributions such as 「〜と、区は説明しています」 → "The ward says …", 「市は」 → "The city says …", 「町は」 → "The town says …".
 4. Keep the same number of items in "changes" and "who".
-5. Place and body names: Tokyo Metropolitan Government, the governor; each special ward as "<Name> City" (Shibuya City, Minato City), the ward, the mayor.
+5. Place and body names: Tokyo Metropolitan Government, the governor; each special ward as "<Name> City" (Shibuya City, Minato City), the ward, the mayor; cities as "<Name> City" (Hachioji City), the city, the mayor; towns as "<Name> Town" (Mizuho Town), the town, the mayor.
 
 Fields:
 - name: short headline in sentence case (capitalise only the first word and proper nouns), no period, e.g. "Sets supervised childcare fees at ¥100 per hour".
