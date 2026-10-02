@@ -1,0 +1,31 @@
+{
+	"id": "kunitachi-r8-3-60",
+	"assembly": "tokyo/kunitachi",
+	"approved": false,
+	"number": "第60号議案",
+	"official": "国立市特定教育・保育施設及び特定地域型保育事業の運営の基準に関する条例の一部を改正する条例案",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-16",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案",
+			"url": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/5/r8_1/14547.html",
+			"fetchedAt": "2026-10-02T15:43:13.080Z"
+		},
+		{
+			"label": "第60号議案（PDF）",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08_3_gian60.pdf",
+			"fetchedAt": "2026-10-02T15:43:25.041Z"
+		},
+		{
+			"label": "令和8年第3回定例会 会議結果報告",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka3.pdf",
+			"fetchedAt": "2026-10-02T15:40:30.597Z"
+		}
+	]
+}

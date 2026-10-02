@@ -1,0 +1,31 @@
+{
+	"id": "kunitachi-r8-1-26",
+	"assembly": "tokyo/kunitachi",
+	"approved": false,
+	"number": "第26号議案",
+	"official": "国立市一般職の任期付職員の採用及び給与の特例に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案",
+			"url": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/5/r8_1/13780.html",
+			"fetchedAt": "2026-10-02T15:39:24.594Z"
+		},
+		{
+			"label": "第26号議案（PDF）",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08_1_gian26.pdf",
+			"fetchedAt": "2026-10-02T15:42:25.026Z"
+		},
+		{
+			"label": "令和8年第1回定例会 会議結果報告",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
+			"fetchedAt": "2026-10-02T15:39:08.877Z"
+		}
+	]
+}

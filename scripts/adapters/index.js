@@ -25,6 +25,7 @@ import * as higashiyamato from './higashiyamato.js';
 import * as akiruno from './akiruno.js';
 import * as inagi from './inagi.js';
 import * as tama from './tama.js';
+import * as kunitachi from './kunitachi.js';
 
 /** @type {Record<string, { collect: typeof tokyo.collect }>} */
 export const adapters = {
@@ -53,6 +54,7 @@ export const adapters = {
 	'tokyo/chofu': chofu,
 	'tokyo/higashikurume': higashikurume,
 	'tokyo/higashiyamato': higashiyamato,
+	'tokyo/kunitachi': kunitachi,
 	'tokyo/tama': tama,
 	'tokyo/inagi': inagi,
 	'tokyo/akiruno': akiruno

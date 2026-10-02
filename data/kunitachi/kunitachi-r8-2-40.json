@@ -1,0 +1,31 @@
+{
+	"id": "kunitachi-r8-2-40",
+	"assembly": "tokyo/kunitachi",
+	"approved": false,
+	"number": "第40号議案",
+	"official": "国立市印鑑条例の一部を改正する条例案",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-08",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案",
+			"url": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/5/r8_1/14240.html",
+			"fetchedAt": "2026-10-02T15:40:43.847Z"
+		},
+		{
+			"label": "第40号議案（PDF）",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08_2_gian40.pdf",
+			"fetchedAt": "2026-10-02T15:42:49.083Z"
+		},
+		{
+			"label": "令和8年第2回定例会 会議結果報告",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka2t-2.pdf",
+			"fetchedAt": "2026-10-02T15:40:24.068Z"
+		}
+	]
+}

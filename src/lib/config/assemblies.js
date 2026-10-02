@@ -634,6 +634,27 @@ export const assemblies = [
 		]
 	},
 	{
+		id: 'tokyo/kunitachi',
+		name: '国立市議会',
+		nameEn: 'Kunitachi City Assembly',
+		place: '国立市',
+		placeEn: 'Kunitachi',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.kunitachi.tokyo.jp'],
+		listPages: [{ label: '令和8年 会議日程・結果', url: 'https://www.city.kunitachi.tokyo.jp/soshiki/Dept09/Div01/Sec02/gyomu/gikai_kaigi_nittei_kekka/0304/r8/index.html' }],
+		// Source: 開会 and 閉会 in each session's 会議結果報告, checked 2026-10-03.
+		// 第1回臨時会 (2026-02-05) had no ordinance bills.
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-24' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-08', closes: '2026-06-26' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-08-27', closes: '2026-09-16' }
+		]
+	},
+	{
 		id: 'tokyo/tama',
 		name: '多摩市議会',
 		nameEn: 'Tama City Assembly',

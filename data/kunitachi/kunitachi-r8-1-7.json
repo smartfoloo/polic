@@ -1,0 +1,31 @@
+{
+	"id": "kunitachi-r8-1-7",
+	"assembly": "tokyo/kunitachi",
+	"approved": false,
+	"number": "第7号議案",
+	"official": "国立市議会議員及び国立市長の選挙における選挙運動の公費負担に関する条例の一部を改正する条例案",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案",
+			"url": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/5/r8_1/13780.html",
+			"fetchedAt": "2026-10-02T15:39:24.594Z"
+		},
+		{
+			"label": "第7号議案（PDF）",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08_1_gian7.pdf",
+			"fetchedAt": "2026-10-02T15:41:37.048Z"
+		},
+		{
+			"label": "令和8年第1回定例会 会議結果報告",
+			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
+			"fetchedAt": "2026-10-02T15:39:08.877Z"
+		}
+	]
+}
