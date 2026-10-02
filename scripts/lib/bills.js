@@ -55,11 +55,12 @@ export function statusFrom(result, referred) {
 	return null;
 }
 
-// The submission date sits right after 「…議案を提出する。」 or right before 「提出」.
+// The submission date sits right after 「…議案を提出する。」 (or 「提出します。」) or right before 「提出」. A
+// Western year in brackets, 「令和８年(2026年)６月８日」, is dropped.
 /** @param {string} pdfText */
 export function submittedDate(pdfText) {
-	const t = stripCjkSpaces(pdfText);
-	const after = t.match(/提出する。?\s*(令和.{1,12}?日)/);
+	const t = stripCjkSpaces(pdfText).replace(/[(（]\s*\d{4}\s*年\s*[)）]/g, '');
+	const after = t.match(/提出(?:する|し\s*ます)。?\s*(令和.{1,12}?日)/);
 	if (after) return parseReiwaDate(after[1]);
 	const before = t.match(/(令和.{1,12}?日)\s*提出/);
 	return before ? parseReiwaDate(before[1]) : null;

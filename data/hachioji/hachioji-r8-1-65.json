@@ -1,0 +1,26 @@
+{
+	"id": "hachioji-r8-1-65",
+	"assembly": "tokyo/hachioji",
+	"approved": false,
+	"number": "第65号議案",
+	"official": "八王子市自転車等の放置の防止に関する条例の一部を改正する条例設定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "予算等審査特別委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会",
+			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037014.html",
+			"fetchedAt": "2026-10-02T15:25:11.575Z"
+		},
+		{
+			"label": "第65号議案（PDF）",
+			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
+			"fetchedAt": "2026-10-02T15:26:15.374Z"
+		}
+	]
+}

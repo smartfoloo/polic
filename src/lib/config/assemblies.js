@@ -423,6 +423,30 @@ export const assemblies = [
 	},
 	// Tama area, in 団体コード order.
 	{
+		id: 'tokyo/hachioji',
+		name: '八王子市議会',
+		nameEn: 'Hachioji City Assembly',
+		place: '八王子市',
+		placeEn: 'Hachioji',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.hachioji.tokyo.jp'],
+		// The adapter reads these in this order.
+		listPages: [
+			{ label: '令和8年（2026年）本会議', url: 'https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/index.html' },
+			{ label: '市長が市議会に提出した議案', url: 'https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p022474.html' }
+		],
+		// Source: 会期 on each session's page, checked 2026-10-03
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-27' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-08', closes: '2026-06-25' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-01', closes: '2026-10-07' }
+		]
+	},
+	{
 		id: 'tokyo/machida',
 		name: '町田市議会',
 		nameEn: 'Machida City Assembly',

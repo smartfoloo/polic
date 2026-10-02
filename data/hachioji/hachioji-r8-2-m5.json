@@ -1,0 +1,26 @@
+{
+	"id": "hachioji-r8-2-m5",
+	"assembly": "tokyo/hachioji",
+	"approved": false,
+	"number": "議員提出議案第5号",
+	"official": "障害のある人もない人も共に安心して暮らせる八王子づくり条例の一部を改正する条例設定について",
+	"by": "member",
+	"session": "令和8年第2回定例会",
+	"committee": "厚生委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-06-08",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会",
+			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037524.html",
+			"fetchedAt": "2026-10-02T15:23:45.902Z"
+		},
+		{
+			"label": "議員提出議案第5号（PDF）",
+			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037524_d/fil/02_giinnteisyutugiann5.pdf",
+			"fetchedAt": "2026-10-02T15:26:32.856Z"
+		}
+	]
+}

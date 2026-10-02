@@ -1,0 +1,26 @@
+{
+	"id": "hachioji-r8-3-96",
+	"assembly": "tokyo/hachioji",
+	"approved": false,
+	"number": "第96号議案",
+	"official": "八王子市保育園条例の一部を改正する条例設定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会",
+			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037872.html",
+			"fetchedAt": "2026-10-02T15:25:17.859Z"
+		},
+		{
+			"label": "第96号議案（PDF）",
+			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
+			"fetchedAt": "2026-10-02T15:26:44.967Z"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "hachioji-r8-2-74",
+	"assembly": "tokyo/hachioji",
+	"approved": false,
+	"number": "第74号議案",
+	"official": "八王子市下水道事業の設置等に関する条例の一部を改正する条例設定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-15",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会",
+			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037524.html",
+			"fetchedAt": "2026-10-02T15:23:45.902Z"
+		},
+		{
+			"label": "第74号議案（PDF）",
+			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037536_d/fil/gian.pdf",
+			"fetchedAt": "2026-10-02T15:24:30.519Z"
+		}
+	]
+}

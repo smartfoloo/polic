@@ -1,0 +1,26 @@
+{
+	"id": "hachioji-r8-1-m2",
+	"assembly": "tokyo/hachioji",
+	"approved": false,
+	"number": "議員提出議案第2号",
+	"official": "八王子市議会委員会条例の一部を改正する条例設定について",
+	"by": "member",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会",
+			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037014.html",
+			"fetchedAt": "2026-10-02T15:25:11.575Z"
+		},
+		{
+			"label": "議員提出議案第2号（PDF）",
+			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037014_d/fil/giinteisyutugiandai2gou.pdf",
+			"fetchedAt": "2026-10-02T15:26:20.827Z"
+		}
+	]
+}

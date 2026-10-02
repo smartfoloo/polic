@@ -14,6 +14,7 @@ import * as suginami from './suginami.js';
 import * as sumida from './sumida.js';
 import * as taito from './taito.js';
 import * as tokyo from './tokyo.js';
+import * as hachioji from './hachioji.js';
 import * as tachikawa from './tachikawa.js';
 import * as musashino from './musashino.js';
 import * as ome from './ome.js';
@@ -41,6 +42,7 @@ export const adapters = {
 	'tokyo/katsushika': katsushika,
 	'tokyo/edogawa': g07,
 	'tokyo/machida': g07,
+	'tokyo/hachioji': hachioji,
 	'tokyo/tachikawa': tachikawa,
 	'tokyo/musashino': musashino,
 	'tokyo/ome': ome,
