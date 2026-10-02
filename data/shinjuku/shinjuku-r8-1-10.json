@@ -1,0 +1,31 @@
+{
+	"id": "shinjuku-r8-1-10",
+	"assembly": "tokyo/shinjuku",
+	"approved": false,
+	"number": "第10号議案",
+	"official": "新宿区行政手続条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-17",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会",
+			"url": "https://www.city.shinjuku.lg.jp/kusei/file08_05_0003820210204_00013.html",
+			"fetchedAt": "2026-10-02T15:16:14.461Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議案の概要と審議結果",
+			"url": "https://www.city.shinjuku.lg.jp/content/000452334.pdf",
+			"fetchedAt": "2026-10-02T15:17:58.361Z"
+		},
+		{
+			"label": "第10号議案（PDF）",
+			"url": "https://www.city.shinjuku.lg.jp/content/000448426.pdf",
+			"fetchedAt": "2026-10-02T15:19:23.003Z"
+		}
+	]
+}

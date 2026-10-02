@@ -1,0 +1,26 @@
+{
+	"id": "shinjuku-r8-3-71",
+	"assembly": "tokyo/shinjuku",
+	"approved": false,
+	"number": "第71号議案",
+	"official": "新宿区景観まちづくり条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": "2026-09-16",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会",
+			"url": "https://www.city.shinjuku.lg.jp/kusei/gikai01_00123620210909_00008.html",
+			"fetchedAt": "2026-10-02T15:15:00.299Z"
+		},
+		{
+			"label": "第71号議案（PDF）",
+			"url": "https://www.city.shinjuku.lg.jp/content/000466374.pdf",
+			"fetchedAt": "2026-10-02T15:18:34.349Z"
+		}
+	]
+}

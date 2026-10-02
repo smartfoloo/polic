@@ -1,0 +1,31 @@
+{
+	"id": "shinjuku-r8-2-47",
+	"assembly": "tokyo/shinjuku",
+	"approved": false,
+	"number": "第47号議案",
+	"official": "新宿区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-10",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会",
+			"url": "https://www.city.shinjuku.lg.jp/kusei/file08_05_0003820210204_00014.html",
+			"fetchedAt": "2026-10-02T15:15:18.696Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議案の概要と審議結果",
+			"url": "https://www.city.shinjuku.lg.jp/content/000459252.pdf",
+			"fetchedAt": "2026-10-02T15:15:40.895Z"
+		},
+		{
+			"label": "第47号議案（PDF）",
+			"url": "https://www.city.shinjuku.lg.jp/content/000457646.pdf",
+			"fetchedAt": "2026-10-02T15:22:23.059Z"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "shinjuku-r8-3-m11",
+	"assembly": "tokyo/shinjuku",
+	"approved": false,
+	"number": "議員提出議案第11号",
+	"official": "新宿区シルバーパス購入費助成金交付条例",
+	"by": "member",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "提案中",
+	"stage": 0,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会",
+			"url": "https://www.city.shinjuku.lg.jp/kusei/gikai01_00123620210909_00008.html",
+			"fetchedAt": "2026-10-02T15:15:00.299Z"
+		}
+	]
+}

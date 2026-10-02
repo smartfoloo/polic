@@ -9,6 +9,7 @@ import * as ota from './ota.js';
 import * as setagaya from './setagaya.js';
 import * as shibuya from './shibuya.js';
 import * as shinagawa from './shinagawa.js';
+import * as shinjuku from './shinjuku.js';
 import * as suginami from './suginami.js';
 import * as sumida from './sumida.js';
 import * as taito from './taito.js';
@@ -24,6 +25,7 @@ import * as akiruno from './akiruno.js';
 /** @type {Record<string, { collect: typeof tokyo.collect }>} */
 export const adapters = {
 	tokyo,
+	'tokyo/shinjuku': shinjuku,
 	'tokyo/taito': taito,
 	'tokyo/sumida': sumida,
 	'tokyo/shinagawa': shinagawa,

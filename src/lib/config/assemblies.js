@@ -72,6 +72,31 @@ export const assemblies = [
 		]
 	},
 	{
+		id: 'tokyo/shinjuku',
+		name: '新宿区議会',
+		nameEn: 'Shinjuku City Assembly',
+		place: '新宿区',
+		placeEn: 'Shinjuku',
+		head: '区長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.shinjuku.lg.jp'],
+		// The adapter reads these in this order.
+		listPages: [
+			{ label: '定例会・臨時会', url: 'https://www.city.shinjuku.lg.jp/kusei/file08_00015.html' },
+			{ label: '区長提出議案', url: 'https://www.city.shinjuku.lg.jp/kusei/index_gian01.html' }
+		],
+		// Source: 会期 on each session's page, checked 2026-10-03.
+		// 2027 統一地方選挙 (April): fill in when the dates are announced.
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-17', closes: '2026-03-24' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-10', closes: '2026-06-19' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-16', closes: '2026-10-15' }
+		]
+	},
+	{
 		id: 'tokyo/taito',
 		name: '台東区議会',
 		nameEn: 'Taito City Assembly',
