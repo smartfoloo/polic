@@ -1,0 +1,31 @@
+{
+	"id": "itabashi-r8-1-22",
+	"assembly": "tokyo/itabashi",
+	"approved": false,
+	"number": "議案第22号",
+	"official": "東京都板橋区幼保連携型認定こども園以外の認定こども園の認定の要件を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教児童委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-13",
+	"sources": [
+		{
+			"label": "議案の審査状況（令和8年第1回定例会）",
+			"url": "https://www.city.itabashi.tokyo.jp/kugikai/gian/shinsa/1061277.html",
+			"fetchedAt": "2026-10-02T14:57:48.106Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議案等に対する審査結果",
+			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/011/530/r80324_giankekka.pdf",
+			"fetchedAt": "2026-10-02T14:57:26.217Z"
+		},
+		{
+			"label": "議案第22号（PDF）",
+			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_22.pdf",
+			"fetchedAt": "2026-10-02T15:02:42.469Z"
+		}
+	]
+}

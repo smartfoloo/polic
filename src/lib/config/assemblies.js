@@ -273,6 +273,32 @@ export const assemblies = [
 		]
 	},
 	{
+		id: 'tokyo/itabashi',
+		name: '板橋区議会',
+		nameEn: 'Itabashi City Assembly',
+		place: '板橋区',
+		placeEn: 'Itabashi',
+		head: '区長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.itabashi.tokyo.jp'],
+		// The adapter reads these in this order.
+		listPages: [
+			{ label: '議案の審査状況', url: 'https://www.city.itabashi.tokyo.jp/kugikai/gian/shinsa/index.html' },
+			{ label: '議案書', url: 'https://www.city.itabashi.tokyo.jp/kugikai/gian/giansho/index.html' },
+			{ label: '議案等の審査結果', url: 'https://www.city.itabashi.tokyo.jp/kugikai/gian/1011530.html' }
+		],
+		// Source: 会議の日程 (3rd), the 議案等の審査結果 link dates (1st), the 提出 date on 議案第42号 (2nd opening);
+		// checked 2026-10-03. 2027 統一地方選挙 (April): fill in when the dates are announced.
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-13', closes: '2026-03-24' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-04', closes: '2026-06-22' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-18', closes: '2026-10-28' }
+		]
+	},
+	{
 		id: 'tokyo/adachi',
 		name: '足立区議会',
 		nameEn: 'Adachi City Assembly',

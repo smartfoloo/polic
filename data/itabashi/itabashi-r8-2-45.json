@@ -1,0 +1,31 @@
+{
+	"id": "itabashi-r8-2-45",
+	"assembly": "tokyo/itabashi",
+	"approved": false,
+	"number": "議案第45号",
+	"official": "東京都板橋区いじめ防止対策の基本理念、組織等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "文教児童委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-22",
+	"sources": [
+		{
+			"label": "議案の審査状況（令和8年第2回定例会）",
+			"url": "https://www.city.itabashi.tokyo.jp/kugikai/gian/shinsa/1064121.html",
+			"fetchedAt": "2026-10-02T14:57:00.397Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議案等に対する審査結果",
+			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/011/530/r80622_giankekka.pdf",
+			"fetchedAt": "2026-10-02T14:57:10.539Z"
+		},
+		{
+			"label": "議案第45号（PDF）",
+			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/064/133/r80605_gian_45.pdf",
+			"fetchedAt": "2026-10-02T15:04:06.554Z"
+		}
+	]
+}

@@ -44,6 +44,9 @@ export const committeeEn = {
 	健康福祉委員会: 'Health and Welfare Committee',
 	まちづくり環境委員会: 'Urban Development and Environment Committee',
 	こども文教委員会: 'Children, Education and Culture Committee',
+	区民環境委員会: 'Residents and Environment Committee',
+	都市建設委員会: 'Urban Development and Construction Committee',
+	文教児童委員会: 'Education and Children Committee',
 	// Tama area, standing committees
 	健康福祉常任委員会: 'Health and Welfare Committee',
 	文教社会常任委員会: 'Education and Community Committee',
@@ -53,6 +56,8 @@ export const committeeEn = {
 	環境まちづくり委員会: 'Environment and Community Development Committee',
 	// 23 wards, special committees
 	予算特別委員会: 'Special Committee on the Budget',
+	予算審査特別委員会: 'Special Committee on the Budget',
+	決算調査特別委員会: 'Special Committee on the Accounts',
 	決算特別委員会: 'Special Committee on the Accounts',
 	'子育て・若者支援特別委員会': 'Special Committee on Child-Rearing and Youth Support',
 	'子ども・若者施策推進特別委員会': 'Special Committee on Children and Youth Policy',

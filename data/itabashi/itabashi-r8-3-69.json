@@ -1,0 +1,26 @@
+{
+	"id": "itabashi-r8-3-69",
+	"assembly": "tokyo/itabashi",
+	"approved": false,
+	"number": "議案第69号",
+	"official": "東京都板橋区公契約条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "企画総務委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "議案の審査状況（令和8年第3回定例会）",
+			"url": "https://www.city.itabashi.tokyo.jp/kugikai/gian/shinsa/1065827.html",
+			"fetchedAt": "2026-10-02T15:04:18.581Z"
+		},
+		{
+			"label": "議案第69号（PDF）",
+			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_69.pdf",
+			"fetchedAt": "2026-10-02T15:04:42.634Z"
+		}
+	]
+}

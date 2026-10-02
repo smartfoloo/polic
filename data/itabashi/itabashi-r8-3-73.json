@@ -1,0 +1,26 @@
+{
+	"id": "itabashi-r8-3-73",
+	"assembly": "tokyo/itabashi",
+	"approved": false,
+	"number": "議案第73号",
+	"official": "東京都板橋区乳児等通園支援事業の設備及び運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "文教児童委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-18",
+	"sources": [
+		{
+			"label": "議案の審査状況（令和8年第3回定例会）",
+			"url": "https://www.city.itabashi.tokyo.jp/kugikai/gian/shinsa/1065827.html",
+			"fetchedAt": "2026-10-02T15:04:18.581Z"
+		},
+		{
+			"label": "議案第73号（PDF）",
+			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_73.pdf",
+			"fetchedAt": "2026-10-02T15:05:06.498Z"
+		}
+	]
+}
