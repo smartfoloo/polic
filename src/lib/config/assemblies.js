@@ -634,6 +634,26 @@ export const assemblies = [
 		]
 	},
 	{
+		id: 'tokyo/inagi',
+		name: '稲城市議会',
+		nameEn: 'Inagi City Assembly',
+		place: '稲城市',
+		placeEn: 'Inagi',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.inagi.tokyo.jp'],
+		listPages: [{ label: '令和8年 議会の動き', url: 'https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/index.html' }],
+		// Source: first and last 本会議 in each session's 会期日程, checked 2026-10-03
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-30' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-12', closes: '2026-07-02' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-01', closes: '2026-09-29' }
+		]
+	},
+	{
 		id: 'tokyo/akiruno',
 		name: 'あきる野市議会',
 		nameEn: 'Akiruno City Assembly',

@@ -1,0 +1,26 @@
+{
+	"id": "inagi-r8-1-8",
+	"assembly": "tokyo/inagi",
+	"approved": false,
+	"number": "第8号議案",
+	"official": "稲城市特殊疾病患者見舞金の支給に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "福祉文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-30",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会",
+			"url": "https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/1013698.html",
+			"fetchedAt": "2026-10-02T15:34:37.026Z"
+		},
+		{
+			"label": "第8号議案（PDF）",
+			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/698/r8.1gian.pdf",
+			"fetchedAt": "2026-10-02T15:35:20.566Z"
+		}
+	]
+}

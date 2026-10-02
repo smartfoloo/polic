@@ -1,0 +1,26 @@
+{
+	"id": "inagi-r8-3-54",
+	"assembly": "tokyo/inagi",
+	"approved": false,
+	"number": "第54号議案",
+	"official": "稲城市手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "建設環境委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会",
+			"url": "https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/1014314.html",
+			"fetchedAt": "2026-10-02T15:34:43.296Z"
+		},
+		{
+			"label": "第54号議案（PDF）",
+			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/014/314/r8.3gian.pdf",
+			"fetchedAt": "2026-10-02T15:35:32.569Z"
+		}
+	]
+}

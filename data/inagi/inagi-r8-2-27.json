@@ -1,0 +1,26 @@
+{
+	"id": "inagi-r8-2-27",
+	"assembly": "tokyo/inagi",
+	"approved": false,
+	"number": "第27号議案",
+	"official": "稲城市個人番号及び特定個人情報の利用に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-02",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会",
+			"url": "https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/1013956.html",
+			"fetchedAt": "2026-10-02T15:33:50.022Z"
+		},
+		{
+			"label": "第27号議案（PDF）",
+			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/956/r8.2gian2.pdf",
+			"fetchedAt": "2026-10-02T15:34:16.969Z"
+		}
+	]
+}
