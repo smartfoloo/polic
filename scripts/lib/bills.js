@@ -1,6 +1,6 @@
 // Shared bill-facts helpers used by every adapter. Facts come only from parsed sources.
 
-import { parseReiwaDate, stripCjkSpaces } from './text.js';
+import { parseReiwaDate, stripCjkSpaces, toNumber } from './text.js';
 
 /**
  * @typedef {object} Source
@@ -116,4 +116,35 @@ export function outcome(result, committee, submitted, voteDate = null) {
 	if (!st) return null;
 	const voted = st.stage === 3 ? (voteDate ?? parseReiwaDate(result)) : null;
 	return { ...st, dateKind: voted ? (st.status === '否決' ? '否決' : '可決') : '提案', date: voted ?? submitted };
+}
+
+/**
+ * Splits a bundle of bills (one PDF holding 第59号議案 to 第66号議案) into one text per bill, cutting at each
+ * line that is only a bill heading: 「第 59 号議案」, 「議案第59号」, 「第五十九号議案」, 「議員提出第４号議案」. Headings inside the
+ * text (「第59号議案の…」) don't stand alone on a line, so they don't cut.
+ * @param {string} text
+ * @returns {Map<number, string>} bill number → its text, heading included
+ */
+export function splitBills(text) {
+	/** @type {Map<number, string>} */
+	const out = new Map();
+	const heading = /^\s*(?:議員提出|委員会提出)?\s*(?:議案\s*)?第\s*([0-9０-９〇一二三四五六七八九十百]+)\s*号\s*(?:議案)?\s*$/;
+	/** @type {number | null} */
+	let current = null;
+	/** @type {string[]} */
+	let lines = [];
+	const flush = () => {
+		if (current !== null) out.set(current, (out.get(current) ?? '') + lines.join('\n'));
+	};
+	for (const line of text.split('\n')) {
+		const m = line.match(heading);
+		if (m) {
+			flush();
+			current = toNumber(m[1]);
+			lines = [];
+		}
+		lines.push(line);
+	}
+	flush();
+	return out;
 }

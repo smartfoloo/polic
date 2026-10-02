@@ -1,0 +1,26 @@
+{
+	"id": "ota-r8-x2-77",
+	"assembly": "tokyo/ota",
+	"approved": false,
+	"number": "第77号議案",
+	"official": "大田区公共工事に係る特別措置に関する条例を廃止する条例",
+	"by": "head",
+	"session": "令和8年第2回臨時会",
+	"committee": "総務財政委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-21",
+	"sources": [
+		{
+			"label": "令和8年第2回臨時会区長提出議案",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2rinji/r802rinji_kuchogian.html",
+			"fetchedAt": "2026-10-02T14:54:05.488Z"
+		},
+		{
+			"label": "第77号議案（PDF）",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2rinji/r802rinji_kuchogian.files/r0802rinjikuchogian77.pdf",
+			"fetchedAt": "2026-10-02T14:54:11.487Z"
+		}
+	]
+}

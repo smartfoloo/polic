@@ -1,0 +1,26 @@
+{
+	"id": "ota-r8-3-87",
+	"assembly": "tokyo/ota",
+	"approved": false,
+	"number": "第87号議案",
+	"official": "大田区特定乳児等通園支援事業の運営に関する基準を定める条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "こども文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会区長提出議案",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_kuchogian.html",
+			"fetchedAt": "2026-10-02T14:52:17.696Z"
+		},
+		{
+			"label": "第87号議案（PDF）",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_kuchogian.files/r0803kuchogian86_89.pdf",
+			"fetchedAt": "2026-10-02T14:54:29.531Z"
+		}
+	]
+}

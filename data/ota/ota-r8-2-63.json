@@ -1,0 +1,26 @@
+{
+	"id": "ota-r8-2-63",
+	"assembly": "tokyo/ota",
+	"approved": false,
+	"number": "第63号議案",
+	"official": "大田区立高齢者在宅サービスセンター条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "健康福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会区長提出議案",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2teirei/r0802teirei_kuchogian.html",
+			"fetchedAt": "2026-10-02T14:51:28.467Z"
+		},
+		{
+			"label": "第63号議案（PDF）",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2teirei/r0802teirei_kuchogian.files/r0802kuchogian59_66.pdf",
+			"fetchedAt": "2026-10-02T14:53:53.494Z"
+		}
+	]
+}

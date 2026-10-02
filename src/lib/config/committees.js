@@ -40,6 +40,10 @@ export const committeeEn = {
 	産業建設委員会: 'Industry and Construction Committee',
 	地域産業都市委員会: 'Community, Industry and Urban Development Committee',
 	生活振興環境委員会: 'Community Life and Environment Committee',
+	地域産業委員会: 'Community and Industry Committee',
+	健康福祉委員会: 'Health and Welfare Committee',
+	まちづくり環境委員会: 'Urban Development and Environment Committee',
+	こども文教委員会: 'Children, Education and Culture Committee',
 	// Tama area, standing committees
 	健康福祉常任委員会: 'Health and Welfare Committee',
 	文教社会常任委員会: 'Education and Community Committee',

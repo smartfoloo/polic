@@ -1,0 +1,26 @@
+{
+	"id": "ota-r8-3-86",
+	"assembly": "tokyo/ota",
+	"approved": false,
+	"number": "第86号議案",
+	"official": "大田区議会議員及び大田区長の選挙における選挙運動の公費負担に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "総務財政委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会区長提出議案",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_kuchogian.html",
+			"fetchedAt": "2026-10-02T14:52:17.696Z"
+		},
+		{
+			"label": "第86号議案（PDF）",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_kuchogian.files/r0803kuchogian86_89.pdf",
+			"fetchedAt": "2026-10-02T14:54:29.531Z"
+		}
+	]
+}

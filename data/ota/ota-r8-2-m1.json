@@ -1,0 +1,26 @@
+{
+	"id": "ota-r8-2-m1",
+	"assembly": "tokyo/ota",
+	"approved": false,
+	"number": "議員提出第1号議案",
+	"official": "大田区高齢者補聴器購入費助成条例",
+	"by": "member",
+	"session": "令和8年第2回定例会",
+	"committee": "健康福祉委員会",
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "否決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会議員提出議案",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2teirei/r0802teirei_giingian.html",
+			"fetchedAt": "2026-10-02T14:52:05.124Z"
+		},
+		{
+			"label": "議員提出第1号議案（PDF）",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2teirei/r0802teirei_giingian.files/r0802giingian.pdf",
+			"fetchedAt": "2026-10-02T14:53:59.490Z"
+		}
+	]
+}

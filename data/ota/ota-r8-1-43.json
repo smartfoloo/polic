@@ -1,0 +1,26 @@
+{
+	"id": "ota-r8-1-43",
+	"assembly": "tokyo/ota",
+	"approved": false,
+	"number": "第43号議案",
+	"official": "大田区国民健康保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務財政委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会区長提出議案",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.html",
+			"fetchedAt": "2026-10-02T14:52:37.628Z"
+		},
+		{
+			"label": "第43号議案（PDF）",
+			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian42_43.pdf",
+			"fetchedAt": "2026-10-02T14:53:35.563Z"
+		}
+	]
+}

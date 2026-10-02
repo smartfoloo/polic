@@ -3,6 +3,7 @@
 import * as g07 from './g07.js';
 import * as katsushika from './katsushika.js';
 import * as nakano from './nakano.js';
+import * as ota from './ota.js';
 import * as setagaya from './setagaya.js';
 import * as shibuya from './shibuya.js';
 import * as shinagawa from './shinagawa.js';
@@ -24,6 +25,7 @@ export const adapters = {
 	'tokyo/taito': taito,
 	'tokyo/sumida': sumida,
 	'tokyo/shinagawa': shinagawa,
+	'tokyo/ota': ota,
 	'tokyo/setagaya': setagaya,
 	'tokyo/shibuya': shibuya,
 	'tokyo/nakano': nakano,
