@@ -1,0 +1,31 @@
+{
+	"id": "higashikurume-r8-2-58",
+	"assembly": "tokyo/higashikurume",
+	"approved": false,
+	"number": "議案第58号",
+	"official": "東久留米市下水道事業の設置等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "環境建設委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-23",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 付議案件",
+			"url": "https://www.city.higashikurume.lg.jp/gikai/kaigi/kekka/1028663/1028671.html",
+			"fetchedAt": "2026-10-02T15:32:52.534Z"
+		},
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.higashikurume.lg.jp/gikai/kaigi/kekka/1028663/1028670.html",
+			"fetchedAt": "2026-10-02T15:30:37.160Z"
+		},
+		{
+			"label": "議案第58号（PDF）",
+			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
+			"fetchedAt": "2026-10-02T15:30:29.300Z"
+		}
+	]
+}

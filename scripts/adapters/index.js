@@ -20,6 +20,7 @@ import * as musashino from './musashino.js';
 import * as ome from './ome.js';
 import * as fuchu from './fuchu.js';
 import * as chofu from './chofu.js';
+import * as higashikurume from './higashikurume.js';
 import * as higashiyamato from './higashiyamato.js';
 import * as akiruno from './akiruno.js';
 
@@ -48,6 +49,7 @@ export const adapters = {
 	'tokyo/ome': ome,
 	'tokyo/fuchu': fuchu,
 	'tokyo/chofu': chofu,
+	'tokyo/higashikurume': higashikurume,
 	'tokyo/higashiyamato': higashiyamato,
 	'tokyo/akiruno': akiruno
 };

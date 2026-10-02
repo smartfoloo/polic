@@ -1,0 +1,31 @@
+{
+	"id": "higashikurume-r8-1-8",
+	"assembly": "tokyo/higashikurume",
+	"approved": false,
+	"number": "議案第8号",
+	"official": "東久留米市職員の勤務時間、休日、休暇等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件",
+			"url": "https://www.city.higashikurume.lg.jp/gikai/kaigi/kekka/1028663/1028673.html",
+			"fetchedAt": "2026-10-02T15:32:22.542Z"
+		},
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.higashikurume.lg.jp/gikai/kaigi/kekka/1028663/1028672.html",
+			"fetchedAt": "2026-10-02T15:30:43.448Z"
+		},
+		{
+			"label": "議案第8号（PDF）",
+			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/028/644/2026022502.pdf",
+			"fetchedAt": "2026-10-02T15:32:34.596Z"
+		}
+	]
+}

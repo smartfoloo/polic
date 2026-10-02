@@ -586,6 +586,30 @@ export const assemblies = [
 		]
 	},
 	{
+		id: 'tokyo/higashikurume',
+		name: '東久留米市議会',
+		nameEn: 'Higashikurume City Assembly',
+		place: '東久留米市',
+		placeEn: 'Higashikurume',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.higashikurume.lg.jp'],
+		// The adapter reads these in this order.
+		listPages: [
+			{ label: '付議案件及び結果', url: 'https://www.city.higashikurume.lg.jp/gikai/kaigi/kekka/index.html' },
+			{ label: '市長提出議案', url: 'https://www.city.higashikurume.lg.jp/shisei/jorei/1012538/index.html' }
+		],
+		// Source: each session's 会期日程表, checked 2026-10-03
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-26' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-04', closes: '2026-06-23' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-01', closes: '2026-09-28' }
+		]
+	},
+	{
 		id: 'tokyo/higashiyamato',
 		name: '東大和市議会',
 		nameEn: 'Higashiyamato City Assembly',
