@@ -1,0 +1,26 @@
+{
+	"id": "tama-r8-2-67",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第67号議案",
+	"official": "多摩市下水道事業の設置等に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-30",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1020428.html",
+			"fetchedAt": "2026-10-02T15:35:52.609Z"
+		},
+		{
+			"label": "第67号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/020/294/R8-2teirei_sicyo63-67.pdf",
+			"fetchedAt": "2026-10-02T15:38:36.785Z"
+		}
+	]
+}

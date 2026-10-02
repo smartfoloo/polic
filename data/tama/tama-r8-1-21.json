@@ -1,0 +1,26 @@
+{
+	"id": "tama-r8-1-21",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第21号議案",
+	"official": "多摩市立老人福祉館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-30",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1019818.html",
+			"fetchedAt": "2026-10-02T15:37:18.764Z"
+		},
+		{
+			"label": "第21号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo13-35.pdf",
+			"fetchedAt": "2026-10-02T15:38:18.726Z"
+		}
+	]
+}
