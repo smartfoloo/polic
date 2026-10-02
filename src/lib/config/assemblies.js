@@ -156,6 +156,33 @@ export const assemblies = [
 		]
 	},
 	{
+		id: 'tokyo/meguro',
+		name: '目黒区議会',
+		nameEn: 'Meguro City Assembly',
+		place: '目黒区',
+		placeEn: 'Meguro',
+		head: '区長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.meguro.tokyo.jp'],
+		// The adapter reads these in this order.
+		listPages: [
+			{ label: '本会議の資料', url: 'https://www.city.meguro.tokyo.jp/kusei/kugikai/kaigirokuiinkai/kaigi/hongikai/shiryou/index.html' },
+			{ label: '本会議の議決結果', url: 'https://www.city.meguro.tokyo.jp/kusei/kugikai/kaigirokuiinkai/kaigi/hongikai/giketsukekka/index.html' },
+			{ label: '議会日程・傍聴', url: 'https://www.city.meguro.tokyo.jp/kusei/kugikai/kaigirokuiinkai/kaisaiyotei/index.html' }
+		],
+		// Source: first and last 議事日程 on each session's 資料 page; 3rd from its 開催 page. Checked 2026-10-03.
+		// 2027 統一地方選挙 (April): fill in when the dates are announced.
+		election: null,
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-17', closes: '2026-03-23' },
+			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-26', closes: '2026-05-27' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-17', closes: '2026-06-30' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-03', closes: '2026-09-30' }
+		]
+	},
+	{
 		id: 'tokyo/ota',
 		name: '大田区議会',
 		nameEn: 'Ota City Assembly',

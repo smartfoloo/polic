@@ -1,0 +1,31 @@
+{
+	"id": "meguro-r8-2-50",
+	"assembly": "tokyo/meguro",
+	"approved": false,
+	"number": "議案第50号",
+	"official": "自由通り沿道八雲地区地区計画の区域内における建築物の制限に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-30",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会の資料",
+			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/r8-2teirei-siryo.html",
+			"fetchedAt": "2026-10-02T15:07:32.072Z"
+		},
+		{
+			"label": "議案第50号（PDF）",
+			"url": "https://www.city.meguro.tokyo.jp/documents/20430/8-50.pdf",
+			"fetchedAt": "2026-10-02T15:14:17.397Z"
+		},
+		{
+			"label": "令和8年第2回定例会の議決結果",
+			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-2teirei-giketukeka.html",
+			"fetchedAt": "2026-10-02T15:07:25.729Z"
+		}
+	]
+}

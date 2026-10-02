@@ -47,6 +47,7 @@ export const committeeEn = {
 	区民環境委員会: 'Residents and Environment Committee',
 	都市建設委員会: 'Urban Development and Construction Committee',
 	文教児童委員会: 'Education and Children Committee',
+	生活福祉委員会: 'Community Life and Welfare Committee',
 	// Tama area, standing committees
 	健康福祉常任委員会: 'Health and Welfare Committee',
 	文教社会常任委員会: 'Education and Community Committee',
