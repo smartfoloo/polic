@@ -1,7 +1,7 @@
 <script>
 	import { dev } from '$app/environment';
-	import { t, isEn, fmtDate, dateKindLabel, statusLabel, STATUS_CLASS } from '$lib/i18n.js';
-	import { billName, proposer, stageNote, sessionState, sessionStateLabel } from '$lib/bills.js';
+	import { t, isEn, fmtDate, gapNote, statusLabel, STATUS_CLASS } from '$lib/i18n.js';
+	import { billName, dateLine, proposer, stageNote, sessionState, sessionStateLabel } from '$lib/bills.js';
 	import Icon from './Icon.svelte';
 	import Popover from './Popover.svelte';
 	import Stepper from './Stepper.svelte';
@@ -65,8 +65,8 @@
 	{/if}
 	<p class="bd-meta">
 		<span><Icon name="group" />{proposer(bill, assembly)}</span>
-		{#if bill.date}
-			<span><Icon name="cal" />{t(`${fmtDate(bill.date)}${bill.dateKind}`, `${dateKindLabel(bill.dateKind)} ${fmtDate(bill.date)}`)}</span>
+		{#if dateLine(bill)}
+			<span><Icon name="cal" />{dateLine(bill)}</span>
 		{/if}
 		{#if session}
 			{@const state = sessionState(session, today)}
@@ -82,7 +82,10 @@
 		<span class="status {STATUS_CLASS[bill.status]}">{statusLabel(bill.status)}</span>
 	</p>
 	<p class="disclose">
-		{#if bill.titleOnly}
+		{#if bill.titleOnly && assembly.gaps.includes('scanned')}
+			<Icon name="doc" />
+			<span>{gapNote('scanned')}</span>
+		{:else if bill.titleOnly}
 			<Icon name="doc" />
 			<span>{t('議案の本文は公開されていません。題名と結果だけを載せています。', "The bill's text hasn't been published. Only its title and result are shown.")}</span>
 		{:else if bill.reviewed}

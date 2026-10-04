@@ -71,7 +71,7 @@ export async function collect(assembly, session, get) {
 		];
 		if (r && resultsSource) sources.push(resultsSource);
 
-		const out = outcome(r?.result ?? '', null, submittedDate(text), r?.date ?? null);
+		const out = outcome(r?.result ?? '', null, submittedDate(text), r?.date ?? null, { committeeUnknown: true });
 		if (!out) {
 			warnings.push(`${num.label}: unrecognised result 「${r?.result}」, skipped`);
 			continue;

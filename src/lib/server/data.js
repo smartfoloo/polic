@@ -1,5 +1,6 @@
 // Reads data/ at build time (and live in dev, so review edits show up on reload).
 // Only bills that publishState() lets through leave this module, stripped to the public fields.
+// Assemblies with published: false (and their bills) don't leave it at all.
 
 import { assemblies } from '$lib/config/assemblies.js';
 import { toCard } from '$lib/bills.js';
@@ -21,7 +22,9 @@ const POPULAR_MAX = 5;
 /** Build date in Japan: session states and the election window are as of the last build. */
 export const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 
-const all = /** @type {any[]} */ (Object.values(files));
+const shown = assemblies.filter((a) => a.published !== false);
+const shownIds = new Set(shown.map((a) => a.id));
+const all = /** @type {any[]} */ (Object.values(files)).filter((b) => shownIds.has(b.assembly));
 
 /** @returns {PublicBill} */
 export function toPublic(/** @type {any} */ b) {
@@ -72,10 +75,11 @@ const toPublicAssembly = (/** @type {import('$lib/config/assemblies.js').Assembl
 	headEn: a.headEn,
 	level: a.level,
 	parent: a.parent,
-	sessions: a.sessions
+	sessions: a.sessions,
+	gaps: a.gaps ?? []
 });
 
-export const publicAssemblies = assemblies.map(toPublicAssembly);
+export const publicAssemblies = shown.map(toPublicAssembly);
 
 export const liveBills = (/** @type {string} */ assembly) => live.filter((b) => b.assembly === assembly);
 export const allLiveBills = () => live;

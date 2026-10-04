@@ -93,7 +93,7 @@ export async function collect(assembly, session, get) {
 		if (text && src) sources.push({ label: `${number}（PDF）`, ...src });
 		else if (r.by === 'head') warnings.push(`${number}: no bill text found`);
 
-		const out = outcome(r.result, null, text ? submittedDate(text) : null, r.voteDate);
+		const out = outcome(r.result, null, text ? submittedDate(text) : null, r.voteDate, { committeeUnknown: true });
 		if (!out) {
 			warnings.push(`${number}: unrecognised result 「${r.result}」, skipped`);
 			continue;

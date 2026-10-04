@@ -7,20 +7,20 @@
 	"by": "head",
 	"session": "令和8年第3回定例会",
 	"committee": null,
-	"status": "提案中",
-	"stage": 0,
+	"status": "審議中",
+	"stage": 1,
 	"dateKind": "提案",
 	"date": "2026-08-31",
 	"sources": [
 		{
 			"label": "令和8年第3回定例会市長提出議案",
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/3teirei.html",
-			"fetchedAt": "2026-10-01T14:32:22.641Z"
+			"fetchedAt": "2026-10-04T00:19:28.753Z"
 		},
 		{
 			"label": "第84号議案（PDF）",
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/3teirei.files/8-3-084.pdf",
-			"fetchedAt": "2026-10-01T14:32:28.844Z"
+			"fetchedAt": "2026-10-04T00:19:34.552Z"
 		}
 	]
 }

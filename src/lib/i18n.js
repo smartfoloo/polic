@@ -38,3 +38,13 @@ export function fmtDate(/** @type {string} */ iso) {
 	const [y, m, d] = iso.slice(0, 10).split('-').map(Number);
 	return t(`${y}年${m}月${d}日`, `${MONTHS[m - 1]} ${d}, ${y}`);
 }
+
+/** Board notes for what an assembly's source doesn't publish (config/assemblies.js `gaps`). Same wording everywhere. */
+const GAP_NOTES = {
+	afterClose: ['議案は会期が終わってから掲載されます。', 'Bills are listed only after the session ends.'],
+	resultsAfterClose: ['結果は会期が終わってから反映されます。', 'Results are added only after the session ends.'],
+	voteDate: ['採決日は公表されていません。日付は提出日です。', "Vote dates aren't published. Dates shown are submission dates."],
+	committee: ['付託された委員会は公表されていません。', "The committee each bill goes to isn't published."],
+	scanned: ['議案の本文が画像のため、題名と結果だけを載せています。', 'Bill texts are published as images, so only titles and results are shown.']
+};
+export const gapNote = (/** @type {import('./config/assemblies.js').Gap} */ g) => t(GAP_NOTES[g][0], GAP_NOTES[g][1]);

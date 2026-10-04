@@ -150,17 +150,33 @@ robots.txt allows us everywhere below: only cgi, video, 工事送達 or translat
 
 **Session naming:** `parseSessionName` handles Sumida's year-long session (「令和8年度定例会9月議会」 → fiscal year + month, id `sumida-r8-9-16`; numbers restart each fiscal year). Still to add: Arakawa 「令和8年度定例会・9月会議」 and Bunkyo's month names (「令和8年9月定例議会」).
 
+## Publishing bar (2026-10-04)
+
+A missing fact shown as missing is fine; a missing fact that silently looks like a different fact is not. An assembly is published when:
+
+1. **Every status is true or labelled.** A pending bill whose committee isn't published is 審議中 (stage 1), not 提案中 (`outcome(…, { committeeUnknown })`); 継続審査 is always 審議中. The bill page says 「付託された委員会は公表されていません」.
+2. **Results are tied to bills by number or title**, never by row position. 新宿区 fails this, so it is held (`published: false`: still collected and reviewable in admin, off the site and 404 on its URLs).
+3. **Dates say what they are.** A decided bill without a vote date shows 「…提案・採決日は非公開」, not the submission date as if it were the vote.
+4. **Each assembly's gaps are stated on its board** (`gaps` in `config/assemblies.js`, one shared sentence per gap in `i18n.js`): bills or results only after the session ends, no vote dates, no committees, scanned texts.
+
+Title-only bills are allowed (they carry their own notice), so 武蔵野 and 東大和 are published.
+
 ## All 23 wards by difficulty
+
+Re-ranked 2026-10-03 after building 15 of them. The built tiers now rank by what the adapter actually gets, not by how the pages looked in the source check.
 
 | Tier | Wards |
 |---|---|
-| Easiest: bill text per bill + facts in HTML | 港区, 足立区, 江戸川区 (one shared adapter) · 品川区 · 墨田区 · 台東区 · 中野区 · 葛飾区 · 世田谷区 (all built 2026-09-30) · 杉並区 (live) |
-| Easy: one extra step (split PDFs, results in PDF, match by title) | 大田区 · 板橋区 · 目黒区 · 新宿区 |
-| Medium | 文京区 · 江東区 · 中央区 (robots.txt question first) |
+| Built, full facts: bill text, committee, vote date | 港区, 足立区, 江戸川区 (g07) · 台東区 · 中野区 · 葛飾区 · 大田区 · 杉並区 (live) |
+| Built, with gaps | 品川区, 墨田区 (date = submission) · 世田谷区 (member bills title-only) · 板橋区 (sessions voting on several days: date = submission) · 目黒区 (committee only while a session is open; bills appear only once it closes) |
+| Built, held (not published, see Publishing bar) | 新宿区: results matched by row position in a PDF whose text comes out scrambled (skipped if the counts differ); no committee or vote date; member bills title-only |
+| Medium (not built) | 文京区 (combined PDF, `splitBills` should cover it) · 江東区 · 中央区 (robots.txt question first) |
 | Thin: a paragraph or facts only | 渋谷区 (live) · 練馬区 · 荒川区 · 豊島区 |
 | Hard | 千代田区 · 北区 |
 
-**Proposed build order:** the g07 adapter (港区, 足立区, 江戸川区) → 品川区 → 墨田区 → 台東区 → 中野区 → 葛飾区 → 世田谷区 (done: all 令和8年 sessions, before soft launch) → 大田区 → 板橋区 → 目黒区 → 新宿区, then the medium and thin ones.
+Moved: 大田区 up (the grouped PDFs split cleanly and the table has everything); 品川区, 墨田区 and 世田谷区 down from Easiest (their gaps were already noted when built); 新宿区 down from Easy.
+
+**Next:** 文京区, then 江東区 and 中央区, then the thin ones.
 
 **Easiest nine, as built (2026-09-30).** All tested offline against saved pages (`cache/research/<ward>.json`, `node scripts/try.js <id>`); none has had a real crawl yet.
 
@@ -213,25 +229,29 @@ The 26 cities plus 瑞穂町, 日の出町, 檜原村 and 奥多摩町; the isla
 | 檜原村議会 | **No bill list or results online**: schedule, 一般質問, video and 議会だより only. | — | — | **Not feasible** (newsletter only). |
 | 奥多摩町議会 | **No bill list or results online**: schedule, 一般質問, 会議録 and 議会だより only. | — | — | **Not feasible** (newsletter/minutes only). |
 
-**By difficulty**
+**By difficulty** (re-ranked 2026-10-03 after building 13 of them)
 
 | Tier | Assemblies |
 |---|---|
-| Easiest: bill text per bill + facts in HTML | 町田市 (g07) · 立川市 · 武蔵野市 · 青梅市 · 府中市 · 調布市 · 東村山市 · 東大和市 · 瑞穂町 · あきる野市 |
-| Easy: split a combined PDF, or facts in small PDFs | 八王子市 · 三鷹市 · 小平市 · 東久留米市 · 稲城市 · 多摩市 · 国立市 |
-| Medium: everything in PDFs, or text only while open | 狛江市 · 国分寺市 · 清瀬市 |
+| Built, full facts: bill text, committee, vote date | 町田市 (g07) · 立川市 · 青梅市 · 八王子市 · 東久留米市 · 稲城市 |
+| Built, with gaps | 調布市 (member bills title-only) · 府中市 (no vote date; member bills title-only) · あきる野市 · 多摩市 · 国立市 (no committee published; 国立's is a scanned PDF) |
+| Built, text scanned (title-only until OCR) | 武蔵野市 · 東大和市: facts are fine, but the bill PDFs are CCITT scans with no text layer |
+| Blocked | 東村山市 (403 to our bot; ask in the crawl notice) · 三鷹市 (TLS certificate self-signed and expired, http 404s; needs a decision on skipping verification for that host) · 小平市 (bill PDFs sit on one-off press releases with no index found, and the R8 3月定例会 results page isn't linked anywhere) · 瑞穂町 (adapter written; past session dates not published) |
+| Medium: everything in PDFs, or text only while open | 狛江市 (combined PDF, `splitBills` should cover it) · 国分寺市 · 清瀬市 |
 | Thin: a paragraph per bill | 福生市 · 羽村市 |
 | Facts only (title-only) | 日野市 · 西東京市 · 昭島市 · 日の出町 · 武蔵村山市 |
 | Hard | 小金井市 |
 | Not feasible now | 檜原村 · 奥多摩町 |
 
-**Shared work before building:**
-- **Combined PDFs** (八王子, 三鷹, 小平, 東久留米, 稲城, 多摩, 狛江): one helper that splits a bundle at each 「第N号議案」/「議案第N号」 heading would cover seven assemblies.
-- **Session names**: month-named sessions (小平, 東村山, 町田 「令和8年9月定例会（第3回）」), 青梅's May–April year (「…6月定例議会」, numbers restart in May) and あきる野's 「令和8年第1回定例会6月定例会議」 all need `parseSessionName` cases.
-- **Scope filter**: titles ending 「…条例設定について」 (八王子), 「…条例の制定について」 (日野) and 「…条例案」 (国立) must count, while 専決処分 stays out.
-- **Transient pages** (昭島 committee, 清瀬 bill text, 武蔵村山 results): they only work if we collect during every session, so crawl weekly while they're open.
+**Shared work:**
+- **Combined PDFs**: done. `splitBills` cuts a bundle at each heading line (「第６８号議案」, 「議案第31号」, 「議員提出第４号議案」); used by 大田, 八王子, 東久留米, 稲城 and 多摩, every split checked against its heading.
+- **Session names**: done for 町田, 青梅, あきる野 and the month-named formats.
+- **Scope filter**: done (「…条例設定について」, 「…条例の制定について」, 「…条例案」).
+- **Submission dates**: `submittedDate` also reads 「提出します。」 and 「令和８年(2026年)６月８日」 (八王子 member bills).
+- **Transient pages** (昭島 committee, 清瀬 bill text, 武蔵村山 results, and now 目黒 committees): they only work if we collect during every session, so crawl weekly while they're open.
+- **Wait for results**: 目黒, 多摩 and 稲城 post their bill lists or results only after a session closes, so the adapter skips a session until then.
 
-**Proposed build order:** 町田市 (g07 config only) → the other nine easiest → the seven easy ones after the PDF splitter → medium, thin and facts-only as time allows. 檜原村 and 奥多摩町 wait until they publish bill lists; ask in the crawl notice.
+**Built:** 町田, 立川, 武蔵野, 青梅, 府中, 調布, 東大和, あきる野 (2026-10-01); 八王子, 東久留米, 稲城, 多摩, 国立 (2026-10-03). **Next:** decide 三鷹, 小平, 東村山, 瑞穂 and OCR for 武蔵野/東大和 → 狛江 (`splitBills`) → the rest of medium, then thin and facts-only. 檜原村 and 奥多摩町 wait until they publish bill lists; ask in the crawl notice.
 
 ## Bill JSON format
 

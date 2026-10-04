@@ -26,6 +26,16 @@
  * @property {Session[]} sessions
  * @property {{ notice: string, day: string } | null} election official notice date (告示日) through election day, ISO;
  *   no bill goes live without human review in this window. null when none is scheduled or dates aren't announced yet.
+ * @property {false} [published] false keeps the assembly collected and reviewable in admin but off the site
+ *   (its results can't be tied to bills reliably). See PLAN.md, "Publishing bar".
+ * @property {Gap[]} [gaps] what the source doesn't publish, shown on the board (wording in src/lib/i18n.js)
+ */
+
+/**
+ * afterClose: bills appear only once the session closes. resultsAfterClose: results appear only then.
+ * voteDate: no vote dates, so dates are submission dates. committee: no committee per bill.
+ * scanned: bill texts are images, so only titles and results are shown.
+ * @typedef {'afterClose' | 'resultsAfterClose' | 'voteDate' | 'committee' | 'scanned'} Gap
  */
 
 /** @type {Assembly[]} */
@@ -90,6 +100,7 @@ export const assemblies = [
 		// Source: 会期 on each session's page, checked 2026-10-03.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
 		election: null,
+		published: false,
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-17', closes: '2026-03-24' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-10', closes: '2026-06-19' },
@@ -140,6 +151,7 @@ export const assemblies = [
 		// session: each 「…月議会」 is listed as a session, first to last plenary day. The 招集議会 (May) has no ordinances.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
 		election: null,
+		gaps: ['voteDate'],
 		sessions: [
 			{ name: '令和7年度定例会2月議会', nameEn: 'February Meeting 2026', opened: '2026-02-04', closes: '2026-03-31' },
 			{ name: '令和8年度定例会6月議会', nameEn: 'June Meeting 2026', opened: '2026-06-12', closes: '2026-06-30' },
@@ -173,6 +185,7 @@ export const assemblies = [
 		// 2027 統一地方選挙 (April): fill in when the dates are announced. The 区長選挙 on 2026-11-15 isn't an
 		// assembly election, so it doesn't set this.
 		election: null,
+		gaps: ['voteDate'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-27' },
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-27', closes: '2026-05-27' },
@@ -200,6 +213,7 @@ export const assemblies = [
 		// Source: first and last 議事日程 on each session's 資料 page; 3rd from its 開催 page. Checked 2026-10-03.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
 		election: null,
+		gaps: ['afterClose'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-17', closes: '2026-03-23' },
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-26', closes: '2026-05-27' },
@@ -275,6 +289,7 @@ export const assemblies = [
 		// Source: shibukugi.tokyo top-page notice
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
 		election: null,
+		gaps: ['resultsAfterClose'],
 		sessions: [
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-11', closes: '2026-10-15' }
 		]
@@ -344,6 +359,7 @@ export const assemblies = [
 		// Source: 会議の日程 (3rd), the 議案等の審査結果 link dates (1st), the 提出 date on 議案第42号 (2nd opening);
 		// checked 2026-10-03. 2027 統一地方選挙 (April): fill in when the dates are announced.
 		election: null,
+		gaps: ['resultsAfterClose'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-13', closes: '2026-03-24' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-04', closes: '2026-06-22' },
@@ -505,6 +521,7 @@ export const assemblies = [
 		],
 		// Source: 令和8年会議の結果・記録 (shigikai/kaigi_kekka/teireikai_rinjikai_kekka/1053870.html), checked 2026-10-01
 		election: null,
+		gaps: ['scanned'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-27' },
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-11', closes: '2026-05-12' },
@@ -554,6 +571,7 @@ export const assemblies = [
 		// Source: 会期日程 pages (gikai/shingi/gikai/), first and last 本会議, checked 2026-10-01.
 		// 第1回臨時会 only had 専決処分, so it isn't listed.
 		election: null,
+		gaps: ['resultsAfterClose', 'voteDate'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-16', closes: '2026-03-16' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-04', closes: '2026-06-22' },
@@ -627,6 +645,7 @@ export const assemblies = [
 		],
 		// Source: the dates in each 議案等審議結果 page title, checked 2026-10-01
 		election: null,
+		gaps: ['scanned'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-20', closes: '2026-03-23' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-02', closes: '2026-06-19' },
@@ -648,6 +667,7 @@ export const assemblies = [
 		// Source: 開会 and 閉会 in each session's 会議結果報告, checked 2026-10-03.
 		// 第1回臨時会 (2026-02-05) had no ordinance bills.
 		election: null,
+		gaps: ['resultsAfterClose', 'committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-24' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-08', closes: '2026-06-26' },
@@ -673,6 +693,7 @@ export const assemblies = [
 		// Source: first 提出月日 and last 議決月日 on each 会議結果 page; 3rd from 市議会の日程. Checked 2026-10-03.
 		// 第1回臨時会 (2026-02-10) had no ordinance bills.
 		election: null,
+		gaps: ['afterClose', 'committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-30' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-05', closes: '2026-06-30' },
@@ -693,6 +714,7 @@ export const assemblies = [
 		listPages: [{ label: '令和8年 議会の動き', url: 'https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/index.html' }],
 		// Source: first and last 本会議 in each session's 会期日程, checked 2026-10-03
 		election: null,
+		gaps: ['afterClose'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-30' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-12', closes: '2026-07-02' },
@@ -714,6 +736,7 @@ export const assemblies = [
 		// A year-long 定例会 with several meetings, each listed as a session. Source: the 日程 table on each
 		// meeting's page, checked 2026-10-01. The 開会会議 of 第1回定例会 (1月6日) had no ordinances.
 		election: null,
+		gaps: ['committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会第1回臨時会議', nameEn: '2026 1st Regular Session, 1st extraordinary meeting', opened: '2026-01-15', closes: '2026-01-15' },
 			{ name: '令和8年第1回定例会3月定例会議', nameEn: '2026 1st Regular Session, March meeting', opened: '2026-02-16', closes: '2026-03-26' },

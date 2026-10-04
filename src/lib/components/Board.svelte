@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/state';
 	import { goto, preloadData, pushState } from '$app/navigation';
-	import { t, href, categoryLabel } from '$lib/i18n.js';
+	import { t, href, categoryLabel, gapNote } from '$lib/i18n.js';
 	import { categories } from '$lib/config/categories.js';
 	import { billName, billPath, boardOrder, sessionState } from '$lib/bills.js';
 	import { ui } from '$lib/ui.svelte.js';
@@ -78,6 +78,9 @@
 				'We only list ordinance bills submitted in these sessions. Budgets, contracts, appointments and reports are not covered.'
 			)}
 		</p>
+		{#each assembly.gaps as g (g)}
+			<p class="gap"><Icon name="info" />{gapNote(g)}</p>
+		{/each}
 	</div>
 </div>
 
@@ -154,6 +157,20 @@
 		margin-top: 14px;
 		font-size: 13.5px;
 		color: var(--color-text-muted);
+	}
+
+	.gap {
+		display: flex;
+		gap: 6px;
+		align-items: flex-start;
+		margin-top: 6px;
+	}
+
+	.gap :global(svg) {
+		width: 15px;
+		height: 15px;
+		flex-shrink: 0;
+		margin-top: 3px;
 	}
 
 	.sessions {

@@ -72,7 +72,7 @@ export async function collect(assembly, session, get) {
 			const r = results.get(`head${n}`);
 			const res = await get(l.href);
 			const text = await pdfText(res.body);
-			const out = outcome(r?.result ?? '', r?.committee ?? null, submittedDate(text), r?.voted);
+			const out = outcome(r?.result ?? '', r?.committee ?? null, submittedDate(text), r?.voted, { committeeUnknown: !r });
 			if (!out) {
 				warnings.push(`${label}: unrecognised result 「${r?.result}」, skipped`);
 				continue;

@@ -61,7 +61,7 @@ export async function collect(assembly, session, get) {
 			sources.push({ label: `${label}（PDF）`, url: href, fetchedAt: res.fetchedAt });
 		} else warnings.push(`${label}: no bill PDF found`);
 
-		const out = outcome(result, null, submitted, voteDate);
+		const out = outcome(result, null, submitted, voteDate, { committeeUnknown: true });
 		if (!out) {
 			warnings.push(`${label}: unrecognised result 「${result}」, skipped`);
 			continue;

@@ -44,12 +44,13 @@ export function inScope(title) {
 
 /**
  * @param {string} result the result cell, empty while pending
- * @param {boolean} referred whether the bill has been sent to a committee
+ * @param {boolean} referred whether the bill has been sent to a committee. 継続審査 is always in committee.
  * @returns {{ status: BillFacts['status'], stage: number } | null} null for results we don't recognise
  */
 export function statusFrom(result, referred) {
 	const r = result.replace(/\s/g, '');
-	if (!r || /継続/.test(r)) return referred ? { status: '審議中', stage: 1 } : { status: '提案中', stage: 0 };
+	if (/継続/.test(r)) return { status: '審議中', stage: 1 };
+	if (!r) return referred ? { status: '審議中', stage: 1 } : { status: '提案中', stage: 0 };
 	if (/否決/.test(r)) return { status: '否決', stage: 3 };
 	if (/可決/.test(r)) return { status: '決定', stage: 3 };
 	return null;
@@ -110,10 +111,12 @@ export function stripFileNote(s) {
  * @param {string | null} committee
  * @param {string | null} submitted ISO date
  * @param {string | null} [voteDate] ISO date when it sits apart from the result text
+ * @param {{ committeeUnknown?: boolean }} [opts] committeeUnknown: the source doesn't say which committee (or
+ *   whether any) has a pending bill, so treat it as referred rather than merely submitted
  * @returns {Pick<BillFacts, 'status' | 'stage' | 'dateKind' | 'date'> | null}
  */
-export function outcome(result, committee, submitted, voteDate = null) {
-	const st = statusFrom(result.replace(/令和.{1,12}?日/, ''), committee !== null);
+export function outcome(result, committee, submitted, voteDate = null, { committeeUnknown = false } = {}) {
+	const st = statusFrom(result.replace(/令和.{1,12}?日/, ''), committee !== null || committeeUnknown);
 	if (!st) return null;
 	const voted = st.stage === 3 ? (voteDate ?? parseReiwaDate(result)) : null;
 	return { ...st, dateKind: voted ? (st.status === '否決' ? '否決' : '可決') : '提案', date: voted ?? submitted };
