@@ -8,6 +8,7 @@
 	import BillCard from './BillCard.svelte';
 	import BillModal from './BillModal.svelte';
 	import Icon from './Icon.svelte';
+	import Popover from './Popover.svelte';
 
 	/**
 	 * @type {{
@@ -72,15 +73,23 @@
 				</li>
 			{/each}
 		</ul>
-		<p>
-			{t(
-				'掲載しているのは、これらの定例会に出された条例の議案だけです。予算・契約・人事・報告などは対象外です。',
-				'We only list ordinance bills submitted in these sessions. Budgets, contracts, appointments and reports are not covered.'
-			)}
-		</p>
-		{#each assembly.gaps as g (g)}
-			<p class="gap"><Icon name="info" />{gapNote(g)}</p>
-		{/each}
+		<div class="scope">
+			{t('条例の議案だけを掲載', 'Ordinance bills only')}
+			<Popover ariaLabel={t('掲載範囲と注意点', 'Coverage and notes')}>
+				{#snippet label()}<Icon name="info" class="i" />{#if assembly.gaps.length}{t('注意点', 'Notes')}{/if}{/snippet}
+				<b>{t('掲載範囲', 'Coverage')}</b>
+				{t(
+					'これらの定例会に出された条例の議案だけです。予算・契約・人事・報告などは対象外です。',
+					'Only ordinance bills submitted in these sessions. Budgets, contracts, appointments and reports are not covered.'
+				)}
+				{#if assembly.gaps.length}
+					<b class="notes">{t('注意点', 'Notes')}</b>
+					<ul>
+						{#each assembly.gaps as g (g)}<li>{gapNote(g)}</li>{/each}
+					</ul>
+				{/if}
+			</Popover>
+		</div>
 	</div>
 </div>
 
@@ -159,18 +168,25 @@
 		color: var(--color-text-muted);
 	}
 
-	.gap {
+	.scope {
 		display: flex;
-		gap: 6px;
-		align-items: flex-start;
-		margin-top: 6px;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px 10px;
 	}
 
-	.gap :global(svg) {
+	.scope :global(.i) {
 		width: 15px;
 		height: 15px;
-		flex-shrink: 0;
-		margin-top: 3px;
+	}
+
+	.scope :global(.term-pop .notes) {
+		margin-top: 10px;
+	}
+
+	.scope :global(.term-pop ul) {
+		margin: 0;
+		padding-left: 1.2em;
 	}
 
 	.sessions {

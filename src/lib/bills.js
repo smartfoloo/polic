@@ -1,6 +1,6 @@
 // Bill helpers shared by every page. Labels and notes here are built from parsed facts, never the LLM.
 
-import { t, committeeLabel, dateKindLabel, fmtDate } from './i18n.js';
+import { t, committeeLabel, fmtDate } from './i18n.js';
 
 /**
  * What the site gets for a live bill: facts, the Japanese text and (only when approved and current)
@@ -97,14 +97,8 @@ export function stageNote(/** @type {PublicBill} */ b) {
 	return t('議会に提出されました。', 'Submitted to the assembly.');
 }
 
-/** Bill date for the meta line; a decided bill without a published vote date says so instead of passing off the submission date. */
-export function dateLine(/** @type {PublicBill} */ b) {
-	const unvoted = (b.status === '決定' || b.status === '否決') && b.dateKind === '提案';
-	if (!unvoted) return b.date && t(`${fmtDate(b.date)}${b.dateKind}`, `${dateKindLabel(b.dateKind)} ${fmtDate(b.date)}`);
-	return b.date
-		? t(`${fmtDate(b.date)}提案・採決日は非公開`, `Proposed ${fmtDate(b.date)} · vote date not published`)
-		: t('採決日は非公開', 'Vote date not published');
-}
+/** Decided, but the source gives no vote date: the date shown is the submission date (labelled 提案). */
+export const noVoteDate = (/** @type {PublicBill} */ b) => (b.status === '決定' || b.status === '否決') && b.dateKind === '提案';
 
 /** Short session name for cards: 令和8年第3回定例会 → 第3回定例会, 令和8年度定例会9月議会 → 9月議会 */
 export function sessionShort(/** @type {string} */ name, /** @type {PublicAssembly} */ a) {

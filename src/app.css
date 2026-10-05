@@ -418,7 +418,9 @@ dialog.sheet {
 	background: var(--color-surface);
 	color: var(--color-text);
 	border: 1.5px solid var(--color-ink);
-	animation: sheetIn 0.26s var(--ease) both;
+	/* backwards, not both: a transform held after the animation would make the dialog the containing block
+	   for position: fixed, and the popovers inside it would land off their buttons. */
+	animation: sheetIn 0.26s var(--ease) backwards;
 }
 
 dialog.sheet::backdrop {

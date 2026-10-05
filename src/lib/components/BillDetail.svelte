@@ -1,7 +1,7 @@
 <script>
 	import { dev } from '$app/environment';
-	import { t, isEn, fmtDate, gapNote, statusLabel, STATUS_CLASS } from '$lib/i18n.js';
-	import { billName, dateLine, proposer, stageNote, sessionState, sessionStateLabel } from '$lib/bills.js';
+	import { t, isEn, fmtDate, dateKindLabel, statusLabel, STATUS_CLASS } from '$lib/i18n.js';
+	import { billName, noVoteDate, proposer, stageNote, sessionShort, sessionState, sessionStateLabel } from '$lib/bills.js';
 	import Icon from './Icon.svelte';
 	import Popover from './Popover.svelte';
 	import Stepper from './Stepper.svelte';
@@ -65,14 +65,22 @@
 	{/if}
 	<p class="bd-meta">
 		<span><Icon name="group" />{proposer(bill, assembly)}</span>
-		{#if dateLine(bill)}
-			<span><Icon name="cal" />{dateLine(bill)}</span>
+		{#if bill.date}
+			<span>
+				<Icon name="cal" />{t(`${fmtDate(bill.date)}${bill.dateKind}`, `${dateKindLabel(bill.dateKind)} ${fmtDate(bill.date)}`)}
+				{#if noVoteDate(bill)}
+					<Popover ariaLabel={t('採決日について', 'About the vote date')}>
+						{#snippet label()}<Icon name="info" class="i" />{/snippet}
+						{t('採決日は公表されていません。', "The vote date isn't published.")}
+					</Popover>
+				{/if}
+			</span>
 		{/if}
 		{#if session}
 			{@const state = sessionState(session, today)}
 			<span>
 				<Popover ariaLabel={t(`${session.name}の日程`, `${session.nameEn} dates`)}>
-					{#snippet label()}{t(session.name, session.nameEn)}<Icon name="info" class="i" />{/snippet}
+					{#snippet label()}{sessionShort(session.name, assembly)}<Icon name="info" class="i" />{/snippet}
 					<b>{t(session.name, session.nameEn)}</b>
 					{fmtDate(session.opened)} 〜 {fmtDate(session.closes)}{state === 'open' ? t('（閉会予定）', ' (scheduled)') : ''}<br />
 					{sessionStateLabel(state)}
@@ -84,18 +92,19 @@
 	<p class="disclose">
 		{#if bill.titleOnly && assembly.gaps.includes('scanned')}
 			<Icon name="doc" />
-			<span>{gapNote('scanned')}</span>
+			<span>{t('本文が画像のため、題名と結果のみ', 'Text is a scan: title and result only')}</span>
 		{:else if bill.titleOnly}
 			<Icon name="doc" />
-			<span>{t('議案の本文は公開されていません。題名と結果だけを載せています。', "The bill's text hasn't been published. Only its title and result are shown.")}</span>
+			<span>{t('本文が非公開のため、題名と結果のみ', 'Text not published: title and result only')}</span>
 		{:else if bill.reviewed}
 			<Icon name="check" />
-			<span>{t('AIが作成し、人が確認した要約です。', 'Summary written by AI and checked by a person.')}</span>
+			<span>{t('AIによる要約（人が確認済み）', 'AI summary, checked by a person')}</span>
 		{:else}
 			<Icon name="sparkle" />
 			<span>
-				{t('AIが作成した要約です。まだ人が確認していません。正確な内容は', 'Summary written by AI, not yet checked by a person. For the exact content, see the')}
-				<button type="button" class="inline-link" onclick={showSources}>{t('原文', 'original documents')}</button>{t('をご確認ください。', '.')}
+				{t('AIによる要約（未確認）・', 'AI summary, not yet checked · ')}<button type="button" class="inline-link" onclick={showSources}
+					>{t('原文を見る', 'See the original')}</button
+				>
 			</span>
 		{/if}
 	</p>
