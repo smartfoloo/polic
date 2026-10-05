@@ -1,0 +1,27 @@
+{
+	"id": "musashino-r8-1-11",
+	"assembly": "tokyo/musashino",
+	"approved": false,
+	"number": "議案第11号",
+	"official": "武蔵野市印鑑条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-13",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年 市長提出議案",
+			"url": "https://www.city.musashino.lg.jp/shigikai/gian_seigan_chinzyo/shichogian/1053667.html",
+			"fetchedAt": "2026-10-05T15:53:43.075Z"
+		},
+		{
+			"label": "議案第11号（PDF）",
+			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai11gou.pdf",
+			"fetchedAt": "2026-10-05T15:54:37.067Z"
+		}
+	]
+}

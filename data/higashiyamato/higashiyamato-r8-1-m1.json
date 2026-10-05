@@ -1,0 +1,22 @@
+{
+	"id": "higashiyamato-r8-1-m1",
+	"assembly": "tokyo/higashiyamato",
+	"approved": false,
+	"number": "議第1号議案",
+	"official": "東大和市道路占用料等徴収条例の一部を改正する条例",
+	"by": "member",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "否決",
+	"date": "2026-03-23",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等審議結果",
+			"url": "https://www.city.higashiyamato.lg.jp/shisei/gikai/1008119/1005679/1011960/1011965.html",
+			"fetchedAt": "2026-10-05T15:56:49.222Z"
+		}
+	]
+}

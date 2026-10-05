@@ -1,0 +1,27 @@
+{
+	"id": "higashiyamato-r8-1-12",
+	"assembly": "tokyo/higashiyamato",
+	"approved": false,
+	"number": "第12号議案",
+	"official": "東大和市職員の分限に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-20",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等審議結果",
+			"url": "https://www.city.higashiyamato.lg.jp/shisei/gikai/1008119/1005679/1011960/1011965.html",
+			"fetchedAt": "2026-10-05T15:56:49.222Z"
+		},
+		{
+			"label": "第12号議案（PDF）",
+			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-12.pdf",
+			"fetchedAt": "2026-10-05T15:57:37.223Z"
+		}
+	]
+}

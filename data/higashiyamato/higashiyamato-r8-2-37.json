@@ -1,0 +1,27 @@
+{
+	"id": "higashiyamato-r8-2-37",
+	"assembly": "tokyo/higashiyamato",
+	"approved": false,
+	"number": "第37号議案",
+	"official": "東大和市個人情報保護審議会条例を廃止する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-02",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案等審議結果",
+			"url": "https://www.city.higashiyamato.lg.jp/shisei/gikai/1008119/1005679/1011960/1012285.html",
+			"fetchedAt": "2026-10-05T15:58:55.277Z"
+		},
+		{
+			"label": "第37号議案（PDF）",
+			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/012/223/4-37.pdf",
+			"fetchedAt": "2026-10-05T15:59:19.274Z"
+		}
+	]
+}
