@@ -2,6 +2,7 @@
 	import { t, href } from '$lib/i18n.js';
 	import BillCard from '$lib/components/BillCard.svelte';
 	import Icon from '$lib/components/Icon.svelte';
+	import KantoMap from '$lib/components/KantoMap.svelte';
 	import RegionSearch from '$lib/components/RegionSearch.svelte';
 	import { JOIN_FORM_URL } from '$lib/config/site.js';
 
@@ -9,20 +10,6 @@
 
 	const byId = (/** @type {string} */ id) => /** @type {import('$lib/bills.js').PublicAssembly} */ (data.assemblies.find((a) => a.id === id));
 
-	// Decorative assembly seating, from the design reference.
-	const seats = (() => {
-		const out = [];
-		let k = 0;
-		for (const [ri, r] of [70, 88, 106, 124, 142, 160].entries()) {
-			const n = Math.floor((Math.PI * r) / 17);
-			for (let j = 0; j <= n; j++) {
-				const a = Math.PI - (Math.PI * j) / n;
-				const f = j / n;
-				out.push({ x: 180 + r * Math.cos(a), y: 176 - r * Math.sin(a), cls: f < 0.34 && ri > 0 ? 'on' : f > 0.82 && ri < 4 ? 'alt' : '', d: k++ });
-			}
-		}
-		return out;
-	})();
 </script>
 
 <svelte:head>
@@ -51,12 +38,8 @@
 				</p>
 			</div>
 		</div>
-		<div class="visual" aria-hidden="true">
-			<svg class="seats" viewBox="0 0 360 250">
-				{#each seats as s (s.d)}
-					<circle cx={s.x.toFixed(1)} cy={s.y.toFixed(1)} r="5.2" class={s.cls} style:--d={s.d} />
-				{/each}
-			</svg>
+		<div class="visual">
+			<KantoMap assemblies={data.assemblies} />
 		</div>
 	</div>
 </section>
@@ -172,35 +155,6 @@
 
 	.live a {
 		font-weight: 700;
-	}
-
-	.seats {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
-
-	.seats circle {
-		fill: var(--color-border-strong);
-		animation: seatIn 0.5s var(--ease) both;
-		animation-delay: calc(var(--d) * 5ms);
-		transform-box: fill-box;
-		transform-origin: center;
-	}
-
-	.seats circle.on {
-		fill: var(--color-seat);
-	}
-
-	.seats circle.alt {
-		fill: var(--color-secondary);
-	}
-
-	@keyframes seatIn {
-		from {
-			opacity: 0;
-			transform: scale(0.3);
-		}
 	}
 
 	.band {
