@@ -39,7 +39,7 @@ These stay no matter how much we simplify:
 1. **Polite fetching**: at most 1 request every 5–10s, off-peak, respect robots.txt, identifying user-agent with contact email, only fetch listed pages/PDFs (no search forms, no URL guessing), stop on any error or slowdown.
 2. **Facts are parsed, never generated**: official title, number, status, dates, committee, stage come from the source by code. The LLM never writes these.
 3. **New wording only**: summaries restate facts in our own words. Never copy or closely paraphrase explanatory prose (条例案概要, 議案説明資料 are likely copyrighted).
-4. **Human review where it matters, labels everywhere else**: member bills, flagged bills and anything in an election window need approval; other bills go live after automatic checks, labelled 「AIが作成した要約です。まだ人が確認していません。」 with the source link.
+4. **Human review where it matters, labels everywhere else**: member bills, flagged bills and anything in an election window need approval; other bills go live after automatic checks, labelled 「AIによる要約（未確認）」 with a link to the source (shortened 2026-10-05 from 「AIが作成した要約です。まだ人が確認していません。」; same meaning).
 5. **Source link + AI disclosure** on every bill (English pages also say the translation is unofficial and Japanese is authoritative).
 6. **Scope filter** keeps personal data out (no lawsuits, settlements, appointments, petitions).
 7. **Neutral tone**: no evaluative language, no rankings.

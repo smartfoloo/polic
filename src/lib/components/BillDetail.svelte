@@ -1,9 +1,8 @@
 <script>
 	import { dev } from '$app/environment';
 	import { t, isEn, fmtDate, dateKindLabel, statusLabel, STATUS_CLASS } from '$lib/i18n.js';
-	import { billName, noVoteDate, proposer, stageNote, sessionShort, sessionState, sessionStateLabel } from '$lib/bills.js';
+	import { billName, noVoteDate, proposer, stageNote, sessionState, sessionStateLabel } from '$lib/bills.js';
 	import Icon from './Icon.svelte';
-	import Popover from './Popover.svelte';
 	import Stepper from './Stepper.svelte';
 
 	/**
@@ -64,29 +63,6 @@
 		<p class="bd-official" lang="ja">{bill.official}（{bill.number}）</p>
 	{/if}
 	<p class="bd-meta">
-		<span><Icon name="group" />{proposer(bill, assembly)}</span>
-		{#if bill.date}
-			<span>
-				<Icon name="cal" />{t(`${fmtDate(bill.date)}${bill.dateKind}`, `${dateKindLabel(bill.dateKind)} ${fmtDate(bill.date)}`)}
-				{#if noVoteDate(bill)}
-					<Popover ariaLabel={t('採決日について', 'About the vote date')}>
-						{#snippet label()}<Icon name="info" class="i" />{/snippet}
-						{t('採決日は公表されていません。', "The vote date isn't published.")}
-					</Popover>
-				{/if}
-			</span>
-		{/if}
-		{#if session}
-			{@const state = sessionState(session, today)}
-			<span>
-				<Popover ariaLabel={t(`${session.name}の日程`, `${session.nameEn} dates`)}>
-					{#snippet label()}{sessionShort(session.name, assembly)}<Icon name="info" class="i" />{/snippet}
-					<b>{t(session.name, session.nameEn)}</b>
-					{fmtDate(session.opened)} 〜 {fmtDate(session.closes)}{state === 'open' ? t('（閉会予定）', ' (scheduled)') : ''}<br />
-					{sessionStateLabel(state)}
-				</Popover>
-			</span>
-		{/if}
 		<span class="ai">
 			{#if bill.titleOnly && assembly.gaps.includes('scanned')}
 				<Icon name="doc" />
@@ -108,6 +84,29 @@
 		</span>
 		<span class="status {STATUS_CLASS[bill.status]}">{statusLabel(bill.status)}</span>
 	</p>
+	<details class="bd-more">
+		<summary>{t('詳細', 'Details')}<Icon name="down" /></summary>
+		<ul>
+			<li><Icon name="group" />{proposer(bill, assembly)}</li>
+			{#if bill.date}
+				<li>
+					<Icon name="cal" />{t(`${fmtDate(bill.date)}${bill.dateKind}`, `${dateKindLabel(bill.dateKind)} ${fmtDate(bill.date)}`)}{#if noVoteDate(bill)}{t(
+							'（採決日は公表されていません）',
+							" (the vote date isn't published)"
+						)}{/if}
+				</li>
+			{/if}
+			{#if session}
+				{@const state = sessionState(session, today)}
+				<li>
+					<Icon name="info" />{t(
+						`${session.name}（${fmtDate(session.opened)} 〜 ${fmtDate(session.closes)}${state === 'open' ? '閉会予定' : ''}・${sessionStateLabel(state)}）`,
+						`${session.nameEn} (${fmtDate(session.opened)} – ${fmtDate(session.closes)}${state === 'open' ? ', scheduled' : ''}; ${sessionStateLabel(state)})`
+					)}
+				</li>
+			{/if}
+		</ul>
+	</details>
 	{#if en && !bill.titleOnly}
 		<p class="disclose">
 			<Icon name="info" />
@@ -224,7 +223,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		gap: 6px 18px;
+		justify-content: space-between;
+		gap: 8px 18px;
 		margin-top: 12px;
 		font-size: 13px;
 		color: var(--color-text-muted);
@@ -236,21 +236,58 @@
 		align-items: center;
 	}
 
-	.bd-meta :global(svg) {
+	.bd-meta :global(svg),
+	.bd-more :global(svg) {
 		width: 16px;
 		height: 16px;
 		flex-shrink: 0;
 	}
 
-	.bd-meta :global(.i) {
-		width: 14px;
-		height: 14px;
-	}
-
 	.bd-meta .status {
 		height: 28px;
 		padding: 0 12px;
-		margin-left: 4px;
+	}
+
+	.bd-more {
+		margin-top: 8px;
+		font-size: 13px;
+		color: var(--color-text-muted);
+	}
+
+	.bd-more summary {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		cursor: pointer;
+		list-style: none;
+		font-weight: 700;
+	}
+
+	.bd-more summary::-webkit-details-marker {
+		display: none;
+	}
+
+	.bd-more[open] summary :global(svg) {
+		transform: rotate(180deg);
+	}
+
+	.bd-more ul {
+		list-style: none;
+		margin: 6px 0 0;
+		padding: 0;
+		display: grid;
+		gap: 4px;
+	}
+
+	.bd-more li {
+		display: flex;
+		gap: 6px;
+		align-items: flex-start;
+		line-height: 1.6;
+	}
+
+	.bd-more li :global(svg) {
+		margin-top: 2px;
 	}
 
 	.disclose {
