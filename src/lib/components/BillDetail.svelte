@@ -87,26 +87,26 @@
 				</Popover>
 			</span>
 		{/if}
+		<span class="ai">
+			{#if bill.titleOnly && assembly.gaps.includes('scanned')}
+				<Icon name="doc" />
+				<span>{t('本文が画像のため、題名と結果のみ', 'Text is a scan: title and result only')}</span>
+			{:else if bill.titleOnly}
+				<Icon name="doc" />
+				<span>{t('本文が非公開のため、題名と結果のみ', 'Text not published: title and result only')}</span>
+			{:else if bill.reviewed}
+				<Icon name="check" />
+				<span>{t('AIによる要約（人が確認済み）', 'AI summary, checked by a person')}</span>
+			{:else}
+				<Icon name="sparkle" />
+				<span>
+					{t('AIによる要約（未確認）・', 'AI summary, not yet checked · ')}<button type="button" class="inline-link" onclick={showSources}
+						>{t('原文を見る', 'See the original')}</button
+					>
+				</span>
+			{/if}
+		</span>
 		<span class="status {STATUS_CLASS[bill.status]}">{statusLabel(bill.status)}</span>
-	</p>
-	<p class="disclose">
-		{#if bill.titleOnly && assembly.gaps.includes('scanned')}
-			<Icon name="doc" />
-			<span>{t('本文が画像のため、題名と結果のみ', 'Text is a scan: title and result only')}</span>
-		{:else if bill.titleOnly}
-			<Icon name="doc" />
-			<span>{t('本文が非公開のため、題名と結果のみ', 'Text not published: title and result only')}</span>
-		{:else if bill.reviewed}
-			<Icon name="check" />
-			<span>{t('AIによる要約（人が確認済み）', 'AI summary, checked by a person')}</span>
-		{:else}
-			<Icon name="sparkle" />
-			<span>
-				{t('AIによる要約（未確認）・', 'AI summary, not yet checked · ')}<button type="button" class="inline-link" onclick={showSources}
-					>{t('原文を見る', 'See the original')}</button
-				>
-			</span>
-		{/if}
 	</p>
 	{#if en && !bill.titleOnly}
 		<p class="disclose">
@@ -226,6 +226,7 @@
 		align-items: center;
 		gap: 6px 18px;
 		margin-top: 12px;
+		font-size: 13px;
 		color: var(--color-text-muted);
 	}
 
