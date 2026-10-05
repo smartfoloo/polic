@@ -109,7 +109,7 @@
 
 <style>
 	.hero {
-		padding: 64px 0 56px;
+		padding: 44px 0 40px;
 	}
 
 	.hero-grid {

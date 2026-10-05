@@ -41,7 +41,7 @@
 		{/if}
 	</div>
 
-	<svg viewBox="0 0 {map.width} {map.height}" role="group" aria-label={t('関東の市区町村の地図', 'Map of municipalities in Kanto')}>
+	<svg class="map" viewBox="0 0 {map.width} {map.height}" role="group" aria-label={t('関東の市区町村の地図', 'Map of municipalities in Kanto')}>
 		<g class="world" style:transform={zoomed ? zoom : 'none'}>
 			{#each map.shapes as s, i (i)}
 				{@const a = s.name ? covered.get(keyOf(s)) : undefined}
@@ -129,10 +129,11 @@
 		height: 14px;
 	}
 
-	svg {
+	.map {
 		display: block;
 		width: 100%;
 		height: auto;
+		max-height: 330px;
 		overflow: hidden;
 	}
 
