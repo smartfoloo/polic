@@ -26,7 +26,10 @@
 				'Polic is a non-profit project to help people pay attention to their local assembly. There are no ads.'
 			)}
 		</p>
-		<p>{t('対象地域：関東の都県と市区町村（順次追加しています）。', 'Coverage: prefectures, cities and towns in the Kanto region, added over time.')}</p>
+		<p>
+			{t('対象地域：関東の都県と市区町村（順次追加しています）。', 'Coverage: prefectures, cities and towns in the Kanto region, added over time.')}
+			<a href={href('/coverage')}>{t('対応している議会', 'Supported assemblies')}</a>
+		</p>
 	</section>
 
 	<section id="process">

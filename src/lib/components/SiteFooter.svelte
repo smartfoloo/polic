@@ -16,6 +16,7 @@
 			</div>
 			<nav class="foot-nav" aria-label={t('フッター', 'Footer')}>
 				<a href={href('/about')}>About</a>
+				<a href={href('/coverage')}>{t('対応している議会', 'Supported assemblies')}</a>
 				<a href={href('/about#corrections')}>{t('訂正ポリシー', 'Corrections policy')}</a>
 				<a href={href('/privacy')}>{t('プライバシーポリシー', 'Privacy policy')}</a>
 				<a href="mailto:{contact}">{t('お問い合わせ', 'Contact')}</a>
