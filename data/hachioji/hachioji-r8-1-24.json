@@ -22,5 +22,40 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian1.pdf",
 			"fetchedAt": "2026-10-02T15:26:08.906Z"
 		}
-	]
+	],
+	"name": "職員の介護休暇の上限を365日に",
+	"category": "行政のしくみ",
+	"summary": "市職員の介護休暇は、要介護者ごとの介護を必要とする状態について、取得回数は3回まで、合計期間は180日までです。この議案で、合計期間の上限を365日に延ばします。",
+	"changes": [
+		"要介護者ごとの介護休暇の合計期間の上限を180日から365日に延ばす"
+	],
+	"who": [
+		"介護休暇を利用する市職員"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:28:24.745Z",
+		"inputTokens": 1354,
+		"cachedTokens": 0,
+		"outputTokens": 579,
+		"reasoningTokens": 434
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:28:24.745Z",
+		"checkedAt": "2026-10-08T05:14:29.112Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1187,
+			"cachedTokens": 0,
+			"outputTokens": 63,
+			"reasoningTokens": 48
+		}
+	}
 }

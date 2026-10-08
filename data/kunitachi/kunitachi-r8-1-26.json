@@ -27,5 +27,42 @@
 			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
 			"fetchedAt": "2026-10-02T15:39:08.877Z"
 		}
-	]
+	],
+	"name": "特定任期付職員の給料と手当を改定",
+	"category": "行政のしくみ",
+	"summary": "条例で定めている特定任期付職員の給料表と、期末手当・勤勉手当の支給率を改めます。給料表は2025年4月1日から、手当の支給率は2025年12月1日から適用します。2025年12月の支給分には、一部異なる支給率を適用します。",
+	"changes": [
+		"給料月額を号給ごとに397,700円、448,200円、501,600円、571,900円、649,300円に改める",
+		"期末手当・勤勉手当の支給率を107.5%から108.75%、62.5%から63.75%、117.5%から118.75%、72.5%から73.75%、112.5%から113.75%に改める",
+		"特例の支給率を75%と115%にする"
+	],
+	"who": [
+		"特定任期付職員"
+	],
+	"why": "特定任期付職員の給料表の改定と、期末手当・勤勉手当の支給率の引上げを行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:44:18.194Z",
+		"inputTokens": 1702,
+		"cachedTokens": 0,
+		"outputTokens": 1842,
+		"reasoningTokens": 1501
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:44:18.194Z",
+		"checkedAt": "2026-10-08T05:31:48.659Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1717,
+			"cachedTokens": 0,
+			"outputTokens": 38,
+			"reasoningTokens": 24
+		}
+	}
 }

@@ -27,5 +27,40 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:29:58.629Z"
 		}
-	]
+	],
+	"name": "本町保育所の位置を変更",
+	"category": "子育て",
+	"summary": "市立本町保育所の位置は、府中市本町3丁目19番地の3です。この議案では、位置を府中市本町3丁目18番地の5に改めます。令和8年12月1日から変更します。",
+	"changes": [
+		"本町保育所の位置を府中市本町3丁目19番地の3から府中市本町3丁目18番地の5に変更する"
+	],
+	"who": [
+		"府中市立本町保育所を利用する子どもと保護者"
+	],
+	"why": "本町保育所の位置を変更するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:24:12.882Z",
+		"inputTokens": 1292,
+		"cachedTokens": 0,
+		"outputTokens": 516,
+		"reasoningTokens": 340
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:24:12.882Z",
+		"checkedAt": "2026-10-08T05:11:54.982Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1162,
+			"cachedTokens": 0,
+			"outputTokens": 38,
+			"reasoningTokens": 23
+		}
+	}
 }

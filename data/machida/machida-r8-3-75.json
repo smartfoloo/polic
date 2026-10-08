@@ -27,5 +27,42 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6822_75gou.pdf",
 			"fetchedAt": "2026-10-01T14:25:53.957Z"
 		}
-	]
+	],
+	"name": "印鑑証明の申請に使える証明書を追加",
+	"category": "くらし・手続き",
+	"summary": "現在、印鑑登録証明書は、自動交付機では個人番号カードや対応する移動端末設備、オンラインでは個人番号カードを使って申請できます。この議案で、特定在留カードや特定特別永住者証明書も、所定の電子証明書が記録されていれば申請に使えるようになります。",
+	"changes": [
+		"自動交付機での申請に使える証明書に、特定在留カードと特定特別永住者証明書を加える",
+		"オンライン申請に使える証明書に、特定在留カードと特定特別永住者証明書を加える"
+	],
+	"who": [
+		"印鑑登録をしている特定在留カードの所持者",
+		"印鑑登録をしている特定特別永住者証明書の所持者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:00:13.301Z",
+		"inputTokens": 2460,
+		"cachedTokens": 0,
+		"outputTokens": 1473,
+		"reasoningTokens": 1201
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:00:13.301Z",
+		"checkedAt": "2026-10-08T05:37:10.653Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2396,
+			"cachedTokens": 0,
+			"outputTokens": 74,
+			"reasoningTokens": 60
+		}
+	}
 }

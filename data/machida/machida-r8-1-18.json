@@ -27,5 +27,40 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6678_18gou.pdf",
 			"fetchedAt": "2026-10-01T14:20:41.979Z"
 		}
-	]
+	],
+	"name": "育児の部分休業時間の計算を変更",
+	"category": "行政のしくみ",
+	"summary": "市職員が第1号部分休業を取る場合、これまでは育児時間・子育て部分休暇・介護時間の取得時間を差し引いて、休業できる時間の上限を計算していました。この議案では、差し引く対象から子育て部分休暇を外し、育児時間と介護時間のみを差し引く形に変えます。",
+	"changes": [
+		"第1号部分休業の上限時間の計算から子育て部分休暇の時間を差し引かない"
+	],
+	"who": [
+		"子育て部分休暇を取得する市職員"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:48:13.831Z",
+		"inputTokens": 1765,
+		"cachedTokens": 0,
+		"outputTokens": 878,
+		"reasoningTokens": 695
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:48:13.831Z",
+		"checkedAt": "2026-10-08T05:33:42.253Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1636,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 41
+		}
+	}
 }

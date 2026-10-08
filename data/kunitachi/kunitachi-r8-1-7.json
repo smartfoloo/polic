@@ -27,5 +27,41 @@
 			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
 			"fetchedAt": "2026-10-02T15:39:08.877Z"
 		}
-	]
+	],
+	"name": "選挙ビラ・ポスターの公費負担上限額を改定",
+	"category": "行政のしくみ",
+	"summary": "市議会議員と市長の選挙では、ビラとポスターの作成費を公費で負担しています。この議案で、その負担の上限額を改めます。",
+	"changes": [
+		"ビラ作成費の公費負担上限額を7円73銭から8円38銭に改める",
+		"ポスター作成費の公費負担上限額を541円31銭から586円88銭に改める"
+	],
+	"who": [
+		"国立市議会議員選挙・国立市長選挙の候補者"
+	],
+	"why": "ビラとポスターの作成費にかかる公費負担の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:45:20.913Z",
+		"inputTokens": 1362,
+		"cachedTokens": 0,
+		"outputTokens": 829,
+		"reasoningTokens": 615
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:45:20.913Z",
+		"checkedAt": "2026-10-08T05:32:26.258Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1276,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

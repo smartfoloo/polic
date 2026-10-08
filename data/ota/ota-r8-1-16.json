@@ -22,5 +22,40 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "蒲田西特別出張所の所在地を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、蒲田西特別出張所の所在地は西蒲田七丁目12番2号です。この議案で、所在地を西蒲田七丁目11番1号に変更します。",
+	"changes": [
+		"所在地を西蒲田七丁目12番2号から西蒲田七丁目11番1号に変更する"
+	],
+	"who": [
+		"蒲田西特別出張所を利用する人"
+	],
+	"why": "蒲田西特別出張所の移転のためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:16:12.055Z",
+		"inputTokens": 1201,
+		"cachedTokens": 0,
+		"outputTokens": 424,
+		"reasoningTokens": 277
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:16:12.055Z",
+		"checkedAt": "2026-10-08T05:45:33.851Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1040,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

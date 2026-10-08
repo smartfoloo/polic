@@ -27,5 +27,43 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:29:58.629Z"
 		}
-	]
+	],
+	"name": "職員の生理休暇を健康管理休暇に変更",
+	"category": "行政のしくみ",
+	"summary": "市職員の特別休暇の一覧には「生理休暇」があります。この議案では、名称を「健康管理休暇」に改めます。また、市職員とボートレース企業局職員について、健康管理休暇を取得したときに給与を減額しない日数に上限を設けます。",
+	"changes": [
+		"特別休暇の名称を「生理休暇」から「健康管理休暇」に改める",
+		"市職員の健康管理休暇について、給与を減額しない日数に規則で定める上限を設ける",
+		"ボートレース企業局職員の健康管理休暇について、給与を減額しない日数に管理者が定める上限を設ける"
+	],
+	"who": [
+		"府中市職員",
+		"府中市ボートレース企業局職員"
+	],
+	"why": "休暇の名称などを見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:26:08.276Z",
+		"inputTokens": 2502,
+		"cachedTokens": 0,
+		"outputTokens": 1005,
+		"reasoningTokens": 755
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:26:08.276Z",
+		"checkedAt": "2026-10-08T05:13:05.457Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2450,
+			"cachedTokens": 0,
+			"outputTokens": 49,
+			"reasoningTokens": 34
+		}
+	}
 }

@@ -27,5 +27,58 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_16.pdf",
 			"fetchedAt": "2026-10-02T15:02:06.480Z"
 		}
-	]
+	],
+	"name": "精神障害者手帳1級を手当の対象に",
+	"category": "福祉",
+	"summary": "区の心身障害者福祉手当の対象に、精神障害者保健福祉手帳1級の人を加え、手当額を7,750円とします。複数の障害区分に当たる場合は重ねて支給せず、金額が異なるときは高い額を支給します。2026年4月1日から施行し、精神障害者の認定申請は、同年4月1日から7月31日までの申請を資格を満たした日に申請したものとして扱います。",
+	"changes": [
+		"精神障害者の区分を設ける",
+		"精神障害者の区分の手当額を7,750円とする",
+		"複数の区分に該当する場合は重複支給せず、金額が異なる場合は高い額を適用する"
+	],
+	"who": [
+		"精神障害者保健福祉手帳1級を持つ人",
+		"複数の障害区分に該当する人"
+	],
+	"why": "精神障害者保健福祉手帳を持ち、障害等級が1級の人に手当を支給するほか、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:50:05.610Z",
+		"inputTokens": 1718,
+		"cachedTokens": 0,
+		"outputTokens": 1602,
+		"reasoningTokens": 1239
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:50:05.610Z",
+		"checkedAt": "2026-10-08T05:26:54.962Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "同年4月1日から7月31日までの申請を資格を満たした日に申請したものとして扱います。",
+				"note": "付則第3項では、4月1日時点で資格を満たす人は4月1日に、同日後に資格を満たした人はその日に申請したものとみなします。4月1日より前に資格を満たした日まで遡る規定ではありません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "精神障害者の区分を設ける",
+				"note": "付則第3項の、4月1日から7月31日までの認定申請について申請日を遡って扱う特例がchangesにありません。受給者に直接関わる変更です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1746,
+			"cachedTokens": 0,
+			"outputTokens": 370,
+			"reasoningTokens": 158
+		}
+	}
 }

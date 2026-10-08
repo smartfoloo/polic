@@ -27,5 +27,42 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai2kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:26:52.140Z"
 		}
-	]
+	],
+	"name": "特定在留カードなどで印鑑証明を請求可能に",
+	"category": "くらし・手続き",
+	"summary": "現在、多機能端末機で印鑑登録証明書を申請する方法として、個人番号カードを使う方法が定められています。この議案で、特定在留カードや特定特別永住者証明書も使えるようにし、端末で請求した場合の手数料の特例にも加えます。",
+	"changes": [
+		"印鑑登録証明書の端末申請で、特定在留カードと特定特別永住者証明書を使えるようにする",
+		"これらのカードで端末請求した場合も、手数料を1件100円とする特例の対象に加える"
+	],
+	"who": [
+		"特定在留カードを持つ人",
+		"特定特別永住者証明書を持つ人"
+	],
+	"why": "出入国管理及び難民認定法等の一部を改正する法律の施行に伴う改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:27:19.918Z",
+		"inputTokens": 3070,
+		"cachedTokens": 0,
+		"outputTokens": 1209,
+		"reasoningTokens": 944
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:27:19.918Z",
+		"checkedAt": "2026-10-08T05:13:52.127Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3029,
+			"cachedTokens": 0,
+			"outputTokens": 161,
+			"reasoningTokens": 147
+		}
+	}
 }

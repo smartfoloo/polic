@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "幼稚園教育職員の特別勤務手当の対象時間を拡大",
+	"category": "行政のしくみ",
+	"summary": "現在、管理職員特別勤務手当の対象となる時間帯は、週休日等以外の日の午前0時から午前5時までです。この議案では、対象を午後10時から翌日午前5時までに広げ、週休日等に含まれる時間を除きます。また、手当額を150%にする勤務の規定を整理します。条例は2026年4月1日に施行されます。",
+	"changes": [
+		"対象時間帯を午後10時から翌日午前5時までに広げ、週休日等に含まれる時間を除く",
+		"手当額を150%にする勤務の規定を第3項の共通規定に置く"
+	],
+	"who": [
+		"幼稚園教育職員"
+	],
+	"why": "管理職員特別勤務手当の支給対象となる時間帯を広げるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:05:25.281Z",
+		"inputTokens": 1444,
+		"cachedTokens": 0,
+		"outputTokens": 2448,
+		"reasoningTokens": 2200
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:05:25.281Z",
+		"checkedAt": "2026-10-08T05:39:18.401Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1389,
+			"cachedTokens": 0,
+			"outputTokens": 114,
+			"reasoningTokens": 100
+		}
+	}
 }

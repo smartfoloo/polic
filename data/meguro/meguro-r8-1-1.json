@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "マンション関係の手数料規定を法改正に合わせる",
+	"category": "税・手数料",
+	"summary": "目黒区手数料条例の別表には、マンション関係の手続きにかかる手数料の項目があります。この議案では、関連する法律名や条文番号を改め、マンションの更新や各部分の高さも対象となるよう記載を変更します。改正の施行日は項目によって異なり、公布日、令和8年4月1日または5月1日です。",
+	"changes": [
+		"関係する法律名や条文番号を改める",
+		"マンションの更新や各部分の高さも対象となるよう記載を改める"
+	],
+	"who": [
+		"マンションの建替えや更新に関する手続きを行う人"
+	],
+	"why": "老朽化マンションなどの管理や再生を円滑にするための法律改正などに伴い、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:00:50.520Z",
+		"inputTokens": 1547,
+		"cachedTokens": 0,
+		"outputTokens": 1877,
+		"reasoningTokens": 1632
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:00:50.520Z",
+		"checkedAt": "2026-10-08T05:37:24.537Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1488,
+			"cachedTokens": 0,
+			"outputTokens": 74,
+			"reasoningTokens": 59
+		}
+	}
 }

@@ -22,5 +22,42 @@
 			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/698/r8.1gian.pdf",
 			"fetchedAt": "2026-10-02T15:35:20.566Z"
 		}
-	]
+	],
+	"name": "会計年度任用職員の報酬上限などを改定",
+	"category": "行政のしくみ",
+	"summary": "現在、報酬の時間額の上限は3,000円です。この議案では上限を5,000円に引き上げ、期末手当と勤勉手当の算定に使う割合も改めます。令和8年4月1日から施行します。",
+	"changes": [
+		"時間額の報酬上限を3,000円から5,000円に引き上げる",
+		"期末手当の算定基礎額に乗じる割合を6月・12月とも91.25%にする",
+		"勤勉手当の総額上限に使う割合を6月・12月とも78.75%にする"
+	],
+	"who": [
+		"稲城市の会計年度任用職員"
+	],
+	"why": "時間額に係る報酬の限度額や期末手当の支給割合などを改正するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:46:46.477Z",
+		"inputTokens": 2784,
+		"cachedTokens": 0,
+		"outputTokens": 1132,
+		"reasoningTokens": 856
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:46:46.477Z",
+		"checkedAt": "2026-10-08T05:25:19.931Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2730,
+			"cachedTokens": 0,
+			"outputTokens": 54,
+			"reasoningTokens": 39
+		}
+	}
 }

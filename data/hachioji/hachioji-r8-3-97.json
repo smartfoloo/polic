@@ -22,5 +22,41 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:26:44.967Z"
 		}
-	]
+	],
+	"name": "学童保育所の名称と所在地を変更",
+	"category": "子育て",
+	"summary": "現在、条例の一覧には八王子市立八木町学童保育所と、八木町7番1号が記載されています。この議案では、名称を八王子市立たがの杜学童保育所に、所在地を元本郷町二丁目21番1号に改めます。改正は令和9年4月1日からです。",
+	"changes": [
+		"条例に載せる学童保育所の名称を八木町学童保育所からたがの杜学童保育所に変更する",
+		"条例に載せる所在地を八木町7番1号から元本郷町二丁目21番1号に変更する"
+	],
+	"who": [
+		"学童保育所を利用する児童と保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:39:52.811Z",
+		"inputTokens": 1261,
+		"cachedTokens": 0,
+		"outputTokens": 833,
+		"reasoningTokens": 621
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:39:52.811Z",
+		"checkedAt": "2026-10-08T05:21:32.131Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1166,
+			"cachedTokens": 0,
+			"outputTokens": 47,
+			"reasoningTokens": 32
+		}
+	}
 }

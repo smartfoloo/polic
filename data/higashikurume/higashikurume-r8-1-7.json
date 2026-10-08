@@ -27,5 +27,43 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/028/644/2026022502.pdf",
 			"fetchedAt": "2026-10-02T15:32:34.596Z"
 		}
-	]
+	],
+	"name": "市職員の給料と手当を改定",
+	"category": "行政のしくみ",
+	"summary": "市職員の給料や手当は、条例の給料表や支給条件で定めています。この議案では給料表を改め、扶養手当や通勤手当などの支給内容を変更します。令和8年4月1日から施行し、地域手当の割合は当分の間14%とします。",
+	"changes": [
+		"給料表を改め、地域手当の割合を当分の間14%とする",
+		"子の扶養手当を月11,500円から13,000円にし、配偶者を扶養手当の対象から外す",
+		"駐車場料金への通勤手当を月5,000円まで設け、自転車等の距離別支給額を改める",
+		"災害対応手当を1回3,000円とする"
+	],
+	"who": [
+		"東久留米市の職員"
+	],
+	"why": "人事院勧告や東京都人事委員会勧告などに伴い、職員の給与や手当を改定する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:42:39.903Z",
+		"inputTokens": 14546,
+		"cachedTokens": 0,
+		"outputTokens": 3126,
+		"reasoningTokens": 2811
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:42:39.903Z",
+		"checkedAt": "2026-10-08T05:23:16.028Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 14527,
+			"cachedTokens": 0,
+			"outputTokens": 163,
+			"reasoningTokens": 149
+		}
+	}
 }

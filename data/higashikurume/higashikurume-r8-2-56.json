@@ -27,5 +27,40 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
 			"fetchedAt": "2026-10-02T15:30:29.300Z"
 		}
-	]
+	],
+	"name": "保育利用料の所得割算定規定を改正",
+	"category": "子育て",
+	"summary": "利用者負担額の算定では、市民税の所得割額について地方税法の規定を参照しています。この議案で参照する規定を改め、改正後のルールは令和8年9月分以降に適用します。",
+	"changes": [
+		"所得割額の算定で適用しない地方税法の規定を改める"
+	],
+	"who": [
+		"利用者負担額が算定される保育施設などを利用する世帯"
+	],
+	"why": "地方税法等の一部を改正する法律の施行に伴い、規定を整備するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:44:16.550Z",
+		"inputTokens": 2003,
+		"cachedTokens": 0,
+		"outputTokens": 1135,
+		"reasoningTokens": 953
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:44:16.550Z",
+		"checkedAt": "2026-10-08T05:23:50.013Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1878,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

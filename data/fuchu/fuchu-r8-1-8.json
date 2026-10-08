@@ -27,5 +27,43 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:29:58.629Z"
 		}
-	]
+	],
+	"name": "所在不明者への公示通知方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、所在が分からない人への聴聞の通知は、行政庁の掲示場に掲示して知らせることができます。この議案では、公示する内容を広く閲覧できる状態にしたうえで、掲示場への掲示または行政庁の事務所の画面で確認できる方法に改めます。改正は2026年5月21日に施行します。",
+	"changes": [
+		"公示する内容を総務省令で定める方法で広く閲覧できる状態にし、掲示場への掲示または行政庁の事務所の画面で確認できるようにする",
+		"通知が到達したとみなす基準を、掲示開始から公示措置開始に改める",
+		"新しい通知方法を、続行期日や弁明の機会の通知にも適用する"
+	],
+	"who": [
+		"所在が分からず、公示で聴聞の通知を受ける人",
+		"所在が分からず、公示で通知を受ける聴聞の当事者や参加人"
+	],
+	"why": "国の行政手続法の改正に伴い、必要な改正を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:26:00.014Z",
+		"inputTokens": 2983,
+		"cachedTokens": 0,
+		"outputTokens": 2130,
+		"reasoningTokens": 1787
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:26:00.014Z",
+		"checkedAt": "2026-10-08T05:13:01.985Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2994,
+			"cachedTokens": 0,
+			"outputTokens": 62,
+			"reasoningTokens": 48
+		}
+	}
 }

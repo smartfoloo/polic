@@ -22,5 +22,58 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "市役所の部の構成と担当事務を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、消費生活に関する事務は市民部が担当しています。この議案では、同事務を生活安全部に移すほか、市長公室を設けるなど、部の構成や担当事務を見直します。消費生活の担当変更は令和8年4月1日、その他の変更は同年7月1日からです。",
+	"changes": [
+		"消費生活に関する事務を市民部から生活安全部へ移す",
+		"市長公室を設け、政策の構想、秘書、広報、広聴を担当させる",
+		"総合経営部を総合政策部に、産業振興部を経済産業部に改める",
+		"各部の構成や担当事務を再編する"
+	],
+	"who": [
+		"消費生活に関する相談をする市民"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:29:42.541Z",
+		"inputTokens": 3212,
+		"cachedTokens": 0,
+		"outputTokens": 3671,
+		"reasoningTokens": 3434
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:29:42.541Z",
+		"checkedAt": "2026-10-08T05:15:18.226Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "市長公室を設け、政策の構想、秘書、広報、広聴を担当させる",
+				"note": "第２条の新旧対照表では市長公室に対応する改正前の記載がなく、第１条の表には改正前にも「市長公室～財政部（略）」とあるため、新設かどうか原文から確定できない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "各部の構成や担当事務を再編する",
+				"note": "原文第２条にある、交通安全を生活安全部、交通政策や都市景観・地区まちづくりを都市計画部、道路・公園・市街地整備等を建設部の担当とする主な変更が具体的に示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3140,
+			"cachedTokens": 0,
+			"outputTokens": 435,
+			"reasoningTokens": 172
+		}
+	}
 }

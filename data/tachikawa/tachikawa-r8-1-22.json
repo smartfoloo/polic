@@ -22,5 +22,40 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian22.pdf",
 			"fetchedAt": "2026-10-01T14:22:44.671Z"
 		}
-	]
+	],
+	"name": "中学校の給食費無償を令和8年度まで延長",
+	"category": "教育",
+	"summary": "現在は、令和6年度と令和7年度に限り、市立中学校の給食費を保護者から徴収しないことになっています。この期間を令和8年度までに広げます。ただし、規則で定める給食費に関する給付を受けている期間は、その給付に相当する分を除きます。",
+	"changes": [
+		"給食費を徴収しない期間に令和8年度を加える"
+	],
+	"who": [
+		"市立中学校で給食を受ける生徒の保護者"
+	],
+	"why": "市立中学校における学校給食費を無償とするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:24:55.704Z",
+		"inputTokens": 1441,
+		"cachedTokens": 0,
+		"outputTokens": 673,
+		"reasoningTokens": 480
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:24:55.704Z",
+		"checkedAt": "2026-10-08T05:50:02.426Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1327,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

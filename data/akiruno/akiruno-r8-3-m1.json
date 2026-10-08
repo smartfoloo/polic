@@ -22,5 +22,40 @@
 			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/giinR8-1.pdf",
 			"fetchedAt": "2026-10-01T14:38:39.513Z"
 		}
-	]
+	],
+	"name": "市議会議員の定数を21人から20人に",
+	"category": "行政のしくみ",
+	"summary": "現在、あきる野市議会議員の定数は21人です。この議案で20人に減らし、次の一般選挙から適用します。",
+	"changes": [
+		"議員定数を21人から20人に減らす"
+	],
+	"who": [
+		"あきる野市の有権者"
+	],
+	"why": "議員定数に関する特別委員会での議論を踏まえ、議員定数を減らす必要があるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:17:09.262Z",
+		"inputTokens": 1383,
+		"cachedTokens": 0,
+		"outputTokens": 518,
+		"reasoningTokens": 360
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:17:09.262Z",
+		"checkedAt": "2026-10-08T05:07:30.674Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1235,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

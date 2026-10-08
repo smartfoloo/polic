@@ -27,5 +27,40 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
 			"fetchedAt": "2026-10-02T15:30:29.300Z"
 		}
-	]
+	],
+	"name": "ちゅうおう広場を市立公園の一覧から削除",
+	"category": "まちづくり",
+	"summary": "市立公園条例の一覧には、ちゅうおう広場が載っています。この議案では、ちゅうおう広場を一覧から削ります。条例は公布の日から施行します。",
+	"changes": [
+		"市立公園の一覧からちゅうおう広場を削除する"
+	],
+	"who": [
+		"ちゅうおう広場を利用する人"
+	],
+	"why": "市立公園の土地を地権者に返すことに伴い、規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:43:08.451Z",
+		"inputTokens": 1432,
+		"cachedTokens": 0,
+		"outputTokens": 636,
+		"reasoningTokens": 476
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:43:08.451Z",
+		"checkedAt": "2026-10-08T05:23:24.164Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1287,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

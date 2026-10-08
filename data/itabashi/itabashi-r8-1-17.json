@@ -27,5 +27,40 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_17.pdf",
 			"fetchedAt": "2026-10-02T15:02:12.488Z"
 		}
-	]
+	],
+	"name": "おとしより保健福祉センターを廃止",
+	"category": "福祉",
+	"summary": "現在の条例で定められているおとしより保健福祉センターを廃止します。条例の廃止は令和8年4月1日から施行します。",
+	"changes": [
+		"おとしより保健福祉センター条例を廃止する"
+	],
+	"who": [
+		"おとしより保健福祉センターを利用する人"
+	],
+	"why": "おとしより保健福祉センターを廃止する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:50:14.447Z",
+		"inputTokens": 1169,
+		"cachedTokens": 0,
+		"outputTokens": 875,
+		"reasoningTokens": 721
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:50:14.447Z",
+		"checkedAt": "2026-10-08T05:26:57.966Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1012,
+			"cachedTokens": 0,
+			"outputTokens": 39,
+			"reasoningTokens": 24
+		}
+	}
 }

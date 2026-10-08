@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "選挙運動の公費負担限度額を引き上げる",
+	"category": "行政のしくみ",
+	"summary": "条例で定める選挙運動の公費負担限度額を引き上げます。第8条の金額は7円73銭から8円38銭に、第11条の金額は541円31銭から586円88銭に変わります。改正後の金額は、公布日以後に選挙期日が告示される選挙から適用されます。",
+	"changes": [
+		"第8条の額を7円73銭から8円38銭に引き上げる",
+		"第11条の額を541円31銭から586円88銭に引き上げる"
+	],
+	"who": [
+		"目黒区議会議員選挙・目黒区長選挙の立候補者"
+	],
+	"why": "選挙運動に係る公費負担の限度額を引き上げるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:01:16.020Z",
+		"inputTokens": 1440,
+		"cachedTokens": 0,
+		"outputTokens": 1021,
+		"reasoningTokens": 767
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:01:16.020Z",
+		"checkedAt": "2026-10-08T05:37:36.126Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1391,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

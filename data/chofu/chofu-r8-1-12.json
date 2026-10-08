@@ -27,5 +27,41 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077265.html",
 			"fetchedAt": "2026-10-01T14:31:07.572Z"
 		}
-	]
+	],
+	"name": "職員の休暇名称を健康管理休暇に",
+	"category": "行政のしくみ",
+	"summary": "現在、勤務時間などを定める条例と給与条例では「生理休暇」という名称が使われています。2026年4月1日から、両方の条例で「健康管理休暇」に改めます。",
+	"changes": [
+		"勤務時間などを定める条例の「生理休暇」を「健康管理休暇」に改める",
+		"給与条例の「生理休暇」を「健康管理休暇」に改める"
+	],
+	"who": [
+		"調布市の職員"
+	],
+	"why": "生理休暇の名称を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:18:18.786Z",
+		"inputTokens": 1290,
+		"cachedTokens": 0,
+		"outputTokens": 462,
+		"reasoningTokens": 297
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:18:18.786Z",
+		"checkedAt": "2026-10-08T05:08:23.326Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1149,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

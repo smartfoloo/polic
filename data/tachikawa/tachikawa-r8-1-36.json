@@ -22,5 +22,50 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian36.pdf",
 			"fetchedAt": "2026-10-01T14:24:08.677Z"
 		}
-	]
+	],
+	"name": "職員の特別休暇と子育て部分休暇を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、特別休暇には生理休暇があり、健康管理休暇は含まれていません。この議案では、生理休暇を一覧から外して健康管理休暇を加えます。また、子育て部分休暇を利用できる期間の終わりを、子どもが9歳になる日と学校などの第3学年を修了する日の遅い方を基準に改めます。",
+	"changes": [
+		"特別休暇に健康管理休暇を加え、生理休暇を外す",
+		"子育て部分休暇を利用できる期間の終わりを、9歳到達日または第3学年修了日の遅い方の後の最初の3月31日までとする"
+	],
+	"who": [
+		"特別休暇を利用する立川市職員",
+		"子育て部分休暇を利用する立川市職員"
+	],
+	"why": "地方公務員法第24条第5項の規定によるものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:28:14.793Z",
+		"inputTokens": 2089,
+		"cachedTokens": 0,
+		"outputTokens": 1494,
+		"reasoningTokens": 1199
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:28:14.793Z",
+		"checkedAt": "2026-10-08T05:52:02.721Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "子育て部分休暇を利用できる期間の終わりを、9歳到達日または第3学年修了日の遅い方の後の最初の3月31日までとする",
+				"note": "原文第21条は「いずれか遅い日以後の最初の３月31日」。要約の「後」ではその日を含まず、遅い日が3月31日の場合に期限が翌年までずれる。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2056,
+			"cachedTokens": 0,
+			"outputTokens": 248,
+			"reasoningTokens": 109
+		}
+	}
 }

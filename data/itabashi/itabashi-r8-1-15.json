@@ -27,5 +27,41 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_15.pdf",
 			"fetchedAt": "2026-10-02T15:02:00.473Z"
 		}
-	]
+	],
+	"name": "高齢者住宅2施設を廃止",
+	"category": "住宅",
+	"summary": "区立高齢者住宅として条例に定められている成増けやき苑と小豆沢けやき苑を、条例から削ります。施行日は区規則で定めます。",
+	"changes": [
+		"成増けやき苑と小豆沢けやき苑を廃止する"
+	],
+	"who": [
+		"成増けやき苑の入居者",
+		"小豆沢けやき苑の入居者"
+	],
+	"why": "成増けやき苑と小豆沢けやき苑を廃止する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:49:52.551Z",
+		"inputTokens": 1187,
+		"cachedTokens": 0,
+		"outputTokens": 565,
+		"reasoningTokens": 405
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:49:52.551Z",
+		"checkedAt": "2026-10-08T05:26:44.745Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1042,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

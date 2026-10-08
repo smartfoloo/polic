@@ -22,5 +22,51 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_75.pdf",
 			"fetchedAt": "2026-10-02T15:05:18.523Z"
 		}
-	]
+	],
+	"name": "認定こども園に犯罪事実確認を追加",
+	"category": "子育て",
+	"summary": "現在の条例に、児童対象性暴力等を防ぐための規定を加えます。認定こども園の設置者に、子どもと接する一部の職員の犯罪事実確認などを求めます。施行日は2026年12月25日です。",
+	"changes": [
+		"児童対象性暴力等を防ぎ、発生した場合に子どもを保護するための措置を定める",
+		"設置者に、対象となる職員の犯罪事実確認などを義務付ける"
+	],
+	"who": [
+		"認定こども園の設置者",
+		"認定こども園で子どもと接する一部の職員",
+		"認定こども園に通う子ども"
+	],
+	"why": "法律の施行などに伴い、対象となる職員の犯罪事実確認などに関する規定を加えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:41:48.238Z",
+		"inputTokens": 1626,
+		"cachedTokens": 0,
+		"outputTokens": 1137,
+		"reasoningTokens": 887
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:41:48.238Z",
+		"checkedAt": "2026-10-08T05:31:00.157Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "認定こども園の設置者",
+				"note": "原文の対象は「幼保連携型認定こども園以外の認定こども園」の設置者です。要約ではこの限定がなく、幼保連携型も対象に含む表現になっています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1572,
+			"cachedTokens": 0,
+			"outputTokens": 271,
+			"reasoningTokens": 173
+		}
+	}
 }

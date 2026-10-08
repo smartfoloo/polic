@@ -22,5 +22,42 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian27.pdf",
 			"fetchedAt": "2026-10-01T14:23:14.673Z"
 		}
-	]
+	],
+	"name": "道路の占用料を引き上げ",
+	"category": "交通",
+	"summary": "道路上に電柱や看板、工事用施設などを置くときの占用料は、条例の別表で定めています。この議案では、物件ごとの料金を改定し、2026年4月1日から適用します。継続して許可を受けている場合の料金には上限を設けます。",
+	"changes": [
+		"道路上の占用物件ごとの占用料を改定する",
+		"継続占用の料金を前年度額の120%までとする",
+		"新たに許可された占用物件の料金を、継続占用者と同額にする"
+	],
+	"who": [
+		"道路を占用する許可を受けている事業者・団体"
+	],
+	"why": "道路法第39条第2項の規定による改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:25:58.658Z",
+		"inputTokens": 4017,
+		"cachedTokens": 0,
+		"outputTokens": 1630,
+		"reasoningTokens": 1376
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:25:58.658Z",
+		"checkedAt": "2026-10-08T05:50:33.998Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3940,
+			"cachedTokens": 0,
+			"outputTokens": 117,
+			"reasoningTokens": 103
+		}
+	}
 }

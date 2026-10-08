@@ -22,5 +22,39 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/81546.pdf",
 			"fetchedAt": "2026-10-01T14:28:22.834Z"
 		}
-	]
+	],
+	"name": "給食センターの所在地を根ヶ布に定める",
+	"category": "教育",
+	"summary": "市立学校給食センターには2つの調理場があります。この議案では、調理場の統合に合わせて条例を改め、センターの所在地を東京都青梅市根ヶ布1丁目469番地の4とし、令和9年4月1日から施行します。",
+	"changes": [
+		"センターの所在地として東京都青梅市根ヶ布1丁目469番地の4を加える",
+		"第1条第2項と別表を削る"
+	],
+	"who": [],
+	"why": "2つの調理場を統合することに伴い、必要な規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:14:34.865Z",
+		"inputTokens": 1262,
+		"cachedTokens": 0,
+		"outputTokens": 1096,
+		"reasoningTokens": 917
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:14:34.865Z",
+		"checkedAt": "2026-10-08T05:44:36.665Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1134,
+			"cachedTokens": 0,
+			"outputTokens": 44,
+			"reasoningTokens": 30
+		}
+	}
 }

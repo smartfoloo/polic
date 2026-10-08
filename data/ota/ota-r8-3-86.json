@@ -22,5 +22,42 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_kuchogian.files/r0803kuchogian86_89.pdf",
 			"fetchedAt": "2026-10-02T14:54:29.531Z"
 		}
-	]
+	],
+	"name": "選挙ビラ・ポスターの公費負担限度額を改定",
+	"category": "行政のしくみ",
+	"summary": "区議会議員選挙と区長選挙では、選挙運動用のビラやポスターの作成費に、公費負担の限度額が定められています。この議案で、ビラとポスターの作成費に関する限度額を引き上げます。改正後の額は、施行日以後に告示される選挙から適用されます。",
+	"changes": [
+		"ビラ作成費の公費負担限度額を7円73銭から8円38銭に改める",
+		"ポスター作成費に関する公費負担の額を28円35銭から30円73銭に改める",
+		"ポスター作成費に関する公費負担の限度額を586,905円から609,690円に改める"
+	],
+	"who": [
+		"大田区議会議員選挙・大田区長選挙の立候補者"
+	],
+	"why": "公職選挙法施行令の改正に伴い、ビラやポスターの作成にかかる公費負担の限度額を改定するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:22:04.122Z",
+		"inputTokens": 1485,
+		"cachedTokens": 0,
+		"outputTokens": 1615,
+		"reasoningTokens": 1270
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:22:04.122Z",
+		"checkedAt": "2026-10-08T05:48:07.936Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1497,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

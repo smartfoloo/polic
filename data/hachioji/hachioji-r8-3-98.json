@@ -22,5 +22,57 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:26:44.967Z"
 		}
-	]
+	],
+	"name": "第四中学校を外し、たがの杜を追加",
+	"category": "教育",
+	"summary": "市立学校設置条例には、市立学校の名称と位置が定められています。この議案では、第四中学校を一覧から外し、元本郷町二丁目21番1号にたがの杜義務教育学校を加えます。改正は令和9年4月1日からです。",
+	"changes": [
+		"第四中学校を市立学校の一覧から外す",
+		"たがの杜義務教育学校を市立学校の一覧に加える"
+	],
+	"who": [
+		"第四中学校の生徒・保護者",
+		"たがの杜義務教育学校の児童・生徒・保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:40:06.426Z",
+		"inputTokens": 1465,
+		"cachedTokens": 0,
+		"outputTokens": 1702,
+		"reasoningTokens": 1523
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:40:06.426Z",
+		"checkedAt": "2026-10-08T05:21:44.067Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "第四中学校を市立学校の一覧から外す",
+				"note": "原文の新旧対照表は左右の対応が崩れており、第四中学校の記載が改正前・改正後のどちらに属するか確認できないため、削除の向きは要確認。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "たがの杜義務教育学校を市立学校の一覧に加える",
+				"note": "原文の新旧対照表は左右の対応が崩れており、たがの杜義務教育学校の記載が改正前・改正後のどちらに属するか確認できないため、追加の向きは要確認。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1341,
+			"cachedTokens": 0,
+			"outputTokens": 478,
+			"reasoningTokens": 286
+		}
+	}
 }

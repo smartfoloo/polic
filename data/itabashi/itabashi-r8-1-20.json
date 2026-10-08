@@ -27,5 +27,39 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_20.pdf",
 			"fetchedAt": "2026-10-02T15:02:30.572Z"
 		}
-	]
+	],
+	"name": "保育施設職員に関する規定の参照先を整理",
+	"category": "子育て",
+	"summary": "区の条例では、特定教育・保育施設などの運営基準を定めています。この議案では、職員に関する規定の参照先を施設の種類に応じて改め、別の条文の文言を一部削ります。",
+	"changes": [
+		"第15条第1項第1号の文言を一部削る",
+		"第25条の職員に関する参照先を施設の種類別に改める"
+	],
+	"who": [],
+	"why": "内閣府令の改正に伴い、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:50:48.081Z",
+		"inputTokens": 1407,
+		"cachedTokens": 0,
+		"outputTokens": 1404,
+		"reasoningTokens": 1226
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:50:48.081Z",
+		"checkedAt": "2026-10-08T05:27:10.994Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1274,
+			"cachedTokens": 0,
+			"outputTokens": 46,
+			"reasoningTokens": 32
+		}
+	}
 }

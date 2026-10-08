@@ -22,5 +22,42 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian18.pdf",
 			"fetchedAt": "2026-10-01T14:22:20.671Z"
 		}
-	]
+	],
+	"name": "図書館の休館日に1月第3土曜日を追加",
+	"category": "教育",
+	"summary": "条例では、図書館の休館日や開館時間などを定めています。これまでは本館と分館の休館日に1月第3土曜日は含まれていませんでしたが、改正後は休館日に加わります。休日に関する表記なども整理します。",
+	"changes": [
+		"本館と分館の休館日に1月第3土曜日を加える",
+		"休館日や開館時間の条文で、休日に関する表記を整理する",
+		"利用制限などの条文で「一」を「いずれか」に改める"
+	],
+	"who": [
+		"市立図書館を利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:24:09.623Z",
+		"inputTokens": 2250,
+		"cachedTokens": 0,
+		"outputTokens": 1248,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:24:09.623Z",
+		"checkedAt": "2026-10-08T05:49:35.623Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2139,
+			"cachedTokens": 0,
+			"outputTokens": 132,
+			"reasoningTokens": 117
+		}
+	}
 }

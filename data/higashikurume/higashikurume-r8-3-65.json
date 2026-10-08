@@ -27,5 +27,42 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/681/2026082602.pdf",
 			"fetchedAt": "2026-10-02T15:33:10.533Z"
 		}
-	]
+	],
+	"name": "印鑑登録証明書の端末交付規定を整理",
+	"category": "くらし・手続き",
+	"summary": "現在の条例では、印鑑登録証明書を多機能端末機で申請し、受け取れる仕組みを定めています。この議案では、端末機の設置者の表現を「民間事業者」から「民間事業者等」に変え、条文の表記も整えます。",
+	"changes": [
+		"端末機の設置者の表現を「民間事業者」から「民間事業者等」に改める",
+		"条例中の仮名遣いや漢字表記を改める"
+	],
+	"who": [
+		"多機能端末機で印鑑登録証明書を取得する人",
+		"多機能端末機を設置する事業者等"
+	],
+	"why": "多機能端末機に関する規定を事務手数料条例と合わせ、文言を整理するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:44:50.747Z",
+		"inputTokens": 3797,
+		"cachedTokens": 0,
+		"outputTokens": 1309,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:44:50.747Z",
+		"checkedAt": "2026-10-08T05:24:04.300Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3736,
+			"cachedTokens": 0,
+			"outputTokens": 116,
+			"reasoningTokens": 102
+		}
+	}
 }

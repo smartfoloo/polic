@@ -22,5 +22,43 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "長房ふれあい館の部屋の利用料金を改定",
+	"category": "税・手数料",
+	"summary": "長房ふれあい館の各部屋について、条例に定める全日利用料金の金額が改定されます。2027年4月1日から、集会室1・2は各2,800円、会議室は11,300円などになります。実際の利用料金は、条例に定める金額の範囲内で指定管理者が定めます。",
+	"changes": [
+		"条例別表の集会室1・2の全日利用額を各1,900円から2,800円に改める",
+		"条例別表の会議室の全日利用額を8,200円から11,300円に改める",
+		"条例別表の娯楽室の全日利用額を5,000円から6,600円に改める",
+		"条例別表の多目的室2・3と創作室の全日利用額を、それぞれ6,900円から9,300円、3,800円から5,000円、3,200円から4,400円に改める"
+	],
+	"who": [
+		"長房ふれあい館の対象施設を利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:31:11.292Z",
+		"inputTokens": 1613,
+		"cachedTokens": 0,
+		"outputTokens": 1777,
+		"reasoningTokens": 1447
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:31:11.292Z",
+		"checkedAt": "2026-10-08T05:16:11.263Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1605,
+			"cachedTokens": 0,
+			"outputTokens": 85,
+			"reasoningTokens": 70
+		}
+	}
 }

@@ -27,5 +27,38 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077265.html",
 			"fetchedAt": "2026-10-01T14:31:07.572Z"
 		}
-	]
+	],
+	"name": "条例の読点表記を「、」に変更",
+	"category": "行政のしくみ",
+	"summary": "調布市の条例では、読点に「，」が使われています。この議案は、施行時点で公布されている条例の「，」を「、」に改めます。施行日は2026年4月1日です。",
+	"changes": [
+		"条例で読点に使う「，」を「、」に改める"
+	],
+	"who": [],
+	"why": "条例の読点の表記を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:21:25.441Z",
+		"inputTokens": 1140,
+		"cachedTokens": 0,
+		"outputTokens": 497,
+		"reasoningTokens": 337
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:21:25.441Z",
+		"checkedAt": "2026-10-08T05:10:03.106Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 968,
+			"cachedTokens": 0,
+			"outputTokens": 39,
+			"reasoningTokens": 25
+		}
+	}
 }

@@ -22,5 +22,51 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian44.pdf",
 			"fetchedAt": "2026-10-01T14:24:56.756Z"
 		}
-	]
+	],
+	"name": "職員の手当と給料表を改める",
+	"category": "行政のしくみ",
+	"summary": "地域手当は、給料などの合計額の14%です。この議案で16%に引き上げ、住居手当や通勤手当の支給方法、給料表も改めます。改正は2026年4月1日からです。",
+	"changes": [
+		"地域手当率を給料などの合計額の14%から16%に上げる",
+		"住居手当を、年齢や家賃に応じて月額7,500円、15,000円、30,000円に分ける",
+		"自転車等通勤手当の額を規則で定め、駐車場料金分を月額5,000円を上限に支給する仕組みを設ける",
+		"行政職給料表(1)の4級の給料月額を改め、一部職員の号給を切り替える"
+	],
+	"who": [
+		"立川市の一般職職員"
+	],
+	"why": "地方公務員法第25条第3項第1号及び第5号の規定によるものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:30:13.045Z",
+		"inputTokens": 8117,
+		"cachedTokens": 0,
+		"outputTokens": 2761,
+		"reasoningTokens": 2474
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:30:13.045Z",
+		"checkedAt": "2026-10-08T05:53:43.280Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "住居手当を、年齢や家賃に応じて月額7,500円、15,000円、30,000円に分ける",
+				"note": "原文第9条の3第2項では、満27歳に達する日以後の最初の3月31日までで家賃月額30,000円以上の職員について手当額を増やすことと、複数区分に該当する場合の合算を定めている。増額の対象条件と合算の扱いが抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 8100,
+			"cachedTokens": 0,
+			"outputTokens": 353,
+			"reasoningTokens": 191
+		}
+	}
 }

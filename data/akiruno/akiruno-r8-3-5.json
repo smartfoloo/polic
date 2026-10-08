@@ -22,5 +22,42 @@
 			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/gian5.pdf",
 			"fetchedAt": "2026-10-01T14:37:57.517Z"
 		}
-	]
+	],
+	"name": "聴聞などの通知方法を見直す",
+	"category": "行政のしくみ",
+	"summary": "聴聞や弁明の機会についての通知は、現在、市の掲示場に掲示する方法が定められています。改正後は、規則で定める方法で不特定多数が閲覧できる状態にし、市の掲示場への掲示または庁舎内の電子画面で通知内容を閲覧できるようにします。通知の公示を始めてから2週間で、本人に届いたものとみなします。この条例は令和8年5月21日に施行されます。",
+	"changes": [
+		"公示事項を規則で定める方法で不特定多数が閲覧できる状態にする",
+		"公示事項を書面で掲示するか、庁舎内の電子画面で閲覧できるようにする",
+		"公示の措置を始めてから2週間後に通知が本人に届いたものとみなす"
+	],
+	"who": [
+		"公示による通知の対象となる人"
+	],
+	"why": "行政手続法の改正に伴い、聴聞や弁明の機会の通知を公示する方法を整える必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:16:03.868Z",
+		"inputTokens": 2011,
+		"cachedTokens": 0,
+		"outputTokens": 1348,
+		"reasoningTokens": 1016
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:16:03.868Z",
+		"checkedAt": "2026-10-08T05:06:56.139Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2015,
+			"cachedTokens": 0,
+			"outputTokens": 201,
+			"reasoningTokens": 186
+		}
+	}
 }

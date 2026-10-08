@@ -22,5 +22,38 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian28.pdf",
 			"fetchedAt": "2026-10-01T14:23:20.672Z"
 		}
-	]
+	],
+	"name": "下水道職員の賠償責任免除の条文番号を更新",
+	"category": "行政のしくみ",
+	"summary": "下水道事業の職員の賠償責任を免除するには、市議会の同意が必要です。この議案では、その根拠として引用する地方自治法の条文番号を改め、令和8年9月24日から施行します。",
+	"changes": [
+		"賠償責任の免除に関する地方自治法の条文番号を改める"
+	],
+	"who": [],
+	"why": "地方自治法の一部を改正する法律が公布されたためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:26:04.145Z",
+		"inputTokens": 1409,
+		"cachedTokens": 0,
+		"outputTokens": 517,
+		"reasoningTokens": 334
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:26:04.145Z",
+		"checkedAt": "2026-10-08T05:50:36.816Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1264,
+			"cachedTokens": 0,
+			"outputTokens": 59,
+			"reasoningTokens": 44
+		}
+	}
 }

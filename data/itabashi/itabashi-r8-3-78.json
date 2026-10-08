@@ -22,5 +22,44 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_78.pdf",
 			"fetchedAt": "2026-10-02T15:05:36.516Z"
 		}
-	]
+	],
+	"name": "上板橋駅東第2の自転車駐車場を追加",
+	"category": "交通",
+	"summary": "区営自転車駐車場の一覧に、上板橋駅東第2自転車駐車場を加え、2026年11月1日から施行します。上板橋駅西の定期利用者は、一定の場合に東第2の利用承認を受けたものと扱われ、残り期間の利用料金は不要です。更新時の料金や、みなし承認の終了後の扱いも定めます。",
+	"changes": [
+		"別表に上板橋駅東第2自転車駐車場（東京都板橋区常盤台四丁目21番）を加える",
+		"上板橋駅西の定期利用承認を東第2の承認とみなし、残り期間の利用料金を不要とする",
+		"更新申請で上板橋駅西の定期利用承認を受けた場合、東第2の承認とみなし、西駐車場の料金額を適用する",
+		"みなし承認の効力が終わる日に残存期間がある場合、西駐車場の承認とみなし、その期間の利用料金を不要とする"
+	],
+	"who": [
+		"上板橋駅東第2自転車駐車場を利用する人",
+		"上板橋駅西自転車駐車場の定期利用者"
+	],
+	"why": "区営自転車駐車場1か所を新設する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:42:39.588Z",
+		"inputTokens": 1884,
+		"cachedTokens": 0,
+		"outputTokens": 2211,
+		"reasoningTokens": 1813
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:42:39.588Z",
+		"checkedAt": "2026-10-08T05:31:17.467Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1951,
+			"cachedTokens": 0,
+			"outputTokens": 167,
+			"reasoningTokens": 153
+		}
+	}
 }

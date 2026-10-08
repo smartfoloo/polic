@@ -22,5 +22,48 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "ホール全日利用の上限額を48万円に",
+	"category": "税・手数料",
+	"summary": "入場料等の最高額が1,000円以下か無料の場合、ホールを全日利用するときの条例上の金額は320,000円です。この議案では、指定管理者が定める利用料金の上限となる金額を480,000円に改めます。",
+	"changes": [
+		"入場料等の最高額が1,000円以下か無料の場合のホール全日利用額を320,000円から480,000円に改める"
+	],
+	"who": [
+		"該当する条件で市民会館のホールを全日利用する人や団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:31:21.194Z",
+		"inputTokens": 1500,
+		"cachedTokens": 0,
+		"outputTokens": 1200,
+		"reasoningTokens": 1022
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:31:21.194Z",
+		"checkedAt": "2026-10-08T05:16:18.047Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "入場料等の最高額が1,000円以下か無料の場合のホール全日利用額を320,000円から480,000円に改める",
+				"note": "附則第1～3項では、改正は令和9年（2027年）4月1日から施行され、同日以後の施設利用に適用される。料金変更の適用時期が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1362,
+			"cachedTokens": 0,
+			"outputTokens": 209,
+			"reasoningTokens": 82
+		}
+	}
 }

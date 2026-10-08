@@ -22,5 +22,67 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/027/155/r8giingian01-2.pdf",
 			"fetchedAt": "2026-10-01T14:25:38.703Z"
 		}
-	]
+	],
+	"name": "がん対策の役割や施策の基本事項を定める",
+	"category": "健康・医療",
+	"summary": "立川市のがん対策について、市や市議会、市民などの役割と施策の基本事項を定める条例です。市は予防や早期発見、相談体制、患者や家族への支援などを進め、毎年度、施策の実施状況を市議会に報告します。",
+	"changes": [
+		"市や市議会、市民、保健医療福祉関係者、事業者、教育関係者の役割を定める",
+		"がんの予防や早期発見、検診を受けやすくするための施策を進める",
+		"がん患者と家族への情報提供や相談体制、地域での支援を進める",
+		"市長が毎年度、がん対策の実施状況を市議会に報告する"
+	],
+	"who": [
+		"立川市民",
+		"がん患者とその家族",
+		"事業者と従業員"
+	],
+	"why": "がんの予防や早期発見を進め、がんになっても安心して自分らしく暮らせる環境をつくるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:33:30.640Z",
+		"inputTokens": 3676,
+		"cachedTokens": 0,
+		"outputTokens": 2151,
+		"reasoningTokens": 1808
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:33:30.640Z",
+		"checkedAt": "2026-10-08T05:56:19.387Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市や市議会、市民、保健医療福祉関係者、事業者、教育関係者の役割を定める",
+				"note": "第6条第2項の、従業員本人や家族ががん患者となった場合に、勤務を継続しながら治療・療養・看護できる環境の整備に事業者が努めるという主な内容が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "がん患者と家族への情報提供や相談体制、地域での支援を進める",
+				"note": "第10条の緩和ケアの推進と、第11条の小児期・AYA世代・高齢期などの段階に応じた患者支援が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市や市議会、市民、保健医療福祉関係者、事業者、教育関係者の役割を定める",
+				"note": "第7条・第16条の、児童・生徒に対するがんの理解や予防に関する教育の推進が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3689,
+			"cachedTokens": 0,
+			"outputTokens": 485,
+			"reasoningTokens": 116
+		}
+	}
 }

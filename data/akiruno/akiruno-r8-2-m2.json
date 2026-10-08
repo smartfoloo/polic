@@ -22,5 +22,38 @@
 			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20804/giin8-2.pdf",
 			"fetchedAt": "2026-10-01T14:39:03.582Z"
 		}
-	]
+	],
+	"name": "常任委員会の委員定数を7人から6人に",
+	"category": "行政のしくみ",
+	"summary": "条例で7人と定めている常任委員会の委員定数を、6人に変更します。この条例は公布の日から施行します。",
+	"changes": [
+		"第2条第2項第3号の委員定数を7人から6人に改める"
+	],
+	"who": [],
+	"why": "議員の定数減に伴い、常任委員会の委員定数を改正する必要があるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:14:43.492Z",
+		"inputTokens": 1272,
+		"cachedTokens": 0,
+		"outputTokens": 468,
+		"reasoningTokens": 318
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:14:43.492Z",
+		"checkedAt": "2026-10-08T05:06:21.485Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1112,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

@@ -22,5 +22,41 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian1.pdf",
 			"fetchedAt": "2026-10-02T15:26:08.906Z"
 		}
-	]
+	],
+	"name": "市営住宅に小名路団地を追加",
+	"category": "住宅",
+	"summary": "市営住宅条例の別表には、市営住宅の名称と位置が記載されています。この議案で、小名路団地とその位置として西浅川町を追加します。施行日は令和8年4月1日です。",
+	"changes": [
+		"市営住宅の一覧に小名路団地（西浅川町）を加える"
+	],
+	"who": [
+		"市営住宅への入居を希望する人",
+		"市営住宅に入居している人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:29:17.897Z",
+		"inputTokens": 1222,
+		"cachedTokens": 0,
+		"outputTokens": 626,
+		"reasoningTokens": 464
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:29:17.897Z",
+		"checkedAt": "2026-10-08T05:15:07.692Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1055,
+			"cachedTokens": 0,
+			"outputTokens": 160,
+			"reasoningTokens": 145
+		}
+	}
 }

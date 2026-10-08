@@ -22,5 +22,58 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:26:44.967Z"
 		}
-	]
+	],
+	"name": "保育園で乳児等通園支援を提供できるように",
+	"category": "子育て",
+	"summary": "現在の条例には、乳児等通園支援の規定はありません。改正後は保育園が支援を提供できるようになり、利用する乳児・幼児の保護者は給付認定を受ける必要があります。利用料は1時間300円を上限に定め、日用品や行事、食事などにかかる費用も徴収できるようにし、条例は2026年11月1日に施行します。",
+	"changes": [
+		"保育園が乳児等通園支援を提供できるようにする",
+		"利用料を1時間300円以内で定め、指定管理者は市長の承認を得て額を定める",
+		"日用品や行事、食事など、支援に伴う費用を徴収できるようにする",
+		"利用料の還付と、利用料・関連費用の減額や免除を可能にする"
+	],
+	"who": [
+		"乳児等通園支援を利用する乳児・幼児の保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:39:45.325Z",
+		"inputTokens": 3254,
+		"cachedTokens": 0,
+		"outputTokens": 1641,
+		"reasoningTokens": 1361
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:39:45.325Z",
+		"checkedAt": "2026-10-08T05:21:28.858Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保育園が乳児等通園支援を提供できるようにする",
+				"note": "第4条の2第2項の、利用する乳児・幼児の保護者に乳児等支援給付認定を義務付ける変更が、summaryにはあるがchangesにはない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用料の還付と、利用料・関連費用の減額や免除を可能にする",
+				"note": "第10条では納付済みの利用料は原則不還付で、特別の理由がある場合のみ還付できる。第11条の減免にも特別の理由等の条件があるが、これらの原則・条件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3232,
+			"cachedTokens": 0,
+			"outputTokens": 409,
+			"reasoningTokens": 204
+		}
+	}
 }

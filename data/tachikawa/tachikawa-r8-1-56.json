@@ -22,5 +22,53 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian56.pdf",
 			"fetchedAt": "2026-10-01T14:25:26.711Z"
 		}
-	]
+	],
+	"name": "3歳以上の小規模保育の基準を整備",
+	"category": "子育て",
+	"summary": "改正前の条例では、小規模保育事業をまとめて定義していました。改正後は、満3歳未満を対象とする事業と、満3歳以上を対象とする事業を分けて定義し、3歳以上の子どもの定員や利用選考、施設間の連携などの規定を整えます。市からの利用あっせんや調整、要請に対する施設・事業者の協力の定めも変わります。",
+	"changes": [
+		"小規模保育事業を年齢区分に応じて定義する",
+		"3歳以上の子どもに関する定員や利用選考の規定を設ける",
+		"市のあっせん・調整・要請への協力の定めを改める",
+		"施設間の連携に関する対象や条件を見直す"
+	],
+	"who": [
+		"小規模保育などを利用・申請する子どもの保護者",
+		"特定地域型保育事業者",
+		"認定こども園・幼稚園・保育所の運営者"
+	],
+	"why": "児童福祉法などの改正法の一部施行に伴い、関係する内閣府令が公布されたためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:31:12.452Z",
+		"inputTokens": 21494,
+		"cachedTokens": 0,
+		"outputTokens": 2304,
+		"reasoningTokens": 1934
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:31:12.452Z",
+		"checkedAt": "2026-10-08T05:54:33.457Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "3歳以上の子どもに関する定員や利用選考の規定を設ける",
+				"note": "第43条第1項で、利用者負担額を受領する対象の保護者を満3歳未満保育認定子どもの保護者に限定する変更があるが、費用負担に関する変更がchangesにない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 21537,
+			"cachedTokens": 0,
+			"outputTokens": 344,
+			"reasoningTokens": 228
+		}
+	}
 }

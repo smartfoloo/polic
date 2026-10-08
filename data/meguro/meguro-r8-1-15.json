@@ -27,5 +27,45 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "公共の場所での路上喫煙を禁止",
+	"category": "環境",
+	"summary": "この条例に、区内全域の公共の場所で路上喫煙を禁止する規定を加えます。区長が設置・指定する喫煙所や、公共の場所の管理者が管理する喫煙所は対象外です。違反した人への指導や、環境美化活動への区の支援を定め、2026年10月1日に施行します。",
+	"changes": [
+		"公共の場所での路上喫煙を禁止する",
+		"違反した人に路上喫煙をしないよう指導できるようにする",
+		"公共の場所以外で喫煙するとき、周囲に煙を吸わせず、たばこの火を接触させないよう配慮することを定める",
+		"区が区民等や事業者の環境美化活動を支援する責務を定める"
+	],
+	"who": [
+		"公共の場所で喫煙する人",
+		"公共の場所以外で喫煙する人",
+		"環境美化活動を行う区民や事業者"
+	],
+	"why": "区内全域における路上喫煙を禁止し、まちの環境美化をより一層推進するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:01:56.586Z",
+		"inputTokens": 2075,
+		"cachedTokens": 0,
+		"outputTokens": 1660,
+		"reasoningTokens": 1341
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:01:56.586Z",
+		"checkedAt": "2026-10-08T05:37:48.989Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2101,
+			"cachedTokens": 0,
+			"outputTokens": 85,
+			"reasoningTokens": 70
+		}
+	}
 }

@@ -22,5 +22,56 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian42.pdf",
 			"fetchedAt": "2026-10-01T14:24:44.702Z"
 		}
-	]
+	],
+	"name": "常勤監査委員の給与と旅費を定める",
+	"category": "行政のしくみ",
+	"summary": "現在の条例は、市長、副市長、教育長の給与や旅費を定めています。この議案で常勤監査委員を対象に加え、月額給料を679,000円、退職手当の割合を勤続1年につき給料月額の200/100とします。出張旅費の種類や計算方法も改め、条例は令和8年4月1日から施行します。旅費の新ルールは、同日以後に出発する出張に適用します。",
+	"changes": [
+		"常勤監査委員を給与等の対象に加え、給料を月額679,000円とする",
+		"常勤監査委員の退職手当を、勤続1年につき給料月額の200/100とする",
+		"旅費の種類や宿泊費の算定方法を改める",
+		"鉄道賃、船賃、航空賃を、指定職職員等に相当する額を上限に実費で支給する"
+	],
+	"who": [],
+	"why": "地方自治法第204条第3項の規定に基づく改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:29:38.993Z",
+		"inputTokens": 3393,
+		"cachedTokens": 0,
+		"outputTokens": 2196,
+		"reasoningTokens": 1863
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:29:38.993Z",
+		"checkedAt": "2026-10-08T05:53:15.014Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "旅費の新ルールは、同日以後に出発する出張に適用します。",
+				"note": "附則第2項で出発日による適用を定めているのは第5条第2項・第3項のみであり、旅費の新ルール全体ではありません。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "鉄道賃、船賃、航空賃を、指定職職員等に相当する額を上限に実費で支給する",
+				"note": "原文の第5条第5項付近は空欄と条文の列の対応が崩れており、この規定が改正後に加わるものか、表から変更の向きを確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3392,
+			"cachedTokens": 0,
+			"outputTokens": 588,
+			"reasoningTokens": 383
+		}
+	}
 }

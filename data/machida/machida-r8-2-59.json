@@ -27,5 +27,52 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6772_59gou.pdf",
 			"fetchedAt": "2026-10-01T14:25:05.940Z"
 		}
-	]
+	],
+	"name": "下水道使用料に月額基本額を設定",
+	"category": "税・手数料",
+	"summary": "現在は、汚水の種類や量に応じて下水道使用料を計算しています。この議案では、一般汚水に月額740円の基本額を設け、汚水量ごとの単価や月途中で使用を始めたりやめたりした場合の計算方法を改めます。改正後の料金は、2027年1月1日以後の使用分から適用します。",
+	"changes": [
+		"一般汚水に月額740円の基本額を設ける",
+		"汚水量ごとの使用料単価を改める",
+		"浴場汚水の使用料算定方法を改める",
+		"使用日数が15日以内の場合の基本額を半額にする"
+	],
+	"who": [
+		"下水道を利用する市民や事業者",
+		"公衆浴場の営業者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:59:27.808Z",
+		"inputTokens": 2771,
+		"cachedTokens": 0,
+		"outputTokens": 3456,
+		"reasoningTokens": 3192
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:59:27.808Z",
+		"checkedAt": "2026-10-08T05:36:42.121Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "浴場汚水の使用料算定方法を改める",
+				"note": "改正後の第22条第2項では、浴場汚水に月額370円の基本額を設け、排水量1立方メートルにつき40円とする。利用者に直接関わる料金体系の主な変更が具体的に示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2701,
+			"cachedTokens": 0,
+			"outputTokens": 275,
+			"reasoningTokens": 158
+		}
+	}
 }

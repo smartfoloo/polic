@@ -22,5 +22,42 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/80386.pdf",
 			"fetchedAt": "2026-10-01T14:27:34.323Z"
 		}
-	]
+	],
+	"name": "公務災害の葬祭補償を330,000円に",
+	"category": "福祉",
+	"summary": "市議会議員や非常勤職員、消防団員等の公務災害に対する葬祭補償額は、2つの条例で315,000円と定められています。この議案では、どちらの条例も330,000円に改めます。条例は公布日から施行し、改正後の額は2026年4月1日以降に支給事由が生じた補償に適用します。",
+	"changes": [
+		"市議会議員・非常勤職員向けの葬祭補償額を315,000円から330,000円に引き上げる",
+		"消防団員等向けの葬祭補償額を315,000円から330,000円に引き上げる"
+	],
+	"who": [
+		"公務災害で亡くなった市議会議員や非常勤職員の葬祭補償を受ける人",
+		"公務災害で亡くなった消防団員等の葬祭補償を受ける人"
+	],
+	"why": "関係する政令の一部改正に伴い、葬祭補償の額を引き上げるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:10:59.655Z",
+		"inputTokens": 2312,
+		"cachedTokens": 0,
+		"outputTokens": 1356,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:10:59.655Z",
+		"checkedAt": "2026-10-08T05:42:20.730Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2337,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 33
+		}
+	}
 }

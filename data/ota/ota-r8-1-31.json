@@ -22,5 +22,42 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "医療費助成で個人番号カードを使えるように",
+	"category": "健康・医療",
+	"summary": "現在、医療費助成を受ける際は医療証を使います。この改正で、医療機関などで助成を受ける資格を確認できる場合は、医療証に加えて個人番号カードを提示する方法が加わります。令和8年4月1日に施行されます。",
+	"changes": [
+		"医療証に加え、医療機関などで助成資格を確認できる場合に個人番号カードを使えるようにする",
+		"被扶養者に関する規定を、疾病や負傷について医療給付を受ける人を示す表現に改める"
+	],
+	"who": [
+		"乳幼児、義務教育就学児、高校生等",
+		"医療費助成を受ける子どもの保護者"
+	],
+	"why": "医療費助成を受ける手続に個人番号カードを提示する方法を加え、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:19:12.735Z",
+		"inputTokens": 1456,
+		"cachedTokens": 0,
+		"outputTokens": 1147,
+		"reasoningTokens": 858
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:19:12.735Z",
+		"checkedAt": "2026-10-08T05:46:59.675Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1411,
+			"cachedTokens": 0,
+			"outputTokens": 64,
+			"reasoningTokens": 50
+		}
+	}
 }

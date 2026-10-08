@@ -22,5 +22,53 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_73.pdf",
 			"fetchedAt": "2026-10-02T15:05:06.498Z"
 		}
-	]
+	],
+	"name": "乳児通園支援の従事者に犯罪事実確認",
+	"category": "子育て",
+	"summary": "現在の条例に、利用乳幼児と接する従事者への犯罪事実確認などを定める条文はありません。議案は、乳児等通園支援事業者に、児童対象性暴力等を防ぎ、起きた場合に利用乳幼児を保護するための措置を義務付けます。施行日は2026年12月25日です。",
+	"changes": [
+		"児童対象性暴力等を防ぐための必要な措置を事業者に義務付ける",
+		"支配性・継続性・閉鎖性のある環境で利用乳幼児に接する従事者について、犯罪事実確認などの必要な措置を講じる",
+		"児童対象性暴力等が行われた場合に利用乳幼児を適切に保護する"
+	],
+	"who": [
+		"乳児等通園支援事業を利用する乳幼児",
+		"乳児等通園支援事業者と、利用乳幼児に接する対象従事者"
+	],
+	"why": "児童対象性暴力等の防止に関する法律の施行などに伴い、対象従事者の犯罪事実確認など必要な措置を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:41:23.504Z",
+		"inputTokens": 1611,
+		"cachedTokens": 0,
+		"outputTokens": 1756,
+		"reasoningTokens": 1425
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:41:23.504Z",
+		"checkedAt": "2026-10-08T05:30:46.725Z",
+		"flags": [
+			"copied from the source (29 chars): 「児童対象性暴力等が行われた場合に利用乳幼児を適切に保護する」"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在の条例に、利用乳幼児と接する従事者への犯罪事実確認などを定める条文はありません。",
+				"note": "原文は第13条の2を加えるとしていますが、現行条例に関連する条文がないことまでは確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1638,
+			"cachedTokens": 0,
+			"outputTokens": 205,
+			"reasoningTokens": 109
+		}
+	}
 }

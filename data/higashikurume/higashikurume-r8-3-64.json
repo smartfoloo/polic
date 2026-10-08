@@ -27,5 +27,38 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/681/2026082602.pdf",
 			"fetchedAt": "2026-10-02T15:33:10.533Z"
 		}
-	]
+	],
+	"name": "廃棄物条例の参照条項を変更",
+	"category": "環境",
+	"summary": "市長が多量の事業系廃棄物について、減量計画の作成などを指示できる範囲を定める条文があります。今回、そこで参照する法律の条項を「第6条の2第5項」から「第6条の2第7項」に改めます。施行日は、国の改正法の該当規定が施行される日です。",
+	"changes": [
+		"根拠条文の参照を第6条の2第5項から第6条の2第7項に改める"
+	],
+	"who": [],
+	"why": "廃棄物処理法などを改正する法律の施行に伴い、規定を整える必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:44:39.393Z",
+		"inputTokens": 1613,
+		"cachedTokens": 0,
+		"outputTokens": 933,
+		"reasoningTokens": 702
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:44:39.393Z",
+		"checkedAt": "2026-10-08T05:23:59.764Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1518,
+			"cachedTokens": 0,
+			"outputTokens": 57,
+			"reasoningTokens": 43
+		}
+	}
 }

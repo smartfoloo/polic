@@ -27,5 +27,41 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6765_52gou.pdf",
 			"fetchedAt": "2026-10-01T14:23:41.984Z"
 		}
-	]
+	],
+	"name": "保育施設の費用補助・減免に個人番号を利用",
+	"category": "デジタル",
+	"summary": "市の個人番号利用事務の一覧には、保育施設を利用する児童の保護者が負担する費用の補助・減免に関する事務はありません。この議案ではその事務を追加し、規則で定める生活保護、地方税、中国残留邦人等支援給付等の情報を手続きに使えるようにします。",
+	"changes": [
+		"保護者から徴収する費用の補助・減免事務を個人番号利用の対象に加える",
+		"手続きで使う情報に生活保護、地方税、中国残留邦人等支援給付等の情報を加える"
+	],
+	"who": [
+		"認可保育所などを利用する児童の保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:57:35.684Z",
+		"inputTokens": 1507,
+		"cachedTokens": 0,
+		"outputTokens": 1344,
+		"reasoningTokens": 1127
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:57:35.684Z",
+		"checkedAt": "2026-10-08T05:35:28.203Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1414,
+			"cachedTokens": 0,
+			"outputTokens": 141,
+			"reasoningTokens": 126
+		}
+	}
 }

@@ -27,5 +27,42 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai2kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:26:52.140Z"
 		}
-	]
+	],
+	"name": "市が個人番号を使う事務を2件追加",
+	"category": "デジタル",
+	"summary": "市の条例では、個人番号を利用する事務と、その事務で使う情報を定めています。この議案で、日常生活用具の給付と定期利用保育事業の保育料助成に関する事務を加え、それぞれで使う情報も定めます。",
+	"changes": [
+		"小児慢性特定疾病児童等の日常生活用具の給付事務で、規則で定める生活保護・税・住民票などの情報を使う",
+		"定期利用保育事業の保育料助成事務で、規則で定める税・住民票などの情報を使う"
+	],
+	"who": [
+		"小児慢性特定疾病児童等の日常生活用具の給付を申請する人",
+		"定期利用保育事業の保育料助成を申請する人"
+	],
+	"why": "市独自に個人番号を利用する事務を追加するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:26:19.618Z",
+		"inputTokens": 1547,
+		"cachedTokens": 0,
+		"outputTokens": 1523,
+		"reasoningTokens": 1259
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:26:19.618Z",
+		"checkedAt": "2026-10-08T05:13:09.639Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1507,
+			"cachedTokens": 0,
+			"outputTokens": 128,
+			"reasoningTokens": 114
+		}
+	}
 }

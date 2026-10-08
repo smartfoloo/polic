@@ -27,5 +27,51 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/064/133/r80605_gian_42.pdf",
 			"fetchedAt": "2026-10-02T15:03:48.523Z"
 		}
-	]
+	],
+	"name": "水防・災害応急措置の補償基準を政令に準拠",
+	"category": "防災",
+	"summary": "水防や災害時の応急措置に従事した人への損害補償を定める条例を、全面改正します。補償の種類や基準を政令の例によることとし、申請や審査請求などの手続も定めます。公布日に施行し、令和8年4月1日から適用します。",
+	"changes": [
+		"損害補償の種類や基準を政令の例によることにする",
+		"損害補償の申請や審査請求などの手続を定める",
+		"誤った支給や不正に受けた補償費の返還を求められるようにする"
+	],
+	"who": [
+		"水防に従事する人",
+		"災害時の応急措置に従事する人"
+	],
+	"why": "損害補償に関する規定を政令に準拠させ、必要な規定を整えるためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:54:45.397Z",
+		"inputTokens": 2719,
+		"cachedTokens": 0,
+		"outputTokens": 1318,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:54:45.397Z",
+		"checkedAt": "2026-10-08T05:29:07.679Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "損害補償の申請や審査請求などの手続を定める",
+				"note": "第7条では、申請者や関係人に報告・文書提出を求め、出頭や医師の診断・検案を受けさせることができると定めている。対象者に直接関わるこの規定が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2700,
+			"cachedTokens": 0,
+			"outputTokens": 301,
+			"reasoningTokens": 178
+		}
+	}
 }

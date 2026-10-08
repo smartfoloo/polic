@@ -22,5 +22,43 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/segantinjo/sicyotesyutu/r8sicyotesyutu/3teirei.files/8-3-085.pdf",
 			"fetchedAt": "2026-10-04T00:19:40.597Z"
 		}
-	]
+	],
+	"name": "審議会を置き廃棄物関連の規定を改める",
+	"category": "環境",
+	"summary": "現在の条例は、市長が府中市廃棄物減量等推進審議会を設置できると定めています。この議案では審議会を置く規定に改め、再生資源の定義や廃棄物に関する法律の参照先を更新します。",
+	"changes": [
+		"事業者が利用に努める再生資源の参照先を法律第2条第1項から第2条第4項に変える",
+		"審議会を設置できる規定を、審議会を置く規定に変える",
+		"審議会の設置根拠を法律第5条の2から第5条の7に変える",
+		"多量の一般廃棄物について市長が指示できる根拠を法律第6条の2第5項から第7項に変える"
+	],
+	"who": [
+		"事業者"
+	],
+	"why": "廃棄物の処理及び清掃に関する法律の一部改正に伴う改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:28:19.486Z",
+		"inputTokens": 1865,
+		"cachedTokens": 0,
+		"outputTokens": 2018,
+		"reasoningTokens": 1696
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:28:19.486Z",
+		"checkedAt": "2026-10-08T05:14:26.114Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1860,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 41
+		}
+	}
 }

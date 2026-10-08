@@ -22,5 +22,43 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_kuchogian.files/r0803kuchogian86_89.pdf",
 			"fetchedAt": "2026-10-02T14:54:29.531Z"
 		}
-	]
+	],
+	"name": "通園支援事業者に性暴力防止措置を義務化",
+	"category": "子育て",
+	"summary": "条例に、乳児等通園支援事業で児童対象性暴力等を防ぐための規定を新たに設けます。事業者は、対象となる従事者の犯罪事実確認などを行い、性暴力等が起きた場合には利用乳幼児を適切に保護する必要があります。施行日は2026年12月25日です。",
+	"changes": [
+		"対象となる従事者について犯罪事実確認などの必要な措置を講じる",
+		"児童対象性暴力等の防止と、発生時の利用乳幼児の保護を行う"
+	],
+	"who": [
+		"乳児等通園支援事業者",
+		"乳児等通園支援事業を利用する乳幼児",
+		"利用乳幼児と接する対象従事者"
+	],
+	"why": "乳児等通園支援事業の設備及び運営に関する基準の改正に伴い、児童対象性暴力等の防止に関する規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:22:31.736Z",
+		"inputTokens": 1583,
+		"cachedTokens": 0,
+		"outputTokens": 1163,
+		"reasoningTokens": 845
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:22:31.736Z",
+		"checkedAt": "2026-10-08T05:48:24.096Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1568,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

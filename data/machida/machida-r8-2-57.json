@@ -27,5 +27,44 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6770_57gou.pdf",
 			"fetchedAt": "2026-10-01T14:24:42.023Z"
 		}
-	]
+	],
+	"name": "通園支援事業所の職員規定などを改正",
+	"category": "子育て",
+	"summary": "条例では、乳児等通園支援事業の職員や運営に関する基準を定めています。この議案は、職員や利用定員に関する規定を改め、児童対象性暴力等を防ぐための犯罪事実確認などを事業者に求めます。条例は公布日から施行し、児童対象性暴力等に関する改正は2026年12月25日から施行します。",
+	"changes": [
+		"職員に関する規定の表現を、事業者単位から事業所単位に改める",
+		"児童対象性暴力等の防止と発生時の保護に向け、犯罪事実確認などを事業者に求める",
+		"運営規程に定める利用定員を、乳児・幼児別から全体の定員に改める",
+		"余裕活用型の事業定義や規定の準用、電磁的記録に関する表現を改める"
+	],
+	"who": [
+		"乳児等通園支援事業を利用する乳幼児と保護者",
+		"乳児等通園支援事業者と職員"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:58:53.734Z",
+		"inputTokens": 3758,
+		"cachedTokens": 0,
+		"outputTokens": 1695,
+		"reasoningTokens": 1379
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:58:53.734Z",
+		"checkedAt": "2026-10-08T05:36:27.378Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3771,
+			"cachedTokens": 0,
+			"outputTokens": 117,
+			"reasoningTokens": 102
+		}
+	}
 }

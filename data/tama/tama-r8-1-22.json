@@ -22,5 +22,40 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo13-35.pdf",
 			"fetchedAt": "2026-10-02T15:38:18.726Z"
 		}
-	]
+	],
+	"name": "公契約業務で60歳以上を除く規定を削除",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、第5条第2号・第3号に定める公契約等の業務について、満60歳以上の人を第2条第5号の対象から除いています。この議案はその除外をなくし、2027年4月1日以後に締結する公契約等に改正後の規定を適用します。",
+	"changes": [
+		"第5条第2号・第3号の公契約等の業務で、満60歳以上の人を除く規定を削る"
+	],
+	"who": [
+		"第5条第2号・第3号に定める公契約等の業務に従事する満60歳以上の人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:34:54.735Z",
+		"inputTokens": 1232,
+		"cachedTokens": 0,
+		"outputTokens": 915,
+		"reasoningTokens": 709
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:34:54.735Z",
+		"checkedAt": "2026-10-08T05:57:01.281Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1134,
+			"cachedTokens": 0,
+			"outputTokens": 41,
+			"reasoningTokens": 26
+		}
+	}
 }

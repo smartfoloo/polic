@@ -27,5 +27,39 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6677_17gou.pdf",
 			"fetchedAt": "2026-10-01T14:20:29.930Z"
 		}
-	]
+	],
+	"name": "職員の再任用に関する組合名を変更",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、職員の再任用などに関する規定で、関係する組合の名称を「東京都六市競艇事業組合」「たま広域資源循環組合」と記載しています。この議案では、記載を「東京都六市ボートレース事業組合」「東京たま広域資源循環組合」に改めます。",
+	"changes": [
+		"「東京都六市競艇事業組合」を「東京都六市ボートレース事業組合」に改める",
+		"「たま広域資源循環組合」を「東京たま広域資源循環組合」に改める"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:48:04.925Z",
+		"inputTokens": 2230,
+		"cachedTokens": 0,
+		"outputTokens": 651,
+		"reasoningTokens": 456
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:48:04.925Z",
+		"checkedAt": "2026-10-08T05:33:38.549Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2111,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

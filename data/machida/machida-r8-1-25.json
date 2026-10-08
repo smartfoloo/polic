@@ -27,5 +27,38 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6685_25gou.pdf",
 			"fetchedAt": "2026-10-01T14:22:05.913Z"
 		}
-	]
+	],
+	"name": "変更承認申請の法律上の引用を修正",
+	"category": "税・手数料",
+	"summary": "薬局製造販売医薬品の製造販売品目を一部変更する承認申請には、1件140円の手数料がかかります。この議案では、申請に関係する法律の引用を第14条第15項から第14条第13項に改めます。改正は2026年5月1日から施行されます。",
+	"changes": [
+		"申請手数料の根拠として示す法律の条項を第14条第15項から第14条第13項に改める"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:49:28.893Z",
+		"inputTokens": 1463,
+		"cachedTokens": 0,
+		"outputTokens": 794,
+		"reasoningTokens": 624
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:49:28.893Z",
+		"checkedAt": "2026-10-08T05:34:30.257Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1313,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 28
+		}
+	}
 }

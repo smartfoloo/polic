@@ -22,5 +22,41 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo13-35.pdf",
 			"fetchedAt": "2026-10-02T15:38:18.726Z"
 		}
-	]
+	],
+	"name": "野球場の夜間照明設備の項目を削除",
+	"category": "まちづくり",
+	"summary": "条例の第2条第2項では、夜間照明を「夜間照明施設」と表記しています。また、別表第2には、野球場の付帯設備として夜間照明設備の項があります。この表記を「夜間照明設備」に改め、項を削除し、2026年12月1日から施行します。",
+	"changes": [
+		"「夜間照明施設」を「夜間照明設備」に改める",
+		"野球場の付帯設備から夜間照明設備の項を削る"
+	],
+	"who": [
+		"夜間照明設備を使って野球場を利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:35:41.056Z",
+		"inputTokens": 1215,
+		"cachedTokens": 0,
+		"outputTokens": 1070,
+		"reasoningTokens": 861
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:35:41.056Z",
+		"checkedAt": "2026-10-08T05:57:27.501Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1097,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

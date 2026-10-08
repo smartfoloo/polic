@@ -27,5 +27,41 @@
 			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
 			"fetchedAt": "2026-10-02T15:39:08.877Z"
 		}
-	]
+	],
+	"name": "公示送達に電子画面を使えるように",
+	"category": "行政のしくみ",
+	"summary": "現在、後期高齢者医療に関する公示送達は、書面を掲示して行うことになっています。この議案では、公示事項を不特定多数の人が閲覧できる状態にしたうえで、市の事務所にある電子計算機の画面で閲覧できるようにする方法も選べるようにします。改正後の規定は、条例の施行日以後に行う公示送達に適用します。",
+	"changes": [
+		"公示事項を不特定多数の人が閲覧できる状態にする措置を定める",
+		"公示送達を、書面の掲示または市の事務所の電子計算機画面で閲覧できる方法で行えるようにする"
+	],
+	"who": [
+		"後期高齢者医療に関する公示送達を受ける人"
+	],
+	"why": "地方税法の一部改正に伴い、公示送達の方法を定め直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:43:57.606Z",
+		"inputTokens": 1472,
+		"cachedTokens": 0,
+		"outputTokens": 1738,
+		"reasoningTokens": 1441
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:43:57.606Z",
+		"checkedAt": "2026-10-08T05:31:42.645Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1443,
+			"cachedTokens": 0,
+			"outputTokens": 54,
+			"reasoningTokens": 39
+		}
+	}
 }

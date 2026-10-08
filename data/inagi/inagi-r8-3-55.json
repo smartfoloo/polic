@@ -22,5 +22,44 @@
 			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/014/314/r8.3gian.pdf",
 			"fetchedAt": "2026-10-02T15:35:32.569Z"
 		}
-	]
+	],
+	"name": "下水道使用料を段階的に引き上げ",
+	"category": "税・手数料",
+	"summary": "現在、下水道使用料は汚水の種類と排出量に応じて決まります。条例を改正し、一般汚水と浴場汚水の料金を2027年4月から段階的に引き上げ、2029年4月以降に新しい料率を適用します。",
+	"changes": [
+		"一般汚水の基本使用料を8立方メートル以下で月560円から段階的に662円に上げる",
+		"一般汚水の超過使用料を排出量の区分ごとに1立方メートル110～345円から130～408円に段階的に上げる",
+		"浴場汚水の基本使用料を8立方メートル以下で月280円から段階的に331円に上げる",
+		"浴場汚水の超過使用料を1立方メートル26円から段階的に31円に上げる"
+	],
+	"who": [
+		"公共下水道を利用する住民・事業者",
+		"公衆浴場の運営者"
+	],
+	"why": "東京都流域下水道維持管理負担金の汚水処理単価が令和8年度に急きょ大幅に引き上げられたことなどを受け、市の公共下水道事業の経営の健全性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:49:18.404Z",
+		"inputTokens": 33823,
+		"cachedTokens": 0,
+		"outputTokens": 1910,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:49:18.404Z",
+		"checkedAt": "2026-10-08T05:26:34.338Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 33881,
+			"cachedTokens": 0,
+			"outputTokens": 65,
+			"reasoningTokens": 51
+		}
+	}
 }

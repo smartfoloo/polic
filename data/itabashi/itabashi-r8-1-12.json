@@ -27,5 +27,40 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_12.pdf",
 			"fetchedAt": "2026-10-02T14:59:00.166Z"
 		}
-	]
+	],
+	"name": "職員定数を3,603人に改定",
+	"category": "行政のしくみ",
+	"summary": "区の職員定数は条例で定められています。この議案で、部局などごとの定数を改め、合計を3,603人とします。改正後の定数は2026年4月1日から施行されます。",
+	"changes": [
+		"区長の事務部局を3,248人（うち福祉事務所380人）とする",
+		"議会の事務部局を18人、教育委員会の事務部局を216人とする",
+		"学校職員を99人（うち幼稚園教諭6人）、選挙管理委員会と監査委員の事務部局を各11人とし、合計を3,603人とする"
+	],
+	"who": [],
+	"why": "職員の定数を改定する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:49:27.740Z",
+		"inputTokens": 1340,
+		"cachedTokens": 0,
+		"outputTokens": 1123,
+		"reasoningTokens": 891
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:49:27.740Z",
+		"checkedAt": "2026-10-08T05:26:36.761Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1261,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

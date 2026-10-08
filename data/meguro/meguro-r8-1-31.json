@@ -27,5 +27,40 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "一時預かり保育料を1時間400円以下に",
+	"category": "子育て",
+	"summary": "現在の条例には、区立幼稚園の一時預かり保育料を定める条文はありません。この改正で、保育料を1時間当たり400円を超えない範囲で委員会が定めることになります。",
+	"changes": [
+		"保育料を1時間当たり400円を超えない範囲で委員会が定める額とする"
+	],
+	"who": [
+		"区立幼稚園の一時預かり保育を利用する人"
+	],
+	"why": "区立幼稚園一時預かり保育料の額を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:03:33.144Z",
+		"inputTokens": 1545,
+		"cachedTokens": 0,
+		"outputTokens": 647,
+		"reasoningTokens": 438
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:03:33.144Z",
+		"checkedAt": "2026-10-08T05:38:35.545Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1426,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 46
+		}
+	}
 }

@@ -22,5 +22,67 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo13-35.pdf",
 			"fetchedAt": "2026-10-02T15:38:18.726Z"
 		}
-	]
+	],
+	"name": "会計年度任用職員の休暇と報酬を改定",
+	"category": "行政のしくみ",
+	"summary": "会計年度任用職員の休暇や報酬額を定める条例を改めます。子育て部分休暇を新設し、休暇の名称を変更するほか、デジタル化推進支援員を設け、専門・補助スタッフの報酬額を改定します。改正は令和8年4月1日から施行します。",
+	"changes": [
+		"「生理休暇」の名称を「健康管理休暇」に改める",
+		"対象となる会計年度任用職員に子育て部分休暇を設ける",
+		"デジタル化推進支援員を新設し、月30時間で月額105,000円とする",
+		"専門・補助スタッフの報酬額を改定する"
+	],
+	"who": [
+		"子を養育する会計年度任用職員（部分休業の対象者を除く）",
+		"報酬額が改定される専門・補助スタッフ",
+		"デジタル化推進支援員"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:35:08.004Z",
+		"inputTokens": 2556,
+		"cachedTokens": 0,
+		"outputTokens": 1342,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:35:08.004Z",
+		"checkedAt": "2026-10-08T05:57:14.594Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "対象となる会計年度任用職員に子育て部分休暇を設ける",
+				"note": "原文第11条の2にある対象の子の年齢・学年の上限（9歳到達日または小学3年修了日の遅い方以後の最初の3月31日まで）と、1日の勤務時間の全部または一部を休めることが抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "専門・補助スタッフの報酬額を改定する",
+				"note": "報酬改定の具体額が抜けている。原文には、事務補助員等の1,310円から1,390円への変更、短期事務補助員等の1,239円から1,315円への変更など、対象職員に直接関わる改定額が示されている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "専門・補助スタッフの報酬額を改定する",
+				"note": "原文の別表にある「看護師（健康推進担当）」から「看護師」への名称変更と、「看護師」から「短期看護師」への名称変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2538,
+			"cachedTokens": 0,
+			"outputTokens": 504,
+			"reasoningTokens": 184
+		}
+	}
 }

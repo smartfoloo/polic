@@ -27,5 +27,51 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/028/644/2026022502.pdf",
 			"fetchedAt": "2026-10-02T15:32:34.596Z"
 		}
-	]
+	],
+	"name": "条例・規則の公布方法を見直し",
+	"category": "行政のしくみ",
+	"summary": "現在、条例は市内4か所の掲示場に掲示して公布しています。改正後は、市役所前の掲示場への掲示と市ホームページへの掲載で公布します。条例への市長の署名に代わる措置や、市長が定める規則などの公布・公表方法も定めます。",
+	"changes": [
+		"市役所前の掲示場への掲示と市ホームページへの掲載で条例を公布する",
+		"条例への市長の署名に、総務省令で定める署名に代わる措置を含める",
+		"市長が定める規則の公布に、前文・年月日・市長名を記載する",
+		"市の機関が定める規則や規程の公表方法を整理する"
+	],
+	"who": [
+		"東久留米市民"
+	],
+	"why": "条例の公布に伴う市長の署名に代わる措置を定め、条例や規則の公布方法などを見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:42:07.110Z",
+		"inputTokens": 2627,
+		"cachedTokens": 0,
+		"outputTokens": 1497,
+		"reasoningTokens": 1196
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:42:07.110Z",
+		"checkedAt": "2026-10-08T05:23:06.134Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市の機関が定める規則や規程の公表方法を整理する",
+				"note": "改正後の第3条第2項と第4条・第5条の準用により、規則の公布や規程の公表も市役所前の掲示場への掲示と市ホームページへの掲載で行うことが、changesに明示されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2594,
+			"cachedTokens": 0,
+			"outputTokens": 324,
+			"reasoningTokens": 203
+		}
+	}
 }

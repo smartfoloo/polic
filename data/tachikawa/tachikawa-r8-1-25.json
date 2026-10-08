@@ -22,5 +22,51 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian25.pdf",
 			"fetchedAt": "2026-10-01T14:23:02.752Z"
 		}
-	]
+	],
+	"name": "市営住宅の入居資格と共益費の規定を変更",
+	"category": "住宅",
+	"summary": "入居資格の1つとして、同居する親族などに加え、東京都の条例に基づく証明を受けたパートナーがいることが定められています。この議案では、市長が認める人も対象に加え、使用者から共益費を徴収できる規定を設けます。入居資格の変更は2026年3月1日から、共益費の規定は公布の日から施行されます。",
+	"changes": [
+		"同居する人に、市長が認める人を加える",
+		"共通の利益のために必要と認める費用を、共益費として徴収できるようにする",
+		"共益費に第15条と第17条の規定を準用する"
+	],
+	"who": [
+		"市営住宅への入居を申し込む人",
+		"市営住宅の使用者"
+	],
+	"why": "市営住宅の使用者の資格の範囲を広げ、共益費に関する規定を設けるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:25:30.796Z",
+		"inputTokens": 1844,
+		"cachedTokens": 0,
+		"outputTokens": 1412,
+		"reasoningTokens": 1140
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:25:30.796Z",
+		"checkedAt": "2026-10-08T05:50:17.918Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "共通の利益のために必要と認める費用を、共益費として徴収できるようにする",
+				"note": "原文では、徴収対象を「前条第１項各号に掲げる費用のうち」、使用者の共通の利益を図るため「特に必要」と認めるものに限定している。要約ではこの限定がなく、対象範囲が広く読める。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1821,
+			"cachedTokens": 0,
+			"outputTokens": 343,
+			"reasoningTokens": 213
+		}
+	}
 }

@@ -22,5 +22,51 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian38.pdf",
 			"fetchedAt": "2026-10-01T14:24:20.703Z"
 		}
-	]
+	],
+	"name": "議員の出張費用の種類を見直す",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、議員の費用弁償の種類を鉄道賃、船賃、航空賃、車賃、旅行雑費、宿泊料と定めています。この議案では費用の種類を改め、外国旅行では議長に市長、副議長と議員に副市長の旅費の例を適用します。改正後の規定は、令和8年4月1日以後に出発する出張に適用されます。",
+	"changes": [
+		"費用弁償の種類を鉄道賃、船賃、航空賃、その他の交通費、宿泊費、包括宿泊費、宿泊手当、渡航雑費、死亡手当に改める",
+		"外国旅行の費用額は、議長は市長、副議長と議員は副市長の例によるものとする"
+	],
+	"who": [
+		"立川市議会議員"
+	],
+	"why": "地方自治法第203条第4項の規定によるものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:28:39.090Z",
+		"inputTokens": 1591,
+		"cachedTokens": 0,
+		"outputTokens": 1652,
+		"reasoningTokens": 1351
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:28:39.090Z",
+		"checkedAt": "2026-10-08T05:52:18.979Z",
+		"flags": [
+			"copied from the source (38 chars): 「鉄道賃、船賃、航空賃、その他の交通費、宿泊費、包括宿泊費、宿泊手当、渡航雑費」"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "外国旅行の費用額は、議長は市長、副議長と議員は副市長の例によるものとする",
+				"note": "原文の第４条第３項は改正前・改正後の記載が対になっておらず、この規定の新設・変更の別を確認できない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1558,
+			"cachedTokens": 0,
+			"outputTokens": 266,
+			"reasoningTokens": 161
+		}
+	}
 }

@@ -27,5 +27,43 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:29:58.629Z"
 		}
-	]
+	],
+	"name": "小柳町六丁目地区の建築・景観ルールを変更",
+	"category": "まちづくり",
+	"summary": "小柳町六丁目地区では、地区計画に基づいて建物の用途や垣・柵の条件が定められています。この議案では、地区計画の変更に合わせて建築の制限を改め、景観条例の適用区域にも加えます。",
+	"changes": [
+		"条例上の区域名を「小柳町六丁目西武住宅地区」から「小柳町六丁目地区」に改める",
+		"建築できる建物を一戸建て住宅とその付属物置などに限る",
+		"フェンスの高さ制限から、基礎の高さ0.4メートル以下の部分と門柱を除く",
+		"景観条例の適用区域に加え、既存または工事中で基準に合わない建築物等には同条例第3章の2を適用しない"
+	],
+	"who": [
+		"小柳町六丁目地区で建築や建物の外観変更を行う人"
+	],
+	"why": "地区計画の変更に伴い、必要な改正を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:25:11.663Z",
+		"inputTokens": 2591,
+		"cachedTokens": 0,
+		"outputTokens": 1921,
+		"reasoningTokens": 1634
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:25:11.663Z",
+		"checkedAt": "2026-10-08T05:12:36.538Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2574,
+			"cachedTokens": 0,
+			"outputTokens": 281,
+			"reasoningTokens": 267
+		}
+	}
 }

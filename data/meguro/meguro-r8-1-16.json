@@ -27,5 +27,43 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "学校教育を支える基金を設置",
+	"category": "教育",
+	"summary": "区立学校の教育を充実させるための基金を設けます。積立額は一般会計予算で定め、運用益は基金に加えます。区長は教育の充実に必要と認める場合に、基金の全部または一部を使えます。",
+	"changes": [
+		"学校教育の充実に使う基金を設け、積立額を一般会計予算で定める",
+		"基金の現金を預金などで管理し、必要に応じて有価証券に替える",
+		"基金の運用益を基金に加え、財政上必要な場合は現金を歳計現金に繰り替えて運用する",
+		"教育の充実に必要と区長が認める場合、基金の全部または一部を取り崩す"
+	],
+	"who": [
+		"目黒区立小学校・中学校・幼稚園・こども園に通う子ども"
+	],
+	"why": "目黒区立学校における学校教育の充実に役立てるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:02:07.628Z",
+		"inputTokens": 1528,
+		"cachedTokens": 0,
+		"outputTokens": 1308,
+		"reasoningTokens": 1000
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:02:07.628Z",
+		"checkedAt": "2026-10-08T05:37:52.493Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1510,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 29
+		}
+	}
 }

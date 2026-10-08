@@ -27,5 +27,39 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "特別職の旅費に包括宿泊費を追加",
+	"category": "行政のしくみ",
+	"summary": "区長や議員などに支給する旅費の種類は、条例で定められています。この議案では、旅費に「包括宿泊費」を加え、参照する職員の旅費に関する条例を改めます。2026年4月1日以後に出発する旅行から適用します。",
+	"changes": [
+		"旅費の種類に包括宿泊費を加える",
+		"参照する職員の旅費に関する条例を改める"
+	],
+	"who": [],
+	"why": "特別職に支給する旅費の種類に包括宿泊費を追加するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:00:58.464Z",
+		"inputTokens": 2145,
+		"cachedTokens": 0,
+		"outputTokens": 935,
+		"reasoningTokens": 733
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:00:58.464Z",
+		"checkedAt": "2026-10-08T05:37:29.385Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2018,
+			"cachedTokens": 0,
+			"outputTokens": 113,
+			"reasoningTokens": 99
+		}
+	}
 }

@@ -27,5 +27,59 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援事業の設備・運営基準を制定",
+	"category": "子育て",
+	"summary": "区の条例には、乳児等通園支援事業の設備や運営に関する基準は定められていません。この条例で、事業所の設備や職員配置、安全対策などの基準を定めます。条例は公布の日から施行します。",
+	"changes": [
+		"事業を一般型と余裕活用型に分けて基準を定める",
+		"事業所の設備や職員配置の基準を定める",
+		"安全計画の作成や避難・消火訓練、車での移動時の所在確認を求める",
+		"衛生管理や食事、記録、苦情対応などの運営基準を定める"
+	],
+	"who": [
+		"乳児等通園支援事業を利用する乳児・幼児の保護者",
+		"乳児等通園支援事業者"
+	],
+	"why": "児童福祉法の改正に伴い、乳児等通園支援事業の設備や運営に関する基準を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:02:34.093Z",
+		"inputTokens": 7218,
+		"cachedTokens": 0,
+		"outputTokens": 1369,
+		"reasoningTokens": 1050
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:02:34.093Z",
+		"checkedAt": "2026-10-08T05:38:08.633Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "区の条例には、乳児等通園支援事業の設備や運営に関する基準は定められていません。",
+				"note": "原文は今回の条例制定の必要性を説明していますが、既存の区条例に基準がないことまでは明記していません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "安全計画の作成や避難・消火訓練、車での移動時の所在確認を求める",
+				"note": "第8条第2項は、一定の送迎用自動車を日常的に運行する場合、見落とし防止装置の設置と降車時の使用も義務付けています。この設備義務が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 7209,
+			"cachedTokens": 0,
+			"outputTokens": 386,
+			"reasoningTokens": 180
+		}
+	}
 }

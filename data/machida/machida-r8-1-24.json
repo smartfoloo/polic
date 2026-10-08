@@ -27,5 +27,65 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6684_24gou.pdf",
 			"fetchedAt": "2026-10-01T14:21:53.915Z"
 		}
-	]
+	],
+	"name": "給与収入に応じた介護保険料の算定特例",
+	"category": "健康・医療",
+	"summary": "介護保険料は、条例に定める所得や世帯の課税状況などをもとに算定されます。この議案では、2026年度分について、2025年の給与収入を踏まえた所得計算や課税状況の特例を設け、特例で保険料が上がる場合は差額を減免できるようにします。",
+	"changes": [
+		"給与収入額に応じた所得計算の特例を設ける",
+		"一定の条件に当たる人を、保険料率の算定上、市町村民税が課されている人とみなす",
+		"特例で保険料が上がる場合、差額相当額を減免できるようにする"
+	],
+	"who": [
+		"2025年の給与収入が55万1,000円以上190万円未満の介護保険の第1号被保険者",
+		"対象者の世帯主や世帯員"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:49:21.244Z",
+		"inputTokens": 4383,
+		"cachedTokens": 0,
+		"outputTokens": 1811,
+		"reasoningTokens": 1545
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:49:21.244Z",
+		"checkedAt": "2026-10-08T05:34:27.861Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "給与収入額に応じた所得計算の特例を設ける",
+				"note": "原文の新旧対照表は「改正後改正前」「附則附則」の後に改正後と思われる条文だけが続き、対応関係を確認できないため、特例の新設かどうか要確認。"
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "特例で保険料が上がる場合、差額相当額を減免できるようにする",
+				"note": "附則第13条の減免は、第12条の課税みなしによる増額に限定され、該当者が2025年度の市町村民税を課されていないことも条件。所得計算の特例を含むすべての増額が対象ではない。"
+			},
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "特例で保険料が上がる場合は差額を減免できるようにします。",
+				"note": "附則第13条は、第12条の課税みなしによる増額と、該当者の2025年度の市町村民税が非課税であることを減免の条件としている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4340,
+			"cachedTokens": 0,
+			"outputTokens": 642,
+			"reasoningTokens": 332
+		}
+	}
 }

@@ -22,5 +22,64 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_giingian.files/r0803giingian4_5.pdf",
 			"fetchedAt": "2026-10-02T14:54:41.534Z"
 		}
-	]
+	],
+	"name": "入学祝金を小学生に3万円、中学生に4万円",
+	"category": "子育て",
+	"summary": "小・中学校等に入学する児童・生徒に入学祝金を支給する条例案です。4月1日に区内に住民登録がある保護者などを対象に、小学校・特別支援学校小学部への入学者には1人3万円、中学校・特別支援学校中学部への入学者には1人4万円を、毎年4月に支給します。4月1日後に転入した場合も、入学式の前日までに住民登録をすれば対象に含めます。",
+	"changes": [
+		"小学校・特別支援学校小学部の祝金を1人3万円とする",
+		"中学校・特別支援学校中学部の祝金を1人4万円とする",
+		"祝金を毎年4月に支給する"
+	],
+	"who": [
+		"小・中学校等に入学する児童・生徒の保護者"
+	],
+	"why": "児童又は生徒の健全な育成を推進するためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:23:02.200Z",
+		"inputTokens": 1775,
+		"cachedTokens": 0,
+		"outputTokens": 1420,
+		"reasoningTokens": 1143
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:23:02.200Z",
+		"checkedAt": "2026-10-08T05:48:58.555Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "小・中学校等に入学する児童・生徒に入学祝金を支給する",
+				"note": "第２条の支給対象者は児童・生徒本人ではなく、その保護者です。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "小学校・特別支援学校小学部の祝金を1人3万円とする",
+				"note": "第２条の主な支給要件がchangesにありません。その年の４月に１年生として入学する児童・生徒の保護者が対象で、住民登録の要件、転入者の特例、区外転出予定で転出予定先へ区域外就学願を提出している者の除外が定められています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "祝金を毎年4月に支給する",
+				"note": "第５条の、不正な手段で受給した者に祝金を返還させることができる規定がchangesにありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1746,
+			"cachedTokens": 0,
+			"outputTokens": 716,
+			"reasoningTokens": 388
+		}
+	}
 }

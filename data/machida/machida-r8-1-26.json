@@ -27,5 +27,66 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6686_26gou.pdf",
 			"fetchedAt": "2026-10-01T14:22:17.918Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援の運営基準を定める",
+	"category": "子育て",
+	"summary": "市は、特定乳児等通園支援事業の運営基準を条例で定めます。利用定員、初回利用前の面談、費用の受け取り、事故への対応や記録の保存などのルールを設けます。2026年4月1日に施行します。",
+	"changes": [
+		"1時間当たりの利用定員を定め、定員を超えた受入れを禁止する",
+		"初回利用前に保護者と面談し、事業内容や費用を説明して同意を得る",
+		"保護者から受け取れる費用の範囲や領収証の交付を定める",
+		"事故防止や苦情対応、記録の保存などの運営ルールを定める"
+	],
+	"who": [
+		"特定乳児等通園支援事業者",
+		"特定乳児等通園支援を利用する子どもの保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:49:37.760Z",
+		"inputTokens": 10793,
+		"cachedTokens": 0,
+		"outputTokens": 1104,
+		"reasoningTokens": 847
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:49:37.760Z",
+		"checkedAt": "2026-10-08T05:34:44.478Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "1時間当たりの利用定員を定め、定員を超えた受入れを禁止する",
+				"note": "第4条第2項にある、利用時間数や開所日数などを考慮して1月当たりの利用定員も定める義務が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事故防止や苦情対応、記録の保存などの運営ルールを定める",
+				"note": "利用者の権利に直接関わる、正当な理由のない利用拒否の禁止（第6条）、差別的取扱い・虐待等の禁止（第24・25条）、秘密保持と外部への情報提供前の保護者の文書同意（第26条）が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事故防止や苦情対応、記録の保存などの運営ルールを定める",
+				"note": "第23条にある、運営規程の概要や費用の額などの重要事項を事業所に掲示し、インターネット等でも公開する義務が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 10747,
+			"cachedTokens": 0,
+			"outputTokens": 513,
+			"reasoningTokens": 208
+		}
+	}
 }

@@ -22,5 +22,41 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian20.pdf",
 			"fetchedAt": "2026-10-01T14:22:32.665Z"
 		}
-	]
+	],
+	"name": "祝日後の休館日を最も近い休日でない日に",
+	"category": "まちづくり",
+	"summary": "市民会館は、第3月曜日が休日の場合、翌日を休館日とし、その日も祝日ならさらに翌日を休館日としていました。この議案では、休日の後で最も近い休日でない日を休館日とするほか、条件を示す文言を一部改めます。",
+	"changes": [
+		"第3月曜日が休日の場合、休館日を休日後で最も近い休日でない日にする",
+		"該当する条件や用途を示す文言を改める"
+	],
+	"who": [
+		"立川市民会館を利用する人"
+	],
+	"why": "地方自治法第244条の2第1項の規定に基づく改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:24:34.368Z",
+		"inputTokens": 2242,
+		"cachedTokens": 0,
+		"outputTokens": 1609,
+		"reasoningTokens": 1402
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:24:34.368Z",
+		"checkedAt": "2026-10-08T05:49:43.692Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2146,
+			"cachedTokens": 0,
+			"outputTokens": 93,
+			"reasoningTokens": 78
+		}
+	}
 }

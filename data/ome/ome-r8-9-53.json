@@ -22,5 +22,40 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/81545.pdf",
 			"fetchedAt": "2026-10-01T14:28:16.449Z"
 		}
-	]
+	],
+	"name": "3事業の条例で地方自治法の引用先を変更",
+	"category": "行政のしくみ",
+	"summary": "市立病院、モーターボート競走、下水道の各事業条例では、地方自治法の条文を引用しています。この議案で引用先を第243条の2の8第8項から第243条の2の9第8項に改め、令和8年9月24日に施行します。",
+	"changes": [
+		"病院事業の条例で、地方自治法の引用先を第243条の2の9第8項に改める",
+		"モーターボート競走事業の条例で、地方自治法の引用先を第243条の2の9第8項に改める",
+		"下水道事業の条例で、地方自治法の引用先を第243条の2の9第8項に改める"
+	],
+	"who": [],
+	"why": "地方自治法の一部改正に伴い、同法を引用する条項を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:14:24.766Z",
+		"inputTokens": 1466,
+		"cachedTokens": 0,
+		"outputTokens": 749,
+		"reasoningTokens": 475
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:14:24.766Z",
+		"checkedAt": "2026-10-08T05:44:33.234Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1413,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

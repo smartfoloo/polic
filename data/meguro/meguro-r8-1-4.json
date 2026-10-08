@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "公示による通知方法を変更",
+	"category": "デジタル",
+	"summary": "聴聞の通知などを公示で行う場合、これまでは行政庁の事務所の掲示場に通知事項などを掲示していました。この議案で、公示事項を総務省令で定める方法で不特定多数の人が閲覧できるようにし、事務所の掲示場への掲示か、事務所内の電子画面での閲覧も行います。措置を始めてから2週間が過ぎると、通知が届いたものとみなします。",
+	"changes": [
+		"総務省令で定める方法で、公示事項を不特定多数の人が閲覧できる状態にする",
+		"公示事項を事務所の掲示場に掲示するか、事務所内の電子画面で閲覧できるようにする"
+	],
+	"who": [
+		"不利益処分の対象となり、公示による通知を受ける人"
+	],
+	"why": "行政手続法の改正に伴い、聴聞の通知などに係る公示送達をデジタル化するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:04:41.597Z",
+		"inputTokens": 2060,
+		"cachedTokens": 0,
+		"outputTokens": 2380,
+		"reasoningTokens": 2094
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:04:41.597Z",
+		"checkedAt": "2026-10-08T05:39:07.360Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2043,
+			"cachedTokens": 0,
+			"outputTokens": 99,
+			"reasoningTokens": 85
+		}
+	}
 }

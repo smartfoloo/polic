@@ -22,5 +22,38 @@
 			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/gian11.pdf",
 			"fetchedAt": "2026-10-01T14:38:33.505Z"
 		}
-	]
+	],
+	"name": "福祉会館の条例を廃止",
+	"category": "福祉",
+	"summary": "あきる野市には、福祉会館について定めた条例があります。この議案で条例を廃止し、2026年4月1日から施行します。",
+	"changes": [
+		"あきる野市福祉会館条例を廃止する"
+	],
+	"who": [],
+	"why": "公共施設の再編などに伴い、福祉会館で高齢者の福祉活動や社会福祉活動が行われる可能性がなくなり、条例を残す必要がなくなったためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:15:13.523Z",
+		"inputTokens": 1179,
+		"cachedTokens": 0,
+		"outputTokens": 792,
+		"reasoningTokens": 633
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:15:13.523Z",
+		"checkedAt": "2026-10-08T05:06:34.270Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1031,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

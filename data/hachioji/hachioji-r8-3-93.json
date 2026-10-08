@@ -22,5 +22,40 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:26:44.967Z"
 		}
-	]
+	],
+	"name": "保健衛生事務で医療保険情報を利用可能に",
+	"category": "デジタル",
+	"summary": "市長が行う保健衛生に関する事務のうち、市規則で定めるものでは、生活保護や地方税などの情報が対象になっています。この議案で、対象となる情報に医療保険に関する情報を加えます。",
+	"changes": [
+		"対象となる情報に医療保険に関する情報を加える"
+	],
+	"who": [
+		"市規則で定める保健衛生事務の対象者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:38:57.977Z",
+		"inputTokens": 1613,
+		"cachedTokens": 0,
+		"outputTokens": 832,
+		"reasoningTokens": 662
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:38:57.977Z",
+		"checkedAt": "2026-10-08T05:20:54.389Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1450,
+			"cachedTokens": 0,
+			"outputTokens": 57,
+			"reasoningTokens": 42
+		}
+	}
 }

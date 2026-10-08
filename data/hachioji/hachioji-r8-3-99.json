@@ -22,5 +22,43 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:26:44.967Z"
 		}
-	]
+	],
+	"name": "資料の管理方針と施設料金の電子決済を追加",
+	"category": "教育",
+	"summary": "これまでは、資料の収集・管理方針を定めることや、予約用の電子システムを通じて貸出料金を支払うことは条例に定められていませんでした。改正後は、資料の収集・管理方針を定めて運用する事業を加え、その方針の策定は指定管理者の業務から除きます。また、予約用の電子システムを通じた貸出料金の支払いを認め、その支払いを利用承認とみなします。",
+	"changes": [
+		"資料の収集・管理方針を定め、適切に運用する事業を加える",
+		"資料の収集・管理方針の策定を指定管理者の業務から除く",
+		"予約用の電子システムを通じた貸出料金の支払いを認める",
+		"電子システムを通じた貸出料金の支払いを利用承認とみなす"
+	],
+	"who": [
+		"体験展示室などの施設を利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:40:15.913Z",
+		"inputTokens": 1903,
+		"cachedTokens": 0,
+		"outputTokens": 1093,
+		"reasoningTokens": 785
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:40:15.913Z",
+		"checkedAt": "2026-10-08T05:21:51.909Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1882,
+			"cachedTokens": 0,
+			"outputTokens": 190,
+			"reasoningTokens": 176
+		}
+	}
 }

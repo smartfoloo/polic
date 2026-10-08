@@ -22,5 +22,43 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian57.pdf",
 			"fetchedAt": "2026-10-01T14:25:32.874Z"
 		}
-	]
+	],
+	"name": "災害見舞金と援護資金の対象を整理",
+	"category": "防災",
+	"summary": "条例で、災害見舞金や災害援護資金の貸付などの対象を定めています。改正により、同じ住所に複数の世帯が登録され、実質的に同じ生計を営んでいると市長が認める場合、災害見舞金を受け取れるのは世帯主のうち1人だけになります。災害援護資金の貸付にも同じ扱いを適用します。",
+	"changes": [
+		"災害見舞金を受け取れる世帯主を1人に限る",
+		"災害援護資金の貸付にも同じ制限を適用する",
+		"災害弔慰金や災害障害見舞金などの対象要件を示す条文の参照先を改める",
+		"貸付けの取消しなどに関する条文の表現を改める"
+	],
+	"who": [
+		"同じ住所に複数の世帯を登録し、実質的に生計を共にする災害被災者"
+	],
+	"why": "災害見舞金の受給資格者と災害援護資金の貸付対象者の範囲を整理するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:31:24.147Z",
+		"inputTokens": 2400,
+		"cachedTokens": 0,
+		"outputTokens": 1361,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:31:24.147Z",
+		"checkedAt": "2026-10-08T05:54:40.426Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2430,
+			"cachedTokens": 0,
+			"outputTokens": 172,
+			"reasoningTokens": 158
+		}
+	}
 }

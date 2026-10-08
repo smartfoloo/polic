@@ -22,5 +22,66 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/020/294/R8-2teirei_sicyo63-67.pdf",
 			"fetchedAt": "2026-10-02T15:38:36.785Z"
 		}
-	]
+	],
+	"name": "特定暗号資産の所得を分けて課税",
+	"category": "税・手数料",
+	"summary": "現行の条例には、特定暗号資産に関する所得を他の所得と分けて課税する特例はありません。議案は、対象となる事業所得・譲渡所得・雑所得を区分し、その金額に対して3%の市民税所得割を課す特例を設けます。公的年金の申告書や、危険区域内の土地の譲渡に関する扱いなども改めます。",
+	"changes": [
+		"特定暗号資産に係る対象所得を他の所得と分け、3%の市民税所得割を課す",
+		"公的年金等の受給者が提出する申告書の対象者と記載事項を改める",
+		"一定の危険区域内にある土地の譲渡を、優良住宅地等向けの課税特例の対象外とする"
+	],
+	"who": [
+		"特定暗号資産に係る対象所得がある市民税の納税者",
+		"公的年金等を受け、申告書を提出する人",
+		"一定の危険区域内にある土地を譲渡する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:38:19.008Z",
+		"inputTokens": 6165,
+		"cachedTokens": 0,
+		"outputTokens": 2245,
+		"reasoningTokens": 1941
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:38:19.008Z",
+		"checkedAt": "2026-10-08T05:59:18.768Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "第63条の固定資産税に関する変更が抜けています。土地と家屋の基準を共通化し、家屋の「20万円」を削除するとともに、「150万円」を「180万円」に改めています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "住宅に関する市民税の控除の適用期間延長が抜けています。附則第7条の3第1項で「令和20年度」を「令和25年度」に、「令和7年」を「令和12年」に改めています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "附則第10条の2第26項で、地方税法附則第15条の11第1項に係る固定資産税の特例割合を3分の1と定める変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6172,
+			"cachedTokens": 0,
+			"outputTokens": 585,
+			"reasoningTokens": 290
+		}
+	}
 }

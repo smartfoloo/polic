@@ -27,5 +27,44 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "職員給与条例を改正",
+	"category": "行政のしくみ",
+	"summary": "区長が提出したのは、職員の給与に関する条例を改正する議案です。提示された議案本文には内容がなく、具体的な変更点は確認できません。",
+	"changes": [],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:05:05.036Z",
+		"inputTokens": 982,
+		"cachedTokens": 0,
+		"outputTokens": 584,
+		"reasoningTokens": 498
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:05:05.036Z",
+		"checkedAt": "2026-10-08T05:39:13.510Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "区長が提出したのは",
+				"note": "原文の議案本文は空で、提出者が区長であることは確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 753,
+			"cachedTokens": 0,
+			"outputTokens": 101,
+			"reasoningTokens": 38
+		}
+	}
 }

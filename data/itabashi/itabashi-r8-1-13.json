@@ -27,5 +27,40 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_13.pdf",
 			"fetchedAt": "2026-10-02T15:01:48.453Z"
 		}
-	]
+	],
+	"name": "基金条例の将来像の表現を変更",
+	"category": "行政のしくみ",
+	"summary": "条例第1条にある「未来をはぐくむ緑と文化のかがやくまち板橋」という表現を、「未来をひらく緑と文化のかがやくまち板橋」に変更します。改正は2026年4月1日から施行されます。",
+	"changes": [
+		"「未来をはぐくむ緑と文化のかがやくまち板橋」を「未来をひらく緑と文化のかがやくまち板橋」に改める"
+	],
+	"who": [],
+	"why": "板橋区基本構想の改定に伴い、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:49:34.086Z",
+		"inputTokens": 1190,
+		"cachedTokens": 0,
+		"outputTokens": 703,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:49:34.086Z",
+		"checkedAt": "2026-10-08T05:26:38.991Z",
+		"flags": [
+			"copied from the source (48 chars): 「「未来をはぐくむ緑と文化のかがやくまち板橋」を「未来をひらく緑と文化のかがやくまち板橋」に改める」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1062,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

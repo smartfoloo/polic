@@ -22,5 +22,58 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian1.pdf",
 			"fetchedAt": "2026-10-02T15:26:08.906Z"
 		}
-	]
+	],
+	"name": "自転車通行帯などの道路基準を追加",
+	"category": "交通",
+	"summary": "市の道路構造について、技術的な基準を定めています。この議案では、自転車通行帯や歩行者利便増進道路に関する基準を加え、交通安全施設の対象も見直します。",
+	"changes": [
+		"自転車通行帯を設ける条件と幅員の基準を加える",
+		"歩行者利便増進道路に歩行者の滞留場所などを設ける基準を加える",
+		"交通安全施設に自動運行補助施設を加える"
+	],
+	"who": [
+		"自転車を利用する人",
+		"歩行者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:28:55.368Z",
+		"inputTokens": 5226,
+		"cachedTokens": 0,
+		"outputTokens": 890,
+		"reasoningTokens": 686
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:28:55.368Z",
+		"checkedAt": "2026-10-08T05:14:49.513Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "自転車通行帯を設ける条件と幅員の基準を加える",
+				"note": "第9～11条では、自転車道の設置対象を道路種別・設計速度で限定し、自転車歩行者道の設置対象を見直し、歩道の設置対象に自転車通行帯を設ける道路を追加しています。これらの変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "歩行者利便増進道路に歩行者の滞留場所などを設ける基準を加える",
+				"note": "第43条第3項で、歩行者利便増進道路（新設特定道路を除く。）を市の移動等円滑化の基準に適合する構造とする義務を追加しています。この変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5101,
+			"cachedTokens": 0,
+			"outputTokens": 369,
+			"reasoningTokens": 97
+		}
+	}
 }

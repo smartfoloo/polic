@@ -22,5 +22,68 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/81542.pdf",
 			"fetchedAt": "2026-10-01T14:27:58.433Z"
 		}
-	]
+	],
+	"name": "市民センターなどの使用料を見直し",
+	"category": "税・手数料",
+	"summary": "市民センターや御岳交流センターの使用料は、施設ごとに定められています。改正後、市民センターの会議室などは午前600円、午後は1枠400円、夜間は1枠500円、全日2,400円となり、市内在住・在勤・在学者が構成員の過半数に満たない団体は規定使用料の3倍になります。御岳交流センターのカヌー艇庫は1,500円から3,000円になり、改定後の使用料は令和9年4月1日以降に使用承認を申請した分から適用されます。",
+	"changes": [
+		"市民センターの会議室などの使用料を改定する",
+		"市内在住・在勤・在学者が構成員の過半数に満たない団体の使用料を規定額の3倍にする",
+		"御岳交流センターのカヌー艇庫使用料を1,500円から3,000円にする"
+	],
+	"who": [
+		"市民センターを利用する団体",
+		"市内在住・在勤・在学者が構成員の過半数に満たない団体",
+		"御岳交流センターのカヌー艇庫を利用する人"
+	],
+	"why": "受益者負担および公費負担の適正化を図るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:13:37.537Z",
+		"inputTokens": 3954,
+		"cachedTokens": 0,
+		"outputTokens": 2771,
+		"reasoningTokens": 2371
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:13:37.537Z",
+		"checkedAt": "2026-10-08T05:44:08.055Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "市民センターや御岳交流センターの使用料は、施設ごとに定められています。",
+				"note": "第2条の御岳交流センター使用料表と備考第1項の改正箇所に空の「」や対応不明の数値があり、カヌー艇庫以外の料金の変更方向は原文から確認できません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市民センターの会議室などの使用料を改定する",
+				"note": "別表第2では体育館の使用料も改定対象です。全面は午前3,600円・午後各2,400円・夜間各3,000円・全日14,400円、半面はその半額となる変更が明示されていません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "御岳交流センターのカヌー艇庫使用料を1,500円から3,000円にする",
+				"note": "第2条にはカヌー艇庫以外にも使用料表と備考第1項の表の改正がありますが、changesに記載がありません。表が崩れているため、対象と金額は原資料で確認が必要です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4020,
+			"cachedTokens": 0,
+			"outputTokens": 666,
+			"reasoningTokens": 286
+		}
+	}
 }

@@ -22,5 +22,40 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "交流施設の利用料上限を1時間1,400円に",
+	"category": "まちづくり",
+	"summary": "交流施設の条例上の利用料は、1時間ごとに1,000円です。議案ではこの額を1,400円に改め、令和9年4月1日から適用します。施行日以降の利用については、施行日前から手続を行うことができ、指定管理者が定める利用料金を支払う必要があります。",
+	"changes": [
+		"交流施設の利用料金の上限を1時間ごと1,000円から1,400円に引き上げる"
+	],
+	"who": [
+		"高尾599ミュージアムの交流施設を利用する人・団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:35:12.001Z",
+		"inputTokens": 1478,
+		"cachedTokens": 0,
+		"outputTokens": 1887,
+		"reasoningTokens": 1701
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:35:12.001Z",
+		"checkedAt": "2026-10-08T05:18:29.205Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1348,
+			"cachedTokens": 0,
+			"outputTokens": 98,
+			"reasoningTokens": 83
+		}
+	}
 }

@@ -22,5 +22,38 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/027/155/r8gian77.pdf",
 			"fetchedAt": "2026-10-01T14:26:14.710Z"
 		}
-	]
+	],
+	"name": "林間施設の条例を廃止",
+	"category": "行政のしくみ",
+	"summary": "現在の「立川市林間施設条例」を廃止する議案です。廃止は令和9年4月1日からです。",
+	"changes": [
+		"立川市林間施設条例を廃止する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:33:12.701Z",
+		"inputTokens": 1135,
+		"cachedTokens": 0,
+		"outputTokens": 424,
+		"reasoningTokens": 315
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:33:12.701Z",
+		"checkedAt": "2026-10-08T05:56:06.844Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 916,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

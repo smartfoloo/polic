@@ -27,5 +27,44 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_14.pdf",
 			"fetchedAt": "2026-10-02T15:01:54.459Z"
 		}
-	]
+	],
+	"name": "南常盤台住宅と駐車場を条例に追加",
+	"category": "住宅",
+	"summary": "条例には、区営常盤台四丁目第2アパートが登録されています。この議案では同アパートを削り、南常盤台2丁目10番5号にある86戸の南常盤台住宅と、4台分の駐車場を追加します。施行日は区の規則で定めます。",
+	"changes": [
+		"常盤台四丁目第2アパートを条例から削る",
+		"南常盤台住宅を86戸で条例に加える",
+		"南常盤台住宅の駐車場を4台分で条例に加える"
+	],
+	"who": [
+		"常盤台四丁目第2アパートの入居者",
+		"南常盤台住宅の入居者",
+		"南常盤台住宅駐車場の利用者"
+	],
+	"why": "常盤台四丁目第2アパートを廃止し、南常盤台住宅などを設置する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:49:47.701Z",
+		"inputTokens": 1357,
+		"cachedTokens": 0,
+		"outputTokens": 1662,
+		"reasoningTokens": 1416
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:49:47.701Z",
+		"checkedAt": "2026-10-08T05:26:42.470Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1304,
+			"cachedTokens": 0,
+			"outputTokens": 61,
+			"reasoningTokens": 47
+		}
+	}
 }

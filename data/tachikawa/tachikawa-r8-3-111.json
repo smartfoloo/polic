@@ -22,5 +22,38 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/028/161/r8gian111.pdf",
 			"fetchedAt": "2026-10-01T14:26:50.806Z"
 		}
-	]
+	],
+	"name": "協議会が扱う施設を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、協議会は保健医療に関する施策と立川市健康会館の運営を調査・審議します。この議案で、対象となる施設を立川市子育て支援・保健センターに改めます。",
+	"changes": [
+		"協議会が扱う施設を立川市健康会館から立川市子育て支援・保健センターに変更する"
+	],
+	"who": [],
+	"why": "地方自治法第244条の2第1項の規定によるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:34:10.664Z",
+		"inputTokens": 1390,
+		"cachedTokens": 0,
+		"outputTokens": 667,
+		"reasoningTokens": 488
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:34:10.664Z",
+		"checkedAt": "2026-10-08T05:56:42.586Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1241,
+			"cachedTokens": 0,
+			"outputTokens": 32,
+			"reasoningTokens": 18
+		}
+	}
 }

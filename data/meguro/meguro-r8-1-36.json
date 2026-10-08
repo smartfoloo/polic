@@ -27,5 +27,43 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "介護保険料の所得基準を見直し",
+	"category": "福祉",
+	"summary": "保険料率の算定に使う所得基準の一部は、これまで809,000円でした。この議案では基準を826,500円に改め、令和8年度分の保険料率について、給与収入に応じた所得計算や住民税の課税・非課税の扱いに特例を設けます。",
+	"changes": [
+		"保険料率の算定に使う所得基準の一部を809,000円から826,500円に引き上げる",
+		"給与収入に応じた所得の算定方法に特例を設ける",
+		"一定の条件に当てはまる人を住民税が課税されている者として扱う"
+	],
+	"who": [
+		"介護保険の第1号被保険者",
+		"対象となる第1号被保険者と同じ世帯の世帯主や世帯員"
+	],
+	"why": "保険料率の算定に使う所得基準を見直し、令和7年度税制改正による給与所得控除の最低保障額の引上げの影響を令和8年度の算定で遮断するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:04:15.066Z",
+		"inputTokens": 4287,
+		"cachedTokens": 0,
+		"outputTokens": 1788,
+		"reasoningTokens": 1450
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:04:15.066Z",
+		"checkedAt": "2026-10-08T05:39:02.442Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4297,
+			"cachedTokens": 0,
+			"outputTokens": 74,
+			"reasoningTokens": 60
+		}
+	}
 }

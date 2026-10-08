@@ -27,5 +27,41 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
 			"fetchedAt": "2026-10-02T15:30:29.300Z"
 		}
-	]
+	],
+	"name": "国保税の減免特例を令和8年度以降も適用",
+	"category": "税・手数料",
+	"summary": "令和7年度分までは、一定の人の国民健康保険税の所得割額について、資格を得てから2年までという減免の期間制限を外す特例があります。この議案では、令和8年度分以降も同じ扱いを続け、減免の対象となる所得割額に第14条の2の分を加えます。改正は令和8年7月1日から施行されます。",
+	"changes": [
+		"減免について資格取得後2年までとする制限を外す",
+		"減免の対象となる所得割額に第14条の2の額を加える"
+	],
+	"who": [
+		"世帯主が被用者保険から後期高齢者医療制度へ移り、国民健康保険に加入する元被扶養者"
+	],
+	"why": "被用者保険から後期高齢者医療制度へ移る世帯主の被扶養者が国民健康保険に加入して新たに負担する際の変化を和らげるためと、子ども・子育て支援法などの改正法の施行に伴い減免規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:44:06.448Z",
+		"inputTokens": 2019,
+		"cachedTokens": 0,
+		"outputTokens": 2003,
+		"reasoningTokens": 1684
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:44:06.448Z",
+		"checkedAt": "2026-10-08T05:23:47.982Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2031,
+			"cachedTokens": 0,
+			"outputTokens": 74,
+			"reasoningTokens": 60
+		}
+	}
 }

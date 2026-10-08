@@ -22,5 +22,38 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2rinji/r802rinji_kuchogian.files/r0802rinjikuchogian77.pdf",
 			"fetchedAt": "2026-10-02T14:54:11.487Z"
 		}
-	]
+	],
+	"name": "公共工事の特別措置を定めた条例を廃止",
+	"category": "行政のしくみ",
+	"summary": "大田区には、公共工事に関する特別措置を定めた条例があります。この議案は、その条例を廃止するものです。廃止は公布の日からです。",
+	"changes": [
+		"公共工事に関する特別措置を定めた条例を廃止する"
+	],
+	"who": [],
+	"why": "公共工事に係る特別措置に関する定めを廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:23:09.592Z",
+		"inputTokens": 1174,
+		"cachedTokens": 0,
+		"outputTokens": 503,
+		"reasoningTokens": 339
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:23:09.592Z",
+		"checkedAt": "2026-10-08T05:49:00.643Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1005,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

@@ -22,5 +22,38 @@
 			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/956/r8.2gian2.pdf",
 			"fetchedAt": "2026-10-02T15:34:16.969Z"
 		}
-	]
+	],
+	"name": "損害賠償免責規定の引用条項を変更",
+	"category": "行政のしくみ",
+	"summary": "市長などの損害賠償責任を一部免除する条例は、基準給与年額の根拠として地方自治法施行令の条項を引用しています。この議案で引用先を変更し、2026年9月24日から施行します。",
+	"changes": [
+		"引用する地方自治法施行令の条項を第173条の4第1項第1号から第173条の5第1項第1号に変更する"
+	],
+	"who": [],
+	"why": "地方自治法施行令の改正に伴い、条例の一部を改正する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:48:38.570Z",
+		"inputTokens": 2066,
+		"cachedTokens": 0,
+		"outputTokens": 389,
+		"reasoningTokens": 202
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:48:38.570Z",
+		"checkedAt": "2026-10-08T05:26:14.852Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1943,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

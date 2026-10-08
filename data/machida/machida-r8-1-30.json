@@ -27,5 +27,38 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6690_30gou.pdf",
 			"fetchedAt": "2026-10-01T14:23:05.927Z"
 		}
-	]
+	],
+	"name": "南第一小学校の位置を金森三丁目に変更",
+	"category": "教育",
+	"summary": "条例では、南第一小学校の位置を南町田一丁目10番1号としています。この議案で、位置を金森三丁目27番2号に改めます。改正は2027年4月1日から施行されます。",
+	"changes": [
+		"南第一小学校の位置を南町田一丁目10番1号から金森三丁目27番2号に変更する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:50:27.764Z",
+		"inputTokens": 1230,
+		"cachedTokens": 0,
+		"outputTokens": 626,
+		"reasoningTokens": 495
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:50:27.764Z",
+		"checkedAt": "2026-10-08T05:35:16.359Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1048,
+			"cachedTokens": 0,
+			"outputTokens": 72,
+			"reasoningTokens": 57
+		}
+	}
 }

@@ -27,5 +27,44 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_25.pdf",
 			"fetchedAt": "2026-10-02T15:03:00.496Z"
 		}
-	]
+	],
+	"name": "こども家庭ソーシャルワーカーを資格要件に追加",
+	"category": "福祉",
+	"summary": "一時保護施設で児童指導員になるための資格要件が定められています。この議案で、こども家庭ソーシャルワーカーの資格を持つ人も要件に加え、条文の参照先を改めます。",
+	"changes": [
+		"児童指導員の資格要件にこども家庭ソーシャルワーカーを加える",
+		"条文の参照先を第33条の10第1項各号に改める"
+	],
+	"who": [
+		"こども家庭ソーシャルワーカーの資格を持つ人",
+		"一時保護施設"
+	],
+	"why": "内閣府令の改正に伴い、児童指導員の資格要件にこども家庭ソーシャルワーカーの資格を持つ人を加え、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:51:32.084Z",
+		"inputTokens": 1350,
+		"cachedTokens": 0,
+		"outputTokens": 753,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:51:32.084Z",
+		"checkedAt": "2026-10-08T05:27:26.950Z",
+		"flags": [
+			"copied from the source (25 chars): 「児童指導員の資格要件にこども家庭ソーシャルワーカー」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1282,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

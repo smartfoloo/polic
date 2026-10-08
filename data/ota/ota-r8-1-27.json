@@ -22,5 +22,41 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "平和の森公園の仮設校舎を占用物件に",
+	"category": "まちづくり",
+	"summary": "現行の条例には、平和の森公園に設ける大森第五小学校の仮設施設についての定めがありません。改正後は、同校を公園の占用物件となる仮設の物件又は施設として定めます。施行日は令和8年4月1日です。",
+	"changes": [
+		"平和の森公園に設ける大森第五小学校を公園の占用物件として定める"
+	],
+	"who": [
+		"大田区立大森第五小学校の児童や保護者",
+		"大田区立平和の森公園の利用者"
+	],
+	"why": "大森第五小学校の改築に伴い、平和の森公園に設置する仮設校舎などを公園の占用物件として定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:18:22.451Z",
+		"inputTokens": 1319,
+		"cachedTokens": 0,
+		"outputTokens": 908,
+		"reasoningTokens": 669
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:18:22.451Z",
+		"checkedAt": "2026-10-08T05:46:44.476Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1247,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 33
+		}
+	}
 }

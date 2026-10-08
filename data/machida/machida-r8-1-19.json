@@ -27,5 +27,49 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6679_19gou.pdf",
 			"fetchedAt": "2026-10-01T14:20:53.983Z"
 		}
-	]
+	],
+	"name": "職員の特別休暇に健康管理休暇を加える",
+	"category": "行政のしくみ",
+	"summary": "現在、職員の特別休暇には生理休暇が含まれています。この議案では生理休暇を外して健康管理休暇を加え、給与を減額しない日数の上限を定める休暇も、生理休暇から健康管理休暇に変更します。",
+	"changes": [
+		"特別休暇の種類から生理休暇を外し、健康管理休暇を加える",
+		"給与を減額しない日数の上限を定める休暇を、生理休暇から健康管理休暇に変える"
+	],
+	"who": [
+		"町田市職員"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:48:21.607Z",
+		"inputTokens": 2325,
+		"cachedTokens": 0,
+		"outputTokens": 815,
+		"reasoningTokens": 636
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:48:21.607Z",
+		"checkedAt": "2026-10-08T05:33:49.579Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "name",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "職員の特別休暇に健康管理休暇を加える",
+				"note": "原文第17条は「生理休暇」を「健康管理休暇」に置き換える改正であり、休暇の種類を単純に追加する改正ではない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2194,
+			"cachedTokens": 0,
+			"outputTokens": 294,
+			"reasoningTokens": 204
+		}
+	}
 }

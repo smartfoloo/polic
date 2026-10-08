@@ -27,5 +27,48 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
 			"fetchedAt": "2026-10-02T15:30:29.300Z"
 		}
-	]
+	],
+	"name": "介護保険料の減免を申請なしで扱える特例",
+	"category": "福祉",
+	"summary": "介護保険料の減免には、条例上、申請書の提出が必要です。この議案では、別に定める基準に当てはまる場合、令和8年度分に限り、市長が申請書の提出があったものとみなせる特例を設けます。",
+	"changes": [
+		"申請書の提出があったものとみなせる特例を設ける"
+	],
+	"who": [
+		"介護保険料の減免基準に該当する人"
+	],
+	"why": "令和8年度の介護保険料の特例減免を申請によらず実施するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:43:50.349Z",
+		"inputTokens": 1473,
+		"cachedTokens": 0,
+		"outputTokens": 833,
+		"reasoningTokens": 617
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:43:50.349Z",
+		"checkedAt": "2026-10-08T05:23:44.419Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "申請書の提出があったものとみなせる特例を設ける",
+				"note": "原文では、特例は令和8年度分に限り、第15条第1項第5号による減免のうち別に定める基準に該当する場合が対象です。changesには、この適用年度と対象の限定が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1358,
+			"cachedTokens": 0,
+			"outputTokens": 288,
+			"reasoningTokens": 171
+		}
+	}
 }

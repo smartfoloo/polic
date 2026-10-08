@@ -22,5 +22,40 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/020/294/R8-2teirei_sicyo63-67.pdf",
 			"fetchedAt": "2026-10-02T15:38:36.785Z"
 		}
-	]
+	],
+	"name": "公演施設に関する都市計画税の割合を定める",
+	"category": "税・手数料",
+	"summary": "利便性等向上改修工事をした実演芸術公演施設について、都市計画税に関する条例上の割合を365分の1と定めます。この改正は令和8年度分以降の都市計画税に適用します。ただし、平成30年4月1日から令和8年3月31日までに工事が行われた施設は、従来の規定によります。",
+	"changes": [
+		"実演芸術公演施設に関する条例上の割合を365分の1とする"
+	],
+	"who": [
+		"対象となる実演芸術公演施設の所有者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:38:32.502Z",
+		"inputTokens": 1816,
+		"cachedTokens": 0,
+		"outputTokens": 1574,
+		"reasoningTokens": 1364
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:38:32.502Z",
+		"checkedAt": "2026-10-08T05:59:22.971Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1699,
+			"cachedTokens": 0,
+			"outputTokens": 80,
+			"reasoningTokens": 65
+		}
+	}
 }

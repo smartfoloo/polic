@@ -22,5 +22,45 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援の基準表現を改める",
+	"category": "子育て",
+	"summary": "区は、乳児等通園支援事業の設備や運営に関する基準を条例で定めています。この議案では、条例の用語を見直し、利用定員の意味を明記するなど、基準に関する規定を整えます。",
+	"changes": [
+		"「乳児等通園支援事業者」を「乳児等通園支援事業所」に改める",
+		"利用定員が子ども・子育て支援法上の確認で定める定員であることを加える",
+		"条文の見出しや禁止に関する表現を改める",
+		"乳児・幼児の区分別の記載や職員に関する記載を改める"
+	],
+	"who": [
+		"乳児等通園支援事業所の運営者"
+	],
+	"why": "乳児等通園支援事業の設備及び運営に関する基準の改正に伴い、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:19:22.682Z",
+		"inputTokens": 1660,
+		"cachedTokens": 0,
+		"outputTokens": 1071,
+		"reasoningTokens": 770
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:19:22.682Z",
+		"checkedAt": "2026-10-08T05:47:02.912Z",
+		"flags": [
+			"copied from the source (29 chars): 「「乳児等通園支援事業者」を「乳児等通園支援事業所」に改める」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1628,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 33
+		}
+	}
 }

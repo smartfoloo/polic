@@ -27,5 +27,40 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
 			"fetchedAt": "2026-10-02T15:30:29.300Z"
 		}
-	]
+	],
+	"name": "南沢第16緑地を公園一覧に追加",
+	"category": "まちづくり",
+	"summary": "現在の市立公園の一覧には、南沢第16緑地は載っていません。この議案で、南沢四丁目120番34にある南沢第16緑地を一覧に加えます。条例は公布日から施行します。",
+	"changes": [
+		"市立公園の一覧に南沢第16緑地（南沢四丁目120番34）を加える"
+	],
+	"who": [
+		"南沢第16緑地を利用する人"
+	],
+	"why": "市立公園の設置に伴い、規定を整備する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:44:25.418Z",
+		"inputTokens": 1447,
+		"cachedTokens": 0,
+		"outputTokens": 1020,
+		"reasoningTokens": 847
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:44:25.418Z",
+		"checkedAt": "2026-10-08T05:23:52.746Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1308,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 28
+		}
+	}
 }

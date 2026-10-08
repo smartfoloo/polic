@@ -22,5 +22,39 @@
 			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/gian2.pdf",
 			"fetchedAt": "2026-10-01T14:37:39.514Z"
 		}
-	]
+	],
+	"name": "財産事務を企画政策部に移す",
+	"category": "行政のしくみ",
+	"summary": "現在、総務部の担当項目に「財産」があります。この議案で、企画政策部に財産に関する担当を加え、総務部の担当項目の「財産」を「検査」に改めます。2026年4月1日から施行します。",
+	"changes": [
+		"財産に関することを企画政策部の担当に加える",
+		"総務部の担当項目の「財産」を「検査」に改める"
+	],
+	"who": [],
+	"why": "行政事務をより効率化するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:15:21.405Z",
+		"inputTokens": 1230,
+		"cachedTokens": 0,
+		"outputTokens": 809,
+		"reasoningTokens": 643
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:15:21.405Z",
+		"checkedAt": "2026-10-08T05:06:36.655Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1090,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

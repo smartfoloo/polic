@@ -22,5 +22,51 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:26:44.967Z"
 		}
-	]
+	],
+	"name": "職員の出張旅費の対象費用などを変更",
+	"category": "行政のしくみ",
+	"summary": "市職員等の出張旅費は、交通手段ごとの費用や別表の金額などを定めています。この議案では、交通費に付随する費用を加え、その他の交通費の範囲、宿泊料の地域別金額、通勤手当等との調整方法を見直します。",
+	"changes": [
+		"鉄道賃と船賃に付随する費用を加える",
+		"その他の交通費の範囲を定め直し、付随費用を加える",
+		"宿泊料の地域別金額を改める",
+		"通勤用定期乗車券を利用できる経路の旅費を支給しない扱いに改める"
+	],
+	"who": [
+		"八王子市職員等のうち、出張旅費を受ける人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:39:18.240Z",
+		"inputTokens": 3746,
+		"cachedTokens": 0,
+		"outputTokens": 2399,
+		"reasoningTokens": 2169
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:39:18.240Z",
+		"checkedAt": "2026-10-08T05:21:10.109Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "鉄道賃と船賃に付随する費用を加える",
+				"note": "第10条第2項と第13条第3項では、新たに対象となる鉄道賃・その他の交通費の付随費用にも、支払を証明する資料の提出要件を広げています。この支給要件の変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3671,
+			"cachedTokens": 0,
+			"outputTokens": 500,
+			"reasoningTokens": 386
+		}
+	}
 }

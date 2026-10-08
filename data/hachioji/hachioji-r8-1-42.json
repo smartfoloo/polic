@@ -22,5 +22,43 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "学園都市センターの施設利用料を改定",
+	"category": "まちづくり",
+	"summary": "学園都市センターの施設利用料などを定めた条例を改めます。2027年4月1日から、イベントホールや和室、ギャラリーホールの全日利用額を引き上げ、開館時間を超えて利用する場合の超過料金の上限も引き上げます。",
+	"changes": [
+		"イベントホールの全日利用額を62,000円から93,000円に上げる",
+		"和室の全日利用額を3,000円から4,500円に上げる",
+		"第1・第2ギャラリーホールの全日利用額を各24,000円から各33,200円に上げる",
+		"開館時間を超える利用の超過料金の上限を1時間当たり10,000円から14,000円に上げる（前項の場合は20,000円から28,000円）"
+	],
+	"who": [
+		"学園都市センターの施設を利用する人や団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:31:40.160Z",
+		"inputTokens": 1744,
+		"cachedTokens": 0,
+		"outputTokens": 1062,
+		"reasoningTokens": 767
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:31:40.160Z",
+		"checkedAt": "2026-10-08T05:16:27.897Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1701,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 28
+		}
+	}
 }

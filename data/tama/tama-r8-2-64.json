@@ -22,5 +22,41 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/020/294/R8-2teirei_sicyo63-67.pdf",
 			"fetchedAt": "2026-10-02T15:38:36.785Z"
 		}
-	]
+	],
+	"name": "損害賠償責任の免責条例の条文番号を変更",
+	"category": "行政のしくみ",
+	"summary": "市長などの損害賠償責任の一部免責を定める条例では、関連する条文を引用しています。この議案では、条例内の引用先を改め、2026年9月24日から施行します。",
+	"changes": [
+		"第1条の引用を「第243条の2の7第1項」から「第243条の2の8第1項」に変更する",
+		"第1条の引用を「第243条の2の8第3項」から「第243条の2の9第3項」に変更する",
+		"第3条の引用を「第243条の2の7第1項」から「第243条の2の8第1項」に変更する",
+		"第3条の引用を「第173条の4第1項第1号」から「第173条の5第1項第1号」に変更する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:37:58.807Z",
+		"inputTokens": 1367,
+		"cachedTokens": 0,
+		"outputTokens": 681,
+		"reasoningTokens": 407
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:37:58.807Z",
+		"checkedAt": "2026-10-08T05:59:00.534Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1315,
+			"cachedTokens": 0,
+			"outputTokens": 32,
+			"reasoningTokens": 18
+		}
+	}
 }

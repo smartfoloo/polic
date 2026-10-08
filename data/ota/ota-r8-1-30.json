@@ -22,5 +22,40 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "ひとり親の医療助成に個人番号カードを追加",
+	"category": "健康・医療",
+	"summary": "現在、医療費助成を受けるには医療証を提示します。改正後は、病院などで助成を受ける資格を確認できる場合、個人番号カードを提示する方法も使えます。この改正は令和8年4月1日に施行されます。",
+	"changes": [
+		"病院等で助成資格を確認できる場合、個人番号カードでも医療費助成を受けられるようにする"
+	],
+	"who": [
+		"ひとり親家庭の医療費助成を受ける人"
+	],
+	"why": "ひとり親家庭の医療費助成を受ける手続に、病院等へ個人番号カードを提示する方法を加えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:19:01.385Z",
+		"inputTokens": 1455,
+		"cachedTokens": 0,
+		"outputTokens": 1126,
+		"reasoningTokens": 915
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:19:01.385Z",
+		"checkedAt": "2026-10-08T05:46:55.102Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1356,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 28
+		}
+	}
 }

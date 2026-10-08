@@ -27,5 +27,53 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/064/133/r80605_gian_44.pdf",
 			"fetchedAt": "2026-10-02T15:04:00.564Z"
 		}
-	]
+	],
+	"name": "特定暗号資産など区民税の扱いを変更",
+	"category": "税・手数料",
+	"summary": "区民税の寄附金控除や公的年金等受給者の申告に関するルールを改めます。特定暗号資産に係る所得を他の所得と分けて課税する仕組みを設け、住宅ローン控除などの適用期限も延長します。",
+	"changes": [
+		"東京都知事の認可を受けた公益信託への寄付を寄附金税額控除の対象に加える",
+		"公的年金等受給者の申告対象や申告書の記載事項を定める",
+		"特定暗号資産に係る所得を他の所得と分け、区民税所得割を3%にする",
+		"住宅ローン控除などの適用期限を延長する"
+	],
+	"who": [
+		"対象となる公益信託へ寄付をする人",
+		"公的年金等を受け取り、申告書を提出する人",
+		"特定暗号資産に係る所得がある区民税の納税義務者"
+	],
+	"why": "地方税法の改正に伴い、特定暗号資産の課税や公的年金等受給者の申告などに必要な規定を設け、控除の適用期限を延長するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:39:05.267Z",
+		"inputTokens": 6997,
+		"cachedTokens": 0,
+		"outputTokens": 1984,
+		"reasoningTokens": 1647
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:39:05.267Z",
+		"checkedAt": "2026-10-08T05:29:27.240Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "住宅ローン控除などの適用期限を延長する",
+				"note": "付則第11条第4項で、地すべり防止区域などの災害危険区域内にある土地等の一定の譲渡を、優良住宅地等のための譲渡等として扱わない変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 7032,
+			"cachedTokens": 0,
+			"outputTokens": 218,
+			"reasoningTokens": 87
+		}
+	}
 }

@@ -27,5 +27,52 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/028/644/2026022502.pdf",
 			"fetchedAt": "2026-10-02T15:32:34.596Z"
 		}
-	]
+	],
+	"name": "市内の公園の管理ルールを一本化",
+	"category": "まちづくり",
+	"summary": "これまでは、児童遊園と都市公園について別々の条例がありました。この議案では両条例を廃止し、市立公園の設置や管理、利用の許可、使用料などを定める新しい条例を2026年4月1日から施行します。",
+	"changes": [
+		"児童遊園と都市公園の管理規定を1つの条例にまとめる",
+		"指定管理者に市立公園の管理を任せられるようにする",
+		"公園施設の設置や公園の占用、催しなどの許可や料金を定める"
+	],
+	"who": [
+		"公園を利用する人",
+		"公園で営業や催しを行う人",
+		"公園の有料施設を利用する人"
+	],
+	"why": "市内の公園の設置や管理を一元化し、指定管理者制度や公募設置管理制度に関する規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:41:54.774Z",
+		"inputTokens": 12415,
+		"cachedTokens": 0,
+		"outputTokens": 1699,
+		"reasoningTokens": 1444
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:41:54.774Z",
+		"checkedAt": "2026-10-08T05:22:56.715Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "公園施設の設置や公園の占用、催しなどの許可や料金を定める",
+				"note": "第31条では、無許可使用や許可条件違反、不正な使用料等の徴収免れなどに5万円以下の過料を科すと定めているが、利用者に直接関わるこの罰則が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 12366,
+			"cachedTokens": 0,
+			"outputTokens": 294,
+			"reasoningTokens": 174
+		}
+	}
 }

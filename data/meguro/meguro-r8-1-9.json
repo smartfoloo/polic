@@ -27,5 +27,59 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "職員の出張旅費の算定方法を見直す",
+	"category": "行政のしくみ",
+	"summary": "職員の旅費を定める現行条例を全面的に改めます。旅費の種類や支給額の決め方を見直し、令和8年4月1日以後に出発する旅行から適用します。",
+	"changes": [
+		"交通費などの支給額を、条例上の計算額と実際の支払額のうち低い方とする",
+		"宿泊費を国の職員の基準額とし、特別な事情がある場合は実費とする",
+		"旅費の対象となる家族に、パートナーシップ関係の相手方を含める"
+	],
+	"who": [
+		"目黒区の職員",
+		"区の依頼で証人や通訳などとして旅行する人",
+		"赴任する職員の家族"
+	],
+	"why": "職員の旅費制度を見直すとともに、関係条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:05:45.717Z",
+		"inputTokens": 11441,
+		"cachedTokens": 0,
+		"outputTokens": 1668,
+		"reasoningTokens": 1414
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:05:45.717Z",
+		"checkedAt": "2026-10-08T05:39:34.272Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "区の依頼で証人や通訳などとして旅行する人",
+				"note": "第3条第4項は、区の依頼等で証人・通訳等として旅行する「職員」を対象としている。要約は職員以外も含むように読める。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "交通費などの支給額を、条例上の計算額と実際の支払額のうち低い方とする",
+				"note": "付則第4項・第9項にある、選挙管理委員会等への出頭者や建築審査会関係の費用弁償から日当5,000円の規定を削除する変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 11398,
+			"cachedTokens": 0,
+			"outputTokens": 464,
+			"reasoningTokens": 259
+		}
+	}
 }

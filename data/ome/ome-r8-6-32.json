@@ -22,5 +22,44 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/80387.pdf",
 			"fetchedAt": "2026-10-01T14:27:40.355Z"
 		}
-	]
+	],
+	"name": "印鑑登録証明の申請手続を変更",
+	"category": "くらし・手続き",
+	"summary": "印鑑登録証明の申請手続は、青梅市印鑑条例で定められています。この議案では、外国人住民の範囲に関する扱いと自治体の範囲を示す文言を改め、申請時に使えるカード類を追加します。施行日は公布日です。",
+	"changes": [
+		"市区町村の範囲に関する表現を、東京都内に限らない内容に改める",
+		"非漢字圏の外国人住民に、本国の公的な身分証明書で氏名に漢字を使わない漢字圏の外国人住民を含める",
+		"申請時に使える証明書類に、特定在留カードと特定特別永住者証明書を加える"
+	],
+	"who": [
+		"印鑑登録証明を申請する人",
+		"本国の公的な身分証明書で氏名に漢字を使わない漢字圏の外国人住民",
+		"特定在留カードまたは特定特別永住者証明書を持つ人"
+	],
+	"why": "出入国管理に関する法律の一部改正に伴い、印鑑登録証明の申請手続を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:11:20.527Z",
+		"inputTokens": 1638,
+		"cachedTokens": 0,
+		"outputTokens": 2774,
+		"reasoningTokens": 2437
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:11:20.527Z",
+		"checkedAt": "2026-10-08T05:42:23.293Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1673,
+			"cachedTokens": 0,
+			"outputTokens": 41,
+			"reasoningTokens": 26
+		}
+	}
 }

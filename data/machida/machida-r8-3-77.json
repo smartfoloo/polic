@@ -27,5 +27,38 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6824_77gou.pdf",
 			"fetchedAt": "2026-10-01T14:26:18.011Z"
 		}
-	]
+	],
+	"name": "七国山ファーマーズセンターの条例を廃止",
+	"category": "まちづくり",
+	"summary": "現在、町田市七国山ファーマーズセンター条例があります。この議案は条例を廃止し、2027年4月1日から施行します。",
+	"changes": [
+		"七国山ファーマーズセンター条例を廃止する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:00:28.761Z",
+		"inputTokens": 1125,
+		"cachedTokens": 0,
+		"outputTokens": 812,
+		"reasoningTokens": 709
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:00:28.761Z",
+		"checkedAt": "2026-10-08T05:37:16.264Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 911,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

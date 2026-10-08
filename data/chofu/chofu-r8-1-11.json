@@ -27,5 +27,48 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077265.html",
 			"fetchedAt": "2026-10-01T14:31:07.572Z"
 		}
-	]
+	],
+	"name": "政務活動費の交付額を3万円に",
+	"category": "行政のしくみ",
+	"summary": "現在、政務活動費の交付額は2万5,000円です。この議案では、交付額を3万円に改め、令和8年4月1日から施行します。",
+	"changes": [
+		"政務活動費の交付額を2万5,000円から3万円に改める"
+	],
+	"who": [
+		"調布市議会の会派"
+	],
+	"why": "政務活動費の交付額を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:18:14.078Z",
+		"inputTokens": 1196,
+		"cachedTokens": 0,
+		"outputTokens": 923,
+		"reasoningTokens": 756
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:18:14.078Z",
+		"checkedAt": "2026-10-08T05:08:20.486Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "調布市議会の会派",
+				"note": "原文には交付対象が会派であるとの記載がなく、対象者を確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1031,
+			"cachedTokens": 0,
+			"outputTokens": 194,
+			"reasoningTokens": 129
+		}
+	}
 }

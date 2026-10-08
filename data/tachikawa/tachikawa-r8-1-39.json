@@ -22,5 +22,52 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian39.pdf",
 			"fetchedAt": "2026-10-01T14:24:26.684Z"
 		}
-	]
+	],
+	"name": "実費弁償の旅費区分と支給方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在は、車賃を1kmあたり37円、日当を1日10,800円、宿泊料を1夜13,500円と定めています。この議案では、旅費の種類と支給方法を一般職の職員の旅費の例に合わせ、日当は1日10,800円とします。令和8年4月1日以後の出頭や参加から適用します。",
+	"changes": [
+		"実費弁償の種類を鉄道賃、船賃、航空賃、その他の交通費、宿泊費、包括宿泊費、宿泊手当、日当に改める",
+		"実費弁償の額と支給方法を一般職の職員の旅費の例によるものとする",
+		"日当を1日10,800円とする"
+	],
+	"who": [
+		"出頭や参加に伴い実費弁償を受ける人"
+	],
+	"why": "地方自治法などの規定による改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:28:50.307Z",
+		"inputTokens": 1616,
+		"cachedTokens": 0,
+		"outputTokens": 1356,
+		"reasoningTokens": 1082
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:28:50.307Z",
+		"checkedAt": "2026-10-08T05:52:28.876Z",
+		"flags": [
+			"copied from the source (33 chars): 「鉄道賃、船賃、航空賃、その他の交通費、宿泊費、包括宿泊費、宿泊手当」"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "日当を1日10,800円とする",
+				"note": "原文第３条では、従来の「日当の減額の規定は、適用しない」という規定も削除されているが、この変更が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1584,
+			"cachedTokens": 0,
+			"outputTokens": 271,
+			"reasoningTokens": 180
+		}
+	}
 }

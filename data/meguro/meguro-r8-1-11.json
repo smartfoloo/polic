@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "対策本部の組織や会議の仕組みを見直す",
+	"category": "行政のしくみ",
+	"summary": "条例では、国民保護対策本部などの組織や運営を定めています。改正により、部や副部長を置くことや、本部会議の役割などを見直し、2026年4月1日から施行します。",
+	"changes": [
+		"規則で定めるところにより保護本部に部を置く",
+		"規則で定める部に副部長を置き、部長の補佐や職務代理を担わせる",
+		"本部会議を置き、重要事項を審議する",
+		"現地対策本部を置いた場合の構成員の定め方を改める"
+	],
+	"who": [],
+	"why": "国民保護対策本部などの組織を見直すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:01:07.596Z",
+		"inputTokens": 1671,
+		"cachedTokens": 0,
+		"outputTokens": 1166,
+		"reasoningTokens": 911
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:01:07.596Z",
+		"checkedAt": "2026-10-08T05:37:33.290Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1597,
+			"cachedTokens": 0,
+			"outputTokens": 98,
+			"reasoningTokens": 83
+		}
+	}
 }

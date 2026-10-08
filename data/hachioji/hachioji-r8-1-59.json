@@ -22,5 +22,57 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "生涯学習センターの施設使用料を引き上げ",
+	"category": "税・手数料",
+	"summary": "現在、本館と南大沢・川口の各分館では、部屋や利用時間に応じて使用料が定められています。この議案では、各施設の使用料を引き上げ、2027年4月1日から適用します。",
+	"changes": [
+		"本館の第1学習室（午前）の使用料を1,200円から1,600円に引き上げる",
+		"南大沢分館の第1学習室（午前）の使用料を450円から600円に引き上げる",
+		"川口分館の第1学習室（午前）の使用料を600円から800円に引き上げる"
+	],
+	"who": [
+		"生涯学習センターの施設を借りる人や団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:35:34.984Z",
+		"inputTokens": 3504,
+		"cachedTokens": 0,
+		"outputTokens": 1000,
+		"reasoningTokens": 755
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:35:34.984Z",
+		"checkedAt": "2026-10-08T05:18:51.737Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "本館の第1学習室（午前）の使用料を1,200円から1,600円に引き上げる",
+				"note": "changesは各館の第1学習室の午前料金のみを挙げていますが、原文では他の学習室、料理講習室、視聴覚室、本館の多目的ホールなどや、午後・夜間・全日の料金も引き上げています。改定対象の広がりが抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "本館の第1学習室（午前）の使用料を1,200円から1,600円に引き上げる",
+				"note": "附則第3項では、施行日以後の施設利用について、施行日前でも改定後の使用料を徴収できるとしています。利用者の支払いに直接関わる経過措置が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3411,
+			"cachedTokens": 0,
+			"outputTokens": 386,
+			"reasoningTokens": 141
+		}
+	}
 }

@@ -22,5 +22,40 @@
 			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037014_d/fil/giinteisyutugiandai2gou.pdf",
 			"fetchedAt": "2026-10-02T15:26:20.827Z"
 		}
-	]
+	],
+	"name": "委員会の担当部局を市の組織変更に合わせる",
+	"category": "行政のしくみ",
+	"summary": "市議会の常任委員会は、市の部局などを分担して担当しています。この議案で、総務企画・文教経済・都市環境委員会の担当部局を見直します。改正は2026年7月1日からです。",
+	"changes": [
+		"総務企画委員会の所管から市長公室、総合経営部、契約資産部、財政部を外し、総合政策部、財務部を加える",
+		"文教経済委員会の所管を産業振興部から経済産業部に改める",
+		"都市環境委員会の所管から拠点整備部、道路交通部を外し、建設部を加える"
+	],
+	"who": [],
+	"why": "2026年7月からの市組織体制の変更に伴い、委員会の所管部名を変更するためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:36:41.487Z",
+		"inputTokens": 1901,
+		"cachedTokens": 0,
+		"outputTokens": 1295,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:36:41.487Z",
+		"checkedAt": "2026-10-08T05:19:19.141Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1857,
+			"cachedTokens": 0,
+			"outputTokens": 47,
+			"reasoningTokens": 32
+		}
+	}
 }

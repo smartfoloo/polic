@@ -22,5 +22,66 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "乳児等の通園支援事業の運営基準を定める",
+	"category": "子育て",
+	"summary": "市内で行われる特定乳児等通園支援事業の運営基準を条例で定めます。事業者には、利用定員の設定や初回利用前の保護者との面談、費用の説明、記録の保存などを求めます。",
+	"changes": [
+		"1時間当たりの利用定員を定める",
+		"初回の利用前に保護者と面談し、重要事項を説明する",
+		"災害対策や虐待防止など、事業の運営に関する基準を定める",
+		"支援の提供に関する記録などを完結の日から5年間保存する"
+	],
+	"who": [
+		"特定乳児等通園支援を行う事業者",
+		"特定乳児等通園支援を利用する子どもと保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:32:50.483Z",
+		"inputTokens": 11228,
+		"cachedTokens": 0,
+		"outputTokens": 836,
+		"reasoningTokens": 570
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:32:50.483Z",
+		"checkedAt": "2026-10-08T05:17:22.549Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "1時間当たりの利用定員を定める",
+				"note": "第4条第2項では、利用時間数や開所日数・時間等を考慮して1月当たりの利用定員も定めることとしているが、その記載がない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "初回の利用前に保護者と面談し、重要事項を説明する",
+				"note": "第5条第2・3項にある、重要事項を記載した文書の事前交付と、支援の提供について保護者の同意を得る義務が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "災害対策や虐待防止など、事業の運営に関する基準を定める",
+				"note": "第13条にある、基準額との差額の範囲内の追加費用や食費等を保護者から受け取れること、および追加費用等の使途・額・理由の事前説明と同意の義務が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 11158,
+			"cachedTokens": 0,
+			"outputTokens": 448,
+			"reasoningTokens": 100
+		}
+	}
 }

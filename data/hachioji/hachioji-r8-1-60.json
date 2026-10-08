@@ -22,5 +22,43 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "総合体育館の利用料を引き上げ",
+	"category": "税・手数料",
+	"summary": "現在、条例ではメインアリーナ全面の利用額を1時間ごと9,000円などと定めています。改正後は、5つの利用区分で条例上の金額が上がり、2027年4月1日から適用されます。施行日以後の実際の利用料金は、指定管理者が条例の金額の範囲内で定めます。",
+	"changes": [
+		"メインアリーナ全面の1時間ごとの条例上の金額を9,000円から13,500円に引き上げる",
+		"サブアリーナ全面の1時間ごとの条例上の金額を5,800円から8,700円に引き上げる",
+		"アリーナ諸室の1室1時間ごとの条例上の金額を300円から450円に引き上げる",
+		"多目的室全面と会議・研修室の条例上の金額を、それぞれ1時間ごと2,400円から3,300円、1平方メートル1時間ごと5円から6円に引き上げる"
+	],
+	"who": [
+		"八王子市総合体育館を利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:35:48.882Z",
+		"inputTokens": 1649,
+		"cachedTokens": 0,
+		"outputTokens": 1832,
+		"reasoningTokens": 1496
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:35:48.882Z",
+		"checkedAt": "2026-10-08T05:18:55.359Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1647,
+			"cachedTokens": 0,
+			"outputTokens": 112,
+			"reasoningTokens": 98
+		}
+	}
 }

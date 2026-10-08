@@ -27,5 +27,66 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
 			"fetchedAt": "2026-10-02T15:30:29.300Z"
 		}
-	]
+	],
+	"name": "特定暗号資産の所得に市民税4%を課す",
+	"category": "税・手数料",
+	"summary": "市民税や固定資産税の扱いを見直します。家屋などの固定資産税の免税点や住宅ローン控除の期間を変え、特定暗号資産の所得を他の所得と分けて課税する仕組みを設けます。",
+	"changes": [
+		"家屋の固定資産税の免税点を20万円未満から30万円未満に、償却資産を150万円未満から180万円未満に改める",
+		"住宅ローン控除の適用年度を令和25年度まで、対象となる居住年を令和12年まで延ばす",
+		"特定暗号資産に係る事業所得・譲渡所得・雑所得を他の所得と分け、市民税の所得割4%を課す"
+	],
+	"who": [
+		"特定暗号資産に係る事業所得・譲渡所得・雑所得がある市民税の納税義務者",
+		"住宅ローン控除を受ける人",
+		"家屋や償却資産を持ち、固定資産税の免税点の変更が関係する人"
+	],
+	"why": "地方税法等の一部を改正する法律などの施行に伴い、規定を整備する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:43:37.132Z",
+		"inputTokens": 16048,
+		"cachedTokens": 0,
+		"outputTokens": 3728,
+		"reasoningTokens": 3356
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:43:37.132Z",
+		"checkedAt": "2026-10-08T05:23:33.328Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "第36条の3の3の改正による、公的年金等受給者の扶養親族等申告書の提出対象の拡大と、障害者・寡婦・ひとり親に関する記載事項の追加が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "付則第6条の改正による、特定一般用医薬品等購入費に係る医療費控除の特例の適用期限（令和9年度まで）の撤廃が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "付則第17条の2第4項の追加による、地すべり防止区域などの災害危険区域内にある一定の土地等の譲渡を、優良住宅地等のための譲渡に係る課税特例の対象から除外する変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 16085,
+			"cachedTokens": 0,
+			"outputTokens": 444,
+			"reasoningTokens": 127
+		}
+	}
 }

@@ -27,5 +27,40 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/028/644/2026022502.pdf",
 			"fetchedAt": "2026-10-02T15:32:34.596Z"
 		}
-	]
+	],
+	"name": "ちゅうおう保育園を市立保育園から外す",
+	"category": "子育て",
+	"summary": "ちゅうおう保育園は、現在、市立保育園として条例に載っています。この議案では、公私連携型保育所へ移行するため、市立保育園の一覧から同園を外します。改正は2029年4月1日から施行されます。",
+	"changes": [
+		"市立保育園の一覧からちゅうおう保育園を外す"
+	],
+	"who": [
+		"ちゅうおう保育園を利用する子どもと保護者"
+	],
+	"why": "ちゅうおう保育園を公私連携型保育所へ移行するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:41:32.450Z",
+		"inputTokens": 1415,
+		"cachedTokens": 0,
+		"outputTokens": 664,
+		"reasoningTokens": 455
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:41:32.450Z",
+		"checkedAt": "2026-10-08T05:22:44.176Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1293,
+			"cachedTokens": 0,
+			"outputTokens": 44,
+			"reasoningTokens": 30
+		}
+	}
 }

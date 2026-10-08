@@ -27,5 +27,40 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:29:58.629Z"
 		}
-	]
+	],
+	"name": "公示送達の方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、公示送達は市の掲示場に掲示して行っています。この議案では、公示事項を不特定多数が閲覧できる状態にする措置を設けたうえで、掲示場への書面掲示か、市の事務所に設置した電子計算機の画面で閲覧できる方法で行う形に変えます。",
+	"changes": [
+		"公示事項を不特定多数が閲覧できる状態にし、掲示場への書面掲示か市の事務所の画面で閲覧できる状態にする"
+	],
+	"who": [
+		"後期高齢者医療に関する公示送達を受ける人"
+	],
+	"why": "高齢者の医療の確保に関する法律で準用する地方税法の一部改正に伴う改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:24:30.137Z",
+		"inputTokens": 1707,
+		"cachedTokens": 0,
+		"outputTokens": 1210,
+		"reasoningTokens": 956
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:24:30.137Z",
+		"checkedAt": "2026-10-08T05:12:00.059Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1629,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 38
+		}
+	}
 }

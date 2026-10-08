@@ -22,5 +22,43 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "食品営業許可の申請・更新手数料を改定",
+	"category": "税・手数料",
+	"summary": "食品営業の許可申請や更新にかかる手数料を、業種ごとに改めます。通常の飲食店営業の新規申請料は18,300円から18,000円に下がる一方、移動・臨時の飲食店営業は6,500円から9,300円に上がるなど、変更内容は業種によって異なります。食品営業の手数料改定は2026年7月1日から、薬局製造販売医薬品の申請に関する規定の改定は同年5月1日から施行します。",
+	"changes": [
+		"食品営業の許可申請・更新手数料を業種ごとに改定する",
+		"通常の飲食店営業の新規許可申請料を18,300円から18,000円に下げる",
+		"移動・臨時飲食店営業の新規許可申請料を6,500円から9,300円に上げる",
+		"薬局製造販売医薬品の一部変更承認申請に関する法律の参照条項を変更する"
+	],
+	"who": [
+		"食品を扱う飲食店や製造・販売事業者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:33:50.491Z",
+		"inputTokens": 14828,
+		"cachedTokens": 0,
+		"outputTokens": 2900,
+		"reasoningTokens": 2577
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:33:50.491Z",
+		"checkedAt": "2026-10-08T05:17:45.287Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 14841,
+			"cachedTokens": 0,
+			"outputTokens": 81,
+			"reasoningTokens": 66
+		}
+	}
 }

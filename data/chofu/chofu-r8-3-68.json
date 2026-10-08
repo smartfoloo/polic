@@ -27,5 +27,40 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077280.html",
 			"fetchedAt": "2026-10-01T14:31:20.266Z"
 		}
-	]
+	],
+	"name": "災害対策本部に事務局を設置",
+	"category": "防災",
+	"summary": "災害対策本部条例に、事務局を設けることなどを加えます。事務局長の役割と事務局職員の仕事の進め方も定め、公布の日から施行します。",
+	"changes": [
+		"本部長室に事務局を置く",
+		"事務局長を置き、本部長の補佐や本部の運営に必要な総合調整を担わせる",
+		"事務局職員は事務局長の指示を受けて事務を行う"
+	],
+	"who": [],
+	"why": "事務局や事務局長、事務局に属する職員について定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:23:27.286Z",
+		"inputTokens": 1364,
+		"cachedTokens": 0,
+		"outputTokens": 649,
+		"reasoningTokens": 454
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:23:27.286Z",
+		"checkedAt": "2026-10-08T05:11:19.901Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1252,
+			"cachedTokens": 0,
+			"outputTokens": 58,
+			"reasoningTokens": 44
+		}
+	}
 }

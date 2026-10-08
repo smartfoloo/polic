@@ -22,5 +22,52 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "蒲田西集会室を設け利用料を定める",
+	"category": "まちづくり",
+	"summary": "現在の条例にない蒲田西集会室を、蒲田西特別出張所の付属施設に加えます。4室の時間帯別の使用料を定め、区外の利用者には通常の使用料に2割を加算します。2区分以上を連続して使う場合の中間時間を無料とし、営利目的の行為がある場合を施設利用に関する規定に加えます。",
+	"changes": [
+		"蒲田西集会室を特別出張所の付属施設に加える",
+		"第一集会室・第一多目的室は午前1,800円、午後A1,500円、午後B・夜間1,800円、第二集会室・第二多目的室は午前2,400円、午後A2,000円、午後B・夜間2,400円に定める",
+		"区外の利用者には、使用料に2割相当額を加算する",
+		"2区分以上を連続して使う場合の中間時間を無料とし、営利目的の行為がある場合を施設利用に関する規定に加える"
+	],
+	"who": [
+		"蒲田西集会室を利用する人・団体",
+		"区外の個人や団体"
+	],
+	"why": "ふれあいはすぬまの集会室を廃止することに伴い、蒲田西集会室を設けて使用料を定め、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:16:41.050Z",
+		"inputTokens": 1804,
+		"cachedTokens": 0,
+		"outputTokens": 3363,
+		"reasoningTokens": 2950
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:16:41.050Z",
+		"checkedAt": "2026-10-08T05:45:41.609Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区外の利用者には、使用料に2割相当額を加算する",
+				"note": "別表第３付記(２)の加算対象の定義が抜けている。個人は区内在住・在勤・在学のいずれにも該当しない者、団体はそのような構成員が半数以上の団体が対象であり、単に区外在住というだけでは加算対象にならない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1884,
+			"cachedTokens": 0,
+			"outputTokens": 234,
+			"reasoningTokens": 97
+		}
+	}
 }

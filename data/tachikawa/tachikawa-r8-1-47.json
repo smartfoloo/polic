@@ -22,5 +22,46 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian47.pdf",
 			"fetchedAt": "2026-10-01T14:25:14.701Z"
 		}
-	]
+	],
+	"name": "いじめ防止を危機管理対策室の担当に",
+	"category": "行政のしくみ",
+	"summary": "現在、危機管理対策室の担当事務には、子どものいじめ防止が含まれていません。この議案で、同室の担当事務に子どものいじめ防止を加えます。令和8年4月1日から施行します。",
+	"changes": [
+		"危機管理対策室の担当事務に子どものいじめ防止を加える"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:30:38.624Z",
+		"inputTokens": 1479,
+		"cachedTokens": 0,
+		"outputTokens": 576,
+		"reasoningTokens": 441
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:30:38.624Z",
+		"checkedAt": "2026-10-08T05:54:04.082Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "危機管理対策室の担当事務に子どものいじめ防止を加える",
+				"note": "原文の新旧対照表では「(4) 子どものいじめ防止に関すること。」が片側のみ記載され、列の対応が崩れているため、改正後への追加であるか確認が必要。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1300,
+			"cachedTokens": 0,
+			"outputTokens": 314,
+			"reasoningTokens": 205
+		}
+	}
 }

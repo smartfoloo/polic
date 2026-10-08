@@ -22,5 +22,38 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_67.pdf",
 			"fetchedAt": "2026-10-02T15:04:30.621Z"
 		}
-	]
+	],
+	"name": "個人番号で扱う情報の種類を改める",
+	"category": "行政のしくみ",
+	"summary": "条例の別表第2の10項では、特定個人情報の取扱いを定めています。この欄に記載する情報を、区規則で定める介護保険給付等、難病患者医療、障がい者関係の情報に改めます。",
+	"changes": [
+		"別表第2の10項に記載する特定個人情報を、区規則で定める介護保険給付等・難病患者医療・障がい者関係の情報に改める"
+	],
+	"who": [],
+	"why": "特定個人情報の利用に関する命令の施行に伴い、規定を整える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:39:49.367Z",
+		"inputTokens": 1314,
+		"cachedTokens": 0,
+		"outputTokens": 1091,
+		"reasoningTokens": 889
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:39:49.367Z",
+		"checkedAt": "2026-10-08T05:29:42.017Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1200,
+			"cachedTokens": 0,
+			"outputTokens": 86,
+			"reasoningTokens": 71
+		}
+	}
 }

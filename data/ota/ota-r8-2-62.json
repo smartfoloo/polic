@@ -22,5 +22,40 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2teirei/r0802teirei_kuchogian.files/r0802kuchogian59_66.pdf",
 			"fetchedAt": "2026-10-02T14:53:53.494Z"
 		}
-	]
+	],
+	"name": "蒲田の特別養護老人ホームを一時休止",
+	"category": "福祉",
+	"summary": "大田区立特別養護老人ホーム蒲田は、大規模改修の期間に供用を停止します。停止期間は令和8年10月1日から令和10年8月31日までです。",
+	"changes": [
+		"令和8年10月1日から令和10年8月31日まで供用を停止する"
+	],
+	"who": [
+		"大田区立特別養護老人ホーム蒲田の利用者"
+	],
+	"why": "大規模な改修を行う期間、供用を停止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:21:11.574Z",
+		"inputTokens": 1275,
+		"cachedTokens": 0,
+		"outputTokens": 668,
+		"reasoningTokens": 507
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:21:11.574Z",
+		"checkedAt": "2026-10-08T05:47:46.353Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1127,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

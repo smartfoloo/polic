@@ -22,5 +22,40 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian19.pdf",
 			"fetchedAt": "2026-10-01T14:22:26.671Z"
 		}
-	]
+	],
+	"name": "祝日の休館日の決め方を変更",
+	"category": "教育",
+	"summary": "資料館は月曜日が休館日です。月曜日が休日の場合、これまでは翌日を休館日とし、その日が特定の祝日にあたる場合はさらに翌日としていました。改正後は、月曜日の後で最も近い休日でない日を休館日とします。",
+	"changes": [
+		"月曜日が休日の場合、月曜日の後で最も近い休日でない日を休館日とする"
+	],
+	"who": [
+		"立川市歴史民俗資料館を利用する人"
+	],
+	"why": "地方自治法第244条の2第1項の規定によるものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:24:20.072Z",
+		"inputTokens": 1637,
+		"cachedTokens": 0,
+		"outputTokens": 998,
+		"reasoningTokens": 798
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:24:20.072Z",
+		"checkedAt": "2026-10-08T05:49:38.814Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1512,
+			"cachedTokens": 0,
+			"outputTokens": 62,
+			"reasoningTokens": 47
+		}
+	}
 }

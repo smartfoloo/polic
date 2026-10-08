@@ -27,5 +27,38 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai2kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:26:52.140Z"
 		}
-	]
+	],
+	"name": "賠償責任免除の根拠条文番号を変更",
+	"category": "行政のしくみ",
+	"summary": "下水道事業の職員の賠償責任を免除するとき、賠償額が10万円以上なら議会の同意が必要です。この議案では、根拠となる地方自治法の条文番号を改めます。条例の施行日は令和8年9月24日です。",
+	"changes": [
+		"賠償責任の免除に関する地方自治法の条文番号を変更する"
+	],
+	"who": [],
+	"why": "地方自治法の一部改正に伴い、所要の改正を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:27:55.587Z",
+		"inputTokens": 1495,
+		"cachedTokens": 0,
+		"outputTokens": 523,
+		"reasoningTokens": 326
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:27:55.587Z",
+		"checkedAt": "2026-10-08T05:14:21.032Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1359,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

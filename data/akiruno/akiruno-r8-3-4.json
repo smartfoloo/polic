@@ -22,5 +22,41 @@
 			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/gian4.pdf",
 			"fetchedAt": "2026-10-01T14:37:51.508Z"
 		}
-	]
+	],
+	"name": "報酬審議会の委員任期を2年に",
+	"category": "行政のしくみ",
+	"summary": "現在、委員の任期は審議が終わるまでで、会議は市長が招集します。この議案では、市長が必要に応じて議員報酬などについて審議会の意見を聴けるようにし、委員の任期を2年にします。",
+	"changes": [
+		"市長が必要に応じて議員報酬等について審議会の意見を聴けるようにする",
+		"委員の任期を2年とし、補欠委員は前任者の残りの任期とする",
+		"委員を必要の都度任命する形から委嘱する形に変え、再任を認める",
+		"会議の招集者を市長から会長に変える"
+	],
+	"who": [],
+	"why": "議員報酬などについて、必要なときにすぐ審議できる体制を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:15:51.963Z",
+		"inputTokens": 1407,
+		"cachedTokens": 0,
+		"outputTokens": 1510,
+		"reasoningTokens": 1226
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:15:51.963Z",
+		"checkedAt": "2026-10-08T05:06:48.597Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1363,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 34
+		}
+	}
 }

@@ -27,5 +27,43 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-2teirei-giketukeka.html",
 			"fetchedAt": "2026-10-02T15:07:25.729Z"
 		}
-	]
+	],
+	"name": "条件を満たす建物の高さ制限を緩和",
+	"category": "まちづくり",
+	"summary": "各地区計画の区域では、建物の高さの上限が定められています。この議案では、一定の条件を満たす建物に、地区や敷地面積などに応じた高さの上限を認める仕組みを加え、一部の規定では上限を30mから33mに改めます。適用するかは区長が判断し、事前に目黒区建築審査会の意見を聴きます。",
+	"changes": [
+		"空間の確保、防災、環境負荷低減の条件を満たす建物に、地区別の高さ上限を認める",
+		"敷地面積や周辺環境への配慮に応じた高さ上限を設ける",
+		"一部の高さ上限を30mから33mに改める",
+		"屋上の階段室などは、条件を満たす場合に高さ5mまで建物の高さに算入しない"
+	],
+	"who": [
+		"各地区計画の区域内で建築を計画する人・事業者"
+	],
+	"why": "一定の条件を満たす建築物の高さ制限を緩和するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:06:38.995Z",
+		"inputTokens": 6803,
+		"cachedTokens": 0,
+		"outputTokens": 1902,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:06:38.995Z",
+		"checkedAt": "2026-10-08T05:40:06.624Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6823,
+			"cachedTokens": 0,
+			"outputTokens": 346,
+			"reasoningTokens": 332
+		}
+	}
 }

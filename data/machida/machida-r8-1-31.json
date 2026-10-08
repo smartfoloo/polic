@@ -27,5 +27,41 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6691_31gou.pdf",
 			"fetchedAt": "2026-10-01T14:23:17.917Z"
 		}
-	]
+	],
+	"name": "南第一学童保育クラブの名称と所在地を変更",
+	"category": "子育て",
+	"summary": "現在、南第一さくら学童保育クラブは町田市南町田一丁目10番1号にあります。この議案では、名称を南第一学童保育クラブに変え、所在地を町田市金森三丁目27番2号に変更します。2027年4月1日から施行します。",
+	"changes": [
+		"名称を南第一さくら学童保育クラブから南第一学童保育クラブに変える",
+		"所在地を町田市南町田一丁目10番1号から町田市金森三丁目27番2号に変更する"
+	],
+	"who": [
+		"南第一学童保育クラブを利用する子どもと保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:50:35.111Z",
+		"inputTokens": 1356,
+		"cachedTokens": 0,
+		"outputTokens": 736,
+		"reasoningTokens": 539
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:50:35.111Z",
+		"checkedAt": "2026-10-08T05:35:20.132Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1244,
+			"cachedTokens": 0,
+			"outputTokens": 51,
+			"reasoningTokens": 37
+		}
+	}
 }

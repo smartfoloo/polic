@@ -22,5 +22,43 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/80135.pdf",
 			"fetchedAt": "2026-10-01T14:26:52.290Z"
 		}
-	]
+	],
+	"name": "特定個人情報を使える事務を一部削除",
+	"category": "デジタル",
+	"summary": "市の条例では、個人番号や特定個人情報を利用できる事務などを定めています。この議案で、利用できる事務の項目を2つ削り、情報の説明や関連する法律名の表記も改めます。条例は公布の日から施行します。",
+	"changes": [
+		"別表第1に定める事務の項目を削る",
+		"別表第2第2項に定める事務の項目を削る",
+		"地方税関係情報と住登外者宛名情報の説明を改める",
+		"関連する法律名に法律番号を加える"
+	],
+	"who": [
+		"削除される事務の対象となる住民"
+	],
+	"why": "法改正を踏まえ、特定個人情報を利用できる事務の一部を削るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:10:48.618Z",
+		"inputTokens": 1784,
+		"cachedTokens": 0,
+		"outputTokens": 1507,
+		"reasoningTokens": 1245
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:10:48.618Z",
+		"checkedAt": "2026-10-08T05:42:16.793Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1714,
+			"cachedTokens": 0,
+			"outputTokens": 205,
+			"reasoningTokens": 191
+		}
+	}
 }

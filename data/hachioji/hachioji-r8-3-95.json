@@ -22,5 +22,45 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037919_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:26:44.967Z"
 		}
-	]
+	],
+	"name": "消防団員などの補償額の定め方を変更",
+	"category": "防災",
+	"summary": "現在、消防団員の補償基礎額は階級と勤務年数ごとに条例の別表で定め、消防作業従事者などは原則10,000円（収入により15,000円まで増額）です。葬祭補償には315,000円を加えています。改正後は、これらの額や扶養親族分の加算額を市規則で定めます。条例は公布日から施行し、葬祭補償の変更は2026年4月1日以後に支給理由が生じた場合に適用します。",
+	"changes": [
+		"消防団員の補償基礎額を市規則で定める額にする",
+		"消防作業従事者などの補償基礎額を市規則で定める額にする",
+		"扶養親族分の加算額を市規則で定める額にする",
+		"葬祭補償に加える額を315,000円から市規則で定める額にする"
+	],
+	"who": [
+		"消防団員",
+		"消防作業従事者、救急業務協力者、水防従事者、応急措置従事者",
+		"扶養親族や葬祭を行う人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:39:31.931Z",
+		"inputTokens": 3589,
+		"cachedTokens": 0,
+		"outputTokens": 1777,
+		"reasoningTokens": 1435
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:39:31.931Z",
+		"checkedAt": "2026-10-08T05:21:15.623Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3631,
+			"cachedTokens": 0,
+			"outputTokens": 143,
+			"reasoningTokens": 128
+		}
+	}
 }

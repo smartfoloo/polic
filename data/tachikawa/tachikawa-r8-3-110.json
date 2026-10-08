@@ -22,5 +22,38 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/028/161/r8gian110.pdf",
 			"fetchedAt": "2026-10-01T14:26:44.734Z"
 		}
-	]
+	],
+	"name": "景観条例が引用する法律の条項を変更",
+	"category": "まちづくり",
+	"summary": "現在、景観条例第11条第3項は、条例で定める行為の根拠として、法律の第16条第7項第11号を引用しています。この議案では引用先を第16条第8項第12号に改め、政令で定める日から施行します。",
+	"changes": [
+		"引用する法律の条項を第16条第7項第11号から第16条第8項第12号に改める"
+	],
+	"who": [],
+	"why": "都市再生特別措置法等の一部を改正する法律が公布されたためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:34:03.565Z",
+		"inputTokens": 1348,
+		"cachedTokens": 0,
+		"outputTokens": 782,
+		"reasoningTokens": 605
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:34:03.565Z",
+		"checkedAt": "2026-10-08T05:56:39.776Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1216,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

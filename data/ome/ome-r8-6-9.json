@@ -22,5 +22,40 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/80141.pdf",
 			"fetchedAt": "2026-10-01T14:27:22.310Z"
 		}
-	]
+	],
+	"name": "介護保険料の特例減免を申請不要に",
+	"category": "福祉",
+	"summary": "現在、介護保険料の特例減免を受けるには申請が必要です。改正案では、令和8年度に限り、令和7年度と令和8年度の市町村民税が課されていない人が条例上は課税されていると扱われ、市長が特別な理由を認めた場合、申請なしで減免を受けられるようにします。",
+	"changes": [
+		"特例による保険料の減免に必要な申請手続を不要にする"
+	],
+	"who": [
+		"介護保険の第1号被保険者のうち、本人または世帯の税状況が特例の条件に当てはまる人"
+	],
+	"why": "特例による減免の対象となった人の負担軽減などを図るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:12:59.636Z",
+		"inputTokens": 1492,
+		"cachedTokens": 0,
+		"outputTokens": 1433,
+		"reasoningTokens": 1176
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:12:59.636Z",
+		"checkedAt": "2026-10-08T05:43:41.254Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1418,
+			"cachedTokens": 0,
+			"outputTokens": 165,
+			"reasoningTokens": 150
+		}
+	}
 }

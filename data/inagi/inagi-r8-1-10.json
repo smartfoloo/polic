@@ -22,5 +22,40 @@
 			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/698/r8.1gian.pdf",
 			"fetchedAt": "2026-10-02T15:35:20.566Z"
 		}
-	]
+	],
+	"name": "配偶者の扶養手当の規定を削除",
+	"category": "行政のしくみ",
+	"summary": "扶養手当の対象となる扶養親族には、配偶者が含まれています。この議案では配偶者に関する規定を削除し、2026年4月1日から施行します。",
+	"changes": [
+		"扶養親族の区分から配偶者を削除する"
+	],
+	"who": [
+		"稲城市病院事業企業職員で、配偶者を扶養している人"
+	],
+	"why": "東京都人事委員会の勧告の趣旨に沿って手当を改正するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:45:59.603Z",
+		"inputTokens": 1774,
+		"cachedTokens": 0,
+		"outputTokens": 687,
+		"reasoningTokens": 497
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:45:59.603Z",
+		"checkedAt": "2026-10-08T05:24:47.288Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1632,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

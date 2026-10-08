@@ -22,5 +22,39 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian37.pdf",
 			"fetchedAt": "2026-10-01T14:24:14.758Z"
 		}
-	]
+	],
+	"name": "市長などの損害賠償免責の条文番号を変更",
+	"category": "行政のしくみ",
+	"summary": "市長などの市への損害賠償責任の一部免責について定める条例です。地方自治法と施行令の改正を受け、条例に記載する参照条文を改めます。施行日は令和8年9月24日です。",
+	"changes": [
+		"条例が参照する地方自治法の条文番号を改める",
+		"免責額の算定に使う地方自治法施行令の条文番号を第173条の4から第173条の5に改める"
+	],
+	"who": [],
+	"why": "地方自治法の一部改正法と地方自治法施行令等の一部改正政令が公布されたためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:28:25.758Z",
+		"inputTokens": 1896,
+		"cachedTokens": 0,
+		"outputTokens": 1251,
+		"reasoningTokens": 1021
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:28:25.758Z",
+		"checkedAt": "2026-10-08T05:52:07.298Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1798,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 37
+		}
+	}
 }

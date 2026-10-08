@@ -27,5 +27,43 @@
 			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
 			"fetchedAt": "2026-10-02T15:39:08.877Z"
 		}
-	]
+	],
+	"name": "市職員の給料表と手当を改定",
+	"category": "行政のしくみ",
+	"summary": "市職員の給料表と期末手当・勤勉手当の支給率を改定します。給料表は2025年4月1日から、手当の支給率は2025年12月1日から適用します。住居手当は、27歳に達した後の最初の3月31日までの職員について、月額15,000円から30,000円にし、2026年4月1日から適用します。",
+	"changes": [
+		"給料表の月額を改定する",
+		"期末手当と勤勉手当の支給率を引き上げる",
+		"対象となる職員の住居手当を月額15,000円から30,000円に引き上げる"
+	],
+	"who": [
+		"国立市の職員",
+		"27歳に達した後の最初の3月31日までの職員"
+	],
+	"why": "給料表や期末手当・勤勉手当の支給率を改定し、対象となる職員の住居手当を引き上げるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:44:40.475Z",
+		"inputTokens": 13488,
+		"cachedTokens": 0,
+		"outputTokens": 1844,
+		"reasoningTokens": 1523
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:44:40.475Z",
+		"checkedAt": "2026-10-08T05:31:59.229Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 13482,
+			"cachedTokens": 0,
+			"outputTokens": 196,
+			"reasoningTokens": 182
+		}
+	}
 }

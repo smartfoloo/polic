@@ -22,5 +22,56 @@
 			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/698/r8.1gian.pdf",
 			"fetchedAt": "2026-10-02T15:35:20.566Z"
 		}
-	]
+	],
+	"name": "政策監を特別職として新設",
+	"category": "行政のしくみ",
+	"summary": "市長を補佐する職を特別職として設ける仕組みを定めます。職名は政策監で、定数は1人、任期は4年です。給料月額を767,000円とし、関連する条例も改めます。",
+	"changes": [
+		"市長を補佐する特別職として政策監を置けるようにする",
+		"政策監の定数を1人、任期を4年とし、市長が議会の同意を得て任命できるようにする",
+		"政策監を任期中に解職できるようにし、給料月額を767,000円とする",
+		"政策監を関連条例に加え、職員定数や報酬審議、指定管理者の資格などの規定を整える"
+	],
+	"who": [],
+	"why": "市の特定の重要施策について市長を補佐する職を特別職として指定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:45:53.671Z",
+		"inputTokens": 9414,
+		"cachedTokens": 0,
+		"outputTokens": 1057,
+		"reasoningTokens": 805
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:45:53.671Z",
+		"checkedAt": "2026-10-08T05:24:44.950Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "政策監を関連条例に加え、職員定数や報酬審議、指定管理者の資格などの規定を整える",
+				"note": "付則第４条の「別表第２中をに改める」は置換前後の対応が崩れている。新旧対照表では政策監の追加と読めるが、改正文の対応関係は原本確認が必要。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "政策監を関連条例に加え、職員定数や報酬審議、指定管理者の資格などの規定を整える",
+				"note": "各施設条例の新旧対照表では、政策監が代表者・役員を務める団体等を指定管理者の欠格対象に加える。事業者に直接関わるこの制限の具体的内容が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 9362,
+			"cachedTokens": 0,
+			"outputTokens": 643,
+			"reasoningTokens": 405
+		}
+	}
 }

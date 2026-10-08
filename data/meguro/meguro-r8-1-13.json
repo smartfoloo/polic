@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "コーポ三田の住戸を増設",
+	"category": "福祉",
+	"summary": "条例の別表では、コーポ三田の数値は「13」と「5」です。この2つの数値をそれぞれ「14」と「6」に改め、2026年4月1日から施行します。",
+	"changes": [
+		"コーポ三田の別表の「13」を「14」に改める",
+		"コーポ三田の別表の「5」を「6」に改める"
+	],
+	"who": [
+		"コーポ三田の入居者・入居希望者"
+	],
+	"why": "コーポ三田の住戸を増設するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:01:26.187Z",
+		"inputTokens": 1198,
+		"cachedTokens": 0,
+		"outputTokens": 1162,
+		"reasoningTokens": 973
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:01:26.187Z",
+		"checkedAt": "2026-10-08T05:37:38.650Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1059,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

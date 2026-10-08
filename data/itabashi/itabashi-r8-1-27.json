@@ -27,5 +27,49 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_27.pdf",
 			"fetchedAt": "2026-10-02T15:03:12.544Z"
 		}
-	]
+	],
+	"name": "あいキッズの開始時刻を午前7時30分に",
+	"category": "子育て",
+	"summary": "あいキッズの実施時間は午前8時からですが、規則で定める小学校では、学校休業日と土曜日の開始を午前7時30分にします。この改正は令和8年4月1日に施行されます。",
+	"changes": [
+		"実施時間の開始を午前8時から午前7時30分に変更する"
+	],
+	"who": [
+		"あいキッズを利用する子ども",
+		"その保護者"
+	],
+	"why": "学校休業日と土曜日のあいキッズの実施時間を改めるほか、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:51:55.634Z",
+		"inputTokens": 1425,
+		"cachedTokens": 0,
+		"outputTokens": 1055,
+		"reasoningTokens": 844
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:51:55.634Z",
+		"checkedAt": "2026-10-08T05:27:48.421Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "実施時間の開始を午前8時から午前7時30分に変更する",
+				"note": "原文では、対象は規則で定める小学校の学校休業日・土曜日に限られる。summaryにはあるが、changesではこの適用範囲が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1303,
+			"cachedTokens": 0,
+			"outputTokens": 258,
+			"reasoningTokens": 158
+		}
+	}
 }

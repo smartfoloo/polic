@@ -22,5 +22,48 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian26.pdf",
 			"fetchedAt": "2026-10-01T14:23:08.762Z"
 		}
-	]
+	],
+	"name": "マンション再生の特例許可審査を拡大",
+	"category": "住宅",
+	"summary": "現在、条例の手数料表では、要除却認定マンションの建替え後の容積率に関する特例許可申請の審査を定めています。この議案では、建替え後または更新後のマンションについて、容積率や各部分の高さに関する特例許可申請の審査に改めます。2026年4月1日から施行します。",
+	"changes": [
+		"対象を、建替え後または更新後のマンションの容積率や各部分の高さに関する特例許可申請の審査に改める"
+	],
+	"who": [
+		"マンションの建替えや更新に関する特例許可を申請する人"
+	],
+	"why": "老朽化マンション等の管理や再生を円滑にするための法律改正が公布されたことによるものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:25:43.748Z",
+		"inputTokens": 1596,
+		"cachedTokens": 0,
+		"outputTokens": 1382,
+		"reasoningTokens": 1139
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:25:43.748Z",
+		"checkedAt": "2026-10-08T05:50:28.378Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "対象を、建替え後または更新後のマンションの容積率や各部分の高さに関する特例許可申請の審査に改める",
+				"note": "原文では対象が「要除却認定マンション」から「要除却等認定マンション」に変わる。この認定対象の変更と、改正後も認定を受けたマンションが対象であることが抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1538,
+			"cachedTokens": 0,
+			"outputTokens": 300,
+			"reasoningTokens": 167
+		}
+	}
 }

@@ -22,5 +22,60 @@
 			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/698/r8.1gian.pdf",
 			"fetchedAt": "2026-10-02T15:35:20.566Z"
 		}
-	]
+	],
+	"name": "企業誘致の奨励金を6種類に",
+	"category": "まちづくり",
+	"summary": "市は企業誘致のための条例を設けています。この議案では条例を全面改正し、企業や事業用地の提供者に交付できる奨励金を6種類に分け、対象や条件、加算金などを定めます。令和8年4月1日から施行します。",
+	"changes": [
+		"奨励金を6種類に分け、企業や事業用地提供者を対象にする",
+		"常用労働者数や用地面積、固定資産額、店舗や客室の面積などの交付要件を定める",
+		"市内在住者の新規雇用や市内事業者の工事受注などに加算金を交付できる仕組みを設ける",
+		"交付決定の取消しや奨励金等の返還、市内で事業所を移転する場合の適用除外を定める"
+	],
+	"who": [
+		"市内に事業所を開設する企業",
+		"飲食店舗や旅館・ホテルを運営する企業",
+		"事業用地を売却または賃貸する土地所有者"
+	],
+	"why": "企業誘致のさらなる促進に向け、奨励措置を拡充するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:46:27.003Z",
+		"inputTokens": 5999,
+		"cachedTokens": 0,
+		"outputTokens": 1406,
+		"reasoningTokens": 1075
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:46:27.003Z",
+		"checkedAt": "2026-10-08T05:25:12.068Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "奨励金を6種類に分け、企業や事業用地提供者を対象にする",
+				"note": "別表⑷・⑸には、所有する建物を飲食店舗や旅館・ホテル施設として事業者に賃貸する企業への奨励金もある。建物の賃貸者を対象とする措置が示されておらず、whoにも記載がない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "奨励金を6種類に分け、企業や事業用地提供者を対象にする",
+				"note": "第３条第３項の、交付を受けられる奨励金はいずれか１種類に限るという受給上の制限が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6032,
+			"cachedTokens": 0,
+			"outputTokens": 441,
+			"reasoningTokens": 232
+		}
+	}
 }

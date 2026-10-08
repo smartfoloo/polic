@@ -22,5 +22,43 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_74.pdf",
 			"fetchedAt": "2026-10-02T15:05:12.610Z"
 		}
-	]
+	],
+	"name": "認定こども園の職員配置と防止措置を変更",
+	"category": "子育て",
+	"summary": "幼保連携型認定こども園の職員配置などの基準を定めた条例を改正します。配置に努める職員の種類に主務養護教諭を加え、特定の環境で園児と接する業務の従事者について、設置者に犯罪事実確認などの措置を義務付けます。第18条の改正は令和8年12月25日から、その他の改正は公布日から施行します。",
+	"changes": [
+		"配置に努める職員の種別に主務養護教諭を加える",
+		"支配性、継続性及び閉鎖性のある環境で園児と接する業務の従事者について、犯罪事実確認などの措置を設置者に義務付ける"
+	],
+	"who": [
+		"幼保連携型認定こども園の設置者",
+		"園児と接する業務に従事する人",
+		"園児"
+	],
+	"why": "主務省令の改正に伴い、犯罪事実確認などの規定を設け、配置に努める職員の種別に主務養護教諭を加える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:41:37.802Z",
+		"inputTokens": 1684,
+		"cachedTokens": 0,
+		"outputTokens": 1653,
+		"reasoningTokens": 1293
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:41:37.802Z",
+		"checkedAt": "2026-10-08T05:30:51.243Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1710,
+			"cachedTokens": 0,
+			"outputTokens": 82,
+			"reasoningTokens": 68
+		}
+	}
 }

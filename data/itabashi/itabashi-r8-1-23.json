@@ -27,5 +27,42 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_23.pdf",
 			"fetchedAt": "2026-10-02T15:02:48.501Z"
 		}
-	]
+	],
+	"name": "特例保育事業所に基準の適用特例を設ける",
+	"category": "子育て",
+	"summary": "区の条例は、乳児等通園支援事業所の設備や運営などの基準を定めています。改正後は、特例保育を行う事業者が同じ事業所で一般型乳児等通園支援事業を行う場合、第21条と第22条の設備・職員基準を適用しません。事業所の呼び方や定員などに関する規定も整え、原則として令和8年4月1日から施行します。",
+	"changes": [
+		"特例保育の事業所で一般型乳児等通園支援事業を行う場合、第21条と第22条の設備・職員基準を適用しない",
+		"利用定員の意味を子ども・子育て支援法に基づく確認で定める定員として明記する",
+		"事業所や職員などに関する規定の表現を整える"
+	],
+	"who": [
+		"特例保育を行い、同じ事業所で一般型乳児等通園支援事業も行う事業者"
+	],
+	"why": "内閣府令の改正に伴い、特例保育を行う事業所の設備・職員基準の特例を定め、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:51:20.231Z",
+		"inputTokens": 1829,
+		"cachedTokens": 0,
+		"outputTokens": 2181,
+		"reasoningTokens": 1801
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:51:20.231Z",
+		"checkedAt": "2026-10-08T05:27:22.325Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1876,
+			"cachedTokens": 0,
+			"outputTokens": 94,
+			"reasoningTokens": 80
+		}
+	}
 }

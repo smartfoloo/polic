@@ -22,5 +22,41 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "福祉センター条例の法律引用を更新",
+	"category": "福祉",
+	"summary": "条例では、障害者の日常生活及び社会生活を総合的に支援するための法律の条文を引用しています。この議案では、その引用先を第5条第14項から第15項へ、第18項から第19項へ改めます。公布の日から施行します。",
+	"changes": [
+		"法律の第5条第14項への引用を第15項に改める",
+		"法律の第5条第18項への引用を第19項に改める"
+	],
+	"who": [],
+	"why": "法律の改正に伴い、規定を整理するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:17:25.399Z",
+		"inputTokens": 1244,
+		"cachedTokens": 0,
+		"outputTokens": 752,
+		"reasoningTokens": 581
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:17:25.399Z",
+		"checkedAt": "2026-10-08T05:46:11.889Z",
+		"flags": [
+			"copied from the source (29 chars): 「障害者の日常生活及び社会生活を総合的に支援するための法律の」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1104,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

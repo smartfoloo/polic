@@ -27,5 +27,57 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077265.html",
 			"fetchedAt": "2026-10-01T14:31:07.572Z"
 		}
-	]
+	],
+	"name": "市営住宅の申込資格を見直し",
+	"category": "住宅",
+	"summary": "市営住宅条例では、住宅の使用申込資格などを定めています。この議案では、第6条第2項のただし書を削り、第27条第2項の表現にパートナーシップ関係の相手方を加えます。",
+	"changes": [
+		"第6条第2項のただし書を削る",
+		"第27条第2項の表現にパートナーシップ関係の相手方を加える"
+	],
+	"who": [
+		"市営住宅の使用申込者",
+		"市営住宅でパートナーシップ関係にある人"
+	],
+	"why": "使用申込者の資格要件を改めるとともに、必要な改正を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:21:06.843Z",
+		"inputTokens": 1199,
+		"cachedTokens": 0,
+		"outputTokens": 1526,
+		"reasoningTokens": 1331
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:21:06.843Z",
+		"checkedAt": "2026-10-08T05:09:47.744Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "第27条第2項の表現にパートナーシップ関係の相手方を加えます。",
+				"note": "原文は「以外」を「及びパートナーシップ関係の相手方以外」に改める規定であり、変更の種類は追加ではなく置換です。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "第27条第2項の表現にパートナーシップ関係の相手方を加える",
+				"note": "原文は「以外」を「及びパートナーシップ関係の相手方以外」に改める規定であり、変更の種類は追加ではなく置換です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1094,
+			"cachedTokens": 0,
+			"outputTokens": 418,
+			"reasoningTokens": 231
+		}
+	}
 }

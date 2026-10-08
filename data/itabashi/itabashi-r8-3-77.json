@@ -22,5 +22,43 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_77.pdf",
 			"fetchedAt": "2026-10-02T15:05:30.538Z"
 		}
-	]
+	],
+	"name": "障害児入所施設に性暴力防止措置",
+	"category": "福祉",
+	"summary": "現在の条例は、指定障害児入所施設の人員や設備、運営の基準を定めています。今回、施設の設置者に、児童対象性暴力等の防止や、発生した場合に障がい児を適切に保護するための措置を求めます。第43条の改正は2026年12月25日から、それ以外の改正は公布の日から施行されます。",
+	"changes": [
+		"対象となる従事者の犯罪事実確認などを施設の設置者に義務付ける",
+		"児童対象性暴力等の発生時に障がい児を適切に保護するための措置を求める",
+		"第42条の参照先を第33条の10第1項各号に改める"
+	],
+	"who": [
+		"指定福祉型障害児入所施設の設置者",
+		"障がい児と接する対象業務に従事する人"
+	],
+	"why": "児童対象性暴力等の防止に関する法律の施行などに伴い、対象となる従事者の犯罪事実確認などを定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:42:20.496Z",
+		"inputTokens": 1685,
+		"cachedTokens": 0,
+		"outputTokens": 1419,
+		"reasoningTokens": 1104
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:42:20.496Z",
+		"checkedAt": "2026-10-08T05:31:09.076Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1694,
+			"cachedTokens": 0,
+			"outputTokens": 50,
+			"reasoningTokens": 36
+		}
+	}
 }

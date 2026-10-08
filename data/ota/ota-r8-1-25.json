@@ -22,5 +22,60 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "開発事業者に地域連携などを求める",
+	"category": "まちづくり",
+	"summary": "条例では、まちづくりの基本理念や、開発事業者などが行う事項を定めています。この改正で、指定された商店街での事前説明や自治会等の形成に向けた対応を定め、浸水時に使う高台緊急避難施設の確保に努めることも盛り込みます。",
+	"changes": [
+		"まちづくりの基本理念を改め、区の計画などの位置づけを整理する",
+		"指定商店街での対象事業について、商店会や居住者への事前説明と店舗等の設置に関する事前協議を求める",
+		"開発事業者や建物の管理者に、自治会等の設立・加入の促進や活動への協力などを求める",
+		"対象事業者や建物の管理者に、浸水階より上に高台緊急避難施設を確保するよう努めることを定める"
+	],
+	"who": [
+		"対象となる開発事業者・建築物の管理者",
+		"対象建築物に居住する人",
+		"対象となる商店街の商店会"
+	],
+	"why": "基本構想や基本計画などの策定に伴って理念を見直し、地域コミュニティづくりを進めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:18:01.658Z",
+		"inputTokens": 2542,
+		"cachedTokens": 0,
+		"outputTokens": 1587,
+		"reasoningTokens": 1234
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:18:01.658Z",
+		"checkedAt": "2026-10-08T05:46:35.908Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "商店会や居住者への事前説明",
+				"note": "第39条の２第２項の説明対象は、現在の居住者ではなく「当該事業の建築物に居住しようとする者等」。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "開発事業者や建物の管理者に、自治会等の設立・加入の促進や活動への協力などを求める",
+				"note": "第41条第３号の、事業区域の自治会等に対して事業計画を事前に説明する事項が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2591,
+			"cachedTokens": 0,
+			"outputTokens": 368,
+			"reasoningTokens": 154
+		}
+	}
 }

@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "学校施設の設計委託先を選ぶ委員会を設置",
+	"category": "行政のしくみ",
+	"summary": "区の付属機関として、学校施設の更新に関する設計などを委託する事業者を選ぶ委員会を設けます。委員会は、事業者の選定に関する評価と審査を行い、2026年4月1日に施行します。",
+	"changes": [
+		"学校施設の更新に係る設計等を委託する事業者を選ぶ委員会を設ける",
+		"事業者の選定に関する評価と審査を委員会の役割とする"
+	],
+	"who": [
+		"学校施設の更新に係る設計等の委託を希望する事業者"
+	],
+	"why": "学校施設の更新に係る設計等を委託する事業者の選定委員会を区長の付属機関として設置するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:02:22.944Z",
+		"inputTokens": 1285,
+		"cachedTokens": 0,
+		"outputTokens": 783,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:02:22.944Z",
+		"checkedAt": "2026-10-08T05:37:56.814Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1223,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

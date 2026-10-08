@@ -22,5 +22,50 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian1.pdf",
 			"fetchedAt": "2026-10-02T15:26:08.906Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援の定員規定を見直す",
+	"category": "子育て",
+	"summary": "現在、事業所の運営規程には、乳児と幼児を分けた利用定員を定めることになっています。この議案では定員の記載方法や余裕活用型事業の定義などを改め、令和8年4月1日から施行します。",
+	"changes": [
+		"運営規程に定める利用定員の乳児・幼児別の区分をなくす",
+		"余裕活用型事業の利用定員を、子ども・子育て支援法に基づく確認で定める定員と明記する",
+		"職員に関する規定の事業者・事業所の表記を整理する"
+	],
+	"who": [
+		"乳児等通園支援事業を行う事業者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:28:38.797Z",
+		"inputTokens": 3470,
+		"cachedTokens": 0,
+		"outputTokens": 1676,
+		"reasoningTokens": 1454
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:28:38.797Z",
+		"checkedAt": "2026-10-08T05:14:35.967Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "余裕活用型事業の利用定員を、子ども・子育て支援法に基づく確認で定める定員と明記する",
+				"note": "第22条第3項で明確化するのは、余裕活用型事業自体の利用定員ではなく、受入れ余裕の算定に用いる保育所・認定こども園・家庭的保育事業等の利用定員。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3388,
+			"cachedTokens": 0,
+			"outputTokens": 213,
+			"reasoningTokens": 78
+		}
+	}
 }

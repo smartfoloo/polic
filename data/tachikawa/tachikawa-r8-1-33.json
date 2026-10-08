@@ -22,5 +22,40 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian33.pdf",
 			"fetchedAt": "2026-10-01T14:23:50.718Z"
 		}
-	]
+	],
+	"name": "高松南学童保育所を条例に追加",
+	"category": "子育て",
+	"summary": "条例に定める学童保育所の一覧に、高松南学童保育所は載っていません。この議案で、所在地と定員30人を追加し、令和8年7月1日から施行します。",
+	"changes": [
+		"高松南学童保育所の所在地を立川市高松町3丁目22番9号、定員を30人として追加する"
+	],
+	"who": [
+		"高松南学童保育所を利用する子どもと保護者"
+	],
+	"why": "地方自治法第244条の2第1項の規定によるものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:27:23.557Z",
+		"inputTokens": 1335,
+		"cachedTokens": 0,
+		"outputTokens": 964,
+		"reasoningTokens": 790
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:27:23.557Z",
+		"checkedAt": "2026-10-08T05:51:30.406Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1200,
+			"cachedTokens": 0,
+			"outputTokens": 68,
+			"reasoningTokens": 53
+		}
+	}
 }

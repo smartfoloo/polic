@@ -22,5 +22,43 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "南大沢文化会館の利用料を改定",
+	"category": "税・手数料",
+	"summary": "現在、南大沢文化会館の主ホールの全日利用料は125,000円です。この議案では、主ホールなどの施設利用料と、開館時間を超えて利用する場合の料金上限を引き上げます。改定は令和9年4月1日からです。",
+	"changes": [
+		"主ホールの全日利用料を125,000円から187,500円に上げる",
+		"交流ホールの全日利用料を70,000円から105,000円に上げる",
+		"リハーサル室を35,000円から52,500円に、第1・第2練習室を各10,000円から15,000円に上げる",
+		"展示・多目的室や会議室の全日利用料と、超過利用料金の上限を引き上げる"
+	],
+	"who": [
+		"南大沢文化会館を利用する人や団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:31:31.513Z",
+		"inputTokens": 1809,
+		"cachedTokens": 0,
+		"outputTokens": 1139,
+		"reasoningTokens": 887
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:31:31.513Z",
+		"checkedAt": "2026-10-08T05:16:24.631Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1751,
+			"cachedTokens": 0,
+			"outputTokens": 179,
+			"reasoningTokens": 164
+		}
+	}
 }

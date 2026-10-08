@@ -27,5 +27,38 @@
 			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
 			"fetchedAt": "2026-10-02T15:39:08.877Z"
 		}
-	]
+	],
+	"name": "空家対策審議会の担当部署を変更",
+	"category": "行政のしくみ",
+	"summary": "空家対策審議会条例には、担当部署として生活環境部まちの振興課が記載されています。この議案では、記載を都市整備部都市計画課に改めます。施行日は令和8年4月1日です。",
+	"changes": [
+		"条例に記載する担当部署を生活環境部まちの振興課から都市整備部都市計画課に改める"
+	],
+	"who": [],
+	"why": "空家対策に関する所掌事務が生活環境部まちの振興課から都市整備部都市計画課に移管されるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:44:02.744Z",
+		"inputTokens": 1219,
+		"cachedTokens": 0,
+		"outputTokens": 483,
+		"reasoningTokens": 299
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:44:02.744Z",
+		"checkedAt": "2026-10-08T05:31:45.315Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1097,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

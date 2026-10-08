@@ -22,5 +22,66 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian16-2.pdf",
 			"fetchedAt": "2026-10-01T14:22:08.677Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援の運営ルールを定める",
+	"category": "子育て",
+	"summary": "立川市が、特定乳児等通園支援を行う事業者の運営基準を定めます。利用定員や初回利用前の面談、費用の受け取り方、事故や苦情への対応などを定めます。施行日は令和8年4月1日です。",
+	"changes": [
+		"1時間当たりと1月当たりの利用定員を定める",
+		"初回の利用前に子どもや保護者との面談を行う",
+		"利用者から受け取れる費用や説明・同意の手続きを定める",
+		"事故や苦情への対応、記録の保存などの運営ルールを定める"
+	],
+	"who": [
+		"利用する就学前の子どもと保護者",
+		"特定乳児等通園支援を行う事業者"
+	],
+	"why": "国が事業の運営基準を定める府令を公布したためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:23:42.359Z",
+		"inputTokens": 10988,
+		"cachedTokens": 0,
+		"outputTokens": 1326,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:23:42.359Z",
+		"checkedAt": "2026-10-08T05:49:27.469Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "初回の利用前に子どもや保護者との面談を行う",
+				"note": "第4条第1項で面談の相手とされているのは保護者。子どもと保護者の状況を把握するための面談であり、子どもとの面談は義務付けていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事故や苦情への対応、記録の保存などの運営ルールを定める",
+				"note": "利用申込みを正当な理由なく拒否することの禁止（第5条）が抜けている。利用者に直接関わる主な規定。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事故や苦情への対応、記録の保存などの運営ルールを定める",
+				"note": "差別的取扱いと虐待等の禁止（第23・24条）、秘密保持と他機関への子どもの情報提供に際する保護者の事前同意（第25条）が抜けている。利用者の権利保護に直接関わる規定。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 10947,
+			"cachedTokens": 0,
+			"outputTokens": 475,
+			"reasoningTokens": 119
+		}
+	}
 }

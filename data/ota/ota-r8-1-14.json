@@ -22,5 +22,50 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "一部証明書の端末交付手数料を150円に",
+	"category": "税・手数料",
+	"summary": "多機能端末機で交付する証明書等の一部は、手数料が250円です。この議案では、その手数料を150円に下げ、マンション関係の法律改正に合わせて条例の法律名や条文番号などを改めます。手数料の変更は2026年9月1日から、マンション関係の変更は2026年4月1日から、別の条文番号の変更は2026年5月1日から施行します。",
+	"changes": [
+		"多機能端末機で交付する一部の証明書等の手数料を250円から150円に下げる",
+		"マンション関係の手数料規定にある法律名や条文番号などを改める"
+	],
+	"who": [
+		"多機能端末機で手数料引下げの対象となる証明書等を受け取る人",
+		"マンション関係の手続きで区に申請し、手数料を納める人"
+	],
+	"why": "多機能端末機で交付する証明書等の一部の手数料を減額し、マンション関係の法律改正に合わせて条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:15:58.780Z",
+		"inputTokens": 1688,
+		"cachedTokens": 0,
+		"outputTokens": 2399,
+		"reasoningTokens": 2070
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:15:58.780Z",
+		"checkedAt": "2026-10-08T05:45:27.869Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "マンション関係の手数料規定にある法律名や条文番号などを改める",
+				"note": "原文の別表第１の132の項では、「容積率」に「又は各部分の高さ」を加え、対象に「要除却等認定マンションの更新がされるマンション」を加えている。法律名・条文番号の整理だけでなく、手数料規定の対象に関わる追加があることが記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1711,
+			"cachedTokens": 0,
+			"outputTokens": 251,
+			"reasoningTokens": 108
+		}
+	}
 }

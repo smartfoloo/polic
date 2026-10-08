@@ -27,5 +27,42 @@
 			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
 			"fetchedAt": "2026-10-02T15:39:08.877Z"
 		}
-	]
+	],
+	"name": "休暇の名称と対象となる子の範囲を変更",
+	"category": "行政のしくみ",
+	"summary": "職員の休暇のうち、「生理休暇」の名称を「健康管理休暇」に改めます。また、子育て応援部分休暇の対象となる子の範囲を広げ、改正は令和8年4月1日から施行します。",
+	"changes": [
+		"「生理休暇」の名称を「健康管理休暇」に改める",
+		"子育て応援部分休暇の対象となる子の年齢を7歳から9歳に広げる"
+	],
+	"who": [
+		"国立市の職員",
+		"子育て応援部分休暇を利用する職員"
+	],
+	"why": "休暇の取得への心理的抵抗感を緩和し、子育て応援部分休暇の対象となる子の範囲を広げるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:44:25.123Z",
+		"inputTokens": 1338,
+		"cachedTokens": 0,
+		"outputTokens": 725,
+		"reasoningTokens": 474
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:44:25.123Z",
+		"checkedAt": "2026-10-08T05:31:50.829Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1262,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

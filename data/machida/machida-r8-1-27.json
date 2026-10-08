@@ -27,5 +27,65 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6687_27gou.pdf",
 			"fetchedAt": "2026-10-01T14:22:29.977Z"
 		}
-	]
+	],
+	"name": "公園施設の入園料の扱いを見直し",
+	"category": "まちづくり",
+	"summary": "市立公園の有料施設では、利用時間や料金の扱いなどが条例で定められています。この議案では、指定管理者が管理する修景施設の入園料の設定や減免、収入の扱いを改めます。2026年4月1日から施行します。",
+	"changes": [
+		"指定管理者が管理する修景施設の入園料を別表の範囲内で定め、市長の承認を得て指定管理者の収入にする",
+		"入園料の減額・免除を規則に基づき市長または指定管理者が行えるようにする",
+		"納付済みの入園料は、特別な理由がある場合を除き返還しない"
+	],
+	"who": [
+		"有料公園施設を利用する人",
+		"有料公園施設を管理する指定管理者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:50:04.718Z",
+		"inputTokens": 5888,
+		"cachedTokens": 0,
+		"outputTokens": 3413,
+		"reasoningTokens": 3173
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:50:04.718Z",
+		"checkedAt": "2026-10-08T05:35:05.178Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "別表第３で町田ぼたん園の利用時間から「有料開園期間」の限定を外し、別表第４で休業日を１月１～３日及び１２月２９～３１日とする変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "入園料の減額・免除を規則に基づき市長または指定管理者が行えるようにする",
+				"note": "改正後の第８条の２第５項は入園料の減免規定を駐車料金にも準用しています。駐車料金の減免を規則に基づく扱いに改め、指定管理者による減免の市長承認要件を削除する変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "第２１条第４項で、利用料金の減免を行う主体を「市長又は指定管理者」から、市長の承認を得た指定管理者に改める変更が抜けています。指定管理者がいない施設には第２８条の特例があります。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5822,
+			"cachedTokens": 0,
+			"outputTokens": 765,
+			"reasoningTokens": 403
+		}
+	}
 }

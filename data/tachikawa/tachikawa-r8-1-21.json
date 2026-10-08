@@ -22,5 +22,50 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian21.pdf",
 			"fetchedAt": "2026-10-01T14:22:38.656Z"
 		}
-	]
+	],
+	"name": "女性総合センターの休館日を追加・変更",
+	"category": "まちづくり",
+	"summary": "現在は毎月第3木曜日を休館日とし、その日が休日の場合は翌日を休館日にしています。その日が祝日なら、さらに翌日を休館日にします。改正後は休日の後にある最も近い休日でない日を休館日とし、1月第3土曜日も休館日に加えます。",
+	"changes": [
+		"第3木曜日が休日の場合、休日でない最も近い日を休館日にする",
+		"1月第3土曜日を休館日に加える",
+		"条件を示す「各号の一」を「いずれか」に改める"
+	],
+	"who": [
+		"立川市女性総合センターを利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:24:49.167Z",
+		"inputTokens": 1789,
+		"cachedTokens": 0,
+		"outputTokens": 1776,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:24:49.167Z",
+		"checkedAt": "2026-10-08T05:50:00.448Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "第3木曜日が休日の場合、休日でない最も近い日を休館日にする",
+				"note": "原文第５条第１号は「その日後においてその日に最も近い休日でない日」としており、第３木曜日より後の日に限る条件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1684,
+			"cachedTokens": 0,
+			"outputTokens": 534,
+			"reasoningTokens": 433
+		}
+	}
 }

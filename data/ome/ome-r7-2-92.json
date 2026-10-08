@@ -22,5 +22,43 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/77971.pdf",
 			"fetchedAt": "2026-10-01T14:29:41.318Z"
 		}
-	]
+	],
+	"name": "市職員の住居・通勤手当を改定",
+	"category": "行政のしくみ",
+	"summary": "市の一般職職員の住居手当と通勤手当は、条例で定められています。この議案では、住居手当を年齢や家賃額などに応じて整理し、通勤手当に駐車場料金に応じた額を設けるほか、距離別の支給額表を改めます。原則として2026年4月1日から施行し、一部の改正は公布日から施行します。",
+	"changes": [
+		"住居手当を年齢・家賃額などに応じて月7,500円、15,000円または30,000円とし、該当区分が重なる場合は合算する",
+		"要件を満たす駐車場を利用し料金を負担する職員に、月5,000円を上限とする通勤手当を設ける",
+		"自転車等の通勤手当を、片道距離と職員区分に応じた額に改める",
+		"一部の規定で、市長が定める内容を市規則で定める形に改める"
+	],
+	"who": [
+		"青梅市の一般職職員"
+	],
+	"why": "東京都人事委員会勧告を踏まえ、住居手当および通勤手当を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:08:54.889Z",
+		"inputTokens": 2479,
+		"cachedTokens": 0,
+		"outputTokens": 1922,
+		"reasoningTokens": 1570
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:08:54.889Z",
+		"checkedAt": "2026-10-08T05:41:13.743Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2529,
+			"cachedTokens": 0,
+			"outputTokens": 76,
+			"reasoningTokens": 61
+		}
+	}
 }

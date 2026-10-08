@@ -27,5 +27,40 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/028/644/2026022502.pdf",
 			"fetchedAt": "2026-10-02T15:32:34.596Z"
 		}
-	]
+	],
+	"name": "学校運営協議会委員の日額報酬を1,500円に",
+	"category": "教育",
+	"summary": "現行の条例の報酬額一覧には、学校運営協議会委員の報酬が記載されていません。この議案で報酬を日額1,500円とし、令和8年4月1日から施行します。",
+	"changes": [
+		"日額1,500円の報酬区分を新設する"
+	],
+	"who": [
+		"学校運営協議会委員"
+	],
+	"why": "令和8年度から学校運営協議会を設置することに伴い、規定を整備する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:42:15.423Z",
+		"inputTokens": 1583,
+		"cachedTokens": 0,
+		"outputTokens": 977,
+		"reasoningTokens": 804
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:42:15.423Z",
+		"checkedAt": "2026-10-08T05:23:08.601Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1449,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

@@ -27,5 +27,41 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-2teirei-giketukeka.html",
 			"fetchedAt": "2026-10-02T15:07:25.729Z"
 		}
-	]
+	],
+	"name": "地域福祉審議会委員の任期を3年に",
+	"category": "福祉",
+	"summary": "現在、委員の任期は2年です。この議案では任期を3年にし、施行日から令和9年3月31日までに委嘱される委員の任期は、同日までとします。",
+	"changes": [
+		"委員の任期を2年から3年に延ばす",
+		"施行日から令和9年3月31日までに委嘱される委員の任期を、同日までとする"
+	],
+	"who": [
+		"目黒区地域福祉審議会の委員"
+	],
+	"why": "委員の任期を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:06:23.984Z",
+		"inputTokens": 1248,
+		"cachedTokens": 0,
+		"outputTokens": 1024,
+		"reasoningTokens": 839
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:06:23.984Z",
+		"checkedAt": "2026-10-08T05:39:55.985Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1131,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

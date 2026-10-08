@@ -22,5 +22,64 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/3teirei/r0803teirei_giingian.files/r0803giingian4_5.pdf",
 			"fetchedAt": "2026-10-02T14:54:41.534Z"
 		}
-	]
+	],
+	"name": "シルバーパス購入費を一部助成",
+	"category": "福祉",
+	"summary": "シルバーパスの購入費の一部を助成する仕組みを設けます。助成額は、購入者が負担する費用から1,000円を差し引いた額です。条例の施行日は令和8年11月1日です。",
+	"changes": [
+		"シルバーパスの購入者負担額から1,000円を差し引いた額を助成する",
+		"助成を受けるには、大田区内に住み、有効期限内のパスを持つなどの条件を設ける",
+		"同じパスについて、過去1年以内に助成を受けた人は対象外とする"
+	],
+	"who": [
+		"大田区内に住み、有効期限内のシルバーパスを持つ人"
+	],
+	"why": "シルバーパスの費用負担を軽くし、高齢者の外出の機会を促して健康寿命の延伸に寄与するためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:22:49.625Z",
+		"inputTokens": 2262,
+		"cachedTokens": 0,
+		"outputTokens": 806,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:22:49.625Z",
+		"checkedAt": "2026-10-08T05:48:40.496Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "同じパスについて、過去1年以内に助成を受けた人は対象外とする",
+				"note": "第3条第3号は「同一内容のシルバーパス」についての受給歴を条件としており、同じパスそのものに限定していない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "助成を受けるには、大田区内に住み、有効期限内のパスを持つなどの条件を設ける",
+				"note": "第3条の主な対象要件である、購入時に区内に住所があり申請日まで引き続き居住していること、都規則第2条第1項に定める額で購入したパスであることが抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "シルバーパスの購入者負担額から1,000円を差し引いた額を助成する",
+				"note": "第8条の交付決定後のパス費用の払戻し禁止と、第9条の違反時に交付決定を取り消せる規定が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2218,
+			"cachedTokens": 0,
+			"outputTokens": 497,
+			"reasoningTokens": 135
+		}
+	}
 }

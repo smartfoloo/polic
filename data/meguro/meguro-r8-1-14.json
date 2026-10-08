@@ -27,5 +27,51 @@
 			"url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/8-1teireigiketukeka.html",
 			"fetchedAt": "2026-10-02T15:09:44.180Z"
 		}
-	]
+	],
+	"name": "住宅戸数を6戸から5戸に",
+	"category": "住宅",
+	"summary": "三田地区整備事業住宅の戸数は、条例で6戸と定められています。この議案は一部の住宅を廃止し、戸数を5戸に改めるとともに、別表の記載も変更します。改正条例は公布の日から施行します。",
+	"changes": [
+		"条例上の戸数を6戸から5戸に減らす",
+		"別表の記載を改める"
+	],
+	"who": [
+		"三田地区整備事業住宅の入居者"
+	],
+	"why": "三田地区整備事業住宅の一部を廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:01:42.979Z",
+		"inputTokens": 1264,
+		"cachedTokens": 0,
+		"outputTokens": 2040,
+		"reasoningTokens": 1866
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:01:42.979Z",
+		"checkedAt": "2026-10-08T05:37:44.151Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "別表の記載を改める",
+				"note": "原文の別表改正部分は「」内が空で、前後に並ぶ間取り・家賃との対応が崩れているため、改正前後の内容と変更の向きを確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1138,
+			"cachedTokens": 0,
+			"outputTokens": 145,
+			"reasoningTokens": 52
+		}
+	}
 }

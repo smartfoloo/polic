@@ -22,5 +22,52 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo37.pdf",
 			"fetchedAt": "2026-10-02T15:38:25.078Z"
 		}
-	]
+	],
+	"name": "地区ごとの塀や擁壁の基準を変更",
+	"category": "まちづくり",
+	"summary": "地区計画区域では、地区ごとに建築物や敷地のルールが定められています。この議案では、道路沿いの垣や柵、擁壁の基準を改めるほか、学校の種類の記載や法令の引用などを整理します。",
+	"changes": [
+		"地区ごとの道路沿いの垣や柵の構造、高さ、例外を見直す",
+		"一部地区の擁壁の高さや植栽用の空地、後退の基準を見直す",
+		"南野二丁目地区の学園地区で対象となる学校の種類を整理する",
+		"条例や法令の引用、用語を更新する"
+	],
+	"who": [
+		"地区計画区域内で道路沿いに垣や柵、擁壁を設ける人",
+		"南野二丁目地区の学園地区で学校などを建築する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:37:52.643Z",
+		"inputTokens": 3528,
+		"cachedTokens": 0,
+		"outputTokens": 1165,
+		"reasoningTokens": 916
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:37:52.643Z",
+		"checkedAt": "2026-10-08T05:58:58.018Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "一部地区の擁壁の高さや植栽用の空地、後退の基準を見直す",
+				"note": "南野三丁目、鶴牧五丁目南、豊ケ丘一丁目北、鶴牧五丁目東の各地区では、擁壁等からのはね出しと道路側への積み増しを禁止する規定もありますが、この制限が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3480,
+			"cachedTokens": 0,
+			"outputTokens": 270,
+			"reasoningTokens": 143
+		}
+	}
 }

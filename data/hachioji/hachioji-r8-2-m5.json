@@ -22,5 +22,44 @@
 			"url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/gikainokatudou/honnkaigi/reiwa8/p037524_d/fil/02_giinnteisyutugiann5.pdf",
 			"fetchedAt": "2026-10-02T15:26:32.856Z"
 		}
-	]
+	],
+	"name": "意思疎通の手段と手話の位置づけを明記",
+	"category": "福祉",
+	"summary": "現在は、障害のある人が使うコミュニケーション手段の普及や利用拡大を、市が支援することを定めています。この議案では、コミュニケーション手段を定義し、自分で選んだ手段による意思の表明や情報の取得などを基本理念に加えます。また、手話を言語として尊重する考え方を盛り込みます。",
+	"changes": [
+		"コミュニケーション手段を定義する",
+		"自分で選んだ手段による意思の表明、情報の取得、社会参加を基本理念に加える",
+		"手話を言語として尊重し、文化的な側面への理解に配慮する考え方を加える",
+		"情報伝達の条文にある手段の例示を削る"
+	],
+	"who": [
+		"障害のある人",
+		"手話を使う人"
+	],
+	"why": "障害のある人を取り巻く社会環境や制度の変化を踏まえ、コミュニケーションに関する権利の保障を進め、手話を言語として明示するためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:38:49.955Z",
+		"inputTokens": 3031,
+		"cachedTokens": 0,
+		"outputTokens": 990,
+		"reasoningTokens": 651
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:38:49.955Z",
+		"checkedAt": "2026-10-08T05:20:51.244Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3036,
+			"cachedTokens": 0,
+			"outputTokens": 66,
+			"reasoningTokens": 51
+		}
+	}
 }

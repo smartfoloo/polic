@@ -22,5 +22,51 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/77968.pdf",
 			"fetchedAt": "2026-10-01T14:29:23.216Z"
 		}
-	]
+	],
+	"name": "条例の公布に電子署名とウェブ掲載を追加",
+	"category": "行政のしくみ",
+	"summary": "現在は、条例などを掲示して公布・公表する方法が定められています。この議案では、市長の署名に電子署名を使えるようにし、市ウェブサイトへの掲載も公布・公表の方法に加えます。改正後の規定は令和8年5月1日から適用されます。",
+	"changes": [
+		"市長の署名に電子署名を使えるようにする",
+		"条例などの公布・公表方法に市ウェブサイトへの掲載を加える",
+		"市職員の懲戒・給与・退職手当に関する処分内容をウェブサイトにも掲載する"
+	],
+	"who": [
+		"青梅市の条例や公表事項を確認する市民",
+		"懲戒・給与・退職手当に関する処分を受ける市職員"
+	],
+	"why": "地方自治法の一部改正を踏まえ、行政運営の効率化と市民の利便性の向上を図るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:08:13.734Z",
+		"inputTokens": 2509,
+		"cachedTokens": 0,
+		"outputTokens": 1770,
+		"reasoningTokens": 1505
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:08:13.734Z",
+		"checkedAt": "2026-10-08T05:40:59.380Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "条例などの公布・公表方法に市ウェブサイトへの掲載を加える",
+				"note": "原文の第2条第2項改正では、公布の掲示場所から梅郷・沢井・小曾木・成木の各出張所を削除しています。住民が公布内容を確認する場所の変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2472,
+			"cachedTokens": 0,
+			"outputTokens": 228,
+			"reasoningTokens": 118
+		}
+	}
 }

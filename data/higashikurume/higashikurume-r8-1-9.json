@@ -27,5 +27,41 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/028/644/2026022502.pdf",
 			"fetchedAt": "2026-10-02T15:32:34.596Z"
 		}
-	]
+	],
+	"name": "期末・勤勉手当の算定率を引き上げる",
+	"category": "行政のしくみ",
+	"summary": "現在、会計年度任用職員の期末手当は100分の125、勤勉手当は100分の117.5を基準に算定しています。この基準をそれぞれ100分の126.25、100分の118.75に引き上げ、令和8年4月1日から施行します。",
+	"changes": [
+		"期末手当の算定に使う割合を100分の125から100分の126.25に上げる",
+		"勤勉手当の算定に使う割合を100分の117.5から100分の118.75に上げる"
+	],
+	"who": [
+		"東久留米市の会計年度任用職員"
+	],
+	"why": "市職員との均衡などを踏まえて、会計年度任用職員の期末・勤勉手当を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:43:02.927Z",
+		"inputTokens": 1803,
+		"cachedTokens": 0,
+		"outputTokens": 708,
+		"reasoningTokens": 440
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:43:02.927Z",
+		"checkedAt": "2026-10-08T05:23:22.105Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1737,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

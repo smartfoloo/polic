@@ -27,5 +27,41 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai2kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:26:52.140Z"
 		}
-	]
+	],
+	"name": "対象建築物の都市計画税を3分の1減額",
+	"category": "税・手数料",
+	"summary": "改修特別特定建築物にかかる都市計画税の減額割合を、条例で定める議案です。減額割合を3分の1とし、あわせて宅地等や商業地等の税額調整に関する規定の参照先を整えます。",
+	"changes": [
+		"改修特別特定建築物に係る都市計画税の減額割合を3分の1と定める",
+		"税額調整に関する附則の条番号や参照箇所を改める"
+	],
+	"who": [
+		"改修特別特定建築物に係る都市計画税の納税者"
+	],
+	"why": "地方税法の改正に伴うほか、必要な改正を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:27:50.850Z",
+		"inputTokens": 3634,
+		"cachedTokens": 0,
+		"outputTokens": 1259,
+		"reasoningTokens": 1009
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:27:50.850Z",
+		"checkedAt": "2026-10-08T05:14:19.110Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3551,
+			"cachedTokens": 0,
+			"outputTokens": 57,
+			"reasoningTokens": 43
+		}
+	}
 }

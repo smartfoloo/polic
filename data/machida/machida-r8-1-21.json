@@ -27,5 +27,43 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6681_21gou.pdf",
 			"fetchedAt": "2026-10-01T14:21:17.917Z"
 		}
-	]
+	],
+	"name": "マンション再生などの申請対象を変更",
+	"category": "税・手数料",
+	"summary": "既存建築物の道路に関する制限緩和や、マンションの建替えに伴う特例許可の申請には、条例で手数料が定められています。この議案では、申請の根拠となる規定や、マンション関連の申請対象を改めます。手数料額は、既存建築物の各申請が1件28,000円、マンション関連が1件160,000円です。",
+	"changes": [
+		"既存建築物の敷地と道路の関係に関する申請の根拠条項を、政令第137条の12第6項から第11項に改める",
+		"既存建築物の道路内の建築制限に関する申請の根拠条項を、政令第137条の12第7項から第12項に改める",
+		"マンション関連の申請対象を、要除却認定マンションの建替えから、要除却等認定マンションの建替え・更新に伴う容積率または各部分の高さの特例許可に改める"
+	],
+	"who": [
+		"既存建築物の道路関係の制限緩和を申請する人",
+		"マンションの建替え・更新に伴う特例許可を申請する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:48:41.949Z",
+		"inputTokens": 1812,
+		"cachedTokens": 0,
+		"outputTokens": 1867,
+		"reasoningTokens": 1519
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:48:41.949Z",
+		"checkedAt": "2026-10-08T05:33:57.401Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1853,
+			"cachedTokens": 0,
+			"outputTokens": 77,
+			"reasoningTokens": 62
+		}
+	}
 }

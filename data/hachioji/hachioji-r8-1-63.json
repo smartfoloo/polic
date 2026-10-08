@@ -22,5 +22,44 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "陵南プールの利用料を改定",
+	"category": "まちづくり",
+	"summary": "現在、陵南プールの2時間以内の使用料は子供が100円、大人が250円で、1時間の超過料金はそれぞれ50円、120円です。議案では、2時間以内の使用料を子供150円、大人350円に、1時間の超過料金を子供70円、大人170円に改定します。改定後の料金は令和9年4月1日以後の利用分に適用され、それ以前に使用承認を受けた場合も徴収できます。",
+	"changes": [
+		"子供の2時間以内の使用料を100円から150円に上げる",
+		"子供の1時間の超過料金を50円から70円に上げる",
+		"大人の2時間以内の使用料を250円から350円に上げる",
+		"大人の1時間の超過料金を120円から170円に上げる"
+	],
+	"who": [
+		"陵南プールを利用する子供",
+		"陵南プールを利用する大人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:36:11.639Z",
+		"inputTokens": 1405,
+		"cachedTokens": 0,
+		"outputTokens": 830,
+		"reasoningTokens": 561
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:36:11.639Z",
+		"checkedAt": "2026-10-08T05:19:10.048Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1366,
+			"cachedTokens": 0,
+			"outputTokens": 83,
+			"reasoningTokens": 68
+		}
+	}
 }

@@ -27,5 +27,39 @@
 			"url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/029/219/2026060102.pdf",
 			"fetchedAt": "2026-10-02T15:30:29.300Z"
 		}
-	]
+	],
+	"name": "損害賠償責任の免責規定の参照条文を更新",
+	"category": "行政のしくみ",
+	"summary": "市長などの損害賠償責任を一部免責する条例は、地方自治法の条文を参照しています。この議案では、地方自治法の改正に合わせて、条例内の参照先の条番号を変更します。改正後の条例は2026年9月24日から施行されます。",
+	"changes": [
+		"第243条の2の7第1項を第243条の2の8第1項に改める",
+		"第243条の2の8第3項を第243条の2の9第3項に改める"
+	],
+	"who": [],
+	"why": "地方自治法の一部改正に伴い、規定を整備する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:43:43.371Z",
+		"inputTokens": 2306,
+		"cachedTokens": 0,
+		"outputTokens": 730,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:43:43.371Z",
+		"checkedAt": "2026-10-08T05:23:35.376Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2208,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

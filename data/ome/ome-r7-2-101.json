@@ -22,5 +22,40 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/77980.pdf",
 			"fetchedAt": "2026-10-01T14:30:35.243Z"
 		}
-	]
+	],
+	"name": "融資利率などの特例を1年延長",
+	"category": "行政のしくみ",
+	"summary": "貸付利率などに関する特例措置は、2026年3月31日まで適用されます。この議案で適用期間を1年間延ばし、2027年3月31日までとします。条例は2026年4月1日から施行されます。",
+	"changes": [
+		"貸付利率などの特例措置の適用期間を2027年3月31日まで延ばす"
+	],
+	"who": [
+		"市内の中小企業"
+	],
+	"why": "市内中小企業の厳しい経営環境を踏まえ、資金繰りを引き続き円滑にするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:07:03.176Z",
+		"inputTokens": 1464,
+		"cachedTokens": 0,
+		"outputTokens": 726,
+		"reasoningTokens": 516
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:07:03.176Z",
+		"checkedAt": "2026-10-08T05:40:24.121Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1348,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

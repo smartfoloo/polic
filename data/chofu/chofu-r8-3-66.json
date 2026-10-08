@@ -27,5 +27,38 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077280.html",
 			"fetchedAt": "2026-10-01T14:31:20.266Z"
 		}
-	]
+	],
+	"name": "景観条例の引用条項を変更",
+	"category": "まちづくり",
+	"summary": "調布市景観条例では、第10条第3項で景観法の条項を引用しています。この議案では、引用する条項を「第7項第11号」から「第8項第12号」に改め、都市再生特別措置法等の一部改正法の施行日から条例を施行します。",
+	"changes": [
+		"第10条第3項の引用条項を「第7項第11号」から「第8項第12号」に改める"
+	],
+	"who": [],
+	"why": "景観法の一部改正に伴い、引用する条項を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:23:12.437Z",
+		"inputTokens": 1199,
+		"cachedTokens": 0,
+		"outputTokens": 594,
+		"reasoningTokens": 392
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:23:12.437Z",
+		"checkedAt": "2026-10-08T05:11:12.492Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1069,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

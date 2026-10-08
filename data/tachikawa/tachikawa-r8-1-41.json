@@ -22,5 +22,48 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian41.pdf",
 			"fetchedAt": "2026-10-01T14:24:38.688Z"
 		}
-	]
+	],
+	"name": "会計年度任用職員の出張費用の区分を変更",
+	"category": "行政のしくみ",
+	"summary": "会計年度任用職員の出張費用として、現在は鉄道賃や車賃、宿泊料などを支給しています。この議案では、費用の区分を交通費や宿泊費、宿泊手当などに改めます。2026年4月1日以降に出発する出張に適用します。",
+	"changes": [
+		"費用弁償の種類を交通費、宿泊費、宿泊手当などに改める"
+	],
+	"who": [
+		"立川市の会計年度任用職員"
+	],
+	"why": "地方自治法第203条の2第5項の規定による改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:29:20.386Z",
+		"inputTokens": 1490,
+		"cachedTokens": 0,
+		"outputTokens": 896,
+		"reasoningTokens": 700
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:29:20.386Z",
+		"checkedAt": "2026-10-08T05:52:58.268Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "費用弁償の種類を交通費、宿泊費、宿泊手当などに改める",
+				"note": "原文の改正後には「死亡手当」が新たに含まれているが、changesではこの支給区分の追加が明示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1376,
+			"cachedTokens": 0,
+			"outputTokens": 365,
+			"reasoningTokens": 268
+		}
+	}
 }

@@ -22,5 +22,39 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "条例の引用条項番号を変更",
+	"category": "行政のしくみ",
+	"summary": "大田区立障がい者総合サポートセンター条例は、児童福祉法の条項を引用しています。この議案では、条例にある引用先の項番号を改めます。",
+	"changes": [
+		"第2条第6号の引用を第6条の2の2第4項から第3項に改める",
+		"第2条第9号の引用を第6条の2の2第7項から第6項に改める"
+	],
+	"who": [],
+	"why": "児童福祉法の改正に伴い、規定を整理するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:17:37.300Z",
+		"inputTokens": 1247,
+		"cachedTokens": 0,
+		"outputTokens": 521,
+		"reasoningTokens": 349
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:17:37.300Z",
+		"checkedAt": "2026-10-08T05:46:20.709Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1107,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0
+		}
+	}
 }

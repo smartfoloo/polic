@@ -27,5 +27,40 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077273.html",
 			"fetchedAt": "2026-10-01T14:29:58.519Z"
 		}
-	]
+	],
+	"name": "端末での印鑑登録証明の申請方法を変更",
+	"category": "くらし・手続き",
+	"summary": "多機能端末機を使った印鑑登録証明の申請について、条例に定める手続きが改められます。申請の方法などを条例に列挙する形から、規則で定める形に変更します。",
+	"changes": [
+		"多機能端末機での申請方法を規則で定める形に改める"
+	],
+	"who": [
+		"多機能端末機で印鑑登録証明を申請する人"
+	],
+	"why": "出入国管理及び難民認定法等の一部改正を踏まえ、多機能端末機を使った印鑑登録証明の申請について改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:21:33.602Z",
+		"inputTokens": 1243,
+		"cachedTokens": 0,
+		"outputTokens": 997,
+		"reasoningTokens": 791
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:21:33.602Z",
+		"checkedAt": "2026-10-08T05:10:06.257Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1139,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 41
+		}
+	}
 }

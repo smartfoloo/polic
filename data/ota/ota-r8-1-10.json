@@ -22,5 +22,43 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "不利益処分の公示通知方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、区の行政手続条例では、不利益処分を受ける人への通知を公示で行う場合の方法などを定めています。この議案では、公示する内容を広く閲覧できる状態にし、区の事務所の掲示場への掲示または事務所内の電子機器画面での閲覧を可能にします。公示の措置を始めてから2週間が過ぎると、通知が届いたものと扱い、2026年5月21日から施行します。",
+	"changes": [
+		"公示する内容を規則で定める方法により不特定多数が閲覧できる状態に置く",
+		"区の事務所の掲示場への掲示、または事務所内の電子機器画面での閲覧を可能にする",
+		"公示の措置を始めてから2週間後に通知が届いたものとみなす",
+		"条例中の「名あて人」を「名宛人」に改める"
+	],
+	"who": [
+		"不利益処分について公示で通知を受ける人や事業者"
+	],
+	"why": "行政手続法の改正に伴い、聴聞の実施などの通知に係る公示送達の方法を改め、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:14:48.589Z",
+		"inputTokens": 2001,
+		"cachedTokens": 0,
+		"outputTokens": 1695,
+		"reasoningTokens": 1324
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:14:48.589Z",
+		"checkedAt": "2026-10-08T05:44:41.005Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2039,
+			"cachedTokens": 0,
+			"outputTokens": 86,
+			"reasoningTokens": 71
+		}
+	}
 }

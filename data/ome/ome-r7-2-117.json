@@ -22,5 +22,38 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/78409.pdf",
 			"fetchedAt": "2026-10-01T14:30:59.594Z"
 		}
-	]
+	],
+	"name": "火葬場使用の表記を「許可」に変更",
+	"category": "行政のしくみ",
+	"summary": "条例では、火葬場の使用を「承認」と表しています。この議案で、該当する表記を「許可」に改めます。公布の日に施行し、2026年2月24日から適用します。",
+	"changes": [
+		"火葬場の使用に関する「承認」の表記を「許可」に改める"
+	],
+	"who": [],
+	"why": "標準化基準に適合する戸籍情報システムへの移行に伴い、火葬場の使用の承認に関する文言を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:07:58.715Z",
+		"inputTokens": 1307,
+		"cachedTokens": 0,
+		"outputTokens": 780,
+		"reasoningTokens": 606
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:07:58.715Z",
+		"checkedAt": "2026-10-08T05:40:49.960Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1175,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

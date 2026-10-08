@@ -22,5 +22,43 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/065/830/r80918_hon_71.pdf",
 			"fetchedAt": "2026-10-02T15:04:54.697Z"
 		}
-	]
+	],
+	"name": "児童福祉施設で対象職員の犯罪事実確認を義務化",
+	"category": "福祉",
+	"summary": "条例に、児童への性暴力を防ぎ、起きた場合に児童を保護するための措置を加えます。対象は、助産施設などを除く児童福祉施設で、児童と接する人のうち、支配性・継続性・閉鎖性のある環境で児童に接する人について、犯罪事実確認などを求めます。2026年12月25日から施行します。",
+	"changes": [
+		"児童への性暴力を防ぎ、発生時に児童を保護するための措置を求める",
+		"対象となる従事者について犯罪事実確認などを義務付ける"
+	],
+	"who": [
+		"対象となる児童福祉施設の設置者",
+		"施設で児童と接する対象業務の従事者",
+		"これらの施設を利用する児童"
+	],
+	"why": "法律の施行などに伴い、従事者の犯罪事実確認などに関する規定を加える必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:40:47.786Z",
+		"inputTokens": 1633,
+		"cachedTokens": 0,
+		"outputTokens": 1573,
+		"reasoningTokens": 1255
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:40:47.786Z",
+		"checkedAt": "2026-10-08T05:30:27.164Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1617,
+			"cachedTokens": 0,
+			"outputTokens": 87,
+			"reasoningTokens": 72
+		}
+	}
 }

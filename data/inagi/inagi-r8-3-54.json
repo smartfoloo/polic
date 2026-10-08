@@ -22,5 +22,43 @@
 			"url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/014/314/r8.3gian.pdf",
 			"fetchedAt": "2026-10-02T15:35:32.569Z"
 		}
-	]
+	],
+	"name": "住居表示台帳の写しに手数料を設定",
+	"category": "税・手数料",
+	"summary": "住居表示台帳の一部の写しを交付する手数料は、条例に定められていません。議案では、1街区を1件として、窓口請求は300円、郵送またはオンラインでの請求は400円とします。法律上の関係人への交付は手数料の対象外です。",
+	"changes": [
+		"住居表示台帳の一部の写しは1街区を1件として扱う",
+		"窓口請求の手数料を1件300円とする",
+		"郵送請求またはオンライン請求の手数料を1件400円とする",
+		"法律上の関係人への交付を手数料の対象外とする"
+	],
+	"who": [
+		"住居表示台帳の一部の写しを請求する人（法律上の関係人を除く）"
+	],
+	"why": "住居表示を実施するに当たり、住居表示台帳の一部の写しの交付手数料を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:49:03.244Z",
+		"inputTokens": 1948,
+		"cachedTokens": 0,
+		"outputTokens": 951,
+		"reasoningTokens": 643
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:49:03.244Z",
+		"checkedAt": "2026-10-08T05:26:29.922Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1924,
+			"cachedTokens": 0,
+			"outputTokens": 321,
+			"reasoningTokens": 306
+		}
+	}
 }

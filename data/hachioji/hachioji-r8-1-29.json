@@ -22,5 +22,58 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian1.pdf",
 			"fetchedAt": "2026-10-02T15:26:08.906Z"
 		}
-	]
+	],
+	"name": "中野山王地区に建築制限を追加",
+	"category": "まちづくり",
+	"summary": "現在の条例には、中野山王地区整備計画区域の建築制限が定められていません。この議案は同区域を条例に加え、建てられない建物の用途や、敷地面積、壁面の位置、高さの基準を設けます。",
+	"changes": [
+		"マージャン屋などの類似施設、自動車教習所、危険物の貯蔵・処理施設、建築物に附属しない自動車車庫を建築できないようにする",
+		"敷地面積の最低限度を原則500平方メートルとし、所定の住宅などは170平方メートルとする",
+		"壁面線に応じて、道路・隣地境界から1.5メートル、3メートル、0.5メートル以上離す",
+		"建築物の高さを20メートル以下にする"
+	],
+	"who": [
+		"中野山王地区整備計画区域内で建築を行う人・事業者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:29:11.989Z",
+		"inputTokens": 3455,
+		"cachedTokens": 0,
+		"outputTokens": 1526,
+		"reasoningTokens": 1249
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:29:11.989Z",
+		"checkedAt": "2026-10-08T05:15:01.646Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "危険物の貯蔵・処理施設",
+				"note": "原文の別表第2・127では、危険物の貯蔵・処理施設のうち「建築物に附属するもの」は禁止対象から除かれている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "壁面線に応じて、道路・隣地境界から1.5メートル、3メートル、0.5メートル以上離す",
+				"note": "原文の別表第2・127では、地区計画の都市計画決定時点で現に存する建築物等を壁面位置制限の適用対象から除いているが、この例外が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3427,
+			"cachedTokens": 0,
+			"outputTokens": 388,
+			"reasoningTokens": 188
+		}
+	}
 }

@@ -22,5 +22,38 @@
 			"url": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20596/gian52.pdf",
 			"fetchedAt": "2026-10-01T14:38:57.506Z"
 		}
-	]
+	],
+	"name": "下水道事業条例の参照条文を変更",
+	"category": "行政のしくみ",
+	"summary": "市の下水道事業を定める条例では、地方自治法の条文を第243条の2の8第8項としています。この議案で、参照先を第243条の2の9第8項に改め、2026年9月24日から施行します。",
+	"changes": [
+		"参照する地方自治法の条文を第243条の2の8第8項から第243条の2の9第8項に改める"
+	],
+	"who": [],
+	"why": "地方自治法の改正法が施行されることに伴い、規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:17:55.266Z",
+		"inputTokens": 1276,
+		"cachedTokens": 0,
+		"outputTokens": 572,
+		"reasoningTokens": 372
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:17:55.266Z",
+		"checkedAt": "2026-10-08T05:07:56.904Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1148,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

@@ -22,5 +22,41 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "森ケ崎公園に夜間照明の使用料を設定",
+	"category": "まちづくり",
+	"summary": "森ケ崎公園のサッカー場とフットサル場に夜間照明設備が新設されることに伴い、照明施設の使用料を定めます。条例は令和8年4月1日から施行されます。",
+	"changes": [
+		"サッカー場の夜間照明施設の使用料を1回1時間以内1,400円または2,100円に定める",
+		"フットサル場の夜間照明施設の使用料を1面1回1時間以内700円または1,050円に定める"
+	],
+	"who": [
+		"森ケ崎公園のサッカー場やフットサル場で夜間照明を利用する人"
+	],
+	"why": "森ケ崎公園のサッカー場及びフットサル場に夜間照明設備を新設することに伴い、使用料を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:18:30.643Z",
+		"inputTokens": 1369,
+		"cachedTokens": 0,
+		"outputTokens": 912,
+		"reasoningTokens": 662
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:18:30.643Z",
+		"checkedAt": "2026-10-08T05:46:47.938Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1308,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 42
+		}
+	}
 }

@@ -22,5 +22,44 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo13-35.pdf",
 			"fetchedAt": "2026-10-02T15:38:18.726Z"
 		}
-	]
+	],
+	"name": "排水設備工事業者の指定条件を変更",
+	"category": "環境",
+	"summary": "現在は、排水設備工事業者の指定に、責任技術者が専属することなどが条件になっています。この議案では、営業所ごとに責任技術者を1人以上選任し、東京都内の別の営業所との兼任を認めます。災害などの非常時には、管理者が必要と認めれば、他の自治体の長などから指定を受けた者に工事を行わせられる場合も設けます。",
+	"changes": [
+		"指定工事業者の要件から、責任技術者の専属を外す",
+		"営業所ごとに責任技術者を1人以上選任し、東京都内の別の営業所との兼任を認める",
+		"非常時に他の自治体の長などから指定を受けた者に工事を行わせる例外を設ける",
+		"責任技術者について、管理者の認定に加えて登録を求める"
+	],
+	"who": [
+		"排水設備工事を行う事業者",
+		"責任技術者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:37:33.591Z",
+		"inputTokens": 1359,
+		"cachedTokens": 0,
+		"outputTokens": 1603,
+		"reasoningTokens": 1290
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:37:33.591Z",
+		"checkedAt": "2026-10-08T05:58:46.706Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1348,
+			"cachedTokens": 0,
+			"outputTokens": 47,
+			"reasoningTokens": 32
+		}
+	}
 }

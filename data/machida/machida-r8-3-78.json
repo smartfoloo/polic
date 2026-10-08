@@ -27,5 +27,39 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6825_78gou.pdf",
 			"fetchedAt": "2026-10-01T14:26:30.033Z"
 		}
-	]
+	],
+	"name": "景観整備法人の名称と条文番号を改める",
+	"category": "行政のしくみ",
+	"summary": "市の景観条例では、届出の対象となる行為の根拠を法律の第16条第7項第11号とし、指定手続の対象を「景観整備機構」としています。議案は、法律の改正に合わせて根拠を第16条第8項第12号に改め、対象の名称を「景観整備推進法人」に変更します。条例は、改正法の施行日に施行されます。",
+	"changes": [
+		"届出対象となる行為の根拠条項を第16条第7項第11号から第16条第8項第12号に改める",
+		"指定手続の対象の名称を「景観整備機構」から「景観整備推進法人」に変更する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:00:35.442Z",
+		"inputTokens": 1432,
+		"cachedTokens": 0,
+		"outputTokens": 713,
+		"reasoningTokens": 487
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:00:35.442Z",
+		"checkedAt": "2026-10-08T05:37:20.626Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1345,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 45
+		}
+	}
 }

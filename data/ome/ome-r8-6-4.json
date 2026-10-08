@@ -22,5 +22,58 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/80136.pdf",
 			"fetchedAt": "2026-10-01T14:24:48.408Z"
 		}
-	]
+	],
+	"name": "市の債権管理の基準を定める",
+	"category": "行政のしくみ",
+	"summary": "市が持つ金銭債権の管理について、基本的なルールを条例で定めます。市長に債権台帳の整備と毎年度の徴収計画の策定を求め、督促などの手続きや債権を放棄できる条件も定めます。",
+	"changes": [
+		"市の債権管理に関する事務の基準を定める",
+		"市長に債権台帳の整備と毎年度の徴収計画の策定を求める",
+		"督促や強制執行、徴収停止などの取扱いを定める",
+		"債権を放棄できる条件と、放棄した場合の議会への報告を定める"
+	],
+	"who": [
+		"市に金銭を支払う義務がある人や事業者"
+	],
+	"why": "市の債権管理を適正にするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:11:48.425Z",
+		"inputTokens": 2972,
+		"cachedTokens": 0,
+		"outputTokens": 929,
+		"reasoningTokens": 636
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:11:48.425Z",
+		"checkedAt": "2026-10-08T05:42:44.143Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "市に金銭を支払う義務がある人や事業者",
+				"note": "第2条では、税の滞納処分の例により処分できる債権や市の病院事業・モーターボート競走事業の債権などを対象から除外しており、対象者の範囲が広く読める。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "督促や強制執行、徴収停止などの取扱いを定める",
+				"note": "第7条第2項にある履行期限の延長と債務の免除は、債務者に直接関わる主な内容だが、changesに明記されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2933,
+			"cachedTokens": 0,
+			"outputTokens": 413,
+			"reasoningTokens": 206
+		}
+	}
 }

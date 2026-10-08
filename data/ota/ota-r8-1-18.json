@@ -22,5 +22,45 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "産業プラザの利用料金を改定",
+	"category": "まちづくり",
+	"summary": "展示ホールや会議室などの利用料金表を改め、駐車場料金は1台30分につき600円の範囲内で規則に定める額とします。営利目的で物品販売などをする場合は、利用料金に追加料金を設けます。改正は令和9年4月1日から適用し、H会議室の料金は同年10月1日から適用します。",
+	"changes": [
+		"展示ホールや会議室などの利用料金を改定する",
+		"駐車場料金を1台30分につき600円の範囲内で規則に定める額とする",
+		"営利目的の物品販売などには、利用料金のほかに利用料金の5割相当額を上限として徴収する",
+		"備考第6号の規定を、承認した利用料金の1時間当たりの額相当額を上限に徴収できる内容に改める"
+	],
+	"who": [
+		"大田区産業プラザを利用する人や団体",
+		"大田区産業プラザの駐車場を利用する人",
+		"営利目的で物品販売などを行う利用者"
+	],
+	"why": "受益者負担の適正化の観点から、施設に係る利用料金を見直すためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:16:53.451Z",
+		"inputTokens": 2384,
+		"cachedTokens": 0,
+		"outputTokens": 1380,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:16:53.451Z",
+		"checkedAt": "2026-10-08T05:45:48.125Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2431,
+			"cachedTokens": 0,
+			"outputTokens": 107,
+			"reasoningTokens": 92
+		}
+	}
 }

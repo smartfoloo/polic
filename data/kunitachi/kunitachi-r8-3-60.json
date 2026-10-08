@@ -27,5 +27,46 @@
 			"url": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka3.pdf",
 			"fetchedAt": "2026-10-02T15:40:30.597Z"
 		}
-	]
+	],
+	"name": "3歳以上限定の小規模保育の基準を追加",
+	"category": "子育て",
+	"summary": "市の条例は、特定教育・保育施設や地域型保育事業の運営基準を定めています。今回、児童福祉法の改正に伴う内閣府令の基準改正に合わせ、満3歳以上の子どもを対象とする小規模保育の定義を設け、利用定員や選考、連携施設などのルールを加えます。",
+	"changes": [
+		"満3歳以上限定小規模保育事業の区分を設ける",
+		"同事業所の利用定員や利用申込みの選考方法を定める",
+		"連携施設の確保で求める連携協力の一部を不要とする",
+		"教育認定子どもに特別利用地域型保育を行う場合の基準を定める"
+	],
+	"who": [
+		"満3歳以上限定小規模保育事業を利用する、または申し込む子どもの保護者",
+		"満3歳以上限定小規模保育事業を運営する事業者"
+	],
+	"why": "児童福祉法の改正に伴って内閣府令の基準が改められたため、条例の規定を整えると市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:47:09.923Z",
+		"inputTokens": 6917,
+		"cachedTokens": 0,
+		"outputTokens": 1359,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:47:09.923Z",
+		"checkedAt": "2026-10-08T05:33:11.274Z",
+		"flags": [
+			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6949,
+			"cachedTokens": 0,
+			"outputTokens": 244,
+			"reasoningTokens": 230
+		}
+	}
 }

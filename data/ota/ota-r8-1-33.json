@@ -22,5 +22,51 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/1teirei/r0801teirei_kuchogian.files/r0801kuchogian9_33.pdf",
 			"fetchedAt": "2026-10-02T14:53:29.661Z"
 		}
-	]
+	],
+	"name": "児童館の利用対象を変更し大森南を廃止",
+	"category": "子育て",
+	"summary": "現在は、小中学生や乳幼児、その保護者が児童館を利用できます（東嶺町分室は乳幼児と保護者に限られます）。改正後は、児童福祉法で定める児童とその保護者のほか、区長が必要と認める人も対象になります。また、大森南児童館を廃止します。2026年4月1日に施行されます。",
+	"changes": [
+		"利用できる人を児童福祉法で定める児童とその保護者に改める",
+		"区長が特に必要と認める人も利用対象に加える",
+		"大森南児童館を廃止する"
+	],
+	"who": [
+		"大田区立児童館を利用する児童とその保護者",
+		"大森南児童館の利用者"
+	],
+	"why": "児童館を利用できる人の範囲を改め、大森南児童館を廃止するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:19:37.047Z",
+		"inputTokens": 1368,
+		"cachedTokens": 0,
+		"outputTokens": 1577,
+		"reasoningTokens": 1274
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:19:37.047Z",
+		"checkedAt": "2026-10-08T05:47:14.185Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用できる人を児童福祉法で定める児童とその保護者に改める",
+				"note": "改正後の第４条第１項第１号でも、東嶺町分室は乳幼児とその保護者に限るという例外が維持されます。この利用対象の制限が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1338,
+			"cachedTokens": 0,
+			"outputTokens": 296,
+			"reasoningTokens": 180
+		}
+	}
 }

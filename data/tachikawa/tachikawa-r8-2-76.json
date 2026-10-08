@@ -22,5 +22,65 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/027/155/r8gian76.pdf",
 			"fetchedAt": "2026-10-01T14:26:08.715Z"
 		}
-	]
+	],
+	"name": "市営葬儀の内容や利用料を定める",
+	"category": "くらし・手続き",
+	"summary": "これまでの条例では、斎場や附属施設の使用手続きと使用料を定めていました。この議案では、市営葬儀の内容や利用できる人、利用手続きを定め、利用料を加えます。料金は一般葬・一日葬が113,000円、直葬が26,000円です。",
+	"changes": [
+		"市営葬儀の内容と利用できる人を定める",
+		"市営葬儀の利用に市長の承認を必要とする",
+		"市営葬儀の利用料を一般葬・一日葬113,000円、直葬26,000円と定める",
+		"使用料を使用等の日までに徴収する"
+	],
+	"who": [
+		"市営葬儀を利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:33:07.685Z",
+		"inputTokens": 3941,
+		"cachedTokens": 0,
+		"outputTokens": 2413,
+		"reasoningTokens": 2155
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:33:07.685Z",
+		"checkedAt": "2026-10-08T05:56:04.438Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市営葬儀の内容と利用できる人を定める",
+				"note": "改正後第４条のサービス内容（納棺・葬祭用品等の供与、祭壇の飾付け・葬儀の進行、霊きゅう自動車の使用）が具体的に示されていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市営葬儀の内容と利用できる人を定める",
+				"note": "改正後第５条の利用要件（死亡者が死亡時に市の住民基本台帳に記録されていること、その他市長が必要と認める者）が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市営葬儀の利用料を一般葬・一日葬113,000円、直葬26,000円と定める",
+				"note": "改正後第８条では、斎場等を使用して市営葬儀を行う場合、斎場等の使用料と市営葬儀の使用料を合わせて徴収するとしている。この追加負担に関する規定が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3869,
+			"cachedTokens": 0,
+			"outputTokens": 566,
+			"reasoningTokens": 253
+		}
+	}
 }

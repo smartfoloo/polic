@@ -22,5 +22,38 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037536_d/fil/gian.pdf",
 			"fetchedAt": "2026-10-02T15:24:30.519Z"
 		}
-	]
+	],
+	"name": "職員の債務免除に関する参照条文を変更",
+	"category": "行政のしくみ",
+	"summary": "条例は、昭和64年1月7日より前の事由による職員の賠償責任に基づく債務を、将来に向かって免除すると定めています。この議案では、根拠として示す地方自治法の条文番号を第243条の2の8から第243条の2の9に改め、令和8年9月24日から施行します。",
+	"changes": [
+		"参照する地方自治法の条文番号を第243条の2の8から第243条の2の9に改める"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:36:58.584Z",
+		"inputTokens": 1434,
+		"cachedTokens": 0,
+		"outputTokens": 792,
+		"reasoningTokens": 610
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:36:58.584Z",
+		"checkedAt": "2026-10-08T05:19:23.962Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1306,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

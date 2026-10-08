@@ -22,5 +22,40 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian24.pdf",
 			"fetchedAt": "2026-10-01T14:22:56.695Z"
 		}
-	]
+	],
+	"name": "2人世帯の入居資格を拡大",
+	"category": "住宅",
+	"summary": "現在、2人世帯で高齢者住宅に申し込める相手は、一定の親族や配偶者、都の証明を受けたパートナーシップ関係の相手方です。この議案では、市長が認める人も対象に加えます。2026年3月1日に施行されます。",
+	"changes": [
+		"2人世帯の相手に市長が認める人を加える"
+	],
+	"who": [
+		"高齢者集合住宅に2人世帯で申し込む人"
+	],
+	"why": "使用者の資格の範囲を拡大するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:25:17.482Z",
+		"inputTokens": 1712,
+		"cachedTokens": 0,
+		"outputTokens": 811,
+		"reasoningTokens": 634
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:25:17.482Z",
+		"checkedAt": "2026-10-08T05:50:09.145Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1588,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 38
+		}
+	}
 }

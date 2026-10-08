@@ -27,5 +27,41 @@
 			"url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk6771_58gou.pdf",
 			"fetchedAt": "2026-10-01T14:24:53.964Z"
 		}
-	]
+	],
+	"name": "中心市街地の再開発基金を設ける",
+	"category": "まちづくり",
+	"summary": "市は、中心市街地の再開発に必要な資金を積み立てる基金を設けます。積立額は毎年度の予算で決め、寄附金も積み立てられます。基金は再開発に必要な公共施設の整備などに充て、条例は2026年7月1日に施行します。",
+	"changes": [
+		"中心市街地の再開発資金を積み立てる基金を設ける",
+		"毎年度の予算で積立額を定め、趣旨に沿う寄附金も積み立てる",
+		"基金の運用益を基金に加える",
+		"再開発に必要な公共施設の整備などに基金を充てる"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:59:00.423Z",
+		"inputTokens": 1441,
+		"cachedTokens": 0,
+		"outputTokens": 802,
+		"reasoningTokens": 589
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:59:00.423Z",
+		"checkedAt": "2026-10-08T05:36:30.931Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1344,
+			"cachedTokens": 0,
+			"outputTokens": 62,
+			"reasoningTokens": 47
+		}
+	}
 }

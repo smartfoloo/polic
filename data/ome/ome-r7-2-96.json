@@ -22,5 +22,41 @@
 			"url": "https://www.city.ome.tokyo.jp/uploaded/attachment/77975.pdf",
 			"fetchedAt": "2026-10-01T14:30:05.260Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援事業の基準を改める",
+	"category": "子育て",
+	"summary": "乳児等通園支援事業の設備や運営に関する市の基準を定めています。この議案では、関連する基準の改正に合わせて用語を見直し、利用定員の説明を加えるほか、市長が必要な事項を別に定める規定を設けます。",
+	"changes": [
+		"「乳児等通園支援事業者」などの表記を「乳児等通園支援事業所」に改める",
+		"利用定員の意味を条例に明記する",
+		"市長が施行に必要な事項を別に定める規定を設ける",
+		"関連する用語や条文の構成を整える"
+	],
+	"who": [],
+	"why": "関連する基準の一部改正に合わせて文言を改め、必要な規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:09:47.261Z",
+		"inputTokens": 1793,
+		"cachedTokens": 0,
+		"outputTokens": 907,
+		"reasoningTokens": 669
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:09:47.261Z",
+		"checkedAt": "2026-10-08T05:41:38.368Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1732,
+			"cachedTokens": 0,
+			"outputTokens": 67,
+			"reasoningTokens": 53
+		}
+	}
 }

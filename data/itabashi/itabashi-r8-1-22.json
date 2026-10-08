@@ -27,5 +27,39 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_22.pdf",
 			"fetchedAt": "2026-10-02T15:02:42.469Z"
 		}
-	]
+	],
+	"name": "認定こども園の要件の引用規定を改める",
+	"category": "行政のしくみ",
+	"summary": "条例では、認定こども園の認定要件に関する法律の条文を参照しています。この議案は、保育士登録などの参照先の書き方を改め、公布日から施行します。",
+	"changes": [
+		"保育士登録の根拠となる条文の表記を改める",
+		"第15条の2の引用規定を、幼稚園型認定こども園に関する特例を含む形に改める"
+	],
+	"who": [],
+	"why": "告示の改正に伴い、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:51:03.690Z",
+		"inputTokens": 1371,
+		"cachedTokens": 0,
+		"outputTokens": 1114,
+		"reasoningTokens": 907
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:51:03.690Z",
+		"checkedAt": "2026-10-08T05:27:16.769Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1244,
+			"cachedTokens": 0,
+			"outputTokens": 55,
+			"reasoningTokens": 41
+		}
+	}
 }

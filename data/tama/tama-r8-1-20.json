@@ -22,5 +22,43 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo13-35.pdf",
 			"fetchedAt": "2026-10-02T15:38:18.726Z"
 		}
-	]
+	],
+	"name": "諏訪地区市民ホールの条例上の扱いと料金を変更",
+	"category": "まちづくり",
+	"summary": "現在、諏訪地区市民ホールは条例に記載され、使用料が定められています。この議案では、同ホールの記載と使用料の規定を削除する一方、別の規定で所在地を載せ直し、会議室やアップライトピアノの使用料を定めます。削除は2026年11月1日から、載せ直しなどは公布から1年以内に規則で定める日から施行します。",
+	"changes": [
+		"諏訪地区市民ホールの記載と使用料の規定を削除する",
+		"諏訪地区市民ホールを所在地とともに条例に載せ直す",
+		"会議室の使用料を、時間帯別に第1会議室190円・220円・250円、第2会議室60円・70円、第3会議室50円・60円と定める",
+		"アップライトピアノの使用料を、豊ケ丘・東寺方は時間帯別に100円・120円・130円、諏訪は50円または60円と定める"
+	],
+	"who": [
+		"諏訪地区市民ホールを利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:34:40.989Z",
+		"inputTokens": 1728,
+		"cachedTokens": 0,
+		"outputTokens": 2554,
+		"reasoningTokens": 2207
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:34:40.989Z",
+		"checkedAt": "2026-10-08T05:56:55.662Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1748,
+			"cachedTokens": 0,
+			"outputTokens": 148,
+			"reasoningTokens": 134
+		}
+	}
 }

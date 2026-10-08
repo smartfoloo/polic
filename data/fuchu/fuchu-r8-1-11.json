@@ -27,5 +27,57 @@
 			"url": "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
 			"fetchedAt": "2026-10-01T14:29:58.629Z"
 		}
-	]
+	],
+	"name": "消防団員の報酬の仕組みを見直し",
+	"category": "防災",
+	"summary": "現在は、消防団員に報酬や旅費を支給し、出動・訓練・警戒などの手当を定めています。この議案では、報酬を月額報酬と出動報酬に分け、階級別の月額などを定めます。2026年4月1日から施行します。",
+	"changes": [
+		"報酬を月額報酬と出動報酬に分ける",
+		"階級別の月額を団員11,000円から団長36,000円までとし、消防自動車などの運転・整備をする団員には月額1,000円を加算する",
+		"災害・訓練・警戒への出動に出動報酬を支給し、支給単位と額を定める"
+	],
+	"who": [
+		"府中市消防団員"
+	],
+	"why": "消防団員の報酬等を見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:23:58.052Z",
+		"inputTokens": 2461,
+		"cachedTokens": 0,
+		"outputTokens": 1463,
+		"reasoningTokens": 1170
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:23:58.052Z",
+		"checkedAt": "2026-10-08T05:11:42.129Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "災害・訓練・警戒への出動に出動報酬を支給し、支給単位と額を定める",
+				"note": "出動報酬の具体的な額が抜けています。原文では、従来の各手当は1回3,000円で、改正後は大規模災害出動が1日8,000円、訓練出動が1回4,000円です。また、大規模災害出動は出動時間が4時間を超えるものと定義しています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "災害・訓練・警戒への出動に出動報酬を支給し、支給単位と額を定める",
+				"note": "第15条第4項に定める出動報酬の支給時期が抜けています。4月・7月・10月・1月の年4回、それぞれ前月までの3か月分を支給します。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2423,
+			"cachedTokens": 0,
+			"outputTokens": 539,
+			"reasoningTokens": 224
+		}
+	}
 }

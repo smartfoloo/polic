@@ -22,5 +22,57 @@
 			"url": "https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/2teirei/r0802teirei_giingian.files/r0802giingian.pdf",
 			"fetchedAt": "2026-10-02T14:53:59.490Z"
 		}
-	]
+	],
+	"name": "高齢者の補聴器購入費を助成",
+	"category": "福祉",
+	"summary": "この議案は、聴力の低下で日常生活に支障がある65歳以上の人に、補聴器の購入費を助成する制度を設けるものです。助成額は購入にかかった費用で、上限は14万4,900円です。条例の施行日は令和8年10月1日としています。",
+	"changes": [
+		"区内在住で、医師から補聴器が必要と診断され、障害者向けの補聴器費用の支給を受けられず、過去5年以内に助成を受けていない人を対象にする",
+		"補聴器の購入費を実費で助成し、上限を14万4,900円とする",
+		"購入日の翌日から1年以内に、医師の診断書と支払を証明する書類を添えて申請する"
+	],
+	"who": [
+		"大田区に住む65歳以上で、医師から補聴器が必要と診断された人"
+	],
+	"why": "高齢者のコミュニケーションを確保し、外出や地域交流を支援するとともに、ひきこもりを防ぎ、福祉の増進を図るためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:21:49.491Z",
+		"inputTokens": 2132,
+		"cachedTokens": 0,
+		"outputTokens": 965,
+		"reasoningTokens": 604
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:21:49.491Z",
+		"checkedAt": "2026-10-08T05:48:05.018Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区内在住で、医師から補聴器が必要と診断され、障害者向けの補聴器費用の支給を受けられず、過去5年以内に助成を受けていない人を対象にする",
+				"note": "第２条第１号では、区内に居住するだけでなく、大田区の住民基本台帳に記録されていることも対象要件としている。この要件が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "補聴器の購入費を実費で助成し、上限を14万4,900円とする",
+				"note": "第１条では、助成対象の補聴器を「管理医療機器認証を取得した補聴器」に限定している。この条件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2159,
+			"cachedTokens": 0,
+			"outputTokens": 295,
+			"reasoningTokens": 66
+		}
+	}
 }

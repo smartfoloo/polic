@@ -22,5 +22,52 @@
 			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/019/604/R8-1teirei_sicyo13-35.pdf",
 			"fetchedAt": "2026-10-02T15:38:18.726Z"
 		}
-	]
+	],
+	"name": "乳児等通園支援の運営基準を定める",
+	"category": "子育て",
+	"summary": "この条例は、特定乳児等通園支援事業の運営基準を定めます。利用定員や利用前の面談、費用の徴収、職員体制、事故への対応、記録の保存などのルールを設けます。令和8年4月1日から施行します。",
+	"changes": [
+		"利用定員や利用前の面談、重要事項の説明などの基準を定める",
+		"費用の徴収に関するルールや保護者への説明・同意、領収証の交付を定める",
+		"職員体制や虐待防止、苦情・事故への対応などの運営ルールを設ける",
+		"支援の提供記録などを整備し、完結の日から5年間保存する"
+	],
+	"who": [
+		"特定乳児等通園支援事業者",
+		"乳児等支援給付認定子どもとその保護者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:36:09.962Z",
+		"inputTokens": 10635,
+		"cachedTokens": 0,
+		"outputTokens": 962,
+		"reasoningTokens": 673
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:36:09.962Z",
+		"checkedAt": "2026-10-08T05:58:03.318Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "職員体制や虐待防止、苦情・事故への対応などの運営ルールを設ける",
+				"note": "利用者の権利に直接関わる、正当な理由のない利用拒否の禁止（第5条）、差別的取扱いの禁止（第23条）、秘密保持と外部への情報提供時の保護者の事前の文書同意（第25条）が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 10599,
+			"cachedTokens": 0,
+			"outputTokens": 281,
+			"reasoningTokens": 147
+		}
+	}
 }

@@ -27,5 +27,38 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_21.pdf",
 			"fetchedAt": "2026-10-02T15:02:36.454Z"
 		}
-	]
+	],
+	"name": "条例が引用する法律の条文を変更",
+	"category": "行政のしくみ",
+	"summary": "条例第17条で引用する法律の条文を改めます。引用先は「児童福祉法第33条の10各号」から「法第27条の2第1項各号」に変わり、公布日から施行されます。",
+	"changes": [
+		"第17条の引用先を児童福祉法第33条の10各号から法第27条の2第1項各号に変更する"
+	],
+	"who": [],
+	"why": "主務省令の改正に伴い、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:50:54.094Z",
+		"inputTokens": 1319,
+		"cachedTokens": 0,
+		"outputTokens": 695,
+		"reasoningTokens": 509
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:50:54.094Z",
+		"checkedAt": "2026-10-08T05:27:13.611Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1171,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	}
 }

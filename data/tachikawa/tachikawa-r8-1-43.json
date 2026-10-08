@@ -22,5 +22,58 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/026/380/r8gian43.pdf",
 			"fetchedAt": "2026-10-01T14:24:50.704Z"
 		}
-	]
+	],
+	"name": "非常勤職員の出張費用の種類と算定方法を変更",
+	"category": "行政のしくみ",
+	"summary": "非常勤職員の出張費用として支給する費用の種類や額は、条例で定められています。この議案で、費用の種類を改め、宿泊費の額は国の旅費支給規程にある基準額に基づいて決める形にします。また、職員が複数の役職を兼ねる場合の併給制限の扱いも改めます。",
+	"changes": [
+		"費用弁償の種類を改め、その他の交通費、包括宿泊費、宿泊手当、渡航雑費、死亡手当を加える",
+		"宿泊費を国の旅費支給規程に定める宿泊費基準額に基づいて定める",
+		"執行機関である特別職の職員の外国旅行費用を副市長の例によるものとする",
+		"代表監査委員を常勤の監査委員が兼ねる場合を、併給制限の例外に加える"
+	],
+	"who": [],
+	"why": "地方自治法第203条の2第5項の規定によるものと市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:29:51.678Z",
+		"inputTokens": 2058,
+		"cachedTokens": 0,
+		"outputTokens": 1365,
+		"reasoningTokens": 1034
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:29:51.678Z",
+		"checkedAt": "2026-10-08T05:53:32.423Z",
+		"flags": [
+			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "執行機関である特別職の職員の外国旅行費用を副市長の例によるものとする",
+				"note": "原文の第９条第３項は改正前後の対応が明確でなく、空欄状の部分もあるため、この規定を設けるのか削除するのか確認できない。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "代表監査委員を常勤の監査委員が兼ねる場合を、併給制限の例外に加える",
+				"note": "原文第４条は、この兼職の場合も前条の規定を適用しないとする改正。併給制限の対象を加えるものであり、制限の例外を加えるものではない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2055,
+			"cachedTokens": 0,
+			"outputTokens": 627,
+			"reasoningTokens": 415
+		}
+	}
 }

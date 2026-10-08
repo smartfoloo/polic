@@ -22,5 +22,42 @@
 			"url": "https://www.city.tachikawa.lg.jp/_res/projects/default_project/_page_/001/028/161/r8gian107.pdf",
 			"fetchedAt": "2026-10-01T14:26:26.719Z"
 		}
-	]
+	],
+	"name": "子どもの施設虐待を審議する会議を設置",
+	"category": "福祉",
+	"summary": "市は、保育所などでの虐待に関する措置を調査・審議する審議会を設置する条例を提案しています。審議会は、報告を受けた措置の内容や、その対象となる子どもの状況などを調査・審議します。",
+	"changes": [
+		"保育所などでの虐待に関する措置を調査・審議する会議を設ける",
+		"委員を5人以内とし、弁護士や医師などから市長が任命する",
+		"委員の任期を2年とし、再任できるようにする"
+	],
+	"who": [
+		"虐待に関する措置を受ける子ども"
+	],
+	"why": "児童福祉法第8条第3項の規定によるものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T04:33:41.447Z",
+		"inputTokens": 1907,
+		"cachedTokens": 0,
+		"outputTokens": 1143,
+		"reasoningTokens": 910
+	},
+	"checks": {
+		"draftAt": "2026-10-08T04:33:41.447Z",
+		"checkedAt": "2026-10-08T05:56:24.167Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1836,
+			"cachedTokens": 0,
+			"outputTokens": 75,
+			"reasoningTokens": 61
+		}
+	}
 }

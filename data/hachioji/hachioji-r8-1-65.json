@@ -22,5 +22,41 @@
 			"url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p037028_d/fil/gian2.pdf",
 			"fetchedAt": "2026-10-02T15:26:15.374Z"
 		}
-	]
+	],
+	"name": "撤去自転車などの別表の額を変更",
+	"category": "交通",
+	"summary": "条例の別表では、自転車の額を3,000円、原動機付自転車の額を5,000円と定めています。この議案では、それぞれ4,000円、6,000円に変更します。新しい額は、令和8年7月1日以降に撤去・保管されたものに適用されます。",
+	"changes": [
+		"自転車の別表の額を3,000円から4,000円に上げる",
+		"原動機付自転車の別表の額を5,000円から6,000円に上げる"
+	],
+	"who": [
+		"撤去・保管された自転車や原動機付自転車の所有者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:36:31.654Z",
+		"inputTokens": 1372,
+		"cachedTokens": 0,
+		"outputTokens": 1112,
+		"reasoningTokens": 913
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:36:31.654Z",
+		"checkedAt": "2026-10-08T05:19:16.510Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1261,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 29
+		}
+	}
 }

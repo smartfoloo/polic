@@ -27,5 +27,38 @@
 			"url": "https://www.city.chofu.lg.jp/140010/p077280.html",
 			"fetchedAt": "2026-10-01T14:31:20.266Z"
 		}
-	]
+	],
+	"name": "対象区域内の公園で運動施設の面積上限を70%に",
+	"category": "まちづくり",
+	"summary": "都市公園では、運動施設の敷地面積に上限があります。この議案では、指定された条例の対象区域内にある都市公園について、上限を70%とする例外を設けます。",
+	"changes": [
+		"対象区域内の都市公園における運動施設の敷地面積の上限を70%とする"
+	],
+	"who": [],
+	"why": "運動施設の敷地面積の上限について例外を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:23:21.630Z",
+		"inputTokens": 1283,
+		"cachedTokens": 0,
+		"outputTokens": 1111,
+		"reasoningTokens": 951
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:23:21.630Z",
+		"checkedAt": "2026-10-08T05:11:16.572Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1131,
+			"cachedTokens": 0,
+			"outputTokens": 75,
+			"reasoningTokens": 60
+		}
+	}
 }

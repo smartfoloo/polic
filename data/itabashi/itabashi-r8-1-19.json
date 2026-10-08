@@ -27,5 +27,42 @@
 			"url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/061/282/r80213_gian_19.pdf",
 			"fetchedAt": "2026-10-02T15:02:24.494Z"
 		}
-	]
+	],
+	"name": "利用乳幼児の健康診断の扱いを変更",
+	"category": "子育て",
+	"summary": "条例では、家庭的保育事業者等が利用乳幼児の健康診断を行うことを定めています。この議案では、児童相談所等での利用開始前の健康診断や母子保健法に基づく健康診査が同等と認められる場合、事業者が健康診断の全部または一部を省略できるようにし、その結果を把握することも定めます。",
+	"changes": [
+		"別に行われた健康診断等が同等と認められる場合、事業者が健康診断の全部または一部を省略できるようにする",
+		"省略する場合、別に行われた健康診断等の結果を事業者が把握することを定める"
+	],
+	"who": [
+		"家庭的保育事業者等",
+		"家庭的保育事業等を利用する乳幼児の保護者"
+	],
+	"why": "内閣府令の改正に伴い、利用乳幼児の健康診断に関する規定を改め、必要な規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-08T03:50:35.574Z",
+		"inputTokens": 1609,
+		"cachedTokens": 0,
+		"outputTokens": 1261,
+		"reasoningTokens": 942
+	},
+	"checks": {
+		"draftAt": "2026-10-08T03:50:35.574Z",
+		"checkedAt": "2026-10-08T05:27:06.960Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1595,
+			"cachedTokens": 0,
+			"outputTokens": 117,
+			"reasoningTokens": 103
+		}
+	}
 }
