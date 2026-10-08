@@ -1,7 +1,7 @@
-// 港区・足立区・江戸川区 and 町田市 share one bill database ("g07": g07_giketsu.asp, Shift_JIS).
+// 港区・足立区・江戸川区, 町田市, 藤沢市 and 海老名市 share one bill database ("g07": g07_giketsu.asp, Shift_JIS).
 // The search page's session dropdown gives each session an id; the list for that session has a row per
-// bill. Minato and Adachi link each bill to a detail page (committee, vote date, result, 概要, PDFs);
-// Edogawa puts all of that in the list row (title + 概要 + PDF, result, 付託日 + committee).
+// bill. Minato, Adachi and Fujisawa link each bill to a detail page (committee, vote date, result, 概要, PDFs);
+// Edogawa and Ebina put all of that in the list row (title + 概要 + PDF, result, 付託日 + committee).
 
 import { billId, inScope, statusFrom, submittedDate } from '../lib/bills.js';
 import { loadHtml } from '../lib/html.js';
@@ -53,10 +53,10 @@ export async function collect(assembly, session, get) {
 	const list = await get(listUrl);
 	const $ = loadHtml(list.body, list.contentType);
 
-	// Columns by header: 番号/議案番号, 件名/議案名, (議決)結果, and Edogawa's extra 付託委員会.
+	// Columns by header: 番号/議案番号, 件名/議案名, (議決)結果, and Edogawa's extra 付託委員会 (海老名: 付託先常任委員会).
 	const headers = $('tr:has(th)').first().children('th').toArray().map((th) => key($(th).text()));
 	const col = (/** @type {RegExp} */ re) => headers.findIndex((h) => re.test(h));
-	const [cNum, cTitle, cResult, cCommittee] = [col(/番号$/), col(/^(件名|議案名)$/), col(/結果/), col(/付託委員会/)];
+	const [cNum, cTitle, cResult, cCommittee] = [col(/番号$/), col(/^(件名|議案名)$/), col(/結果/), col(/^付託/)];
 	if (cNum < 0 || cTitle < 0) return { bills, warnings: [`No bill table on ${list.url}`] };
 
 	const rows = $('tr')
@@ -68,9 +68,9 @@ export async function collect(assembly, session, get) {
 	for (const tds of rows) {
 		const num = /** @type {NonNullable<ReturnType<typeof parseNumber>>} */ (parseNumber($(tds[cNum]).text()));
 		const titleCell = $(tds[cTitle]).clone();
-		titleCell.find('.comment3, .fourdown').remove();
-		// 町田 puts the detail link after the title as 「議案の審査状況(議案のカルテ)」 instead of on it.
-		titleCell.find('a').filter((_, el) => /カルテ|審査状況/.test($(el).text())).remove();
+		titleCell.find('.comment3, .comment4, .fourdown').remove();
+		// 町田 and 藤沢 put the detail link after the title (「議案の審査状況(議案のカルテ)」, 「議案の詳細」) instead of on it.
+		titleCell.find('a').filter((_, el) => /カルテ|審査状況|^議案の詳細$/.test($(el).text().trim())).remove();
 		const official = squash(titleCell.text());
 		if (!inScope(official)) continue;
 		if (num.by === 'committee') {
@@ -99,10 +99,18 @@ export async function collect(assembly, session, get) {
 				facts[key($v(dt).text()).split(/[(（]/)[0]] = squash($v(dt).next('dd').text());
 			});
 			committee = facts['付託委員会'] || null;
-			resultText = [facts['議決年月日'], facts['議決結果']].filter(Boolean).join(' ');
+			// 藤沢 names them 本会議議決年月日/本会議議決結果 and notes 継続審査 separately.
+			resultText = [
+				facts['議決年月日'] ?? facts['本会議議決年月日'],
+				facts['議決結果'] ?? facts['本会議議決結果'],
+				facts['継続審査状況']
+			]
+				.filter(Boolean)
+				.join(' ');
 			summary = squash(
 				$v('h3')
-					.filter((_, h) => key($v(h).text()) === '概要')
+					.filter((_, h) => ['概要', '内容'].includes(key($v(h).text())))
+					.first()
 					.next('p')
 					.text()
 			);

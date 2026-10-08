@@ -170,13 +170,14 @@ Re-ranked 2026-10-03 after building 15 of them. The built tiers now rank by what
 | Built, full facts: bill text, committee, vote date | 港区, 足立区, 江戸川区 (g07) · 台東区 · 中野区 · 葛飾区 · 大田区 · 杉並区 (live) |
 | Built, with gaps | 品川区, 墨田区 (date = submission) · 世田谷区 (member bills title-only) · 板橋区 (sessions voting on several days: date = submission) · 目黒区 (committee only while a session is open; bills appear only once it closes) |
 | Built, held (not published, see Publishing bar) | 新宿区: results matched by row position in a PDF whose text comes out scrambled (skipped if the counts differ); no committee or vote date; member bills title-only |
-| Medium (not built) | 文京区 (combined PDF, `splitBills` should cover it) · 江東区 · 中央区 (robots.txt question first) |
-| Thin: a paragraph or facts only | 渋谷区 (live) · 練馬区 · 荒川区 · 豊島区 |
+| Built 2026-10-07, not collected yet | 練馬区 (a 内容 paragraph per bill; no vote date) · 文京区, 江東区 (results PDF only: title-only, no committee or vote date, after close) · 豊島区 (title-only, no dates or committee, after close) |
+| Decision needed | 中央区 (robots.txt names AI bots) · 荒川区 (past session dates not published; 提案理由 only for passed bills) |
+| Thin: a paragraph or facts only | 渋谷区 (live) |
 | Hard | 千代田区 · 北区 |
 
 Moved: 大田区 up (the grouped PDFs split cleanly and the table has everything); 品川区, 墨田区 and 世田谷区 down from Easiest (their gaps were already noted when built); 新宿区 down from Easy.
 
-**Next:** 文京区, then 江東区 and 中央区, then the thin ones.
+**Next:** collect the four built on 2026-10-07; decide 中央 and 荒川. See "Build 2026-10-07".
 
 **Easiest nine, as built (2026-09-30).** All tested offline against saved pages (`cache/research/<ward>.json`, `node scripts/try.js <id>`); none has had a real crawl yet.
 
@@ -237,9 +238,8 @@ The 26 cities plus 瑞穂町, 日の出町, 檜原村 and 奥多摩町; the isla
 | Built, with gaps | 調布市 (member bills title-only) · 府中市 (no vote date; member bills title-only) · あきる野市 · 多摩市 · 国立市 (no committee published; 国立's is a scanned PDF) |
 | Built, text scanned (title-only until OCR) | 武蔵野市 · 東大和市: facts are fine, but the bill PDFs are CCITT scans with no text layer |
 | Blocked | 東村山市 (403 to our bot; ask in the crawl notice) · 三鷹市 (TLS certificate self-signed and expired, http 404s; needs a decision on skipping verification for that host) · 小平市 (bill PDFs sit on one-off press releases with no index found, and the R8 3月定例会 results page isn't linked anywhere) · 瑞穂町 (adapter written; past session dates not published) |
-| Medium: everything in PDFs, or text only while open | 狛江市 (combined PDF, `splitBills` should cover it) · 国分寺市 · 清瀬市 |
-| Thin: a paragraph per bill | 福生市 · 羽村市 |
-| Facts only (title-only) | 日野市 · 西東京市 · 昭島市 · 日の出町 · 武蔵村山市 |
+| Built 2026-10-07, not collected yet | 福生市 · 羽村市 (thin: a paragraph per bill) · 国分寺市 (one-line 提案理由) · 狛江市 (title-only; 第1回 and 第3回 only) · 日野市 · 西東京市 · 昭島市 · 日の出町 · 武蔵村山市 (title-only) |
+| Decision needed | 清瀬市 (no session dates published) |
 | Hard | 小金井市 |
 | Not feasible now | 檜原村 · 奥多摩町 |
 
@@ -252,6 +252,82 @@ The 26 cities plus 瑞穂町, 日の出町, 檜原村 and 奥多摩町; the isla
 - **Wait for results**: 目黒, 多摩 and 稲城 post their bill lists or results only after a session closes, so the adapter skips a session until then.
 
 **Built:** 町田, 立川, 武蔵野, 青梅, 府中, 調布, 東大和, あきる野 (2026-10-01); 八王子, 東久留米, 稲城, 多摩, 国立 (2026-10-03). **Next:** decide 三鷹, 小平, 東村山, 瑞穂 and OCR for 武蔵野/東大和 → 狛江 (`splitBills`) → the rest of medium, then thin and facts-only. 檜原村 and 奥多摩町 wait until they publish bill lists; ask in the crawl notice.
+
+## Kanagawa: source check (2026-10-06, read-only, off-peak)
+
+All 33 assemblies: 19 cities, 13 towns, 清川村. The prefectural assembly is not included. We checked one or two sessions per assembly with `peek.js` and the browser. **robots.txt allows us everywhere we fetched.** 藤沢's g07 took more than 10 s, so `politeFetch` stopped that host for the run.
+
+| Assembly | Bill list + results | Committee | Bill content | Verdict |
+|---|---|---|---|---|
+| 横浜市会 | Session page per sitting (`/shikai/kiroku/kekka/gianR08-N.html`): 議案名, 議案番号, 内容, 結果. Submission dates are in the section headings. | 付託区分表 PDFs. | PDF per bill (市/水/交/議 第N号議案). | **Easy.** The per-bill vote date may only be in the 賛否一覧. Large volume. |
+| 川崎市議会 | Year category → session page (`/980/page/…`). 議決結果 PDF per kind: 「第76号 title 令和8年6月18日 原案可決」 plus votes by 会派. | Not per bill (会議結果 PDF gives counts per committee). | PDF per bill, with a text layer. | **Easy** (no committee). |
+| 相模原市議会 | Separate site `sagamihara-shigikai.jp`. Year-long 「令和8年定例会6月定例会議」 (あきる野 format). 審議結果 PDF: 番号, 件名, committee, vote date, result. | In the PDF. | Bundled PDFs by kind, with a text layer (`splitBills`). | **Easy.** |
+| 藤沢市議会 | **g07** (`shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp`). | g07. | g07. | **Easiest**: `g07.js` + config. The host is slow and needs a longer timeout. |
+| 海老名市議会 | **g07** (`ebina.gijiroku.com`), same as 港区: PDF per bill, committee (付託省略), vote date, result. | g07. | g07. | **Easiest.** |
+| 逗子市議会 | 「付議案件の議案等と審議結果等」 page per session (`/shisei/gikai/1005359/1013727/1013728/1014366.html`): 件名【担当課】, PDF, 「令和8年6月23日原案可決〈賛成多数〉」, 付託先 (本会議即決). | In the table. | PDF per bill. | **Easiest.** |
+| 秦野市議会 | Year-long session (「令和8年6月第2回定例月会議」). One page per 会議 (`/gikai/teireikai-rinjikai/2/16_1/13553.html`): bills with 提出年月日, then a table per sitting day with 議決結果等. | 「総務常任委員会付託」 in the first sitting's table. | PDF per bill (`08gian30.pdf`). | **Easiest.** The vote date comes from the sitting heading. |
+| 寒川町議会 | Year page table: 議案番号, 件名 → PDF, 結果, 議決日. | Not shown. | PDF per bill. | **Easy** (no committee). |
+| 湯河原町議会 | Year page tables: 議案番号, 件名 → PDF, 付託先委員会, 結果. | In the table. | PDF per bill. | **Easy** (no vote date). |
+| 二宮町議会 | PDF per bill (`0000003282.html`); 日程・審議結果 (`0000003246.html`). | Not checked. | PDF per bill. | **Easy-ish.** |
+| 鎌倉市議会 | Session page (`/gikai/202609gikai.html`) has the schedule. `gikaigiansyuu.html` lists member bills with results. | Not found. | City 総務 publishes 議案集 PDFs (`/soumu/documents/0709gianshusono1.pdf`). | **Medium**: results for mayor's bills not located. |
+| 茅ヶ崎市議会 | Session page (`/gikai/1034992/1068328.html`) with 採決結果 PDF (`R8t3_saiketsu_0930.pdf`). | 付託表 + 付託明細 PDFs. | **Combined** 議案書 PDF per send date (11.4 MB), plus 議案資料 and 要旨. | **Medium** (`splitBills`). |
+| 三浦市議会 | 審議結果 PDF per session (`/soshiki/gikaijimukyoku/gian_shingikekka_ichiran/`). | Probably in the PDF. | **Combined** 議案 PDF per session. | **Medium** (`splitBills`). |
+| 厚木市議会 | Year-long session (「第N回会議(9月定例会議)」). 議決結果 pages with 議員別採決結果 PDFs per day. | Not checked. | **Combined** 議案 PDF (11.6 MB). | **Medium.** |
+| 大和市議会 | 審議結果 PDF per session, including 委員会審査結果. | In the PDF. | 付議事件 page with combined 条例等 PDFs. | **Medium.** |
+| 開成町議会 | Separate site `kaiseigikai.kanagawa.jp`. Year-long 定例会議 / 随時会議. Per-bill PDFs under 審議結果; results may only be inside the PDFs. | Not seen. | PDF per bill. | **Medium.** |
+| 南足柄市議会 | 審議結果 PDFs, posted months late (none for 2026 yet). | Not seen. | 提出案件 pages with PDF per bill, only for some sessions. | **Medium, transient.** |
+| 小田原市議会 | 議案 page per session (`/citycounc/aplenarysession/conferenc/r8/p41612.html`): 議案番号, 内容, 「６月15日 原案可決」. | Not seen. | Not confirmed. | **Facts only** until bill text is found. |
+| 平塚市議会 | 「議案名と議案概要・議決結果」 (`/gikai/page-c_02221.html`), updated each session: 「議案第59号 可決」 + title, per session. The press page lists 提出案件. | Not shown. | Not found. | **Facts only** (no vote date). |
+| 伊勢原市議会 | 審議案件 page per session (`/gikai/docs/2026052600010/`): 議案等番号, 件名, 議決結果. A 議案一覧 PDF per year. | Not shown. | Not found. | **Facts only** (no vote date). |
+| 大井町議会 | Table per session: 番号, 提出者, 議事事件, 審議結果 (including 継続審査). | Not shown. | Not seen. | **Facts only.** |
+| 山北町議会 | Session page table: 議案番号, 件名, 審議結果, 議決日. | Not shown. | Not seen. | **Facts only.** |
+| 箱根町議会 | 議決結果 page table: 番号, 議案番号, 件名, 議決結果. | Not shown. | Not seen. | **Facts only.** |
+| 松田町議会 | Session page (`/site/gikai/r0803teireikai.html`): 議案番号, 議案等, 審議 (原案可決), 結果 (賛成全員). | Not shown. | Not seen. | **Facts only** (no vote date). |
+| 座間市議会 | 表決結果 PDFs per day. | Not seen. | Not found. | **Facts only (PDF).** |
+| 綾瀬市議会 | 審議結果 page per session (`/gyoseijoho/shigikai/shingikekka/8/24101.html`) with 初日 and 最終日 審議結果一覧表 PDFs. 議事日程や議案など links only to results and the schedule. | Not seen. | Not found. | **Facts only (PDF).** |
+| 中井町議会 | 審議結果 PDFs per session. | Not seen. | Not found. | **Facts only (PDF).** |
+| 真鶴町議会 | 審議結果 PDFs only. | Not seen. | Not found. | **Facts only (PDF).** |
+| 愛川町議会 | 審議結果 PDFs per session. | Not seen. | Not found. | **Facts only (PDF).** |
+| 清川村議会 | Host is `www.town.kiyokawa.kanagawa.jp` (`vill.` doesn't answer). 審議結果 PDF per session: date, number, title, a **概要 paragraph**, result. | Not seen. | No bill PDFs. | **Thin**, like 福生. |
+| 横須賀市議会 | 審議結果 page (`/7860/council/result_report/giji/r08singikekka.html`) with 議決結果 PDFs per sitting day. | Via 委員長報告 PDFs. | 議案書 **only in a Dropbox shared folder**. | **Decision needed**: crawling Dropbox is a different posture from crawling a city site. Facts only without it. |
+| 葉山町議会 | The 審議議案等 list stops at H30; only schedule pages are newer. | — | — | **Unresolved.** |
+| 大磯町議会 | Year index of 議案 (`/gikai/gian_shitsugi/gian/`) and a 審議結果 page. | — | — | **Unresolved**: the R8 year page is not opened yet. |
+
+**By difficulty**
+
+| Tier | Assemblies |
+|---|---|
+| Built 2026-10-07, not collected yet | 海老名市, 藤沢市 (g07) · 逗子市 · 秦野市 · 横浜市 (no committee or vote date) · 川崎市 (no committee) · 湯河原町 (no vote date) |
+| Decision needed | 相模原市 (bill bundles are 6 MB and trip the 10 s slow-host stop) · 寒川町 (past session dates not published) · 二宮町 (results PDFs have no bill numbers) |
+| Medium: combined PDFs, or results only in PDFs | 鎌倉市 · 茅ヶ崎市 · 三浦市 · 厚木市 · 大和市 · 開成町 · 南足柄市 (transient) |
+| Facts only, HTML (title-only) | 小田原市 · 平塚市 · 伊勢原市 · 大井町 · 山北町 · 箱根町 · 松田町 |
+| Facts only, PDF (title-only) | 座間市 · 綾瀬市 · 中井町 · 真鶴町 · 愛川町 |
+| Thin: a paragraph per bill | 清川村 |
+| Decision needed | 横須賀市 (bill text only on Dropbox) |
+| Unresolved | 葉山町 · 大磯町 |
+
+**What's new compared with Tokyo:**
+- **More g07**: 藤沢 and 海老名 reuse `g07.js`. 藤沢 needs a per-host timeout above 10 s.
+- **Year-long sessions are common**: 相模原, 秦野, 厚木 and 開成 use 定例会議/定例月会議 names. The あきる野/青梅 session-name code should cover them; check each format.
+- **Facts-only is a bigger share**: 12 of 33 (Tokyo: 5 of 30). Most are towns. Title-only boards are allowed under the publishing bar, but they add little.
+
+**Suggested order:** the 4 easiest → 横浜, 相模原 and 川崎 (the three 政令市 make up most of the prefecture's population) → the other easy ones. Hold the medium tier until Tokyo's medium tier (狛江) proves `splitBills` on another format.
+
+## Build 2026-10-07
+
+Adapters and configs for the Kanagawa easiest/easy tiers and Tokyo's medium, thin and facts-only tiers, skipping anything that needs a decision. All tested offline with `try.js` against pages cached off-peak; **none collected or drafted yet**, so every new entry is `published: false`. Kanagawa ids are `kanagawa/<slug>` with `parent: 'kanagawa'`, but there is no 神奈川県 entry and the home map only covers Tokyo.
+
+Built (20): 練馬, 豊島, 文京, 江東 · 福生, 羽村, 日野, 昭島, 日の出, 武蔵村山, 西東京, 国分寺, 狛江 · 藤沢, 海老名, 逗子, 秦野, 横浜, 川崎, 湯河原. Shared changes: `inScope` accepts more title endings (「…条例の一部改正について」, 「…を制定することについて」, 「…の一部を改正することについて」, 「…の廃止について」), which also applies to existing assemblies on their next collect; `parseSessionName` reads 海老名, 秦野, 相模原 and 文京 names; `g07.js` reads 藤沢 and 海老名 (regression-checked on 港, 足立, 江戸川, 町田).
+
+**Decisions needed:**
+- **Past session dates not published** (寒川, 荒川, 清瀬; and 狛江's 第2回定例会 and 第1回臨時会): only vote days are shown. Using the first and last vote day as the session dates would unblock them.
+- **相模原**: bill texts are bundles up to 6 MB, which take over 10 s to download, so the slow-host stop fires. Either a per-host limit (as for 藤沢) or a size-aware limit.
+- **二宮**: results PDFs list titles without bill numbers, so matching would be by title, below the publishing bar. Also a 町議会議員選挙 falls before December.
+- **中央**: robots.txt names AI bots.
+- **文京 bill text**: the bundles are vertical text whose punctuation and small kana come out as stray CJK glyphs, so bills are title-only until a glyph map is written.
+- **Carried-over bills** (継続審査, e.g. 昭島 議案第33号) appear once per session, as in the existing adapters.
+
+Upkeep: 羽村's 議事日程 and 江東, 川崎 and 西東京 year pages are per calendar year; 武蔵村山's results page is overwritten each session. Transient host timeouts (豊島, 練馬, 日野, 秦野, 二宮) were seen tonight; the collect run should be watched for them.
 
 ## Bill JSON format
 

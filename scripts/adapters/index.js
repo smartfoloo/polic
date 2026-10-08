@@ -1,4 +1,4 @@
-// Which adapter collects each assembly. The g07 bill database is shared by three wards and 町田市.
+// Which adapter collects each assembly. The g07 bill database is shared by three wards, 町田市, 藤沢市 and 海老名市.
 
 import * as g07 from './g07.js';
 import * as itabashi from './itabashi.js';
@@ -26,6 +26,24 @@ import * as akiruno from './akiruno.js';
 import * as inagi from './inagi.js';
 import * as tama from './tama.js';
 import * as kunitachi from './kunitachi.js';
+import * as toshima from './toshima.js';
+import * as bunkyo from './bunkyo.js';
+import * as koto from './koto.js';
+import * as komae from './komae.js';
+import * as kokubunji from './kokubunji.js';
+import * as nerima from './nerima.js';
+import * as akishima from './akishima.js';
+import * as hino from './hino.js';
+import * as fussa from './fussa.js';
+import * as musashimurayama from './musashimurayama.js';
+import * as hamura from './hamura.js';
+import * as nishitokyo from './nishitokyo.js';
+import * as hinode from './hinode.js';
+import * as yokohama from './yokohama.js';
+import * as kawasaki from './kawasaki.js';
+import * as zushi from './zushi.js';
+import * as hadano from './hadano.js';
+import * as yugawara from './yugawara.js';
 
 /** @type {Record<string, { collect: typeof tokyo.collect }>} */
 export const adapters = {
@@ -57,5 +75,25 @@ export const adapters = {
 	'tokyo/kunitachi': kunitachi,
 	'tokyo/tama': tama,
 	'tokyo/inagi': inagi,
-	'tokyo/akiruno': akiruno
+	'tokyo/akiruno': akiruno,
+	'tokyo/toshima': toshima,
+	'tokyo/bunkyo': bunkyo,
+	'tokyo/koto': koto,
+	'tokyo/komae': komae,
+	'tokyo/kokubunji': kokubunji,
+	'tokyo/nerima': nerima,
+	'tokyo/akishima': akishima,
+	'tokyo/hino': hino,
+	'tokyo/fussa': fussa,
+	'tokyo/musashimurayama': musashimurayama,
+	'tokyo/hamura': hamura,
+	'tokyo/nishitokyo': nishitokyo,
+	'tokyo/hinode': hinode,
+	'kanagawa/yokohama': yokohama,
+	'kanagawa/kawasaki': kawasaki,
+	'kanagawa/fujisawa': g07,
+	'kanagawa/zushi': zushi,
+	'kanagawa/hadano': hadano,
+	'kanagawa/ebina': g07,
+	'kanagawa/yugawara': yugawara
 };

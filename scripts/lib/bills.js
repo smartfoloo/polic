@@ -35,11 +35,15 @@ import { parseReiwaDate, stripCjkSpaces, toNumber } from './text.js';
  */
 
 // v1 scope: ordinances only. Budgets, contracts, reports, appointments, 意見書 etc. are skipped.
-// Some Tama cities title them 「…条例設定について」 (八王子) or 「…条例の制定について」; 専決処分 never
-// ends this way, so it stays out.
+// Some Tama cities title them 「…条例設定について」 (八王子) or 「…条例の制定について」; Kanagawa adds
+// 「…条例の一部改正について」 (海老名, 逗子), 「…条例の制定」/「…条例の一部改正」 (横浜) and 「…条例を制定すること
+// について」/「…条例等の一部を改正することについて」 (秦野); 国分寺 ends 「…条例について」. 専決処分 never ends
+// this way, so it stays out.
 /** @param {string} title */
 export function inScope(title) {
-	return /条例(案|設定について|の制定について)?$/.test(title.normalize('NFKC').trim());
+	return /条例(等)?(案|設定について|について|の制定(について)?|の一部改正(について)?|の廃止(について)?|を(制定|廃止)することについて|の一部を改正することについて)?$/.test(
+		title.normalize('NFKC').trim()
+	);
 }
 
 /**
@@ -74,24 +78,25 @@ export function submittedDate(pdfText) {
  * @param {{ year: number, n: number, kind?: string }} session
  * @param {number} billNo
  * @param {'head' | 'member'} by
+ * @param {string} [series] for assemblies numbering several series separately (横浜: 市/水/交/病 第N号議案)
  */
-export function billId(assemblyId, session, billNo, by) {
+export function billId(assemblyId, session, billNo, by, series = '') {
 	const slug = assemblyId.split('/').pop();
 	const sn = session.kind === '臨時会' ? `x${session.n}` : session.n;
-	return `${slug}-r${session.year - 2018}-${sn}-${by === 'member' ? 'm' : ''}${billNo}`;
+	return `${slug}-r${session.year - 2018}-${sn}-${by === 'member' ? 'm' : ''}${series}${billNo}`;
 }
 
 /**
  * Bill numbers as the Tama cities write them: 議案第36号 / 第55号議案 / 第35号議案 (head) ·
- * 議員提出議案第1号 / 議員提出第1号議案 (member) · 委員会提出議案第1号 (committee). Notes such as 「（※）」
- * are ignored. Anything else (報告, 同意, 諮問) is null.
+ * 議員提出議案第1号 / 議員提出第1号議案 / 議提議案第2号 (member) · 委員会提出議案第1号 (committee). Notes such
+ * as 「（※）」 are ignored. Anything else (報告, 同意, 諮問) is null.
  * @returns {{ by: 'head' | 'member' | 'committee', n: number, label: string } | null}
  */
 export function parseBillNumber(/** @type {string} */ text) {
 	const label = text.normalize('NFKC').replace(/\s+/g, '').replace(/\(.*?\)|※/g, '');
-	const m = label.match(/^(議員提出|委員会提出)?(?:議案)?第(\d+)号(?:議案)?$/);
+	const m = label.match(/^(議員提出|議提|委員会提出)?(?:議案)?第(\d+)号(?:議案)?$/);
 	if (!m) return null;
-	return { by: m[1] === '議員提出' ? 'member' : m[1] ? 'committee' : 'head', n: Number(m[2]), label };
+	return { by: m[1] === '議員提出' || m[1] === '議提' ? 'member' : m[1] ? 'committee' : 'head', n: Number(m[2]), label };
 }
 
 // 「立川市景観条例の一部を改正する条例 （PDF 42.4 KB）」 / 「… [PDFファイル／644KB]」 → the title alone.

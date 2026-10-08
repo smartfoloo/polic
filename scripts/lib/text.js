@@ -65,14 +65,23 @@ export function parseReiwaDate(s) {
 export function parseSessionName(name) {
 	const t = name.normalize('NFKC').replace(/\s+/g, '');
 	const year = (/** @type {string} */ y) => toNumber(y) + 2018;
-	const m = t.match(/令和(\d+|元)年(?:\d+月)?(定例会|臨時会)\(第(\d+)回\)/) ?? t.match(/令和(\d+|元)年第(\d+)回(定例会|臨時会)$/);
+	// 「令和8年9月第3回定例会」 (海老名) also counts by 回.
+	const m = t.match(/令和(\d+|元)年(?:\d+月)?(定例会|臨時会)\(第(\d+)回\)/) ?? t.match(/令和(\d+|元)年(?:\d+月)?第(\d+)回(定例会|臨時会)$/);
 	if (m) return m[3].match(/^\d+$/) ? { year: year(m[1]), n: Number(m[3]), kind: m[2] } : { year: year(m[1]), n: Number(m[2]), kind: m[3] };
+	// 秦野 (year-long session): 「令和8年6月第2回定例月会議」, 「令和8年7月第1回臨時会議」.
+	const hadano = t.match(/令和(\d+|元)年\d+月第(\d+)回(定例月|臨時)会議$/);
+	if (hadano) return { year: year(hadano[1]), n: Number(hadano[2]), kind: hadano[3] === '臨時' ? '臨時会' : '定例会' };
+	// 相模原 (year-long session from April): 「令和8年定例会6月定例会議」, 「…第1回臨時会議」, and the opening
+	// 「…開会会議」 as n 0.
+	const sagamihara = t.match(/令和(\d+|元)年定例会(?:(\d+)月定例会議|第(\d+)回臨時会議|(開会)会議)$/);
+	if (sagamihara) return { year: year(sagamihara[1]), n: Number(sagamihara[2] ?? sagamihara[3] ?? 0), kind: sagamihara[3] ? '臨時会' : '定例会' };
 	// あきる野: a year-long 定例会 meets as 「3月定例会議」, 「第1回臨時会議」 and an opening 「開会会議」, and bill
 	// numbers run through the year. 開会会議 takes the 回 number as n (meetings are in months 3 and later).
 	const meeting = t.match(/令和(\d+|元)年第(\d+)回定例会(?:(\d+)月定例会議|第(\d+)回臨時会議|(開会)会議)$/);
 	if (meeting) return { year: year(meeting[1]), n: Number(meeting[3] ?? meeting[4] ?? meeting[2]), kind: meeting[4] ? '臨時会' : '定例会' };
-	const month = t.match(/令和(\d+|元)年(\d+)月(定例会|臨時会)$/);
-	if (month) return { year: year(month[1]), n: Number(month[2]), kind: month[3] };
+	// 文京 names them 「令和8年6月定例議会」 / 「令和8年7月臨時議会」.
+	const month = t.match(/令和(\d+|元)年(\d+)月(定例|臨時)(会|議会)$/);
+	if (month) return { year: year(month[1]), n: Number(month[2]), kind: `${month[3]}会` };
 	const y = t.match(/令和(\d+|元)年度定例会(\d+)月議会/) ?? t.match(/令和(\d+|元)年市議会定例会(?:令和\d+年)?(\d+)月(?:定例|招集|臨時)議会/);
 	return y ? { year: year(y[1]), n: Number(y[2]), kind: '定例会' } : null;
 }
