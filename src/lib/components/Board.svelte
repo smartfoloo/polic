@@ -13,6 +13,7 @@
 	/**
 	 * @type {{
 	 *   assembly: import('$lib/bills.js').PublicAssembly,
+	 *   shape?: { d: string, box: number[] } | null,
 	 *   cards: import('$lib/bills.js').BillCard[],
 	 *   held: number,
 	 *   popular: string[],
@@ -21,7 +22,7 @@
 	 *   bill?: import('$lib/bills.js').PublicBill | null
 	 * }}
 	 */
-	let { assembly, cards, held, popular, today, contact, bill = null } = $props();
+	let { assembly, shape = null, cards, held, popular, today, contact, bill = null } = $props();
 
 	let filter = $state('');
 	const ordered = $derived(boardOrder(cards, assembly));
@@ -53,6 +54,12 @@
 </svelte:head>
 
 <div class="container hub-head">
+	{#if shape}
+		<!-- Decorative: the outline of the place, drawn in a fixed square whatever its size. -->
+		<svg class="outline" viewBox={shape.box.join(' ')} preserveAspectRatio="xMinYMax meet" aria-hidden="true" focusable="false">
+			<path d={shape.d} />
+		</svg>
+	{/if}
 	<div class="title-row">
 		<h1>{t(`${assembly.place}の政策と提案`, `Policies and proposals in ${assembly.placeEn}`)}</h1>
 		<button
@@ -142,12 +149,28 @@
 		padding-top: 28px;
 	}
 
+	.outline {
+		display: block;
+		width: 88px;
+		height: 88px;
+		overflow: visible;
+		pointer-events: none;
+	}
+
+	.outline path {
+		fill: color-mix(in srgb, var(--color-primary) 38%, var(--color-surface-alt));
+		stroke: var(--color-ink);
+		stroke-width: 1px;
+		vector-effect: non-scaling-stroke;
+		stroke-linejoin: round;
+	}
+
 	.title-row {
 		display: flex;
 		align-items: center;
 		gap: 14px 18px;
 		flex-wrap: wrap;
-		margin-top: 6px;
+		margin-top: 30px;
 		border-bottom: 1px solid var(--color-ink);
 		padding-bottom: 12px;
 	}

@@ -78,7 +78,18 @@ const PREF_NAMES = ['茨城県', '栃木県', '群馬県', '埼玉県', '千葉�
 const ISLANDS = ['大島町', '利島村', '新島村', '神津島村', '三宅村', '御蔵島村', '八丈町', '青ヶ島村', '小笠原村'].map((n) => `東京都/${n}`);
 const wanted = municipalities.filter(([p]) => PREF_NAMES.includes(p)).map(([p, n]) => `${p}/${n}`).filter((k) => !ISLANDS.includes(k));
 
-const shapes = geo.features.map((f) => ({ key: f.properties.key, pref: f.properties.pref, d: pathOf(f.geometry) }));
+/** Bounding box [x, y, w, h] in output units, for framing zoomed views. */
+function boxOf(/** @type {{ coordinates: any }} */ g) {
+	let b = [Infinity, Infinity, -Infinity, -Infinity];
+	const walk = (/** @type {any} */ c) => {
+		if (typeof c[0] === 'number') b = [Math.min(b[0], c[0]), Math.min(b[1], c[1]), Math.max(b[2], c[0]), Math.max(b[3], c[1])];
+		else c.forEach(walk);
+	};
+	walk(g.coordinates);
+	return [r(b[0]) - x0, y1 - r(b[3]), r(b[2]) - r(b[0]), r(b[3]) - r(b[1])];
+}
+
+const shapes = geo.features.map((f) => ({ key: f.properties.key, pref: f.properties.pref, d: pathOf(f.geometry), box: boxOf(f.geometry) }));
 const byKey = new Map();
 for (const s of shapes) if (s.key) byKey.set(s.key, (byKey.get(s.key) ?? 0) + 1);
 const missing = wanted.filter((k) => byKey.get(k) !== 1);
@@ -88,25 +99,12 @@ if (missing.length || extra.length) {
 	process.exit(1);
 }
 
-// Frame for the zoomed-in Tokyo view, in output units, with a 4 km margin.
-let t = [Infinity, Infinity, -Infinity, -Infinity];
-for (const f of geo.features.filter((f) => f.properties.pref === '東京都')) {
-	const walk = (/** @type {any} */ c) => {
-		if (typeof c[0] === 'number') t = [Math.min(t[0], c[0]), Math.min(t[1], c[1]), Math.max(t[2], c[0]), Math.max(t[3], c[1])];
-		else c.forEach(walk);
-	};
-	walk(f.geometry.coordinates);
-}
-const M = 40;
-const tokyo = [r(t[0]) - x0 - M, y1 - r(t[3]) - M, r(t[2]) - r(t[0]) + 2 * M, r(t[3]) - r(t[1]) + 2 * M];
-
 const out = {
 	source: '国土数値情報（行政区域データ、2026年1月1日時点）（国土交通省）',
 	origin: [x0, y1], // grid position of the top-left corner, in UNIT
 	width: r(maxX) - x0,
 	height: y1 - r(minY),
-	tokyo,
-	shapes: shapes.map(({ key, pref, d }) => (key ? { pref, name: key.split('/')[1], d } : { pref, d })),
+	shapes: shapes.map(({ key, pref, d, box }) => (key ? { pref, name: key.split('/')[1], box, d } : { pref, box, d })),
 	prefs: prefs.features.map((f) => ({ pref: f.properties.pref, d: pathOf(f.geometry) }))
 };
 mkdirSync('src/lib/map', { recursive: true });

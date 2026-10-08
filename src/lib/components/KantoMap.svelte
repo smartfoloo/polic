@@ -16,10 +16,31 @@
 	/** @type {{ name: string, covered: boolean } | null} */
 	let hover = $state(null);
 
-	// Fit the Tokyo frame into the map's box, centred.
-	const [tx, ty, tw, th] = map.tokyo;
-	const k = Math.min(map.width / tw, map.height / th);
-	const zoom = `translate(${map.width / 2 - k * (tx + tw / 2)}px, ${map.height / 2 - k * (ty + th / 2)}px) scale(${k})`;
+	const FULL = [0, 0, map.width, map.height];
+	// Zoomed frame: all of mainland Tokyo, plus 1.5 km.
+	const frame = (() => {
+		const boxes = map.shapes.filter((s) => s.pref === '東京都' && s.name).map((s) => s.box);
+		const x = Math.min(...boxes.map((b) => b[0])) - 15;
+		const y = Math.min(...boxes.map((b) => b[1])) - 15;
+		return [x, y, Math.max(...boxes.map((b) => b[0] + b[2])) + 15 - x, Math.max(...boxes.map((b) => b[1] + b[3])) + 15 - y];
+	})();
+
+	let vb = $state(FULL);
+	/** @type {number} */
+	let raf;
+	function animateTo(/** @type {number[]} */ to) {
+		cancelAnimationFrame(raf);
+		const from = vb;
+		if (matchMedia('(prefers-reduced-motion: reduce)').matches) return void (vb = to);
+		const start = performance.now();
+		const step = (/** @type {number} */ now) => {
+			const p = Math.min(1, (now - start) / 450);
+			const e = 1 - (1 - p) ** 3;
+			vb = from.map((v, i) => v + (to[i] - v) * e);
+			if (p < 1) raf = requestAnimationFrame(step);
+		};
+		raf = requestAnimationFrame(step);
+	}
 
 	const keyOf = (/** @type {{ pref: string, name?: string }} */ s) => `${s.pref}/${s.name}`;
 	const nameOf = (/** @type {{ name?: string }} */ s, /** @type {import('$lib/bills.js').PublicAssembly | undefined} */ a) =>
@@ -28,21 +49,28 @@
 	function zoomIn() {
 		zoomed = true;
 		hover = null;
+		animateTo(frame);
+	}
+
+	function zoomOut() {
+		zoomed = false;
+		hover = null;
+		animateTo(FULL);
 	}
 </script>
 
 <div class="kmap">
 	<div class="bar">
 		{#if zoomed}
-			<button type="button" class="kbtn" onclick={() => ((zoomed = false), (hover = null))}><Icon name="left" />{t('関東全体', 'All of Kanto')}</button>
+			<button type="button" class="kbtn" onclick={zoomOut}><Icon name="left" />{t('関東全体', 'All of Kanto')}</button>
 			{#if metro}<a class="kbtn" href={href(`/${metro.id}`)}>{t(metro.name, metro.nameEn)}<Icon name="right" /></a>{/if}
 		{:else}
 			<button type="button" class="kbtn" onclick={zoomIn}>{t('東京都を拡大', 'Zoom in on Tokyo')}<Icon name="search" /></button>
 		{/if}
 	</div>
 
-	<svg class="map" viewBox="0 0 {map.width} {map.height}" role="group" aria-label={t('関東の市区町村の地図', 'Map of municipalities in Kanto')}>
-		<g class="world" style:transform={zoomed ? zoom : 'none'}>
+	<svg class="map" viewBox={vb.join(' ')} role="group" aria-label={t('関東の市区町村の地図', 'Map of municipalities in Kanto')}>
+		<g class="world">
 			{#each map.shapes as s, i (i)}
 				{@const a = s.name ? covered.get(keyOf(s)) : undefined}
 				{#if zoomed && a}
@@ -132,15 +160,8 @@
 	.map {
 		display: block;
 		width: 100%;
-		height: auto;
-		max-height: 330px;
+		height: 330px;
 		overflow: hidden;
-	}
-
-	.world {
-		transform-origin: 0 0;
-		transform-box: view-box;
-		transition: transform 0.5s var(--ease);
 	}
 
 	.muni {

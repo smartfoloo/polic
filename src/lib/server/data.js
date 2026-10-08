@@ -4,6 +4,7 @@
 
 import { assemblies } from '$lib/config/assemblies.js';
 import { toCard } from '$lib/bills.js';
+import kanto from '$lib/map/kanto.json';
 import { publishState } from '../../../scripts/lib/publish.js';
 import { jaSource } from '../../../scripts/lib/prompts.js';
 
@@ -100,10 +101,28 @@ export function popularIds(/** @type {string} */ assembly) {
 		.map((b) => b.id);
 }
 
+/** The place's outline from the home page map, or null for places the map lacks. */
+function shapeOf(/** @type {PublicAssembly} */ a) {
+	if (a.level === 'pref') {
+		const p = kanto.prefs.find((x) => x.pref === a.place);
+		// Prefecture outlines carry no box, so it's the union of its municipalities' boxes.
+		const boxes = kanto.shapes.filter((x) => x.pref === a.place).map((x) => x.box);
+		if (!p || !boxes.length) return null;
+		const [x0, y0] = [Math.min(...boxes.map((b) => b[0])), Math.min(...boxes.map((b) => b[1]))];
+		const [x1, y1] = [Math.max(...boxes.map((b) => b[0] + b[2])), Math.max(...boxes.map((b) => b[1] + b[3]))];
+		return { d: p.d, box: [x0, y0, x1 - x0, y1 - y0] };
+	}
+	const pref = publicAssemblies.find((p) => p.id === a.parent)?.place;
+	const s = a.level === 'muni' ? kanto.shapes.find((x) => x.pref === pref && x.name === a.place) : undefined;
+	return s ? { d: s.d, box: s.box } : null;
+}
+
 /** Data for an assembly's board; the bill page adds the one bill. */
 export function board(/** @type {string} */ assembly) {
+	const a = /** @type {PublicAssembly} */ (publicAssemblies.find((p) => p.id === assembly));
 	return {
-		assembly: /** @type {PublicAssembly} */ (publicAssemblies.find((a) => a.id === assembly)),
+		assembly: a,
+		shape: shapeOf(a),
 		cards: liveBills(assembly).map(toCard),
 		held: heldCount(assembly),
 		popular: popularIds(assembly)
