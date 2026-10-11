@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{title}（{t('準備中', 'coming soon')}） — Polic</title>
+	<title>{title}（{t('準備中', 'coming soon')}） | Polic</title>
 </svelte:head>
 
 <div class="container page">

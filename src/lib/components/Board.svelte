@@ -50,7 +50,7 @@
 </script>
 
 <svelte:head>
-	<title>{current ? billName(current) : t(`${assembly.place}の政策と提案`, `Policies and proposals in ${assembly.placeEn}`)} — Polic</title>
+	<title>{current ? billName(current) : t(`${assembly.place}の政策と提案`, `Policies and proposals in ${assembly.placeEn}`)} | Polic</title>
 </svelte:head>
 
 <div class="container hub-head">

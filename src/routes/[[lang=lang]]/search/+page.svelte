@@ -61,7 +61,7 @@
 </script>
 
 <svelte:head>
-	<title>{t('さがす', 'Search')} — Polic</title>
+	<title>{t('さがす', 'Search')} | Polic</title>
 </svelte:head>
 
 <div class="container narrow">

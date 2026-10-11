@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { categories } from '../../src/lib/config/categories.js';
 
 export const DRAFT_PROMPT_VERSION = 3;
-export const TRANSLATE_PROMPT_VERSION = 3;
+export const TRANSLATE_PROMPT_VERSION = 4;
 export const VERIFY_PROMPT_VERSION = 2;
 export const FIX_PROMPT_VERSION = 1;
 
@@ -96,6 +96,7 @@ Rules:
 3. Keep the neutral tone. Keep attributions such as 「〜と、区は説明しています」 → "The ward says …", 「市は」 → "The city says …", 「町は」 → "The town says …".
 4. Keep the same number of items in "changes" and "who".
 5. Place and body names: Tokyo Metropolitan Government, the governor; each special ward as "<Name> City" (Shibuya City, Minato City), the ward, the mayor; cities as "<Name> City" (Hachioji City), the city, the mayor; towns as "<Name> Town" (Mizuho Town), the town, the mayor.
+6. No em dashes. Use commas or parentheses instead.
 
 Fields:
 - name: short headline in sentence case (capitalise only the first word and proper nouns), no period, e.g. "Sets supervised childcare fees at ¥100 per hour".

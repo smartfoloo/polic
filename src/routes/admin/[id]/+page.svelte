@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<title>{data.bill.id} — Review — Polic</title>
+	<title>{data.bill.id} | Review | Polic</title>
 </svelte:head>
 
 <!-- Remount when the bill or its AI text changes, not on every save. -->

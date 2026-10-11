@@ -26,7 +26,7 @@
 </script>
 
 <svelte:head>
-	<title>{t('対応している議会', 'Supported assemblies')} — Polic</title>
+	<title>{t('対応している議会', 'Supported assemblies')} | Polic</title>
 </svelte:head>
 
 <div class="container narrow article">

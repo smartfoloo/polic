@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>Review — Polic</title>
+	<title>Review | Polic</title>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 

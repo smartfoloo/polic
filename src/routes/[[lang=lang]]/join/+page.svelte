@@ -7,7 +7,7 @@
 
 <!-- Links go straight to the form once it's set; this page only catches old or typed URLs. -->
 <svelte:head>
-	{#if JOIN_FORM_URL}<title>{t('参加する', 'Get involved')} — Polic</title>{/if}
+	{#if JOIN_FORM_URL}<title>{t('参加する', 'Get involved')} | Polic</title>{/if}
 </svelte:head>
 
 {#if JOIN_FORM_URL}

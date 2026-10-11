@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>{t('学ぶ', 'Learn')} — Polic</title>
+	<title>{t('学ぶ', 'Learn')} | Polic</title>
 	<meta name="description" content={t('地方自治と議会のしくみを、短く説明します。', 'Short explainers on how local government and assemblies work.')} />
 </svelte:head>
 

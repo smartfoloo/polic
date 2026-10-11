@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>{t('プライバシーポリシー', 'Privacy policy')} — Polic</title>
+	<title>{t('プライバシーポリシー', 'Privacy policy')} | Polic</title>
 </svelte:head>
 
 <div class="container narrow article">

@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>{page.status === 404 ? t('ページが見つかりません', 'Page not found') : t('エラーが起きました', 'Something went wrong')} — Polic</title>
+	<title>{page.status === 404 ? t('ページが見つかりません', 'Page not found') : t('エラーが起きました', 'Something went wrong')} | Polic</title>
 </svelte:head>
 
 <div class="container narrow">

@@ -284,9 +284,9 @@
 						<summary>Facts from the source (edit the adapter, not here)</summary>
 						<dl>
 							<dt>Session</dt><dd>{bill.session}</dd>
-							<dt>Committee</dt><dd>{bill.committee ?? '—'}</dd>
+							<dt>Committee</dt><dd>{bill.committee ?? '(none)'}</dd>
 							<dt>Status</dt><dd>{bill.status} (stage {bill.stage})</dd>
-							<dt>Date</dt><dd>{bill.date ?? '—'} {bill.dateKind}</dd>
+							<dt>Date</dt><dd>{bill.date ?? '(none)'} {bill.dateKind}</dd>
 						</dl>
 					</details>
 

@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>{x.title} — {t('学ぶ', 'Learn')} — Polic</title>
+	<title>{x.title} | {t('学ぶ', 'Learn')} | Polic</title>
 	<meta name="description" content={x.desc} />
 </svelte:head>
 
