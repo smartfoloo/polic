@@ -1,0 +1,37 @@
+{
+	"id": "nishitokyo-r8-3-59",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第59号",
+	"official": "西東京市中小企業事業資金融資あっせん基金条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "建設環境委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-08-28",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/0803kaikinainittei.html",
+			"fetchedAt": "2026-10-08T10:59:50.301Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "627616b4388b58d4",
+		"official": "Ordinance Partially Amending the Nishitokyo City Small and Medium-Sized Enterprise Business Financing Loan Referral Fund Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:04.214Z",
+			"inputTokens": 390,
+			"cachedTokens": 0,
+			"outputTokens": 213,
+			"reasoningTokens": 172
+		}
+	}
+}

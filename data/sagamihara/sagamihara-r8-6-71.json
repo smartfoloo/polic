@@ -1,0 +1,50 @@
+{
+	"id": "sagamihara-r8-6-71",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第71号",
+	"official": "相模原市立総合水泳場条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第71号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "総合水泳場の利用料金を改定",
+	"category": "まちづくり",
+	"summary": "総合水泳場の専用利用料金と個人利用料金を改めます。個人利用料金は令和9年1月1日から、専用利用料金は令和9年7月1日以降の利用分から新しい料金になります。",
+	"changes": [
+		"専用利用料金を、50mプール235,200円、飛込プール103,500円、25mプール80,000円、会議室27,400円に改定する",
+		"プールの個人利用料金を、大人6,800円、小人3,400円に改定する",
+		"トレーニング室の個人利用料金を、大人700円、小人350円に改定する"
+	],
+	"who": [
+		"総合水泳場を個人利用する人",
+		"総合水泳場の施設を専用利用する団体など"
+	],
+	"why": "受益者負担の在り方の基本方針に基づき、使用料などを見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.840Z",
+		"inputTokens": 1808,
+		"cachedTokens": 0,
+		"outputTokens": 1256,
+		"reasoningTokens": 965,
+		"batch": true
+	}
+}

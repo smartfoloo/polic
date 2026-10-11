@@ -1,0 +1,90 @@
+{
+	"id": "hadano-r8-1-13",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第13号",
+	"official": "秦野市手数料条例の一部を改正することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第13号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg13.pdf",
+			"fetchedAt": "2026-10-08T11:23:47.094Z"
+		}
+	],
+	"name": "マンションの高さ特例の申請手数料を設定",
+	"category": "税・手数料",
+	"summary": "現在、マンションの容積率の特例許可申請には、1件160,000円の手数料がかかります。法改正に合わせて条例の法律名と根拠条文を改め、建築物の高さの特例許可申請も手数料の対象にします。手数料は1件160,000円です。",
+	"changes": [
+		"条例で引用する法律名と許可申請の根拠条文を改める",
+		"容積率に加え、建築物の高さの特例許可申請を手数料の対象にする",
+		"特例許可申請の手数料を1件160,000円とする"
+	],
+	"who": [
+		"マンションの容積率や高さの特例許可を申請する人・事業者"
+	],
+	"why": "法改正による法律名の変更と、高さの限度を超えるマンションの許可事務に係る手数料を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.855Z",
+		"inputTokens": 2472,
+		"cachedTokens": 0,
+		"outputTokens": 1145,
+		"reasoningTokens": 876,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.855Z",
+		"checkedAt": "2026-10-10T07:29:38.588Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2434,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 28,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cff3de78c455280a",
+		"name": "Sets a fee for applications for exceptions to apartment building height limits",
+		"official": "Regarding the Partial Amendment to the Hadano City Fee Ordinance",
+		"summary": "Applications for special permission to exceed the floor-area ratio for apartment buildings currently incur a fee of ¥160,000 per application. To reflect amendments to the law, the ordinance’s law name and legal basis provision will be revised, and applications for special permission regarding building height will also be subject to a fee. The fee is ¥160,000 per application.",
+		"changes": [
+			"Revise the law name and legal basis provision cited in the ordinance, add applications for special permission regarding building height to those subject to a fee alongside floor-area ratio applications, and set the fee for special-permission applications at ¥160,000 per application"
+		],
+		"who": [
+			"People and businesses applying for special permission regarding the floor-area ratio or height of apartment buildings"
+		],
+		"why": "The city says this is to reflect the change in the law’s name resulting from a legal amendment and to set a fee for the administrative work involved in granting permission for apartment buildings that exceed height limits.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.040Z",
+			"inputTokens": 700,
+			"cachedTokens": 0,
+			"outputTokens": 1379,
+			"reasoningTokens": 1123,
+			"batch": true
+		}
+	}
+}

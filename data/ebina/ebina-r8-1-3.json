@@ -1,0 +1,84 @@
+{
+	"id": "ebina-r8-1-3",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第3号",
+	"official": "海老名市みんなの自治会推進条例の制定について",
+	"by": "head",
+	"session": "令和8年3月第1回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F24%2C2026%2F03%2F26%2C112",
+			"fetchedAt": "2026-10-08T11:25:11.274Z"
+		},
+		{
+			"label": "議案第3号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1457_8.3.pdf",
+			"fetchedAt": "2026-10-08T11:25:17.272Z"
+		}
+	],
+	"name": "自治会を推進する条例を制定",
+	"category": "まちづくり",
+	"summary": "「海老名市みんなの自治会推進条例」を制定します。提示された原文には、条例の具体的な内容は記載されていません。",
+	"changes": [
+		"「海老名市みんなの自治会推進条例」を制定する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.840Z",
+		"inputTokens": 985,
+		"cachedTokens": 0,
+		"outputTokens": 373,
+		"reasoningTokens": 274,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.840Z",
+		"checkedAt": "2026-10-10T07:29:38.554Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 768,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 29,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9cc119b7718fbeba",
+		"name": "Enacts an ordinance promoting neighborhood associations",
+		"official": "Regarding the Enactment of the Ebina City Everyone's Neighborhood Association Promotion Ordinance",
+		"summary": "The “Ebina City Everyone's Neighborhood Association Promotion Ordinance” will be enacted. The text provided does not state the ordinance's specific contents.",
+		"changes": [
+			"Enacts the “Ebina City Everyone's Neighborhood Association Promotion Ordinance”"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.028Z",
+			"inputTokens": 519,
+			"cachedTokens": 0,
+			"outputTokens": 375,
+			"reasoningTokens": 258,
+			"batch": true
+		}
+	}
+}

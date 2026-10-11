@@ -1,0 +1,90 @@
+{
+	"id": "yokohama-r8-1-104",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第104号議案",
+	"official": "横浜市国民健康保険条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第104号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si104.pdf",
+			"fetchedAt": "2026-10-08T11:03:26.941Z"
+		}
+	],
+	"name": "国保料に子ども・子育て支援分を追加",
+	"category": "健康・医療",
+	"summary": "横浜市の国民健康保険料に、子ども・子育て支援納付金に充てる分が加わります。保険料は所得や加入者数をもとに算定し、18歳未満の加入者にかかる均等割額は減額します。改正は令和8年4月1日に施行され、令和8年度以降の保険料に適用されます。",
+	"changes": [
+		"子ども・子育て支援納付金分を国民健康保険料に加える",
+		"所得や加入者数をもとに納付金分の保険料率を定める",
+		"被保険者均等割額を減額する仕組みを設ける"
+	],
+	"who": [
+		"横浜市の国民健康保険加入者",
+		"18歳未満の国民健康保険加入者"
+	],
+	"why": "子ども・子育て支援法等の改正に伴い、納付金に係る保険料を賦課・徴収するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.883Z",
+		"inputTokens": 9509,
+		"cachedTokens": 0,
+		"outputTokens": 1796,
+		"reasoningTokens": 1480,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.883Z",
+		"checkedAt": "2026-10-10T07:29:38.688Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "所得や加入者数をもとに納付金分の保険料率を定める",
+				"note": "第17条の３・第17条の５では、所得割と被保険者均等割に加え、18歳以上の被保険者に別途均等割額を加算する規定がある。この負担の仕組みが抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "被保険者均等割額を減額する仕組みを設ける",
+				"note": "第17条の６では、18歳未満の被保険者について支援納付金分の均等割額を全額減額する。対象年齢と全額減額であることがchangesに記載されていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "所得や加入者数をもとに納付金分の保険料率を定める",
+				"note": "第17条の７と付則第２・第３項では、特例対象被保険者等の給与所得を30％として算定する特例や、子ども世帯控除を支援納付金分にも適用する。対象世帯の負担に直接関わる特例の適用が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 9500,
+			"cachedTokens": 0,
+			"outputTokens": 609,
+			"reasoningTokens": 276,
+			"batch": true
+		}
+	}
+}

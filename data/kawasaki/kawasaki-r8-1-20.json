@@ -1,0 +1,93 @@
+{
+	"id": "kawasaki-r8-1-20",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第20号",
+	"official": "川崎市病院局企業職員定数条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第20号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_20.pdf",
+			"fetchedAt": "2026-10-08T11:08:21.441Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "病院局の職員定数を1,606人に",
+	"category": "健康・医療",
+	"summary": "川崎市病院局の企業職員の定数は1,602人です。この議案で定数を1,606人に改め、2026年4月1日から施行します。",
+	"changes": [
+		"職員定数を1,602人から1,606人に増やす"
+	],
+	"who": [
+		"井田病院を利用する人"
+	],
+	"why": "井田病院の医療提供体制を強化するなどの目的で、必要な職員を配置するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.868Z",
+		"inputTokens": 1220,
+		"cachedTokens": 0,
+		"outputTokens": 523,
+		"reasoningTokens": 368,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.868Z",
+		"checkedAt": "2026-10-10T07:29:38.632Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1071,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d777f3dfafd301da",
+		"name": "Sets the Hospital Bureau staff limit at 1,606",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Kawasaki City Hospital Bureau Enterprise Staff Quota Ordinance",
+		"summary": "The staff limit for enterprise employees of the Kawasaki City Hospital Bureau is 1,602. This bill changes the limit to 1,606 and takes effect on April 1, 2026.",
+		"changes": [
+			"Increases the staff limit from 1,602 to 1,606"
+		],
+		"who": [
+			"People who use Ida Hospital"
+		],
+		"why": "The city says this is to assign the staff needed, among other things, to strengthen Ida Hospital’s medical care delivery system.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.054Z",
+			"inputTokens": 590,
+			"cachedTokens": 0,
+			"outputTokens": 419,
+			"reasoningTokens": 246,
+			"batch": true
+		}
+	}
+}

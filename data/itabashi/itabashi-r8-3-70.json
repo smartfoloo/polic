@@ -68,5 +68,32 @@
 			"outputTokens": 402,
 			"reasoningTokens": 296
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c4883ba79cf0fada",
+		"name": "Adds cards accepted for identity checks when registering a seal",
+		"official": "Ordinance Partially Amending the Itabashi City Seal Registration Ordinance",
+		"summary": "The Seal Registration Ordinance sets out identity checks when applying to register a seal, among other things. This bill revises the provisions on identity checks and adds the specified residence card and specified special permanent resident certificate to the provisions. It also revises related parts of the Fees Ordinance and takes effect on the date of promulgation.",
+		"changes": [
+			"Revises the provisions on identity checks when applying to register a seal",
+			"Adds the specified residence card and specified special permanent resident certificate to the provisions",
+			"Adds the two types of certificates to related provisions of the Fees Ordinance and revises references to provisions"
+		],
+		"who": [
+			"People applying to register a seal using a specified residence card",
+			"People applying to register a seal using a specified special permanent resident certificate"
+		],
+		"why": "The ward says it is necessary to revise the identity-check provisions for applications to register a seal and add provisions concerning the specified residence card and specified special permanent resident certificate.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:09:54.866Z",
+			"inputTokens": 731,
+			"cachedTokens": 0,
+			"outputTokens": 776,
+			"reasoningTokens": 516
+		}
 	}
 }

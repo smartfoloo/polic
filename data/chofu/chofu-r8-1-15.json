@@ -64,5 +64,31 @@
 			"outputTokens": 66,
 			"reasoningTokens": 51
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fc79b6800d496192",
+		"name": "Raises the monthly salaries of the mayor and deputy mayor",
+		"official": "Ordinance Partially Amending the Chofu City Ordinance on Salaries and Travel Expenses for the Mayor and Other Full-Time Special-Status Employees",
+		"summary": "The mayor’s current monthly salary is ¥1,035,000, and the deputy mayor’s is ¥895,000. This bill changes them to ¥1,060,000 and ¥900,000, respectively, and aligns the types of travel expenses and how their amounts are determined with the rules for designated-position employees under the ordinance on travel expenses for city employees. The amended travel expense rules apply to trips departing on or after April 1, 2026. Trips departing before then will continue to be handled under the previous rules.",
+		"changes": [
+			"Raises the mayor’s monthly salary from ¥1,035,000 to ¥1,060,000",
+			"Raises the deputy mayor’s monthly salary from ¥895,000 to ¥900,000",
+			"Sets the types of travel expenses and bases their amounts on the rules for designated-position employees under the ordinance on travel expenses for city employees"
+		],
+		"who": [
+			"The mayor, deputy mayor and other full-time special-status employees"
+		],
+		"why": "The city says this is to revise the monthly salaries and travel expenses of the mayor and others.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:49.862Z",
+			"inputTokens": 748,
+			"cachedTokens": 0,
+			"outputTokens": 854,
+			"reasoningTokens": 552
+		}
 	}
 }

@@ -61,5 +61,33 @@
 			"outputTokens": 48,
 			"reasoningTokens": 33
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6ba8769c24d52d01",
+		"name": "Raises fees for the ceremony room, overnight attendance, and mortuary use at the funeral hall",
+		"official": "Ordinance Partially Amending the Hachioji City Funeral Hall Ordinance",
+		"summary": "The current fee for Ceremony Room 1 is ¥25,000 per use for Hachioji City residents and ¥50,000 for people from outside the city. Overnight attendance after the wake ends currently costs ¥10,000 per use for Hachioji City residents and ¥20,000 for people from outside the city. The bill raises these fees to ¥30,000 and ¥60,000 for the ceremony room, and ¥15,000 and ¥30,000 for overnight attendance, respectively. It also raises the fee for outside-city users of the mortuary room, for one casket for up to 24 hours, from ¥6,000 to ¥10,000. The new fees apply from April 1, 2027. The bill also allows the new fees to be charged before that date for use taking place on or after that date.",
+		"changes": [
+			"Raises the fee for Ceremony Room 1 from ¥25,000 to ¥30,000 for Hachioji City residents and from ¥50,000 to ¥60,000 for people from outside the city",
+			"Raises the overnight attendance fee after the wake from ¥10,000 to ¥15,000 for Hachioji City residents and from ¥20,000 to ¥30,000 for people from outside the city",
+			"Raises the mortuary room fee for outside-city users, for one casket for up to 24 hours, from ¥6,000 to ¥10,000"
+		],
+		"who": [
+			"People using Ceremony Room 1 at Hachioji City Funeral Hall",
+			"People accompanying the deceased overnight at the ceremony hall after the wake ends",
+			"People from outside Hachioji City using the mortuary room"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:53:29.155Z",
+			"inputTokens": 823,
+			"cachedTokens": 0,
+			"outputTokens": 1191,
+			"reasoningTokens": 758
+		}
 	}
 }

@@ -58,5 +58,30 @@
 			"outputTokens": 93,
 			"reasoningTokens": 78
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4c2430b154e56e80",
+		"name": "Sets the closure day after a holiday to the nearest non-holiday",
+		"official": "Ordinance Partially Amending the Tachikawa City Civic Hall Ordinance",
+		"summary": "If the third Monday is a holiday, the civic hall was closed the following day. If that day was also a public holiday, it was closed the day after that. Under this bill, the hall will be closed on the nearest day after a holiday that is not a holiday. The bill also revises some wording that specifies the applicable conditions.",
+		"changes": [
+			"If the third Monday is a holiday, set the closure day to the nearest non-holiday after the holiday",
+			"Revise wording that specifies the applicable conditions and uses"
+		],
+		"who": [
+			"People who use Tachikawa City Civic Hall"
+		],
+		"why": "The city says the amendment is based on Article 244-2, Paragraph 1 of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:10:22.095Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 794,
+			"reasoningTokens": 575
+		}
 	}
 }

@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai9gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:25.049Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "8236387b40bb295c",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance on Collection of Fees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:49.687Z",
+			"inputTokens": 384,
+			"cachedTokens": 0,
+			"outputTokens": 116,
+			"reasoningTokens": 83
+		}
+	}
 }

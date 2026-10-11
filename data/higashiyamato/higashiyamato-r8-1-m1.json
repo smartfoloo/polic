@@ -18,5 +18,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/shisei/gikai/1008119/1005679/1011960/1011965.html",
 			"fetchedAt": "2026-10-05T15:56:49.222Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "667e06a2f0a151d0",
+		"official": "Ordinance Partially Amending the Higashiyamato City Ordinance on Collection of Road Occupancy Fees, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:25.707Z",
+			"inputTokens": 385,
+			"cachedTokens": 0,
+			"outputTokens": 205,
+			"reasoningTokens": 164
+		}
+	}
 }

@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-15.pdf",
 			"fetchedAt": "2026-10-05T15:57:55.333Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "ade208e475e89c23",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries of Higashiyamato City Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:51.817Z",
+			"inputTokens": 385,
+			"cachedTokens": 0,
+			"outputTokens": 133,
+			"reasoningTokens": 97
+		}
+	}
 }

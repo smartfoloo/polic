@@ -1,0 +1,38 @@
+{
+	"id": "akishima-r8-1-28",
+	"assembly": "tokyo/akishima",
+	"approved": false,
+	"number": "議案第28号",
+	"official": "昭島市特定乳児等通園支援事業の運営に関する基準を定める条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等の議決結果",
+			"url": "https://www.city.akishima.lg.jp/gikai/honkaigi/1006709/1011604/1011609.html",
+			"fetchedAt": "2026-10-08T10:56:01.263Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "2c5ab74fdbe30725",
+		"official": "Akishima City Ordinance Establishing Standards for the Operation of Specified Infant and Other Childcare Attendance Support Services",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.502Z",
+			"inputTokens": 392,
+			"cachedTokens": 0,
+			"outputTokens": 313,
+			"reasoningTokens": 275,
+			"batch": true
+		}
+	}
+}

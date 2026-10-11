@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-11.pdf",
 			"fetchedAt": "2026-10-05T15:57:31.248Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "88d01bfc3f3f29ee",
+		"official": "Ordinance Partially Amending the Ordinance on Partial Exemption from Liability for Damages of the Mayor of Higashiyamato City and Others",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:40.554Z",
+			"inputTokens": 398,
+			"cachedTokens": 0,
+			"outputTokens": 227,
+			"reasoningTokens": 181
+		}
+	}
 }

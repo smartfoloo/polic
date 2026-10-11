@@ -83,5 +83,33 @@
 			"outputTokens": 575,
 			"reasoningTokens": 202
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4236198544e37e4f",
+		"name": "Expands filing requirements for pension recipients and revises municipal taxes",
+		"official": "Ordinance Partially Amending the Ome City Municipal Tax Ordinance",
+		"summary": "Currently, certain people who receive public pensions, etc., must submit a declaration form about dependent relatives, etc. This bill expands who must submit the form and also changes how income from specified crypto-assets is treated for municipal resident tax, as well as special rates for property tax and other taxes.",
+		"changes": [
+			"Expands the range of public pension, etc. recipients who must submit a declaration form and specifies what information the form must include",
+			"Treats income from specified crypto-assets separately from other income and sets the income-based portion of municipal resident tax at 3%",
+			"Changes some special rates for property tax and other taxes and sets new special rates"
+		],
+		"who": [
+			"People who receive public pensions, etc., and are required to submit a declaration form",
+			"Municipal resident tax payers with income from specified crypto-assets",
+			"People who own fixed assets covered by special measures"
+		],
+		"why": "The city says this is to expand the range of public pension, etc. recipients who must submit a declaration form in line with amendments to the Local Tax Act, and to make other necessary provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:02:20.045Z",
+			"inputTokens": 749,
+			"cachedTokens": 0,
+			"outputTokens": 713,
+			"reasoningTokens": 423
+		}
 	}
 }

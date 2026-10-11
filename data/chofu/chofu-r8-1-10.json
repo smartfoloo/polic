@@ -95,5 +95,33 @@
 			"outputTokens": 752,
 			"reasoningTokens": 192
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f9ef002548a857bf",
+		"name": "Allows movie studios to be built in designated districts",
+		"official": "Chofu City Ordinance on Easing Restrictions, etc. on Buildings within the Chofu Film City Promotion District",
+		"summary": "In the Chofu Film City Promotion District, the Building Standards Act restricts the uses of buildings. This bill divides the district into two types, allows movie studios and other facilities to be built, and sets standards for sound insulation, noise, distance from site boundaries, and other matters.",
+		"changes": [
+			"Allows movie studios, and movie studios with attached movie theaters, etc. and assembly halls, etc., to be built in Type 1 Promotion Districts",
+			"Allows movie studios with attached movie theaters, etc. to be built in Type 2 Promotion Districts",
+			"Sets standards for covered buildings, including sound insulation, equipment noise, and distance from neighboring property boundaries",
+			"Sets standards for cargo loading and unloading areas, vehicle entrances and exits, outdoor lighting, and other matters"
+		],
+		"who": [
+			"Businesses building movie studios, etc. in the promotion districts",
+			"Residents around the promotion districts"
+		],
+		"why": "The city says this is to ease restrictions on building construction in the Chofu Film City Promotion District and set restrictions on sites, structures, and building equipment.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:15.043Z",
+			"inputTokens": 786,
+			"cachedTokens": 0,
+			"outputTokens": 1228,
+			"reasoningTokens": 938
+		}
 	}
 }

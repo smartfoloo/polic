@@ -59,5 +59,31 @@
 			"outputTokens": 82,
 			"reasoningTokens": 68
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "503de5d35615ae7c",
+		"name": "Adds regionally limited childcare workers to qualifications for after-school childcare support staff",
+		"official": "Regarding the enactment of an ordinance to partially amend the Tama City Ordinance Concerning Standards for Facilities and Operation of After-School Child Development Services",
+		"summary": "Currently, being a childcare worker is one of the qualifications for after-school childcare support staff. Under this bill, when the Tokyo Metropolitan Government is a certified local government, regionally limited childcare workers in Tokyo will also be included among those who meet this qualification. The bill also revises a citation to provisions of the Child Welfare Act in the ordinance and takes effect on the date of promulgation.",
+		"changes": [
+			"Includes regionally limited childcare workers among those who meet the qualification for childcare workers when the Tokyo Metropolitan Government is a certified local government",
+			"Revises the reference to Article 33-10 to refer to each item in paragraph 1"
+		],
+		"who": [
+			"Operators of after-school childcare services",
+			"Regionally limited childcare workers in Tokyo"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:18:09.704Z",
+			"inputTokens": 662,
+			"cachedTokens": 0,
+			"outputTokens": 1264,
+			"reasoningTokens": 1025
+		}
 	}
 }

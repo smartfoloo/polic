@@ -74,5 +74,33 @@
 			"outputTokens": 426,
 			"reasoningTokens": 326
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "577b5d9e6869282f",
+		"name": "Revises pension declarations, housing loan tax credits and crypto-asset taxation",
+		"official": "Ordinance Partially Amending the Meguro City Special Ward Tax Ordinance",
+		"summary": "It revises the rules for people receiving public pensions to report dependent relatives and others. It extends the deadline for applying the tax credit for housing loans and similar borrowing. It also creates a system for taxing income from transfers, etc. of specified crypto assets separately from other income, and imposes a Meguro City resident tax income-based levy equal to 3% of taxable income.",
+		"changes": [
+			"Revises the scope and required information of declarations of dependent relatives, etc. submitted by recipients of public pensions, etc.",
+			"Extends the deadline for applying the tax credit for housing loans, etc. through the Reiwa 25 fiscal year",
+			"Taxes transfer income, etc. from specified crypto assets separately from other income"
+		],
+		"who": [
+			"People receiving public pensions, etc. who have dependent relatives, etc.",
+			"People eligible for the tax credit for housing loans, etc.",
+			"People with transfer income, etc. from specified crypto assets"
+		],
+		"why": "The ward says the changes are intended to revise the scope of the obligation for public pension recipients to submit declarations of dependent relatives, etc., extend the deadline for applying the tax credit for housing loans, etc., and introduce special tax treatment for income from specified crypto assets.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:51.852Z",
+			"inputTokens": 794,
+			"cachedTokens": 0,
+			"outputTokens": 1393,
+			"reasoningTokens": 1071
+		}
 	}
 }

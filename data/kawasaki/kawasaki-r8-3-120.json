@@ -1,0 +1,96 @@
+{
+	"id": "kawasaki-r8-3-120",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第120号",
+	"official": "川崎市水道条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第120号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_120.pdf",
+			"fetchedAt": "2026-10-08T11:12:28.496Z"
+		}
+	],
+	"name": "水道料金を改定し初年度の特例を設ける",
+	"category": "くらし・手続き",
+	"summary": "水道料金を改定します。2027年4月1日から新しい料金表を適用し、一般用の専用給水装置には2028年3月31日まで別表の特例料金を適用します。",
+	"changes": [
+		"専用給水装置の基本料金と使用料金を改める",
+		"1戸当たりの基本料金を450円、使用料金を8立方メートルまで1立方メートル当たり3円、超える分を56円に改める",
+		"一般用の専用給水装置に適用する特例料金を設ける"
+	],
+	"who": [
+		"水道を利用する住民や事業者",
+		"公衆浴場の水道利用者",
+		"共同住宅等でメーターを共有する利用者"
+	],
+	"why": "水道料金を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.554Z",
+		"inputTokens": 3110,
+		"cachedTokens": 0,
+		"outputTokens": 2505,
+		"reasoningTokens": 2223,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.554Z",
+			"notes": [
+				"ai [check] changes/fact: 「共同住宅等の戸数に応じて算定する料金を、1戸につき基本料金450円、使用料金を8立方メートルまで1立方メートル当たり3円、超える分56円に改める」 → 450円・3円・56円は第27条第1項第3号の改正表の金額。原文には同号の対象が示されておらず、専用給水装置の備考にある共同住宅等の料金と同一か確認が必要。"
+			],
+			"inputTokens": 3606,
+			"cachedTokens": 1025,
+			"outputTokens": 2003,
+			"reasoningTokens": 1734,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.651Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "共同住宅等の戸数に応じて算定する料金を、1戸につき基本料金450円、使用料金を8立方メートルまで1立方メートル当たり3円、超える分56円に改める",
+				"note": "450円・3円・56円は第27条第1項第3号の改正表の金額。原文には同号の対象が示されておらず、専用給水装置の備考にある共同住宅等の料金と同一か確認が必要。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "一般用の専用給水装置に適用する特例料金を設ける",
+				"note": "特例料金は、使用期間1月につき附則別表で算定した額に110％を乗じ、1円未満を切り捨てると規定されている。実際の請求額に直接関わる算定方法が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3061,
+			"cachedTokens": 0,
+			"outputTokens": 548,
+			"reasoningTokens": 249,
+			"batch": true
+		}
+	}
+}

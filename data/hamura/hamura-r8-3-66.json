@@ -1,0 +1,87 @@
+{
+	"id": "hamura-r8-3-66",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第66号",
+	"official": "羽村市学童クラブ条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "富士見小学校第二学童クラブを新設",
+	"category": "子育て",
+	"summary": "令和9年4月1日から、富士見小学校第二学童クラブを開設します。これに伴い、現在の富士見学童クラブを廃止します。",
+	"changes": [
+		"富士見小学校第二学童クラブを新設する",
+		"富士見学童クラブを廃止する"
+	],
+	"who": [
+		"富士見学童クラブを利用する児童とその保護者",
+		"富士見小学校第二学童クラブを利用する児童とその保護者"
+	],
+	"why": "新たに富士見小学校第二学童クラブを開設することに伴い、既存の富士見学童クラブを廃止するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.860Z",
+		"inputTokens": 1054,
+		"cachedTokens": 0,
+		"outputTokens": 627,
+		"reasoningTokens": 425,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.860Z",
+		"checkedAt": "2026-10-10T07:29:38.608Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 959,
+			"cachedTokens": 0,
+			"outputTokens": 33,
+			"reasoningTokens": 19,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "650fdc4538d0a25f",
+		"name": "Establishes Fujimi Elementary School No. 2 After-School Club",
+		"official": "Ordinance Partially Amending the Hamura City After-School Club Ordinance",
+		"summary": "Starting April 1, 2027, Fujimi Elementary School No. 2 After-School Club will open. In connection with this, the current Fujimi After-School Club will be closed.",
+		"changes": [
+			"Establishes Fujimi Elementary School No. 2 After-School Club",
+			"Abolishes Fujimi After-School Club"
+		],
+		"who": [
+			"Children who use Fujimi After-School Club and their guardians",
+			"Children who use Fujimi Elementary School No. 2 After-School Club and their guardians"
+		],
+		"why": "The city says this is because Fujimi Elementary School No. 2 After-School Club will open and the existing Fujimi After-School Club will be abolished.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.046Z",
+			"inputTokens": 635,
+			"cachedTokens": 0,
+			"outputTokens": 533,
+			"reasoningTokens": 313,
+			"batch": true
+		}
+	}
+}

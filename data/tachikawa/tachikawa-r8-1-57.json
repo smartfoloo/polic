@@ -60,5 +60,35 @@
 			"outputTokens": 172,
 			"reasoningTokens": 158
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1f47e6eac4a1b99a",
+		"name": "Clarifies who can receive disaster victim grants and relief loans",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Assistance for Disaster Victims, etc.",
+		"summary": "The ordinance sets who can receive disaster victim grants and disaster relief fund loans, among other assistance. Under the amendment, if multiple households are registered at the same address and the mayor determines that they effectively share the same livelihood, only one head of household can receive a disaster victim grant. The same rule applies to disaster relief fund loans.",
+		"changes": [
+			"Limits the number of household heads who can receive a disaster victim grant to one",
+			"Applies the same restriction to disaster relief fund loans",
+			"Changes the cross-reference in the provision setting eligibility requirements for disaster condolence payments, disaster disability grants, etc.",
+			"Revises the wording of the provision on cancellation of loans, etc."
+		],
+		"who": [
+			"Disaster victims with multiple households registered at the same address who effectively share a livelihood",
+			"Applicants for disaster relief fund loans who meet those same conditions",
+			"People covered by the eligibility requirements for disaster condolence payments, disaster disability grants, etc.",
+			"Borrowers covered by the provisions on cancellation of loans, etc."
+		],
+		"why": "The city says the changes clarify who is eligible for disaster victim grants and who can receive disaster relief fund loans.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:14:47.903Z",
+			"inputTokens": 768,
+			"cachedTokens": 0,
+			"outputTokens": 2271,
+			"reasoningTokens": 1962
+		}
 	}
 }

@@ -1,0 +1,90 @@
+{
+	"id": "kanagawa-r8-2-56",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第56号議案",
+	"official": "神奈川県迷惑行為防止条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-13",
+	"sources": [
+		{
+			"label": "定県第56号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/134621/jorei_gian_8dai2_0615.pdf",
+			"fetchedAt": "2026-10-08T10:38:08.916Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai2.html",
+			"fetchedAt": "2026-10-08T10:37:44.946Z"
+		}
+	],
+	"name": "位置情報の無断取得を規制",
+	"category": "くらし・手続き",
+	"summary": "県の迷惑行為防止条例を改正します。本人の承諾を得ず、所持する位置特定用識別情報送信装置の位置情報を取得する行為を規制対象に加えます。2026年9月1日から施行します。",
+	"changes": [
+		"所持者の承諾なく、装置の位置情報を取得する行為を規制対象に加える",
+		"装置の取付けなどに関する規制に、位置特定用識別情報送信装置を加える"
+	],
+	"who": [
+		"位置特定用識別情報送信装置を所持する人"
+	],
+	"why": "ストーカー行為等の規制等に関する法律の一部改正を踏まえ、位置情報を取得する行為を規制対象に加えるなどの改正を行うためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.866Z",
+		"inputTokens": 1590,
+		"cachedTokens": 0,
+		"outputTokens": 1610,
+		"reasoningTokens": 1348,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.866Z",
+		"checkedAt": "2026-10-10T07:29:38.624Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1523,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 41,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "399027ff3552f2bc",
+		"name": "Regulates unauthorized collection of location information",
+		"official": "Ordinance Partially Amending the Kanagawa Prefecture Ordinance to Prevent Nuisance Acts",
+		"summary": "The prefecture will amend its ordinance to prevent nuisance acts. It will add to the acts subject to regulation the act of obtaining location information from a location-identifying information transmission device that someone possesses, without that person's consent. The changes will take effect on September 1, 2026.",
+		"changes": [
+			"Adds obtaining a device's location information without the holder's consent to the acts subject to regulation",
+			"Adds location-identifying information transmission devices to the regulations on attaching devices and related matters"
+		],
+		"who": [
+			"People who possess a location-identifying information transmission device"
+		],
+		"why": "The prefecture says it is making these amendments, including adding the act of obtaining location information to the acts subject to regulation, in light of a partial amendment to the Act on the Regulation of Stalking and Related Activities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.051Z",
+			"inputTokens": 666,
+			"cachedTokens": 0,
+			"outputTokens": 718,
+			"reasoningTokens": 488,
+			"batch": true
+		}
+	}
+}

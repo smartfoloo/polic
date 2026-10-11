@@ -62,5 +62,29 @@
 			"outputTokens": 56,
 			"reasoningTokens": 41
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "24660b245e0d2b3b",
+		"name": "Changes how people apply for seal registration certificates using terminals",
+		"official": "Ordinance Partially Amending the Chofu City Seal Registration Ordinance",
+		"summary": "The procedures set out in the ordinance for applying for seal registration certificates using multifunction terminals will be revised. Instead of listing the application method and other details in the ordinance, the city will set them out in its rules.",
+		"changes": [
+			"Sets the application method for multifunction terminals in rules rather than listing it in the ordinance"
+		],
+		"who": [
+			"People applying for seal registration certificates using multifunction terminals"
+		],
+		"why": "The city says this is to revise applications for seal registration certificates using multifunction terminals in light of partial amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:18:19.961Z",
+			"inputTokens": 631,
+			"cachedTokens": 0,
+			"outputTokens": 511,
+			"reasoningTokens": 331
+		}
 	}
 }

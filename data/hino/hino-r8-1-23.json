@@ -1,0 +1,38 @@
+{
+	"id": "hino-r8-1-23",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議案第23号",
+	"official": "日野市社会教育委員の設置に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-30",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1030502.html",
+			"fetchedAt": "2026-10-08T10:56:25.598Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1db5b6862e0763bb",
+		"official": "Regarding the enactment of an ordinance partially amending the Hino City Ordinance on the Establishment of Social Education Commissioners",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.509Z",
+			"inputTokens": 390,
+			"cachedTokens": 0,
+			"outputTokens": 211,
+			"reasoningTokens": 172,
+			"batch": true
+		}
+	}
+}

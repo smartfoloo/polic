@@ -1,0 +1,38 @@
+{
+	"id": "hinode-r8-1-9",
+	"assembly": "tokyo/hinode",
+	"approved": false,
+	"number": "議案第9号",
+	"official": "日の出町乳児等通園支援事業の設備及び運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-27",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案結果",
+			"url": "https://www.town.hinode.tokyo.jp/0000004700.html",
+			"fetchedAt": "2026-10-08T11:00:08.453Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "3d1dd663985d7287",
+		"official": "Ordinance Partially Amending the Hinode Town Ordinance Establishing Standards for Facilities and Operation of the Infant and Other Children's Daycare Support Program",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.513Z",
+			"inputTokens": 401,
+			"cachedTokens": 0,
+			"outputTokens": 377,
+			"reasoningTokens": 332,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"id": "kokubunji-r8-1-34",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第34号",
+	"official": "国分寺市議会議員及び国分寺市長の選挙における選挙運動の公費負担に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "選挙運動費用の公費負担限度額を改定",
+	"category": "行政のしくみ",
+	"summary": "市議会議員選挙と市長選挙では、選挙運動費用の公費負担について定められています。この議案で、公費負担の限度額を改定します。",
+	"changes": [
+		"選挙運動費用の公費負担の限度額を改定する"
+	],
+	"who": [
+		"国分寺市議会議員選挙の候補者",
+		"国分寺市長選挙の候補者"
+	],
+	"why": "選挙運動費用に係る公費負担の限度額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 1037,
+		"cachedTokens": 0,
+		"outputTokens": 588,
+		"reasoningTokens": 380,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.662Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 918,
+			"cachedTokens": 0,
+			"outputTokens": 41,
+			"reasoningTokens": 26,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9a04d27dd2bacc55",
+		"name": "Revises public funding limits for election campaign expenses",
+		"official": "Ordinance Partially Amending the Ordinance on Public Funding of Election Campaigns in Elections for Kokubunji City Council Members and the Mayor of Kokubunji City",
+		"summary": "Public funding for election campaign expenses is set for city council and mayoral elections. This bill revises the limits on public funding.",
+		"changes": [
+			"Revises the limits on public funding for election campaign expenses"
+		],
+		"who": [
+			"Candidates in Kokubunji City Council elections",
+			"Candidates in Kokubunji City mayoral elections"
+		],
+		"why": "The city says this is to revise the limits on public funding for election campaign expenses.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.066Z",
+			"inputTokens": 642,
+			"cachedTokens": 0,
+			"outputTokens": 414,
+			"reasoningTokens": 237,
+			"batch": true
+		}
+	}
+}

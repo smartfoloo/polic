@@ -1,0 +1,109 @@
+{
+	"id": "kawasaki-r8-3-115",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第115号",
+	"official": "川崎市葬祭条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第115号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_115.pdf",
+			"fetchedAt": "2026-10-08T11:11:58.872Z"
+		}
+	],
+	"name": "市営斎場の利用料を改定",
+	"category": "税・手数料",
+	"summary": "市営斎場では、火葬や施設の利用に使用料がかかります。この議案は、火葬料、遺体保管料、休憩室と斎場の使用料を改定する内容です。改定後の料金は2027年4月1日から適用する予定です。",
+	"changes": [
+		"火葬料を、市内居住者は年齢などに応じ2,470円から7,420円、市外居住者は15,000円から60,000円に改める",
+		"遺体保管料を1体1日あたり、市内居住者は1,500円、市外居住者は4,500円に改める",
+		"休憩室使用料を1回あたり、市内居住者は2,640円から6,600円、市外居住者は7,920円から19,800円に改める",
+		"斎場使用料を1回あたり、施設や区画などに応じ、市内居住者は12,370円から99,000円、市外居住者は37,120円から297,000円に改める"
+	],
+	"who": [
+		"市営斎場で火葬や施設の利用をする人"
+	],
+	"why": "火葬料や斎場使用料などを改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.874Z",
+		"inputTokens": 1698,
+		"cachedTokens": 0,
+		"outputTokens": 1613,
+		"reasoningTokens": 1238,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.649Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "斎場使用料を1回あたり、施設や区画などに応じ、市内居住者は12,370円から99,000円、市外居住者は37,120円から297,000円に改める",
+				"note": "別表には、通夜と告別式で1回とし、どちらかのみの利用では使用料を各額の2分の1とする規定がある。利用料金に直接関わる条件が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "火葬料を、市内居住者は年齢などに応じ2,470円から7,420円、市外居住者は15,000円から60,000円に改める",
+				"note": "附則第2項では、施行時に既に使用許可を受けている人の当該使用料は従前の扱いとする。改定料金の適用対象に関わる経過措置が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1743,
+			"cachedTokens": 0,
+			"outputTokens": 570,
+			"reasoningTokens": 306,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bee9a457f3468857",
+		"name": "Revises fees for city-run funeral halls",
+		"official": "Enactment of an Ordinance Partially Amending the Kawasaki City Funeral Services Ordinance",
+		"summary": "City-run funeral halls charge fees for cremation and use of their facilities. This bill revises cremation fees, body storage fees, and fees for using rest rooms and funeral halls. The revised fees are scheduled to take effect on April 1, 2027.",
+		"changes": [
+			"Sets cremation fees at ¥2,470 to ¥7,420 for Kawasaki City residents, depending on age and other factors, and ¥15,000 to ¥60,000 for non-residents",
+			"Sets body storage fees per body per day at ¥1,500 for Kawasaki City residents and ¥4,500 for non-residents",
+			"Sets rest room fees per use at ¥2,640 to ¥6,600 for Kawasaki City residents and ¥7,920 to ¥19,800 for non-residents",
+			"Sets funeral hall fees per use at ¥12,370 to ¥99,000 for Kawasaki City residents and ¥37,120 to ¥297,000 for non-residents, depending on the facility, section, and other factors"
+		],
+		"who": [
+			"People who use city-run funeral halls for cremation or to use the facilities"
+		],
+		"why": "The city says it is revising cremation fees and funeral hall fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.060Z",
+			"inputTokens": 780,
+			"cachedTokens": 0,
+			"outputTokens": 913,
+			"reasoningTokens": 594,
+			"batch": true
+		}
+	}
+}

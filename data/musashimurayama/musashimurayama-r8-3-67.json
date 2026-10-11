@@ -1,0 +1,38 @@
+{
+	"id": "musashimurayama-r8-3-67",
+	"assembly": "tokyo/musashimurayama",
+	"approved": false,
+	"number": "議案第67号",
+	"official": "武蔵村山市職員の勤務時間、休日、休暇等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-01",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議決結果",
+			"url": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/1022404/kaigi/1022506.html",
+			"fetchedAt": "2026-10-08T10:58:44.037Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "ec9a8f7062375215",
+		"official": "Ordinance Partially Amending the Ordinance on Working Hours, Holidays, Leave, etc. of Musashimurayama City Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.519Z",
+			"inputTokens": 393,
+			"cachedTokens": 0,
+			"outputTokens": 171,
+			"reasoningTokens": 128,
+			"batch": true
+		}
+	}
+}

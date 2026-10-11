@@ -1,0 +1,86 @@
+{
+	"id": "kokubunji-r8-1-27",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第27号",
+	"official": "国分寺市高校生等の医療費の助成に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "医療費助成の規定を整備",
+	"category": "健康・医療",
+	"summary": "高校生等の医療費助成に関する条例の規定を改めます。情報連携基盤との接続開始に伴う規定の整備と、文言の整理を行います。",
+	"changes": [
+		"情報連携基盤との接続開始に伴い、医療費助成の規定を整備する",
+		"文言を整理する"
+	],
+	"who": [],
+	"why": "情報連携基盤との接続開始に伴う規定の整備などを行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 1035,
+		"cachedTokens": 0,
+		"outputTokens": 591,
+		"reasoningTokens": 438,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.660Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 883,
+			"cachedTokens": 0,
+			"outputTokens": 37,
+			"reasoningTokens": 22,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5a8a8ff461240f57",
+		"name": "Updates medical expense assistance provisions",
+		"official": "Regarding an Ordinance Partially Amending the Kokubunji City Ordinance on Subsidies for Medical Expenses for High School Students and Others",
+		"summary": "The ordinance on medical expense assistance for high school students and others will be revised. Its provisions will be updated in connection with the start of the connection to the information-sharing platform, and its wording will be clarified.",
+		"changes": [
+			"Update the medical expense assistance provisions in connection with the start of the connection to the information-sharing platform",
+			"Clarify the wording"
+		],
+		"who": [],
+		"why": "The city says the changes are being made to update provisions in connection with the start of the connection to the information-sharing platform, among other things.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.065Z",
+			"inputTokens": 590,
+			"cachedTokens": 0,
+			"outputTokens": 656,
+			"reasoningTokens": 477,
+			"batch": true
+		}
+	}
+}

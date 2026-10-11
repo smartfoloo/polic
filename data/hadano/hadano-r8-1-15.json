@@ -1,0 +1,109 @@
+{
+	"id": "hadano-r8-1-15",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第15号",
+	"official": "秦野市国民健康保険税条例の一部を改正することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "文教福祉常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第15号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg15.pdf",
+			"fetchedAt": "2026-10-08T11:23:59.017Z"
+		}
+	],
+	"name": "国民健康保険税を引き上げ、新たな負担分を追加",
+	"category": "税・手数料",
+	"summary": "現在の医療給付費分、後期高齢者支援金等分、介護納付金分の税率や額を引き上げます。さらに令和8年4月から、子ども・子育て支援納付金分を新設し、所得割率0.29%、被保険者均等割額1,150円、18歳以上の均等割額50円、世帯別平等割額1,000円を設定します。18歳未満の被保険者に係るこの納付金分の均等割額は減額し、改正後の規定は令和8年度分から適用します。",
+	"changes": [
+		"医療給付費分の所得割率を7.24%から7.69%にし、均等割額を25,100円から26,500円、平等割額を22,500円から23,700円に上げる",
+		"後期高齢者支援金等分の所得割率を2.84%から3.15%にし、均等割額を9,200円から10,000円、平等割額を8,100円から8,800円に上げる",
+		"介護納付金分の所得割率を2.85%から3.15%にし、均等割額を10,600円から11,600円、平等割額を6,100円から6,700円に上げる",
+		"子ども・子育て支援納付金分を新設し、所得割率0.29%、均等割額1,150円、18歳以上の均等割額50円、平等割額1,000円を設定し、18歳未満の均等割額を減額する"
+	],
+	"who": [
+		"秦野市の国民健康保険加入者"
+	],
+	"why": "被保険者数の減少や1人当たり医療費の増加などで財源不足が見込まれることと、子ども・子育て支援金制度の創設に伴い納付金を国民健康保険税に含めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.855Z",
+		"inputTokens": 16577,
+		"cachedTokens": 0,
+		"outputTokens": 2257,
+		"reasoningTokens": 1720,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.855Z",
+		"checkedAt": "2026-10-10T07:29:38.590Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率0.29%、均等割額1,150円、18歳以上の均等割額50円、平等割額1,000円を設定し、18歳未満の均等割額を減額する",
+				"note": "第16条第1項では、所得に応じた既存の均等割・平等割の減額額を引き上げ、新設の納付金分にも7割・5割・2割の減額を設けています。この変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割率0.29%、均等割額1,150円、18歳以上の均等割額50円、平等割額1,000円を設定し、18歳未満の均等割額を減額する",
+				"note": "第16条第3項の改正により、新設の納付金分の所得割額・被保険者均等割額も産前産後期間の減額対象になります。この変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 16807,
+			"cachedTokens": 0,
+			"outputTokens": 505,
+			"reasoningTokens": 201,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fe18d21ce8a4b14b",
+		"name": "Raises National Health Insurance tax and adds a new contribution",
+		"official": "Regarding the Partial Amendment of the Hadano City National Health Insurance Tax Ordinance",
+		"summary": "Raises the tax rates and amounts for the medical benefits portion, the support contribution portion for people in the latter stage of old age, and the long-term care contribution portion. In addition, from April 2026, it establishes a new child and childcare support contribution portion, setting an income-based rate of 0.29%, an insured-person per-capita amount of ¥1,150, a per-capita amount of ¥50 for people aged 18 and over, and a per-household amount of ¥1,000. It reduces the per-capita amount for this contribution portion for insured people under 18. The amended provisions will apply from fiscal year 2026.",
+		"changes": [
+			"Raises the income-based rate for the medical benefits portion from 7.24% to 7.69%, the per-capita amount from ¥25,100 to ¥26,500, and the per-household amount from ¥22,500 to ¥23,700",
+			"Raises the income-based rate for the support contribution portion for people in the latter stage of old age from 2.84% to 3.15%, the per-capita amount from ¥9,200 to ¥10,000, and the per-household amount from ¥8,100 to ¥8,800",
+			"Raises the income-based rate for the long-term care contribution portion from 2.85% to 3.15%, the per-capita amount from ¥10,600 to ¥11,600, and the per-household amount from ¥6,100 to ¥6,700",
+			"Establishes a child and childcare support contribution portion, setting an income-based rate of 0.29%, an insured-person per-capita amount of ¥1,150, a per-capita amount of ¥50 for people aged 18 and over, and a per-household amount of ¥1,000, and reduces the per-capita amount for people under 18"
+		],
+		"who": [
+			"National Health Insurance enrollees in Hadano City"
+		],
+		"why": "The city says this is because a funding shortfall is expected due to factors such as a decline in the number of insured people and an increase in medical expenses per person, and because the contribution will be included in National Health Insurance tax following the creation of the child and childcare support contribution system.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.040Z",
+			"inputTokens": 973,
+			"cachedTokens": 0,
+			"outputTokens": 1001,
+			"reasoningTokens": 461,
+			"batch": true
+		}
+	}
+}

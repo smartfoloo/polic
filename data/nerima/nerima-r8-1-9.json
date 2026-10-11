@@ -1,0 +1,83 @@
+{
+	"id": "nerima-r8-1-9",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第9号",
+	"official": "練馬区介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "医療・高齢者等特別委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-05",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "令和8年度の保険料算定に特例を設ける",
+	"category": "福祉",
+	"summary": "介護保険法施行令の一部改正に伴い、令和8年度の介護保険料率を算定する際の所得額の算定方法などに特例を設けます。施行日は令和8年4月1日です。",
+	"changes": [
+		"令和8年度の保険料率算定に使う所得額の算定方法などに特例を設ける"
+	],
+	"who": [
+		"介護保険料を納める人"
+	],
+	"why": "介護保険法施行令の一部改正に伴うためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.880Z",
+		"inputTokens": 1049,
+		"cachedTokens": 0,
+		"outputTokens": 564,
+		"reasoningTokens": 364,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.880Z",
+		"checkedAt": "2026-10-10T07:29:38.671Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 912,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ceeeb9892bc77399",
+		"name": "Sets special rules for calculating insurance premiums for FY2026",
+		"official": "Ordinance Partially Amending the Nerima City Long-Term Care Insurance Ordinance",
+		"summary": "Following a partial amendment to the Order for Enforcement of the Long-Term Care Insurance Act, special rules will be set for calculating income and other items used to calculate long-term care insurance premium rates for FY2026. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Sets special rules for calculating income and other items used to calculate premium rates for FY2026"
+		],
+		"who": [
+			"People who pay long-term care insurance premiums"
+		],
+		"why": "The ward says this is because of a partial amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.069Z",
+			"inputTokens": 606,
+			"cachedTokens": 0,
+			"outputTokens": 409,
+			"reasoningTokens": 223,
+			"batch": true
+		}
+	}
+}

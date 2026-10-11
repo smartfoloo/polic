@@ -1,0 +1,94 @@
+{
+	"id": "bunkyo-r8-2-75",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第75号",
+	"official": "文京区男女平等センター条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第75号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "男女平等センターの各室使用料を引き下げ",
+	"category": "税・手数料",
+	"summary": "男女平等センターの研修室A、和室、会議室、保育室には、部屋ごとに使用料が定められています。この議案で各室の使用料を引き下げ、改正条例は2026年4月1日に施行し、新料金は2026年6月1日以後の使用分に適用します。",
+	"changes": [
+		"研修室Aの使用料を5,900円・6,700円・19,300円から5,800円・6,600円・19,000円に改める",
+		"和室1・和室2の使用料を1,200円・2,700円から1,100円・2,600円に改める",
+		"会議室の使用料を1,200円・1,400円・4,000円から800円・1,000円・2,800円に改める",
+		"保育室の使用料を1,200円・1,500円・4,200円から700円・1,000円・2,700円に改める"
+	],
+	"who": [
+		"男女平等センターの各室を利用する人や団体"
+	],
+	"why": "男女平等センターの改修に伴い、使用料を改定するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.830Z",
+		"inputTokens": 1400,
+		"cachedTokens": 0,
+		"outputTokens": 1139,
+		"reasoningTokens": 807,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.830Z",
+		"checkedAt": "2026-10-10T07:29:38.528Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1434,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8602a46bc67e5f12",
+		"name": "Lowers room fees at the Gender Equality Center",
+		"official": "Ordinance Partially Amending the Bunkyo City Gender Equality Center Ordinance",
+		"summary": "The Gender Equality Center sets a separate fee for each room: Training Room A, the Japanese-style rooms, the meeting room and the childcare room. This bill lowers the fees for all rooms. The amended ordinance will take effect on April 1, 2026, and the new fees will apply to use on or after June 1, 2026.",
+		"changes": [
+			"Changes the fee for Training Room A from ¥5,900, ¥6,700 and ¥19,300 to ¥5,800, ¥6,600 and ¥19,000",
+			"Changes the fees for Japanese-style Rooms 1 and 2 from ¥1,200 and ¥2,700 to ¥1,100 and ¥2,600",
+			"Changes the meeting room fee from ¥1,200, ¥1,400 and ¥4,000 to ¥800, ¥1,000 and ¥2,800",
+			"Changes the childcare room fee from ¥1,200, ¥1,500 and ¥4,200 to ¥700, ¥1,000 and ¥2,700"
+		],
+		"who": [
+			"People and organizations that use the rooms at the Gender Equality Center"
+		],
+		"why": "The ward says it is revising the fees in connection with renovations to the Gender Equality Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.019Z",
+			"inputTokens": 766,
+			"cachedTokens": 0,
+			"outputTokens": 788,
+			"reasoningTokens": 461,
+			"batch": true
+		}
+	}
+}

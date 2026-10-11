@@ -1,0 +1,48 @@
+{
+	"id": "sagamihara-r8-6-81",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第81号",
+	"official": "相模原市立けやき体育館条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "民生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第81号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "けやき体育館の体育室料金を引き上げ",
+	"category": "健康・医療",
+	"summary": "けやき体育館の体育室を1日（9時から22時まで）専用利用する料金は、現在、半面が10,950円、全面が21,900円です。この議案で、それぞれ14,200円、28,400円に改めます。改定後の料金は、令和9年7月1日以後の利用分から適用されます。",
+	"changes": [
+		"体育室の半面利用料金を10,950円から14,200円に上げる",
+		"体育室の全面利用料金を21,900円から28,400円に上げる"
+	],
+	"who": [
+		"けやき体育館の体育室を専用利用する人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づく使用料等の見直しに伴う改定のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.844Z",
+		"inputTokens": 1555,
+		"cachedTokens": 0,
+		"outputTokens": 839,
+		"reasoningTokens": 605,
+		"batch": true
+	}
+}

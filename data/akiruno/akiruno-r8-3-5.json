@@ -59,5 +59,31 @@
 			"outputTokens": 201,
 			"reasoningTokens": 186
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "99b32434d6e4a2e0",
+		"name": "Reviews how notices of hearings and opportunities to explain are given",
+		"official": "Ordinance Partially Amending the Akiruno City Administrative Procedure Ordinance",
+		"summary": "Notices about hearings and opportunities to explain are currently required to be posted on the city’s notice board. After the amendment, the matters to be publicly announced will be made viewable by the general public using methods prescribed by rules. The notice contents will be viewable either on the city’s notice board or on an electronic screen inside city hall. The notice will be deemed to have reached the person two weeks after public notice begins. This ordinance takes effect on May 21, 2026.",
+		"changes": [
+			"Make the matters to be publicly announced viewable by the general public using methods prescribed by rules",
+			"Post the matters in writing or make them viewable on an electronic screen inside city hall",
+			"Deem the notice to have reached the person two weeks after the public-notice measures begin"
+		],
+		"who": [
+			"People who are to receive notice by public notice"
+		],
+		"why": "The city says it is necessary to establish a method for giving public notice of notices about hearings and opportunities to explain following amendments to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:15:10.859Z",
+			"inputTokens": 737,
+			"cachedTokens": 0,
+			"outputTokens": 679,
+			"reasoningTokens": 401
+		}
 	}
 }

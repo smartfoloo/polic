@@ -1,0 +1,104 @@
+{
+	"id": "samukawa-r8-3-18",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第18号",
+	"official": "寒川町消防団員等公務災害補償条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会3月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第18号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603_gian18.pdf",
+			"fetchedAt": "2026-10-10T14:58:12.559Z"
+		}
+	],
+	"name": "消防団員などの公務災害補償額を改定",
+	"category": "福祉",
+	"summary": "条例では、非常勤消防団員などへの公務災害補償の基礎額を定めています。この議案は、補償基礎額と扶養親族分の加算額を改め、消防団員の階級・勤務年数ごとの額を引き上げます。令和8年4月1日施行で、支給事由や年金の対象期間に応じた経過措置があります。",
+	"changes": [
+		"消防作業従事者等の補償基礎額を日額9,700円から10,000円にし、増額上限を14,500円から15,000円にする",
+		"扶養親族の区分を組み替え、補償基礎額への加算を第1号の対象者は1人433円、第2号から第5号は1人217円とする",
+		"団長・副団長の額を勤務年数順に12,900円・13,700円・14,500円から13,340円・14,170円・15,000円に改める",
+		"分団長・副分団長は11,300円・12,100円・12,900円から11,670円・12,500円・13,340円に、部長・班長・団員は9,700円・10,500円・11,300円から10,000円・10,840円・11,670円に改める"
+	],
+	"who": [
+		"非常勤消防団員とその扶養親族",
+		"消防作業従事者等とその扶養親族"
+	],
+	"why": "非常勤消防団員等に係る損害補償の基準を定める政令の一部改正に伴って必要な措置を講じるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.011Z",
+		"inputTokens": 3857,
+		"cachedTokens": 0,
+		"outputTokens": 3153,
+		"reasoningTokens": 2694,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.011Z",
+		"checkedAt": "2026-10-10T15:07:29.922Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "扶養親族の区分を組み替え、補償基礎額への加算を第1号の対象者は1人433円、第2号から第5号は1人217円とする",
+				"note": "原文では第5条第3項第1号の配偶者（事実婚を含む）を削除し、扶養親族の加算対象から外しています。「区分を組み替え」だけでは、この対象者に直接関わる変更が示されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4021,
+			"cachedTokens": 0,
+			"outputTokens": 179,
+			"reasoningTokens": 29,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "509b0d1c38546902",
+		"name": "Revises work-related accident compensation for fire brigade members and others",
+		"official": "Ordinance Partially Amending the Samukawa Town Ordinance on Compensation for Work-Related Accidents of Fire Brigade Members, etc.",
+		"summary": "The ordinance sets the base amounts used to calculate work-related accident compensation for part-time fire brigade members and others. This bill revises the compensation base amounts and the additional amounts for dependents, and raises the amounts for fire brigade members according to rank and years of service. It takes effect on April 1, 2026. Transitional measures apply depending on the reason for payment and the period covered by a pension.",
+		"changes": [
+			"Raises the daily base compensation amount for people engaged in firefighting operations, etc. from ¥9,700 to ¥10,000, and the cap on the increase from ¥14,500 to ¥15,000",
+			"Reorganizes the categories of dependents and sets the addition to the compensation base amount at ¥433 per eligible person in category 1 and ¥217 per person in categories 2 through 5",
+			"Changes the amounts for fire brigade chiefs and deputy chiefs, in order of years of service, from ¥12,900, ¥13,700 and ¥14,500 to ¥13,340, ¥14,170 and ¥15,000",
+			"Changes the amounts for branch chiefs and deputy branch chiefs from ¥11,300, ¥12,100 and ¥12,900 to ¥11,670, ¥12,500 and ¥13,340; changes the amounts for department chiefs, squad leaders and members from ¥9,700, ¥10,500 and ¥11,300 to ¥10,000, ¥10,840 and ¥11,670"
+		],
+		"who": [
+			"Part-time fire brigade members and their dependents",
+			"People engaged in firefighting operations, etc., and their dependents"
+		],
+		"why": "The town says the measure is needed to respond to a partial amendment to the government order that sets standards for compensation for damage suffered by part-time fire brigade members and others while performing their duties.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.863Z",
+			"inputTokens": 902,
+			"cachedTokens": 0,
+			"outputTokens": 1292,
+			"reasoningTokens": 830,
+			"batch": true
+		}
+	}
+}

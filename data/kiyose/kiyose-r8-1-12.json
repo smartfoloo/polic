@@ -1,0 +1,43 @@
+{
+	"id": "kiyose-r8-1-12",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第12号",
+	"official": "清瀬市特定乳児等通園支援事業の運営に関する基準を定める条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-16",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/950/r8.1.shicyougian.zenbu0316.pdf",
+			"fetchedAt": "2026-10-10T14:41:36.069Z"
+		}
+	],
+	"name": "こども誰でも通園制度の運営基準を定める",
+	"category": "子育て",
+	"summary": "法改正により、こども誰でも通園制度は全自治体で導入され、令和8年4月1日から本格実施となります。この条例で、特定乳児等通園支援事業の運営基準を内閣府令が定める基準とします。",
+	"changes": [
+		"特定乳児等通園支援事業の運営基準を内閣府令の基準とする"
+	],
+	"who": [
+		"特定乳児等通園支援事業を行う事業者",
+		"同事業を利用する子どもと保護者"
+	],
+	"why": "法改正により、こども誰でも通園制度が全自治体で導入され、令和8年4月1日から本格実施となるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.818Z",
+		"inputTokens": 1135,
+		"cachedTokens": 0,
+		"outputTokens": 904,
+		"reasoningTokens": 676,
+		"batch": true
+	}
+}

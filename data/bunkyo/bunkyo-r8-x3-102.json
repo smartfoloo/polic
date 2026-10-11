@@ -1,0 +1,38 @@
+{
+	"id": "bunkyo-r8-x3-102",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第102号",
+	"official": "文京区特別区税条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年3月臨時議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年3月臨時議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080331.pdf",
+			"fetchedAt": "2026-10-08T10:53:30.183Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "9b8c7da3f890fe36",
+		"official": "Ordinance Partially Amending the Bunkyo City Special Ward Tax Ordinance, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.507Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 183,
+			"reasoningTokens": 148,
+			"batch": true
+		}
+	}
+}

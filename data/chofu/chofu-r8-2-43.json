@@ -73,5 +73,32 @@
 			"outputTokens": 352,
 			"reasoningTokens": 154
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aabb854540c3ae7b",
+		"name": "Adds building restrictions in Fujimicho 3-chome district",
+		"official": "Ordinance Partially Amending the Chofu City Ordinance on Restrictions on Buildings within District Planning Areas",
+		"summary": "The district development plan area in the Fujimicho 3-chome district is currently covered by the ordinance. This bill adds a new area and sets restrictions on wall locations and building heights in Residential District B and the Educational and Research Facilities District. The ordinance will take effect on the date of promulgation.",
+		"changes": [
+			"Add a new district development plan area to the areas covered by the ordinance, and update the residential district name, plan map, and public notice number",
+			"Require the No. 3 and No. 4 wall lines shown on Plan Map 3 in Residential District B to be at least 2m from the road boundary line",
+			"Require the No. 5 and No. 7 wall lines in the Educational and Research Facilities District to be at least 2m from the road boundary line, the No. 6 wall line to be at least 4m from the adjoining land boundary line, and the No. 8 wall line to be at least 3.5m from the road boundary line",
+			"Limit building height in the Educational and Research Facilities District to 10m in Area A and 37.5m in Area B; also limit the height of each part to no more than 1.25 times the distance plus 5m if the horizontal distance in the true north direction to the boundary line is 8m or less, or 0.6 times the distance minus 8m, plus 15m if the distance is more than 8m"
+		],
+		"who": [
+			"People and businesses building in the covered areas of the Fujimicho 3-chome district"
+		],
+		"why": "The city says this is to add a new district development plan area to the areas covered by the ordinance following a change to the urban planning for the district plan in the Fujimicho 3-chome district, and to set building restrictions for that area.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:18:34.700Z",
+			"inputTokens": 862,
+			"cachedTokens": 0,
+			"outputTokens": 1178,
+			"reasoningTokens": 717
+		}
 	}
 }

@@ -1,0 +1,89 @@
+{
+	"id": "kokubunji-r8-1-24",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第24号",
+	"official": "国分寺市乳児等通園支援事業の設備及び運営の基準に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "通園支援事業の設備・職員基準を改める",
+	"category": "子育て",
+	"summary": "市の条例では、乳児等通園支援事業の設備や職員に関する基準を定めています。この議案では、国の基準改正に合わせて、基準の特例に関する規定を整え、文言を整理します。",
+	"changes": [
+		"設備や職員の基準の特例に関する規定を整える",
+		"条例の文言を整理する"
+	],
+	"who": [
+		"乳児等通園支援事業を行う事業者"
+	],
+	"why": "国の基準改正に伴い、特例規定の整備と文言の整理が必要なためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.876Z",
+		"inputTokens": 1074,
+		"cachedTokens": 0,
+		"outputTokens": 704,
+		"reasoningTokens": 516,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.876Z",
+		"checkedAt": "2026-10-10T07:29:38.659Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 962,
+			"cachedTokens": 0,
+			"outputTokens": 40,
+			"reasoningTokens": 26,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8f4db57937247b58",
+		"name": "Revises equipment and staffing standards for infant and other childcare attendance support programs",
+		"official": "Ordinance Partially Amending the Kokubunji City Ordinance on Standards for the Facilities and Operation of the Infant and Other Childcare Attendance Support Program",
+		"summary": "The city ordinance sets standards for the facilities and staff of the Infant and Other Childcare Attendance Support Program. This bill aligns the ordinance with revisions to national standards by updating provisions on exceptions to the standards and clarifying the wording.",
+		"changes": [
+			"Update provisions on exceptions to equipment and staffing standards and clarify the ordinance's wording"
+		],
+		"who": [
+			"Operators of infant and other childcare attendance support programs"
+		],
+		"why": "The city says the provisions on exceptions need to be updated and the wording clarified because national standards have been revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.064Z",
+			"inputTokens": 638,
+			"cachedTokens": 0,
+			"outputTokens": 870,
+			"reasoningTokens": 678,
+			"batch": true
+		}
+	}
+}

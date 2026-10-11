@@ -1,0 +1,38 @@
+{
+	"id": "akishima-r8-3-72",
+	"assembly": "tokyo/akishima",
+	"approved": false,
+	"number": "議案第72号",
+	"official": "地方自治法の一部を改正する法律の施行に伴う関係条例の整理に関する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-07",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案等の議決結果",
+			"url": "https://www.city.akishima.lg.jp/gikai/honkaigi/1006709/1011604/1012440.html",
+			"fetchedAt": "2026-10-08T10:56:13.358Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "7901d3d03fd46945",
+		"official": "Ordinance on the Coordination of Related Ordinances in Connection with the Enforcement of the Act Partially Amending the Local Autonomy Act",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.505Z",
+			"inputTokens": 391,
+			"cachedTokens": 0,
+			"outputTokens": 236,
+			"reasoningTokens": 194,
+			"batch": true
+		}
+	}
+}

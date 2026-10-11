@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0ef4593798677255",
+		"name": "Sets the number of employees at 3,603",
+		"official": "Ordinance Partially Amending the Itabashi City Employee Quota Ordinance",
+		"summary": "The number of employees for the ward is set by ordinance. This bill revises the quotas for each department and other bodies, setting the total at 3,603. The revised quotas will take effect on April 1, 2026.",
+		"changes": [
+			"Sets the quota for the ward mayor's administrative departments at 3,248 (including 380 for welfare offices)",
+			"Sets the quota for the assembly's administrative department at 18 and the Board of Education's administrative department at 216",
+			"Sets the quota for school employees at 99 (including 6 kindergarten teachers), the administrative departments of the Election Administration Commission and the Audit Committee at 11 each, and the total at 3,603"
+		],
+		"who": [],
+		"why": "The ward says this is necessary to revise the employee quota.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:35.043Z",
+			"inputTokens": 661,
+			"cachedTokens": 0,
+			"outputTokens": 594,
+			"reasoningTokens": 365
+		}
 	}
 }

@@ -83,5 +83,33 @@
 			"outputTokens": 531,
 			"reasoningTokens": 207
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "79da471a8257f257",
+		"name": "Sets operating standards for specified infant and child attendance support services",
+		"official": "Ota City Ordinance Establishing Standards for the Operation of Specified Infant and Other Child Attendance Support Services",
+		"summary": "This ordinance sets operating standards for specified infant and other child attendance support services. It requires providers to set capacity limits, hold an interview before a child’s first use, explain costs, respond to accidents, and so on. It also requires them to keep service records and other records for five years from the date the matter is completed.",
+		"changes": [
+			"Set capacity limits per hour and per month",
+			"Hold an interview before the first service, explain important matters such as operations and costs, and obtain consent",
+			"Set the costs that may be charged to parents and the procedures for explaining them and obtaining consent",
+			"Keep service records and records of complaints, accidents, and other matters for five years from the date the matter is completed"
+		],
+		"who": [
+			"Children and parents using specified infant and other child attendance support services",
+			"Providers of specified infant and other child attendance support services"
+		],
+		"why": "The ward says it is necessary to set operating standards for the service following amendments to the Child and Childcare Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:09:00.613Z",
+			"inputTokens": 739,
+			"cachedTokens": 0,
+			"outputTokens": 707,
+			"reasoningTokens": 428
+		}
 	}
 }

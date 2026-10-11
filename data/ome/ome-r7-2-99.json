@@ -33,6 +33,7 @@
 	],
 	"who": [
 		"介護保険の第1号被保険者で、令和7年の給与収入が551,000円以上190万円未満の人",
+		"世帯主や世帯員の給与収入などが所定の条件に当てはまる世帯の第1号被保険者",
 		"介護保険料の減免に関係する人"
 	],
 	"why": "介護保険法施行令の改正に伴い、令和8年度の保険料算定に特例を加え、減免の規定を改めるためと、市は説明しています。",
@@ -40,40 +41,74 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:10:28.914Z",
+		"generatedAt": "2026-10-08T23:26:19.235Z",
 		"inputTokens": 4855,
 		"cachedTokens": 0,
 		"outputTokens": 1909,
-		"reasoningTokens": 1601
+		"reasoningTokens": 1601,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:26:19.235Z",
+			"notes": [
+				"ai [check] who/fact: 「介護保険の第1号被保険者で、令和7年の給与収入が551,000円以上190万円未満の人」 → 付則第11条第1項では、世帯主・世帯員が条件に該当する場合も第1号被保険者の保険料算定に関わります。対象は本人の給与収入がこの範囲にある人だけではありません。"
+			],
+			"inputTokens": 5351,
+			"cachedTokens": 1025,
+			"outputTokens": 1166,
+			"reasoningTokens": 822
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:10:28.914Z",
-		"checkedAt": "2026-10-08T05:42:06.713Z",
+		"draftAt": "2026-10-08T23:26:19.235Z",
+		"checkedAt": "2026-10-08T23:26:25.199Z",
 		"flags": [],
 		"issues": [
-			{
-				"field": "who",
-				"kind": "fact",
-				"severity": "check",
-				"quote": "介護保険の第1号被保険者で、令和7年の給与収入が551,000円以上190万円未満の人",
-				"note": "付則第11条第1項では、世帯主・世帯員が条件に該当する場合も第1号被保険者の保険料算定に関わります。対象は本人の給与収入がこの範囲にある人だけではありません。"
-			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "保険料の減免に関する規定を改める",
-				"note": "第9条では「その納付すべき保険料を納付することができない」を「、必要がある」に改めています。減免の判断要件を変更する具体的な内容が抜けています。"
+				"note": "原文第9条では、減免に関する文言を「その納付すべき保険料を納付することができない」から「、必要がある」に改めています。減免の判断条件に関わる具体的な変更が抜けています。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 4832,
+			"inputTokens": 4868,
 			"cachedTokens": 0,
-			"outputTokens": 431,
-			"reasoningTokens": 216
+			"outputTokens": 234,
+			"reasoningTokens": 99
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d05f8aac60e34f4c",
+		"name": "Adds a special rule for calculating long-term care insurance premiums",
+		"official": "Ordinance Partially Amending the Ome City Long-Term Care Insurance Ordinance",
+		"summary": "The current ordinance sets out how long-term care insurance premiums are calculated and reduced or exempted. This bill introduces a special rule for calculating premiums for FY2026 based on salary earnings, and revises the provisions on reductions and exemptions.",
+		"changes": [
+			"Adjusts the income amount used to calculate premiums under a special rule based on salary earnings",
+			"Treats some people who are not subject to resident tax as if they were subject to it when calculating the premium rate",
+			"Revises the provisions on reductions and exemptions of premiums"
+		],
+		"who": [
+			"Category 1 insured persons under long-term care insurance with salary earnings in 2025 of ¥551,000 or more and less than ¥1.9 million",
+			"Category 1 insured persons in households where the householder’s or household members’ salary earnings, among other factors, meet specified conditions",
+			"People concerned with reductions or exemptions of long-term care insurance premiums"
+		],
+		"why": "The city says this is to add a special rule for calculating premiums for FY2026 and revise the provisions on reductions and exemptions following an amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:00:36.883Z",
+			"inputTokens": 749,
+			"cachedTokens": 0,
+			"outputTokens": 977,
+			"reasoningTokens": 675
 		}
 	}
 }

@@ -41,32 +41,71 @@
 		"満3歳以上限定小規模保育事業を利用する、または申し込む子どもの保護者",
 		"満3歳以上限定小規模保育事業を運営する事業者"
 	],
-	"why": "児童福祉法の改正に伴って内閣府令の基準が改められたため、条例の規定を整えると市は説明しています。",
+	"why": "児童福祉法の一部改正に伴い、内閣府令で定める基準が改正されたため、条例の規定を整備するためと、市は説明しています。",
 	"draft": {
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:47:09.923Z",
+		"generatedAt": "2026-10-08T23:22:40.508Z",
 		"inputTokens": 6917,
 		"cachedTokens": 0,
 		"outputTokens": 1359,
-		"reasoningTokens": 1034
+		"reasoningTokens": 1034,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:22:40.508Z",
+			"notes": [
+				"code: reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+			],
+			"inputTokens": 7412,
+			"cachedTokens": 1025,
+			"outputTokens": 835,
+			"reasoningTokens": 472
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:47:09.923Z",
-		"checkedAt": "2026-10-08T05:33:11.274Z",
-		"flags": [
-			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
-		],
+		"draftAt": "2026-10-08T23:22:40.508Z",
+		"checkedAt": "2026-10-08T23:22:47.607Z",
+		"flags": [],
 		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 6949,
+			"inputTokens": 6955,
 			"cachedTokens": 0,
-			"outputTokens": 244,
-			"reasoningTokens": 230
+			"outputTokens": 184,
+			"reasoningTokens": 169
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "398c416011d19959",
+		"name": "Adds standards for small-scale childcare limited to children aged 3 and over",
+		"official": "Bill to Partially Amend the Kunitachi City Ordinance on Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses",
+		"summary": "The city's ordinance sets operating standards for specified education and childcare facilities and community-based childcare businesses. In line with revisions to standards in a Cabinet Office Ordinance following an amendment to the Child Welfare Act, this bill defines small-scale childcare for children aged 3 and over and adds rules on capacity, selection, affiliated facilities, and other matters.",
+		"changes": [
+			"Creates a category for small-scale childcare limited to children aged 3 and over",
+			"Sets the capacity and application selection method for these childcare businesses",
+			"Waives some cooperation requirements for securing affiliated facilities",
+			"Sets standards for providing special-use community-based childcare to children certified for education"
+		],
+		"who": [
+			"Parents or guardians of children who use or apply to use small-scale childcare limited to children aged 3 and over",
+			"Providers of small-scale childcare limited to children aged 3 and over"
+		],
+		"why": "The city says the ordinance's provisions need to be updated because the standards set out in a Cabinet Office Ordinance were revised following a partial amendment to the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:25.275Z",
+			"inputTokens": 791,
+			"cachedTokens": 0,
+			"outputTokens": 814,
+			"reasoningTokens": 516
 		}
 	}
 }

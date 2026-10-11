@@ -1,0 +1,95 @@
+{
+	"id": "kanagawa-r8-1-33",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第33号議案",
+	"official": "神奈川県県営住宅条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第33号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "特別警戒区域からの移転者に入居特例を設ける",
+	"category": "住宅",
+	"summary": "改正により、土砂災害特別警戒区域内の住宅を所有して住む人の入居資格に特例を設けます。区域外に住宅を所有していない人が対象です。入居後に元の居住地域が区域指定から外れ、その住宅を所有している場合は県営住宅を明け渡すことになります。知事が適当でないと認める場合は入居者負担費用の一部または全部を免除でき、条例は令和8年10月1日に施行されます。",
+	"changes": [
+		"土砂災害特別警戒区域内の住宅を所有して住み、区域外に住宅を持たない人に入居資格の特例を設ける",
+		"元の居住地域が区域指定から外れ、元の住宅を所有する入居者を県営住宅の明渡し対象に加える",
+		"知事が適当でないと認める場合、入居者負担費用の一部または全部を負担させないことができる"
+	],
+	"who": [
+		"土砂災害特別警戒区域内の住宅を所有して住む人（区域外に住宅を所有する人を除く）",
+		"県営住宅の入居者"
+	],
+	"why": "土砂災害特別警戒区域から安全な地域への移転を促すためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.545Z",
+		"inputTokens": 1916,
+		"cachedTokens": 0,
+		"outputTokens": 2515,
+		"reasoningTokens": 2115,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.545Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「現在の条例には、土砂災害特別警戒区域内の住宅を所有して住む人を対象とする入居資格の特例はありません。」 → 原文は特例の新設を示していますが、現行条例の全文はなく、既存の特例がないことまでは確認できません。"
+			],
+			"inputTokens": 2482,
+			"cachedTokens": 1025,
+			"outputTokens": 698,
+			"reasoningTokens": 308,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.864Z",
+		"checkedAt": "2026-10-10T07:29:38.617Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在の条例には、土砂災害特別警戒区域内の住宅を所有して住む人を対象とする入居資格の特例はありません。",
+				"note": "原文は特例の新設を示していますが、現行条例の全文はなく、既存の特例がないことまでは確認できません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "元の居住地域が区域指定から外れ、元の住宅を所有する入居者を県営住宅の明渡し対象に加える",
+				"note": "新たな明渡し対象の追加とは別に、既存の第8条第4項の明渡し通知にも、元の住宅を現に所有している場合という条件を加える変更が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1992,
+			"cachedTokens": 0,
+			"outputTokens": 470,
+			"reasoningTokens": 260,
+			"batch": true
+		}
+	}
+}

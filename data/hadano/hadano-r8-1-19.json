@@ -1,0 +1,84 @@
+{
+	"id": "hadano-r8-1-19",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第19号",
+	"official": "秦野市住宅新築等資金借入金償還準備基金の設置、管理及び処分に関する条例を廃止することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第19号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg19.pdf",
+			"fetchedAt": "2026-10-08T11:24:23.023Z"
+		}
+	],
+	"name": "住宅資金の償還準備基金を廃止",
+	"category": "行政のしくみ",
+	"summary": "住宅新築などの資金を貸し付けるために借りたお金の返済に備え、基金を設ける条例があります。借入金の返済が2025年度末に完了するため、条例を廃止し、基金を2026年4月1日に廃止します。",
+	"changes": [
+		"住宅新築等資金借入金償還準備基金の条例を廃止する"
+	],
+	"who": [],
+	"why": "借入金の償還が2025年度末に完了するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.856Z",
+		"inputTokens": 3796,
+		"cachedTokens": 0,
+		"outputTokens": 682,
+		"reasoningTokens": 495,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.856Z",
+		"checkedAt": "2026-10-10T07:29:38.597Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3649,
+			"cachedTokens": 0,
+			"outputTokens": 58,
+			"reasoningTokens": 43,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d507b786d1b448f9",
+		"name": "Abolishes the housing loan repayment reserve fund",
+		"official": "Ordinance on the Establishment, Management, and Disposal of the Hadano City Reserve Fund for Repayment of Loans for Housing Construction and Other Purposes",
+		"summary": "An ordinance establishes a fund to prepare for repaying money borrowed to lend for housing construction and other purposes. Repayment of the borrowed money will be completed at the end of fiscal year 2025, so the ordinance will be repealed and the fund will be abolished on April 1, 2026.",
+		"changes": [
+			"Repeals the ordinance establishing the reserve fund for repayment of loans for housing construction and other purposes"
+		],
+		"who": [],
+		"why": "The city says this is because repayment of the borrowed money will be completed at the end of fiscal year 2025.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.041Z",
+			"inputTokens": 613,
+			"cachedTokens": 0,
+			"outputTokens": 551,
+			"reasoningTokens": 358,
+			"batch": true
+		}
+	}
+}

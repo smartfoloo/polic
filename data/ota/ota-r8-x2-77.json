@@ -55,5 +55,27 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "935960241c654681",
+		"name": "Repeals the ordinance on special measures for public works",
+		"official": "Ordinance to Repeal the Ordinance on Special Measures Concerning Public Works in Ota City",
+		"summary": "Ota City has an ordinance setting out special measures concerning public works. This bill repeals that ordinance. The repeal takes effect on the date of promulgation.",
+		"changes": [
+			"Repeals the ordinance setting out special measures concerning public works"
+		],
+		"who": [],
+		"why": "The ward says this is to repeal the provisions on special measures concerning public works.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:09:28.251Z",
+			"inputTokens": 575,
+			"cachedTokens": 0,
+			"outputTokens": 245,
+			"reasoningTokens": 106
+		}
 	}
 }

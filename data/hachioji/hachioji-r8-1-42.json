@@ -60,5 +60,32 @@
 			"outputTokens": 43,
 			"reasoningTokens": 28
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "db98bb8dcb0638a3",
+		"name": "Raises facility use fees at Gakuen Toshi Center",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Gakuen Toshi Center Ordinance",
+		"summary": "The ordinance that sets facility use fees and other charges at Gakuen Toshi Center will be amended. From April 1, 2027, the all-day use fees for the event hall, Japanese-style room, and gallery halls will be raised. The cap on extra charges for use beyond opening hours will also be raised.",
+		"changes": [
+			"Raises the all-day use fee for the event hall from ¥62,000 to ¥93,000",
+			"Raises the all-day use fee for the Japanese-style room from ¥3,000 to ¥4,500",
+			"Raises the all-day use fees for Gallery Hall 1 and Gallery Hall 2 from ¥24,000 each to ¥33,200 each",
+			"Raises the cap on extra charges for use beyond opening hours from ¥10,000 to ¥14,000 per hour (from ¥20,000 to ¥28,000 in the case referred to in the preceding paragraph)"
+		],
+		"who": [
+			"People and organizations that use facilities at Gakuen Toshi Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:53:10.003Z",
+			"inputTokens": 702,
+			"cachedTokens": 0,
+			"outputTokens": 799,
+			"reasoningTokens": 508
+		}
 	}
 }

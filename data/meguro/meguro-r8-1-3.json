@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c146c9e660edecf6",
+		"name": "Raises the public utility payment fund to ¥400 million",
+		"official": "Ordinance Partially Amending the Meguro City Public Utility Payment Fund Ordinance",
+		"summary": "The amount of the Meguro City Public Utility Payment Fund set by ordinance is ¥220 million. This bill raises it to ¥400 million and takes effect on April 1, 2026.",
+		"changes": [
+			"Raises the fund amount from ¥220 million to ¥400 million"
+		],
+		"who": [],
+		"why": "The ward says this is to raise the fund amount.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:55:07.713Z",
+			"inputTokens": 558,
+			"cachedTokens": 0,
+			"outputTokens": 410,
+			"reasoningTokens": 272
+		}
 	}
 }

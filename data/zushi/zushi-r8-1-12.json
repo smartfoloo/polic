@@ -1,0 +1,95 @@
+{
+	"id": "zushi-r8-1-12",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第12号",
+	"official": "逗子市火災予防条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1013732.html",
+			"fetchedAt": "2026-10-08T11:21:22.893Z"
+		},
+		{
+			"label": "議案第12号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/732/r8-1t-gian12.pdf",
+			"fetchedAt": "2026-10-08T11:22:10.762Z"
+		}
+	],
+	"name": "簡易サウナ設備に安全基準を追加",
+	"category": "防災",
+	"summary": "現在のサウナ設備の規定を一般サウナ設備として整理し、新たに簡易サウナ設備の区分を設けます。簡易サウナ設備には、建物などからの距離や異常加熱時の対応に関する基準を定めます。条例は2026年3月31日に施行されます。",
+	"changes": [
+		"屋外などに設けるテント型・木製円筒形サウナ室の放熱設備のうち、薪または電気を熱源とし定格出力6kW以下のものを簡易サウナ設備と定める",
+		"簡易サウナ設備は建物などや可燃物から基準以上の距離を保ち、異常加熱時に熱源を遮断する装置を設ける（薪を熱源とする場合は、条件を満たす消火器の設置で例外とする）",
+		"個人が設けるものを除く簡易サウナ設備を条例第44条の対象に加える",
+		"第29条の7第1項第1号の「住宅用防災機器」の後に「感震ブレーカー」の文言を加える"
+	],
+	"who": [
+		"簡易サウナ設備を設ける個人や事業者"
+	],
+	"why": "対象火気設備等の位置、構造、管理などに関する省令の改正に伴い、サウナ設備に関する規定を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.563Z",
+		"inputTokens": 1963,
+		"cachedTokens": 0,
+		"outputTokens": 3101,
+		"reasoningTokens": 2706,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.563Z",
+			"notes": [
+				"ai [error] changes/fact: 「住宅用防災機器に感震ブレーカーを加える」 → 原文は第29条の７第１項第１号の「住宅用防災機器」の次に「、感震ブレーカー」を追加するもので、住宅用防災機器の範囲に含める改正ではありません。"
+			],
+			"inputTokens": 2520,
+			"cachedTokens": 1025,
+			"outputTokens": 671,
+			"reasoningTokens": 257,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.891Z",
+		"checkedAt": "2026-10-10T07:29:38.745Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "住宅用防災機器に感震ブレーカーを加える",
+				"note": "原文は第29条の７第１項第１号の「住宅用防災機器」の次に「、感震ブレーカー」を追加するもので、住宅用防災機器の範囲に含める改正ではありません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "簡易サウナ設備は建物などや可燃物から基準以上の距離を保ち、異常加熱時に熱源を遮断する装置を設ける（薪を熱源とする場合は、条件を満たす消火器の設置で例外とする）",
+				"note": "新設する第７条の２第１項第１号にある、火災予防上安全な距離を保つ必要がない場合の例外が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2024,
+			"cachedTokens": 0,
+			"outputTokens": 524,
+			"reasoningTokens": 285,
+			"batch": true
+		}
+	}
+}

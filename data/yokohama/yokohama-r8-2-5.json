@@ -1,0 +1,90 @@
+{
+	"id": "yokohama-r8-2-5",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第5号議案",
+	"official": "横浜市区民文化センター条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第5号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si05.pdf",
+			"fetchedAt": "2026-10-08T11:04:39.211Z"
+		}
+	],
+	"name": "金沢区民文化センターを設置",
+	"category": "まちづくり",
+	"summary": "条例に金沢区民文化センターを加え、金沢区に設置します。施設の種類や利用料金、指定管理者の選定や業務評価を審議する委員会を定めます。開館は9年度の予定です。",
+	"changes": [
+		"金沢区に区民文化センターを設置し、ギャラリーや音楽向けの多目的室、創作に使う室とスペース、練習室、楽屋などを設ける",
+		"指定管理者の候補者選定や管理業務の評価を調査・審議する委員会を設ける",
+		"ギャラリーは1日につき3,200円（入場料等を徴収しない場合）または4,900円（徴収する場合）とする。音楽多目的室は、徴収しない場合は平日20,500円・日曜、土曜及び休日24,000円、徴収する場合は平日34,500円・日曜、土曜及び休日40,500円とする",
+		"創作室は1日につき平日5,700円・日曜、土曜及び休日6,400円、創作スペースは平日2,600円・日曜、土曜及び休日2,900円とし、練習室3,500円、楽屋2,100円、附帯設備8,000円とする"
+	],
+	"who": [
+		"金沢区民文化センターを利用する人"
+	],
+	"why": "金沢区民文化センターを設置するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.560Z",
+		"inputTokens": 2612,
+		"cachedTokens": 0,
+		"outputTokens": 2982,
+		"reasoningTokens": 2588,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.560Z",
+			"notes": [
+				"code: copied from the source (30 chars): 「ギャラリー、音楽多目的室、創作室、創作スペース、練習室、楽屋」"
+			],
+			"inputTokens": 3161,
+			"cachedTokens": 1025,
+			"outputTokens": 1090,
+			"reasoningTokens": 662,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.887Z",
+		"checkedAt": "2026-10-10T07:29:38.723Z",
+		"flags": [
+			"copied from the source (30 chars): 「ギャラリー、音楽多目的室、創作室、創作スペース、練習室、楽屋」"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "附帯設備8,000円とする",
+				"note": "原文の附帯設備の料金単位は「1式又は1台、1日につき」。設備ごとに料金がかかることを示す単位が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2710,
+			"cachedTokens": 0,
+			"outputTokens": 367,
+			"reasoningTokens": 279,
+			"batch": true
+		}
+	}
+}

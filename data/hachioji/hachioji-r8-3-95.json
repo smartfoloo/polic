@@ -62,5 +62,35 @@
 			"outputTokens": 143,
 			"reasoningTokens": 128
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bbf9b8534e3fb17e",
+		"name": "Changes how compensation amounts for fire brigade members and others are set",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on Compensation for Public-Service Accidents Involving Fire Brigade Members and Others",
+		"summary": "Currently, the basic compensation amount for fire brigade members is set in an attached table to the ordinance according to rank and years of service. For people engaged in firefighting work and others, the basic amount is generally ¥10,000, increasing to up to ¥15,000 depending on income. Funeral compensation includes an additional ¥315,000. After the amendment, these amounts and the additional amounts for dependents will be set by city rules. The ordinance will take effect on the date it is promulgated. Changes to funeral compensation will apply when the reason for payment arises on or after April 1, 2026.",
+		"changes": [
+			"Set the basic compensation amount for fire brigade members at the amount prescribed by city rules",
+			"Set the basic compensation amount for people engaged in firefighting work and others at the amount prescribed by city rules",
+			"Set the additional amount for dependents at the amount prescribed by city rules",
+			"Set the amount added to funeral compensation at the amount prescribed by city rules, instead of ¥315,000"
+		],
+		"who": [
+			"Fire brigade members",
+			"People engaged in firefighting work, emergency services cooperators, flood control workers, and people performing emergency measures",
+			"Dependents",
+			"People arranging funerals"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:57:41.320Z",
+			"inputTokens": 790,
+			"cachedTokens": 0,
+			"outputTokens": 992,
+			"reasoningTokens": 647
+		}
 	}
 }

@@ -61,5 +61,31 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "42213e4def9a8e06",
+		"name": "Changes the reference for the definition of mobile terminal equipment",
+		"official": "Ordinance Partially Amending the Fuchu City Seal Registration Ordinance and the Fuchu City Fees Ordinance",
+		"summary": "The provisions for applying for seal registration certificates at multifunction terminals and the provisions on fees for requesting certificates at terminal devices cite sections of the Telecommunications Business Act to define mobile terminal equipment. This bill changes the cited sections to those in the Act as amended.",
+		"changes": [
+			"Updates the cited section in the provision on applying for seal registration certificates",
+			"Updates the cited section in the provision on fees for requesting certificates at multifunction terminals"
+		],
+		"who": [
+			"People applying for seal registration certificates",
+			"People requesting certificates at multifunction terminals"
+		],
+		"why": "The city says the amendment is being made because the Telecommunications Business Act has been partially amended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:20:00.303Z",
+			"inputTokens": 655,
+			"cachedTokens": 0,
+			"outputTokens": 604,
+			"reasoningTokens": 402
+		}
 	}
 }

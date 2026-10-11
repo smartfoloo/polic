@@ -69,5 +69,33 @@
 			"outputTokens": 397,
 			"reasoningTokens": 272
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b4af398813b861e0",
+		"name": "Reviews staffing and other rules for small-scale childcare",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on Standards for the Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "The standards for home-based childcare services, etc. set requirements such as securing partner facilities and staffing with childcare workers. This bill reviews the categories of small-scale childcare, the facilities it can partner with, and which staff can be counted toward the number of childcare workers. It also requires providers to check workers’ criminal records and other matters to prevent sexual violence against children and other such acts.",
+		"changes": [
+			"Exclude small-scale childcare services limited to children aged 3 and over from the Type B and Type C categories",
+			"Add certain facilities providing small-scale childcare limited to children aged 3 and over as partner facilities",
+			"Allow certain physical therapists and others with specified qualifications or experience to be counted toward the required number of childcare workers, subject to conditions",
+			"Require checks of criminal records and other matters for certain workers whose duties involve contact with children"
+		],
+		"who": [
+			"Children and parents using home-based childcare services, etc.",
+			"Providers of home-based childcare services, small-scale childcare services, etc."
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:56:54.065Z",
+			"inputTokens": 759,
+			"cachedTokens": 0,
+			"outputTokens": 1282,
+			"reasoningTokens": 991
+		}
 	}
 }

@@ -1,0 +1,101 @@
+{
+	"id": "nakano-r8-3-81",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第81号議案",
+	"official": "中野区立小学校及び中学校の学校医、学校歯科医及び学校薬剤師の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "子ども文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121",
+			"fetchedAt": "2026-10-08T15:27:51.872Z"
+		},
+		{
+			"label": "第81号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/269301881.pdf",
+			"fetchedAt": "2026-10-08T15:28:57.692Z"
+		}
+	],
+	"name": "学校医などの公務災害補償額を改定",
+	"category": "福祉",
+	"summary": "条例では、区立小中学校の学校医、学校歯科医、学校薬剤師が公務上の災害にあった場合の補償を定めています。この議案では、介護補償と葬祭補償の額を引き上げ、職種ごとの補償基礎額も改定します。",
+	"changes": [
+		"介護補償の額を85,490円から90,790円、42,700円から45,400円に改める",
+		"葬祭補償の額を315,000円から330,000円に改める",
+		"学校医・学校歯科医の補償基礎額を7,285円から7,640円、8,850円から9,213円に改める",
+		"学校薬剤師の補償基礎額を6,135円から6,400円、7,215円から7,333円に改める"
+	],
+	"who": [
+		"中野区立小中学校の学校医・学校歯科医・学校薬剤師",
+		"補償を受ける遺族"
+	],
+	"why": "公立学校の学校医などの公務災害補償の基準を定める政令の改正に伴い、補償額を改める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:08:03.757Z",
+		"inputTokens": 2171,
+		"cachedTokens": 0,
+		"outputTokens": 1807,
+		"reasoningTokens": 1426
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:08:03.757Z",
+		"checkedAt": "2026-10-09T11:50:04.329Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "介護補償の額を85,490円から90,790円、42,700円から45,400円に改める",
+				"note": "附則第2・3項の遡及適用時期が抜けている。介護・葬祭補償は2026年4月1日以後に支給事由が生じたもの、補償基礎額は2025年4月1日以後に支給事由が生じた補償等に適用され、補償対象者に直接関わる。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2219,
+			"cachedTokens": 0,
+			"outputTokens": 436,
+			"reasoningTokens": 274
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "315be4a7480f6921",
+		"name": "Revises compensation amounts for work-related injuries involving school doctors and others",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation for Work-Related Injuries of School Doctors, School Dentists, and School Pharmacists at Nakano City Municipal Elementary and Junior High Schools",
+		"summary": "The ordinance sets out compensation for school doctors, school dentists, and school pharmacists at Nakano City municipal elementary and junior high schools if they suffer a work-related injury while performing their duties. This bill raises the amounts of care compensation and funeral compensation, and also revises the compensation base amounts for each occupation.",
+		"changes": [
+			"Changes care compensation amounts from ¥85,490 to ¥90,790 and from ¥42,700 to ¥45,400",
+			"Changes the funeral compensation amount from ¥315,000 to ¥330,000",
+			"Changes the compensation base amounts for school doctors and school dentists from ¥7,285 to ¥7,640 and from ¥8,850 to ¥9,213",
+			"Changes the compensation base amounts for school pharmacists from ¥6,135 to ¥6,400 and from ¥7,215 to ¥7,333"
+		],
+		"who": [
+			"School doctors, school dentists, and school pharmacists at Nakano City municipal elementary and junior high schools",
+			"Bereaved family members receiving compensation"
+		],
+		"why": "The ward says the compensation amounts need to be revised following an amendment to the Cabinet Order setting the standards for work-related injury compensation for school doctors and others at public schools.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:54:45.891Z",
+			"inputTokens": 816,
+			"cachedTokens": 0,
+			"outputTokens": 628,
+			"reasoningTokens": 287
+		}
+	}
+}

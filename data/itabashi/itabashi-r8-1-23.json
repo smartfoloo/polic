@@ -64,5 +64,31 @@
 			"outputTokens": 94,
 			"reasoningTokens": 80
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2f0e874243fc2348",
+		"name": "Creates an exception to standards for special-case childcare facilities",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Facilities and Operation of Child Attendance Support Services for Infants and Other Children in Itabashi City, Tokyo",
+		"summary": "The ward's ordinance sets standards for the facilities and operation of services supporting childcare attendance for infants and other children. After the amendment, when a provider offering special-case childcare also provides the general-type service at the same establishment, the facility and staffing standards in Articles 21 and 22 will not apply. The amendment also revises provisions on terminology for establishments and capacity, among other things, and generally takes effect on April 1, 2026.",
+		"changes": [
+			"Exempt providers offering special-case childcare from the facility and staffing standards in Articles 21 and 22 when they provide the general-type service at the same establishment",
+			"Specify that the capacity for use means the capacity set in the confirmation under the Act on Child and Child-rearing Support",
+			"Revise wording in provisions concerning establishments, staff and other matters"
+		],
+		"who": [
+			"Providers that offer special-case childcare and also provide the general-type service at the same establishment"
+		],
+		"why": "The ward says this is to establish an exception to the facility and staffing standards for establishments offering special-case childcare, in response to an amendment to a Cabinet Office Order, and to make necessary adjustments to the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:07:08.012Z",
+			"inputTokens": 806,
+			"cachedTokens": 0,
+			"outputTokens": 1683,
+			"reasoningTokens": 1362
+		}
 	}
 }

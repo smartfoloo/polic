@@ -1,0 +1,90 @@
+{
+	"id": "yokohama-r8-1-117",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第117号議案",
+	"official": "横浜市建築基準条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第117号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si117.pdf",
+			"fetchedAt": "2026-10-08T11:01:50.795Z"
+		}
+	],
+	"name": "火気を使う場所の内装制限を緩和",
+	"category": "まちづくり",
+	"summary": "対象となる木造建築物では、階段の真下に炊事場などを設ける場合、壁や天井などの仕上げと下地を不燃材料にする必要があります。この議案により、規則で定める基準に従い、下地を不燃材料で造る方法に加えて、それに準じる措置も取れるようになります。",
+	"changes": [
+		"火気を使う場所の内装制限を規則で定める基準に従う形にする",
+		"下地を不燃材料で造るほか、それに準じる措置も認める"
+	],
+	"who": [
+		"対象となる用途の木造建築物の所有者や管理者"
+	],
+	"why": "建築基準法施行令の改正の趣旨を踏まえ、火気を使用する場所の内装の制限を緩和するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.884Z",
+		"inputTokens": 1683,
+		"cachedTokens": 0,
+		"outputTokens": 1069,
+		"reasoningTokens": 790,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.694Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1636,
+			"cachedTokens": 0,
+			"outputTokens": 74,
+			"reasoningTokens": 60,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c0e5dafdbd73cd90",
+		"name": "Relaxes interior finish requirements for areas where open flames are used",
+		"official": "Partial Amendment to the Yokohama City Building Standards Ordinance",
+		"summary": "In covered wooden buildings, when a kitchen or similar space is located directly beneath a staircase, the finishes and substrates of walls, ceilings, and similar surfaces must be made of non-combustible materials. Under this bill, in accordance with standards set by regulations, measures equivalent to making the substrate from non-combustible materials will also be allowed.",
+		"changes": [
+			"Set interior finish restrictions for areas where fire is used according to standards set by regulations",
+			"Allow measures equivalent to making the substrate from non-combustible materials"
+		],
+		"who": [
+			"Owners and managers of wooden buildings for the specified uses"
+		],
+		"why": "The city says this is to relax restrictions on interior finishes in areas where fire is used, in line with the purpose of the amendment to the Order for Enforcement of the Building Standards Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.072Z",
+			"inputTokens": 679,
+			"cachedTokens": 0,
+			"outputTokens": 744,
+			"reasoningTokens": 515,
+			"batch": true
+		}
+	}
+}

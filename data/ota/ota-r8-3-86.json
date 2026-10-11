@@ -59,5 +59,31 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d77a056bdb458970",
+		"name": "Revises public funding limits for election flyers and posters",
+		"official": "Ordinance Partially Amending the Ordinance on Public Funding for Election Campaigns in Elections for Ota City Assembly Members and the Mayor of Ota City",
+		"summary": "In elections for Ota City Assembly members and the Mayor of Ota City, limits are set on public funding for producing campaign flyers and posters. This bill raises the limits on the costs of producing flyers and posters. The revised amounts apply to elections announced on or after the effective date.",
+		"changes": [
+			"Raises the public funding limit for flyer production from ¥7.73 to ¥8.38",
+			"Raises the public funding amount for poster production from ¥28.35 to ¥30.73",
+			"Raises the public funding limit for poster production from ¥586,905 to ¥609,690"
+		],
+		"who": [
+			"Candidates in elections for Ota City Assembly members and the Mayor of Ota City"
+		],
+		"why": "The ward says it is revising the limits on public funding for producing flyers and posters in response to amendments to the Order for Enforcement of the Public Offices Election Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:52.511Z",
+			"inputTokens": 776,
+			"cachedTokens": 0,
+			"outputTokens": 878,
+			"reasoningTokens": 615
+		}
 	}
 }

@@ -57,5 +57,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c9660adbde513d46",
+		"name": "Extends the waiver of junior high school lunch fees through FY2026",
+		"official": "Ordinance Partially Amending the Ordinance on School Lunch Fees for Schools Operated by Tachikawa City",
+		"summary": "At present, parents are not charged school lunch fees at Tachikawa City junior high schools for FY2024 and FY2025 only. The period will be extended through FY2026. However, the exemption does not apply to the amount equivalent to any school-lunch-fee benefit received during a period specified by rules.",
+		"changes": [
+			"Adds FY2026 to the period during which lunch fees are not collected"
+		],
+		"who": [
+			"Parents of students who receive school lunches at Tachikawa City junior high schools"
+		],
+		"why": "The city says this is to make school lunch fees at Tachikawa City junior high schools free.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:10:42.433Z",
+			"inputTokens": 630,
+			"cachedTokens": 0,
+			"outputTokens": 1109,
+			"reasoningTokens": 904
+		}
 	}
 }

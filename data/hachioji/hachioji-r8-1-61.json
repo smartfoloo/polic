@@ -76,5 +76,33 @@
 			"outputTokens": 374,
 			"reasoningTokens": 91
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9b3d1d9434fd0ad8",
+		"name": "Revises facility use fees at gymnasiums and other facilities",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Gymnasium Ordinance",
+		"summary": "Facility use fees at Fujimori Gymnasium and Kōnohara Gymnasium will be revised from their current rates. The new rates will apply from April 1, 2027.",
+		"changes": [
+			"Raises the morning exclusive-use fee for the main arena at Fujimori Gymnasium from ¥9,000 to ¥13,500",
+			"Raises the 2-hour exclusive-use fee for the indoor pool at Kōnohara Gymnasium from ¥15,000 to ¥22,500",
+			"Raises the 1-hour indoor pool use fee at Kōnohara Gymnasium from ¥70 to ¥100 for children and from ¥200 to ¥300 for adults",
+			"Raises the per-use fee for the running track in the training room from ¥300 to ¥400"
+		],
+		"who": [
+			"People who use Fujimori Gymnasium",
+			"People who use Kōnohara Gymnasium"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:33.939Z",
+			"inputTokens": 662,
+			"cachedTokens": 0,
+			"outputTokens": 654,
+			"reasoningTokens": 391
+		}
 	}
 }

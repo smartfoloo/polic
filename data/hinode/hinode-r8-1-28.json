@@ -1,0 +1,38 @@
+{
+	"id": "hinode-r8-1-28",
+	"assembly": "tokyo/hinode",
+	"approved": false,
+	"number": "議案第28号",
+	"official": "日の出町特別職の職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-17",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案結果",
+			"url": "https://www.town.hinode.tokyo.jp/0000004700.html",
+			"fetchedAt": "2026-10-08T11:00:08.453Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "cff100d295149df5",
+		"official": "Ordinance Partially Amending the Hinode Town Ordinance on Salaries of Special-Position Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.512Z",
+			"inputTokens": 388,
+			"cachedTokens": 0,
+			"outputTokens": 206,
+			"reasoningTokens": 170,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"id": "fujisawa-r8-2-87",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第87号",
+	"official": "藤沢市市税条例の一部改正について",
+	"by": "head",
+	"session": "令和8年2月定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年2月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F12%2C2026%2F03%2F18%2C112",
+			"fetchedAt": "2026-10-08T11:13:34.985Z"
+		},
+		{
+			"label": "議案第87号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2718&Sflg=2",
+			"fetchedAt": "2026-10-08T11:14:28.976Z"
+		},
+		{
+			"label": "議案第87号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2718_e01-087.pdf",
+			"fetchedAt": "2026-10-08T11:14:35.027Z"
+		}
+	],
+	"name": "市税の公示方法と寄附金控除の対象を変更",
+	"category": "税・手数料",
+	"summary": "市税の公示送達では、公示事項を書面で掲示していました。この議案では、公示事項をインターネットで閲覧できるようにし、書面の掲示に代えて市の事務所の画面で閲覧できる方法も選べるようにします。また、神奈川県知事の認可を受けた公益信託の信託財産にするための寄附のうち、信託事務に関係するものを市民税の寄附金税額控除の対象に加えます。",
+	"changes": [
+		"公示事項をインターネットで閲覧できるようにする",
+		"市の事務所の画面での閲覧を、書面掲示に代わる方法に加える",
+		"一定の公益信託に関係する寄附を市民税の寄附金税額控除の対象に加える",
+		"地方税法施行規則の引用箇所を改める"
+	],
+	"who": [
+		"市税の公示送達を受ける人や事業者",
+		"対象となる公益信託に寄附する人"
+	],
+	"why": "地方税法の改正に合わせて公示事項の閲覧方法を定め、公益信託に関する法律などの改正に伴って寄附金税額控除の対象を広げ、地方税法施行規則の改正に合わせて規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.844Z",
+		"inputTokens": 2424,
+		"cachedTokens": 0,
+		"outputTokens": 2371,
+		"reasoningTokens": 1961,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.844Z",
+		"checkedAt": "2026-10-10T07:29:38.563Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2497,
+			"cachedTokens": 0,
+			"outputTokens": 65,
+			"reasoningTokens": 51,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7b68f4ff50f072fc",
+		"name": "Changes how city tax notices are published and which donations qualify for deductions",
+		"official": "Regarding the Partial Amendment to the Fujisawa City Municipal Tax Ordinance",
+		"summary": "When the city serves notices about city taxes by public notice, it has posted the required information in writing. Under this bill, the information will be available online, and people will also be able to view it on a screen at a city office instead of having it posted in writing. In addition, donations intended to become trust property of a public interest trust approved by the Governor of Kanagawa Prefecture will be added to those eligible for the resident tax credit for donations, if they relate to the trust’s administration.",
+		"changes": [
+			"Make information in public notices available online",
+			"Add viewing the information on a screen at a city office as an alternative to posting it in writing",
+			"Add donations related to certain public interest trusts to those eligible for the resident tax credit for donations",
+			"Revise the cited provisions of the Regulation for Enforcement of the Local Tax Act"
+		],
+		"who": [
+			"People and businesses receiving city tax notices by public notice",
+			"People viewing public notices at a city office",
+			"People donating to public interest trusts approved by the Governor of Kanagawa Prefecture",
+			"People who may claim a resident tax credit for donations related to trust administration"
+		],
+		"why": "The city says this is to set out how information in public notices can be viewed in line with revisions to the Local Tax Act, expand eligibility for the donation tax credit following amendments to laws concerning public interest trusts, and update provisions in line with revisions to the Regulation for Enforcement of the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.032Z",
+			"inputTokens": 809,
+			"cachedTokens": 0,
+			"outputTokens": 1919,
+			"reasoningTokens": 1552,
+			"batch": true
+		}
+	}
+}

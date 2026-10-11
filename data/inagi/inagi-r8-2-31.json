@@ -62,5 +62,34 @@
 			"outputTokens": 181,
 			"reasoningTokens": 166
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b760040db4dd2166",
+		"name": "Reviews property tax exemption thresholds and other rules",
+		"official": "Ordinance Partially Amending the Inagi City Tax Ordinance",
+		"summary": "The city tax ordinance sets out how to file resident tax returns, the exemption thresholds for property tax, and special provisions for various taxes. This bill raises the property tax exemption thresholds for houses and depreciable assets. It also revises filing requirements for people receiving public pensions, etc., and the periods and terms of tax deductions and special provisions.",
+		"changes": [
+			"Raises the property tax exemption threshold for houses owned by the same person from ¥200,000 to ¥300,000, and for depreciable assets from ¥1,500,000 to ¥1,800,000",
+			"Revises who must submit a declaration of dependents, etc., and what it must include, for people receiving public pensions, etc.",
+			"Extends the periods for applying the Self-Medication Tax System and the housing loan tax credit, and adjusts the rules for calculating the tax credit for donations",
+			"Revises the special rates for property tax on renewable energy facilities, etc.; introduces a special provision for certain houses renovated for barrier-free access; and revises the municipal resident tax special provision for land transfers in disaster hazard areas"
+		],
+		"who": [
+			"People who own houses or depreciable assets",
+			"People receiving public pensions, etc., who meet the requirements for submitting a declaration",
+			"People and businesses eligible for tax deductions or special provisions, including property tax provisions for facilities and renovations"
+		],
+		"why": "The city says the City Tax Ordinance needs to be amended in response to amendments to the Local Tax Act, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:13.067Z",
+			"inputTokens": 855,
+			"cachedTokens": 0,
+			"outputTokens": 1001,
+			"reasoningTokens": 630
+		}
 	}
 }

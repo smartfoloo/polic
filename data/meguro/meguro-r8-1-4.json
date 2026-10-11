@@ -63,5 +63,30 @@
 			"outputTokens": 99,
 			"reasoningTokens": 85
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1163831b1a5ace89",
+		"name": "Changes how notices are given by public notice",
+		"official": "Ordinance Partially Amending the Meguro City Administrative Procedure Ordinance",
+		"summary": "When notices of hearings and similar matters are given by public notice, the details of the notice have until now been posted on a notice board at the administrative agency's office. Under this bill, the details of the public notice will be made viewable by an unspecified number of people using a method prescribed by Ministry of Internal Affairs and Communications ordinance. They will also be posted on a notice board at the office or made viewable on an electronic screen inside the office. Once two weeks have passed after the measure begins, the notice will be considered delivered.",
+		"changes": [
+			"Make the details of a public notice viewable by an unspecified number of people using a method prescribed by Ministry of Internal Affairs and Communications ordinance",
+			"Post the details of a public notice on a notice board at the office or make them viewable on an electronic screen inside the office"
+		],
+		"who": [
+			"People subject to an adverse disposition who receive notice by public notice"
+		],
+		"why": "The ward says the change is to digitalize service by public notice for notices of hearings and similar matters, following revisions to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:07.519Z",
+			"inputTokens": 715,
+			"cachedTokens": 0,
+			"outputTokens": 536,
+			"reasoningTokens": 253
+		}
 	}
 }

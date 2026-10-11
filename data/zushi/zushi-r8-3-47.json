@@ -1,0 +1,84 @@
+{
+	"id": "zushi-r8-3-47",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第47号",
+	"official": "逗子市認可地縁団体印鑑条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-08",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1014662.html",
+			"fetchedAt": "2026-10-08T11:22:47.067Z"
+		},
+		{
+			"label": "議案第47号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/014/662/r8.47.pdf",
+			"fetchedAt": "2026-10-08T11:22:52.769Z"
+		}
+	],
+	"name": "印鑑条例の引用条項を更新",
+	"category": "行政のしくみ",
+	"summary": "現在、第12条では「第19条第1項第1号ト」を引用しています。この引用先を「第18条の3第1項第7号」に改め、令和8年10月1日から施行します。",
+	"changes": [
+		"第12条の引用先を「第19条第1項第1号ト」から「第18条の3第1項第7号」に改める"
+	],
+	"who": [],
+	"why": "地方自治法施行規則の改正に合わせて、引用する条項を整理するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.893Z",
+		"inputTokens": 1239,
+		"cachedTokens": 0,
+		"outputTokens": 721,
+		"reasoningTokens": 560,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.893Z",
+		"checkedAt": "2026-10-10T07:29:38.750Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1091,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1c82efcc68514875",
+		"name": "Updates a cross-reference in the seal ordinance",
+		"official": "Ordinance Partially Amending the Zushi City Authorized Neighborhood Association Seal Ordinance",
+		"summary": "Article 12 currently refers to “Article 19, paragraph 1, item 1, subitem ト.” This reference will be changed to “Article 18-3, paragraph 1, item 7,” and the amendment will take effect on October 1, 2026.",
+		"changes": [
+			"Changes the reference in Article 12 from “Article 19, paragraph 1, item 1, subitem ト” to “Article 18-3, paragraph 1, item 7”"
+		],
+		"who": [],
+		"why": "The city says this is to update the cited provisions in line with amendments to the Enforcement Regulations of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.078Z",
+			"inputTokens": 590,
+			"cachedTokens": 0,
+			"outputTokens": 672,
+			"reasoningTokens": 473,
+			"batch": true
+		}
+	}
+}

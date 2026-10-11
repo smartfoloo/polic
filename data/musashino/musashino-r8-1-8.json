@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai8gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:19.086Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "af272af01ceb6fc1",
+		"official": "Musashino City Ordinance on Travel Expenses for General Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:48.022Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 107,
+			"reasoningTokens": 80
+		}
+	}
 }

@@ -65,5 +65,32 @@
 			"outputTokens": 43,
 			"reasoningTokens": 29
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ea9e65560a850267",
+		"name": "Establishes a fund to support school education",
+		"official": "Meguro City School Education Support Fund Ordinance",
+		"summary": "The ward will establish a fund to improve education at city-run schools. The amount to be set aside will be determined in the general account budget, and investment earnings will be added to the fund. The mayor may use all or part of the fund if the mayor considers it necessary to improve education.",
+		"changes": [
+			"Establishes a fund for improving school education and sets the amount to be set aside in the general account budget",
+			"Manages the fund's cash in deposits and other forms, and converts it into securities as needed",
+			"Adds investment earnings to the fund and, when needed for financial reasons, temporarily transfers cash to cash for budget transactions for management",
+			"Uses all or part of the fund if the mayor considers it necessary to improve education"
+		],
+		"who": [
+			"Children attending Meguro City elementary schools, junior high schools, kindergartens, and early childhood education and care centers"
+		],
+		"why": "The ward says this is to help improve school education at Meguro City schools.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:54:15.264Z",
+			"inputTokens": 708,
+			"cachedTokens": 0,
+			"outputTokens": 845,
+			"reasoningTokens": 584
+		}
 	}
 }

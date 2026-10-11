@@ -75,5 +75,34 @@
 			"outputTokens": 424,
 			"reasoningTokens": 266
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bee84b41b3fe0a08",
+		"name": "Reviews methods for public notices and notifications",
+		"official": "Ordinance on the Amendment of Related Ordinances in Connection with the Review of Analog Regulations in Chofu City",
+		"summary": "The city issues public notices by posting them on notice boards and by other methods. It also makes its financial status public by posting information or making it available for viewing at designated locations. This bill would allow public notices to be issued on the internet as well and change the publication of financial information to online publication. It also reviews how notifications of administrative actions are made.",
+		"changes": [
+			"Allow the city to issue public notices on the internet as well as by posting them on notice boards",
+			"Publish the city’s financial status on the internet",
+			"Notify people of adverse administrative actions, etc. by public notice, and deem the notice delivered two weeks after the measure begins",
+			"Apply the provisions of the City Tax Ordinance to service by public notice relating to medical care for older people"
+		],
+		"who": [
+			"People who receive notifications from the city about adverse administrative actions, etc.",
+			"People who receive notifications about retirement allowances for city employees",
+			"People who receive service by public notice relating to medical care for older people"
+		],
+		"why": "The city says this is to revise related ordinances in connection with the review of analog regulations.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:18:11.059Z",
+			"inputTokens": 751,
+			"cachedTokens": 0,
+			"outputTokens": 1581,
+			"reasoningTokens": 1282
+		}
 	}
 }

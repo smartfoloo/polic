@@ -1,0 +1,88 @@
+{
+	"id": "yugawara-r8-1-13",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第13号",
+	"official": "湯河原町放課後児童健全育成事業の設備及び運営に関する基準を定める条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第13号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17147.pdf",
+			"fetchedAt": "2026-10-08T11:28:53.432Z"
+		}
+	],
+	"name": "地域限定保育士を支援員の資格要件に追加",
+	"category": "子育て",
+	"summary": "放課後児童支援員になるには、定められた資格要件のいずれかに当てはまり、都道府県知事が行う研修を修了する必要があります。この議案で、神奈川県の地域限定保育士も資格要件に含めます。",
+	"changes": [
+		"放課後児童支援員の資格要件に神奈川県の地域限定保育士を加える"
+	],
+	"who": [
+		"神奈川県の地域限定保育士資格を持つ人"
+	],
+	"why": "児童福祉法の一部改正に伴い、地域限定保育士制度が一般制度化されたためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.889Z",
+		"inputTokens": 1934,
+		"cachedTokens": 0,
+		"outputTokens": 806,
+		"reasoningTokens": 613,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.889Z",
+		"checkedAt": "2026-10-10T07:29:38.731Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1823,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c82ed307d1ed3bb7",
+		"name": "Adds regional-limited childcare workers to support staff qualification requirements",
+		"official": "Partial Amendment to the Yugawara Town Ordinance Establishing Standards for Equipment and Operation of After-School Child Healthy Development Services",
+		"summary": "To become an after-school child support staff member, a person must meet one of the specified qualification requirements and complete training conducted by the prefectural governor. This bill adds regional-limited childcare workers in Kanagawa Prefecture to the qualification requirements.",
+		"changes": [
+			"Adds regional-limited childcare workers in Kanagawa Prefecture to the qualification requirements for after-school child support staff"
+		],
+		"who": [
+			"People with a regional-limited childcare worker qualification in Kanagawa Prefecture"
+		],
+		"why": "The town says this is because the regional-limited childcare worker system became part of the general system following a partial amendment to the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.075Z",
+			"inputTokens": 644,
+			"cachedTokens": 0,
+			"outputTokens": 520,
+			"reasoningTokens": 342,
+			"batch": true
+		}
+	}
+}

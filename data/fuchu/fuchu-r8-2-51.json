@@ -63,5 +63,30 @@
 			"outputTokens": 57,
 			"reasoningTokens": 43
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "191a3999425db66f",
+		"name": "Cuts urban planning tax on eligible buildings by one-third",
+		"official": "Ordinance Partially Amending the Fuchu City Urban Planning Tax Ordinance",
+		"summary": "This bill sets the reduction rate for urban planning tax on renovated special specified buildings in the ordinance. It sets the reduction rate at one-third and also updates references to provisions on tax amount adjustments for residential land and commercial land.",
+		"changes": [
+			"Sets the urban planning tax reduction rate for renovated special specified buildings at one-third",
+			"Amends the article numbers and references in the supplementary provisions on tax amount adjustments"
+		],
+		"who": [
+			"Taxpayers liable for urban planning tax on renovated special specified buildings"
+		],
+		"why": "The city says the bill makes necessary amendments, including in response to amendments to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:22:16.028Z",
+			"inputTokens": 653,
+			"cachedTokens": 0,
+			"outputTokens": 543,
+			"reasoningTokens": 352
+		}
 	}
 }

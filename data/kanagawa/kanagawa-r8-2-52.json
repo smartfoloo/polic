@@ -1,0 +1,85 @@
+{
+	"id": "kanagawa-r8-2-52",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第52号議案",
+	"official": "幼保連携型認定こども園の学級の編制、職員、設備及び運営に関する基準を定める条例の一部を改正する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-13",
+	"sources": [
+		{
+			"label": "定県第52号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/134621/jorei_gian_8dai2_0615.pdf",
+			"fetchedAt": "2026-10-08T10:38:08.916Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai2.html",
+			"fetchedAt": "2026-10-08T10:37:44.946Z"
+		}
+	],
+	"name": "認定こども園の職員配置基準に特例",
+	"category": "子育て",
+	"summary": "2024年に改正した条例の職員配置基準に、適用を猶予する規定を加えます。教育・保育を直接担当する職員の配置状況から支障のおそれがある場合は、2028年3月31日まで改正前の基準を適用できるようにします。",
+	"changes": [
+		"職員の配置状況から教育・保育の提供に支障が出るおそれがある場合、改正前の基準を2028年3月31日まで適用できるようにする"
+	],
+	"who": [
+		"幼保連携型認定こども園の運営者"
+	],
+	"why": "幼保連携型認定こども園の基準の一部改正に伴い、必要な改正を行うためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.548Z",
+		"inputTokens": 1396,
+		"cachedTokens": 0,
+		"outputTokens": 1561,
+		"reasoningTokens": 1347,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.548Z",
+			"notes": [
+				"ai [check] changes/fact: 「職員配置に支障のおそれがある場合」 → 原文の条件は、職員の配置状況に鑑み「教育及び保育の提供に支障を及ぼすおそれがあるとき」であり、職員配置そのものへの支障ではありません。"
+			],
+			"inputTokens": 1790,
+			"cachedTokens": 1025,
+			"outputTokens": 738,
+			"reasoningTokens": 487,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.866Z",
+		"checkedAt": "2026-10-10T07:29:38.622Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "職員配置に支障のおそれがある場合",
+				"note": "原文の条件は、職員の配置状況に鑑み「教育及び保育の提供に支障を及ぼすおそれがあるとき」であり、職員配置そのものへの支障ではありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1307,
+			"cachedTokens": 0,
+			"outputTokens": 270,
+			"reasoningTokens": 175,
+			"batch": true
+		}
+	}
+}

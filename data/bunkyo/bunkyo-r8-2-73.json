@@ -1,0 +1,106 @@
+{
+	"id": "bunkyo-r8-2-73",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第73号",
+	"official": "文京区公告式条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第73号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "区の公示にウェブサイト掲載を追加",
+	"category": "行政のしくみ",
+	"summary": "公告式条例などでは、区の規則や公表事項の扱いを定めています。この議案では、公告・公表や財政状況、退職手当、公園などに関する通知・公示の方法にウェブサイト掲載を加え、表記も整えます。令和8年5月21日に施行します。",
+	"changes": [
+		"区長や区の機関が定める規則・規程の公布・公表にウェブサイト掲載を加える",
+		"財政状況の公表をウェブサイト掲載または区役所門前掲示場への掲示で行う",
+		"退職手当や公園などの通知・公示にウェブサイト掲載を加える",
+		"条例の表記や用語を整える"
+	],
+	"who": [
+		"区の公示や財政状況を確認する人",
+		"退職手当の通知を受ける職員",
+		"公園や本郷給水所公苑の通知・公示を確認する人"
+	],
+	"why": "条例等の公布の方法等を見直すほか、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.829Z",
+		"inputTokens": 2119,
+		"cachedTokens": 0,
+		"outputTokens": 1773,
+		"reasoningTokens": 1480,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.829Z",
+		"checkedAt": "2026-10-10T07:29:38.527Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "区長や区の機関が定める規則・規程の公布・公表にウェブサイト掲載を加える",
+				"note": "原文第一条の公告式条例第二条第二項の改正では、条例の公布にもウェブサイト掲載を加えているが、changesには条例の公布方法の変更が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2119,
+			"cachedTokens": 0,
+			"outputTokens": 221,
+			"reasoningTokens": 111,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5c174a501382c358",
+		"name": "Adds website publication to the ward's public notices",
+		"official": "Ordinance Partially Amending the Bunkyo City Ordinance on Promulgation, etc.",
+		"summary": "The Ordinance on Promulgation and other ordinances set out how the ward handles its rules and matters for public release. This bill adds website publication as a way to issue or publish notices, information on the ward's financial situation, and notices and public notices concerning retirement allowances, parks, and other matters. It also revises wording. It takes effect on May 21, 2026.",
+		"changes": [
+			"Adds website publication to the promulgation and publication of rules and regulations set by the ward mayor and ward bodies",
+			"Publishes information on the ward's financial situation on the website or posts it on the notice board in front of the ward office gate",
+			"Adds website publication as a method for notices and public notices concerning retirement allowances, parks, and other matters",
+			"Revises wording and terms in the ordinances"
+		],
+		"who": [
+			"People checking the ward's public notices and financial situation",
+			"Employees receiving notices about retirement allowances",
+			"People checking notices and public notices about parks and Hongo Water Supply Station Garden"
+		],
+		"why": "The ward says this is to review methods for promulgating ordinances, etc., and to update provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.018Z",
+			"inputTokens": 730,
+			"cachedTokens": 0,
+			"outputTokens": 1370,
+			"reasoningTokens": 1063,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"id": "yugawara-r8-4-41",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第41号",
+	"official": "湯河原町火災予防条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第4回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-01",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第41号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/18537.pdf",
+			"fetchedAt": "2026-10-08T11:29:47.410Z"
+		}
+	],
+	"name": "調理器具周辺の油脂付着を防ぐ管理を追加",
+	"category": "防災",
+	"summary": "現在の条例では、液体燃料を使う調理器具の周囲にある排気ダクトなどの管理について、今回追加される基準はありません。改正後は、燃料や熱源の種類を問わず、調理器具の周囲にある排気ダクトやグリス除去装置などに油脂等が付着しないよう、適切に管理することが求められます。施行日は令和9年4月1日です。",
+	"changes": [
+		"調理器具の排気ダクトなどに油脂等が付着しないよう適切に管理する"
+	],
+	"who": [
+		"調理器具を扱う人や事業者"
+	],
+	"why": "消防庁が示す火災予防条例（例）の一部改正に伴い、条例を改正するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.891Z",
+		"inputTokens": 2246,
+		"cachedTokens": 0,
+		"outputTokens": 624,
+		"reasoningTokens": 360,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.891Z",
+		"checkedAt": "2026-10-10T07:29:38.742Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2182,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 45,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6d35f89340c75c82",
+		"name": "Adds maintenance requirements to prevent grease buildup around cooking equipment",
+		"official": "Partial Amendment to the Yugawara Town Fire Prevention Ordinance",
+		"summary": "The current ordinance has no standards for maintaining exhaust ducts and similar equipment around cooking appliances that use liquid fuel. Under the amended ordinance, regardless of the type of fuel or heat source, these appliances and nearby equipment, including exhaust ducts and grease removal devices, must be properly maintained to prevent grease and other substances from building up on them. The ordinance takes effect on April 1, 2027.",
+		"changes": [
+			"Require proper maintenance to prevent grease and other substances from building up on exhaust ducts and similar equipment around cooking appliances"
+		],
+		"who": [
+			"People and businesses that use cooking equipment"
+		],
+		"why": "The town says it is amending the ordinance in response to a partial amendment to the Fire Prevention Ordinance (Model) issued by the Fire and Disaster Management Agency.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.077Z",
+			"inputTokens": 670,
+			"cachedTokens": 0,
+			"outputTokens": 968,
+			"reasoningTokens": 752,
+			"batch": true
+		}
+	}
+}

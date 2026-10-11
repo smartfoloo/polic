@@ -63,5 +63,30 @@
 			"outputTokens": 51,
 			"reasoningTokens": 37
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8c9be06163623e41",
+		"name": "Changes the name and location of Minami Daiichi After-School Childcare Club",
+		"official": "Ordinance Partially Amending the Machida City Ordinance on the Establishment of After-School Childcare Clubs",
+		"summary": "Minami Daiichi Sakura After-School Childcare Club is currently located at Minamimachida 1-chome 10-1, Machida City. This bill changes its name to Minami Daiichi After-School Childcare Club and changes its location to Kanamori 3-chome 27-2, Machida City. It will take effect on April 1, 2027.",
+		"changes": [
+			"Renames the club from Minami Daiichi Sakura After-School Childcare Club to Minami Daiichi After-School Childcare Club",
+			"Changes the location from Minamimachida 1-chome 10-1, Machida City, to Kanamori 3-chome 27-2, Machida City"
+		],
+		"who": [
+			"Children who use Minami Daiichi After-School Childcare Club and their parents or guardians"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:15:23.605Z",
+			"inputTokens": 630,
+			"cachedTokens": 0,
+			"outputTokens": 571,
+			"reasoningTokens": 310
+		}
 	}
 }

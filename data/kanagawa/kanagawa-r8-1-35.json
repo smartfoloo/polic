@@ -1,0 +1,86 @@
+{
+	"id": "kanagawa-r8-1-35",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第35号議案",
+	"official": "神奈川県地方警察職員定数条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第35号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "警察職員の定数を改める",
+	"category": "行政のしくみ",
+	"summary": "条例で定める警察職員の定数表を改めます。また、令和9年3月31日まで、職員の区分ごとに、定数へ別表の人数を加える特例を設けます。",
+	"changes": [
+		"警察職員の定数表を改める",
+		"令和9年3月31日まで、職員の区分ごとに定数へ別表の人数を加える特例を設ける"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.864Z",
+		"inputTokens": 1317,
+		"cachedTokens": 0,
+		"outputTokens": 568,
+		"reasoningTokens": 399,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.864Z",
+		"checkedAt": "2026-10-10T07:29:38.618Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1159,
+			"cachedTokens": 0,
+			"outputTokens": 222,
+			"reasoningTokens": 207,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7d746382df763638",
+		"name": "Revises the police personnel quota",
+		"official": "Ordinance Partially Amending the Kanagawa Prefecture Local Police Personnel Quota Ordinance",
+		"summary": "Revises the table of police personnel quotas set by the ordinance. Also establishes a special provision, until March 31, 2027, to add the number listed in a separate table to the quota for each personnel category.",
+		"changes": [
+			"Revises the table of police personnel quotas",
+			"Adds, until March 31, 2027, the number listed in a separate table to the quota for each personnel category"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.050Z",
+			"inputTokens": 576,
+			"cachedTokens": 0,
+			"outputTokens": 449,
+			"reasoningTokens": 291,
+			"batch": true
+		}
+	}
+}

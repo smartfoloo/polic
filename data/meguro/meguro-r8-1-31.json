@@ -62,5 +62,29 @@
 			"outputTokens": 60,
 			"reasoningTokens": 46
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cd5ff9363ec28249",
+		"name": "Sets temporary childcare fees at no more than ¥400 per hour",
+		"official": "Ordinance Partially Amending the Ordinance Establishing User Charges, etc. for Education and Childcare in Meguro City",
+		"summary": "The current ordinance has no provision setting fees for temporary childcare at Meguro City-run kindergartens. Under this amendment, the committee will set the fee at an amount not exceeding ¥400 per hour.",
+		"changes": [
+			"Sets the fee at an amount determined by the committee, not exceeding ¥400 per hour"
+		],
+		"who": [
+			"People who use temporary childcare at Meguro City-run kindergartens"
+		],
+		"why": "The ward says the change is to set the fee for temporary childcare at Meguro City-run kindergartens.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:55:19.631Z",
+			"inputTokens": 627,
+			"cachedTokens": 0,
+			"outputTokens": 534,
+			"reasoningTokens": 347
+		}
 	}
 }

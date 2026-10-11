@@ -56,5 +56,28 @@
 			"outputTokens": 31,
 			"reasoningTokens": 16
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7717fa696d67082e",
+		"name": "Updates citations in the partial exemption from liability for damages ordinance",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Ordinance on Partial Exemption from Liability for Damages of the Hachioji City Mayor, etc.",
+		"summary": "Amends the article numbers cited from the Local Autonomy Act in the ordinance providing for partial exemption from liability for damages by the mayor and others. It takes effect on September 24, 2026.",
+		"changes": [
+			"Changes the provision supporting partial exemption from Article 243-2-7 to Article 243-2-8 of the Local Autonomy Act",
+			"Changes the citation concerning persons subject to compensation orders from Article 243-2-8, paragraph 3, to Article 243-2-9, paragraph 3, of the same Act"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:56:07.744Z",
+			"inputTokens": 624,
+			"cachedTokens": 0,
+			"outputTokens": 704,
+			"reasoningTokens": 499
+		}
 	}
 }

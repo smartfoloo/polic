@@ -57,5 +57,29 @@
 			"outputTokens": 63,
 			"reasoningTokens": 48
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c967f1b9fa9b8c77",
+		"name": "Extends the maximum caregiving leave period to 365 days",
+		"official": "Regarding the enactment of an ordinance partially amending the Ordinance on Employees’ Working Hours, Holidays, Leave, etc.",
+		"summary": "For each person requiring care, city employees may take caregiving leave up to 3 times, for a total of no more than 180 days. This bill extends the total-period limit to 365 days.",
+		"changes": [
+			"Extends the maximum total caregiving leave period for each person requiring care from 180 days to 365 days"
+		],
+		"who": [
+			"City employees who use caregiving leave"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:37:23.765Z",
+			"inputTokens": 580,
+			"cachedTokens": 0,
+			"outputTokens": 492,
+			"reasoningTokens": 331
+		}
 	}
 }

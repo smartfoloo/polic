@@ -1,0 +1,88 @@
+{
+	"id": "kawasaki-r8-3-106",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第106号",
+	"official": "川崎市印鑑条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第106号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_106.pdf",
+			"fetchedAt": "2026-10-08T11:11:03.494Z"
+		}
+	],
+	"name": "印鑑登録証明書の申請に使えるカードを追加",
+	"category": "くらし・手続き",
+	"summary": "現在、区役所等で印鑑登録証明書の交付を申請するときは、個人番号カードを使えます。この議案では、特定在留カードまたは特定特別永住者証明書も使えるようにします。",
+	"changes": [
+		"申請に使えるカードに特定在留カードと特定特別永住者証明書を加える"
+	],
+	"who": [
+		"特定在留カードまたは特定特別永住者証明書を持ち、印鑑登録証明書を申請する人"
+	],
+	"why": "区役所等で特定在留カードまたは特定特別永住者証明書を使って印鑑登録証明書の交付を申請できるようにするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.873Z",
+		"inputTokens": 1396,
+		"cachedTokens": 0,
+		"outputTokens": 966,
+		"reasoningTokens": 718,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.873Z",
+		"checkedAt": "2026-10-10T07:29:38.645Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1313,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 38,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a5617f5f9b7446d5",
+		"name": "Adds cards that can be used to apply for seal registration certificates",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Seal Registration Ordinance",
+		"summary": "Currently, people can use an Individual Number Card when applying for a seal registration certificate at a ward office or other location. This bill would also allow them to use a specified residence card or a specified special permanent resident certificate.",
+		"changes": [
+			"Adds specified residence cards and specified special permanent resident certificates to the cards that can be used to apply"
+		],
+		"who": [
+			"People who hold a specified residence card or a specified special permanent resident certificate and apply for a seal registration certificate"
+		],
+		"why": "The city says the change will allow people to apply for a seal registration certificate at a ward office or other location using a specified residence card or a specified special permanent resident certificate.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.059Z",
+			"inputTokens": 652,
+			"cachedTokens": 0,
+			"outputTokens": 544,
+			"reasoningTokens": 339,
+			"batch": true
+		}
+	}
+}

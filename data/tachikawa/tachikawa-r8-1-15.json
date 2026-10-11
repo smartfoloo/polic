@@ -90,5 +90,33 @@
 			"outputTokens": 551,
 			"reasoningTokens": 110
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d08899c0f708f8cf",
+		"name": "Sets out consultation and daily-life support for crime victims",
+		"official": "Tachikawa City Ordinance on Support for Crime Victims and Others",
+		"summary": "The city will establish a new ordinance setting out the basic principles for supporting crime victims and others, and the responsibilities of the city and others. It will set up a consultation desk and provide support for living expenses, legal consultations, housework and childcare, and other needs. It will take effect on April 1, 2026.",
+		"changes": [
+			"Sets up a consultation desk to handle consultations, provide information, and coordinate with relevant organizations",
+			"Provides support for living expenses, legal consultations, housework and childcare, psychological consultations, moving, and information-provision activities",
+			"Contacts victims soon after the incident, with their consent, and connects them with necessary support",
+			"Sets out the responsibilities of residents and others and businesses, and the city's duties for staff development, coordination, and personal information management"
+		],
+		"who": [
+			"People who have suffered harm from crimes or other offenses, and their families and bereaved families",
+			"Residents and others, and businesses operating in the city"
+		],
+		"why": "The city says this is to set out the basic principles and necessary matters for supporting crime victims and others.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:09:41.048Z",
+			"inputTokens": 735,
+			"cachedTokens": 0,
+			"outputTokens": 1241,
+			"reasoningTokens": 951
+		}
 	}
 }

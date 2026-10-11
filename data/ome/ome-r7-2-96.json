@@ -58,5 +58,30 @@
 			"outputTokens": 67,
 			"reasoningTokens": 53
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ca9ea8fb58bd05c3",
+		"name": "Revises standards for infant and other childcare support services",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for Facilities and Operations of Infant and Other Childcare Support Services in Ome City",
+		"summary": "It establishes the city's standards for facilities and operations of infant and other childcare support services. This bill revises terminology in line with amendments to related standards, adds an explanation of the meaning of capacity, and establishes a provision allowing the mayor to separately prescribe necessary matters.",
+		"changes": [
+			"Changes references such as “infant and other childcare support service operators” to “infant and other childcare support service facilities”",
+			"States the meaning of capacity in the ordinance",
+			"Adds a provision allowing the mayor to separately prescribe matters necessary for implementation",
+			"Adjusts related terminology and the structure of the provisions"
+		],
+		"who": [],
+		"why": "The city says it is revising the wording and putting necessary provisions in place in line with partial amendments to related standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:00:12.571Z",
+			"inputTokens": 690,
+			"cachedTokens": 0,
+			"outputTokens": 651,
+			"reasoningTokens": 422
+		}
 	}
 }

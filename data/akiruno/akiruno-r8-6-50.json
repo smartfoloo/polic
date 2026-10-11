@@ -84,5 +84,35 @@
 			"outputTokens": 536,
 			"reasoningTokens": 190
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d4fd05f527e1e453",
+		"name": "Revises city tax filing and taxation rules",
+		"official": "Ordinance Partially Amending the Akiruno City Tax Imposition and Collection Ordinance",
+		"summary": "The city will revise the city tax ordinance to reflect amendments to the Local Tax Act and other laws. It will review filing requirements for public pension recipients, fixed asset tax rules, and procedures for special measures related to the 2024 Noto Peninsula Earthquake. It will also establish a special measure to tax income from specified crypto-assets separately from other income, by applying the city resident tax income-based levy.",
+		"changes": [
+			"Revises which public pension recipients must file and what information they must include in their returns",
+			"Adds buildings to the same category as land in the fixed asset tax provisions, and changes the amount for depreciable assets from ¥1,500,000 to ¥1,800,000",
+			"Sets procedures for filing for the fixed asset tax special measure related to the 2024 Noto Peninsula Earthquake and for requesting that tax on jointly owned land be divided",
+			"Establishes a special measure to tax income from specified crypto-assets separately from other income, applying a city resident tax income-based levy equivalent to 3%"
+		],
+		"who": [
+			"Public pension recipients who must file city resident tax returns",
+			"People and businesses that own fixed assets",
+			"People filing for the fixed asset tax special measure related to the 2024 Noto Peninsula Earthquake",
+			"People with income from specified crypto-assets"
+		],
+		"why": "The city says this is to update the provisions and make necessary wording changes following the enforcement of the Act Partially Amending the Local Tax Act and Other Laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:15:52.626Z",
+			"inputTokens": 830,
+			"cachedTokens": 0,
+			"outputTokens": 1064,
+			"reasoningTokens": 689
+		}
 	}
 }

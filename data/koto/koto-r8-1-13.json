@@ -1,0 +1,37 @@
+{
+	"id": "koto-r8-1-13",
+	"assembly": "tokyo/koto",
+	"approved": false,
+	"number": "議案第13号",
+	"official": "江東区行政手続条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.koto.lg.jp/650102/documents/r8-1giketukekka.pdf",
+			"fetchedAt": "2026-10-08T10:54:31.458Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1547acd4d2e79093",
+		"official": "Ordinance Partially Amending the Koto City Administrative Procedures Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T03:42:00.006Z",
+			"inputTokens": 380,
+			"cachedTokens": 0,
+			"outputTokens": 28,
+			"reasoningTokens": 0
+		}
+	}
+}

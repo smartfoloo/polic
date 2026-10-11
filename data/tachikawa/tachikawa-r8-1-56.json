@@ -70,5 +70,34 @@
 			"outputTokens": 344,
 			"reasoningTokens": 228
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "af1f9be124d6e71d",
+		"name": "Sets standards for small-scale childcare for children aged 3 and over",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses",
+		"summary": "Before the amendment, the ordinance defined small-scale childcare businesses as a single category. After the amendment, it defines separately businesses for children under 3 and businesses for children aged 3 and over, and sets rules on the capacity for children aged 3 and over, selection for use, coordination between facilities, and other matters. The rules on how facilities and businesses cooperate with the city’s referrals, coordination, and requests will also change.",
+		"changes": [
+			"Define small-scale childcare businesses according to age group",
+			"Set rules on capacity and selection for use for children aged 3 and over",
+			"Revise requirements for cooperation with the city’s referrals, coordination, and requests",
+			"Review the scope and conditions for coordination between facilities"
+		],
+		"who": [
+			"Parents or guardians of children who use or apply for small-scale childcare and similar services",
+			"Operators of specified community-based childcare businesses",
+			"Operators of certified child centers, kindergartens, and nursery schools"
+		],
+		"why": "The city says this is because amendments to the Child Welfare Act and other laws have partially taken effect, and the relevant Cabinet Office Order has been promulgated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:14:24.520Z",
+			"inputTokens": 800,
+			"cachedTokens": 0,
+			"outputTokens": 907,
+			"reasoningTokens": 586
+		}
 	}
 }

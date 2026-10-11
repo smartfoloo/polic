@@ -1,0 +1,87 @@
+{
+	"id": "nerima-r8-2-41",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第41号",
+	"official": "練馬区行政手続における特定の個人を識別するための番号の利用等に関する法律に基づく個人番号の利用および特定個人情報の提供に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-08",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai2teirei/0802gian.html",
+			"fetchedAt": "2026-10-08T10:55:37.319Z"
+		}
+	],
+	"name": "個人番号を使う事務や庁内連携を追加",
+	"category": "デジタル",
+	"summary": "区の条例で、個人番号の利用や特定個人情報の提供などを定めています。この議案では、個人番号を利用する事務、庁内連携を行う事務、特定個人情報を追加します。施行日は公布の日で、一部の規定は令和8年10月1日です。",
+	"changes": [
+		"個人番号を利用する事務を追加する",
+		"庁内連携を行う事務を追加する",
+		"特定個人情報を追加する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.880Z",
+		"inputTokens": 1090,
+		"cachedTokens": 0,
+		"outputTokens": 682,
+		"reasoningTokens": 495,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.880Z",
+		"checkedAt": "2026-10-10T07:29:38.671Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 943,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c3c7abc8d247a063",
+		"name": "Adds administrative tasks using individual numbers and internal coordination",
+		"official": "Ordinance Partially Amending the Nerima City Ordinance on the Use of Individual Numbers and Provision of Specified Personal Information Based on the Act on the Use of Numbers to Identify Specific Individuals in Administrative Procedures",
+		"summary": "A city ordinance sets out the use of individual numbers and the provision of specified personal information. This bill adds administrative tasks that use individual numbers, tasks involving coordination within the city administration, and specified personal information. The ordinance takes effect on the date it is promulgated, with some provisions taking effect on October 1, 2026.",
+		"changes": [
+			"Adds administrative tasks that use individual numbers",
+			"Adds tasks involving coordination within the city administration",
+			"Adds specified personal information"
+		],
+		"who": [
+			"Administrative tasks that use individual numbers",
+			"Tasks involving coordination within the city administration",
+			"Specified personal information"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.069Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 887,
+			"reasoningTokens": 668,
+			"batch": true
+		}
+	}
+}

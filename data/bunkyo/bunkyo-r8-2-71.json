@@ -1,0 +1,90 @@
+{
+	"id": "bunkyo-r8-2-71",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第71号",
+	"official": "文京区役所組織条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第71号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "子ども家庭部をこども未来部に改称",
+	"category": "行政のしくみ",
+	"summary": "区の「子ども家庭部」を「こども未来部」に改めます。また、こども未来部の担当事務に、こどもや若者への支援を加えます。2026年4月1日から施行します。",
+	"changes": [
+		"「子ども家庭部」の名称を「こども未来部」に改める",
+		"こども未来部の担当事務にこどもや若者の支援を加える"
+	],
+	"who": [
+		"こどもや若者の支援を利用する人"
+	],
+	"why": "行政組織を再編するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.825Z",
+		"inputTokens": 1231,
+		"cachedTokens": 0,
+		"outputTokens": 909,
+		"reasoningTokens": 730,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.825Z",
+		"checkedAt": "2026-10-10T07:29:38.517Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1109,
+			"cachedTokens": 0,
+			"outputTokens": 41,
+			"reasoningTokens": 26,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f80b2d4f93eb0439",
+		"name": "Renames the Children and Families Department as the Children and Future Department",
+		"official": "Ordinance Partially Amending the Bunkyo City Office Organization Ordinance",
+		"summary": "The ward will rename its Children and Families Department as the Children and Future Department. It will also add support for children and young people to the department’s responsibilities. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Renames the Children and Families Department as the Children and Future Department",
+			"Adds support for children and young people to the Children and Future Department’s responsibilities"
+		],
+		"who": [
+			"People who use support services for children and young people"
+		],
+		"why": "The ward says this is to reorganize its administrative structure.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:15.993Z",
+			"inputTokens": 610,
+			"cachedTokens": 0,
+			"outputTokens": 547,
+			"reasoningTokens": 365,
+			"batch": true
+		}
+	}
+}

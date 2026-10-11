@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai17gou.pdf",
 			"fetchedAt": "2026-10-05T15:55:13.072Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "a31240f48bf8e8c9",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance on the Establishment of City Schools",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:30.165Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 149,
+			"reasoningTokens": 113
+		}
+	}
 }

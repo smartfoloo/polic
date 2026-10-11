@@ -1,0 +1,101 @@
+{
+	"id": "fujisawa-r8-9-42",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第42号",
+	"official": "藤沢市自転車等の放置防止に関する条例及び藤沢市自転車等駐車場条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "建設経済常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第42号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2807&Sflg=2",
+			"fetchedAt": "2026-10-08T11:19:52.990Z"
+		},
+		{
+			"label": "議案第42号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2807_e01-042.pdf",
+			"fetchedAt": "2026-10-08T11:19:58.320Z"
+		}
+	],
+	"name": "放置自転車の撤去料と駐車場料金を改定",
+	"category": "交通",
+	"summary": "放置自転車等の移動・保管などにかかる料金と、有料駐車場の利用料金を改定します。移動・保管などの料金は2,100円から2,500円、4,200円から5,000円に変わります。駐車場の料金も車種や利用方法に応じた金額に改め、2027年4月1日から施行します。",
+	"changes": [
+		"移動・保管などに係る料金を2,100円から2,500円に改める",
+		"移動・保管などに係る料金を4,200円から5,000円に改める",
+		"定期利用料金を、自転車は1月3,000円・3月9,000円・6月18,000円、原動機付自転車と普通自動二輪車は各9,000円・27,000円・54,000円に改める",
+		"一時利用料金を、自転車は1回150円、原動機付自転車と普通自動二輪車は1回450円に改める"
+	],
+	"who": [
+		"自転車等を移動・保管された人",
+		"市の有料自転車等駐車場を利用する人"
+	],
+	"why": "放置自転車等の移動・保管などの料金と有料駐車場の利用料金について、受益と負担の適正化を図り、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.850Z",
+		"inputTokens": 2150,
+		"cachedTokens": 0,
+		"outputTokens": 1672,
+		"reasoningTokens": 1285,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.850Z",
+		"checkedAt": "2026-10-10T07:29:38.578Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2235,
+			"cachedTokens": 0,
+			"outputTokens": 46,
+			"reasoningTokens": 31,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c6536605d8b2c90f",
+		"name": "Revises fees for removing abandoned bicycles and using parking facilities",
+		"official": "Regarding Partial Amendments to the Fujisawa City Ordinance on the Prevention of Abandoned Bicycles, etc. and the Fujisawa City Ordinance on Bicycle, etc. Parking Facilities",
+		"summary": "The fees for relocating and storing abandoned bicycles, etc., and the fees for using paid parking facilities will be revised. The relocation and storage fees will change from ¥2,100 to ¥2,500 and from ¥4,200 to ¥5,000. Parking fees will also be revised according to vehicle type and method of use. The changes will take effect on April 1, 2027.",
+		"changes": [
+			"Changes the fee for relocation, storage, etc. from ¥2,100 to ¥2,500",
+			"Changes the fee for relocation, storage, etc. from ¥4,200 to ¥5,000",
+			"Revises monthly pass fees to ¥3,000 for 1 month, ¥9,000 for 3 months, and ¥18,000 for 6 months for bicycles, and ¥9,000, ¥27,000, and ¥54,000, respectively, for motorized bicycles and ordinary motorcycles",
+			"Revises one-time use fees to ¥150 per use for bicycles and ¥450 per use for motorized bicycles and ordinary motorcycles"
+		],
+		"who": [
+			"People whose bicycles, etc. have been relocated and stored",
+			"People who use Fujisawa City’s paid bicycle, etc. parking facilities"
+		],
+		"why": "The city says the revisions aim to appropriately balance benefits and costs regarding the fees for relocating and storing abandoned bicycles, etc., and the fees for using paid parking facilities, and to ensure social fairness.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.035Z",
+			"inputTokens": 846,
+			"cachedTokens": 0,
+			"outputTokens": 1062,
+			"reasoningTokens": 670,
+			"batch": true
+		}
+	}
+}

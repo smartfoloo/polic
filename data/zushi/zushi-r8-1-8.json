@@ -1,0 +1,96 @@
+{
+	"id": "zushi-r8-1-8",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第8号",
+	"official": "逗子市職員給与条例及び逗子市一般職の任期付職員の採用等に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1013732.html",
+			"fetchedAt": "2026-10-08T11:21:22.893Z"
+		},
+		{
+			"label": "議案第8号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/732/r8-1t-gian8.pdf",
+			"fetchedAt": "2026-10-08T11:21:46.810Z"
+		}
+	],
+	"name": "職員の給料・通勤手当などを見直す",
+	"category": "行政のしくみ",
+	"summary": "職員の給料や手当のルールを定めた条例を改正します。短時間勤務職員の給料の計算方法、通勤手当、期末・勤勉手当などの支給割合を変更し、2026年4月1日から施行します。",
+	"changes": [
+		"短時間勤務職員の給料月額を勤務時間に応じて計算する",
+		"自動車などを使う職員の通勤手当を距離区分に応じて定め、上限を66,400円とする",
+		"駐車場などにかかる通勤手当を月額5,000円以内とする",
+		"期末・勤勉手当などの支給割合を127.5/100から126.25/100などに改める"
+	],
+	"who": [
+		"逗子市職員",
+		"逗子市の一般職の任期付職員"
+	],
+	"why": "人事院の給与勧告や近隣各市の職員給与の状況などを勘案して諸手当を改正し、一般職の任期付職員の給与の取扱いを改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.892Z",
+		"inputTokens": 2808,
+		"cachedTokens": 0,
+		"outputTokens": 1780,
+		"reasoningTokens": 1437,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.892Z",
+		"checkedAt": "2026-10-10T07:29:38.746Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2816,
+			"cachedTokens": 0,
+			"outputTokens": 167,
+			"reasoningTokens": 153,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3feb7bb53b00a3a6",
+		"name": "Reviews staff salaries and commuting allowances",
+		"official": "Regarding Partial Amendments to the Zushi City Employee Salary Ordinance and the Ordinance on the Hiring, etc. of Fixed-Term Employees in the Regular Service of Zushi City",
+		"summary": "The city will amend the ordinances that set the rules for employee salaries and allowances. It will change how salaries are calculated for employees who work reduced hours, commuting allowances, and the payment rates for year-end and diligence allowances, among other things. The changes will take effect on April 1, 2026.",
+		"changes": [
+			"Calculate monthly salaries for employees who work reduced hours according to their working hours",
+			"Set commuting allowances for employees who use cars or other vehicles according to distance categories, with a maximum of ¥66,400",
+			"Set commuting allowances for parking and similar costs at no more than ¥5,000 per month",
+			"Change the payment rates for year-end and diligence allowances, among others, from 127.5/100 to 126.25/100, etc."
+		],
+		"who": [
+			"Zushi City employees",
+			"Fixed-term employees in the regular service of Zushi City"
+		],
+		"why": "The city says it is revising various allowances in light of the National Personnel Authority's salary recommendation and the salary situations of nearby cities, and changing how pay is handled for fixed-term employees in the regular service.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.077Z",
+			"inputTokens": 767,
+			"cachedTokens": 0,
+			"outputTokens": 638,
+			"reasoningTokens": 325,
+			"batch": true
+		}
+	}
+}

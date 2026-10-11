@@ -1,0 +1,85 @@
+{
+	"id": "nerima-r8-1-7",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "練馬区特別職の職員で非常勤のものの報酬および費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-05",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "緑化委員会の報酬を職責に応じた額に",
+	"category": "行政のしくみ",
+	"summary": "緑化委員会の会長と学識経験者の報酬額を定めています。改正により、報酬額をそれぞれの職責に応じたものにします。施行日は令和8年7月31日です。",
+	"changes": [
+		"会長と学識経験者の報酬額を職責に応じた額にする"
+	],
+	"who": [
+		"緑化委員会の会長",
+		"緑化委員会の学識経験者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.879Z",
+		"inputTokens": 1052,
+		"cachedTokens": 0,
+		"outputTokens": 754,
+		"reasoningTokens": 594,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.879Z",
+		"checkedAt": "2026-10-10T07:29:38.670Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 902,
+			"cachedTokens": 0,
+			"outputTokens": 41,
+			"reasoningTokens": 26,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9d339ff0a1648bb7",
+		"name": "Sets Greening Committee compensation according to responsibilities",
+		"official": "Ordinance Partially Amending the Nerima City Ordinance on Remuneration and Expense Reimbursement for Part-Time Special-Status Employees",
+		"summary": "This ordinance sets the compensation amounts for the chair of the Greening Committee and its members with expertise. The amendment makes their compensation amounts reflect their respective responsibilities. It takes effect on July 31, 2026.",
+		"changes": [
+			"Sets the compensation amounts for the chair and members with expertise according to their responsibilities"
+		],
+		"who": [
+			"Chair of the Greening Committee",
+			"Members of the Greening Committee with expertise"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.068Z",
+			"inputTokens": 612,
+			"cachedTokens": 0,
+			"outputTokens": 493,
+			"reasoningTokens": 328,
+			"batch": true
+		}
+	}
+}

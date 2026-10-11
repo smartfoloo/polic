@@ -69,5 +69,33 @@
 			"outputTokens": 488,
 			"reasoningTokens": 333
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3477b7443d6c2f80",
+		"name": "Special calculation rules for long-term care insurance premiums based on wage income",
+		"official": "Ordinance Partially Amending the Tachikawa City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are calculated based on income and other factors. For the 2026 fiscal year, this amendment establishes special rules for calculating income and determining resident tax status for people whose wage income in 2025 was ¥551,000 or more but less than ¥1,900,000.",
+		"changes": [
+			"Establishes a special rule for calculating income for people with wage income of ¥551,000 or more but less than ¥651,000",
+			"Establishes a special rule for calculating income for people with wage income of ¥651,000 or more but less than ¥1,619,000",
+			"Establishes a special rule for calculating income for people with wage income of ¥1,619,000 or more but less than ¥1,900,000",
+			"Treats some people exempt from municipal resident tax who meet conditions on wage income and other factors as taxable when calculating the premium rate"
+		],
+		"who": [
+			"Category 1 insured persons who had a specified amount of wage income in 2025",
+			"People in the same household as an eligible Category 1 insured person"
+		],
+		"why": "The city says this change was made in response to a partial amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:11:55.033Z",
+			"inputTokens": 761,
+			"cachedTokens": 0,
+			"outputTokens": 825,
+			"reasoningTokens": 495
+		}
 	}
 }

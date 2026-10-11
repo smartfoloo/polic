@@ -1,0 +1,111 @@
+{
+	"id": "samukawa-r8-6-39",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第39号",
+	"official": "寒川町特定教育・保育施設及び特定地域型保育事業の運営に関する基準を定める条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会6月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-19",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第39号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/R8-6_gian39.pdf",
+			"fetchedAt": "2026-10-10T14:58:30.411Z"
+		}
+	],
+	"name": "3歳以上限定の小規模保育基準を追加",
+	"category": "子育て",
+	"summary": "町の条例は、特定教育・保育施設や地域型保育事業の運営基準を定めています。この改正で、満3歳以上を対象とする小規模保育事業を条例上で区分し、利用定員や利用者の選考などのルールを加えます。",
+	"changes": [
+		"満3歳以上限定小規模保育事業を条例上で定義する",
+		"同事業の利用定員を事業所ごとに定める",
+		"定員を超える場合、保育の必要性や家族の状況を踏まえて選考する",
+		"連携施設の確保に関する一部の協力を不要とし、特別利用の基準を加える"
+	],
+	"who": [
+		"満3歳以上の子どもを預ける保護者",
+		"満3歳以上限定小規模保育事業者"
+	],
+	"why": "国の運営基準の一部改正に伴い、必要な措置を講じるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.012Z",
+		"inputTokens": 31670,
+		"cachedTokens": 0,
+		"outputTokens": 1529,
+		"reasoningTokens": 1222,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.012Z",
+		"checkedAt": "2026-10-10T15:07:29.969Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "同事業の利用定員を事業所ごとに定める",
+				"note": "第43条第1項で、利用者負担額の徴収対象を満3歳未満保育認定子どもの保護者に限定する変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "定員を超える場合、保育の必要性や家族の状況を踏まえて選考する",
+				"note": "新設する第39条第3項は、保育を受ける必要性が高い子どもが優先的に利用できるよう選考すると規定しています。優先利用の要件が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 31650,
+			"cachedTokens": 0,
+			"outputTokens": 379,
+			"reasoningTokens": 190,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7a249a4385863431",
+		"name": "Adds standards for small-scale childcare limited to children aged 3 or older",
+		"official": "Regarding the Partial Amendment of the Samukawa Town Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Services",
+		"summary": "The town's ordinance sets standards for the operation of specified education and childcare facilities and community-based childcare services. This amendment classifies small-scale childcare services for children aged 3 or older in the ordinance and adds rules on user capacity and the selection of users.",
+		"changes": [
+			"Define small-scale childcare services limited to children aged 3 or older in the ordinance",
+			"Set the user capacity for each establishment offering these services",
+			"If applications exceed capacity, select users based on their need for childcare and family circumstances",
+			"Make some cooperation related to securing affiliated facilities unnecessary and add standards for special use"
+		],
+		"who": [
+			"Parents and guardians using childcare services for children aged 3 or older",
+			"Providers of small-scale childcare services limited to children aged 3 or older"
+		],
+		"why": "The town says it is taking the necessary measures in response to a partial amendment of the national operating standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.863Z",
+			"inputTokens": 735,
+			"cachedTokens": 0,
+			"outputTokens": 593,
+			"reasoningTokens": 323,
+			"batch": true
+		}
+	}
+}

@@ -61,5 +61,31 @@
 			"outputTokens": 65,
 			"reasoningTokens": 51
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6f3ec53ca0d5448b",
+		"name": "Raises sewerage charges in stages",
+		"official": "Ordinance Partially Amending the Inagi City Sewerage Ordinance",
+		"summary": "Sewerage charges are currently set according to the type and volume of wastewater. The ordinance will be amended to raise charges for general wastewater and public bath wastewater in stages from April 2027, with the new rates applying from April 2029 onward.",
+		"changes": [
+			"Raise the monthly basic fee for up to 8 m³ of general wastewater from ¥560 to ¥662 in stages, and raise the excess-use fee from ¥110–¥345 to ¥130–¥408 per m³ in stages, depending on the discharge-volume category",
+			"Raise the monthly basic fee for up to 8 m³ of public bath wastewater from ¥280 to ¥331 in stages, and raise the excess-use fee from ¥26 to ¥31 per m³ in stages"
+		],
+		"who": [
+			"Residents and businesses using the public sewerage system",
+			"Operators of public bathhouses"
+		],
+		"why": "The city says the increases are intended to ensure the financial soundness of its public sewerage business, in response to factors including the sudden, substantial increase in FY2026 in the unit price for wastewater treatment under the Tokyo Metropolitan Government's regional sewerage system maintenance and management contribution.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:28.211Z",
+			"inputTokens": 792,
+			"cachedTokens": 0,
+			"outputTokens": 951,
+			"reasoningTokens": 653
+		}
 	}
 }

@@ -60,5 +60,32 @@
 			"outputTokens": 87,
 			"reasoningTokens": 72
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c928179eaaf30c82",
+		"name": "Requires criminal record checks for specified staff at child welfare facilities",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance Establishing Standards for the Equipment and Operation of Child Welfare Facilities",
+		"summary": "The ordinance adds measures to prevent sexual violence against children and protect children if it occurs. The measures apply to child welfare facilities, excluding maternity homes and similar facilities. They require criminal record checks and related measures for people who work with children in environments involving authority, ongoing contact and limited openness. The ordinance takes effect on December 25, 2026.",
+		"changes": [
+			"Require measures to prevent sexual violence against children and protect them if it occurs",
+			"Mandate criminal record checks and related measures for covered workers"
+		],
+		"who": [
+			"Operators of covered child welfare facilities",
+			"Workers in covered roles who interact with children at the facilities",
+			"Children who use these facilities"
+		],
+		"why": "The ward says it is necessary to add provisions on criminal record checks and related matters for workers in connection with the enforcement of the law and other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:10:03.557Z",
+			"inputTokens": 741,
+			"cachedTokens": 0,
+			"outputTokens": 935,
+			"reasoningTokens": 688
+		}
 	}
 }

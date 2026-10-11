@@ -61,5 +61,33 @@
 			"outputTokens": 83,
 			"reasoningTokens": 68
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "269a94435802dd90",
+		"name": "Revises fees for Ryōnan Pool use",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ryōnan Pool Ordinance",
+		"summary": "The current fee for using the Ryōnan Pool for up to 2 hours is ¥100 for children and ¥250 for adults. The additional fee for each extra hour is ¥50 for children and ¥120 for adults. The bill changes the fee for up to 2 hours to ¥150 for children and ¥350 for adults, and the additional fee for each extra hour to ¥70 for children and ¥170 for adults. The revised fees will apply to use on or after April 1, 2027. They may also be collected when approval for use was granted before that date.",
+		"changes": [
+			"Raises the fee for children for up to 2 hours from ¥100 to ¥150",
+			"Raises the additional fee for each extra hour for children from ¥50 to ¥70",
+			"Raises the fee for adults for up to 2 hours from ¥250 to ¥350",
+			"Raises the additional fee for each extra hour for adults from ¥120 to ¥170"
+		],
+		"who": [
+			"Children who use the Ryōnan Pool",
+			"Adults who use the Ryōnan Pool"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:46.244Z",
+			"inputTokens": 705,
+			"cachedTokens": 0,
+			"outputTokens": 786,
+			"reasoningTokens": 485
+		}
 	}
 }

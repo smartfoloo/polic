@@ -1,0 +1,37 @@
+{
+	"id": "tokyo-r8-3-m13",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "議員提出議案第13号",
+	"official": "東京都区市町村立小中学校等の施設整備を支援する条例",
+	"by": "member",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-10-08T14:41:41.125Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "48b0a8a4c8b1f304",
+		"official": "Ordinance to Support the Development of Facilities for Elementary and Junior High Schools, etc. Established by Tokyo Metropolitan Government and Municipalities",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:19:55.777Z",
+			"inputTokens": 384,
+			"cachedTokens": 0,
+			"outputTokens": 308,
+			"reasoningTokens": 267
+		}
+	}
+}

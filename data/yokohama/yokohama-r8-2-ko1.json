@@ -1,0 +1,98 @@
+{
+	"id": "yokohama-r8-2-ko1",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "交第1号議案",
+	"official": "横浜市乗合自動車乗車料条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "交第1号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_ko01.pdf",
+			"fetchedAt": "2026-10-08T11:05:27.236Z"
+		}
+	],
+	"name": "市営バスの乗車券料金を改定",
+	"category": "交通",
+	"summary": "現在、普通乗車券は200円、大人の1日乗車券は600円、小児の1日乗車券は300円です。議案では、各種乗車券の料金の算定基準を改め、算定した料金の10円未満を四捨五入します。施行日は企業管理規程で定め、改正前の料金で発売された定期券は通用期間中使えます。",
+	"changes": [
+		"普通乗車券の料金を246円に1.1を乗じた額とし、算定した料金の10円未満を四捨五入する",
+		"大人1日乗車券を大人普通乗車券の料金の5倍とし、小児券は大人1日乗車券の料金から5割引きにする",
+		"1か月の通勤定期券の基準額を9,000円から11,046円に、通学定期券（甲種）を7,200円から7,864円に、（乙種）を2,486円から2,528円にする",
+		"高齢者割引全線定期乗車券の基準額を7,200円から8,837円にする"
+	],
+	"who": [
+		"横浜市の乗合バスを利用する人",
+		"通勤・通学定期券を利用する人",
+		"高齢者割引全線定期乗車券を利用する人"
+	],
+	"why": "乗合自動車の乗車券の料金を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.888Z",
+		"inputTokens": 2363,
+		"cachedTokens": 0,
+		"outputTokens": 2724,
+		"reasoningTokens": 2309,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.888Z",
+		"checkedAt": "2026-10-10T07:29:38.726Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2456,
+			"cachedTokens": 0,
+			"outputTokens": 130,
+			"reasoningTokens": 116,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "150f7525ed3fc3db",
+		"name": "Revises fares for city buses",
+		"official": "Ordinance Partially Amending the Yokohama City Shared-Ride Automobile Passenger Fare Ordinance",
+		"summary": "A regular ticket currently costs ¥200, an adult one-day ticket costs ¥600, and a child one-day ticket costs ¥300. The bill changes how fares for various tickets are calculated and rounds calculated fares to the nearest ¥10. The effective date will be set by a business management regulation. Commuter passes sold at the fares in effect before the amendment may be used until they expire.",
+		"changes": [
+			"Sets the regular ticket fare at ¥246 multiplied by 1.1, and rounds amounts below ¥10 to the nearest ¥10",
+			"Sets the adult one-day ticket fare at five times the adult regular ticket fare, and gives a 50% discount on the adult one-day ticket fare for child tickets",
+			"Raises the monthly commuter pass base fare from ¥9,000 to ¥11,046, the Type A school commuter pass fare from ¥7,200 to ¥7,864, and the Type B school commuter pass fare from ¥2,486 to ¥2,528",
+			"Raises the base fare for the all-route commuter pass with a senior discount from ¥7,200 to ¥8,837"
+		],
+		"who": [
+			"People who use Yokohama City shared-ride buses",
+			"People who use commuter passes for work or school",
+			"People who use the all-route commuter pass with a senior discount"
+		],
+		"why": "The city says the amendment is to revise fares for shared-ride buses.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.074Z",
+			"inputTokens": 823,
+			"cachedTokens": 0,
+			"outputTokens": 986,
+			"reasoningTokens": 627,
+			"batch": true
+		}
+	}
+}

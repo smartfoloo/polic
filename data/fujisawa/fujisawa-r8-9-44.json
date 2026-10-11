@@ -1,0 +1,95 @@
+{
+	"id": "fujisawa-r8-9-44",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第44号",
+	"official": "藤沢市西富墓地条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "厚生環境常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第44号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2809&Sflg=2",
+			"fetchedAt": "2026-10-08T11:20:16.603Z"
+		},
+		{
+			"label": "議案第44号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2809_e01-044.pdf",
+			"fetchedAt": "2026-10-08T11:20:22.672Z"
+		}
+	],
+	"name": "西富墓地の管理料を改定",
+	"category": "税・手数料",
+	"summary": "西富墓地の使用にかかる管理料は、区分により6,000円または3,000円です。この議案では、それぞれ8,000円、4,000円に改めます。改定後の額は2027年度分から適用されます。",
+	"changes": [
+		"管理料の一方の区分を6,000円から8,000円に改める",
+		"管理料のもう一方の区分を3,000円から4,000円に改める"
+	],
+	"who": [
+		"西富墓地の使用者"
+	],
+	"why": "受益と負担の適正化を図り、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.850Z",
+		"inputTokens": 1401,
+		"cachedTokens": 0,
+		"outputTokens": 880,
+		"reasoningTokens": 660,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.850Z",
+		"checkedAt": "2026-10-10T07:29:38.580Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1282,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "826a32c06f719da3",
+		"name": "Revises Nishitomi Cemetery management fees",
+		"official": "Regarding the Partial Amendment to the Fujisawa City Nishitomi Cemetery Ordinance",
+		"summary": "The management fee for using Nishitomi Cemetery is either ¥6,000 or ¥3,000, depending on the category. This bill changes the fees to ¥8,000 and ¥4,000, respectively. The revised fees will apply from fiscal year 2027.",
+		"changes": [
+			"Raises one category of management fee from ¥6,000 to ¥8,000",
+			"Raises the other category of management fee from ¥3,000 to ¥4,000"
+		],
+		"who": [
+			"Users of Nishitomi Cemetery"
+		],
+		"why": "The city says this is to appropriately balance benefits and burdens and ensure social fairness.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.035Z",
+			"inputTokens": 621,
+			"cachedTokens": 0,
+			"outputTokens": 414,
+			"reasoningTokens": 221,
+			"batch": true
+		}
+	}
+}

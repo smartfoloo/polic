@@ -1,0 +1,84 @@
+{
+	"id": "ebina-r8-1-5",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第5号",
+	"official": "海老名市立児童発達支援センター設置条例の制定について",
+	"by": "head",
+	"session": "令和8年3月第1回定例会",
+	"committee": "文教社会常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F24%2C2026%2F03%2F26%2C112",
+			"fetchedAt": "2026-10-08T11:25:11.274Z"
+		},
+		{
+			"label": "議案第5号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1459_8.5.pdf",
+			"fetchedAt": "2026-10-08T11:25:29.306Z"
+		}
+	],
+	"name": "児童発達支援センターの設置を条例で定める",
+	"category": "福祉",
+	"summary": "市が、海老名市立児童発達支援センターの設置に関する条例を新たに定める議案です。センターの利用対象や運営方法など、条例の具体的な内容は提示された資料からは確認できません。",
+	"changes": [
+		"海老名市立児童発達支援センターの設置に関する条例を制定する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.841Z",
+		"inputTokens": 989,
+		"cachedTokens": 0,
+		"outputTokens": 687,
+		"reasoningTokens": 551,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.841Z",
+		"checkedAt": "2026-10-10T07:29:38.555Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 811,
+			"cachedTokens": 0,
+			"outputTokens": 37,
+			"reasoningTokens": 22,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6aed9cba4561c6a3",
+		"name": "Sets up a child development support center by ordinance",
+		"official": "Regarding the Enactment of the Ebina City Child Development Support Center Establishment Ordinance",
+		"summary": "This is a bill for the city to newly enact an ordinance concerning the establishment of the Ebina City Child Development Support Center. The specific provisions of the ordinance, such as who may use the center and how it will be operated, cannot be confirmed from the materials provided.",
+		"changes": [
+			"Enacts an ordinance on establishing the Ebina City Child Development Support Center"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.028Z",
+			"inputTokens": 562,
+			"cachedTokens": 0,
+			"outputTokens": 468,
+			"reasoningTokens": 324,
+			"batch": true
+		}
+	}
+}

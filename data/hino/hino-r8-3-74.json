@@ -1,0 +1,38 @@
+{
+	"id": "hino-r8-3-74",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議案第74号",
+	"official": "日野市認可地縁団体印鑑条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1031867.html",
+			"fetchedAt": "2026-10-08T10:56:43.516Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "ff1440f4a86ca229",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hino City Ordinance on Seals of Authorized Neighborhood Associations",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.511Z",
+			"inputTokens": 390,
+			"cachedTokens": 0,
+			"outputTokens": 280,
+			"reasoningTokens": 239,
+			"batch": true
+		}
+	}
+}

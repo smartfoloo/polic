@@ -57,5 +57,29 @@
 			"outputTokens": 274,
 			"reasoningTokens": 260
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "82ab4ea8a0147560",
+		"name": "Special exception for reducing long-term care insurance premiums without an application",
+		"official": "Ordinance Partially Amending the Tachikawa City Long-Term Care Insurance Ordinance",
+		"summary": "The ordinance adds a special exception for reducing or waiving long-term care insurance premiums for FY2026. If a Category 1 insured person whose municipal resident tax was not imposed in FY2025 is treated as taxable for FY2026 under another provision of the ordinance, and the mayor finds it especially necessary, the premium may be reduced or waived without an application from the person. This amendment takes effect on the date of promulgation and applies from April 1, 2026.",
+		"changes": [
+			"Allows premiums to be reduced or waived without an application when the mayor finds it especially necessary"
+		],
+		"who": [
+			"Category 1 insured persons whose municipal resident tax was not imposed in FY2025 and who are treated as taxable for FY2026 under the ordinance, and the head of household and all members of their households"
+		],
+		"why": "The city says this is based on Article 142 of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:15:09.634Z",
+			"inputTokens": 687,
+			"cachedTokens": 0,
+			"outputTokens": 1027,
+			"reasoningTokens": 770
+		}
 	}
 }

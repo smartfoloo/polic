@@ -1,0 +1,38 @@
+{
+	"id": "hino-r8-2-49",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議案第49号",
+	"official": "日野市職員の定年等に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-17",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1031031.html",
+			"fetchedAt": "2026-10-08T10:56:31.518Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "ad1465a5c6f85e40",
+		"official": "Enactment of an Ordinance Partially Amending the Hino City Ordinance on Retirement Age, etc. for Hino City Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.510Z",
+			"inputTokens": 389,
+			"cachedTokens": 0,
+			"outputTokens": 214,
+			"reasoningTokens": 171,
+			"batch": true
+		}
+	}
+}

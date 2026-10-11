@@ -66,5 +66,33 @@
 			"outputTokens": 61,
 			"reasoningTokens": 47
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bb48ee38844b75d0",
+		"name": "Adds Minami-Tokiwadai Housing and parking to ordinance",
+		"official": "Ordinance Partially Amending the Itabashi City Municipal Housing Ordinance",
+		"summary": "The ordinance lists the Municipal Tokiwa-dai 4-chome No. 2 Apartment. This bill removes that apartment and adds Minami-Tokiwadai Housing, located at 2-10-5 Minami-Tokiwadai, with 86 units, and parking for 4 vehicles. The effective date will be set by the City's rules.",
+		"changes": [
+			"Removes the Tokiwa-dai 4-chome No. 2 Apartment from the ordinance",
+			"Adds 86 units of Minami-Tokiwadai Housing to the ordinance",
+			"Adds parking for 4 vehicles at Minami-Tokiwadai Housing to the ordinance"
+		],
+		"who": [
+			"Residents of the Tokiwa-dai 4-chome No. 2 Apartment",
+			"Residents of Minami-Tokiwadai Housing",
+			"Users of the Minami-Tokiwadai Housing parking lot"
+		],
+		"why": "The City says this is necessary to abolish the Tokiwa-dai 4-chome No. 2 Apartment and establish Minami-Tokiwadai Housing and other facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:50.855Z",
+			"inputTokens": 684,
+			"cachedTokens": 0,
+			"outputTokens": 1032,
+			"reasoningTokens": 738
+		}
 	}
 }

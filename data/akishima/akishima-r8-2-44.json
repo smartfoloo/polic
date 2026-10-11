@@ -1,0 +1,38 @@
+{
+	"id": "akishima-r8-2-44",
+	"assembly": "tokyo/akishima",
+	"approved": false,
+	"number": "議案第44号",
+	"official": "昭島市税賦課徴収条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案等の議決結果",
+			"url": "https://www.city.akishima.lg.jp/gikai/honkaigi/1006709/1011604/1012026.html",
+			"fetchedAt": "2026-10-08T10:56:07.275Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "46eef5a729d1db3a",
+		"official": "Ordinance Partially Amending the Akishima City Tax Assessment and Collection Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.504Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 147,
+			"reasoningTokens": 114,
+			"batch": true
+		}
+	}
+}

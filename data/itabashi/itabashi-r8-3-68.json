@@ -59,5 +59,31 @@
 			"outputTokens": 124,
 			"reasoningTokens": 110
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2954b453a5f928a3",
+		"name": "Sets pay for election meetings on corrected winner decisions and replacements",
+		"official": "Ordinance Partially Amending the Itabashi City, Tokyo Ordinance on Remuneration and Expense Reimbursement for Election Meeting Chairs, etc.",
+		"summary": "Adds pay for election meetings dealing with corrected decisions on who was elected or filling vacancies by advancing candidates to the ordinance that sets pay for election meeting officials. The election meeting chair will receive ¥6,000 for each meeting, and each election meeting observer will receive ¥5,000. If multiple election meetings are held on the same day, payment is capped at the amount for one meeting. The ordinance takes effect on the date it is promulgated and applies to elections whose date is announced or officially notified on or after the effective date.",
+		"changes": [
+			"Sets the election meeting chair's pay at ¥6,000 per meeting and the election meeting observer's pay at ¥5,000",
+			"Caps pay at the amount for one meeting when multiple relevant election meetings are held on the same day"
+		],
+		"who": [
+			"Election meeting chairs",
+			"Election meeting observers"
+		],
+		"why": "The ward says this is necessary to set pay for election meeting chairs and observers at meetings dealing with corrected decisions on who was elected or filling vacancies by advancing candidates.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:09:36.266Z",
+			"inputTokens": 776,
+			"cachedTokens": 0,
+			"outputTokens": 1192,
+			"reasoningTokens": 902
+		}
 	}
 }

@@ -57,5 +57,29 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "320c686e8366ce4d",
+		"name": "Changes the location of Kamata Nishi Special Branch Office",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on the Establishment of Special Branch Offices",
+		"summary": "The current address of Kamata Nishi Special Branch Office is 7-12-2 Nishikamata. Under this bill, its address will be changed to 7-11-1 Nishikamata.",
+		"changes": [
+			"Changes the address from 7-12-2 Nishikamata to 7-11-1 Nishikamata"
+		],
+		"who": [
+			"People who use Kamata Nishi Special Branch Office"
+		],
+		"why": "The ward says this is because Kamata Nishi Special Branch Office is moving.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:04:31.127Z",
+			"inputTokens": 578,
+			"cachedTokens": 0,
+			"outputTokens": 438,
+			"reasoningTokens": 261
+		}
 	}
 }

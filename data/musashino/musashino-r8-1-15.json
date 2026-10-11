@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai15gou.pdf",
 			"fetchedAt": "2026-10-05T15:55:01.064Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1acb3d84055c3534",
+		"official": "Ordinance Partially Amending the Musashino City Long-Term Care Insurance Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:25.631Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 112,
+			"reasoningTokens": 79
+		}
+	}
 }

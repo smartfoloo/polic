@@ -1,0 +1,96 @@
+{
+	"id": "yokohama-r8-2-2",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第2号議案",
+	"official": "横浜市防犯のまちづくり推進条例の制定",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第2号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si02.pdf",
+			"fetchedAt": "2026-10-08T11:04:21.347Z"
+		}
+	],
+	"name": "防犯のまちづくりの基本ルールを定める",
+	"category": "まちづくり",
+	"summary": "防犯のまちづくりに関する条例を新たに定めます。市の責務や市民、事業者、地域活動団体の役割を示し、市は基本計画をつくります。条例は公布の日から施行されます。",
+	"changes": [
+		"防犯のまちづくりの基本理念と、市や市民等の役割を定める",
+		"防犯のまちづくりを進める基本計画を策定し、市民等の意見を反映するための措置を講じる",
+		"個人情報の保護に配慮しながら、データ分析やデジタル技術を活用して施策を進める"
+	],
+	"who": [
+		"市民",
+		"事業者",
+		"地域活動団体"
+	],
+	"why": "市民の安心と安全の確保に資するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.887Z",
+		"inputTokens": 2211,
+		"cachedTokens": 0,
+		"outputTokens": 865,
+		"reasoningTokens": 591,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.887Z",
+		"checkedAt": "2026-10-10T07:29:38.718Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2159,
+			"cachedTokens": 0,
+			"outputTokens": 71,
+			"reasoningTokens": 56,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "68aea97db8ed662c",
+		"name": "Establishes basic rules for community crime prevention",
+		"official": "Enactment of the Yokohama City Ordinance on Promoting Community Crime Prevention",
+		"summary": "The city will establish a new ordinance on community crime prevention. It sets out the responsibilities of the city and the roles of residents, businesses and community groups. The city will draw up a basic plan. The ordinance will take effect on the date it is promulgated.",
+		"changes": [
+			"Sets out the basic principles of community crime prevention and the roles of the city, residents and others",
+			"Draws up a basic plan to promote community crime prevention and takes steps to reflect the views of residents and others",
+			"Promotes measures using data analysis and digital technology while taking care to protect personal information"
+		],
+		"who": [
+			"Residents",
+			"Businesses",
+			"Community groups"
+		],
+		"why": "The city says the ordinance is intended to help ensure residents' peace of mind and safety.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.074Z",
+			"inputTokens": 677,
+			"cachedTokens": 0,
+			"outputTokens": 414,
+			"reasoningTokens": 190,
+			"batch": true
+		}
+	}
+}

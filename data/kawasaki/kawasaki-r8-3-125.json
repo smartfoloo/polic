@@ -1,0 +1,91 @@
+{
+	"id": "kawasaki-r8-3-125",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第125号",
+	"official": "川崎市教育文化会館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第125号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_125.pdf",
+			"fetchedAt": "2026-10-08T11:12:58.820Z"
+		}
+	],
+	"name": "教育文化会館などの使用料を改定",
+	"category": "まちづくり",
+	"summary": "教育文化会館と分館の施設使用料を改定します。改正後の料金は部屋の種類と利用時間帯によって異なり、2027年4月1日から適用されます。施行時にすでに使用許可を受けている利用分には、従来の料金が適用されます。",
+	"changes": [
+		"教育文化会館の各施設の使用料を改定する",
+		"分館の各施設の使用料を改定する"
+	],
+	"who": [
+		"教育文化会館や分館を利用する人"
+	],
+	"why": "教育文化会館の使用料を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.875Z",
+		"inputTokens": 2039,
+		"cachedTokens": 0,
+		"outputTokens": 1499,
+		"reasoningTokens": 1316,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.654Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1918,
+			"cachedTokens": 0,
+			"outputTokens": 97,
+			"reasoningTokens": 82,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "628acd347c70b5ab",
+		"name": "Revises fees for use of the Education and Culture Center and its branches",
+		"official": "Regarding the enactment of an ordinance partially amending the Kawasaki City Education and Culture Center Ordinance",
+		"summary": "The fees for using the facilities at the Education and Culture Center and its branches will be revised. The revised fees will vary by room type and time of use, and will apply from April 1, 2027. The previous fees will apply to uses that have already received permission when the ordinance takes effect.",
+		"changes": [
+			"Revise the fees for each facility at the Education and Culture Center",
+			"Revise the fees for each facility at the branches"
+		],
+		"who": [
+			"People who use the Education and Culture Center",
+			"People who use the branch facilities"
+		],
+		"why": "The city says this is to revise the fees for using the Education and Culture Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.062Z",
+			"inputTokens": 615,
+			"cachedTokens": 0,
+			"outputTokens": 450,
+			"reasoningTokens": 240,
+			"batch": true
+		}
+	}
+}

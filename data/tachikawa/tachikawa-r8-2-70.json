@@ -77,5 +77,35 @@
 			"outputTokens": 488,
 			"reasoningTokens": 282
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9c694cbcb411ba1e",
+		"name": "Revises municipal tax deductions and fixed asset tax thresholds",
+		"official": "Ordinance Partially Amending the Tachikawa City Municipal Tax Assessment and Collection Ordinance",
+		"summary": "Fixed asset tax is not charged when the tax base is below ¥200,000 for buildings or below ¥1.5 million for depreciable assets. After the revision, the thresholds will be below ¥300,000 for buildings and below ¥1.8 million for depreciable assets. For municipal resident tax, the period for applying the housing loan tax credit will be extended, and rules will also be established to calculate income from certain crypto-assets separately.",
+		"changes": [
+			"Raises the fixed asset tax exemption thresholds for buildings from ¥200,000 to ¥300,000 and for depreciable assets from ¥1.5 million to ¥1.8 million",
+			"Extends the housing loan tax credit period from through fiscal year Reiwa 20 to through fiscal year Reiwa 25",
+			"Creates a rule to calculate income from specified crypto-assets separately from other income and levy the income-based portion of municipal resident tax on it",
+			"Revises who is covered and what information must be entered on dependent-related declarations submitted by recipients of public pensions and similar payments"
+		],
+		"who": [
+			"People who own buildings or depreciable assets",
+			"People who receive the housing loan tax credit",
+			"People with income from specified crypto-assets",
+			"Recipients of public pensions and similar payments who submit dependent-related declarations"
+		],
+		"why": "The city says this is because laws, cabinet orders and ministerial ordinances amending the Local Tax Act and other laws were promulgated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:14:59.202Z",
+			"inputTokens": 796,
+			"cachedTokens": 0,
+			"outputTokens": 1317,
+			"reasoningTokens": 951
+		}
 	}
 }

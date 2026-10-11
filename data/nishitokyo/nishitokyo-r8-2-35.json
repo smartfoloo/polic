@@ -1,0 +1,38 @@
+{
+	"id": "nishitokyo-r8-2-35",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第35号",
+	"official": "西東京市個人番号の利用及び特定個人情報の提供に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-05",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/kaikinainittei0802.html",
+			"fetchedAt": "2026-10-08T10:59:38.293Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "a53f86f673fcc84c",
+		"official": "Ordinance Partially Amending the Nishitokyo City Ordinance on the Use of Individual Numbers and the Provision of Specific Personal Information",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.520Z",
+			"inputTokens": 394,
+			"cachedTokens": 0,
+			"outputTokens": 198,
+			"reasoningTokens": 155,
+			"batch": true
+		}
+	}
+}

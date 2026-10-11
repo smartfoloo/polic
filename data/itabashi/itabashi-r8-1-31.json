@@ -75,5 +75,34 @@
 			"outputTokens": 214,
 			"reasoningTokens": 98
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b1becd865863bf0d",
+		"name": "Revises fee rules for condominium redevelopment and other matters",
+		"official": "Ordinance Partially Amending the Itabashi City Fees Ordinance",
+		"summary": "The ward’s fees ordinance sets fees for applications for certificates and special permits. This bill updates the names of systems related to condominium redevelopment and other matters, as well as references to legal provisions, in line with amendments to relevant laws. The changes generally take effect on April 1, 2026. Some take effect on the date of promulgation, May 1, 2026, or the date the relevant provisions of related laws take effect.",
+		"changes": [
+			"Aligns the names of condominium-related laws and projects with their revised names",
+			"Revises the names of associations involved in condominium redevelopment and the legal provisions that apply",
+			"Revises the descriptions of the matters covered and legal provisions for special permission related to floor-area ratios and other matters",
+			"Updates the article numbers listed in the fees ordinance"
+		],
+		"who": [
+			"Associations carrying out condominium redevelopment projects",
+			"People applying for special permission related to floor-area ratios and other matters",
+			"People and organizations applying for the relevant certificates"
+		],
+		"why": "The ward says the rules on fees for certificates and special permits need to be revised because of amendments to condominium-related laws and the Pharmaceuticals and Medical Devices Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:08:12.438Z",
+			"inputTokens": 775,
+			"cachedTokens": 0,
+			"outputTokens": 718,
+			"reasoningTokens": 411
+		}
 	}
 }

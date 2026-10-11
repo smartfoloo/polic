@@ -67,5 +67,34 @@
 			"outputTokens": 133,
 			"reasoningTokens": 119
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a51a033bf0b2ac16",
+		"name": "Sets fees for park rides and meeting rooms",
+		"official": "Ordinance Partially Amending the Itabashi City Parks Ordinance",
+		"summary": "The ordinance contains provisions on fees for occupying parks and fees for using paid facilities. This bill adds fees for the traffic rides and Meeting Rooms 1 and 2 at Itabashi Park. It also establishes a system under which the designated manager handles permits for activities in parks and work related to the use of paid facilities, and receives the user fees.",
+		"changes": [
+			"Set the fee for using ancillary equipment by rule at no more than ¥1,000 per use unit",
+			"Set fees for the large traffic rides at ¥200 per ride for adults and ¥100 per ride for children, and for small rides at ¥100 per 10 minutes per unit; make them free for children under 3",
+			"Set the fees for Meeting Rooms 1 and 2 at Itabashi Park at ¥600 for the morning, ¥800 for the afternoon and ¥700 for the evening",
+			"Establish a system under which the designated manager sets user fees with the ward mayor’s approval and may reduce or waive fees or issue refunds in accordance with the ward mayor’s standards"
+		],
+		"who": [
+			"People using the traffic rides at Itabashi Park",
+			"People using Meeting Rooms 1 and 2 at Itabashi Park",
+			"People who receive permission to carry out activities in parks"
+		],
+		"why": "The ward says this is to add duties for the designated manager and put in place necessary provisions, including setting fees for newly established paid facilities and their use.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:09:20.029Z",
+			"inputTokens": 813,
+			"cachedTokens": 0,
+			"outputTokens": 1054,
+			"reasoningTokens": 694
+		}
 	}
 }

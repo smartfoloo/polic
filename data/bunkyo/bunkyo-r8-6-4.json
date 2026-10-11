@@ -1,0 +1,111 @@
+{
+	"id": "bunkyo-r8-6-4",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第4号",
+	"official": "文京区地区計画の区域内における建築物の制限に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年6月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-02",
+	"sources": [
+		{
+			"label": "議案第4号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12660/2~24.pdf",
+			"fetchedAt": "2026-10-08T10:53:54.352Z"
+		},
+		{
+			"label": "令和8年6月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080625.pdf",
+			"fetchedAt": "2026-10-08T10:53:42.318Z"
+		}
+	],
+	"name": "地区計画区域の建築制限を追加・整理",
+	"category": "まちづくり",
+	"summary": "地区計画区域では、建築物の用途や規模などに条例上の制限があります。この議案は、地区計画の変更に合わせて計画地区を加え、その区域の建築制限を定めるほか、容積率の計算方法や敷地面積の扱いなどを見直します。",
+	"changes": [
+		"容積率の計算で、法令や地区計画により延べ面積に含めない床面積を除く",
+		"事業によって敷地面積が減った土地について、最低敷地面積の制限の適用に例外を設ける",
+		"追加する計画地区の建築物の用途や規模などの制限を定める",
+		"条例中の用語や表記を整理する"
+	],
+	"who": [
+		"地区計画区域内で建築を行う人や事業者",
+		"事業によって敷地面積が減った土地の所有者など"
+	],
+	"why": "地区計画の変更に伴い、計画地区を追加し、その区域内の建築物の制限を定めるほか、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.837Z",
+		"inputTokens": 2673,
+		"cachedTokens": 0,
+		"outputTokens": 1825,
+		"reasoningTokens": 1486,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.837Z",
+		"checkedAt": "2026-10-10T07:29:38.550Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "追加する計画地区の建築物の用途や規模などの制限を定める",
+				"note": "別表第二に追加する後楽二丁目南地区の名称や、風営法に規定する営業用途の制限、共同住宅部分の延べ面積の敷地面積に対する割合を2.3以上とする規定など、直接関わる制限の内容が示されていません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事業によって敷地面積が減った土地について、最低敷地面積の制限の適用に例外を設ける",
+				"note": "第八条第三項の例外は、法第八十六条の九第一項各号の事業による減少が対象で、土地の全部を一つの敷地として使うことが条件です。また、減少前から違反していた土地や、その後制限に適合するに至った土地は対象外となる点が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2684,
+			"cachedTokens": 0,
+			"outputTokens": 608,
+			"reasoningTokens": 299,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ae0e2784a365189e",
+		"name": "Adds and clarifies building restrictions in district plan areas",
+		"official": "Ordinance Partially Amending the Bunkyo City Ordinance on Restrictions on Buildings within District Plan Areas",
+		"summary": "In district plan areas, ordinances set restrictions on building uses, size and other matters. This bill adds a planned district in line with changes to the district plan and sets building restrictions for that area. It also revises the method for calculating the floor-area ratio and the treatment of site area.",
+		"changes": [
+			"Excludes from the floor-area ratio calculation floor area that laws and regulations or the district plan say should not be included in total floor area",
+			"Creates an exception to the minimum site-area restriction for land whose site area has been reduced by a project",
+			"Sets restrictions on the uses, size and other matters for buildings in the added planned district",
+			"Clarifies terms and wording in the ordinance"
+		],
+		"who": [
+			"People and businesses building within district plan areas",
+			"Owners of land whose site area has been reduced by a project, and others"
+		],
+		"why": "The ward says the bill is intended to add a planned district and set restrictions on buildings in that area in connection with changes to the district plan, and to update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.024Z",
+			"inputTokens": 757,
+			"cachedTokens": 0,
+			"outputTokens": 682,
+			"reasoningTokens": 395,
+			"batch": true
+		}
+	}
+}

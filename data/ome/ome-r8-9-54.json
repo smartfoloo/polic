@@ -56,5 +56,28 @@
 			"outputTokens": 44,
 			"reasoningTokens": 30
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "38b7a7baf04ee2f1",
+		"name": "Sets the school lunch center's location in Negabu",
+		"official": "Ordinance Partially Amending the Ome City School Lunch Center Ordinance",
+		"summary": "The Ome City school lunch center has two kitchens. This bill amends the ordinance in line with the integration of the kitchens, sets the center's location at 1-469-4 Negabu, Ome City, Tokyo, and takes effect on April 1, 2027.",
+		"changes": [
+			"Adds 1-469-4 Negabu, Ome City, Tokyo, as the center's location",
+			"Deletes Article 1, Paragraph 2 and the Appended Table"
+		],
+		"who": [],
+		"why": "The city says this is to make the necessary provisions in line with the integration of the two kitchens.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:03:23.255Z",
+			"inputTokens": 610,
+			"cachedTokens": 0,
+			"outputTokens": 656,
+			"reasoningTokens": 469
+		}
 	}
 }

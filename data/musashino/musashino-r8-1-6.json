@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai6gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:07.035Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "93a2751da906c08f",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance on Salaries and Travel Expenses for Special-Service Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:42.242Z",
+			"inputTokens": 394,
+			"cachedTokens": 0,
+			"outputTokens": 206,
+			"reasoningTokens": 167
+		}
+	}
 }

@@ -59,5 +59,31 @@
 			"outputTokens": 54,
 			"reasoningTokens": 39
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cc20f8a602ce3c94",
+		"name": "Revises pay caps and allowances for fiscal-year appointed staff",
+		"official": "Ordinance Partially Amending the Inagi City Ordinance Concerning Remuneration, Expense Reimbursements, Term-End Allowances and Performance Allowances for Fiscal-Year Appointed Staff",
+		"summary": "The current cap on hourly pay is ¥3,000. This bill raises the cap to ¥5,000 and also revises the percentages used to calculate term-end and performance allowances. It will take effect on April 1, 2026.",
+		"changes": [
+			"Raises the cap on hourly pay from ¥3,000 to ¥5,000",
+			"Sets the percentage applied to the calculation base for the term-end allowance at 91.25% in both June and December",
+			"Sets the percentage used to calculate the total cap for the performance allowance at 78.75% in both June and December"
+		],
+		"who": [
+			"Fiscal-year appointed staff of Inagi City"
+		],
+		"why": "The city says the changes are to revise the cap on hourly pay and the payment rates for term-end allowances, among other things.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:03:57.977Z",
+			"inputTokens": 708,
+			"cachedTokens": 0,
+			"outputTokens": 866,
+			"reasoningTokens": 608
+		}
 	}
 }

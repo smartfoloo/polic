@@ -1,0 +1,48 @@
+{
+	"id": "arakawa-r7-2-69",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第69号",
+	"official": "荒川区立精神障害者地域生活支援センター条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第69号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian69.html",
+			"fetchedAt": "2026-10-10T14:48:32.209Z"
+		}
+	],
+	"name": "地域相談支援事業を実施",
+	"category": "福祉",
+	"summary": "条例を改正し、法律に基づく地域相談支援事業を実施します。あわせて、条例の規定を整えます。",
+	"changes": [
+		"地域相談支援事業を実施する",
+		"条例の規定を整える"
+	],
+	"who": [
+		"地域相談支援事業を利用する人"
+	],
+	"why": "法律に基づく地域相談支援事業を実施し、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.813Z",
+		"inputTokens": 1047,
+		"cachedTokens": 0,
+		"outputTokens": 652,
+		"reasoningTokens": 516,
+		"batch": true
+	}
+}

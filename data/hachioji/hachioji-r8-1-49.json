@@ -37,15 +37,28 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:32:58.169Z",
+		"generatedAt": "2026-10-08T23:17:24.153Z",
 		"inputTokens": 1336,
 		"cachedTokens": 0,
 		"outputTokens": 962,
-		"reasoningTokens": 791
+		"reasoningTokens": 791,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:17:24.153Z",
+			"notes": [
+				"ai [check] changes/direction: 「中野子ども・若者育成支援センターと所在地（八王子市中野山王3丁目6番27号）を加える」 → 原文の別表は改正後・改正前の列の対応が崩れているため、中野の施設と所在地を「加える」という変更の向きを確認する必要がある。"
+			],
+			"inputTokens": 1693,
+			"cachedTokens": 1025,
+			"outputTokens": 762,
+			"reasoningTokens": 591
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:32:58.169Z",
-		"checkedAt": "2026-10-08T05:17:34.337Z",
+		"draftAt": "2026-10-08T23:17:24.153Z",
+		"checkedAt": "2026-10-08T23:17:35.759Z",
 		"flags": [],
 		"issues": [
 			{
@@ -53,7 +66,7 @@
 				"kind": "direction",
 				"severity": "check",
 				"quote": "中野子ども・若者育成支援センターと所在地（八王子市中野山王3丁目6番27号）を加える",
-				"note": "原文の別表は改正後・改正前の列の対応が崩れているため、中野の施設と所在地を「加える」という変更の向きを確認する必要がある。"
+				"note": "原文の新旧対照表では改正前・改正後の列の対応が不明瞭で、中野センターと所在地を「加える」変更か確認が必要。"
 			}
 		],
 		"ai": {
@@ -62,8 +75,8 @@
 			"promptVersion": 2,
 			"inputTokens": 1193,
 			"cachedTokens": 0,
-			"outputTokens": 418,
-			"reasoningTokens": 306
+			"outputTokens": 430,
+			"reasoningTokens": 319
 		}
 	}
 }

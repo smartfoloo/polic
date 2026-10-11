@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/054/549/giann/8giandai58gou.pdf",
 			"fetchedAt": "2026-10-05T15:55:55.059Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "33e0ce240c8ca693",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance on Compensation for Public-Service Accidents of Part-Time Fire Brigade Members, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:58.507Z",
+			"inputTokens": 393,
+			"cachedTokens": 0,
+			"outputTokens": 273,
+			"reasoningTokens": 228
+		}
+	}
 }

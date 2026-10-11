@@ -58,5 +58,30 @@
 			"outputTokens": 88,
 			"reasoningTokens": 73
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c170658aae62f36c",
+		"name": "Adds decisions on recommendations for vacant homes to the council's remit",
+		"official": "Ordinance Partially Amending the Ota City Vacant Houses, etc. Measures Deliberative Council Ordinance",
+		"summary": "Amends the ordinance that sets out the matters handled by the Vacant Houses, etc. Measures Deliberative Council. It adds decisions on whether to issue recommendations under Article 13, Paragraph 2 of the Act to the council's remit, and revises the wording concerning Article 22 of the Act.",
+		"changes": [
+			"Adds decisions on whether to issue recommendations under Article 13, Paragraph 2 of the Act to the council's remit",
+			"Revises the wording on recommendations under Article 22, Paragraph 2 of the Act and Paragraph 3 of the same Article"
+		],
+		"who": [
+			"Owners of vacant houses, etc. subject to recommendations"
+		],
+		"why": "The ward says this is to revise the matters under the council's jurisdiction.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:05:57.249Z",
+			"inputTokens": 648,
+			"cachedTokens": 0,
+			"outputTokens": 562,
+			"reasoningTokens": 333
+		}
 	}
 }

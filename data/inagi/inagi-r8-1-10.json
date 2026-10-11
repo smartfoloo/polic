@@ -57,5 +57,29 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2404bc78e7a97762",
+		"name": "Removes provisions on spouse allowances",
+		"official": "Ordinance Partially Amending the Ordinance on the Types and Standards of Salaries for Employees of the Inagi City Hospital Business",
+		"summary": "Spouses are included among the dependents eligible for dependent allowances. This bill removes the provisions concerning spouses and takes effect on April 1, 2026.",
+		"changes": [
+			"Removes spouses from the categories of dependents"
+		],
+		"who": [
+			"Employees of the Inagi City hospital business who support their spouses"
+		],
+		"why": "The city says it is amending the allowances in line with the intent of a recommendation by the Tokyo Metropolitan Personnel Commission.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:03:21.904Z",
+			"inputTokens": 608,
+			"cachedTokens": 0,
+			"outputTokens": 452,
+			"reasoningTokens": 288
+		}
 	}
 }

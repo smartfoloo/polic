@@ -1,0 +1,86 @@
+{
+	"id": "kokubunji-r8-1-18",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第18号",
+	"official": "国分寺市印鑑条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "電気通信事業法の引用条項を整理",
+	"category": "行政のしくみ",
+	"summary": "国分寺市印鑑条例では、電気通信事業法の条項を引用しています。この議案で、同法の改正に合わせて引用する条項を整理します。",
+	"changes": [
+		"電気通信事業法の引用条項を整理する"
+	],
+	"who": [],
+	"why": "電気通信事業法の改正に伴い、引用条項を整理するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.876Z",
+		"inputTokens": 1015,
+		"cachedTokens": 0,
+		"outputTokens": 396,
+		"reasoningTokens": 247,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.876Z",
+		"checkedAt": "2026-10-10T07:29:38.657Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 837,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 27,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "13acf86f03b2ec14",
+		"name": "Updates references to provisions of the Telecommunications Business Act",
+		"official": "Regarding the Ordinance Partially Amending the Kokubunji City Seal Registration Ordinance",
+		"summary": "The Kokubunji City Seal Registration Ordinance cites provisions of the Telecommunications Business Act. This bill updates the cited provisions to reflect amendments to that act.",
+		"changes": [
+			"Updates the references to provisions of the Telecommunications Business Act"
+		],
+		"who": [
+			"The Kokubunji City Seal Registration Ordinance"
+		],
+		"why": "The city says this is to update the cited provisions following amendments to the Telecommunications Business Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.063Z",
+			"inputTokens": 554,
+			"cachedTokens": 0,
+			"outputTokens": 810,
+			"reasoningTokens": 660,
+			"batch": true
+		}
+	}
+}

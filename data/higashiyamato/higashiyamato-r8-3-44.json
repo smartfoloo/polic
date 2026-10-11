@@ -77,5 +77,35 @@
 			"outputTokens": 521,
 			"reasoningTokens": 264
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "30ea4ac38805eee7",
+		"name": "Reviews special rules for resident tax and fixed asset tax",
+		"official": "Ordinance Partially Amending the Higashiyamato City Tax Ordinance",
+		"summary": "For resident tax, the city revises the declaration rules for people receiving public pensions and similar income, and introduces a special rule that separates income from specified crypto-assets from other income and sets the resident tax income-based levy at 3%. For fixed asset tax and city planning tax, the city changes the criteria for exemption from tax and special rates for equipment and renovation work. The start dates vary depending on the change.",
+		"changes": [
+			"Revises who is covered by declaration forms for people receiving public pensions and similar income, and what information the forms must include",
+			"Separates income from specified crypto-assets from other income and introduces a special rule setting the resident tax income-based levy at 3%",
+			"Changes the criteria for exemption from fixed asset tax and special rates for equipment and renovation work",
+			"Revises the applicable periods and conditions for special rules on resident tax concerning land transfers, among other matters"
+		],
+		"who": [
+			"People receiving public pensions and similar income who declare information about a spouse, dependents, or others",
+			"People liable for resident tax who have income from specified crypto-assets",
+			"People who own land or buildings subject to fixed asset tax or city planning tax, or equipment covered by these taxes",
+			"People covered by special rules on resident tax concerning land transfers"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:50.318Z",
+			"inputTokens": 772,
+			"cachedTokens": 0,
+			"outputTokens": 1305,
+			"reasoningTokens": 971
+		}
 	}
 }

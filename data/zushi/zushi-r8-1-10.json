@@ -1,0 +1,118 @@
+{
+	"id": "zushi-r8-1-10",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第10号",
+	"official": "逗子市国民健康保険条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "教育民生常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1013732.html",
+			"fetchedAt": "2026-10-08T11:21:22.893Z"
+		},
+		{
+			"label": "議案第10号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/732/r8-1t-gian10.pdf",
+			"fetchedAt": "2026-10-08T11:21:58.767Z"
+		}
+	],
+	"name": "国保料に子ども・子育て支援分を追加",
+	"category": "健康・医療",
+	"summary": "現在、逗子市の国民健康保険料は、基礎分、後期高齢者支援金分、介護納付金分を合わせて計算しています。令和8年度分から新たに子ども・子育て支援納付金分を加え、所得や加入者数、世帯数などをもとに計算します。18歳になった後、最初に迎える3月31日までの加入者については、この納付金分の被保険者均等割額を減額します。",
+	"changes": [
+		"保険料に子ども・子育て支援納付金分を加える",
+		"新たな納付金分を所得割、被保険者均等割、18歳以上被保険者均等割、世帯別平等割で算定する",
+		"新たな納付金分に所得に応じた減額を適用する",
+		"新たな納付金分の被保険者均等割額を減額する"
+	],
+	"who": [
+		"逗子市の国民健康保険加入者",
+		"18歳になった後、最初に迎える3月31日までの国民健康保険加入者"
+	],
+	"why": "子ども・子育て支援法等の改正に伴い、国民健康保険料として子ども・子育て支援納付金分を徴収するために必要な規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.891Z",
+		"inputTokens": 8437,
+		"cachedTokens": 0,
+		"outputTokens": 3120,
+		"reasoningTokens": 2712,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.891Z",
+		"checkedAt": "2026-10-10T07:29:38.743Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "新たな納付金分の被保険者均等割額を減額する",
+				"note": "第16条の６では、18歳に達する日以後の最初の３月31日までの被保険者を対象に、被保険者均等割額を全額減額して０円とする。changesには対象年齢と全額減額であることが抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "新たな納付金分を所得割、被保険者均等割、18歳以上被保険者均等割、世帯別平等割で算定する",
+				"note": "第12条の15にある、新たな納付金分の100円未満の端数切捨てと賦課限度額の設定が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保険料に子ども・子育て支援納付金分を加える",
+				"note": "第12条の５の10の改正による、後期高齢者支援金等賦課額の100円未満の端数を切り捨てる変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 8509,
+			"cachedTokens": 0,
+			"outputTokens": 540,
+			"reasoningTokens": 228,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6d9828401a69d7cb",
+		"name": "Adds a children and childcare support contribution to national health insurance premiums",
+		"official": "Partial Amendment to the Zushi City National Health Insurance Ordinance",
+		"summary": "Zushi City currently calculates national health insurance premiums by combining the basic portion, the portion for supporting the medical care system for older people, and the nursing care contribution portion. Starting with FY2026 premiums, it will add a new children and childcare support contribution portion, calculated based on factors such as income, the number of insured people, and the number of households. For people insured through the first March 31 after they turn 18, the per-insured-person equal amount for this contribution portion will be reduced.",
+		"changes": [
+			"Adds the children and childcare support contribution portion to premiums",
+			"Calculates the new contribution portion using an income-based amount, an equal amount per insured person, an equal amount per insured person aged 18 or older, and an equal amount per household",
+			"Applies an income-based reduction to the new contribution portion",
+			"Reduces the per-insured-person equal amount for the new contribution portion"
+		],
+		"who": [
+			"National Health Insurance enrollees in Zushi City",
+			"National Health Insurance enrollees through the first March 31 after they turn 18"
+		],
+		"why": "The city says this is to establish the necessary rules for collecting the children and childcare support contribution as part of National Health Insurance premiums, following amendments to the Act on Support for Children and Child-Rearing, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.077Z",
+			"inputTokens": 812,
+			"cachedTokens": 0,
+			"outputTokens": 1016,
+			"reasoningTokens": 682,
+			"batch": true
+		}
+	}
+}

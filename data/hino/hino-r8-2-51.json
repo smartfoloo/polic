@@ -1,0 +1,38 @@
+{
+	"id": "hino-r8-2-51",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議案第51号",
+	"official": "日野市準用河川管理条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-17",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1031031.html",
+			"fetchedAt": "2026-10-08T10:56:31.518Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "57242974dc2f8b0e",
+		"official": "Regarding the enactment of an ordinance partially amending the Hino City Ordinance on the Management of Quasi-Rivers",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.511Z",
+			"inputTokens": 385,
+			"cachedTokens": 0,
+			"outputTokens": 205,
+			"reasoningTokens": 166,
+			"batch": true
+		}
+	}
+}

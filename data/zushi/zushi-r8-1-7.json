@@ -1,0 +1,84 @@
+{
+	"id": "zushi-r8-1-7",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "逗子市事務分掌条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1013732.html",
+			"fetchedAt": "2026-10-08T11:21:22.893Z"
+		},
+		{
+			"label": "議案第7号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/732/r8-1t-gian7.pdf",
+			"fetchedAt": "2026-10-08T11:21:40.837Z"
+		}
+	],
+	"name": "基地に関する事務の名称を変更",
+	"category": "行政のしくみ",
+	"summary": "現在、経営企画部の事務分掌には「基地対策」と記載されています。この議案では「基地政策及び基地対策」に改め、2026年4月1日から施行します。",
+	"changes": [
+		"経営企画部の事務分掌の「基地対策」を「基地政策及び基地対策」に改める"
+	],
+	"who": [],
+	"why": "池子住宅地区及び海軍補助施設の返還や米軍に起因する問題への対応に加え、米軍関係者との交流や災害時に備えた協力関係の構築にも取り組む現状を踏まえたものと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.892Z",
+		"inputTokens": 1276,
+		"cachedTokens": 0,
+		"outputTokens": 650,
+		"reasoningTokens": 459,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.892Z",
+		"checkedAt": "2026-10-10T07:29:38.746Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1152,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b17f161872af50f4",
+		"name": "Changes the name of duties related to the military base",
+		"official": "About the Partial Amendment to the Zushi City Ordinance on the Division of Administrative Duties",
+		"summary": "The current division of duties for the Management and Planning Department lists “Base Measures.” This bill changes that wording to “Base Policy and Base Measures” and takes effect on April 1, 2026.",
+		"changes": [
+			"Changes “Base Measures” in the Management and Planning Department’s division of duties to “Base Policy and Base Measures”"
+		],
+		"who": [],
+		"why": "The city says this reflects the department’s current work: in addition to responding to the return of the Ikego Housing Area and Naval Auxiliary Facility and to problems caused by the US military, it also works on exchanges with US military personnel and building cooperative relationships in preparation for disasters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.077Z",
+			"inputTokens": 614,
+			"cachedTokens": 0,
+			"outputTokens": 522,
+			"reasoningTokens": 327,
+			"batch": true
+		}
+	}
+}

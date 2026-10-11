@@ -1,0 +1,52 @@
+{
+	"id": "sagamihara-r8-9-114",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第114号",
+	"official": "相模原市市税条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会9月定例会議",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "議案第114号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900011/file_contents/2026_gian_111-117.pdf",
+			"fetchedAt": "2026-10-10T14:38:09.233Z"
+		},
+		{
+			"label": "令和8年定例会9月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_9_0930.pdf",
+			"fetchedAt": "2026-10-10T14:37:42.924Z"
+		}
+	],
+	"name": "寄附金控除と固定資産税の特例を改める",
+	"category": "税・手数料",
+	"summary": "市税条例では、市民税の寄附金税額控除の対象や、固定資産税などの特例を定めています。この議案で、公益信託に関係する寄附を控除対象に加え、再生可能エネルギー設備と対象建物に適用する税の特例割合を定めます。",
+	"changes": [
+		"公益信託に関係する寄附金を市民税の寄附金税額控除の対象に加える",
+		"対象となる太陽光発電設備の固定資産税の課税標準割合を2分の1にする",
+		"対象となる風力発電設備の固定資産税の課税標準割合を3分の2にする",
+		"対象の改修を受けた特別特定建築物の固定資産税・都市計画税を3分の1減額する"
+	],
+	"who": [
+		"公益信託に関係する寄附をする市民",
+		"対象となる太陽光・風力発電設備の所有者",
+		"国の補助を受けて対象の改修を行う特別特定建築物の所有者"
+	],
+	"why": "地方税法の改正に伴い、寄附金税額控除の対象となる寄附金の規定を改め、固定資産税等の特例に関する規定を追加するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.850Z",
+		"inputTokens": 3254,
+		"cachedTokens": 0,
+		"outputTokens": 2239,
+		"reasoningTokens": 1878,
+		"batch": true
+	}
+}

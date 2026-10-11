@@ -1,0 +1,37 @@
+{
+	"id": "koto-r8-2-73",
+	"assembly": "tokyo/koto",
+	"approved": false,
+	"number": "議案第73号",
+	"official": "江東区自転車の放置防止及び自転車駐車場の整備に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.koto.lg.jp/650102/documents/080701giannkekka.pdf",
+			"fetchedAt": "2026-10-08T10:54:42.905Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "e3a29999c95e5abb",
+		"official": "Ordinance Partially Amending the Koto City Ordinance on Preventing Bicycle Abandonment and Developing Bicycle Parking Facilities",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T03:42:04.810Z",
+			"inputTokens": 400,
+			"cachedTokens": 0,
+			"outputTokens": 223,
+			"reasoningTokens": 183
+		}
+	}
+}

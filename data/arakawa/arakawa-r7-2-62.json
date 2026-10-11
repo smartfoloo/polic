@@ -1,0 +1,48 @@
+{
+	"id": "arakawa-r7-2-62",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第62号",
+	"official": "荒川区児童福祉施設の設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第62号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian62.html",
+			"fetchedAt": "2026-10-10T14:47:56.188Z"
+		}
+	],
+	"name": "乳児院の長などの資格基準を改める",
+	"category": "福祉",
+	"summary": "児童福祉施設の設備や運営に関する区の基準を定めた条例を改正します。国の基準改正に合わせ、乳児院の長などの資格基準を改め、規定を整えます。",
+	"changes": [
+		"乳児院の長などの資格基準を改める",
+		"関連する規定を整える"
+	],
+	"who": [
+		"乳児院の長など"
+	],
+	"why": "国の基準の改正に伴い、乳児院の長などの資格基準を改め、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.810Z",
+		"inputTokens": 1061,
+		"cachedTokens": 0,
+		"outputTokens": 687,
+		"reasoningTokens": 514,
+		"batch": true
+	}
+}

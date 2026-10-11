@@ -1,0 +1,47 @@
+{
+	"id": "sagamihara-r7-3-m1",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議提議案第1号",
+	"official": "相模原市議会基本条例の一部を改正する条例について",
+	"by": "member",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-16",
+	"sources": [
+		{
+			"label": "議提議案第1号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2025041500010/file_contents/2026_gitei_1-4.pdf",
+			"fetchedAt": "2026-10-10T14:39:24.949Z"
+		},
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"name": "市議会の権限と議員の責務を追加",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、市議会や議員の役割、活動の原則などを定めています。この議案では、市議会が地方自治法に基づく検査・調査などの権限を行使することと、議員がその権限の適切な行使に向けて誠実に職務を行うことを加えます。また、条例中の表現も改めます。",
+	"changes": [
+		"市議会の役割に、地方自治法に基づく検査・調査などの権限行使を加える",
+		"議員の責務に、議会の権限を適切に行使するため誠実に職務を行うことを加える",
+		"条例の2か所に「重要な」を加え、法律名の表記を整理する"
+	],
+	"who": [],
+	"why": "地方自治法の改正に伴い、市議会の役割や活動原則、議員の責務、市長等との関係に関する規定などを改めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.836Z",
+		"inputTokens": 1690,
+		"cachedTokens": 0,
+		"outputTokens": 1321,
+		"reasoningTokens": 1034,
+		"batch": true
+	}
+}

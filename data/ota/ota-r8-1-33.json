@@ -68,5 +68,33 @@
 			"outputTokens": 296,
 			"reasoningTokens": 180
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4027da11d5d22f4b",
+		"name": "Changes who can use children's centers and abolishes Omori-minami",
+		"official": "Ordinance Partially Amending the Ota City Children's Center Ordinance",
+		"summary": "Currently, elementary and junior high school students, infants and young children, and their guardians can use children's centers (the Higashiminecho Branch is limited to infants and young children and their guardians). After the amendment, eligible users will include children defined under the Child Welfare Act and their guardians, as well as people the ward mayor considers necessary. Omori-minami Children's Center will also be abolished. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Changes eligible users to children defined under the Child Welfare Act and their guardians",
+			"Adds people the ward mayor considers especially necessary as eligible users",
+			"Abolishes Omori-minami Children's Center"
+		],
+		"who": [
+			"Children defined under the Child Welfare Act and their guardians who use Ota City children's centers",
+			"People the ward mayor considers especially necessary to use the centers",
+			"Users of Omori-minami Children's Center"
+		],
+		"why": "The ward says this is to change who can use children's centers and abolish Omori-minami Children's Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:07:10.542Z",
+			"inputTokens": 708,
+			"cachedTokens": 0,
+			"outputTokens": 977,
+			"reasoningTokens": 698
+		}
 	}
 }

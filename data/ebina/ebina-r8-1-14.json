@@ -1,0 +1,80 @@
+{
+	"id": "ebina-r8-1-14",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第14号",
+	"official": "海老名市特定教育・保育施設及び特定地域型保育事業の保育料を定める条例の一部改正について",
+	"by": "head",
+	"session": "令和8年3月第1回定例会",
+	"committee": "文教社会常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F24%2C2026%2F03%2F26%2C112",
+			"fetchedAt": "2026-10-08T11:25:11.274Z"
+		},
+		{
+			"label": "議案第14号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1467_8.14.pdf",
+			"fetchedAt": "2026-10-08T11:26:23.312Z"
+		}
+	],
+	"name": "保育料に関する条例を改正",
+	"category": "子育て",
+	"summary": "特定教育・保育施設などの保育料を定める条例の一部を改正する議案です。提供された原文には具体的な改正内容が記載されていないため、変更点は確認できません。",
+	"changes": [],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.839Z",
+		"inputTokens": 1006,
+		"cachedTokens": 0,
+		"outputTokens": 404,
+		"reasoningTokens": 305,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.839Z",
+		"checkedAt": "2026-10-10T07:29:38.553Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 787,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 34,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5c2336c41aace8cf",
+		"name": "Amends ordinance on childcare fees",
+		"official": "Regarding the Partial Amendment to the Ordinance Setting Childcare Fees for Specified Education and Childcare Facilities and Specified Community-Based Childcare Services",
+		"summary": "This is a bill to partially amend the ordinance that sets childcare fees for specified education and childcare facilities, etc. The source text provided does not state the specific details of the amendments, so the changes cannot be confirmed.",
+		"changes": [],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.026Z",
+			"inputTokens": 538,
+			"cachedTokens": 0,
+			"outputTokens": 326,
+			"reasoningTokens": 205,
+			"batch": true
+		}
+	}
+}

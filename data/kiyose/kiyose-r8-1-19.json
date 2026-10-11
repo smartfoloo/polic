@@ -1,0 +1,44 @@
+{
+	"id": "kiyose-r8-1-19",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第19号",
+	"official": "清瀬市介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-16",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/950/r8.1.shicyougian.zenbu0316.pdf",
+			"fetchedAt": "2026-10-10T14:41:36.069Z"
+		}
+	],
+	"name": "令和8年度の介護保険料算定に特例",
+	"category": "福祉",
+	"summary": "令和8年度の介護保険料の算定に限り、令和7年度の見直し前と同じ判定となるよう、算定方法に特例を設けます。給与などの収入が55万1,000円以上190万円未満の第1号被保険者等の所得額の算定方法と、市町村民税の世帯非課税者などの基準が対象です。",
+	"changes": [
+		"合計所得額の算定方法に特例を設ける",
+		"市町村民税の世帯非課税者と、市町村民税が課されていない人の基準に特例を設ける"
+	],
+	"who": [
+		"給与などの収入が55万1,000円以上190万円未満の第1号被保険者等",
+		"市町村民税の世帯非課税者や、市町村民税が課されていない人"
+	],
+	"why": "令和8年度の保険料の判定を令和7年度の見直し前と同様にするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.820Z",
+		"inputTokens": 1128,
+		"cachedTokens": 0,
+		"outputTokens": 2052,
+		"reasoningTokens": 1766,
+		"batch": true
+	}
+}

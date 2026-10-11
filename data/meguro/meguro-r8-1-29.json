@@ -63,5 +63,29 @@
 			"outputTokens": 67,
 			"reasoningTokens": 52
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "26d9cdaa0152eff6",
+		"name": "Adds the infant and other children’s childcare support service to the ordinance",
+		"official": "Ordinance Partially Amending the Meguro City Public Nursery School Ordinance",
+		"summary": "The Meguro City Public Nursery School Ordinance does not contain provisions for the infant and other children’s childcare support service. The bill adds the service to the ordinance and establishes a system for collecting fees from parents or guardians based on the length of time used. The ordinance takes effect on April 1, 2026, and procedures for applying to use the service can begin before that date.",
+		"changes": [
+			"Adds the service to the ordinance and provides for collecting a fee calculated by multiplying the amount calculated according to national standards by the time used"
+		],
+		"who": [
+			"Parents or guardians of children approved to use the infant and other children’s childcare support service"
+		],
+		"why": "The mayor says this is to start providing the infant and other children’s childcare support service.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:55:01.251Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 1696,
+			"reasoningTokens": 1474
+		}
 	}
 }

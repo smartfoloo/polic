@@ -27,7 +27,7 @@
 	"category": "まちづくり",
 	"summary": "現在は毎月第3木曜日を休館日とし、その日が休日の場合は翌日を休館日にしています。その日が祝日なら、さらに翌日を休館日にします。改正後は休日の後にある最も近い休日でない日を休館日とし、1月第3土曜日も休館日に加えます。",
 	"changes": [
-		"第3木曜日が休日の場合、休日でない最も近い日を休館日にする",
+		"第3木曜日が休日の場合、第3木曜日より後で最も近い休日でない日を休館日にする",
 		"1月第3土曜日を休館日に加える",
 		"条件を示す「各号の一」を「いずれか」に改める"
 	],
@@ -39,33 +39,64 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:24:49.167Z",
+		"generatedAt": "2026-10-08T23:29:58.940Z",
 		"inputTokens": 1789,
 		"cachedTokens": 0,
 		"outputTokens": 1776,
-		"reasoningTokens": 1552
+		"reasoningTokens": 1552,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:29:58.940Z",
+			"notes": [
+				"ai [error] changes/fact: 「第3木曜日が休日の場合、休日でない最も近い日を休館日にする」 → 原文第５条第１号は「その日後においてその日に最も近い休日でない日」としており、第３木曜日より後の日に限る条件が抜けている。"
+			],
+			"inputTokens": 2175,
+			"cachedTokens": 1025,
+			"outputTokens": 698,
+			"reasoningTokens": 468
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:24:49.167Z",
-		"checkedAt": "2026-10-08T05:50:00.448Z",
+		"draftAt": "2026-10-08T23:29:58.940Z",
+		"checkedAt": "2026-10-08T23:30:05.603Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "第3木曜日が休日の場合、休日でない最も近い日を休館日にする",
-				"note": "原文第５条第１号は「その日後においてその日に最も近い休日でない日」としており、第３木曜日より後の日に限る条件が抜けている。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1684,
+			"inputTokens": 1690,
 			"cachedTokens": 0,
-			"outputTokens": 534,
-			"reasoningTokens": 433
+			"outputTokens": 254,
+			"reasoningTokens": 239
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f1d43a5b63d62a9e",
+		"name": "Adds and changes closing days at the Women's General Center",
+		"official": "Ordinance Partially Amending the Tachikawa City Women's General Center Ordinance",
+		"summary": "The center is currently closed on the third Thursday of each month. If that day is a holiday, the following day is also a closing day. If that day is a public holiday, the day after that is also a closing day. After the amendment, the center will be closed on the nearest day after a holiday that is not a holiday. The third Saturday in January will also be added as a closing day.",
+		"changes": [
+			"Make the nearest non-holiday after the third Thursday a closing day if the third Thursday is a holiday",
+			"Add the third Saturday in January as a closing day",
+			"Change the wording for indicating conditions from “one of the following items” to “any of the following”"
+		],
+		"who": [
+			"People who use the Tachikawa City Women's General Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:10:31.828Z",
+			"inputTokens": 634,
+			"cachedTokens": 0,
+			"outputTokens": 997,
+			"reasoningTokens": 765
 		}
 	}
 }

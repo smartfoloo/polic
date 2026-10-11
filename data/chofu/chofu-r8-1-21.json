@@ -36,7 +36,7 @@
 		"一定の要件を満たす人を、保険料率の算定上、市町村民税が課されている人として扱う"
 	],
 	"who": [
-		"介護保険の第1号被保険者で、令和7年に給与収入があった人",
+		"令和7年の給与収入が55万1,000円以上190万円未満で、令和8年度分の保険料・市町村民税の賦課期日に関する市内住所要件を満たす第1号被保険者",
 		"所定の条件に該当する第1号被保険者の世帯主・世帯員"
 	],
 	"why": "令和8年度における保険料率の特例を定めるためと、市は説明しています。",
@@ -44,33 +44,72 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:20:15.034Z",
+		"generatedAt": "2026-10-08T23:14:38.983Z",
 		"inputTokens": 4842,
 		"cachedTokens": 0,
 		"outputTokens": 1963,
-		"reasoningTokens": 1642
+		"reasoningTokens": 1642,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:14:38.983Z",
+			"notes": [
+				"ai [error] who/fact: 「介護保険の第1号被保険者で、令和7年に給与収入があった人」 → 対象を広く記載しています。原文の附則第8条の8では、給与収入が55万1,000円以上190万円未満で、保険料・市町村民税の賦課期日における市内住所等の要件を満たす第1号被保険者に限定しています。"
+			],
+			"inputTokens": 5386,
+			"cachedTokens": 1025,
+			"outputTokens": 1084,
+			"reasoningTokens": 700
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:20:15.034Z",
-		"checkedAt": "2026-10-08T05:09:20.910Z",
+		"draftAt": "2026-10-08T23:14:38.983Z",
+		"checkedAt": "2026-10-08T23:14:52.352Z",
 		"flags": [],
 		"issues": [
 			{
-				"field": "who",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "介護保険の第1号被保険者で、令和7年に給与収入があった人",
-				"note": "対象を広く記載しています。原文の附則第8条の8では、給与収入が55万1,000円以上190万円未満で、保険料・市町村民税の賦課期日における市内住所等の要件を満たす第1号被保険者に限定しています。"
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保険料率の算定に使う所得について、給与収入額に応じた3区分の特例計算を設ける",
+				"note": "附則第8条の8では、給与所得の計算額に、給与収入55万1,000円以上65万1,000円未満は「給与収入－55万円」、65万1,000円以上161万9,000円未満は10万円、161万9,000円以上190万円未満は「65万円－令和7年給与所得控除額」を加えると規定している。保険料率の算定に直接関わる具体的な計算変更が抜けている。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 4860,
+			"inputTokens": 4895,
 			"cachedTokens": 0,
-			"outputTokens": 355,
-			"reasoningTokens": 196
+			"outputTokens": 475,
+			"reasoningTokens": 287
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "97aefe0e59c1ab12",
+		"name": "Sets special rules for calculating FY2026 long-term care insurance rates",
+		"official": "Ordinance Partially Amending the Chofu City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are calculated based on income, the household’s municipal resident tax status, and other factors. This bill establishes a special way to calculate income based on employment income for Category 1 insured persons whose employment income in 2025 was at least ¥551,000 and less than ¥1,900,000, but only for the FY2026 calculation. It also treats people who meet certain conditions as people who are subject to municipal resident tax for calculation purposes.",
+		"changes": [
+			"Introduce a special income calculation with three categories based on employment income for the income used to calculate the insurance premium rate",
+			"Treat people who meet certain requirements as subject to municipal resident tax when calculating the insurance premium rate"
+		],
+		"who": [
+			"Category 1 insured persons whose employment income in 2025 was at least ¥551,000 and less than ¥1,900,000, and who meet the within-city residence requirements relating to the assessment date for FY2026 insurance premiums and municipal resident tax",
+			"Household heads and household members of Category 1 insured persons who meet specified conditions"
+		],
+		"why": "The city says the purpose is to establish special rules for the insurance premium rate for FY2026.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:17:36.734Z",
+			"inputTokens": 789,
+			"cachedTokens": 0,
+			"outputTokens": 1206,
+			"reasoningTokens": 891
 		}
 	}
 }

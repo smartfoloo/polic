@@ -1,0 +1,38 @@
+{
+	"id": "arakawa-r8-9-12",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第12号",
+	"official": "あらかわ未来へつなぐ子ども基金条例あらかわ未来へつなぐ子ども基金条例",
+	"by": "head",
+	"session": "令和8年度定例会・9月会議",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年度定例会・9月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_9gatsu_kekka.html",
+			"fetchedAt": "2026-10-10T14:49:50.156Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "a271151eecb56b64",
+		"official": "Arakawa Children's Fund to Connect to the Future Ordinance Arakawa Children's Fund to Connect to the Future Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T23:41:00.125Z",
+			"inputTokens": 391,
+			"cachedTokens": 0,
+			"outputTokens": 286,
+			"reasoningTokens": 247,
+			"batch": true
+		}
+	}
+}

@@ -70,5 +70,34 @@
 			"outputTokens": 225,
 			"reasoningTokens": 107
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "961d9424095b2048",
+		"name": "Shifts staff travel expenses to a system based mainly on actual costs",
+		"official": "Ordinance Partially Amending the Ome City Ordinance on Travel Expenses for City Employees",
+		"summary": "Under the current system, business travel expenses are paid in categories such as transportation fares, daily allowances, and lodging expenses. This bill revises the types of travel expenses and how they are paid, shifting to a system in which expenses such as transportation and lodging are paid based on actual costs. The new rules will apply to trips for which travel orders are issued on or after April 1, 2026.",
+		"changes": [
+			"Reorganizes travel expense categories into transportation expenses, lodging expenses, lodging allowances, relocation expenses, and others",
+			"Sets lodging expenses at actual costs up to limits that vary by region, and requires documents proving payment",
+			"Sets the lodging allowance at ¥2,400 per night and reduces it when meal costs or other expenses are included in lodging or transportation costs",
+			"Requires repayment of improperly received travel expenses and bars travel expense payments for routes covered by commuting allowances"
+		],
+		"who": [
+			"City employees traveling on business or taking up new posts",
+			"Ome City assembly members, part-time employees in special positions, and fiscal-year appointment employees",
+			"People appearing for investigations or other matters, and people taking part in public hearings"
+		],
+		"why": "The city says the bill is intended to respond to changes in socioeconomic conditions and provide travel expenses efficiently and appropriately in line with actual circumstances, following partial amendments to the Act on Travel Expenses of National Public Officers, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:59:45.788Z",
+			"inputTokens": 830,
+			"cachedTokens": 0,
+			"outputTokens": 868,
+			"reasoningTokens": 515
+		}
 	}
 }

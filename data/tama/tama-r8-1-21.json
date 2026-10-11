@@ -57,5 +57,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5559283df53993a2",
+		"name": "Removes Suwa Senior Citizens’ Welfare Center from the ordinance",
+		"official": "Regarding the enactment of an ordinance partially amending the Tama City Ordinance on Senior Citizens’ Welfare Centers",
+		"summary": "The ordinance currently lists the Tama City Suwa Senior Citizens’ Welfare Center. This bill removes that listing and takes effect on November 1, 2026.",
+		"changes": [
+			"Delete the entry for the Tama City Suwa Senior Citizens’ Welfare Center from the ordinance"
+		],
+		"who": [
+			"People who use the Tama City Suwa Senior Citizens’ Welfare Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:16:49.700Z",
+			"inputTokens": 561,
+			"cachedTokens": 0,
+			"outputTokens": 407,
+			"reasoningTokens": 258
+		}
 	}
 }

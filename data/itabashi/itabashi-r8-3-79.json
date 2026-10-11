@@ -59,5 +59,31 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ca347430eb82df63",
+		"name": "Raises the amounts used to calculate public funding limits for election leaflets and posters",
+		"official": "Ordinance Partially Amending the Ordinance on Public Expense Coverage for Election Campaigning in Elections for Members of the Itabashi City Assembly and the Mayor of Itabashi City",
+		"summary": "In elections for the Itabashi City Assembly and the mayor of Itabashi City, there are limits on public funding for producing campaign leaflets and posters. This bill raises the amounts used to calculate those limits and applies to elections announced on or after the date of promulgation.",
+		"changes": [
+			"Raises the unit amount used to calculate the public funding limit from ¥7.73 to ¥8.38",
+			"Raises the unit amount used to calculate the public funding limit from ¥541.31 to ¥586.88",
+			"Raises the unit amount used to calculate the public funding limit from ¥28.35 to ¥30.73"
+		],
+		"who": [
+			"Candidates in elections for the Itabashi City Assembly and the mayor of Itabashi City"
+		],
+		"why": "The ward says the limits on public funding for producing campaign leaflets and posters are being revised following an amendment to the Enforcement Order of the Public Offices Election Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:11:23.397Z",
+			"inputTokens": 774,
+			"cachedTokens": 0,
+			"outputTokens": 1015,
+			"reasoningTokens": 734
+		}
 	}
 }

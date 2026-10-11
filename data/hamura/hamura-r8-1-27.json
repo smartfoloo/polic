@@ -1,0 +1,86 @@
+{
+	"id": "hamura-r8-1-27",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第27号",
+	"official": "羽村市国民健康保険税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-10",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "国保税率と子育て支援分の税率を改定",
+	"category": "税・手数料",
+	"summary": "国民健康保険税の税率などを定めている条例を改正します。保険税率を改定し、新設された子ども・子育て支援納付金分の税率などを定めます。施行日は令和8年4月1日です。",
+	"changes": [
+		"国民健康保険税率を改定する",
+		"子ども・子育て支援納付金分の税率などを定める"
+	],
+	"who": [
+		"国民健康保険に加入している人"
+	],
+	"why": "国民健康保険税の適正化を図り、新設された子ども・子育て支援納付金分の税率などを定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.858Z",
+		"inputTokens": 1062,
+		"cachedTokens": 0,
+		"outputTokens": 974,
+		"reasoningTokens": 766,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.858Z",
+		"checkedAt": "2026-10-10T07:29:38.605Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 969,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a58f88eb41ec401b",
+		"name": "Revises National Health Insurance tax rates and the rate for child and childcare support",
+		"official": "Ordinance Partially Amending the Hamura City National Health Insurance Tax Ordinance",
+		"summary": "The city will amend the ordinance that sets the tax rates and other details for National Health Insurance tax. It will revise the tax rates and set the rates and other details for the newly established child and childcare support contribution. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Revises the National Health Insurance tax rates",
+			"Sets the rates and other details for the child and childcare support contribution"
+		],
+		"who": [
+			"People enrolled in National Health Insurance",
+			"People enrolled in National Health Insurance"
+		],
+		"why": "The city says this is to ensure that National Health Insurance tax is appropriate and to set the rates and other details for the newly established child and childcare support contribution.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.045Z",
+			"inputTokens": 639,
+			"cachedTokens": 0,
+			"outputTokens": 872,
+			"reasoningTokens": 656,
+			"batch": true
+		}
+	}
+}

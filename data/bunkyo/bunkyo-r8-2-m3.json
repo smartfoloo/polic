@@ -1,0 +1,38 @@
+{
+	"id": "bunkyo-r8-2-m3",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議員提出議案第3号",
+	"official": "文京区国民健康保険料の子どもの均等割額の助成に関する条例",
+	"by": "member",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "9b7e6690ed5d432d",
+		"official": "Bunkyo City Ordinance on Subsidies for the Children’s Equal Per-Capita Share of National Health Insurance Premiums",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.505Z",
+			"inputTokens": 389,
+			"cachedTokens": 0,
+			"outputTokens": 224,
+			"reasoningTokens": 184,
+			"batch": true
+		}
+	}
+}

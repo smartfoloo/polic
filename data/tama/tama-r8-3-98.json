@@ -1,0 +1,88 @@
+{
+	"id": "tama-r8-3-98",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第98号議案",
+	"official": "多摩市立資源化センター条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第98号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "多目的ホールの使用料を640円に",
+	"category": "税・手数料",
+	"summary": "現在、多摩市立資源化センターの多目的ホールの使用料は720円です。この議案では、使用料を640円に変更し、使用時間が1時間に満たない場合の計算方法を定めます。改正後の内容は、令和10年1月1日以後の利用に適用されます。",
+	"changes": [
+		"多目的ホールの使用料を720円から640円に改める",
+		"使用時間の1時間未満の端数は、30分未満を切り捨て、30分以上を1時間として扱う"
+	],
+	"who": [
+		"多目的ホールを利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T11:48:05.473Z",
+		"inputTokens": 1293,
+		"cachedTokens": 0,
+		"outputTokens": 839,
+		"reasoningTokens": 652
+	},
+	"checks": {
+		"draftAt": "2026-10-09T11:48:05.473Z",
+		"checkedAt": "2026-10-09T11:52:32.747Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1177,
+			"cachedTokens": 0,
+			"outputTokens": 91,
+			"reasoningTokens": 77
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "089b6b975109cb6c",
+		"name": "Sets multipurpose hall fee at ¥640",
+		"official": "Regarding the enactment of an ordinance partially amending the Tama City Resource Recycling Center Ordinance",
+		"summary": "The current fee for the multipurpose hall at the Tama City Resource Recycling Center is ¥720. This bill changes the fee to ¥640 and sets out how to calculate fees when the hall is used for less than one hour. The amended rules apply to use on or after January 1, 2028.",
+		"changes": [
+			"Changes the multipurpose hall fee from ¥720 to ¥640",
+			"Rounds down periods of less than 30 minutes and counts periods of 30 minutes or more as one hour"
+		],
+		"who": [
+			"Users of the multipurpose hall",
+			"Users whose time in the hall is less than one hour"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:57:45.231Z",
+			"inputTokens": 619,
+			"cachedTokens": 0,
+			"outputTokens": 589,
+			"reasoningTokens": 391
+		}
+	}
+}

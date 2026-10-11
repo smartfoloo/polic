@@ -1,0 +1,83 @@
+{
+	"id": "hamura-r8-3-63",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第63号",
+	"official": "羽村市家庭的保育事業等の設備及び運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "保育士の配置基準を改める",
+	"category": "子育て",
+	"summary": "市の条例では、家庭的保育事業等の運営基準を定めています。この議案で、保育士の配置に関する基準を改めます。",
+	"changes": [
+		"保育士の配置に関する基準を改める"
+	],
+	"who": [
+		"家庭的保育事業等を行う事業者"
+	],
+	"why": "国の内閣府令の施行に伴い、保育士の配置に係る基準を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.859Z",
+		"inputTokens": 1066,
+		"cachedTokens": 0,
+		"outputTokens": 519,
+		"reasoningTokens": 370,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.859Z",
+		"checkedAt": "2026-10-10T07:29:38.607Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 914,
+			"cachedTokens": 0,
+			"outputTokens": 34,
+			"reasoningTokens": 20,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "77a6cf689dd7fae9",
+		"name": "Revises childcare staff placement standards",
+		"official": "Ordinance Partially Amending the Hamura City Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Businesses, etc.",
+		"summary": "The city's ordinance sets operating standards for home-based childcare businesses, etc. This bill revises the standards for the placement of childcare staff.",
+		"changes": [
+			"Revises the standards for the placement of childcare staff"
+		],
+		"who": [
+			"Operators providing home-based childcare businesses, etc."
+		],
+		"why": "The city says it is revising the standards for the placement of childcare staff following the entry into force of a Cabinet Office Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.046Z",
+			"inputTokens": 596,
+			"cachedTokens": 0,
+			"outputTokens": 468,
+			"reasoningTokens": 307,
+			"batch": true
+		}
+	}
+}

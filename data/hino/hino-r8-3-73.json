@@ -1,0 +1,38 @@
+{
+	"id": "hino-r8-3-73",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議案第73号",
+	"official": "日野市日野本町地区複合施設整備・運営事業者選定委員会設置条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1031867.html",
+			"fetchedAt": "2026-10-08T10:56:43.516Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "4fa336175bb41b88",
+		"official": "Regarding the Enactment of the Ordinance Establishing the Hino City Hino Honmachi District Complex Facility Development and Operation Business Operator Selection Committee",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.511Z",
+			"inputTokens": 396,
+			"cachedTokens": 0,
+			"outputTokens": 210,
+			"reasoningTokens": 165,
+			"batch": true
+		}
+	}
+}

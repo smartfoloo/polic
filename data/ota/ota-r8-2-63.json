@@ -57,5 +57,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2d56592a03e99045",
+		"name": "Changes the addresses of the Kamata and Kojiya senior in-home service centers",
+		"official": "Ordinance Partially Amending the Ota City Senior In-Home Service Center Ordinance",
+		"summary": "The addresses of the Kamata and Kojiya Senior In-Home Service Centers listed in the ordinance are currently “2-8-8 Kamata.” This bill changes the address of both centers to “2-12-1 Nishi-Kojiya.” The change takes effect for Kojiya on July 1, 2026, and for Kamata on September 2, 2026.",
+		"changes": [
+			"Changes the addresses of the Kamata and Kojiya centers to 2-12-1 Nishi-Kojiya"
+		],
+		"who": [
+			"Users of the Kamata and Kojiya Senior In-Home Service Centers"
+		],
+		"why": "The ward says this is because the Kamata Senior In-Home Service Center is temporarily relocating and the Kojiya Senior In-Home Service Center is relocating.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:25.991Z",
+			"inputTokens": 658,
+			"cachedTokens": 0,
+			"outputTokens": 786,
+			"reasoningTokens": 544
+		}
 	}
 }

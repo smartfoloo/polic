@@ -76,5 +76,33 @@
 			"outputTokens": 504,
 			"reasoningTokens": 217
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b6626efa33c9481f",
+		"name": "Adds professions that can count toward the required number of childcare workers",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance Establishing Standards for the Equipment and Operation of Family-Based Childcare Services, etc.",
+		"summary": "Currently, when counting the number of childcare workers, up to one nurse or similar staff member can be counted as a childcare worker. This bill would also allow up to one eligible physical therapist or similar professional to be counted, and require arrangements to ensure childcare workers can provide support. The exception for cases where staffing levels may interfere with childcare will apply until March 31, 2028, for children aged 3 to under 4, and for the time being for children aged 4 and over.",
+		"changes": [
+			"Allows up to one physical therapist, occupational therapist, speech-language-hearing therapist, psychology staff member, or person experienced in providing therapy to children with disabilities to count toward the required number of childcare workers, subject to conditions",
+			"Ensures that physical therapists and similar professionals can receive support from childcare workers when providing childcare",
+			"Sets support arrangements for cases where nurses and similar staff and physical therapists and similar professionals both provide childcare",
+			"Sets the exception to the staffing standards until March 31, 2028, for children aged 3 to under 4, and for the time being for children aged 4 and over"
+		],
+		"who": [
+			"Operators of small-scale childcare facilities and workplace-based childcare facilities",
+			"Children receiving childcare at these facilities and their parents or guardians"
+		],
+		"why": "The city says this amendment is being made in connection with the entry into force of a Cabinet Office Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:15:23.836Z",
+			"inputTokens": 845,
+			"cachedTokens": 0,
+			"outputTokens": 1682,
+			"reasoningTokens": 1314
+		}
 	}
 }

@@ -1,0 +1,110 @@
+{
+	"id": "fujisawa-r8-2-96",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第96号",
+	"official": "藤沢市企業立地等の促進のための支援措置に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年2月定例会",
+	"committee": "建設経済常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年2月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F12%2C2026%2F03%2F18%2C112",
+			"fetchedAt": "2026-10-08T11:13:34.985Z"
+		},
+		{
+			"label": "議案第96号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2727&Sflg=2",
+			"fetchedAt": "2026-10-08T11:16:17.030Z"
+		},
+		{
+			"label": "議案第96号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2727_e01-096.pdf",
+			"fetchedAt": "2026-10-08T11:16:23.060Z"
+		}
+	],
+	"name": "企業立地支援の対象地域と税優遇を改正",
+	"category": "税・手数料",
+	"summary": "市は、企業の立地などを支援する制度を設けています。この議案で、健康と文化の森地区を支援対象地域に加え、大学連携事業や研究開発事業を支援対象に含めます。事業所税の軽減内容や申請期限なども見直し、2026年4月1日に施行します。",
+	"changes": [
+		"健康と文化の森地区を支援対象地域に加え、大学連携事業と研究開発事業を定める",
+		"中小企業等の事業所税資産割を、健康と文化の森地区・新産業の森北部地区では7事業年度免除する",
+		"事業所税資産割を1平方メートル当たり300円とする期間を、工業系地域で5事業年度、対象事業に応じてさらに2または3事業年度設ける",
+		"固定資産税・都市計画税と事業所税の申請期限を税目ごとに定め、新産業の森北部地区の支援対象期間の期限を令和12年から令和16年に延ばす"
+	],
+	"who": [
+		"健康と文化の森地区で大学連携事業や研究開発事業を行う企業",
+		"健康と文化の森地区や新産業の森北部地区などで事業所を設ける中小企業等"
+	],
+	"why": "健康と文化の森地区で大学連携事業や研究開発事業を行う企業の誘致を進め、既存の支援制度を見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.534Z",
+		"inputTokens": 2948,
+		"cachedTokens": 0,
+		"outputTokens": 4199,
+		"reasoningTokens": 3789,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.534Z",
+			"notes": [
+				"ai [check] changes/direction: 「健康と文化の森地区を支援対象地域に加え、大学連携事業と研究開発事業を定める」 → 第2条では地区の追加を確認できるが、別表の改正部分は引用符と改正前後の文字列の対応が崩れており、別表での変更の向きは確認できない。"
+			],
+			"inputTokens": 3557,
+			"cachedTokens": 1025,
+			"outputTokens": 1230,
+			"reasoningTokens": 788,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.846Z",
+		"checkedAt": "2026-10-10T07:29:38.570Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "健康と文化の森地区を支援対象地域に加え、大学連携事業と研究開発事業を定める",
+				"note": "第2条では地区の追加を確認できるが、別表の改正部分は引用符と改正前後の文字列の対応が崩れており、別表での変更の向きは確認できない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "健康と文化の森地区を支援対象地域に加え、大学連携事業と研究開発事業を定める",
+				"note": "第6条第1項・第2項で、既存の固定資産税・都市計画税の支援を健康と文化の森地区に広げ、同地区のロボット関連事業・大学連携事業・研究開発事業を対象に加える変更が明示されていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "固定資産税・都市計画税と事業所税の申請期限を税目ごとに定め",
+				"note": "第7条の具体的な申請期限が抜けている。固定資産税・都市計画税は原則として供用開始年の翌年1月31日（1月1日供用開始なら同年1月31日）、事業所税資産割は供用開始日から1月を経過する日まで。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3052,
+			"cachedTokens": 0,
+			"outputTokens": 529,
+			"reasoningTokens": 169,
+			"batch": true
+		}
+	}
+}

@@ -76,5 +76,33 @@
 			"outputTokens": 394,
 			"reasoningTokens": 142
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3ff7f7bc8041018c",
+		"name": "Revises fees for urban park facilities",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Urban Park Ordinance",
+		"summary": "The current fees will be revised, and usage fees and user charges will be increased at several park facilities. For general use of Fujimori and Kamiyugi Stadiums, the per-use fee will increase from ¥50 to ¥100 for children and from ¥200 to ¥300 for adults. The changes take effect on April 1, 2027.",
+		"changes": [
+			"Raises the per-use fee at Fujimori and Kamiyugi Stadiums from ¥50 to ¥100 for children, from ¥100 to ¥150 for high school students, and from ¥200 to ¥300 for adults",
+			"Raises usage fees for baseball and softball fields",
+			"Raises usage fees for pools and experiential learning facilities",
+			"Raises user charges for the soccer field and skate park at Tobuki Sports Park"
+		],
+		"who": [
+			"People who use the applicable sports facilities",
+			"People who use experiential learning facilities"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:14.423Z",
+			"inputTokens": 685,
+			"cachedTokens": 0,
+			"outputTokens": 801,
+			"reasoningTokens": 543
+		}
 	}
 }

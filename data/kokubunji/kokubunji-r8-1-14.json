@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-1-14",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第14号",
+	"official": "国分寺市職員定数条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "市長部局などの職員定数を改める",
+	"category": "行政のしくみ",
+	"summary": "市長の事務部局などの職員定数は、条例で定められています。この議案は、その定数を改めるものです。",
+	"changes": [
+		"市長の事務部局などの職員定数を改める"
+	],
+	"who": [],
+	"why": "市長の事務部局などの職員定数を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.875Z",
+		"inputTokens": 1007,
+		"cachedTokens": 0,
+		"outputTokens": 438,
+		"reasoningTokens": 292,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.656Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 826,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 37,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "74868e02ef78a710",
+		"name": "Revises staffing limits for the mayor’s departments and other offices",
+		"official": "Ordinance Partially Amending the Kokubunji City Ordinance on Staff Numbers",
+		"summary": "The staffing limits for the mayor’s administrative departments and other offices are set by ordinance. This bill revises those limits.",
+		"changes": [
+			"Revises staffing limits for the mayor’s administrative departments and other offices"
+		],
+		"who": [],
+		"why": "The city says this is to revise staffing limits for the mayor’s administrative departments and other offices.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.063Z",
+			"inputTokens": 552,
+			"cachedTokens": 0,
+			"outputTokens": 410,
+			"reasoningTokens": 273,
+			"batch": true
+		}
+	}
+}

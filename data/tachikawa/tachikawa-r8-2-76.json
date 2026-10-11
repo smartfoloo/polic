@@ -82,5 +82,32 @@
 			"outputTokens": 566,
 			"reasoningTokens": 253
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "eb0ca426d3dd7275",
+		"name": "Sets the details and fees for city-run funerals",
+		"official": "Ordinance Partially Amending the Tachikawa City Funeral Hall Ordinance",
+		"summary": "The existing ordinance set out the procedures and fees for using the funeral hall and its attached facilities. This bill sets out the details of city-run funerals, who can use them, and the application procedures, and adds fees. The fees are ¥113,000 for a general funeral or a one-day funeral, and ¥26,000 for direct cremation.",
+		"changes": [
+			"Defines the details of city-run funerals and who can use them",
+			"Requires the mayor’s approval to use a city-run funeral",
+			"Sets the fees for city-run funerals at ¥113,000 for a general funeral or a one-day funeral, and ¥26,000 for direct cremation",
+			"Collects usage fees by the date of use, etc."
+		],
+		"who": [
+			"People using city-run funerals"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:15:37.930Z",
+			"inputTokens": 659,
+			"cachedTokens": 0,
+			"outputTokens": 570,
+			"reasoningTokens": 365
+		}
 	}
 }

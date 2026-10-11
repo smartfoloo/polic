@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai7gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:13.040Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "3c48bf872d652aab",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance on Salaries for General-Service Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:45.309Z",
+			"inputTokens": 389,
+			"cachedTokens": 0,
+			"outputTokens": 146,
+			"reasoningTokens": 110
+		}
+	}
 }

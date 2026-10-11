@@ -1,0 +1,92 @@
+{
+	"id": "bunkyo-r8-2-89",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第89号",
+	"official": "幼稚園教育職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第89号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "幼稚園職員の特別勤務手当の規定を変更",
+	"category": "行政のしくみ",
+	"summary": "条例に定める幼稚園教育職員の管理職員特別勤務手当について、勤務時間や手当額の規定を改めます。午後10時から翌日にかけての勤務時間の扱いを見直し、一定の勤務では手当額を1.5倍にする規定を整えます。2026年4月1日から施行します。",
+	"changes": [
+		"対象となる勤務時間の開始を午後10時に改める",
+		"週休日等に含まれる時間を対象時間から除く",
+		"勤務時間を考慮して規則で定め、人事委員会の承認を得た勤務は手当額を1.5倍にする"
+	],
+	"who": [
+		"管理職員特別勤務手当の対象となる幼稚園教育職員"
+	],
+	"why": "幼稚園教育職員の管理職員特別勤務手当に係る規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.835Z",
+		"inputTokens": 1418,
+		"cachedTokens": 0,
+		"outputTokens": 2023,
+		"reasoningTokens": 1735,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.835Z",
+		"checkedAt": "2026-10-10T07:29:38.543Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1378,
+			"cachedTokens": 0,
+			"outputTokens": 82,
+			"reasoningTokens": 67,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "39475d4667008fbf",
+		"name": "Changes rules for special work allowances for kindergarten staff",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries for Kindergarten Education Personnel",
+		"summary": "The ordinance revises the rules on special work allowances for managerial staff who are kindergarten education personnel, including the rules on working hours and allowance amounts. It changes how work from 10 p.m. through the following day is treated and sets out a rule to pay 1.5 times the allowance for certain work. It takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the start time for eligible work to 10 p.m.",
+			"Excludes hours that fall on weekly days off and other such days from eligible hours.",
+			"Sets the allowance at 1.5 times its usual amount for work specified by rules based on working hours and approved by the Personnel Commission."
+		],
+		"who": [
+			"Kindergarten education personnel eligible for the special work allowance for managerial staff"
+		],
+		"why": "The ward says this is to put rules on special work allowances for managerial staff who are kindergarten education personnel in order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.023Z",
+			"inputTokens": 697,
+			"cachedTokens": 0,
+			"outputTokens": 768,
+			"reasoningTokens": 516,
+			"batch": true
+		}
+	}
+}

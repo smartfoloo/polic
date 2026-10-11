@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "01228c03557d16af",
+		"name": "Removes the West Sports Ground from municipal sports facilities",
+		"official": "Ordinance Partially Amending the Higashikurume City Municipal Civic Sports Facilities Ordinance",
+		"summary": "The municipal sports facilities include the West Sports Ground. This bill removes that item from the ordinance and abolishes the West Sports Ground on April 1, 2026.",
+		"changes": [
+			"Removes the West Sports Ground from the municipal sports facilities"
+		],
+		"who": [
+			"People who use the West Sports Ground"
+		],
+		"why": "The city says this is to abolish the sports facility.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:58:23.062Z",
+			"inputTokens": 568,
+			"cachedTokens": 0,
+			"outputTokens": 411,
+			"reasoningTokens": 263
+		}
 	}
 }

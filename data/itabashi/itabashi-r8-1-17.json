@@ -62,5 +62,29 @@
 			"outputTokens": 39,
 			"reasoningTokens": 24
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7f4944e23ddf350f",
+		"name": "Abolishes the Older Persons Health and Welfare Center",
+		"official": "Ordinance to Repeal the Itabashi City Older Persons Health and Welfare Center Ordinance",
+		"summary": "The Older Persons Health and Welfare Center provided for in the current ordinance will be abolished. The repeal of the ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Repeals the Older Persons Health and Welfare Center Ordinance"
+		],
+		"who": [
+			"People who use the Older Persons Health and Welfare Center"
+		],
+		"why": "The ward says it is necessary to abolish the Older Persons Health and Welfare Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:06:14.060Z",
+			"inputTokens": 590,
+			"cachedTokens": 0,
+			"outputTokens": 628,
+			"reasoningTokens": 472
+		}
 	}
 }

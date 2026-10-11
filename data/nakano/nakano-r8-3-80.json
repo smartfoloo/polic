@@ -1,0 +1,89 @@
+{
+	"id": "nakano-r8-3-80",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第80号議案",
+	"official": "中野区乳児等通園支援事業の設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "子ども文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121",
+			"fetchedAt": "2026-10-08T15:27:51.872Z"
+		},
+		{
+			"label": "第80号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/2693018751.pdf",
+			"fetchedAt": "2026-10-08T15:28:51.723Z"
+		}
+	],
+	"name": "通園支援事業者に性暴力防止の措置を義務付け",
+	"category": "子育て",
+	"summary": "乳児等通園支援事業の設備・運営基準を定める条例に、児童対象性暴力等の防止に関する規定を加えます。事業者に、対象となる業務従事者の犯罪事実確認などを含む必要な措置を義務付けます。2026年12月25日から施行します。",
+	"changes": [
+		"児童対象性暴力等を防ぎ、発生した場合に利用乳幼児を保護する措置を講じる",
+		"利用乳幼児と接する業務従事者のうち、支配性・継続性・閉鎖性のある環境で接する人について犯罪事実確認などを行う"
+	],
+	"who": [
+		"乳児等通園支援事業者",
+		"乳児等通園支援事業を利用する乳幼児"
+	],
+	"why": "乳児等通園支援事業の設備及び運営に関する基準の改正に伴い、規定を整備する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:07:49.723Z",
+		"inputTokens": 1592,
+		"cachedTokens": 0,
+		"outputTokens": 1133,
+		"reasoningTokens": 840
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:07:49.723Z",
+		"checkedAt": "2026-10-09T11:49:53.824Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1580,
+			"cachedTokens": 0,
+			"outputTokens": 51,
+			"reasoningTokens": 37
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aa25c317fd102820",
+		"name": "Requires attendance support providers to prevent sexual violence against children",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Standards for Facilities and Operations of Infant and Other Children Attendance Support Services",
+		"summary": "This adds provisions on preventing sexual violence against children, etc., to the ordinance that sets standards for the facilities and operation of infant and other children attendance support services. It requires providers to take necessary measures, including checking the criminal records of workers covered by the requirements. It takes effect on December 25, 2026.",
+		"changes": [
+			"Take measures to prevent sexual violence against children, etc., and protect children using the service if it occurs",
+			"Check criminal records, etc., of workers who interact with children using the service in settings involving control, continuity, and closure"
+		],
+		"who": [
+			"Providers of infant and other children attendance support services",
+			"Infants and other children who use infant and other children attendance support services"
+		],
+		"why": "The ward says the provisions need to be updated following amendments to the standards for facilities and operations of infant and other children attendance support services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:54:39.900Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 1009,
+			"reasoningTokens": 754
+		}
+	}
+}

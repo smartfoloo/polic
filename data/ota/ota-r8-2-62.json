@@ -57,5 +57,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "93b5506917150404",
+		"name": "Temporarily suspends services at Ota City Kamata special nursing home",
+		"official": "Ordinance on the Suspension of Use of Ota City Kamata Special Nursing Home for Older People, as Provided for in the Ota City Special Nursing Home for Older People Ordinance",
+		"summary": "Ota City Kamata Special Nursing Home for Older People will suspend services during major renovation work. The suspension period is from October 1, 2026, to August 31, 2028.",
+		"changes": [
+			"Suspends services from October 1, 2026, to August 31, 2028"
+		],
+		"who": [
+			"Users of Ota City Kamata Special Nursing Home for Older People"
+		],
+		"why": "The ward says services will be suspended while major renovation work is carried out.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:18.122Z",
+			"inputTokens": 609,
+			"cachedTokens": 0,
+			"outputTokens": 868,
+			"reasoningTokens": 673
+		}
 	}
 }

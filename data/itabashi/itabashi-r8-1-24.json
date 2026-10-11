@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "39b96d05a3924164",
+		"name": "Corrects a citation in the after-school childcare ordinance",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance Establishing Standards for Facilities and Operation of After-School Child Healthy Development Services",
+		"summary": "The ordinance sets standards for the facilities and operation of the ward’s after-school child healthy development services. It changes the provision cited in the ordinance. The amended ordinance takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the citation from the items of Article 33-10 to the items of Article 33-10, paragraph 1"
+		],
+		"who": [],
+		"why": "The ward says this is to make the necessary provisions in response to an amendment to a Cabinet Office Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:07:12.811Z",
+			"inputTokens": 599,
+			"cachedTokens": 0,
+			"outputTokens": 457,
+			"reasoningTokens": 282
+		}
 	}
 }

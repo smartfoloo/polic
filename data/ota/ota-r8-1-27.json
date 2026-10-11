@@ -58,5 +58,29 @@
 			"outputTokens": 48,
 			"reasoningTokens": 33
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e357be5bfc502973",
+		"name": "Designates the temporary school building at Heiwa no Mori Park as an occupancy structure",
+		"official": "Ordinance Partially Amending the Ota City Parks Ordinance",
+		"summary": "The current ordinance has no provisions for temporary facilities for Omori Fifth Elementary School to be built in Heiwa no Mori Park. After the amendment, the school will be designated as a temporary structure or facility occupying the park. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Designates Omori Fifth Elementary School's temporary facilities in Heiwa no Mori Park as items occupying the park"
+		],
+		"who": [
+			"Pupils and guardians of Ota City Omori Fifth Elementary School, and users of Ota City Heiwa no Mori Park"
+		],
+		"why": "The ward says this is to designate the temporary school building and related facilities to be installed in Heiwa no Mori Park due to the rebuilding of Omori Fifth Elementary School as items occupying the park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:06:07.052Z",
+			"inputTokens": 667,
+			"cachedTokens": 0,
+			"outputTokens": 1007,
+			"reasoningTokens": 779
+		}
 	}
 }

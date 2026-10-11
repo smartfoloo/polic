@@ -1,0 +1,104 @@
+{
+	"id": "yugawara-r8-1-12",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第12号",
+	"official": "湯河原町火災予防条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第12号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17146.pdf",
+			"fetchedAt": "2026-10-08T11:28:47.482Z"
+		}
+	],
+	"name": "簡易サウナの設置基準などを追加",
+	"category": "防災",
+	"summary": "現行条例では、サウナ設備の位置や構造などの基準を定めています。改正後は、直接外気に接する場所のテント型・木製バレル型サウナ室に設ける、薪または電気を熱源とする出力6kW以下の簡易サウナ設備に、別の安全基準を設けます。また、感震ブレーカーの普及促進と設置届の対象を見直し、2026年3月31日に施行します。",
+	"changes": [
+		"簡易サウナ設備と一般サウナ設備を区分する",
+		"簡易サウナ設備に、建物などとの距離や熱源を遮断する装置の基準を設ける",
+		"住宅の火災予防の普及促進に感震ブレーカーを加える",
+		"個人が設けるものを除き、簡易サウナ設備を設置届の対象に加える"
+	],
+	"who": [
+		"簡易サウナ設備を設置・管理する人",
+		"個人以外で簡易サウナ設備を設置する事業者・施設"
+	],
+	"why": "関係する省令の一部改正に伴い、条例を改正する必要があるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.889Z",
+		"inputTokens": 3358,
+		"cachedTokens": 0,
+		"outputTokens": 2099,
+		"reasoningTokens": 1736,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.889Z",
+		"checkedAt": "2026-10-10T07:29:38.730Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "簡易サウナ設備に、建物などとの距離や熱源を遮断する装置の基準を設ける",
+				"note": "新設する第７条の２第１項第２号ただし書には、薪を熱源とする設備は、速やかに使用できる位置に消火器を設置すれば熱源遮断装置を不要とする例外がある。設置者に直接関わるこの代替措置が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3393,
+			"cachedTokens": 0,
+			"outputTokens": 249,
+			"reasoningTokens": 106,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "44e23e93feaa35f4",
+		"name": "Adds installation standards for simple saunas",
+		"official": "Regarding the Partial Amendment of the Yugawara Town Fire Prevention Ordinance",
+		"summary": "The current ordinance sets standards for the location and structure of sauna equipment, among other things. Under the amendment, separate safety standards will apply to simple sauna equipment with an output of 6 kW or less, using firewood or electricity as its heat source, and installed in tent-type or wooden barrel-type sauna rooms in places directly exposed to outdoor air. The amendment also revises measures to promote the use of seismic-sensing circuit breakers and the scope of equipment covered by installation notifications. It will take effect on March 31, 2026.",
+		"changes": [
+			"Distinguishes simple sauna equipment from general sauna equipment",
+			"Sets standards for the distance from buildings and other structures, and for devices that cut off the heat source, for simple sauna equipment",
+			"Adds seismic-sensing circuit breakers to home fire-prevention promotion efforts",
+			"Makes simple sauna equipment subject to installation notifications, except equipment installed by individuals"
+		],
+		"who": [
+			"People who install or manage simple sauna equipment",
+			"Businesses and facilities, other than individuals, that install simple sauna equipment"
+		],
+		"why": "The town says the ordinance needs to be amended because some related ministerial ordinances have been amended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.075Z",
+			"inputTokens": 769,
+			"cachedTokens": 0,
+			"outputTokens": 1471,
+			"reasoningTokens": 1171,
+			"batch": true
+		}
+	}
+}

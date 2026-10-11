@@ -59,5 +59,31 @@
 			"outputTokens": 42,
 			"reasoningTokens": 27
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ebd47073c300352f",
+		"name": "Adds cards that can be used to apply for seal registration certificates",
+		"official": "Ordinance Partially Amending the Inagi City Seal Registration Ordinance",
+		"summary": "Currently, when you apply for your own seal registration certificate by presenting an Individual Number Card, you do not need to present your seal registration card. This bill gives specified residence cards and similar cards the same treatment, and allows cards with an electronic certificate recorded on them to be used when applying at a multifunction terminal.",
+		"changes": [
+			"Waives the requirement to present a seal registration card when applying with a specified residence card or similar card",
+			"Adds the option to use a specified residence card or similar card with an electronic certificate recorded on it when applying for issuance at a multifunction terminal"
+		],
+		"who": [
+			"Holders of specified residence cards who are registered for a seal",
+			"Holders of specified special permanent resident certificates who are registered for a seal"
+		],
+		"why": "The city says this amendment is being made because a revision to the law established specified residence cards and specified special permanent resident certificates with the functions of Individual Number Cards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:04:50.614Z",
+			"inputTokens": 712,
+			"cachedTokens": 0,
+			"outputTokens": 764,
+			"reasoningTokens": 510
+		}
 	}
 }

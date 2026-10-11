@@ -58,5 +58,30 @@
 			"outputTokens": 149,
 			"reasoningTokens": 135
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ccf79a985fafe1a3",
+		"name": "Ends severance payments by check",
+		"official": "Ordinance Partially Amending the Tachikawa City Employee Retirement Allowance Payment Ordinance",
+		"summary": "If an employee or a bereaved family member requests it, a retirement allowance can be paid by check or bank transfer. This bill ends payments by check. From April 1, 2026, payments will be made only by bank transfer.",
+		"changes": [
+			"Changes the payment methods from check or bank transfer to bank transfer only"
+		],
+		"who": [
+			"City employees who are retiring",
+			"Bereaved family members receiving an employee’s retirement allowance"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:13:53.828Z",
+			"inputTokens": 585,
+			"cachedTokens": 0,
+			"outputTokens": 338,
+			"reasoningTokens": 179
+		}
 	}
 }

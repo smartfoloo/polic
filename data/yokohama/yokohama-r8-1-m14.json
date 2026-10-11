@@ -1,0 +1,85 @@
+{
+	"id": "yokohama-r8-1-m14",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "議第14号議案",
+	"official": "横浜市会個人情報の保護に関する条例の一部改正",
+	"by": "member",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-18",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "議第14号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_gi14-1.pdf",
+			"fetchedAt": "2026-10-08T11:04:02.923Z"
+		}
+	],
+	"name": "個人情報の委託報告対象を限定",
+	"category": "行政のしくみ",
+	"summary": "現在は、個人情報を扱う事務を実施機関以外に委託した場合、受託者の名称や業務の概要などを審議会に報告します。この議案では、新規の委託のうち、扱う本人の数が議長の定める人数を超えるものや、情報が漏れるなどした場合に本人の権利や利益に大きく影響するものとして議長が決めたものに、報告対象を限ります。2026年4月1日に施行します。",
+	"changes": [
+		"審議会への報告対象を、議長が定める人数を超えるものなどに限る"
+	],
+	"who": [],
+	"why": "個人情報を取り扱う事務の委託について、審議会に報告する範囲を変更するためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.559Z",
+		"inputTokens": 1718,
+		"cachedTokens": 0,
+		"outputTokens": 1568,
+		"reasoningTokens": 1307,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.559Z",
+			"notes": [
+				"code: copied from the source (33 chars): 「に個人の権利利益を害するおそれが大きいものとして議長が定めるものに」"
+			],
+			"inputTokens": 2102,
+			"cachedTokens": 1025,
+			"outputTokens": 932,
+			"reasoningTokens": 670,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.886Z",
+		"checkedAt": "2026-10-10T07:29:38.713Z",
+		"flags": [
+			"copied from the source (33 chars): 「に個人の権利利益を害するおそれが大きいものとして議長が定めるものに」"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "審議会への報告対象を、議長が定める人数を超えるものなどに限る",
+				"note": "原文では報告対象を「新規のもの」に限ることも明記されているが、changesにはこの条件が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1652,
+			"cachedTokens": 0,
+			"outputTokens": 219,
+			"reasoningTokens": 124,
+			"batch": true
+		}
+	}
+}

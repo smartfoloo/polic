@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "60a1f927ce58bbe0",
+		"name": "Abolishes the high-cost medical expense loan program",
+		"official": "Ordinance to Repeal the Kunitachi City National Health Insurance High-Cost Medical Expense Loan Fund Ordinance",
+		"summary": "There is an ordinance that provides for loans for high-cost medical expenses, but no one currently receives these loans. The city will repeal the ordinance on April 1, 2026. The provisions of the former ordinance will continue to apply to loans made before the repeal.",
+		"changes": [
+			"Repeals the ordinance providing for loans for high-cost medical expenses",
+			"Continues to apply the provisions of the former ordinance to loans made before the repeal"
+		],
+		"who": [
+			"National Health Insurance enrollees"
+		],
+		"why": "The city says this is because high-cost medical expense benefits are now widely provided in kind, and no one is receiving loans.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:11:29.502Z",
+			"inputTokens": 644,
+			"cachedTokens": 0,
+			"outputTokens": 663,
+			"reasoningTokens": 459
+		}
 	}
 }

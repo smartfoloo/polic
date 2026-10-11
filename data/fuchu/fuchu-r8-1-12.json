@@ -81,5 +81,33 @@
 			"outputTokens": 367,
 			"reasoningTokens": 156
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8ece3ad4b8827c0a",
+		"name": "Sets operating rules for childcare attendance support services",
+		"official": "Ordinance Establishing Standards for the Operation of Fuchu City Specified Infant and Other Childcare Attendance Support Services",
+		"summary": "This ordinance sets operating standards for providers of specified infant and other childcare attendance support services in Fuchu City. It sets rules on capacity per hour and per month, interviews before use, explanations of costs, accident response and other matters. It takes effect on April 1, 2026.",
+		"changes": [
+			"Sets the capacity per hour and per month",
+			"Requires providers to meet with parents before a child uses the service for the first time, explain important matters and obtain their consent",
+			"Requires providers that charge additional fees to explain their purpose and amount to parents and obtain their consent",
+			"Sets operating standards for staff work arrangements, accident response and handling complaints"
+		],
+		"who": [
+			"Children who use specified infant and other childcare attendance support services and their parents",
+			"Providers of specified infant and other childcare attendance support services"
+		],
+		"why": "The city says this ordinance sets operating standards for the services as required under the Child and Childcare Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:50.184Z",
+			"inputTokens": 732,
+			"cachedTokens": 0,
+			"outputTokens": 651,
+			"reasoningTokens": 385
+		}
 	}
 }

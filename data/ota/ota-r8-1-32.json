@@ -27,7 +27,7 @@
 	"category": "子育て",
 	"summary": "区は、乳児等通園支援事業の設備や運営に関する基準を条例で定めています。この議案では、条例の用語を見直し、利用定員の意味を明記するなど、基準に関する規定を整えます。",
 	"changes": [
-		"「乳児等通園支援事業者」を「乳児等通園支援事業所」に改める",
+		"事業の担い手の呼び方を「乳児等通園支援事業所」にそろえる",
 		"利用定員が子ども・子育て支援法上の確認で定める定員であることを加える",
 		"条文の見出しや禁止に関する表現を改める",
 		"乳児・幼児の区分別の記載や職員に関する記載を改める"
@@ -40,27 +40,65 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:19:22.682Z",
+		"generatedAt": "2026-10-08T23:29:03.986Z",
 		"inputTokens": 1660,
 		"cachedTokens": 0,
 		"outputTokens": 1071,
-		"reasoningTokens": 770
+		"reasoningTokens": 770,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:29:03.986Z",
+			"notes": [
+				"code: copied from the source (29 chars): 「「乳児等通園支援事業者」を「乳児等通園支援事業所」に改める」"
+			],
+			"inputTokens": 2077,
+			"cachedTokens": 1025,
+			"outputTokens": 517,
+			"reasoningTokens": 217
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:19:22.682Z",
-		"checkedAt": "2026-10-08T05:47:02.912Z",
-		"flags": [
-			"copied from the source (29 chars): 「「乳児等通園支援事業者」を「乳児等通園支援事業所」に改める」"
-		],
+		"draftAt": "2026-10-08T23:29:03.986Z",
+		"checkedAt": "2026-10-08T23:29:07.343Z",
+		"flags": [],
 		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1628,
+			"inputTokens": 1627,
 			"cachedTokens": 0,
-			"outputTokens": 48,
-			"reasoningTokens": 33
+			"outputTokens": 57,
+			"reasoningTokens": 43
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0633d620eb43675f",
+		"name": "Revises wording in standards for infant and other child attendance support services",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for Facilities and Operations of Ota City Infant and Other Child Attendance Support Services",
+		"summary": "The ward sets standards by ordinance for the facilities and operations of infant and other child attendance support services. This bill revises terms used in the ordinance and clarifies, among other things, what the user capacity means, while updating provisions relating to the standards.",
+		"changes": [
+			"Standardizes the term for service establishments as “infant and other child attendance support service establishments”",
+			"Adds that the user capacity is the capacity set through confirmation under the Act on Child and Child-Rearing Support",
+			"Revises article headings and wording on prohibitions",
+			"Revises descriptions by infant and toddler category, and descriptions about staff"
+		],
+		"who": [
+			"Operators of infant and other child attendance support service establishments"
+		],
+		"why": "The ward says the provisions are being updated in line with revisions to the standards for the facilities and operations of infant and other child attendance support services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:06:58.140Z",
+			"inputTokens": 725,
+			"cachedTokens": 0,
+			"outputTokens": 1356,
+			"reasoningTokens": 1097
 		}
 	}
 }

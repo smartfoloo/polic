@@ -60,5 +60,27 @@
 			"outputTokens": 72,
 			"reasoningTokens": 57
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d6b8fd8b91ce326e",
+		"name": "Changes Minami Daiichi Elementary School's location to Kanamori 3-chome 27-2",
+		"official": "Ordinance Partially Amending the Machida City Ordinance on the Establishment of Municipal Schools",
+		"summary": "The ordinance sets the location of Minami Daiichi Elementary School as Minamimachida 1-chome 10-1. This bill changes the location to Kanamori 3-chome 27-2. The amendment takes effect on April 1, 2027.",
+		"changes": [
+			"Changes Minami Daiichi Elementary School's location from Minamimachida 1-chome 10-1 to Kanamori 3-chome 27-2"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:15:19.099Z",
+			"inputTokens": 556,
+			"cachedTokens": 0,
+			"outputTokens": 442,
+			"reasoningTokens": 261
+		}
 	}
 }

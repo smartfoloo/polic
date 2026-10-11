@@ -1,0 +1,81 @@
+{
+	"id": "kanagawa-r8-3-73",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第73号議案",
+	"official": "神奈川県犯罪のない安全・安心まちづくり推進条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-07",
+	"sources": [
+		{
+			"label": "定県第73号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/138646/joreisonota.pdf",
+			"fetchedAt": "2026-10-08T10:43:16.485Z"
+		}
+	],
+	"name": "特別宣言後に防犯指針を策定可能に",
+	"category": "まちづくり",
+	"summary": "現在の条例には、犯罪防止特別宣言をした後に、その犯罪に関する防犯上の指針を定める規定がありません。この議案では、知事が公安委員会と協議し、特に必要と認めるときに指針を定められるようにします。改正は令和9年4月1日に施行します。",
+	"changes": [
+		"犯罪防止特別宣言の対象となる犯罪について、防犯上の指針を定められる規定を設ける",
+		"第32条以降の条番号と条文中の参照を改める"
+	],
+	"who": [],
+	"why": "令和7年度に行った条例の見直しに伴い、特殊詐欺など特定の犯罪が多発して犯罪防止特別宣言をした場合に、防犯上の指針を定められるようにするためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.867Z",
+		"inputTokens": 1358,
+		"cachedTokens": 0,
+		"outputTokens": 931,
+		"reasoningTokens": 675,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.867Z",
+		"checkedAt": "2026-10-10T07:29:38.626Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1307,
+			"cachedTokens": 0,
+			"outputTokens": 79,
+			"reasoningTokens": 65,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "97ecbcf15305e358",
+		"name": "Allow crime-prevention guidelines after a special declaration",
+		"official": "Ordinance Partially Amending the Kanagawa Prefecture Ordinance to Promote Safe and Secure Community Development Without Crime",
+		"summary": "The current ordinance has no provision for setting crime-prevention guidelines for a crime after a special crime-prevention declaration has been made. Under this bill, the governor may set guidelines after consulting the Public Safety Commission if the governor considers them particularly necessary. The amendment will take effect on April 1, 2027.",
+		"changes": [
+			"Add a provision allowing crime-prevention guidelines to be set for crimes covered by a special crime-prevention declaration",
+			"Revise the article numbers from Article 32 onward and references in the text"
+		],
+		"who": [],
+		"why": "The prefecture says this change is intended to make it possible to set crime-prevention guidelines when a special crime-prevention declaration is made because particular crimes, such as special fraud, are occurring frequently, following a review of the ordinance in FY2025.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.052Z",
+			"inputTokens": 690,
+			"cachedTokens": 0,
+			"outputTokens": 826,
+			"reasoningTokens": 592,
+			"batch": true
+		}
+	}
+}

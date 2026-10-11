@@ -111,5 +111,33 @@
 			"outputTokens": 903,
 			"reasoningTokens": 196
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f285ee20cbb53d5f",
+		"name": "Sets minimum labor pay for the ward's large contracts",
+		"official": "Itabashi City Public Contract Ordinance",
+		"summary": "The ordinance sets basic policies and procedures for construction contracts, service outsourcing contracts, and other contracts entered into by the ward. For construction and manufacturing contracts with estimated prices of ¥100 million or more, and other construction contracts and service outsourcing contracts with estimated prices of ¥10 million or more as prescribed by rules, among others, the contract must require payment at or above the minimum labor remuneration amount. The ordinance takes effect on April 1, 2027. Provisions on the council and the setting of the minimum amount take effect on the date of promulgation.",
+		"changes": [
+			"Sets an hourly minimum amount for labor remuneration",
+			"Creates a system to receive reports of unpaid wages and other issues, require reports and on-site inspections, and seek corrective action",
+			"Allows contracts to be canceled and violations to be made public in cases of violations and other circumstances",
+			"Sets basic policies for public contracts and establishes a council"
+		],
+		"who": [
+			"Businesses awarded specified public contracts by the ward and businesses contracted to carry out the work",
+			"Workers and others working under covered contracts"
+		],
+		"why": "The ward says the ordinance is intended to set basic policies for public contracts and, by improving working conditions and securing personnel, ensure proper performance of contracts and good quality, and promote the local economy and the welfare of residents.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:09:47.556Z",
+			"inputTokens": 840,
+			"cachedTokens": 0,
+			"outputTokens": 1240,
+			"reasoningTokens": 917
+		}
 	}
 }

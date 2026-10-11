@@ -1,0 +1,81 @@
+{
+	"id": "nerima-r8-1-13",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第13号",
+	"official": "練馬区立都市公園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-05",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "緑地2か所を新設",
+	"category": "まちづくり",
+	"summary": "区立都市公園条例に、緑地2か所を新たに加えます。南大泉つむぎ緑地は公布の日、松山の森緑地は令和8年4月1日に施行します。",
+	"changes": [
+		"南大泉つむぎ緑地を条例に加える",
+		"松山の森緑地を条例に加える"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.879Z",
+		"inputTokens": 1068,
+		"cachedTokens": 0,
+		"outputTokens": 644,
+		"reasoningTokens": 516,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.879Z",
+		"checkedAt": "2026-10-10T07:29:38.667Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 882,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e310b49c1c8550f6",
+		"name": "Adds two green spaces",
+		"official": "Ordinance Partially Amending the Nerima City Urban Parks Ordinance",
+		"summary": "The ordinance adds two green spaces to the Nerima City Urban Parks Ordinance. The Minami-Oizumi Tsumugi Green Space takes effect on the date of promulgation, and the Matsuyama no Mori Green Space takes effect on April 1, 2026.",
+		"changes": [
+			"Adds the Minami-Oizumi Tsumugi Green Space to the ordinance",
+			"Adds the Matsuyama no Mori Green Space to the ordinance"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.067Z",
+			"inputTokens": 552,
+			"cachedTokens": 0,
+			"outputTokens": 743,
+			"reasoningTokens": 589,
+			"batch": true
+		}
+	}
+}

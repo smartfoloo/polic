@@ -60,5 +60,35 @@
 			"outputTokens": 85,
 			"reasoningTokens": 70
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f4b58535e75ce2bc",
+		"name": "Revises room-use fees at Nagafusa Fureai Hall",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Nagafusa Fureai Hall Ordinance",
+		"summary": "The all-day fees for the rooms at Nagafusa Fureai Hall, as set out in the ordinance, will be revised. From April 1, 2027, the fee will be ¥2,800 each for Assembly Rooms 1 and 2, ¥11,300 for the Conference Room, and other amounts. The designated manager sets the actual fees within the amounts set out in the ordinance.",
+		"changes": [
+			"Raises the all-day fee listed in the ordinance's schedule for Assembly Rooms 1 and 2 from ¥1,900 to ¥2,800 each",
+			"Raises the all-day fee listed in the ordinance's schedule for the Conference Room from ¥8,200 to ¥11,300",
+			"Raises the all-day fee listed in the ordinance's schedule for the Recreation Room from ¥5,000 to ¥6,600",
+			"Raises the all-day fees listed in the ordinance's schedule for Multipurpose Rooms 2 and 3 and the Creative Room from ¥6,900 to ¥9,300, from ¥3,800 to ¥5,000, and from ¥3,200 to ¥4,400, respectively"
+		],
+		"who": [
+			"People who use Assembly Room 1 or 2 at Nagafusa Fureai Hall",
+			"People who use the Conference Room at Nagafusa Fureai Hall",
+			"People who use the Recreation Room at Nagafusa Fureai Hall",
+			"People who use Multipurpose Room 2 or 3 or the Creative Room at Nagafusa Fureai Hall"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:20:32.506Z",
+			"inputTokens": 739,
+			"cachedTokens": 0,
+			"outputTokens": 1070,
+			"reasoningTokens": 666
+		}
 	}
 }

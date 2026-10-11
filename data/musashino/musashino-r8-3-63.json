@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/054/952/giann/8giandai63gou.pdf",
 			"fetchedAt": "2026-10-05T15:56:19.159Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "033ab257267c3bf3",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance Establishing Standards for the Equipment and Operation of Home-Based Childcare Services, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:58:09.967Z",
+			"inputTokens": 401,
+			"cachedTokens": 0,
+			"outputTokens": 209,
+			"reasoningTokens": 163
+		}
+	}
 }

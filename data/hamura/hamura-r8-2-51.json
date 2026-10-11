@@ -1,0 +1,83 @@
+{
+	"id": "hamura-r8-2-51",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第51号",
+	"official": "羽村市印鑑条例及び羽村市事務手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "新たな在留カード等で証明書を取得可能に",
+	"category": "デジタル",
+	"summary": "マイナンバーカードと在留カードまたは特別永住者証明書が一体化されます。令和8年6月14日から、特定在留カード等を使って多機能端末機で証明書を受け取れるようにします。",
+	"changes": [
+		"特定在留カード等を使って多機能端末機で証明書を交付できるようにする"
+	],
+	"who": [
+		"特定在留カード等を持つ人"
+	],
+	"why": "出入国管理及び難民認定法等の改正法の施行に伴い、新たな特定在留カード等を使って多機能端末機で証明書を交付できるようにするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.859Z",
+		"inputTokens": 1103,
+		"cachedTokens": 0,
+		"outputTokens": 783,
+		"reasoningTokens": 570,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.859Z",
+		"checkedAt": "2026-10-10T07:29:38.607Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1014,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f76b671970ce46da",
+		"name": "Allows certificates to be obtained using new residence cards, etc.",
+		"official": "Ordinance Partially Amending the Hamura City Seal Registration Ordinance and the Hamura City Administrative Fees Ordinance",
+		"summary": "My Number cards will be integrated with residence cards or special permanent resident certificates. Starting June 14, 2026, people will be able to obtain certificates at multifunction terminals using specified residence cards, etc.",
+		"changes": [
+			"Allows certificates to be issued at multifunction terminals using specified residence cards, etc."
+		],
+		"who": [
+			"People who hold specified residence cards, etc."
+		],
+		"why": "The city says this is to enable certificates to be issued at multifunction terminals using new specified residence cards, etc., following the enforcement of the amended Immigration Control and Refugee Recognition Act, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.046Z",
+			"inputTokens": 651,
+			"cachedTokens": 0,
+			"outputTokens": 652,
+			"reasoningTokens": 462,
+			"batch": true
+		}
+	}
+}

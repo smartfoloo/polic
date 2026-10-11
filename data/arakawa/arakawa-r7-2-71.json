@@ -1,0 +1,46 @@
+{
+	"id": "arakawa-r7-2-71",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第71号",
+	"official": "荒川区生活安全条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第71号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian71.html",
+			"fetchedAt": "2026-10-10T14:48:44.215Z"
+		}
+	],
+	"name": "客引き行為などを禁止行為に追加",
+	"category": "まちづくり",
+	"summary": "区の生活安全条例で定める禁止行為に、客引き行為などを加えます。あわせて、規定を整えます。",
+	"changes": [
+		"禁止行為に客引き行為等を加える",
+		"規定を整える"
+	],
+	"who": [],
+	"why": "安全で安心して暮らせる地域社会の実現に向けて、禁止行為に客引き行為等を加え、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.814Z",
+		"inputTokens": 1028,
+		"cachedTokens": 0,
+		"outputTokens": 476,
+		"reasoningTokens": 306,
+		"batch": true
+	}
+}

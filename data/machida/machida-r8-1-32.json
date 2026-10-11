@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1c861a7860917a09",
+		"name": "Changes the article number for exempting hospital staff from liability",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment, etc. of the Machida City Hospital Business",
+		"summary": "When exempting hospital business staff from liability for damages, the assembly must give its consent if the amount is ¥200,000 or more. This bill changes the article number in the Local Autonomy Act that provides the basis for this and takes effect on September 24, 2026.",
+		"changes": [
+			"Changes the relevant article number in the Local Autonomy Act from Article 243-2-8 to Article 243-2-9"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:06.826Z",
+			"inputTokens": 588,
+			"cachedTokens": 0,
+			"outputTokens": 504,
+			"reasoningTokens": 335
+		}
 	}
 }

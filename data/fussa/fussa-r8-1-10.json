@@ -1,0 +1,79 @@
+{
+	"id": "fussa-r8-1-10",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第10号",
+	"official": "福生市空家等の適正管理に関する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "建設環境委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1020984.html",
+			"fetchedAt": "2026-10-08T10:57:01.728Z"
+		}
+	],
+	"name": "空家等の管理に必要なルールを定める",
+	"category": "まちづくり",
+	"summary": "空家等を適正に管理するための条例を新たに制定します。安全安心なまちづくりと、良好な住環境の整備を目指す内容です。",
+	"changes": [
+		"空家等の適正な管理に必要な事項を条例で定める"
+	],
+	"who": [],
+	"why": "安全安心なまちづくりと良好な住環境の整備を図るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.852Z",
+		"inputTokens": 1030,
+		"cachedTokens": 0,
+		"outputTokens": 704,
+		"reasoningTokens": 563,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.852Z",
+		"checkedAt": "2026-10-10T07:29:38.583Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 859,
+			"cachedTokens": 0,
+			"outputTokens": 33,
+			"reasoningTokens": 18,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "857ad6efedf2235b",
+		"name": "Sets rules for the proper management of vacant houses",
+		"official": "Fussa City Ordinance on the Proper Management of Vacant Houses, etc.",
+		"summary": "Establishes a new ordinance to ensure the proper management of vacant houses and similar properties. It aims to create a safe and secure community and a good living environment.",
+		"changes": [
+			"Sets out in an ordinance the matters needed for the proper management of vacant houses and similar properties"
+		],
+		"who": [],
+		"why": "The city says this is to create a safe and secure community and provide a good living environment.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.037Z",
+			"inputTokens": 562,
+			"cachedTokens": 0,
+			"outputTokens": 276,
+			"reasoningTokens": 133,
+			"batch": true
+		}
+	}
+}

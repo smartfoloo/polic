@@ -1,0 +1,50 @@
+{
+	"id": "sagamihara-r8-6-80",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第80号",
+	"official": "相模原市立ふれあいセンター条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "民生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第80号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "ふれあいセンターの利用料金を改定",
+	"category": "まちづくり",
+	"summary": "新磯ふれあいセンターと東林ふれあいセンターの利用料金を改定します。現在の料金の一部を引き上げ、新料金は2027年7月1日以後の利用分から適用します（条例の施行は2027年1月1日です）。",
+	"changes": [
+		"交流広場の料金を5,800円から7,500円に上げる",
+		"利用料金のうち4,400円を5,500円に上げる",
+		"利用料金のうち5,800円を7,100円、5,000円を6,100円、2,000円を2,600円に上げる",
+		"利用料金のうち1,800円を1,900円、1,200円を1,300円に上げる"
+	],
+	"who": [
+		"新磯ふれあいセンターと東林ふれあいセンターを利用する人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づいて使用料などを見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.844Z",
+		"inputTokens": 1448,
+		"cachedTokens": 0,
+		"outputTokens": 1716,
+		"reasoningTokens": 1405,
+		"batch": true
+	}
+}

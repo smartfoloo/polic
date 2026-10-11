@@ -1,0 +1,38 @@
+{
+	"id": "hino-r8-3-77",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議案第77号",
+	"official": "日野市下水道条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-29",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1031867.html",
+			"fetchedAt": "2026-10-08T10:56:43.516Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "a7815c34d9aac99e",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hino City Sewerage Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.511Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 187,
+			"reasoningTokens": 151,
+			"batch": true
+		}
+	}
+}

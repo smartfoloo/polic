@@ -28,7 +28,7 @@
 	"summary": "入居資格の1つとして、同居する親族などに加え、東京都の条例に基づく証明を受けたパートナーがいることが定められています。この議案では、市長が認める人も対象に加え、使用者から共益費を徴収できる規定を設けます。入居資格の変更は2026年3月1日から、共益費の規定は公布の日から施行されます。",
 	"changes": [
 		"同居する人に、市長が認める人を加える",
-		"共通の利益のために必要と認める費用を、共益費として徴収できるようにする",
+		"前条第1項各号に掲げる費用のうち、使用者の共通の利益のため特に必要なものを共益費として徴収できるようにする",
 		"共益費に第15条と第17条の規定を準用する"
 	],
 	"who": [
@@ -40,33 +40,65 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:25:30.796Z",
+		"generatedAt": "2026-10-08T23:30:09.970Z",
 		"inputTokens": 1844,
 		"cachedTokens": 0,
 		"outputTokens": 1412,
-		"reasoningTokens": 1140
+		"reasoningTokens": 1140,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:30:09.970Z",
+			"notes": [
+				"ai [error] changes/fact: 「共通の利益のために必要と認める費用を、共益費として徴収できるようにする」 → 原文では、徴収対象を「前条第１項各号に掲げる費用のうち」、使用者の共通の利益を図るため「特に必要」と認めるものに限定している。要約ではこの限定がなく、対象範囲が広く読める。"
+			],
+			"inputTokens": 2337,
+			"cachedTokens": 1025,
+			"outputTokens": 588,
+			"reasoningTokens": 270
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:25:30.796Z",
-		"checkedAt": "2026-10-08T05:50:17.918Z",
+		"draftAt": "2026-10-08T23:30:09.970Z",
+		"checkedAt": "2026-10-08T23:30:14.185Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "共通の利益のために必要と認める費用を、共益費として徴収できるようにする",
-				"note": "原文では、徴収対象を「前条第１項各号に掲げる費用のうち」、使用者の共通の利益を図るため「特に必要」と認めるものに限定している。要約ではこの限定がなく、対象範囲が広く読める。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1821,
+			"inputTokens": 1837,
 			"cachedTokens": 0,
-			"outputTokens": 343,
-			"reasoningTokens": 213
+			"outputTokens": 107,
+			"reasoningTokens": 93
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0e95251e8ea8aa80",
+		"name": "Changes eligibility for municipal housing and rules on shared expenses",
+		"official": "Ordinance Partially Amending the Tachikawa City Municipal Housing Ordinance",
+		"summary": "One eligibility requirement is having a partner certified under a Tokyo Metropolitan Government ordinance, in addition to relatives or others who live with you. This bill adds people recognized by the mayor to those covered and establishes a provision allowing the city to collect shared expenses from housing users. The eligibility change takes effect on March 1, 2026, and the provision on shared expenses takes effect on the date of promulgation.",
+		"changes": [
+			"Add people recognized by the mayor to those who may live with the applicant",
+			"Allow the collection as shared expenses of costs listed in each item of Paragraph 1 of the preceding Article that are especially necessary for the common benefit of users",
+			"Apply the provisions of Articles 15 and 17 to shared expenses, with necessary modifications"
+		],
+		"who": [
+			"People applying to move into municipal housing",
+			"Users of municipal housing"
+		],
+		"why": "The city says this is to broaden the range of people eligible to use municipal housing and to establish rules on shared expenses.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:11:08.391Z",
+			"inputTokens": 723,
+			"cachedTokens": 0,
+			"outputTokens": 782,
+			"reasoningTokens": 516
 		}
 	}
 }

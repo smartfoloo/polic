@@ -1,0 +1,38 @@
+{
+	"id": "nishitokyo-r8-1-14",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第14号",
+	"official": "西東京市行政手続条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-26",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/kaikinainittei0801.html",
+			"fetchedAt": "2026-10-08T10:59:32.306Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "2b757abe2484ebf8",
+		"official": "Ordinance Partially Amending the Nishi-Tokyo City Administrative Procedures Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.519Z",
+			"inputTokens": 380,
+			"cachedTokens": 0,
+			"outputTokens": 128,
+			"reasoningTokens": 95,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"id": "kawasaki-r8-3-124",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第124号",
+	"official": "川崎市市民館条例等の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第124号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_124.pdf",
+			"fetchedAt": "2026-10-08T11:12:52.545Z"
+		}
+	],
+	"name": "市民館の施設使用料・利用料を改定",
+	"category": "税・手数料",
+	"summary": "現在、市民館の施設使用料・利用料や設備料金は、条例の料金表で定められています。この議案は、部屋ごとの料金表と設備料金の一部を改定します。令和9年4月1日から施行し、それまでに利用許可を受けた人には従来の料金を適用します。",
+	"changes": [
+		"部屋ごとの施設使用料・利用料を改定する",
+		"設備使用料・利用料の一部を5,600円から6,160円に改定する",
+		"設備利用料の一部を3,360円から3,690円に改定する"
+	],
+	"who": [
+		"市民館を利用する人"
+	],
+	"why": "市民館の使用料及び利用料金の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.875Z",
+		"inputTokens": 6614,
+		"cachedTokens": 0,
+		"outputTokens": 1690,
+		"reasoningTokens": 1467,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.653Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6535,
+			"cachedTokens": 0,
+			"outputTokens": 278,
+			"reasoningTokens": 264,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fefa7aff5cdfac16",
+		"name": "Revises civic hall room and equipment fees",
+		"official": "On the Enactment of an Ordinance Partially Amending the Kawasaki City Civic Hall Ordinance, etc.",
+		"summary": "Fees for using civic hall facilities and equipment are currently set out in fee schedules in ordinances. This bill revises the fee schedule for each room and some equipment fees. It will take effect on April 1, 2027. The previous fees will apply to people who received permission to use the facilities before that date.",
+		"changes": [
+			"Revises the facility use and usage fees for each room",
+			"Raises some equipment use and usage fees from ¥5,600 to ¥6,160",
+			"Raises some equipment usage fees from ¥3,360 to ¥3,690"
+		],
+		"who": [
+			"People who use civic hall rooms",
+			"People who use equipment subject to the revised fees",
+			"People who use equipment subject to the revised fees"
+		],
+		"why": "The city says this is to revise the maximum amounts for civic hall use fees and usage fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.062Z",
+			"inputTokens": 657,
+			"cachedTokens": 0,
+			"outputTokens": 1178,
+			"reasoningTokens": 929,
+			"batch": true
+		}
+	}
+}

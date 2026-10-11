@@ -1,0 +1,38 @@
+{
+	"id": "nishitokyo-r8-x1-43",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第43号",
+	"official": "西東京市中小企業事業資金融資あっせん条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回臨時会",
+	"committee": "建設環境委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-07-06",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回臨時会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/nitteihugiannkenkekka0801.html",
+			"fetchedAt": "2026-10-08T10:59:44.296Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "2dd7429413da1a46",
+		"official": "Ordinance Partially Amending the Nishi-Tokyo City Ordinance on Arranging Business Financing Loans for Small and Medium-Sized Enterprises",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.521Z",
+			"inputTokens": 389,
+			"cachedTokens": 0,
+			"outputTokens": 205,
+			"reasoningTokens": 161,
+			"batch": true
+		}
+	}
+}

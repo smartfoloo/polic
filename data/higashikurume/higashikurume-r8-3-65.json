@@ -64,5 +64,31 @@
 			"outputTokens": 116,
 			"reasoningTokens": 102
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bca330dac4547f8f",
+		"name": "Updates rules for obtaining seal registration certificates at multifunction terminals",
+		"official": "Ordinance Partially Amending the Higashikurume City Seal Registration Ordinance",
+		"summary": "The current ordinance sets out a system for applying for and receiving seal registration certificates at multifunction terminals. This bill changes the wording for terminal operators from “private businesses” to “private businesses, etc.” and standardizes the notation in the ordinance.",
+		"changes": [
+			"Change the wording for terminal operators from “private businesses” to “private businesses, etc.”",
+			"Revise kana usage and kanji notation in the ordinance"
+		],
+		"who": [
+			"People who obtain seal registration certificates at multifunction terminals",
+			"Businesses and others that install multifunction terminals"
+		],
+		"why": "The city says this is to align the provisions on multifunction terminals with the ordinance on administrative fees and to organize the wording.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:30.316Z",
+			"inputTokens": 678,
+			"cachedTokens": 0,
+			"outputTokens": 413,
+			"reasoningTokens": 208
+		}
 	}
 }

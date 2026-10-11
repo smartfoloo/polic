@@ -61,5 +61,33 @@
 			"outputTokens": 110,
 			"reasoningTokens": 95
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "58acaf919357665a",
+		"name": "Partially revises standards for infant and other children's childcare attendance support services",
+		"official": "Regarding the Establishment of an Ordinance to Partially Amend the Ordinance on Standards for the Facilities and Operation of Tama City Infant and Other Children's Childcare Attendance Support Services",
+		"summary": "The ordinance sets standards for the facilities and operation of services supporting childcare attendance for infants and other children. This bill revises the definitions of certain terms and of user capacity, and adds a provision that exempts certain facilities from some facility and staffing standards when they provide general-type infant and other children's childcare attendance support services. The revisions take effect on April 1, 2026.",
+		"changes": [
+			"Defines infant and other children's childcare attendance support services in line with the legal definition",
+			"Specifies that user capacity means the capacity established through confirmation under the Child and Child-rearing Support Act",
+			"Exempts operators providing special-case childcare from some facility and staffing standards when they also provide general-type infant and other children's childcare attendance support services at the same facility",
+			"Revises terms and wording in the ordinance, including replacing “operator” with “facility”"
+		],
+		"who": [
+			"Facilities providing infant and other children's childcare attendance support services",
+			"Operators providing special-case childcare and general-type infant and other children's childcare attendance support services at the same facility"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:17:33.333Z",
+			"inputTokens": 780,
+			"cachedTokens": 0,
+			"outputTokens": 1003,
+			"reasoningTokens": 698
+		}
 	}
 }

@@ -1,0 +1,86 @@
+{
+	"id": "kokubunji-r8-1-22",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第22号",
+	"official": "国分寺市障害者センター条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "障害者センターの位置の特例を定める",
+	"category": "福祉",
+	"summary": "国分寺市障害者センターの位置について、条例を改正します。位置の特例を定める内容です。",
+	"changes": [
+		"障害者センターの位置の特例を規定する"
+	],
+	"who": [],
+	"why": "障害者センターの位置の特例を定める必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.876Z",
+		"inputTokens": 1006,
+		"cachedTokens": 0,
+		"outputTokens": 423,
+		"reasoningTokens": 307,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.876Z",
+		"checkedAt": "2026-10-10T07:29:38.658Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 816,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cc843c3456562dc5",
+		"name": "Sets an exception to the Disability Center's location",
+		"official": "Regarding an Ordinance Partially Amending the Kokubunji City Disability Center Ordinance",
+		"summary": "Kokubunji City will amend the ordinance concerning the location of the Kokubunji City Disability Center. The amendment establishes an exception to its location.",
+		"changes": [
+			"Establishes an exception to the location of the Disability Center"
+		],
+		"who": [
+			"The Kokubunji City Disability Center"
+		],
+		"why": "The city says it is necessary to establish an exception to the location of the Disability Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.064Z",
+			"inputTokens": 544,
+			"cachedTokens": 0,
+			"outputTokens": 515,
+			"reasoningTokens": 364,
+			"batch": true
+		}
+	}
+}

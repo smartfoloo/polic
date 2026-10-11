@@ -62,5 +62,29 @@
 			"outputTokens": 31,
 			"reasoningTokens": 16
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b34ede4bf0c2c0f3",
+		"name": "Repeals the community garden ordinance",
+		"official": "Ordinance to Repeal the Machida City Community Garden Ordinance",
+		"summary": "The ordinance repeals the current community garden ordinance. The repeal takes effect on February 1, 2027.",
+		"changes": [
+			"Repeals the Machida City Community Garden Ordinance"
+		],
+		"who": [
+			"People who use community gardens"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:41:43.298Z",
+			"inputTokens": 518,
+			"cachedTokens": 0,
+			"outputTokens": 185,
+			"reasoningTokens": 95
+		}
 	}
 }

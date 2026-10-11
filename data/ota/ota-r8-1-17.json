@@ -69,5 +69,33 @@
 			"outputTokens": 234,
 			"reasoningTokens": 97
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d9e175ce66f3aba9",
+		"name": "Establishes the Kamata Nishi Meeting Room and sets usage fees",
+		"official": "Ordinance Partially Amending the Ordinance on Facilities Attached to Ota City Special Branch Offices",
+		"summary": "Adds the Kamata Nishi Meeting Room, which is not covered by the current ordinance, as a facility attached to the Kamata Nishi Special Branch Office. Sets time-slot usage fees for four rooms and adds 20% to the standard usage fee for users from outside the ward. Makes the intervening time free of charge when two or more consecutive time slots are used, and adds cases involving commercial activities to the provisions on facility use.",
+		"changes": [
+			"Adds the Kamata Nishi Meeting Room as a facility attached to a Special Branch Office",
+			"Sets the fees for the First Meeting Room and First Multipurpose Room at ¥1,800 for the morning, ¥1,500 for Afternoon A, and ¥1,800 for Afternoon B and the evening; sets the fees for the Second Meeting Room and Second Multipurpose Room at ¥2,400 for the morning, ¥2,000 for Afternoon A, and ¥2,400 for Afternoon B and the evening",
+			"Adds an amount equal to 20% of the usage fee for users from outside the ward",
+			"Makes the intervening time free of charge when two or more consecutive time slots are used, and adds cases involving commercial activities to the provisions on facility use"
+		],
+		"who": [
+			"People and groups using the Kamata Nishi Meeting Room",
+			"Individuals and groups from outside the ward"
+		],
+		"why": "The ward says this is to establish the Kamata Nishi Meeting Room, set its usage fees and update the provisions in connection with abolishing the meeting room at Fureai Hasunuma.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:04:41.683Z",
+			"inputTokens": 820,
+			"cachedTokens": 0,
+			"outputTokens": 1084,
+			"reasoningTokens": 691
+		}
 	}
 }

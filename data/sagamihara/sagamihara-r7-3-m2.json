@@ -1,0 +1,51 @@
+{
+	"id": "sagamihara-r7-3-m2",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議提議案第2号",
+	"official": "映像の力でさがみはらを元気にする条例について",
+	"by": "member",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "議提議案第2号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2025041500010/file_contents/2026_gitei_1-4.pdf",
+			"fetchedAt": "2026-10-10T14:39:24.949Z"
+		},
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"name": "市内での映像撮影を支える仕組みを定める",
+	"category": "まちづくり",
+	"summary": "相模原市は、これまでも映像作品の撮影地として選ばれてきました。この条例で、市の撮影推進施策や、映像事業者・事業者・市民の役割、基本計画の策定などを定めます。条例は2026年4月1日に施行されます。",
+	"changes": [
+		"市が撮影の誘致や撮影への協力促進、市の魅力発信などの施策を実施する",
+		"市長が施策の基本計画を策定し、実施状況を毎年度検証して公表する",
+		"映像事業者、事業者、市民の役割を定める"
+	],
+	"who": [
+		"映像作品の制作や発信を行う事業者",
+		"市内に事務所や事業所を持つ事業者",
+		"市内に住む人、通勤する人、通学する人"
+	],
+	"why": "撮影を進めるための基本理念や、市などの役割を定めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.837Z",
+		"inputTokens": 3249,
+		"cachedTokens": 0,
+		"outputTokens": 860,
+		"reasoningTokens": 573,
+		"batch": true
+	}
+}

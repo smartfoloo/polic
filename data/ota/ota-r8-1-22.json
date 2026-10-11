@@ -56,5 +56,28 @@
 			"outputTokens": 48,
 			"reasoningTokens": 33
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "517fa7d4f2c99bcc",
+		"name": "Changes statutory references in the hall ordinance",
+		"official": "Ordinance Partially Amending the Ota City Kamiikedai Disability Welfare Hall Ordinance",
+		"summary": "The ordinance refers to provisions of the Act on Comprehensive Support for Persons with Disabilities in rules concerning the Kamiikedai Disability Welfare Hall. This bill changes the paragraph numbers referenced in the ordinance following an amendment to the Act.",
+		"changes": [
+			"Changes the references in Article 2, items (3) and (4), from Article 5, paragraph 14, to paragraph 15",
+			"Changes the reference in Article 2, item (5), from Article 5, paragraph 18, to paragraph 19"
+		],
+		"who": [],
+		"why": "The ward says this is to make adjustments to the ordinance's provisions following amendments to the Act on Comprehensive Support for Persons with Disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:05:28.622Z",
+			"inputTokens": 624,
+			"cachedTokens": 0,
+			"outputTokens": 700,
+			"reasoningTokens": 499
+		}
 	}
 }

@@ -1,0 +1,88 @@
+{
+	"id": "kokubunji-r8-1-50",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第50号",
+	"official": "国分寺市出張所設置条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "恋ヶ窪市民サービスコーナーを廃止",
+	"category": "くらし・手続き",
+	"summary": "市は恋ヶ窪市民サービスコーナーを設置しています。この議案で、同コーナーを廃止します。",
+	"changes": [
+		"恋ヶ窪市民サービスコーナーを廃止する"
+	],
+	"who": [
+		"恋ヶ窪市民サービスコーナーを利用する人"
+	],
+	"why": "恋ヶ窪市民サービスコーナーを廃止する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 1003,
+		"cachedTokens": 0,
+		"outputTokens": 491,
+		"reasoningTokens": 354,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.663Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 835,
+			"cachedTokens": 0,
+			"outputTokens": 50,
+			"reasoningTokens": 35,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ce274d92768d47bd",
+		"name": "Discontinues the Koigakubo Citizen Service Corner",
+		"official": "Ordinance Partially Amending the Kokubunji City Ordinance on the Establishment of Branch Offices",
+		"summary": "Kokubunji City operates the Koigakubo Citizen Service Corner. This bill discontinues the corner.",
+		"changes": [
+			"Discontinues the Koigakubo Citizen Service Corner"
+		],
+		"who": [
+			"People who use the Koigakubo Citizen Service Corner"
+		],
+		"why": "The city says it needs to discontinue the Koigakubo Citizen Service Corner.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.066Z",
+			"inputTokens": 566,
+			"cachedTokens": 0,
+			"outputTokens": 335,
+			"reasoningTokens": 186,
+			"batch": true
+		}
+	}
+}

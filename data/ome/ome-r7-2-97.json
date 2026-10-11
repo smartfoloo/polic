@@ -90,5 +90,33 @@
 			"outputTokens": 549,
 			"reasoningTokens": 139
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ce75db43f596e551",
+		"name": "Sets operating standards for the specified infant and other child attendance support program",
+		"official": "Ome City Ordinance Establishing Standards for the Operation of Specified Infant and Other Child Attendance Support Programs",
+		"summary": "This ordinance sets operating standards that providers must follow for specified infant and other child attendance support programs conducted in Ome City. It sets standards for capacity, interviews before use, receiving fees, and responding to accidents, among other matters. It takes effect on April 1, 2026.",
+		"changes": [
+			"Require providers to set a capacity per hour and prohibit them from providing services beyond that capacity",
+			"Require providers to interview guardians before a child uses the service for the first time, explain important matters, and obtain their consent",
+			"Set rules on the types of fees providers may collect from guardians, and on explaining fees and issuing receipts",
+			"Set standards for staff work arrangements and training, preventing abuse, responding to accidents and complaints, and keeping records"
+		],
+		"who": [
+			"Preschool children who use the specified infant and other child attendance support program, and their guardians",
+			"Providers of the specified infant and other child attendance support program"
+		],
+		"why": "The city says it is setting operating standards for the city's program based on the provisions of the law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:00:20.837Z",
+			"inputTokens": 756,
+			"cachedTokens": 0,
+			"outputTokens": 608,
+			"reasoningTokens": 320
+		}
 	}
 }

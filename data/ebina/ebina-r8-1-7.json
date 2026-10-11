@@ -1,0 +1,81 @@
+{
+	"id": "ebina-r8-1-7",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "海老名市職員の定数条例の一部改正について",
+	"by": "head",
+	"session": "令和8年3月第1回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F24%2C2026%2F03%2F26%2C112",
+			"fetchedAt": "2026-10-08T11:25:11.274Z"
+		},
+		{
+			"label": "議案第7号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1460_8.7.pdf",
+			"fetchedAt": "2026-10-08T11:25:41.225Z"
+		}
+	],
+	"name": "職員定数条例の一部を改正",
+	"category": "行政のしくみ",
+	"summary": "職員の定数を定める条例の一部改正が提案されています。改正で定数などがどう変わるかは、提示された情報から確認できません。",
+	"changes": [],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.531Z",
+		"inputTokens": 986,
+		"cachedTokens": 0,
+		"outputTokens": 595,
+		"reasoningTokens": 503,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.531Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「市長が、職員の定数を定める条例の一部改正を提案しています。」 → 議案本文が空で、件名にも提出者の記載がないため、市長による提案かは確認できません。"
+			],
+			"inputTokens": 1236,
+			"cachedTokens": 0,
+			"outputTokens": 353,
+			"reasoningTokens": 251,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.841Z",
+		"checkedAt": "2026-10-10T07:29:38.556Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "市長が、職員の定数を定める条例の一部改正を提案しています。",
+				"note": "議案本文が空で、件名にも提出者の記載がないため、市長による提案かは確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 759,
+			"cachedTokens": 0,
+			"outputTokens": 227,
+			"reasoningTokens": 140,
+			"batch": true
+		}
+	}
+}

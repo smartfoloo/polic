@@ -57,5 +57,29 @@
 			"outputTokens": 165,
 			"reasoningTokens": 150
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aca2da684a255b4b",
+		"name": "Makes applications unnecessary for special reductions in long-term care insurance premiums",
+		"official": "Ordinance Partially Amending the Ome City Long-Term Care Insurance Ordinance",
+		"summary": "Currently, people must apply to receive a special reduction in their long-term care insurance premiums. Under the proposed amendment, for FY2026 only, people who are not assessed municipal resident tax for FY2025 and FY2026 will be treated as taxable under the ordinance. If the mayor recognizes a special reason, they will be able to receive the reduction without applying.",
+		"changes": [
+			"Removes the application requirement for premium reductions under the special provisions"
+		],
+		"who": [
+			"Category 1 insured persons under long-term care insurance whose own or household tax status meets the special conditions"
+		],
+		"why": "The city says the change is intended to reduce the burden on people eligible for special reductions, among other aims.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:02:48.588Z",
+			"inputTokens": 662,
+			"cachedTokens": 0,
+			"outputTokens": 580,
+			"reasoningTokens": 371
+		}
 	}
 }

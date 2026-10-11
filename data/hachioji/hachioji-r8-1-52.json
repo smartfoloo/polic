@@ -60,5 +60,35 @@
 			"outputTokens": 81,
 			"reasoningTokens": 66
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fe096f1495c3bdb6",
+		"name": "Revises application and renewal fees for food business permits",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Public Health Center-Related Fee Ordinance, etc.",
+		"summary": "Fees for applications for and renewals of food business permits will be revised by type of business. The fee for a new permit application for a regular restaurant will fall from ¥18,300 to ¥18,000, while the fee for a new permit application for a mobile or temporary restaurant will rise from ¥6,500 to ¥9,300. The changes vary by type of business. The revised food business fees will take effect on July 1, 2026. The revised provisions concerning applications for pharmacy-manufactured and marketed medicines will take effect on May 1, 2026.",
+		"changes": [
+			"Revise food business permit application and renewal fees by type of business",
+			"Lower the fee for a new permit application for a regular restaurant from ¥18,300 to ¥18,000",
+			"Raise the fee for a new permit application for a mobile or temporary restaurant from ¥6,500 to ¥9,300",
+			"Change the statutory reference provision for applications for approval of partial changes to pharmacy-manufactured and marketed medicines"
+		],
+		"who": [
+			"Food businesses applying for permits or renewals",
+			"Regular restaurants applying for a new permit",
+			"Mobile or temporary restaurants applying for a new permit",
+			"Applicants seeking approval of partial changes to pharmacy-manufactured and marketed medicines"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:54:27.494Z",
+			"inputTokens": 762,
+			"cachedTokens": 0,
+			"outputTokens": 933,
+			"reasoningTokens": 585
+		}
 	}
 }

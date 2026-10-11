@@ -1,0 +1,109 @@
+{
+	"id": "hadano-r8-1-7",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "秦野市乳児等通園支援事業の設備及び運営の基準を定める条例を制定することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "文教福祉常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第7号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg7.pdf",
+			"fetchedAt": "2026-10-08T11:23:16.994Z"
+		}
+	],
+	"name": "乳児等通園支援事業の基準を定める",
+	"category": "子育て",
+	"summary": "乳児等通園支援事業の設備や運営について、市の条例で基準を定めます。事業を一般型と余裕活用型に分け、一般型の職員配置や部屋の広さ、安全対策などを定めます。",
+	"changes": [
+		"事業を一般型と余裕活用型に分ける",
+		"一般型の職員配置や保育室などの面積を定める",
+		"安全計画や避難訓練などの運営基準を定める"
+	],
+	"who": [
+		"未就園児とその保護者",
+		"乳児等通園支援事業を行う事業者"
+	],
+	"why": "児童福祉法の一部改正に伴い、事業の設備・運営基準を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.856Z",
+		"inputTokens": 9554,
+		"cachedTokens": 0,
+		"outputTokens": 1217,
+		"reasoningTokens": 959,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.856Z",
+		"checkedAt": "2026-10-10T07:29:38.598Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "一般型の職員配置や保育室などの面積を定める",
+				"note": "第26条では、余裕活用型の設備・職員についても、保育所や認定こども園など施設・事業所の区分ごとに適用する基準を定めているが、changesに記載がない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "安全計画や避難訓練などの運営基準を定める",
+				"note": "第17条で義務付ける運営規程の整備が記載されていない。提供日・時間、保護者から受領する費用、利用定員、利用開始・終了など、利用者に直接関わる事項を定める主な基準。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 9477,
+			"cachedTokens": 0,
+			"outputTokens": 309,
+			"reasoningTokens": 93,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3b0fde86487b0e78",
+		"name": "Sets standards for infant and other childcare attendance support services",
+		"official": "Regarding the Enactment of the Hadano City Ordinance Establishing Standards for the Facilities and Operation of Infant and Other Childcare Attendance Support Services",
+		"summary": "The ordinance sets city standards for the facilities and operation of infant and other childcare attendance support services. It divides the services into general and spare-capacity types, and sets requirements for staffing, room sizes and safety measures for the general type.",
+		"changes": [
+			"Divides the services into general and spare-capacity types",
+			"Sets staffing and room-size requirements for the general type",
+			"Sets operating standards, including safety plans and evacuation drills"
+		],
+		"who": [
+			"Children not attending preschool and their parents or guardians",
+			"Providers of infant and other childcare attendance support services"
+		],
+		"why": "The city says this is to set standards for the facilities and operation of the services following a partial amendment to the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.041Z",
+			"inputTokens": 678,
+			"cachedTokens": 0,
+			"outputTokens": 1348,
+			"reasoningTokens": 1124,
+			"batch": true
+		}
+	}
+}

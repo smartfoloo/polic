@@ -1,0 +1,90 @@
+{
+	"id": "yugawara-r8-3-28",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第28号",
+	"official": "湯河原町印鑑条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第28号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/18027.pdf",
+			"fetchedAt": "2026-10-08T11:29:11.463Z"
+		}
+	],
+	"name": "特定在留カードなどで印鑑証明書を申請可能に",
+	"category": "くらし・手続き",
+	"summary": "現在、端末機で印鑑登録証明書を申請するときは、利用者証明用電子証明書が記録された個人番号カードか、対応する電子証明書が記録された移動端末設備を使います。改正後は、所定の電子証明書が記録された特定在留カードと特定特別永住者証明書も使えるようになります。",
+	"changes": [
+		"端末機での申請に、特定在留カードと特定特別永住者証明書を使えるようにする"
+	],
+	"who": [
+		"特定在留カードを持つ印鑑登録者",
+		"特定特別永住者証明書を持つ印鑑登録者"
+	],
+	"why": "出入国管理及び難民認定法などの改正に伴い、特定在留カードなどでコンビニ交付サービス等から印鑑登録証明書を受け取れるようにするためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.890Z",
+		"inputTokens": 2538,
+		"cachedTokens": 0,
+		"outputTokens": 1378,
+		"reasoningTokens": 1106,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.739Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2505,
+			"cachedTokens": 0,
+			"outputTokens": 59,
+			"reasoningTokens": 44,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1109b17d378676c6",
+		"name": "Allow applications for seal certificates using specified residence cards and similar documents",
+		"official": "Ordinance Partially Amending the Yugawara Town Seal Registration Ordinance",
+		"summary": "Currently, when applying for a certificate of registered seal at a terminal, users must use an Individual Number Card containing an electronic certificate for user authentication, or a mobile device containing a corresponding electronic certificate. After the amendment, they will also be able to use a specified residence card or a specified special permanent resident certificate containing the prescribed electronic certificate.",
+		"changes": [
+			"Allow specified residence cards and specified special permanent resident certificates to be used when applying at a terminal"
+		],
+		"who": [
+			"People registered with a seal who hold a specified residence card",
+			"People registered with a seal who hold a specified special permanent resident certificate"
+		],
+		"why": "The town says this is to allow people to receive certificates of registered seal through services such as convenience-store issuance using specified residence cards and similar documents, following amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.076Z",
+			"inputTokens": 699,
+			"cachedTokens": 0,
+			"outputTokens": 753,
+			"reasoningTokens": 515,
+			"batch": true
+		}
+	}
+}

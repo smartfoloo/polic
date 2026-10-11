@@ -80,5 +80,32 @@
 			"outputTokens": 420,
 			"reasoningTokens": 131
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "62fd6b024b052c45",
+		"name": "Revises National Health Insurance tax rates and adds a child-rearing support component",
+		"official": "Draft Ordinance Partially Amending the Kunitachi City National Health Insurance Tax Ordinance",
+		"summary": "The tax rates and per-capita amounts for the basic portion, the portion for contributions to support older people in the latter stage of life, and the nursing care contribution portion of National Health Insurance tax will be revised. A new taxable amount will also be created to fund child and child-rearing support contributions. The revised tax amounts will apply to National Health Insurance tax for fiscal year 2026 and later.",
+		"changes": [
+			"Raises the income-based rate for the basic portion from 5.50% to 5.70%, and the per-capita amount from ¥20,000 to ¥23,500",
+			"Revises the income-based rates and per-capita amounts for the older-person support contribution portion and the nursing care contribution portion",
+			"Creates a taxable amount for child and child-rearing support contributions, with an income-based rate of 0.29%, per-capita amounts of ¥1,835 per insured person and ¥96 per insured person aged 18 or older, and a cap of ¥30,000",
+			"Raises the taxable limit from ¥660,000 to ¥670,000 and revises the income thresholds used to determine reductions in per-capita amounts, among other changes"
+		],
+		"who": [
+			"Households enrolled in National Health Insurance"
+		],
+		"why": "The city says this is to revise the income-based and per-capita amounts of National Health Insurance tax, revise the taxable limit and income thresholds for determining reductions in line with amendments to the Local Tax Act and other laws, and set a taxable amount for child and child-rearing support contributions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:32.444Z",
+			"inputTokens": 840,
+			"cachedTokens": 0,
+			"outputTokens": 1241,
+			"reasoningTokens": 847
+		}
 	}
 }

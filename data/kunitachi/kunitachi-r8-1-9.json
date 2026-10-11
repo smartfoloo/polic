@@ -61,5 +61,28 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "62e6d99d41532112",
+		"name": "Abolishes the childbirth expense loan program",
+		"official": "Draft Ordinance to Repeal the Kunitachi City National Health Insurance Childbirth Expense Loan Fund Ordinance",
+		"summary": "An ordinance provides loans for childbirth expenses under National Health Insurance. Because no one is taking out these loans, the ordinance will be repealed, effective April 1, 2026. Loans made before the effective date will continue to be governed by the provisions of the ordinance in force before its repeal.",
+		"changes": [
+			"Repeals the Childbirth Expense Loan Fund Ordinance",
+			"Applies the provisions of the former ordinance to loans made before its repeal"
+		],
+		"who": [],
+		"why": "The city says there are no people taking out loans for childbirth expenses because the direct payment system for the childbirth and childcare lump-sum allowance has become widespread, among other reasons.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:55.384Z",
+			"inputTokens": 646,
+			"cachedTokens": 0,
+			"outputTokens": 503,
+			"reasoningTokens": 302
+		}
 	}
 }

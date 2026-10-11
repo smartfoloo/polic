@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai14gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:55.067Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1a10e8366eea3b9e",
+		"official": "Ordinance Partially Amending the Musashino City National Health Insurance Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:23.813Z",
+			"inputTokens": 384,
+			"cachedTokens": 0,
+			"outputTokens": 86,
+			"reasoningTokens": 54
+		}
+	}
 }

@@ -1,0 +1,89 @@
+{
+	"id": "nerima-r8-1-8",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第8号",
+	"official": "練馬区職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-05",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "職員の給料表と手当の対象時間を改定",
+	"category": "行政のしくみ",
+	"summary": "区職員の給料表や手当の支給条件は、条例で定めています。この議案では、管理職と業務職の給料表を改め、週休日等以外の日に管理職員特別勤務手当を支給する時間を広げます。施行日は令和8年4月1日で、一部の規定は公布日から施行します。",
+	"changes": [
+		"管理職の職務・職責を重視した給料表に改める",
+		"業務職の給料表を改める",
+		"週休日等以外日の管理職員特別勤務手当の支給対象時間を広げる"
+	],
+	"who": [
+		"練馬区の管理職員",
+		"練馬区の業務職員"
+	],
+	"why": "特別区人事委員会勧告等に基づき、管理職の職務・職責を重視した給料体系にし、業務職の人材確保や世代間の給与配分の適正化などを図るためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.879Z",
+		"inputTokens": 1158,
+		"cachedTokens": 0,
+		"outputTokens": 947,
+		"reasoningTokens": 636,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.879Z",
+		"checkedAt": "2026-10-10T07:29:38.670Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1135,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fcd74823af502913",
+		"name": "Revises salary tables and hours covered by allowances",
+		"official": "Ordinance Partially Amending the Ordinance on the Salaries of Nerima City Employees",
+		"summary": "The salary tables and conditions for paying allowances to ward employees are set by ordinance. This bill revises the salary tables for management-level and operations staff, and expands the hours during which the special allowance for management staff's special duties is paid on days other than weekly days off, etc. It will take effect on April 1, 2026, with some provisions taking effect on the date of promulgation.",
+		"changes": [
+			"Revises the salary table to place greater emphasis on management-level duties and responsibilities",
+			"Revises the salary table for operations staff",
+			"Expands the hours covered by the special allowance for management staff on days other than weekly days off, etc."
+		],
+		"who": [
+			"Management staff of Nerima City",
+			"Operations staff of Nerima City"
+		],
+		"why": "Based on recommendations from the Special Wards Personnel Commission, etc., the ward says the changes are intended to create a salary system that places greater emphasis on management-level duties and responsibilities, secure personnel for operations staff, and improve the fairness of salary distribution between generations, among other aims.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.069Z",
+			"inputTokens": 719,
+			"cachedTokens": 0,
+			"outputTokens": 924,
+			"reasoningTokens": 636,
+			"batch": true
+		}
+	}
+}

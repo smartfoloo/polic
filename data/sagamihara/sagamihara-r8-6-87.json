@@ -1,0 +1,50 @@
+{
+	"id": "sagamihara-r8-6-87",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第87号",
+	"official": "相模原市立相模川ふれあい科学館条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第87号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "科学館の入館料を改定",
+	"category": "税・手数料",
+	"summary": "現在、個人利用の料金は大人450円、小人150円で、20人以上の団体は大人1人360円、小人1人120円です。この議案では、個人利用の料金を大人500円、小人160円に、団体利用の大人料金を1人400円に改めます。第14条の緊急時に関する規定も改め、令和9年1月1日から施行します。",
+	"changes": [
+		"個人利用の大人料金を450円から500円に上げる",
+		"個人利用の小人料金を150円から160円に上げる",
+		"20人以上の団体利用の大人料金を1人360円から400円に上げる",
+		"第14条の緊急時の条件を、特に緊急を要し時間的余裕がないことが明らかな場合に改める"
+	],
+	"who": [
+		"相模川ふれあい科学館を利用する人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づく使用料等の見直しに伴い、利用料金の規定を改正するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.845Z",
+		"inputTokens": 1520,
+		"cachedTokens": 0,
+		"outputTokens": 1176,
+		"reasoningTokens": 840,
+		"batch": true
+	}
+}

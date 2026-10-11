@@ -1,0 +1,42 @@
+{
+	"id": "kiyose-r8-2-32",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第32号",
+	"official": "清瀬市印鑑条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/286/r8.2.sityou.gian2.pdf",
+			"fetchedAt": "2026-10-10T14:56:52.936Z"
+		}
+	],
+	"name": "引用条文の番号と関連文言を整理",
+	"category": "くらし・手続き",
+	"summary": "電気通信事業法の改正により、条例が引用する条文の号番号にずれが生じています。市役所の多機能端末機の利用開始と特定在留カード等の交付実施に合わせ、引用番号と条例の文言を改めます。",
+	"changes": [
+		"電気通信事業法の引用条文の号番号を改める",
+		"多機能端末機の利用開始に伴う条項の文言を整理する",
+		"特定在留カード等の交付実施に伴う条項の文言を整理する"
+	],
+	"who": [],
+	"why": "電気通信事業法の改正による引用条文の号ずれへの対応と、市役所の多機能端末機の利用開始及び特定在留カード等の交付実施に伴う条項の文言整理のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.832Z",
+		"inputTokens": 1068,
+		"cachedTokens": 0,
+		"outputTokens": 967,
+		"reasoningTokens": 701,
+		"batch": true
+	}
+}

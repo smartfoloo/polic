@@ -1,0 +1,90 @@
+{
+	"id": "yokohama-r8-1-95",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第95号議案",
+	"official": "横浜市動物愛護基金条例の制定",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第95号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si95.pdf",
+			"fetchedAt": "2026-10-08T11:02:38.925Z"
+		}
+	],
+	"name": "動物愛護・管理事業の基金を設置",
+	"category": "環境",
+	"summary": "動物の愛護や管理に関する事業を進めるための基金を設けます。基金に積み立てる額は予算で定め、運用益も基金に積み立てます。条例は令和8年4月1日に施行されます。",
+	"changes": [
+		"動物の愛護や管理に関する事業のための基金を設ける",
+		"基金の積立額を予算で定め、運用益を基金に積み立てる",
+		"基金は目的の達成に必要な場合に限って処分できる",
+		"必要に応じて基金の現金を歳計現金に繰り替えて運用できる"
+	],
+	"who": [],
+	"why": "動物の愛護及び管理に関する事業の推進に役立てるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.885Z",
+		"inputTokens": 1919,
+		"cachedTokens": 0,
+		"outputTokens": 1096,
+		"reasoningTokens": 869,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.885Z",
+		"checkedAt": "2026-10-10T07:29:38.704Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1849,
+			"cachedTokens": 0,
+			"outputTokens": 44,
+			"reasoningTokens": 29,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "130764b40bbb4725",
+		"name": "Establishes a fund for animal welfare and management programs",
+		"official": "Ordinance Establishing the Yokohama City Animal Welfare Fund",
+		"summary": "The city will establish a fund to advance programs related to animal welfare and management. The amount added to the fund will be set in the budget, and investment earnings will also be added to the fund. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Creates a fund for programs related to animal welfare and management",
+			"Sets the amount added to the fund in the budget and adds investment earnings to the fund",
+			"Allows the fund to be used only when necessary to achieve its purpose",
+			"Allows cash in the fund to be temporarily transferred to budget cash for investment, as needed"
+		],
+		"who": [],
+		"why": "The city says this will help promote programs related to animal welfare and management.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.073Z",
+			"inputTokens": 654,
+			"cachedTokens": 0,
+			"outputTokens": 663,
+			"reasoningTokens": 455,
+			"batch": true
+		}
+	}
+}

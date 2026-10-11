@@ -1,0 +1,92 @@
+{
+	"id": "kanagawa-r8-1-26",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第26号議案",
+	"official": "神奈川県行政手続条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第26号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "聴聞などの通知にネット公表を追加",
+	"category": "行政のしくみ",
+	"summary": "現在、公示による通知では、通知事項を書いた書面を県の事務所の掲示場に掲示する方法が定められています。この議案では、不特定多数が閲覧できるよう規則で定める方法で公表する措置などを加え、措置を始めて2週間が経過すると通知が届いたものとみなします。令和8年5月21日に施行します。",
+	"changes": [
+		"通知事項を不特定多数が閲覧できる状態にする措置を加える",
+		"通知事項を書いた書面を掲示するか、事務所内の電子画面で閲覧できる状態にする",
+		"公示の措置を始めて2週間が経過したときに通知が到達したものとみなす"
+	],
+	"who": [
+		"不利益処分の対象となる人"
+	],
+	"why": "行政手続法の改正に伴い、聴聞などの通知を公示する方法にインターネットでの公表を加えるためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.863Z",
+		"inputTokens": 1924,
+		"cachedTokens": 0,
+		"outputTokens": 1822,
+		"reasoningTokens": 1515,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.863Z",
+		"checkedAt": "2026-10-10T07:29:38.615Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1904,
+			"cachedTokens": 0,
+			"outputTokens": 97,
+			"reasoningTokens": 83,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "592e8c8b5f75032e",
+		"name": "Adds online publication to notices of hearings and other matters",
+		"official": "Ordinance Partially Amending the Kanagawa Prefecture Administrative Procedure Ordinance",
+		"summary": "Currently, when notice is given by public notice, the prescribed method is to post a document stating the matters to be notified on a notice board at a prefectural office. This bill adds measures such as publishing the information by a method prescribed by rules so that an unspecified number of people can view it. The notice is deemed to have been received once two weeks have passed from the start of these measures. The ordinance will take effect on May 21, 2026.",
+		"changes": [
+			"Add measures to make the matters to be notified available for viewing by an unspecified number of people",
+			"Post a document stating the matters to be notified, or make them viewable on an electronic screen inside the office",
+			"Deem the notice to have been received once two weeks have passed from the start of the public-notice measures"
+		],
+		"who": [
+			"People subject to adverse dispositions"
+		],
+		"why": "The prefecture says this is to add online publication as a method of giving public notice of notifications of hearings and other matters, following amendments to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.049Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 688,
+			"reasoningTokens": 408,
+			"batch": true
+		}
+	}
+}

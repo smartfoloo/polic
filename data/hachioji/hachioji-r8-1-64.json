@@ -60,5 +60,32 @@
 			"outputTokens": 49,
 			"reasoningTokens": 34
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "829ad86eb8396cdf",
+		"name": "Revises fees at the Environmental Learning Center",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Environmental Learning Center Ordinance",
+		"summary": "The Environmental Learning Center has set fees for meeting rooms, the multipurpose hall, the indoor pool, and other facilities. Fees for meeting rooms, the indoor pool, and other facilities will increase, while fees for the multipurpose hall will decrease. The changes take effect on April 1, 2027. The new fees may be charged in advance for use on or after that date.",
+		"changes": [
+			"Raise the all-day meeting room fee from ¥4,950 to ¥7,400 and the overtime fee from ¥450 per hour to ¥670 per hour",
+			"Lower the all-day multipurpose hall fee from ¥31,000 to ¥23,500 and the overtime fee from ¥2,800 per hour to ¥2,100 per hour",
+			"Raise the indoor pool fee for one hour from ¥70 for children and ¥200 for adults to ¥100 for children and ¥300 for adults",
+			"Raise the price of an 11-ticket book from ¥700 for children and ¥2,000 for adults to ¥1,000 for children and ¥3,000 for adults"
+		],
+		"who": [
+			"Users of the Hachioji City Environmental Learning Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:54.070Z",
+			"inputTokens": 746,
+			"cachedTokens": 0,
+			"outputTokens": 1005,
+			"reasoningTokens": 690
+		}
 	}
 }

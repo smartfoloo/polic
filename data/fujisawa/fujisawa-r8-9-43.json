@@ -1,0 +1,108 @@
+{
+	"id": "fujisawa-r8-9-43",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第43号",
+	"official": "藤沢市廃棄物の減量化、資源化及び適正処理等に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "厚生環境常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第43号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2808&Sflg=2",
+			"fetchedAt": "2026-10-08T11:20:04.517Z"
+		},
+		{
+			"label": "議案第43号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2808_e01-043.pdf",
+			"fetchedAt": "2026-10-08T11:20:10.774Z"
+		}
+	],
+	"name": "ごみ処理手数料を段階的に改定",
+	"category": "税・手数料",
+	"summary": "廃棄物処理に関する法律の改正に合わせ、条例で引用する法律の条文番号を改めます。あわせて、ごみ処理手数料を見直し、2027年4月1日、2027年10月1日、2028年10月1日から順次変更します。",
+	"changes": [
+		"別表第1の一部の処理手数料を4,800円から9,000円、2,500円から5,000円、1,000円から3,000円に改定する",
+		"事業系一般廃棄物を市指定の焼却施設または破砕施設に直接搬入する場合の手数料を350円から400円に改定する",
+		"条例で引用する法律の条文番号を改める"
+	],
+	"who": [
+		"指定収集袋を利用する住民",
+		"ごみを市の施設に搬入する事業者"
+	],
+	"why": "法律改正に伴う規定の整備と、廃棄物処理手数料の受益と負担を適正化し、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.537Z",
+		"inputTokens": 3078,
+		"cachedTokens": 0,
+		"outputTokens": 2853,
+		"reasoningTokens": 2533,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.537Z",
+			"notes": [
+				"ai [check] changes/direction: 「一般廃棄物等に関する一部の手数料を、10kgあたり270円から350円、350円から400円、110円から160円に改定する」 → 別表第1の改正文は表が崩れ、270円・350円、110円・160円の改正前後の対応を確実に確認できない。なお、350円から400円への改定は第2条に明記されている。",
+				"ai [check] changes/direction: 「指定収集袋などに関する手数料を改定する」 → 別表第1の袋の料金部分は表が崩れており、改正前後の料金の対応と変更内容を確認できない。"
+			],
+			"inputTokens": 3681,
+			"cachedTokens": 1025,
+			"outputTokens": 1172,
+			"reasoningTokens": 839,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.850Z",
+		"checkedAt": "2026-10-10T07:29:38.579Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "一般廃棄物等に関する一部の手数料を、10kgあたり270円から350円、350円から400円、110円から160円に改定する",
+				"note": "別表第1の改正文は表が崩れ、270円・350円、110円・160円の改正前後の対応を確実に確認できない。なお、350円から400円への改定は第2条に明記されている。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "指定収集袋などに関する手数料を改定する",
+				"note": "別表第1の袋の料金部分は表が崩れており、改正前後の料金の対応と変更内容を確認できない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "指定収集袋などに関する手数料を改定する",
+				"note": "附則第3項にある、施行日前に交付された指定収集袋を使用できるのは2027年12月31日までという、住民に直接関わる使用期限が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3091,
+			"cachedTokens": 0,
+			"outputTokens": 507,
+			"reasoningTokens": 158,
+			"batch": true
+		}
+	}
+}

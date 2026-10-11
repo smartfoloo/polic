@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f5d122750bb2b34a",
+		"name": "Abolishes the Young Cellist Development Fund",
+		"official": "Regarding the Enactment of an Ordinance to Repeal the Hachioji City Young Cellist Development Fund Ordinance",
+		"summary": "The ordinance for the existing “Young Cellist Development Fund” will be repealed. The repeal will take effect on April 1, 2026.",
+		"changes": [
+			"Repeals the ordinance establishing the fund"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:44:02.752Z",
+			"inputTokens": 518,
+			"cachedTokens": 0,
+			"outputTokens": 531,
+			"reasoningTokens": 409
+		}
 	}
 }

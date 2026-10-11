@@ -68,5 +68,32 @@
 			"outputTokens": 353,
 			"reasoningTokens": 191
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d49cec019172b9dc",
+		"name": "Revises staff allowances and salary scale",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Salaries of General Service Employees",
+		"summary": "The regional allowance is 14% of the total of salaries and other amounts. This bill raises it to 16% and revises how housing and commuting allowances are paid, as well as the salary scale. The changes take effect on April 1, 2026.",
+		"changes": [
+			"Raise the regional allowance rate from 14% to 16% of the total of salaries and other amounts",
+			"Set the monthly housing allowance at ¥7,500, ¥15,000 or ¥30,000, depending on age and rent",
+			"Set the amount of the bicycle and other commuting allowance by rule, and establish a system to pay parking fees up to ¥5,000 per month",
+			"Revise the monthly salaries for Grade 4 of Administrative Salary Scale (1) and move some employees to different salary steps"
+		],
+		"who": [
+			"General service employees of Tachikawa City"
+		],
+		"why": "The city says this is based on Article 25, Paragraph 3, Items 1 and 5 of the Local Public Service Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:13:49.876Z",
+			"inputTokens": 727,
+			"cachedTokens": 0,
+			"outputTokens": 709,
+			"reasoningTokens": 426
+		}
 	}
 }

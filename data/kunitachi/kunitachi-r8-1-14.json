@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8fad55329c235e7e",
+		"name": "Changes the department in charge of the vacant-house council",
+		"official": "Ordinance Partially Amending the Kunitachi City Ordinance on the Council for Deliberation on Measures for Vacant Houses, etc.",
+		"summary": "The ordinance on the Council for Deliberation on Measures for Vacant Houses, etc. lists the Town Development Division of the Life Environment Department as the department in charge. This bill changes the listing to the City Planning Division of the Urban Development Department. It will take effect on April 1, 2026.",
+		"changes": [
+			"Changes the department listed in the ordinance from the Town Development Division of the Life Environment Department to the City Planning Division of the Urban Development Department"
+		],
+		"who": [],
+		"why": "The city says this is because responsibility for duties related to vacant-house measures is being transferred from the Town Development Division of the Life Environment Department to the City Planning Division of the Urban Development Department.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:00.794Z",
+			"inputTokens": 614,
+			"cachedTokens": 0,
+			"outputTokens": 540,
+			"reasoningTokens": 324
+		}
 	}
 }

@@ -79,5 +79,31 @@
 			"outputTokens": 493,
 			"reasoningTokens": 215
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6a7d721a2986030c",
+		"name": "Sets special severance pay rules for deputy mayors from national government service",
+		"official": "Ordinance Partially Amending the Ordinance on Severance Allowances for the Mayor, etc. of Itabashi City, Tokyo",
+		"summary": "Adds special rules to the current ordinance for the severance pay of people appointed as deputy mayor immediately after serving as national government employees. It sets out how their period of service as a national government employee is combined with their period of service as deputy mayor, how their severance pay is calculated, and when it is not paid. The amendment takes effect on the date of promulgation and applies from March 31, 2026.",
+		"changes": [
+			"Combines a person’s period of service as a national government employee with their period of service as deputy mayor",
+			"Calculates severance pay based on factors including their periods of service as a national government employee and as deputy mayor, and their monthly salaries",
+			"Withholds severance pay if a person is reappointed as deputy mayor on the day they leave office or the following day, or returns to national government service"
+		],
+		"who": [
+			"People appointed as deputy mayor immediately after serving as national government employees"
+		],
+		"why": "The ward says it is necessary to establish special rules for severance pay for people appointed as deputy mayor immediately after serving as national government employees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:08:51.826Z",
+			"inputTokens": 739,
+			"cachedTokens": 0,
+			"outputTokens": 761,
+			"reasoningTokens": 454
+		}
 	}
 }

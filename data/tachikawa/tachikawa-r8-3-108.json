@@ -58,5 +58,31 @@
 			"outputTokens": 53,
 			"reasoningTokens": 39
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f98a33f9f0f380fe",
+		"name": "Adds documents that can be used to obtain seal registration certificates at terminals",
+		"official": "Ordinance Partially Amending the Tachikawa City Seal Registration Ordinance",
+		"summary": "Currently, people can apply for and receive seal registration certificates at multifunction terminals using a My Number Card or a compatible mobile device. Under this bill, they will be able to use a specified residence card or a specified special permanent resident certificate in the same way.",
+		"changes": [
+			"Allows specified residence cards to be used to obtain seal registration certificates at terminals",
+			"Allows specified special permanent resident certificates to be used to obtain seal registration certificates at terminals"
+		],
+		"who": [
+			"People who hold a specified residence card",
+			"People who hold a specified special permanent resident certificate"
+		],
+		"why": "The city says this is because the Act Partially Amending the Immigration Control and Refugee Recognition Act, etc. has come into force.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:16:02.485Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 1108,
+			"reasoningTokens": 894
+		}
 	}
 }

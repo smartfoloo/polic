@@ -61,5 +61,33 @@
 			"outputTokens": 109,
 			"reasoningTokens": 95
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0a3f0e9f14e2d6e0",
+		"name": "Adds a public notice method when a person's whereabouts are unknown",
+		"official": "Ordinance Partially Amending the Inagi City Administrative Procedure Ordinance",
+		"summary": "When the whereabouts of a person subject to an adverse disposition are unknown, notice of a hearing has been given by posting it on the city's notice board. This bill would make the details of the public notice viewable online and would also allow them to be posted on the city's notice board or viewed on the city's digital display. The ordinance will take effect on May 21, 2026.",
+		"changes": [
+			"Make the details of public notices viewable online and allow them to be posted on the city's notice board or viewed on a digital display",
+			"Treat a notice as delivered two weeks after the public notice measures begin",
+			"Apply the same public notice method to notices of continued hearing dates and opportunities to submit explanations",
+			"Change the written form of “addressee”"
+		],
+		"who": [
+			"People subject to adverse dispositions",
+			"Parties to hearings and hearing participants"
+		],
+		"why": "The city says the ordinance needs to be amended in light of revisions to the Administrative Procedure Act, among other things, following amendments to the Basic Act on Formation of a Digital Society and related laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:03:50.627Z",
+			"inputTokens": 756,
+			"cachedTokens": 0,
+			"outputTokens": 691,
+			"reasoningTokens": 404
+		}
 	}
 }

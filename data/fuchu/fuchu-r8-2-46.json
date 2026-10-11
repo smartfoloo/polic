@@ -88,5 +88,33 @@
 			"outputTokens": 568,
 			"reasoningTokens": 179
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1a5f46a4c93b3305",
+		"name": "Establishes facilities and a historic site plaza at the Musashi Kokufu ruins",
+		"official": "Fuchu City Musashi Kokufu Ruins Facilities Ordinance",
+		"summary": "To preserve and make use of the Musashi Kokufu ruins, Fuchu City will establish two facilities and set rules for their management and operation. The facilities will generally be open to the public, from 9 a.m. to 5 p.m. The ordinance takes effect on September 1, 2026. A permit and fee will be required for exclusive use of the historic site plaza.",
+		"changes": [
+			"Establishes the Kokuga Site Preservation and Exhibition Facility and the Kokushi Residence and Ieyasu Palace Historic Site Plaza",
+			"Generally opens the facilities to the public and sets their hours and closing days",
+			"Sets all-day use fees for the historic site plaza at ¥38,400 for the stone-paved area, ¥73,600 for the entire lawn area, and ¥20,800 for the area around the stage, and also sets fees for specific time slots and partial use",
+			"Sets rules on restrictions on facility use, cancellation of use permits, and compensation for damages"
+		],
+		"who": [
+			"People visiting the Musashi Kokufu ruins facilities",
+			"People and groups using the historic site plaza exclusively"
+		],
+		"why": "The city says this is to properly preserve the Musashi Kokufu ruins and pass them on to future generations, make effective use of them and share their appeal, and help improve residents’ cultural life.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:35.353Z",
+			"inputTokens": 794,
+			"cachedTokens": 0,
+			"outputTokens": 618,
+			"reasoningTokens": 274
+		}
 	}
 }

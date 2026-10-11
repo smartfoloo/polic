@@ -65,5 +65,32 @@
 			"outputTokens": 62,
 			"reasoningTokens": 48
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "64e14d127f3ca6ff",
+		"name": "Changes public notice methods for people whose whereabouts are unknown",
+		"official": "Ordinance Partially Amending the Fuchu City Administrative Procedure Ordinance",
+		"summary": "Currently, a hearing notice for a person whose whereabouts are unknown may be given by posting it on an administrative agency’s notice board. This bill changes the method so that the contents of the public notice are made widely accessible, and people can check the notice either on the notice board or on a screen at the administrative agency’s office. The amendment will take effect on May 21, 2026.",
+		"changes": [
+			"Make the contents of a public notice widely accessible by a method prescribed by a Ministry of Internal Affairs and Communications ordinance, and allow people to check it on a notice board or a screen at the administrative agency’s office",
+			"Change the point at which a notice is deemed to have arrived from the start of posting to the start of the public notice measures",
+			"Apply the new notification method to notices of rescheduled hearing dates and opportunities to provide explanations"
+		],
+		"who": [
+			"People whose whereabouts are unknown and who receive a hearing notice by public notice",
+			"Parties to a hearing and participants whose whereabouts are unknown and who receive a notice by public notice"
+		],
+		"why": "The city says it is making the necessary amendments in response to amendments to the national Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:07.793Z",
+			"inputTokens": 746,
+			"cachedTokens": 0,
+			"outputTokens": 636,
+			"reasoningTokens": 330
+		}
 	}
 }

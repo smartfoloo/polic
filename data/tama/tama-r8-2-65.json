@@ -83,5 +83,33 @@
 			"outputTokens": 585,
 			"reasoningTokens": 290
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b7b0bc089be5fbd0",
+		"name": "Taxes income from specified crypto-assets separately",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Municipal Tax Ordinance",
+		"summary": "The current ordinance has no special provision for taxing income related to specified crypto-assets separately from other income. This bill establishes a special provision that classifies eligible business income, capital gains, and miscellaneous income separately and levies a 3% municipal income-based tax on that amount. It also revises the rules for declarations by public pension recipients and the treatment of transfers of land in certain hazard zones.",
+		"changes": [
+			"Separates eligible income related to specified crypto-assets from other income and levies a 3% municipal income-based tax on it",
+			"Revises who must file declarations as recipients of public pensions, etc., and what information the declarations must include",
+			"Excludes transfers of land in certain hazard zones from special tax treatment for high-quality residential land, etc."
+		],
+		"who": [
+			"Municipal tax payers with eligible income related to specified crypto-assets",
+			"People who receive public pensions, etc., and file declarations",
+			"People who transfer land in certain hazard zones"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:19:32.560Z",
+			"inputTokens": 738,
+			"cachedTokens": 0,
+			"outputTokens": 643,
+			"reasoningTokens": 372
+		}
 	}
 }

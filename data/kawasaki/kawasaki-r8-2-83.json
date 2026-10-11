@@ -1,0 +1,117 @@
+{
+	"id": "kawasaki-r8-2-83",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第83号",
+	"official": "川崎市認定こども園の認定の要件を定める条例等の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第83号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_83.pdf",
+			"fetchedAt": "2026-10-08T11:09:39.451Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "認定こども園の職員配置と安全基準を変更",
+	"category": "子育て",
+	"summary": "認定こども園には、学級の子どもの数や職員配置などの基準があります。この議案で、1学級の子どもの数の基準を35人から30人に改めますが、すでにある園は令和14年3月31日まで従来の扱いを続けられます。また、保育士1人分を条件を満たす専門職で代えられるようにし、子どもと接する職員の犯罪事実確認などを求めます。",
+	"changes": [
+		"1学級の子どもの数の基準を35人から30人に改める",
+		"保育士1人分を、条件を満たす理学療法士等で代えられるようにする",
+		"特定の環境で子どもと接する職員の犯罪事実確認などを求める",
+		"専門職が保育を行う際、保育士の支援を受けられる体制を確保する"
+	],
+	"who": [
+		"認定こども園を利用する子どもと保護者",
+		"認定こども園の運営者や職員"
+	],
+	"why": "国の施設基準の改正に伴い、職員配置の特例や児童対象性暴力等の防止措置を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.551Z",
+		"inputTokens": 3131,
+		"cachedTokens": 0,
+		"outputTokens": 3717,
+		"reasoningTokens": 3337,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.551Z",
+			"notes": [
+				"ai [check] changes/direction: 「保育士1人分を、条件を満たす理学療法士等で代えられるようにする」 → 第3条第5号ウの新設は確認できるが、関連する附則第8項の表の改正は引用符内が空で、改正前後の対応が崩れているため、表の変更内容・方向は原文から確認できない。"
+			],
+			"inputTokens": 3695,
+			"cachedTokens": 1025,
+			"outputTokens": 1130,
+			"reasoningTokens": 750,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.871Z",
+		"checkedAt": "2026-10-10T07:29:38.639Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "保育士1人分を、条件を満たす理学療法士等で代えられるようにする",
+				"note": "第3条第5号ウの新設は確認できるが、関連する附則第8項の表の改正は引用符内が空で、改正前後の対応が崩れているため、表の変更内容・方向は原文から確認できない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保育士1人分を、条件を満たす理学療法士等で代えられるようにする",
+				"note": "第3条第5号ウにある、代替する専門職は補助者として従事する場合を除き教育課程に基づく教育に従事できないという制限が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "専門職が保育を行う際、保育士の支援を受けられる体制を確保する",
+				"note": "附則第9項にある、特定理学療法士等と看護師等の双方が保育を行う場合、看護師等には専門職の支援担当とは別の保育士による支援体制を確保する義務が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "1学級の子どもの数の基準を35人から30人に改める",
+				"note": "第2条で、職員配置基準の一部の特例期限を「当分の間」から令和10年3月31日までに変更することが、changesに記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3184,
+			"cachedTokens": 0,
+			"outputTokens": 700,
+			"reasoningTokens": 199,
+			"batch": true
+		}
+	}
+}

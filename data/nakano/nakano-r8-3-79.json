@@ -1,0 +1,103 @@
+{
+	"id": "nakano-r8-3-79",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第79号議案",
+	"official": "中野区幼保連携型認定こども園以外の認定こども園の認 定の要件に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "子ども文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121",
+			"fetchedAt": "2026-10-08T15:27:51.872Z"
+		},
+		{
+			"label": "第79号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/2693018743.pdf",
+			"fetchedAt": "2026-10-08T15:28:45.706Z"
+		}
+	],
+	"name": "認定こども園に性暴力防止の措置を追加",
+	"category": "子育て",
+	"summary": "条例に、児童対象性暴力等の防止に関する規定を加えます。幼保連携型認定こども園以外の認定こども園の設置者に必要な措置を求め、2026年12月25日に施行します。",
+	"changes": [
+		"児童対象性暴力等の防止と、発生時に子どもを保護するための措置を定める",
+		"犯罪事実確認など、必要な措置を定める"
+	],
+	"who": [
+		"幼保連携型認定こども園以外の認定こども園の設置者",
+		"一定の環境で子どもと接する業務従事者"
+	],
+	"why": "国が定める施設の設備・運営基準の改正に伴い、規定を整備する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T11:49:48.097Z",
+		"inputTokens": 1712,
+		"cachedTokens": 0,
+		"outputTokens": 1228,
+		"reasoningTokens": 979,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-09T11:49:48.097Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「現在の条例に、児童対象性暴力等の防止に関する規定はありません。」 → 原文は防止に関する条文の追加を示していますが、現行条例の全文はなく、関連規定が一切ないとは確認できません。",
+				"ai [error] who/fact: 「認定こども園の設置者」 → 対象は「幼保連携型認定こども園以外」の認定こども園です。この限定がなく、対象範囲が広くなっています。"
+			],
+			"inputTokens": 2171,
+			"cachedTokens": 0,
+			"outputTokens": 1073,
+			"reasoningTokens": 801
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-09T11:49:48.097Z",
+		"checkedAt": "2026-10-09T11:49:50.905Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1651,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 28
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e67c18b1eb5f1594",
+		"name": "Adds measures to prevent sexual violence against children at certified childcare centers",
+		"official": "Ordinance Partially Amending the Ordinance on Requirements for Certifying Certified Childcare Centers Other Than Integrated Centers for Early Childhood Education and Care in Nakano City",
+		"summary": "The ordinance adds provisions to prevent sexual violence against children, etc. It requires operators of certified childcare centers other than integrated centers for early childhood education and care to take necessary measures. It will take effect on December 25, 2026.",
+		"changes": [
+			"Establishes measures to prevent sexual violence against children, etc., and protect children if it occurs",
+			"Establishes necessary measures, including checks of criminal records"
+		],
+		"who": [
+			"Operators of certified childcare centers other than integrated centers for early childhood education and care",
+			"Workers whose duties involve contact with children in certain settings"
+		],
+		"why": "The ward says the provisions need to be updated following revisions to the national standards for facility equipment and operation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:54:27.373Z",
+			"inputTokens": 702,
+			"cachedTokens": 0,
+			"outputTokens": 695,
+			"reasoningTokens": 466
+		}
+	}
+}

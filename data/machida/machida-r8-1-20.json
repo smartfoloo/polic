@@ -61,5 +61,28 @@
 			"outputTokens": 54,
 			"reasoningTokens": 39
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "eb5a7de7cf6e44aa",
+		"name": "Updates cited provisions in the partial liability exemption ordinance",
+		"official": "Ordinance Partially Amending the Ordinance on Partial Exemption from Liability for Damages of the Mayor of Machida City and Others",
+		"summary": "The ordinance sets the amount for partially exempting the mayor and others from liability for damages. This bill changes the article numbers of the Local Autonomy Act and the Order for Enforcement of the Local Autonomy Act cited in the ordinance.",
+		"changes": [
+			"Changes the cited provision of the Local Autonomy Act",
+			"Changes the cited provision of the Order for Enforcement of the Local Autonomy Act"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:14:10.527Z",
+			"inputTokens": 573,
+			"cachedTokens": 0,
+			"outputTokens": 365,
+			"reasoningTokens": 205
+		}
 	}
 }

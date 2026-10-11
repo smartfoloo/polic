@@ -1,0 +1,117 @@
+{
+	"id": "tama-r8-3-99",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第99号議案",
+	"official": "多摩市立八ケ岳少年自然の家条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第99号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "少年自然の家の料金と利用ルールを変更",
+	"category": "教育",
+	"summary": "この条例では、八ケ岳少年自然の家の施設や利用料金などを定めています。この議案では、附帯施設の種類と宿泊・附帯施設の利用料金の上限額を改め、指定管理者が立入りを拒んだり、退去を求めたりできる場合を定めます。立入り制限などは公布日から、施設や料金に関する改正は令和9年4月1日から施行します。",
+	"changes": [
+		"附帯施設として体育館、プレイホール（体育室）、研修室を示す",
+		"宿泊料金の上限額を、1人1泊あたり市民・富士見町民は子ども910円・大人1,830円、その他の人は子ども3,070円・大人6,150円と定める",
+		"附帯施設料金の上限額を、団体区分と施設に応じて定める。市民・富士見町民団体は体育館2,080円、プレイホール1,500円、研修室750円（各1回）、野外炊飯場300円（1人1日）、その他の団体は順に4,160円、2,500円、1,500円、600円とする",
+		"指定管理者が、利用者の言動など一定の場合に立入りを拒み、施設からの退去を求められるようにする"
+	],
+	"who": [
+		"八ケ岳少年自然の家を宿泊利用する人",
+		"体育館などの附帯施設を利用する団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T11:48:25.612Z",
+		"inputTokens": 2735,
+		"cachedTokens": 0,
+		"outputTokens": 2449,
+		"reasoningTokens": 2023
+	},
+	"checks": {
+		"draftAt": "2026-10-09T11:48:25.612Z",
+		"checkedAt": "2026-10-09T11:52:47.478Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "宿泊料金の上限額を、1人1泊あたり市民・富士見町民は子ども910円・大人1,830円、その他の人は子ども3,070円・大人6,150円と定める",
+				"note": "別表1備考1・2の、子どもは小中学生であること、未就学児は原則無料で寝具利用時は子ども料金となることが抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "宿泊料金の上限額を、1人1泊あたり市民・富士見町民は子ども910円・大人1,830円、その他の人は子ども3,070円・大人6,150円と定める",
+				"note": "別表1備考3～6の加算条件が抜けている。追加の宿泊室利用や100人未満での全館貸切りに伴う加算、その他の者の1室3人以下利用時の1人1,000円加算、土曜日・祝日前日・年末年始の1人500円加算が定められている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "附帯施設料金の上限額を、団体区分と施設に応じて定める。市民・富士見町民団体は体育館2,080円、プレイホール1,500円、研修室750円（各1回）、野外炊飯場300円（1人1日）、その他の団体は順に4,160円、2,500円、1,500円、600円とする",
+				"note": "別表2備考4・5の利用条件と無料扱いが抜けている。体育館・プレイホール・研修室は原則1団体の専用利用のみで、宿泊利用者の非専用利用は無料。宿泊利用者の野外炊飯場利用も無料とされている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2838,
+			"cachedTokens": 0,
+			"outputTokens": 764,
+			"reasoningTokens": 261
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f356cc94ce549e28",
+		"name": "Changes fees and use rules at Yatsugatake Youth Nature House",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Yatsugatake Youth Nature House Ordinance",
+		"summary": "This ordinance sets out the facilities and fees for Yatsugatake Youth Nature House. This bill revises the types of ancillary facilities and the maximum fees for overnight stays and ancillary facilities, and specifies cases in which the designated manager may refuse entry or require people to leave. Restrictions on entry and related provisions will take effect on the date of promulgation. Amendments concerning facilities and fees will take effect on April 1, 2027.",
+		"changes": [
+			"Lists the gym, play hall (physical education room), and training room as ancillary facilities",
+			"Sets maximum overnight fees per person per night at ¥910 for children and ¥1,830 for adults who are Tama City or Fujimi Town residents, and ¥3,070 for children and ¥6,150 for adults for others",
+			"Sets maximum ancillary-facility fees by group category and facility: for groups of Tama City or Fujimi Town residents, ¥2,080 for the gym, ¥1,500 for the play hall, and ¥750 for the training room (each per use), and ¥300 for the outdoor cooking area (per person per day); for other groups, the corresponding fees are ¥4,160, ¥2,500, ¥1,500, and ¥600",
+			"Allows the designated manager to refuse entry or require users to leave the facility in certain cases, including based on users’ words or conduct"
+		],
+		"who": [
+			"People staying overnight at Yatsugatake Youth Nature House",
+			"Groups using ancillary facilities",
+			"Users of Yatsugatake Youth Nature House",
+			"The designated manager of Yatsugatake Youth Nature House"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:58:06.996Z",
+			"inputTokens": 840,
+			"cachedTokens": 0,
+			"outputTokens": 1815,
+			"reasoningTokens": 1400
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"id": "sagamihara-r8-9-112",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第112号",
+	"official": "相模原市職員の特殊勤務手当に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会9月定例会議",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "議案第112号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900011/file_contents/2026_gian_111-117.pdf",
+			"fetchedAt": "2026-10-10T14:38:09.233Z"
+		},
+		{
+			"label": "令和8年定例会9月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_9_0930.pdf",
+			"fetchedAt": "2026-10-10T14:37:42.924Z"
+		}
+	],
+	"name": "災害対応業務の手当額を2,880円に",
+	"category": "行政のしくみ",
+	"summary": "災害応急対策業務に従事した職員への特殊勤務手当は、現在2,160円です。この議案では、手当額を2,880円にし、改正後の規定を令和8年8月5日から適用します。",
+	"changes": [
+		"手当額を2,160円から2,880円に改める"
+	],
+	"who": [
+		"災害応急対策業務に従事する市職員"
+	],
+	"why": "災害応急対策業務に従事した職員の特殊勤務手当の額に関する規定を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.848Z",
+		"inputTokens": 1352,
+		"cachedTokens": 0,
+		"outputTokens": 965,
+		"reasoningTokens": 751,
+		"batch": true
+	}
+}

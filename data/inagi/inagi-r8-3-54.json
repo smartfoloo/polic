@@ -60,5 +60,32 @@
 			"outputTokens": 321,
 			"reasoningTokens": 306
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "55c066762bb9e0aa",
+		"name": "Sets fees for copies of the residential address display ledger",
+		"official": "Ordinance Partially Amending the Inagi City Fees Ordinance",
+		"summary": "The ordinance does not set a fee for issuing partial copies of the residential address display ledger. The bill sets the fee at ¥300 per item for requests made at the counter and ¥400 per item for requests made by mail or online, with each block counted as one item. Issuing copies to people with a legal interest is exempt from the fee.",
+		"changes": [
+			"Count each block as one item when issuing a partial copy of the residential address display ledger",
+			"Set the fee for counter requests at ¥300 per item",
+			"Set the fee for requests by mail or online at ¥400 per item",
+			"Exclude copies issued to people with a legal interest from the fee"
+		],
+		"who": [
+			"People requesting partial copies of the residential address display ledger, except those with a legal interest"
+		],
+		"why": "The city says this is to set a fee for issuing partial copies of the residential address display ledger when implementing the residential address display system.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:18.855Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 582,
+			"reasoningTokens": 327
+		}
 	}
 }

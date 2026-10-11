@@ -56,5 +56,28 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bfa20e6817d6308d",
+		"name": "Changes paragraph numbers cited in the ordinance",
+		"official": "Ordinance Partially Amending the Ota City Comprehensive Support Center for Persons with Disabilities Ordinance",
+		"summary": "The Ota City Comprehensive Support Center for Persons with Disabilities Ordinance cites provisions of the Child Welfare Act. This bill changes the paragraph numbers cited in the ordinance.",
+		"changes": [
+			"Changes the citation in Article 2, item 6, from Article 6-2-2, paragraph 4, to paragraph 3",
+			"Changes the citation in Article 2, item 9, from Article 6-2-2, paragraph 7, to paragraph 6"
+		],
+		"who": [],
+		"why": "The ward says this is to organize the provisions following amendments to the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:05:35.486Z",
+			"inputTokens": 606,
+			"cachedTokens": 0,
+			"outputTokens": 591,
+			"reasoningTokens": 405
+		}
 	}
 }

@@ -68,5 +68,32 @@
 			"outputTokens": 329,
 			"reasoningTokens": 206
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aff63e60ad223677",
+		"name": "Revises compensation base amounts for firefighters and others",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on Compensation for Public Service Accidents Involving Fire Brigade Members, etc.",
+		"summary": "Compensation for work-related accidents involving fire brigade members, people engaged in firefighting work, and others is calculated based on a compensation base amount. This bill revises the compensation base amounts and the additional amounts for dependent family members. It takes effect on April 1, 2026. It applies to compensation where the grounds for payment arise on or after that date, and to the periods on or after that date for injury and illness, disability, and survivors’ compensation pensions where the grounds arose before that date.",
+		"changes": [
+			"Raises the compensation base amount for people engaged in firefighting work and others from ¥9,700 to ¥10,000, and raises the cap on increases from ¥14,500 to ¥15,000",
+			"Sets the additional amount for dependent family members at ¥433 per person for category 1 and ¥217 per person for categories 2 through 5",
+			"Sets the amounts by length of service (less than 10 years, 10 to less than 20 years, and 20 years or more, respectively) as follows: fire brigade chief and deputy chief, ¥13,340, ¥14,170, and ¥15,000; branch chief and deputy branch chief, ¥11,670, ¥12,500, and ¥13,340; department head, team leader, and member, ¥10,000, ¥10,840, and ¥11,670"
+		],
+		"who": [
+			"Fire brigade members, people engaged in firefighting work, and others",
+			"Dependent family members of people eligible for compensation"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:53:44.512Z",
+			"inputTokens": 830,
+			"cachedTokens": 0,
+			"outputTokens": 1192,
+			"reasoningTokens": 787
+		}
 	}
 }

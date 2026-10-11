@@ -62,5 +62,33 @@
 			"outputTokens": 107,
 			"reasoningTokens": 92
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6d738cbb5ee7b5ad",
+		"name": "Revises Industrial Plaza usage fees",
+		"official": "Ordinance Partially Amending the Ota City Industrial Plaza Ordinance",
+		"summary": "The fee schedule for exhibition halls, meeting rooms and other facilities will be revised. Parking fees will be set by rules at no more than ¥600 per vehicle for every 30 minutes. An additional charge will apply when items are sold or similar activities are carried out for commercial purposes. The amendments will take effect on April 1, 2027, and the fee for Conference Room H will take effect on October 1 of that year.",
+		"changes": [
+			"Revise the usage fees for exhibition halls, meeting rooms and other facilities, and set parking fees by rules at no more than ¥600 per vehicle for every 30 minutes",
+			"Charge an additional amount of up to 50% of the usage fee when items are sold or similar activities are carried out for commercial purposes",
+			"Amend Note 6 to allow collection of up to an amount equivalent to the approved usage fee for one hour"
+		],
+		"who": [
+			"People and organizations using the Ota City Industrial Plaza",
+			"People using the Ota City Industrial Plaza parking lot",
+			"Users who sell items or engage in similar activities for commercial purposes"
+		],
+		"why": "The ward says the fees for using the facilities are being reviewed to ensure that users bear an appropriate share of the costs.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:04:59.969Z",
+			"inputTokens": 784,
+			"cachedTokens": 0,
+			"outputTokens": 1549,
+			"reasoningTokens": 1234
+		}
 	}
 }

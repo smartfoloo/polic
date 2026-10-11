@@ -65,5 +65,32 @@
 			"outputTokens": 48,
 			"reasoningTokens": 34
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5eecd249705825ff",
+		"name": "Adds rules for investigating student suicides and suspected suicides",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance on Basic Principles, Organizations, etc. for Bullying Prevention Measures",
+		"summary": "The ordinance contains provisions for investigating serious incidents. After the amendment, even when a case does not fall under those provisions, if a child or student enrolled at a school dies by suicide or dies in circumstances where suicide is suspected, an investigation body will be set up to investigate the facts.",
+		"changes": [
+			"Adds suicides or deaths suspected to be suicides of children and students enrolled at schools as subjects of investigation",
+			"Sets up an investigation body within the Board of Education or the school and promptly investigates the facts",
+			"Changes the heading of Article 14 to “Serious Incidents, etc.” and changes the wording identifying the investigating body from “Board of Education and” to “Board of Education or”",
+			"Renames the expert committee the “Itabashi City Bullying Issues, etc. Expert Committee”"
+		],
+		"who": [
+			"Children and students enrolled at schools (excluding kindergartens and nursery schools)"
+		],
+		"why": "The ward says it is adding provisions to investigate cases of suicide, etc. where bullying is not suspected, in light of revisions to the guidelines for investigating the circumstances when children or students die by suicide.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:09:10.701Z",
+			"inputTokens": 794,
+			"cachedTokens": 0,
+			"outputTokens": 1178,
+			"reasoningTokens": 868
+		}
 	}
 }

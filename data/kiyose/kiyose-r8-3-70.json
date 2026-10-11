@@ -1,0 +1,40 @@
+{
+	"id": "kiyose-r8-3-70",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第70号",
+	"official": "清瀬市下水道事業の設置等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-25",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/735/r8.3.sityouteisyutu.pdf",
+			"fetchedAt": "2026-10-10T14:41:55.269Z"
+		}
+	],
+	"name": "引用する条文番号を変更",
+	"category": "行政のしくみ",
+	"summary": "地方自治法の改正により、条例が引用する条文番号に繰下げが生じています。この議案で、引用する条文番号を改めます。",
+	"changes": [
+		"条例が引用する条文番号を改める"
+	],
+	"who": [],
+	"why": "地方自治法の改正に伴い、引用条文の番号に繰下げが生じたためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.835Z",
+		"inputTokens": 1021,
+		"cachedTokens": 0,
+		"outputTokens": 398,
+		"reasoningTokens": 274,
+		"batch": true
+	}
+}

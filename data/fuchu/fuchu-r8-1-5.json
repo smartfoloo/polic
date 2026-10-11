@@ -89,5 +89,34 @@
 			"outputTokens": 531,
 			"reasoningTokens": 252
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f5a13f103bfe05c6",
+		"name": "Sets rules for public contracts and minimum labor compensation",
+		"official": "Fuchu City Public Contract Ordinance",
+		"summary": "Fuchu City will establish an ordinance setting out basic policies and the responsibilities of the city and contractors for contracts it enters into, including contracts for commissioned work and services. The ordinance will take effect on April 1, 2026. Provisions setting minimum labor compensation and requiring reports and investigations for certain public contracts will apply to contracts newly entered into on or after April 1, 2027.",
+		"changes": [
+			"Set basic policies for public contracts and the responsibilities of the city and contractors",
+			"Make payment of at least the minimum labor compensation a condition of certain public contracts",
+			"Establish a system for workers and others to report issues such as unpaid wages, and for the city to investigate and recommend corrective action",
+			"Provide for measures such as contract termination and public disclosure if contractual terms or other requirements are violated"
+		],
+		"who": [
+			"Contractors entering into public contracts with Fuchu City",
+			"Businesses undertaking work under public contracts and businesses dispatching workers",
+			"Workers and others engaged in work under certain public contracts"
+		],
+		"why": "The city says the ordinance is intended to establish proper working conditions for workers and others involved in public contracts, revitalize the local economy, and promote the welfare of residents.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:20:47.141Z",
+			"inputTokens": 815,
+			"cachedTokens": 0,
+			"outputTokens": 734,
+			"reasoningTokens": 428
+		}
 	}
 }

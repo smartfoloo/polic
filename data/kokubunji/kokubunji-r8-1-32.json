@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-1-32",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第32号",
+	"official": "国分寺市下水道条例及び国分寺市水洗便所普及条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "災害時の排水設備工事の規定を整備",
+	"category": "まちづくり",
+	"summary": "国分寺市下水道条例と水洗便所普及条例の一部を改正します。災害など非常時に行う排水設備の新設などの工事に関する規定を整えます。",
+	"changes": [
+		"災害など非常時の排水設備の新設などに関する規定を整備する"
+	],
+	"who": [],
+	"why": "災害など非常時の排水設備工事に関する規定などを整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 1029,
+		"cachedTokens": 0,
+		"outputTokens": 542,
+		"reasoningTokens": 386,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.662Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 877,
+			"cachedTokens": 0,
+			"outputTokens": 36,
+			"reasoningTokens": 21,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a2e3d4b5b845bbe2",
+		"name": "Sets rules for drainage facility work during disasters",
+		"official": "Ordinance Partially Amending the Kokubunji City Sewerage Ordinance and the Kokubunji City Ordinance on Promoting Flush Toilets",
+		"summary": "The city will partially amend the Kokubunji City Sewerage Ordinance and the Ordinance on Promoting Flush Toilets. It will establish rules for work, including the installation of new drainage facilities, in emergencies such as disasters.",
+		"changes": [
+			"Establishes rules for installing new drainage facilities and related work in emergencies such as disasters"
+		],
+		"who": [],
+		"why": "The city says this is to establish rules concerning drainage facility work in emergencies such as disasters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.065Z",
+			"inputTokens": 593,
+			"cachedTokens": 0,
+			"outputTokens": 371,
+			"reasoningTokens": 200,
+			"batch": true
+		}
+	}
+}

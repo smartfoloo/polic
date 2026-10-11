@@ -1,0 +1,103 @@
+{
+	"id": "kawasaki-r8-3-119",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第119号",
+	"official": "都市再生特別措置法等の一部を改正する法律の施行に伴う関係条例の整備に関する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第119号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_119.pdf",
+			"fetchedAt": "2026-10-08T11:12:22.714Z"
+		}
+	],
+	"name": "都市計画や建築に関する5つの条例を改める",
+	"category": "まちづくり",
+	"summary": "市の5つの条例にある法律の条文番号や用語などを改めます。建築協定に関わる人の定義も変更します。",
+	"changes": [
+		"土地区画整理事業施行条例の参照条項を第91条第4項から第3項に改める",
+		"都市景観条例、特別工業地区建築条例などの参照条項を改める",
+		"建築基準条例の鉄道会社名と参照条項を改める",
+		"建築協定条例で、特定の都市計画施設の管理者を含める場合などを定める"
+	],
+	"who": [],
+	"why": "改正法の施行に伴い、関係する条例を整備するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.874Z",
+		"inputTokens": 2116,
+		"cachedTokens": 0,
+		"outputTokens": 1277,
+		"reasoningTokens": 1034,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.651Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "建築協定条例で、特定の都市計画施設の管理者を含める場合などを定める",
+				"note": "原文第5条では、従前の土地の上の空間又は地下に特定都市計画施設がある場合、その管理者を除くことも定めている。この対象者の除外が明示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2029,
+			"cachedTokens": 0,
+			"outputTokens": 175,
+			"reasoningTokens": 58,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5b60fff619c021c5",
+		"name": "Amends five ordinances on urban planning and building",
+		"official": "Enactment of an Ordinance to Make Arrangements to Related Ordinances in Connection with the Enforcement of the Act Partially Amending the Act on Special Measures concerning Urban Renaissance, etc.",
+		"summary": "Amends article numbers and terms in five city ordinances. It also changes the definition of people involved in building agreements.",
+		"changes": [
+			"Changes the referenced provision in the Land Readjustment Project Implementation Ordinance from Article 91, paragraph 4 to paragraph 3",
+			"Changes referenced provisions in the Urban Landscape Ordinance, the Special Industrial District Building Ordinance, and other ordinances",
+			"Changes the railway company name and referenced provisions in the Building Standards Ordinance",
+			"Specifies cases under the Building Agreement Ordinance in which managers of certain urban planning facilities are included"
+		],
+		"who": [
+			"People covered by the Land Readjustment Project Implementation Ordinance",
+			"People covered by the Urban Landscape Ordinance and the Special Industrial District Building Ordinance",
+			"Railway companies",
+			"People involved in building agreements, including managers of certain urban planning facilities"
+		],
+		"why": "The city says it is making changes to related ordinances following the enforcement of the amended law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.061Z",
+			"inputTokens": 666,
+			"cachedTokens": 0,
+			"outputTokens": 1400,
+			"reasoningTokens": 1113,
+			"batch": true
+		}
+	}
+}

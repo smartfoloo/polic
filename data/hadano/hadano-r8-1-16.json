@@ -1,0 +1,95 @@
+{
+	"id": "hadano-r8-1-16",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第16号",
+	"official": "秦野市介護保険条例の一部を改正することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "文教福祉常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第16号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg16.pdf",
+			"fetchedAt": "2026-10-08T11:24:05.020Z"
+		}
+	],
+	"name": "介護保険料の所得段階判定に特例",
+	"category": "福祉",
+	"summary": "現在、介護保険料の所得段階は、住民税の課税状況や合計所得金額などをもとに判定しています。給与所得控除の最低保障額が55万円から65万円に上がったことを受け、2026年度分の判定に特例を設け、条件に合う人の保険料を減免できるようにします。",
+	"changes": [
+		"所得段階の判定に使う給与所得額を特例の方法で算定する",
+		"一定の場合に、保険料の判定上、住民税非課税の人を課税者とみなす",
+		"規則で定める対象者の保険料を減免できるようにする"
+	],
+	"who": [
+		"令和8年度の所得段階判定で、本人または世帯内の人の課税状況が令和7年度税制改正の影響を受ける第1号被保険者",
+		"その人の保険料段階の判定に関わる世帯員"
+	],
+	"why": "令和7年度税制改正による給与所得控除の引上げの影響を考慮し、令和8年度の保険料判定に特例を設けるとともに、住民税の非課税の範囲内で働く人への特例減免を設けるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.538Z",
+		"inputTokens": 12335,
+		"cachedTokens": 0,
+		"outputTokens": 2346,
+		"reasoningTokens": 1966,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.538Z",
+			"notes": [
+				"ai [error] who/fact: 「令和7年に給与収入があった65歳以上の第1号被保険者のうち、保険料判定の特例に該当する人」 → 原文の資料2(2)では、世帯内に課税状況が変わり得る者がいる第1号被保険者も対象です。本人に給与収入がない場合も対象となり、要約の対象者では範囲が狭くなっています。"
+			],
+			"inputTokens": 12908,
+			"cachedTokens": 1025,
+			"outputTokens": 1153,
+			"reasoningTokens": 765,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.855Z",
+		"checkedAt": "2026-10-10T07:29:38.594Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "令和7年に給与収入があった65歳以上の第1号被保険者のうち、保険料判定の特例に該当する人",
+				"note": "原文の資料2(2)では、世帯内に課税状況が変わり得る者がいる第1号被保険者も対象です。本人に給与収入がない場合も対象となり、要約の対象者では範囲が狭くなっています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "規則で定める対象者の保険料を減免できるようにする",
+				"note": "原文の資料2(3)にある、市長が必要と認める場合に減免申請書の提出を省略できる変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 12380,
+			"cachedTokens": 0,
+			"outputTokens": 514,
+			"reasoningTokens": 255,
+			"batch": true
+		}
+	}
+}

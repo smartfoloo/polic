@@ -57,5 +57,29 @@
 			"outputTokens": 51,
 			"reasoningTokens": 36
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e62263d9d89d493",
+		"name": "Establishes Kutosawa Park as an urban park",
+		"official": "Ordinance Partially Amending the Ome City Parks Ordinance",
+		"summary": "This bill would establish Kutosawa Park, developed as part of a development project, as an urban park. It adds the park's location and name to the ordinance's list of urban parks.",
+		"changes": [
+			"Adds Kutosawa Park to the list of urban parks"
+		],
+		"who": [
+			"People who use Kutosawa Park"
+		],
+		"why": "The city says this is to establish a park developed as part of a development project as an urban park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:00:43.587Z",
+			"inputTokens": 571,
+			"cachedTokens": 0,
+			"outputTokens": 464,
+			"reasoningTokens": 308
+		}
 	}
 }

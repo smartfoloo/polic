@@ -1,0 +1,95 @@
+{
+	"id": "yokohama-r8-1-103",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第103号議案",
+	"official": "横浜市総合保健医療センター条例等の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第103号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si103.pdf",
+			"fetchedAt": "2026-10-08T11:03:20.870Z"
+		}
+	],
+	"name": "診断書・証明書の料金区分と額を改定",
+	"category": "健康・医療",
+	"summary": "4つのセンターで、診断書・証明書の交付にかかる利用料金の区分と額を改めます。診断書の額は種類により1通4,400円、6,600円または9,900円、証明書は2,200円または4,400円です。総合保健医療センター、寿町健康福祉交流センター、総合リハビリテーションセンターでは、指定管理者が市長の承認を得て、条例に定める額を上限に料金を定めます。2026年6月1日から施行します。",
+	"changes": [
+		"保険関係などの診断書について、各条例で定める額を1通9,900円に改める",
+		"年金関係の診断書について、各条例で定める額を1通6,600円に改める",
+		"その他の診断書について、各条例で定める額を1通4,400円に改める",
+		"証明書について、各条例で定める額を医師の診断が必要なものは1通4,400円、その他は2,200円に改める"
+	],
+	"who": [
+		"各センターで診断書や証明書の交付を受ける人"
+	],
+	"why": "診断書及び証明書の交付に係る利用料金を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.556Z",
+		"inputTokens": 3794,
+		"cachedTokens": 0,
+		"outputTokens": 2490,
+		"reasoningTokens": 2138,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.556Z",
+			"notes": [
+				"ai [error] summary/fact: 「診断書は種類に応じて1通4,400円から9,900円、証明書は1通2,200円または4,400円とします。」 → 総合保健医療センター、寿町健康福祉交流センター、総合リハビリテーションセンターでは、記載額の範囲内で指定管理者が市長の承認を得て料金を定めるため、実際の料金が記載額になるとは限りません。"
+			],
+			"inputTokens": 4356,
+			"cachedTokens": 1025,
+			"outputTokens": 1818,
+			"reasoningTokens": 1417,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.882Z",
+		"checkedAt": "2026-10-10T07:29:38.687Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "診断書は種類に応じて1通4,400円から9,900円、証明書は1通2,200円または4,400円とします。",
+				"note": "総合保健医療センター、寿町健康福祉交流センター、総合リハビリテーションセンターでは、記載額の範囲内で指定管理者が市長の承認を得て料金を定めるため、実際の料金が記載額になるとは限りません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "保険関係などの診断書について、各条例で定める額を1通9,900円に改める",
+				"note": "第４条にある、総合リハビリテーションセンターの診断書等の料金を、条例の額の範囲内で指定管理者が市長の承認を得て定める方式に変更する点が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3821,
+			"cachedTokens": 0,
+			"outputTokens": 418,
+			"reasoningTokens": 124,
+			"batch": true
+		}
+	}
+}

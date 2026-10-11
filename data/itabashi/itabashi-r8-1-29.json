@@ -61,5 +61,28 @@
 			"outputTokens": 176,
 			"reasoningTokens": 161
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b7e9332873de17cb",
+		"name": "Changes travel expense categories and reference standards",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries, etc. of the Mayor and Deputy Mayor of Itabashi City, etc.",
+		"summary": "Travel expenses and expense reimbursements for the mayor, assembly members and others are set out in several ordinances. The bill changes the names of travel expense categories and changes the reference standard for the mayor’s and deputy mayor’s travel expense amounts from a Tokyo ordinance to standards based on a national Cabinet Order.",
+		"changes": [
+			"Changes the names of travel expense categories",
+			"Changes the reference for travel expense amounts from a Tokyo ordinance to standards based on a national Cabinet Order"
+		],
+		"who": [],
+		"why": "The ward says it is necessary to amend the provisions concerning travel expenses and expense reimbursements.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:07:54.941Z",
+			"inputTokens": 626,
+			"cachedTokens": 0,
+			"outputTokens": 607,
+			"reasoningTokens": 415
+		}
 	}
 }

@@ -58,5 +58,30 @@
 			"outputTokens": 85,
 			"reasoningTokens": 71
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2e3d8a8a6a02638c",
+		"name": "Revises housing allowances and salary tables for employees",
+		"official": "Ordinance Partially Amending the Inagi City Ordinance on Salaries for General Service Employees",
+		"summary": "The housing allowance is currently ¥15,000 per month. Under the amendment, employees from the date they turn 27 through the first March 31 after that date will receive a housing allowance of ¥30,000 per month if their rent is ¥30,000 or more per month. The monthly salary amounts in the pay tables for the applicable grades will also be revised. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Raises the housing allowance to ¥30,000 per month for employees in the specified age period whose rent is ¥30,000 or more per month",
+			"Revises the pay tables for applicable grades in administrative, medical, and fire services"
+		],
+		"who": [
+			"General service employees of Inagi City"
+		],
+		"why": "The city says this is to revise salaries in line with the intent of recommendations from the Tokyo Metropolitan Personnel Commission.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:04:06.687Z",
+			"inputTokens": 685,
+			"cachedTokens": 0,
+			"outputTokens": 942,
+			"reasoningTokens": 691
+		}
 	}
 }

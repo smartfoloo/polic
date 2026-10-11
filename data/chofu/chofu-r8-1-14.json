@@ -67,5 +67,33 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cecc4a9b77229f0c",
+		"name": "Raises pay for part-time staff and committee members",
+		"official": "Ordinance Partially Amending the Chofu City Ordinance on Remuneration, etc. for Part-Time Staff",
+		"summary": "The current maximum remuneration amounts for part-time staff include ¥3,900, ¥9,400 and ¥124,500. The bill raises these to ¥4,400, ¥11,000 and ¥140,000, respectively, and also raises remuneration for substitute members of the Election Administration Committee and members of the Fixed Asset Valuation Review Committee. The ordinance takes effect on April 1, 2026, and applies to remuneration for months from April onward.",
+		"changes": [
+			"Raises maximum remuneration amounts for part-time staff from ¥3,900, ¥9,400 and ¥124,500 to ¥4,400, ¥11,000 and ¥140,000, respectively",
+			"Raises remuneration for substitute members of the Election Administration Committee from ¥9,400 to ¥11,000",
+			"Raises remuneration for members of the Fixed Asset Valuation Review Committee from ¥10,500 to ¥12,000"
+		],
+		"who": [
+			"Part-time staff of Chofu City",
+			"Substitute members of the Election Administration Committee",
+			"Members of the Fixed Asset Valuation Review Committee"
+		],
+		"why": "The city says this is to raise the maximum remuneration amounts for part-time staff and the remuneration amounts for substitute members of the Election Administration Committee and members of the Fixed Asset Valuation Review Committee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:43.212Z",
+			"inputTokens": 828,
+			"cachedTokens": 0,
+			"outputTokens": 1430,
+			"reasoningTokens": 1094
+		}
 	}
 }

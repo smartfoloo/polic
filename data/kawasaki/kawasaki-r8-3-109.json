@@ -1,0 +1,94 @@
+{
+	"id": "kawasaki-r8-3-109",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第109号",
+	"official": "東海道かわさき宿交流館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第109号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_109.pdf",
+			"fetchedAt": "2026-10-08T11:11:21.557Z"
+		}
+	],
+	"name": "交流館の利用料金上限額を改定",
+	"category": "まちづくり",
+	"summary": "東海道かわさき宿交流館の利用料金には、条例で定める上限額があります。この議案は上限額を改め、区画しない集会室の全日利用は13,400円などとします。2027年4月1日から施行し、その時点ですでに利用許可を受けている人には改正前の扱いを適用します。",
+	"changes": [
+		"区画しない集会室の利用料を午前3,240円、午後4,350円、夜間5,810円、全日13,400円にする",
+		"第1集会室の利用料を午前1,340円、午後1,780円、夜間2,460円、全日5,580円にする",
+		"第2集会室の利用料を午前1,900円、午後2,570円、夜間3,350円、全日7,820円にする",
+		"談話室の利用料を午前330円、午後550円、夜間780円、全日1,660円にする"
+	],
+	"who": [
+		"東海道かわさき宿交流館を利用する人"
+	],
+	"why": "利用料金の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.873Z",
+		"inputTokens": 1443,
+		"cachedTokens": 0,
+		"outputTokens": 1216,
+		"reasoningTokens": 873,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.873Z",
+		"checkedAt": "2026-10-10T07:29:38.647Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1457,
+			"cachedTokens": 0,
+			"outputTokens": 154,
+			"reasoningTokens": 140,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2a6adc0c083cfe4f",
+		"name": "Revises maximum fees at the Tokaido Kawasaki-shuku Exchange Center",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tokaido Kawasaki-shuku Exchange Center Ordinance",
+		"summary": "The fees for using the Tokaido Kawasaki-shuku Exchange Center have maximum amounts set by ordinance. This bill revises those maximum amounts, setting the all-day fee for the unpartitioned meeting room at ¥13,400, for example. It will take effect on April 1, 2027. People who have already received permission to use the center by that date will continue to be subject to the rules in force before the revision.",
+		"changes": [
+			"Sets the maximum fee for the unpartitioned meeting room at ¥3,240 for the morning, ¥4,350 for the afternoon, ¥5,810 for the evening, and ¥13,400 for all day",
+			"Sets the maximum fee for Meeting Room 1 at ¥1,340 for the morning, ¥1,780 for the afternoon, ¥2,460 for the evening, and ¥5,580 for all day",
+			"Sets the maximum fee for Meeting Room 2 at ¥1,900 for the morning, ¥2,570 for the afternoon, ¥3,350 for the evening, and ¥7,820 for all day",
+			"Sets the maximum fee for the lounge at ¥330 for the morning, ¥550 for the afternoon, ¥780 for the evening, and ¥1,660 for all day"
+		],
+		"who": [
+			"People who use the Tokaido Kawasaki-shuku Exchange Center"
+		],
+		"why": "The city says this is to revise the maximum fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.060Z",
+			"inputTokens": 750,
+			"cachedTokens": 0,
+			"outputTokens": 1019,
+			"reasoningTokens": 643,
+			"batch": true
+		}
+	}
+}

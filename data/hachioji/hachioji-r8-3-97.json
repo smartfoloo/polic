@@ -58,5 +58,30 @@
 			"outputTokens": 47,
 			"reasoningTokens": 32
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f96e9ffdc1c2b83f",
+		"name": "Changes the name and location of an after-school childcare center",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City After-School Childcare Center Ordinance",
+		"summary": "The current list in the ordinance gives the name as Hachioji City Yagicho After-School Childcare Center and the address as 7-1 Yagicho. This bill changes the name to Hachioji City Taga no Mori After-School Childcare Center and the address to 2-chome 21-1 Motohongocho. The changes take effect on April 1, 2027.",
+		"changes": [
+			"Changes the name listed in the ordinance from Yagicho After-School Childcare Center to Taga no Mori After-School Childcare Center",
+			"Changes the address listed in the ordinance from 7-1 Yagicho to 2-chome 21-1 Motohongocho"
+		],
+		"who": [
+			"Children who use the after-school childcare center and their parents or guardians"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:57:58.130Z",
+			"inputTokens": 645,
+			"cachedTokens": 0,
+			"outputTokens": 788,
+			"reasoningTokens": 538
+		}
 	}
 }

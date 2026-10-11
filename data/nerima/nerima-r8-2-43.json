@@ -1,0 +1,79 @@
+{
+	"id": "nerima-r8-2-43",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第43号",
+	"official": "練馬区立地域活動支援施設条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "区民生活委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-08",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai2teirei/0802gian.html",
+			"fetchedAt": "2026-10-08T10:55:37.319Z"
+		}
+	],
+	"name": "地域活動倉庫を新設",
+	"category": "まちづくり",
+	"summary": "地域活動支援施設の条例を改正します。地域活動倉庫を新たに設置し、施行日は令和8年10月1日です。",
+	"changes": [
+		"地域活動倉庫を新たに設置する"
+	],
+	"who": [],
+	"why": "地域活動倉庫を新たに設置するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.880Z",
+		"inputTokens": 1025,
+		"cachedTokens": 0,
+		"outputTokens": 339,
+		"reasoningTokens": 225,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.880Z",
+		"checkedAt": "2026-10-10T07:29:38.671Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 825,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9d79587557fa513d",
+		"name": "Establishes a community activity storage facility",
+		"official": "Ordinance Partially Amending the Nerima City Ordinance on Community Activity Support Facilities",
+		"summary": "The ordinance on community activity support facilities will be amended. A community activity storage facility will be newly established, and the ordinance will take effect on October 1, 2026.",
+		"changes": [
+			"Establishes a community activity storage facility"
+		],
+		"who": [],
+		"why": "The ward says this is to establish a community activity storage facility.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.069Z",
+			"inputTokens": 540,
+			"cachedTokens": 0,
+			"outputTokens": 385,
+			"reasoningTokens": 253,
+			"batch": true
+		}
+	}
+}

@@ -29,7 +29,7 @@
 	"changes": [
 		"満3歳以上限定小規模保育事業を条例の対象に加える",
 		"連携施設の確保先に、満3歳以上限定小規模保育事業所を加える",
-		"利用定員の規程に年齢区分を設け、同事業を小規模保育事業B型・C型の区分から除く",
+		"満3歳以上限定小規模保育事業者の利用定員を満3歳以上の幼児の定員とし、同事業を小規模保育事業B型・C型の区分から除く",
 		"3歳以上の子どもの受入れや職員配置に関する規定を整える"
 	],
 	"who": [
@@ -41,47 +41,74 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:30:54.250Z",
+		"generatedAt": "2026-10-08T23:32:45.678Z",
 		"inputTokens": 8703,
 		"cachedTokens": 0,
 		"outputTokens": 1895,
-		"reasoningTokens": 1552
+		"reasoningTokens": 1552,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:32:45.678Z",
+			"notes": [
+				"ai [error] changes/direction: 「利用定員の規程に年齢区分を設け」 → 第18条第6号には改正前から「乳児及び幼児の区分ごとの利用定員」がある。今回の変更は、満3歳以上限定小規模保育事業者について「満3歳以上の幼児の利用定員」とする特則の追加。"
+			],
+			"inputTokens": 9221,
+			"cachedTokens": 1025,
+			"outputTokens": 719,
+			"reasoningTokens": 360
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:30:54.250Z",
-		"checkedAt": "2026-10-08T05:54:22.197Z",
+		"draftAt": "2026-10-08T23:32:45.678Z",
+		"checkedAt": "2026-10-08T23:32:55.691Z",
 		"flags": [],
 		"issues": [
 			{
 				"field": "changes",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "利用定員の規程に年齢区分を設け",
-				"note": "第18条第6号には改正前から「乳児及び幼児の区分ごとの利用定員」がある。今回の変更は、満3歳以上限定小規模保育事業者について「満3歳以上の幼児の利用定員」とする特則の追加。"
-			},
-			{
-				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "連携施設の確保先に、満3歳以上限定小規模保育事業所を加える",
-				"note": "第6条第1項・第3号で、満3歳以上限定小規模保育事業者には、保育終了後の受入れに係る連携協力を求めないとする変更が抜けている。"
-			},
-			{
-				"field": "changes",
-				"kind": "omission",
-				"severity": "check",
-				"quote": "連携施設の確保先に、満3歳以上限定小規模保育事業所を加える",
-				"note": "附則第3条で、満3歳以上限定小規模保育事業者を連携施設の確保を免除する経過措置の対象から除く変更が抜けている。事業者の確保義務に直接関わる内容。"
+				"note": "第6条第1項・第3号では、満3歳以上限定小規模保育事業者を保育終了後の受入れに係る連携義務から除外している。また、附則第3条では同事業者を連携施設の確保を猶予する経過措置の対象外としている。これらの事業者に直接関わる変更が抜けている。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 8719,
+			"inputTokens": 8735,
 			"cachedTokens": 0,
-			"outputTokens": 619,
-			"reasoningTokens": 239
+			"outputTokens": 425,
+			"reasoningTokens": 245
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f6afc666284a8d9c",
+		"name": "Adds standards for small-scale childcare for children aged 3 and over",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance Establishing Standards for the Equipment and Operation of Home-Based Childcare Businesses, etc.",
+		"summary": "The ordinance sets standards for the equipment and operation of home-based childcare businesses and similar services. The amendment adds small-scale childcare businesses limited to children aged 3 and over to the ordinance and sets out provisions on partner facilities, capacity, staffing and other matters. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds small-scale childcare businesses limited to children aged 3 and over to the ordinance",
+			"Adds small-scale childcare centers limited to children aged 3 and over as facilities that can be secured as partner facilities",
+			"Sets the capacity of these businesses for children aged 3 and over, and excludes them from the Type B and Type C categories of small-scale childcare businesses",
+			"Sets out provisions on accepting children aged 3 and over and on staffing"
+		],
+		"who": [
+			"Children aged 3 and over who use small-scale childcare limited to that age group, and their parents or guardians",
+			"Operators of home-based childcare businesses and similar services"
+		],
+		"why": "The city says this is because related Cabinet Office Ordinances were promulgated in connection with the partial enforcement of amendments to the Child Welfare Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:14:15.007Z",
+			"inputTokens": 782,
+			"cachedTokens": 0,
+			"outputTokens": 925,
+			"reasoningTokens": 609
 		}
 	}
 }

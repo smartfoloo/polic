@@ -1,0 +1,93 @@
+{
+	"id": "fujisawa-r8-2-93",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第93号",
+	"official": "藤沢市保育所条例の一部改正について",
+	"by": "head",
+	"session": "令和8年2月定例会",
+	"committee": "令和8年度予算等特別委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年2月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F12%2C2026%2F03%2F18%2C112",
+			"fetchedAt": "2026-10-08T11:13:34.985Z"
+		},
+		{
+			"label": "議案第93号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2724&Sflg=2",
+			"fetchedAt": "2026-10-08T11:15:41.187Z"
+		},
+		{
+			"label": "議案第93号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2724_e01-093.pdf",
+			"fetchedAt": "2026-10-08T11:15:47.143Z"
+		}
+	],
+	"name": "乳児等通園支援の利用料を設定",
+	"category": "子育て",
+	"summary": "市立保育所で行う乳児等通園支援事業の利用者負担額は、条例に定められていません。この改正で、利用料を世帯の区分に応じて1時間0円、100円または300円とし、2026年4月1日から施行します。",
+	"changes": [
+		"市立保育所で乳児等通園支援事業を実施する",
+		"利用者負担額を世帯区分に応じて1時間0円、100円または300円に定める"
+	],
+	"who": [
+		"乳児等通園支援事業を利用する乳児・幼児の保護者"
+	],
+	"why": "市立保育所で乳児等通園支援事業を実施することに伴い、利用者負担額を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.532Z",
+		"inputTokens": 1809,
+		"cachedTokens": 0,
+		"outputTokens": 842,
+		"reasoningTokens": 584,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.532Z",
+			"notes": [
+				"code: reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+			],
+			"inputTokens": 2190,
+			"cachedTokens": 1025,
+			"outputTokens": 538,
+			"reasoningTokens": 279,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.846Z",
+		"checkedAt": "2026-10-10T07:29:38.566Z",
+		"flags": [
+			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用者負担額を世帯区分に応じて1時間0円、100円または300円に定める",
+				"note": "別表第6にある各金額の対象世帯の条件が抜けています。0円は生活保護の被保護世帯、100円は市町村民税所得割合算額77,101円未満の世帯や特に支援が必要な世帯等、300円はそれ以外の世帯です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1727,
+			"cachedTokens": 0,
+			"outputTokens": 230,
+			"reasoningTokens": 90,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"id": "koto-r8-2-70",
+	"assembly": "tokyo/koto",
+	"approved": false,
+	"number": "議案第70号",
+	"official": "江東区個人番号の利用並びに特定個人情報の利用及び提供に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.koto.lg.jp/650102/documents/080701giannkekka.pdf",
+			"fetchedAt": "2026-10-08T10:54:42.905Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "58b1d1c84f4a46a0",
+		"official": "Ordinance Partially Amending the Koto City Ordinance on the Use of Individual Numbers and the Use and Provision of Specific Personal Information",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.519Z",
+			"inputTokens": 398,
+			"cachedTokens": 0,
+			"outputTokens": 223,
+			"reasoningTokens": 180,
+			"batch": true
+		}
+	}
+}

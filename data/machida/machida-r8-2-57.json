@@ -66,5 +66,35 @@
 			"outputTokens": 117,
 			"reasoningTokens": 102
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b348a6300f90c31f",
+		"name": "Revises staff and other rules for childcare attendance support services",
+		"official": "Ordinance Partially Amending the Machida City Ordinance on Standards for the Facilities and Operation of Infant and Other Child Attendance Support Services",
+		"summary": "The ordinance sets standards for staff and the operation of infant and other child attendance support services. This bill revises provisions on staff and user capacity, and requires providers to conduct criminal-record checks and take other measures to prevent sexual violence against children and protect them if it occurs. The ordinance will take effect on the date of promulgation. The amendments concerning sexual violence against children will take effect on December 25, 2026.",
+		"changes": [
+			"Change the wording of staff-related provisions from applying at the provider level to applying at the facility level",
+			"Require providers to conduct criminal-record checks and take other measures to prevent sexual violence against children and protect them if it occurs",
+			"Change the user capacity in the operating rules from separate capacities for infants and toddlers to a single total capacity",
+			"Revise the definition of the flexible-use model, provisions applied mutatis mutandis, and wording concerning electronic records"
+		],
+		"who": [
+			"Infants and toddlers who use the services",
+			"Parents and guardians of infants and toddlers who use the services",
+			"Providers of infant and other child attendance support services",
+			"Staff of infant and other child attendance support services"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:43.607Z",
+			"inputTokens": 768,
+			"cachedTokens": 0,
+			"outputTokens": 1057,
+			"reasoningTokens": 738
+		}
 	}
 }

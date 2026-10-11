@@ -60,5 +60,32 @@
 			"outputTokens": 205,
 			"reasoningTokens": 191
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d4126ff705839db7",
+		"name": "Removes some tasks that may use specific personal information",
+		"official": "Ordinance Partially Amending the Ordinance on the Use of Individual Numbers and the Provision of Specific Personal Information Based on the Act Concerning the Use of Numbers to Identify Specific Individuals in Administrative Procedures of Ome City",
+		"summary": "The city’s ordinance specifies tasks for which individual numbers and specific personal information may be used. This bill removes two items from the list of tasks for which this information may be used, and revises explanations of the information and the wording of the names of related laws. The ordinance takes effect on the date it is promulgated.",
+		"changes": [
+			"Deletes the task listed in Appendix Table 1",
+			"Deletes the task listed in paragraph 2 of Appendix Table 2",
+			"Revises the descriptions of local tax-related information and addressee information for people not registered as residents",
+			"Adds the law number to the name of a related law"
+		],
+		"who": [
+			"Residents affected by the tasks being removed"
+		],
+		"why": "The city says this is to remove some tasks for which specific personal information may be used in light of an amendment to the law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:00:55.422Z",
+			"inputTokens": 710,
+			"cachedTokens": 0,
+			"outputTokens": 1137,
+			"reasoningTokens": 869
+		}
 	}
 }

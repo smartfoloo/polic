@@ -1,0 +1,108 @@
+{
+	"id": "samukawa-r8-6-38",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第38号",
+	"official": "寒川町行政手続条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会6月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-19",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第38号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/R8-6_gian38.pdf",
+			"fetchedAt": "2026-10-10T14:58:24.420Z"
+		}
+	],
+	"name": "所在不明者への通知方法を公示に変更",
+	"category": "行政のしくみ",
+	"summary": "所在が分からない人への聴聞の通知は、町の事務所の掲示場に掲示して行うことができます。この議案では、公示事項を不特定多数の人が閲覧できるようにし、事務所の掲示場への掲示または電子表示も行う方法に改めます。通知は措置開始から2週間後に届いたものと扱いますが、聴聞の続行期日の通知で同じ当事者や参加人への2回目以降は、措置開始日の翌日に届いたものと扱います。",
+	"changes": [
+		"所在が分からない人への通知を公示で行う方法に改める",
+		"公示事項を不特定多数の人が閲覧できる状態にし、事務所の掲示場または電子表示でも閲覧できるようにする",
+		"通知は措置開始から2週間後に届いたものとみなし、同じ当事者や参加人への続行期日の2回目以降は措置開始日の翌日にみなす"
+	],
+	"who": [
+		"聴聞や弁明の通知を受ける人で、所在が分からない人",
+		"聴聞の当事者や参加人で、所在が分からない人"
+	],
+	"why": "行政手続法の一部改正に伴い、必要な措置を講じるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:09:36.932Z",
+		"inputTokens": 4207,
+		"cachedTokens": 0,
+		"outputTokens": 1148,
+		"reasoningTokens": 816,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-10T15:09:36.932Z",
+			"notes": [
+				"ai [error] changes/fact: 「公示の措置を始めてから2週間後に通知が届いたものとみなす」 → 第21条第3項では、聴聞の続行期日の通知について、同一の当事者・参加人への2回目以降の通知は措置開始日の翌日に到達したものとみなす例外があり、一律に2週間後ではない。"
+			],
+			"inputTokens": 4720,
+			"cachedTokens": 1025,
+			"outputTokens": 1499,
+			"reasoningTokens": 1112,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:09:36.932Z",
+		"checkedAt": "2026-10-10T15:54:25.143Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4266,
+			"cachedTokens": 0,
+			"outputTokens": 208,
+			"reasoningTokens": 194,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fbc3c73eb6ada2b0",
+		"name": "Changes notices to people whose whereabouts are unknown to public notice",
+		"official": "Regarding the Partial Amendment to the Samukawa Town Administrative Procedures Ordinance",
+		"summary": "Notices of hearings to people whose whereabouts are unknown may be given by posting them on the notice board at the town office. This bill changes the method so that the information in a public notice is made available for an unspecified number of people to view, and is also posted on the notice board at the office or displayed electronically. A notice is treated as received two weeks after the measure begins. However, for notices of a continued hearing date to the same party or participant, the second and later notices are treated as received the day after the measure begins.",
+		"changes": [
+			"Changes the method of notifying people whose whereabouts are unknown to use public notice",
+			"Makes information in a public notice available for an unspecified number of people to view, and allows it to be viewed on the office notice board or electronically",
+			"Treats a notice as received two weeks after the measure begins; treats the second and later notices of a continued hearing date to the same party or participant as received the day after the measure begins"
+		],
+		"who": [
+			"People whose whereabouts are unknown and who receive notices of hearings or opportunities to explain",
+			"Parties or participants in hearings whose whereabouts are unknown"
+		],
+		"why": "The town says this is to take the necessary measures in connection with a partial amendment to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-11T00:16:49.518Z",
+			"inputTokens": 788,
+			"cachedTokens": 0,
+			"outputTokens": 1011,
+			"reasoningTokens": 685,
+			"batch": true
+		}
+	}
+}

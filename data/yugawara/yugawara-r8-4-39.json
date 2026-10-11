@@ -1,0 +1,88 @@
+{
+	"id": "yugawara-r8-4-39",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第39号",
+	"official": "湯河原町公営企業の設置等に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第4回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-01",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第39号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/18535.pdf",
+			"fetchedAt": "2026-10-08T11:29:35.407Z"
+		}
+	],
+	"name": "上下水道の経営審議会を設置",
+	"category": "行政のしくみ",
+	"summary": "この議案は、水道事業と下水道事業の運営について調査・審議する上下水道経営審議会を設けます。委員の定数と、会長・委員の日額報酬も定めます。",
+	"changes": [
+		"上下水道経営審議会を設置する",
+		"委員の定数を10人以内とする",
+		"会長の日額報酬を12,000円、委員を10,000円とする",
+		"審議会の組織や運営などは町長が別に定める"
+	],
+	"who": [
+		"上下水道経営審議会の会長・委員"
+	],
+	"why": "水道事業と下水道事業の運営に関する事項を検討する審議会を設置するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.563Z",
+		"inputTokens": 2189,
+		"cachedTokens": 0,
+		"outputTokens": 1014,
+		"reasoningTokens": 752,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.563Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「現在の条例には、上下水道の運営を調査・審議する機関が定められていません。」 → 原文は審議会の新設を示していますが、現行条例の第５条第１・２項などは省略されており、該当する機関の規定が現行条例にないとは確認できません。"
+			],
+			"inputTokens": 2628,
+			"cachedTokens": 0,
+			"outputTokens": 456,
+			"reasoningTokens": 194,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.741Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在の条例には、上下水道の運営を調査・審議する機関が定められていません。",
+				"note": "原文は審議会の新設を示していますが、現行条例の第５条第１・２項などは省略されており、該当する機関の規定が現行条例にないとは確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2122,
+			"cachedTokens": 0,
+			"outputTokens": 241,
+			"reasoningTokens": 123,
+			"batch": true
+		}
+	}
+}

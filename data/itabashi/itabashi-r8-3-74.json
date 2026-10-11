@@ -60,5 +60,32 @@
 			"outputTokens": 82,
 			"reasoningTokens": 68
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2c1de064f16bb9a4",
+		"name": "Changes staffing and prevention measures at certified integrated childcare centers",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance Establishing Standards for Class Organization, Staff, Facilities, and Operation of Certified Centers for Early Childhood Education and Care Integrating Kindergarten and Nursery Functions",
+		"summary": "This amends the ordinance that sets standards for staffing and other matters at certified centers for early childhood education and care integrating kindergarten and nursery functions. It adds a lead school health teacher to the types of staff whose assignment the centers should endeavor to ensure. It also requires operators to take measures, including criminal record checks, for people whose work involves contact with children in settings characterized by dominance, continuity, and closedness. The amendment to Article 18 takes effect on December 25, 2026. The other amendments take effect on the date of promulgation.",
+		"changes": [
+			"Adds a lead school health teacher to the types of staff whose assignment centers should endeavor to ensure",
+			"Requires operators to take measures, including criminal record checks, for people whose work involves contact with children in settings characterized by dominance, continuity, and closedness"
+		],
+		"who": [
+			"Operators of certified centers for early childhood education and care integrating kindergarten and nursery functions",
+			"People engaged in work involving contact with children",
+			"Children enrolled at the centers"
+		],
+		"why": "The ward says this is necessary because the relevant ministerial ordinance was amended, requiring provisions on criminal record checks and other measures and the addition of a lead school health teacher to the types of staff whose assignment centers should endeavor to ensure.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:10:36.614Z",
+			"inputTokens": 797,
+			"cachedTokens": 0,
+			"outputTokens": 1447,
+			"reasoningTokens": 1099
+		}
 	}
 }

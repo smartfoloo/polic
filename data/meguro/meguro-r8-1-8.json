@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e1b8a7f2394e83db",
+		"name": "Changes the law referenced in the allowance provisions",
+		"official": "Ordinance Partially Amending the Ordinance Concerning Special Duty Allowances for Employees",
+		"summary": "The Ordinance Concerning Special Duty Allowances for Employees refers to the Anti-Prostitution Act in its provisions. This bill changes the reference to the Act on Support for Women Facing Difficulties and takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the referenced law from the Anti-Prostitution Act to the Act on Support for Women Facing Difficulties"
+		],
+		"who": [],
+		"why": "The ward says this is to align the provisions following the enforcement of the Act on Support for Women Facing Difficulties.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:28.078Z",
+			"inputTokens": 598,
+			"cachedTokens": 0,
+			"outputTokens": 681,
+			"reasoningTokens": 516
+		}
 	}
 }

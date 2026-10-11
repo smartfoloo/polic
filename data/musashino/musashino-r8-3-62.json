@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/054/952/giann/8giandai62gou.pdf",
 			"fetchedAt": "2026-10-05T15:56:13.085Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "69f31786a35c1588",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses in Musashino City",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:58:05.822Z",
+			"inputTokens": 408,
+			"cachedTokens": 0,
+			"outputTokens": 263,
+			"reasoningTokens": 211
+		}
+	}
 }

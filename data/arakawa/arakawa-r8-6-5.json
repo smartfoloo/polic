@@ -1,0 +1,48 @@
+{
+	"id": "arakawa-r8-6-5",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第5号",
+	"official": "荒川区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年度定例会・6月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年度定例会・6月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_6gatsu_kekka.html",
+			"fetchedAt": "2026-10-10T14:44:39.440Z"
+		},
+		{
+			"label": "議案第5号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_gian5.html",
+			"fetchedAt": "2026-10-10T14:45:05.290Z"
+		}
+	],
+	"name": "軽自動車税の特例適用期間を変更",
+	"category": "税・手数料",
+	"summary": "軽自動車税には、税率の特例とその適用期間があります。この議案では、地方税法の改正に伴って適用期間を改め、あわせて条例の規定を整備します。",
+	"changes": [
+		"軽自動車税の税率の特例の適用期間を改める",
+		"条例の規定を整備する"
+	],
+	"who": [
+		"軽自動車税の納税者"
+	],
+	"why": "地方税法の改正に伴い、軽自動車税の税率の特例に関する適用期間を改めることなどのためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.818Z",
+		"inputTokens": 1039,
+		"cachedTokens": 0,
+		"outputTokens": 575,
+		"reasoningTokens": 395,
+		"batch": true
+	}
+}

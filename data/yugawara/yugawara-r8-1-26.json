@@ -1,0 +1,96 @@
+{
+	"id": "yugawara-r8-1-26",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第26号",
+	"official": "湯河原町消防団員等公務災害補償条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第26号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17161.pdf",
+			"fetchedAt": "2026-10-08T11:29:05.435Z"
+		}
+	],
+	"name": "消防団員などの公務災害補償額を引き上げ",
+	"category": "防災",
+	"summary": "非常勤消防団員などが公務で負傷した場合などの補償額は、補償基礎額をもとに決まります。この議案では、補償基礎額や扶養親族分の加算額、消防団員の階級・勤務年数別の額を改めます。条例は2026年4月1日に施行し、施行後に支給事由が生じた補償などに適用します。",
+	"changes": [
+		"消防作業従事者などの補償基礎額を9,700円から10,000円にし、収入に応じた上限を14,500円から15,000円に上げる",
+		"消防団員の階級・勤務年数別の補償基礎額を引き上げる",
+		"扶養親族の加算額を見直し、従来383円の区分を433円に改め、配偶者の区分を削除する"
+	],
+	"who": [
+		"非常勤消防団員や非常勤水防団員",
+		"消防作業、救急業務、水防、応急措置に従事する人",
+		"補償額の算定対象となる扶養親族がいる人"
+	],
+	"why": "非常勤消防団員などの損害補償の基準を定める政令の改正に伴い、補償基礎額などを改定するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.562Z",
+		"inputTokens": 3530,
+		"cachedTokens": 0,
+		"outputTokens": 1607,
+		"reasoningTokens": 1194,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.562Z",
+			"notes": [
+				"ai [error] changes/direction: 「1人につき100円の区分を433円に改め、383円の区分をなくす」 → 第５条第３項では旧第１号（配偶者）を削除し、旧第２号を新第１号に繰り上げるため、従来383円だった対象者の加算額が433円になります。従来100円だった対象者の加算額が433円になるわけではありません。"
+			],
+			"inputTokens": 4137,
+			"cachedTokens": 1025,
+			"outputTokens": 708,
+			"reasoningTokens": 294,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.889Z",
+		"checkedAt": "2026-10-10T07:29:38.732Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "1人につき100円の区分を433円に改め、383円の区分をなくす",
+				"note": "第５条第３項では旧第１号（配偶者）を削除し、旧第２号を新第１号に繰り上げるため、従来383円だった対象者の加算額が433円になります。従来100円だった対象者の加算額が433円になるわけではありません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "扶養親族の加算額を見直し、1人につき100円の区分を433円に改め、383円の区分をなくす",
+				"note": "第５条第３項の旧第１号を削除し、配偶者（事実婚を含む）を扶養親族の加算対象から外す変更が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3615,
+			"cachedTokens": 0,
+			"outputTokens": 352,
+			"reasoningTokens": 114,
+			"batch": true
+		}
+	}
+}

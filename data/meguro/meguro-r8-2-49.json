@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8ea68cccfc4cf77c",
+		"name": "Sets the term for Community Welfare Council members at 3 years",
+		"official": "Ordinance Partially Amending the Meguro City Community Welfare Deliberative Council Ordinance",
+		"summary": "The current term for members is 2 years. This bill extends the term to 3 years. Members appointed from the effective date through March 31, 2027, will serve until that date.",
+		"changes": [
+			"Extends members’ term from 2 years to 3 years",
+			"Sets the term for members appointed from the effective date through March 31, 2027, to end on that date"
+		],
+		"who": [
+			"Members of the Meguro City Community Welfare Deliberative Council"
+		],
+		"why": "The ward says this is to revise the term for members.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:02.845Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 521,
+			"reasoningTokens": 331
+		}
 	}
 }

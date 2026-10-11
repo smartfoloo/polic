@@ -1,0 +1,37 @@
+{
+	"id": "toshima-r8-1-18",
+	"assembly": "tokyo/toshima",
+	"approved": false,
+	"number": "第18号議案",
+	"official": "豊島区乳児等通園支援事業の設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.toshima.lg.jp/368/kuse/gikai/kekka/h28/2603191324.html",
+			"fetchedAt": "2026-10-08T10:54:55.065Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "a7c6e5925571031f",
+		"official": "Ordinance Partially Amending the Toshima City Ordinance on Standards for Facilities and Operation of the Childcare Support Project for Infants and Other Children",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:13.551Z",
+			"inputTokens": 398,
+			"cachedTokens": 0,
+			"outputTokens": 325,
+			"reasoningTokens": 279
+		}
+	}
+}

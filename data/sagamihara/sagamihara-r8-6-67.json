@@ -1,0 +1,49 @@
+{
+	"id": "sagamihara-r8-6-67",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第67号",
+	"official": "相模原市営斎場条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第67号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "市営斎場の式場・霊安室の使用料を改定",
+	"category": "くらし・手続き",
+	"summary": "市営斎場の式場や霊安室の使用料は、市内住民等と市外住民等で異なります。この議案で、大式場の使用料と、市外住民等の小式場・霊安室の使用料を改めます。改定後の料金は令和9年1月1日以後に利用の承認を受けた人に適用され、それ以前に承認された利用には従来の料金が適用されます。",
+	"changes": [
+		"大式場1回の使用料を、市内住民等は50,000円から54,000円に、市外住民等は75,000円から97,000円に改める",
+		"小式場1回の使用料を、市内住民等は40,000円に据え置き、市外住民等は60,000円から78,000円に改める",
+		"霊安室1体・24時間につき、市内住民等の使用料は3,000円に据え置き、市外住民等は5,000円から6,500円に改める"
+	],
+	"who": [
+		"相模原市営斎場を利用する人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づいて使用料を見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.838Z",
+		"inputTokens": 1709,
+		"cachedTokens": 0,
+		"outputTokens": 1641,
+		"reasoningTokens": 1290,
+		"batch": true
+	}
+}

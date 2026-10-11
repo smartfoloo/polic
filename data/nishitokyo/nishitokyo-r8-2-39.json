@@ -1,0 +1,38 @@
+{
+	"id": "nishitokyo-r8-2-39",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第39号",
+	"official": "西東京市特定乳児等通園支援事業の運営に関する基準を定める条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "文教厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-05",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/kaikinainittei0802.html",
+			"fetchedAt": "2026-10-08T10:59:38.293Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "338f339010cdaffa",
+		"official": "Nishitokyo City Ordinance Establishing Standards for the Operation of the Specified Infant and Other Childcare Attendance Support Program",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.521Z",
+			"inputTokens": 392,
+			"cachedTokens": 0,
+			"outputTokens": 319,
+			"reasoningTokens": 278,
+			"batch": true
+		}
+	}
+}

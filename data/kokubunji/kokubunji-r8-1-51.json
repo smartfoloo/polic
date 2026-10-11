@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-1-51",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第51号",
+	"official": "国分寺市介護保険条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "介護保険料の減免規定を整備",
+	"category": "福祉",
+	"summary": "介護保険料の減免に関する条例を改正します。減免に関する規定を整備する内容です。",
+	"changes": [
+		"介護保険料の減免に関する規定を整備する"
+	],
+	"who": [],
+	"why": "介護保険料の減免に関する規定を整備するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 1007,
+		"cachedTokens": 0,
+		"outputTokens": 507,
+		"reasoningTokens": 368,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.663Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 820,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 27,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f1b0d517e85cf0c8",
+		"name": "Organizes provisions on reductions and exemptions in long-term care insurance premiums",
+		"official": "Regarding an Ordinance Partially Amending the Kokubunji City Long-Term Care Insurance Ordinance",
+		"summary": "Amends the ordinance on reductions and exemptions in long-term care insurance premiums. The amendment organizes the provisions on reductions and exemptions.",
+		"changes": [
+			"Organizes provisions on reductions and exemptions in long-term care insurance premiums"
+		],
+		"who": [],
+		"why": "The city says this is to organize provisions on reductions and exemptions in long-term care insurance premiums.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.066Z",
+			"inputTokens": 546,
+			"cachedTokens": 0,
+			"outputTokens": 280,
+			"reasoningTokens": 141,
+			"batch": true
+		}
+	}
+}

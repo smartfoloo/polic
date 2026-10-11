@@ -1,0 +1,80 @@
+{
+	"id": "ebina-r8-1-16",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第16号",
+	"official": "海老名市火災予防条例の一部改正について",
+	"by": "head",
+	"session": "令和8年3月第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F24%2C2026%2F03%2F26%2C112",
+			"fetchedAt": "2026-10-08T11:25:11.274Z"
+		},
+		{
+			"label": "議案第16号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1469_8.16.pdf",
+			"fetchedAt": "2026-10-08T11:26:35.222Z"
+		}
+	],
+	"name": "火災予防のルールを一部改正",
+	"category": "防災",
+	"summary": "火災予防条例の一部を改正する議案です。原文に改正内容の記載がないため、具体的に何が変わるかは確認できません。",
+	"changes": [],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.839Z",
+		"inputTokens": 980,
+		"cachedTokens": 0,
+		"outputTokens": 397,
+		"reasoningTokens": 306,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.839Z",
+		"checkedAt": "2026-10-10T07:29:38.554Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 759,
+			"cachedTokens": 0,
+			"outputTokens": 35,
+			"reasoningTokens": 20,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4ddfdb36ef248b52",
+		"name": "Partially amends fire prevention rules",
+		"official": "Regarding the partial amendment of the Ebina City Fire Prevention Ordinance",
+		"summary": "This is a bill to partially amend the Fire Prevention Ordinance. The original text does not state the details of the amendments, so it is not possible to confirm specifically what will change.",
+		"changes": [],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.028Z",
+			"inputTokens": 510,
+			"cachedTokens": 0,
+			"outputTokens": 317,
+			"reasoningTokens": 216,
+			"batch": true
+		}
+	}
+}

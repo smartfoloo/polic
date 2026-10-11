@@ -1,0 +1,92 @@
+{
+	"id": "yokohama-r8-1-120",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第120号議案",
+	"official": "横浜市港湾施設条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第120号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si120.pdf",
+			"fetchedAt": "2026-10-08T11:02:08.980Z"
+		}
+	],
+	"name": "港湾施設の貸付・更新期間を最長30年に",
+	"category": "まちづくり",
+	"summary": "現在、港湾運営会社と指定会社への港湾施設の貸付期間は10年以内で、更新期間の上限も10年です。この議案で、貸付期間と更新期間の上限をそれぞれ30年に延ばします。",
+	"changes": [
+		"港湾施設の貸付期間の上限を10年から30年に延ばす",
+		"港湾施設の更新期間の上限を10年から30年に延ばす"
+	],
+	"who": [
+		"港湾運営会社",
+		"指定会社"
+	],
+	"why": "港湾運営会社と指定会社への港湾施設の貸付期間と更新期間の上限を延長するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.884Z",
+		"inputTokens": 1390,
+		"cachedTokens": 0,
+		"outputTokens": 685,
+		"reasoningTokens": 494,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.698Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1283,
+			"cachedTokens": 0,
+			"outputTokens": 68,
+			"reasoningTokens": 54,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2feae5216e89477e",
+		"name": "Extends port facility lease and renewal periods to up to 30 years",
+		"official": "Partial Amendment to the Yokohama City Port Facilities Ordinance",
+		"summary": "Port facility leases to port management companies and designated companies are currently limited to 10 years, and renewals are also limited to 10 years. This bill extends the limits for both the lease period and the renewal period to 30 years.",
+		"changes": [
+			"Extends the maximum lease period for port facilities from 10 years to 30 years",
+			"Extends the maximum renewal period for port facilities from 10 years to 30 years"
+		],
+		"who": [
+			"Port management companies",
+			"Designated companies"
+		],
+		"why": "The city says this is to extend the maximum lease and renewal periods for port facilities leased to port management companies and designated companies.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.072Z",
+			"inputTokens": 618,
+			"cachedTokens": 0,
+			"outputTokens": 432,
+			"reasoningTokens": 233,
+			"batch": true
+		}
+	}
+}

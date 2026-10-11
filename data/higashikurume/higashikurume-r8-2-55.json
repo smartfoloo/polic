@@ -63,5 +63,30 @@
 			"outputTokens": 74,
 			"reasoningTokens": 60
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "52a3db60ac877a1f",
+		"name": "Continue special tax reductions from FY2026 onward",
+		"official": "Ordinance Partially Amending the Higashikurume City National Health Insurance Tax Ordinance",
+		"summary": "Through FY2025, a special measure removes the two-year limit, from the date a person becomes eligible, on the period for reducing or exempting the income-based portion of National Health Insurance tax for certain people. This bill continues the same treatment from FY2026 onward and adds the amount under Article 14-2 to the income-based portion eligible for reduction or exemption. The amendment takes effect on July 1, 2026.",
+		"changes": [
+			"Remove the two-year limit after eligibility is acquired for tax reductions or exemptions",
+			"Add the amount under Article 14-2 to the income-based portion eligible for reduction or exemption"
+		],
+		"who": [
+			"Former dependants who join National Health Insurance after their household head moves from employee health insurance to the Medical Care System for Older Adults"
+		],
+		"why": "The city says this is to ease the change in the burden on dependants who join National Health Insurance after their household head moves from employee health insurance to the Medical Care System for Older Adults, and to update the reduction and exemption provisions following the implementation of amendments to laws including the Child and Child-Rearing Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:00:59.305Z",
+			"inputTokens": 752,
+			"cachedTokens": 0,
+			"outputTokens": 804,
+			"reasoningTokens": 509
+		}
 	}
 }

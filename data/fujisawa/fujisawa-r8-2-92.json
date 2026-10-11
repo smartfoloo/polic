@@ -1,0 +1,93 @@
+{
+	"id": "fujisawa-r8-2-92",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第92号",
+	"official": "藤沢市乳児等通園支援の利用可能時間に関する経過措置を定める条例の制定について",
+	"by": "head",
+	"session": "令和8年2月定例会",
+	"committee": "子ども文教常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年2月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F12%2C2026%2F03%2F18%2C112",
+			"fetchedAt": "2026-10-08T11:13:34.985Z"
+		},
+		{
+			"label": "議案第92号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2723&Sflg=2",
+			"fetchedAt": "2026-10-08T11:15:29.062Z"
+		},
+		{
+			"label": "議案第92号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2723_e01-092.pdf",
+			"fetchedAt": "2026-10-08T11:15:34.970Z"
+		}
+	],
+	"name": "通園支援の経過措置を4時間に",
+	"category": "子育て",
+	"summary": "乳児等通園支援の利用可能時間について、経過措置を市の条例で定める必要があります。この条例では、経過措置で定める時間を4時間とし、2026年4月1日に施行して、2028年3月31日に効力を失います。",
+	"changes": [
+		"経過措置で定める利用可能時間を4時間とする"
+	],
+	"who": [
+		"乳児等通園支援を利用する子どもと保護者"
+	],
+	"why": "内閣府令により、乳児等通園支援の利用可能時間に関する経過措置を市の条例で定める必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.845Z",
+		"inputTokens": 1534,
+		"cachedTokens": 0,
+		"outputTokens": 843,
+		"reasoningTokens": 648,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.845Z",
+		"checkedAt": "2026-10-10T07:29:38.566Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1416,
+			"cachedTokens": 0,
+			"outputTokens": 50,
+			"reasoningTokens": 36,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d99c8a9f25862403",
+		"name": "Sets transitional available hours for infant and other childcare support at 4 hours",
+		"official": "Regarding the Enactment of an Ordinance Establishing Transitional Measures Concerning the Available Hours for Infant and Other Childcare Support in Fujisawa City",
+		"summary": "The city needs to set transitional measures for the available hours for infant and other childcare support in a city ordinance. This ordinance sets the hours under the transitional measures at 4 hours. It takes effect on April 1, 2026, and expires on March 31, 2028.",
+		"changes": [
+			"Sets the available hours under the transitional measures at 4 hours"
+		],
+		"who": [
+			"Children who use infant and other childcare support and their parents or guardians"
+		],
+		"why": "The city says this is necessary because a Cabinet Office Order requires the city to set transitional measures concerning the available hours for infant and other childcare support in a city ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.033Z",
+			"inputTokens": 637,
+			"cachedTokens": 0,
+			"outputTokens": 835,
+			"reasoningTokens": 620,
+			"batch": true
+		}
+	}
+}

@@ -60,5 +60,35 @@
 			"outputTokens": 76,
 			"reasoningTokens": 61
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "66931870aa236336",
+		"name": "Revises housing and commuting allowances for Ome City general-service employees",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries of General-Service Employees of Ome City",
+		"summary": "Housing and commuting allowances for the city's general-service employees are set by ordinance. This bill reorganizes housing allowance categories according to age, rent amount and other factors, establishes commuting allowance amounts based on parking fees, and revises the payment table by commuting distance. It will generally take effect on April 1, 2026, with some amendments taking effect on the date of promulgation.",
+		"changes": [
+			"Sets the housing allowance at ¥7,500, ¥15,000 or ¥30,000 per month according to age, rent amount and other factors, and combines amounts when categories overlap",
+			"Establishes a commuting allowance of up to ¥5,000 per month for employees who use qualifying parking and pay the fee",
+			"Revises commuting allowances for bicycles and similar means of transport to amounts based on one-way distance and employee category",
+			"Changes some provisions so that matters determined by the mayor are instead determined by city rules"
+		],
+		"who": [
+			"Ome City general-service employees affected by the housing allowance changes",
+			"Ome City general-service employees who use qualifying parking and pay the fee",
+			"Ome City general-service employees who commute by bicycle or similar means",
+			"Ome City general-service employees covered by the provisions being revised"
+		],
+		"why": "The city says this is to revise housing and commuting allowances in light of the Tokyo Metropolitan Government Personnel Commission recommendation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:59:36.848Z",
+			"inputTokens": 793,
+			"cachedTokens": 0,
+			"outputTokens": 2111,
+			"reasoningTokens": 1756
+		}
 	}
 }

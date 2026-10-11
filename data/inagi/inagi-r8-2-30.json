@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "00a9b14439ec0619",
+		"name": "Changes the cited provision in the liability exemption rules",
+		"official": "Ordinance Partially Amending the Ordinance on Partial Exemption from Liability for Damages of the Mayor of Inagi City, etc.",
+		"summary": "The ordinance that partially exempts the mayor and others from liability for damages cites a provision of the Order for Enforcement of the Local Autonomy Act as the basis for the annual amount of standard salary. This bill changes the cited provision and takes effect on September 24, 2026.",
+		"changes": [
+			"Changes the cited provision of the Order for Enforcement of the Local Autonomy Act from Article 173-4, paragraph (1), item (i) to Article 173-5, paragraph (1), item (i)"
+		],
+		"who": [],
+		"why": "The city says this amendment is necessary because the Order for Enforcement of the Local Autonomy Act has been amended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:03.083Z",
+			"inputTokens": 627,
+			"cachedTokens": 0,
+			"outputTokens": 499,
+			"reasoningTokens": 290
+		}
 	}
 }

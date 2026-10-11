@@ -1,0 +1,52 @@
+{
+	"id": "sagamihara-r8-9-111",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第111号",
+	"official": "相模原市職員等の旅費に関する条例について",
+	"by": "head",
+	"session": "令和8年定例会9月定例会議",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "議案第111号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900011/file_contents/2026_gian_111-117.pdf",
+			"fetchedAt": "2026-10-10T14:38:09.233Z"
+		},
+		{
+			"label": "令和8年定例会9月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_9_0930.pdf",
+			"fetchedAt": "2026-10-10T14:37:42.924Z"
+		}
+	],
+	"name": "職員等の旅費の算定・精算基準を改める",
+	"category": "行政のしくみ",
+	"summary": "現在の旅費条例を全面改正し、市職員や一定の職員以外の人に支給する旅費のルールを定めます。交通費や宿泊費などの種類、算定方法、請求・精算や返納の手続きを定めます。改正後の条例は2027年4月1日に施行され、その日以後に出発する旅行に適用します。",
+	"changes": [
+		"旅費を交通費や宿泊費など12種類に分ける",
+		"交通費や宿泊費などの支給額を条例上の算定額と実際の支払額のいずれか低い額とする",
+		"市が旅行業者等に旅費相当額を直接支払えるようにする",
+		"旅費の精算や過払い分の返納、規則違反による受給額の返納を定める"
+	],
+	"who": [
+		"市職員",
+		"公務を補助するため旅行する証人・通訳・講師など",
+		"市と旅行役務提供契約を結ぶ旅行業者等"
+	],
+	"why": "国家公務員等の旅費基準の改正を踏まえ、公務の円滑な運営と市費の適正な支出を図るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.848Z",
+		"inputTokens": 10286,
+		"cachedTokens": 0,
+		"outputTokens": 1505,
+		"reasoningTokens": 1171,
+		"batch": true
+	}
+}

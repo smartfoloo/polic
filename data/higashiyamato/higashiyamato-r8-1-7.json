@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-07.pdf",
 			"fetchedAt": "2026-10-05T15:57:07.284Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "f624994960549799",
+		"official": "Higashiyamato City Ordinance Establishing Standards for the Operation of Specified Infant, etc. Childcare Attendance Support Services",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:19.169Z",
+			"inputTokens": 393,
+			"cachedTokens": 0,
+			"outputTokens": 369,
+			"reasoningTokens": 327
+		}
+	}
 }

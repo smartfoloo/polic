@@ -1,0 +1,48 @@
+{
+	"id": "sagamihara-r8-9-116",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第116号",
+	"official": "相模原市立保育所設置条例の一部を改正する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会9月定例会議",
+	"committee": "こども文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-08-24",
+	"sources": [
+		{
+			"label": "議案第116号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900011/file_contents/2026_gian_111-117.pdf",
+			"fetchedAt": "2026-10-10T14:38:09.233Z"
+		},
+		{
+			"label": "令和8年定例会9月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_9_0930.pdf",
+			"fetchedAt": "2026-10-10T14:37:42.924Z"
+		}
+	],
+	"name": "相原保育園の改修に合わせて日程を変更",
+	"category": "子育て",
+	"summary": "相模原市立相原保育園の長寿命化改修工事について、着工日の変更に伴い工事期間が見直されます。これまで2026年8月31日とされていた関連条例の施行日を、公布後1年以内に規則で定める日に変更し、条例に定める期間を1年8月から2年1月に改めます。",
+	"changes": [
+		"関連条例の施行日を、公布後1年以内に規則で定める日に改める",
+		"条例に定める期間を1年8月から2年1月に改める"
+	],
+	"who": [
+		"相模原市立相原保育園を利用する子ども・保護者"
+	],
+	"why": "相原保育園の長寿命化改修工事の着工日の変更に伴い、工事期間を見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.850Z",
+		"inputTokens": 1308,
+		"cachedTokens": 0,
+		"outputTokens": 1461,
+		"reasoningTokens": 1214,
+		"batch": true
+	}
+}

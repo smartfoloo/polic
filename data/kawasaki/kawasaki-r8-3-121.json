@@ -1,0 +1,104 @@
+{
+	"id": "kawasaki-r8-3-121",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第121号",
+	"official": "川崎市乗合自動車乗車料条例等の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第121号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_121.pdf",
+			"fetchedAt": "2026-10-08T11:12:34.663Z"
+		}
+	],
+	"name": "市バスの乗車料金を改定",
+	"category": "交通",
+	"summary": "川崎市の乗合自動車の乗車料金を改定します。220円は240円に、110円は120円になり、ほかの乗車料金や第6条の2の料金も変わります。また、改定前に発行された回数乗車券は、表示額と普通・特殊乗車料金との差額を添えて使う扱いになります。",
+	"changes": [
+		"乗車料金の220円を240円に、110円を120円に改める",
+		"第2条第1項第3号の各料金を9,900円から10,800円、28,220円から30,780円、53,460円から58,320円、6,930円から7,560円、19,750円から21,550円、37,420円から40,820円に改める",
+		"第6条の2の料金を500円から520円に改める",
+		"回数乗車券の利用時に表示額と普通・特殊乗車料金との差額を添える扱いに改める"
+	],
+	"who": [
+		"川崎市の乗合自動車を利用する人",
+		"改定前に発行された回数乗車券を持つ人"
+	],
+	"why": "乗車料金を改定することなどのためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.874Z",
+		"inputTokens": 1695,
+		"cachedTokens": 0,
+		"outputTokens": 2010,
+		"reasoningTokens": 1656,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.652Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "回数乗車券の利用時に表示額と普通・特殊乗車料金との差額を添える扱いに改める",
+				"note": "附則第2項にある、施行日前に発行された定期乗車券は有効期間中に限り引き続き使用できるという経過措置が、changesに記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1723,
+			"cachedTokens": 0,
+			"outputTokens": 320,
+			"reasoningTokens": 206,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a566052ea0bad3c9",
+		"name": "Revises Kawasaki City bus fares",
+		"official": "Regarding the enactment of an ordinance partially amending the Kawasaki City Shared-Ride Motor Vehicle Passenger Fare Ordinance, etc.",
+		"summary": "Kawasaki City is revising fares for its shared-ride buses. The ¥220 fare will become ¥240, and the ¥110 fare will become ¥120. Other fares and the charge in Article 6-2 will also change. For coupon tickets issued before the revision, users will need to pay the difference between the amount printed on the ticket and the regular or special fare when using them.",
+		"changes": [
+			"Raise the ¥220 fare to ¥240 and the ¥110 fare to ¥120",
+			"Change the fares in Article 2, Paragraph 1, Item 3 from ¥9,900 to ¥10,800, from ¥28,220 to ¥30,780, from ¥53,460 to ¥58,320, from ¥6,930 to ¥7,560, from ¥19,750 to ¥21,550, and from ¥37,420 to ¥40,820",
+			"Raise the charge in Article 6-2 from ¥500 to ¥520",
+			"Require users of coupon tickets issued before the revision to pay the difference between the amount printed on the ticket and the regular or special fare"
+		],
+		"who": [
+			"People who use Kawasaki City's shared-ride buses",
+			"People who hold coupon tickets issued before the revision"
+		],
+		"why": "The city says this is to revise fares and for other reasons.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.061Z",
+			"inputTokens": 769,
+			"cachedTokens": 0,
+			"outputTokens": 737,
+			"reasoningTokens": 390,
+			"batch": true
+		}
+	}
+}

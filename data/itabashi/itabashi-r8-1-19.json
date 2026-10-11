@@ -64,5 +64,31 @@
 			"outputTokens": 117,
 			"reasoningTokens": 103
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d3e60a9bb0be4b35",
+		"name": "Changes how health checks are handled for children using childcare services",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "The ordinance requires home-based childcare providers and others to conduct health checks for the infants and young children using their services. This bill allows providers to omit all or part of a health check when a health check conducted before the child starts using the service at a child guidance center or elsewhere, or a health examination under the Maternal and Child Health Act, is considered equivalent. It also requires providers to obtain the results of those checks or examinations.",
+		"changes": [
+			"Allow providers to omit all or part of a health check when a separately conducted health check or examination is considered equivalent",
+			"Require providers who omit a health check to obtain the results of the separately conducted health check or examination"
+		],
+		"who": [
+			"Home-based childcare providers and others",
+			"Parents or guardians of infants and young children using home-based childcare services and others"
+		],
+		"why": "The ward says this is to revise provisions on health checks for infants and young children using childcare services, and to make other necessary changes, following an amendment to a Cabinet Office Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:06:32.272Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 630,
+			"reasoningTokens": 345
+		}
 	}
 }

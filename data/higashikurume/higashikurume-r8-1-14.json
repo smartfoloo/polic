@@ -82,5 +82,35 @@
 			"outputTokens": 563,
 			"reasoningTokens": 332
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ae0391a8ae1f30f9",
+		"name": "Adds a child-rearing support portion to national health insurance tax",
+		"official": "Ordinance Partially Amending the Higashikurume City National Health Insurance Tax Ordinance",
+		"summary": "The current National Health Insurance tax has no portion allocated to payments for child and child-rearing support. This bill creates a new portion starting in fiscal year 2026, with an income-based rate of 0.30%, an insured-person per-capita amount of ¥1,900, and an insured-person per-capita amount of ¥200 for each insured person aged 18 or older. It also revises the cap on the basic taxable amount, the per-capita amount, and various reductions.",
+		"changes": [
+			"Set the income-based rate for the child and child-rearing support payment portion at 0.30%, the per-capita amount at ¥1,900 per person, and the per-capita amount for insured people aged 18 or older at ¥200 per person, with a cap of ¥30,000",
+			"Raise the cap on the basic taxable amount from ¥660,000 to ¥670,000 and the insured-person per-capita amount from ¥38,300 to ¥39,300",
+			"Revise the reduction thresholds and reduction amounts for low-income households",
+			"Introduce reductions in the support payment portion for preschool children, insured people giving birth, and insured people under 18"
+		],
+		"who": [
+			"National Health Insurance enrollees in Higashikurume City",
+			"Household heads of National Health Insurance enrollees in Higashikurume City",
+			"Households with insured people under 18 or preschool children",
+			"Households with an insured person giving birth"
+		],
+		"why": "The city says it is revising tax rates and other amounts from fiscal year 2026 onward to promote sound management of the National Health Insurance program and in line with the enforcement of laws amending the Child and Child-Rearing Support Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:58:52.105Z",
+			"inputTokens": 869,
+			"cachedTokens": 0,
+			"outputTokens": 953,
+			"reasoningTokens": 516
+		}
 	}
 }

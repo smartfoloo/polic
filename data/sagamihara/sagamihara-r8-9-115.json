@@ -1,0 +1,47 @@
+{
+	"id": "sagamihara-r8-9-115",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第115号",
+	"official": "相模原市国民健康保険診療所条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会9月定例会議",
+	"committee": "民生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "議案第115号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900011/file_contents/2026_gian_111-117.pdf",
+			"fetchedAt": "2026-10-10T14:38:09.233Z"
+		},
+		{
+			"label": "令和8年定例会9月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_9_0930.pdf",
+			"fetchedAt": "2026-10-10T14:37:42.924Z"
+		}
+	],
+	"name": "内郷診療所の水曜休診をなくす",
+	"category": "健康・医療",
+	"summary": "現在、内郷診療所は日曜日、水曜日、土曜日が休診日です。令和9年4月1日から水曜日を休診日から外します。",
+	"changes": [
+		"水曜日を休診日から外す"
+	],
+	"who": [
+		"内郷診療所を利用する人"
+	],
+	"why": "中山間地域の持続可能な医療の在り方に係る基本方針に基づく国民健康保険診療所と市立診療所の再編を踏まえ、休診日の規定を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.850Z",
+		"inputTokens": 1398,
+		"cachedTokens": 0,
+		"outputTokens": 579,
+		"reasoningTokens": 381,
+		"batch": true
+	}
+}

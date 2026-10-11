@@ -60,5 +60,35 @@
 			"outputTokens": 86,
 			"reasoningTokens": 71
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4b3d97ce760ee937",
+		"name": "Changes how notices of adverse dispositions are made public",
+		"official": "Ordinance Partially Amending the Ota City Administrative Procedure Ordinance",
+		"summary": "Currently, the ward's Administrative Procedure Ordinance sets out methods for notifying people who are subject to adverse dispositions by public notice. This bill makes the contents of public notices widely available for viewing and allows them to be posted on noticeboards at ward offices or viewed on electronic device screens inside those offices. A notice is treated as delivered two weeks after the public-notice measures begin. The ordinance takes effect on May 21, 2026.",
+		"changes": [
+			"Make the contents of public notices viewable by an unspecified number of people, using a method set by rules",
+			"Allow the contents to be posted on noticeboards at ward offices or viewed on electronic device screens inside those offices",
+			"Treat a notice as delivered two weeks after the public-notice measures begin",
+			"Change the Japanese term for “addressee” in the ordinance from 「名あて人」 to 「名宛人」"
+		],
+		"who": [
+			"People and businesses receiving notice of adverse dispositions by public notice",
+			"People and businesses able to view the contents of public notices",
+			"People and businesses receiving notice through ward-office noticeboards or electronic screens",
+			"Addressees of notices about adverse dispositions"
+		],
+		"why": "The ward says this is to revise the methods for serving notices by public notice in connection with notices about hearings and other matters, and to update related provisions, following amendments to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:03:39.571Z",
+			"inputTokens": 774,
+			"cachedTokens": 0,
+			"outputTokens": 1638,
+			"reasoningTokens": 1289
+		}
 	}
 }

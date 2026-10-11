@@ -1,0 +1,90 @@
+{
+	"id": "kawasaki-r8-3-127",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第127号",
+	"official": "川崎市青少年科学館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第127号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_127.pdf",
+			"fetchedAt": "2026-10-08T11:13:10.642Z"
+		}
+	],
+	"name": "プラネタリウム一般投影の観覧料を改定",
+	"category": "教育",
+	"summary": "川崎市青少年科学館のプラネタリウム一般投影の観覧料を改定します。高校生・大学生と65歳以上の人は個人220円、団体は1人につき170円、一般は個人440円、団体は1人につき350円となり、令和9年4月1日から施行します。",
+	"changes": [
+		"高校生・大学生と65歳以上の人の観覧料を個人220円、団体1人につき170円に改定する",
+		"一般の観覧料を個人440円、団体1人につき350円に改定する"
+	],
+	"who": [
+		"青少年科学館のプラネタリウム一般投影を観覧する人"
+	],
+	"why": "プラネタリウムの一般投影の観覧料を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.875Z",
+		"inputTokens": 1274,
+		"cachedTokens": 0,
+		"outputTokens": 825,
+		"reasoningTokens": 586,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.655Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1213,
+			"cachedTokens": 0,
+			"outputTokens": 73,
+			"reasoningTokens": 58,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3c6fd7abee9442cb",
+		"name": "Revises admission fees for general planetarium screenings",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Youth Science Museum Ordinance",
+		"summary": "Admission fees for general planetarium screenings at the Kawasaki City Youth Science Museum will be revised. For high school and university students and people aged 65 or older, the fee will be ¥220 for individuals and ¥170 per person for groups. For the general category, the fee will be ¥440 for individuals and ¥350 per person for groups. The changes will take effect on April 1, 2027.",
+		"changes": [
+			"Set the fee for high school and university students and people aged 65 or older at ¥220 for individuals and ¥170 per person for groups",
+			"Set the fee for the general category at ¥440 for individuals and ¥350 per person for groups"
+		],
+		"who": [
+			"People attending general planetarium screenings at the Youth Science Museum"
+		],
+		"why": "The city says this is to revise admission fees for general planetarium screenings.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.062Z",
+			"inputTokens": 675,
+			"cachedTokens": 0,
+			"outputTokens": 517,
+			"reasoningTokens": 273,
+			"batch": true
+		}
+	}
+}

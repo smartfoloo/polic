@@ -74,5 +74,33 @@
 			"outputTokens": 278,
 			"reasoningTokens": 172
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6ffebd851d8a0d68",
+		"name": "Revises how business trip expenses are paid to city employees",
+		"official": "Ordinance Partially Amending the Ordinance on Travel Expenses for Chofu City Employees, etc.",
+		"summary": "The city will amend the ordinance governing travel expenses paid to employees and others for business trips and relocations. It will revise the types of travel expenses, how they are calculated, and the procedures for claims and settlements. The changes will take effect on April 1, 2026.",
+		"changes": [
+			"Reorganizes the types of travel expenses and revises how transportation and accommodation costs are calculated",
+			"Sets payments for transportation and accommodation costs at the lower of the amount calculated under the ordinance and the amount actually paid",
+			"Allows electronic records and methods to be used for claims and settlements",
+			"Includes a partner in a qualifying partnership relationship among family members for travel-expense purposes"
+		],
+		"who": [
+			"Chofu City employees",
+			"Employees’ family members and bereaved families"
+		],
+		"why": "The city says this is to revise how employees’ travel expenses are paid and the costs of transportation and accommodation, and to make other necessary amendments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:17:06.929Z",
+			"inputTokens": 713,
+			"cachedTokens": 0,
+			"outputTokens": 676,
+			"reasoningTokens": 412
+		}
 	}
 }

@@ -1,0 +1,93 @@
+{
+	"id": "tama-r8-3-103",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第103号議案",
+	"official": "多摩市公民館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第103号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "公民館の利用料と入館制限を見直す",
+	"category": "教育",
+	"summary": "公民館の施設や備品の使用料を定めた表と、使用者の区分を改めます。また、職員の指示に従わない場合などに、委員会が入館を断ったり、退館を命じたりできる規定を設けます。一部の改正は公布日から、使用料などに関する改正は令和10年1月1日から施行されます。",
+	"changes": [
+		"施設や備品の使用料を定めた表を改める",
+		"市内団体・市外団体の区分と個人利用時の料金区分を改める",
+		"営利目的の使用を営利使用として定義する",
+		"条件に該当する人の入館を断り、または退館を命じられる規定を設ける"
+	],
+	"who": [
+		"公民館を利用する団体や個人",
+		"公民館に入る人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:09:19.214Z",
+		"inputTokens": 6924,
+		"cachedTokens": 0,
+		"outputTokens": 1095,
+		"reasoningTokens": 840
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:09:19.214Z",
+		"checkedAt": "2026-10-09T11:50:29.597Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6886,
+			"cachedTokens": 0,
+			"outputTokens": 67,
+			"reasoningTokens": 53
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8b738bd195327600",
+		"name": "Reviews community center fees and entry restrictions",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Community Center Ordinance",
+		"summary": "The bill revises the table of fees for using community center facilities and equipment, as well as the categories of users. It also establishes rules allowing the committee to refuse entry or order someone to leave, including when they do not follow staff instructions. Some amendments take effect on the date of promulgation, while the amendments related to fees and other matters take effect on January 1, 2028.",
+		"changes": [
+			"Revises the table of fees for using facilities and equipment",
+			"Revises the categories for groups inside and outside the city and the fee categories for individual use",
+			"Defines use for profit as commercial use",
+			"Establishes rules allowing the committee to refuse entry to people who meet certain conditions or order them to leave"
+		],
+		"who": [
+			"Groups and individuals using community centers",
+			"People entering community centers"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:55:28.106Z",
+			"inputTokens": 694,
+			"cachedTokens": 0,
+			"outputTokens": 823,
+			"reasoningTokens": 581
+		}
+	}
+}

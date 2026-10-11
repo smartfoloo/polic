@@ -74,5 +74,31 @@
 			"outputTokens": 551,
 			"reasoningTokens": 231
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d08ad94563b71166",
+		"name": "Sets special rules for FY2026 long-term care insurance premiums",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are set according to factors such as income. This bill establishes special rules for FY2026 for calculating employment income and determining whether a person is subject to city resident tax. It also adds an exception to Article 19, paragraph 2 of the ordinance. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Establishes a special rule for calculating the income used to calculate premiums when employment income is ¥551,000 or more but less than ¥1,900,000",
+			"Establishes a special rule for cases where a person is treated as being subject to city resident tax when determining the premium rate",
+			"Adds an exception to Article 19, paragraph 2 of the ordinance for people whose relevant circumstances are clear"
+		],
+		"who": [
+			"Category 1 insured persons whose FY2026 long-term care insurance premiums are being calculated"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:18:40.707Z",
+			"inputTokens": 687,
+			"cachedTokens": 0,
+			"outputTokens": 777,
+			"reasoningTokens": 516
+		}
 	}
 }

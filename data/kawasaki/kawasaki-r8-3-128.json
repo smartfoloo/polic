@@ -1,0 +1,92 @@
+{
+	"id": "kawasaki-r8-3-128",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第128号",
+	"official": "川崎市立日本民家園条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第128号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_128.pdf",
+			"fetchedAt": "2026-10-08T11:13:16.557Z"
+		}
+	],
+	"name": "日本民家園の普通入園料を改定",
+	"category": "教育",
+	"summary": "日本民家園の普通入園料は、区分ごとに個人と団体の料金が定められています。この議案では、一般と高校生・大学生・65歳以上の人の料金を改め、2027年4月1日から施行します。",
+	"changes": [
+		"一般の個人料金を600円、団体料金を1人につき480円にする",
+		"高校生・大学生・65歳以上の人の個人料金を360円、団体料金を1人につき280円にする"
+	],
+	"who": [
+		"一般の入園者",
+		"高校生・大学生・65歳以上の入園者"
+	],
+	"why": "日本民家園の普通入園料を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.875Z",
+		"inputTokens": 1250,
+		"cachedTokens": 0,
+		"outputTokens": 855,
+		"reasoningTokens": 625,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.655Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1154,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 45,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b099ff36e7bc4663",
+		"name": "Revises regular admission fees at the Japan Open-Air Folk House Museum",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki Municipal Japanese Folk House Museum Ordinance",
+		"summary": "The regular admission fees at the Japan Open-Air Folk House Museum are set separately for individuals and groups in each category. This bill revises the fees for general visitors and for high school and university students and people aged 65 or older. It will take effect on April 1, 2027.",
+		"changes": [
+			"Sets the individual fee for general visitors at ¥600 and the group fee at ¥480 per person",
+			"Sets the individual fee for high school and university students and people aged 65 or older at ¥360 and the group fee at ¥280 per person"
+		],
+		"who": [
+			"General visitors",
+			"High school and university students and visitors aged 65 or older"
+		],
+		"why": "The city says this is to revise the regular admission fees at the Japan Open-Air Folk House Museum.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.062Z",
+			"inputTokens": 641,
+			"cachedTokens": 0,
+			"outputTokens": 754,
+			"reasoningTokens": 516,
+			"batch": true
+		}
+	}
+}

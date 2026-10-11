@@ -64,5 +64,31 @@
 			"outputTokens": 78,
 			"reasoningTokens": 64
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "37a58a100c7c33dc",
+		"name": "Renames leave and introduces partial childcare leave",
+		"official": "Ordinance Partially Amending the Ordinance on Working Hours, Holidays, Leave, etc. for Higashikurume City Employees",
+		"summary": "The current name “menstrual leave” will be changed to “health management leave.” The city will also introduce a system allowing employees raising children up to the third grade of elementary school to take all or part of their working hours off. Their pay will be reduced for the hours they take off. The changes will take effect on April 1, 2026.",
+		"changes": [
+			"Renames menstrual leave as health management leave",
+			"Introduces partial childcare leave, allowing employees to take all or part of their daily working hours off",
+			"Reduces pay for hours taken off, with the amount calculated based on salary and the regional allowance"
+		],
+		"who": [
+			"City employees raising children up to the third grade of elementary school, excluding employees eligible for partial leave"
+		],
+		"why": "The city says it will rename the leave in line with changes to the Tokyo Metropolitan Government’s system and introduce partial childcare leave.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:00:00.741Z",
+			"inputTokens": 704,
+			"cachedTokens": 0,
+			"outputTokens": 660,
+			"reasoningTokens": 401
+		}
 	}
 }

@@ -34,7 +34,7 @@
 	],
 	"who": [
 		"障害者手帳の交付を受けた人などで構成し、市長が認める団体",
-		"市内の中学生以下を主な構成員とする市内団体",
+		"市長が認める、市内の中学生以下を主な構成員とする市内団体",
 		"市長が適当と認める団体"
 	],
 	"why": "健康センターの施設の一部を貸し出せるようにするためと、市は説明しています。",
@@ -42,54 +42,89 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:06:56.007Z",
+		"generatedAt": "2026-10-08T23:25:30.761Z",
 		"inputTokens": 2937,
 		"cachedTokens": 0,
 		"outputTokens": 1833,
-		"reasoningTokens": 1552
+		"reasoningTokens": 1552,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:25:30.761Z",
+			"notes": [
+				"ai [error] who/fact: 「市内の中学生以下を主な構成員とする市内団体」 → 第3条第2項第2号では、この団体についても「市長が認めるもの」という条件があるが、要約では抜けている。"
+			],
+			"inputTokens": 3397,
+			"cachedTokens": 1025,
+			"outputTokens": 430,
+			"reasoningTokens": 109
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:06:56.007Z",
-		"checkedAt": "2026-10-08T05:40:21.733Z",
+		"draftAt": "2026-10-08T23:25:30.761Z",
+		"checkedAt": "2026-10-08T23:25:40.664Z",
 		"flags": [],
 		"issues": [
 			{
-				"field": "who",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "市内の中学生以下を主な構成員とする市内団体",
-				"note": "第3条第2項第2号では、この団体についても「市長が認めるもの」という条件があるが、要約では抜けている。"
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "使用時間を午前9時から午後5時までとし、休業日を定める",
+				"note": "第8条の、同一団体による同一施設の連続3日以上の使用を原則禁止する使用期間の制限が抜けています。"
 			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "使用の承認や制限、使用後の原状回復などのルールを定める",
-				"note": "第8条の、同一団体による同一施設の連続3日以上の使用を原則禁止する規定が記載されていない。"
+				"note": "第15条の、貸出施設や付帯設備に損害を生じさせた使用団体に賠償を義務付ける規定が抜けています。"
 			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "使用の承認や制限、使用後の原状回復などのルールを定める",
-				"note": "第15条の、施設や付帯設備に損害を生じさせた使用団体に賠償を義務付ける規定が記載されていない。"
-			},
-			{
-				"field": "changes",
-				"kind": "omission",
-				"severity": "check",
-				"quote": "使用の承認や制限、使用後の原状回復などのルールを定める",
-				"note": "第16条の、健康センターとその敷地内での物品販売等を、市長の承認がある場合を除き何人にも禁止する規定が記載されていない。"
+				"note": "第16条の、健康センターとその敷地内での物品販売行為等を、市長の承認がある場合を除き何人にも禁止する規定が抜けています。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 2920,
+			"inputTokens": 2926,
 			"cachedTokens": 0,
-			"outputTokens": 581,
-			"reasoningTokens": 159
+			"outputTokens": 447,
+			"reasoningTokens": 120
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dd880f1045eb18f3",
+		"name": "Makes some Health Center facilities available free of charge",
+		"official": "Ordinance Partially Amending the Ome City Health Center Ordinance",
+		"summary": "The current ordinance has no provision for lending out some Health Center facilities. The amendment would allow certain groups approved by the city or the mayor to use some facilities free of charge, and would set rules such as hours of use. It will take effect on August 1, 2026.",
+		"changes": [
+			"Make some Health Center facilities available for use",
+			"Set the fee for using these facilities at ¥0",
+			"Set use hours from 9 a.m. to 5 p.m. and designate days when the facilities are closed",
+			"Set rules for approving and restricting use, and for restoring facilities to their original condition after use"
+		],
+		"who": [
+			"Groups made up of people who have been issued disability certificates, among others, and approved by the mayor",
+			"Groups based in the city whose main members are city residents aged 15 or younger, and approved by the mayor",
+			"Groups the mayor considers appropriate"
+		],
+		"why": "The city says the change will allow some Health Center facilities to be lent out.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:58:27.777Z",
+			"inputTokens": 724,
+			"cachedTokens": 0,
+			"outputTokens": 655,
+			"reasoningTokens": 383
 		}
 	}
 }

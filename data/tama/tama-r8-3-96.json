@@ -1,0 +1,99 @@
+{
+	"id": "tama-r8-3-96",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第96号議案",
+	"official": "多摩市立公園条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第96号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "鶴牧西公園の施設使用料を設定",
+	"category": "まちづくり",
+	"summary": "鶴牧西公園の有料施設について、施設や利用区分ごとの1時間当たりの使用料を改めます。市内扱いとなる団体などの条件を見直し、営利使用の定義を加えます。改正後の規定は令和10年1月1日以後の施設使用に適用されます。",
+	"changes": [
+		"みどりの家「壱の土間」の使用料を、市内の者は1,090円、市外の者は4,930円、市内の者の営利使用は4,930円、市外の者の営利使用は9,860円に定める",
+		"みどりの家「弐の土間」の使用料を、市内の者は300円、市外の者は600円、市内の者の営利使用は600円、市外の者の営利使用は1,200円に定める",
+		"農家風休憩施設「奥の間等」の使用料を、市内の者は210円、市外の者は420円、市内の者の営利使用は420円、市外の者の営利使用は840円に定める",
+		"市内扱いとなる団体などの条件を改め、営利使用を営利目的の活動などのための使用と定める"
+	],
+	"who": [
+		"鶴牧西公園の有料施設を利用する人や団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:13:43.611Z",
+		"inputTokens": 1541,
+		"cachedTokens": 0,
+		"outputTokens": 1700,
+		"reasoningTokens": 1306
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:13:43.611Z",
+		"checkedAt": "2026-10-09T11:52:23.087Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市内扱いとなる団体などの条件を改め、営利使用を営利目的の活動などのための使用と定める",
+				"note": "市内扱いの条件について、原文にある「過半数」から「半数以上」への変更と、「多摩市内に事務所を有する法人」の追加という、対象に直接関わる具体的な変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1608,
+			"cachedTokens": 0,
+			"outputTokens": 213,
+			"reasoningTokens": 87
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ad7c7923e8a59d91",
+		"name": "Sets fees for facilities at Tsurumaki Nishi Park",
+		"official": "Regarding the enactment of an ordinance to partially amend the Tama City Parks Ordinance",
+		"summary": "The hourly fees for each facility and category of use at the paid facilities in Tsurumaki Nishi Park will be revised. The conditions for organizations and others to be treated as being within the city will be reviewed, and a definition of commercial use will be added. The amended provisions will apply to use of the facilities on or after January 1, 2028.",
+		"changes": [
+			"Sets the fee for the Midori House “Ichi no Doma” at ¥1,090 for those classified as within the city, ¥4,930 for those classified as outside the city, ¥4,930 for commercial use by those within the city, and ¥9,860 for commercial use by those outside the city",
+			"Sets the fee for the Midori House “Ni no Doma” at ¥300 for those classified as within the city, ¥600 for those classified as outside the city, ¥600 for commercial use by those within the city, and ¥1,200 for commercial use by those outside the city",
+			"Sets the fee for the farmhouse-style rest facility “Oku no Ma, etc.” at ¥210 for those classified as within the city, ¥420 for those classified as outside the city, ¥420 for commercial use by those within the city, and ¥840 for commercial use by those outside the city",
+			"Revises the conditions for organizations and others to be treated as being within the city, and defines commercial use as use for activities for commercial purposes, etc."
+		],
+		"who": [
+			"People and organizations using paid facilities at Tsurumaki Nishi Park"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:57:30.324Z",
+			"inputTokens": 799,
+			"cachedTokens": 0,
+			"outputTokens": 1381,
+			"reasoningTokens": 986
+		}
+	}
+}

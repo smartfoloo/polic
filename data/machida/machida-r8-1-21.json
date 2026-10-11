@@ -65,5 +65,33 @@
 			"outputTokens": 77,
 			"reasoningTokens": 62
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "085311f7ab6b93cf",
+		"name": "Changes applications covered for condominium rebuilding and other matters",
+		"official": "Ordinance Partially Amending the Machida City Fee Ordinance",
+		"summary": "The ordinance sets fees for applications to ease road-related restrictions on existing buildings and for special permits accompanying condominium rebuilding. This bill revises the provisions that form the basis for these applications and the types of condominium-related applications covered. The fees are ¥28,000 per application for existing-building matters and ¥160,000 per condominium-related application.",
+		"changes": [
+			"Changes the legal basis for applications concerning the relationship between existing buildings' sites and roads from paragraph 6 to paragraph 11 of Article 137-12 of the Cabinet Order",
+			"Changes the legal basis for applications concerning restrictions on building within roads for existing buildings from paragraph 7 to paragraph 12 of Article 137-12 of the Cabinet Order",
+			"Changes the condominium-related applications covered from rebuilding condominiums certified as requiring demolition to applications for special permission for floor-area ratios or the height of each part in connection with rebuilding or renewal of condominiums certified as requiring demolition, etc."
+		],
+		"who": [
+			"People applying to ease restrictions concerning the relationship between existing buildings' sites and roads",
+			"People applying to ease restrictions on building within roads for existing buildings",
+			"People applying for special permission in connection with condominium rebuilding or renewal"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:14:23.405Z",
+			"inputTokens": 778,
+			"cachedTokens": 0,
+			"outputTokens": 1860,
+			"reasoningTokens": 1552
+		}
 	}
 }

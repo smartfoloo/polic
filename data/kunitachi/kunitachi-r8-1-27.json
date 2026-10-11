@@ -64,5 +64,31 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c947f47159229c43",
+		"name": "Changes the name of leave and expands the age range of eligible children",
+		"official": "Bill to Partially Amend the Ordinance on Employees’ Working Hours, Holidays, Leave, etc.",
+		"summary": "The bill renames “menstrual leave” to “health management leave.” It also expands the age range of children eligible for childcare support partial leave. The amendments will take effect on April 1, 2026.",
+		"changes": [
+			"Renames “menstrual leave” as “health management leave”",
+			"Raises the upper age limit for children eligible for childcare support partial leave from 7 to 9"
+		],
+		"who": [
+			"Kunitachi City employees",
+			"Employees who use childcare support partial leave"
+		],
+		"why": "The city says the changes are intended to reduce psychological reluctance to taking leave and expand the age range of children eligible for childcare support partial leave.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:15.543Z",
+			"inputTokens": 663,
+			"cachedTokens": 0,
+			"outputTokens": 664,
+			"reasoningTokens": 455
+		}
 	}
 }

@@ -1,0 +1,42 @@
+{
+	"id": "kiyose-r8-2-34",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第34号",
+	"official": "清瀬市介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/286/r8.2.sityou.gian2.pdf",
+			"fetchedAt": "2026-10-10T14:56:52.936Z"
+		}
+	],
+	"name": "介護保険の特例減免を申請なしでも扱えるように",
+	"category": "福祉",
+	"summary": "特例減免の対象となる住民税非課税者の申請の扱いを定めます。本人が申請しなくても、システム上で対応できるようにします。",
+	"changes": [
+		"本人の申請によらないシステム上の対応を可能にする"
+	],
+	"who": [
+		"特例減免の対象となる住民税非課税者"
+	],
+	"why": "本人の申請によらずシステム上で対応できるようにするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.833Z",
+		"inputTokens": 1034,
+		"cachedTokens": 0,
+		"outputTokens": 659,
+		"reasoningTokens": 503,
+		"batch": true
+	}
+}

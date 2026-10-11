@@ -1,0 +1,107 @@
+{
+	"id": "kawasaki-r8-1-21",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第21号",
+	"official": "川崎市火災予防条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-17",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第21号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_21.pdf",
+			"fetchedAt": "2026-10-08T11:08:27.494Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "簡易サウナの設置基準を追加",
+	"category": "防災",
+	"summary": "屋外などに設けるテント型・木製の円筒形サウナ室の放熱設備について、新たに「簡易サウナ設備」として設置や管理の基準を定めます。一般サウナ設備との区分を設け、条例の該当箇所に「感震ブレーカー」の文言を加えます。条例は2026年3月31日から施行し、感震ブレーカーに関する改正は公布日から施行します。",
+	"changes": [
+		"簡易サウナ設備の設置距離や、温度が異常に上がった場合の熱源遮断などの基準を設ける",
+		"サウナ設備を簡易サウナ設備と一般サウナ設備に分ける",
+		"条例の該当箇所に「感震ブレーカー」の文言を加える",
+		"個人が設けるものを除き、簡易サウナ設備を第62条の対象に加える"
+	],
+	"who": [
+		"簡易サウナ設備を設置する人や事業者"
+	],
+	"why": "省令の一部改正に伴い、簡易サウナ設備の位置、構造、管理の基準を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.549Z",
+		"inputTokens": 1988,
+		"cachedTokens": 0,
+		"outputTokens": 1771,
+		"reasoningTokens": 1426,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.549Z",
+			"notes": [
+				"ai [error] changes/fact: 「住宅用防災機器に感震ブレーカーを加える」 → 原文は「住宅用防災機器」の次に「、感震ブレーカー」を加える改正であり、住宅用防災機器の種類に含めるとは記載していない。summaryにも同じ表現がある。"
+			],
+			"inputTokens": 2501,
+			"cachedTokens": 1025,
+			"outputTokens": 764,
+			"reasoningTokens": 409,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.869Z",
+		"checkedAt": "2026-10-10T07:29:38.632Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "住宅用防災機器に感震ブレーカーを加える",
+				"note": "原文は「住宅用防災機器」の次に「、感震ブレーカー」を加える改正であり、住宅用防災機器の種類に含めるとは記載していない。summaryにも同じ表現がある。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "簡易サウナ設備の設置距離や、温度が異常に上がった場合の熱源遮断などの基準を設ける",
+				"note": "第8条の2では対象を定格出力6キロワット以下で、まき又は電気を熱源とする設備に限定しているが、この対象範囲が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "簡易サウナ設備の設置距離や、温度が異常に上がった場合の熱源遮断などの基準を設ける",
+				"note": "第8条の2第1項第2号にある、まきを熱源とする設備は所定の位置に消火器を設置すれば熱源遮断装置の設置義務を適用しないという例外が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2006,
+			"cachedTokens": 0,
+			"outputTokens": 597,
+			"reasoningTokens": 272,
+			"batch": true
+		}
+	}
+}

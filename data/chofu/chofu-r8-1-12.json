@@ -63,5 +63,30 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c3df45f24c4d20ac",
+		"name": "Changes the name of staff leave to health management leave",
+		"official": "Ordinance Partially Amending the Chofu City Ordinance Concerning Working Hours, Days Off, Leave, etc.",
+		"summary": "Currently, the ordinance setting working hours, etc., and the salary ordinance use the term “menstrual leave.” From April 1, 2026, the term will be changed to “health management leave” in both ordinances.",
+		"changes": [
+			"Change “menstrual leave” to “health management leave” in the ordinance setting working hours, etc.",
+			"Change “menstrual leave” to “health management leave” in the salary ordinance"
+		],
+		"who": [
+			"Chofu City employees"
+		],
+		"why": "The city says this is to change the name of menstrual leave.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:23.540Z",
+			"inputTokens": 605,
+			"cachedTokens": 0,
+			"outputTokens": 441,
+			"reasoningTokens": 250
+		}
 	}
 }

@@ -1,0 +1,79 @@
+{
+	"id": "hamura-r8-1-26",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第26号",
+	"official": "羽村市乳児等通園支援事業の設備及び運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-10",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "乳児等通園支援の運営基準を改正",
+	"category": "子育て",
+	"summary": "乳児等通園支援事業の設備や運営に関する市の基準を定めています。国の基準改正に合わせて条例の一部を改め、2026年4月1日に施行します。",
+	"changes": [
+		"国の基準改正に合わせて条例の一部を改める"
+	],
+	"who": [],
+	"why": "国の基準改正に伴い条例を改正するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.858Z",
+		"inputTokens": 1083,
+		"cachedTokens": 0,
+		"outputTokens": 578,
+		"reasoningTokens": 417,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.858Z",
+		"checkedAt": "2026-10-10T07:29:38.605Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 919,
+			"cachedTokens": 0,
+			"outputTokens": 43,
+			"reasoningTokens": 29,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "939b1b69a66c5601",
+		"name": "Amends standards for infant and other childcare attendance support services",
+		"official": "Ordinance Partially Amending the Hamura City Ordinance Establishing Standards for the Facilities and Operation of the Infant and Other Childcare Attendance Support Program",
+		"summary": "The ordinance sets the city’s standards for the facilities and operation of the infant and other childcare attendance support program. The city is partially amending the ordinance to align it with revisions to national standards. It will take effect on April 1, 2026.",
+		"changes": [
+			"Amends part of the ordinance to align it with revised national standards"
+		],
+		"who": [],
+		"why": "The city says it is amending the ordinance in response to revisions to national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.044Z",
+			"inputTokens": 586,
+			"cachedTokens": 0,
+			"outputTokens": 557,
+			"reasoningTokens": 384,
+			"batch": true
+		}
+	}
+}

@@ -69,5 +69,33 @@
 			"outputTokens": 281,
 			"reasoningTokens": 147
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "89d2ea6500941de0",
+		"name": "Sets operating standards for specified infant and other child attendance support services",
+		"official": "Regarding the Enactment of an Ordinance Establishing Standards for the Operation of Tama City Specified Infant and Other Child Attendance Support Services",
+		"summary": "This ordinance sets operating standards for specified infant and other child attendance support services. It establishes rules on matters including capacity, interviews before use, fee collection, staffing, responses to accidents, and record retention. It will take effect on April 1, 2026.",
+		"changes": [
+			"Sets standards for capacity, interviews before use, and explanations of important matters",
+			"Sets rules for collecting fees, explaining them to parents or guardians and obtaining their consent, and issuing receipts",
+			"Establishes operating rules on staffing, preventing abuse, and responding to complaints and accidents",
+			"Requires providers to keep records of support provided and other records for five years from the date the service is completed"
+		],
+		"who": [
+			"Providers of specified infant and other child attendance support services",
+			"Children certified for infant and other child support benefits and their parents or guardians"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:17:57.299Z",
+			"inputTokens": 708,
+			"cachedTokens": 0,
+			"outputTokens": 839,
+			"reasoningTokens": 585
+		}
 	}
 }

@@ -57,5 +57,29 @@
 			"outputTokens": 52,
 			"reasoningTokens": 37
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1d299408592c48cf",
+		"name": "Suspends use of Kamata Children's Hall during major renovation",
+		"official": "Ordinance on the Suspension of Use of Ota City Kamata Children's Hall Prescribed in the Ota City Children's Hall Ordinance",
+		"summary": "Ota City Kamata Children's Hall will suspend operations due to major renovation work. The suspension period will run from September 1, 2026, to August 31, 2028.",
+		"changes": [
+			"Suspends use of Kamata Children's Hall"
+		],
+		"who": [
+			"Children and parents or guardians who use Kamata Children's Hall"
+		],
+		"why": "The ward says use must be suspended while major renovation work is carried out.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:37.694Z",
+			"inputTokens": 590,
+			"cachedTokens": 0,
+			"outputTokens": 617,
+			"reasoningTokens": 452
+		}
 	}
 }

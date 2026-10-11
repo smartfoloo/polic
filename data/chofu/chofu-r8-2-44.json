@@ -60,5 +60,27 @@
 			"outputTokens": 39,
 			"reasoningTokens": 24
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6ab31fecc1ad48ae",
+		"name": "Changes a cited provision in the sewerage business ordinance",
+		"official": "Ordinance Partially Amending the Chofu City Ordinance on the Establishment, etc. of the Sewerage Business",
+		"summary": "Article 6 of the Ordinance on the Establishment, etc. of the Sewerage Business cites a provision of the Local Autonomy Act. This bill changes the cited provision from Article 243-2-8 to Article 243-2-9.",
+		"changes": [
+			"Changes the cited provision from Article 243-2-8 to Article 243-2-9"
+		],
+		"who": [],
+		"why": "The city says this is to change the cited provision following a partial amendment to the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:18:38.741Z",
+			"inputTokens": 585,
+			"cachedTokens": 0,
+			"outputTokens": 452,
+			"reasoningTokens": 275
+		}
 	}
 }

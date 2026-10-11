@@ -1,0 +1,111 @@
+{
+	"id": "samukawa-r8-6-40",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第40号",
+	"official": "寒川町家庭的保育事業等の設備及び運営に関する基準を定める条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会6月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-19",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第40号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/R8-6_gian40.pdf",
+			"fetchedAt": "2026-10-10T14:58:36.406Z"
+		}
+	],
+	"name": "保育施設の職員配置に専門職を算入",
+	"category": "子育て",
+	"summary": "現在は、対象施設の職員配置で、看護師などを1人まで保育士として数えられる規定があります。この議案では、条件を満たす理学療法士なども1人まで保育士数に算入できるようにし、保育士の支援体制を設けます。また、満3歳以上の子どもだけを受け入れる小規模保育事業に合わせ、連携施設や定員などの規定を改めます。",
+	"changes": [
+		"理学療法士などの専門職を、対象施設の保育士数に1人まで算入可能にする",
+		"専門職が保育を行う際、保育士の支援を受けられる体制を確保する",
+		"看護師等と専門職がともに保育を行う場合、看護師等にも保育士の支援体制を確保する",
+		"満3歳以上の子どもに限る小規模保育事業に関する連携や定員などの規定を改める"
+	],
+	"who": [
+		"小規模保育事業所や事業所内保育事業所の運営者",
+		"これらの施設を利用する子どもと保護者"
+	],
+	"why": "家庭的保育事業等の設備及び運営に関する基準の一部改正に伴い、必要な措置を講じるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.013Z",
+		"inputTokens": 14055,
+		"cachedTokens": 0,
+		"outputTokens": 2133,
+		"reasoningTokens": 1732,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.013Z",
+		"checkedAt": "2026-10-10T15:07:29.973Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "看護師等と専門職がともに保育を行う場合、看護師等にも保育士の支援体制を確保する",
+				"note": "新設する第29条・第31条・第44条・第47条の各第5項は、看護師等を支援する保育士から、専門職への支援を行う保育士を除いている。両者の支援を別の保育士が担う必要がある点が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "満3歳以上の子どもに限る小規模保育事業に関する連携や定員などの規定を改める",
+				"note": "第27条の改正で、満3歳以上限定小規模保育事業を小規模保育事業B型・C型から除外する変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 14129,
+			"cachedTokens": 0,
+			"outputTokens": 377,
+			"reasoningTokens": 91,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b5a8ae1c5784eb50",
+		"name": "Counts specialists toward staffing requirements at childcare facilities",
+		"official": "Regarding the Partial Amendment to the Samukawa Town Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "Under the current rules, up to one nurse or similar professional can be counted as a childcare worker when determining staff numbers at certain facilities. This bill would also allow up to one qualified physical therapist or similar professional to be counted toward the number of childcare workers, and would establish a system for childcare workers to support them. It would also revise provisions on partner facilities, capacity and other matters to reflect small-scale childcare businesses that accept only children aged 3 or older.",
+		"changes": [
+			"Allow up to one specialist, such as a physical therapist, to be counted toward the number of childcare workers at covered facilities",
+			"Ensure that specialists can receive support from childcare workers when providing childcare",
+			"Ensure that nurses and similar professionals can receive support from childcare workers when providing childcare together with specialists",
+			"Revise provisions on partner facilities, capacity and other matters for small-scale childcare businesses limited to children aged 3 or older"
+		],
+		"who": [
+			"Operators of small-scale childcare businesses and workplace childcare businesses",
+			"Children and parents who use these facilities"
+		],
+		"why": "The town says it is taking the necessary measures in response to a partial revision of the standards for equipment and operation of home-based childcare services, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.864Z",
+			"inputTokens": 822,
+			"cachedTokens": 0,
+			"outputTokens": 825,
+			"reasoningTokens": 507,
+			"batch": true
+		}
+	}
+}

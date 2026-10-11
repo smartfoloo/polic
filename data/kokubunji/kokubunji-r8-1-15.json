@@ -1,0 +1,86 @@
+{
+	"id": "kokubunji-r8-1-15",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第15号",
+	"official": "職員の給与に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "職員の給料表と3種類の手当を改定",
+	"category": "行政のしくみ",
+	"summary": "職員の給与に関する条例を改正します。東京都に準じて、給料表と管理職手当、住居手当、通勤手当を改定します。",
+	"changes": [
+		"給料表を東京都に準じて改定する",
+		"管理職手当、住居手当、通勤手当を東京都に準じて改定する"
+	],
+	"who": [
+		"職員"
+	],
+	"why": "東京都に準じた給料表と各手当の改定を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.555Z",
+		"inputTokens": 1019,
+		"cachedTokens": 0,
+		"outputTokens": 546,
+		"reasoningTokens": 359,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.555Z",
+			"notes": [
+				"ai [error] who/unsupported: 「国分寺市の職員」 → 原文に市名の記載はなく、「国分寺市」とする根拠がありません。"
+			],
+			"inputTokens": 1330,
+			"cachedTokens": 1025,
+			"outputTokens": 382,
+			"reasoningTokens": 226,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.656Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "国分寺市の職員",
+				"note": "原文に市名の記載はなく、「国分寺市」とする根拠がありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 878,
+			"cachedTokens": 0,
+			"outputTokens": 184,
+			"reasoningTokens": 121,
+			"batch": true
+		}
+	}
+}

@@ -61,5 +61,33 @@
 			"outputTokens": 40,
 			"reasoningTokens": 25
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5067a652fc00b6a1",
+		"name": "Raises fees for rooms and pool at the center",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Oyoko Health and Welfare Center Ordinance",
+		"summary": "The fees for the rooms and indoor walking pool at Oyoko Health and Welfare Center will be raised. Pool use will cost ¥150 for 2 hours, and a ticket book will cost ¥1,500 for 11 tickets worth ¥150 each. The changes take effect on April 1, 2027. The new fees may be charged before that date for use on or after that date.",
+		"changes": [
+			"Raises the fees for the Creation Room, Recreation Rooms A and B, and Culture and Recreation Room from ¥700 to ¥1,000 in the morning, from ¥900 to ¥1,300 in the afternoon, and from ¥800 to ¥1,200 in the evening",
+			"Raises the fees for the Health Exercise Room from ¥900 to ¥1,300 in the morning, from ¥1,200 to ¥1,800 in the afternoon, and from ¥1,100 to ¥1,600 in the evening",
+			"Raises the fees for Meeting Rooms 1–5, the Lecture Room, and the Cooking Practice Room in each fee category",
+			"Raises the pool fee from ¥100 to ¥150 for 2 hours and changes the ticket book from 11 ¥100 tickets for ¥1,000 to 11 ¥150 tickets for ¥1,500"
+		],
+		"who": [
+			"People who use the rooms at Oyoko Health and Welfare Center",
+			"People who use the indoor walking pool at Oyoko Health and Welfare Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:54:09.839Z",
+			"inputTokens": 790,
+			"cachedTokens": 0,
+			"outputTokens": 1103,
+			"reasoningTokens": 727
+		}
 	}
 }

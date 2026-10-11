@@ -65,5 +65,35 @@
 			"outputTokens": 168,
 			"reasoningTokens": 154
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "640731942ddf2611",
+		"name": "Revises housing and commuting allowances for city employees",
+		"official": "Ordinance Partially Amending the Ordinance Concerning Salaries of Fuchu City Employees",
+		"summary": "Currently, eligible employees receive a housing allowance of ¥15,000 per month. The commuting allowance for bicycles, etc. is ¥2,000 per month (¥2,300 for motorized bicycles). Under the amendment, the housing allowance will be ¥30,000 per month for eligible employees who pay rent of at least ¥30,000 per month and are within the period ending on the first March 31 after they turn 27. Commuting allowances will be based on distance for bicycles, etc., and a subsidy for parking fees will be introduced. The combined amount will be subject to a cap equivalent to ¥150,000 per month.",
+		"changes": [
+			"Raises the housing allowance from ¥15,000 to ¥30,000 per month, subject to conditions",
+			"Sets a cap equivalent to ¥150,000 per month on the combined commuting allowance amount",
+			"Sets commuting allowances for bicycles, etc. by distance bracket, capped at ¥32,000 per month (¥78,900 under special provisions)",
+			"Introduces a commuting allowance for parking fees, capped at ¥5,000 per month"
+		],
+		"who": [
+			"Fuchu City employees eligible for the housing allowance",
+			"Fuchu City employees eligible for commuting allowances",
+			"Fuchu City employees eligible for commuting allowances",
+			"Fuchu City employees eligible for commuting allowances"
+		],
+		"why": "The city says it is reviewing housing and other allowances for city employees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:39.058Z",
+			"inputTokens": 801,
+			"cachedTokens": 0,
+			"outputTokens": 1819,
+			"reasoningTokens": 1453
+		}
 	}
 }

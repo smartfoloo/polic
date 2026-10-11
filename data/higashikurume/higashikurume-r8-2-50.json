@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e67a0f6adcc51430",
+		"name": "Removes Chuo Plaza from the list of city parks",
+		"official": "Ordinance Partially Amending the Higashikurume City Parks Ordinance",
+		"summary": "The list in the City Parks Ordinance includes Chuo Plaza. This bill removes Chuo Plaza from the list. The ordinance takes effect on the date it is promulgated.",
+		"changes": [
+			"Removes Chuo Plaza from the list of city parks"
+		],
+		"who": [
+			"People who use Chuo Plaza"
+		],
+		"why": "The city says this is to adjust the provisions in connection with returning the city park land to the landowners.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:00:12.295Z",
+			"inputTokens": 588,
+			"cachedTokens": 0,
+			"outputTokens": 499,
+			"reasoningTokens": 343
+		}
 	}
 }

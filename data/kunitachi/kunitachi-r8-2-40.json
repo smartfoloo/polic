@@ -63,5 +63,30 @@
 			"outputTokens": 63,
 			"reasoningTokens": 49
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7b06f354ad0acdfe",
+		"name": "Adds cards that can be used to apply for seal registration certificates",
+		"official": "Draft Ordinance Partially Amending the Kunitachi City Seal Registration Ordinance",
+		"summary": "Currently, people can use a Personal Number Card to apply for a seal registration certificate at a multifunction terminal. This ordinance would also allow them to use a specified residence card or specified special permanent resident certificate bearing the prescribed electronic certificate.",
+		"changes": [
+			"Allows specified residence cards and specified special permanent resident certificates bearing the prescribed electronic certificate to be used for applications"
+		],
+		"who": [
+			"People with a specified residence card",
+			"People with a specified special permanent resident certificate"
+		],
+		"why": "The city says this is to allow these cards to be used for applications at multifunction terminals following partial amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:00.154Z",
+			"inputTokens": 657,
+			"cachedTokens": 0,
+			"outputTokens": 431,
+			"reasoningTokens": 234
+		}
 	}
 }

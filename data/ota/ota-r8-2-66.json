@@ -57,5 +57,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fe1c484b0fc33025",
+		"name": "Changes the address of Kamikedai Children's Hall",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on Children's Halls",
+		"summary": "The address of Kamikedai Children's Hall listed in the ordinance will change from Kamikedai 2-chome 35-18 to Kamikedai 3-chome 29-4. The change takes effect on April 1, 2027.",
+		"changes": [
+			"Changes the address from Kamikedai 2-chome 35-18 to Kamikedai 3-chome 29-4"
+		],
+		"who": [
+			"Children and guardians who use Kamikedai Children's Hall"
+		],
+		"why": "The ward says this is because Kamikedai Children's Hall will be temporarily relocated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:43.097Z",
+			"inputTokens": 587,
+			"cachedTokens": 0,
+			"outputTokens": 498,
+			"reasoningTokens": 313
+		}
 	}
 }

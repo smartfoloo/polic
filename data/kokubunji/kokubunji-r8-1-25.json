@@ -1,0 +1,86 @@
+{
+	"id": "kokubunji-r8-1-25",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第25号",
+	"official": "国分寺市乳幼児医療費助成条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "医療費助成の規定と文言を整理",
+	"category": "健康・医療",
+	"summary": "情報連携基盤との接続開始に合わせて、医療費助成に関する規定を整えます。あわせて、条例の文言を整理します。",
+	"changes": [
+		"医療費助成に関する規定を整える",
+		"条例の文言を整理する"
+	],
+	"who": [],
+	"why": "情報連携基盤との接続開始に伴い、医療費助成に係る規定を整え、文言を整理するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.876Z",
+		"inputTokens": 1029,
+		"cachedTokens": 0,
+		"outputTokens": 512,
+		"reasoningTokens": 342,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.876Z",
+		"checkedAt": "2026-10-10T07:29:38.660Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 872,
+			"cachedTokens": 0,
+			"outputTokens": 44,
+			"reasoningTokens": 29,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cb699c8872e711d0",
+		"name": "Updates medical expense assistance provisions and wording",
+		"official": "Regarding an Ordinance Partially Amending the Kokubunji City Ordinance on Medical Expense Assistance for Infants and Young Children",
+		"summary": "The provisions on medical expense assistance will be updated to coincide with the start of connection to the information-sharing platform. The ordinance's wording will also be clarified.",
+		"changes": [
+			"Update provisions on medical expense assistance",
+			"Clarify the ordinance's wording"
+		],
+		"who": [],
+		"why": "The city says this is to update provisions related to medical expense assistance and clarify the wording in connection with the start of connection to the information-sharing platform.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.064Z",
+			"inputTokens": 580,
+			"cachedTokens": 0,
+			"outputTokens": 674,
+			"reasoningTokens": 516,
+			"batch": true
+		}
+	}
+}

@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai4gou.pdf",
 			"fetchedAt": "2026-10-05T15:53:55.559Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "9ed9da9e383b73f4",
+		"official": "Ordinance on the Adjustment of Related Ordinances Accompanying a Change in the Method of Public Notice",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:36.471Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 238,
+			"reasoningTokens": 202
+		}
+	}
 }

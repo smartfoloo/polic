@@ -1,0 +1,95 @@
+{
+	"id": "kanagawa-r8-1-31",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第31号議案",
+	"official": "国民健康保険法施行条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第31号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "子ども・子育て支援納付金の算定方法を追加",
+	"category": "健康・医療",
+	"summary": "条例に、子ども・子育て支援納付金の算定に関する規定を加えます。市町村ごとの算定に使う割合などを定め、被保険者均等割指数は0.7とします。",
+	"changes": [
+		"子ども・子育て支援納付金の所得係数を知事が定める方式にする",
+		"所得等割合と被保険者数等割合を、政令に定める市町村ごとの数とする",
+		"被保険者均等割指数を0.7とする",
+		"条例の附則第4項を削る"
+	],
+	"who": [],
+	"why": "国民健康保険法の一部改正などに伴い、県が市町村から徴収する納付金に、子ども・子育て支援納付金の算定規定を加えるためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.864Z",
+		"inputTokens": 1516,
+		"cachedTokens": 0,
+		"outputTokens": 1323,
+		"reasoningTokens": 1073,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.864Z",
+		"checkedAt": "2026-10-10T07:29:38.617Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1465,
+			"cachedTokens": 0,
+			"outputTokens": 68,
+			"reasoningTokens": 53,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "96030e4eecd7fba3",
+		"name": "Adds rules for calculating child and child-rearing support contributions",
+		"official": "Ordinance Partially Amending the Ordinance for Enforcement of the National Health Insurance Act",
+		"summary": "Adds provisions on calculating child and child-rearing support contributions to the ordinance. It sets the ratios and other figures used for calculations for each municipality, and sets the insured-person per-capita index at 0.7.",
+		"changes": [
+			"Sets the income coefficient for child and child-rearing support contributions using a method determined by the governor",
+			"Sets the income-related share and insured-persons-related share at the figures for each municipality specified by Cabinet Order",
+			"Sets the insured-person per-capita index at 0.7",
+			"Deletes Paragraph 4 of the ordinance's supplementary provisions"
+		],
+		"who": [
+			"The governor",
+			"Municipalities",
+			"Insured persons",
+			"The ordinance"
+		],
+		"why": "The prefecture says this is to add rules for calculating child and child-rearing support contributions to the contributions it collects from municipalities, following partial amendments to the National Health Insurance Act and other changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.050Z",
+			"inputTokens": 681,
+			"cachedTokens": 0,
+			"outputTokens": 1449,
+			"reasoningTokens": 1192,
+			"batch": true
+		}
+	}
+}

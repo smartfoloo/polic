@@ -61,5 +61,28 @@
 			"outputTokens": 113,
 			"reasoningTokens": 99
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "998c691f41bd995c",
+		"name": "Adds inclusive accommodation expenses to travel expenses for special officials",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries, etc. of the Meguro City Mayor and Other Officials, etc.",
+		"summary": "The types of travel expenses paid to the mayor, assembly members, and others are set by ordinance. This bill adds “inclusive accommodation expenses” to the types of travel expenses and amends the ordinance on travel expenses for employees that it refers to. It applies to trips departing on or after April 1, 2026.",
+		"changes": [
+			"Adds inclusive accommodation expenses to the types of travel expenses",
+			"Amends the referenced ordinance on travel expenses for employees"
+		],
+		"who": [],
+		"why": "The ward says this is to add inclusive accommodation expenses to the types of travel expenses paid to special officials.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:42:10.795Z",
+			"inputTokens": 612,
+			"cachedTokens": 0,
+			"outputTokens": 1064,
+			"reasoningTokens": 869
+		}
 	}
 }

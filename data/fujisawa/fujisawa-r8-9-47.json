@@ -1,0 +1,97 @@
+{
+	"id": "fujisawa-r8-9-47",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第47号",
+	"official": "藤沢市立看護専門学校条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "厚生環境常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第47号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2812&Sflg=2",
+			"fetchedAt": "2026-10-08T11:20:52.678Z"
+		},
+		{
+			"label": "議案第47号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2812_e01-047.pdf",
+			"fetchedAt": "2026-10-08T11:20:58.477Z"
+		}
+	],
+	"name": "看護学校の入学試験料と授業料を改定",
+	"category": "教育",
+	"summary": "入学試験料は10,000円、授業料は月額14,700円です。この議案により、入学試験料は16,000円、授業料は月額17,700円に変わります。授業料は2027年4月以降の月分から、入学試験料は2028年4月1日以降の入学を志願する人から適用されます。",
+	"changes": [
+		"入学試験料を10,000円から16,000円に改定する",
+		"授業料を月額14,700円から17,700円に改定する"
+	],
+	"who": [
+		"藤沢市立看護専門学校への入学を志願する人",
+		"藤沢市立看護専門学校の学生"
+	],
+	"why": "受益と負担の適正化を図り、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.851Z",
+		"inputTokens": 1473,
+		"cachedTokens": 0,
+		"outputTokens": 746,
+		"reasoningTokens": 504,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.851Z",
+		"checkedAt": "2026-10-10T07:29:38.582Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1408,
+			"cachedTokens": 0,
+			"outputTokens": 62,
+			"reasoningTokens": 47,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f1c926ea16afea15",
+		"name": "Revises nursing school entrance examination and tuition fees",
+		"official": "Partial Amendment to the Fujisawa City Municipal Nursing School Ordinance",
+		"summary": "The entrance examination fee is ¥10,000, and tuition is ¥14,700 per month. Under this bill, the entrance examination fee will change to ¥16,000, and tuition will change to ¥17,700 per month. The new tuition will apply to monthly payments from April 2027 onward. The new entrance examination fee will apply to people applying for admission on or after April 1, 2028.",
+		"changes": [
+			"Raises the entrance examination fee from ¥10,000 to ¥16,000",
+			"Raises monthly tuition from ¥14,700 to ¥17,700"
+		],
+		"who": [
+			"People applying for admission to Fujisawa City Municipal Nursing School",
+			"Students at Fujisawa City Municipal Nursing School"
+		],
+		"why": "The city says this is to ensure that benefits and costs are appropriately balanced and to secure social fairness.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.037Z",
+			"inputTokens": 676,
+			"cachedTokens": 0,
+			"outputTokens": 448,
+			"reasoningTokens": 210,
+			"batch": true
+		}
+	}
+}

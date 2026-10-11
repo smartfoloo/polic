@@ -1,0 +1,38 @@
+{
+	"id": "sagamihara-r7-3-18",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第18号",
+	"official": "議会の議決に付すべき契約及び財産の取得又は処分に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": "総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1a461782159ca8f3",
+		"official": "Regarding an Ordinance Partially Amending the Ordinance on Contracts and the Acquisition or Disposal of Property Requiring Assembly Approval",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:01:15.336Z",
+			"inputTokens": 400,
+			"cachedTokens": 0,
+			"outputTokens": 205,
+			"reasoningTokens": 166,
+			"batch": true
+		}
+	}
+}

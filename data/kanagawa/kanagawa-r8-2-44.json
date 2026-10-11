@@ -1,0 +1,88 @@
+{
+	"id": "kanagawa-r8-2-44",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第44号議案",
+	"official": "かながわボランタリー活動推進基金21条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-13",
+	"sources": [
+		{
+			"label": "定県第44号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/134621/jorei_gian_8dai2_0615.pdf",
+			"fetchedAt": "2026-10-08T10:38:08.916Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai2.html",
+			"fetchedAt": "2026-10-08T10:37:44.946Z"
+		}
+	],
+	"name": "基金に入るお金の項目を改める",
+	"category": "行政のしくみ",
+	"summary": "基金に属する財産の規定を改め、貸付金の返済金などを現金として整理します。あわせて、関連する条文の参照先を変更します。",
+	"changes": [
+		"基金に属する財産の表記を現金に改める",
+		"貸付金の償還金や利子、寄附金、運用益を基金に属する現金として定める",
+		"関連する条文の参照先を改める"
+	],
+	"who": [],
+	"why": "市町に貸し付けた住宅資金市町村貸付金が全額返済されたことに伴う改正のためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.865Z",
+		"inputTokens": 1449,
+		"cachedTokens": 0,
+		"outputTokens": 1740,
+		"reasoningTokens": 1526,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.865Z",
+		"checkedAt": "2026-10-10T07:29:38.619Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1335,
+			"cachedTokens": 0,
+			"outputTokens": 75,
+			"reasoningTokens": 61,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aab766b38f70587e",
+		"name": "Revises the categories of money paid into the fund",
+		"official": "Ordinance Partially Amending the Kanagawa Voluntary Activities Promotion Fund 21 Ordinance",
+		"summary": "The provisions on assets belonging to the fund are revised, and loan repayments and other amounts are treated as cash. References to related provisions are also changed.",
+		"changes": [
+			"Changes the description of assets belonging to the fund to cash",
+			"Specifies loan repayments and interest, donations, and investment earnings as cash belonging to the fund",
+			"Changes references to related provisions"
+		],
+		"who": [],
+		"why": "The prefecture says this amendment is being made because the Housing Funds Municipal Loan lent to municipalities has been repaid in full.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.050Z",
+			"inputTokens": 623,
+			"cachedTokens": 0,
+			"outputTokens": 524,
+			"reasoningTokens": 350,
+			"batch": true
+		}
+	}
+}

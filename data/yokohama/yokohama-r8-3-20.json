@@ -1,0 +1,90 @@
+{
+	"id": "yokohama-r8-3-20",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第20号議案",
+	"official": "横浜市鶴見資源物選別施設再整備事業審査委員会条例の制定",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第3回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-3.html",
+			"fetchedAt": "2026-10-08T11:05:45.280Z"
+		},
+		{
+			"label": "市第20号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-3.files/r8_3t_si20.pdf",
+			"fetchedAt": "2026-10-08T11:05:51.301Z"
+		}
+	],
+	"name": "鶴見の資源物施設を審査する委員会を設置",
+	"category": "行政のしくみ",
+	"summary": "鶴見区の市有地を使い、資源物の選別施設を民間事業者が再整備・運営する事業があります。この事業者の選定や事業の検証・評価を審議する委員会を、市長の附属機関として設置します。",
+	"changes": [
+		"事業者の選定や事業の検証・評価などを審議する委員会を設置する",
+		"委員を5人以内とする"
+	],
+	"who": [
+		"鶴見資源物選別施設再整備事業への参加を検討する事業者"
+	],
+	"why": "事業の適正な実施を図るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.888Z",
+		"inputTokens": 2021,
+		"cachedTokens": 0,
+		"outputTokens": 927,
+		"reasoningTokens": 694,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.888Z",
+		"checkedAt": "2026-10-10T07:29:38.728Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1929,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "393c898183eb2efc",
+		"name": "Sets up a committee to review the Tsurumi resource sorting facility redevelopment project",
+		"official": "Ordinance Establishing the Yokohama City Tsurumi Resource Sorting Facility Redevelopment Project Review Committee",
+		"summary": "A private operator will redevelop and run a resource sorting facility using city-owned land in Tsurumi Ward. A committee will be set up as an advisory body to the mayor to deliberate on selecting the operator and reviewing and evaluating the project.",
+		"changes": [
+			"Sets up a committee to deliberate on selecting the operator and reviewing and evaluating the project",
+			"Limits the committee to no more than 5 members"
+		],
+		"who": [
+			"Businesses considering participating in the Tsurumi Resource Sorting Facility Redevelopment Project"
+		],
+		"why": "The city says this is to ensure the project is carried out properly.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.075Z",
+			"inputTokens": 648,
+			"cachedTokens": 0,
+			"outputTokens": 765,
+			"reasoningTokens": 570,
+			"batch": true
+		}
+	}
+}

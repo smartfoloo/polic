@@ -63,5 +63,30 @@
 			"outputTokens": 62,
 			"reasoningTokens": 47
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c56446c11b8565a4",
+		"name": "Establishes a fund for central-city redevelopment",
+		"official": "Machida City Central City Development Promotion Fund Ordinance",
+		"summary": "The city will establish a fund to set aside money needed for redevelopment of the central city area. The amount set aside will be decided in each fiscal year's budget, and donations can also be added to the fund. The fund will be used for development of public facilities and other projects needed for redevelopment. The ordinance will take effect on July 1, 2026.",
+		"changes": [
+			"Establishes a fund to set aside money for redevelopment of the central city area",
+			"Sets the amount to be set aside in each fiscal year's budget and puts donations made for the same purpose into the fund",
+			"Adds earnings from managing the fund to the fund",
+			"Uses the fund for development of public facilities and other projects needed for redevelopment"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:48.254Z",
+			"inputTokens": 637,
+			"cachedTokens": 0,
+			"outputTokens": 515,
+			"reasoningTokens": 303
+		}
 	}
 }

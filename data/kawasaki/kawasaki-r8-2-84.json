@@ -1,0 +1,109 @@
+{
+	"id": "kawasaki-r8-2-84",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第84号",
+	"official": "川崎市家庭的保育事業等の設備及び運営の基準等に関する条例等の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第84号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_84.pdf",
+			"fetchedAt": "2026-10-08T11:09:45.463Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "保育士配置基準と性暴力防止策を改正",
+	"category": "子育て",
+	"summary": "家庭的保育事業などの設備・運営基準を改めます。満3歳以上限定の小規模保育事業に関する基準を設け、支配性、継続性、閉鎖性のある環境で利用乳幼児に接する従事者について、事業者に犯罪事実確認などを求めます。また、一定の専門職を保育士の人数に算入できるようにし、配置基準の経過措置も見直します。性暴力防止に関する規定は令和8年12月25日から施行します。",
+	"changes": [
+		"満3歳以上限定の小規模保育事業に関する基準を設ける",
+		"支配性、継続性、閉鎖性のある環境で利用乳幼児に接する従事者について、事業者に犯罪事実確認などを求める",
+		"理学療法士などを条件付きで1人まで保育士の人数に算入できるようにする",
+		"配置基準の経過措置を見直し、満3歳以上4歳未満の特例期限を令和10年3月31日までとする"
+	],
+	"who": [
+		"家庭的保育事業などの運営事業者",
+		"保育施設で働く保育士や保育従事者",
+		"これらの保育事業を利用する子どもと保護者"
+	],
+	"why": "関係する基準の一部改正に伴い、児童対象性暴力等の防止策や保育士等の配置基準を見直し、特例措置の期限を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.551Z",
+		"inputTokens": 4759,
+		"cachedTokens": 0,
+		"outputTokens": 2857,
+		"reasoningTokens": 2430,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.551Z",
+			"notes": [
+				"ai [error] changes/fact: 「児童と接する業務の従事者について犯罪事実確認などの措置を求める」 → 原文第14条の対象は、児童と接する従事者のうち「支配性、継続性及び閉鎖性のある環境」で接する者に限定されている。"
+			],
+			"inputTokens": 5355,
+			"cachedTokens": 1025,
+			"outputTokens": 980,
+			"reasoningTokens": 516,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.871Z",
+		"checkedAt": "2026-10-10T07:29:38.640Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "児童と接する業務の従事者について犯罪事実確認などの措置を求める",
+				"note": "原文第14条の対象は、児童と接する従事者のうち「支配性、継続性及び閉鎖性のある環境」で接する者に限定されている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "理学療法士などを条件付きで1人まで保育士の人数に算入できるようにする",
+				"note": "原文第32条、第35条、第48条、第51条では、保育士による支援体制の確保も義務付ける。看護師等と特定理学療法士等の双方が保育する場合には、それぞれ別の保育士による支援が必要となるが、この変更が記載されていない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "配置基準の経過措置を見直し、満3歳以上4歳未満の特例期限を令和10年3月31日までとする",
+				"note": "原文第2条で追加する附則第3項には、満4歳以上について、配置状況から保育の提供に支障が生じるおそれがある場合は当分の間、改正前の配置基準を適用する措置もあるが、記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4859,
+			"cachedTokens": 0,
+			"outputTokens": 535,
+			"reasoningTokens": 172,
+			"batch": true
+		}
+	}
+}

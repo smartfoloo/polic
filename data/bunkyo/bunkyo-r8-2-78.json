@@ -1,0 +1,107 @@
+{
+	"id": "bunkyo-r8-2-78",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第78号",
+	"official": "職員の旅費に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第78号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "職員などの旅費の計算方法を見直す",
+	"category": "行政のしくみ",
+	"summary": "区職員などの旅費の支給方法は、現在の条例で定められています。この議案では、旅費の種類や計算方法を整理し、職員以外への支給や、退職・死亡に伴う旅費の条件なども定めます。",
+	"changes": [
+		"旅費を交通費、宿泊費、転居費など12種類に分け、内容と算定方法を定める",
+		"交通費や宿泊費などの支給額を、条例による算定額と実際の支払額のいずれか低い額にする",
+		"退職や死亡に伴う旅行について、職員や遺族への支給条件を定める",
+		"職員以外への旅費支給や、規定に違反して受け取った旅費の返納を定める"
+	],
+	"who": [
+		"区職員",
+		"旅費の支給を受ける職員の家族や遺族",
+		"区議会議員や委員など、費用弁償を受ける人"
+	],
+	"why": "職員などの旅費制度を見直すことに伴い、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.831Z",
+		"inputTokens": 11668,
+		"cachedTokens": 0,
+		"outputTokens": 1378,
+		"reasoningTokens": 1034,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.831Z",
+		"checkedAt": "2026-10-10T07:29:38.533Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "退職や死亡に伴う旅行について、職員や遺族への支給条件を定める",
+				"note": "第二条第一項第七号・第八号で家族・遺族の範囲を定義し、パートナーシップ関係の相手方も対象に含める変更が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 11684,
+			"cachedTokens": 0,
+			"outputTokens": 338,
+			"reasoningTokens": 227,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "29b4660fa54aae24",
+		"name": "Revises how travel expenses for employees and others are calculated",
+		"official": "Ordinance Partially Amending the Ordinance on Travel Expenses for Employees",
+		"summary": "The current ordinance sets out how travel expenses are paid to ward employees and others. This bill organizes the types of travel expenses and how they are calculated. It also sets rules for payments to people other than employees and conditions for travel expenses related to retirement or death.",
+		"changes": [
+			"Divides travel expenses into 12 types, including transportation, accommodation and relocation expenses, and sets out their details and calculation methods",
+			"Sets payments for transportation, accommodation and other expenses at the lower of the amount calculated under the ordinance and the amount actually paid",
+			"Sets conditions for payments to employees or their bereaved families for travel related to retirement or death",
+			"Sets rules for paying travel expenses to people other than employees and for returning expenses received in violation of the rules"
+		],
+		"who": [
+			"Ward employees",
+			"Family members and bereaved families of employees who receive travel expense payments",
+			"People who receive expense reimbursement, such as ward assembly members and committee members",
+			"People other than employees who receive travel expense payments"
+		],
+		"why": "The ward says the rules are being updated in line with a review of the travel expense system for employees and others.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.020Z",
+			"inputTokens": 749,
+			"cachedTokens": 0,
+			"outputTokens": 1025,
+			"reasoningTokens": 725,
+			"batch": true
+		}
+	}
+}

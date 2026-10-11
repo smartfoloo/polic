@@ -63,5 +63,29 @@
 			"outputTokens": 53,
 			"reasoningTokens": 39
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bd54c147f62fa622",
+		"name": "Adds operating standards for specified infant and other children’s attendance support businesses",
+		"official": "Ordinance Partially Amending the Chofu City Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities, Specified Community-Based Childcare Businesses, and Specified Child and Child-Rearing Support Facilities, etc.",
+		"summary": "The current ordinance sets operating standards for specified education and childcare facilities, etc. The amendment revises the ordinance’s scope to add specified infant and other children’s attendance support businesses, and aligns the operating standards for these businesses with the national Cabinet Office Ordinance. It takes effect on April 1, 2026.",
+		"changes": [
+			"Removes specified child and child-rearing support facilities, etc. from the ordinance’s scope, adds specified infant and other children’s attendance support businesses, and aligns those businesses’ operating standards with the national Cabinet Office Ordinance"
+		],
+		"who": [
+			"Operators of specified infant and other children’s attendance support businesses"
+		],
+		"why": "The city says this is to set operating standards for specified infant and other children’s attendance support businesses following amendments to the Child and Child-Rearing Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:17:23.862Z",
+			"inputTokens": 730,
+			"cachedTokens": 0,
+			"outputTokens": 1316,
+			"reasoningTokens": 1052
+		}
 	}
 }

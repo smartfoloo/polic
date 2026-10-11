@@ -1,0 +1,102 @@
+{
+	"id": "bunkyo-r8-2-97",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第97号",
+	"official": "文京区災害に伴う応急措置の業務等に従事した者に対する損害賠償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-17",
+	"sources": [
+		{
+			"label": "議案第97号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/gian3.pdf",
+			"fetchedAt": "2026-10-08T10:53:24.287Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "災害時の損害補償額などを改定",
+	"category": "防災",
+	"summary": "災害時の応急措置などに従事した人への損害補償は、条例で基準額などを定めています。この議案で、補償基礎額や扶養親族に関する加算額を改め、令和8年4月1日から施行します。",
+	"changes": [
+		"補償基礎額を9,700円から10,000円に改める",
+		"ただし書の額を14,500円から15,000円に改める",
+		"扶養親族に関する額を100円から433円に改める",
+		"扶養親族の区分を整理し、第一号を削除して後続の号を繰り上げる"
+	],
+	"who": [
+		"災害時の応急措置などに従事し、損害補償の対象となる人"
+	],
+	"why": "非常勤消防団員等に係る損害補償の基準を定める政令の改正に伴い、補償基礎額などを改定し、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.835Z",
+		"inputTokens": 1766,
+		"cachedTokens": 0,
+		"outputTokens": 2199,
+		"reasoningTokens": 1869,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.835Z",
+		"checkedAt": "2026-10-10T07:29:38.544Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "扶養親族に関する額を100円から433円に改める",
+				"note": "原文では、旧第二号の扶養親族について「一人につき三百八十三円」とする規定も削除している。この加算額の扱いの変更が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1770,
+			"cachedTokens": 0,
+			"outputTokens": 269,
+			"reasoningTokens": 168,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cd8d7d1d3b920ad4",
+		"name": "Revises disaster compensation amounts and related provisions",
+		"official": "Ordinance Partially Amending the Bunkyo City Ordinance on Compensation for Damage to Persons Engaged in Emergency Measures and Other Duties in Connection with Disasters",
+		"summary": "The ordinance sets standard amounts and other rules for compensating people who engage in emergency measures and other duties during disasters. This bill revises the base compensation amount and the additional amount for dependent family members. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises the base compensation amount from ¥9,700 to ¥10,000",
+			"Raises the amount specified in the proviso from ¥14,500 to ¥15,000",
+			"Raises the amount related to dependent family members from ¥100 to ¥433",
+			"Reorganizes the categories of dependent family members, deletes item 1, and renumbers the following items"
+		],
+		"who": [
+			"People who engage in emergency measures and other duties during disasters and are eligible for compensation"
+		],
+		"why": "The ward says the ordinance is being revised to update the base compensation amount and other provisions following amendments to the Cabinet Order Establishing Standards for Compensation for Damage to Part-Time Fire Brigade Members, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.023Z",
+			"inputTokens": 764,
+			"cachedTokens": 0,
+			"outputTokens": 1076,
+			"reasoningTokens": 796,
+			"batch": true
+		}
+	}
+}

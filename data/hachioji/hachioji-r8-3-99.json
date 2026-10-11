@@ -60,5 +60,35 @@
 			"outputTokens": 190,
 			"reasoningTokens": 176
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0275aea8f31be147",
+		"name": "Adds a materials collection and management policy and electronic payment of rental fees",
+		"official": "On Establishing an Ordinance Partially Amending the Hachioji City History and Local Heritage Museum Ordinance",
+		"summary": "Until now, the Ordinance did not set out a policy for collecting and managing materials or payment of rental fees through the electronic reservation system. The amendments add an activity to establish and appropriately implement a policy for collecting and managing materials, while excluding the formulation of that policy from the designated manager’s duties. They also allow rental fees to be paid through the electronic reservation system and treat that payment as approval to use the facility.",
+		"changes": [
+			"Adds an activity to establish and appropriately implement a policy for collecting and managing materials",
+			"Excludes formulating the materials collection and management policy from the designated manager’s duties",
+			"Allows rental fees to be paid through the electronic reservation system",
+			"Treats rental fee payments made through the electronic system as approval to use the facility"
+		],
+		"who": [
+			"The museum",
+			"The designated manager",
+			"People paying rental fees through the electronic reservation system",
+			"People using facilities such as the hands-on exhibition room"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:58:13.504Z",
+			"inputTokens": 725,
+			"cachedTokens": 0,
+			"outputTokens": 1775,
+			"reasoningTokens": 1501
+		}
 	}
 }

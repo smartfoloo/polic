@@ -1,0 +1,92 @@
+{
+	"id": "tama-r8-3-90",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第90号議案",
+	"official": "多摩市立総合体育館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第90号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "総合体育館の利用料金上限額を改める",
+	"category": "健康・医療",
+	"summary": "現在の条例では、総合体育館の施設利用料金などの上限額を別表で定めています。この議案は別表を改め、施設や利用者区分、時間帯などに応じた上限額を定めます。原則として2028年1月1日から適用し、第2スポーツホールには2027年4月1日から12月31日までの特例を設けます。",
+	"changes": [
+		"貸切利用の料金上限を施設・利用者区分・時間帯ごとに定める",
+		"スポーツホールの個人利用料金の上限額を1回につき、大人は市内270円・市外540円、子どもは市内130円・市外260円に定める",
+		"第1・第2スポーツホールの放送用具の料金上限を利用者区分ごとに定める"
+	],
+	"who": [
+		"総合体育館を個人利用する人",
+		"総合体育館を貸切り利用する団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T11:51:37.889Z",
+		"inputTokens": 4000,
+		"cachedTokens": 0,
+		"outputTokens": 1891,
+		"reasoningTokens": 1621,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-09T11:51:37.889Z",
+			"notes": [
+				"ai [check] changes/fact: 「スポーツホールの個人利用料金を1回につき、大人は市内270円・市外540円、子どもは市内130円・市外260円に設定する」 → 原文で定めるのは利用料金の「上限額」であり、実際の利用料金をこの金額に設定するとは限らない。"
+			],
+			"inputTokens": 4472,
+			"cachedTokens": 1025,
+			"outputTokens": 460,
+			"reasoningTokens": 157
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-09T11:51:37.889Z",
+		"checkedAt": "2026-10-09T11:51:47.047Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "スポーツホールの個人利用料金の上限額を1回につき、大人は市内270円・市外540円、子どもは市内130円・市外260円に定める",
+				"note": "原文の子ども料金の対象は「小・中学生」。要約では対象の限定がなく、他の年齢層も含むように読める。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "貸切利用の料金上限を施設・利用者区分・時間帯ごとに定める",
+				"note": "附則第3項の、2027年4月1日から12月31日まで第2ホールの貸切り・個人利用料金の上限額を変更する特例がchangesにない。summaryには期間の記載があるが、利用者に直接関わる主な変更としてchangesにも必要。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3977,
+			"cachedTokens": 0,
+			"outputTokens": 402,
+			"reasoningTokens": 167
+		}
+	}
+}

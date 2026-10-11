@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9c7687978cba38b9",
+		"name": "Establishes a committee to select disability welfare service providers",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment of Affiliated Bodies of Meguro City",
+		"summary": "The ordinance adds a committee to select providers responsible for developing and operating disability welfare service facilities and similar services. The committee will evaluate and review the selection of providers.",
+		"changes": [
+			"Establishes a committee as an advisory body to the mayor to evaluate and review the selection of providers"
+		],
+		"who": [
+			"Providers that develop and operate disability welfare service facilities and similar services"
+		],
+		"why": "The ward says it is establishing a committee as an advisory body to the mayor to select providers to develop and operate disability welfare service facilities and similar services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:39.058Z",
+			"inputTokens": 641,
+			"cachedTokens": 0,
+			"outputTokens": 377,
+			"reasoningTokens": 196
+		}
 	}
 }

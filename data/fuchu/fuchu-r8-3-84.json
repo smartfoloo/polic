@@ -59,5 +59,31 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "28e032f98254836a",
+		"name": "Raises public expense limits for election leaflets and posters",
+		"official": "Ordinance Partially Amending the Ordinance on Public Expense Coverage for Election Campaigns in Elections for Fuchu City Assembly Members and Fuchu City Mayor",
+		"summary": "At present, the city covers the cost of producing election leaflets with public funds, up to ¥7.73 per leaflet. The bill raises the limit to ¥8.38 and changes the coefficient used in the formula for calculating poster production costs from ¥541.31 to ¥586.88.",
+		"changes": [
+			"Raises the public expense limit per leaflet from ¥7.73 to ¥8.38",
+			"Changes the coefficient in the formula for calculating public expenses per poster from ¥541.31 to ¥586.88"
+		],
+		"who": [
+			"Candidates in elections for Fuchu City Assembly members and Fuchu City mayor",
+			"Businesses that produce election leaflets and posters"
+		],
+		"why": "The city says the amendment is being made in response to a partial amendment to the Order for Enforcement of the Public Offices Election Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:37:06.908Z",
+			"inputTokens": 719,
+			"cachedTokens": 0,
+			"outputTokens": 555,
+			"reasoningTokens": 303
+		}
 	}
 }

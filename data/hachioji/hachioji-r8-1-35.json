@@ -57,5 +57,29 @@
 			"outputTokens": 40,
 			"reasoningTokens": 25
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2c30bd4e7a449580",
+		"name": "Changes the name of leave that does not reduce pay",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on Salaries and Expense Reimbursements for Fiscal Year-Appointed Employees",
+		"summary": "When full-time fiscal year-appointed employees do not work during their working hours, their pay is reduced except for certain types of leave and other exceptions. This bill changes the name of special leave that does not reduce pay from “menstrual leave” to “health management leave.” It will take effect on April 1, 2026.",
+		"changes": [
+			"Rename the special leave that does not reduce pay from “menstrual leave” to “health management leave”"
+		],
+		"who": [
+			"Full-time fiscal year-appointed employees"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:43:57.707Z",
+			"inputTokens": 616,
+			"cachedTokens": 0,
+			"outputTokens": 613,
+			"reasoningTokens": 421
+		}
 	}
 }

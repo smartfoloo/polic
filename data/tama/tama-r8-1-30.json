@@ -83,5 +83,33 @@
 			"outputTokens": 601,
 			"reasoningTokens": 146
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8d9c1dcd98d90e23",
+		"name": "Adds a child and childcare support component to national health insurance tax",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Tama City National Health Insurance Tax Ordinance",
+		"summary": "A new child and childcare support contribution component will be added to National Health Insurance tax. The tax rates and per-capita amounts for the three existing categories will also be revised, along with the reductions for low-income households, preschool children, people giving birth and others. The amended rules will apply from fiscal 2026.",
+		"changes": [
+			"Raise the income-based rate for the basic taxable amount from 6.16% to 6.28%, and the per-capita amount from ¥30,200 to ¥30,800",
+			"Raise the income-based rate for the taxable amount for support contributions to older people from 2.00% to 2.04%, and the per-capita amount from ¥12,400 to ¥12,600",
+			"Raise the income-based rate for the nursing care contribution taxable amount from 1.78% to 1.82%, and the per-capita amount from ¥12,600 to ¥12,900",
+			"Add a child and childcare support contribution component, with an income-based rate of 0.30%, a per-capita amount of ¥1,800, and a per-capita amount of ¥100 for people aged 18 and over"
+		],
+		"who": [
+			"National Health Insurance enrollees in Tama City",
+			"Heads of households that pay National Health Insurance tax"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:18:17.792Z",
+			"inputTokens": 779,
+			"cachedTokens": 0,
+			"outputTokens": 821,
+			"reasoningTokens": 472
+		}
 	}
 }

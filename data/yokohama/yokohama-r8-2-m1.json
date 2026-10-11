@@ -1,0 +1,64 @@
+{
+	"id": "yokohama-r8-2-m1",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "議第1号議案",
+	"official": "横浜市会委員会条例の一部改正",
+	"by": "member",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-15",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "議第1号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_gi01.pdf",
+			"fetchedAt": "2026-10-08T11:05:39.258Z"
+		}
+	],
+	"name": "市会の常任委員会の名称と担当を変更",
+	"category": "行政のしくみ",
+	"summary": "市会には、担当する市の部署などを分けた8つの常任委員会があります。この議案では、委員会の名称や担当部署を組み替え、委員の定数も改めます。",
+	"changes": [
+		"常任委員会の名称を改める",
+		"総務、経済港湾、こども教育、福祉、GREEN × EXPO みどり、まちづくりの各委員会を11人、市民消防、上下水道交通の各委員会を10人とする",
+		"常任委員会が担当する市の部署などを組み替える",
+		"継続審査中の事件を、改正後に担当する委員会の継続事件とみなす"
+	],
+	"who": [],
+	"why": "常任委員会の名称、委員の定数及び所管事項を変更するためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.888Z",
+		"inputTokens": 2299,
+		"cachedTokens": 0,
+		"outputTokens": 1299,
+		"reasoningTokens": 1023,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.888Z",
+		"checkedAt": "2026-10-10T07:29:38.727Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2248,
+			"cachedTokens": 0,
+			"outputTokens": 88,
+			"reasoningTokens": 74,
+			"batch": true
+		}
+	}
+}

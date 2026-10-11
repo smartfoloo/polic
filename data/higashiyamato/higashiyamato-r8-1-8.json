@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-08.pdf",
 			"fetchedAt": "2026-10-05T15:57:13.261Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "af3bfa178e04d2e1",
+		"official": "Ordinance Partially Amending the Higashiyamato City Children, Young People and Child-Rearing Council Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:21.601Z",
+			"inputTokens": 390,
+			"cachedTokens": 0,
+			"outputTokens": 206,
+			"reasoningTokens": 166
+		}
+	}
 }

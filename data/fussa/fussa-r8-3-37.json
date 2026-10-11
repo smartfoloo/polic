@@ -1,0 +1,86 @@
+{
+	"id": "fussa-r8-3-37",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第37号",
+	"official": "福生市都市計画税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "総務文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1021706.html",
+			"fetchedAt": "2026-10-08T10:57:13.621Z"
+		}
+	],
+	"name": "改修建築物の課税特例割合を定める",
+	"category": "税・手数料",
+	"summary": "地方税法の一部改正に伴い、福生市都市計画税条例を改正します。改修特別特定建築物に関する課税特例の割合を定め、条例で引用する規定を整理します。",
+	"changes": [
+		"改修特別特定建築物に係る課税特例の割合を定める",
+		"条例で引用する規定を整理する"
+	],
+	"who": [
+		"改修特別特定建築物に係る課税の対象者"
+	],
+	"why": "地方税法の一部改正に伴い、課税特例の割合を定め、引用する規定を整理するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.854Z",
+		"inputTokens": 1047,
+		"cachedTokens": 0,
+		"outputTokens": 981,
+		"reasoningTokens": 787,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.854Z",
+		"checkedAt": "2026-10-10T07:29:38.585Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 934,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "550902fd5289817e",
+		"name": "Sets the special tax treatment rate for renovated buildings",
+		"official": "Ordinance Partially Amending the Fussa City City Planning Tax Ordinance",
+		"summary": "Following a partial amendment to the Local Tax Act, Fussa City will amend its City Planning Tax Ordinance. The amendment sets the special tax treatment rate for renovated special specified buildings and updates the provisions cited in the ordinance.",
+		"changes": [
+			"Sets the special tax treatment rate for renovated special specified buildings",
+			"Updates the provisions cited in the ordinance"
+		],
+		"who": [
+			"Taxpayers subject to taxation for renovated special specified buildings",
+			"People affected by the provisions cited in the ordinance"
+		],
+		"why": "The city says the amendment is needed to set the special tax treatment rate and update the provisions cited in the ordinance, following a partial amendment to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.039Z",
+			"inputTokens": 623,
+			"cachedTokens": 0,
+			"outputTokens": 1394,
+			"reasoningTokens": 1194,
+			"batch": true
+		}
+	}
+}

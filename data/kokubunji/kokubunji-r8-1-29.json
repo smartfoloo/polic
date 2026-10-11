@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-1-29",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第29号",
+	"official": "国分寺市行政手続における特定の個人を識別するための番号の利用等に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "乳幼児医療費助成の情報規定を整備",
+	"category": "行政のしくみ",
+	"summary": "市の条例では、行政手続での個人番号の利用などを定めています。この議案は、乳幼児の医療費助成などに関する特定個人情報の規定を整えるものです。",
+	"changes": [
+		"乳幼児の医療費助成などに関する特定個人情報の規定を整備する"
+	],
+	"who": [],
+	"why": "乳幼児の医療費助成などの事務に関する特定個人情報の規定を整える必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 1039,
+		"cachedTokens": 0,
+		"outputTokens": 672,
+		"reasoningTokens": 488,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.661Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 896,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "43fb2f08177f6886",
+		"name": "Updates information rules for subsidies for medical expenses for infants and young children",
+		"official": "Regarding an Ordinance Partially Amending the Kokubunji City Ordinance on the Use of Numbers to Identify Specific Individuals in Administrative Procedures, etc.",
+		"summary": "The city's ordinance sets out the use of individual numbers in administrative procedures, among other matters. This bill updates provisions on specific personal information related to subsidies for medical expenses for infants and young children, among other matters.",
+		"changes": [
+			"Updates provisions on specific personal information related to subsidies for medical expenses for infants and young children, among other matters"
+		],
+		"who": [],
+		"why": "The city says this is because provisions on specific personal information related to administrative work for subsidies for medical expenses for infants and young children, among other matters, need to be updated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.065Z",
+			"inputTokens": 611,
+			"cachedTokens": 0,
+			"outputTokens": 523,
+			"reasoningTokens": 333,
+			"batch": true
+		}
+	}
+}

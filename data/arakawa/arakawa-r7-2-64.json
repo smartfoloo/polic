@@ -1,0 +1,45 @@
+{
+	"id": "arakawa-r7-2-64",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第64号",
+	"official": "荒川区幼保連携型認定こども園の学級の編制、職員、設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第64号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian64.html",
+			"fetchedAt": "2026-10-10T14:48:08.109Z"
+		}
+	],
+	"name": "認定こども園の基準条例を改正",
+	"category": "子育て",
+	"summary": "幼保連携型認定こども園の学級編制や職員、設備、運営の基準を定める条例です。この議案では、関連する法律の改正に合わせて、条例の規定を整えます。",
+	"changes": [
+		"法律の改正に伴い条例の規定を整える"
+	],
+	"who": [],
+	"why": "法律の改正に伴い、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.810Z",
+		"inputTokens": 1064,
+		"cachedTokens": 0,
+		"outputTokens": 437,
+		"reasoningTokens": 298,
+		"batch": true
+	}
+}

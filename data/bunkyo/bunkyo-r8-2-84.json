@@ -1,0 +1,86 @@
+{
+	"id": "bunkyo-r8-2-84",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第84号",
+	"official": "文京区子ども・子育て会議条例及び文京区立認定こども園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第84号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "会議名などの「子ども」を「こども」に変更",
+	"category": "子育て",
+	"summary": "現在、区の会議条例や認定こども園条例では「子ども」と表記している箇所があります。この議案で、会議の名称と条例中の表記を「こども」に改め、2026年4月1日から施行します。",
+	"changes": [
+		"会議条例の題名と会議名の「子ども」を「こども」に改める",
+		"認定こども園条例第19条第1号の「子ども」を「こども」に改める"
+	],
+	"who": [],
+	"why": "こども基本法の基本理念を踏まえ、「こども」の表記に関する規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.833Z",
+		"inputTokens": 1367,
+		"cachedTokens": 0,
+		"outputTokens": 689,
+		"reasoningTokens": 487,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.833Z",
+		"checkedAt": "2026-10-10T07:29:38.539Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1265,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b806886a526b3687",
+		"name": "Changes “子ども” to “こども” in council and ordinance names",
+		"official": "Ordinance Partially Amending the Bunkyo City Children and Child-Rearing Council Ordinance and the Bunkyo City Certified Children’s Center Ordinance",
+		"summary": "Some parts of the city’s council ordinance and certified children’s center ordinance currently use the spelling “子ども.” This bill changes the council’s name and the wording in the ordinances to “こども.” It takes effect on April 1, 2026.",
+		"changes": [
+			"Changes “子ども” to “こども” in the title of the Council Ordinance and in the council’s name",
+			"Changes “子ども” to “こども” in Article 19, item 1, of the Certified Children’s Center Ordinance"
+		],
+		"who": [],
+		"why": "The city says this is to align the provisions on writing “こども” with the basic principles of the Basic Act for Children.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.021Z",
+			"inputTokens": 647,
+			"cachedTokens": 0,
+			"outputTokens": 1128,
+			"reasoningTokens": 890,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"id": "sagamihara-r7-3-22",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第22号",
+	"official": "相模原市介護保険条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": "民生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "9297296c6fd6a7c1",
+		"official": "Regarding the Ordinance Partially Amending the Sagamihara City Long-Term Care Insurance Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:01:15.339Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 126,
+			"reasoningTokens": 91,
+			"batch": true
+		}
+	}
+}

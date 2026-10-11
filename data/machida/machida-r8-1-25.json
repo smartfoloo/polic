@@ -60,5 +60,27 @@
 			"outputTokens": 42,
 			"reasoningTokens": 28
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "afede5fc4129ea05",
+		"name": "Corrects the legal citation for an application to approve a change",
+		"official": "Ordinance Partially Amending the Machida City Ordinance on Fees Related to the Public Health Center",
+		"summary": "An application for approval to partially change the products manufactured and marketed as pharmacy-manufactured drugs is subject to a fee of ¥140 per application. This bill changes the citation to the law relevant to the application from Article 14, paragraph 15, to Article 14, paragraph 13. The amendment takes effect on May 1, 2026.",
+		"changes": [
+			"Changes the cited legal provision used as the basis for the application fee from Article 14, paragraph 15, to Article 14, paragraph 13"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:14:55.759Z",
+			"inputTokens": 595,
+			"cachedTokens": 0,
+			"outputTokens": 601,
+			"reasoningTokens": 417
+		}
 	}
 }

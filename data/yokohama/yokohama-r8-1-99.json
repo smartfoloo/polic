@@ -1,0 +1,91 @@
+{
+	"id": "yokohama-r8-1-99",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第99号議案",
+	"official": "横浜市非常勤特別職職員の報酬及び費用弁償に関する条例等の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第99号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si99.pdf",
+			"fetchedAt": "2026-10-08T11:02:56.871Z"
+		}
+	],
+	"name": "職員や委員らの旅費基準を新条例に合わせる",
+	"category": "行政のしくみ",
+	"summary": "これまで関係する条例では、旅費の支給に旧「横浜市旅費条例」を準用するなどとしていました。この議案では、旅費条例の全部改正に合わせて、関係する条例の参照先や旅費の額・支給方法の基準を改めます。改正後の規定は、令和8年4月1日以降に出発する旅行などに適用します。",
+	"changes": [
+		"関係する条例の旅費条例の参照先を新しい条例に改める",
+		"旅費の額や支給方法の基準となる職員区分を新しい条例に合わせる"
+	],
+	"who": [
+		"旅費の支給対象となる市職員や委員など"
+	],
+	"why": "横浜市旅費条例の全部改正に伴い、関係規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.885Z",
+		"inputTokens": 6709,
+		"cachedTokens": 0,
+		"outputTokens": 1799,
+		"reasoningTokens": 1533,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.885Z",
+		"checkedAt": "2026-10-10T07:29:38.708Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6650,
+			"cachedTokens": 0,
+			"outputTokens": 74,
+			"reasoningTokens": 60,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bdf268a6143ad35e",
+		"name": "Aligns travel expense standards for staff and committee members with the new ordinance",
+		"official": "Partial Amendment of the Ordinance Concerning Remuneration and Reimbursement of Expenses for Part-Time Special Service Employees of Yokohama City, etc.",
+		"summary": "Until now, the related ordinances provided, among other things, that travel expenses would be paid by applying the former Yokohama City Travel Expenses Ordinance. This bill revises the references in the related ordinances and the standards for travel expense amounts and payment methods to reflect the complete revision of the Travel Expenses Ordinance. The revised provisions will apply to trips departing on or after April 1, 2026, and other cases.",
+		"changes": [
+			"Updates references to the travel expenses ordinance in the related ordinances to refer to the new ordinance",
+			"Aligns the employee categories used as standards for travel expense amounts and payment methods with the new ordinance"
+		],
+		"who": [
+			"City employees, committee members and others eligible for travel expense payments",
+			"City employees whose categories are used to set travel expense amounts and payment methods"
+		],
+		"why": "The city says this is to update the relevant provisions following the complete revision of the Yokohama City Travel Expenses Ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.073Z",
+			"inputTokens": 686,
+			"cachedTokens": 0,
+			"outputTokens": 1045,
+			"reasoningTokens": 766,
+			"batch": true
+		}
+	}
+}

@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4f536ec3041e4a82",
+		"name": "Repeals the Nanakuniyama Farmers Center Ordinance",
+		"official": "Ordinance Repealing the Machida City Nanakuniyama Farmers Center Ordinance",
+		"summary": "The Machida City Nanakuniyama Farmers Center Ordinance is currently in force. This bill repeals the ordinance and takes effect on April 1, 2027.",
+		"changes": [
+			"Repeals the Nanakuniyama Farmers Center Ordinance"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:41:46.941Z",
+			"inputTokens": 526,
+			"cachedTokens": 0,
+			"outputTokens": 327,
+			"reasoningTokens": 203
+		}
 	}
 }

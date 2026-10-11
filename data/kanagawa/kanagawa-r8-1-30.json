@@ -1,0 +1,88 @@
+{
+	"id": "kanagawa-r8-1-30",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第30号議案",
+	"official": "神奈川県県税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第30号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "公益信託への寄附を県民税控除の対象に",
+	"category": "税・手数料",
+	"summary": "個人県民税の寄附金税額控除の対象となる寄附金を定めています。改正により、県民の福祉の増進に寄与する目的の公益信託への寄附も対象に加わります。施行日は令和9年1月1日です。",
+	"changes": [
+		"県民の福祉の増進に寄与する目的の公益信託への寄附を控除対象に加える"
+	],
+	"who": [
+		"対象となる公益信託に寄附する県民"
+	],
+	"why": "公益信託に関わる寄附が個人県民税の寄附金税額控除の対象となる地方税法の改正に伴うものと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.864Z",
+		"inputTokens": 1689,
+		"cachedTokens": 0,
+		"outputTokens": 865,
+		"reasoningTokens": 629,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.864Z",
+		"checkedAt": "2026-10-10T07:29:38.616Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1597,
+			"cachedTokens": 0,
+			"outputTokens": 467,
+			"reasoningTokens": 453,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c58a4cee6862006c",
+		"name": "Makes donations to public interest trusts eligible for prefectural tax deductions",
+		"official": "Ordinance Partially Amending the Kanagawa Prefectural Tax Ordinance",
+		"summary": "This ordinance specifies which donations are eligible for the donation tax credit for individual prefectural resident tax. The amendment also makes donations to public interest trusts whose purpose is to promote the welfare of prefectural residents eligible. It takes effect on January 1, 2027.",
+		"changes": [
+			"Adds donations to public interest trusts whose purpose is to promote the welfare of prefectural residents to the eligible donations"
+		],
+		"who": [
+			"Prefectural residents who donate to eligible public interest trusts"
+		],
+		"why": "The prefecture says this is in response to an amendment to the Local Tax Act that makes donations related to public interest trusts eligible for the donation tax credit for individual prefectural resident tax.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.050Z",
+			"inputTokens": 637,
+			"cachedTokens": 0,
+			"outputTokens": 534,
+			"reasoningTokens": 330,
+			"batch": true
+		}
+	}
+}

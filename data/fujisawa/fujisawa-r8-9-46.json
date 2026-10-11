@@ -1,0 +1,93 @@
+{
+	"id": "fujisawa-r8-9-46",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第46号",
+	"official": "藤沢市ふじさわ宿交流館条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "子ども文教常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第46号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2811&Sflg=2",
+			"fetchedAt": "2026-10-08T11:20:42.550Z"
+		},
+		{
+			"label": "議案第46号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2811_e01-046.pdf",
+			"fetchedAt": "2026-10-08T11:20:46.594Z"
+		}
+	],
+	"name": "会議室の使用料を100円から200円に",
+	"category": "税・手数料",
+	"summary": "現在、ふじさわ宿交流館の会議室の使用料は100円です。この議案では200円に改め、令和9年4月1日以降の使用に適用します。",
+	"changes": [
+		"会議室の使用料を100円から200円に改める"
+	],
+	"who": [
+		"ふじさわ宿交流館の会議室を利用する人"
+	],
+	"why": "会議室の使用料について、受益と負担の適正化を図り、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.851Z",
+		"inputTokens": 1370,
+		"cachedTokens": 0,
+		"outputTokens": 538,
+		"reasoningTokens": 374,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.851Z",
+		"checkedAt": "2026-10-10T07:29:38.581Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1219,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "111c56807456d87c",
+		"name": "Raises Fujisawa-juku Exchange Hall meeting room fee from ¥100 to ¥200",
+		"official": "Regarding Partial Amendment to the Fujisawa City Fujisawa-juku Exchange Hall Ordinance",
+		"summary": "The current fee for using a meeting room at Fujisawa-juku Exchange Hall is ¥100. This bill changes it to ¥200 and applies the new fee to uses from April 1, 2027 onward.",
+		"changes": [
+			"Changes the meeting room fee from ¥100 to ¥200"
+		],
+		"who": [
+			"People who use meeting rooms at Fujisawa-juku Exchange Hall"
+		],
+		"why": "The city says this is to ensure an appropriate balance between benefits and costs and to secure social fairness regarding the meeting room fee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.036Z",
+			"inputTokens": 592,
+			"cachedTokens": 0,
+			"outputTokens": 553,
+			"reasoningTokens": 371,
+			"batch": true
+		}
+	}
+}

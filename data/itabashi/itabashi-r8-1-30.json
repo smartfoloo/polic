@@ -63,5 +63,30 @@
 			"outputTokens": 166,
 			"reasoningTokens": 152
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "15419d3b3326f8a5",
+		"name": "Changes the eligible hours and other rules for the special work allowance for managerial staff",
+		"official": "Ordinance Partially Amending the Ordinance on the Salaries of Kindergarten Education Personnel",
+		"summary": "Under the current ordinance, the eligible hours are from midnight to 5 a.m. on days other than weekly days off, etc. The amendment changes these hours to 10 p.m. to 5 a.m. the following day, excluding hours that fall on weekly days off, etc. For work specified by rules, the allowance will be 1.5 times the calculated amount. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Changes the eligible hours to 10 p.m. to 5 a.m. the following day, excluding hours that fall on weekly days off, etc.",
+			"Sets the allowance for work specified by Board of Education rules, with approval from the Personnel Commission, at 1.5 times the specified amount"
+		],
+		"who": [
+			"Kindergarten education personnel eligible for the special work allowance for managerial staff"
+		],
+		"why": "The ward says this is to revise the provisions on the special work allowance for managerial staff and make the necessary adjustments to related provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:08:04.057Z",
+			"inputTokens": 709,
+			"cachedTokens": 0,
+			"outputTokens": 1007,
+			"reasoningTokens": 728
+		}
 	}
 }

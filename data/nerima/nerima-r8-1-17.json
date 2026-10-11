@@ -1,0 +1,86 @@
+{
+	"id": "nerima-r8-1-17",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第17号",
+	"official": "練馬区乳児等通園支援事業の設備および運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教児童青少年委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-05",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "乳幼児の合計で利用定員を設定可能に",
+	"category": "子育て",
+	"summary": "乳児等通園支援事業者が定める規程で、利用定員を乳児と幼児の合計人数で定められるようになります。関連する規定も整備し、令和8年4月1日に施行します。",
+	"changes": [
+		"利用定員を乳児・幼児の総数で定められるようにする",
+		"関連する規定を整備する"
+	],
+	"who": [
+		"乳児等通園支援事業者"
+	],
+	"why": "事業の設備・運営に関する基準が一部改正されたためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.879Z",
+		"inputTokens": 1100,
+		"cachedTokens": 0,
+		"outputTokens": 959,
+		"reasoningTokens": 759,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.879Z",
+		"checkedAt": "2026-10-10T07:29:38.669Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 966,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9ae2b82c83f0107c",
+		"name": "Allows capacity to be set based on the total number of infants and young children",
+		"official": "Ordinance Partially Amending the Nerima City Ordinance on Standards for Facilities and Operation of the Infant and Other Childcare Attendance Support Program",
+		"summary": "The rules set by providers of infant and other childcare attendance support services will allow user capacity to be set as the combined number of infants and young children. Related provisions will also be revised. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Allow user capacity to be set based on the combined number of infants and young children",
+			"Revise related provisions"
+		],
+		"who": [
+			"Providers of infant and other childcare attendance support services",
+			"Providers of infant and other childcare attendance support services"
+		],
+		"why": "The ward says this is because some of the standards for facilities and operation of the program were revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.067Z",
+			"inputTokens": 624,
+			"cachedTokens": 0,
+			"outputTokens": 996,
+			"reasoningTokens": 783,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"id": "bunkyo-r8-2-m6",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議員提出議案第6号",
+	"official": "文京区議会委員会条例の一部を改正する条例",
+	"by": "member",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "69e953a3e42354c4",
+		"official": "Ordinance Partially Amending the Bunkyo City Council Committee Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.506Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 148,
+			"reasoningTokens": 117,
+			"batch": true
+		}
+	}
+}

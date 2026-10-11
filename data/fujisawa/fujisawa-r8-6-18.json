@@ -1,0 +1,96 @@
+{
+	"id": "fujisawa-r8-6-18",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第18号",
+	"official": "藤沢市自転車等駐車場条例の一部改正について",
+	"by": "head",
+	"session": "令和8年6月定例会",
+	"committee": "建設経済常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年6月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F04%2C2026%2F06%2F25%2C114",
+			"fetchedAt": "2026-10-08T11:17:24.442Z"
+		},
+		{
+			"label": "議案第18号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2767&Sflg=2",
+			"fetchedAt": "2026-10-08T11:18:09.226Z"
+		},
+		{
+			"label": "議案第18号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2767_e01-018.pdf",
+			"fetchedAt": "2026-10-08T11:18:15.456Z"
+		}
+	],
+	"name": "本鵠沼駅に自転車駐車場を追加",
+	"category": "交通",
+	"summary": "本鵠沼駅周辺に新設する自転車駐車場を、条例に追加します。一時利用は1回100円で、利用時間は午前0時から午後12時までです。",
+	"changes": [
+		"本鵠沼駅第1自転車駐車場を条例に加える",
+		"一時利用料金を1回100円とする"
+	],
+	"who": [
+		"本鵠沼駅第1自転車駐車場を利用する人"
+	],
+	"why": "駅周辺に新設する有料自転車駐車場を公共の利用に使えるようにするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.848Z",
+		"inputTokens": 1418,
+		"cachedTokens": 0,
+		"outputTokens": 793,
+		"reasoningTokens": 607,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.848Z",
+		"checkedAt": "2026-10-10T07:29:38.574Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1296,
+			"cachedTokens": 0,
+			"outputTokens": 82,
+			"reasoningTokens": 67,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "eacc870342392ef0",
+		"name": "Adds bicycle parking at Hon-Kugenuma Station",
+		"official": "Partial Amendment to the Fujisawa City Bicycle and Other Vehicle Parking Ordinance",
+		"summary": "Adds a new bicycle parking facility near Hon-Kugenuma Station to the ordinance. Temporary use costs ¥100 per use, and the facility is open from midnight to noon.",
+		"changes": [
+			"Adds Hon-Kugenuma Station No. 1 Bicycle Parking Facility to the ordinance",
+			"Sets the temporary-use fee at ¥100 per use"
+		],
+		"who": [
+			"People who use Hon-Kugenuma Station No. 1 Bicycle Parking Facility",
+			"People who use the facility temporarily"
+		],
+		"why": "The city says this is to make the new paid bicycle parking facility near the station available for public use.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.033Z",
+			"inputTokens": 621,
+			"cachedTokens": 0,
+			"outputTokens": 583,
+			"reasoningTokens": 397,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"id": "bunkyo-r8-2-72",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第72号",
+	"official": "文京区行政委員会の委員及び非常勤の監査委員の報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第72号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "行政委員会委員などの報酬額を改定",
+	"category": "行政のしくみ",
+	"summary": "行政委員会の委員と非常勤の監査委員の報酬額は、条例の別表で定められています。この議案では複数の報酬額と別表の参照条文を改め、令和8年4月1日から施行します。",
+	"changes": [
+		"報酬額を255,600円から265,300円、235,800円から244,700円、295,400円から306,600円に改定する",
+		"報酬額を5,000円から5,200円に改定する",
+		"報酬額を147,600円から153,200円に改定する",
+		"別表の参照条文を第2条から第2条・第5条に改める"
+	],
+	"who": [],
+	"why": "報酬の額を改定するほか、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.829Z",
+		"inputTokens": 1355,
+		"cachedTokens": 0,
+		"outputTokens": 1204,
+		"reasoningTokens": 959,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.829Z",
+		"checkedAt": "2026-10-10T07:29:38.526Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1299,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1bc69ff27a848d44",
+		"name": "Revises remuneration for administrative committee members and others",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Expense Reimbursement for Members of Bunkyo City Administrative Committees and Part-Time Audit Committee Members",
+		"summary": "The remuneration for members of administrative committees and part-time audit committee members is set out in a table attached to the ordinance. This bill revises several remuneration amounts and a cross-reference in the table. It will take effect on April 1, 2026.",
+		"changes": [
+			"Raises remuneration from ¥255,600 to ¥265,300, from ¥235,800 to ¥244,700, and from ¥295,400 to ¥306,600",
+			"Raises remuneration from ¥5,000 to ¥5,200",
+			"Raises remuneration from ¥147,600 to ¥153,200",
+			"Changes the table’s cross-reference from Article 2 to Articles 2 and 5"
+		],
+		"who": [],
+		"why": "The ward says the bill is intended to revise remuneration amounts and adjust the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.017Z",
+			"inputTokens": 702,
+			"cachedTokens": 0,
+			"outputTokens": 604,
+			"reasoningTokens": 358,
+			"batch": true
+		}
+	}
+}

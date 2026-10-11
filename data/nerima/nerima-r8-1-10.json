@@ -1,0 +1,79 @@
+{
+	"id": "nerima-r8-1-10",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第10号",
+	"official": "練馬区医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律の事務に係る手数料に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "保健福祉委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-05",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "条例が引用する法律の項番号を修正",
+	"category": "行政のしくみ",
+	"summary": "手数料を定めた条例では、医薬品などに関する法律の規定を引用しています。この議案で、法律改正に伴う項番号のずれに合わせて引用箇所を整えます。施行日は令和8年5月1日です。",
+	"changes": [
+		"条例が引用する法律の項番号を改める"
+	],
+	"who": [],
+	"why": "法律の一部改正で、条例が引用する規定の項番号がずれるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.878Z",
+		"inputTokens": 1095,
+		"cachedTokens": 0,
+		"outputTokens": 516,
+		"reasoningTokens": 345,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.878Z",
+		"checkedAt": "2026-10-10T07:29:38.666Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 932,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b45f0f15141640a4",
+		"name": "Corrects paragraph numbers in law cited by ordinance",
+		"official": "Ordinance Partially Amending the Nerima City Ordinance on Fees for Administrative Matters under the Act on Securing Quality, Efficacy and Safety of Products Including Pharmaceuticals and Medical Devices",
+		"summary": "The ordinance that sets fees cites provisions of the law on pharmaceuticals and other products. This bill updates the citations to reflect paragraph-number changes resulting from amendments to the law. It will take effect on May 1, 2026.",
+		"changes": [
+			"Amends the paragraph numbers in the law cited by the ordinance"
+		],
+		"who": [],
+		"why": "The ward says this is because a partial amendment to the law will shift the paragraph numbers of the provisions cited by the ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.067Z",
+			"inputTokens": 610,
+			"cachedTokens": 0,
+			"outputTokens": 946,
+			"reasoningTokens": 767,
+			"batch": true
+		}
+	}
+}

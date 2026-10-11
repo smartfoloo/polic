@@ -1,0 +1,100 @@
+{
+	"id": "kawasaki-r8-2-92",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第92号",
+	"official": "川崎市市民館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第92号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_92.pdf",
+			"fetchedAt": "2026-10-08T11:10:33.464Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "幸市民館などを指定管理者の管理に",
+	"category": "行政のしくみ",
+	"summary": "条例には、市民館の各施設の使用料・利用料が定められています。この議案では、幸市民館と幸市民館日吉分館の管理を指定管理者に行わせ、利用料金制を導入します。あわせて、市民館の施設使用料・利用料の表を差し替えます。",
+	"changes": [
+		"幸市民館と幸市民館日吉分館の管理を指定管理者に行わせる",
+		"幸市民館と幸市民館日吉分館に利用料金制を導入する",
+		"市民館の施設使用料・利用料の表を差し替える"
+	],
+	"who": [
+		"市民館を利用する人"
+	],
+	"why": "幸市民館と幸市民館日吉分館の管理を指定管理者に行わせ、利用料金制を導入するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.553Z",
+		"inputTokens": 3247,
+		"cachedTokens": 0,
+		"outputTokens": 1903,
+		"reasoningTokens": 1673,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.553Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「市民館の施設使用料・利用料の額を改めます。」 → 原文は料金表の差替えを規定していますが、改正前の金額は示されておらず、金額自体が変更されるかは確認できません。",
+				"ai [check] changes/unsupported: 「市民館の施設使用料・利用料の額を改める」 → 原文から確認できるのは料金表の差替えであり、金額自体の変更は改正前の料金表との照合が必要です。"
+			],
+			"inputTokens": 3723,
+			"cachedTokens": 1025,
+			"outputTokens": 580,
+			"reasoningTokens": 319,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.872Z",
+		"checkedAt": "2026-10-10T07:29:38.645Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "市民館の施設使用料・利用料の額を改めます。",
+				"note": "原文は料金表の差替えを規定していますが、改正前の金額は示されておらず、金額自体が変更されるかは確認できません。"
+			},
+			{
+				"field": "changes",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "市民館の施設使用料・利用料の額を改める",
+				"note": "原文から確認できるのは料金表の差替えであり、金額自体の変更は改正前の料金表との照合が必要です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3177,
+			"cachedTokens": 0,
+			"outputTokens": 347,
+			"reasoningTokens": 183,
+			"batch": true
+		}
+	}
+}

@@ -75,5 +75,32 @@
 			"outputTokens": 702,
 			"reasoningTokens": 399
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "89e4e63a7098faf9",
+		"name": "Revises capacity and selection standards for childcare facilities",
+		"official": "Regarding the enactment of an ordinance to partially amend the Hachioji City Ordinance on Standards for the Operation of Specified Education and Childcare Facilities, Specified Community-Based Childcare Services, and Specified Child and Child-Rearing Support Facilities, etc.",
+		"summary": "The current ordinance sets operating standards for certified centers for early childhood education and care, nursery schools, community-based childcare services, and other facilities and services. This amendment revises the rules for selecting applications and setting capacity to match children's certification categories. It also sets standards for small-scale childcare services limited to children aged 3 and older.",
+		"changes": [
+			"Revise the selection rules for cases where applications exceed capacity, according to the category of facility or service",
+			"Set capacity for community-based childcare services according to children's age categories and other factors",
+			"Set operating standards for special-use community-based childcare and other services under small-scale childcare services limited to children aged 3 and older"
+		],
+		"who": [
+			"Children and parents using certified centers for early childhood education and care, nursery schools, and community-based childcare services",
+			"Operators of specified education and childcare facilities and community-based childcare services"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:57:21.187Z",
+			"inputTokens": 745,
+			"cachedTokens": 0,
+			"outputTokens": 775,
+			"reasoningTokens": 491
+		}
 	}
 }

@@ -1,0 +1,47 @@
+{
+	"id": "arakawa-r7-2-66",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第66号",
+	"official": "幼稚園教育職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第66号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian66.html",
+			"fetchedAt": "2026-10-10T14:48:20.144Z"
+		}
+	],
+	"name": "幼稚園教育職員の手当対象時間を変更",
+	"category": "教育",
+	"summary": "幼稚園教育職員に支給する管理職員特別勤務手当について、支給対象となる時間などを改めます。あわせて、関連する規定を整えます。",
+	"changes": [
+		"管理職員特別勤務手当の支給対象となる時間などを改める"
+	],
+	"who": [
+		"幼稚園教育職員"
+	],
+	"why": "手当の支給対象となる時間などを改め、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.811Z",
+		"inputTokens": 1032,
+		"cachedTokens": 0,
+		"outputTokens": 470,
+		"reasoningTokens": 322,
+		"batch": true
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"id": "kawasaki-r8-1-7",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "川崎市手数料条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第7号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_7.pdf",
+			"fetchedAt": "2026-10-08T11:07:03.458Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "条例の条文参照先を改める",
+	"category": "行政のしくみ",
+	"summary": "川崎市手数料条例の第2条第174号は、法律の条文を「第14条第15項」と参照しています。この参照先を「第14条第13項」に改め、令和8年5月1日から施行します。",
+	"changes": [
+		"第2条第174号の参照先を「第14条第15項」から「第14条第13項」に改める"
+	],
+	"who": [],
+	"why": "「医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律」の一部改正に伴い、必要な整備を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.869Z",
+		"inputTokens": 1212,
+		"cachedTokens": 0,
+		"outputTokens": 634,
+		"reasoningTokens": 426,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.869Z",
+		"checkedAt": "2026-10-10T07:29:38.634Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1092,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "409156836254e9eb",
+		"name": "Updates a statutory reference in the ordinance",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Fees Ordinance",
+		"summary": "Article 2, item 174 of the Kawasaki City Fees Ordinance refers to a provision of a law as “Article 14, paragraph 15.” This reference will be changed to “Article 14, paragraph 13,” effective May 1, 2026.",
+		"changes": [
+			"Change the reference in Article 2, item 174 from “Article 14, paragraph 15” to “Article 14, paragraph 13”"
+		],
+		"who": [],
+		"why": "The city says this is to make the necessary adjustments in connection with a partial amendment to the Act on Securing Quality, Efficacy and Safety of Pharmaceuticals, Medical Devices, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.056Z",
+			"inputTokens": 614,
+			"cachedTokens": 0,
+			"outputTokens": 600,
+			"reasoningTokens": 402,
+			"batch": true
+		}
+	}
+}

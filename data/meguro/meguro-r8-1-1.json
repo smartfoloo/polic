@@ -63,5 +63,31 @@
 			"outputTokens": 74,
 			"reasoningTokens": 59
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0f741164c1a52ac5",
+		"name": "Updates condominium-related fee rules to reflect legal changes",
+		"official": "Ordinance Partially Revising the Meguro City Fee Ordinance",
+		"summary": "The schedule to the Meguro City Fee Ordinance lists fees for procedures related to condominiums. This bill updates the names of related laws and their article numbers, and revises the wording so that condominium renewal and the heights of its various parts are also covered. The effective date varies by item: the date of promulgation, April 1, 2026, or May 1, 2026.",
+		"changes": [
+			"Updates the names of related laws and their article numbers",
+			"Revises the wording so that condominium renewal and the heights of its various parts are also covered"
+		],
+		"who": [
+			"People handling procedures related to condominium rebuilding",
+			"People handling procedures related to condominium renewal"
+		],
+		"why": "The ward says this is to update the provisions in line with legal changes, including changes to laws intended to make it easier to manage and renew aging condominiums and similar buildings.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:41:59.870Z",
+			"inputTokens": 673,
+			"cachedTokens": 0,
+			"outputTokens": 891,
+			"reasoningTokens": 646
+		}
 	}
 }

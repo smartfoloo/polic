@@ -1,0 +1,87 @@
+{
+	"id": "yokohama-r8-2-12",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第12号議案",
+	"official": "横浜市立学校条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第12号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si12.pdf",
+			"fetchedAt": "2026-10-08T11:05:33.233Z"
+		}
+	],
+	"name": "東戸塚小学校に分校を設置",
+	"category": "教育",
+	"summary": "現在の条例には、横浜市立東戸塚小学校が定められています。この議案で同校の分校を条例に加え、教育委員会規則で定める日から施行します。",
+	"changes": [
+		"東戸塚小学校の分校を設置する"
+	],
+	"who": [
+		"分校に通う児童と保護者"
+	],
+	"why": "東戸塚小学校の分校を設置するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.560Z",
+		"inputTokens": 1380,
+		"cachedTokens": 0,
+		"outputTokens": 829,
+		"reasoningTokens": 660,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.560Z",
+			"notes": [
+				"ai [check] summary/direction: 「この議案で同校の分校を条例に加え」 → 本文の改正箇所に空の「」があり、改正前後の文字列の対応が崩れているため、条例への追加という変更の向きを確認できません。"
+			],
+			"inputTokens": 1704,
+			"cachedTokens": 1025,
+			"outputTokens": 384,
+			"reasoningTokens": 215,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.887Z",
+		"checkedAt": "2026-10-10T07:29:38.717Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "この議案で同校の分校を条例に加え",
+				"note": "本文の改正箇所に空の「」があり、改正前後の文字列の対応が崩れているため、条例への追加という変更の向きを確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1227,
+			"cachedTokens": 0,
+			"outputTokens": 134,
+			"reasoningTokens": 44,
+			"batch": true
+		}
+	}
+}

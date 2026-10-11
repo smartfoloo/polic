@@ -1,0 +1,90 @@
+{
+	"id": "fujisawa-r8-2-88",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第88号",
+	"official": "藤沢市手数料条例の一部改正について",
+	"by": "head",
+	"session": "令和8年2月定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-16",
+	"sources": [
+		{
+			"label": "令和8年2月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F12%2C2026%2F03%2F18%2C112",
+			"fetchedAt": "2026-10-08T11:13:34.985Z"
+		},
+		{
+			"label": "議案第88号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2719&Sflg=2",
+			"fetchedAt": "2026-10-08T11:14:41.315Z"
+		},
+		{
+			"label": "議案第88号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2719_e01-088.pdf",
+			"fetchedAt": "2026-10-08T11:14:46.945Z"
+		}
+	],
+	"name": "マンション・医薬品の手数料規定を改める",
+	"category": "税・手数料",
+	"summary": "市の手数料条例には、マンション関係と医薬品関係の手数料に関する規定があります。この議案では、関係する法律の改正に合わせて法律名や条文番号を改め、マンション関係の規定に「各部分の高さ」を加えます。マンション関係は2026年4月1日、医薬品関係は2026年5月1日から施行します。",
+	"changes": [
+		"マンション関係の法律名と条文番号を改める",
+		"「容積率」の後に「又は各部分の高さ」を加える",
+		"医薬品関係の条文番号を改める"
+	],
+	"who": [],
+	"why": "マンション関係と医薬品関係の法律改正に伴い、条例の規定を整える必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.532Z",
+		"inputTokens": 1484,
+		"cachedTokens": 0,
+		"outputTokens": 2099,
+		"reasoningTokens": 1865,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.532Z",
+			"notes": [
+				"ai [check] changes/unsupported: 「許可に関する規定に各部分の高さを加える」 → 原文には「容積率」の次に「又は各部分の高さ」を加えるとありますが、許可に関する規定であることは本文から確認できません。"
+			],
+			"inputTokens": 1890,
+			"cachedTokens": 1025,
+			"outputTokens": 602,
+			"reasoningTokens": 342,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.845Z",
+		"checkedAt": "2026-10-10T07:29:38.564Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "許可に関する規定に各部分の高さを加える",
+				"note": "原文には「容積率」の次に「又は各部分の高さ」を加えるとありますが、許可に関する規定であることは本文から確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1411,
+			"cachedTokens": 0,
+			"outputTokens": 223,
+			"reasoningTokens": 134,
+			"batch": true
+		}
+	}
+}

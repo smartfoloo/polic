@@ -60,5 +60,32 @@
 			"outputTokens": 42,
 			"reasoningTokens": 27
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4eba1d23337a3a5c",
+		"name": "Revises facility fees and indoor pool ticket prices",
+		"official": "Regarding the enactment of an ordinance to partially amend the Hachioji City Higashiasakawa Health and Welfare Center Ordinance",
+		"summary": "Fees are currently set for the meeting rooms, gymnasium, and indoor pool at the Higashiasakawa Health and Welfare Center. This bill raises the facility fees and the price of indoor pool ticket books, effective April 1, 2027. Even before the effective date, the new fees may be collected for use after that date, and the necessary procedures may be carried out in advance.",
+		"changes": [
+			"Raises the fee for Meeting Room 1 from ¥500 to ¥700 per time slot, and for Meeting Rooms 2 and 3 from ¥500 to ¥750",
+			"Raises the fee for Meeting Room 4 from ¥900 to ¥1,300, Meeting Room 5 from ¥1,700 to ¥2,400, and Meeting Rooms 6 and 7 from ¥800 to ¥1,200",
+			"Raises the gymnasium fee from ¥3,200 to ¥3,900 per time slot",
+			"Raises the indoor pool fee from ¥70 to ¥100 per hour for children and from ¥200 to ¥300 per hour for adults; raises the price of an 11-ticket book from ¥700 to ¥1,000 for children and from ¥2,000 to ¥3,000 for adults"
+		],
+		"who": [
+			"People who use the meeting rooms, gymnasium, or indoor pool at the Higashiasakawa Health and Welfare Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:54:18.888Z",
+			"inputTokens": 786,
+			"cachedTokens": 0,
+			"outputTokens": 698,
+			"reasoningTokens": 336
+		}
 	}
 }

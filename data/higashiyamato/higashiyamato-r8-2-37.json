@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/012/223/4-37.pdf",
 			"fetchedAt": "2026-10-05T15:59:19.274Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "4091cd3014843a7d",
+		"official": "Ordinance to Repeal the Higashiyamato City Personal Information Protection Deliberation Council Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:33.097Z",
+			"inputTokens": 385,
+			"cachedTokens": 0,
+			"outputTokens": 204,
+			"reasoningTokens": 166
+		}
+	}
 }

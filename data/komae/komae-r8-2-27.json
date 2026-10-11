@@ -1,0 +1,38 @@
+{
+	"id": "komae-r8-2-27",
+	"assembly": "tokyo/komae",
+	"approved": false,
+	"number": "議案第27号",
+	"official": "狛江市体育施設条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-19",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 審査結果一覧",
+			"url": "https://www.city.komae.tokyo.jp/index.cfm/49,145713,c,html/145713/20260817-171147.pdf",
+			"fetchedAt": "2026-10-08T10:57:37.753Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1f8822219b20c380",
+		"official": "Ordinance Partially Amending the Komae City Sports Facilities Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.516Z",
+			"inputTokens": 379,
+			"cachedTokens": 0,
+			"outputTokens": 111,
+			"reasoningTokens": 80,
+			"batch": true
+		}
+	}
+}

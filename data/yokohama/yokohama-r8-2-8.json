@@ -1,0 +1,87 @@
+{
+	"id": "yokohama-r8-2-8",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第8号議案",
+	"official": "横浜市営住宅条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第8号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si08.pdf",
+			"fetchedAt": "2026-10-08T11:04:57.298Z"
+		}
+	],
+	"name": "建替事業に伴い「さかえ住宅」を設置",
+	"category": "住宅",
+	"summary": "建替事業に伴い、市営住宅として「さかえ住宅」を設置します。施行日は規則で定めます。",
+	"changes": [
+		"市営住宅として「さかえ住宅」を設置する"
+	],
+	"who": [
+		"さかえ住宅の入居者"
+	],
+	"why": "さかえ住宅を設置するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.561Z",
+		"inputTokens": 1316,
+		"cachedTokens": 0,
+		"outputTokens": 768,
+		"reasoningTokens": 638,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.561Z",
+			"notes": [
+				"ai [check] summary/direction: 「市営住宅の一覧にある「サンヴァリエ日吉」を「さかえ住宅」に改めます。」 → 原文の改正文は「」の中身が空で、名称と「を」「に改める」の対応も崩れているため、変更前後の向きを確認できません。"
+			],
+			"inputTokens": 1635,
+			"cachedTokens": 1025,
+			"outputTokens": 988,
+			"reasoningTokens": 849,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.888Z",
+		"checkedAt": "2026-10-10T07:29:38.725Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "市営住宅の一覧にある「サンヴァリエ日吉」を「さかえ住宅」に改めます。",
+				"note": "原文の改正文は「」の中身が空で、名称と「を」「に改める」の対応も崩れているため、変更前後の向きを確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1148,
+			"cachedTokens": 0,
+			"outputTokens": 122,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	}
+}

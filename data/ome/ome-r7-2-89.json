@@ -68,5 +68,32 @@
 			"outputTokens": 228,
 			"reasoningTokens": 118
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c5bf2d16672338be",
+		"name": "Adds electronic signatures and website publication to ordinance promulgation",
+		"official": "Ordinance Partially Amending the Ome City Ordinance on Promulgation",
+		"summary": "The current rules set out how ordinances and other matters are posted for promulgation or public announcement. This bill allows the mayor to use an electronic signature and adds publication on the city website as a method of promulgation or public announcement. The amended provisions will apply from May 1, 2026.",
+		"changes": [
+			"Allow the mayor to use an electronic signature",
+			"Add publication on the city website as a method of promulgating or publicly announcing ordinances and other matters",
+			"Also publish on the website details of disciplinary, salary, and retirement allowance dispositions concerning city employees"
+		],
+		"who": [
+			"Residents checking Ome City ordinances and publicly announced matters",
+			"City employees subject to dispositions concerning discipline, salary, or retirement allowances"
+		],
+		"why": "In light of a partial amendment to the Local Autonomy Act, the city says this is intended to improve the efficiency of administrative operations and convenience for residents.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:58:52.459Z",
+			"inputTokens": 697,
+			"cachedTokens": 0,
+			"outputTokens": 699,
+			"reasoningTokens": 449
+		}
 	}
 }

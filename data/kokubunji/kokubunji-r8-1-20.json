@@ -1,0 +1,90 @@
+{
+	"id": "kokubunji-r8-1-20",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第20号",
+	"official": "国分寺市国民健康保険条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "国保税の所得割額などを改定",
+	"category": "税・手数料",
+	"summary": "国分寺市国民健康保険条例を改正します。子ども・子育て支援納付金に関する規定を整え、国民健康保険税の所得割額などを改定します。",
+	"changes": [
+		"子ども・子育て支援納付金に関する規定を整える",
+		"国民健康保険税の所得割額などを改定する"
+	],
+	"who": [
+		"国民健康保険税を納める人"
+	],
+	"why": "地方税法の改正に伴う規定の整備と、国民健康保険税の所得割額などの改定が必要なためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.876Z",
+		"inputTokens": 1047,
+		"cachedTokens": 0,
+		"outputTokens": 528,
+		"reasoningTokens": 341,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.876Z",
+		"checkedAt": "2026-10-10T07:29:38.657Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 932,
+			"cachedTokens": 0,
+			"outputTokens": 39,
+			"reasoningTokens": 24,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d9d20d106fe3c559",
+		"name": "Revises the income-based portion of National Health Insurance tax and other amounts",
+		"official": "Regarding an Ordinance Partially Amending the Kokubunji City National Health Insurance Ordinance",
+		"summary": "Kokubunji City will amend its National Health Insurance Ordinance. It will update provisions related to the Children and Childcare Support Contribution and revise the income-based portion of National Health Insurance tax and other amounts.",
+		"changes": [
+			"Update provisions related to the Children and Childcare Support Contribution",
+			"Revise the income-based portion of National Health Insurance tax and other amounts"
+		],
+		"who": [
+			"People who pay National Health Insurance tax"
+		],
+		"why": "The city says this is necessary to update provisions following amendments to the Local Tax Act and to revise the income-based portion of National Health Insurance tax and other amounts.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.063Z",
+			"inputTokens": 619,
+			"cachedTokens": 0,
+			"outputTokens": 499,
+			"reasoningTokens": 301,
+			"batch": true
+		}
+	}
+}

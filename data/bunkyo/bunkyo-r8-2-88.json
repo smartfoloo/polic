@@ -1,0 +1,88 @@
+{
+	"id": "bunkyo-r8-2-88",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第88号",
+	"official": "文京区立学校設置条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第88号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "後楽幼稚園の所在地を変更",
+	"category": "教育",
+	"summary": "区立後楽幼稚園の所在地は、現在、東京都文京区後楽一丁目7番7号です。この議案で所在地を同丁目7番22号に変更し、令和8年4月1日から施行します。",
+	"changes": [
+		"所在地を東京都文京区後楽一丁目7番7号から同丁目7番22号に変更する"
+	],
+	"who": [
+		"区立後楽幼稚園に通う子どもと保護者"
+	],
+	"why": "区立後楽幼稚園の所在地を変更するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.835Z",
+		"inputTokens": 1174,
+		"cachedTokens": 0,
+		"outputTokens": 494,
+		"reasoningTokens": 332,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.835Z",
+		"checkedAt": "2026-10-10T07:29:38.543Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1036,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "09d9309a17931a9b",
+		"name": "Changes the address of Koraku Kindergarten",
+		"official": "Ordinance Partially Amending the Bunkyo City Ordinance on the Establishment of Municipal Schools",
+		"summary": "The current address of Koraku Municipal Kindergarten is 7-7 Koraku 1-chome, Bunkyo City, Tokyo. This bill changes the address to 7-22 Koraku 1-chome and takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the address from 7-7 Koraku 1-chome to 7-22 Koraku 1-chome, Bunkyo City, Tokyo"
+		],
+		"who": [
+			"Children attending Koraku Municipal Kindergarten and their parents or guardians"
+		],
+		"why": "The ward says this is to change the address of Koraku Municipal Kindergarten.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.023Z",
+			"inputTokens": 593,
+			"cachedTokens": 0,
+			"outputTokens": 663,
+			"reasoningTokens": 468,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"id": "fujisawa-r8-9-40",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第40号",
+	"official": "藤沢市青少年会館条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "子ども文教常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第40号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2805&Sflg=2",
+			"fetchedAt": "2026-10-08T11:19:28.285Z"
+		},
+		{
+			"label": "議案第40号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2805_e01-040.pdf",
+			"fetchedAt": "2026-10-08T11:19:34.599Z"
+		}
+	],
+	"name": "青少年会館の施設使用料を改定",
+	"category": "教育",
+	"summary": "青少年会館の施設使用料を改定します。2027年4月1日以降に使用許可を受けた施設の利用には改定後の料金が適用され、それより前に許可を受けた場合は従来の料金が適用されます。",
+	"changes": [
+		"青少年会館の施設使用料を改定する"
+	],
+	"who": [
+		"青少年会館の施設を利用する人"
+	],
+	"why": "施設の使用料について、受益と負担の適正化を図り、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.537Z",
+		"inputTokens": 1428,
+		"cachedTokens": 0,
+		"outputTokens": 740,
+		"reasoningTokens": 574,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.537Z",
+			"notes": [
+				"ai [check] changes/direction: 「青少年会館の施設使用料を改定する」 → 原文の別表改正部分は引用符や金額の配列が崩れており、改正前後の金額の対応を全体として確認できません。"
+			],
+			"inputTokens": 1755,
+			"cachedTokens": 1025,
+			"outputTokens": 485,
+			"reasoningTokens": 295,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.849Z",
+		"checkedAt": "2026-10-10T07:29:38.577Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "青少年会館の施設使用料を改定する",
+				"note": "原文の別表改正部分は引用符や金額の配列が崩れており、改正前後の金額の対応を全体として確認できません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "青少年会館の施設使用料を改定する",
+				"note": "具体的な料金変更が記載されていません。原文で明記されている「１５０円を２００円に改める」など、利用者に直接関わる変更額が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1283,
+			"cachedTokens": 0,
+			"outputTokens": 374,
+			"reasoningTokens": 208,
+			"batch": true
+		}
+	}
+}

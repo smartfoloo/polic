@@ -1,0 +1,88 @@
+{
+	"id": "kanagawa-r8-1-27",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第27号議案",
+	"official": "神奈川県職員定数条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第27号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "県職員の定数を見直す",
+	"category": "行政のしくみ",
+	"summary": "条例で定める県職員の定数を改めます。2026年4月1日から、知事分は7,876人、定数の合計は22,979人となります。地方独立行政法人神奈川県立福祉機構が成立するまでは、知事分は7,982人、合計は23,085人となります。",
+	"changes": [
+		"知事分の定数を7,876人とする",
+		"職員定数の合計を22,979人とする",
+		"福祉機構の成立前は知事分を7,982人、合計を23,085人とする"
+	],
+	"who": [],
+	"why": "事務事業の見直しや、県立学校の児童・生徒数に基づく学級数の減少などに伴い、定数を改正するためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.864Z",
+		"inputTokens": 1234,
+		"cachedTokens": 0,
+		"outputTokens": 1680,
+		"reasoningTokens": 1420,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.864Z",
+		"checkedAt": "2026-10-10T07:29:38.615Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1167,
+			"cachedTokens": 0,
+			"outputTokens": 189,
+			"reasoningTokens": 174,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "405b5ae11a4d2f5c",
+		"name": "Revises the staffing levels for prefectural employees",
+		"official": "Ordinance Partially Amending the Kanagawa Prefecture Employee Staffing Ordinance",
+		"summary": "The ordinance revises the staffing levels for prefectural employees. From April 1, 2026, the allocation for the governor will be 7,876 employees, and the total staffing level will be 22,979. Until the Local Independent Administrative Agency Kanagawa Prefectural Welfare Organization is established, the allocation for the governor will be 7,982 employees and the total will be 23,085.",
+		"changes": [
+			"Sets the staffing level for the governor's allocation at 7,876 employees",
+			"Sets the total staffing level at 22,979 employees",
+			"Before the Welfare Organization is established, sets the governor's allocation at 7,982 employees and the total at 23,085"
+		],
+		"who": [],
+		"why": "The prefecture says it is revising the staffing levels in response to reviews of administrative and operational work, a decrease in the number of classes based on the number of children and students at prefectural schools, and other factors.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.049Z",
+			"inputTokens": 664,
+			"cachedTokens": 0,
+			"outputTokens": 605,
+			"reasoningTokens": 343,
+			"batch": true
+		}
+	}
+}

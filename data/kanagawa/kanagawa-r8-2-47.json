@@ -1,0 +1,99 @@
+{
+	"id": "kanagawa-r8-2-47",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第47号議案",
+	"official": "認定こども園の要件を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-13",
+	"sources": [
+		{
+			"label": "定県第47号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/134621/jorei_gian_8dai2_0615.pdf",
+			"fetchedAt": "2026-10-08T10:38:08.916Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai2.html",
+			"fetchedAt": "2026-10-08T10:37:44.946Z"
+		}
+	],
+	"name": "認定こども園の人数・職員要件を変更",
+	"category": "子育て",
+	"summary": "条例の一部の人数基準は35人です。この議案はこれを30人にし、一定の資格や経験などを持つ専門職1人を保育士の代わりに置けるようにします。ただし、補助者として従事する場合を除き、その専門職は教育課程に基づく教育を担当できず、保育士の支援を受けられる体制が必要です。また、子どもと接する職員の犯罪事実確認などを要件に加えます。",
+	"changes": [
+		"第2条第4号イの人数基準を35人から30人に変更する",
+		"要件を満たす専門職1人を保育士の代わりに置けるようにする",
+		"子どもと接する職員の犯罪事実確認などを要件に加える",
+		"附則の職名に「主務養護教諭」を加える"
+	],
+	"who": [
+		"認定こども園を利用する子ども",
+		"認定こども園で働く保育士や専門職"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.547Z",
+		"inputTokens": 1764,
+		"cachedTokens": 0,
+		"outputTokens": 2344,
+		"reasoningTokens": 2070,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.547Z",
+			"notes": [
+				"ai [error] summary/fact: 「ただし、その専門職は教育課程に基づく教育を担当せず」 → 原文は「補助者として従事する場合を除き」としており、補助者として教育に従事できる例外がある。",
+				"ai [check] changes/direction: 「」 → 原文末尾の「附則第7項の表中『』…」は改正前後の文字列が欠けており、同表の変更内容・方向を確認できない。"
+			],
+			"inputTokens": 2274,
+			"cachedTokens": 1025,
+			"outputTokens": 871,
+			"reasoningTokens": 554,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.865Z",
+		"checkedAt": "2026-10-10T07:29:38.620Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "ただし、その専門職は教育課程に基づく教育を担当せず",
+				"note": "原文は「補助者として従事する場合を除き」としており、補助者として教育に従事できる例外がある。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "",
+				"note": "原文末尾の「附則第7項の表中『』…」は改正前後の文字列が欠けており、同表の変更内容・方向を確認できない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1741,
+			"cachedTokens": 0,
+			"outputTokens": 418,
+			"reasoningTokens": 268,
+			"batch": true
+		}
+	}
+}

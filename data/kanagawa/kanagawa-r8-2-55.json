@@ -1,0 +1,86 @@
+{
+	"id": "kanagawa-r8-2-55",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第55号議案",
+	"official": "神奈川県立の高等学校等の設置に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-13",
+	"sources": [
+		{
+			"label": "定県第55号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/134621/jorei_gian_8dai2_0615.pdf",
+			"fetchedAt": "2026-10-08T10:38:08.916Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai2.html",
+			"fetchedAt": "2026-10-08T10:37:44.946Z"
+		}
+	],
+	"name": "県立高校の設置内容を条例上で変更",
+	"category": "教育",
+	"summary": "県立高校の設置校は、条例の別表に記載されています。この議案では、別表の3か所に項目を加え、6校の項目を削ります。追加分は2026年11月1日、削除分は2027年4月1日から施行します。",
+	"changes": [
+		"別表の二俣川高校、舞岡高校、藤沢工科高校の各項目の次に項目を加える",
+		"永谷、旭、横浜旭陵、横浜桜陽、深沢、藤沢清流高校の項目を別表から削る"
+	],
+	"who": [
+		"対象となる県立高校の生徒・入学希望者"
+	],
+	"why": "県立高校改革実施計画に基づく再編・統合によって、県立高校の設置などを行うためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.548Z",
+		"inputTokens": 1434,
+		"cachedTokens": 0,
+		"outputTokens": 1578,
+		"reasoningTokens": 1335,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.548Z",
+			"notes": [
+				"ai [check] changes/direction: 「県立高校の設置に関する別表に3項目を加える」 → 原文には「次のように加える」が3か所ありますが、その後に追加する表の内容がありません。追加される項目数と内容を原文から確認できません。"
+			],
+			"inputTokens": 1833,
+			"cachedTokens": 1025,
+			"outputTokens": 1017,
+			"reasoningTokens": 759,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.866Z",
+		"checkedAt": "2026-10-10T07:29:38.623Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "県立高校の設置に関する別表に3項目を加える",
+				"note": "原文には「次のように加える」が3か所ありますが、その後に追加する表の内容がありません。追加される項目数と内容を原文から確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1353,
+			"cachedTokens": 0,
+			"outputTokens": 210,
+			"reasoningTokens": 116,
+			"batch": true
+		}
+	}
+}

@@ -64,5 +64,31 @@
 			"outputTokens": 38,
 			"reasoningTokens": 24
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4c853a69be643030",
+		"name": "Revises salaries and allowances for specified fixed-term employees",
+		"official": "Ordinance Partially Amending the Kunitachi City Ordinance on Special Provisions for the Hiring and Salaries of Fixed-Term Employees in the General Service",
+		"summary": "The ordinance revises the salary schedule for specified fixed-term employees and the payment rates for year-end and performance allowances. The salary schedule applies from April 1, 2025, and the allowance rates apply from December 1, 2025. Different rates will apply to payments made in December 2025.",
+		"changes": [
+			"Changes the monthly salary amounts for each salary step to ¥397,700, ¥448,200, ¥501,600, ¥571,900 and ¥649,300",
+			"Changes the payment rates for year-end and performance allowances from 107.5% to 108.75%, from 62.5% to 63.75%, from 117.5% to 118.75%, from 72.5% to 73.75%, and from 112.5% to 113.75%",
+			"Sets the special payment rates at 75% and 115%"
+		],
+		"who": [
+			"Specified fixed-term employees"
+		],
+		"why": "The city says this is to revise the salary schedule for specified fixed-term employees and raise the payment rates for year-end and performance allowances.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:08.769Z",
+			"inputTokens": 761,
+			"cachedTokens": 0,
+			"outputTokens": 927,
+			"reasoningTokens": 614
+		}
 	}
 }

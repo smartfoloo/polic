@@ -69,5 +69,33 @@
 			"outputTokens": 270,
 			"reasoningTokens": 143
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "999424cd005fb159",
+		"name": "Changes standards for walls and retaining walls by district",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Ordinance on Restrictions on Buildings in Areas within Tama City District Plans",
+		"summary": "In district plan areas, rules for buildings and lots are set for each district. This bill revises standards for fences, hedges and retaining walls along roads, and also organizes descriptions of school types and references to laws and regulations.",
+		"changes": [
+			"Reviews the structure, height and exceptions for fences and hedges along roads in each district",
+			"Reviews standards for retaining wall height, open space for planting and setbacks in some districts",
+			"Organizes the types of schools covered in the Gakuen District of the Minamino 2-chome District",
+			"Updates references to ordinances and laws and regulations, as well as terminology"
+		],
+		"who": [
+			"People installing fences, hedges or retaining walls along roads in district plan areas",
+			"People building schools or similar facilities in the Gakuen District of the Minamino 2-chome District"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:19:03.924Z",
+			"inputTokens": 700,
+			"cachedTokens": 0,
+			"outputTokens": 441,
+			"reasoningTokens": 186
+		}
 	}
 }

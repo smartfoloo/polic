@@ -61,5 +61,28 @@
 			"outputTokens": 55,
 			"reasoningTokens": 41
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c49e81ea835280ee",
+		"name": "Revises references to requirements for certified childcare centers",
+		"official": "Tokyo Metropolitan Itabashi City Ordinance Partially Amending the Ordinance Establishing Requirements for the Certification of Certified Childcare Centers Other Than Integrated Kindergarten-and-Nursery Certified Childcare Centers",
+		"summary": "The ordinance refers to articles of a law concerning certification requirements for certified childcare centers. This bill revises how references to provisions, including those concerning childcare worker registration, are written, and will take effect on the date of promulgation.",
+		"changes": [
+			"Amends the citation of the provision that provides the basis for childcare worker registration",
+			"Amends the citation in Article 15-2 to include special provisions concerning kindergarten-type certified childcare centers"
+		],
+		"who": [],
+		"why": "The ward says this is to make the necessary provisions in response to an amendment to a notification.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:06:51.360Z",
+			"inputTokens": 638,
+			"cachedTokens": 0,
+			"outputTokens": 631,
+			"reasoningTokens": 431
+		}
 	}
 }

@@ -1,0 +1,93 @@
+{
+	"id": "kawasaki-r8-2-93",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第93号",
+	"official": "川崎市立図書館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第93号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_93.pdf",
+			"fetchedAt": "2026-10-08T11:10:39.469Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "幸図書館などを指定管理者の管理に",
+	"category": "行政のしくみ",
+	"summary": "条例では、指定管理者が管理できる市立図書館を定めています。この改正で、幸図書館と幸図書館日吉分館も指定管理者による管理の対象になります。",
+	"changes": [
+		"指定管理者による管理の対象に幸図書館と幸図書館日吉分館を加える"
+	],
+	"who": [
+		"幸図書館と幸図書館日吉分館の利用者"
+	],
+	"why": "幸図書館と幸図書館日吉分館の管理を指定管理者に行わせるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.872Z",
+		"inputTokens": 1407,
+		"cachedTokens": 0,
+		"outputTokens": 905,
+		"reasoningTokens": 738,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.872Z",
+		"checkedAt": "2026-10-10T07:29:38.645Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1270,
+			"cachedTokens": 0,
+			"outputTokens": 38,
+			"reasoningTokens": 24,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6796f207d21bc810",
+		"name": "Places Saiwai Library and its Hiyoshi Branch under designated manager control",
+		"official": "Enactment of an Ordinance Partially Amending the Kawasaki City Library Ordinance",
+		"summary": "The ordinance specifies which city libraries may be managed by a designated manager. This amendment also makes Saiwai Library and Saiwai Library Hiyoshi Branch subject to management by a designated manager.",
+		"changes": [
+			"Add Saiwai Library and Saiwai Library Hiyoshi Branch to the libraries that may be managed by a designated manager"
+		],
+		"who": [
+			"Users of Saiwai Library and Saiwai Library Hiyoshi Branch"
+		],
+		"why": "The city says this is to have a designated manager manage Saiwai Library and Saiwai Library Hiyoshi Branch.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.059Z",
+			"inputTokens": 598,
+			"cachedTokens": 0,
+			"outputTokens": 397,
+			"reasoningTokens": 216,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"id": "ebina-r8-2-43",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第43号",
+	"official": "海老名市一般職の職員の特殊勤務手当に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年6月第2回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年6月第2回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F02%2C2026%2F06%2F18%2C113",
+			"fetchedAt": "2026-10-08T11:26:53.283Z"
+		},
+		{
+			"label": "議案第43号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1507_Gk43.pdf",
+			"fetchedAt": "2026-10-08T11:26:59.242Z"
+		}
+	],
+	"name": "災害対策業務手当を引き上げ",
+	"category": "行政のしくみ",
+	"summary": "災害対策業務手当は、条例の区分により840円または1,080円です。この議案で、それぞれ1,120円、1,440円に引き上げます。条例の公布日から施行し、令和8年4月1日以後に従事した業務に適用します。",
+	"changes": [
+		"第4号の手当額を840円から1,120円に引き上げる",
+		"第5号の手当額を1,080円から1,440円に引き上げる"
+	],
+	"who": [
+		"災害対策業務に従事する市職員"
+	],
+	"why": "人事院規則の改正を踏まえ、災害対策業務手当の額を引き上げるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.842Z",
+		"inputTokens": 1309,
+		"cachedTokens": 0,
+		"outputTokens": 911,
+		"reasoningTokens": 658,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.842Z",
+		"checkedAt": "2026-10-10T07:29:38.557Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1229,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 28,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f5b587b7a98a49ee",
+		"name": "Raises the disaster response work allowance",
+		"official": "Partial Amendment to the Ebina City Ordinance on Special Duty Allowances for General-Service Employees",
+		"summary": "The disaster response work allowance is ¥840 or ¥1,080, depending on the category in the ordinance. This bill raises the amounts to ¥1,120 and ¥1,440, respectively. It takes effect on the date the ordinance is promulgated and applies to work performed on or after April 1, 2026.",
+		"changes": [
+			"Raises the allowance under Item 4 from ¥840 to ¥1,120",
+			"Raises the allowance under Item 5 from ¥1,080 to ¥1,440"
+		],
+		"who": [
+			"City employees engaged in disaster response work"
+		],
+		"why": "The city says it is raising the disaster response work allowance in light of an amendment to the National Personnel Authority rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.029Z",
+			"inputTokens": 664,
+			"cachedTokens": 0,
+			"outputTokens": 683,
+			"reasoningTokens": 473,
+			"batch": true
+		}
+	}
+}

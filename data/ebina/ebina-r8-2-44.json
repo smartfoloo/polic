@@ -1,0 +1,102 @@
+{
+	"id": "ebina-r8-2-44",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第44号",
+	"official": "海老名市立コミュニティセンター条例の一部改正について",
+	"by": "head",
+	"session": "令和8年6月第2回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年6月第2回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F02%2C2026%2F06%2F18%2C113",
+			"fetchedAt": "2026-10-08T11:26:53.283Z"
+		},
+		{
+			"label": "議案第44号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1508_Gk44.pdf",
+			"fetchedAt": "2026-10-08T11:27:05.495Z"
+		}
+	],
+	"name": "センターの開館時間と使用ルールを変更",
+	"category": "まちづくり",
+	"summary": "現在、コミュニティセンターと文化センターのルールは別々の条例で定められています。この議案では文化センターをコミュニティセンターの条例に加え、使用のルールをそろえます。開館時間を午前9時30分から午後9時30分までから午前9時から午後9時までに改め、令和8年10月1日に施行します。",
+	"changes": [
+		"文化センターをコミュニティセンターの条例に加え、使用のルールをそろえる",
+		"開館時間を午前9時30分から午後9時30分までから午前9時から午後9時までに変更する",
+		"指定管理者が管理する施設を除き、市長が使用を許可する仕組みにする",
+		"使用後に施設を元の状態に戻すことを使用者に義務付ける"
+	],
+	"who": [
+		"コミュニティセンターを使う人",
+		"文化センターを使う人"
+	],
+	"why": "コミュニティセンターと文化センターの使用などに関するルールを統一し、開館時間を見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.842Z",
+		"inputTokens": 3432,
+		"cachedTokens": 0,
+		"outputTokens": 2472,
+		"reasoningTokens": 2137,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.842Z",
+		"checkedAt": "2026-10-10T07:29:38.558Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "指定管理者が管理する施設を除き、市長が使用を許可する仕組みにする",
+				"note": "原文では第21条に「第3条各号に掲げる使用の範囲を逸脱するとき」を不許可事由として追加しているが、この変更が抜けている。指定管理者が管理する施設にも準用される。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3433,
+			"cachedTokens": 0,
+			"outputTokens": 232,
+			"reasoningTokens": 117,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6a2825374dcef310",
+		"name": "Changes the center's opening hours and use rules",
+		"official": "Regarding the Partial Amendment to the Ebina City Community Center Ordinance",
+		"summary": "Currently, the rules for community centers and the cultural center are set out in separate ordinances. This bill adds the cultural center to the community center ordinance and aligns the rules for use. It changes the opening hours from 9:30 am–9:30 pm to 9 am–9 pm and will take effect on October 1, 2026.",
+		"changes": [
+			"Add the cultural center to the community center ordinance and align the rules for use; change the opening hours from 9:30 am–9:30 pm to 9 am–9 pm",
+			"Have the mayor authorize use of facilities, except those managed by designated managers; require users to restore facilities to their original condition after use"
+		],
+		"who": [
+			"People who use community centers",
+			"People who use the cultural center"
+		],
+		"why": "The city says this is to unify the rules on using community centers and the cultural center, and to review the opening hours.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.030Z",
+			"inputTokens": 740,
+			"cachedTokens": 0,
+			"outputTokens": 1741,
+			"reasoningTokens": 1486,
+			"batch": true
+		}
+	}
+}

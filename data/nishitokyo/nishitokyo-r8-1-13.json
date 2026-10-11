@@ -1,0 +1,38 @@
+{
+	"id": "nishitokyo-r8-1-13",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第13号",
+	"official": "西東京市手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "建設環境委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-26",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/kaikinainittei0801.html",
+			"fetchedAt": "2026-10-08T10:59:32.306Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "7f52100c83499698",
+		"official": "Ordinance Partially Amending the Nishitokyo City Fees Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.519Z",
+			"inputTokens": 380,
+			"cachedTokens": 0,
+			"outputTokens": 86,
+			"reasoningTokens": 55,
+			"batch": true
+		}
+	}
+}

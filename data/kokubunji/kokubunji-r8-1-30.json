@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-1-30",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第30号",
+	"official": "国分寺市事務手数料条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "マンション建替え手続の手数料規定を整備",
+	"category": "税・手数料",
+	"summary": "マンションの建替えなどに関する法律が改正されました。この議案は、その法律に基づく手続の手数料について、市の条例の規定を整えるものです。",
+	"changes": [
+		"法律に基づく手続の手数料に関する規定を整える"
+	],
+	"who": [],
+	"why": "法律の改正に伴い、同法に基づく手続の手数料に関する規定を整える必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 1045,
+		"cachedTokens": 0,
+		"outputTokens": 511,
+		"reasoningTokens": 357,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.661Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 891,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "544245a131ae619e",
+		"name": "Updates fee provisions for condominium rebuilding procedures",
+		"official": "Regarding an Ordinance Partially Amending the Kokubunji City Ordinance on Administrative Fees",
+		"summary": "The law concerning procedures for rebuilding condominiums and other matters has been amended. This bill updates the city ordinance provisions on fees for procedures under that law.",
+		"changes": [
+			"Updates provisions on fees for procedures under the law"
+		],
+		"who": [],
+		"why": "The city says this is necessary because the law has been amended and the provisions on fees for procedures under that law need to be updated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.065Z",
+			"inputTokens": 580,
+			"cachedTokens": 0,
+			"outputTokens": 362,
+			"reasoningTokens": 220,
+			"batch": true
+		}
+	}
+}

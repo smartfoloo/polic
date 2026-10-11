@@ -75,5 +75,32 @@
 			"outputTokens": 457,
 			"reasoningTokens": 163
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3d5edeee59226a63",
+		"name": "Adds professions that can be counted toward childcare worker staffing numbers",
+		"official": "Ordinance Partially Amending the Ome City Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "The city sets standards for the equipment and operation of home-based childcare services and similar services. This bill allows physical therapists and other professionals to be counted toward the number of childcare workers, and requires small-scale childcare providers serving only children aged 3 and older to secure childcare centers and similar facilities that provide support and cooperate with them.",
+		"changes": [
+			"Allow up to one eligible professional or other person to be counted toward the number of childcare workers, provided certain conditions are met",
+			"Require arrangements for childcare workers to support professionals and others when they provide childcare",
+			"Require small-scale childcare providers serving only children aged 3 and older to secure childcare centers and similar facilities that provide support and cooperate with them"
+		],
+		"who": [
+			"Small-scale childcare providers",
+			"Children who use small-scale childcare services and their parents or guardians"
+		],
+		"why": "The city says this is to align with partial revisions to national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:02:42.064Z",
+			"inputTokens": 733,
+			"cachedTokens": 0,
+			"outputTokens": 749,
+			"reasoningTokens": 488
+		}
 	}
 }

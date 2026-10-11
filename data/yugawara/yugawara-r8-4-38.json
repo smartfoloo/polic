@@ -1,0 +1,84 @@
+{
+	"id": "yugawara-r8-4-38",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第38号",
+	"official": "湯河原町景観条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第4回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-01",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第38号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/18533.pdf",
+			"fetchedAt": "2026-10-08T11:29:29.473Z"
+		}
+	],
+	"name": "景観条例の引用条項を変更",
+	"category": "行政のしくみ",
+	"summary": "町の景観条例は、届出の対象外となる行為を、景観法の条項を引用して定めています。この議案では、引用する条項を景観法第16条第7項第11号から第16条第8項第12号に改めます。",
+	"changes": [
+		"引用する景観法の条項を第16条第7項第11号から第16条第8項第12号に改める"
+	],
+	"who": [],
+	"why": "景観法の改正に伴い、引用条項を整理するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.890Z",
+		"inputTokens": 1446,
+		"cachedTokens": 0,
+		"outputTokens": 680,
+		"reasoningTokens": 493,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.741Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1304,
+			"cachedTokens": 0,
+			"outputTokens": 191,
+			"reasoningTokens": 176,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ed992b84697c322d",
+		"name": "Changes cited provision in landscape ordinance",
+		"official": "Regarding Partial Amendment to the Yugawara Town Landscape Ordinance",
+		"summary": "The town’s landscape ordinance defines actions that are not subject to notification by citing provisions of the Landscape Act. This bill changes the cited provision from Article 16, paragraph 7, item 11 of the Landscape Act to Article 16, paragraph 8, item 12.",
+		"changes": [
+			"Changes the cited provision of the Landscape Act from Article 16, paragraph 7, item 11 to Article 16, paragraph 8, item 12"
+		],
+		"who": [],
+		"why": "The town says this is to reorganize the cited provision following amendments to the Landscape Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.076Z",
+			"inputTokens": 589,
+			"cachedTokens": 0,
+			"outputTokens": 336,
+			"reasoningTokens": 163,
+			"batch": true
+		}
+	}
+}

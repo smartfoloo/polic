@@ -1,0 +1,108 @@
+{
+	"id": "nakano-r8-3-73",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第73号議案",
+	"official": "中野区旅館業法施行条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "厚生委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121",
+			"fetchedAt": "2026-10-08T15:27:51.872Z"
+		},
+		{
+			"label": "第73号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/2693018640.pdf",
+			"fetchedAt": "2026-10-08T15:28:09.732Z"
+		}
+	],
+	"name": "旅館業の申請書類や営業時の管理を変更",
+	"category": "くらし・手続き",
+	"summary": "現在、旅館業の許可申請には、周辺住民への周知を確認できる書類が必要です。この議案では、廃棄物の処理に関する書類も添付し、処理内容の変更届や、施設で廃棄物を保管する際のルールを設けます。営業時間中の従業者の常駐と、法の命令に違反した営業者を区長が公表できることも定めます。令和9年4月1日施行で、常駐義務は施行日前から営業を続ける事業者には適用されません。",
+	"changes": [
+		"許可申請の添付書類に廃棄物の処理に関する書類を加える",
+		"廃棄物の処理内容に変更があったときは区長に届け出る",
+		"施設で廃棄物を保管するときの方法を定める",
+		"営業時間中の従業者の常駐と、命令違反時の公表を定める"
+	],
+	"who": [
+		"旅館業の許可を申請する人",
+		"旅館業を営む事業者"
+	],
+	"why": "許可申請の添付書類を改め、周辺地域の生活環境への悪影響を防ぐための従業者の常駐や、命令違反時の公表を定める必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:05:55.337Z",
+		"inputTokens": 2615,
+		"cachedTokens": 0,
+		"outputTokens": 1953,
+		"reasoningTokens": 1538
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:05:55.337Z",
+		"checkedAt": "2026-10-09T11:48:53.534Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "許可申請の添付書類に廃棄物の処理に関する書類を加える",
+				"note": "附則第3項では、施行日以後に営業する既存の営業者等にも、申請時に添付済みの場合を除き、廃棄物の処理に関する書類の提出を義務付けています。この変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "営業時間中の従業者の常駐と、命令違反時の公表を定める",
+				"note": "第7条に追加する第11号では、規則の基準に適合する従業者の常駐場所を設けることも求めています。この設備上の義務が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2696,
+			"cachedTokens": 0,
+			"outputTokens": 313,
+			"reasoningTokens": 54
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d473d7c9d6117237",
+		"name": "Changes application documents and operating requirements for lodging businesses",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance for Enforcement of the Hotel Business Act",
+		"summary": "Currently, applications for a lodging business license must include documents confirming that nearby residents have been informed. This bill would also require documents on waste disposal, require notification of changes to waste-disposal arrangements, and set rules for storing waste at the facility. It would also require employees to be on site during business hours and allow the mayor of Nakano City to make public the names of operators who violate orders under the Act. The ordinance would take effect on April 1, 2027. The requirement for employees to be on site would not apply to businesses already operating before that date.",
+		"changes": [
+			"Add documents on waste disposal to license applications",
+			"Require operators to notify the mayor of Nakano City when waste-disposal arrangements change",
+			"Set rules for storing waste at the facility",
+			"Require employees to be on site during business hours and allow the mayor to make public operators who violate orders"
+		],
+		"who": [
+			"People applying for a lodging business license",
+			"Lodging business operators"
+		],
+		"why": "The ward says these changes are necessary to revise the documents attached to license applications, require employees to be on site to prevent adverse effects on the living environment in surrounding areas, and make public information about operators who violate orders.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:53:25.159Z",
+			"inputTokens": 819,
+			"cachedTokens": 0,
+			"outputTokens": 926,
+			"reasoningTokens": 607
+		}
+	}
+}

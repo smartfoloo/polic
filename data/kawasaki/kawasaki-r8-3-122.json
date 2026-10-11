@@ -1,0 +1,84 @@
+{
+	"id": "kawasaki-r8-3-122",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第122号",
+	"official": "川崎市消防手数料条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第122号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_122.pdf",
+			"fetchedAt": "2026-10-08T11:12:40.543Z"
+		}
+	],
+	"name": "消防手数料条例の参照条文を変更",
+	"category": "税・手数料",
+	"summary": "現在、条例の別表42の項では、高圧ガス保安法の第39条の22第1項を参照しています。この議案では、参照先を第39条の11第1項に変え、2026年12月21日から施行します。",
+	"changes": [
+		"別表42の項の参照先を第39条の22第1項から第39条の11第1項に改める"
+	],
+	"who": [],
+	"why": "高圧ガス保安法の一部改正に伴い、必要な整備を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.874Z",
+		"inputTokens": 1209,
+		"cachedTokens": 0,
+		"outputTokens": 622,
+		"reasoningTokens": 428,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.653Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1073,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d5d23449db064645",
+		"name": "Changes the referenced provision in the Fire Service Fees Ordinance",
+		"official": "Enactment of an Ordinance Partially Amending the Kawasaki City Fire Service Fees Ordinance",
+		"summary": "Item 42 of the ordinance’s appended table currently refers to Article 39-22, paragraph 1, of the High Pressure Gas Safety Act. This bill changes the reference to Article 39-11, paragraph 1, and takes effect on December 21, 2026.",
+		"changes": [
+			"Changes the reference in item 42 of the appended table from Article 39-22, paragraph 1, to Article 39-11, paragraph 1"
+		],
+		"who": [],
+		"why": "The city says this is to make the necessary adjustments following a partial amendment to the High Pressure Gas Safety Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.061Z",
+			"inputTokens": 600,
+			"cachedTokens": 0,
+			"outputTokens": 532,
+			"reasoningTokens": 341,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"id": "fussa-r8-1-9",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第9号",
+	"official": "福生市国民健康保険税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "市民厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1020984.html",
+			"fetchedAt": "2026-10-08T10:57:01.728Z"
+		}
+	],
+	"name": "国民健康保険税の税率や限度額を改定",
+	"category": "税・手数料",
+	"summary": "福生市の国民健康保険税の税率や額などを見直す議案です。所得割額の税率と被保険者均等割額を改定し、子ども・子育て支援納付金の規定や課税限度額なども改めます。",
+	"changes": [
+		"所得割額の税率を改定する",
+		"被保険者均等割額を改定する",
+		"子ども・子育て支援納付金に関する規定を整える",
+		"課税限度額などを改める"
+	],
+	"who": [
+		"福生市の国民健康保険の被保険者"
+	],
+	"why": "国民健康保険事業の運営と、地方税法などの一部改正に対応するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.853Z",
+		"inputTokens": 1084,
+		"cachedTokens": 0,
+		"outputTokens": 907,
+		"reasoningTokens": 653,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.853Z",
+		"checkedAt": "2026-10-10T07:29:38.585Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1006,
+			"cachedTokens": 0,
+			"outputTokens": 28,
+			"reasoningTokens": 13,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f20bf0896c99b013",
+		"name": "Revises National Health Insurance tax rates and limits",
+		"official": "Ordinance Partially Amending the Fussa City National Health Insurance Tax Ordinance",
+		"summary": "This bill revises tax rates and amounts for Fussa City’s National Health Insurance tax. It changes the tax rate on the income-based portion and the per-insured-person amount, and also revises provisions on the child and childcare support contribution and the taxable limit.",
+		"changes": [
+			"Revises the tax rate on the income-based portion",
+			"Revises the per-insured-person amount",
+			"Updates provisions on the child and childcare support contribution",
+			"Revises the taxable limit and related items"
+		],
+		"who": [
+			"People insured under Fussa City’s National Health Insurance"
+		],
+		"why": "The city says the changes are to support the operation of the National Health Insurance program and respond to partial revisions of the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.039Z",
+			"inputTokens": 659,
+			"cachedTokens": 0,
+			"outputTokens": 461,
+			"reasoningTokens": 240,
+			"batch": true
+		}
+	}
+}

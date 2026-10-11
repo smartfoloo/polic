@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-24.pdf",
 			"fetchedAt": "2026-10-05T15:58:49.240Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "87533eff54038487",
+		"official": "Ordinance Partially Amending the Higashiyamato City Ordinance on the Establishment, etc. of the Sewerage Business",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:14.346Z",
+			"inputTokens": 390,
+			"cachedTokens": 0,
+			"outputTokens": 204,
+			"reasoningTokens": 161
+		}
+	}
 }

@@ -1,0 +1,92 @@
+{
+	"id": "kawasaki-r8-3-110",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第110号",
+	"official": "川崎市スポーツ・文化総合センター条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第110号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_110.pdf",
+			"fetchedAt": "2026-10-08T11:11:27.475Z"
+		}
+	],
+	"name": "スポーツ・文化総合センターの利用料を改定",
+	"category": "まちづくり",
+	"summary": "施設の利用料は、体育館やホール、会議室などの場所や利用区分ごとに定められています。この議案で、施設利用料や設備利用料などの上限額を改定します。令和9年4月1日から適用し、それまでに利用許可を受けた人には従来の料金を適用します。",
+	"changes": [
+		"体育館の施設専用利用料を改定する",
+		"体育館の設備専用利用料、冷暖房設備専用利用料、個人利用料を改定する",
+		"ホールと会議室の施設利用料・設備利用料を改定する"
+	],
+	"who": [
+		"スポーツ・文化総合センターを利用する人や団体"
+	],
+	"why": "利用料金の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.873Z",
+		"inputTokens": 3096,
+		"cachedTokens": 0,
+		"outputTokens": 1346,
+		"reasoningTokens": 1119,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.873Z",
+		"checkedAt": "2026-10-10T07:29:38.647Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3021,
+			"cachedTokens": 0,
+			"outputTokens": 172,
+			"reasoningTokens": 157,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cbc5b8801101f6ee",
+		"name": "Revises fees for the Sports and Culture General Center",
+		"official": "Enactment of an Ordinance Partially Amending the Kawasaki City Sports and Culture General Center Ordinance",
+		"summary": "Facility fees are set according to the location, such as gymnasiums, halls and meeting rooms, and the category of use. This bill revises the maximum amounts for facility use fees, equipment use fees and other fees. The new fees apply from April 1, 2027. People who received permission to use the facility before then will pay the previous fees.",
+		"changes": [
+			"Revises the facility fee for exclusive use of the gymnasium",
+			"Revises the fees for exclusive use of gymnasium equipment, exclusive use of heating and cooling equipment, and individual use",
+			"Revises facility and equipment use fees for the hall and meeting rooms"
+		],
+		"who": [
+			"People and groups using the Sports and Culture General Center"
+		],
+		"why": "The city says this is to revise the maximum amounts for use fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.060Z",
+			"inputTokens": 665,
+			"cachedTokens": 0,
+			"outputTokens": 540,
+			"reasoningTokens": 299,
+			"batch": true
+		}
+	}
+}

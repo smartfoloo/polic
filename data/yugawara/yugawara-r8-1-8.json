@@ -1,0 +1,119 @@
+{
+	"id": "yugawara-r8-1-8",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第8号",
+	"official": "湯河原町国民健康保険条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第8号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17141.pdf",
+			"fetchedAt": "2026-10-08T11:28:23.418Z"
+		}
+	],
+	"name": "国保料に子育て支援分を新設",
+	"category": "健康・医療",
+	"summary": "現在、国民健康保険料は医療分、後期高齢者支援金分、介護分に分かれています。令和8年4月1日から、子ども・子育て支援納付金分を新設し、上限を3万円とします。あわせて、18歳に達する日以後、最初の3月31日までの被保険者の同納付金分の均等割を全額軽減し、基礎分の上限と低所得世帯向けの軽減基準も改めます。",
+	"changes": [
+		"子ども・子育て支援納付金分を新設し、所得割・均等割・世帯別平等割などで算定する",
+		"同納付金分に3万円の上限と低所得世帯向けの軽減を設け、18歳に達する日以後、最初の3月31日までの被保険者の均等割を全額軽減する",
+		"基礎分の上限を66万円から67万円に上げ、保険料全体の上限を109万円から113万円にする",
+		"5割軽減の所得基準を1人当たり30万5千円から31万円に、2割軽減の基準を56万円から57万円に上げる"
+	],
+	"who": [
+		"湯河原町の国民健康保険加入者",
+		"18歳に達する日以後、最初の3月31日までの国民健康保険加入者",
+		"低所得の国民健康保険世帯"
+	],
+	"why": "国民健康保険法施行令などの改正に伴い、子ども・子育て支援納付金の新設や保険料の限度額、軽減判定所得の算定方法を改める必要があるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.562Z",
+		"inputTokens": 29199,
+		"cachedTokens": 0,
+		"outputTokens": 3407,
+		"reasoningTokens": 2946,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.562Z",
+			"notes": [
+				"ai [error] summary/fact: 「18歳未満の人の同納付金分の均等割を全額軽減し」 → 第16条の８の対象は、18歳に達する日以後の最初の３月31日以前の被保険者であり、18歳になった人も含まれます。",
+				"ai [error] changes/fact: 「18歳未満の人の均等割を全額軽減する」 → 第16条の８では、18歳に達する日以後の最初の３月31日以前までが全額軽減の対象です。"
+			],
+			"inputTokens": 29882,
+			"cachedTokens": 1025,
+			"outputTokens": 1536,
+			"reasoningTokens": 1034,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.735Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "18歳未満の人の同納付金分の均等割を全額軽減し",
+				"note": "第16条の８の対象は、18歳に達する日以後の最初の３月31日以前の被保険者であり、18歳になった人も含まれます。"
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "18歳未満の人の均等割を全額軽減する",
+				"note": "第16条の８では、18歳に達する日以後の最初の３月31日以前までが全額軽減の対象です。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金分を新設し、所得割・均等割・世帯別平等割などで算定する",
+				"note": "第11条の14・第11条の16にある、通常の被保険者均等割に加えて18歳以上被保険者均等割を加算する変更が明示されていません。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "同納付金分に3万円の上限と低所得世帯向けの軽減を設け、18歳未満の人の均等割を全額軽減する",
+				"note": "第16条の７第５項・第10項で、子ども・子育て支援納付金分にも産前産後期間の保険料減額を適用する変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "同納付金分に3万円の上限と低所得世帯向けの軽減を設け、18歳未満の人の均等割を全額軽減する",
+				"note": "第16条の５で、特例対象被保険者等の給与所得を30％として計算する特例を、同納付金分の所得割・軽減判定にも適用する変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 29331,
+			"cachedTokens": 0,
+			"outputTokens": 737,
+			"reasoningTokens": 145,
+			"batch": true
+		}
+	}
+}

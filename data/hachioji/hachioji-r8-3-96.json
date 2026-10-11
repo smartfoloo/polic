@@ -75,5 +75,32 @@
 			"outputTokens": 409,
 			"reasoningTokens": 204
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d8c01134abe1ebcc",
+		"name": "Allows nursery schools to support attendance by infants and young children",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Nursery School Ordinance",
+		"summary": "The current ordinance has no provisions on support for infants and other children to attend nursery school. After the amendment, nursery schools will be able to provide this support, and parents or guardians of infants and young children who use it must be certified as eligible for benefits. The fee will be set at no more than ¥300 per hour. The schools will also be able to collect costs for daily necessities, events, meals, and other items. The ordinance will take effect on November 1, 2026.",
+		"changes": [
+			"Allows nursery schools to provide support for infants and other children to attend nursery school",
+			"Sets the fee at no more than ¥300 per hour, with designated managers setting the amount with the mayor’s approval",
+			"Allows collection of costs associated with the support, such as daily necessities, events, and meals",
+			"Allows fee refunds and reductions or waivers of fees and related costs"
+		],
+		"who": [
+			"Parents or guardians of infants and young children who use the support"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:57:51.419Z",
+			"inputTokens": 715,
+			"cachedTokens": 0,
+			"outputTokens": 1211,
+			"reasoningTokens": 932
+		}
 	}
 }

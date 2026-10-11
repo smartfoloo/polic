@@ -1,0 +1,50 @@
+{
+	"id": "sagamihara-r8-6-79",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第79号",
+	"official": "相模原市立城山文化ホール条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第79号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "城山文化ホールの利用料金を改定",
+	"category": "税・手数料",
+	"summary": "城山文化ホールの施設と附属設備の利用料金を改定します。多目的ホールは平日41,200円から53,500円、土曜日・日曜日・休日は53,500円から69,500円となり、リハーサル室と楽屋の料金も変わります。条例は令和9年1月1日に施行されますが、改定後の料金は令和10年1月1日以後の利用分から適用されます。",
+	"changes": [
+		"多目的ホールの平日料金を1日41,200円から53,500円に改める",
+		"多目的ホールの土曜日・日曜日・休日の料金を1日53,500円から69,500円に改める",
+		"リハーサル室の料金を1日6,200円から8,000円に改める",
+		"楽屋1の料金を1,800円から2,300円に、楽屋2の料金を2,400円から3,100円に改める"
+	],
+	"who": [
+		"城山文化ホールを利用する人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づき、使用料などを見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.843Z",
+		"inputTokens": 1702,
+		"cachedTokens": 0,
+		"outputTokens": 1335,
+		"reasoningTokens": 985,
+		"batch": true
+	}
+}

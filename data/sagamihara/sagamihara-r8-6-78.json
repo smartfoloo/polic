@@ -1,0 +1,49 @@
+{
+	"id": "sagamihara-r8-6-78",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第78号",
+	"official": "相模原市立小田急相模原駅文化交流プラザ条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第78号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "文化交流プラザの利用料金を改定",
+	"category": "まちづくり",
+	"summary": "現在、多目的ルームの1日料金は平日36,400円、土曜日・日曜日・休日47,300円で、ミーティングルーム1は4,800円です。この議案では、それぞれ47,100円、61,100円、5,400円に改めます。条例は令和9年1月1日に施行し、改定後の料金は令和10年1月1日以後の利用分から適用します。",
+	"changes": [
+		"多目的ルームの平日1日料金を36,400円から47,100円に改める",
+		"多目的ルームの土曜日・日曜日・休日の1日料金を47,300円から61,100円に改める",
+		"ミーティングルーム1の1日料金を4,800円から5,400円に改める"
+	],
+	"who": [
+		"小田急相模原駅文化交流プラザを利用する人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づき使用料等を見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.843Z",
+		"inputTokens": 1657,
+		"cachedTokens": 0,
+		"outputTokens": 1438,
+		"reasoningTokens": 1156,
+		"batch": true
+	}
+}

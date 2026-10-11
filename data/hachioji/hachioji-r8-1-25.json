@@ -28,7 +28,7 @@
 	"summary": "現在、事業所の運営規程には、乳児と幼児を分けた利用定員を定めることになっています。この議案では定員の記載方法や余裕活用型事業の定義などを改め、令和8年4月1日から施行します。",
 	"changes": [
 		"運営規程に定める利用定員の乳児・幼児別の区分をなくす",
-		"余裕活用型事業の利用定員を、子ども・子育て支援法に基づく確認で定める定員と明記する",
+		"受入れ余裕の算定に使う施設・事業の利用定員を、子ども・子育て支援法の確認で定める定員とする",
 		"職員に関する規定の事業者・事業所の表記を整理する"
 	],
 	"who": [
@@ -39,33 +39,64 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:28:38.797Z",
+		"generatedAt": "2026-10-08T23:16:14.314Z",
 		"inputTokens": 3470,
 		"cachedTokens": 0,
 		"outputTokens": 1676,
-		"reasoningTokens": 1454
+		"reasoningTokens": 1454,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:16:14.314Z",
+			"notes": [
+				"ai [error] changes/fact: 「余裕活用型事業の利用定員を、子ども・子育て支援法に基づく確認で定める定員と明記する」 → 第22条第3項で明確化するのは、余裕活用型事業自体の利用定員ではなく、受入れ余裕の算定に用いる保育所・認定こども園・家庭的保育事業等の利用定員。"
+			],
+			"inputTokens": 3911,
+			"cachedTokens": 1025,
+			"outputTokens": 954,
+			"reasoningTokens": 703
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:28:38.797Z",
-		"checkedAt": "2026-10-08T05:14:35.967Z",
+		"draftAt": "2026-10-08T23:16:14.314Z",
+		"checkedAt": "2026-10-08T23:16:16.792Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "余裕活用型事業の利用定員を、子ども・子育て支援法に基づく確認で定める定員と明記する",
-				"note": "第22条第3項で明確化するのは、余裕活用型事業自体の利用定員ではなく、受入れ余裕の算定に用いる保育所・認定こども園・家庭的保育事業等の利用定員。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 3388,
+			"inputTokens": 3391,
 			"cachedTokens": 0,
-			"outputTokens": 213,
-			"reasoningTokens": 78
+			"outputTokens": 45,
+			"reasoningTokens": 30
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "550c52a495d460d6",
+		"name": "Revises capacity rules for infant and other childcare support services",
+		"official": "Regarding the enactment of an ordinance partially amending the Hachioji City Ordinance on Standards for Facilities and Operations of Infant and Other Childcare Support Services",
+		"summary": "Currently, service providers’ operating rules must set separate user capacities for infants and young children. This bill revises how capacity is recorded and the definition of services that use spare capacity, among other things. It takes effect on April 1, 2026.",
+		"changes": [
+			"Remove the separate capacity categories for infants and young children from the capacities set in operating rules",
+			"Set the capacity of facilities and services used to calculate available intake capacity as the capacity determined through confirmation under the Act on Child and Childcare Support",
+			"Standardize references to providers and service locations in provisions concerning staff"
+		],
+		"who": [
+			"Providers of infant and other childcare support services"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:37:31.595Z",
+			"inputTokens": 676,
+			"cachedTokens": 0,
+			"outputTokens": 944,
+			"reasoningTokens": 723
 		}
 	}
 }

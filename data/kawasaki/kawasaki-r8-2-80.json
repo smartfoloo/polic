@@ -1,0 +1,89 @@
+{
+	"id": "kawasaki-r8-2-80",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第80号",
+	"official": "川崎市一時保護施設の設備及び運営の基準に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第80号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_80.pdf",
+			"fetchedAt": "2026-10-08T11:09:21.502Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "条例の条文の参照先を修正",
+	"category": "行政のしくみ",
+	"summary": "市の一時保護施設の設備や運営の基準を定める条例では、第21条第4号で別の規定を参照しています。この議案で、参照先を「第5条の2の8」から「第5条の2の8第1項」に改めます。",
+	"changes": [
+		"第21条第4号の参照先を「第5条の2の8」から「第5条の2の8第1項」に改める"
+	],
+	"who": [],
+	"why": "児童福祉法施行規則の一部改正に伴い、必要な整備を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.871Z",
+		"inputTokens": 1275,
+		"cachedTokens": 0,
+		"outputTokens": 546,
+		"reasoningTokens": 360,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.871Z",
+		"checkedAt": "2026-10-10T07:29:38.637Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1153,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bb045f8e3eeffe2b",
+		"name": "Corrects a reference in the ordinance",
+		"official": "Regarding the Enactment of the Ordinance Partially Amending the Kawasaki City Ordinance on Standards for Equipment and Operation of Temporary Protection Facilities",
+		"summary": "The ordinance setting standards for the equipment and operation of the city's temporary protection facilities refers to another provision in Article 21, item 4. This bill changes the reference from “Article 5-2-8” to “Article 5-2-8, paragraph 1.”",
+		"changes": [
+			"Changes the reference in Article 21, item 4, from “Article 5-2-8” to “Article 5-2-8, paragraph 1”"
+		],
+		"who": [],
+		"why": "The city says this is to make the necessary adjustments following a partial amendment to the Enforcement Regulations of the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.058Z",
+			"inputTokens": 626,
+			"cachedTokens": 0,
+			"outputTokens": 512,
+			"reasoningTokens": 310,
+			"batch": true
+		}
+	}
+}

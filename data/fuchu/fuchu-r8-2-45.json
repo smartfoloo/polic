@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f8797f591faaab00",
+		"name": "Amends references in exemptions from liability for damages",
+		"official": "Ordinance Partially Amending the Ordinance Concerning Partial Exemption from Liability for Damages of the Mayor of Fuchu City, etc., and the Fuchu City Motorboat Racing Ordinance",
+		"summary": "The ordinance setting out partial exemption from liability for damages of the mayor and others, and the Motorboat Racing Ordinance, cite provisions of the Local Autonomy Act and other laws. This bill updates the cited provisions to reflect amendments to the Local Autonomy Act and the Order for Enforcement of the Local Autonomy Act.",
+		"changes": [
+			"Updates the article number in the Local Autonomy Act cited by the ordinance on partial exemption from liability for damages of the mayor and others",
+			"Updates the article number in the Order for Enforcement of the Local Autonomy Act cited by the same ordinance",
+			"Updates the article number in the Local Autonomy Act cited by the Motorboat Racing Ordinance"
+		],
+		"who": [],
+		"why": "The city says these changes are necessary following partial amendments to the Local Autonomy Act and the Order for Enforcement of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:29.834Z",
+			"inputTokens": 700,
+			"cachedTokens": 0,
+			"outputTokens": 608,
+			"reasoningTokens": 347
+		}
 	}
 }

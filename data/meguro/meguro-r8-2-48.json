@@ -61,5 +61,28 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8a1a6870fd5f56d1",
+		"name": "Aligns seal registration provisions with legal amendments",
+		"official": "Ordinance Partially Amending the Meguro City Seal Registration Ordinance",
+		"summary": "The wording for the card in Article 20 of the ordinance and the referenced article numbers will be revised. The ordinance will take effect on the date it is promulgated.",
+		"changes": [
+			"Changes “Individual Number Card” to “Individual Number Card, etc.” in Article 20, item 1",
+			"Revises the article number referenced in Article 20, item 2"
+		],
+		"who": [],
+		"why": "The ward says this is to update the ordinance's provisions following the enforcement of related laws and other measures.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:57.080Z",
+			"inputTokens": 572,
+			"cachedTokens": 0,
+			"outputTokens": 537,
+			"reasoningTokens": 370
+		}
 	}
 }

@@ -62,5 +62,29 @@
 			"outputTokens": 52,
 			"reasoningTokens": 38
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "537b683044eed4a2",
+		"name": "Changes how service by public notice is carried out",
+		"official": "Ordinance Partially Amending the Fuchu City Ordinance on Medical Care for Older Senior Citizens",
+		"summary": "Currently, service by public notice is carried out by posting notices on the city’s bulletin board. Under this bill, measures will be put in place to make the matters being announced viewable by an unspecified number of people. Service will then be carried out either by posting a written notice on the bulletin board or by making it viewable on a computer screen installed at a city office.",
+		"changes": [
+			"Make the matters being announced viewable by an unspecified number of people, then post a written notice on the bulletin board or make the notice viewable on a screen at a city office"
+		],
+		"who": [
+			"People receiving service by public notice concerning medical care for older senior citizens"
+		],
+		"why": "The city says the ordinance is being amended in response to a partial amendment of the Local Tax Act, which is applied under the Act on Assurance of Medical Care for Elderly People.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:20:06.158Z",
+			"inputTokens": 664,
+			"cachedTokens": 0,
+			"outputTokens": 687,
+			"reasoningTokens": 442
+		}
 	}
 }

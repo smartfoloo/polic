@@ -1,0 +1,94 @@
+{
+	"id": "kawasaki-r8-1-18",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第18号",
+	"official": "川崎市屋外広告物条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第18号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_18.pdf",
+			"fetchedAt": "2026-10-08T11:08:09.429Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "屋外広告の許可期間と手数料を改定",
+	"category": "税・手数料",
+	"summary": "現在、屋外広告物などの許可期間の上限は2年です。この議案で上限を3年に延ばし、申請手数料を改定します。令和8年10月1日に施行します。",
+	"changes": [
+		"許可期間の上限を2年から3年に延ばす",
+		"別表の該当する手数料を4,000円から6,000円、6,000円から9,000円に改める",
+		"広告塔・広告板などの手数料を定める表を改める"
+	],
+	"who": [
+		"屋外広告物の表示や掲出物件の設置を申請する人や事業者"
+	],
+	"why": "許可期間の上限を延ばし、申請手数料を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.549Z",
+		"inputTokens": 1662,
+		"cachedTokens": 0,
+		"outputTokens": 2230,
+		"reasoningTokens": 1983,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.549Z",
+			"notes": [
+				"ai [check] changes/direction: 「広告塔・広告板などの手数料を、表示面積5平方メートルごとに照明なし1,500円、照明あり2,400円にする」 → 原文の改正箇所に中身が空の「」があり、1,000円・1,600円の表と末尾の1,500円・2,400円の表が改正前後の対になっていないため、変更の向きを確認できません。"
+			],
+			"inputTokens": 2137,
+			"cachedTokens": 1025,
+			"outputTokens": 914,
+			"reasoningTokens": 660,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.868Z",
+		"checkedAt": "2026-10-10T07:29:38.631Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "広告塔・広告板などの手数料を、表示面積5平方メートルごとに照明なし1,500円、照明あり2,400円にする",
+				"note": "原文の改正箇所に中身が空の「」があり、1,000円・1,600円の表と末尾の1,500円・2,400円の表が改正前後の対になっていないため、変更の向きを確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1608,
+			"cachedTokens": 0,
+			"outputTokens": 476,
+			"reasoningTokens": 314,
+			"batch": true
+		}
+	}
+}

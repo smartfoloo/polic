@@ -1,0 +1,50 @@
+{
+	"id": "sagamihara-r8-6-70",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第70号",
+	"official": "相模原市立総合体育館条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第70号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "市立体育館の利用料金を引き上げ",
+	"category": "税・手数料",
+	"summary": "現在の料金を改め、相模原市立総合体育館と相模原市立北総合体育館の専用利用料金、個人利用料金を引き上げます。たとえば、総合体育館の大体育室を全面利用する料金は、1日65,900円から85,600円になります。個人利用料金などは令和9年1月1日から、専用利用料金は令和9年7月1日以後の利用分から新料金になります。",
+	"changes": [
+		"両体育館の専用利用料金を施設区分や利用面積ごとに引き上げる",
+		"総合体育館の個人利用料金を施設区分ごとに引き上げる",
+		"北総合体育館の個人利用料金を施設区分ごとに引き上げる",
+		"トレーニング室の料金を大人550円・小人270円から大人700円・小人350円に引き上げる"
+	],
+	"who": [
+		"相模原市立総合体育館・北総合体育館を利用する人や団体"
+	],
+	"why": "受益者負担の在り方の基本方針に基づく使用料等の見直しに伴う改正のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.839Z",
+		"inputTokens": 2671,
+		"cachedTokens": 0,
+		"outputTokens": 2351,
+		"reasoningTokens": 2022,
+		"batch": true
+	}
+}

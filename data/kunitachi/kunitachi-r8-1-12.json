@@ -66,5 +66,33 @@
 			"outputTokens": 224,
 			"reasoningTokens": 209
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5df23286a8b9eefb",
+		"name": "Sets special rules for FY2026 long-term care insurance premiums",
+		"official": "Bill to Partially Amend the Kunitachi City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premiums are calculated based on income amounts and other factors set out in the ordinance. The bill sets special rules, only for FY2026, for the income amounts of people with salary earnings and for determining whether they are subject to municipal resident tax. It also specifies cases in which an application for a premium reduction or exemption can be omitted.",
+		"changes": [
+			"Set a special rule for calculating FY2026 premiums for people with salary earnings of ¥551,000 or more and less than ¥1,900,000",
+			"Treat people who meet specified salary earnings or income conditions as being subject to municipal resident tax when calculating premium rates",
+			"Allow the mayor to waive an application for a reduction or exemption of FY2026 premiums when the mayor deems it particularly necessary"
+		],
+		"who": [
+			"Category 1 insured persons under long-term care insurance for FY2026 whose 2025 salary earnings are ¥551,000 or more and less than ¥1,900,000",
+			"Household heads and household members of Category 1 insured persons who meet specified salary earnings or income conditions",
+			"People applying for a reduction or exemption of FY2026 long-term care insurance premiums"
+		],
+		"why": "The city says the change is needed to set a special rule for income amounts used to calculate FY2026 premium rates, following an amendment to the Order for Enforcement of the Long-Term Care Insurance Act in connection with the FY2025 tax reform.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:11:48.927Z",
+			"inputTokens": 829,
+			"cachedTokens": 0,
+			"outputTokens": 1438,
+			"reasoningTokens": 1075
+		}
 	}
 }

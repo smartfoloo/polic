@@ -55,5 +55,27 @@
 			"outputTokens": 59,
 			"reasoningTokens": 44
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "741610b1a9151b8a",
+		"name": "Updates the article number for waiving sewerage staff liability",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on the Establishment, etc. of the Sewerage Business",
+		"summary": "Approval by the city council is required to waive the liability of sewerage business employees for damages. This bill revises the article number of the Local Autonomy Act cited as the basis for the waiver and takes effect on September 24, 2026.",
+		"changes": [
+			"Revises the Local Autonomy Act article number concerning waivers of liability for damages"
+		],
+		"who": [],
+		"why": "The city says this is because a law partially amending the Local Autonomy Act was promulgated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:11:26.871Z",
+			"inputTokens": 595,
+			"cachedTokens": 0,
+			"outputTokens": 442,
+			"reasoningTokens": 268
+		}
 	}
 }

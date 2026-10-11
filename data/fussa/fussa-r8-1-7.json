@@ -1,0 +1,85 @@
+{
+	"id": "fussa-r8-1-7",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "福生市乳幼児の医療費の助成に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "市民厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1020984.html",
+			"fetchedAt": "2026-10-08T10:57:01.728Z"
+		}
+	],
+	"name": "医療費助成の方法に関する規定を改正",
+	"category": "健康・医療",
+	"summary": "医療費助成の方法は、条例の規定で定められています。この議案は、情報連携システムの導入に伴い、助成方法に関する規定を改め、関係する条例の規定を整理します。",
+	"changes": [
+		"医療費助成の方法に関する規定を改める",
+		"関係する条例の規定を整理する"
+	],
+	"who": [
+		"医療費助成を受ける人"
+	],
+	"why": "医療費助成に係る情報連携システムの導入に伴う改正と、規定の整理のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.853Z",
+		"inputTokens": 1051,
+		"cachedTokens": 0,
+		"outputTokens": 598,
+		"reasoningTokens": 414,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.853Z",
+		"checkedAt": "2026-10-10T07:29:38.584Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 930,
+			"cachedTokens": 0,
+			"outputTokens": 46,
+			"reasoningTokens": 31,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "558e14bbfd545747",
+		"name": "Amends rules on how medical expense subsidies are provided",
+		"official": "Ordinance Partially Amending the Fussa City Ordinance on Subsidies for Medical Expenses for Infants and Young Children, etc.",
+		"summary": "The method for providing medical expense subsidies is set out in ordinance provisions. This bill revises the provisions on how subsidies are provided in connection with the introduction of an information-sharing system, and organizes the provisions of related ordinances.",
+		"changes": [
+			"Revises the provisions on how medical expense subsidies are provided",
+			"Organizes the provisions of related ordinances"
+		],
+		"who": [
+			"People receiving medical expense subsidies"
+		],
+		"why": "The city says the changes are being made in connection with the introduction of an information-sharing system for medical expense subsidies and to organize the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.038Z",
+			"inputTokens": 624,
+			"cachedTokens": 0,
+			"outputTokens": 492,
+			"reasoningTokens": 300,
+			"batch": true
+		}
+	}
+}

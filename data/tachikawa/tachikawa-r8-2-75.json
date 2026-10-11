@@ -23,11 +23,11 @@
 			"fetchedAt": "2026-10-01T14:26:02.801Z"
 		}
 	],
-	"name": "日曜日を休館日から外す",
+	"name": "日曜日を休館日に追加",
 	"category": "福祉",
-	"summary": "現在、福祉センターは日曜日を休館日とし、土曜日と日曜日の開館時間を午前9時から午後5時までと定めています。改正後は日曜日を通常の休館日から外す一方、祝日は日曜日に重なっても休館日とします。開館時間の規定は土曜日のみ午前9時から午後5時までに改め、高齢者向け事業の対象として挙げる便宜の供与から、老人福祉法第10条の4第1項第2号に基づくものを外します。",
+	"summary": "現在、日曜日は休館日の規定に含まれず、祝日が日曜日に重なる場合も休館日から除かれています。開館時間は土曜日と日曜日とも午前9時から午後5時までです。改正後は日曜日と、日曜日に重なる祝日を休館日にし、開館時間を定める区分から日曜日を外します。また、高齢者向け事業の対象として挙げる便宜の供与から、老人福祉法第10条の4第1項第2号に基づくものを外します。",
 	"changes": [
-		"休館日から日曜日を外す",
+		"日曜日を休館日にする",
 		"祝日が日曜日に重なる場合も休館日にする",
 		"開館時間を定める区分から日曜日を外し、土曜日を午前9時から午後5時までとする",
 		"老人福祉法第10条の4第1項第2号に基づく便宜の供与を事業内容から外す"
@@ -40,54 +40,67 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:32:48.920Z",
+		"generatedAt": "2026-10-08T23:33:05.298Z",
 		"inputTokens": 2247,
 		"cachedTokens": 0,
 		"outputTokens": 2854,
-		"reasoningTokens": 2537
+		"reasoningTokens": 2537,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:33:05.298Z",
+			"notes": [
+				"ai [error] name/direction: 「日曜日を休館日から外す」 → 原文第５条第１号は改正後が「日曜日」、改正前が「削除」と記載されており、要約の変更方向と逆です。",
+				"ai [error] summary/direction: 「現在、福祉センターは日曜日を休館日とし、土曜日と日曜日の開館時間を午前9時から午後5時までと定めています。改正後は日曜日を通常の休館日から外す一方、祝日は日曜日に重なっても休館日とします。」 → 原文第５条第１号では改正前が「削除」、改正後が「日曜日」です。現在の日曜日の休館規定と、その変更方向が原文の記載と逆です。",
+				"ai [error] changes/direction: 「休館日から日曜日を外す」 → 原文第５条第１号は「削除」から「日曜日」への変更と記載されており、方向が逆です。"
+			],
+			"inputTokens": 2895,
+			"cachedTokens": 1025,
+			"outputTokens": 1249,
+			"reasoningTokens": 939
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:32:48.920Z",
-		"checkedAt": "2026-10-08T05:55:47.401Z",
+		"draftAt": "2026-10-08T23:33:05.298Z",
+		"checkedAt": "2026-10-08T23:33:13.987Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "name",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "日曜日を休館日から外す",
-				"note": "原文第５条第１号は改正後が「日曜日」、改正前が「削除」と記載されており、要約の変更方向と逆です。"
-			},
-			{
-				"field": "summary",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "現在、福祉センターは日曜日を休館日とし、土曜日と日曜日の開館時間を午前9時から午後5時までと定めています。改正後は日曜日を通常の休館日から外す一方、祝日は日曜日に重なっても休館日とします。",
-				"note": "原文第５条第１号では改正前が「削除」、改正後が「日曜日」です。現在の日曜日の休館規定と、その変更方向が原文の記載と逆です。"
-			},
-			{
-				"field": "changes",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "休館日から日曜日を外す",
-				"note": "原文第５条第１号は「削除」から「日曜日」への変更と記載されており、方向が逆です。"
-			},
-			{
-				"field": "changes",
-				"kind": "omission",
-				"severity": "check",
-				"quote": "",
-				"note": "原文第９条の２では、便宜の供与・老人福祉センター・老人介護支援センターに関する業務を指定管理者の業務範囲から削除しています。指定管理者に直接関わる業務範囲の変更が抜けています。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 2237,
+			"inputTokens": 2230,
 			"cachedTokens": 0,
-			"outputTokens": 911,
-			"reasoningTokens": 462
+			"outputTokens": 307,
+			"reasoningTokens": 293
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "938c50b51631dc6d",
+		"name": "Adds Sunday as a closing day",
+		"official": "Ordinance Partially Amending the Tachikawa City General Welfare Center Ordinance",
+		"summary": "Currently, Sunday is not included in the provisions on closing days, and holidays that fall on a Sunday are also excluded from the closing days. The center is open from 9:00 a.m. to 5:00 p.m. on both Saturdays and Sundays. After the amendment, Sundays and holidays that fall on a Sunday will be closing days, and Sunday will be removed from the categories that specify opening hours. The amendment also removes from the services for older people the provision of conveniences based on Article 10-4, Paragraph 1, Item 2 of the Act on Social Welfare for the Elderly.",
+		"changes": [
+			"Make Sunday a closing day",
+			"Make holidays that fall on a Sunday closing days as well",
+			"Remove Sunday from the categories specifying opening hours and set Saturday hours as 9:00 a.m. to 5:00 p.m.",
+			"Remove the provision of conveniences based on Article 10-4, Paragraph 1, Item 2 of the Act on Social Welfare for the Elderly from the services"
+		],
+		"who": [
+			"People who use the Tachikawa City General Welfare Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:15:29.979Z",
+			"inputTokens": 718,
+			"cachedTokens": 0,
+			"outputTokens": 565,
+			"reasoningTokens": 268
 		}
 	}
 }

@@ -1,0 +1,93 @@
+{
+	"id": "tama-r8-3-100",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第100号議案",
+	"official": "多摩市立学校施設等の開放に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第100号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "学校施設の立入り制限と使用料を改定",
+	"category": "教育",
+	"summary": "多摩市立学校の施設は、学校開放で団体が利用できます。この議案では、一定の場合に施設への立入りを拒んだり、退去を求めたりできる規定を設け、施設ごとの使用料を改めます。立入り制限の規定は公布日から、使用料は2027年4月1日以降の使用に適用されます。",
+	"changes": [
+		"秩序を乱すおそれや危険物の所持、係員の指示に従わない場合などに、立入り拒否や退去命令をできるようにする",
+		"教室・校庭・体育館・プールの1時間当たり使用料を、順に市内団体200円・300円・500円・1,400円、市外団体400円・600円・1,000円・2,800円に定める",
+		"テニスコート・クラブハウス・夜間照明設備の1時間当たり使用料を、順に市内団体300円・200円・900円、市外団体600円・400円・1,800円に定める",
+		"陶芸窯の1回当たり使用料を市内団体1,000円、市外団体2,000円に定める"
+	],
+	"who": [
+		"多摩市立学校の施設を利用する団体",
+		"学校開放施設への立入りを拒まれたり、退去を求められたりする人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:08:20.393Z",
+		"inputTokens": 1811,
+		"cachedTokens": 0,
+		"outputTokens": 2011,
+		"reasoningTokens": 1606
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:08:20.393Z",
+		"checkedAt": "2026-10-09T11:50:07.771Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1893,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 46
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8460d5a55435b0f6",
+		"name": "Revises entry restrictions and fees for school facilities",
+		"official": "Regarding the Establishment of an Ordinance to Partially Amend the Ordinance on Opening Tama City School Facilities, etc. to the Public",
+		"summary": "Groups can use facilities at Tama City schools through the school facility public-use program. This bill adds rules allowing entry to be refused or people to be asked to leave in certain cases, and revises the fees for each facility. The entry-restriction rules take effect on the date of promulgation. The fees apply to use on or after April 1, 2027.",
+		"changes": [
+			"Allows entry to be refused or people to be ordered to leave in cases such as a risk of disrupting order, possession of dangerous items, or failure to follow staff instructions",
+			"Sets hourly fees for classrooms, school grounds, gymnasiums and pools, respectively, at ¥200, ¥300, ¥500 and ¥1,400 for groups from within the city, and ¥400, ¥600, ¥1,000 and ¥2,800 for groups from outside the city",
+			"Sets hourly fees for tennis courts, clubhouses and nighttime lighting equipment, respectively, at ¥300, ¥200 and ¥900 for groups from within the city, and ¥600, ¥400 and ¥1,800 for groups from outside the city",
+			"Sets the fee per use of a pottery kiln at ¥1,000 for groups from within the city and ¥2,000 for groups from outside the city"
+		],
+		"who": [
+			"Groups using facilities at Tama City schools",
+			"People denied entry to or asked to leave school facilities opened for public use"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:54:55.637Z",
+			"inputTokens": 821,
+			"cachedTokens": 0,
+			"outputTokens": 1009,
+			"reasoningTokens": 636
+		}
+	}
+}

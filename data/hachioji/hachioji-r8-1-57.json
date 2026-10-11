@@ -57,5 +57,29 @@
 			"outputTokens": 98,
 			"reasoningTokens": 83
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7a500021a2d3a730",
+		"name": "Caps the exchange facility fee at ¥1,400 per hour",
+		"official": "Enactment of an Ordinance Partially Amending the Hachioji City Takao 599 Museum Ordinance",
+		"summary": "The fee set by ordinance for the exchange facility is ¥1,000 per hour. The bill changes this amount to ¥1,400, effective April 1, 2027. For use after the effective date, procedures can be started before that date, and users must pay the usage fee set by the designated manager.",
+		"changes": [
+			"Raises the exchange facility fee cap from ¥1,000 to ¥1,400 per hour"
+		],
+		"who": [
+			"People and organizations that use the exchange facility at the Takao 599 Museum"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:06.405Z",
+			"inputTokens": 618,
+			"cachedTokens": 0,
+			"outputTokens": 864,
+			"reasoningTokens": 676
+		}
 	}
 }

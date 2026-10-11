@@ -1,0 +1,111 @@
+{
+	"id": "yokohama-r8-2-6",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第6号議案",
+	"official": "横浜市空き缶等及び吸い殻等の散乱の防止等に関する条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第6号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si06.pdf",
+			"fetchedAt": "2026-10-08T11:04:45.315Z"
+		}
+	],
+	"name": "屋外の公共の場所で喫煙を制限",
+	"category": "環境",
+	"summary": "現在は、市長が指定した喫煙禁止地区で喫煙を禁止しています。この議案では、道路や河川など条例で定める屋外の公共の場所でも、設置または設置を許可された喫煙場所を除いて喫煙を禁止します。また、市の責務に、市民や事業者と協力して分煙環境の整備を進めることを加えます。",
+	"changes": [
+		"市の責務に分煙環境の整備推進を加える",
+		"喫煙禁止地区を喫煙禁止重点地区に改める",
+		"条例で定める屋外の公共の場所で喫煙を禁止する",
+		"管理する人が設置または設置を許可した喫煙場所を禁止の対象外とする"
+	],
+	"who": [
+		"条例で定める屋外の公共の場所で喫煙する人",
+		"市が喫煙制限の対象に指定する場所を管理する人"
+	],
+	"why": "分煙環境の整備を進める市の責務を加え、喫煙を制限する屋外の公共の場所を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.888Z",
+		"inputTokens": 4913,
+		"cachedTokens": 0,
+		"outputTokens": 1217,
+		"reasoningTokens": 915,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.888Z",
+		"checkedAt": "2026-10-10T07:29:38.724Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "条例で定める屋外の公共の場所で喫煙を禁止する",
+				"note": "第２条第３号で、喫煙の定義にたばこの加熱による煙（蒸気を含む。）の発生を明記する変更が抜けています。加熱式たばこを使う人にも直接関わる内容です。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "条例で定める屋外の公共の場所で喫煙を禁止する",
+				"note": "第11条の４第２項では、同条第１項第５号の場所を市長が指定する際、管理権原を有する者との合意に基づき区域を告示すると定めています。場所の管理者に直接関わる合意の条件が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4924,
+			"cachedTokens": 0,
+			"outputTokens": 300,
+			"reasoningTokens": 79,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d55336e03a855a08",
+		"name": "Restricts smoking in outdoor public places",
+		"official": "Partial Amendment to the Yokohama City Ordinance on the Prevention of Scattering of Empty Cans, Cigarette Butts, etc.",
+		"summary": "Smoking is currently prohibited in smoking-prohibition areas designated by the mayor. Under this bill, smoking will also be prohibited in outdoor public places specified by the ordinance, such as roads and rivers, except in smoking areas that have been installed or whose installation has been permitted. The bill also adds to the city's responsibilities promoting the development of an environment that separates smoking from non-smoking, in cooperation with residents and businesses.",
+		"changes": [
+			"Adds promoting the development of smoking-separated environments to the city's responsibilities",
+			"Renames smoking-prohibition areas as priority smoking-prohibition areas",
+			"Prohibits smoking in outdoor public places specified by the ordinance",
+			"Exempts smoking areas installed or authorized by the person managing the location from the prohibition"
+		],
+		"who": [
+			"People who smoke in outdoor public places specified by the ordinance",
+			"People who manage places designated by the city as subject to smoking restrictions"
+		],
+		"why": "The city says this is to add to its responsibilities the promotion of an environment that separates smoking from non-smoking, and to specify outdoor public places where smoking is restricted.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.074Z",
+			"inputTokens": 755,
+			"cachedTokens": 0,
+			"outputTokens": 1182,
+			"reasoningTokens": 892,
+			"batch": true
+		}
+	}
+}

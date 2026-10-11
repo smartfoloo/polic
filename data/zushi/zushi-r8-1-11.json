@@ -1,0 +1,88 @@
+{
+	"id": "zushi-r8-1-11",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第11号",
+	"official": "逗子市廃棄物の減量化、資源化及び適正処理に関する条例の一部を改正する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1013732.html",
+			"fetchedAt": "2026-10-08T11:21:22.893Z"
+		},
+		{
+			"label": "議案第11号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/732/r8-1t-gian11.pdf",
+			"fetchedAt": "2026-10-08T11:22:04.885Z"
+		}
+	],
+	"name": "生ごみ資源化に関する期間を1年延長",
+	"category": "環境",
+	"summary": "葉山町の生ごみ資源化処理施設の工期延長により、生ごみの分別収集・資源化の開始時期が延期されています。この議案では、関連する条例改正の附則にある期間を2年6月から3年6月に延ばします。",
+	"changes": [
+		"附則の期間を2年6月から3年6月に延ばす"
+	],
+	"who": [
+		"生ごみの分別収集の対象となる市民"
+	],
+	"why": "葉山町の生ごみ資源化処理施設の工期延長で、生ごみの分別収集・資源化の開始時期を延期しており、期限の延長が必要なためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.891Z",
+		"inputTokens": 1367,
+		"cachedTokens": 0,
+		"outputTokens": 1247,
+		"reasoningTokens": 1017,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.891Z",
+		"checkedAt": "2026-10-10T07:29:38.744Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1264,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e2d1dd3494719abe",
+		"name": "Extends the period related to food waste recycling by one year",
+		"official": "Regarding the Partial Amendment of the Ordinance Partially Amending the Zushi City Ordinance on Waste Reduction, Recycling and Proper Disposal",
+		"summary": "Because construction of the food waste recycling facility in Hayama Town is taking longer, the start of separate collection and recycling of food waste has been postponed. This bill extends the period in the supplementary provisions of the related ordinance amendment from 2 years and 6 months to 3 years and 6 months.",
+		"changes": [
+			"Extends the period in the supplementary provisions from 2 years and 6 months to 3 years and 6 months"
+		],
+		"who": [
+			"City residents covered by separate food waste collection"
+		],
+		"why": "The city says the start of separate collection and recycling of food waste has been postponed because construction of the food waste recycling facility in Hayama Town is taking longer, so the deadline needs to be extended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.077Z",
+			"inputTokens": 661,
+			"cachedTokens": 0,
+			"outputTokens": 715,
+			"reasoningTokens": 490,
+			"batch": true
+		}
+	}
+}

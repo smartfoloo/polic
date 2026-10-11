@@ -58,5 +58,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2b5d153e74843e31",
+		"name": "Allows contractors designated by other municipalities to work during emergencies",
+		"official": "Regarding the enactment of an ordinance to partially amend the Hachioji City Sewerage Ordinance",
+		"summary": "Work on drainage facilities and similar infrastructure must be carried out by contractors designated by the mayor of Hachioji City. During emergencies such as disasters, contractors designated by other municipalities will also be allowed to carry out the work if the mayor deems it necessary.",
+		"changes": [
+			"Allows contractors designated by other municipalities to carry out work during emergencies such as disasters"
+		],
+		"who": [
+			"Residents who need work on drainage facilities and similar infrastructure",
+			"Contractors designated by other municipalities"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:54:26.129Z",
+			"inputTokens": 608,
+			"cachedTokens": 0,
+			"outputTokens": 424,
+			"reasoningTokens": 254
+		}
 	}
 }

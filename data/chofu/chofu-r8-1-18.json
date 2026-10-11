@@ -64,5 +64,31 @@
 			"outputTokens": 102,
 			"reasoningTokens": 88
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fcc6bffc46b5a6e8",
+		"name": "Revises fees for special permits for condominium regeneration",
+		"official": "Ordinance Partially Amending the Chofu City Fees Ordinance",
+		"summary": "The ordinance sets fees for special permits related to condominium rebuilding, etc. This bill changes how permits related to floor-area ratios are handled and also makes special permits related to the height of each part of a building subject to a fee. The amendments take effect on April 1, 2026.",
+		"changes": [
+			"Sets special permits related to floor-area ratios or the height of each part of a building as fee items",
+			"Changes the cited legal provision from Article 105, paragraph 1, to Article 163-59, paragraph 1",
+			"Changes wording in related items from “rebuilding,” etc. to “regeneration,” etc."
+		],
+		"who": [
+			"People and businesses applying for special permits for condominium rebuilding, etc."
+		],
+		"why": "The city says the changes are to set fees for special permits related to heights, etc., in condominium rebuilding, in line with revisions to the law, and to change the name of the cited law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:17:12.926Z",
+			"inputTokens": 717,
+			"cachedTokens": 0,
+			"outputTokens": 699,
+			"reasoningTokens": 442
+		}
 	}
 }

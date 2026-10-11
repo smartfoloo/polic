@@ -60,5 +60,32 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e513b4ecb02f602",
+		"name": "Raises fees to use Nishiterakata Ground",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Sports Ground Ordinance",
+		"summary": "Currently, the fee for one use of one baseball or softball field at Nishiterakata Ground in Hachioji City, for up to two hours, is ¥1,000 for each. The bill changes each fee to ¥1,500 starting April 1, 2027. It also allows the new fees to be charged for use on or after the effective date, even before that date.",
+		"changes": [
+			"Raises the baseball field fee from ¥1,000 to ¥1,500 per use",
+			"Raises the softball field fee from ¥1,000 to ¥1,500 per use",
+			"Allows the new fees to be charged for use on or after the effective date, even before that date"
+		],
+		"who": [
+			"People who use the baseball field at Nishiterakata Ground in Hachioji City",
+			"People who use the softball field at Nishiterakata Ground in Hachioji City"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:39.398Z",
+			"inputTokens": 697,
+			"cachedTokens": 0,
+			"outputTokens": 599,
+			"reasoningTokens": 337
+		}
 	}
 }

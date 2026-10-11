@@ -1,0 +1,93 @@
+{
+	"id": "hamura-r8-3-69",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第69号",
+	"official": "羽村市下水道条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "下水道使用料と関連手数料を改定・新設",
+	"category": "税・手数料",
+	"summary": "現在の下水道使用料と排水設備工事責任技術者登録更新手数料を改定します。また、排水設備計画確認手数料と排水設備工事検査手数料を新たに設けます。指定下水道工事店や責任技術者に関する規定と、下水道法を引用する条文も改めます。",
+	"changes": [
+		"下水道使用料を改定する",
+		"排水設備工事責任技術者登録更新手数料を改定する",
+		"排水設備計画確認手数料と排水設備工事検査手数料を新設する",
+		"指定下水道工事店や責任技術者に関する規定と、下水道法を引用する条文を改める"
+	],
+	"who": [
+		"下水道を利用する人",
+		"指定下水道工事店",
+		"排水設備工事責任技術者"
+	],
+	"why": "使用料等審議会の答申を踏まえて受益者負担の適正化を図り、下水道法の改正に対応するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.860Z",
+		"inputTokens": 1251,
+		"cachedTokens": 0,
+		"outputTokens": 1211,
+		"reasoningTokens": 875,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.860Z",
+		"checkedAt": "2026-10-10T07:29:38.609Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1260,
+			"cachedTokens": 0,
+			"outputTokens": 73,
+			"reasoningTokens": 59,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6c6e7621e5e141e6",
+		"name": "Revises sewerage charges and adds related fees",
+		"official": "Ordinance Partially Amending the Hamura City Sewerage Ordinance",
+		"summary": "The city will revise the current sewerage usage charges and the fee for renewing the registration of responsible engineers for drainage facility construction. It will also introduce fees for confirming drainage facility plans and inspecting drainage facility construction. The city will revise provisions on designated sewerage construction contractors and responsible engineers, as well as articles that cite the Sewerage Act.",
+		"changes": [
+			"Revises sewerage usage charges",
+			"Revises the fee for renewing the registration of responsible engineers for drainage facility construction",
+			"Introduces fees for confirming drainage facility plans and inspecting drainage facility construction",
+			"Revises provisions on designated sewerage construction contractors and responsible engineers, and articles that cite the Sewerage Act"
+		],
+		"who": [
+			"People who use the sewerage system",
+			"Designated sewerage construction contractors",
+			"Responsible engineers for drainage facility construction"
+		],
+		"why": "The city says the changes are intended to ensure that users bear an appropriate share of the costs, based on recommendations from the Council on User Charges and Other Fees, and to respond to amendments to the Sewerage Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.047Z",
+			"inputTokens": 738,
+			"cachedTokens": 0,
+			"outputTokens": 665,
+			"reasoningTokens": 384,
+			"batch": true
+		}
+	}
+}

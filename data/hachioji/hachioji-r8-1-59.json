@@ -74,5 +74,31 @@
 			"outputTokens": 386,
 			"reasoningTokens": 141
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3650c35685c38f40",
+		"name": "Raises fees to use lifelong learning center facilities",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Lifelong Learning Center Ordinance",
+		"summary": "Currently, fees are set according to the room and time of use at the main building and the Minami-osawa and Kawaguchi branches. This bill raises the fees for each facility, effective April 1, 2027.",
+		"changes": [
+			"Raises the morning fee for Study Room 1 at the main building from ¥1,200 to ¥1,600",
+			"Raises the morning fee for Study Room 1 at the Minami-osawa Branch from ¥450 to ¥600",
+			"Raises the morning fee for Study Room 1 at the Kawaguchi Branch from ¥600 to ¥800"
+		],
+		"who": [
+			"People and groups who rent facilities at the Lifelong Learning Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:19.729Z",
+			"inputTokens": 653,
+			"cachedTokens": 0,
+			"outputTokens": 521,
+			"reasoningTokens": 303
+		}
 	}
 }

@@ -65,5 +65,32 @@
 			"outputTokens": 56,
 			"reasoningTokens": 41
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a120fba1f49e03e1",
+		"name": "Allows other designated contractors to do drainage work during emergencies",
+		"official": "Ordinance Partially Amending the Machida City Sewerage Ordinance",
+		"summary": "Until now, work such as installing new drainage facilities could only be done by contractors designated by the mayor. After the amendment, during emergencies such as disasters, contractors designated by other public sewer administrators may also do the work if the mayor deems it necessary. Those contractors, as well as people they select who have skills equivalent to those of a qualified technician, will also be required to comply with the ordinance and other rules.",
+		"changes": [
+			"Allow contractors designated by other public sewer administrators to do the work when the mayor deems it necessary during an emergency",
+			"Require other designated contractors to do the work in accordance with the ordinance and other rules",
+			"Assign technical management and other duties to people selected by other designated contractors who have skills equivalent to those of a qualified technician"
+		],
+		"who": [
+			"Businesses that carry out drainage facility work",
+			"Drainage facility work responsible technicians and others"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:15:11.336Z",
+			"inputTokens": 714,
+			"cachedTokens": 0,
+			"outputTokens": 607,
+			"reasoningTokens": 359
+		}
 	}
 }

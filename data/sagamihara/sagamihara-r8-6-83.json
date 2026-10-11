@@ -1,0 +1,38 @@
+{
+	"id": "sagamihara-r8-6-83",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第83号",
+	"official": "相模原市立産業会館条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "77f3d20a9f3061e5",
+		"official": "Regarding an Ordinance Partially Amending the Sagamihara City Industrial Hall Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:01:15.345Z",
+			"inputTokens": 384,
+			"cachedTokens": 0,
+			"outputTokens": 99,
+			"reasoningTokens": 66,
+			"batch": true
+		}
+	}
+}

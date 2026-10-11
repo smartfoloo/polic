@@ -60,5 +60,32 @@
 			"outputTokens": 65,
 			"reasoningTokens": 50
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "72073024e3b68a66",
+		"name": "Raises ordinance-set admission and facility-use fees",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Yuyake Koyake Fureai no Sato Ordinance",
+		"summary": "The ordinance sets the admission fee at ¥200 per visit for adults and ¥100 for children, among other fees. The bill raises the amounts set in the ordinance for admission and facility use, effective April 1, 2027. For use on or after that date, users will pay the fees set by the designated manager within the limits of the new ordinance, even if they complete the procedures before it takes effect.",
+		"changes": [
+			"Raises the ordinance-set admission fee from ¥200 to ¥300 per visit for adults and from ¥100 to ¥150 for children",
+			"Raises the ordinance-set lodging fee at Ooruri no Ie from ¥5,000 to ¥6,800 per adult per night and from ¥2,500 to ¥3,700 per child per night",
+			"Raises the fee for use of a room at Ooruri no Ie from ¥1,000 to ¥1,500 for up to one hour, and the fee for use of Yuyake Hall from ¥3,000 to ¥4,500 for up to three hours (from ¥4,000 to ¥6,000 when stage lighting equipment is used)",
+			"Raises the fees for Yuyake no Yu, the campground, and the outdoor cooking facilities: from ¥500 to ¥750 per visit for adults, from ¥300 to ¥450 for children, from ¥1,500 to ¥2,200 per tent per night, and from ¥1,000 to ¥1,500 per hearth for up to four hours"
+		],
+		"who": [
+			"Users of Yuyake Koyake Fureai no Sato"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:54:58.732Z",
+			"inputTokens": 837,
+			"cachedTokens": 0,
+			"outputTokens": 989,
+			"reasoningTokens": 578
+		}
 	}
 }

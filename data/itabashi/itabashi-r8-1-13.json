@@ -32,7 +32,7 @@
 	"category": "行政のしくみ",
 	"summary": "条例第1条にある「未来をはぐくむ緑と文化のかがやくまち板橋」という表現を、「未来をひらく緑と文化のかがやくまち板橋」に変更します。改正は2026年4月1日から施行されます。",
 	"changes": [
-		"「未来をはぐくむ緑と文化のかがやくまち板橋」を「未来をひらく緑と文化のかがやくまち板橋」に改める"
+		"条例第1条のまちの将来像に関する表現を変更する"
 	],
 	"who": [],
 	"why": "板橋区基本構想の改定に伴い、必要な規定を整えるためと、区は説明しています。",
@@ -40,27 +40,60 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:49:34.086Z",
+		"generatedAt": "2026-10-08T23:21:02.259Z",
 		"inputTokens": 1190,
 		"cachedTokens": 0,
 		"outputTokens": 703,
-		"reasoningTokens": 516
+		"reasoningTokens": 516,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:21:02.259Z",
+			"notes": [
+				"code: copied from the source (48 chars): 「「未来をはぐくむ緑と文化のかがやくまち板橋」を「未来をひらく緑と文化のかがやくまち板橋」に改める」"
+			],
+			"inputTokens": 1529,
+			"cachedTokens": 1025,
+			"outputTokens": 633,
+			"reasoningTokens": 451
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:49:34.086Z",
-		"checkedAt": "2026-10-08T05:26:38.991Z",
-		"flags": [
-			"copied from the source (48 chars): 「「未来をはぐくむ緑と文化のかがやくまち板橋」を「未来をひらく緑と文化のかがやくまち板橋」に改める」"
-		],
+		"draftAt": "2026-10-08T23:21:02.259Z",
+		"checkedAt": "2026-10-08T23:21:03.843Z",
+		"flags": [],
 		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1062,
+			"inputTokens": 1037,
 			"cachedTokens": 0,
-			"outputTokens": 13,
+			"outputTokens": 12,
 			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "130c6738a4a2114b",
+		"name": "Changes wording of the fund ordinance's vision for the future",
+		"official": "Ordinance Partially Amending the Itabashi City Support Fund Ordinance",
+		"summary": "The expression in Article 1 of the ordinance, “Itabashi, a town where green and culture shine and nurture the future,” will be changed to “Itabashi, a town where green and culture shine and open up the future.” The amendment will take effect on April 1, 2026.",
+		"changes": [
+			"Changes the wording in Article 1 about the town's vision for the future"
+		],
+		"who": [],
+		"why": "The ward says this is to make the necessary provisions in line with the revision of the Itabashi City Basic Concept.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:40.778Z",
+			"inputTokens": 585,
+			"cachedTokens": 0,
+			"outputTokens": 528,
+			"reasoningTokens": 350
 		}
 	}
 }

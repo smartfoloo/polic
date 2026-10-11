@@ -59,5 +59,31 @@
 			"outputTokens": 48,
 			"reasoningTokens": 33
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2582229ed860b52e",
+		"name": "Raises funeral compensation for work-related deaths to ¥330,000",
+		"official": "Ordinance Partially Amending the Ordinance on Compensation, etc. for Work-Related Accidents of Ome City Council Members and Other Part-Time Employees",
+		"summary": "Under two ordinances, funeral compensation for work-related deaths of city council members, part-time employees, fire brigade members, and others is set at ¥315,000. This bill raises the amount to ¥330,000 in both ordinances. The ordinances take effect on the date of promulgation, and the revised amount applies to compensation for which the reason for payment arises on or after April 1, 2026.",
+		"changes": [
+			"Raises funeral compensation for Ome City council members and part-time employees from ¥315,000 to ¥330,000",
+			"Raises funeral compensation for fire brigade members and others from ¥315,000 to ¥330,000"
+		],
+		"who": [
+			"People receiving funeral compensation for Ome City council members and part-time employees who died in a work-related accident",
+			"People receiving funeral compensation for fire brigade members and others who died in a work-related accident"
+		],
+		"why": "The city says the amount is being raised because of a partial amendment to the relevant Cabinet Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:01:37.813Z",
+			"inputTokens": 775,
+			"cachedTokens": 0,
+			"outputTokens": 1184,
+			"reasoningTokens": 898
+		}
 	}
 }

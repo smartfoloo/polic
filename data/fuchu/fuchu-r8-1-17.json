@@ -36,47 +36,70 @@
 		"一定の条件に当てはまる人を、2026年度の保険料率算定では市民税が課されている人として扱う"
 	],
 	"who": [
-		"2026年度の介護保険料を算定される第1号被保険者のうち、2025年に給与所得があり、給与収入が551,000円以上1,900,000円未満の人"
+		"2026年度の介護保険料を算定される第1号被保険者のうち、本人または同じ世帯の世帯主・世帯員が、2025年の給与所得や市民税に関する条件に該当する人"
 	],
 	"why": "介護保険法施行令の一部改正に伴い、必要な改正を行うためと、市は説明しています。",
 	"draft": {
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:24:56.273Z",
+		"generatedAt": "2026-10-08T23:15:52.512Z",
 		"inputTokens": 4175,
 		"cachedTokens": 0,
 		"outputTokens": 1623,
-		"reasoningTokens": 1284
+		"reasoningTokens": 1284,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:15:52.512Z",
+			"notes": [
+				"ai [error] who/fact: 「2026年度の介護保険料を算定される第1号被保険者のうち、2025年に給与所得があり、給与収入が551,000円以上1,900,000円未満の人」 → 付則第7条第1項は、世帯主や世帯員が条件に該当する場合にも適用されるため、影響を受ける第1号被保険者は本人に給与所得がある人だけではない。"
+			],
+			"inputTokens": 4715,
+			"cachedTokens": 1025,
+			"outputTokens": 731,
+			"reasoningTokens": 383
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:24:56.273Z",
-		"checkedAt": "2026-10-08T05:12:26.487Z",
+		"draftAt": "2026-10-08T23:15:52.512Z",
+		"checkedAt": "2026-10-08T23:15:58.563Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "who",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "2026年度の介護保険料を算定される第1号被保険者のうち、2025年に給与所得があり、給与収入が551,000円以上1,900,000円未満の人",
-				"note": "付則第7条第1項は、世帯主や世帯員が条件に該当する場合にも適用されるため、影響を受ける第1号被保険者は本人に給与所得がある人だけではない。"
-			},
-			{
-				"field": "changes",
-				"kind": "omission",
-				"severity": "check",
-				"quote": "2025年の給与収入が551,000円以上1,900,000円未満の人について、収入額に応じた所得計算の特例を設ける",
-				"note": "付則第6条の具体的な加算方法が抜けている。給与収入の3区分に応じ、給与所得に「収入額から55万円を控除した額」「10万円」「65万円から令和7年給与所得控除額を控除した額」を加算する変更である。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 4183,
+			"inputTokens": 4192,
 			"cachedTokens": 0,
-			"outputTokens": 450,
-			"reasoningTokens": 131
+			"outputTokens": 141,
+			"reasoningTokens": 127
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "548a8330342fe289",
+		"name": "Sets special income calculation rules for 2026 long-term care insurance premiums",
+		"official": "Ordinance Partially Amending the Fuchu City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are calculated based on income and the household’s municipal resident tax status. For FY2026, this ordinance proposal sets special rules for calculating income based on wage income in 2025. It treats people who meet certain conditions as subject to municipal resident tax when calculating their premium rate.",
+		"changes": [
+			"Sets special income calculation rules based on income for people whose wage income in 2025 was at least ¥551,000 and less than ¥1,900,000",
+			"Treats people who meet certain conditions as subject to municipal resident tax when calculating their premium rate for FY2026"
+		],
+		"who": [
+			"Category 1 insured persons whose long-term care insurance premiums are calculated for FY2026 and who meet conditions concerning their own, their household head’s, or another household member’s wage income in 2025 or municipal resident tax"
+		],
+		"why": "The city says it is making the necessary amendments following a partial amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:20:18.874Z",
+			"inputTokens": 753,
+			"cachedTokens": 0,
+			"outputTokens": 690,
+			"reasoningTokens": 413
 		}
 	}
 }

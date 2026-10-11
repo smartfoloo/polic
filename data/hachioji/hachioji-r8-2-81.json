@@ -69,5 +69,33 @@
 			"outputTokens": 463,
 			"reasoningTokens": 302
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8dd3b5c80afa9fe8",
+		"name": "Caps class sizes at 30 children in certified childcare centers",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Ordinance on Certification Requirements and Standards for Facilities and Operations of Hachioji City Certified Childcare Centers",
+		"summary": "Under the previous standard, each class at a certified childcare center could have no more than 35 children. This bill lowers the limit to 30. However, facilities already in existence when the ordinance takes effect may continue to use the previous standard until March 31, 2032. The bill also revises staffing standards and the checks and responses intended to prevent sexual violence against children, etc.",
+		"changes": [
+			"Lower the maximum class size from 35 children to 30",
+			"Allow qualified physical therapists and similar professionals, as well as nurses and similar staff, to fill some required staff roles",
+			"Require criminal-record checks and other checks for workers in covered roles to prevent sexual violence against children and protect children",
+			"Extend the special staffing period from 10 years to 12 years"
+		],
+		"who": [
+			"Children attending certified childcare centers and their parents or guardians",
+			"Operators and staff of certified childcare centers"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:57:06.844Z",
+			"inputTokens": 758,
+			"cachedTokens": 0,
+			"outputTokens": 1652,
+			"reasoningTokens": 1377
+		}
 	}
 }

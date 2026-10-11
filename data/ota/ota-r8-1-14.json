@@ -67,5 +67,31 @@
 			"outputTokens": 251,
 			"reasoningTokens": 108
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8593d281cddbaaf2",
+		"name": "Lowers fees for some certificates issued by terminals to ¥150",
+		"official": "Ordinance Partially Amending the Ota City Fees Ordinance",
+		"summary": "Some certificates and other documents issued by multifunction terminals currently cost ¥250. This bill lowers the fee to ¥150 and revises the names of laws and article numbers in the ordinance to reflect amendments to laws concerning condominiums. The fee change takes effect on September 1, 2026; the changes concerning condominiums take effect on April 1, 2026; and the change to a separate article number takes effect on May 1, 2026.",
+		"changes": [
+			"Lowers the fee for some certificates and other documents issued by multifunction terminals from ¥250 to ¥150",
+			"Revises law names, article numbers and other details in the fee provisions concerning condominiums"
+		],
+		"who": [
+			"People receiving certificates and other documents covered by the fee reduction from multifunction terminals",
+			"People who apply to the ward and pay fees for condominium-related procedures"
+		],
+		"why": "The ward says this is to reduce the fees for some certificates and other documents issued by multifunction terminals and to update the ordinance provisions to reflect amendments to laws concerning condominiums.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:04:20.163Z",
+			"inputTokens": 759,
+			"cachedTokens": 0,
+			"outputTokens": 616,
+			"reasoningTokens": 334
+		}
 	}
 }

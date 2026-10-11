@@ -1,0 +1,95 @@
+{
+	"id": "kanagawa-r8-1-191",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第191号議案",
+	"official": "神奈川県男女共同参画推進条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "定県第191号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar7.pdf",
+			"fetchedAt": "2026-10-08T11:30:57.287Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "県の施策にジェンダー平等の視点を加える",
+	"category": "行政のしくみ",
+	"summary": "現行の条例は、男女共同参画の推進について定めています。この議案では、ジェンダー平等の定義と実現を目指す目的を加え、県が施策をつくり実施する際にジェンダー平等の観点を踏まえることなどを定めます。",
+	"changes": [
+		"条例の目的にジェンダー平等の実現を加える",
+		"ジェンダー平等を定義し、男女に限らない表現に改める",
+		"県が施策をつくり実施する際に、ジェンダー平等の観点を踏まえる規定を加える",
+		"固定的性別役割分担意識を連想させる表現や、性別による権利侵害行為を助長する表現を規定に加える"
+	],
+	"who": [
+		"県民"
+	],
+	"why": "令和6年度に行った条例の見直しに伴い、男女共同参画の推進に関する県の姿勢を明確にするためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.545Z",
+		"inputTokens": 1677,
+		"cachedTokens": 0,
+		"outputTokens": 1594,
+		"reasoningTokens": 1328,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.545Z",
+			"notes": [
+				"ai [error] changes/fact: 「固定的性別役割分担意識などを助長する表現への対応規定を改める」 → 第9条で追加するのは「固定的性別役割分担意識を連想させ、又は性別による権利侵害行為を助長させる表現」。「助長」の対象は固定的性別役割分担意識ではなく、性別による権利侵害行為。"
+			],
+			"inputTokens": 2171,
+			"cachedTokens": 1025,
+			"outputTokens": 716,
+			"reasoningTokens": 402,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.863Z",
+		"checkedAt": "2026-10-10T07:29:38.612Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "固定的性別役割分担意識などを助長する表現への対応規定を改める",
+				"note": "第9条で追加するのは「固定的性別役割分担意識を連想させ、又は性別による権利侵害行為を助長させる表現」。「助長」の対象は固定的性別役割分担意識ではなく、性別による権利侵害行為。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "ジェンダー平等を定義し、男女に限らない表現に改める",
+				"note": "第2条の定義から「相手が望まない」を削る変更が記載されていない。定義の対象範囲に関わる変更として確認が必要。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1646,
+			"cachedTokens": 0,
+			"outputTokens": 512,
+			"reasoningTokens": 293,
+			"batch": true
+		}
+	}
+}

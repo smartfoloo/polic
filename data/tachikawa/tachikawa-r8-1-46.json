@@ -59,5 +59,31 @@
 			"outputTokens": 123,
 			"reasoningTokens": 109
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cfa37cbc2847e84e",
+		"name": "Changes notification method for people whose whereabouts are unknown",
+		"official": "Ordinance Partially Amending the Tachikawa City Administrative Procedure Ordinance",
+		"summary": "Until now, notices of hearings for people whose whereabouts are unknown have been given by posting them on notice boards at the offices of the mayor and other officials. Under this bill, the method will change: notices will be made widely available for viewing in a manner prescribed by rules, together with either posting them on notice boards at the offices or making them viewable on computer screens there.",
+		"changes": [
+			"Make notice details available for viewing by the general public, and post them on office notice boards or make them viewable on office computer screens",
+			"Apply the new notification method to notices of continuation dates and to procedures that provide an opportunity to submit an explanation"
+		],
+		"who": [
+			"People subject to adverse dispositions whose whereabouts are unknown",
+			"Parties to hearings and hearing participants whose whereabouts are unknown"
+		],
+		"why": "The city says this is because a law amending the Basic Act on the Formation of a Digital Society and other laws was promulgated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:14:00.925Z",
+			"inputTokens": 697,
+			"cachedTokens": 0,
+			"outputTokens": 621,
+			"reasoningTokens": 365
+		}
 	}
 }

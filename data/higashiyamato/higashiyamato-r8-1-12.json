@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-12.pdf",
 			"fetchedAt": "2026-10-05T15:57:37.223Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "8d30f1a0acb557cd",
+		"official": "Ordinance Partially Amending the Higashiyamato City Ordinance Concerning the Status of City Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:43.411Z",
+			"inputTokens": 386,
+			"cachedTokens": 0,
+			"outputTokens": 235,
+			"reasoningTokens": 197
+		}
+	}
 }

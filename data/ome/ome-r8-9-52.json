@@ -60,5 +60,32 @@
 			"outputTokens": 51,
 			"reasoningTokens": 36
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a811dbf3bc72b3f6",
+		"name": "Requires childcare providers to take measures to prevent sexual violence against children",
+		"official": "Ordinance Partially Amending the Ome City Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Services, etc., and Related Ordinances",
+		"summary": "The ordinance revises standards for home-based childcare services, etc., and infant and other daycare support services, and requires operators to take measures to prevent sexual violence and other abuse against children. It also sets out how to protect children using these services if such abuse occurs, and requires criminal-record checks for covered staff. The amendment also removes wording about childcare workers licensed only in National Strategic Special Zones from the staffing rules for infant and other daycare support services. It generally takes effect on December 25, 2026. The removal of this wording takes effect on the date of promulgation.",
+		"changes": [
+			"Require operators of home-based childcare services, etc., and infant and other daycare support services to prevent sexual violence and other abuse against children and protect children using the services if it occurs",
+			"Require operators to conduct criminal-record checks, etc., on covered staff who have contact with children using the services",
+			"Remove wording about childcare workers licensed only in National Strategic Special Zones from the staffing rules for infant and other daycare support services"
+		],
+		"who": [
+			"Operators of home-based childcare services, etc., and infant and other daycare support services",
+			"Infants and young children using these services"
+		],
+		"why": "The city says the ordinance is being revised to establish provisions requiring the prevention of sexual violence and other abuse against children, in response to partial revisions to national standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:03:08.270Z",
+			"inputTokens": 841,
+			"cachedTokens": 0,
+			"outputTokens": 1276,
+			"reasoningTokens": 918
+		}
 	}
 }

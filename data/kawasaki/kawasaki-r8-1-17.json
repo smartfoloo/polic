@@ -1,0 +1,101 @@
+{
+	"id": "kawasaki-r8-1-17",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第17号",
+	"official": "川崎市営住宅条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第17号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_17.pdf",
+			"fetchedAt": "2026-10-08T11:08:03.429Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "市営住宅の駐車場などを指定管理者が管理",
+	"category": "住宅",
+	"summary": "現在、市営住宅の駐車場の使用料は市長が定めています。この議案では、駐車場や建築設備などの管理を指定管理者に行わせ、駐車場の料金は市長の承認を得て指定管理者が決める仕組みにします。",
+	"changes": [
+		"駐車場や建築設備などの管理を指定管理者に行わせる",
+		"駐車場の利用料金を指定管理者の収入とする",
+		"駐車場の利用料金額を市長の承認を得て指定管理者が定めるようにする",
+		"利用料金の減免や支払い猶予を指定管理者が行えるようにする"
+	],
+	"who": [
+		"市営住宅の入居者",
+		"市営住宅の駐車場利用者"
+	],
+	"why": "市営住宅の駐車場や建築設備などの管理を指定管理者に行わせ、駐車場に利用料金制を導入するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.868Z",
+		"inputTokens": 2091,
+		"cachedTokens": 0,
+		"outputTokens": 1658,
+		"reasoningTokens": 1362,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.868Z",
+		"checkedAt": "2026-10-10T07:29:38.631Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2062,
+			"cachedTokens": 0,
+			"outputTokens": 187,
+			"reasoningTokens": 172,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f220db9f12f9db06",
+		"name": "Assigns management of city housing parking lots and facilities to designated managers",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Municipal Housing Ordinance",
+		"summary": "Currently, the mayor sets the usage fees for parking at city-operated housing. This bill would have designated managers manage parking lots, building equipment, and other facilities, and establish a system under which designated managers set parking fees with the mayor’s approval.",
+		"changes": [
+			"Assign management of parking lots, building equipment, and other facilities to designated managers",
+			"Treat parking lot usage fees as income for designated managers",
+			"Allow designated managers to set parking lot usage fees with the mayor’s approval",
+			"Allow designated managers to reduce or waive usage fees or defer payment"
+		],
+		"who": [
+			"Residents of city-operated housing",
+			"Users of parking lots at city-operated housing"
+		],
+		"why": "The city says this is to have designated managers manage parking lots, building equipment, and other facilities at city-operated housing, and to introduce a usage-fee system for parking lots.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.053Z",
+			"inputTokens": 704,
+			"cachedTokens": 0,
+			"outputTokens": 890,
+			"reasoningTokens": 642,
+			"batch": true
+		}
+	}
+}

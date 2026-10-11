@@ -62,5 +62,29 @@
 			"outputTokens": 36,
 			"reasoningTokens": 22
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a0333fa716c744b6",
+		"name": "Changes the method for public notice service in late-stage elderly medical care",
+		"official": "Ordinance Partially Amending the Machida City Ordinance on Late-Stage Elderly Medical Care",
+		"summary": "Currently, public notice service related to late-stage elderly medical care is carried out by posting it at the notice board specified in the Machida City Ordinance on the Formalities for Public Notices. This bill changes the method to one modeled on public notice service under the Machida City Tax Ordinance. It takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the method of public notice service to one based on the City Tax Ordinance"
+		],
+		"who": [
+			"People who are subject to public notice service related to late-stage elderly medical care"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:14:51.281Z",
+			"inputTokens": 595,
+			"cachedTokens": 0,
+			"outputTokens": 1185,
+			"reasoningTokens": 997
+		}
 	}
 }

@@ -28,7 +28,7 @@
 			"fetchedAt": "2026-10-01T14:20:53.983Z"
 		}
 	],
-	"name": "職員の特別休暇に健康管理休暇を加える",
+	"name": "生理休暇を健康管理休暇に変更",
 	"category": "行政のしくみ",
 	"summary": "現在、職員の特別休暇には生理休暇が含まれています。この議案では生理休暇を外して健康管理休暇を加え、給与を減額しない日数の上限を定める休暇も、生理休暇から健康管理休暇に変更します。",
 	"changes": [
@@ -43,33 +43,63 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:48:21.607Z",
+		"generatedAt": "2026-10-08T23:23:08.450Z",
 		"inputTokens": 2325,
 		"cachedTokens": 0,
 		"outputTokens": 815,
-		"reasoningTokens": 636
+		"reasoningTokens": 636,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:23:08.450Z",
+			"notes": [
+				"ai [error] name/direction: 「職員の特別休暇に健康管理休暇を加える」 → 原文第17条は「生理休暇」を「健康管理休暇」に置き換える改正であり、休暇の種類を単純に追加する改正ではない。"
+			],
+			"inputTokens": 2673,
+			"cachedTokens": 1025,
+			"outputTokens": 274,
+			"reasoningTokens": 99
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:48:21.607Z",
-		"checkedAt": "2026-10-08T05:33:49.579Z",
+		"draftAt": "2026-10-08T23:23:08.450Z",
+		"checkedAt": "2026-10-08T23:23:11.767Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "name",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "職員の特別休暇に健康管理休暇を加える",
-				"note": "原文第17条は「生理休暇」を「健康管理休暇」に置き換える改正であり、休暇の種類を単純に追加する改正ではない。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 2194,
+			"inputTokens": 2190,
 			"cachedTokens": 0,
-			"outputTokens": 294,
-			"reasoningTokens": 204
+			"outputTokens": 60,
+			"reasoningTokens": 45
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d455bed1abe34bf3",
+		"name": "Changes menstrual leave to health management leave",
+		"official": "Ordinance Partially Amending the Ordinance on Working Hours, Holidays, Leave, etc. for Machida City Employees",
+		"summary": "Special leave for employees currently includes menstrual leave. This bill removes menstrual leave and adds health management leave. It also changes the leave for which a limit is set on the number of days without a salary reduction from menstrual leave to health management leave.",
+		"changes": [
+			"Removes menstrual leave from the types of special leave and adds health management leave",
+			"Changes the leave with a limit on the number of days without a salary reduction from menstrual leave to health management leave"
+		],
+		"who": [
+			"Machida City employees"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:14:06.644Z",
+			"inputTokens": 613,
+			"cachedTokens": 0,
+			"outputTokens": 506,
+			"reasoningTokens": 328
 		}
 	}
 }

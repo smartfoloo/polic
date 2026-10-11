@@ -1,0 +1,91 @@
+{
+	"id": "hamura-r8-3-68",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第68号",
+	"official": "羽村市動物公園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "動物公園の入園料と駐車場料金を改定",
+	"category": "税・手数料",
+	"summary": "現在、入園料は18歳未満が無料、18歳以上65歳未満が500円です。駐車場使用料は車種に応じて300円または1,000円です。改正後は入園料の年齢区分や個人定期券の料金、駐車場使用料を見直し、令和9年4月1日に施行します。",
+	"changes": [
+		"入園料の無料対象を18歳未満から18歳以下にし、500円の対象を18歳以上65歳未満から19歳以上に改める",
+		"19歳以上の個人定期券を1,500円から2,000円にし、65歳以上の個人定期券を市内在住者向けの1,000円に改める",
+		"大型・中型自動車の駐車場使用料を平日1,000円から1,200円、土曜日・日曜日・休日1,800円に改める",
+		"準中型・普通自動車と大型・普通自動二輪車の駐車場使用料を平日300円から400円、土曜日・日曜日・休日600円に改める"
+	],
+	"who": [
+		"動物公園を利用する人",
+		"動物公園の駐車場を利用する人"
+	],
+	"why": "受益者負担の適正化を図り、持続可能な動物公園の管理運営を目指すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.860Z",
+		"inputTokens": 1335,
+		"cachedTokens": 0,
+		"outputTokens": 1599,
+		"reasoningTokens": 1186,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.860Z",
+		"checkedAt": "2026-10-10T07:29:38.608Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1421,
+			"cachedTokens": 0,
+			"outputTokens": 100,
+			"reasoningTokens": 85,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a30345f3cc46ffc5",
+		"name": "Revises admission and parking fees at the animal park",
+		"official": "Ordinance Partially Amending the Hamura City Animal Park Ordinance",
+		"summary": "Admission is currently free for people under 18 and costs ¥500 for people aged 18 to under 65. Parking fees are ¥300 or ¥1,000, depending on the type of vehicle. The revision changes the age categories for admission, the fees for individual season passes, and parking fees. It will take effect on April 1, 2027.",
+		"changes": [
+			"Change the free-admission age limit from under 18 to 18 and under, and change the ¥500 admission category from ages 18 to under 65 to ages 19 and over",
+			"Raise the individual season-pass fee for people aged 19 and over from ¥1,500 to ¥2,000, and set the fee for city residents aged 65 and over at ¥1,000",
+			"Set parking fees for large and medium-sized vehicles at ¥1,200 on weekdays, up from ¥1,000, and ¥1,800 on Saturdays, Sundays, and holidays",
+			"Set parking fees for semi-medium-sized and ordinary cars, and large and ordinary motorcycles, at ¥400 on weekdays, up from ¥300, and ¥600 on Saturdays, Sundays, and holidays"
+		],
+		"who": [
+			"People who use the animal park",
+			"People who use the animal park's parking lot"
+		],
+		"why": "The city says the changes are intended to ensure that beneficiaries bear an appropriate share of the costs and to aim for sustainable management and operation of the animal park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.047Z",
+			"inputTokens": 816,
+			"cachedTokens": 0,
+			"outputTokens": 1588,
+			"reasoningTokens": 1223,
+			"batch": true
+		}
+	}
+}

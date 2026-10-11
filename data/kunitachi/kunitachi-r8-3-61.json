@@ -30,12 +30,12 @@
 	],
 	"name": "保育事業の対象・職員基準などを変更",
 	"category": "子育て",
-	"summary": "家庭的保育事業などの設備や運営の基準を定めています。この案では、満3歳以上の子どもを対象とする小規模保育事業を加え、職員の数え方や児童対象性暴力等の防止措置を改めます。職員配置基準の一部に令和10年3月31日までの経過措置を設けるほか、職員の配置状況に応じた適用除外も定めます。",
+	"summary": "家庭的保育事業などの設備や運営の基準を定めています。この案では、満3歳以上の子どもを対象とする小規模保育事業を加え、職員の数え方や児童対象性暴力等の防止措置を改めます。職員配置基準の経過措置は、満3歳以上満4歳未満の子どもに関する部分に限って令和10年3月31日までとし、満4歳以上では職員の配置状況により基準を適用しない場合も設けます。",
 	"changes": [
 		"満3歳以上の子どもを対象とする小規模保育事業を基準に加える",
 		"児童対象性暴力等の防止や発生時の保護のため、従事者の犯罪事実確認などを求める",
 		"一定の専門職を保育士数に1人まで算入できるようにし、保育士による支援体制を求める",
-		"職員配置基準の経過措置と、配置状況に応じた適用除外を設ける"
+		"満3歳以上満4歳未満の配置基準に関する経過措置を令和10年3月31日までとし、満4歳以上は配置状況により適用しない場合を設ける"
 	],
 	"who": [
 		"家庭的保育事業などを運営する事業者",
@@ -47,33 +47,67 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:47:30.110Z",
+		"generatedAt": "2026-10-08T23:23:01.283Z",
 		"inputTokens": 4516,
 		"cachedTokens": 0,
 		"outputTokens": 2502,
-		"reasoningTokens": 2110
+		"reasoningTokens": 2110,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:23:01.283Z",
+			"notes": [
+				"ai [error] changes/direction: 「職員配置基準の経過措置と、配置状況に応じた適用除外を設ける」 → 第2条では、経過措置を新設するのではなく、既存の「当分の間」を「令和10年3月31日までの間」に改め、対象を満3歳以上満4歳未満の児童に係る配置基準に限定しています。配置状況に応じた適用除外は新設です。"
+			],
+			"inputTokens": 5147,
+			"cachedTokens": 1025,
+			"outputTokens": 1974,
+			"reasoningTokens": 1502
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:47:30.110Z",
-		"checkedAt": "2026-10-08T05:33:28.071Z",
+		"draftAt": "2026-10-08T23:23:01.283Z",
+		"checkedAt": "2026-10-08T23:23:05.962Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "職員配置基準の経過措置と、配置状況に応じた適用除外を設ける",
-				"note": "第2条では、経過措置を新設するのではなく、既存の「当分の間」を「令和10年3月31日までの間」に改め、対象を満3歳以上満4歳未満の児童に係る配置基準に限定しています。配置状況に応じた適用除外は新設です。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 4617,
+			"inputTokens": 4663,
 			"cachedTokens": 0,
-			"outputTokens": 483,
-			"reasoningTokens": 341
+			"outputTokens": 104,
+			"reasoningTokens": 90
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "62147b7f6d84f789",
+		"name": "Changes coverage and staffing standards for childcare services",
+		"official": "Bill to Partially Amend the Kunitachi City Ordinance on Standards for Facilities and Operation of Family-Based Childcare Services, etc.",
+		"summary": "This ordinance sets standards for the facilities and operation of family-based childcare services and similar services. The bill adds small-scale childcare services for children aged 3 and older, and changes how staff are counted and the measures to prevent sexual violence against children, etc. The transitional measure for staffing standards will apply only to the part concerning children aged 3 and under 4, and only until March 31, 2028. For children aged 4 and older, the bill also provides for cases in which the standards may not apply, depending on staffing levels.",
+		"changes": [
+			"Add small-scale childcare services for children aged 3 and older to the standards",
+			"Require criminal record checks for workers and other measures to prevent sexual violence against children, etc., and protect children if it occurs",
+			"Allow up to one certain specialist to be counted toward the number of childcare workers, and require a support system provided by childcare workers",
+			"Limit the transitional measure for staffing standards for children aged 3 and under 4 to March 31, 2028, and allow the standards not to apply to children aged 4 and older in some cases, depending on staffing levels"
+		],
+		"who": [
+			"Operators of family-based childcare services and similar services",
+			"Childcare workers and specialists working in small-scale childcare services and similar services",
+			"Children and parents who use these childcare services"
+		],
+		"why": "The city says the purpose is to reflect the relevant standards in the ordinance in response to amendments to the Child Welfare Act and the entry into force of the Act on Prevention of Sexual Violence Against Children, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:39.598Z",
+			"inputTokens": 894,
+			"cachedTokens": 0,
+			"outputTokens": 1720,
+			"reasoningTokens": 1323
 		}
 	}
 }

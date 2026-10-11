@@ -58,5 +58,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2c331ded3907306b",
+		"name": "Conduct service by public notice through posting or screen viewing",
+		"official": "Ordinance Partially Amending the Ome City Municipal Tax Ordinance, etc.",
+		"summary": "Currently, service by public notice is carried out by posting a written notice. After the amendment, the matters to be publicly notified will first be made available for viewing by an unspecified number of people. Service will then be carried out by posting a written notice or by making the notice available for viewing on a computer screen at a city office.",
+		"changes": [
+			"Make the matters to be publicly notified available for viewing by an unspecified number of people using a method prescribed by regulations",
+			"Carry out service by public notice by posting a written notice or making it available for viewing on a computer screen at a city office"
+		],
+		"who": [
+			"People subject to service by public notice concerning city taxes or medical care for older people in the later stage of life"
+		],
+		"why": "The city says this is to change the method of service by public notice following a partial amendment to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:59:52.071Z",
+			"inputTokens": 658,
+			"cachedTokens": 0,
+			"outputTokens": 660,
+			"reasoningTokens": 417
+		}
 	}
 }

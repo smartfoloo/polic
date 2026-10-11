@@ -1,0 +1,37 @@
+{
+	"id": "hino-r8-1-21",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議案第21号",
+	"official": "日野市いじめ防止対策推進条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-30",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1030502.html",
+			"fetchedAt": "2026-10-08T10:56:25.598Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "68c069c76d59526f",
+		"official": "Regarding the Enactment of the Hino City Ordinance for Promoting Bullying Prevention Measures",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T03:41:47.935Z",
+			"inputTokens": 380,
+			"cachedTokens": 0,
+			"outputTokens": 110,
+			"reasoningTokens": 76
+		}
+	}
+}

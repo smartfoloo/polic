@@ -1,0 +1,92 @@
+{
+	"id": "yokohama-r8-1-byo2",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "病第2号議案",
+	"official": "横浜市病院事業の経営する病院条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "病第2号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_byo002.pdf",
+			"fetchedAt": "2026-10-08T11:03:38.880Z"
+		}
+	],
+	"name": "診療時間外の選定療養費を設け文書料を改定",
+	"category": "健康・医療",
+	"summary": "現在、文書料は1通7,700円で、診療時間外の選定療養に係る費用は条例に定められていません。2026年6月1日から、規程で定める場合を除き、診療時間外に選定療養として診療を受ける際の費用を7,700円（消費税が課されない場合は7,000円）とし、文書料を9,900円にします。",
+	"changes": [
+		"診療時間外の選定療養としての診療に係る費用を7,700円（消費税が課されない場合は7,000円）に設定する",
+		"文書料を1通7,700円から9,900円に改定する"
+	],
+	"who": [
+		"横浜市立市民病院などで診療時間外に選定療養として診療を受ける人",
+		"横浜市立市民病院などで診断書等を申し込む人"
+	],
+	"why": "診療時間以外の選定療養としての診療に係る費用を徴収し、文書料を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.886Z",
+		"inputTokens": 2113,
+		"cachedTokens": 0,
+		"outputTokens": 1332,
+		"reasoningTokens": 1019,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.886Z",
+		"checkedAt": "2026-10-10T07:29:38.710Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2129,
+			"cachedTokens": 0,
+			"outputTokens": 69,
+			"reasoningTokens": 54,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f77ee29baade3618",
+		"name": "Introduces fees for patient-selected care outside consultation hours and revises document fees",
+		"official": "Partial Amendment to the Ordinance on Hospitals Operated by the Yokohama City Hospital Business",
+		"summary": "Currently, the fee for each document is ¥7,700, and the ordinance does not set a fee for patient-selected medical care outside consultation hours. From June 1, 2026, except in cases set out in regulations, the fee for receiving patient-selected medical care outside consultation hours will be ¥7,700 (¥7,000 if consumption tax does not apply), and the document fee will be ¥9,900.",
+		"changes": [
+			"Sets the fee for patient-selected medical care outside consultation hours at ¥7,700 (¥7,000 if consumption tax does not apply)",
+			"Changes the fee for each document from ¥7,700 to ¥9,900"
+		],
+		"who": [
+			"People receiving patient-selected medical care outside consultation hours at Yokohama City Citizens' Hospital and other hospitals",
+			"People requesting medical certificates and other documents at Yokohama City Citizens' Hospital and other hospitals"
+		],
+		"why": "The city says this is to collect fees for patient-selected medical care outside consultation hours and to revise document fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.073Z",
+			"inputTokens": 748,
+			"cachedTokens": 0,
+			"outputTokens": 898,
+			"reasoningTokens": 615,
+			"batch": true
+		}
+	}
+}

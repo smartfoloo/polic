@@ -59,5 +59,31 @@
 			"outputTokens": 117,
 			"reasoningTokens": 103
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bae430cff65d05e3",
+		"name": "Raises road occupancy fees",
+		"official": "Ordinance Partially Amending the Tachikawa City Road Occupancy Fees, etc. Ordinance",
+		"summary": "Fees for placing utility poles, signs, construction facilities and other items on roads are set out in a separate table to the ordinance. This bill revises the fee for each type of item and applies the new fees from April 1, 2026. It sets a cap on fees for people with ongoing permits.",
+		"changes": [
+			"Revise the occupancy fee for each type of item placed on a road",
+			"Cap fees for ongoing occupancy at 120% of the previous fiscal year's amount",
+			"Set fees for newly permitted items at the same amount as for ongoing occupancy"
+		],
+		"who": [
+			"Businesses and organizations with permits to occupy roads"
+		],
+		"why": "The city says this amendment is made under Article 39, Paragraph 2 of the Road Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:11:22.006Z",
+			"inputTokens": 662,
+			"cachedTokens": 0,
+			"outputTokens": 467,
+			"reasoningTokens": 248
+		}
 	}
 }

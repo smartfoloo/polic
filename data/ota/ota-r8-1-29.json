@@ -59,5 +59,31 @@
 			"outputTokens": 63,
 			"reasoningTokens": 49
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "044fbbd6e3b52816",
+		"name": "Expands collection restrictions and makes recyclable materials City property",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on Waste Reduction and Proper Disposal",
+		"summary": "Until now, the mayor could order people other than those designated by the mayor not to collect or transport recyclable materials put out at designated locations. This bill extends the orders to general waste put out at designated locations and makes recyclable materials the property of Ota City. It will take effect on April 1, 2026.",
+		"changes": [
+			"Adds general waste put out at designated locations to the waste that may be subject to an order not to collect or transport it",
+			"Makes recyclable materials put out at designated locations the property of Ota City"
+		],
+		"who": [
+			"Residents who put recyclable materials out at designated locations",
+			"People and businesses that collect or transport waste without being designated by the mayor"
+		],
+		"why": "The ward says this is to expand the range of waste that the mayor can order people other than those designated by the mayor not to collect or transport, and to adjust the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:06:23.321Z",
+			"inputTokens": 738,
+			"cachedTokens": 0,
+			"outputTokens": 710,
+			"reasoningTokens": 459
+		}
 	}
 }

@@ -55,5 +55,27 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6dd68380725908be",
+		"name": "Changes Ota City staff numbers by category",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on Staff Numbers",
+		"summary": "The number of Ota City employees is set by ordinance. This bill changes the numbers for five categories and takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the staffing limits for five categories: from 3,849 to 3,884 people, from 19 to 22 people, from 165 to 166 people, from 79 to 38 people, and from 10 to 12 people"
+		],
+		"who": [],
+		"why": "The ward says it is revising the staffing limits.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:07:37.794Z",
+			"inputTokens": 574,
+			"cachedTokens": 0,
+			"outputTokens": 554,
+			"reasoningTokens": 386
+		}
 	}
 }

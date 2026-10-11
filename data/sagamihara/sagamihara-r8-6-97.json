@@ -1,0 +1,47 @@
+{
+	"id": "sagamihara-r8-6-97",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第97号",
+	"official": "相模原市立学校体育施設使用料条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第97号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_97.pdf",
+			"fetchedAt": "2026-10-10T14:38:23.242Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "5校の屋内運動場の空調使用料を1時間950円に",
+	"category": "教育",
+	"summary": "学校体育施設開放事業で、屋内運動場の空調設備を使える学校が追加されます。相原小学校など5校の空調設備使用料を1時間950円とします。",
+	"changes": [
+		"5校の屋内運動場の空調設備使用料を1時間950円にする"
+	],
+	"who": [
+		"相原小学校など5校の屋内運動場を利用する人"
+	],
+	"why": "屋内運動場の空調設備を使える学校が追加されることに伴い、附属設備の使用料に関する規定を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.848Z",
+		"inputTokens": 1452,
+		"cachedTokens": 0,
+		"outputTokens": 762,
+		"reasoningTokens": 580,
+		"batch": true
+	}
+}

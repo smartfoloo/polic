@@ -62,5 +62,29 @@
 			"outputTokens": 56,
 			"reasoningTokens": 41
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "69a7b31e63059e72",
+		"name": "Changes how partial childcare leave hours are calculated",
+		"official": "Ordinance Partially Amending the Machida City Ordinance on Childcare Leave, etc. for City Employees",
+		"summary": "When city employees take Type 1 partial leave, the city has until now calculated the maximum number of hours of leave by subtracting the hours taken as childcare time, partial child-rearing leave, and nursing care time. This bill removes partial child-rearing leave from the hours to be subtracted, so only childcare time and nursing care time are subtracted.",
+		"changes": [
+			"Stop subtracting hours of partial child-rearing leave when calculating the maximum hours of Type 1 partial leave"
+		],
+		"who": [
+			"City employees who take partial child-rearing leave"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:14:02.438Z",
+			"inputTokens": 616,
+			"cachedTokens": 0,
+			"outputTokens": 462,
+			"reasoningTokens": 275
+		}
 	}
 }

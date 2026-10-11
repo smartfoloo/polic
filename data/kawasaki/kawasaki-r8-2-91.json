@@ -1,0 +1,88 @@
+{
+	"id": "kawasaki-r8-2-91",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第91号",
+	"official": "川崎市水道事業、工業用水道事業及び下水道事業の設置等に関する条例等の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第91号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_91.pdf",
+			"fetchedAt": "2026-10-08T11:10:27.548Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "事業条例の地方自治法の引用条文を変更",
+	"category": "行政のしくみ",
+	"summary": "水道・工業用水道・下水道、交通、病院の各事業に関する条例では、地方自治法の条文を引用しています。この議案で、引用先を「第243条の2の8第8項」から「第243条の2の9第8項」に改め、令和8年9月24日から施行します。",
+	"changes": [
+		"3つの事業条例で引用する地方自治法の条番号を変更する"
+	],
+	"who": [],
+	"why": "地方自治法の一部改正に伴い、必要な整備を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.553Z",
+		"inputTokens": 1580,
+		"cachedTokens": 0,
+		"outputTokens": 560,
+		"reasoningTokens": 383,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.553Z",
+			"notes": [
+				"ai [error] changes/fact: 「5つの事業条例で引用する地方自治法の条番号を変更する」 → 改正対象は第1条から第3条に掲げる3つの条例。水道・工業用水道・下水道は1つの条例にまとめられている。"
+			],
+			"inputTokens": 1933,
+			"cachedTokens": 1025,
+			"outputTokens": 298,
+			"reasoningTokens": 121,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.872Z",
+		"checkedAt": "2026-10-10T07:29:38.644Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "5つの事業条例で引用する地方自治法の条番号を変更する",
+				"note": "改正対象は第1条から第3条に掲げる3つの条例。水道・工業用水道・下水道は1つの条例にまとめられている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1449,
+			"cachedTokens": 0,
+			"outputTokens": 92,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	}
+}

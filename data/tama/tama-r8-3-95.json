@@ -1,0 +1,93 @@
+{
+	"id": "tama-r8-3-95",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第95号議案",
+	"official": "多摩市総合福祉センター条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第95号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "福祉センターの利用料金と立入りのルールを変更",
+	"category": "福祉",
+	"summary": "総合福祉センターでは、施設や附帯設備を利用できます。議案は、利用料金の上限額を団体区分や利用時間などに応じて定め、指定管理者が立入りを断ったり退去を求めたりできる条件を設けます。料金などの改正は令和10年1月1日から、立入り制限の規定は公布日から施行します。",
+	"changes": [
+		"施設・附帯設備の利用料金上限を団体区分や利用時間などに応じて定める",
+		"市内団体の条件と営利利用の意味を定める",
+		"指定管理者が立入りを拒み、退去を命じられる条件を定める",
+		"施設利用の手続きに関する規定で、市長を指定管理者に置き換える"
+	],
+	"who": [
+		"総合福祉センターの施設や附帯設備を利用する団体",
+		"総合福祉センターを訪れる人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:13:04.172Z",
+		"inputTokens": 3361,
+		"cachedTokens": 0,
+		"outputTokens": 1853,
+		"reasoningTokens": 1552
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:13:04.172Z",
+		"checkedAt": "2026-10-09T11:52:16.067Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3337,
+			"cachedTokens": 0,
+			"outputTokens": 120,
+			"reasoningTokens": 105
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f3a5c7e1fcd7cb7d",
+		"name": "Changes fees and entry rules at the General Welfare Center",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Tama City General Welfare Center Ordinance",
+		"summary": "People can use the facilities and attached equipment at the General Welfare Center. The bill sets upper limits on usage fees according to group categories, hours of use, and other factors, and sets conditions under which the designated manager may refuse entry or require people to leave. The changes to fees and other matters take effect on January 1, 2028, and the provisions restricting entry take effect on the date of promulgation.",
+		"changes": [
+			"Sets upper limits on fees for facilities and attached equipment according to group category, hours of use, and other factors",
+			"Defines the requirements for groups based in the city and the meaning of commercial use",
+			"Sets conditions under which the designated manager may refuse entry and order people to leave",
+			"Replaces the mayor with the designated manager in provisions on procedures for using the facilities"
+		],
+		"who": [
+			"Groups using the General Welfare Center’s facilities and attached equipment",
+			"People visiting the General Welfare Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:57:17.157Z",
+			"inputTokens": 712,
+			"cachedTokens": 0,
+			"outputTokens": 763,
+			"reasoningTokens": 498
+		}
+	}
+}

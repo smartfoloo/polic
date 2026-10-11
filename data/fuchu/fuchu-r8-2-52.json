@@ -60,5 +60,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d69856743e2f7069",
+		"name": "Changes the article number used as the basis for exempting liability",
+		"official": "Ordinance Partially Amending the Fuchu City Ordinance on the Establishment, etc. of the Sewerage Business",
+		"summary": "When the city exempts an employee of the sewerage business from liability to compensate, the city assembly's consent is required if the compensation amount is ¥100,000 or more. This bill revises the article number in the Local Autonomy Act that provides the basis for this. The ordinance will take effect on September 24, 2026.",
+		"changes": [
+			"Changes the article number in the Local Autonomy Act concerning exemption from liability to compensate"
+		],
+		"who": [
+			"Sewerage business employees"
+		],
+		"why": "The city says this is to make the necessary amendments following a partial amendment to the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:37:01.525Z",
+			"inputTokens": 609,
+			"cachedTokens": 0,
+			"outputTokens": 714,
+			"reasoningTokens": 510
+		}
 	}
 }

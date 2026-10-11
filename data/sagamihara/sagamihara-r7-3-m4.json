@@ -1,0 +1,48 @@
+{
+	"id": "sagamihara-r7-3-m4",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議提議案第4号",
+	"official": "相模原市安全に安心して自転車を利用しようよ条例の一部を改正する条例について",
+	"by": "member",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "議提議案第4号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2025041500010/file_contents/2026_gitei_1-4.pdf",
+			"fetchedAt": "2026-10-10T14:39:24.949Z"
+		},
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"name": "自転車ヘルメット着用の努力義務を追加",
+	"category": "交通",
+	"summary": "条例に、市の責務として最新情報の提供と市民等の意識調査を加えます。また、自転車利用者が乗車用ヘルメットを着用するよう努める規定を設けます。",
+	"changes": [
+		"市の責務に最新情報の提供と市民等の意識調査を加える",
+		"自転車利用者に乗車用ヘルメット着用の努力義務を定める"
+	],
+	"who": [
+		"自転車を利用する人"
+	],
+	"why": "道路交通法の改正に伴う市の責務に関する規定などを改めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.837Z",
+		"inputTokens": 1509,
+		"cachedTokens": 0,
+		"outputTokens": 887,
+		"reasoningTokens": 700,
+		"batch": true
+	}
+}

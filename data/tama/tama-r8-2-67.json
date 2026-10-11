@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ca2851ebc01aeee1",
+		"name": "Updates a cross-reference in the Tama City sewerage business ordinance",
+		"official": "Regarding the enactment of an ordinance partially amending the Ordinance on the Establishment, etc. of the Tama City Sewerage Business",
+		"summary": "Article 6 of the ordinance currently refers to “Article 243-2-8, paragraph 8.” This bill changes the reference to “Article 243-2-9, paragraph 8” and will take effect on September 24, 2026.",
+		"changes": [
+			"Changes the article number cited in Article 6 from “Article 243-2-8, paragraph 8” to “Article 243-2-9, paragraph 8”"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:19:51.882Z",
+			"inputTokens": 578,
+			"cachedTokens": 0,
+			"outputTokens": 587,
+			"reasoningTokens": 408
+		}
 	}
 }

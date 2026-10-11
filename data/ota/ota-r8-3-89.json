@@ -60,5 +60,33 @@
 			"outputTokens": 54,
 			"reasoningTokens": 40
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "212dfa6a224644e5",
+		"name": "Requires childcare providers to take measures to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Ota City Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "The ordinance requires providers of home-based childcare services and similar services to take measures to prevent sexual violence against infants and toddlers and to protect them if it occurs. Criminal record checks and other checks will be conducted on people whose work involves contact with children using these services in settings with a power imbalance, ongoing contact, and a closed environment. It takes effect on December 25, 2026.",
+		"changes": [
+			"Take measures to prevent sexual violence against children, etc.",
+			"Protect infants and toddlers using the services if such violence occurs",
+			"Conduct criminal record checks and other checks on some workers whose jobs involve contact with children using the services in settings with a power imbalance, ongoing contact, and a closed environment"
+		],
+		"who": [
+			"Infants and toddlers using home-based childcare services and similar services",
+			"Providers of home-based childcare services and similar services",
+			"Workers whose jobs involve contact with children using the services"
+		],
+		"why": "The ward says the provisions on preventing sexual violence against children, etc. are being established in connection with amendments to the standards for equipment and operation of home-based childcare services and similar services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:09:24.320Z",
+			"inputTokens": 752,
+			"cachedTokens": 0,
+			"outputTokens": 1610,
+			"reasoningTokens": 1306
+		}
 	}
 }

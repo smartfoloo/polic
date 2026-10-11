@@ -58,5 +58,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3d6c78fa7a851961",
+		"name": "Adds electronic screens as an option for service by public notice",
+		"official": "Ordinance Partially Amending the Ota City Ordinance Concerning Medical Care for Older Senior Citizens",
+		"summary": "Service by public notice is currently carried out by posting. This bill would make the matters being announced available for anyone to view using the prescribed method, then allow a choice between posting a written notice or viewing the matters on a computer screen at the wide-area union's office.",
+		"changes": [
+			"Make the matters being announced available for anyone to view using the prescribed method, and allow a choice between posting a written notice listing them or viewing them on a computer screen at the wide-area union's office"
+		],
+		"who": [
+			"People subject to service by public notice under the medical care system for older senior citizens"
+		],
+		"why": "The ward says this is to update the rules on service by public notice using electronic records following amendments to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:04:13.241Z",
+			"inputTokens": 675,
+			"cachedTokens": 0,
+			"outputTokens": 2394,
+			"reasoningTokens": 2173
+		}
 	}
 }

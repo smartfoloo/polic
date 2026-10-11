@@ -1,0 +1,86 @@
+{
+	"id": "hamura-r8-1-30",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第30号",
+	"official": "羽村市水道事業の設置等に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-10",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "法律改正に合わせ条例の参照先を変更",
+	"category": "行政のしくみ",
+	"summary": "水道事業や下水道事業などに関する3つの条例は、損害賠償責任に関する法律の規定を参照しています。地方自治法と同法施行令の改正で条番号が移るため、条例の参照先を改めます。令和8年9月24日に施行します。",
+	"changes": [
+		"関係する条例の参照先の条番号を改める"
+	],
+	"who": [],
+	"why": "地方自治法と同法施行令で条の繰下げが生じるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.540Z",
+		"inputTokens": 1142,
+		"cachedTokens": 0,
+		"outputTokens": 628,
+		"reasoningTokens": 424,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.540Z",
+			"notes": [
+				"ai [check] name/unsupported: 「損害賠償責任に関する条例の条番号を変更」 → 原文で繰下げが生じるのは地方自治法・同法施行令の条番号です。条例自体の条番号を変更するとは記載されていません。",
+				"ai [check] why/unsupported: 「関係する条例の条番号を整えるため」 → 原文は法律・施行令の条の繰下げに伴う条例改正と説明しており、条例自体の条番号を整えるとは記載していません。"
+			],
+			"inputTokens": 1570,
+			"cachedTokens": 1025,
+			"outputTokens": 668,
+			"reasoningTokens": 476,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.859Z",
+		"checkedAt": "2026-10-10T07:29:38.606Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "name",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "損害賠償責任に関する条例の条番号を変更",
+				"note": "原文で繰下げが生じるのは地方自治法・同法施行令の条番号です。条例自体の条番号を変更するとは記載されていません。"
+			},
+			{
+				"field": "why",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "関係する条例の条番号を整えるため",
+				"note": "原文は法律・施行令の条の繰下げに伴う条例改正と説明しており、条例自体の条番号を整えるとは記載していません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1020,
+			"cachedTokens": 0,
+			"outputTokens": 463,
+			"reasoningTokens": 296,
+			"batch": true
+		}
+	}
+}

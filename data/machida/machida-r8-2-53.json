@@ -63,5 +63,35 @@
 			"outputTokens": 37,
 			"reasoningTokens": 22
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "436f4467213b1bbc",
+		"name": "Establishes a fund to prepare for municipal bond repayments",
+		"official": "Machida City Debt Redemption Fund Ordinance",
+		"summary": "Machida City will establish a Debt Redemption Fund to secure the money needed to repay municipal bonds. The amount added to the fund will be set in each year's budget, and the fund will be used to repay municipal bonds in cases specified in the ordinance. It takes effect on July 1, 2026.",
+		"changes": [
+			"Establishes a debt redemption fund to prepare for municipal bond repayments",
+			"Sets the amount added to the fund in each year's budget",
+			"Specifies when the fund may be used to repay municipal bonds",
+			"Records the fund's investment earnings in the general account budget and adds them to the fund"
+		],
+		"who": [
+			"Machida City",
+			"Machida City",
+			"Machida City",
+			"Machida City"
+		],
+		"why": "The city says this is to secure the funding needed to repay municipal bonds and help ensure sound city finances over the long term.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:28.141Z",
+			"inputTokens": 658,
+			"cachedTokens": 0,
+			"outputTokens": 1756,
+			"reasoningTokens": 1513
+		}
 	}
 }

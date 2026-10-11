@@ -57,5 +57,29 @@
 			"outputTokens": 42,
 			"reasoningTokens": 27
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ff67bec7e63925de",
+		"name": "Discontinues use of Ome City Welfare Center",
+		"official": "Ordinance to Repeal the Ome City Welfare Center Ordinance",
+		"summary": "The ordinance governing Ome City Welfare Center will be repealed, and the center will no longer be used for its designated purpose. The ordinance takes effect on August 1, 2026. Usage fees and refunds for uses approved before it takes effect, obligations to restore the original condition for actions taken before it takes effect, and compensation for damage caused by use before it takes effect will be handled under the ordinance in force before its repeal.",
+		"changes": [
+			"Repeals the ordinance governing Ome City Welfare Center"
+		],
+		"who": [
+			"People who use Ome City Welfare Center"
+		],
+		"why": "The city says this is to discontinue use of Ome City Welfare Center for its designated purpose, in line with the policy in the Comprehensive Management Plan for Public Facilities and Other Assets.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:00:26.309Z",
+			"inputTokens": 643,
+			"cachedTokens": 0,
+			"outputTokens": 408,
+			"reasoningTokens": 193
+		}
 	}
 }

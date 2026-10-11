@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-10.pdf",
 			"fetchedAt": "2026-10-05T15:57:25.242Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "859a073af68bc37f",
+		"official": "Ordinance Partially Amending the Higashiyamato City Administrative Procedure Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:37.468Z",
+			"inputTokens": 381,
+			"cachedTokens": 0,
+			"outputTokens": 126,
+			"reasoningTokens": 93
+		}
+	}
 }

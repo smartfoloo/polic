@@ -62,5 +62,29 @@
 			"outputTokens": 44,
 			"reasoningTokens": 30
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a90843c7af43e1c1",
+		"name": "Removes Chuo Nursery from the city-run nursery list",
+		"official": "Ordinance Partially Amending the Higashikurume City Ordinance on City-Run Nursery Schools",
+		"summary": "Chuo Nursery is currently listed in the ordinance as a city-run nursery. This bill removes it from the list of city-run nurseries so it can transition to a public-private partnership childcare center. The amendment takes effect on April 1, 2029.",
+		"changes": [
+			"Removes Chuo Nursery from the list of city-run nurseries"
+		],
+		"who": [
+			"Children who use Chuo Nursery and their parents or guardians"
+		],
+		"why": "The city says this is to transition Chuo Nursery to a public-private partnership childcare center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:59:19.169Z",
+			"inputTokens": 616,
+			"cachedTokens": 0,
+			"outputTokens": 515,
+			"reasoningTokens": 334
+		}
 	}
 }

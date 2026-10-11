@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d02541d4e024f1b2",
+		"name": "Changes wording for crematorium use from approval to permission",
+		"official": "Ordinance Partially Amending the Ome City Crematorium Ordinance",
+		"summary": "The ordinance describes use of the crematorium as requiring “approval.” This bill changes the relevant wording to “permission.” It takes effect on the date it is promulgated and applies from February 24, 2026.",
+		"changes": [
+			"Changes the wording for “approval” of crematorium use to “permission”"
+		],
+		"who": [],
+		"why": "The city says the wording is being changed because the city is moving to a family register information system that meets the standardization criteria.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:58:44.592Z",
+			"inputTokens": 598,
+			"cachedTokens": 0,
+			"outputTokens": 443,
+			"reasoningTokens": 285
+		}
 	}
 }

@@ -60,5 +60,27 @@
 			"outputTokens": 39,
 			"reasoningTokens": 25
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "432e862ce615bb1f",
+		"name": "Changes the comma mark in ordinances to “、”",
+		"official": "Ordinance to Amend the Notation of Commas in Chofu City Ordinances",
+		"summary": "Chofu City ordinances use “，” as the comma mark. This bill changes “，” to “、” in ordinances promulgated by the time it takes effect. It takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the comma mark used in ordinances from “，” to “、”"
+		],
+		"who": [],
+		"why": "The city says this is to change the notation of commas in its ordinances.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:18:15.285Z",
+			"inputTokens": 563,
+			"cachedTokens": 0,
+			"outputTokens": 428,
+			"reasoningTokens": 274
+		}
 	}
 }

@@ -34,10 +34,10 @@
 	"changes": [
 		"給与収入55万1,000円以上65万1,000円未満の場合、給与所得に収入額から55万円を引いた額を加える",
 		"給与収入65万1,000円以上161万9,000円未満の場合、給与所得に10万円を加える",
-		"給与収入161万9,000円以上190万円未満の場合、給与所得に65万円から令和7年分の給与所得控除額を引いた額を加える"
+		"給与収入161万9,000円以上190万円未満の場合、給与所得に65万円から改正前の所得税法別表第5で算出した令和7年給与所得控除額を引いた額を加える"
 	],
 	"who": [
-		"令和7年の給与収入が65万1,000円以上190万円未満の介護保険の第1号被保険者",
+		"令和7年の給与収入が65万1,000円以上190万円未満で、令和8年度の介護保険料と住民税の賦課期日に板橋区に住所がある第1号被保険者",
 		"令和7年の給与収入が55万1,000円以上65万1,000円未満で、令和8年度の介護保険料と住民税の賦課期日に板橋区に住所がある第1号被保険者"
 	],
 	"why": "令和7年度税制改正に伴い、令和8年度の保険料率の算定に使う所得額の特例を定める必要があるためと、区は説明しています。",
@@ -45,40 +45,66 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:53:22.190Z",
+		"generatedAt": "2026-10-08T23:21:50.726Z",
 		"inputTokens": 3359,
 		"cachedTokens": 0,
 		"outputTokens": 2141,
-		"reasoningTokens": 1757
+		"reasoningTokens": 1757,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:21:50.726Z",
+			"notes": [
+				"ai [check] changes/fact: 「給与収入161万9,000円以上190万円未満の場合、給与所得に65万円から令和7年分の給与所得控除額を引いた額を加える」 → 原文の「令和７年給与所得控除額」は、税制改正前の所得税法別表第5を用いて算出する額と定義されている。「令和7年分の給与所得控除額」では、改正後の通常の控除額と混同されるおそれがある。",
+				"ai [error] who/fact: 「令和7年の給与収入が65万1,000円以上190万円未満の介護保険の第1号被保険者」 → 付則第18項の住所要件は「以下この項から付則第20項までにおいて同じ」とされ、この収入帯にも適用される。保険料と市町村民税の賦課期日における板橋区の住所要件が抜け、対象が広くなっている。"
+			],
+			"inputTokens": 4065,
+			"cachedTokens": 1025,
+			"outputTokens": 936,
+			"reasoningTokens": 516
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:53:22.190Z",
-		"checkedAt": "2026-10-08T05:28:31.102Z",
+		"draftAt": "2026-10-08T23:21:50.726Z",
+		"checkedAt": "2026-10-08T23:21:54.503Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "check",
-				"quote": "給与収入161万9,000円以上190万円未満の場合、給与所得に65万円から令和7年分の給与所得控除額を引いた額を加える",
-				"note": "原文の「令和７年給与所得控除額」は、税制改正前の所得税法別表第5を用いて算出する額と定義されている。「令和7年分の給与所得控除額」では、改正後の通常の控除額と混同されるおそれがある。"
-			},
-			{
-				"field": "who",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "令和7年の給与収入が65万1,000円以上190万円未満の介護保険の第1号被保険者",
-				"note": "付則第18項の住所要件は「以下この項から付則第20項までにおいて同じ」とされ、この収入帯にも適用される。保険料と市町村民税の賦課期日における板橋区の住所要件が抜け、対象が広くなっている。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 3408,
+			"inputTokens": 3444,
 			"cachedTokens": 0,
-			"outputTokens": 539,
-			"reasoningTokens": 223
+			"outputTokens": 87,
+			"reasoningTokens": 72
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "bef465ac35f82181",
+		"name": "Sets a special income calculation for long-term care insurance premiums",
+		"official": "Ordinance Partially Amending the Itabashi City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are calculated based on total income. This bill establishes a special method of calculating income based on 2025 salary income, only for the FY2026 calculation.",
+		"changes": [
+			"Adds the amount above ¥550,000 to employment income when salary income is at least ¥551,000 but less than ¥651,000",
+			"Adds ¥100,000 to employment income when salary income is at least ¥651,000 but less than ¥1,619,000",
+			"Adds to employment income the amount obtained by subtracting the 2025 employment income deduction calculated under Schedule 5 of the Income Tax Act as it stood before amendment from ¥650,000, when salary income is at least ¥1,619,000 but less than ¥1,900,000"
+		],
+		"who": [
+			"Category 1 insured persons with 2025 salary income of at least ¥651,000 but less than ¥1,900,000 and an address in Itabashi City on the assessment dates for FY2026 long-term care insurance premiums and resident tax",
+			"Category 1 insured persons with 2025 salary income of at least ¥551,000 but less than ¥651,000 and an address in Itabashi City on the assessment dates for FY2026 long-term care insurance premiums and resident tax"
+		],
+		"why": "The ward says that, following the FY2025 tax reform, it is necessary to set a special rule for the income amount used to calculate the FY2026 premium rate.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:08:26.807Z",
+			"inputTokens": 826,
+			"cachedTokens": 0,
+			"outputTokens": 1704,
+			"reasoningTokens": 1325
 		}
 	}
 }

@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/012/223/4-36.pdf",
 			"fetchedAt": "2026-10-05T15:59:13.247Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "f390cf0e82decec2",
+		"official": "Ordinance Partially Amending the Higashiyamato City National Health Insurance Tax Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:29.299Z",
+			"inputTokens": 384,
+			"cachedTokens": 0,
+			"outputTokens": 124,
+			"reasoningTokens": 89
+		}
+	}
 }

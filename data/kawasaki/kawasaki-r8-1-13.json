@@ -1,0 +1,101 @@
+{
+	"id": "kawasaki-r8-1-13",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第13号",
+	"official": "川崎市乳児等通園支援事業の設備及び運営の基準に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第13号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_13.pdf",
+			"fetchedAt": "2026-10-08T11:07:39.420Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "利用定員の乳児・幼児区分を廃止",
+	"category": "子育て",
+	"summary": "現在の条例では、運営規程に定める利用定員を乳児と幼児に分けています。この改正で区分をなくし、利用定員の定義や事業所などに関する表現も改めます。2026年4月1日から施行します。",
+	"changes": [
+		"運営規程に定める利用定員の乳児・幼児の区分をなくす",
+		"利用定員を子ども・子育て支援法に基づく確認で定める定員として明確にする",
+		"事業者・事業所や職員に関する表現を整理する",
+		"運営規程に定める事項の文言を改める"
+	],
+	"who": [
+		"乳児等通園支援事業を運営する事業者",
+		"乳児等通園支援事業を利用する子どもの保護者"
+	],
+	"why": "乳児等通園支援事業の設備及び運営の基準の一部改正に伴い、運営規程に定める利用定員から乳児と幼児の区分をなくすことなどのためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.868Z",
+		"inputTokens": 1489,
+		"cachedTokens": 0,
+		"outputTokens": 1646,
+		"reasoningTokens": 1310,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.868Z",
+		"checkedAt": "2026-10-10T07:29:38.629Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1498,
+			"cachedTokens": 0,
+			"outputTokens": 49,
+			"reasoningTokens": 34,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c7efdcf5e2cf86a7",
+		"name": "Removes infant and young child categories from user capacity",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Ordinance on Standards for Equipment and Operation of the Infant etc. Childcare Support Service",
+		"summary": "Under the current ordinance, the capacity set out in the operating regulations is divided into infants and young children. This amendment removes that distinction and revises wording about the definition of capacity and about service providers and service locations. It takes effect on April 1, 2026.",
+		"changes": [
+			"Removes the infant and young child categories from the capacity set out in the operating regulations",
+			"Clarifies that capacity means the number set through confirmation under the Child and Child-rearing Support Act",
+			"Revises wording about service providers, service locations and staff",
+			"Revises the wording of the matters to be set out in the operating regulations"
+		],
+		"who": [
+			"Providers operating the Infant etc. Childcare Support Service",
+			"Parents and guardians of children who use the Infant etc. Childcare Support Service"
+		],
+		"why": "The city says this is to remove the distinction between infants and young children from the capacity set out in the operating regulations, among other things, following partial revisions to the standards for facilities and operation of the Infant etc. Childcare Support Service.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.053Z",
+			"inputTokens": 761,
+			"cachedTokens": 0,
+			"outputTokens": 1142,
+			"reasoningTokens": 841,
+			"batch": true
+		}
+	}
+}

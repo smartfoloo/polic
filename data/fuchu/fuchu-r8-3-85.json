@@ -60,5 +60,35 @@
 			"outputTokens": 56,
 			"reasoningTokens": 41
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "68587b92b8a24294",
+		"name": "Establishes a council and revises waste-related provisions",
+		"official": "Ordinance Partially Amending the Fuchu City Ordinance on the Disposal and Recycling of Waste",
+		"summary": "The current ordinance says the mayor may establish the Fuchu City Council for the Promotion of Waste Reduction, etc. This bill changes the provision to require that the council be established, and updates the definition of recyclable resources and references to laws concerning waste.",
+		"changes": [
+			"Changes the reference for recyclable resources that businesses are encouraged to use from Article 2, paragraph 1 to Article 2, paragraph 4 of the Act",
+			"Changes the provision from allowing the mayor to establish the council to requiring that the council be established",
+			"Changes the legal basis for establishing the council from Article 5-2 to Article 5-7 of the Act",
+			"Changes the legal basis for the mayor to issue instructions concerning large quantities of general waste from Article 6-2, paragraph 5 to paragraph 7 of the Act"
+		],
+		"who": [
+			"Businesses",
+			"The council",
+			"The council",
+			"The mayor"
+		],
+		"why": "The city says the ordinance is being amended in response to a partial amendment to the Waste Management and Public Cleansing Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:37:18.625Z",
+			"inputTokens": 740,
+			"cachedTokens": 0,
+			"outputTokens": 1469,
+			"reasoningTokens": 1179
+		}
 	}
 }

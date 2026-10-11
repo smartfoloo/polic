@@ -1,0 +1,94 @@
+{
+	"id": "fujisawa-r8-9-38",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第38号",
+	"official": "藤沢市都市景観条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-03",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第38号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2803&Sflg=2",
+			"fetchedAt": "2026-10-08T11:19:03.680Z"
+		},
+		{
+			"label": "議案第38号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2803_e01-038.pdf",
+			"fetchedAt": "2026-10-08T11:19:09.441Z"
+		}
+	],
+	"name": "景観条例の条項参照を改める",
+	"category": "まちづくり",
+	"summary": "条例では、景観法などの条項を参照しています。景観法の一部改正に伴い、条例中の参照先を改め、第44条の見出しも変更します。第5条第4項の改正は公布日、その他の改正は法律の附則で定める施行日から施行します。",
+	"changes": [
+		"条例中の条項や号の引用を改める",
+		"第44条の見出しを「適用除外」に改める"
+	],
+	"who": [],
+	"why": "景観法の一部改正に伴い、条例の規定を整える必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.849Z",
+		"inputTokens": 1576,
+		"cachedTokens": 0,
+		"outputTokens": 752,
+		"reasoningTokens": 563,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.849Z",
+		"checkedAt": "2026-10-10T07:29:38.576Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1456,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8f644294ea823658",
+		"name": "Revises article references in the landscape ordinance",
+		"official": "Regarding the Partial Amendment to the Fujisawa City Urban Landscape Ordinance",
+		"summary": "The ordinance refers to articles of the Landscape Act and other laws. Following a partial amendment to the Landscape Act, the references in the ordinance will be revised, and the heading of Article 44 will also be changed. The amendment to Article 5, paragraph 4, will take effect on the date of promulgation. The other amendments will take effect on the effective date set out in the supplementary provisions of the Act.",
+		"changes": [
+			"Revises references to articles, paragraphs, and items in the ordinance",
+			"Changes the heading of Article 44 to “Exemptions from application”"
+		],
+		"who": [
+			"The ordinance’s references to articles, paragraphs, and items",
+			"The heading of Article 44"
+		],
+		"why": "The city says the ordinance needs to be updated because of a partial amendment to the Landscape Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.034Z",
+			"inputTokens": 611,
+			"cachedTokens": 0,
+			"outputTokens": 982,
+			"reasoningTokens": 750,
+			"batch": true
+		}
+	}
+}

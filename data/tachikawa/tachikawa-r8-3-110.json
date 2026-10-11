@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1780bc62433b538c",
+		"name": "Updates the legal provision cited in the landscape ordinance",
+		"official": "Ordinance Partially Amending the Tachikawa City Landscape Ordinance",
+		"summary": "Article 11, paragraph 3 of the current Landscape Ordinance cites Article 16, paragraph 7, item 11 of a law as the basis for acts specified by the ordinance. This bill changes the citation to Article 16, paragraph 8, item 12. It will take effect on a date set by Cabinet Order.",
+		"changes": [
+			"Changes the cited legal provision from Article 16, paragraph 7, item 11 to Article 16, paragraph 8, item 12"
+		],
+		"who": [],
+		"why": "The city says this is because the Act Partially Amending the Act on Special Measures Concerning Urban Renaissance, etc. was promulgated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:16:17.174Z",
+			"inputTokens": 598,
+			"cachedTokens": 0,
+			"outputTokens": 492,
+			"reasoningTokens": 294
+		}
 	}
 }

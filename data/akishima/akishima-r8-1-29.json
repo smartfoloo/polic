@@ -1,0 +1,38 @@
+{
+	"id": "akishima-r8-1-29",
+	"assembly": "tokyo/akishima",
+	"approved": false,
+	"number": "議案第29号",
+	"official": "昭島市地域型保育事業の設備及び運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等の議決結果",
+			"url": "https://www.city.akishima.lg.jp/gikai/honkaigi/1006709/1011604/1011609.html",
+			"fetchedAt": "2026-10-08T10:56:01.263Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "94c826a56e5b0797",
+		"official": "Ordinance Partially Amending the Akishima City Ordinance Establishing Standards for Facilities and Operations of Community-Based Childcare Services",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.502Z",
+			"inputTokens": 398,
+			"cachedTokens": 0,
+			"outputTokens": 218,
+			"reasoningTokens": 176,
+			"batch": true
+		}
+	}
+}

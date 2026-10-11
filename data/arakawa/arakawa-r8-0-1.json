@@ -1,0 +1,48 @@
+{
+	"id": "arakawa-r8-0-1",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第1号",
+	"official": "荒川区印鑑条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年度定例会・開会会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年度定例会・開会会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_kaikai_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:49:32.168Z"
+		},
+		{
+			"label": "議案第1号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_gian1.html",
+			"fetchedAt": "2026-10-10T14:49:44.154Z"
+		}
+	],
+	"name": "印鑑登録証明の自動申請対象を見直し",
+	"category": "くらし・手続き",
+	"summary": "印鑑登録証明の申請などを自動交付機でできる人などを、条例で定めています。この議案は、出入国管理及び難民認定法などの改正に伴い、その対象者などを改め、条例の規定を整えます。",
+	"changes": [
+		"自動交付機で印鑑登録証明を申請できる人などを改める",
+		"条例の規定を整える"
+	],
+	"who": [
+		"印鑑登録証明の申請に自動交付機を利用する人"
+	],
+	"why": "入管法などの改正に合わせて、自動交付機で印鑑登録証明を申請できる人などを見直し、条例の規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.816Z",
+		"inputTokens": 1067,
+		"cachedTokens": 0,
+		"outputTokens": 982,
+		"reasoningTokens": 735,
+		"batch": true
+	}
+}

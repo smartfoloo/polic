@@ -87,5 +87,32 @@
 			"outputTokens": 503,
 			"reasoningTokens": 156
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "86aae91de9c7b5de",
+		"name": "Adds a multipurpose room to the Tsurukawa school lunch center",
+		"official": "Ordinance Partially Amending the Machida City Junior High School Lunch Center Ordinance",
+		"summary": "The current ordinance has no provisions for a multipurpose room at the Tsurukawa Area Junior High School Lunch Center. The amendment will establish a multipurpose room for residents and set its hours of use, days when it cannot be used, application method, and fees. It will take effect on July 1, 2026.",
+		"changes": [
+			"Establishes a multipurpose room at the Tsurukawa Area Junior High School Lunch Center",
+			"Sets the hours of use as 9:00 a.m. to 5:30 p.m. and the days when the room cannot be used as January 1 through January 3 and December 29 through December 31",
+			"Sets the multipurpose room fee at ¥910 for the morning, ¥1,220 for the afternoon, and ¥2,130 for the full day",
+			"Sets the kitchen fee at ¥500 each for the morning and afternoon and ¥1,000 for the full day, and requires approval from the Board of Education to use the facility"
+		],
+		"who": [
+			"Residents using the multipurpose room or kitchen at the Tsurukawa Area Junior High School Lunch Center"
+		],
+		"why": "The city says this is to provide residents with a place for activities and contribute to revitalizing the local community.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:58.744Z",
+			"inputTokens": 748,
+			"cachedTokens": 0,
+			"outputTokens": 686,
+			"reasoningTokens": 352
+		}
 	}
 }

@@ -74,5 +74,33 @@
 			"outputTokens": 294,
 			"reasoningTokens": 174
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0a222260b107bb93",
+		"name": "Unifies management rules for parks in the city",
+		"official": "Higashikurume City Municipal Parks Ordinance",
+		"summary": "Until now, separate ordinances covered children's playgrounds and urban parks. This bill repeals both ordinances and brings a new ordinance into effect on April 1, 2026, setting out the establishment and management of municipal parks, permission to use them, fees, and other matters.",
+		"changes": [
+			"Combine the management rules for children's playgrounds and urban parks in one ordinance",
+			"Allow the city to entrust management of municipal parks to designated managers",
+			"Set out permissions and fees for installing park facilities, occupying parks, holding events, and other activities"
+		],
+		"who": [
+			"People who use parks",
+			"People who conduct business or hold events in parks",
+			"People who use paid park facilities"
+		],
+		"why": "The city says this is to centralize the establishment and management of parks in the city and to put in place provisions on the designated manager system and the publicly solicited installation and management system.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:59:32.363Z",
+			"inputTokens": 683,
+			"cachedTokens": 0,
+			"outputTokens": 644,
+			"reasoningTokens": 397
+		}
 	}
 }

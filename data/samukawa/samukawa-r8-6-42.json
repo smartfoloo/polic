@@ -1,0 +1,88 @@
+{
+	"id": "samukawa-r8-6-42",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第42号",
+	"official": "寒川町印鑑条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会6月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-19",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第42号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/202606_gian42.pdf",
+			"fetchedAt": "2026-10-10T14:58:48.444Z"
+		}
+	],
+	"name": "印鑑証明の申請に使えるカードを追加",
+	"category": "くらし・手続き",
+	"summary": "現在、印鑑登録証明書は、個人番号カードまたは移動端末設備を使って多機能端末機で申請できます。改正後は、特定在留カードまたは特定特別永住者証明書を使っても申請できるようになります。",
+	"changes": [
+		"印鑑登録証明書の申請に使えるカードに、特定在留カードと特定特別永住者証明書を加える"
+	],
+	"who": [
+		"印鑑登録をしていて、特定在留カードまたは特定特別永住者証明書を持つ人"
+	],
+	"why": "出入国管理及び難民認定法等の改正に伴い、条文を整理するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.013Z",
+		"inputTokens": 2780,
+		"cachedTokens": 0,
+		"outputTokens": 905,
+		"reasoningTokens": 664,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.013Z",
+		"checkedAt": "2026-10-10T15:07:29.983Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2691,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "411907f28a027cb9",
+		"name": "Adds cards for applying for seal registration certificates",
+		"official": "Regarding the Partial Amendment of the Samukawa Town Seal Ordinance",
+		"summary": "Currently, applications for seal registration certificates can be made at a multifunction terminal using an Individual Number Card or a mobile terminal device. After the amendment, applications can also be made using a specified residence card or a specified special permanent resident certificate.",
+		"changes": [
+			"Adds specified residence cards and specified special permanent resident certificates to the cards that can be used to apply for seal registration certificates"
+		],
+		"who": [
+			"People registered as having a seal who hold a specified residence card or a specified special permanent resident certificate"
+		],
+		"why": "The town says the provisions are being reorganized in connection with amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.864Z",
+			"inputTokens": 640,
+			"cachedTokens": 0,
+			"outputTokens": 483,
+			"reasoningTokens": 293,
+			"batch": true
+		}
+	}
+}

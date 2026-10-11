@@ -63,5 +63,30 @@
 			"outputTokens": 66,
 			"reasoningTokens": 52
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "50fb6d8bc87973ac",
+		"name": "Eliminates children's out-of-pocket costs for insured medical care",
+		"official": "Bill for an Ordinance Partially Amending the Kunitachi City Ordinance on Subsidies for Children's Medical Expenses",
+		"summary": "Currently, children from elementary school through high-school-equivalent age receive a subsidy for their medical expenses after ¥200 is deducted for each outpatient visit. This bill removes that charge and subsidizes the full cost of medical care covered by health insurance. It applies to medical care received on or after October 1, 2026.",
+		"changes": [
+			"Remove the ¥200 out-of-pocket payment for each outpatient visit",
+			"Subsidize the amount of medical expenses covered by health insurance that the person is responsible for under the insurance system"
+		],
+		"who": [
+			"Children from elementary school through high-school-equivalent age"
+		],
+		"why": "The city says this is to eliminate the ¥200 out-of-pocket payment for each outpatient visit and make medical care covered by health insurance completely free.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:11:35.787Z",
+			"inputTokens": 667,
+			"cachedTokens": 0,
+			"outputTokens": 640,
+			"reasoningTokens": 410
+		}
 	}
 }

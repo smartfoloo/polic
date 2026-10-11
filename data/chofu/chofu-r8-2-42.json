@@ -62,5 +62,29 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4785a5cea6c5ec94",
+		"name": "Changes citations in ordinance on liability for damages",
+		"official": "Ordinance Partially Amending the Ordinance on Partial Exemption from Liability for Damages of the Mayor of Chofu City and Others",
+		"summary": "The ordinance provides for partial exemption from liability for damages for the mayor and others, and cites article numbers in the Local Autonomy Act and other laws. This bill revises the cited article numbers and will take effect on September 24, 2026.",
+		"changes": [
+			"Changes Article 243-2-7 to Article 243-2-8",
+			"Changes Article 243-2-8 to Article 243-2-9",
+			"Changes Article 173-4 to Article 173-5"
+		],
+		"who": [],
+		"why": "The city says this is to revise the cited provisions in response to partial amendments to the Local Autonomy Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:18:25.324Z",
+			"inputTokens": 640,
+			"cachedTokens": 0,
+			"outputTokens": 703,
+			"reasoningTokens": 516
+		}
 	}
 }

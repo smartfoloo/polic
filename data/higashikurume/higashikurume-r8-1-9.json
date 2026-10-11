@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "269a60ddf32597c0",
+		"name": "Raises the calculation rates for year-end and diligence allowances",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration, etc. for Fiscal Year-Appointed Employees of Higashikurume City",
+		"summary": "Year-end allowances for fiscal year-appointed employees are currently calculated using a rate of 125/100, and diligence allowances using a rate of 117.5/100. The city will raise these rates to 126.25/100 and 118.75/100, respectively. The changes will take effect on April 1, 2026.",
+		"changes": [
+			"Raise the rate used to calculate year-end allowances from 125/100 to 126.25/100",
+			"Raise the rate used to calculate diligence allowances from 117.5/100 to 118.75/100"
+		],
+		"who": [
+			"Fiscal year-appointed employees of Higashikurume City"
+		],
+		"why": "The city says this is to revise year-end and diligence allowances for fiscal year-appointed employees in light of factors such as maintaining balance with city employees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:00:06.434Z",
+			"inputTokens": 685,
+			"cachedTokens": 0,
+			"outputTokens": 601,
+			"reasoningTokens": 350
+		}
 	}
 }

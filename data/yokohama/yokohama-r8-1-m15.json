@@ -1,0 +1,97 @@
+{
+	"id": "yokohama-r8-1-m15",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "議第15号議案",
+	"official": "横浜市会委員会条例の一部改正",
+	"by": "member",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "議第15号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_gi15.pdf",
+			"fetchedAt": "2026-10-08T11:04:08.893Z"
+		}
+	],
+	"name": "市会の常任委員会名と担当を見直す",
+	"category": "行政のしくみ",
+	"summary": "市会の常任委員会は、担当する市の組織ごとに置かれています。この議案では、市の事務分掌条例の改正に合わせ、4つの常任委員会の名称や担当範囲を改めます。改正は令和8年4月1日から施行され、委員や継続審査中の事件も新たな委員会に引き継ぐ扱いになります。",
+	"changes": [
+		"政策経営・総務などを担当する委員会と、経済・港湾委員会の名称や所管を変更する",
+		"脱炭素・GREEN × EXPO推進などを担当する委員会の名称や所管を変更する",
+		"都市整備・建築・道路などを担当する委員会の名称や所管を変更する",
+		"現在の委員や継続審査中の事件を、新たな所管委員会に引き継ぐ"
+	],
+	"who": [],
+	"why": "横浜市事務分掌条例の一部改正に伴うものと、提案理由に記載されています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.560Z",
+		"inputTokens": 2291,
+		"cachedTokens": 0,
+		"outputTokens": 2583,
+		"reasoningTokens": 2256,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.560Z",
+			"notes": [
+				"code: copied from the source (30 chars): 「脱炭素・GREEN×EXPO推進・資源循環・みどり環境委員会」",
+				"ai [error] summary/fact: 「4つの常任委員会の名称や担当範囲、委員数を改めます。」 → 参考の現行・改正案では委員定数は共通で、11人、10人、11人、11人のままです。委員数の変更はありません。",
+				"ai [error] why/unsupported: 「提出した議員は説明しています。」 → 原文には、提出者が議員であるとの記載はありません。"
+			],
+			"inputTokens": 2879,
+			"cachedTokens": 1025,
+			"outputTokens": 1765,
+			"reasoningTokens": 1444,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.886Z",
+		"checkedAt": "2026-10-10T07:29:38.714Z",
+		"flags": [
+			"copied from the source (30 chars): 「脱炭素・GREEN×EXPO推進・資源循環・みどり環境委員会」"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "4つの常任委員会の名称や担当範囲、委員数を改めます。",
+				"note": "参考の現行・改正案では委員定数は共通で、11人、10人、11人、11人のままです。委員数の変更はありません。"
+			},
+			{
+				"field": "why",
+				"kind": "unsupported",
+				"severity": "error",
+				"quote": "提出した議員は説明しています。",
+				"note": "原文には、提出者が議員であるとの記載はありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2317,
+			"cachedTokens": 0,
+			"outputTokens": 345,
+			"reasoningTokens": 203,
+			"batch": true
+		}
+	}
+}

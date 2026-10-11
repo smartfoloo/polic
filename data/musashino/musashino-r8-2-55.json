@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/054/549/giann/8giandai55gou.pdf",
 			"fetchedAt": "2026-10-05T15:55:43.087Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "7f8b53adfe941c69",
+		"official": "Ordinance Partially Amending the Ordinance on Public Expense Coverage for Election Campaigns in Elections for Musashino City Council Members and the Mayor of Musashino City",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:52.974Z",
+			"inputTokens": 412,
+			"cachedTokens": 0,
+			"outputTokens": 266,
+			"reasoningTokens": 216
+		}
+	}
 }

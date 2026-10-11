@@ -1,0 +1,92 @@
+{
+	"id": "kawasaki-r8-1-71",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第71号",
+	"official": "川崎市介護保険条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第71号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_71.pdf",
+			"fetchedAt": "2026-10-08T11:08:33.439Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "介護保険料の所得計算に年度特例を設ける",
+	"category": "福祉",
+	"summary": "第1号被保険者の保険料率は、条例に基づき、所得額や世帯の市町村民税の課税状況などを使って算定します。この改正では、令和8年度分について、給与所得の計算方法と、市町村民税が非課税の人の扱いに特例を設けます。",
+	"changes": [
+		"給与所得の金額に、給与収入額に応じた調整額を加えて算定する",
+		"市町村民税が課されていない人のうち一定の条件を満たす人を、保険料率の算定上、課税されている人とみなす"
+	],
+	"who": [
+		"令和7年の給与収入が551,000円以上1,900,000円未満で、令和8年度の保険料と市町村民税の賦課期日に川崎市内に住所がある第1号被保険者",
+		"その世帯の世帯主や世帯員のうち、令和7年の給与収入が551,000円以上1,900,000円未満で、市町村民税が非課税などの条件を満たし、賦課期日に川崎市内に住所がある人"
+	],
+	"why": "介護保険法施行令の一部改正に伴い、令和8年度の保険料率の算定に関する特例を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.550Z",
+		"inputTokens": 4149,
+		"cachedTokens": 0,
+		"outputTokens": 2872,
+		"reasoningTokens": 2551,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.550Z",
+			"notes": [
+				"ai [error] who/fact: 「令和7年に給与所得があった第1号被保険者」 → 対象を広く示しすぎています。附則第46～48項の所得計算の特例は、令和7年の給与収入が551,000円以上1,900,000円未満の人に限られ、保険料・市町村民税の賦課期日における市内住所の要件もあります。"
+			],
+			"inputTokens": 4665,
+			"cachedTokens": 1025,
+			"outputTokens": 1270,
+			"reasoningTokens": 863,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.869Z",
+		"checkedAt": "2026-10-10T07:29:38.634Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "令和7年に給与所得があった第1号被保険者",
+				"note": "対象を広く示しすぎています。附則第46～48項の所得計算の特例は、令和7年の給与収入が551,000円以上1,900,000円未満の人に限られ、保険料・市町村民税の賦課期日における市内住所の要件もあります。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4143,
+			"cachedTokens": 0,
+			"outputTokens": 289,
+			"reasoningTokens": 157,
+			"batch": true
+		}
+	}
+}

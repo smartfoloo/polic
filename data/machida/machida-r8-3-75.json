@@ -64,5 +64,31 @@
 			"outputTokens": 74,
 			"reasoningTokens": 60
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "669a3061ba42f1df",
+		"name": "Adds certificates that can be used to apply for seal registration certificates",
+		"official": "Ordinance Partially Amending the Machida City Seal Registration Ordinance",
+		"summary": "Currently, applications for seal registration certificates can be made at automatic issuance machines using an Individual Number Card or a compatible mobile device, and online using an Individual Number Card. Under this bill, specified residence cards and specified special permanent resident certificates can also be used to apply, if the required electronic certificate is recorded on them.",
+		"changes": [
+			"Adds specified residence cards and specified special permanent resident certificates to the certificates that can be used to apply at automatic issuance machines",
+			"Adds specified residence cards and specified special permanent resident certificates to the certificates that can be used to apply online"
+		],
+		"who": [
+			"People registered with a seal who hold a specified residence card",
+			"People registered with a seal who hold a specified special permanent resident certificate"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:41:40.720Z",
+			"inputTokens": 673,
+			"cachedTokens": 0,
+			"outputTokens": 553,
+			"reasoningTokens": 336
+		}
 	}
 }

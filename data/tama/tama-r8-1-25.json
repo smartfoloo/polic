@@ -58,5 +58,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c0c2b9a6b95eea69",
+		"name": "Removes the baseball field night lighting entry",
+		"official": "Ordinance Partially Amending the Tama City Ordinance on the Management and Operation of Outdoor Sports Facilities",
+		"summary": "Article 2, paragraph 2 of the ordinance refers to night lighting as “night lighting facilities.” Appendix Table 2 also lists night lighting equipment as an accessory facility for baseball fields. This bill changes the wording to “night lighting equipment,” removes the item, and takes effect on December 1, 2026.",
+		"changes": [
+			"Changes “night lighting facilities” to “night lighting equipment”",
+			"Removes the night lighting equipment item from baseball field accessories"
+		],
+		"who": [
+			"People who use baseball fields with night lighting equipment"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:17:22.897Z",
+			"inputTokens": 623,
+			"cachedTokens": 0,
+			"outputTokens": 759,
+			"reasoningTokens": 577
+		}
 	}
 }

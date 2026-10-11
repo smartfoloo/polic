@@ -55,5 +55,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f9c0715d9824ec92",
+		"name": "Raises the Inagi City Disaster Prevention Council's membership cap to 20",
+		"official": "Ordinance Partially Amending the Inagi City Disaster Prevention Council Ordinance",
+		"summary": "The current cap on the number of members of the Inagi City Disaster Prevention Council is 18. This bill raises the cap to 20. The ordinance takes effect on the date it is promulgated, and the terms of newly appointed members will run until June 30, 2027.",
+		"changes": [
+			"Raises the membership cap from 18 to 20"
+		],
+		"who": [
+			"Members of the Inagi City Disaster Prevention Council"
+		],
+		"why": "The city says the aim is to improve and strengthen its disaster prevention system.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:04:57.811Z",
+			"inputTokens": 591,
+			"cachedTokens": 0,
+			"outputTokens": 732,
+			"reasoningTokens": 555
+		}
 	}
 }

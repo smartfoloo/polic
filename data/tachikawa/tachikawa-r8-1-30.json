@@ -57,5 +57,29 @@
 			"outputTokens": 40,
 			"reasoningTokens": 25
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "518cd49cf94f3605",
+		"name": "Changes how notices are served for medical care for people aged 75 and over",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Medical Care for Older Senior Citizens",
+		"summary": "Service by public notice concerning medical care for people aged 75 and over is currently carried out by posting on the city's notice board. This bill changes the method so that the notice details are made available for the public to view, and can then be viewed either on the city's notice board or on a computer screen at a city office.",
+		"changes": [
+			"Make the notice details available for the public to view, and allow them to be viewed either on the city's notice board or on a computer screen at a city office"
+		],
+		"who": [
+			"People subject to service by public notice concerning medical care for people aged 75 and over"
+		],
+		"why": "The city says this is because the Act Partially Amending the Local Tax Act, etc. was promulgated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:11:45.399Z",
+			"inputTokens": 654,
+			"cachedTokens": 0,
+			"outputTokens": 996,
+			"reasoningTokens": 768
+		}
 	}
 }

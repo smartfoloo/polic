@@ -1,0 +1,108 @@
+{
+	"id": "kawasaki-r8-1-10",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第10号",
+	"official": "川崎市国民健康保険条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第10号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_10.pdf",
+			"fetchedAt": "2026-10-08T11:07:21.502Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "国保料に子ども・子育て支援分を追加",
+	"category": "健康・医療",
+	"summary": "現在の国民健康保険料に、子ども・子育て支援納付金に充てる賦課額はありません。この議案で新設し、所得や被保険者数などをもとに算定します。18歳未満の被保険者の均等割を減額し、市長が急患などの特別な理由を認めて医療機関や薬局で療養を受けた人については、資力を活用できるまでの期間に限り、徴収猶予を最長1年とします。",
+	"changes": [
+		"子ども・子育て支援納付金に充てる保険料の賦課額を新設する",
+		"賦課額を所得割、被保険者均等割、18歳以上被保険者均等割で算定する",
+		"18歳未満被保険者の被保険者均等割額を減額する",
+		"市長が急患等の特別な理由を認め、医療機関や薬局で療養を受けた被保険者の保険料は、資力を活用できるまでの期間に限り徴収猶予を最長1年とする"
+	],
+	"who": [
+		"川崎市の国民健康保険加入世帯",
+		"急患などの特別な理由を市長が認め、医療機関や薬局で療養を受けた国民健康保険加入者"
+	],
+	"why": "国民健康保険法施行令の一部改正に伴い、子ども・子育て支援納付金賦課額を新設するなどのためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.549Z",
+		"inputTokens": 6136,
+		"cachedTokens": 0,
+		"outputTokens": 1962,
+		"reasoningTokens": 1630,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.549Z",
+			"notes": [
+				"ai [error] changes/fact: 「保険料の徴収猶予期間を最長1年に延ばす」 → 第38条第1項の改正は一律の延長ではなく、急患等の特別な理由を市長が認め、保険医療機関等から療養を受けた被保険者に係る場合に限定。1年以内でも資力の活用が可能となるまでの期間に限る。"
+			],
+			"inputTokens": 6691,
+			"cachedTokens": 1025,
+			"outputTokens": 1627,
+			"reasoningTokens": 1168,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.867Z",
+		"checkedAt": "2026-10-10T07:29:38.627Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "保険料の徴収猶予期間を最長1年に延ばす",
+				"note": "第38条第1項の改正は一律の延長ではなく、急患等の特別な理由を市長が認め、保険医療機関等から療養を受けた被保険者に係る場合に限定。1年以内でも資力の活用が可能となるまでの期間に限る。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金に充てる保険料の賦課額を新設する",
+				"note": "第32条第4項、第32条の2第4項、第32条の3第5項で、既存の減額規定を新設する支援納付金賦課額にも準用する変更が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "子ども・子育て支援納付金に充てる保険料の賦課額を新設する",
+				"note": "条例附則第2項の「48万円」を「58万円」に改める変更が抜けている。保険料算定に関わる金額変更として記載の要否を確認する必要がある。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6172,
+			"cachedTokens": 0,
+			"outputTokens": 788,
+			"reasoningTokens": 398,
+			"batch": true
+		}
+	}
+}

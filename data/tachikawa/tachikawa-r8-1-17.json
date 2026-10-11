@@ -60,5 +60,32 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ffd6956dbc48f1c9",
+		"name": "Establishes a fund to acquire public land in advance",
+		"official": "Tachikawa City Land Development Fund Ordinance",
+		"summary": "The city will establish a land development fund to acquire land for official or public use, and other land, before projects begin. The ordinance sets out how the fund’s amount will be determined, how its cash will be held and managed, and how returns from its management will be handled. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Establishes a fund to acquire land for official or public use, and other land, in advance",
+			"Sets the fund’s amount in the general account budget",
+			"Allows the fund’s cash to be lent to Tachikawa City Land Development Corporation",
+			"Records returns from the fund’s management in the general account budget"
+		],
+		"who": [
+			"Tachikawa City Land Development Corporation"
+		],
+		"why": "The city says this is in accordance with Article 241, Paragraph 1 of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:10:04.969Z",
+			"inputTokens": 652,
+			"cachedTokens": 0,
+			"outputTokens": 1044,
+			"reasoningTokens": 802
+		}
 	}
 }

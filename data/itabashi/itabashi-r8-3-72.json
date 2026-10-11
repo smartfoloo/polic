@@ -70,5 +70,34 @@
 			"outputTokens": 314,
 			"reasoningTokens": 168
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f583d19f72ec43ed",
+		"name": "Revises sexual violence prevention and staffing standards for childcare facilities",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance Establishing Standards for the Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "Amends the ordinance that sets standards for equipment and staffing at home-based childcare services and similar businesses. It requires certain staff who work with children to undergo criminal-record checks, etc., and allows certain professionals to be counted toward the number of childcare workers. It sets transitional measures for some staffing standards through March 31, 2028, and the provisions to prevent sexual violence against children, etc. take effect on December 25, 2026.",
+		"changes": [
+			"Require covered staff to undergo criminal-record checks, etc., to prevent sexual violence against children, etc.",
+			"Allow up to one certain professional with knowledge and experience in child-rearing to be counted as a childcare worker",
+			"Set out support by childcare workers when certain professionals, nurses, etc. provide childcare",
+			"Revise transitional measures for age-based childcare-worker staffing standards"
+		],
+		"who": [
+			"Operators of home-based childcare services and similar businesses",
+			"Staff who come into contact with infants and young children at facilities",
+			"Infants and young children who use these services, and their guardians"
+		],
+		"why": "The ward says the amendment is needed because a Cabinet Office Ordinance was revised, requiring provisions on criminal-record checks, etc. to be added and the standards for the number of childcare workers to be revised.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:10:13.522Z",
+			"inputTokens": 818,
+			"cachedTokens": 0,
+			"outputTokens": 1163,
+			"reasoningTokens": 820
+		}
 	}
 }

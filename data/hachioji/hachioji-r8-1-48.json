@@ -83,5 +83,33 @@
 			"outputTokens": 448,
 			"reasoningTokens": 100
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9ebf6e1a85f66420",
+		"name": "Sets operating standards for specified infant and other child attendance support services",
+		"official": "Regarding the Establishment of an Ordinance on Standards for the Operation of Hachioji City Specified Infant and Other Child Attendance Support Services",
+		"summary": "The city will set, by ordinance, operating standards for specified infant and other child attendance support services provided in the city. It will require service providers to set a user capacity, meet with parents before a child’s first use, explain costs, keep records, and meet other requirements.",
+		"changes": [
+			"Set the number of users allowed per hour",
+			"Meet with parents before a child’s first use and explain important matters",
+			"Set operating standards for the service, including disaster measures and the prevention of abuse",
+			"Keep records related to the provision of support for five years from the date they are completed"
+		],
+		"who": [
+			"Providers of specified infant and other child attendance support services",
+			"Children and parents who use specified infant and other child attendance support services"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:54:01.275Z",
+			"inputTokens": 682,
+			"cachedTokens": 0,
+			"outputTokens": 1109,
+			"reasoningTokens": 871
+		}
 	}
 }

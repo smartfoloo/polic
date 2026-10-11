@@ -1,0 +1,88 @@
+{
+	"id": "ebina-r8-3-56",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第56号",
+	"official": "海老名市立障がい者地域活動センター設置条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-08-27",
+	"sources": [
+		{
+			"label": "令和8年9月第3回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F08%2F27%2C2026%2F09%2F30%2C114",
+			"fetchedAt": "2026-10-08T11:27:23.333Z"
+		},
+		{
+			"label": "議案第56号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1520_56.pdf",
+			"fetchedAt": "2026-10-08T11:27:41.292Z"
+		}
+	],
+	"name": "センターの条例の開始日を規則で定める形に",
+	"category": "福祉",
+	"summary": "センターの設置条例は、2027年1月1日から施行する予定でした。この議案では、施行日を公布から1年6か月以内の範囲で規則により定める形に改めます。",
+	"changes": [
+		"施行日を、公布から1年6か月以内に規則で定める日に改める"
+	],
+	"who": [
+		"障がい者地域活動センターを利用する人"
+	],
+	"why": "センターの建設工事などの工期延長が見込まれるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.843Z",
+		"inputTokens": 1250,
+		"cachedTokens": 0,
+		"outputTokens": 1226,
+		"reasoningTokens": 1034,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.843Z",
+		"checkedAt": "2026-10-10T07:29:38.560Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1116,
+			"cachedTokens": 0,
+			"outputTokens": 39,
+			"reasoningTokens": 24,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "90b655ee6811bd28",
+		"name": "Sets the center ordinance's start date by rule",
+		"official": "Partial Amendment to the Ebina City Ordinance on the Establishment of the Community Activity Center for Persons with Disabilities",
+		"summary": "The ordinance establishing the center was scheduled to take effect on January 1, 2027. This bill changes the effective date so that it will be set by rule within 18 months of promulgation.",
+		"changes": [
+			"Sets the effective date by rule, within 18 months of promulgation"
+		],
+		"who": [
+			"People who use the Community Activity Center for Persons with Disabilities"
+		],
+		"why": "The city says this is because the construction period for the center and other work is expected to be extended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.030Z",
+			"inputTokens": 603,
+			"cachedTokens": 0,
+			"outputTokens": 490,
+			"reasoningTokens": 318,
+			"batch": true
+		}
+	}
+}

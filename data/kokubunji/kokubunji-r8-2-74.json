@@ -1,0 +1,89 @@
+{
+	"id": "kokubunji-r8-2-74",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第74号",
+	"official": "国分寺市立歴史公園条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-23",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037757.html",
+			"fetchedAt": "2026-10-08T10:58:07.901Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/037/777/062303.pdf",
+			"fetchedAt": "2026-10-08T10:58:19.897Z"
+		}
+	],
+	"name": "歴史公園の地区名と地番を整理",
+	"category": "まちづくり",
+	"summary": "歴史公園の地区名称を整理する内容です。あわせて、地区に地番を追加します。",
+	"changes": [
+		"地区名称を整理する",
+		"地区に地番を追加する"
+	],
+	"who": [],
+	"why": "歴史公園の地区名称を整理し、地区に地番を加えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.878Z",
+		"inputTokens": 1006,
+		"cachedTokens": 0,
+		"outputTokens": 411,
+		"reasoningTokens": 300,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.878Z",
+		"checkedAt": "2026-10-10T07:29:38.664Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 811,
+			"cachedTokens": 0,
+			"outputTokens": 44,
+			"reasoningTokens": 30,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e48d0b4c04ef28fa",
+		"name": "Organizes historic park district names and adds lot numbers",
+		"official": "Regarding the Ordinance Partially Amending the Kokubunji City Historical Park Ordinance",
+		"summary": "This organizes the names of historic park districts. It also adds lot numbers to the districts.",
+		"changes": [
+			"Organizes the names of the districts",
+			"Adds lot numbers to the districts"
+		],
+		"who": [
+			"Historic park district names",
+			"Historic park districts"
+		],
+		"why": "The city says this is to organize the names of the historic park districts and add lot numbers to the districts.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.066Z",
+			"inputTokens": 539,
+			"cachedTokens": 0,
+			"outputTokens": 431,
+			"reasoningTokens": 283,
+			"batch": true
+		}
+	}
+}

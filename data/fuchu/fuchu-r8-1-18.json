@@ -65,5 +65,35 @@
 			"outputTokens": 281,
 			"reasoningTokens": 267
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "924306d5b63b447a",
+		"name": "Changes building and landscape rules for Koyanagi-cho 6-chome District",
+		"official": "Ordinance Partially Amending the Fuchu City Ordinance on Restrictions on Buildings within Areas Covered by District Plans and the Fuchu City Landscape Ordinance",
+		"summary": "In Koyanagi-cho 6-chome District, rules on building uses and fences are set under the district plan. This bill revises building restrictions to reflect changes to the district plan and adds the district to the area covered by the Landscape Ordinance.",
+		"changes": [
+			"Change the area name in the ordinance from “Koyanagi-cho 6-chome Seibu Housing District” to “Koyanagi-cho 6-chome District”",
+			"Limit permitted buildings to detached houses and related structures such as storage sheds",
+			"Exempt parts with a foundation height of 0.4 meters or less, and gateposts, from the fence height limit",
+			"Add the district to the area covered by the Landscape Ordinance, and do not apply Chapter 3-2 of that ordinance to existing or under-construction buildings and similar structures that do not meet the standards"
+		],
+		"who": [
+			"People building or changing the exterior appearance of buildings in Koyanagi-cho 6-chome District",
+			"People building or changing the exterior appearance of buildings in Koyanagi-cho 6-chome District",
+			"People building or changing the exterior appearance of buildings in Koyanagi-cho 6-chome District",
+			"People building or changing the exterior appearance of buildings in Koyanagi-cho 6-chome District"
+		],
+		"why": "The city says it is making the necessary amendments in line with changes to the district plan.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:20:40.561Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 2842,
+			"reasoningTokens": 2448
+		}
 	}
 }

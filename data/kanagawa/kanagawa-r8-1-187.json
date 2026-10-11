@@ -1,0 +1,95 @@
+{
+	"id": "kanagawa-r8-1-187",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第187号議案",
+	"official": "神奈川県高等学校等教育改革促進基金条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "定県第187号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar7.pdf",
+			"fetchedAt": "2026-10-08T11:30:57.287Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "高校などの教育改革基金を設置",
+	"category": "教育",
+	"summary": "県は、公立高校、中等教育学校の後期課程、特別支援学校高等部の教育改革事業に使う国の補助金を積み立てる基金を設けます。基金の運用方法や、使える経費の範囲なども定めます。",
+	"changes": [
+		"教育改革事業費補助金を積み立てる基金を設置する",
+		"基金の現金を預金や有価証券などで運用し、必要な場合は歳計現金に一時的に回せるようにする",
+		"基金の運用益を一般会計の予算に計上して基金に編入する",
+		"基金を教育改革事業の経費に限って処分できるようにする"
+	],
+	"who": [],
+	"why": "基金の設置、管理及び処分に必要な事項を定めるためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.861Z",
+		"inputTokens": 1524,
+		"cachedTokens": 0,
+		"outputTokens": 1245,
+		"reasoningTokens": 1010,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.861Z",
+		"checkedAt": "2026-10-10T07:29:38.610Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1461,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 41,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "919dcd09e87a59e8",
+		"name": "Establishes a fund for education reform at high schools and other schools",
+		"official": "Kanagawa Prefecture High Schools and Other Schools Education Reform Promotion Fund Ordinance",
+		"summary": "The prefecture will establish a fund to set aside national subsidies for education reform projects at public high schools, upper secondary courses at secondary schools, and upper secondary departments of special needs schools. It will also set out how the fund is managed and the range of expenses it can be used for.",
+		"changes": [
+			"Creates a fund to set aside subsidies for education reform project expenses",
+			"Invests the fund’s cash in deposits, securities, and other assets, and allows it to be temporarily used as budget cash when needed",
+			"Records the fund’s investment earnings in the general account budget and adds them to the fund",
+			"Limits spending from the fund to expenses for education reform projects"
+		],
+		"who": [
+			"Public high schools",
+			"Upper secondary courses at secondary schools",
+			"Upper secondary departments of special needs schools",
+			"The prefecture"
+		],
+		"why": "The prefecture says this is to set out the matters needed to establish, manage, and spend the fund.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.048Z",
+			"inputTokens": 665,
+			"cachedTokens": 0,
+			"outputTokens": 1909,
+			"reasoningTokens": 1642,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"id": "hadano-r8-1-12",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第12号",
+	"official": "秦野市特別職職員の給与等に関する条例の一部を改正することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第12号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg12.pdf",
+			"fetchedAt": "2026-10-08T11:23:40.996Z"
+		}
+	],
+	"name": "特別職の地域手当と旅費を見直す",
+	"category": "行政のしくみ",
+	"summary": "現在、市長・副市長・教育長の出張旅費は、条例の別表に額や計算方法が定められています。改正後は別表をなくし、一般職員の旅費の例に沿って支給します。また、地域手当の率は令和8年4月1日から令和9年3月31日まで、12%から11%にします。",
+	"changes": [
+		"旅費を一般職員の旅費の例により支給する",
+		"旅費の額や計算方法を定めた別表を削除する",
+		"地域手当の支給率を12%から11%にする"
+	],
+	"who": [
+		"市長・副市長・教育長"
+	],
+	"why": "人事院勧告に基づく地域手当の支給率と、市職員の旅費制度の改正に合わせて見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.854Z",
+		"inputTokens": 2031,
+		"cachedTokens": 0,
+		"outputTokens": 1352,
+		"reasoningTokens": 1108,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.854Z",
+		"checkedAt": "2026-10-10T07:29:38.588Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1969,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 37,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "36bf61c9c400903d",
+		"name": "Reviews regional allowances and travel expenses for special-position officials",
+		"official": "Regarding the Partial Amendment to the Hadano City Ordinance on Salaries, etc. of Special-Position Employees",
+		"summary": "Currently, the ordinance sets the amounts and calculation methods for business travel expenses for the mayor, deputy mayor, and superintendent of education in an attached table. Under the amendment, the table will be removed, and travel expenses will be paid according to the rules for general employees. The regional allowance rate will also be reduced from 12% to 11% from April 1, 2026, to March 31, 2027.",
+		"changes": [
+			"Pay travel expenses according to the rules for general employees",
+			"Remove the attached table setting travel expense amounts and calculation methods",
+			"Reduce the regional allowance rate from 12% to 11%"
+		],
+		"who": [
+			"The mayor, deputy mayor, and superintendent of education"
+		],
+		"why": "The city says it is making these changes to align the regional allowance rate with the rate based on the National Personnel Authority recommendation, and to align with revisions to the city employees’ travel expense system.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.039Z",
+			"inputTokens": 684,
+			"cachedTokens": 0,
+			"outputTokens": 778,
+			"reasoningTokens": 516,
+			"batch": true
+		}
+	}
+}

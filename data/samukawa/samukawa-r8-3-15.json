@@ -1,0 +1,110 @@
+{
+	"id": "samukawa-r8-3-15",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第15号",
+	"official": "寒川町歯及び口腔の健康づくり推進条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会3月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第15号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603_gian15.pdf",
+			"fetchedAt": "2026-10-10T14:57:54.410Z"
+		}
+	],
+	"name": "全世代の歯科検診などの促進を明記",
+	"category": "健康・医療",
+	"summary": "町の条例では、歯と口の健康づくりを進めるための施策を定めています。この改正で、高齢期の予防や幅広い世代の歯科検診、非常時の対策などを加え、歯科医療等業務従事者による虐待などの早期発見についても定めます。条例は公布の日から施行します。",
+	"changes": [
+		"高齢期のオーラルフレイル予防を町の施策に加える",
+		"幼年期から高齢期までの歯科検診などの促進を明記する",
+		"フッ化物による虫歯予防と非常時の歯・口腔の健康対策を進める",
+		"関係者との連携や全身の健康との関係の啓発、虐待などの早期発見を盛り込む"
+	],
+	"who": [
+		"町民",
+		"歯科医療等業務従事者"
+	],
+	"why": "歯科保健に関する社会情勢の変化を踏まえ、必要な措置を講じるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:09:36.932Z",
+		"inputTokens": 2638,
+		"cachedTokens": 0,
+		"outputTokens": 1795,
+		"reasoningTokens": 1458,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-10T15:09:36.932Z",
+			"notes": [
+				"ai [error] name/direction: 「歯科健診や非常時の口腔対策を追加」 → 歯科検診の促進は現行第7条第2号に既にあり、今回加えるのは「幼年期から高齢期までの全ての世代で」という文言。歯科健診自体を新たに追加する改正ではない。"
+			],
+			"inputTokens": 3150,
+			"cachedTokens": 1025,
+			"outputTokens": 742,
+			"reasoningTokens": 405,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:09:36.932Z",
+		"checkedAt": "2026-10-10T15:54:25.140Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2647,
+			"cachedTokens": 0,
+			"outputTokens": 65,
+			"reasoningTokens": 50,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9773fd7a5b9039aa",
+		"name": "Specifies promotion of dental checkups for all generations",
+		"official": "Ordinance Partially Amending the Samukawa Town Ordinance on Promoting Dental and Oral Health",
+		"summary": "The town's ordinance sets out measures to promote dental and oral health. This amendment adds prevention in older age, promotion of dental checkups for a wide range of age groups, and measures for emergencies. It also provides for early detection of abuse and other issues by people engaged in dental and related work. The ordinance takes effect on the date of its promulgation.",
+		"changes": [
+			"Add prevention of oral frailty in older age to the town's measures",
+			"Specify promotion of dental checkups and other measures from early childhood through old age",
+			"Promote tooth decay prevention using fluoride and measures for dental and oral health during emergencies",
+			"Include coordination with relevant parties, awareness-raising about the link to overall health, and early detection of abuse and other issues"
+		],
+		"who": [
+			"Town residents",
+			"People engaged in dental and related work"
+		],
+		"why": "The town says this is to take necessary measures in light of changes in social conditions concerning dental health.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-11T00:16:49.518Z",
+			"inputTokens": 749,
+			"cachedTokens": 0,
+			"outputTokens": 769,
+			"reasoningTokens": 502,
+			"batch": true
+		}
+	}
+}

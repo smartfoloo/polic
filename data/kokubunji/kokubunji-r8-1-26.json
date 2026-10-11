@@ -1,0 +1,89 @@
+{
+	"id": "kokubunji-r8-1-26",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第26号",
+	"official": "国分寺市義務教育就学児の医療費の助成に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "医療費助成の規定を整備",
+	"category": "デジタル",
+	"summary": "この条例は、義務教育就学児の医療費助成について定めています。情報連携基盤との接続開始に伴い、助成に関する規定と文言を整えます。",
+	"changes": [
+		"医療費助成に関する規定を整える",
+		"条例の文言を整理する"
+	],
+	"who": [],
+	"why": "情報連携基盤との接続開始に伴い、医療費助成の規定を整え、文言を整理するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.876Z",
+		"inputTokens": 1037,
+		"cachedTokens": 0,
+		"outputTokens": 757,
+		"reasoningTokens": 604,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.876Z",
+		"checkedAt": "2026-10-10T07:29:38.660Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 885,
+			"cachedTokens": 0,
+			"outputTokens": 36,
+			"reasoningTokens": 21,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a6d5288c60095840",
+		"name": "Updates provisions on medical expense assistance",
+		"official": "Regarding the Ordinance Partially Amending the Kokubunji City Ordinance Concerning Medical Expense Assistance for Children of Compulsory Education Age",
+		"summary": "This ordinance sets out medical expense assistance for children of compulsory education age. With the start of connection to the information-sharing infrastructure, it updates the provisions and wording concerning the assistance.",
+		"changes": [
+			"Updates the provisions on medical expense assistance",
+			"Revises the wording of the ordinance"
+		],
+		"who": [
+			"Children of compulsory education age",
+			"Children of compulsory education age"
+		],
+		"why": "The city says it is updating the provisions on medical expense assistance and revising the wording with the start of connection to the information-sharing infrastructure.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.064Z",
+			"inputTokens": 593,
+			"cachedTokens": 0,
+			"outputTokens": 1021,
+			"reasoningTokens": 838,
+			"batch": true
+		}
+	}
+}

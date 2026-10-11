@@ -25,12 +25,12 @@
 	],
 	"name": "児童福祉施設に性暴力防止措置を追加",
 	"category": "子育て",
-	"summary": "現在は、乳児が4人以上の保育所で、保健師・看護師を1人まで保育士数に含められます。改正後はこの数え方を見直し、一定の専門職も保育士数に含められるようにします。また、児童福祉施設に、犯罪事実確認など性暴力の防止と子どもの保護に必要な措置を求めます。",
+	"summary": "現在は、乳児が4人以上の保育所で、保健師・看護師を1人まで保育士数に含められます。改正後はこの数え方を見直し、一定の専門職も保育士数に含められるようにします。また、助産施設を除く児童福祉施設に、犯罪事実確認など性暴力の防止と子どもの保護に必要な措置を求めます。",
 	"changes": [
 		"児童対象性暴力等の防止と発生時の児童保護に必要な措置を定める",
 		"条件を満たす理学療法士等を1人まで保育士数に含める",
 		"保健師・看護師を乳児4人未満の保育所でも条件付きで保育士数に含める",
-		"代替職員の合計を必要職員数の3分の1以内とする制限をなくす"
+		"特定理学療法士等と看護師等を合わせた人数を必要職員数の3分の1以内とする"
 	],
 	"who": [
 		"児童福祉施設の設置者",
@@ -42,47 +42,77 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:37:41.534Z",
+		"generatedAt": "2026-10-08T23:18:20.776Z",
 		"inputTokens": 2546,
 		"cachedTokens": 0,
 		"outputTokens": 2335,
-		"reasoningTokens": 2004
+		"reasoningTokens": 2004,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:18:20.776Z",
+			"notes": [
+				"ai [error] changes/direction: 「代替職員の合計を必要職員数の3分の1以内とする制限をなくす」 → 改正後の附則第3項は、特定理学療法士等と看護師等の総数を必要職員数の3分の1以内とする制限を設けている。制限の撤廃ではない。",
+				"ai [error] summary/fact: 「児童福祉施設に、犯罪事実確認など性暴力の防止と子どもの保護に必要な措置を求めます。」 → 新設する第12条の2は「児童福祉施設（助産施設を除く。）」の設置者を対象としており、助産施設は対象外。"
+			],
+			"inputTokens": 3139,
+			"cachedTokens": 1025,
+			"outputTokens": 960,
+			"reasoningTokens": 618
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:37:41.534Z",
-		"checkedAt": "2026-10-08T05:19:54.488Z",
+		"draftAt": "2026-10-08T23:18:20.776Z",
+		"checkedAt": "2026-10-08T23:18:30.959Z",
 		"flags": [],
 		"issues": [
-			{
-				"field": "changes",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "代替職員の合計を必要職員数の3分の1以内とする制限をなくす",
-				"note": "改正後の附則第3項は、特定理学療法士等と看護師等の総数を必要職員数の3分の1以内とする制限を設けている。制限の撤廃ではない。"
-			},
-			{
-				"field": "summary",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "児童福祉施設に、犯罪事実確認など性暴力の防止と子どもの保護に必要な措置を求めます。",
-				"note": "新設する第12条の2は「児童福祉施設（助産施設を除く。）」の設置者を対象としており、助産施設は対象外。"
-			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "条件を満たす理学療法士等を1人まで保育士数に含める",
-				"note": "第35条第3項ただし書の保育士による支援体制の確保義務と、改正後の附則第4項の特定理学療法士等・看護師等がともに保育する場合の看護師等への支援体制の確保義務が記載されていない。"
+				"note": "第35条第3項ただし書は、特定理学療法士等が保育を行う際に保育士の支援体制を確保する義務を定めています。また、附則第4項は、特定理学療法士等と看護師等の双方が保育を行う場合、看護師等への別の保育士による支援体制も求めています。これらの体制確保義務がchangesに記載されていません。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 2547,
+			"inputTokens": 2558,
 			"cachedTokens": 0,
-			"outputTokens": 567,
-			"reasoningTokens": 236
+			"outputTokens": 394,
+			"reasoningTokens": 220
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b833522a74bd99d4",
+		"name": "Adds sexual violence prevention measures at child welfare facilities",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Ordinance on Standards for Equipment and Operation of Child Welfare Facilities",
+		"summary": "Currently, at nursery schools with four or more infants, up to one public health nurse or nurse can be counted as a childcare worker. The amendment revises this counting method so that certain professionals can also be counted as childcare workers. It also requires child welfare facilities, except maternity homes, to take measures needed to prevent sexual violence, including criminal record checks, and to protect children.",
+		"changes": [
+			"Set out measures to prevent sexual violence against children, etc., and protect children if it occurs",
+			"Count up to one qualifying physical therapist, etc., as a childcare worker",
+			"Allow public health nurses and nurses to count as childcare workers, subject to conditions, even at nursery schools with fewer than four infants",
+			"Limit the combined number of specified physical therapists, etc., and nurses, etc., to no more than one-third of the required number of staff"
+		],
+		"who": [
+			"Those who establish child welfare facilities",
+			"People whose work involves contact with children",
+			"Children who use nursery schools",
+			"Professionals counted toward required childcare staffing numbers"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:56:43.169Z",
+			"inputTokens": 764,
+			"cachedTokens": 0,
+			"outputTokens": 1654,
+			"reasoningTokens": 1355
 		}
 	}
 }

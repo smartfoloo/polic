@@ -59,5 +59,31 @@
 			"outputTokens": 87,
 			"reasoningTokens": 73
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7d3c9f4532398822",
+		"name": "Changes fees for cemetery use certificates",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Cemetery Ordinance",
+		"summary": "Currently, a fee of ¥200 per application is charged for reissuing a cemetery use certificate and for changing the certificate when the user of a plot cemetery is succeeded by another person. The bill would raise both fees to ¥300 per application and apply the new fees to applications submitted on or after July 1, 2026.",
+		"changes": [
+			"Raises the fee to reissue a cemetery use certificate from ¥200 to ¥300 per application",
+			"Raises the fee to change a cemetery use certificate when the user of a plot cemetery is succeeded by another person to ¥300 per application"
+		],
+		"who": [
+			"People applying to have a cemetery use certificate reissued for a Hachioji City cemetery",
+			"People succeeding the user of a plot cemetery and applying to have the cemetery use certificate changed"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:53:34.143Z",
+			"inputTokens": 659,
+			"cachedTokens": 0,
+			"outputTokens": 571,
+			"reasoningTokens": 338
+		}
 	}
 }

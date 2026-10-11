@@ -1,0 +1,87 @@
+{
+	"id": "nerima-r8-2-47",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第47号",
+	"official": "練馬区立自転車駐車場条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-08",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai2teirei/0802gian.html",
+			"fetchedAt": "2026-10-08T10:55:37.319Z"
+		}
+	],
+	"name": "自転車駐車場を3か所新設",
+	"category": "交通",
+	"summary": "条例を改正し、石神井町8丁目、武蔵関駅南、氷川台駅の各地域に自転車駐車場を新設します。施行日は令和9年4月1日で、一部の規定は公布の日から施行します。",
+	"changes": [
+		"石神井町8丁目1番10号に自転車駐車場を新設する",
+		"関町北1丁目22番11号に武蔵関駅南第3自転車駐車場を新設する",
+		"桜台3丁目35番17号に氷川台駅第11自転車駐車場を新設する"
+	],
+	"who": [
+		"新設される3か所の自転車駐車場を利用する人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.880Z",
+		"inputTokens": 1112,
+		"cachedTokens": 0,
+		"outputTokens": 793,
+		"reasoningTokens": 580,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.880Z",
+		"checkedAt": "2026-10-10T07:29:38.673Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1021,
+			"cachedTokens": 0,
+			"outputTokens": 73,
+			"reasoningTokens": 58,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c7165fd5356e78ea",
+		"name": "Establishes three new bicycle parking lots",
+		"official": "Ordinance Partially Amending the Nerima City Bicycle Parking Lot Ordinance",
+		"summary": "The ordinance will be amended to establish bicycle parking lots in the Shakujii-machi 8-chome, Musashi-Seki Station South, and Hikawadai Station areas. It will take effect on April 1, 2027, with some provisions taking effect on the date of promulgation.",
+		"changes": [
+			"Establish a bicycle parking lot at 1-10, Shakujii-machi 8-chome",
+			"Establish the Musashi-Seki Station South No. 3 Bicycle Parking Lot at 22-11, Sekimachi-kita 1-chome",
+			"Establish the Hikawadai Station No. 11 Bicycle Parking Lot at 35-17, Sakuradai 3-chome"
+		],
+		"who": [
+			"People who use the three new bicycle parking lots"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.069Z",
+			"inputTokens": 651,
+			"cachedTokens": 0,
+			"outputTokens": 893,
+			"reasoningTokens": 658,
+			"batch": true
+		}
+	}
+}

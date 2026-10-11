@@ -1,0 +1,98 @@
+{
+	"id": "yokohama-r8-1-153",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第153号議案",
+	"official": "横浜市市会議員の議員報酬、費用弁償及び期末手当に関する条例等の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-11",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第153号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si153.pdf",
+			"fetchedAt": "2026-10-08T11:03:44.953Z"
+		}
+	],
+	"name": "市会議員や市長などの報酬・給料を改定",
+	"category": "行政のしくみ",
+	"summary": "市会議員や市長などの報酬・給料を、審議会の答申に基づいて改定します。市会議員、市長・副市長などの額を引き上げ、非常勤特別職や会計年度任用職員の額も改めます。2026年4月1日から施行しますが、施行日前日に市長である人の給料は、その任期中、改正前の額です。",
+	"changes": [
+		"市会議員の月額報酬を、議長1,179,000円から1,215,000円などに引き上げる",
+		"市長の月額給料を1,599,000円から1,647,000円に、副市長を1,285,000円から1,324,000円に引き上げる",
+		"教育長などの常勤特別職職員の給料と、非常勤特別職職員などの報酬額を改定する",
+		"会計年度任用職員の給料等の上限額を、日額49,000円から50,500円、月額884,000円から911,000円に引き上げる"
+	],
+	"who": [
+		"市会議員、市長・副市長、教育長などの常勤特別職職員",
+		"行政委員会委員などの非常勤特別職職員",
+		"会計年度任用職員"
+	],
+	"why": "市会議員の報酬と市長・副市長の給料を審議会の答申に基づいて改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.884Z",
+		"inputTokens": 3745,
+		"cachedTokens": 0,
+		"outputTokens": 2405,
+		"reasoningTokens": 1961,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.701Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3864,
+			"cachedTokens": 0,
+			"outputTokens": 101,
+			"reasoningTokens": 86,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a631cc044262ec0e",
+		"name": "Revises compensation and salaries for Yokohama City Council members and the mayor",
+		"official": "Partial Amendment to the Ordinance on Remuneration, Reimbursement of Expenses, and End-of-Term Allowances for Yokohama City Council Members, etc.",
+		"summary": "The compensation and salaries of Yokohama City Council members, the mayor, and others will be revised based on a council’s recommendations. Amounts for City Council members, the mayor and vice mayors, and others will be increased, and amounts for part-time special-position officials and fiscal-year appointed employees will also be revised. The changes will take effect on April 1, 2026. However, the salary of anyone serving as mayor on the day before the changes take effect will remain at the previous amount for the duration of their term.",
+		"changes": [
+			"Raises monthly compensation for City Council members, including the chairperson, from ¥1,179,000 to ¥1,215,000, among other increases",
+			"Raises the mayor’s monthly salary from ¥1,599,000 to ¥1,647,000 and vice mayors’ from ¥1,285,000 to ¥1,324,000",
+			"Revises the salaries of full-time special-position officials, such as the superintendent of education, and the compensation of part-time special-position officials, among others",
+			"Raises the maximum salary, etc. for fiscal-year appointed employees from ¥49,000 to ¥50,500 per day and from ¥884,000 to ¥911,000 per month"
+		],
+		"who": [
+			"City Council members, the mayor and vice mayors, and full-time special-position officials such as the superintendent of education",
+			"Part-time special-position officials, such as members of administrative commissions",
+			"Fiscal-year appointed employees"
+		],
+		"why": "The city says it is revising City Council members’ compensation and the salaries of the mayor and vice mayors based on a council’s recommendations.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.072Z",
+			"inputTokens": 867,
+			"cachedTokens": 0,
+			"outputTokens": 1206,
+			"reasoningTokens": 775,
+			"batch": true
+		}
+	}
+}

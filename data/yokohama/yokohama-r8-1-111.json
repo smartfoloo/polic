@@ -1,0 +1,97 @@
+{
+	"id": "yokohama-r8-1-111",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第111号議案",
+	"official": "横浜市行政手続条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第111号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si111.pdf",
+			"fetchedAt": "2026-10-08T11:01:14.788Z"
+		}
+	],
+	"name": "所在不明時の行政通知方法を変更",
+	"category": "行政のしくみ",
+	"summary": "現在は、聴聞や弁明の機会に関する通知で、処分の対象となる人の所在が分からない場合、事務所の掲示場に掲示し、掲示開始から2週間で届いたものとみなします。この議案では、公示に加え、事務所の掲示場に掲示するか、事務所内の電子画面で閲覧できるようにする方法に変えます。通知は原則として措置開始から2週間後に届いたものとみなします。ただし、聴聞の続行期日について、同じ当事者または参加人への2回目以降の通知は、措置開始日の翌日に届いたものとみなします。令和8年5月21日に施行します。",
+	"changes": [
+		"規則で定める方法で公示し、事務所の掲示場への掲示または事務所内の電子画面での閲覧を可能にする",
+		"通知が届いたとみなす時点を、措置開始から2週間後とし、同一の当事者・参加人への2回目以降は翌日とする"
+	],
+	"who": [
+		"不利益処分の対象となる人で、所在が分からない人",
+		"聴聞の当事者や参加人で、所在が分からない人"
+	],
+	"why": "行政手続法の一部改正に伴い、所在が判明しない場合の通知方法を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.557Z",
+		"inputTokens": 3357,
+		"cachedTokens": 0,
+		"outputTokens": 1705,
+		"reasoningTokens": 1363,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.557Z",
+			"notes": [
+				"ai [error] summary/fact: 「通知は措置を始めてから2週間で届いたものとみなし」 → 第22条第3項では、同一の当事者又は参加人への2回目以降の通知は措置開始日の翌日に到達したものとみなす例外があり、一律に2週間ではない。",
+				"ai [error] changes/fact: 「通知が届いたとみなす時点を、措置開始から2週間後にする」 → 第22条第3項の同一の当事者又は参加人への2回目以降の通知は、措置開始日の翌日とされている。"
+			],
+			"inputTokens": 3938,
+			"cachedTokens": 1025,
+			"outputTokens": 1320,
+			"reasoningTokens": 910,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.883Z",
+		"checkedAt": "2026-10-10T07:29:38.691Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "通知は措置を始めてから2週間で届いたものとみなし",
+				"note": "第22条第3項では、同一の当事者又は参加人への2回目以降の通知は措置開始日の翌日に到達したものとみなす例外があり、一律に2週間ではない。"
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "通知が届いたとみなす時点を、措置開始から2週間後にする",
+				"note": "第22条第3項の同一の当事者又は参加人への2回目以降の通知は、措置開始日の翌日とされている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3374,
+			"cachedTokens": 0,
+			"outputTokens": 544,
+			"reasoningTokens": 363,
+			"batch": true
+		}
+	}
+}

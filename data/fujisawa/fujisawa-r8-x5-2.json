@@ -1,0 +1,107 @@
+{
+	"id": "fujisawa-r8-x5-2",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第2号",
+	"official": "藤沢市印鑑条例等の一部改正について",
+	"by": "head",
+	"session": "令和8年5月臨時会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-05-22",
+	"sources": [
+		{
+			"label": "令和8年5月臨時会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F05%2F22%2C2026%2F05%2F22%2C113",
+			"fetchedAt": "2026-10-08T11:16:53.108Z"
+		},
+		{
+			"label": "議案第2号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2751&Sflg=2",
+			"fetchedAt": "2026-10-08T11:16:59.263Z"
+		},
+		{
+			"label": "議案第2号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2751_e01-002.pdf",
+			"fetchedAt": "2026-10-08T11:17:05.115Z"
+		}
+	],
+	"name": "特定在留カードなどを手続きに追加",
+	"category": "くらし・手続き",
+	"summary": "市の印鑑条例と3つの医療費助成条例には、手続きに使うカードなどの規定があります。この議案では、特定在留カードと特定特別永住者証明書を追加し、印鑑条例の電子証明書に関する規定も改めます。",
+	"changes": [
+		"印鑑条例の手続きに使えるカードに特定在留カードなどを加える",
+		"3つの医療費助成条例で使えるカードに特定在留カードなどを加える",
+		"印鑑条例の電子証明書に関する規定を改める"
+	],
+	"who": [
+		"特定在留カードを持つ人",
+		"特定特別永住者証明書を持つ人"
+	],
+	"why": "特定在留カードなどの導入に伴い、条例の規定を整える必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.851Z",
+		"inputTokens": 2475,
+		"cachedTokens": 0,
+		"outputTokens": 1825,
+		"reasoningTokens": 1552,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.851Z",
+		"checkedAt": "2026-10-10T07:29:38.582Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "印鑑条例の手続きに使えるカードに特定在留カードなどを加える",
+				"note": "第1条では、対象のカードを個人番号カード用利用者証明用電子証明書が記録されているものに限っている。利用できるカードの条件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2416,
+			"cachedTokens": 0,
+			"outputTokens": 250,
+			"reasoningTokens": 147,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "df09fc88337df412",
+		"name": "Adds specified residence cards and related certificates for use in procedures",
+		"official": "Regarding Partial Amendments to the Fujisawa City Seal Ordinance and Other Ordinances",
+		"summary": "The Fujisawa City Seal Ordinance and three medical expense subsidy ordinances contain rules about cards and other items used for procedures. This bill adds specified residence cards and specified special permanent resident certificates, and also revises provisions on electronic certificates in the Seal Ordinance.",
+		"changes": [
+			"Adds specified residence cards and specified special permanent resident certificates to the cards that can be used for procedures under the Seal Ordinance",
+			"Adds specified residence cards and specified special permanent resident certificates to the cards that can be used under the three medical expense subsidy ordinances",
+			"Revises provisions on electronic certificates in the Seal Ordinance"
+		],
+		"who": [
+			"People who have a specified residence card",
+			"People who have a specified special permanent resident certificate"
+		],
+		"why": "The city says the ordinances' provisions need to be updated in connection with the introduction of specified residence cards and related items.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.037Z",
+			"inputTokens": 673,
+			"cachedTokens": 0,
+			"outputTokens": 852,
+			"reasoningTokens": 606,
+			"batch": true
+		}
+	}
+}

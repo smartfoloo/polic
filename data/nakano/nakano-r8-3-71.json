@@ -1,0 +1,93 @@
+{
+	"id": "nakano-r8-3-71",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第71号議案",
+	"official": "中野区指定障害児通所支援の事業等の人員、設備及び運営の基準等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "厚生委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121",
+			"fetchedAt": "2026-10-08T15:27:51.872Z"
+		},
+		{
+			"label": "第71号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/2693018623.pdf",
+			"fetchedAt": "2026-10-08T15:27:57.756Z"
+		}
+	],
+	"name": "障害児支援事業者に性暴力防止措置を求める",
+	"category": "福祉",
+	"summary": "区の障害児通所支援の運営基準を改め、事業者に児童対象性暴力等の防止や、発生時に障害児を保護するための措置を求めます。犯罪事実確認などの対象は、支配性・継続性・閉鎖性のある環境で障害児と接する業務従事者です。性暴力防止に関する規定は令和8年12月25日から施行し、一部の条文整理は公布日から施行します。",
+	"changes": [
+		"児童対象性暴力等を防ぎ、発生時に障害児を保護する措置を求める",
+		"障害児と接する業務従事者について犯罪事実確認などの措置を求める",
+		"条文の引用先を改める"
+	],
+	"who": [
+		"障害児通所支援の事業者",
+		"障害児通所支援を利用する子ども",
+		"障害児と接する業務従事者"
+	],
+	"why": "児童福祉法に基づく指定通所支援の事業等の基準改正に伴い、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:05:28.716Z",
+		"inputTokens": 1865,
+		"cachedTokens": 0,
+		"outputTokens": 1806,
+		"reasoningTokens": 1443
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:05:28.716Z",
+		"checkedAt": "2026-10-09T11:48:42.697Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1897,
+			"cachedTokens": 0,
+			"outputTokens": 56,
+			"reasoningTokens": 42
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a0f77767f706f402",
+		"name": "Requires providers of services for children with disabilities to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Standards for Staffing, Facilities, and Operations of Designated Day Services for Children with Disabilities, etc.",
+		"summary": "The ward will revise its operating standards for day services for children with disabilities. It will require providers to take measures to prevent sexual violence and similar acts against children and to protect children with disabilities if such acts occur. Criminal record checks and other measures will apply to workers whose duties involve contact with children with disabilities in environments characterized by dominance, continuity, and isolation. The provisions on preventing sexual violence will take effect on December 25, 2026. Some changes to the wording and organization of the provisions will take effect on the date of promulgation.",
+		"changes": [
+			"Require measures to prevent sexual violence and similar acts against children, and to protect children with disabilities if such acts occur",
+			"Require criminal record checks and other measures for workers whose duties involve contact with children with disabilities",
+			"Revise references to other provisions"
+		],
+		"who": [
+			"Providers of day services for children with disabilities",
+			"Children who use day services for children with disabilities",
+			"Workers whose duties involve contact with children with disabilities"
+		],
+		"why": "The ward says it is updating the provisions following revisions to the standards under the Child Welfare Act for businesses providing designated day services for children with disabilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:53:10.465Z",
+			"inputTokens": 792,
+			"cachedTokens": 0,
+			"outputTokens": 1217,
+			"reasoningTokens": 897
+		}
+	}
+}

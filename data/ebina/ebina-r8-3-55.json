@@ -1,0 +1,86 @@
+{
+	"id": "ebina-r8-3-55",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第55号",
+	"official": "海老名市職員の公益的法人等への派遣等に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月第3回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "令和8年9月第3回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F08%2F27%2C2026%2F09%2F30%2C114",
+			"fetchedAt": "2026-10-08T11:27:23.333Z"
+		},
+		{
+			"label": "議案第55号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1519_55.pdf",
+			"fetchedAt": "2026-10-08T11:27:35.280Z"
+		}
+	],
+	"name": "園芸博覧会協会への職員派遣を可能に",
+	"category": "行政のしくみ",
+	"summary": "条例で、市職員を派遣できる団体が定められています。この議案では、公益社団法人2027年国際園芸博覧会協会を派遣先に加えます。この追加は公布日から施行し、令和10年4月1日から同協会を派遣先の規定から削除します。",
+	"changes": [
+		"職員を派遣できる団体に公益社団法人2027年国際園芸博覧会協会を加える",
+		"同協会を派遣先の規定から削る"
+	],
+	"who": [],
+	"why": "職員を派遣できる団体に公益社団法人2027年国際園芸博覧会協会を加えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.843Z",
+		"inputTokens": 1410,
+		"cachedTokens": 0,
+		"outputTokens": 1266,
+		"reasoningTokens": 1034,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.843Z",
+		"checkedAt": "2026-10-10T07:29:38.559Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1309,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 37,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "357146d232430622",
+		"name": "Allows staff to be seconded to the Horticultural Expo Association",
+		"official": "Partial Amendment to the Ebina City Ordinance on the Dispatch, etc. of Ebina City Employees to Public-interest Corporations, etc.",
+		"summary": "The ordinance specifies the organizations to which city employees can be seconded. This bill adds the Public Interest Incorporated Association 2027 International Horticultural Exposition Association as a secondment destination. This addition takes effect on the date of promulgation, and the association will be removed from the provisions listing secondment destinations from April 1, 2028.",
+		"changes": [
+			"Adds the Public Interest Incorporated Association 2027 International Horticultural Exposition Association to the organizations to which staff can be seconded",
+			"Removes the association from the provisions listing secondment destinations"
+		],
+		"who": [],
+		"why": "The city says the reason is to add the Public Interest Incorporated Association 2027 International Horticultural Exposition Association to the organizations to which staff can be seconded.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.030Z",
+			"inputTokens": 645,
+			"cachedTokens": 0,
+			"outputTokens": 725,
+			"reasoningTokens": 491,
+			"batch": true
+		}
+	}
+}

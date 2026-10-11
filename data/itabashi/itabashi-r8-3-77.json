@@ -60,5 +60,32 @@
 			"outputTokens": 50,
 			"reasoningTokens": 36
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "959c407f072ac657",
+		"name": "Requires measures to prevent sexual violence at facilities for children with disabilities",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for Staffing, Facilities, and Operation of Itabashi City Designated Facilities for Children with Disabilities",
+		"summary": "The current ordinance sets standards for staffing, facilities, and operation at designated facilities for children with disabilities. This amendment requires facility operators to take measures to prevent sexual violence against children and other such acts, and to appropriately protect children with disabilities if such an incident occurs. The amendment to Article 43 takes effect on December 25, 2026. The other amendments take effect on the date of promulgation.",
+		"changes": [
+			"Require facility operators to check the criminal records of covered workers and take other measures",
+			"Require measures to appropriately protect children with disabilities if sexual violence against children or other such acts occur",
+			"Change the reference in Article 42 to the items of Article 33-10, paragraph 1"
+		],
+		"who": [
+			"Operators of designated welfare-type facilities for children with disabilities",
+			"People who work in covered roles involving contact with children with disabilities"
+		],
+		"why": "The ward says these changes are needed because the Act on Prevention of Sexual Violence Against Children and other relevant laws are coming into force, and to set requirements such as criminal record checks for covered workers.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:11:02.622Z",
+			"inputTokens": 772,
+			"cachedTokens": 0,
+			"outputTokens": 623,
+			"reasoningTokens": 321
+		}
 	}
 }

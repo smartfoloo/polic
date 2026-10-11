@@ -55,5 +55,27 @@
 			"outputTokens": 46,
 			"reasoningTokens": 31
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "010af2b637493a20",
+		"name": "Changes the article number for waiving liability for damages",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on the Establishment, etc. of the Sewerage Business",
+		"summary": "The assembly must approve cases in which employees of the sewerage business are exempted from liability for damages. This bill changes the article number of the Local Autonomy Act cited in the ordinance as the legal basis. It will take effect on September 24, 2026.",
+		"changes": [
+			"Changes the cited article number of the Local Autonomy Act from Article 243-2-8 to Article 243-2-9"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:56:19.917Z",
+			"inputTokens": 582,
+			"cachedTokens": 0,
+			"outputTokens": 467,
+			"reasoningTokens": 294
+		}
 	}
 }

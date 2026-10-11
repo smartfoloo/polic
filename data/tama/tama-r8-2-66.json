@@ -57,5 +57,29 @@
 			"outputTokens": 80,
 			"reasoningTokens": 65
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "77b1335f5debfe62",
+		"name": "Sets the ordinance rate for performance venues at 1/365",
+		"official": "Regarding the enactment of an ordinance partially amending the Tama City City Planning Tax Ordinance",
+		"summary": "For performing arts venues that have undergone renovation work to improve convenience and other aspects, the rate prescribed by the ordinance for city planning tax will be set at 1/365. This amendment will apply to city planning tax from fiscal year 2026 onward. However, facilities where the work was carried out between April 1, 2018, and March 31, 2026, will remain subject to the previous provisions.",
+		"changes": [
+			"Sets the rate prescribed by the ordinance for performing arts venues at 1/365"
+		],
+		"who": [
+			"Owners of eligible performing arts venues"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:19:41.477Z",
+			"inputTokens": 616,
+			"cachedTokens": 0,
+			"outputTokens": 666,
+			"reasoningTokens": 474
+		}
 	}
 }

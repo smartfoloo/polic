@@ -1,0 +1,38 @@
+{
+	"id": "sagamihara-r7-3-29",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第29号",
+	"official": "相模原市街づくり活動推進条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": "建設委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1c8267563daf36e7",
+		"official": "Regarding an Ordinance Partially Amending the Sagamihara City Community Development Activities Promotion Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:01:15.342Z",
+			"inputTokens": 386,
+			"cachedTokens": 0,
+			"outputTokens": 120,
+			"reasoningTokens": 85,
+			"batch": true
+		}
+	}
+}

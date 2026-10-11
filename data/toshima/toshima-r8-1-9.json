@@ -1,0 +1,38 @@
+{
+	"id": "toshima-r8-1-9",
+	"assembly": "tokyo/toshima",
+	"approved": false,
+	"number": "第9号議案",
+	"official": "豊島区立区民集会室条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.toshima.lg.jp/368/kuse/gikai/kekka/h28/2603191324.html",
+			"fetchedAt": "2026-10-08T10:54:55.065Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "e29db18929634c33",
+		"official": "Ordinance Partially Amending the Toshima City Residents' Meeting Room Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.523Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 127,
+			"reasoningTokens": 95,
+			"batch": true
+		}
+	}
+}

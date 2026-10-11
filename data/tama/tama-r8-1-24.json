@@ -66,5 +66,30 @@
 			"outputTokens": 234,
 			"reasoningTokens": 143
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "107c11217f56fa14",
+		"name": "Renames staff leave and creates partial childcare leave",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Ordinance on Working Hours, Holidays, Leave, etc. for City Employees",
+		"summary": "The ordinance on working hours and other matters, and the salary ordinance, rename “menstrual leave” as “health management leave.” They also establish “partial childcare leave” for employees raising a child until the first March 31 after the later of the day the child turns 9 and the day the child completes the third grade of elementary school or an equivalent school. Employees who are eligible for partial leave under the law are excluded. The leave will be approved unless it would interfere with public duties. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Rename “menstrual leave” as “health management leave” in the ordinance on working hours and other matters, and in the salary ordinance",
+			"Create partial childcare leave"
+		],
+		"who": [
+			"Tama City employees"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:17:15.384Z",
+			"inputTokens": 669,
+			"cachedTokens": 0,
+			"outputTokens": 712,
+			"reasoningTokens": 468
+		}
 	}
 }

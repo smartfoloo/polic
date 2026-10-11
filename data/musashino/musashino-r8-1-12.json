@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai12gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:43.116Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "aaeeb7a90a5fcbae",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance Establishing Standards for the Facilities and Operation of the Infant and Other Children Daycare Support Project",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:19.105Z",
+			"inputTokens": 403,
+			"cachedTokens": 0,
+			"outputTokens": 346,
+			"reasoningTokens": 299
+		}
+	}
 }

@@ -65,5 +65,32 @@
 			"outputTokens": 196,
 			"reasoningTokens": 182
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "09fe229a573320b6",
+		"name": "Revises city employees’ salary scale and allowances",
+		"official": "Proposed Ordinance Partially Amending the Ordinance on Compensation for Employees",
+		"summary": "The city will revise the salary scale for city employees and the payment rates for end-of-term and diligence allowances. The salary scale will take effect on April 1, 2025, and the allowance payment rates will take effect on December 1, 2025. The monthly housing allowance for employees through the first March 31 after they turn 27 will increase from ¥15,000 to ¥30,000, effective April 1, 2026.",
+		"changes": [
+			"Revise the monthly amounts on the salary scale",
+			"Raise the payment rates for end-of-term and diligence allowances",
+			"Raise the monthly housing allowance for eligible employees from ¥15,000 to ¥30,000"
+		],
+		"who": [
+			"Kunitachi City employees",
+			"Employees through the first March 31 after they turn 27"
+		],
+		"why": "The city says this is to revise the salary scale and payment rates for end-of-term and diligence allowances, and to raise the housing allowance for eligible employees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:21.196Z",
+			"inputTokens": 726,
+			"cachedTokens": 0,
+			"outputTokens": 585,
+			"reasoningTokens": 318
+		}
 	}
 }

@@ -59,5 +59,31 @@
 			"outputTokens": 50,
 			"reasoningTokens": 36
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e435dd38d83a9777",
+		"name": "Cuts the mayor's and deputy mayor's salaries for three months",
+		"official": "Ordinance on Special Provisions for the Salaries of the Ota City Mayor and Others",
+		"summary": "The monthly salaries of the mayor and deputy mayor are set out in a separate table in the ordinance. Under this bill, the mayor's salary will be reduced by 30% for three months, and the deputy mayor's salary will be reduced by 10% for three months. Allowances are not subject to the reductions.",
+		"changes": [
+			"Reduces the mayor's monthly salary by 30%",
+			"Reduces the deputy mayor's monthly salary by 10%"
+		],
+		"who": [
+			"The mayor",
+			"The deputy mayor"
+		],
+		"why": "The ward says this is to reduce the mayor's salary by 30% for three months and the deputy mayor's salary by 10% for three months.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:07:19.063Z",
+			"inputTokens": 623,
+			"cachedTokens": 0,
+			"outputTokens": 599,
+			"reasoningTokens": 385
+		}
 	}
 }

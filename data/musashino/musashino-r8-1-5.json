@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai5gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:01.030Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "4b372c8aae1c586d",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance on Remuneration, etc. for Part-Time Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:39.028Z",
+			"inputTokens": 391,
+			"cachedTokens": 0,
+			"outputTokens": 142,
+			"reasoningTokens": 102
+		}
+	}
 }

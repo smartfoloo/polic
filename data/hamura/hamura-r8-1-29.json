@@ -1,0 +1,83 @@
+{
+	"id": "hamura-r8-1-29",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第29号",
+	"official": "羽村市地域包括支援センター条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-10",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "あゆみの移転に伴い条例を改正",
+	"category": "福祉",
+	"summary": "羽村市地域包括支援センターあゆみが移転します。これに伴い条例を改正し、令和8年7月1日に施行します。",
+	"changes": [
+		"地域包括支援センターあゆみの移転に合わせて条例を改正する"
+	],
+	"who": [
+		"地域包括支援センターあゆみを利用する人"
+	],
+	"why": "あゆみの移転に伴い条例を改正するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.859Z",
+		"inputTokens": 1021,
+		"cachedTokens": 0,
+		"outputTokens": 748,
+		"reasoningTokens": 607,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.859Z",
+		"checkedAt": "2026-10-10T07:29:38.606Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 861,
+			"cachedTokens": 0,
+			"outputTokens": 38,
+			"reasoningTokens": 23,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7510845778219829",
+		"name": "Amends ordinance for Ayumi's relocation",
+		"official": "Ordinance Partially Amending the Hamura City Community Comprehensive Support Center Ordinance",
+		"summary": "Hamura City Community Comprehensive Support Center Ayumi will relocate. The ordinance will be amended accordingly and take effect on July 1, 2026.",
+		"changes": [
+			"Amends the ordinance to reflect the relocation of Community Comprehensive Support Center Ayumi"
+		],
+		"who": [
+			"People who use Community Comprehensive Support Center Ayumi"
+		],
+		"why": "The city says the ordinance is being amended because Ayumi is relocating.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.045Z",
+			"inputTokens": 572,
+			"cachedTokens": 0,
+			"outputTokens": 385,
+			"reasoningTokens": 238,
+			"batch": true
+		}
+	}
+}

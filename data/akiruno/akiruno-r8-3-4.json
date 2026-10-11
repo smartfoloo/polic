@@ -58,5 +58,35 @@
 			"outputTokens": 48,
 			"reasoningTokens": 34
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "effe8cbda33ab899",
+		"name": "Sets remuneration review council members’ terms at 2 years",
+		"official": "Ordinance Partially Amending the Akiruno City Ordinance on the Council for Deliberation on Remuneration, etc. for Special-Position Officials",
+		"summary": "Currently, council members serve until deliberations are completed, and the mayor convenes meetings. This bill would allow the mayor to seek the council’s opinions on council members’ remuneration, etc. as needed, and would set members’ terms at 2 years.",
+		"changes": [
+			"Allow the mayor to seek the council’s opinions on council members’ remuneration, etc. as needed",
+			"Set members’ terms at 2 years and give substitute members the remainder of their predecessors’ terms",
+			"Switch from appointing members only when needed to commissioning them, and allow reappointment",
+			"Change the person who convenes meetings from the mayor to the chair"
+		],
+		"who": [
+			"The mayor and the remuneration review council",
+			"Council members and substitute members",
+			"Council members",
+			"The council chair and members"
+		],
+		"why": "The city says this will create a system that can deliberate on council members’ remuneration, etc. promptly when needed.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:15:05.055Z",
+			"inputTokens": 697,
+			"cachedTokens": 0,
+			"outputTokens": 749,
+			"reasoningTokens": 472
+		}
 	}
 }

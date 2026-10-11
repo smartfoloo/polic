@@ -63,5 +63,30 @@
 			"outputTokens": 114,
 			"reasoningTokens": 100
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e630b4f92ee77e7a",
+		"name": "Expands eligible hours for kindergarten education staff’s special work allowance",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries for Kindergarten Education Staff",
+		"summary": "Currently, the hours eligible for the special work allowance for managerial staff are from midnight to 5 a.m. on days other than weekly days off, etc. This bill expands the eligible hours to 10 p.m. through 5 a.m. the following day, excluding hours that fall on weekly days off, etc. It also reorganizes the provisions on work eligible for an allowance of 150%. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Expands the eligible hours to 10 p.m. through 5 a.m. the following day, excluding hours that fall on weekly days off, etc.",
+			"Places the provisions on work eligible for an allowance of 150% in the common provisions of paragraph 3"
+		],
+		"who": [
+			"Kindergarten education staff"
+		],
+		"why": "The ward says this is to expand the hours eligible for payment of the special work allowance for managerial staff.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:20.993Z",
+			"inputTokens": 683,
+			"cachedTokens": 0,
+			"outputTokens": 527,
+			"reasoningTokens": 270
+		}
 	}
 }

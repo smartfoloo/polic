@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai10gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:31.175Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "2e6852909fbdb50e",
+		"official": "Ordinance Partially Amending the Musashino City Community Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:13.469Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 100,
+			"reasoningTokens": 70
+		}
+	}
 }

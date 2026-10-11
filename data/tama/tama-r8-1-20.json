@@ -60,5 +60,29 @@
 			"outputTokens": 148,
 			"reasoningTokens": 134
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e6fd95137c60882d",
+		"name": "Changes the ordinance listing and fees for Suwa District Civic Hall",
+		"official": "Enactment of an Ordinance Partially Amending the Tama City District Civic Hall Ordinance",
+		"summary": "Suwa District Civic Hall is currently listed in the ordinance, which sets its usage fees. This bill removes the hall’s listing and fee provisions, while adding its location under a separate provision and setting fees for meeting rooms and upright pianos. The removals will take effect on November 1, 2026. The additions and other changes will take effect on a date set by rules within one year of promulgation.",
+		"changes": [
+			"Remove the listing and fee provisions for Suwa District Civic Hall; re-list the hall with its location under a separate provision; set meeting-room fees by time period at ¥190, ¥220, and ¥250 for Meeting Room 1, ¥60 and ¥70 for Meeting Room 2, and ¥50 and ¥60 for Meeting Room 3; and set upright-piano fees by time period at ¥100, ¥120, and ¥130 at Toyogaoka and Higashiterakata, and at ¥50 or ¥60 at Suwa"
+		],
+		"who": [
+			"People who use Suwa District Civic Hall"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:16:45.074Z",
+			"inputTokens": 755,
+			"cachedTokens": 0,
+			"outputTokens": 1461,
+			"reasoningTokens": 1174
+		}
 	}
 }

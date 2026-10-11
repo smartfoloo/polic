@@ -84,5 +84,34 @@
 			"outputTokens": 597,
 			"reasoningTokens": 196
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2c66b009e13ec576",
+		"name": "Creates investigations into bullying reports and recommendations for corrective action",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Preventing Bullying of Children",
+		"summary": "The current ordinance sets out the roles of the city, schools, and others in preventing bullying. The proposed amendment changes the ordinance's name and sets out a prohibition on bullying by children and their duty to make efforts to provide information. It also asks municipal schools, residents, and others to cooperate with the city's measures. In addition, it adds procedures for investigating reports made to the mayor and, after an investigation, recommending that municipal schools and others take action and requesting a report on the results.",
+		"changes": [
+			"Set out a prohibition on bullying by children and their duty to make efforts to provide information, and require municipal schools, residents, and others to cooperate with the city's measures",
+			"Establish a system for people to submit reports concerning bullying prevention, etc. to the mayor, and allow the mayor to conduct necessary investigations",
+			"Allow the mayor to recommend that municipal schools and others take measures such as monitoring, instruction in a separate room, and class reassignment",
+			"Require recipients of recommendations to report the results of their response, and notify relevant organizations, etc. when deemed necessary"
+		],
+		"who": [
+			"Children",
+			"Parents and guardians",
+			"People who report bullying to the mayor"
+		],
+		"why": "The city says this is to launch new anti-bullying measures in addition to existing measures.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:12:34.018Z",
+			"inputTokens": 774,
+			"cachedTokens": 0,
+			"outputTokens": 1179,
+			"reasoningTokens": 843
+		}
 	}
 }

@@ -1,0 +1,98 @@
+{
+	"id": "kawasaki-r8-3-117",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第117号",
+	"official": "川崎市老人福祉・地域交流センター条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第117号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_117.pdf",
+			"fetchedAt": "2026-10-08T11:12:10.417Z"
+		}
+	],
+	"name": "センター施設の利用料金上限額を改定",
+	"category": "福祉",
+	"summary": "現在、老人福祉・地域交流センターの施設には、種類や時間帯ごとに利用料金が定められています。この議案で、利用料金の上限額を改定します。令和9年4月1日から施行し、施行時点ですでに利用許可を受けている分は従来どおりです。",
+	"changes": [
+		"施設の種類や時間帯ごとに、利用料金の上限額を改定する",
+		"利用許可を受けている分は従来の取扱いとする"
+	],
+	"who": [
+		"老人福祉・地域交流センターを利用する人"
+	],
+	"why": "老人福祉・地域交流センターの利用料金の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.874Z",
+		"inputTokens": 1699,
+		"cachedTokens": 0,
+		"outputTokens": 1942,
+		"reasoningTokens": 1705,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.650Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "施設の種類や時間帯ごとに、利用料金の上限額を改定する",
+				"note": "原文の別表に示された改定後の具体的な上限額（かわさきのホール全日16,780円など）がなく、利用者に直接関わる料金変更の内容が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1608,
+			"cachedTokens": 0,
+			"outputTokens": 289,
+			"reasoningTokens": 184,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c97e3cbb2332922d",
+		"name": "Revises maximum fees for using center facilities",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Ordinance on Senior Welfare and Community Exchange Centers",
+		"summary": "The facilities at Senior Welfare and Community Exchange Centers currently have fees set according to facility type and time period. This bill revises the maximum fees. It will take effect on April 1, 2027. The previous rules will continue to apply to uses for which permission has already been granted when it takes effect.",
+		"changes": [
+			"Revises the maximum fees according to facility type and time period",
+			"Keeps the previous rules for uses for which permission has been granted"
+		],
+		"who": [
+			"People who use Senior Welfare and Community Exchange Centers"
+		],
+		"why": "The city says it is revising the maximum fees for using Senior Welfare and Community Exchange Centers.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.061Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 592,
+			"reasoningTokens": 384,
+			"batch": true
+		}
+	}
+}

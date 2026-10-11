@@ -1,0 +1,47 @@
+{
+	"id": "sagamihara-r8-6-88",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第88号",
+	"official": "相模原市営霊園条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第88号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "霊園の許可証の再交付手数料を390円に",
+	"category": "税・手数料",
+	"summary": "市営霊園の使用許可証を再交付したり、書き換えたりする際の手数料は、現在1件300円です。この議案では1件390円に改め、令和9年1月1日から施行します。",
+	"changes": [
+		"使用許可証の再交付・書換え手数料を1件300円から390円に引き上げる"
+	],
+	"who": [
+		"市営霊園の使用許可証の再交付や書換えを申請する人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づき、使用料などを見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.846Z",
+		"inputTokens": 1382,
+		"cachedTokens": 0,
+		"outputTokens": 663,
+		"reasoningTokens": 462,
+		"batch": true
+	}
+}

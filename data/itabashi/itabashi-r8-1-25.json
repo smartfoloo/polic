@@ -32,39 +32,76 @@
 	"category": "福祉",
 	"summary": "一時保護施設で児童指導員になるための資格要件が定められています。この議案で、こども家庭ソーシャルワーカーの資格を持つ人も要件に加え、条文の参照先を改めます。",
 	"changes": [
-		"児童指導員の資格要件にこども家庭ソーシャルワーカーを加える",
+		"児童指導員として認める対象に、同資格を持つ人を加える",
 		"条文の参照先を第33条の10第1項各号に改める"
 	],
 	"who": [
 		"こども家庭ソーシャルワーカーの資格を持つ人",
 		"一時保護施設"
 	],
-	"why": "内閣府令の改正に伴い、児童指導員の資格要件にこども家庭ソーシャルワーカーの資格を持つ人を加え、必要な規定を整えるためと、区は説明しています。",
+	"why": "内閣府令の改正に伴い、こども家庭ソーシャルワーカーの資格を持つ人を児童指導員として認める対象に加え、必要な規定を整えるためと、区は説明しています。",
 	"draft": {
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:51:32.084Z",
+		"generatedAt": "2026-10-08T23:21:26.763Z",
 		"inputTokens": 1350,
 		"cachedTokens": 0,
 		"outputTokens": 753,
-		"reasoningTokens": 516
+		"reasoningTokens": 516,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:21:26.763Z",
+			"notes": [
+				"code: copied from the source (25 chars): 「児童指導員の資格要件にこども家庭ソーシャルワーカー」"
+			],
+			"inputTokens": 1724,
+			"cachedTokens": 1025,
+			"outputTokens": 1064,
+			"reasoningTokens": 800
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:51:32.084Z",
-		"checkedAt": "2026-10-08T05:27:26.950Z",
-		"flags": [
-			"copied from the source (25 chars): 「児童指導員の資格要件にこども家庭ソーシャルワーカー」"
-		],
+		"draftAt": "2026-10-08T23:21:26.763Z",
+		"checkedAt": "2026-10-08T23:21:28.696Z",
+		"flags": [],
 		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1282,
+			"inputTokens": 1281,
 			"cachedTokens": 0,
 			"outputTokens": 12,
 			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5d9950814b3f1744",
+		"name": "Adds the child and family social worker qualification to eligibility requirements",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance Establishing Standards for the Facilities and Operation of Temporary Protection Facilities",
+		"summary": "The qualifications required to become a child guidance staff member at a temporary protection facility are set out. This bill adds people who hold the child and family social worker qualification to those requirements and revises the references to other provisions in the text.",
+		"changes": [
+			"Adds people who hold the child and family social worker qualification to those recognized as child guidance staff",
+			"Changes the provision reference to the items in Article 33-10, paragraph 1"
+		],
+		"who": [
+			"People who hold the child and family social worker qualification",
+			"Temporary protection facilities"
+		],
+		"why": "The ward says this is to add people who hold the child and family social worker qualification to those recognized as child guidance staff, and to make the necessary provisions, following an amendment to a Cabinet Office Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:07:20.736Z",
+			"inputTokens": 686,
+			"cachedTokens": 0,
+			"outputTokens": 920,
+			"reasoningTokens": 687
 		}
 	}
 }

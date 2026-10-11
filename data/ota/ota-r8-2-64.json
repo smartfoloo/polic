@@ -57,5 +57,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "eba98292b218aea9",
+		"name": "Suspends operation of Silver Pia Kamata",
+		"official": "Ordinance on the Suspension of Operation of Ota City Silver Pia Kamata as Provided for in the Ota City Silver Pia Ordinance",
+		"summary": "Operation of Ota City Silver Pia Kamata will be suspended from October 1, 2026, to August 31, 2028. The suspension period is for major renovations.",
+		"changes": [
+			"Suspends operation from October 1, 2026, to August 31, 2028"
+		],
+		"who": [
+			"Users of Ota City Silver Pia Kamata"
+		],
+		"why": "The ward says operation will be suspended during the period of major renovations.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:31.255Z",
+			"inputTokens": 606,
+			"cachedTokens": 0,
+			"outputTokens": 463,
+			"reasoningTokens": 292
+		}
 	}
 }

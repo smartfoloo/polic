@@ -56,5 +56,28 @@
 			"outputTokens": 52,
 			"reasoningTokens": 37
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "279c6c6e1d694899",
+		"name": "Changes article numbers for the mayor’s and others’ partial exemption from damages liability",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Partial Exemption from Damages Liability of the Mayor, etc.",
+		"summary": "This ordinance provides for partial exemption from the mayor’s and others’ liability to pay damages to the city. Following amendments to the Local Autonomy Act and its Enforcement Order, it updates the references to articles in the ordinance. It takes effect on September 24, 2026.",
+		"changes": [
+			"Amends the article number of the Local Autonomy Act cited in the ordinance",
+			"Changes the article number of the Local Autonomy Act Enforcement Order used to calculate the exemption amount from Article 173-4 to Article 173-5"
+		],
+		"who": [],
+		"why": "The city says this is because an act partially amending the Local Autonomy Act and a cabinet order partially amending the Local Autonomy Act Enforcement Order, etc., were promulgated.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:13:02.769Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 796,
+			"reasoningTokens": 564
+		}
 	}
 }

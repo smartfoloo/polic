@@ -77,5 +77,34 @@
 			"outputTokens": 441,
 			"reasoningTokens": 232
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fb1f3e9e887b3564",
+		"name": "Creates six types of business attraction incentives",
+		"official": "Inagi City Business Attraction Ordinance",
+		"summary": "The city has an ordinance to attract businesses. This bill completely revises the ordinance, dividing the incentives that can be granted to companies and providers of business sites into six types, and setting out who is eligible, the conditions, and additional payments. It will take effect on April 1, 2026.",
+		"changes": [
+			"Divide the incentives into six types for companies and providers of business sites",
+			"Set requirements for receiving incentives, such as the number of regular employees, site area, fixed asset value, and the area of stores or guest rooms",
+			"Create a system that allows additional payments for hiring new employees who live in the city or awarding construction contracts to businesses in the city",
+			"Set out when grant decisions may be cancelled, when incentives and other payments must be repaid, and cases excluded when a business establishment moves within the city"
+		],
+		"who": [
+			"Companies opening a business establishment in the city",
+			"Companies operating restaurants, inns or hotels",
+			"Landowners who sell or lease business sites"
+		],
+		"why": "The city says this is to expand incentive measures and further promote the attraction of businesses.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:03:43.347Z",
+			"inputTokens": 759,
+			"cachedTokens": 0,
+			"outputTokens": 972,
+			"reasoningTokens": 690
+		}
 	}
 }

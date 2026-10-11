@@ -1,0 +1,38 @@
+{
+	"id": "koto-r8-2-72",
+	"assembly": "tokyo/koto",
+	"approved": false,
+	"number": "議案第72号",
+	"official": "江東区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.koto.lg.jp/650102/documents/080701giannkekka.pdf",
+			"fetchedAt": "2026-10-08T10:54:42.905Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "faa78457f83bed16",
+		"official": "Ordinance Partially Amending the Koto City Special Ward Tax Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.519Z",
+			"inputTokens": 381,
+			"cachedTokens": 0,
+			"outputTokens": 143,
+			"reasoningTokens": 112,
+			"batch": true
+		}
+	}
+}

@@ -64,5 +64,31 @@
 			"outputTokens": 128,
 			"reasoningTokens": 114
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ccb8bd23f6c2215e",
+		"name": "Adds two procedures that use individual numbers",
+		"official": "Ordinance Partially Amending the Fuchu City Ordinance on the Use of Individual Numbers",
+		"summary": "The city's ordinance specifies which administrative procedures use individual numbers and what information is used in those procedures. This bill adds procedures for providing daily living aids and subsidizing childcare fees for the regular-use childcare program, and specifies the information used for each.",
+		"changes": [
+			"Uses information on public assistance, taxes, resident records and other matters, as prescribed by rules, in procedures to provide daily living aids to children, etc. with specified chronic pediatric diseases",
+			"Uses information on taxes, resident records and other matters, as prescribed by rules, in procedures to subsidize childcare fees for the regular-use childcare program"
+		],
+		"who": [
+			"People applying for daily living aids for children, etc. with specified chronic pediatric diseases",
+			"People applying for a childcare fee subsidy for the regular-use childcare program"
+		],
+		"why": "The city says this is to add procedures in which the city itself uses individual numbers.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:25.131Z",
+			"inputTokens": 700,
+			"cachedTokens": 0,
+			"outputTokens": 732,
+			"reasoningTokens": 486
+		}
 	}
 }

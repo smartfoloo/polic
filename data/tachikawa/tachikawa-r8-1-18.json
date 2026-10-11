@@ -59,5 +59,31 @@
 			"outputTokens": 132,
 			"reasoningTokens": 117
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "074d624c47c001b0",
+		"name": "Adds the third Saturday in January to library closure days",
+		"official": "Ordinance Partially Amending the Tachikawa City Library Ordinance",
+		"summary": "The ordinance sets the library’s closure days and opening hours. Until now, the third Saturday in January was not included among the closure days for the main library and its branches. After the amendment, it will be added. The wording about holidays and other matters will also be整理.",
+		"changes": [
+			"Add the third Saturday in January to the closure days for the main library and its branches",
+			"Organize the wording about holidays in the provisions on closure days and opening hours",
+			"Change “one” to “any of” in the provisions on use restrictions and other matters"
+		],
+		"who": [
+			"People who use the city library"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:10:09.315Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 408,
+			"reasoningTokens": 211
+		}
 	}
 }

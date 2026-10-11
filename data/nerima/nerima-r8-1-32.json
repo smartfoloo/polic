@@ -1,0 +1,89 @@
+{
+	"id": "nerima-r8-1-32",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第32号",
+	"official": "練馬区国民健康保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "区民生活委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-03",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "国保料の限度額や保険料率を変更",
+	"category": "健康・医療",
+	"summary": "練馬区の国民健康保険料には、賦課限度額や均等割額の減額判定基準、保険料率が定められています。この改正で、子ども・子育て支援納付金の規定を設け、賦課限度額を引き上げるほか、減額判定基準と保険料率を変更します。施行日は令和8年4月1日です。",
+	"changes": [
+		"子ども・子育て支援納付金に関する規定を新設する",
+		"保険料の賦課限度額を引き上げる",
+		"均等割額の減額判定基準を改める",
+		"保険料率を変更する"
+	],
+	"who": [
+		"練馬区の国民健康保険加入者"
+	],
+	"why": "国民健康保険法と同法施行令、および特別区国民健康保険事業の調整に関する共通基準の改正に伴うものと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.879Z",
+		"inputTokens": 1127,
+		"cachedTokens": 0,
+		"outputTokens": 1298,
+		"reasoningTokens": 986,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.879Z",
+		"checkedAt": "2026-10-10T07:29:38.669Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1106,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7a85ef2715e8743b",
+		"name": "Changes National Health Insurance premium limits and rates",
+		"official": "Ordinance Partially Amending the Nerima City National Health Insurance Ordinance",
+		"summary": "Nerima City’s National Health Insurance premiums have an assessment limit, criteria for determining reductions in the per-capita amount, and premium rates. This amendment adds provisions on the child and childcare support contribution, raises the assessment limit, and changes the reduction criteria and premium rates. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds provisions on the child and childcare support contribution",
+			"Raises the assessment limit for insurance premiums",
+			"Revises the criteria for reductions in the per-capita amount",
+			"Changes the insurance premium rates"
+		],
+		"who": [
+			"People enrolled in Nerima City National Health Insurance"
+		],
+		"why": "The ward says this is in response to revisions to the National Health Insurance Act, its Enforcement Order, and the common standards for coordinating National Health Insurance operations among the special wards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.068Z",
+			"inputTokens": 718,
+			"cachedTokens": 0,
+			"outputTokens": 883,
+			"reasoningTokens": 651,
+			"batch": true
+		}
+	}
+}

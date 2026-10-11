@@ -62,5 +62,29 @@
 			"outputTokens": 42,
 			"reasoningTokens": 27
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d8afc03735f9cb98",
+		"name": "Changes eligibility to apply for senior housing",
+		"official": "Ordinance Partially Amending the Chofu City Senior Housing Ordinance",
+		"summary": "The current ordinance sets out the eligibility requirements for people applying to use senior housing in Article 6. This bill deletes the proviso in that article. The ordinance will take effect on the date it is promulgated.",
+		"changes": [
+			"Deletes the proviso in Article 6"
+		],
+		"who": [
+			"People applying to use senior housing"
+		],
+		"why": "The city says this is to revise the eligibility requirements for applicants.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:17:27.019Z",
+			"inputTokens": 564,
+			"cachedTokens": 0,
+			"outputTokens": 324,
+			"reasoningTokens": 178
+		}
 	}
 }

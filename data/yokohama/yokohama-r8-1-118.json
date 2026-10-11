@@ -1,0 +1,94 @@
+{
+	"id": "yokohama-r8-1-118",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第118号議案",
+	"official": "横浜市地区計画の区域内における建築物等の制限に関する条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第118号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si118.pdf",
+			"fetchedAt": "2026-10-08T11:01:56.890Z"
+		}
+	],
+	"name": "藤が丘駅前地区の建築ルールを追加",
+	"category": "まちづくり",
+	"summary": "横浜市は、地区計画の区域ごとに建築物の用途や規模などを条例で制限しています。この議案で藤が丘駅前地区を対象に加え、地区内の区分ごとに建築物の用途や規模、外観などのルールを定めます。",
+	"changes": [
+		"藤が丘駅前地区の区分ごとに建築できる建物の用途を定める",
+		"建築物の容積率や高さ、敷地面積、緑化率などの基準を定める",
+		"壁面の位置の制限を定める"
+	],
+	"who": [
+		"藤が丘駅前地区で建築する人や事業者"
+	],
+	"why": "藤が丘駅前地区の区域内にある建築物の敷地などに関する制限を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.558Z",
+		"inputTokens": 11292,
+		"cachedTokens": 0,
+		"outputTokens": 792,
+		"reasoningTokens": 516,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.558Z",
+			"notes": [
+				"ai [error] changes/direction: 「壁面の位置や建築物のデザイン、色彩などのルールを定める」 → 壁面の位置の制限は追加されますが、別表第13のデザイン・色彩等の記載は「第24条に基づく制限とならないもの」です。条例による制限の追加として扱うのは向きが逆です。"
+			],
+			"inputTokens": 11750,
+			"cachedTokens": 1025,
+			"outputTokens": 549,
+			"reasoningTokens": 284,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.695Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "壁面の位置や建築物のデザイン、色彩などのルールを定める",
+				"note": "壁面の位置の制限は追加されますが、別表第13のデザイン・色彩等の記載は「第24条に基づく制限とならないもの」です。条例による制限の追加として扱うのは向きが逆です。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "建築物の容積率や高さ、敷地面積、緑化率などの基準を定める",
+				"note": "別表第５の建蔽率の最高限度と、別表第９の建築面積の最低限度が明示されていません。いずれも建築する人や事業者に直接関わる主な制限です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 11242,
+			"cachedTokens": 0,
+			"outputTokens": 382,
+			"reasoningTokens": 159,
+			"batch": true
+		}
+	}
+}

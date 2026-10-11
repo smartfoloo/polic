@@ -80,5 +80,32 @@
 			"outputTokens": 496,
 			"reasoningTokens": 193
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b224f329464bee94",
+		"name": "Revises childcare service standards to match age categories",
+		"official": "Ordinance Partially Amending the Ordinance on Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Services in Machida City",
+		"summary": "The city's ordinance sets standards for the operation of childcare facilities and community-based childcare services. This bill revises provisions according to children's ages and childcare certification categories, and also sets standards for small-scale childcare services that accept only children aged 3 and over.",
+		"changes": [
+			"Defines small-scale childcare services separately as services for children under 3 and services limited to children aged 3 and over",
+			"Sets standards for capacity and application selection for small-scale childcare services limited to children aged 3 and over",
+			"Revises provisions on user placement, fees, coordination and other matters for childcare facilities and community-based childcare services to match the applicable categories"
+		],
+		"who": [
+			"Parents and guardians of children using childcare facilities or community-based childcare services",
+			"Operators of specified education and childcare facilities or community-based childcare services"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:33.959Z",
+			"inputTokens": 721,
+			"cachedTokens": 0,
+			"outputTokens": 568,
+			"reasoningTokens": 315
+		}
 	}
 }

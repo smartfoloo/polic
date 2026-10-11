@@ -63,5 +63,35 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d7a70d8c0a600e1e",
+		"name": "Establishes a fund to protect and make use of cultural properties",
+		"official": "Meguro City Cultural Property Protection Fund Ordinance",
+		"summary": "Meguro City will establish a fund to protect and make use of cultural properties. The amount to be added to the fund will be set in the general account budget. All or part of the fund can be used when needed to protect or make use of cultural properties.",
+		"changes": [
+			"Establishes a fund to protect and make use of cultural properties",
+			"Adds to the fund the amount set in the general account budget",
+			"Adds the fund’s investment earnings to the fund",
+			"Allows all or part of the fund to be used when needed to protect or make use of cultural properties"
+		],
+		"who": [
+			"Cultural properties",
+			"The general account budget",
+			"The fund’s investment earnings",
+			"The fund"
+		],
+		"why": "The ward says this is to help protect and make use of cultural properties.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:54:24.225Z",
+			"inputTokens": 629,
+			"cachedTokens": 0,
+			"outputTokens": 939,
+			"reasoningTokens": 709
+		}
 	}
 }

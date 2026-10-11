@@ -61,5 +61,31 @@
 			"outputTokens": 110,
 			"reasoningTokens": 95
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8fc27a98c84c928b",
+		"name": "Revises care leave and care-hour rules and renames menstrual leave",
+		"official": "Ordinance Partially Amending the Ome City Ordinance on Working Hours, Holidays, Leave, etc.",
+		"summary": "Ome City employees’ leave system uses the name “menstrual leave” and sets periods for care leave and care hours. This bill renames menstrual leave as health management leave and extends the period for care leave. It also changes the period during which care hours may be taken and when applications must be made.",
+		"changes": [
+			"Renames menstrual leave as health management leave and extends the approval period for care leave from 6 months to 1 year, and the period additionally allowed from 180 days to 365 days",
+			"Changes the period for taking care hours from a continuous 3-year period starting on the first day to a period considered necessary, and sets application timing for the initial period and each subsequent fiscal year"
+		],
+		"who": [
+			"Ome City employees who use care leave or care hours",
+			"Ome City employees who use leave related to menstruation"
+		],
+		"why": "The city says this is to support employees in balancing caregiving and work, and to ease psychological reluctance to taking leave related to menstruation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:59:17.589Z",
+			"inputTokens": 768,
+			"cachedTokens": 0,
+			"outputTokens": 1123,
+			"reasoningTokens": 839
+		}
 	}
 }

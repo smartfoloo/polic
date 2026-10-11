@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai11gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:37.067Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "d941aed56f4e5f69",
+		"official": "Ordinance Partially Amending the Musashino City Seal Registration Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:15.097Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 109,
+			"reasoningTokens": 78
+		}
+	}
 }

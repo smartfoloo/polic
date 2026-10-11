@@ -1,0 +1,44 @@
+{
+	"id": "kiyose-r8-1-15",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第15号",
+	"official": "清瀬市職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-16",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/950/r8.1.shicyougian.zenbu0316.pdf",
+			"fetchedAt": "2026-10-10T14:41:36.069Z"
+		}
+	],
+	"name": "課長級の給与表と若手職員の住居手当を改定",
+	"category": "行政のしくみ",
+	"summary": "現在の条例では、市職員の給与表や住居手当を定めています。この議案で、課長級の給与表を改め、満27歳に達する日以後の最初の3月31日までの職員の住居手当を30,000円に引き上げます。",
+	"changes": [
+		"課長級に適用する給与表を改定する",
+		"住居手当を30,000円に引き上げる"
+	],
+	"who": [
+		"課長級の市職員",
+		"満27歳に達する日以後の最初の3月31日までの市職員"
+	],
+	"why": "東京都人事委員会の勧告に準拠して市職員の行政職給料表を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.819Z",
+		"inputTokens": 1124,
+		"cachedTokens": 0,
+		"outputTokens": 1292,
+		"reasoningTokens": 1071,
+		"batch": true
+	}
+}

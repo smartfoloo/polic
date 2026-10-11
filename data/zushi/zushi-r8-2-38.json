@@ -1,0 +1,84 @@
+{
+	"id": "zushi-r8-2-38",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第38号",
+	"official": "逗子市漁業振興センター条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-23",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1014366.html",
+			"fetchedAt": "2026-10-08T11:22:22.787Z"
+		},
+		{
+			"label": "議案第38号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/014/366/r8-2t-gian38.pdf",
+			"fetchedAt": "2026-10-08T11:22:34.766Z"
+		}
+	],
+	"name": "漁業振興センター条例の組合名を変更",
+	"category": "行政のしくみ",
+	"summary": "現在の条例には「小坪漁業協同組合」と記載されています。この議案では、これを「湘南漁業協同組合小坪支所」に改め、条例は公布日に施行し、改正後の規定を令和8年1月5日から適用します。",
+	"changes": [
+		"条例に記載する組合名を「小坪漁業協同組合」から「湘南漁業協同組合小坪支所」に改める"
+	],
+	"who": [],
+	"why": "小坪漁業協同組合の合併に伴って組合名が変わったためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.892Z",
+		"inputTokens": 1246,
+		"cachedTokens": 0,
+		"outputTokens": 833,
+		"reasoningTokens": 644,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.892Z",
+		"checkedAt": "2026-10-10T07:29:38.749Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1120,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f07ee20b2b1d3621",
+		"name": "Changes the cooperative name in the fisheries promotion center ordinance",
+		"official": "Regarding the Partial Amendment of the Zushi City Fisheries Promotion Center Ordinance",
+		"summary": "The current ordinance names the “Kotsubo Fisheries Cooperative.” This bill changes that name to the “Shonan Fisheries Cooperative, Kotsubo Branch.” The ordinance will take effect on the date it is promulgated, and the amended provisions will apply from January 5, 2026.",
+		"changes": [
+			"Changes the cooperative name in the ordinance from “Kotsubo Fisheries Cooperative” to “Shonan Fisheries Cooperative, Kotsubo Branch”"
+		],
+		"who": [],
+		"why": "The city says the cooperative's name changed following the merger of Kotsubo Fisheries Cooperative.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.078Z",
+			"inputTokens": 615,
+			"cachedTokens": 0,
+			"outputTokens": 412,
+			"reasoningTokens": 236,
+			"batch": true
+		}
+	}
+}

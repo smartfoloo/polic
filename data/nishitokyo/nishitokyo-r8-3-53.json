@@ -1,0 +1,38 @@
+{
+	"id": "nishitokyo-r8-3-53",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第53号",
+	"official": "西東京市都市計画税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-08-28",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/0803kaikinainittei.html",
+			"fetchedAt": "2026-10-08T10:59:50.301Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "9a5052989f6af6ae",
+		"official": "Ordinance Partially Amending the Nishitokyo City Urban Planning Tax Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.521Z",
+			"inputTokens": 381,
+			"cachedTokens": 0,
+			"outputTokens": 94,
+			"reasoningTokens": 61,
+			"batch": true
+		}
+	}
+}

@@ -35,7 +35,7 @@
 		"所得割率を基礎課税分5.52%から5.80%、後期高齢者支援金分1.98%から2.08%、介護納付金分1.75%から1.84%に改める。均等割額を基礎課税分29,000円から30,500円、後期高齢者支援金分10,300円から10,900円、介護納付金分12,000円から12,600円に改める",
 		"基礎課税額の上限を65万円から66万円、後期高齢者支援金課税額の上限を24万円から26万円に引き上げる",
 		"子ども・子育て支援納付金課税額を新設し、所得割率0.30%、被保険者1人につき均等割額1,900円、18歳以上の被保険者1人につき100円で算定し、上限を3万円とする",
-		"新設する課税額に低所得世帯・未就学児・出産被保険者の減額を設け、18歳未満の被保険者分の均等割額を全額減額する"
+		"新設する課税額に低所得世帯・未就学児・出産被保険者の減額を設け、18歳に達する日以後の最初の3月31日までの被保険者分の均等割額を全額減額する"
 	],
 	"who": [
 		"調布市の国民健康保険加入者とその世帯"
@@ -45,40 +45,65 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:20:53.733Z",
+		"generatedAt": "2026-10-08T23:14:57.932Z",
 		"inputTokens": 4328,
 		"cachedTokens": 0,
 		"outputTokens": 3345,
-		"reasoningTokens": 2833
+		"reasoningTokens": 2833,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:14:57.932Z",
+			"notes": [
+				"ai [check] changes/fact: 「18歳未満の被保険者分の均等割額を全額減額する」 → 原文の第10条第4項は、対象を「18歳に達する日以後の最初の3月31日以前」の被保険者と定義しており、18歳になった被保険者も含みます。単に18歳未満とすると対象範囲が狭く読めます。"
+			],
+			"inputTokens": 5027,
+			"cachedTokens": 1025,
+			"outputTokens": 783,
+			"reasoningTokens": 258
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:20:53.733Z",
-		"checkedAt": "2026-10-08T05:09:37.605Z",
+		"draftAt": "2026-10-08T23:14:57.932Z",
+		"checkedAt": "2026-10-08T23:15:03.158Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "check",
-				"quote": "18歳未満の被保険者分の均等割額を全額減額する",
-				"note": "原文の第10条第4項は、対象を「18歳に達する日以後の最初の3月31日以前」の被保険者と定義しており、18歳になった被保険者も含みます。単に18歳未満とすると対象範囲が狭く読めます。"
-			},
-			{
-				"field": "changes",
-				"kind": "omission",
-				"severity": "check",
-				"quote": "新設する課税額に低所得世帯・未就学児・出産被保険者の減額を設け、18歳未満の被保険者分の均等割額を全額減額する",
-				"note": "原文の第10条第1項・第2項では、新設分だけでなく、既存の基礎課税分・後期高齢者支援金分・介護納付金分の低所得世帯向け減額や、既存の未就学児向け減額の金額も引き上げています。この変更が記載されていません。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 4507,
+			"inputTokens": 4520,
 			"cachedTokens": 0,
-			"outputTokens": 509,
-			"reasoningTokens": 221
+			"outputTokens": 142,
+			"reasoningTokens": 128
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "93fa8a375a370a44",
+		"name": "Adds a child and childcare support contribution to National Health Insurance tax",
+		"official": "Ordinance Partially Amending the Chofu City National Health Insurance Tax Levy and Collection Ordinance",
+		"summary": "The tax rates and per-capita amounts for the current National Health Insurance tax will be revised. A new taxable amount to fund the child and childcare support contribution will also be introduced, calculated based on factors such as income and the number of enrollees. The ordinance will take effect on April 1, 2026, and apply to taxes for fiscal year 2026 and later.",
+		"changes": [
+			"Revises the income-based rates from 5.52% to 5.80% for the basic tax portion, from 1.98% to 2.08% for the late-stage elderly support contribution portion, and from 1.75% to 1.84% for the nursing care contribution portion; revises the per-capita amounts from ¥29,000 to ¥30,500 for the basic tax portion, from ¥10,300 to ¥10,900 for the late-stage elderly support contribution portion, and from ¥12,000 to ¥12,600 for the nursing care contribution portion",
+			"Raises the cap on the basic taxable amount from ¥650,000 to ¥660,000 and the cap on the late-stage elderly support contribution taxable amount from ¥240,000 to ¥260,000",
+			"Introduces a taxable amount for the child and childcare support contribution, calculated using an income-based rate of 0.30%, a per-capita amount of ¥1,900 for each insured person, and ¥100 for each insured person aged 18 or older, with a cap of ¥30,000",
+			"Provides reductions in the new taxable amount for low-income households, preschool-age children, and insured people who give birth; fully reduces the per-capita amount for insured people through March 31 following the date they turn 18"
+		],
+		"who": [
+			"National Health Insurance enrollees in Chofu City and their households"
+		],
+		"why": "The city says this is to revise the tax rates used to calculate the income-based amount and to set the method for levying the taxable amount for the child and childcare support contribution.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:17:58.560Z",
+			"inputTokens": 935,
+			"cachedTokens": 0,
+			"outputTokens": 933,
+			"reasoningTokens": 441
 		}
 	}
 }

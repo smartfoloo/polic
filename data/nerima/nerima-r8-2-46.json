@@ -1,0 +1,79 @@
+{
+	"id": "nerima-r8-2-46",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第46号",
+	"official": "練馬区立都市公園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "都市整備委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-08",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai2teirei/0802gian.html",
+			"fetchedAt": "2026-10-08T10:55:37.319Z"
+		}
+	],
+	"name": "大泉町一丁目緑地を新設",
+	"category": "まちづくり",
+	"summary": "練馬区立都市公園条例を改正し、緑地を1か所新たに設けます。大泉町一丁目緑地の所在地は練馬区大泉町一丁目46番34号で、施行日は公布の日です。",
+	"changes": [
+		"大泉町一丁目緑地を新設する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.880Z",
+		"inputTokens": 1024,
+		"cachedTokens": 0,
+		"outputTokens": 516,
+		"reasoningTokens": 395,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.880Z",
+		"checkedAt": "2026-10-10T07:29:38.673Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 829,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e5659be2f4ffdded",
+		"name": "Establishes Oizumicho 1-chome Green Space",
+		"official": "Ordinance Partially Amending the Nerima City Urban Parks Ordinance",
+		"summary": "The Nerima City Urban Parks Ordinance is amended to establish one new green space. Oizumicho 1-chome Green Space is located at 46-34 Oizumicho 1-chome, Nerima City. It takes effect on the date of promulgation.",
+		"changes": [
+			"Establishes Oizumicho 1-chome Green Space"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.069Z",
+			"inputTokens": 543,
+			"cachedTokens": 0,
+			"outputTokens": 328,
+			"reasoningTokens": 181,
+			"batch": true
+		}
+	}
+}

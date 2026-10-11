@@ -64,5 +64,33 @@
 			"outputTokens": 132,
 			"reasoningTokens": 117
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fc1370c55844cb88",
+		"name": "Revises monthly remuneration and travel expenses for Chofu City assembly members",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Expense Reimbursement for Chofu City Assembly Members",
+		"summary": "The monthly remuneration for Chofu City assembly members is ¥640,000, ¥580,000, or ¥550,000, depending on which of three categories they belong to. This bill changes those amounts to ¥650,000, ¥585,000, and ¥555,000, respectively, and also changes the types of travel expenses and the standards for calculating them. The ordinance takes effect on April 1, 2026. The changes to travel expenses apply to business trips departing on or after that date.",
+		"changes": [
+			"Changes the three monthly remuneration amounts from ¥640,000 to ¥650,000, from ¥580,000 to ¥585,000, and from ¥550,000 to ¥555,000",
+			"Sets the types of travel expenses and bases their amounts on those for designated-position employees of the Tokyo Metropolitan Government",
+			"Changes the scope of travel expense rules from “travel” to “business trips” and deletes Tables 1 and 2"
+		],
+		"who": [
+			"Chofu City assembly members",
+			"Chofu City assembly members",
+			"Chofu City assembly members"
+		],
+		"why": "The city says this is to revise the monthly remuneration and travel expenses for Chofu City assembly members.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:31.821Z",
+			"inputTokens": 741,
+			"cachedTokens": 0,
+			"outputTokens": 1043,
+			"reasoningTokens": 716
+		}
 	}
 }

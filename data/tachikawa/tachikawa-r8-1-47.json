@@ -35,33 +35,60 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:30:38.624Z",
+		"generatedAt": "2026-10-08T23:32:34.720Z",
 		"inputTokens": 1479,
 		"cachedTokens": 0,
 		"outputTokens": 576,
-		"reasoningTokens": 441
+		"reasoningTokens": 441,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:32:34.720Z",
+			"notes": [
+				"ai [check] changes/direction: 「危機管理対策室の担当事務に子どものいじめ防止を加える」 → 原文の新旧対照表では「(4) 子どものいじめ防止に関すること。」が片側のみ記載され、列の対応が崩れているため、改正後への追加であるか確認が必要。"
+			],
+			"inputTokens": 1798,
+			"cachedTokens": 1025,
+			"outputTokens": 404,
+			"reasoningTokens": 251
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:30:38.624Z",
-		"checkedAt": "2026-10-08T05:54:04.082Z",
+		"draftAt": "2026-10-08T23:32:34.720Z",
+		"checkedAt": "2026-10-08T23:32:40.109Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "direction",
-				"severity": "check",
-				"quote": "危機管理対策室の担当事務に子どものいじめ防止を加える",
-				"note": "原文の新旧対照表では「(4) 子どものいじめ防止に関すること。」が片側のみ記載され、列の対応が崩れているため、改正後への追加であるか確認が必要。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
 			"inputTokens": 1300,
 			"cachedTokens": 0,
-			"outputTokens": 314,
-			"reasoningTokens": 205
+			"outputTokens": 163,
+			"reasoningTokens": 148
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "45faf883debb9543",
+		"name": "Adds child bullying prevention to the Crisis Management Office's responsibilities",
+		"official": "Ordinance Partially Amending the Tachikawa City Organization Ordinance",
+		"summary": "Currently, preventing bullying of children is not included among the responsibilities of the Crisis Management Office. This bill adds the prevention of bullying of children to the office's responsibilities. It will take effect on April 1, 2026.",
+		"changes": [
+			"Adds the prevention of bullying of children to the Crisis Management Office's responsibilities"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:14:06.093Z",
+			"inputTokens": 556,
+			"cachedTokens": 0,
+			"outputTokens": 344,
+			"reasoningTokens": 209
 		}
 	}
 }

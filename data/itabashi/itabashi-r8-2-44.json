@@ -75,5 +75,33 @@
 			"outputTokens": 218,
 			"reasoningTokens": 87
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5136e3ad943422cc",
+		"name": "Changes resident tax rules for specified crypto-assets and other matters",
+		"official": "Ordinance Partially Amending the Tokyo Itabashi City Special Ward Tax Ordinance",
+		"summary": "The ordinance changes the rules for resident tax deductions for donations and tax filings by recipients of public pensions and other benefits. It introduces a system for taxing income from specified crypto-assets separately from other income and extends the deadlines for applying the home loan tax deduction and other deductions.",
+		"changes": [
+			"Add donations to public-interest trusts approved by the Tokyo Metropolitan Government governor to the donations eligible for a resident tax deduction",
+			"Set rules on who among recipients of public pensions and other benefits must file and what information must be included in their filings",
+			"Tax income from specified crypto-assets separately from other income at a resident tax income-based rate of 3%, and extend the deadlines for applying the home loan tax deduction and other deductions"
+		],
+		"who": [
+			"People who donate to eligible public-interest trusts",
+			"People who receive public pensions and other benefits and submit a tax filing",
+			"People liable for resident tax who have income from specified crypto-assets"
+		],
+		"why": "The ward says the ordinance establishes provisions needed for taxing specified crypto-assets and handling filings by recipients of public pensions and other benefits following amendments to the Local Tax Act, and extends the deadlines for applying deductions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:09:01.079Z",
+			"inputTokens": 775,
+			"cachedTokens": 0,
+			"outputTokens": 898,
+			"reasoningTokens": 597
+		}
 	}
 }

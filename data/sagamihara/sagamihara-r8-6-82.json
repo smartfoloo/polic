@@ -1,0 +1,50 @@
+{
+	"id": "sagamihara-r8-6-82",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第82号",
+	"official": "相模原市立さがみ湖リフレッシュセンター条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "民生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第82号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "さがみ湖リフレッシュセンターの利用料を改定",
+	"category": "税・手数料",
+	"summary": "さがみ湖リフレッシュセンターの各室の1日（午前9時から午後10時まで）の基本利用料金を改定します。ふれあいルーム1は4,800円から5,600円、ふれあいルーム2は4,500円から5,300円などに変わります。改定後の料金は、令和9年7月1日以後の利用分から適用されます。",
+	"changes": [
+		"ふれあいルーム1の1日料金を4,800円から5,600円に改める",
+		"ふれあいルーム2の1日料金を4,500円から5,300円に改める",
+		"研修室の1日料金を2,400円から2,900円に改める",
+		"調理実習室の1日料金を2,700円から3,000円、会議室の1日料金を1,600円から2,000円に改める"
+	],
+	"who": [
+		"さがみ湖リフレッシュセンターの利用者"
+	],
+	"why": "受益者負担の在り方の基本方針に基づく使用料等の見直しに伴い、利用料金の規定を改正するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.844Z",
+		"inputTokens": 1667,
+		"cachedTokens": 0,
+		"outputTokens": 1437,
+		"reasoningTokens": 1079,
+		"batch": true
+	}
+}

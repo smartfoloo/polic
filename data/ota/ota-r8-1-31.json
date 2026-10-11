@@ -59,5 +59,31 @@
 			"outputTokens": 64,
 			"reasoningTokens": 50
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6b449b57b9bb76f2",
+		"name": "Allows Individual Number Cards to be used for medical expense subsidies",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on Subsidies for Medical Expenses for Infants, Children of Compulsory Education Age, and High School Students, etc.",
+		"summary": "Currently, people use a medical care certificate to receive medical expense subsidies. Under this amendment, when a medical institution, etc. can confirm eligibility for a subsidy, people may present an Individual Number Card in addition to the medical care certificate. It takes effect on April 1, 2026.",
+		"changes": [
+			"Allows people to use an Individual Number Card, in addition to a medical care certificate, when a medical institution, etc. can confirm their eligibility for the subsidy",
+			"Revises the provision concerning dependants to refer to people receiving medical benefits for illness or injury"
+		],
+		"who": [
+			"Infants, children of compulsory education age, and high school students, etc.",
+			"Parents or guardians of children receiving medical expense subsidies"
+		],
+		"why": "The ward says this is to add the option of presenting an Individual Number Card when applying for medical expense subsidies and to update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:06:41.755Z",
+			"inputTokens": 714,
+			"cachedTokens": 0,
+			"outputTokens": 1003,
+			"reasoningTokens": 735
+		}
 	}
 }

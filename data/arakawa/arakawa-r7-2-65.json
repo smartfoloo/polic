@@ -1,0 +1,48 @@
+{
+	"id": "arakawa-r7-2-65",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第65号",
+	"official": "荒川区営運動場の設置、管理に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第65号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian65.html",
+			"fetchedAt": "2026-10-10T14:48:14.135Z"
+		}
+	],
+	"name": "運動場の照明使用料を定める",
+	"category": "まちづくり",
+	"summary": "条例では、多目的グラウンドを延長して使う場合の使用料が規定されています。この議案は、照明設備の使用料を定め、その延長使用料の規定を削ります。",
+	"changes": [
+		"多目的グラウンドの照明設備の使用料を定める",
+		"多目的グラウンドを延長して使う場合の使用料規定を削る"
+	],
+	"who": [
+		"荒川区営区民運動場の多目的グラウンドを利用する人"
+	],
+	"why": "照明設備の使用料を定め、延長して使う場合の使用料規定を削るためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.811Z",
+		"inputTokens": 1063,
+		"cachedTokens": 0,
+		"outputTokens": 925,
+		"reasoningTokens": 737,
+		"batch": true
+	}
+}

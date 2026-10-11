@@ -58,5 +58,30 @@
 			"outputTokens": 160,
 			"reasoningTokens": 145
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4f221d64c255f26a",
+		"name": "Adds Onameji housing complex to the municipal housing list",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Municipal Housing Ordinance",
+		"summary": "The appendix to the Municipal Housing Ordinance lists the names and locations of municipal housing. This bill adds Onameji housing complex and Nishiasakawa-machi as its location. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds Onameji housing complex (Nishiasakawa-machi) to the list of municipal housing"
+		],
+		"who": [
+			"People who want to move into municipal housing",
+			"People living in municipal housing"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:54:44.123Z",
+			"inputTokens": 570,
+			"cachedTokens": 0,
+			"outputTokens": 756,
+			"reasoningTokens": 583
+		}
 	}
 }

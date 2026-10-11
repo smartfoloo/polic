@@ -1,0 +1,48 @@
+{
+	"id": "arakawa-r7-4-83",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第83号",
+	"official": "荒川区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・4月緊急会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・4月緊急会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_4gatsu_ghingikekka.html",
+			"fetchedAt": "2026-10-10T14:49:02.107Z"
+		},
+		{
+			"label": "議案第83号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian83.html",
+			"fetchedAt": "2026-10-10T14:49:14.173Z"
+		}
+	],
+	"name": "軽自動車税の環境性能割を廃止",
+	"category": "税・手数料",
+	"summary": "この条例改正で、軽自動車税の環境性能割を廃止します。あわせて、条例の規定を整えます。",
+	"changes": [
+		"軽自動車税の環境性能割を廃止する",
+		"条例の規定を整える"
+	],
+	"who": [
+		"軽自動車税の環境性能割を納める人"
+	],
+	"why": "地方税法の改正等に伴い、環境性能割を廃止し、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.816Z",
+		"inputTokens": 1031,
+		"cachedTokens": 0,
+		"outputTokens": 666,
+		"reasoningTokens": 508,
+		"batch": true
+	}
+}

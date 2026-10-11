@@ -1,0 +1,88 @@
+{
+	"id": "kanagawa-r8-1-28",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第28号議案",
+	"official": "公益的法人等への職員の派遣等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第28号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "任期付職員を公益的法人などへ派遣可能に",
+	"category": "行政のしくみ",
+	"summary": "現在、条例で公益的法人などへ派遣できる職員の範囲が定められています。この議案では、任期付職員をその範囲に加えます。2026年4月1日に施行します。",
+	"changes": [
+		"公益的法人などへ派遣できる職員に任期付職員を加える"
+	],
+	"who": [
+		"県の任期付職員"
+	],
+	"why": "公益的法人等へ派遣できる職員に任期付職員を追加するためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.864Z",
+		"inputTokens": 1217,
+		"cachedTokens": 0,
+		"outputTokens": 1103,
+		"reasoningTokens": 917,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.864Z",
+		"checkedAt": "2026-10-10T07:29:38.615Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1075,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 34,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6f9898b7d617b9a8",
+		"name": "Allows fixed-term employees to be dispatched to public-interest corporations",
+		"official": "Ordinance Partially Amending the Ordinance Concerning the Dispatch, etc., of Employees to Public-Interest Corporations, etc.",
+		"summary": "The ordinance currently defines which employees can be dispatched to public-interest corporations and similar organizations. This bill adds fixed-term employees to that group. It will take effect on April 1, 2026.",
+		"changes": [
+			"Adds fixed-term employees to the employees who can be dispatched to public-interest corporations and similar organizations"
+		],
+		"who": [
+			"The prefecture's fixed-term employees"
+		],
+		"why": "The prefecture says this is to add fixed-term employees to the employees who can be dispatched to public-interest corporations and similar organizations.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.049Z",
+			"inputTokens": 597,
+			"cachedTokens": 0,
+			"outputTokens": 383,
+			"reasoningTokens": 200,
+			"batch": true
+		}
+	}
+}

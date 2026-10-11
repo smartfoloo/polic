@@ -1,0 +1,94 @@
+{
+	"id": "yokohama-r8-1-ko4",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "交第4号議案",
+	"official": "横浜市貸切旅客自動車条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "交第4号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_ko004.pdf",
+			"fetchedAt": "2026-10-08T11:02:26.838Z"
+		}
+	],
+	"name": "貸切バスの車種区分と運賃を改定",
+	"category": "交通",
+	"summary": "市の貸切旅客自動車は、大型車・中型車・小型車に区分されています。この議案では、コミューター車を区分に加え、車種区分を見直すとともに、運賃と交替運転者配置料金を改定します。令和8年3月1日以降に利用申込みが承諾された分から適用し、それ以前に承諾された分には従来の規定を適用します。",
+	"changes": [
+		"車種区分にコミューター車を加え、小型車を車長6m以上8m以下・旅客席数33以下、コミューター車を車長6m未満・旅客席数14以下とする",
+		"3時間までの時間制運賃を大型車38,400円から55,000円、中型車32,400円から45,000円、小型車27,800円から40,000円にし、3時間を超える場合の1時間当たり運賃を大型車7,680円から11,000円、中型車6,480円から9,000円、小型車5,560円から8,000円に改定し、コミューター車はそれぞれ35,000円、7,000円とする",
+		"1km当たりの運賃を大型車170円から250円、中型車150円から220円、小型車120円から190円に改定し、コミューター車は180円とする",
+		"交替運転者配置料金を1時間当たり3,080円から4,000円、1km当たり40円から60円に改定する"
+	],
+	"who": [
+		"横浜市の貸切旅客自動車を利用する人"
+	],
+	"why": "車種区分を変更するとともに、運賃及び料金を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.886Z",
+		"inputTokens": 2232,
+		"cachedTokens": 0,
+		"outputTokens": 2399,
+		"reasoningTokens": 1907,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.886Z",
+		"checkedAt": "2026-10-10T07:29:38.712Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2402,
+			"cachedTokens": 0,
+			"outputTokens": 92,
+			"reasoningTokens": 77,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f9528a1802ccb77d",
+		"name": "Revises vehicle categories and fares for chartered buses",
+		"official": "Ordinance Partially Amending the Yokohama City Chartered Passenger Vehicle Ordinance",
+		"summary": "Yokohama City's chartered passenger vehicles are classified as large, medium or small. This bill adds commuter vehicles as a category and revises the vehicle categories, fares and relief driver placement fees. The changes apply to bookings accepted on or after March 1, 2026. Bookings accepted before that date will remain subject to the previous rules.",
+		"changes": [
+			"Adds commuter vehicles as a category and defines small vehicles as 6m or more and 8m or less in length, with 33 or fewer passenger seats, and commuter vehicles as less than 6m in length, with 14 or fewer passenger seats",
+			"Raises the time-based fare for up to 3 hours from ¥38,400 to ¥55,000 for large vehicles, from ¥32,400 to ¥45,000 for medium vehicles, and from ¥27,800 to ¥40,000 for small vehicles; revises the fare for each hour over 3 hours from ¥7,680 to ¥11,000 for large vehicles, from ¥6,480 to ¥9,000 for medium vehicles, and from ¥5,560 to ¥8,000 for small vehicles; sets the commuter vehicle fares at ¥35,000 and ¥7,000, respectively",
+			"Revises the fare per kilometer from ¥170 to ¥250 for large vehicles, from ¥150 to ¥220 for medium vehicles, and from ¥120 to ¥190 for small vehicles; sets the commuter vehicle fare at ¥180",
+			"Raises the relief driver placement fee from ¥3,080 to ¥4,000 per hour and from ¥40 to ¥60 per kilometer"
+		],
+		"who": [
+			"People who use Yokohama City's chartered passenger vehicles"
+		],
+		"why": "The city says this is to change the vehicle categories and revise fares and fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.073Z",
+			"inputTokens": 899,
+			"cachedTokens": 0,
+			"outputTokens": 872,
+			"reasoningTokens": 433,
+			"batch": true
+		}
+	}
+}

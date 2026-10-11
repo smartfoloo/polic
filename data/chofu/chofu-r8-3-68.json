@@ -62,5 +62,33 @@
 			"outputTokens": 58,
 			"reasoningTokens": 44
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "83ceadc8fd59a6ae",
+		"name": "Establishes a secretariat in the disaster response headquarters",
+		"official": "Ordinance Partially Amending the Chofu City Disaster Countermeasures Headquarters Ordinance",
+		"summary": "Adds provisions to the Disaster Countermeasures Headquarters Ordinance to establish a secretariat. It also sets out the role of the secretariat director and how secretariat staff carry out their work. The ordinance takes effect on the date of promulgation.",
+		"changes": [
+			"Places a secretariat in the headquarters chief's office",
+			"Appoints a secretariat director to assist the headquarters chief and coordinate matters needed to run the headquarters",
+			"Requires secretariat staff to carry out their duties under the secretariat director's instructions"
+		],
+		"who": [
+			"The secretariat",
+			"The secretariat director",
+			"Secretariat staff"
+		],
+		"why": "The city says this is to set out provisions concerning the secretariat, its director and the staff who belong to it.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:22.585Z",
+			"inputTokens": 627,
+			"cachedTokens": 0,
+			"outputTokens": 717,
+			"reasoningTokens": 494
+		}
 	}
 }

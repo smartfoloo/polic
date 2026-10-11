@@ -61,5 +61,28 @@
 			"outputTokens": 46,
 			"reasoningTokens": 32
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "40bd069528f09f1e",
+		"name": "Revises references to provisions on childcare facility staff",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses in Itabashi City, Tokyo",
+		"summary": "The ward's ordinance sets operating standards for specified education and childcare facilities and similar services. This bill changes which provisions are referenced for staff rules, depending on the type of facility, and deletes some wording from another article.",
+		"changes": [
+			"Deletes part of the wording in Article 15, paragraph 1, item 1",
+			"Changes the references in Article 25 concerning staff according to facility type"
+		],
+		"who": [],
+		"why": "The ward says this is to make the necessary provisions in response to amendments to a Cabinet Office Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:06:37.814Z",
+			"inputTokens": 631,
+			"cachedTokens": 0,
+			"outputTokens": 531,
+			"reasoningTokens": 337
+		}
 	}
 }

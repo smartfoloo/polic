@@ -1,0 +1,91 @@
+{
+	"id": "kawasaki-r8-2-79",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第79号",
+	"official": "川崎市介護保険条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第79号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_79.pdf",
+			"fetchedAt": "2026-10-08T11:09:15.457Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "介護保険料の差額を減額",
+	"category": "健康・医療",
+	"summary": "令和7年度に市町村民税が課されていなかった人が、附則第49項または第50項により令和8年度は課税とみなされる場合、その人がいる世帯の第1号被保険者のうち、保険料が特例の適用がない場合より高くなる人がいます。この議案は、その差額分を減額し、申請を不要にします。",
+	"changes": [
+		"特例の適用で増える保険料の差額を減額する",
+		"保険料の減額に申請を不要とする"
+	],
+	"who": [
+		"令和7年度に市町村民税が課されておらず、令和8年度に附則第49項または第50項により課税とみなされる人がいる世帯の第1号被保険者のうち、保険料が高くなる人"
+	],
+	"why": "令和8年度における介護保険料の減額に係る特例を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.550Z",
+		"inputTokens": 1727,
+		"cachedTokens": 0,
+		"outputTokens": 1237,
+		"reasoningTokens": 988,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.550Z",
+			"notes": [
+				"ai [check] who/fact: 「附則第49項または第50項の適用で、令和8年度の保険料が高くなる第1号被保険者」 → 原文の附則第51項第1号・第2号には、課税とみなされる本人又は世帯主・世帯員が令和7年度の市町村民税非課税者であるという条件もある。要約の表現で対象範囲が広がらないか確認が必要。"
+			],
+			"inputTokens": 2180,
+			"cachedTokens": 1025,
+			"outputTokens": 2372,
+			"reasoningTokens": 2066,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.870Z",
+		"checkedAt": "2026-10-10T07:29:38.637Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "附則第49項または第50項の適用で、令和8年度の保険料が高くなる第1号被保険者",
+				"note": "原文の附則第51項第1号・第2号には、課税とみなされる本人又は世帯主・世帯員が令和7年度の市町村民税非課税者であるという条件もある。要約の表現で対象範囲が広がらないか確認が必要。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1648,
+			"cachedTokens": 0,
+			"outputTokens": 560,
+			"reasoningTokens": 417,
+			"batch": true
+		}
+	}
+}

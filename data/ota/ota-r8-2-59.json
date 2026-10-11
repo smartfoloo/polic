@@ -70,5 +70,35 @@
 			"outputTokens": 287,
 			"reasoningTokens": 132
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2edf06fc91708177",
+		"name": "Reviews rules for resident tax deductions and declarations",
+		"official": "Ordinance Partially Amending the Ota City Special Ward Tax Ordinance",
+		"summary": "The ordinance sets rules for tax credits for donations and declarations by people receiving public pensions. This amendment revises which donations qualify for a tax credit, who must submit declaration forms and what information they must include, and extends the period for applying the housing loan tax deduction. It also excludes transfers of land in certain disaster hazard areas from a special provision for residential land, and revises the special periods and other rules for vehicle-related taxes.",
+		"changes": [
+			"Revises the range of donations eligible for a donation tax credit",
+			"Revises who must submit declaration forms as public pension recipients and what information they must include",
+			"Extends the years in which the housing loan tax deduction applies through FY 2043 (Reiwa 25), and the eligible move-in years through 2030 (Reiwa 12)",
+			"Excludes transfers of land in certain disaster hazard areas from the special provision for residential land, and revises the special periods and other rules for vehicle-related taxes"
+		],
+		"who": [
+			"People eligible for tax credits on donations specified by the ordinance",
+			"People receiving public pensions who declare a spouse, dependent relatives or others",
+			"People claiming the housing loan tax deduction",
+			"People transferring land eligible for the special provision and vehicle owners"
+		],
+		"why": "The ward says the amendment is to revise the scope of the obligation for public pension recipients to submit declarations of dependent relatives and others, following amendments to the Local Tax Act and other laws, and to update the provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:07:54.603Z",
+			"inputTokens": 858,
+			"cachedTokens": 0,
+			"outputTokens": 1676,
+			"reasoningTokens": 1309
+		}
 	}
 }

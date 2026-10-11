@@ -1,0 +1,84 @@
+{
+	"id": "ebina-r8-1-8",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第8号",
+	"official": "海老名市一般職の職員の給与に関する条例及び海老名市一般職の職員の定年等に関する条例等の一部を改正する等の条例の一部改正について",
+	"by": "head",
+	"session": "令和8年3月第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F24%2C2026%2F03%2F26%2C112",
+			"fetchedAt": "2026-10-08T11:25:11.274Z"
+		},
+		{
+			"label": "議案第8号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1461_8.8.pdf",
+			"fetchedAt": "2026-10-08T11:25:47.222Z"
+		}
+	],
+	"name": "市職員の給与・定年などの条例を改正",
+	"category": "行政のしくみ",
+	"summary": "市は、一般職職員の給与や定年などに関する条例を改正する議案を提出しました。公開された原文には具体的な改正内容が記載されていないため、何が変わるかは確認できません。",
+	"changes": [],
+	"who": [
+		"海老名市の一般職職員"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.841Z",
+		"inputTokens": 1015,
+		"cachedTokens": 0,
+		"outputTokens": 428,
+		"reasoningTokens": 293,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.841Z",
+		"checkedAt": "2026-10-10T07:29:38.556Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 823,
+			"cachedTokens": 0,
+			"outputTokens": 164,
+			"reasoningTokens": 150,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d8bcbcc60a5d2e97",
+		"name": "Amends ordinances on city employees’ salaries and retirement age",
+		"official": "Regarding the Partial Amendment of the Ordinance, etc. Partially Amending the Ebina City Ordinance on Salaries of Employees in General Service and the Ebina City Ordinance on Retirement Age, etc. of Employees in General Service",
+		"summary": "The city submitted a bill to amend ordinances concerning the salaries, retirement age, and other matters of employees in general service. The published original text does not state the specific amendments, so it is not possible to confirm what will change.",
+		"changes": [],
+		"who": [
+			"General-service employees of Ebina City"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.029Z",
+			"inputTokens": 574,
+			"cachedTokens": 0,
+			"outputTokens": 656,
+			"reasoningTokens": 494,
+			"batch": true
+		}
+	}
+}

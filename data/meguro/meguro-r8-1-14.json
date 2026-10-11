@@ -43,15 +43,28 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:01:42.979Z",
+		"generatedAt": "2026-10-08T23:24:29.637Z",
 		"inputTokens": 1264,
 		"cachedTokens": 0,
 		"outputTokens": 2040,
-		"reasoningTokens": 1866
+		"reasoningTokens": 1866,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:24:29.637Z",
+			"notes": [
+				"ai [check] changes/direction: 「別表の記載を改める」 → 原文の別表改正部分は「」内が空で、前後に並ぶ間取り・家賃との対応が崩れているため、改正前後の内容と変更の向きを確認できません。"
+			],
+			"inputTokens": 1617,
+			"cachedTokens": 1025,
+			"outputTokens": 988,
+			"reasoningTokens": 788
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:01:42.979Z",
-		"checkedAt": "2026-10-08T05:37:44.151Z",
+		"draftAt": "2026-10-08T23:24:29.637Z",
+		"checkedAt": "2026-10-08T23:24:34.408Z",
 		"flags": [
 			"source has a garbled before/after table: check the direction of changes against the PDF"
 		],
@@ -61,7 +74,7 @@
 				"kind": "direction",
 				"severity": "check",
 				"quote": "別表の記載を改める",
-				"note": "原文の別表改正部分は「」内が空で、前後に並ぶ間取り・家賃との対応が崩れているため、改正前後の内容と変更の向きを確認できません。"
+				"note": "原文の別表改正部分は「」の中身が空で、改正前後の記載の対応が崩れているため、変更内容と向きを確認できません。"
 			}
 		],
 		"ai": {
@@ -70,8 +83,8 @@
 			"promptVersion": 2,
 			"inputTokens": 1138,
 			"cachedTokens": 0,
-			"outputTokens": 145,
-			"reasoningTokens": 52
+			"outputTokens": 151,
+			"reasoningTokens": 43
 		}
 	}
 }

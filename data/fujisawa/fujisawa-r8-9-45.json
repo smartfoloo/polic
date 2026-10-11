@@ -1,0 +1,110 @@
+{
+	"id": "fujisawa-r8-9-45",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第45号",
+	"official": "藤沢市八ヶ岳野外体験教室条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "子ども文教常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第45号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2810&Sflg=2",
+			"fetchedAt": "2026-10-08T11:20:29.962Z"
+		},
+		{
+			"label": "議案第45号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2810_e01-045.pdf",
+			"fetchedAt": "2026-10-08T11:20:34.419Z"
+		}
+	],
+	"name": "八ヶ岳野外体験教室の宿泊料金を改定",
+	"category": "教育",
+	"summary": "現在、条例で定めている宿泊施設の利用料金を改定します。利用者を広げるため、利用許可に関する規定も改め、新しい料金は2027年4月1日以降の利用分から適用します。",
+	"changes": [
+		"本館（管理棟）の1人1泊の料金を、市内在住者等は学齢児童1,300円・学齢生徒その他2,700円、その他は学齢児童2,600円・学齢生徒その他5,400円に改める",
+		"宿泊棟の1人1泊の料金を、市内在住者等は学齢児童1,000円・学齢生徒その他2,000円、その他は学齢児童2,000円・学齢生徒その他4,000円に改める",
+		"テントの1人1泊の料金を、市内在住者等は学齢児童400円・学齢生徒その他800円、その他は学齢児童800円・学齢生徒その他1,600円に改める",
+		"利用者を広げるため、利用許可に関する規定を改める"
+	],
+	"who": [
+		"八ヶ岳野外体験教室の宿泊施設を利用する人"
+	],
+	"why": "利用料金について受益と負担の適正化を図り、社会的公平性を確保するとともに、利用者を広げるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.851Z",
+		"inputTokens": 1714,
+		"cachedTokens": 0,
+		"outputTokens": 1541,
+		"reasoningTokens": 1143,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.851Z",
+		"checkedAt": "2026-10-10T07:29:38.581Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "利用者を広げるため、利用許可に関する規定を改める",
+				"note": "原文では第5条第2項の「教育委員会規則で定める者に対して」を削除しているが、利用対象者に関わるこの変更の具体的内容が示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1777,
+			"cachedTokens": 0,
+			"outputTokens": 206,
+			"reasoningTokens": 100,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8a6d1b16ccb7658a",
+		"name": "Revises overnight fees at the Yatsugatake Outdoor Experience Center",
+		"official": "Regarding the Partial Amendment to the Fujisawa City Yatsugatake Outdoor Experience Center Ordinance",
+		"summary": "The city will revise the accommodation fees currently set by ordinance. It will also revise the rules on permission to use the facilities to broaden the range of users. The new fees will apply to use on or after April 1, 2027.",
+		"changes": [
+			"Sets the per-person, per-night fee for the main building (administration building) at ¥1,300 for school-age children and ¥2,700 for school-age students and others for Fujisawa City residents and others, and at ¥2,600 and ¥5,400, respectively, for all others",
+			"Sets the per-person, per-night fee for the lodging buildings at ¥1,000 for school-age children and ¥2,000 for school-age students and others for Fujisawa City residents and others, and at ¥2,000 and ¥4,000, respectively, for all others",
+			"Sets the per-person, per-night tent fee at ¥400 for school-age children and ¥800 for school-age students and others for Fujisawa City residents and others, and at ¥800 and ¥1,600, respectively, for all others",
+			"Revises the rules on permission to use the facilities to broaden the range of users"
+		],
+		"who": [
+			"People staying overnight in the main building (administration building)",
+			"People staying overnight in the lodging buildings",
+			"People staying overnight in tents",
+			"People using the facilities under the revised permission rules"
+		],
+		"why": "The city says this is to make the balance between benefits and costs more appropriate, ensure social fairness, and broaden the range of users.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.036Z",
+			"inputTokens": 808,
+			"cachedTokens": 0,
+			"outputTokens": 1614,
+			"reasoningTokens": 1214,
+			"batch": true
+		}
+	}
+}

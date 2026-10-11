@@ -84,5 +84,34 @@
 			"outputTokens": 596,
 			"reasoningTokens": 267
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6026200a97a99033",
+		"name": "Sets capacity for small-scale childcare for children aged 3 or older",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses in Ome City",
+		"summary": "This ordinance sets operating standards for specified education and childcare facilities and community-based childcare businesses in Ome City. This amendment adds capacity limits for each facility and a selection method for small-scale childcare businesses limited to children aged 3 or older when applications exceed capacity. It also sets standards for providing childcare to children certified for education.",
+		"changes": [
+			"Defines small-scale childcare businesses limited to children aged 3 or older",
+			"Sets a capacity limit for each facility",
+			"Selects applicants based on their need for childcare and family circumstances when applications exceed capacity",
+			"Sets standards for providing childcare to children certified for education"
+		],
+		"who": [
+			"Children aged 3 or older who need childcare and their parents or guardians",
+			"Operators of small-scale childcare businesses limited to children aged 3 or older",
+			"Children certified for education and their parents or guardians"
+		],
+		"why": "The city says this is to set capacity limits and other rules for small-scale childcare businesses limited to children aged 3 or older, in line with changes to the national operating standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:02:33.665Z",
+			"inputTokens": 781,
+			"cachedTokens": 0,
+			"outputTokens": 533,
+			"reasoningTokens": 234
+		}
 	}
 }

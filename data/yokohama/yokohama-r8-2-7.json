@@ -1,0 +1,90 @@
+{
+	"id": "yokohama-r8-2-7",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第7号議案",
+	"official": "横浜市公園条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第7号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si07.pdf",
+			"fetchedAt": "2026-10-08T11:04:51.207Z"
+		}
+	],
+	"name": "舞岡八幡山しぜん公園に有料施設を設置",
+	"category": "まちづくり",
+	"summary": "現在の条例には、舞岡八幡山しぜん公園の有料施設は定められていません。この議案では、スケートボード場と分区園を設け、スケートボード場の利用料金を定めるとともに、指定管理者に管理を行わせます。",
+	"changes": [
+		"舞岡八幡山しぜん公園にスケートボード場と分区園を設置する",
+		"スケートボード場の利用料金を貸切利用は1日30,000円、個人利用は1日400円とする",
+		"舞岡八幡山しぜん公園の管理を指定管理者に行わせる"
+	],
+	"who": [
+		"舞岡八幡山しぜん公園のスケートボード場利用者",
+		"舞岡八幡山しぜん公園の分区園利用者"
+	],
+	"why": "有料施設を設け、指定管理者に管理を行わせるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.560Z",
+		"inputTokens": 1796,
+		"cachedTokens": 0,
+		"outputTokens": 980,
+		"reasoningTokens": 711,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.560Z",
+			"notes": [
+				"ai [check] changes/direction: 「舞岡八幡山しぜん公園の管理を指定管理者に行わせる」 → 内容・提案理由には記載があるが、別表第２の２の改正文で「」が空になっており、改正前後の対応が崩れているため、変更の向きは原文の表から確認できない。"
+			],
+			"inputTokens": 2271,
+			"cachedTokens": 1025,
+			"outputTokens": 697,
+			"reasoningTokens": 398,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.888Z",
+		"checkedAt": "2026-10-10T07:29:38.725Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "舞岡八幡山しぜん公園の管理を指定管理者に行わせる",
+				"note": "内容・提案理由には記載があるが、別表第２の２の改正文で「」が空になっており、改正前後の対応が崩れているため、変更の向きは原文の表から確認できない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1769,
+			"cachedTokens": 0,
+			"outputTokens": 183,
+			"reasoningTokens": 71,
+			"batch": true
+		}
+	}
+}

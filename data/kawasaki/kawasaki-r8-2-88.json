@@ -1,0 +1,96 @@
+{
+	"id": "kawasaki-r8-2-88",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第88号",
+	"official": "川崎市建築基準条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第88号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_88.pdf",
+			"fetchedAt": "2026-10-08T11:10:09.459Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "外壁・軒裏の規定を修繕時も適用除外に",
+	"category": "住宅",
+	"summary": "条例は、既存不適格建築物に適用する建築基準の範囲を定めています。この議案では、外壁または軒裏に関する規定が適用されない建築物について、一定の大規模な修繕や模様替えを行う場合も、その規定を適用しない扱いにします。",
+	"changes": [
+		"外壁の規定が適用されない建築物は、外壁以外の部分の大規模な修繕・模様替えで適用除外を続ける",
+		"軒裏の規定が適用されない建築物は、屋根と外壁以外の部分の大規模な修繕・模様替えで適用除外を続ける"
+	],
+	"who": [
+		"該当する既存不適格建築物の所有者"
+	],
+	"why": "建築基準法施行令の一部改正に伴い、該当する既存不適格建築物で大規模な修繕などを行う場合も、外壁や軒裏に関する規定を引き続き適用しない扱いにするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.872Z",
+		"inputTokens": 1674,
+		"cachedTokens": 0,
+		"outputTokens": 1224,
+		"reasoningTokens": 878,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.872Z",
+		"checkedAt": "2026-10-10T07:29:38.643Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1695,
+			"cachedTokens": 0,
+			"outputTokens": 75,
+			"reasoningTokens": 61,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a8f1fb53f44e9343",
+		"name": "Exempts exterior wall and eaves soffit rules during repairs as well",
+		"official": "On Enacting an Ordinance to Partially Amend the Kawasaki City Building Standards Ordinance",
+		"summary": "The ordinance sets the scope of building standards that apply to existing non-conforming buildings. This bill provides that, for buildings exempt from provisions concerning exterior walls or eaves soffits, those provisions will also not apply when certain large-scale repairs or alterations are carried out.",
+		"changes": [
+			"Continue exempting buildings from the exterior wall provisions when large-scale repairs or alterations are made to parts other than the exterior walls",
+			"Continue exempting buildings from the eaves soffit provisions when large-scale repairs or alterations are made to parts other than the roof and exterior walls"
+		],
+		"who": [
+			"Owners of relevant existing non-conforming buildings exempt from the exterior wall provisions",
+			"Owners of relevant existing non-conforming buildings exempt from the eaves soffit provisions"
+		],
+		"why": "The city says this is to continue treating provisions concerning exterior walls and eaves soffits as not applicable even when relevant existing non-conforming buildings undergo large-scale repairs or similar work, following a partial amendment to the Enforcement Order of the Building Standards Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.059Z",
+			"inputTokens": 756,
+			"cachedTokens": 0,
+			"outputTokens": 1234,
+			"reasoningTokens": 958,
+			"batch": true
+		}
+	}
+}

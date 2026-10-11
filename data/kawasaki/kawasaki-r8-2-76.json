@@ -1,0 +1,116 @@
+{
+	"id": "kawasaki-r8-2-76",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第76号",
+	"official": "川崎市市税条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第76号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_76.pdf",
+			"fetchedAt": "2026-10-08T11:08:57.451Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "災害時の税減免と各税の特例を見直す",
+	"category": "税・手数料",
+	"summary": "特定非常災害の被害状況が市の事務などから明らかな場合、市長が市民税や固定資産税などを職権で減免できる規定を加えます。また、固定資産税・都市計画税の特例による減額割合を改め、軽自動車税の税率の特例措置を延長します。",
+	"changes": [
+		"特定非常災害の被害状況が市の事務などから明らかな場合、市長が市民税・固定資産税・特別土地保有税・事業所税を職権で減免できるようにする",
+		"固定資産税・都市計画税の特例による減額割合を改める",
+		"軽自動車税の税率の特例措置の対象期間を延長する"
+	],
+	"who": [
+		"特定非常災害で税の減免対象となる人",
+		"固定資産税・都市計画税の特例の対象となる資産の所有者",
+		"軽自動車税の税率の特例措置の対象となる人"
+	],
+	"why": "地方税法の改正に伴う固定資産税・都市計画税の減額割合の設定や軽自動車税の特例措置の延長、森林環境税などに関する政令改正に伴う特定非常災害時の職権減免などのためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.870Z",
+		"inputTokens": 3683,
+		"cachedTokens": 0,
+		"outputTokens": 2431,
+		"reasoningTokens": 2022,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.870Z",
+		"checkedAt": "2026-10-10T07:29:38.635Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "固定資産税・都市計画税の特例による減額割合を改める",
+				"note": "原文の附則第8項では、割合を2分の1から3分の1、14分の11から2分の1、12分の7から2分の1、3分の1から12分の7へ変更し、新たに3分の1の割合を定めています。税負担に直接関わる具体的な割合の変更・追加が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "固定資産税・都市計画税の特例による減額割合を改める",
+				"note": "原文の附則第11項にある、特例対象の「改修実演芸術公演施設」から「改修特別特定建築物」への変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3763,
+			"cachedTokens": 0,
+			"outputTokens": 450,
+			"reasoningTokens": 221,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d4891e9b231ad554",
+		"name": "Revises disaster tax relief and special measures for various taxes",
+		"official": "Enactment of an Ordinance Partially Amending the Kawasaki City Municipal Tax Ordinance",
+		"summary": "Adds a provision allowing the mayor to reduce or exempt residents’ tax, fixed asset tax and other taxes on the mayor’s own initiative when the damage caused by a specified severe disaster is clear from the city’s administrative work or other sources. It also revises the reduction rates under special measures for fixed asset tax and city planning tax, and extends the special tax-rate measures for light motor vehicle tax.",
+		"changes": [
+			"Allow the mayor to reduce or exempt residents’ tax, fixed asset tax, special land ownership tax and business office tax on the mayor’s own initiative when damage from a specified severe disaster is clear from the city’s administrative work or other sources",
+			"Revise the reduction rates under special measures for fixed asset tax and city planning tax",
+			"Extend the period covered by the special tax-rate measures for light motor vehicle tax"
+		],
+		"who": [
+			"People eligible for tax relief following a specified severe disaster",
+			"Owners of assets covered by special measures for fixed asset tax and city planning tax",
+			"People covered by the special tax-rate measures for light motor vehicle tax"
+		],
+		"why": "The city says the changes are to set reduction rates for fixed asset tax and city planning tax and extend the special measures for light motor vehicle tax following revisions to the Local Tax Act, and to provide tax relief on the mayor’s own initiative during specified severe disasters following revisions to Cabinet Orders concerning the Forest Environment Tax and other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.057Z",
+			"inputTokens": 813,
+			"cachedTokens": 0,
+			"outputTokens": 1124,
+			"reasoningTokens": 768,
+			"batch": true
+		}
+	}
+}

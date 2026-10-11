@@ -56,5 +56,28 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "baebd2e8ba405d56",
+		"name": "Changes how sewerage areas and planned population are set",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Ordinance on the Establishment, etc. of the Sewerage Business",
+		"summary": "This ordinance sets out matters concerning the sewerage business. This bill provides that items such as the planned treatment area and planned population will be as specified in the business plan based on the Sewerage Act, and deletes Article 3, Paragraph 3. It will take effect on the date of promulgation.",
+		"changes": [
+			"Make items such as the planned treatment area and planned population follow the business plan based on the Sewerage Act",
+			"Delete Article 3, Paragraph 3 of the ordinance"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:18:58.815Z",
+			"inputTokens": 598,
+			"cachedTokens": 0,
+			"outputTokens": 497,
+			"reasoningTokens": 312
+		}
 	}
 }

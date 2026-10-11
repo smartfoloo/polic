@@ -1,0 +1,86 @@
+{
+	"id": "samukawa-r8-9-61",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第61号",
+	"official": "寒川町地域公共交通会議設置条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会9月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-25",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第61号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/R8-9_gian61.pdf",
+			"fetchedAt": "2026-10-10T14:59:06.424Z"
+		}
+	],
+	"name": "公共交通会議の委員上限を15人に",
+	"category": "交通",
+	"summary": "寒川町地域公共交通会議は、委員14人以内で組織されています。この議案は、委員の上限を15人以内に変更し、公布の日から施行します。",
+	"changes": [
+		"委員の上限を14人から15人に増やす"
+	],
+	"who": [],
+	"why": "委員の人数を見直すためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.014Z",
+		"inputTokens": 1284,
+		"cachedTokens": 0,
+		"outputTokens": 318,
+		"reasoningTokens": 197,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.014Z",
+		"checkedAt": "2026-10-10T15:07:29.996Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1100,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "372588fd990c9442",
+		"name": "Raises the public transportation council membership cap to 15",
+		"official": "Regarding Partial Amendment of the Ordinance Establishing the Samukawa Town Regional Public Transportation Council",
+		"summary": "The Samukawa Town Regional Public Transportation Council has no more than 14 members. This bill changes the cap to no more than 15 members and takes effect on the day it is promulgated.",
+		"changes": [
+			"Raises the membership cap from 14 to 15"
+		],
+		"who": [
+			"Members of the Samukawa Town Regional Public Transportation Council"
+		],
+		"why": "The town says this is to review the number of members.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.866Z",
+			"inputTokens": 549,
+			"cachedTokens": 0,
+			"outputTokens": 473,
+			"reasoningTokens": 318,
+			"batch": true
+		}
+	}
+}

@@ -28,11 +28,11 @@
 			"fetchedAt": "2026-10-02T15:40:24.068Z"
 		}
 	],
-	"name": "審議会の所掌事項に管理不全空家等を追加",
+	"name": "審議会で管理不全空家等も扱う",
 	"category": "行政のしくみ",
 	"summary": "現在、審議会の所掌事項には特定空家等に関する事項が含まれています。この議案では、管理不全空家等に関する事項も加え、条例を公布の日から施行します。",
 	"changes": [
-		"審議会の所掌事項に管理不全空家等に関する事項を加える"
+		"審議会が扱う事項に管理不全空家等を含める"
 	],
 	"who": [],
 	"why": "空家等対策の推進に関する特別措置法の一部改正で管理不全空家等の制度が創設されたことに伴い、審議会の所掌事項に関連する事項を加えるためと、市は説明しています。",
@@ -40,27 +40,60 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:46:54.053Z",
+		"generatedAt": "2026-10-08T23:22:32.545Z",
 		"inputTokens": 1305,
 		"cachedTokens": 0,
 		"outputTokens": 741,
-		"reasoningTokens": 553
+		"reasoningTokens": 553,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:22:32.545Z",
+			"notes": [
+				"code: copied from the source (26 chars): 「審議会の所掌事項に管理不全空家等に関する事項を加える」"
+			],
+			"inputTokens": 1632,
+			"cachedTokens": 1025,
+			"outputTokens": 391,
+			"reasoningTokens": 189
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:46:54.053Z",
-		"checkedAt": "2026-10-08T05:32:59.261Z",
-		"flags": [
-			"copied from the source (26 chars): 「審議会の所掌事項に管理不全空家等に関する事項を加える」"
-		],
+		"draftAt": "2026-10-08T23:22:32.545Z",
+		"checkedAt": "2026-10-08T23:22:34.737Z",
+		"flags": [],
 		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1187,
+			"inputTokens": 1181,
 			"cachedTokens": 0,
 			"outputTokens": 12,
 			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dccb13ffe8d23a1f",
+		"name": "Adds poorly managed vacant houses to council's remit",
+		"official": "Bill to Partially Amend the Kunitachi City Vacant Houses, etc. Measures Council Ordinance",
+		"summary": "The council's responsibilities currently include matters concerning specified vacant houses, etc. This bill adds matters concerning poorly managed vacant houses, etc., and brings the ordinance into effect on the date it is promulgated.",
+		"changes": [
+			"Adds matters concerning poorly managed vacant houses, etc. to the matters handled by the council"
+		],
+		"who": [],
+		"why": "The city says this is to add related matters to the council's responsibilities following the creation of a system for poorly managed vacant houses, etc. through a partial amendment to the Act on Special Measures Concerning the Promotion of Measures for Vacant Houses, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:12.845Z",
+			"inputTokens": 612,
+			"cachedTokens": 0,
+			"outputTokens": 558,
+			"reasoningTokens": 372
 		}
 	}
 }

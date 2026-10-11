@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5f425f4851cb425b",
+		"name": "Changes the legal provision cited in the ordinance",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance on Standards for Class Organization, Staff, Facilities, and Operation of Integrated Certified Centers for Early Childhood Education and Care",
+		"summary": "The ordinance changes the legal provisions cited in Article 17. The citation changes from “each item of Article 33-10 of the Child Welfare Act” to “each item of Article 27-2, paragraph 1, of the Act.” It takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the citation in Article 17 from each item of Article 33-10 of the Child Welfare Act to each item of Article 27-2, paragraph 1, of the Act"
+		],
+		"who": [],
+		"why": "The ward says this is to make the necessary provisions in line with amendments to the ministerial ordinance issued by the competent minister.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:06:45.423Z",
+			"inputTokens": 622,
+			"cachedTokens": 0,
+			"outputTokens": 849,
+			"reasoningTokens": 633
+		}
 	}
 }

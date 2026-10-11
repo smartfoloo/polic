@@ -1,0 +1,90 @@
+{
+	"id": "yugawara-r8-4-37",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第37号",
+	"official": "湯河原町駐車場条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第4回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-01",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第37号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/18532.pdf",
+			"fetchedAt": "2026-10-08T11:29:23.410Z"
+		}
+	],
+	"name": "幕山公園駐車場の料金を引き上げ",
+	"category": "交通",
+	"summary": "現在、幕山公園第1・第2駐車場では、区分により1回300円または500円の料金が設定されています。この議案では料金を500円または700円に改め、令和9年1月1日から施行します。",
+	"changes": [
+		"駐車料金を1回300円から500円に改定する",
+		"駐車料金を1回500円から700円に改定する"
+	],
+	"who": [
+		"幕山公園第1・第2駐車場を利用する人"
+	],
+	"why": "幕山公園第1・第2駐車場の駐車料金を改定するため条例を改正する必要があると、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.890Z",
+		"inputTokens": 1840,
+		"cachedTokens": 0,
+		"outputTokens": 1433,
+		"reasoningTokens": 1234,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.740Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1739,
+			"cachedTokens": 0,
+			"outputTokens": 60,
+			"reasoningTokens": 45,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "619fdf146d7ba1b3",
+		"name": "Raises fees for Makuyama Park parking lots",
+		"official": "Regarding the Partial Amendment to the Yugawara Town Parking Ordinance",
+		"summary": "Currently, Makuyama Park Parking Lots No. 1 and 2 charge ¥300 or ¥500 per visit, depending on the category. This bill changes the fees to ¥500 or ¥700 and takes effect on January 1, 2027.",
+		"changes": [
+			"Raises the fee per visit from ¥300 to ¥500",
+			"Raises the fee per visit from ¥500 to ¥700"
+		],
+		"who": [
+			"People who use Makuyama Park Parking Lots No. 1 and 2"
+		],
+		"why": "The town says the ordinance needs to be amended to revise the parking fees at Makuyama Park Parking Lots No. 1 and 2.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.076Z",
+			"inputTokens": 632,
+			"cachedTokens": 0,
+			"outputTokens": 700,
+			"reasoningTokens": 502,
+			"batch": true
+		}
+	}
+}

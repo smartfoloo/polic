@@ -74,5 +74,33 @@
 			"outputTokens": 485,
 			"reasoningTokens": 355
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5a196ae5437c17ff",
+		"name": "Adds building restrictions for the Jindai Housing Complex and other areas",
+		"official": "Ordinance Partially Amending the Chofu City Ordinance on Restrictions on Buildings within District Plan Areas",
+		"summary": "The city ordinance sets restrictions on building uses, size and other matters for each district plan area. This bill adds the Jindai Housing Complex District and adds a Commercial and Business C Zone to the area around Nishi-Chofu Station, setting building restrictions for each.",
+		"changes": [
+			"Adds the Jindai Housing Complex District Improvement Plan area to the areas covered by the ordinance",
+			"Sets restrictions for each zone in the Jindai Housing Complex District on building uses, floor-area ratio, building coverage ratio, site area, wall position and height",
+			"Adds the Commercial and Business C Zone to the area around Nishi-Chofu Station, and sets a floor-area ratio of 20/10 for buildings or parts of buildings facing Chofu Route 3-4-31 and used as homes, apartment buildings, dormitories or boarding houses",
+			"Amends the provisions for the Commercial and Business A Zone and the district plan notification number"
+		],
+		"who": [
+			"People and businesses building in the Jindai Housing Complex District Improvement Plan area",
+			"People and businesses building in the Commercial and Business C Zone around Nishi-Chofu Station"
+		],
+		"why": "The city says this is to add the Jindai Housing Complex District to the areas covered, add a District Improvement Plan area around Nishi-Chofu Station, and set building restrictions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:06.781Z",
+			"inputTokens": 814,
+			"cachedTokens": 0,
+			"outputTokens": 1183,
+			"reasoningTokens": 837
+		}
 	}
 }

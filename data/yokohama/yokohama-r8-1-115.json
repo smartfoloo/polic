@@ -1,0 +1,88 @@
+{
+	"id": "yokohama-r8-1-115",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第115号議案",
+	"official": "横浜市公園条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第115号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si115.pdf",
+			"fetchedAt": "2026-10-08T11:01:38.790Z"
+		}
+	],
+	"name": "新吉田ふれあい公園に有料の分区園を設置",
+	"category": "まちづくり",
+	"summary": "現在、条例の有料施設の一覧に新吉田ふれあい公園の分区園はありません。この議案では、分区園を有料施設として加え、公園の管理を指定管理者に行わせます。施行日は令和9年4月1日です。",
+	"changes": [
+		"新吉田ふれあい公園の分区園を有料施設に加える",
+		"新吉田ふれあい公園の管理を指定管理者に行わせる"
+	],
+	"who": [
+		"新吉田ふれあい公園の分区園を利用する人"
+	],
+	"why": "新吉田ふれあい公園に有料施設を設置し、指定管理者に管理を行わせるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.558Z",
+		"inputTokens": 1607,
+		"cachedTokens": 0,
+		"outputTokens": 899,
+		"reasoningTokens": 660,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.558Z",
+			"notes": [
+				"ai [check] changes/direction: 「新吉田ふれあい公園の管理を指定管理者に行わせる」 → 内容説明・提案理由には記載がありますが、別表第２の２の改正文は「」内が空で表も崩れており、改正前後の対応と変更の向きを確認できません。"
+			],
+			"inputTokens": 2013,
+			"cachedTokens": 1025,
+			"outputTokens": 700,
+			"reasoningTokens": 461,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.693Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "新吉田ふれあい公園の管理を指定管理者に行わせる",
+				"note": "内容説明・提案理由には記載がありますが、別表第２の２の改正文は「」内が空で表も崩れており、改正前後の対応と変更の向きを確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1520,
+			"cachedTokens": 0,
+			"outputTokens": 150,
+			"reasoningTokens": 47,
+			"batch": true
+		}
+	}
+}

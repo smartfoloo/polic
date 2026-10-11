@@ -72,5 +72,31 @@
 			"outputTokens": 257,
 			"reasoningTokens": 122
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b0d500635f36c415",
+		"name": "Abolishes the Fuchu City Furusato Fuchu History Museum",
+		"official": "Ordinance Partially Amending the Fuchu City Furusato Fuchu History Museum Ordinance, etc.",
+		"summary": "Rules on the facilities and use of the Fuchu City Furusato Fuchu History Museum are set by ordinance. This bill removes provisions concerning the Kokushikan Site Area Facility on September 1, 2026, and repeals the ordinance on December 29 of the same year.",
+		"changes": [
+			"Removes the provision treating the Kokushikan Site Area Facility as part of the history museum",
+			"Removes provisions on matters such as permission to use the Kokushikan Site Area Facility",
+			"Repeals the Fuchu City Furusato Fuchu History Museum Ordinance"
+		],
+		"who": [
+			"People who use the Furusato Fuchu History Museum"
+		],
+		"why": "The city says it is making the necessary amendments in connection with the abolition of the Fuchu City Furusato Fuchu History Museum and other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:44.055Z",
+			"inputTokens": 668,
+			"cachedTokens": 0,
+			"outputTokens": 1134,
+			"reasoningTokens": 878
+		}
 	}
 }

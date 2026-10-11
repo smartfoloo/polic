@@ -1,0 +1,88 @@
+{
+	"id": "yokohama-r8-1-ko3",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "交第3号議案",
+	"official": "横浜市高速鉄道運賃条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "交第3号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_ko003.pdf",
+			"fetchedAt": "2026-10-08T11:02:20.900Z"
+		}
+	],
+	"name": "通学定期の対象に専修学校の学生を追加",
+	"category": "交通",
+	"summary": "現在、専修学校の生徒は、通学定期旅客運賃（甲種）と通学定期乗車券（甲種）の対象です。この議案では、対象に専修学校の学生も加えます。2026年4月1日から施行されます。",
+	"changes": [
+		"通学定期運賃と通学定期乗車券の対象に専修学校の学生を加える"
+	],
+	"who": [
+		"専修学校の学生"
+	],
+	"why": "学校教育法の一部改正に伴い、関係規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.886Z",
+		"inputTokens": 1431,
+		"cachedTokens": 0,
+		"outputTokens": 706,
+		"reasoningTokens": 511,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.886Z",
+		"checkedAt": "2026-10-10T07:29:38.711Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1304,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cdfd92c80c1d19c4",
+		"name": "Adds specialized training school students to commuter pass eligibility",
+		"official": "Partial Amendment to the Yokohama City Rapid Transit Fare Ordinance",
+		"summary": "Currently, pupils at specialized training schools are eligible for student commuter fares (Type A) and student commuter passes (Type A). This bill also makes students at specialized training schools eligible. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds students at specialized training schools to those eligible for student commuter fares and student commuter passes"
+		],
+		"who": [
+			"Students at specialized training schools"
+		],
+		"why": "The city says this is to bring the relevant provisions into line following a partial amendment to the School Education Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.073Z",
+			"inputTokens": 601,
+			"cachedTokens": 0,
+			"outputTokens": 494,
+			"reasoningTokens": 326,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"id": "kanagawa-r8-1-23",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第23号議案",
+	"official": "神奈川県情報公開条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第23号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "情報公開の手続を福祉機構に引き継ぐ",
+	"category": "行政のしくみ",
+	"summary": "神奈川県情報公開条例に、福祉機構の設立に伴う経過措置を加えます。設立前に知事が行った処分や手続など、また知事に出された請求などのうち、設立後に福祉機構が扱う事務に関するものは、福祉機構が行った、または福祉機構に出されたものとみなします。条例は福祉機構の成立日から施行します。",
+	"changes": [
+		"知事がした処分や手続などを、福祉機構がしたものとみなす",
+		"知事に出された請求などを、福祉機構に出されたものとみなす"
+	],
+	"who": [
+		"情報公開請求をした人"
+	],
+	"why": "福祉機構の設立に伴い、必要な改正を行うためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.863Z",
+		"inputTokens": 1384,
+		"cachedTokens": 0,
+		"outputTokens": 1286,
+		"reasoningTokens": 1034,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.863Z",
+		"checkedAt": "2026-10-10T07:29:38.614Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1335,
+			"cachedTokens": 0,
+			"outputTokens": 64,
+			"reasoningTokens": 49,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d154c40daee8ccb0",
+		"name": "Transfers information disclosure matters to the Welfare Organization",
+		"official": "Ordinance Partially Amending the Kanagawa Prefectural Information Disclosure Ordinance",
+		"summary": "The ordinance adds transitional measures to the Kanagawa Prefectural Information Disclosure Ordinance in connection with the establishment of the Welfare Organization. Dispositions and procedures carried out by the governor before the organization was established, and requests submitted to the governor before then, are treated as having been carried out or submitted to the Welfare Organization if they concern matters the organization handles after its establishment. The ordinance takes effect on the date the Welfare Organization is established.",
+		"changes": [
+			"Treat dispositions and procedures carried out by the governor as having been carried out by the Welfare Organization",
+			"Treat requests submitted to the governor as having been submitted to the Welfare Organization"
+		],
+		"who": [
+			"People affected by dispositions or procedures carried out by the governor",
+			"People who submitted requests to the governor"
+		],
+		"why": "The prefecture says it is making the necessary amendments in connection with the establishment of the Welfare Organization.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.049Z",
+			"inputTokens": 680,
+			"cachedTokens": 0,
+			"outputTokens": 942,
+			"reasoningTokens": 700,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"id": "kanagawa-r8-1-190",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第190号議案",
+	"official": "神奈川県漁港管理条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "定県第190号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar7.pdf",
+			"fetchedAt": "2026-10-08T11:30:57.287Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "漁港施設の規定と駐車料金の扱いを変更",
+	"category": "まちづくり",
+	"summary": "条例の表には、本港特別泊地と本港環境整備施設が記載されています。この議案では、これらを三浦市に貸し付けることに伴い、施設に関する規定や漁港の使用料の規定を改めます。令和8年4月1日から施行します。",
+	"changes": [
+		"表から本港特別泊地と本港環境整備施設を削る",
+		"第24条を削除する",
+		"第25条と第27条で定める施設を宮川環境整備施設の駐車場に改める",
+		"停係泊料の項を削り、駐車料の項と備考を改める"
+	],
+	"who": [
+		"本港特別泊地や本港環境整備施設を利用する人",
+		"宮川環境整備施設の駐車場を利用する人"
+	],
+	"why": "本港特別泊地と本港環境整備施設を三浦市に貸し付けることに伴う改正のためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.545Z",
+		"inputTokens": 1353,
+		"cachedTokens": 0,
+		"outputTokens": 1447,
+		"reasoningTokens": 1159,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.545Z",
+			"notes": [
+				"ai [check] changes/direction: 「停係泊料の項を削り、駐車料と備考の記載を改める」 → 原文は駐車料の項を「次のように改める」としていますが、改正後の表が欠落しているため、駐車料の変更内容・方向は確認できません。"
+			],
+			"inputTokens": 1840,
+			"cachedTokens": 1025,
+			"outputTokens": 494,
+			"reasoningTokens": 175,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.862Z",
+		"checkedAt": "2026-10-10T07:29:38.612Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "停係泊料の項を削り、駐車料と備考の記載を改める",
+				"note": "原文は駐車料の項を「次のように改める」としていますが、改正後の表が欠落しているため、駐車料の変更内容・方向は確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1345,
+			"cachedTokens": 0,
+			"outputTokens": 239,
+			"reasoningTokens": 134,
+			"batch": true
+		}
+	}
+}

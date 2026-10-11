@@ -60,5 +60,32 @@
 			"outputTokens": 179,
 			"reasoningTokens": 164
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8cf3c3bfe1067ad5",
+		"name": "Revises fees for Minami-Osawa Culture Hall",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Minami-Osawa Culture Hall Ordinance",
+		"summary": "The current all-day fee for the main hall at Minami-Osawa Culture Hall is ¥125,000. This bill raises the facility use fees for the main hall and other facilities, as well as the cap on charges for use beyond opening hours. The changes take effect on April 1, 2027.",
+		"changes": [
+			"Raise the all-day fee for the main hall from ¥125,000 to ¥187,500",
+			"Raise the all-day fee for the Exchange Hall from ¥70,000 to ¥105,000",
+			"Raise the fee for the Rehearsal Room from ¥35,000 to ¥52,500, and the fee for each of Practice Rooms 1 and 2 from ¥10,000 to ¥15,000",
+			"Raise the all-day fees for the Exhibition and Multipurpose Rooms and meeting rooms, and increase the cap on charges for use beyond opening hours"
+		],
+		"who": [
+			"People and groups that use Minami-Osawa Culture Hall"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:53:03.538Z",
+			"inputTokens": 688,
+			"cachedTokens": 0,
+			"outputTokens": 726,
+			"reasoningTokens": 438
+		}
 	}
 }

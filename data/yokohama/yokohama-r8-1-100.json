@@ -1,0 +1,96 @@
+{
+	"id": "yokohama-r8-1-100",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第100号議案",
+	"official": "横浜市一般職職員の給与に関する条例等の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第100号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si100.pdf",
+			"fetchedAt": "2026-10-08T11:03:03.042Z"
+		}
+	],
+	"name": "市職員の給与・手当を見直す",
+	"category": "行政のしくみ",
+	"summary": "市職員の給料や手当は、条例や給料表で定められています。この議案は、給料表や昇給の基準を改め、扶養手当や通勤手当などの内容も見直します。2026年4月1日に施行し、扶養手当には2027年3月31日までの経過措置を設けます。",
+	"changes": [
+		"給料表と昇給の基準を改め、職務や職責に応じた給与体系にする",
+		"配偶者分を廃止し、子分を1人月13,000円とする（2027年3月31日までは一部職員の配偶者分を月3,500円、子分を1人月11,500円とする）",
+		"通勤手当の月額上限を55,000円から150,000円に引き上げる",
+		"管理職員特別勤務手当の対象時間帯と算定方法を改める"
+	],
+	"who": [
+		"横浜市の職員"
+	],
+	"why": "人事委員会の勧告を尊重し、国や他の地方公共団体との均衡を考慮して給与制度を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.556Z",
+		"inputTokens": 45341,
+		"cachedTokens": 0,
+		"outputTokens": 4839,
+		"reasoningTokens": 4494,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.556Z",
+			"notes": [
+				"ai [check] changes/fact: 「子分を1人月額11,500円から13,000円に段階的に上げる」 → 現行は原則月10,000円で、配偶者がない職員の子のうち1人のみ11,500円。全ての子を11,500円とするのは2026年度の経過措置であり、改正前の額との混同がないか確認が必要。",
+				"ai [check] changes/fact: 「扶養手当の配偶者分を月3,500円の経過措置後に廃止し」 → 附則第4項では、行7級職員等・行8級職員等には経過措置中も配偶者分を支給しない。全職員に月3,500円の経過措置が適用されるわけではない。"
+			],
+			"inputTokens": 45979,
+			"cachedTokens": 1025,
+			"outputTokens": 1700,
+			"reasoningTokens": 1345,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.881Z",
+		"checkedAt": "2026-10-10T07:29:38.676Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "子分を1人月額11,500円から13,000円に段階的に上げる",
+				"note": "現行は原則月10,000円で、配偶者がない職員の子のうち1人のみ11,500円。全ての子を11,500円とするのは2026年度の経過措置であり、改正前の額との混同がないか確認が必要。"
+			},
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "扶養手当の配偶者分を月3,500円の経過措置後に廃止し",
+				"note": "附則第4項では、行7級職員等・行8級職員等には経過措置中も配偶者分を支給しない。全職員に月3,500円の経過措置が適用されるわけではない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 45361,
+			"cachedTokens": 0,
+			"outputTokens": 502,
+			"reasoningTokens": 227,
+			"batch": true
+		}
+	}
+}

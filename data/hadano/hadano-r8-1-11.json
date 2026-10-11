@@ -1,0 +1,84 @@
+{
+	"id": "hadano-r8-1-11",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第11号",
+	"official": "秦野市職員の給与に関する条例等の一部を改正することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第11号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg11.pdf",
+			"fetchedAt": "2026-10-08T11:23:35.038Z"
+		}
+	],
+	"name": "職員の地域手当と各種手当を見直す",
+	"category": "行政のしくみ",
+	"summary": "現在、地域手当は給料などの合計額の10%で、駐車場の利用料金に対する通勤手当はありません。この議案では、地域手当を12%に上げ、駐車場の通勤手当（月額上限5,000円）を設けるほか、災害などで臨時・緊急に勤務する管理職員や、災害対応作業に従事する職員への手当を新設します。水道・公共下水道事業の企業職員は配偶者分の扶養手当を廃止し、改正は令和8年4月1日から施行します。",
+	"changes": [
+		"地域手当率を10%から12%に引き上げる",
+		"駐車場料金に対する通勤手当を月額5,000円以内で設ける",
+		"管理職員特別勤務手当と災害応急作業等手当を新設する",
+		"水道・下水道事業で働く職員の配偶者分の扶養手当を廃止する"
+	],
+	"who": [
+		"地域手当や通勤手当の対象となる秦野市職員",
+		"管理職員、災害対応作業に従事する職員",
+		"水道・公共下水道事業の企業職員（配偶者に係る扶養手当の対象者）"
+	],
+	"why": "人事院勧告や他市との均衡などを踏まえ、職員の勤務実態に応じた適切な処遇を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.538Z",
+		"inputTokens": 10614,
+		"cachedTokens": 0,
+		"outputTokens": 2880,
+		"reasoningTokens": 2466,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.538Z",
+			"notes": [
+				"code: copied from the source (28 chars): 「公共下水道事業の企業職員の配偶者に係る扶養手当を廃止する」"
+			],
+			"inputTokens": 11177,
+			"cachedTokens": 1025,
+			"outputTokens": 993,
+			"reasoningTokens": 546,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.854Z",
+		"checkedAt": "2026-10-10T07:29:38.586Z",
+		"flags": [
+			"copied from the source (28 chars): 「公共下水道事業の企業職員の配偶者に係る扶養手当を廃止する」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 10728,
+			"cachedTokens": 0,
+			"outputTokens": 61,
+			"reasoningTokens": 47,
+			"batch": true
+		}
+	}
+}

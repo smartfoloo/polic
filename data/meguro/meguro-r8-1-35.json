@@ -32,14 +32,14 @@
 	"category": "健康・医療",
 	"summary": "これまでの国民健康保険料には、基礎分と後期高齢者支援分があり、対象者には介護分もあります。2026年度分から、子ども・子育て支援納付金分を新たに加えます。あわせて、各分の保険料率や均等割額、基礎分の賦課限度額、保険料の減額基準などを改めます。",
 	"changes": [
-		"子ども・子育て支援納付金分を新設し、所得割率を0.27%、均等割額を1人につき1,800円、18歳以上の加入者の均等割額を1人につき73円とし、賦課限度額を30,000円とする",
+		"子ども・子育て支援納付金分を新設し、所得割率を0.27%、被保険者均等割額を1人につき1,800円とし、18歳以上の加入者にはさらに1人につき73円を加え、賦課限度額を30,000円とする",
 		"基礎分の所得割率を7.71%から7.51%に、均等割額を1人につき47,300円から47,600円にし、賦課限度額を660,000円から670,000円にする",
 		"後期高齢者支援分の所得割率を2.69%から2.80%に、均等割額を1人につき16,800円から17,600円にし、介護分の所得割率を2.19%から2.35%に、均等割額を1人につき16,600円から17,800円にする",
 		"所得の低い世帯の減額基準額を改め、出産被保険者や18歳未満の加入者に関する新設分の減額を定める"
 	],
 	"who": [
 		"目黒区の国民健康保険加入者",
-		"18歳未満の国民健康保険加入者",
+		"18歳に達する日以後、最初の3月31日までの国民健康保険加入者",
 		"産前産後期間にある国民健康保険加入者"
 	],
 	"why": "子ども・子育て支援納付金に係る保険料の賦課に必要な事項を定め、保険料率や賦課限度額、減額基準額を改めるためと、区は説明しています。",
@@ -47,47 +47,77 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:03:59.634Z",
+		"generatedAt": "2026-10-08T23:24:56.842Z",
 		"inputTokens": 5799,
 		"cachedTokens": 0,
 		"outputTokens": 2828,
-		"reasoningTokens": 2274
+		"reasoningTokens": 2274,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:24:56.842Z",
+			"notes": [
+				"ai [check] changes/fact: 「均等割額を1人につき1,800円、18歳以上の加入者の均等割額を1人につき73円」 → 第16条の7では、18歳以上被保険者均等割額73円は、被保険者均等割額1,800円に加算する別の額。18歳以上は73円のみとも読めるため確認が必要。",
+				"ai [error] who/fact: 「18歳未満の国民健康保険加入者」 → 第19条の6の対象は「18歳に達する日以後の最初の3月31日以前」の被保険者であり、18歳になった被保険者も含む。単に18歳未満とすると対象範囲が狭くなる。"
+			],
+			"inputTokens": 6624,
+			"cachedTokens": 1025,
+			"outputTokens": 1533,
+			"reasoningTokens": 963
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:03:59.634Z",
-		"checkedAt": "2026-10-08T05:38:57.421Z",
+		"draftAt": "2026-10-08T23:24:56.842Z",
+		"checkedAt": "2026-10-08T23:25:06.569Z",
 		"flags": [],
 		"issues": [
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "check",
-				"quote": "均等割額を1人につき1,800円、18歳以上の加入者の均等割額を1人につき73円",
-				"note": "第16条の7では、18歳以上被保険者均等割額73円は、被保険者均等割額1,800円に加算する別の額。18歳以上は73円のみとも読めるため確認が必要。"
-			},
-			{
-				"field": "who",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "18歳未満の国民健康保険加入者",
-				"note": "第19条の6の対象は「18歳に達する日以後の最初の3月31日以前」の被保険者であり、18歳になった被保険者も含む。単に18歳未満とすると対象範囲が狭くなる。"
-			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "所得の低い世帯の減額基準額を改め、出産被保険者や18歳未満の加入者に関する新設分の減額を定める",
-				"note": "第19条の4にある、未就学児の基礎分・後期高齢者支援分の均等割減額額の改定が記載されていない。これは新設分以外にも関わる変更。"
+				"note": "新設の第19条の6は、18歳に達する日以後の最初の3月31日までの加入者について、新設分の被保険者均等割額を全額減額する規定。「減額を定める」だけでは、全額減額という主な変更が伝わらない。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 6024,
+			"inputTokens": 6040,
 			"cachedTokens": 0,
-			"outputTokens": 831,
-			"reasoningTokens": 435
+			"outputTokens": 396,
+			"reasoningTokens": 243
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ba96406acb49c23f",
+		"name": "Adds a child and childcare support component to National Health Insurance premiums",
+		"official": "Ordinance Partially Amending the Meguro City National Health Insurance Ordinance",
+		"summary": "National Health Insurance premiums have a basic component and a late-stage elderly support component, as well as a long-term care component for people covered by it. Starting with fiscal year 2026 premiums, a child and childcare support contribution component will be added. The premium rates and per-person charges for each component, the premium cap for the basic component, and the premium reduction thresholds will also be revised.",
+		"changes": [
+			"Adds a child and childcare support contribution component, with an income-based rate of 0.27%, a flat charge of ¥1,800 per insured person, an additional ¥73 per person for members aged 18 or older, and a premium cap of ¥30,000",
+			"Changes the basic component's income-based rate from 7.71% to 7.51%, per-person charge from ¥47,300 to ¥47,600, and premium cap from ¥660,000 to ¥670,000",
+			"Changes the late-stage elderly support component's income-based rate from 2.69% to 2.80% and per-person charge from ¥16,800 to ¥17,600, and the long-term care component's income-based rate from 2.19% to 2.35% and per-person charge from ¥16,600 to ¥17,800",
+			"Revises the reduction thresholds for low-income households and sets reductions on the new component for insured persons who have given birth and members under 18"
+		],
+		"who": [
+			"National Health Insurance members in Meguro City",
+			"National Health Insurance members up to the first March 31 after they turn 18",
+			"National Health Insurance members in the period before and after childbirth",
+			"Low-income households eligible for premium reductions"
+		],
+		"why": "The ward says this is to set the rules needed to charge premiums for the child and childcare support contribution, and to revise premium rates, premium caps, and reduction thresholds.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:55:53.717Z",
+			"inputTokens": 975,
+			"cachedTokens": 0,
+			"outputTokens": 3653,
+			"reasoningTokens": 3193
 		}
 	}
 }

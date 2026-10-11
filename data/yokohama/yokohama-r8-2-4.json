@@ -1,0 +1,113 @@
+{
+	"id": "yokohama-r8-2-4",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第4号議案",
+	"official": "横浜市市税条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第4号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si04.pdf",
+			"fetchedAt": "2026-10-08T11:04:33.244Z"
+		}
+	],
+	"name": "高断熱住宅の都市計画税減額などを見直し",
+	"category": "税・手数料",
+	"summary": "市税条例では、住宅への都市計画税の減額措置や固定資産税の免税点などを定めています。新築住宅の都市計画税の減額対象を、認定低炭素住宅等から等級6以上の高断熱住宅に見直し、適用期間を令和13年3月31日まで延長します。ほかに、住宅改修に関する減額措置や固定資産税の免税点、市民税の申告に関する規定なども改めます。",
+	"changes": [
+		"都市計画税の減額対象を等級6以上の高断熱住宅に見直す",
+		"高断熱住宅や改修住宅などの税額減額措置の適用期間を延長する",
+		"固定資産税の免税点を家屋300,000円、償却資産1,800,000円に改める",
+		"公的年金等の申告手続きを改め、特定暗号資産に係る市民税の特例を新設する"
+	],
+	"who": [
+		"高断熱住宅の所有者",
+		"固定資産税の納税義務者",
+		"公的年金等を受け取る人や特定暗号資産に係る所得がある人"
+	],
+	"why": "対象となる住宅を見直して適用期間を延長するとともに、地方税法の改正などに伴う規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.560Z",
+		"inputTokens": 20887,
+		"cachedTokens": 0,
+		"outputTokens": 4427,
+		"reasoningTokens": 4020,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.560Z",
+			"notes": [
+				"ai [error] changes/direction: 「公的年金等の申告手続きや特定暗号資産に係る市民税の規定を改める」 → 特定暗号資産に係る市民税については、既存規定の改正ではなく、附則第13条の２の２の２に特例規定を新設する。"
+			],
+			"inputTokens": 21468,
+			"cachedTokens": 1025,
+			"outputTokens": 616,
+			"reasoningTokens": 208,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.887Z",
+		"checkedAt": "2026-10-10T07:29:38.720Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "公的年金等の申告手続きや特定暗号資産に係る市民税の規定を改める",
+				"note": "特定暗号資産に係る市民税については、既存規定の改正ではなく、附則第13条の２の２の２に特例規定を新設する。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "都市計画税の減額対象を等級6以上の高断熱住宅に見直す",
+				"note": "附則第13条の３の３を削除し、新築認定長期優良住宅の都市計画税減額措置を終了する変更が抜けている。令和８年３月31日までに新築された住宅は従前の扱いを継続する。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "固定資産税の免税点を家屋300,000円、償却資産1,800,000円に改める",
+				"note": "附則第９条第５項から第８項で、対象設備の固定資産税の課税標準に乗じる割合を変更する点が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "公的年金等の申告手続きや特定暗号資産に係る市民税の規定を改める",
+				"note": "附則第12条第２項で、対象となる長期譲渡所得に係る個人市民税の特例を令和８年度から令和11年度まで延長する変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 20968,
+			"cachedTokens": 0,
+			"outputTokens": 795,
+			"reasoningTokens": 304,
+			"batch": true
+		}
+	}
+}

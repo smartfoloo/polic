@@ -1,0 +1,94 @@
+{
+	"id": "bunkyo-r8-6-5",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第5号",
+	"official": "文京区立一時保育所条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年6月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-02",
+	"sources": [
+		{
+			"label": "議案第5号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12660/2~24.pdf",
+			"fetchedAt": "2026-10-08T10:53:54.352Z"
+		},
+		{
+			"label": "令和8年6月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080625.pdf",
+			"fetchedAt": "2026-10-08T10:53:42.318Z"
+		}
+	],
+	"name": "一時保育の利用単位を30分に",
+	"category": "子育て",
+	"summary": "現在は、区内在住者は1時間ごとに800円、その他の人は1時間ごとに1,300円です。この議案で利用時間の単位を30分にし、料金を区内在住者は30分ごとに400円、その他の人は30分ごとに650円にします。",
+	"changes": [
+		"利用時間の単位を1時間から30分に変える",
+		"区内在住者の利用料を1時間ごとに800円から30分ごとに400円に変える",
+		"その他の人の利用料を1時間ごとに1,300円から30分ごとに650円に変える"
+	],
+	"who": [
+		"文京区内に住所がある一時保育所の利用者",
+		"区外に住所がある一時保育所の利用者"
+	],
+	"why": "利用時間の単位を変更するほか、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.837Z",
+		"inputTokens": 1305,
+		"cachedTokens": 0,
+		"outputTokens": 863,
+		"reasoningTokens": 614,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.837Z",
+		"checkedAt": "2026-10-10T07:29:38.550Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1258,
+			"cachedTokens": 0,
+			"outputTokens": 52,
+			"reasoningTokens": 38,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3abb5f3994bb7e58",
+		"name": "Changes temporary childcare fees to 30-minute units",
+		"official": "Ordinance Partially Amending the Bunkyo City Temporary Childcare Center Ordinance",
+		"summary": "Currently, people who live in Bunkyo City pay ¥800 per hour, and other people pay ¥1,300 per hour. This bill changes the unit of use time to 30 minutes and sets the fees at ¥400 per 30 minutes for people who live in Bunkyo City and ¥650 per 30 minutes for other people.",
+		"changes": [
+			"Changes the unit of use time from 1 hour to 30 minutes",
+			"Changes the fee for people who live in Bunkyo City from ¥800 per hour to ¥400 per 30 minutes",
+			"Changes the fee for other people from ¥1,300 per hour to ¥650 per 30 minutes"
+		],
+		"who": [
+			"Temporary childcare center users with an address in Bunkyo City",
+			"Temporary childcare center users with an address outside Bunkyo City"
+		],
+		"why": "The ward says this is to change the unit of use time and make other provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.025Z",
+			"inputTokens": 686,
+			"cachedTokens": 0,
+			"outputTokens": 522,
+			"reasoningTokens": 263,
+			"batch": true
+		}
+	}
+}

@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "65572d092b99ac41",
+		"name": "Amends income-based calculation rules for childcare fees",
+		"official": "Ordinance Partially Amending the Higashikurume City Ordinance on User Charges for Specified Educational and Childcare Facilities and Specified Community-Based Childcare Services",
+		"summary": "When calculating user charges, the income-based portion of resident tax is calculated by referring to provisions of the Local Tax Act. This bill changes the provisions referred to. The amended rules will apply to charges for September 2026 and later.",
+		"changes": [
+			"Changes which provisions of the Local Tax Act are not applied when calculating the income-based amount"
+		],
+		"who": [
+			"Households using childcare facilities and similar services whose user charges are calculated"
+		],
+		"why": "The city says this is to update the provisions following the enforcement of the Act Partially Amending the Local Tax Act and Other Acts.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:08.209Z",
+			"inputTokens": 634,
+			"cachedTokens": 0,
+			"outputTokens": 613,
+			"reasoningTokens": 411
+		}
 	}
 }

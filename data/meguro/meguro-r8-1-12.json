@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "875b8b2712ccda65",
+		"name": "Raises the public expense limits for election campaigns",
+		"official": "Ordinance Partially Amending the Ordinance on Public Expenses for Election Campaigns in Elections for Meguro City Assembly Members and the Mayor of Meguro City",
+		"summary": "Raises the limits on public expenses for election campaigns set by ordinance. The amount in Article 8 changes from ¥7.73 to ¥8.38, and the amount in Article 11 changes from ¥541.31 to ¥586.88. The revised amounts apply to elections for which the election date is announced on or after the date of promulgation.",
+		"changes": [
+			"Raises the amount in Article 8 from ¥7.73 to ¥8.38",
+			"Raises the amount in Article 11 from ¥541.31 to ¥586.88"
+		],
+		"who": [
+			"Candidates in elections for Meguro City Assembly members and Mayor of Meguro City"
+		],
+		"why": "The ward says this is to raise the limits on public expenses for election campaigns.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:53:51.486Z",
+			"inputTokens": 711,
+			"cachedTokens": 0,
+			"outputTokens": 475,
+			"reasoningTokens": 241
+		}
 	}
 }

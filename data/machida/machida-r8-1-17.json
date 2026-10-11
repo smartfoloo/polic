@@ -61,5 +61,28 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "db3ae663dd34b2a6",
+		"name": "Updates union names in provisions on employee reappointment",
+		"official": "Ordinance Partially Amending the Ordinance on Retirement Age, etc. for Machida City Employees",
+		"summary": "The current ordinance lists the names of the relevant unions in provisions concerning employee reappointment and other matters as “Tokyo Six Cities Boat Racing Business Union” and “Tama Wide-Area Resource Recycling Union.” This bill changes the listed names to “Tokyo Six Cities Boat Race Business Union” and “Tokyo Tama Wide-Area Resource Recycling Union.”",
+		"changes": [
+			"Changes “Tokyo Six Cities Boat Racing Business Union” to “Tokyo Six Cities Boat Race Business Union”",
+			"Changes “Tama Wide-Area Resource Recycling Union” to “Tokyo Tama Wide-Area Resource Recycling Union”"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:58.851Z",
+			"inputTokens": 625,
+			"cachedTokens": 0,
+			"outputTokens": 812,
+			"reasoningTokens": 620
+		}
 	}
 }

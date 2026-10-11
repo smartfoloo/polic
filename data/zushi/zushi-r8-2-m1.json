@@ -1,0 +1,67 @@
+{
+	"id": "zushi-r8-2-m1",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議員提出議案第1号",
+	"official": "逗子市議会議員政治倫理条例の一部改正について",
+	"by": "member",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "否決",
+	"date": "2026-06-23",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1014366.html",
+			"fetchedAt": "2026-10-08T11:22:22.787Z"
+		},
+		{
+			"label": "議員提出議案第1号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/014/366/giinnteisyutu.1.pdf",
+			"fetchedAt": "2026-10-08T11:22:40.762Z"
+		}
+	],
+	"name": "議員の政治倫理違反を調べる手続きを変更",
+	"category": "行政のしくみ",
+	"summary": "現在の条例は、議員の政治倫理基準違反に関する審査請求の手続きを定めています。この議案では、選挙権を持つ市民が根拠資料を添えて調査請求する仕組みに改めます。人数の規定や審査会での手続きも変更します。",
+	"changes": [
+		"政治倫理基準に法令等の遵守を加える",
+		"選挙権を持つ市民が違反を疑う事実の資料を添えて調査請求できる仕組みに改める",
+		"第5条の人数を10人から15人に変更する",
+		"有識者に関する規定を加え、請求者の意見陳述と審査対象議員の審査協力を定める"
+	],
+	"who": [
+		"逗子市の選挙権を持つ市民",
+		"審査対象となる市議会議員"
+	],
+	"why": "審査請求に関する審査などを適切かつ公正に行うため、政治倫理基準や請求の要件、審査対象議員への措置などを整えるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.893Z",
+		"inputTokens": 1581,
+		"cachedTokens": 0,
+		"outputTokens": 2804,
+		"reasoningTokens": 2451,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.893Z",
+		"checkedAt": "2026-10-10T07:29:38.749Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1603,
+			"cachedTokens": 0,
+			"outputTokens": 59,
+			"reasoningTokens": 45,
+			"batch": true
+		}
+	}
+}

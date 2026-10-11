@@ -56,5 +56,28 @@
 			"outputTokens": 85,
 			"reasoningTokens": 71
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "90477cc1c141a6e7",
+		"name": "Updates cross-references in the seal registration ordinance",
+		"official": "Ordinance Partially Amending the Higashiyamato City Ordinance on the Registration and Certification of Seals of Authorized Neighborhood Associations",
+		"summary": "Articles 2 and 14 of the current ordinance cite parts of “Article 19, paragraph 1, item 1.” This bill changes the references to items 6 and 7 of “Article 18-3, paragraph 1” and takes effect on October 1, 2026.",
+		"changes": [
+			"Changes the reference in Article 2, item 1, from “Article 19, paragraph 1, item 1, sub-item (he)” to “Article 18-3, paragraph 1, item 6”",
+			"Changes the reference in Article 14 from “Article 19, paragraph 1, item 1, sub-item (to)” to “Article 18-3, paragraph 1, item 7”"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:58.466Z",
+			"inputTokens": 631,
+			"cachedTokens": 0,
+			"outputTokens": 856,
+			"reasoningTokens": 616
+		}
 	}
 }

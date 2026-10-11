@@ -56,5 +56,28 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "36258058df9511d7",
+		"name": "Updates the article number and regulation name",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on City-Run Welfare Facilities for Persons with Disabilities",
+		"summary": "The ordinance for Ota City-run welfare facilities for persons with disabilities refers to an article number in the Act for the Comprehensive Support of the Daily and Social Life of Persons with Disabilities and to its enforcement regulations. This bill updates the article number to Article 5, Paragraph 18 and uses the regulations’ official name. It takes effect on the date of promulgation.",
+		"changes": [
+			"Changes the referenced article number from Article 5, Paragraph 17 to Article 5, Paragraph 18",
+			"Changes “Enforcement Regulations of the Act” to the regulations’ official name"
+		],
+		"who": [],
+		"why": "The ward says this is to organize the provisions in response to amendments to the Act for the Comprehensive Support of the Daily and Social Life of Persons with Disabilities, among other things.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:05:16.502Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 877,
+			"reasoningTokens": 651
+		}
 	}
 }

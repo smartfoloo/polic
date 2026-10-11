@@ -63,5 +63,30 @@
 			"outputTokens": 105,
 			"reasoningTokens": 91
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "44fb561af8013a20",
+		"name": "Sets up a council to consider a new park on the former base site",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment, etc. of Fuchu City Affiliated Bodies",
+		"summary": "The mayor’s affiliated bodies and the matters they handle are set out in ordinances. The city will establish the Fuchu Base Site New Park Planning Council and change the names of existing councils and the matters they handle. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Establish the Fuchu Base Site New Park Planning Council and set out its responsibilities and other matters",
+			"Change the name and responsibilities of the Comprehensive Plan Priority Project Promotion Council",
+			"Rename the Green Basic Plan Review Council as the Greenery and Parks Council and expand its responsibilities",
+			"Set the daily compensation for members of the New Park Planning Council at ¥11,000"
+		],
+		"who": [],
+		"why": "The city says the amendment is being made in connection with establishing the Fuchu Base Site New Park Planning Council and other changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:20:56.570Z",
+			"inputTokens": 702,
+			"cachedTokens": 0,
+			"outputTokens": 1247,
+			"reasoningTokens": 999
+		}
 	}
 }

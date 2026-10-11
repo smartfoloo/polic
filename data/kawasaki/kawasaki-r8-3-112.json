@@ -1,0 +1,91 @@
+{
+	"id": "kawasaki-r8-3-112",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第112号",
+	"official": "川崎市川崎市民館・労働会館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第112号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_112.pdf",
+			"fetchedAt": "2026-10-08T11:11:39.476Z"
+		}
+	],
+	"name": "市民館・労働会館の利用料上限を改定",
+	"category": "まちづくり",
+	"summary": "条例で定めている市民館・労働会館の施設利用料の上限額を改めます。ホールや各室などの料金を施設や時間帯ごとに定め直し、設備利用料は5,600円から6,160円になります。令和9年4月1日から施行します。",
+	"changes": [
+		"施設利用料の時間帯別の上限額を、施設ごとに定め直す",
+		"設備利用料を5,600円から6,160円に改める"
+	],
+	"who": [
+		"川崎市民館・労働会館を利用する人や団体"
+	],
+	"why": "川崎市民館・労働会館の利用料金の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.873Z",
+		"inputTokens": 2208,
+		"cachedTokens": 0,
+		"outputTokens": 1144,
+		"reasoningTokens": 901,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.873Z",
+		"checkedAt": "2026-10-10T07:29:38.648Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2121,
+			"cachedTokens": 0,
+			"outputTokens": 101,
+			"reasoningTokens": 86,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1a626389d99011eb",
+		"name": "Revises maximum fees for using civic and labor halls",
+		"official": "Ordinance Partially Amending the Kawasaki City Kawasaki Civic Hall and Labor Hall Ordinance",
+		"summary": "The maximum fees set by ordinance for using civic halls and the labor hall will be revised. Fees for the main hall and other rooms will be reset for each facility and time slot, and the equipment use fee will change from ¥5,600 to ¥6,160. The changes will take effect on April 1, 2027.",
+		"changes": [
+			"Resets the maximum time-slot fees for each facility",
+			"Raises the equipment use fee from ¥5,600 to ¥6,160"
+		],
+		"who": [
+			"People who use Kawasaki Civic Hall and Labor Hall",
+			"Organizations that use Kawasaki Civic Hall and Labor Hall"
+		],
+		"why": "Kawasaki City says the purpose is to revise the maximum fees for using Kawasaki Civic Hall and Labor Hall.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.060Z",
+			"inputTokens": 656,
+			"cachedTokens": 0,
+			"outputTokens": 967,
+			"reasoningTokens": 745,
+			"batch": true
+		}
+	}
+}

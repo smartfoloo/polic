@@ -61,5 +61,28 @@
 			"outputTokens": 60,
 			"reasoningTokens": 45
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d40e34845fd8cc28",
+		"name": "Updates the landscape development body's name and the article number",
+		"official": "Ordinance Partially Amending the Machida City Landscape Ordinance",
+		"summary": "Under the city's landscape ordinance, the legal basis for actions that must be reported is Article 16, paragraph 7, item 11 of the law, and the body covered by the designation procedures is called a “Landscape Development Organization.” To reflect amendments to the law, the bill changes the legal basis to Article 16, paragraph 8, item 12, and changes the name of the body to “Landscape Development Promotion Corporation.” The ordinance will take effect on the date the amended law takes effect.",
+		"changes": [
+			"Changes the legal basis for actions that must be reported from Article 16, paragraph 7, item 11 to Article 16, paragraph 8, item 12",
+			"Changes the name of the body covered by the designation procedures from “Landscape Development Organization” to “Landscape Development Promotion Corporation”"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:41:52.186Z",
+			"inputTokens": 648,
+			"cachedTokens": 0,
+			"outputTokens": 512,
+			"reasoningTokens": 277
+		}
 	}
 }

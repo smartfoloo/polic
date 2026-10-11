@@ -1,0 +1,90 @@
+{
+	"id": "yugawara-r8-1-9",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第9号",
+	"official": "湯河原町家庭的保育事業等の設備及び運営に関する基準を定める条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第9号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17142.pdf",
+			"fetchedAt": "2026-10-08T11:28:29.425Z"
+		}
+	],
+	"name": "地域限定保育士を家庭的保育者の対象に追加",
+	"category": "子育て",
+	"summary": "家庭的保育者の条件には、町長が行う研修などを修了した保育士などが含まれます。この議案で、神奈川県の地域限定保育士も対象に加えます。公布の日から施行します。",
+	"changes": [
+		"神奈川県の地域限定保育士を家庭的保育者の対象に加える"
+	],
+	"who": [
+		"家庭的保育者を目指す地域限定保育士",
+		"家庭的保育事業者"
+	],
+	"why": "児童福祉法の改正に伴い、地域限定保育士制度が一般制度化されたためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.890Z",
+		"inputTokens": 3130,
+		"cachedTokens": 0,
+		"outputTokens": 1054,
+		"reasoningTokens": 846,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.739Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3010,
+			"cachedTokens": 0,
+			"outputTokens": 58,
+			"reasoningTokens": 43,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "78dca6a13e7fb5f1",
+		"name": "Adds Kanagawa’s region-limited childcare workers to eligible home-based childcare providers",
+		"official": "Regarding the Partial Amendment of the Yugawara Town Ordinance Establishing Standards for Equipment and Operation of Home-Based Childcare Businesses, etc.",
+		"summary": "The requirements for home-based childcare providers include childcare workers, and others, who have completed training provided by the mayor. This bill also makes region-limited childcare workers in Kanagawa Prefecture eligible. It will take effect on the day it is promulgated.",
+		"changes": [
+			"Add region-limited childcare workers in Kanagawa Prefecture as eligible home-based childcare providers"
+		],
+		"who": [
+			"Region-limited childcare workers seeking to become home-based childcare providers",
+			"Home-based childcare operators"
+		],
+		"why": "The town says this is because revisions to the Child Welfare Act made the region-limited childcare worker system a general system.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.076Z",
+			"inputTokens": 631,
+			"cachedTokens": 0,
+			"outputTokens": 520,
+			"reasoningTokens": 313,
+			"batch": true
+		}
+	}
+}

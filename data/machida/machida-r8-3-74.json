@@ -63,5 +63,30 @@
 			"outputTokens": 101,
 			"reasoningTokens": 86
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9d2a6fe28e8d39d7",
+		"name": "Changes seal procedures for authorized neighborhood associations",
+		"official": "Ordinance Partially Amending the Machida City Seal Ordinance Concerning Authorized Neighborhood Associations",
+		"summary": "For seal registration and the issuance of certificates for authorized neighborhood associations, the representative applies, and an agent may also apply. This bill revises the references to rules concerning persons acting in place of the representative and agents, as well as the wording on when an agent may apply. It takes effect on October 1, 2026.",
+		"changes": [
+			"Revises the references to rules concerning persons acting in place of the representative and agents",
+			"Revises the wording on when an agent may apply for a certificate or apply to cancel or report the loss of a seal registration"
+		],
+		"who": [
+			"Authorized neighborhood associations in Machida City"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:41:35.410Z",
+			"inputTokens": 648,
+			"cachedTokens": 0,
+			"outputTokens": 552,
+			"reasoningTokens": 352
+		}
 	}
 }

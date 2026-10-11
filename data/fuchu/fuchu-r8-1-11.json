@@ -79,5 +79,31 @@
 			"outputTokens": 539,
 			"reasoningTokens": 224
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c91e6549df268ee9",
+		"name": "Revises compensation for fire corps members",
+		"official": "Ordinance Partially Amending the Ordinance Concerning the Fuchu City Fire Corps",
+		"summary": "Currently, fire corps members receive compensation and travel expenses, and allowances are set for deployments, training, and alert duty. This bill divides compensation into monthly compensation and deployment compensation, and sets monthly amounts by rank, among other things. It takes effect on April 1, 2026.",
+		"changes": [
+			"Divide compensation into monthly compensation and deployment compensation",
+			"Set monthly amounts by rank, from ¥11,000 for a member to ¥36,000 for the corps chief, and add ¥1,000 per month for members who drive and maintain fire engines and other vehicles",
+			"Pay deployment compensation for deployments for disasters, training, and alert duty, and set the payment units and amounts"
+		],
+		"who": [
+			"Fuchu City Fire Corps members"
+		],
+		"why": "The city says this is to review compensation and other payments for fire corps members.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:44.019Z",
+			"inputTokens": 699,
+			"cachedTokens": 0,
+			"outputTokens": 619,
+			"reasoningTokens": 379
+		}
 	}
 }

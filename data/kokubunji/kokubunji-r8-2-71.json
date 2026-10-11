@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-2-71",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第71号",
+	"official": "国分寺市現庁舎用地利活用事業事業者選定審査委員会設置条例を廃止する条例について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-23",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037757.html",
+			"fetchedAt": "2026-10-08T10:58:07.901Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/037/777/062303.pdf",
+			"fetchedAt": "2026-10-08T10:58:19.897Z"
+		}
+	],
+	"name": "現庁舎用地の事業者選定委員会を廃止",
+	"category": "行政のしくみ",
+	"summary": "現庁舎用地の利活用事業者を選ぶため、審査委員会を設置する条例があります。この議案で、その条例を廃止します。",
+	"changes": [
+		"事業者選定審査委員会の設置条例を廃止する"
+	],
+	"who": [],
+	"why": "委員会の任務が終了したためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.878Z",
+		"inputTokens": 1015,
+		"cachedTokens": 0,
+		"outputTokens": 369,
+		"reasoningTokens": 235,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.878Z",
+		"checkedAt": "2026-10-10T07:29:38.663Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 842,
+			"cachedTokens": 0,
+			"outputTokens": 40,
+			"reasoningTokens": 26,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "375260bf3d0f058f",
+		"name": "Abolishes committee for selecting a business operator for the current city hall site",
+		"official": "Ordinance on Repealing the Ordinance Establishing the Kokubunji City Current City Hall Site Utilization Project Business Operator Selection Review Committee",
+		"summary": "An ordinance establishes a review committee to select a business operator for a project to make use of the current city hall site. This bill repeals that ordinance.",
+		"changes": [
+			"Repeals the ordinance establishing the Business Operator Selection Review Committee"
+		],
+		"who": [],
+		"why": "The city says the committee has completed its duties.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.066Z",
+			"inputTokens": 579,
+			"cachedTokens": 0,
+			"outputTokens": 654,
+			"reasoningTokens": 508,
+			"batch": true
+		}
+	}
+}

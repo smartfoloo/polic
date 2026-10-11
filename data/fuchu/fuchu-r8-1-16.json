@@ -94,5 +94,32 @@
 			"outputTokens": 707,
 			"reasoningTokens": 111
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ebb38b0403b085f5",
+		"name": "Revises national health insurance tax rates and caps",
+		"official": "Ordinance Partially Amending the Fuchu City National Health Insurance Tax Ordinance",
+		"summary": "The current national health insurance tax rates and per-person amounts will be revised. The revised amounts will apply starting with fiscal 2026, and a new child and child-rearing support contribution component will be added.",
+		"changes": [
+			"Raise the income-based rate for the basic tax component from 5.05% to 5.63%, the per-person amount from ¥23,720 to ¥28,720, and the cap from ¥650,000 to ¥660,000",
+			"Raise the income-based rate for the late-stage elderly support contribution component from 1.64% to 1.92%, the per-person amount from ¥7,440 to ¥9,640, and the cap from ¥240,000 to ¥260,000",
+			"Raise the income-based rate for the nursing-care contribution component from 1.64% to 1.80% and the per-person amount from ¥9,840 to ¥11,440",
+			"Establish a child and child-rearing support contribution component, with an income-based rate of 0.30% and a per-person amount of ¥1,900, and add ¥100 for each insured person aged 18 or older"
+		],
+		"who": [
+			"National health insurance enrollees in Fuchu City"
+		],
+		"why": "The city says it is making the necessary amendments in connection with the review of tax rates and other amounts.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:20:13.132Z",
+			"inputTokens": 791,
+			"cachedTokens": 0,
+			"outputTokens": 974,
+			"reasoningTokens": 621
+		}
 	}
 }

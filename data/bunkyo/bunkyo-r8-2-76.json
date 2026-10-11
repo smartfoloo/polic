@@ -1,0 +1,89 @@
+{
+	"id": "bunkyo-r8-2-76",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第76号",
+	"official": "文京区職員定数条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第76号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "職員定数を部門別に見直す",
+	"category": "行政のしくみ",
+	"summary": "職員定数条例では、区の部門ごとに職員の定数を定めています。この議案では、部門ごとの定数を改め、合計を2,217人とします。施行日は2026年4月1日です。",
+	"changes": [
+		"区長の事務部局の定数を1,784人とする",
+		"議会の事務部局を13人、教育委員会の事務部局を234人とする",
+		"学校及び幼稚園型認定こども園の職員を171人とする",
+		"選挙管理委員会の事務部局を8人、監査委員の事務部局を7人とし、合計を2,217人とする"
+	],
+	"who": [],
+	"why": "職員配置の見直しに伴い、職員の定数を改めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T03:33:12.849Z",
+		"inputTokens": 1267,
+		"cachedTokens": 0,
+		"outputTokens": 912,
+		"reasoningTokens": 670
+	},
+	"checks": {
+		"draftAt": "2026-10-10T03:33:12.849Z",
+		"checkedAt": "2026-10-10T07:29:38.529Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1208,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3c9dbe74ad9dc4d6",
+		"name": "Revises staff numbers by department",
+		"official": "Ordinance Partially Amending the Bunkyo City Staff Numbers Ordinance",
+		"summary": "The Staff Numbers Ordinance sets staffing limits for each department of the ward. This bill revises the limits for each department and sets the total at 2,217. It takes effect on April 1, 2026.",
+		"changes": [
+			"Sets the staffing limit for the mayor's administrative departments at 1,784",
+			"Sets the staffing limit at 13 for the assembly's administrative department and at 234 for the Board of Education's administrative department",
+			"Sets the number of staff at schools and certified childcare centers with kindergarten functions at 171",
+			"Sets the staffing limit for the Election Administration Commission's administrative department at 8 and for the Audit Commission's administrative department at 7, bringing the total to 2,217"
+		],
+		"who": [],
+		"why": "The ward says this is to revise staffing limits in connection with a review of staff assignments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.019Z",
+			"inputTokens": 672,
+			"cachedTokens": 0,
+			"outputTokens": 839,
+			"reasoningTokens": 602,
+			"batch": true
+		}
+	}
+}

@@ -63,5 +63,29 @@
 			"outputTokens": 42,
 			"reasoningTokens": 28
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "540750cb0b06399a",
+		"name": "Allows public-notice documents to be viewed on electronic screens as well",
+		"official": "Ordinance Partially Amending the Higashikurume City Ordinance on Medical Care for Late-Stage Elderly People",
+		"summary": "Currently, service by public notice is carried out by posting notices on the city's notice board. This bill puts measures in place to make the matters being announced viewable by an unspecified number of people, and adds the option of viewing them on a computer screen at a city office, alongside posting them on the notice board.",
+		"changes": [
+			"Establishes measures to make public-notice details viewable by an unspecified number of people, and adds viewing them on a computer screen at a city office as an option alongside posting them on a notice board"
+		],
+		"who": [
+			"People receiving service by public notice concerning medical care for late-stage elderly people"
+		],
+		"why": "The city says the provisions need to be updated following the entry into force of the Act Partially Amending the Local Tax Act, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:59:04.209Z",
+			"inputTokens": 688,
+			"cachedTokens": 0,
+			"outputTokens": 1266,
+			"reasoningTokens": 1027
+		}
 	}
 }

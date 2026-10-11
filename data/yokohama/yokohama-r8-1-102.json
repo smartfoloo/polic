@@ -1,0 +1,88 @@
+{
+	"id": "yokohama-r8-1-102",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第102号議案",
+	"official": "横浜市保育所条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第102号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si102.pdf",
+			"fetchedAt": "2026-10-08T11:03:15.004Z"
+		}
+	],
+	"name": "保育所での通園支援の使用料を定める",
+	"category": "子育て",
+	"summary": "保育所で特定乳児等通園支援を利用する場合の使用料を、この議案で定めます。利用する認定保護者は、法律に基づいて定められる給付費と同額を納めることになります。",
+	"changes": [
+		"使用料を乳児等通園支援給付費と同額に定める"
+	],
+	"who": [
+		"保育所で特定乳児等通園支援を利用する認定保護者"
+	],
+	"why": "子ども・子育て支援法の一部改正に伴い、特定乳児等通園支援のための保育所の利用に係る使用料を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.882Z",
+		"inputTokens": 1631,
+		"cachedTokens": 0,
+		"outputTokens": 658,
+		"reasoningTokens": 454,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.882Z",
+		"checkedAt": "2026-10-10T07:29:38.686Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1535,
+			"cachedTokens": 0,
+			"outputTokens": 98,
+			"reasoningTokens": 84,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5e543ece5a9b8e5a",
+		"name": "Sets the fee for specified daycare support at nursery schools",
+		"official": "Partial Amendment to the Yokohama City Nursery School Ordinance",
+		"summary": "This bill sets the fee for using specified daycare support for infants and other children at nursery schools. Certified guardians who use the service will pay the same amount as the benefit for daycare support for infants and other children set under the law.",
+		"changes": [
+			"Sets the fee at the same amount as the daycare support benefit for infants and other children"
+		],
+		"who": [
+			"Certified guardians who use specified daycare support for infants and other children at nursery schools"
+		],
+		"why": "The city says this is to set the fee for using nursery schools for specified daycare support for infants and other children, following a partial amendment to the Child and Child-Rearing Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.071Z",
+			"inputTokens": 629,
+			"cachedTokens": 0,
+			"outputTokens": 821,
+			"reasoningTokens": 630,
+			"batch": true
+		}
+	}
+}

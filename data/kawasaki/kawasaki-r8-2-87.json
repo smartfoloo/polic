@@ -1,0 +1,92 @@
+{
+	"id": "kawasaki-r8-2-87",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第87号",
+	"official": "川崎都市計画事業登戸土地区画整理事業施行条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第87号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_87.pdf",
+			"fetchedAt": "2026-10-08T11:10:03.465Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "清算金を分割払いする際の利率を定める",
+	"category": "まちづくり",
+	"summary": "この議案では、清算金を分割徴収する場合に付ける利子の利率を定めます。利率は、換地処分の公告翌日の財政融資資金の条件に合う貸付金利とし、その金利が法定利率を超える場合は法定利率とします。条例は公布の日から施行します。",
+	"changes": [
+		"利率を、換地処分の公告翌日の財政融資資金の所定条件による貸付金利と同じにする",
+		"基準となる貸付けを、元金均等返済、半年ごとの返済、全期間固定金利、5年以内、据置期間なしとする",
+		"基準となる貸付金利が法定利率を超える場合は法定利率とする"
+	],
+	"who": [
+		"登戸土地区画整理事業で清算金を分割納付する人"
+	],
+	"why": "清算金を分割徴収する際の利子率を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.552Z",
+		"inputTokens": 1499,
+		"cachedTokens": 0,
+		"outputTokens": 1712,
+		"reasoningTokens": 1434,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.552Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「現在の条例には、清算金を分割徴収するときの利率の定めがありません。」 → 原文は利率を定める項の追加を示していますが、現行条例全体は示されておらず、利率の定めがないとは確認できません。"
+			],
+			"inputTokens": 1964,
+			"cachedTokens": 1025,
+			"outputTokens": 523,
+			"reasoningTokens": 214,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.871Z",
+		"checkedAt": "2026-10-10T07:29:38.642Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現在の条例には、清算金を分割徴収するときの利率の定めがありません。",
+				"note": "原文は利率を定める項の追加を示していますが、現行条例全体は示されておらず、利率の定めがないとは確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1476,
+			"cachedTokens": 0,
+			"outputTokens": 220,
+			"reasoningTokens": 121,
+			"batch": true
+		}
+	}
+}

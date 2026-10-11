@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a47371b2580dafbb",
+		"name": "Abolishes two housing facilities for older residents",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance on City-Run Housing for Older Residents",
+		"summary": "The ordinance lists Narimasu Keyaki-en and Azusawa Keyaki-en as Itabashi City-run housing for older residents. This bill removes them from the ordinance. The effective date will be set by city regulation.",
+		"changes": [
+			"Abolishes Narimasu Keyaki-en and Azusawa Keyaki-en"
+		],
+		"who": [
+			"Residents of Narimasu Keyaki-en",
+			"Residents of Azusawa Keyaki-en"
+		],
+		"why": "The ward says the facilities need to be abolished.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:05:58.176Z",
+			"inputTokens": 595,
+			"cachedTokens": 0,
+			"outputTokens": 723,
+			"reasoningTokens": 548
+		}
 	}
 }

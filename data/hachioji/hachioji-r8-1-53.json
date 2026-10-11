@@ -60,5 +60,32 @@
 			"outputTokens": 70,
 			"reasoningTokens": 55
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9602ea5f89521c51",
+		"name": "Adds a child and childcare support portion to national health insurance tax",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City National Health Insurance Ordinance",
+		"summary": "National health insurance tax is currently calculated by combining the basic portion, the support portion for older adults, the nursing care portion, and other portions. This bill creates a new child and childcare support portion and revises the income-based rates, per-person amounts, and reductions for low-income households and others in each portion. It takes effect on April 1, 2026, and applies from fiscal 2026.",
+		"changes": [
+			"Revises the basic portion's income-based rate from 7.73% to 7.42% and its per-person amount from ¥44,000 to ¥42,500",
+			"Revises the older-adult support portion's income-based rate from 2.83% to 2.85% and its per-person amount from ¥17,400 to ¥17,800, and the nursing care portion's income-based rate from 2.42% to 2.41% and its per-person amount from ¥18,800 to ¥18,000",
+			"Creates a child and childcare support portion, with an income-based rate of 0.30%, a per-person amount of ¥1,800, and an amount of ¥100 per enrolled member aged 18 or older",
+			"Revises reductions for low-income households and introduces reductions in the child and childcare support portion for low-income households, preschool children, and insured people who give birth"
+		],
+		"who": [
+			"People enrolled in Hachioji City's National Health Insurance"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:54:36.222Z",
+			"inputTokens": 832,
+			"cachedTokens": 0,
+			"outputTokens": 1115,
+			"reasoningTokens": 734
+		}
 	}
 }

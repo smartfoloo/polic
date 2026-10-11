@@ -57,5 +57,33 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c3cbe5333335d4e9",
+		"name": "Changes the cited provision of the Local Autonomy Act in three business ordinances",
+		"official": "Ordinance Concerning the Arrangement of Related Ordinances Following the Partial Amendment of the Local Autonomy Act",
+		"summary": "The ordinances governing the city hospital, motorboat racing, and sewerage businesses cite provisions of the Local Autonomy Act. This bill changes the cited provision from Article 243-2-8, paragraph 8, to Article 243-2-9, paragraph 8, and takes effect on September 24, 2026.",
+		"changes": [
+			"Changes the Local Autonomy Act citation in the hospital business ordinance to Article 243-2-9, paragraph 8",
+			"Changes the Local Autonomy Act citation in the motorboat racing business ordinance to Article 243-2-9, paragraph 8",
+			"Changes the Local Autonomy Act citation in the sewerage business ordinance to Article 243-2-9, paragraph 8"
+		],
+		"who": [
+			"Hospital business",
+			"Motorboat racing business",
+			"Sewerage business"
+		],
+		"why": "The city says the citation is being changed because of a partial amendment to the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:03:16.349Z",
+			"inputTokens": 682,
+			"cachedTokens": 0,
+			"outputTokens": 792,
+			"reasoningTokens": 516
+		}
 	}
 }

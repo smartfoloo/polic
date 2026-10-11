@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-2-72",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第72号",
+	"official": "国分寺市住宅改修等の融資に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-23",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037757.html",
+			"fetchedAt": "2026-10-08T10:58:07.901Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/037/777/062303.pdf",
+			"fetchedAt": "2026-10-08T10:58:19.897Z"
+		}
+	],
+	"name": "融資の利子補給規定を整備",
+	"category": "住宅",
+	"summary": "住宅改修などの融資に関する条例の一部を改正します。利子補給に関する規定を整えます。",
+	"changes": [
+		"利子補給に関する規定を整備する"
+	],
+	"who": [],
+	"why": "利子補給に関する規定を整備するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.878Z",
+		"inputTokens": 1006,
+		"cachedTokens": 0,
+		"outputTokens": 350,
+		"reasoningTokens": 240,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.878Z",
+		"checkedAt": "2026-10-10T07:29:38.664Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 812,
+			"cachedTokens": 0,
+			"outputTokens": 35,
+			"reasoningTokens": 20,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7e9315c053624802",
+		"name": "Updates rules on interest subsidies for loans",
+		"official": "Ordinance Partially Amending the Kokubunji City Ordinance Concerning Loans for Home Renovations, etc.",
+		"summary": "Part of the ordinance on loans for home renovations and other work will be amended. The provisions on interest subsidies will be updated.",
+		"changes": [
+			"Updates the provisions on interest subsidies"
+		],
+		"who": [],
+		"why": "The city says this is to update the provisions on interest subsidies.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.066Z",
+			"inputTokens": 545,
+			"cachedTokens": 0,
+			"outputTokens": 382,
+			"reasoningTokens": 258,
+			"batch": true
+		}
+	}
+}

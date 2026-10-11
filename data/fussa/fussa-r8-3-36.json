@@ -1,0 +1,91 @@
+{
+	"id": "fussa-r8-3-36",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第36号",
+	"official": "福生市税賦課徴収条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "総務文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1021706.html",
+			"fetchedAt": "2026-10-08T10:57:13.621Z"
+		}
+	],
+	"name": "寄附金控除や暗号資産課税の規定を整備",
+	"category": "税・手数料",
+	"summary": "市の税条例を改正します。地方税法の改正に伴い、寄附金税額控除や固定資産税の免税点に関する規定を整え、特定暗号資産の課税特例を定めます。",
+	"changes": [
+		"寄附金税額控除に関する規定を整備する",
+		"固定資産税の免税点に関する規定を整備する",
+		"特定暗号資産に係る課税の特例を定める"
+	],
+	"who": [
+		"寄附金税額控除の対象となる人",
+		"固定資産税の納税者",
+		"特定暗号資産に係る課税を受ける人"
+	],
+	"why": "地方税法の一部改正に伴い、関連する規定を整備するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.854Z",
+		"inputTokens": 1068,
+		"cachedTokens": 0,
+		"outputTokens": 958,
+		"reasoningTokens": 725,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.854Z",
+		"checkedAt": "2026-10-10T07:29:38.585Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1000,
+			"cachedTokens": 0,
+			"outputTokens": 38,
+			"reasoningTokens": 23,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0891ae100c85ada0",
+		"name": "Updates rules on donation tax credits and crypto asset taxation",
+		"official": "Ordinance Partially Amending the Fussa City Tax Assessment and Collection Ordinance",
+		"summary": "The city will amend its tax ordinance. In response to an amendment to the Local Tax Act, it will update rules on donation tax credits and the property tax exemption threshold, and establish special tax treatment for specified crypto assets.",
+		"changes": [
+			"Update rules on donation tax credits",
+			"Update rules on the property tax exemption threshold",
+			"Establish special tax treatment for specified crypto assets"
+		],
+		"who": [
+			"People eligible for donation tax credits",
+			"Property tax payers",
+			"People subject to taxation on specified crypto assets"
+		],
+		"why": "The city says it is updating related rules in response to a partial amendment to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.039Z",
+			"inputTokens": 670,
+			"cachedTokens": 0,
+			"outputTokens": 383,
+			"reasoningTokens": 185,
+			"batch": true
+		}
+	}
+}

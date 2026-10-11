@@ -68,5 +68,32 @@
 			"outputTokens": 500,
 			"reasoningTokens": 386
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "eca2903943f88b86",
+		"name": "Changes expenses covered for employees’ business travel",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on Travel Expenses for Hachioji City Employees, etc.",
+		"summary": "Business travel expenses for city employees, etc. specify costs for each mode of transportation and amounts in an attached table. This bill adds expenses incidental to transportation costs and revises the scope of other transportation costs, regional accommodation amounts, and the method for adjusting expenses against commuting allowances, etc.",
+		"changes": [
+			"Add expenses incidental to rail fares and ship fares",
+			"Redefine the scope of other transportation costs and add incidental expenses",
+			"Revise accommodation amounts by region",
+			"Change the rules so travel expenses are not paid for routes where a commuter pass for commuting can be used"
+		],
+		"who": [
+			"People among Hachioji City employees, etc. who receive business travel expenses"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:57:32.770Z",
+			"inputTokens": 670,
+			"cachedTokens": 0,
+			"outputTokens": 707,
+			"reasoningTokens": 483
+		}
 	}
 }

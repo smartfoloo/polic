@@ -1,0 +1,45 @@
+{
+	"id": "arakawa-r7-2-61",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第61号",
+	"official": "荒川区子ども・子育て会議条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第61号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian61.html",
+			"fetchedAt": "2026-10-10T14:47:50.084Z"
+		}
+	],
+	"name": "特定乳児等通園支援の定員設定を追加",
+	"category": "子育て",
+	"summary": "荒川区子ども・子育て会議の所掌事務を定める条例を改正します。特定乳児等通園支援の利用定員の設定に関する事項を、会議が扱う事務に加えます。",
+	"changes": [
+		"所掌事務に特定乳児等通園支援の利用定員の設定に関する事項を加える"
+	],
+	"who": [],
+	"why": "子ども・子育て支援法の改正に伴い、特定乳児等通園支援の利用定員の設定に関する事項を会議の所掌事務に加えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.809Z",
+		"inputTokens": 1058,
+		"cachedTokens": 0,
+		"outputTokens": 892,
+		"reasoningTokens": 701,
+		"batch": true
+	}
+}

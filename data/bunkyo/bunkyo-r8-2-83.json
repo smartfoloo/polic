@@ -1,0 +1,90 @@
+{
+	"id": "bunkyo-r8-2-83",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第83号",
+	"official": "文京区子どもの医療費の助成に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第83号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "入院時の食事療養費も助成対象に",
+	"category": "健康・医療",
+	"summary": "現在の条例では、入院時の食事療養費にかかる標準負担額は助成の対象から除かれています。この議案では除外規定を削り、条例中の「子ども」を「こども」に改めます。",
+	"changes": [
+		"入院時の食事療養費に係る標準負担額を助成対象に含める",
+		"条例中の「子ども」を「こども」に改める"
+	],
+	"who": [
+		"こども医療費の助成を利用する子どもとその保護者"
+	],
+	"why": "医療費の助成の範囲を拡大するほか、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.832Z",
+		"inputTokens": 1759,
+		"cachedTokens": 0,
+		"outputTokens": 722,
+		"reasoningTokens": 516,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.832Z",
+		"checkedAt": "2026-10-10T07:29:38.539Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1664,
+			"cachedTokens": 0,
+			"outputTokens": 124,
+			"reasoningTokens": 110,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d60e7a287e79b902",
+		"name": "Includes hospital meal costs in subsidies",
+		"official": "Ordinance Partially Amending the Bunkyo City Ordinance on Subsidies for Children's Medical Expenses",
+		"summary": "Under the current ordinance, the standard copayment for meal expenses during hospitalization is excluded from subsidies. This bill removes that exclusion and changes the term “子ども” to “こども” in the ordinance.",
+		"changes": [
+			"Includes the standard copayment for meal expenses during hospitalization in the subsidy",
+			"Changes the term “子ども” to “こども” in the ordinance"
+		],
+		"who": [
+			"Children who use the subsidy for children's medical expenses and their guardians"
+		],
+		"why": "The ward says this is to expand the scope of medical expense subsidies and to make related provisions more orderly.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.021Z",
+			"inputTokens": 644,
+			"cachedTokens": 0,
+			"outputTokens": 717,
+			"reasoningTokens": 527,
+			"batch": true
+		}
+	}
+}

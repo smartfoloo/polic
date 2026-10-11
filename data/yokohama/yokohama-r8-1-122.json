@@ -1,0 +1,86 @@
+{
+	"id": "yokohama-r8-1-122",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第122号議案",
+	"official": "横浜市いじめ問題対策連絡協議会等条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第122号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si122.pdf",
+			"fetchedAt": "2026-10-08T11:02:32.910Z"
+		}
+	],
+	"name": "いじめ調査委員会の定数と部会を変更",
+	"category": "行政のしくみ",
+	"summary": "横浜市いじめ問題調査委員会の委員定数は、現在10人です。この議案で定数を15人にし、同委員会に部会を設置できるようにします。",
+	"changes": [
+		"委員の定数を10人から15人に変更する",
+		"調査委員会に部会を設置できるようにする"
+	],
+	"who": [],
+	"why": "委員の定数を変更し、同委員会に部会を設置するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.884Z",
+		"inputTokens": 1648,
+		"cachedTokens": 0,
+		"outputTokens": 1050,
+		"reasoningTokens": 892,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.700Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1503,
+			"cachedTokens": 0,
+			"outputTokens": 102,
+			"reasoningTokens": 88,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4ddde2e77c19e55c",
+		"name": "Changes the membership limit and subcommittees of the bullying investigation committee",
+		"official": "Ordinance Partially Amending the Yokohama City Ordinance on the Bullying Issues Countermeasures Liaison Council, etc.",
+		"summary": "The Yokohama City Bullying Issues Investigation Committee currently has 10 members. This bill increases the membership limit to 15 and allows the committee to establish subcommittees.",
+		"changes": [
+			"Increases the membership limit from 10 to 15",
+			"Allows the investigation committee to establish subcommittees"
+		],
+		"who": [],
+		"why": "The city says this is to change the membership limit and establish subcommittees in the committee.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.072Z",
+			"inputTokens": 588,
+			"cachedTokens": 0,
+			"outputTokens": 473,
+			"reasoningTokens": 303,
+			"batch": true
+		}
+	}
+}

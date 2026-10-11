@@ -1,0 +1,90 @@
+{
+	"id": "yokohama-r8-2-3",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第3号議案",
+	"official": "横浜市行政手続における特定の個人を識別するための番号の利用等に関する法律の施行に関する条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第3号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si03.pdf",
+			"fetchedAt": "2026-10-08T11:04:27.355Z"
+		}
+	],
+	"name": "困窮する外国人の保護事務を番号利用対象から削除",
+	"category": "デジタル",
+	"summary": "市の条例では、生活に困窮する外国人への保護措置に関する事務を、個人番号や特定個人情報を利用する事務として定めています。この議案では、その事務を対象から外し、関連する表の項番号や法律名の表記も整えます。令和8年6月14日に施行します。",
+	"changes": [
+		"生活に困窮する外国人への保護措置に関する事務を、個人番号などを利用する事務の一覧から削除する",
+		"関連する表の項番号と法律名の表記を整理する"
+	],
+	"who": [
+		"生活に困窮する外国人への保護措置の対象となる人"
+	],
+	"why": "法律の一部改正に伴い、個人番号と特定個人情報を利用する事務を削除するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.887Z",
+		"inputTokens": 2600,
+		"cachedTokens": 0,
+		"outputTokens": 1284,
+		"reasoningTokens": 1015,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.887Z",
+		"checkedAt": "2026-10-10T07:29:38.719Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2544,
+			"cachedTokens": 0,
+			"outputTokens": 69,
+			"reasoningTokens": 54,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5c8ea1a224167677",
+		"name": "Removes protection-related administrative work for financially distressed foreign nationals from the number-use list",
+		"official": "Ordinance Partially Amending the Yokohama City Ordinance on the Enforcement of the Act on the Use of Numbers to Identify Specific Individuals in Administrative Procedures",
+		"summary": "Yokohama City’s ordinance lists administrative work concerning protection measures for foreign nationals experiencing financial hardship as work that uses individual numbers and specific personal information. This bill removes that work from the list and also revises item numbers in related tables and the way law names are written. It will take effect on June 14, 2026.",
+		"changes": [
+			"Removes administrative work concerning protection measures for foreign nationals experiencing financial hardship from the list of work that uses individual numbers and related information",
+			"Revises item numbers in related tables and the way law names are written"
+		],
+		"who": [
+			"People eligible for protection measures for foreign nationals experiencing financial hardship"
+		],
+		"why": "The city says this is to remove administrative work that uses individual numbers and specific personal information following a partial amendment to the law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.074Z",
+			"inputTokens": 698,
+			"cachedTokens": 0,
+			"outputTokens": 975,
+			"reasoningTokens": 726,
+			"batch": true
+		}
+	}
+}

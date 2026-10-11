@@ -1,0 +1,89 @@
+{
+	"id": "kawasaki-r8-3-126",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第126号",
+	"official": "川崎市少年自然の家条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第126号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_126.pdf",
+			"fetchedAt": "2026-10-08T11:13:04.551Z"
+		}
+	],
+	"name": "宿泊料金の上限を居住地別に設定",
+	"category": "教育",
+	"summary": "少年自然の家の利用料金について、市内居住者と市外居住者の区分を設けます。料金の上限額を、利用者の学校区分などに応じて定め、令和9年4月1日から施行します。施行時点で利用許可を受けている人には、その許可分について従前の料金を適用します。",
+	"changes": [
+		"小学生及び学齢未満の人の1人1泊の利用料金の上限額を市内360円、市外540円にする",
+		"中学生の1人1泊の利用料金の上限額を市内480円、市外720円にする",
+		"高校・中等教育学校後期課程・特別支援学校高等部の在学者の1人1泊の利用料金の上限額を市内960円、市外1,440円にする",
+		"その他の人の1人1泊の利用料金の上限額を市内1,810円、市外2,710円にする"
+	],
+	"who": [
+		"川崎市内に住む少年自然の家の利用者",
+		"川崎市外に住む少年自然の家の利用者"
+	],
+	"why": "市外居住者の利用料金を設け、利用料金の上限額を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.554Z",
+		"inputTokens": 1411,
+		"cachedTokens": 0,
+		"outputTokens": 1276,
+		"reasoningTokens": 931,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.554Z",
+			"notes": [
+				"ai [error] changes/fact: 「小学生及び学齢未満の人の1人1泊の料金を市内360円、市外540円にする」 → 原文の制定要旨では「利用料金の上限額を改定」としており、実際の料金をこの額に確定するものではありません。他の3区分の料金の記述も同様です。"
+			],
+			"inputTokens": 1928,
+			"cachedTokens": 1025,
+			"outputTokens": 1215,
+			"reasoningTokens": 849,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.654Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "小学生及び学齢未満の人の1人1泊の料金を市内360円、市外540円にする",
+				"note": "原文の制定要旨では「利用料金の上限額を改定」としており、実際の料金をこの額に確定するものではありません。他の3区分の料金の記述も同様です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1430,
+			"cachedTokens": 0,
+			"outputTokens": 294,
+			"reasoningTokens": 159,
+			"batch": true
+		}
+	}
+}

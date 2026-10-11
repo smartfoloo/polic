@@ -65,5 +65,32 @@
 			"outputTokens": 163,
 			"reasoningTokens": 149
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cb10654dc101d858",
+		"name": "Revises salaries and allowances for Higashikurume City employees",
+		"official": "Ordinance Partially Amending the Higashikurume City Ordinance on Salaries of City Employees",
+		"summary": "The salaries and allowances of city employees are set out in salary tables and payment conditions in ordinances. This bill revises the salary table and changes the payment details for dependent allowances, commuting allowances and other allowances. It will take effect on April 1, 2026, and the regional allowance rate will be 14% for the time being.",
+		"changes": [
+			"Revises the salary table and sets the regional allowance rate at 14% for the time being",
+			"Raises the monthly dependent allowance for children from ¥11,500 to ¥13,000 and removes spouses from eligibility for the dependent allowance",
+			"Introduces a commuting allowance for parking fees of up to ¥5,000 per month and revises distance-based payment amounts for bicycles and other forms of transport",
+			"Sets the disaster response allowance at ¥3,000 per occurrence"
+		],
+		"who": [
+			"Higashikurume City employees"
+		],
+		"why": "The city says it needs to revise employee salaries and allowances in response to recommendations from the National Personnel Authority and the Tokyo Metropolitan Government Personnel Commission, among others.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:59:53.841Z",
+			"inputTokens": 724,
+			"cachedTokens": 0,
+			"outputTokens": 783,
+			"reasoningTokens": 486
+		}
 	}
 }

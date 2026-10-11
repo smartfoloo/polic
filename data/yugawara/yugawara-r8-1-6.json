@@ -1,0 +1,102 @@
+{
+	"id": "yugawara-r8-1-6",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第6号",
+	"official": "湯河原町駐車場条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第6号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17139.pdf",
+			"fetchedAt": "2026-10-08T11:28:11.409Z"
+		}
+	],
+	"name": "駅前駐車場を第1駐車場として条例に追加",
+	"category": "交通",
+	"summary": "現在、条例には湯河原駅臨時第2駐車場と臨時第3駐車場が記載されています。この改正で、土地開発公社が運営していた駐車場を湯河原駅第1駐車場として加え、臨時第2・第3駐車場の名称を変更し、第1駐車場の料金を定めます。",
+	"changes": [
+		"公社が運営していた駐車場を湯河原駅第1駐車場として加える",
+		"湯河原駅臨時第2・第3駐車場の名称を第2・第3駐車場に改める",
+		"第1駐車場の24時間以内の利用料金を30分ごと100円、上限1,000円とする",
+		"第1駐車場の定期利用料金を1か月2,500円、3か月7,350円、6か月14,400円とする"
+	],
+	"who": [
+		"湯河原駅第1駐車場を利用する人"
+	],
+	"why": "土地開発公社が運営していた駐車場を湯河原駅第1駐車場として位置付けることなどに必要な改正のためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.562Z",
+		"inputTokens": 4219,
+		"cachedTokens": 0,
+		"outputTokens": 2589,
+		"reasoningTokens": 2222,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.562Z",
+			"notes": [
+				"ai [check] changes/direction: 「公社が運営していた駐車場を湯河原駅第1駐車場として加える」 → 第2条の2の表の改正箇所は空の「」があり、改正前後の表との対応が崩れている。参考資料では追加を確認できるが、議案本文の変更方向は要確認。"
+			],
+			"inputTokens": 4760,
+			"cachedTokens": 1025,
+			"outputTokens": 565,
+			"reasoningTokens": 198,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.734Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "公社が運営していた駐車場を湯河原駅第1駐車場として加える",
+				"note": "第2条の2の表の改正箇所は空の「」があり、改正前後の表との対応が崩れている。参考資料では追加を確認できるが、議案本文の変更方向は要確認。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "第1駐車場の24時間以内の利用料金を30分ごと100円、上限1,000円とする",
+				"note": "別表にある、24時間を超える場合は24時間ごとに出場・再入場したものとして料金を合算する扱いと、二輪車の1回200円の料金が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "第1駐車場の24時間以内の利用料金を30分ごと100円、上限1,000円とする",
+				"note": "別表備考2で第1駐車場を駐車開始後15分まで無料とする対象に加える変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4260,
+			"cachedTokens": 0,
+			"outputTokens": 452,
+			"reasoningTokens": 156,
+			"batch": true
+		}
+	}
+}

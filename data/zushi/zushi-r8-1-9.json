@@ -1,0 +1,113 @@
+{
+	"id": "zushi-r8-1-9",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第9号",
+	"official": "逗子市職員の旅費に関する条例等の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1013732.html",
+			"fetchedAt": "2026-10-08T11:21:22.893Z"
+		},
+		{
+			"label": "議案第9号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/732/r8-1t-gian9.pdf",
+			"fetchedAt": "2026-10-08T11:21:52.839Z"
+		}
+	],
+	"name": "出張時の交通費や宿泊費の扱いを変更",
+	"category": "行政のしくみ",
+	"summary": "市職員などの出張旅費は、現在の条例で定めた方法で扱われています。この議案では、旅費の支払い方法や交通費・宿泊費の範囲、宿泊費の基準額を改めます。改正内容は、令和8年4月1日以降に出発する旅行などに適用します。",
+	"changes": [
+		"旅行者に代えて旅行業者などに旅費に相当する額を支払えるようにする",
+		"交通費に寝台料金や関連する費用を加える",
+		"市職員の宿泊費を宿泊先の基準額以内の実費とし、宿泊手当を1夜2,400円とする（食事相当額が含まれる場合は1,600円または800円）",
+		"議員や特別職職員、消防団員などの宿泊費の基準額を都道府県別に定め直す"
+	],
+	"who": [
+		"逗子市職員",
+		"市議会議員、特別職職員、消防団員",
+		"旅行業者などの旅行役務提供者"
+	],
+	"why": "令和7年度の国家公務員旅費法の改正や、国・近隣各市の状況などを踏まえて旅費等を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.892Z",
+		"inputTokens": 6605,
+		"cachedTokens": 0,
+		"outputTokens": 1759,
+		"reasoningTokens": 1382,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.892Z",
+		"checkedAt": "2026-10-10T07:29:38.747Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市職員の宿泊費を宿泊先の基準額以内の実費とし、宿泊手当を1夜2,400円とする（食事相当額が含まれる場合は1,600円または800円）",
+				"note": "新第13条で、旅行と宿泊の一体の対価を支払う「包括宿泊費」を新設する変更が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市職員の宿泊費を宿泊先の基準額以内の実費とし、宿泊手当を1夜2,400円とする（食事相当額が含まれる場合は1,600円または800円）",
+				"note": "第11条で「出張中」を「市外出張中」に改め、宿泊手当が支給される場合を同条第2項の支給対象から除く変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6647,
+			"cachedTokens": 0,
+			"outputTokens": 484,
+			"reasoningTokens": 234,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "52a03ed44ed878e5",
+		"name": "Changes how travel and accommodation costs are handled",
+		"official": "Regarding the Partial Amendment of the Ordinance on Travel Expenses for Zushi City Employees, etc.",
+		"summary": "Travel expenses for business trips by city employees and others are currently handled according to the method set out in the ordinance. This bill revises how travel expenses are paid, what transportation and accommodation costs are covered, and the standard amounts for accommodation costs. The changes apply to trips departing on or after April 1, 2026, and other cases.",
+		"changes": [
+			"Allows an amount equivalent to travel expenses to be paid to travel agencies and other providers of travel services instead of to the traveler",
+			"Adds sleeper berth charges and related costs to transportation expenses",
+			"Sets city employees’ accommodation costs at the actual cost, up to the standard amount for the accommodation, and sets the lodging allowance at ¥2,400 per night (¥1,600 or ¥800 if an amount equivalent to meal costs is included)",
+			"Sets new standard accommodation amounts by prefecture for assembly members, special-position employees, volunteer fire corps members, and others"
+		],
+		"who": [
+			"Zushi City employees",
+			"Zushi City Assembly members, special-position employees, and volunteer fire corps members",
+			"Providers of travel services, such as travel agencies"
+		],
+		"why": "The city says the travel expenses and related matters are being revised in light of the FY2025 amendment to the National Public Service Travel Expenses Act and the circumstances of the national government and neighboring cities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.078Z",
+			"inputTokens": 785,
+			"cachedTokens": 0,
+			"outputTokens": 1349,
+			"reasoningTokens": 1011,
+			"batch": true
+		}
+	}
+}

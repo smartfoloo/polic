@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-17.pdf",
 			"fetchedAt": "2026-10-05T15:58:07.242Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "632efe1db4719370",
+		"official": "Ordinance Partially Amending the Higashiyamato City Library Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:56.125Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 117,
+			"reasoningTokens": 85
+		}
+	}
 }

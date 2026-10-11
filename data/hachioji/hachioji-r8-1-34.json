@@ -69,5 +69,33 @@
 			"outputTokens": 453,
 			"reasoningTokens": 306
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5271fdfe5e3f31e2",
+		"name": "Revises City employees' salaries and commuting allowances",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on Salaries of Hachioji City Employees",
+		"summary": "Eligible employees receive a housing allowance of ¥15,000 per month. This bill changes the housing allowance amount according to conditions and also revises commuting allowances, salary tables, and how pay is handled during leave. It takes effect on April 1, 2026.",
+		"changes": [
+			"Sets the housing allowance at ¥15,000 or ¥30,000 per month, depending on conditions",
+			"Sets the cap on commuting allowances for employees who commute using a vehicle at ¥78,900 per payment period, and pays up to ¥5,000 per month toward parking fees (the total monthly commuting allowance is capped at ¥150,000)",
+			"Revises salary table amounts and salary step transitions, and creates an exception, to be specified by rules, to the total cap on performance allowances",
+			"Does not reduce pay for hours not worked when an employee is approved for health management leave up to the number of days specified by rules"
+		],
+		"who": [
+			"Hachioji City employees",
+			"Employees who commute and pay parking fees"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:43:52.262Z",
+			"inputTokens": 751,
+			"cachedTokens": 0,
+			"outputTokens": 812,
+			"reasoningTokens": 516
+		}
 	}
 }

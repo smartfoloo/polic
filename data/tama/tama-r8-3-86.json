@@ -1,0 +1,100 @@
+{
+	"id": "tama-r8-3-86",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第86号議案",
+	"official": "多摩市消費生活センター条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第86号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "消費生活センターの利用条件と使用料を変更",
+	"category": "くらし・手続き",
+	"summary": "現在の条例では、消費生活センターの部屋の使用条件や使用料などを定めています。この議案で、部屋の使用料を団体の区分や時間帯に応じた額に改め、センターへの立入りを断ったり退去を求めたりできる条件を新たに定めます。立入り制限などは公布日から、使用料表などは令和10年1月1日から施行します。",
+	"changes": [
+		"部屋の使用を断る理由に、公序良俗を乱すおそれを加え、センターへの立入り拒否・退去命令の条件を定める",
+		"使用料を部屋・団体区分・時間帯別に定める（全日料金は科学室3,600円～14,400円、調理室4,230円～16,920円、講座室5,640円～22,560円）",
+		"市内団体の条件と、営利使用の意味を定める"
+	],
+	"who": [
+		"消費生活センターの科学室・調理室・講座室を使う団体",
+		"消費生活センターを訪れる人"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:10:35.098Z",
+		"inputTokens": 2319,
+		"cachedTokens": 0,
+		"outputTokens": 2628,
+		"reasoningTokens": 2291
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:10:35.098Z",
+		"checkedAt": "2026-10-09T11:50:55.232Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "部屋の使用を断る理由に、公序良俗を乱すおそれを加え、センターへの立入り拒否・退去命令の条件を定める",
+				"note": "第7条第1号の使用拒否事由を「科学室等又はその附属物を破損し、又は汚損するおそれがあるとき」に改める変更が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2328,
+			"cachedTokens": 0,
+			"outputTokens": 310,
+			"reasoningTokens": 184
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "86d61da441631367",
+		"name": "Changes use conditions and fees at the Consumer Affairs Center",
+		"official": "On the Enactment of an Ordinance Partially Amending the Tama City Consumer Affairs Center Ordinance",
+		"summary": "The current ordinance sets conditions and fees for using rooms at the Consumer Affairs Center. This bill changes room-use fees according to the type of organization and time slot, and newly sets conditions for refusing entry to the Center or asking people to leave. The entry restrictions and related provisions take effect on the date of promulgation, while the fee schedule and related provisions take effect on January 1, 2028.",
+		"changes": [
+			"Add the risk of disturbing public order or morals as a reason to refuse room use, and set conditions for refusing entry to the Center or ordering people to leave",
+			"Set fees by room, organization category, and time slot (all-day rates: science room, ¥3,600–¥14,400; cooking room, ¥4,230–¥16,920; lecture room, ¥5,640–¥22,560)",
+			"Define the requirements for organizations based in the city and what counts as commercial use"
+		],
+		"who": [
+			"Groups using the Consumer Affairs Center's science room",
+			"Groups using the Consumer Affairs Center's cooking room or lecture room",
+			"People visiting the Consumer Affairs Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:56:02.155Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 1616,
+			"reasoningTokens": 1311
+		}
+	}
+}

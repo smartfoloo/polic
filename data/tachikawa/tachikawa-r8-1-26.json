@@ -65,5 +65,29 @@
 			"outputTokens": 300,
 			"reasoningTokens": 167
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9a167344a2a947b2",
+		"name": "Expands review of special permits for condominium rebuilding and renewal",
+		"official": "Ordinance Partially Amending the Tachikawa City Administrative Fees Ordinance",
+		"summary": "The current fee schedule sets out the review of applications for special permits concerning the floor-area ratio after rebuilding condominiums certified as requiring demolition. This bill changes the review to cover applications for special permits concerning the floor-area ratio and the height of each part of condominiums after rebuilding or renewal. It will take effect on April 1, 2026.",
+		"changes": [
+			"Changes the scope to reviews of special permit applications concerning the floor-area ratio and the height of each part of condominiums after rebuilding or renewal"
+		],
+		"who": [
+			"People applying for special permits related to condominium rebuilding or renewal"
+		],
+		"why": "The city says this is due to the promulgation of amendments to a law intended to facilitate the management and renewal of aging condominiums and similar buildings.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:11:16.228Z",
+			"inputTokens": 675,
+			"cachedTokens": 0,
+			"outputTokens": 695,
+			"reasoningTokens": 472
+		}
 	}
 }

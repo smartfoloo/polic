@@ -58,5 +58,30 @@
 			"outputTokens": 127,
 			"reasoningTokens": 112
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ecdf5c6b974d8b53",
+		"name": "Sets the first-visit surcharge without a referral at ¥2,600",
+		"official": "Ordinance Partially Amending the Inagi City Hospital Use Ordinance",
+		"summary": "Currently, patients who have a first visit without a referral pay a surcharge of ¥7,000. Patients who have a follow-up visit after being advised to see a referred provider pay a surcharge of ¥3,000. For medical care on or after April 1, 2026, the first-visit surcharge will be ¥2,600, and the follow-up surcharge will be eliminated.",
+		"changes": [
+			"Reduces the surcharge for a first visit without a referral from ¥7,000 to ¥2,600",
+			"Eliminates the ¥3,000 follow-up surcharge after a patient is advised to see a referred provider"
+		],
+		"who": [
+			"Patients who visit Inagi City Hospital without a referral"
+		],
+		"why": "The city says the change is intended to return the surcharge for patients without referrals to the amount in effect before the designation, following the hospital's decision to give up its designation as a priority medical institution for referred patients.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:04:43.950Z",
+			"inputTokens": 680,
+			"cachedTokens": 0,
+			"outputTokens": 684,
+			"reasoningTokens": 424
+		}
 	}
 }

@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d2a277983b91a73f",
+		"name": "Changes the cited provision on waiving employees' debts",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Ordinance on Exemption of Employees from Disciplinary Action, etc., in Connection with the Demise of Emperor Showa",
+		"summary": "The ordinance provides that debts arising from employees' liability to pay compensation for reasons occurring before January 7, 1989, are waived going forward. This bill changes the cited provision of the Local Autonomy Act from Article 243-2-8 to Article 243-2-9 and takes effect on September 24, 2026.",
+		"changes": [
+			"Changes the cited article of the Local Autonomy Act from Article 243-2-8 to Article 243-2-9"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:56:14.817Z",
+			"inputTokens": 622,
+			"cachedTokens": 0,
+			"outputTokens": 903,
+			"reasoningTokens": 710
+		}
 	}
 }

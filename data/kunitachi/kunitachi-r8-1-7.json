@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e2a6c092c38f3f2f",
+		"name": "Revises public expense caps for election flyers and posters",
+		"official": "Ordinance Partially Amending the Ordinance on Public Expense Coverage for Election Campaigns in Elections for Kunitachi City Council Members and the Mayor of Kunitachi City",
+		"summary": "The costs of producing flyers and posters for City Council and mayoral elections are covered by public funds. This bill revises the maximum amounts covered.",
+		"changes": [
+			"Raises the public expense cap for producing flyers from ¥7.73 to ¥8.38",
+			"Raises the public expense cap for producing posters from ¥541.31 to ¥586.88"
+		],
+		"who": [
+			"Candidates in Kunitachi City Council and Kunitachi City mayoral elections"
+		],
+		"why": "The city says this is to revise the maximum amounts of public expense coverage for producing flyers and posters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:44.963Z",
+			"inputTokens": 672,
+			"cachedTokens": 0,
+			"outputTokens": 382,
+			"reasoningTokens": 179
+		}
 	}
 }

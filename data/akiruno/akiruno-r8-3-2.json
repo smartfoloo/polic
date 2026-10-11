@@ -56,5 +56,31 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d7ef8feda5904012",
+		"name": "Moves property matters to the Planning and Policy Department",
+		"official": "Ordinance Partially Amending the Akiruno City Organization Ordinance",
+		"summary": "At present, “property” is one of the areas handled by the General Affairs Department. This bill adds responsibility for property matters to the Planning and Policy Department and changes “property” in the General Affairs Department’s list of responsibilities to “inspection.” It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds property matters to the responsibilities of the Planning and Policy Department",
+			"Changes “property” to “inspection” in the General Affairs Department’s list of responsibilities"
+		],
+		"who": [
+			"Planning and Policy Department",
+			"General Affairs Department"
+		],
+		"why": "The city says this is to make administrative work more efficient.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:14:48.432Z",
+			"inputTokens": 593,
+			"cachedTokens": 0,
+			"outputTokens": 805,
+			"reasoningTokens": 612
+		}
 	}
 }

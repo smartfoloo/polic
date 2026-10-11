@@ -25,7 +25,7 @@
 	],
 	"name": "証明書の端末交付で使えるカードを追加",
 	"category": "税・手数料",
-	"summary": "市の証明書等を多機能端末機で交付する場合、手数料は通常1通450円です。個人番号カードなどを使う場合は1通300円ですが、この議案で特定在留カードと特定特別永住者証明書を使う場合も対象に加えます。",
+	"summary": "別表第1の番号1にあたる事務の手数料は1通450円で、個人番号カードなどを使って多機能端末機で交付する場合は1通300円です。議案では、特定在留カードと特定特別永住者証明書を使う場合も対象に加えます。",
 	"changes": [
 		"特定在留カードと特定特別永住者証明書を使った端末交付の手数料を1通300円にする"
 	],
@@ -38,33 +38,63 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:33:55.729Z",
+		"generatedAt": "2026-10-08T23:33:19.759Z",
 		"inputTokens": 2246,
 		"cachedTokens": 0,
 		"outputTokens": 771,
-		"reasoningTokens": 554
+		"reasoningTokens": 554,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:33:19.759Z",
+			"notes": [
+				"ai [check] summary/fact: 「市の証明書等を多機能端末機で交付する場合、手数料は通常1通450円です。」 → 原文で450円と確認できるのは別表第1の番号1のみです。他の証明書等の金額は省略されており、端末交付の手数料を一律に通常450円とは確認できません。"
+			],
+			"inputTokens": 2669,
+			"cachedTokens": 1025,
+			"outputTokens": 823,
+			"reasoningTokens": 575
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:33:55.729Z",
-		"checkedAt": "2026-10-08T05:56:37.566Z",
+		"draftAt": "2026-10-08T23:33:19.759Z",
+		"checkedAt": "2026-10-08T23:33:24.455Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "summary",
-				"kind": "fact",
-				"severity": "check",
-				"quote": "市の証明書等を多機能端末機で交付する場合、手数料は通常1通450円です。",
-				"note": "原文で450円と確認できるのは別表第1の番号1のみです。他の証明書等の金額は省略されており、端末交付の手数料を一律に通常450円とは確認できません。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 2160,
+			"inputTokens": 2165,
 			"cachedTokens": 0,
-			"outputTokens": 294,
-			"reasoningTokens": 174
+			"outputTokens": 105,
+			"reasoningTokens": 91
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1b281cf0587246eb",
+		"name": "Adds cards that can be used to obtain certificates from a terminal",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Administrative Fees",
+		"summary": "The fee for the administrative service listed as item 1 in Appendix 1 is ¥450 per copy. It is ¥300 per copy when the document is issued at a multifunction terminal using an Individual Number Card or a similar card. The bill also adds the Specified Residence Card and the Specified Special Permanent Resident Certificate as cards that can be used.",
+		"changes": [
+			"Sets the fee for terminal-issued copies using a Specified Residence Card or a Specified Special Permanent Resident Certificate at ¥300 per copy"
+		],
+		"who": [
+			"People with a Specified Residence Card",
+			"People with a Specified Special Permanent Resident Certificate"
+		],
+		"why": "The city says this is due to the enforcement of the Act Partially Amending the Immigration Control and Refugee Recognition Act and Other Laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:16:11.069Z",
+			"inputTokens": 652,
+			"cachedTokens": 0,
+			"outputTokens": 611,
+			"reasoningTokens": 385
 		}
 	}
 }

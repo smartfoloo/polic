@@ -58,5 +58,31 @@
 			"outputTokens": 42,
 			"reasoningTokens": 28
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "511e0aa0f0a946e8",
+		"name": "Adds electronic viewing for service by public notice",
+		"official": "Ordinance Partially Amending the Akiruno City Ordinance on the Imposition and Collection of City Taxes and the Akiruno City Ordinance on Medical Care for People Aged 75 and Older",
+		"summary": "Service by public notice was previously carried out by posting a written notice. After the amendment, it may also be carried out by making the contents viewable on a computer screen installed at a city office.",
+		"changes": [
+			"Establish a measure to make matters subject to public notice available for viewing by an unspecified number of people",
+			"Allow service by public notice to be carried out either by posting a written notice or by making it viewable on an electronic screen at a city office"
+		],
+		"who": [
+			"People subject to service by public notice concerning city taxes",
+			"People subject to service by public notice concerning medical care for people aged 75 and older"
+		],
+		"why": "The city says the ordinance specifies the method of service by public notice and organizes necessary wording following the promulgation of the Act Partially Amending the Local Tax Act, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:15:19.659Z",
+			"inputTokens": 673,
+			"cachedTokens": 0,
+			"outputTokens": 1028,
+			"reasoningTokens": 767
+		}
 	}
 }

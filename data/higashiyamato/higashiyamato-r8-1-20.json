@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-20.pdf",
 			"fetchedAt": "2026-10-05T15:58:25.269Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "d0e6a662c9fc9cd7",
+		"official": "Ordinance Partially Amending the Higashiyamato City Long-Term Care Insurance Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:03.251Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 99,
+			"reasoningTokens": 64
+		}
+	}
 }

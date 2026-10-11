@@ -27,7 +27,7 @@
 	"category": "まちづくり",
 	"summary": "現在の条例には、中野山王地区整備計画区域の建築制限が定められていません。この議案は同区域を条例に加え、建てられない建物の用途や、敷地面積、壁面の位置、高さの基準を設けます。",
 	"changes": [
-		"マージャン屋などの類似施設、自動車教習所、危険物の貯蔵・処理施設、建築物に附属しない自動車車庫を建築できないようにする",
+		"マージャン屋などの類似施設、自動車教習所、建築物に附属しない危険物の貯蔵・処理施設、建築物に附属しない自動車車庫を建築できないようにする",
 		"敷地面積の最低限度を原則500平方メートルとし、所定の住宅などは170平方メートルとする",
 		"壁面線に応じて、道路・隣地境界から1.5メートル、3メートル、0.5メートル以上離す",
 		"建築物の高さを20メートル以下にする"
@@ -40,40 +40,73 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:29:11.989Z",
+		"generatedAt": "2026-10-08T23:16:21.257Z",
 		"inputTokens": 3455,
 		"cachedTokens": 0,
 		"outputTokens": 1526,
-		"reasoningTokens": 1249
+		"reasoningTokens": 1249,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:16:21.257Z",
+			"notes": [
+				"ai [error] changes/fact: 「危険物の貯蔵・処理施設」 → 原文の別表第2・127では、危険物の貯蔵・処理施設のうち「建築物に附属するもの」は禁止対象から除かれている。"
+			],
+			"inputTokens": 3906,
+			"cachedTokens": 1025,
+			"outputTokens": 660,
+			"reasoningTokens": 347
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:29:11.989Z",
-		"checkedAt": "2026-10-08T05:15:01.646Z",
+		"draftAt": "2026-10-08T23:16:21.257Z",
+		"checkedAt": "2026-10-08T23:16:27.830Z",
 		"flags": [],
 		"issues": [
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "危険物の貯蔵・処理施設",
-				"note": "原文の別表第2・127では、危険物の貯蔵・処理施設のうち「建築物に附属するもの」は禁止対象から除かれている。"
-			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "壁面線に応じて、道路・隣地境界から1.5メートル、3メートル、0.5メートル以上離す",
-				"note": "原文の別表第2・127では、地区計画の都市計画決定時点で現に存する建築物等を壁面位置制限の適用対象から除いているが、この例外が抜けている。"
+				"note": "原文には、都市計画決定の時点で現に存する建築物等を壁面距離の制限の適用除外とする規定がありますが、その例外が抜けています。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 3427,
+			"inputTokens": 3435,
 			"cachedTokens": 0,
-			"outputTokens": 388,
-			"reasoningTokens": 188
+			"outputTokens": 230,
+			"reasoningTokens": 111
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "71ba98aa69169237",
+		"name": "Adds building restrictions in the Nakanosanno District",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Ordinance on Restrictions on Buildings in Areas Covered by District Plans",
+		"summary": "The current ordinance does not set building restrictions for the area covered by the Nakanosanno District Development Plan. This bill adds the area to the ordinance and sets rules on building uses that are not allowed, site area, building-wall locations, and height.",
+		"changes": [
+			"Prohibits construction of mahjong parlors and similar facilities, driving schools, facilities for storing or processing hazardous materials that are not attached to a building, and garages for motor vehicles that are not attached to a building",
+			"Sets the minimum site area at 500 square meters in principle, or 170 square meters for specified housing and similar buildings",
+			"Requires buildings to be set back at least 1.5 meters, 3 meters, or 0.5 meters from roads and neighboring property boundaries, depending on the wall line",
+			"Limits building height to 20 meters"
+		],
+		"who": [
+			"People and businesses undertaking construction within the Nakanosanno District Development Plan Area"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:54:36.794Z",
+			"inputTokens": 734,
+			"cachedTokens": 0,
+			"outputTokens": 1114,
+			"reasoningTokens": 835
 		}
 	}
 }

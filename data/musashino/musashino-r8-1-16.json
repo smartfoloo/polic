@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai16gou.pdf",
 			"fetchedAt": "2026-10-05T15:55:07.036Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "a00a6fc7fe5a9905",
+		"official": "Ordinance Partially Amending the Musashino City Ordinance on Restrictions on Buildings within District Plan Areas",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:28.133Z",
+			"inputTokens": 398,
+			"cachedTokens": 0,
+			"outputTokens": 180,
+			"reasoningTokens": 143
+		}
+	}
 }

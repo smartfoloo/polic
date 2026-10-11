@@ -57,5 +57,29 @@
 			"outputTokens": 66,
 			"reasoningTokens": 52
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c6b0ca421ce53dc9",
+		"name": "Adds Kidsna Omori to the facility",
+		"official": "Ordinance Partially Amending the Ota City Omori-kita 4-chome Complex Facility Ordinance",
+		"summary": "Kidsna Omori is not included in the ordinance for the Ota City Omori-kita 4-chome Complex Facility. This bill adds Kidsna Omori to the facilities covered by the ordinance and reorganizes the numbering of related provisions.",
+		"changes": [
+			"Adds Kidsna Omori to the facilities covered by the ordinance"
+		],
+		"who": [
+			"Children and parents or guardians who use Kidsna Omori"
+		],
+		"why": "The ward says it is updating the ordinance's provisions in connection with the relocation of Kidsna Omori.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:04:25.116Z",
+			"inputTokens": 590,
+			"cachedTokens": 0,
+			"outputTokens": 479,
+			"reasoningTokens": 301
+		}
 	}
 }

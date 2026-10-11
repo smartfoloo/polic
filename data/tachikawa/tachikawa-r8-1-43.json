@@ -30,50 +30,56 @@
 		"費用弁償の種類を改め、その他の交通費、包括宿泊費、宿泊手当、渡航雑費、死亡手当を加える",
 		"宿泊費を国の旅費支給規程に定める宿泊費基準額に基づいて定める",
 		"執行機関である特別職の職員の外国旅行費用を副市長の例によるものとする",
-		"代表監査委員を常勤の監査委員が兼ねる場合を、併給制限の例外に加える"
+		"代表監査委員を常勤の監査委員が兼ねる場合も、併給制限の対象に加える"
 	],
 	"who": [],
-	"why": "地方自治法第203条の2第5項の規定によるものと市は説明しています。",
+	"why": "地方自治法第203条の2第5項の規定によるためと、市は説明しています。",
 	"draft": {
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:29:51.678Z",
+		"generatedAt": "2026-10-08T23:32:19.273Z",
 		"inputTokens": 2058,
 		"cachedTokens": 0,
 		"outputTokens": 1365,
-		"reasoningTokens": 1034
+		"reasoningTokens": 1034,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:32:19.273Z",
+			"notes": [
+				"code: reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)",
+				"ai [check] changes/direction: 「執行機関である特別職の職員の外国旅行費用を副市長の例によるものとする」 → 原文の第９条第３項は改正前後の対応が明確でなく、空欄状の部分もあるため、この規定を設けるのか削除するのか確認できない。",
+				"ai [error] changes/direction: 「代表監査委員を常勤の監査委員が兼ねる場合を、併給制限の例外に加える」 → 原文第４条は、この兼職の場合も前条の規定を適用しないとする改正。併給制限の対象を加えるものであり、制限の例外を加えるものではない。"
+			],
+			"inputTokens": 2704,
+			"cachedTokens": 1025,
+			"outputTokens": 1312,
+			"reasoningTokens": 982
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:29:51.678Z",
-		"checkedAt": "2026-10-08T05:53:32.423Z",
-		"flags": [
-			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
-		],
+		"draftAt": "2026-10-08T23:32:19.273Z",
+		"checkedAt": "2026-10-08T23:32:30.483Z",
+		"flags": [],
 		"issues": [
 			{
 				"field": "changes",
 				"kind": "direction",
 				"severity": "check",
 				"quote": "執行機関である特別職の職員の外国旅行費用を副市長の例によるものとする",
-				"note": "原文の第９条第３項は改正前後の対応が明確でなく、空欄状の部分もあるため、この規定を設けるのか削除するのか確認できない。"
-			},
-			{
-				"field": "changes",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "代表監査委員を常勤の監査委員が兼ねる場合を、併給制限の例外に加える",
-				"note": "原文第４条は、この兼職の場合も前条の規定を適用しないとする改正。併給制限の対象を加えるものであり、制限の例外を加えるものではない。"
+				"note": "原文の第９条第３項は改正前の対応箇所が下線のみで、改正前後の条文が対になっていないため、変更の種類・向きを確認できない。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 2055,
+			"inputTokens": 2054,
 			"cachedTokens": 0,
-			"outputTokens": 627,
-			"reasoningTokens": 415
+			"outputTokens": 385,
+			"reasoningTokens": 274
 		}
 	}
 }

@@ -62,5 +62,34 @@
 			"outputTokens": 227,
 			"reasoningTokens": 213
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e0d77c141d5fe8c",
+		"name": "Revises eligibility for the mental and physical disability welfare allowance",
+		"official": "Ordinance Partially Amending the Inagi City Ordinance on the Mental and Physical Disability Welfare Allowance",
+		"summary": "The allowance is currently ¥15,500, ¥12,500 or ¥5,000, depending on disability category and other factors. This bill revises eligibility for people with intellectual or physical disabilities and limits the ¥15,500 allowance to people covered by Tokyo's allowance ordinance. The changes take effect on October 1, 2026. People who have already been certified will continue to receive payments under the old system through the March 2028 payment.",
+		"changes": [
+			"Changes the eligibility requirement for intellectual disabilities from Degree 4 or above to Degree 3 or above",
+			"Changes the eligibility requirement for physical disabilities from Grade 4 or above to Grade 2 or above",
+			"Limits eligibility for the intellectual and physical disability allowance to people covered by Tokyo's allowance ordinance",
+			"Sets the allowance for intellectual and physical disabilities at ¥15,500 and eliminates the ¥12,500 and ¥5,000 categories"
+		],
+		"who": [
+			"People with a Degree 4 intellectual disability",
+			"People with Grade 3 or Grade 4 physical disabilities",
+			"People with intellectual or physical disabilities who are not covered by Tokyo's allowance ordinance"
+		],
+		"why": "The city says it is reviewing the system in light of changes in the social environment surrounding people with disabilities, among other factors.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:04:38.214Z",
+			"inputTokens": 797,
+			"cachedTokens": 0,
+			"outputTokens": 1404,
+			"reasoningTokens": 1069
+		}
 	}
 }

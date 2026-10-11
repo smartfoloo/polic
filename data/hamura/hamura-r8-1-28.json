@@ -1,0 +1,80 @@
+{
+	"id": "hamura-r8-1-28",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第28号",
+	"official": "羽村市介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-10",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "令和8年度の介護保険料に算定特例",
+	"category": "福祉",
+	"summary": "令和7年度の税制改正で、給与所得控除の最低保障額が引き上げられます。この改正に伴い、令和8年度の介護保険料の算定方法に特例が設けられたため、条例を改正します。施行日は令和8年4月1日です。",
+	"changes": [
+		"令和8年度の介護保険料の算定方法に関する条例の規定を改める"
+	],
+	"who": [
+		"介護保険料の算定対象となる人"
+	],
+	"why": "令和7年度の税制改正で給与所得控除の最低保障額が引き上げられ、令和8年度の介護保険料の算定方法に特例が設けられたためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.539Z",
+		"inputTokens": 1057,
+		"cachedTokens": 0,
+		"outputTokens": 631,
+		"reasoningTokens": 418,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.539Z",
+			"notes": [
+				"ai [check] summary/fact: 「令和8年度の介護保険料の算定方法に特例を設けるため、条例を改正します。」 → 原文は「特例が設けられたため、条例の一部を改正する」としており、特例の新設を目的とする改正なのか、既に設けられた特例に対応する改正なのか、位置付けの確認が必要です。"
+			],
+			"inputTokens": 1485,
+			"cachedTokens": 1025,
+			"outputTokens": 899,
+			"reasoningTokens": 654,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.858Z",
+		"checkedAt": "2026-10-10T07:29:38.606Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "fact",
+				"severity": "check",
+				"quote": "令和8年度の介護保険料の算定方法に特例を設けるため、条例を改正します。",
+				"note": "原文は「特例が設けられたため、条例の一部を改正する」としており、特例の新設を目的とする改正なのか、既に設けられた特例に対応する改正なのか、位置付けの確認が必要です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 969,
+			"cachedTokens": 0,
+			"outputTokens": 329,
+			"reasoningTokens": 200,
+			"batch": true
+		}
+	}
+}

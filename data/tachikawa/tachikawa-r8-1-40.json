@@ -91,5 +91,34 @@
 			"outputTokens": 644,
 			"reasoningTokens": 234
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e95c5ad1df1173e",
+		"name": "Revises how travel expenses for city employees are paid",
+		"official": "Ordinance Partially Amending the Ordinance on Travel Expenses for General Service Employees of Tachikawa City",
+		"summary": "Until now, employee travel expenses were handled in categories such as train fares, boat fares, vehicle fares and accommodation costs. The bill reorganizes the categories into items such as transportation costs, accommodation costs and relocation costs. For certain expenses, the amount to be paid will be determined by comparing the amount calculated under the ordinance with the amount actually paid. The bill also allows electronic records to be used for claims and settlements, and revises the payment rules for employees taking up a new post and for family relocations.",
+		"changes": [
+			"Reorganizes travel expenses into categories such as transportation costs, accommodation costs and relocation costs",
+			"Pays the lower of the amount calculated under the ordinance and the amount actually paid for certain travel expenses",
+			"Allows claims and settlement forms to be submitted as electronic records",
+			"Allows the city to pay travel agencies and others directly for the equivalent amount of travel expenses"
+		],
+		"who": [
+			"General service employees of Tachikawa City",
+			"Family members of employees who relocate in connection with an employee's new posting",
+			"Travel agencies and others that have a contract with the city to provide travel services"
+		],
+		"why": "The city says the amendment is being made based on Article 24, paragraph 5, of the Local Public Service Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:13:28.580Z",
+			"inputTokens": 780,
+			"cachedTokens": 0,
+			"outputTokens": 762,
+			"reasoningTokens": 432
+		}
 	}
 }

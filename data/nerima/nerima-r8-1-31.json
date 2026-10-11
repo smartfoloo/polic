@@ -1,0 +1,89 @@
+{
+	"id": "nerima-r8-1-31",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第31号",
+	"official": "練馬区災害応急措置業務従事者および水防従事者に対する損害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "企画総務委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-03",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai1teirei/0801gian.html",
+			"fetchedAt": "2026-10-08T10:55:25.128Z"
+		}
+	],
+	"name": "災害・水防従事者の補償基準を見直し",
+	"category": "防災",
+	"summary": "災害時の応急措置や水防に従事する人への損害補償の基準が見直されます。補償の基準額を引き上げ、配偶者分の扶養加算をなくし、子ども分の加算を引き上げます。2026年4月1日に施行します。",
+	"changes": [
+		"補償基礎額を引き上げる",
+		"配偶者の扶養加算額を廃止する",
+		"子の扶養加算額を引き上げる"
+	],
+	"who": [
+		"災害応急措置業務に従事する人",
+		"水防に従事する人"
+	],
+	"why": "非常勤消防団員等の損害補償の基準を定める政令が改正されたためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.879Z",
+		"inputTokens": 1119,
+		"cachedTokens": 0,
+		"outputTokens": 828,
+		"reasoningTokens": 588,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.879Z",
+		"checkedAt": "2026-10-10T07:29:38.669Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1056,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "63ed80444df54f2c",
+		"name": "Revises compensation standards for disaster response and flood-control workers",
+		"official": "Ordinance Partially Amending the Nerima City Ordinance on Compensation for Damage to Persons Engaged in Emergency Disaster Response Operations and Flood Control Operations",
+		"summary": "Compensation standards for people engaged in emergency response during disasters or in flood control will be revised. The basic compensation amount will be increased, the dependent allowance for a spouse will be eliminated, and the allowance for a child will be increased. The changes will take effect on April 1, 2026.",
+		"changes": [
+			"Increase the basic compensation amount",
+			"Eliminate the dependent allowance for a spouse",
+			"Increase the dependent allowance for a child"
+		],
+		"who": [
+			"People engaged in emergency disaster response operations",
+			"People engaged in flood control operations"
+		],
+		"why": "The ward says this is because the Cabinet Order Establishing Standards for Compensation for Damage to Part-Time Fire Brigade Members, etc. was amended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.068Z",
+			"inputTokens": 706,
+			"cachedTokens": 0,
+			"outputTokens": 574,
+			"reasoningTokens": 347,
+			"batch": true
+		}
+	}
+}

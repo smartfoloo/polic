@@ -1,0 +1,94 @@
+{
+	"id": "hadano-r8-1-14",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第14号",
+	"official": "秦野市立認定こども園条例の一部を改正することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "文教福祉常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第14号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg14.pdf",
+			"fetchedAt": "2026-10-08T11:23:53.014Z"
+		}
+	],
+	"name": "こども誰でも通園制度の実施根拠を変更",
+	"category": "子育て",
+	"summary": "市立認定こども園では、令和7年10月から乳児等通園支援事業を地域子ども・子育て支援事業として行っています。この議案では、令和8年4月から、同事業を児童福祉法に基づく事業として実施する形に改めます。対象は0歳6か月以上で3歳未満の子どもです。4月1日時点で3歳未満だった子どもは、3歳になった後もその年度末まで対象となります。",
+	"changes": [
+		"乳児等通園支援事業を地域子ども・子育て支援事業の対象から外す",
+		"同事業を児童福祉法に基づく事業として条例に定める",
+		"同事業の利用料負担や減免に関する規定を削る"
+	],
+	"who": [
+		"市立認定こども園で乳児等通園支援事業を利用する保護者",
+		"同事業の対象となる子ども"
+	],
+	"why": "令和8年4月1日から新たな給付を伴う事業として本格実施する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.855Z",
+		"inputTokens": 3103,
+		"cachedTokens": 0,
+		"outputTokens": 2674,
+		"reasoningTokens": 2353,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.855Z",
+		"checkedAt": "2026-10-10T07:29:38.589Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3119,
+			"cachedTokens": 0,
+			"outputTokens": 57,
+			"reasoningTokens": 42,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9722f4a08d545543",
+		"name": "Changes the legal basis for the universal childcare service",
+		"official": "Regarding the Partial Amendment of the Hadano City Ordinance on Municipal Certified Childcare Centers",
+		"summary": "Since October 2025, Hadano City’s municipal certified childcare centers have provided the infant and other children daycare support service as a community child and child-rearing support service. This bill changes the service, from April 2026, to one provided under the Child Welfare Act. It is for children aged 6 months or older and under 3 years old. Children who were under 3 on April 1 remain eligible until the end of that fiscal year, even after turning 3.",
+		"changes": [
+			"Removes the infant and other children daycare support service from the category of community child and child-rearing support services",
+			"Establishes in the ordinance that the service is provided under the Child Welfare Act",
+			"Deletes provisions on user fees and fee reductions or exemptions for the service"
+		],
+		"who": [
+			"Parents using the infant and other children daycare support service at municipal certified childcare centers",
+			"Children eligible for the service"
+		],
+		"why": "The city says it is necessary to fully implement the service, with a new benefit, from April 1, 2026.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.040Z",
+			"inputTokens": 760,
+			"cachedTokens": 0,
+			"outputTokens": 928,
+			"reasoningTokens": 643,
+			"batch": true
+		}
+	}
+}

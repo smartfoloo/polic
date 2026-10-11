@@ -58,5 +58,31 @@
 			"outputTokens": 56,
 			"reasoningTokens": 42
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b61a9fcb722872ec",
+		"name": "Sets fees for night lighting at Morigasaki Park",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment and Management of Parks, etc. at Ota City Sewerage-Related Facilities",
+		"summary": "Night lighting equipment will be installed at the soccer field and futsal court at Morigasaki Park. This ordinance sets fees for using the lighting facilities. It takes effect on April 1, 2026.",
+		"changes": [
+			"Sets the fee for night lighting at the soccer field at either ¥1,400 or ¥2,100 per session of up to one hour",
+			"Sets the fee for night lighting at the futsal court at either ¥700 or ¥1,050 per court per session of up to one hour"
+		],
+		"who": [
+			"People using the night lighting at the soccer field at Morigasaki Park",
+			"People using the night lighting at the futsal court at Morigasaki Park"
+		],
+		"why": "The ward says the fees are being set because night lighting equipment will be installed at the soccer field and futsal court at Morigasaki Park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:06:15.082Z",
+			"inputTokens": 693,
+			"cachedTokens": 0,
+			"outputTokens": 773,
+			"reasoningTokens": 516
+		}
 	}
 }

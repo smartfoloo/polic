@@ -71,5 +71,30 @@
 			"outputTokens": 258,
 			"reasoningTokens": 158
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9dc68489b9c363c5",
+		"name": "Sets Ai Kids start time at 7:30 a.m.",
+		"official": "Ordinance Partially Amending the Tokyo Metropolitan Itabashi City Ai Kids Ordinance",
+		"summary": "Ai Kids operating hours start at 8 a.m. At elementary schools designated by regulation, however, the start time on school closure days and Saturdays will be 7:30 a.m. This amendment takes effect on April 1, 2026.",
+		"changes": [
+			"Sets the start time at designated elementary schools on school closure days and Saturdays to 7:30 a.m., instead of 8 a.m."
+		],
+		"who": [
+			"Children who use Ai Kids",
+			"Their guardians"
+		],
+		"why": "The ward says this is to revise Ai Kids operating hours on school closure days and Saturdays, and to make other necessary provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:07:38.484Z",
+			"inputTokens": 617,
+			"cachedTokens": 0,
+			"outputTokens": 955,
+			"reasoningTokens": 757
+		}
 	}
 }

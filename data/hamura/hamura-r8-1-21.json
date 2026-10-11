@@ -1,0 +1,81 @@
+{
+	"id": "hamura-r8-1-21",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第21号",
+	"official": "職員の給与に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-10",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "職員の給料表や手当を改定",
+	"category": "行政のしくみ",
+	"summary": "職員の給料表や手当、勤勉手当の算定方法を定める条例を改正します。給料表、地域手当、住居手当を見直し、勤勉手当の算定方法も改めます。令和8年4月1日から施行します。",
+	"changes": [
+		"給料表を改定する",
+		"地域手当を改定する",
+		"住居手当を改定する",
+		"勤勉手当の算定方法を改める"
+	],
+	"who": [],
+	"why": "人事院勧告と東京都人事委員会勧告を勘案するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.539Z",
+		"inputTokens": 1058,
+		"cachedTokens": 0,
+		"outputTokens": 560,
+		"reasoningTokens": 368,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.539Z",
+			"notes": [
+				"ai [check] who/unsupported: 「羽村市職員」 → 原文には自治体名の記載がなく、対象を羽村市の職員と特定できません。"
+			],
+			"inputTokens": 1406,
+			"cachedTokens": 1025,
+			"outputTokens": 360,
+			"reasoningTokens": 148,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.857Z",
+		"checkedAt": "2026-10-10T07:29:38.604Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "羽村市職員",
+				"note": "原文には自治体名の記載がなく、対象を羽村市の職員と特定できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 953,
+			"cachedTokens": 0,
+			"outputTokens": 150,
+			"reasoningTokens": 86,
+			"batch": true
+		}
+	}
+}

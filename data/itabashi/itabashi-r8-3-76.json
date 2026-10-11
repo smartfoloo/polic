@@ -60,5 +60,32 @@
 			"outputTokens": 58,
 			"reasoningTokens": 44
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8f1e852e5f31db08",
+		"name": "Requires measures to prevent sexual violence against children with disabilities",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for Staffing, Facilities and Operations of Itabashi City Designated Services for Children with Disabilities Attending Facilities, etc.",
+		"summary": "The ward's ordinance sets standards for services for children with disabilities who attend facilities. Under the amendment, providers will be required to take measures to prevent sexual violence targeting children, etc., and to protect children with disabilities if it occurs. These measures include checking the criminal records of workers in covered roles. The amendment will take effect on December 25, 2026.",
+		"changes": [
+			"Require providers to take measures to prevent sexual violence targeting children, etc., and protect children with disabilities if it occurs",
+			"Require providers to take measures such as checking the criminal records of workers in covered roles"
+		],
+		"who": [
+			"Providers of day services for children with disabilities",
+			"Workers in covered roles who come into contact with children with disabilities",
+			"Children with disabilities who use day services"
+		],
+		"why": "The ward says it is adding provisions on necessary measures, including criminal record checks, in connection with the enforcement of the law, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:10:56.555Z",
+			"inputTokens": 755,
+			"cachedTokens": 0,
+			"outputTokens": 1124,
+			"reasoningTokens": 850
+		}
 	}
 }

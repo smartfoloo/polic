@@ -1,0 +1,47 @@
+{
+	"id": "arakawa-r7-2-58",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第58号",
+	"official": "荒川区特定乳児等通園支援事業の運営の基準に関する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第58号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian58.html",
+			"fetchedAt": "2026-10-10T14:47:32.074Z"
+		}
+	],
+	"name": "特定乳児等通園支援事業の運営基準を定める",
+	"category": "子育て",
+	"summary": "特定乳児等通園支援事業の運営基準を、この条例案で定めます。子ども・子育て支援法の改正に伴うものです。",
+	"changes": [
+		"特定乳児等通園支援事業の運営に関する基準を定める"
+	],
+	"who": [
+		"特定乳児等通園支援事業を行う事業者"
+	],
+	"why": "子ども・子育て支援法の改正に伴い、事業の運営に関する基準を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.807Z",
+		"inputTokens": 1043,
+		"cachedTokens": 0,
+		"outputTokens": 557,
+		"reasoningTokens": 379,
+		"batch": true
+	}
+}

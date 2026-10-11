@@ -1,0 +1,40 @@
+{
+	"id": "kiyose-r8-2-33",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第33号",
+	"official": "清瀬市新型インフルエンザ等対策本部条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/286/r8.2.sityou.gian2.pdf",
+			"fetchedAt": "2026-10-10T14:56:52.936Z"
+		}
+	],
+	"name": "対策本部に部を設けて体制を見直す",
+	"category": "行政のしくみ",
+	"summary": "新型インフルエンザ等対策本部の体制を見直します。本部に部を設けるなどして、より実効的で機動的な体制にします。",
+	"changes": [
+		"対策本部に部を設置するなど、体制を再構築する"
+	],
+	"who": [],
+	"why": "対策本部をより実効的かつ機動的なものにするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.833Z",
+		"inputTokens": 1043,
+		"cachedTokens": 0,
+		"outputTokens": 478,
+		"reasoningTokens": 338,
+		"batch": true
+	}
+}

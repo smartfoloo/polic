@@ -1,0 +1,111 @@
+{
+	"id": "tama-r8-3-92",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第92号議案",
+	"official": "多摩市立温水プール条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第92号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "温水プールなどの利用料金を改定",
+	"category": "まちづくり",
+	"summary": "現在、温水プールやトレーニングルームなどは、利用者や利用方法ごとに料金が定められています。この議案で、個人・団体利用や年間利用、回数利用の料金と条件を改め、シニアの年齢基準や夏期の開始日も変更します。令和10年1月1日から施行します。",
+	"changes": [
+		"夏期2時間のプール料金を、大人は市内800円・市外1,600円、子ども・シニアは市内400円・市外800円にする",
+		"年間利用・回数利用の料金や利用条件、団体利用の料金を改める",
+		"シニアの基準年齢を60歳から65歳へ段階的に上げ、夏期の開始日を海の日の翌日にする",
+		"放送設備とレンタルロッカーの利用料金の上限額を改める"
+	],
+	"who": [
+		"温水プールなどを個人利用する人",
+		"施設を団体利用する団体",
+		"福利厚生目的で回数券を購入する法人・団体・個人事業者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:12:25.074Z",
+		"inputTokens": 3551,
+		"cachedTokens": 0,
+		"outputTokens": 3737,
+		"reasoningTokens": 3403
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:12:25.074Z",
+		"checkedAt": "2026-10-09T11:52:00.401Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "夏期2時間のプール料金を、大人は市内800円・市外1,600円、子ども・シニアは市内400円・市外800円にする",
+				"note": "原文では夏期以外のプール、トレーニングルーム、ミニスポーツホールの当日利用料金も改めているが、changesに記載がない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "年間利用・回数利用の料金や利用条件、団体利用の料金を改める",
+				"note": "原文で追加する市内・市外の区分の定義が抜けている。市内の者には在住・在勤・在学者、市内団体には市内の者が半数以上の団体または市内に事務所を有する法人が含まれ、適用料金に直接関わる。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3558,
+			"cachedTokens": 0,
+			"outputTokens": 349,
+			"reasoningTokens": 110
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3e001eed35ee85db",
+		"name": "Revises fees for the heated pool and other facilities",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Municipal Heated Swimming Pool Ordinance",
+		"summary": "Fees for the heated pool, training room and other facilities are currently set according to who uses them and how they are used. This bill revises fees and conditions for individual and group use, annual use and multiple-use tickets. It also changes the age threshold for seniors and the start date of the summer season. The changes will take effect on January 1, 2028.",
+		"changes": [
+			"Set the summer two-hour pool fee at ¥800 for adults who live in Tama City and ¥1,600 for adults who live outside the city, and at ¥400 for children and seniors who live in the city and ¥800 for those who live outside the city",
+			"Revise fees and conditions for annual and multiple use, and fees for group use",
+			"Gradually raise the age threshold for seniors from 60 to 65, and move the start of the summer season to the day after Marine Day",
+			"Revise the maximum fees for use of the public-address system and rental lockers"
+		],
+		"who": [
+			"People who use the heated pool individually",
+			"People who use the facilities annually or with multiple-use tickets",
+			"Groups that use the facilities",
+			"Corporations, groups and sole proprietors that buy multiple-use tickets for employee benefits"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:56:51.218Z",
+			"inputTokens": 741,
+			"cachedTokens": 0,
+			"outputTokens": 1651,
+			"reasoningTokens": 1318
+		}
+	}
+}

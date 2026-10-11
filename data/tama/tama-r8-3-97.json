@@ -1,0 +1,101 @@
+{
+	"id": "tama-r8-3-97",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第97号議案",
+	"official": "多摩市連光寺六丁目農業公園条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第97号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "農業公園の管理・利用ルールを定める",
+	"category": "環境",
+	"summary": "多摩市立公園として、連光寺六丁目17に農業公園を設けます。農業体験や講座、市民などの交流の場として活用し、自然環境の保全や利用のルールを定めます。条例は令和9年10月1日に施行します。",
+	"changes": [
+		"連光寺六丁目17に農業公園を設ける",
+		"農業体験や農業・里山保全に関する講座などを行う",
+		"指定管理者が公園の事業運営や施設の維持管理を担う",
+		"休園日や禁止行為、立入りの制限を定める"
+	],
+	"who": [
+		"農業公園を利用する市民",
+		"農産物の生産者"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T11:47:58.036Z",
+		"inputTokens": 3597,
+		"cachedTokens": 0,
+		"outputTokens": 1110,
+		"reasoningTokens": 895
+	},
+	"checks": {
+		"draftAt": "2026-10-09T11:47:58.036Z",
+		"checkedAt": "2026-10-09T11:52:29.029Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "休園日や禁止行為、立入りの制限を定める",
+				"note": "第11条の、公園施設等に損害を与えた者に損害賠償を義務付ける規定（市長がやむを得ない理由を認める場合を除く）が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3518,
+			"cachedTokens": 0,
+			"outputTokens": 220,
+			"reasoningTokens": 112
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dfffcbfa85d1f80b",
+		"name": "Sets management and use rules for an agricultural park",
+		"official": "Regarding the Enactment of the Tama City Renkoji 6-chome Agricultural Park Ordinance",
+		"summary": "An agricultural park will be established at Renkoji 6-chome 17 as a Tama City park. It will be used as a place for agricultural experiences, classes, and interaction among residents and others, and rules will be set for conserving the natural environment and using the park. The ordinance will take effect on October 1, 2027.",
+		"changes": [
+			"Establishes an agricultural park at Renkoji 6-chome 17",
+			"Offers agricultural experiences and classes on agriculture and satoyama conservation",
+			"Assigns the designated manager responsibility for operating park programs and maintaining and managing the facilities",
+			"Sets rules on park closure days, prohibited activities, and restrictions on entry"
+		],
+		"who": [
+			"City residents who use the agricultural park",
+			"Producers of agricultural products"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:57:36.993Z",
+			"inputTokens": 651,
+			"cachedTokens": 0,
+			"outputTokens": 580,
+			"reasoningTokens": 344
+		}
+	}
+}

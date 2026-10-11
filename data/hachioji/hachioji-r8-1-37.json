@@ -98,5 +98,35 @@
 			"outputTokens": 970,
 			"reasoningTokens": 210
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "32fc019e3cd1a73a",
+		"name": "Revises fees for certificates and record inspections",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Fee Ordinance",
+		"summary": "The fees for issuing certificates and inspecting public records will be revised. Many fees will increase, and fees will also be set for applying for and receiving tax certificates and similar documents at multifunction terminals.",
+		"changes": [
+			"Raises in-person counter fees for tax payment certificates and fixed-asset valuation certificates, among others, from ¥200 to ¥300 per copy, and mainly raises fees for mail requests from ¥300 to ¥400",
+			"Raises fees for copies of resident records and similar documents from ¥200 to ¥300 per copy, and fees for mail requests from ¥300 to ¥400",
+			"Raises the fee for inspecting the Basic Resident Register from ¥1,000 to ¥1,500 per person per 30 minutes, and the farmland ledger inspection fee from ¥450 to ¥670 per sheet per visit",
+			"Revises the application fee for plan certification for residential portions under 300 square metres using the standard calculation method from ¥80,100 to ¥81,000, and updates provisions concerning condominiums and construction"
+		],
+		"who": [
+			"People applying for certificates such as tax payment and fixed-asset valuation certificates",
+			"People applying for copies of resident records and similar documents",
+			"People inspecting public records or the farmland ledger",
+			"People applying for building certification"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:44:12.160Z",
+			"inputTokens": 776,
+			"cachedTokens": 0,
+			"outputTokens": 1005,
+			"reasoningTokens": 673
+		}
 	}
 }

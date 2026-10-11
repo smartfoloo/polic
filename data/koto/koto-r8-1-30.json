@@ -1,0 +1,38 @@
+{
+	"id": "koto-r8-1-30",
+	"assembly": "tokyo/koto",
+	"approved": false,
+	"number": "議案第30号",
+	"official": "江東区立学校の学校医、学校歯科医及び学校薬剤師の公務災害補償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.koto.lg.jp/650102/documents/r8-1giketukekka.pdf",
+			"fetchedAt": "2026-10-08T10:54:31.458Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "61ebbbe2b2820ac9",
+		"official": "Ordinance Partially Amending the Koto City Ordinance on Compensation for Public-Service-Related Accidents of School Physicians, School Dentists, and School Pharmacists at Koto City Schools",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.518Z",
+			"inputTokens": 406,
+			"cachedTokens": 0,
+			"outputTokens": 298,
+			"reasoningTokens": 244,
+			"batch": true
+		}
+	}
+}

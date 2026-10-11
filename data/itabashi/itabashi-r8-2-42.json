@@ -73,5 +73,32 @@
 			"outputTokens": 301,
 			"reasoningTokens": 178
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ef401878e732d3c9",
+		"name": "Aligns compensation standards for flood control and emergency disaster measures with Cabinet Order",
+		"official": "Ordinance on Compensation for Damage to Persons Engaged in Flood Control and Emergency Disaster Measures",
+		"summary": "The ordinance that sets compensation for damage to people engaged in flood control or emergency measures during disasters will be fully revised. The types and standards of compensation will follow the examples set out in Cabinet Order, and procedures for applications and requests for review will also be established. The ordinance will take effect on the date of promulgation and apply from April 1, 2026.",
+		"changes": [
+			"Set the types and standards of compensation for damage in line with the examples set out in Cabinet Order",
+			"Establish procedures for applications for compensation and requests for review",
+			"Allow the ward to demand repayment of compensation paid in error or obtained fraudulently"
+		],
+		"who": [
+			"People engaged in flood control",
+			"People engaged in emergency measures during disasters"
+		],
+		"why": "The ward mayor says this is to align the provisions on compensation for damage with Cabinet Order and put the necessary provisions in place.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:08:42.945Z",
+			"inputTokens": 734,
+			"cachedTokens": 0,
+			"outputTokens": 646,
+			"reasoningTokens": 394
+		}
 	}
 }

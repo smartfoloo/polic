@@ -117,5 +117,35 @@
 			"outputTokens": 1120,
 			"reasoningTokens": 203
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b6ec2d7fe53ec827",
+		"name": "Revises rules for municipal resident and fixed asset taxes",
+		"official": "Ordinance Partially Amending the Fuchu City Tax Ordinance",
+		"summary": "The current ordinance sets rules for filing municipal resident tax returns and claiming deductions, as well as thresholds below which fixed asset tax is exempt. This bill extends the period eligible for the housing loan tax credit through fiscal year 2037 and adds a rule to tax income from specified crypto-assets separately from other income. It also revises fixed asset tax exemption thresholds and makes other changes.",
+		"changes": [
+			"Extend the eligible period for the housing loan tax credit from through fiscal year 2032 to through fiscal year 2037",
+			"Separate business income, transfer income and miscellaneous income from specified crypto-assets from other income, and apply a 3% municipal resident tax income levy to the taxable amount",
+			"Raise the fixed asset tax exemption threshold for houses from ¥200,000 to ¥300,000, and for depreciable assets from ¥1.5 million to ¥1.8 million",
+			"Revise municipal resident tax filing procedures and the information public pension recipients must include in their tax returns"
+		],
+		"who": [
+			"Municipal resident taxpayers eligible for the housing loan tax credit",
+			"Municipal resident taxpayers with income from specified crypto-assets",
+			"People and businesses that own houses or depreciable assets subject to fixed asset tax",
+			"People filing municipal resident tax returns and recipients of public pensions"
+		],
+		"why": "The city says this is to reflect a partial revision of the Local Tax Act and to make other necessary revisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:22:11.566Z",
+			"inputTokens": 802,
+			"cachedTokens": 0,
+			"outputTokens": 1449,
+			"reasoningTokens": 1095
+		}
 	}
 }

@@ -58,5 +58,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e11aa5a0cd146411",
+		"name": "Raises public funding amounts for election campaigning",
+		"official": "Ordinance Partially Amending the Ordinance on Public Funding for Election Campaigning in Elections for Higashiyamato City Council Members and Mayor",
+		"summary": "Under the system in which public funds cover campaign expenses for Higashiyamato City Council and mayoral elections, two amounts set by the ordinance will change. ¥7.73 will become ¥8.38, and ¥541.31 will become ¥586.88. The changes will apply to elections whose dates are announced on or after the date the ordinance is promulgated.",
+		"changes": [
+			"Raises the amount in Article 8 from ¥7.73 to ¥8.38",
+			"Raises the amount in Article 11 from ¥541.31 to ¥586.88"
+		],
+		"who": [
+			"Candidates in Higashiyamato City Council and mayoral elections"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:03:04.506Z",
+			"inputTokens": 664,
+			"cachedTokens": 0,
+			"outputTokens": 636,
+			"reasoningTokens": 419
+		}
 	}
 }

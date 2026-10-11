@@ -1,0 +1,38 @@
+{
+	"id": "hinode-r8-1-33",
+	"assembly": "tokyo/hinode",
+	"approved": false,
+	"number": "議案第33号",
+	"official": "日の出町消防団員の報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-17",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案結果",
+			"url": "https://www.town.hinode.tokyo.jp/0000004700.html",
+			"fetchedAt": "2026-10-08T11:00:08.453Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "469c188bef078df4",
+		"official": "Ordinance Partially Amending the Hinode Town Ordinance on Remuneration and Expense Reimbursement for Fire Brigade Members",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.513Z",
+			"inputTokens": 395,
+			"cachedTokens": 0,
+			"outputTokens": 187,
+			"reasoningTokens": 147,
+			"batch": true
+		}
+	}
+}

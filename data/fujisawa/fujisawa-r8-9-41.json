@@ -1,0 +1,101 @@
+{
+	"id": "fujisawa-r8-9-41",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第41号",
+	"official": "藤沢市太陽の家（心身障がい者福祉センター）条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "厚生環境常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第41号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2806&Sflg=2",
+			"fetchedAt": "2026-10-08T11:19:40.399Z"
+		},
+		{
+			"label": "議案第41号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2806_e01-041.pdf",
+			"fetchedAt": "2026-10-08T11:19:47.779Z"
+		}
+	],
+	"name": "体育室・会議室の使用料を改定",
+	"category": "福祉",
+	"summary": "太陽の家の体育室と会議室には、利用の区分に応じた使用料があります。この議案で料金表を改めます。2027年4月1日以降に使用許可を受けた利用から、新しい料金が適用されます。",
+	"changes": [
+		"体育室と会議室の使用料を改定する"
+	],
+	"who": [
+		"太陽の家の体育室や会議室を利用する人"
+	],
+	"why": "使用料の受益と負担を適正化し、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.850Z",
+		"inputTokens": 1635,
+		"cachedTokens": 0,
+		"outputTokens": 899,
+		"reasoningTokens": 708,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.850Z",
+		"checkedAt": "2026-10-10T07:29:38.578Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "体育室と会議室の使用料を改定する",
+				"note": "原文には1,370円から2,500円、2,000円から3,400円などの具体的な料金変更があるが、changesには改定後の金額や引上げであることが示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1489,
+			"cachedTokens": 0,
+			"outputTokens": 236,
+			"reasoningTokens": 134,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fcc05cfe020f10f3",
+		"name": "Revises fees for the gym and meeting rooms",
+		"official": "Ordinance Partially Amending the Fujisawa City Taiyo-no-Ie (Welfare Center for People with Physical and Mental Disabilities) Ordinance",
+		"summary": "Fees for using the gym and meeting rooms at Taiyo-no-Ie vary according to the category of use. This bill revises the fee schedule. The new fees will apply to uses for which permission is granted on or after April 1, 2027.",
+		"changes": [
+			"Revises the fees for the gym and meeting rooms"
+		],
+		"who": [
+			"People who use the gym or meeting rooms at Taiyo-no-Ie"
+		],
+		"why": "The city says this is to ensure that fees are appropriately aligned with the benefits received and burdens borne, and to ensure social fairness.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.035Z",
+			"inputTokens": 607,
+			"cachedTokens": 0,
+			"outputTokens": 549,
+			"reasoningTokens": 350,
+			"batch": true
+		}
+	}
+}

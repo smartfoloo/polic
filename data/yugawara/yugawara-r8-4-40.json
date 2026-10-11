@@ -1,0 +1,90 @@
+{
+	"id": "yugawara-r8-4-40",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第40号",
+	"official": "湯河原町水道事業給水条例及び湯河原町下水道条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第4回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-09-01",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第40号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/18536.pdf",
+			"fetchedAt": "2026-10-08T11:29:41.515Z"
+		}
+	],
+	"name": "災害時の水道・下水道工事の担い手を拡大",
+	"category": "防災",
+	"summary": "現在、水道工事は町長や町が指定した事業者が、下水道工事は町が指定した工事店が行う決まりです。災害などの非常時には、町長が必要と認めた場合、町外の水道事業者や他の市町村長などから指定を受けた者も工事を行えるようになります。",
+	"changes": [
+		"災害などの非常時に、町長が必要と認めれば、町外の水道事業者やその指定を受けた者が給水装置工事を行えるようにする",
+		"災害などの非常時に、町長が必要と認めれば、他の市町村長などから指定を受けた者が排水設備等の工事を行えるようにする"
+	],
+	"who": [
+		"給水装置や排水設備等の工事を必要とする住民"
+	],
+	"why": "災害などの非常時に工事を円滑に進められるようにするためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.891Z",
+		"inputTokens": 2831,
+		"cachedTokens": 0,
+		"outputTokens": 880,
+		"reasoningTokens": 594,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.891Z",
+		"checkedAt": "2026-10-10T07:29:38.741Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2815,
+			"cachedTokens": 0,
+			"outputTokens": 78,
+			"reasoningTokens": 64,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "60d13a340873593b",
+		"name": "Expands the pool of contractors for water and sewer works during disasters",
+		"official": "Regarding Partial Amendments to the Yugawara Town Water Supply Business Water Supply Ordinance and the Yugawara Town Sewerage Ordinance",
+		"summary": "Under the current rules, water supply work is carried out by the mayor or businesses designated by the town, while sewerage work is carried out by contractors designated by the town. In emergencies such as disasters, if the mayor considers it necessary, water utilities from outside the town and people designated by other municipal mayors, etc., will also be allowed to carry out the work.",
+		"changes": [
+			"Allow water supply installation work to be carried out by water utilities from outside the town or people designated by them during emergencies such as disasters, if the mayor considers it necessary",
+			"Allow drainage equipment, etc., work to be carried out by people designated by other municipal mayors, etc., during emergencies such as disasters, if the mayor considers it necessary"
+		],
+		"who": [
+			"Residents who need work on water supply equipment or drainage facilities, etc."
+		],
+		"why": "The town says this will allow work to proceed smoothly during emergencies such as disasters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.076Z",
+			"inputTokens": 730,
+			"cachedTokens": 0,
+			"outputTokens": 860,
+			"reasoningTokens": 592,
+			"batch": true
+		}
+	}
+}

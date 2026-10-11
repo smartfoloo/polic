@@ -58,5 +58,29 @@
 			"outputTokens": 50,
 			"reasoningTokens": 36
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fd17454393ed7c55",
+		"name": "Adds another method for public notice of city taxes",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on the Assessment and Collection of City Taxes",
+		"summary": "Service by public notice for city taxes is currently carried out by posting notices on a notice board. The bill adds a measure to make the matters being publicly announced available for viewing by an unspecified number of people, and combines this with either posting on a notice board or making them viewable on a computer screen at a city office.",
+		"changes": [
+			"Adds a measure to make publicly announced matters available for viewing by an unspecified number of people, using either a notice board or a computer screen at a city office"
+		],
+		"who": [
+			"People who receive service by public notice from the city concerning city taxes"
+		],
+		"why": "The city says this is due to the promulgation of the Act Partially Amending the Local Tax Act, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:10:53.395Z",
+			"inputTokens": 647,
+			"cachedTokens": 0,
+			"outputTokens": 1095,
+			"reasoningTokens": 877
+		}
 	}
 }

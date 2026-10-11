@@ -1,0 +1,37 @@
+{
+	"id": "akishima-r8-1-33",
+	"assembly": "tokyo/akishima",
+	"approved": false,
+	"number": "議案第33号",
+	"official": "昭島市まちづくり条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等の議決結果",
+			"url": "https://www.city.akishima.lg.jp/gikai/honkaigi/1006709/1011604/1011609.html",
+			"fetchedAt": "2026-10-08T10:56:01.263Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "42dec7b61c1b20a8",
+		"official": "Akishima City Community Development Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T03:41:42.040Z",
+			"inputTokens": 374,
+			"cachedTokens": 0,
+			"outputTokens": 120,
+			"reasoningTokens": 97
+		}
+	}
+}

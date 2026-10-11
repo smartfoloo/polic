@@ -1,0 +1,38 @@
+{
+	"id": "arakawa-r8-9-13",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第13号",
+	"official": "荒川区立保育所条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年度定例会・9月会議",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年度定例会・9月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_9gatsu_kekka.html",
+			"fetchedAt": "2026-10-10T14:49:50.156Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "558e527a27a9e4ba",
+		"official": "Ordinance Partially Amending the Arakawa City Municipal Nursery School Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T23:41:00.128Z",
+			"inputTokens": 381,
+			"cachedTokens": 0,
+			"outputTokens": 233,
+			"reasoningTokens": 201,
+			"batch": true
+		}
+	}
+}

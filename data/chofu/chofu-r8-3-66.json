@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1ab548b906b2fd41",
+		"name": "Updates a cross-reference in the landscape ordinance",
+		"official": "Ordinance Partially Amending the Chofu City Landscape Ordinance",
+		"summary": "Article 10, Paragraph 3 of the Chofu City Landscape Ordinance cites a provision of the Landscape Act. This bill changes the cited provision from Item 11 of Paragraph 7 to Item 12 of Paragraph 8, and provides that the ordinance will take effect on the date the Act Partially Amending the Act on Special Measures Concerning Urban Renaissance, etc. takes effect.",
+		"changes": [
+			"Changes the cited provision in Article 10, Paragraph 3 from Item 11 of Paragraph 7 to Item 12 of Paragraph 8"
+		],
+		"who": [],
+		"why": "The city says this is to update the cited provision following a partial amendment to the Landscape Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:11.926Z",
+			"inputTokens": 603,
+			"cachedTokens": 0,
+			"outputTokens": 552,
+			"reasoningTokens": 356
+		}
 	}
 }

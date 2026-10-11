@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4526297325cf2a29",
+		"name": "Sets up committee to select contractors for school facility design",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment of Affiliated Organs of Meguro City",
+		"summary": "The ward will set up a committee as an affiliated body of the ward to select businesses to be commissioned to provide design and other services related to the renewal of school facilities. The committee will evaluate and review the selection of businesses. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Sets up a committee to select businesses to be commissioned for design and other services related to the renewal of school facilities",
+			"Makes evaluating and reviewing the selection of businesses a role of the committee"
+		],
+		"who": [
+			"Businesses seeking commissions for design and other services related to the renewal of school facilities"
+		],
+		"why": "The ward says this is to establish a committee to select businesses for design and other services related to the renewal of school facilities as an affiliated body of the ward mayor.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:54:30.966Z",
+			"inputTokens": 677,
+			"cachedTokens": 0,
+			"outputTokens": 593,
+			"reasoningTokens": 361
+		}
 	}
 }

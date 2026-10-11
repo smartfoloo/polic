@@ -65,5 +65,29 @@
 			"outputTokens": 365,
 			"reasoningTokens": 268
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ddeae140705558b7",
+		"name": "Changes the categories of business-trip expenses for fiscal-year appointment staff",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Remuneration, etc. for Fiscal-Year Appointment Staff",
+		"summary": "The city currently pays fiscal-year appointment staff expenses for business trips, including railway fares, car fares and lodging costs. This bill changes the expense categories to travel expenses, lodging expenses, lodging allowances and other items. The changes will apply to business trips departing on or after April 1, 2026.",
+		"changes": [
+			"Changes the categories of reimbursable expenses to travel expenses, lodging expenses, lodging allowances and other items"
+		],
+		"who": [
+			"Fiscal-year appointment staff of Tachikawa City"
+		],
+		"why": "The city says the ordinance is being amended in accordance with Article 203-2, paragraph 5, of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:13:34.771Z",
+			"inputTokens": 635,
+			"cachedTokens": 0,
+			"outputTokens": 541,
+			"reasoningTokens": 331
+		}
 	}
 }

@@ -1,0 +1,105 @@
+{
+	"id": "kawasaki-r8-1-3",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第3号",
+	"official": "川崎市職員定数条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第3号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_3.pdf",
+			"fetchedAt": "2026-10-08T11:06:39.531Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "市職員の定数を区分ごとに増やす",
+	"category": "行政のしくみ",
+	"summary": "川崎市職員の定数は、条例で区分ごとに定められています。この議案では各区分の定数を増やし、2026年4月1日から改めます。",
+	"changes": [
+		"第2条第1号の定数を7,415人から7,450人に増やす",
+		"第2条第2号の定数を34人から35人に増やす",
+		"第2条第3号の定数を41人から42人に増やす",
+		"第2条第4号の定数を24人から25人に増やす",
+		"第2条第5号アの定数を480人から490人に増やす",
+		"第2条第5号イの定数を7,675人から7,734人に増やす",
+		"第2条第6号の定数を17人から19人に増やす"
+	],
+	"who": [
+		"川崎市職員"
+	],
+	"why": "職員配置の見直しに伴い、職員定数を調整するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.869Z",
+		"inputTokens": 1313,
+		"cachedTokens": 0,
+		"outputTokens": 876,
+		"reasoningTokens": 596,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.869Z",
+		"checkedAt": "2026-10-10T07:29:38.633Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1301,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f03267dbc4a31a5a",
+		"name": "Raises Kawasaki City staff quotas by category",
+		"official": "Regarding the enactment of an ordinance partially amending the Kawasaki City Employee Quota Ordinance",
+		"summary": "The number of Kawasaki City employees is set by category in an ordinance. This bill increases the quota for each category, effective April 1, 2026.",
+		"changes": [
+			"Raises the quota in Article 2, item 1, from 7,415 to 7,450 people",
+			"Raises the quota in Article 2, item 2, from 34 to 35 people",
+			"Raises the quota in Article 2, item 3, from 41 to 42 people",
+			"Raises the quota in Article 2, item 4, from 24 to 25 people",
+			"Raises the quota in Article 2, item 5(a), from 480 to 490 people",
+			"Raises the quota in Article 2, item 5(b), from 7,675 to 7,734 people",
+			"Raises the quota in Article 2, item 6, from 17 to 19 people"
+		],
+		"who": [
+			"Kawasaki City employees"
+		],
+		"why": "The city says it is adjusting staff quotas in response to a review of staff assignments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.054Z",
+			"inputTokens": 723,
+			"cachedTokens": 0,
+			"outputTokens": 548,
+			"reasoningTokens": 254,
+			"batch": true
+		}
+	}
+}

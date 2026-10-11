@@ -1,0 +1,116 @@
+{
+	"id": "yokohama-r8-1-121",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第121号議案",
+	"official": "横浜市火災予防条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第121号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si121.pdf",
+			"fetchedAt": "2026-10-08T11:02:14.820Z"
+		}
+	],
+	"name": "屋外の簡易サウナに設置基準を追加",
+	"category": "防災",
+	"summary": "屋外など外気に接する場所に設ける、定格出力6kW以下のテント型・木製の円筒形サウナで、まきまたは電気を熱源とするものについて、条例に設置基準を加えます。個人的な使用を除き、設置前に消防署長へ届け出る扱いとし、一般サウナ設備や消火器具などの関連規定も改めます。簡易サウナ設備の基準は令和8年3月31日から施行されます。",
+	"changes": [
+		"簡易サウナ設備の対象を定め、建物や可燃物から保つ距離の基準を設ける",
+		"温度が異常に上がったときに熱源を遮断する装置を設ける（まき式は、火災時に使える位置に消火器を置く場合を除く）",
+		"個人的な使用を除く簡易サウナ設備を設置前の届出対象に加える",
+		"サウナ室を消火器具の設置対象となる場所から外す"
+	],
+	"who": [
+		"対象となる簡易サウナ設備を設置する人・事業者",
+		"一般サウナ設備を設置する施設の管理者"
+	],
+	"why": "省令の一部改正に伴い、簡易サウナ設備の位置、構造、管理の基準を定め、関係規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.884Z",
+		"inputTokens": 4000,
+		"cachedTokens": 0,
+		"outputTokens": 4527,
+		"reasoningTokens": 4142,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.699Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "温度が異常に上がったときに熱源を遮断する装置を設ける（まき式は、火災時に使える位置に消火器を置く場合を除く）",
+				"note": "第８条の２第１項第２号は、直ちに熱源を遮断できる「手動及び自動」の装置を要求している。両方の装置が必要である点が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "個人的な使用を除く簡易サウナ設備を設置前の届出対象に加える",
+				"note": "第74条第１項では、届出に加え、計画が条例に適合することについて消防署長の確認を受ける必要がある。この手続が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "第75条第１号で、火災と紛らわしい煙又は火炎を発するおそれのある行為の届出対象に「たき火等を含む」と明記する変更が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4093,
+			"cachedTokens": 0,
+			"outputTokens": 486,
+			"reasoningTokens": 186,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "807468c87c61f33b",
+		"name": "Adds installation standards for simple outdoor saunas",
+		"official": "Partial Amendment to the Yokohama City Fire Prevention Ordinance",
+		"summary": "The ordinance will add installation standards for tent-style and wooden cylindrical saunas with a rated output of 6 kW or less, located outdoors or in other places exposed to the open air, and using firewood or electricity as a heat source. Except for saunas for personal use, these facilities will require notification to the fire station chief before installation. Related rules on general sauna equipment and fire-extinguishing equipment will also be revised. The standards for simple sauna equipment will take effect on March 31, 2026.",
+		"changes": [
+			"Define which simple sauna equipment is covered and set required distances from buildings and combustible materials; require a device that cuts off the heat source if the temperature rises abnormally, except for wood-fired equipment where a fire extinguisher is placed where it can be used during a fire",
+			"Add simple sauna equipment, except equipment for personal use, to the facilities requiring advance notification, and remove sauna rooms from the locations required to have fire-extinguishing equipment"
+		],
+		"who": [
+			"People and businesses installing covered simple sauna equipment",
+			"Managers of facilities that have general sauna equipment"
+		],
+		"why": "The city says this is to set standards for the location, structure and management of simple sauna equipment following a partial amendment to a ministerial order, and to adjust related rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.072Z",
+			"inputTokens": 820,
+			"cachedTokens": 0,
+			"outputTokens": 1134,
+			"reasoningTokens": 811,
+			"batch": true
+		}
+	}
+}

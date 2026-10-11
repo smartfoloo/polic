@@ -1,0 +1,94 @@
+{
+	"id": "yokohama-r8-1-105",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第105号議案",
+	"official": "横浜市小児の医療費助成に関する条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第105号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si105.pdf",
+			"fetchedAt": "2026-10-08T11:03:32.893Z"
+		}
+	],
+	"name": "小児医療費助成を18歳年度末まで拡大",
+	"category": "健康・医療",
+	"summary": "現在の助成対象は、原則として中学校卒業までです。この議案で、対象年齢を18歳に達した日以後の最初の3月31日までに広げ、助成を受ける人や支払い方法も見直します。令和8年6月1日に施行します。",
+	"changes": [
+		"助成対象を中学校卒業までから、18歳に達した日以後の最初の3月31日までに広げる",
+		"助成を受ける人を、原則として保護者とし、特定小児は本人とする",
+		"医療証を提示して受診した場合、市が医療機関に助成額を支払う方法にする"
+	],
+	"who": [
+		"横浜市内に住み、健康保険に加入する18歳年度末までの子ども",
+		"対象となる子どもの保護者"
+	],
+	"why": "対象年齢を引き上げるなどのためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.883Z",
+		"inputTokens": 4133,
+		"cachedTokens": 0,
+		"outputTokens": 2708,
+		"reasoningTokens": 2444,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.883Z",
+		"checkedAt": "2026-10-10T07:29:38.689Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4102,
+			"cachedTokens": 0,
+			"outputTokens": 98,
+			"reasoningTokens": 84,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a371fc8c79333cd6",
+		"name": "Extends child medical expense subsidies until March 31 after a child turns 18",
+		"official": "Ordinance Partially Amending the Yokohama City Ordinance on Subsidies for Children's Medical Expenses",
+		"summary": "Currently, children are generally eligible for subsidies only until they graduate from junior high school. This bill extends eligibility until the first March 31 on or after a child's 18th birthday, and also revises who receives the subsidy and how it is paid. It takes effect on June 1, 2026.",
+		"changes": [
+			"Extends eligibility from graduation from junior high school until the first March 31 on or after a child's 18th birthday",
+			"Makes the parent or guardian the subsidy recipient in principle, and the child the recipient in the case of specified children",
+			"Makes the city pay the subsidy amount to the medical institution when a child receives care after presenting a medical care certificate"
+		],
+		"who": [
+			"Children who live in Yokohama City, are enrolled in health insurance, and are eligible until the first March 31 on or after their 18th birthday",
+			"Parents or guardians of eligible children"
+		],
+		"why": "The city says the change is being made to raise the eligible age, among other reasons.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.071Z",
+			"inputTokens": 702,
+			"cachedTokens": 0,
+			"outputTokens": 1313,
+			"reasoningTokens": 1026,
+			"batch": true
+		}
+	}
+}

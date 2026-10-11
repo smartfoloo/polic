@@ -57,5 +57,29 @@
 			"outputTokens": 68,
 			"reasoningTokens": 53
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c95f0a7cc831e09a",
+		"name": "Adds Takamatsu Minami After-School Care Center to ordinance",
+		"official": "Ordinance Partially Amending the Tachikawa City After-School Care Center Ordinance",
+		"summary": "Takamatsu Minami After-School Care Center is not listed among the after-school care centers set out in the ordinance. This bill adds its location and a capacity of 30 children, and takes effect on July 1, 2026.",
+		"changes": [
+			"Adds Takamatsu Minami After-School Care Center at 3-22-9 Takamatsu-cho, Tachikawa City, with a capacity of 30 children"
+		],
+		"who": [
+			"Children and parents or guardians who use Takamatsu Minami After-School Care Center"
+		],
+		"why": "The city says this is in accordance with Article 244-2, Paragraph 1 of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:12:22.586Z",
+			"inputTokens": 604,
+			"cachedTokens": 0,
+			"outputTokens": 539,
+			"reasoningTokens": 326
+		}
 	}
 }

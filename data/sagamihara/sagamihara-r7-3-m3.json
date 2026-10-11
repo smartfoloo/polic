@@ -1,0 +1,51 @@
+{
+	"id": "sagamihara-r7-3-m3",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議提議案第3号",
+	"official": "相模原市ケアラー支援条例について",
+	"by": "member",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": "民生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"sources": [
+		{
+			"label": "議提議案第3号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2025041500010/file_contents/2026_gitei_1-4.pdf",
+			"fetchedAt": "2026-10-10T14:39:24.949Z"
+		},
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"name": "ケアラー支援の基本方針と役割を定める",
+	"category": "福祉",
+	"summary": "市では、ケアを必要とする人が増え、ケアを担う人の負担が大きく、複雑になっています。この条例で市などの役割と支援施策の基本を定め、相談支援や休息の確保、若者の教育・就学・就業支援などを進めます。条例は2026年4月1日から施行されます。",
+	"changes": [
+		"市のケアラー支援の基本理念と責務を定める",
+		"市民、事業者、関係機関、学校の役割を定める",
+		"相談支援、休息の確保、若者の教育・就学・就業支援などを施策に定める",
+		"広報・啓発や支援に関わる機関の連携体制を整える"
+	],
+	"who": [
+		"無償でケアを担う人（ケアラー）",
+		"市内の事業者"
+	],
+	"why": "全てのケアラーが健康で文化的な生活を営める社会の実現に向け、支援の基本理念や市などの役割、施策の基本事項を定めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.837Z",
+		"inputTokens": 4169,
+		"cachedTokens": 0,
+		"outputTokens": 1063,
+		"reasoningTokens": 712,
+		"batch": true
+	}
+}

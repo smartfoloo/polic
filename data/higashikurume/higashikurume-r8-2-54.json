@@ -70,5 +70,29 @@
 			"outputTokens": 288,
 			"reasoningTokens": 171
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8f13d3c3425b6ddb",
+		"name": "Special provision to treat applications for long-term care insurance premium reductions as submitted",
+		"official": "Ordinance Partially Amending the Higashikurume City Long-Term Care Insurance Ordinance",
+		"summary": "Under the ordinance, an application must be submitted to receive a reduction or exemption of long-term care insurance premiums. This bill creates a special provision allowing the mayor to treat an application as having been submitted if the person meets separately established criteria. This applies only to premiums for FY2026.",
+		"changes": [
+			"Allows the mayor to treat an application as submitted when separately established criteria are met, for FY2026 premiums only"
+		],
+		"who": [
+			"People who meet the criteria for a reduction or exemption of long-term care insurance premiums"
+		],
+		"why": "The city says this is to provide special reductions or exemptions on FY2026 long-term care insurance premiums without requiring applications.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:00:47.718Z",
+			"inputTokens": 623,
+			"cachedTokens": 0,
+			"outputTokens": 573,
+			"reasoningTokens": 366
+		}
 	}
 }

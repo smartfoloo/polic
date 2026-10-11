@@ -60,5 +60,27 @@
 			"outputTokens": 75,
 			"reasoningTokens": 60
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "868416a4fef1c03c",
+		"name": "Sets a 70% limit on sports facility area in parks in the designated area",
+		"official": "Ordinance Partially Amending the Chofu City Urban Parks Ordinance",
+		"summary": "Urban parks have a limit on the site area occupied by sports facilities. This bill creates an exception setting the limit at 70% for urban parks within the area covered by the specified ordinance.",
+		"changes": [
+			"Sets the limit on the site area of sports facilities in urban parks within the designated area at 70%"
+		],
+		"who": [],
+		"why": "The city says this is to establish an exception to the limit on the site area of sports facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:16.215Z",
+			"inputTokens": 582,
+			"cachedTokens": 0,
+			"outputTokens": 502,
+			"reasoningTokens": 344
+		}
 	}
 }

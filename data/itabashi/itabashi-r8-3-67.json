@@ -55,5 +55,27 @@
 			"outputTokens": 86,
 			"reasoningTokens": 71
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "18e837179531a1bb",
+		"name": "Revises the types of information handled using individual numbers",
+		"official": "Ordinance Partially Amending the Itabashi City Ordinance on the Handling of Individual Numbers and Specific Personal Information",
+		"summary": "Item 10 of Table 2 of the ordinance sets out how specific personal information is handled. The information listed in this item will be changed to information related to long-term care insurance benefits, medical care for patients with intractable diseases, and people with disabilities, as specified by ward rules.",
+		"changes": [
+			"Changes the specific personal information listed in Item 10 of Table 2 to information related to long-term care insurance benefits, medical care for patients with intractable diseases, and people with disabilities, as specified by ward rules"
+		],
+		"who": [],
+		"why": "The ward says the provisions need to be updated following the implementation of an order concerning the use of specific personal information.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:09:25.334Z",
+			"inputTokens": 640,
+			"cachedTokens": 0,
+			"outputTokens": 584,
+			"reasoningTokens": 374
+		}
 	}
 }

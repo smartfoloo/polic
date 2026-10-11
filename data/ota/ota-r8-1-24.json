@@ -57,5 +57,29 @@
 			"outputTokens": 72,
 			"reasoningTokens": 58
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6d7af88c794f7c11",
+		"name": "Corrects statutory references for facilities serving children with disabilities",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on Day Facilities for Children with Physical and Mental Disabilities",
+		"summary": "The ordinance’s references to provisions of related laws will be updated to reflect amendments to those laws. The amended ordinance will take effect on the date of its promulgation.",
+		"changes": [
+			"Change the reference in Article 3, paragraph 1, item 1, from “Article 43, item 1” to “Article 43”",
+			"Change the references in Article 3, paragraph 2, item 1, and Article 4, paragraph 4, from “Article 6-2-2, paragraph 7” to “paragraph 6”",
+			"Change the references in Article 3, paragraph 2, item 2, and Article 4, paragraph 5, from “Article 5, paragraph 18” to “paragraph 19”"
+		],
+		"who": [],
+		"why": "The ward says this is to reorganize the ordinance’s provisions following amendments to the Act on Comprehensive Support for the Daily and Social Life of Persons with Disabilities and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:05:42.464Z",
+			"inputTokens": 671,
+			"cachedTokens": 0,
+			"outputTokens": 697,
+			"reasoningTokens": 424
+		}
 	}
 }

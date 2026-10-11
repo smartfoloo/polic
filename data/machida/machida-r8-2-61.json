@@ -62,5 +62,29 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e5dd9e79a286b3ab",
+		"name": "Changes the calculation rate for the fee for choosing long-listed medicines",
+		"official": "Ordinance Partially Amending the Ordinance on the Use of Machida Municipal Hospital",
+		"summary": "At Machida Municipal Hospital, when a patient chooses a long-listed medicine for which a generic medicine is available, the fee for choosing that medicine is calculated based on one quarter of the difference in drug prices. This bill changes the rate used in the calculation to one half. The change applies to medicines used on or after July 1, 2026.",
+		"changes": [
+			"Changes the rate applied to the difference in drug prices from one quarter to one half"
+		],
+		"who": [
+			"Patients at Machida Municipal Hospital who choose a long-listed medicine for which a generic medicine is available"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:41:29.879Z",
+			"inputTokens": 612,
+			"cachedTokens": 0,
+			"outputTokens": 691,
+			"reasoningTokens": 501
+		}
 	}
 }

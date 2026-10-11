@@ -1,0 +1,88 @@
+{
+	"id": "yugawara-r8-3-29",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第29号",
+	"official": "湯河原町消防団員等公務災害補償条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-09",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第29号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/18028.pdf",
+			"fetchedAt": "2026-10-08T11:29:17.409Z"
+		}
+	],
+	"name": "消防団員等の葬祭補償を増額",
+	"category": "福祉",
+	"summary": "非常勤消防団員等が公務などで死亡した場合、葬祭を行う人に葬祭補償が支給されます。補償基礎額の30倍に加える額を、315,000円から330,000円に改めます。改正後の額は、令和8年4月1日以降に支給事由が生じたものに適用されます。",
+	"changes": [
+		"葬祭補償に加える定額を315,000円から330,000円に引き上げる"
+	],
+	"who": [
+		"非常勤消防団員等の葬祭を行う人"
+	],
+	"why": "非常勤消防団員等に係る損害補償の基準を定める政令の改正に伴い、葬祭補償の額を改定するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.890Z",
+		"inputTokens": 2250,
+		"cachedTokens": 0,
+		"outputTokens": 721,
+		"reasoningTokens": 482,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.740Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2185,
+			"cachedTokens": 0,
+			"outputTokens": 37,
+			"reasoningTokens": 22,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ca16ac9c104f40d8",
+		"name": "Raises funeral compensation for volunteer firefighters and others",
+		"official": "Regarding the Partial Amendment to the Yugawara Town Ordinance on Compensation for Work-Related Accidents Involving Fire Brigade Members and Others",
+		"summary": "If part-time fire brigade members and others die in the course of their duties or for similar reasons, funeral compensation is paid to the person who conducts the funeral. The amount added to 30 times the basic compensation amount will be changed from ¥315,000 to ¥330,000. The new amount will apply to cases where the reason for payment arises on or after April 1, 2026.",
+		"changes": [
+			"Raises the fixed amount added to funeral compensation from ¥315,000 to ¥330,000"
+		],
+		"who": [
+			"People who conduct funerals for part-time fire brigade members and others"
+		],
+		"why": "The town says it is revising the funeral compensation amount following an amendment to the Cabinet Order Establishing Standards for Compensation for Damage Involving Part-Time Fire Brigade Members and Others.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.076Z",
+			"inputTokens": 676,
+			"cachedTokens": 0,
+			"outputTokens": 640,
+			"reasoningTokens": 404,
+			"batch": true
+		}
+	}
+}

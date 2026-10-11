@@ -65,5 +65,32 @@
 			"outputTokens": 74,
 			"reasoningTokens": 60
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "edb7f1722df4f23f",
+		"name": "Revises income thresholds for long-term care insurance premiums",
+		"official": "Ordinance Partially Amending the Meguro City Long-Term Care Insurance Ordinance",
+		"summary": "Some of the income thresholds used to calculate premium rates have been ¥809,000. This bill changes the threshold to ¥826,500 and establishes special rules for calculating income based on salary income and for treating resident tax as taxable or non-taxable when calculating premium rates for FY2026.",
+		"changes": [
+			"Raises one of the income thresholds used to calculate premium rates from ¥809,000 to ¥826,500",
+			"Establishes a special rule for calculating income based on salary income",
+			"Treats people who meet certain conditions as being subject to resident tax"
+		],
+		"who": [
+			"Category 1 insured persons under long-term care insurance",
+			"Household heads and household members in the same household as eligible Category 1 insured persons"
+		],
+		"why": "The ward says this is to revise the income threshold used to calculate premium rates and to prevent the impact of the increase in the minimum guaranteed amount of the employment income deduction under the FY2025 tax reform from affecting the FY2026 calculation.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:01.683Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 803,
+			"reasoningTokens": 532
+		}
 	}
 }

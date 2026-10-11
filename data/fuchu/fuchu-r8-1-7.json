@@ -64,5 +64,31 @@
 			"outputTokens": 33,
 			"reasoningTokens": 19
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "630f934ba28a8c46",
+		"name": "Expands review of special permits for condominium rebuilding and renewal",
+		"official": "Ordinance Partially Amending the Fuchu City Fees Ordinance",
+		"summary": "Currently, the ordinance sets a review fee for applications for special permission on floor-area ratio for rebuilding a condominium certified as requiring demolition. This bill expands the scope to include rebuilding and renewal of condominiums certified as requiring demolition, etc., and adds special permission concerning the height of each part to the matters reviewed. The fee is ¥160,000 per application, and the ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Expands the review scope from condominiums certified as requiring demolition to those certified as requiring demolition, etc.",
+			"Includes condominium renewal as well as rebuilding",
+			"Adds special permission concerning the height of each part to the review scope, in addition to floor-area ratio"
+		],
+		"who": [
+			"People applying for special permission when rebuilding or renewing a condominium certified as requiring demolition, etc."
+		],
+		"why": "The city says this is because amendments to a law intended to make the management and regeneration of aging condominiums, etc. proceed smoothly will take effect.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:02.879Z",
+			"inputTokens": 718,
+			"cachedTokens": 0,
+			"outputTokens": 747,
+			"reasoningTokens": 478
+		}
 	}
 }

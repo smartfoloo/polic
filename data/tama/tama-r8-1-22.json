@@ -57,5 +57,29 @@
 			"outputTokens": 41,
 			"reasoningTokens": 26
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8688f09d17cbc9b1",
+		"name": "Removes the exclusion of people aged 60 or older from public contract work provisions",
+		"official": "Regarding the enactment of an ordinance to partially amend the Tama City Public Contract Ordinance",
+		"summary": "Under the current ordinance, people aged 60 or older are excluded from the people covered by Article 2, Item 5 for the public contract work specified in Article 5, Items 2 and 3. This bill removes that exclusion and applies the amended provisions to public contracts and similar agreements concluded on or after April 1, 2027.",
+		"changes": [
+			"Removes the provision excluding people aged 60 or older from the public contract work specified in Article 5, Items 2 and 3"
+		],
+		"who": [
+			"People aged 60 or older engaged in public contract work specified in Article 5, Items 2 and 3"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:16:54.914Z",
+			"inputTokens": 634,
+			"cachedTokens": 0,
+			"outputTokens": 495,
+			"reasoningTokens": 286
+		}
 	}
 }

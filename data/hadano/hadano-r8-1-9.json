@@ -1,0 +1,111 @@
+{
+	"id": "hadano-r8-1-9",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第9号",
+	"official": "秦野市特定乳児等通園支援の利用者負担額等を定める条例を制定することについて",
+	"by": "head",
+	"session": "令和8年3月第1回定例月会議",
+	"committee": "文教福祉常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/12733.html",
+			"fetchedAt": "2026-10-08T11:23:11.037Z"
+		},
+		{
+			"label": "議案第9号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/gg9.pdf",
+			"fetchedAt": "2026-10-08T11:23:29.003Z"
+		}
+	],
+	"name": "通園支援の利用料を1時間300円に",
+	"category": "子育て",
+	"summary": "市は、特定乳児等通園支援を利用する際の保護者負担額を定める条例を新たに設けます。利用料は子ども1人につき1時間300円とし、規則で定める条件に応じて減額や免除ができるようにします。令和8年4月1日から施行します。",
+	"changes": [
+		"利用料を子ども1人につき1時間300円とする",
+		"生活保護を受けている場合は利用料を全額免除する",
+		"市町村民税が非課税の世帯は1時間240円、所得割額の合計が77,101円未満の世帯は1時間210円を減額する",
+		"市長が特に支援が必要と認める世帯は1時間150円を減額し、特別な理由がなければ納付済みの利用料を返還しない"
+	],
+	"who": [
+		"特定乳児等通園支援を利用する子どもの保護者",
+		"利用料の減免要件に該当する世帯の保護者"
+	],
+	"why": "市内全ての施設で利用者負担額を統一し、特定の理由に限って負担額を減免するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.856Z",
+		"inputTokens": 2715,
+		"cachedTokens": 0,
+		"outputTokens": 2183,
+		"reasoningTokens": 1846,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.856Z",
+		"checkedAt": "2026-10-10T07:29:38.600Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "市長が特に支援が必要と認める世帯は1時間150円を減額し、特別な理由がなければ納付済みの利用料を返還しない",
+				"note": "資料２の１では、150円減額の対象に「要支援児童及び要保護児童のいる世帯」も明記し、対象世帯のうち市長が認めた場合としています。この対象と承認条件が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "生活保護を受けている場合は利用料を全額免除する",
+				"note": "資料２の２にある、減免を受けるための理由が分かる書類を添えた申請と、減免理由が消滅した際の直ちの届出という保護者の手続上の義務が、changesから抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2749,
+			"cachedTokens": 0,
+			"outputTokens": 504,
+			"reasoningTokens": 262,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c0c201ff71f64ee8",
+		"name": "Sets childcare attendance support fees at ¥300 per hour",
+		"official": "On Enacting an Ordinance Stipulating User Charges, etc. for Specific Infant and Other Childcare Attendance Support in Hadano City",
+		"summary": "The city will establish a new ordinance setting the amount parents pay when using Specific Infant and Other Childcare Attendance Support. The fee will be ¥300 per hour for each child, and it may be reduced or waived depending on conditions set out in the rules. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Sets the fee at ¥300 per hour for each child",
+			"Waives the full fee for households receiving public assistance",
+			"Reduces the fee by ¥240 per hour for households exempt from municipal resident tax, and by ¥210 per hour for households with a total income-based tax amount of less than ¥77,101",
+			"Reduces the fee by ¥150 per hour for households the mayor finds to be in particular need of support, and does not refund fees already paid unless there is a special reason"
+		],
+		"who": [
+			"Parents or guardians of children using Specific Infant and Other Childcare Attendance Support",
+			"Parents or guardians in households that meet the requirements for a fee reduction or waiver"
+		],
+		"why": "The city says this is to standardize user charges at all facilities in the city and to reduce or waive charges only for specified reasons.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.042Z",
+			"inputTokens": 787,
+			"cachedTokens": 0,
+			"outputTokens": 939,
+			"reasoningTokens": 620,
+			"batch": true
+		}
+	}
+}

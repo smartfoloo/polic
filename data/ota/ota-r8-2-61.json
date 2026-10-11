@@ -58,5 +58,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d075207d7ff564b4",
+		"name": "Abolishes Senzoku Residents’ Center",
+		"official": "Ordinance Partially Amending the Ota City Residents’ Center Ordinance",
+		"summary": "The ordinance lists Senzoku Residents’ Center as a facility. This bill abolishes the center and revises how the address of Magome Residents’ Center is written. The amendments take effect on April 1, 2027.",
+		"changes": [
+			"Removes Senzoku Residents’ Center from the list of facilities in the ordinance",
+			"Changes the listed address of Magome Residents’ Center to “4-6-5 Minami-Magome, Ota City”"
+		],
+		"who": [
+			"People who use Senzoku Residents’ Center"
+		],
+		"why": "The ward says this is to abolish Senzoku Residents’ Center.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:09.327Z",
+			"inputTokens": 608,
+			"cachedTokens": 0,
+			"outputTokens": 486,
+			"reasoningTokens": 290
+		}
 	}
 }

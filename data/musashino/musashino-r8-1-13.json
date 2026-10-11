@@ -23,5 +23,20 @@
 			"url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/053/599/giann/8giandai13gou.pdf",
 			"fetchedAt": "2026-10-05T15:54:49.088Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "70c73179109df9d2",
+		"official": "Ordinance Partially Amending the Musashino City After-School Club Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:21.821Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 184,
+			"reasoningTokens": 151
+		}
+	}
 }

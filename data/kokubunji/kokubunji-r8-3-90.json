@@ -1,0 +1,79 @@
+{
+	"id": "kokubunji-r8-3-90",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第90号",
+	"official": "国分寺市行政手続における特定の個人を識別するための番号の利用等に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1038313.html",
+			"fetchedAt": "2026-10-08T10:58:25.915Z"
+		}
+	],
+	"name": "児童育成手当に関する情報利用規定を整備",
+	"category": "行政のしくみ",
+	"summary": "市は、個人番号の利用などを定める条例を改正します。児童育成手当の支給などに関する事務で扱う特定個人情報の規定を整えます。",
+	"changes": [
+		"児童育成手当の支給などに関する特定個人情報の規定を整える"
+	],
+	"who": [],
+	"why": "児童育成手当の支給などに関する事務で扱う特定個人情報の規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.878Z",
+		"inputTokens": 1039,
+		"cachedTokens": 0,
+		"outputTokens": 448,
+		"reasoningTokens": 288,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.878Z",
+		"checkedAt": "2026-10-10T07:29:38.666Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 891,
+			"cachedTokens": 0,
+			"outputTokens": 44,
+			"reasoningTokens": 30,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9a09355b85abe624",
+		"name": "Sets rules for information related to the child-rearing allowance",
+		"official": "Ordinance Partially Amending the Kokubunji City Ordinance on the Use of Numbers to Identify Specific Individuals in Administrative Procedures",
+		"summary": "The city will amend an ordinance that sets out rules on the use of personal numbers, among other matters. It will set out provisions on specific personal information handled in work related to payments of the child-rearing allowance, among other matters.",
+		"changes": [
+			"Sets out provisions on specific personal information related to payments of the child-rearing allowance, among other matters"
+		],
+		"who": [],
+		"why": "The city says this is to set out provisions on specific personal information handled in work related to payments of the child-rearing allowance, among other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.067Z",
+			"inputTokens": 607,
+			"cachedTokens": 0,
+			"outputTokens": 588,
+			"reasoningTokens": 404,
+			"batch": true
+		}
+	}
+}

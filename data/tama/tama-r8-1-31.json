@@ -58,5 +58,29 @@
 			"outputTokens": 53,
 			"reasoningTokens": 38
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b700f063ec006c69",
+		"name": "Adds computer-screen viewing as a method of service by public notice",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Ordinance Concerning Medical Care for Older Senior Citizens",
+		"summary": "Currently, service by public notice is carried out by posting a notice. This bill would make the contents of the notice available for viewing by an unspecified number of people, and allow the notice to be posted in writing or viewed on a computer screen at a city office.",
+		"changes": [
+			"Make the contents of public notices available for viewing by an unspecified number of people, and allow service by public notice through either posting a written notice or viewing it on a computer screen at a city office"
+		],
+		"who": [
+			"People subject to service by public notice concerning medical care for older senior citizens"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:18:32.487Z",
+			"inputTokens": 633,
+			"cachedTokens": 0,
+			"outputTokens": 1570,
+			"reasoningTokens": 1372
+		}
 	}
 }

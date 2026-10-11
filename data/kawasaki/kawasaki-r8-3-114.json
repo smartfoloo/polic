@@ -1,0 +1,86 @@
+{
+	"id": "kawasaki-r8-3-114",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第114号",
+	"official": "川崎市衛生試験検査手数料条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第114号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_114.pdf",
+			"fetchedAt": "2026-10-08T11:11:51.479Z"
+		}
+	],
+	"name": "衛生試験検査の手数料を改定",
+	"category": "税・手数料",
+	"summary": "衛生に関する試験検査の手数料は、市の条例で定めています。この議案では検査の種類ごとの金額を改め、腸管系細菌の検査は簡易なものを1件5,890円、極めて特殊なものを1件68,730円とします。2027年4月1日以降に依頼された検査に適用します。",
+	"changes": [
+		"各検査の手数料を、検査内容に応じて別表の金額に改める",
+		"残留農薬等混合標準溶液は2系統まで152,770円とし、1系統増すごとに30,240円を加える"
+	],
+	"who": [
+		"衛生に関する試験検査を依頼する人や事業者"
+	],
+	"why": "衛生に関する試験検査の手数料を改定すること等のためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.553Z",
+		"inputTokens": 2467,
+		"cachedTokens": 0,
+		"outputTokens": 2368,
+		"reasoningTokens": 2098,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.553Z",
+			"notes": [
+				"ai [error] summary/direction: 「腸管系細菌の検査は1件5,890円から68,730円とし」 → 5,890円は改正後の「簡易なもの」、68,730円は改正後の「極めて特殊なもの」の料金であり、改正前後の金額ではありません。"
+			],
+			"inputTokens": 2900,
+			"cachedTokens": 1025,
+			"outputTokens": 563,
+			"reasoningTokens": 282,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.649Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "腸管系細菌の検査は1件5,890円から68,730円とし",
+				"note": "5,890円は改正後の「簡易なもの」、68,730円は改正後の「極めて特殊なもの」の料金であり、改正前後の金額ではありません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2407,
+			"cachedTokens": 0,
+			"outputTokens": 235,
+			"reasoningTokens": 110,
+			"batch": true
+		}
+	}
+}

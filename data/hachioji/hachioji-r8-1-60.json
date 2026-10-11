@@ -60,5 +60,35 @@
 			"outputTokens": 112,
 			"reasoningTokens": 98
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b67e9a3a753626dd",
+		"name": "Raises the ordinance amounts for use of the general gymnasium",
+		"official": "Regarding the enactment of an ordinance to partially amend the Hachioji City General Gymnasium Ordinance",
+		"summary": "The current ordinance sets the amount for using the entire main arena at ¥9,000 per hour, for example. After the amendment, the amounts set in the ordinance will increase for five usage categories, effective April 1, 2027. For use on or after the effective date, the designated administrator will set the actual fees within the amounts set by the ordinance.",
+		"changes": [
+			"Raises the ordinance amount for the entire main arena from ¥9,000 to ¥13,500 per hour",
+			"Raises the ordinance amount for the entire sub-arena from ¥5,800 to ¥8,700 per hour",
+			"Raises the ordinance amount for each arena room from ¥300 to ¥450 per room per hour",
+			"Raises the ordinance amount for the entire multipurpose room from ¥2,400 to ¥3,300 per hour, and for meeting and training rooms from ¥5 to ¥6 per square metre per hour"
+		],
+		"who": [
+			"People who use the main arena",
+			"People who use the sub-arena",
+			"People who use the arena rooms",
+			"People who use the multipurpose room or meeting and training rooms"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:55:27.229Z",
+			"inputTokens": 742,
+			"cachedTokens": 0,
+			"outputTokens": 806,
+			"reasoningTokens": 496
+		}
 	}
 }

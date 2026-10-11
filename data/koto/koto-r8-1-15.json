@@ -1,0 +1,38 @@
+{
+	"id": "koto-r8-1-15",
+	"assembly": "tokyo/koto",
+	"approved": false,
+	"number": "議案第15号",
+	"official": "江東区事務手数料条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.koto.lg.jp/650102/documents/r8-1giketukekka.pdf",
+			"fetchedAt": "2026-10-08T10:54:31.458Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1cfa731cc3ad687c",
+		"official": "Ordinance Partially Amending the Koto City Administrative Service Fee Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.516Z",
+			"inputTokens": 382,
+			"cachedTokens": 0,
+			"outputTokens": 130,
+			"reasoningTokens": 99,
+			"batch": true
+		}
+	}
+}

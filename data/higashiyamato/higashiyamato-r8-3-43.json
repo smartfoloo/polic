@@ -58,5 +58,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0c7e31a3c9dee9fd",
+		"name": "Adds two types of cards to the seal registration ordinance",
+		"official": "Ordinance Partially Amending the Higashiyamato City Seal Registration Ordinance",
+		"summary": "The ordinance adds specified residence cards and specified special permanent resident certificates to Article 19, paragraph 1, item 1 of the Higashiyamato City Seal Registration Ordinance. It takes effect on the date of promulgation.",
+		"changes": [
+			"Adds specified residence cards and specified special permanent resident certificates to Article 19, paragraph 1, item 1"
+		],
+		"who": [
+			"People holding specified residence cards or specified special permanent resident certificates"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:38.536Z",
+			"inputTokens": 580,
+			"cachedTokens": 0,
+			"outputTokens": 595,
+			"reasoningTokens": 433
+		}
 	}
 }

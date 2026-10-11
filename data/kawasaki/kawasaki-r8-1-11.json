@@ -1,0 +1,123 @@
+{
+	"id": "kawasaki-r8-1-11",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第11号",
+	"official": "川崎市特定乳児等通園支援事業の運営の基準に関する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第11号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_11.pdf",
+			"fetchedAt": "2026-10-08T11:07:27.417Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "通園支援事業の運営基準を定める",
+	"category": "子育て",
+	"summary": "特定乳児等通園支援事業の運営基準を定める条例を制定します。事業者に、利用定員の設定や初回利用前の面談、費用の説明、安全管理などを求めます。条例は2026年4月1日から施行します。",
+	"changes": [
+		"1時間当たりの利用定員を定める",
+		"初回利用時に保護者と面談し、重要事項を説明して同意を得る",
+		"費用の徴収や利用者への情報提供、記録の保存に関する基準を定める",
+		"虐待防止、事故対応、苦情対応などに必要な体制を整える"
+	],
+	"who": [
+		"特定乳児等通園支援事業者",
+		"乳児等支援給付認定子どもとその保護者"
+	],
+	"why": "特定乳児等通園支援事業の運営に関する基準を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.867Z",
+		"inputTokens": 10615,
+		"cachedTokens": 0,
+		"outputTokens": 1140,
+		"reasoningTokens": 877,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.867Z",
+		"checkedAt": "2026-10-10T07:29:38.628Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "1時間当たりの利用定員を定める",
+				"note": "第4条第2項は、利用時間数や開所日数・時間等を考慮して1月当たりの利用定員も定めるとしているが、この点が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "虐待防止、事故対応、苦情対応などに必要な体制を整える",
+				"note": "利用者に直接関わる第6条の正当な理由のない利用申込みの拒否禁止と、第24条の国籍・信条・社会的身分・支払状況による差別的取扱いの禁止が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "費用の徴収や利用者への情報提供、記録の保存に関する基準を定める",
+				"note": "第26条の子ども・家族の秘密保持と、他の施設・事業者等への子どもの情報提供に先立つ保護者の文書による同意が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 10583,
+			"cachedTokens": 0,
+			"outputTokens": 413,
+			"reasoningTokens": 128,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0af707a32f39e6b4",
+		"name": "Sets operating standards for infant and other child attendance support services",
+		"official": "Enactment of the Kawasaki City Ordinance on Standards for the Operation of Specified Infant and Other Child Attendance Support Services",
+		"summary": "The city will enact an ordinance setting operating standards for specified infant and other child attendance support services. It will require providers to set user capacity, meet with parents before a child’s first use, explain costs, manage safety, and meet other requirements. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Set the user capacity per hour",
+			"Meet with parents at the time of first use, explain important matters, and obtain their consent",
+			"Set standards for collecting fees, providing information to users, and keeping records",
+			"Establish the necessary systems to prevent abuse and handle accidents and complaints"
+		],
+		"who": [
+			"Providers of specified infant and other child attendance support services",
+			"Children certified to receive infant and other child support benefits and their parents"
+		],
+		"why": "The city says this is to establish standards for the operation of specified infant and other child attendance support services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.052Z",
+			"inputTokens": 711,
+			"cachedTokens": 0,
+			"outputTokens": 900,
+			"reasoningTokens": 641,
+			"batch": true
+		}
+	}
+}

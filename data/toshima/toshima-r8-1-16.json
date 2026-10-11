@@ -1,0 +1,38 @@
+{
+	"id": "toshima-r8-1-16",
+	"assembly": "tokyo/toshima",
+	"approved": false,
+	"number": "第16号議案",
+	"official": "豊島区児童福祉施設の設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.toshima.lg.jp/368/kuse/gikai/kekka/h28/2603191324.html",
+			"fetchedAt": "2026-10-08T10:54:55.065Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "42d34d0c9b7517c5",
+		"official": "Ordinance Partially Amending the Toshima City Ordinance on Standards for Equipment and Operation of Child Welfare Facilities",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.522Z",
+			"inputTokens": 395,
+			"cachedTokens": 0,
+			"outputTokens": 156,
+			"reasoningTokens": 118,
+			"batch": true
+		}
+	}
+}

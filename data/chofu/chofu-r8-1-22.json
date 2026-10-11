@@ -65,5 +65,32 @@
 			"outputTokens": 56,
 			"reasoningTokens": 42
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3ce7bcffe80f6237",
+		"name": "Reduces Health Promotion Council membership to 13",
+		"official": "Ordinance Partially Amending the Chofu City Health Promotion Council Ordinance",
+		"summary": "The council currently has 15 members. After the amendment, it will have 13. The membership categories will also be revised, with up to 2 residents and up to 5 people with academic expertise. The ordinance will take effect on April 1, 2026. Members commissioned or appointed from the effective date through August 20, 2026, will serve until March 31, 2028.",
+		"changes": [
+			"Reduces the fixed number of council members from 15 to 13",
+			"Reduces the number of Category 1 members from 3 to 2, and changes the limit for members in each of Categories 2, 3 and 6 from no more than 2 to 1",
+			"Removes Category 4 and establishes categories for up to 5 people with academic expertise and up to 2 residents",
+			"Changes the wording of the council’s listed responsibilities to “matters”"
+		],
+		"who": [
+			"Residents who become council members"
+		],
+		"why": "The city says the amendment is to revise the composition of the council’s membership and make the necessary changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:17:50.078Z",
+			"inputTokens": 737,
+			"cachedTokens": 0,
+			"outputTokens": 1747,
+			"reasoningTokens": 1455
+		}
 	}
 }

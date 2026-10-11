@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-23.pdf",
 			"fetchedAt": "2026-10-05T15:58:43.325Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "77f58514fc0644ad",
+		"official": "Ordinance Partially Amending the Higashiyamato City Ordinance on Medical Care for Older Senior Citizens",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:11.336Z",
+			"inputTokens": 388,
+			"cachedTokens": 0,
+			"outputTokens": 238,
+			"reasoningTokens": 200
+		}
+	}
 }

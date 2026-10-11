@@ -62,5 +62,34 @@
 			"outputTokens": 38,
 			"reasoningTokens": 24
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5cc91bf36fad2112",
+		"name": "Raises pay for part-time doctors and others at nursery schools and schools",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Ordinance on Remuneration and Reimbursement of Expenses for Part-Time Special Service Employees",
+		"summary": "The remuneration for part-time special service employees is set by ordinance. This bill revises the remuneration for occupational physicians and doctors at nursery schools and schools, among others. It takes effect on April 1, 2026.",
+		"changes": [
+			"Raises the maximum monthly remuneration for occupational physicians from ¥634,000 to ¥672,000",
+			"Raises annual remuneration for contracted doctors at nursery schools: for internists at schools that care for children aged 0, from ¥520,000 to ¥551,000; for internists at other schools, from ¥295,000 to ¥313,000; and for dentists, from ¥130,000 to ¥137,000",
+			"Raises annual remuneration for doctors at nursing colleges from ¥124,000 to ¥131,000",
+			"Raises annual remuneration for school doctors and others: for internists, from up to ¥690,000 to up to ¥732,000; for ophthalmologists, otolaryngologists and school dentists, each from up to ¥556,000 to up to ¥589,000; for psychiatrists, from ¥630,000 to ¥668,000; and for school pharmacists, from up to ¥315,000 to up to ¥334,000"
+		],
+		"who": [
+			"Occupational physicians",
+			"Contracted doctors at nursery schools",
+			"Doctors and pharmacists at nursing colleges and schools"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:20:21.281Z",
+			"inputTokens": 829,
+			"cachedTokens": 0,
+			"outputTokens": 1106,
+			"reasoningTokens": 739
+		}
 	}
 }

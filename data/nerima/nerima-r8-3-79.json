@@ -1,0 +1,79 @@
+{
+	"id": "nerima-r8-3-79",
+	"assembly": "tokyo/nerima",
+	"approved": false,
+	"number": "議案第79号",
+	"official": "練馬区立都市公園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "都市整備委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-03",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案の内容",
+			"url": "https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/dai3teirei/0803gian.html",
+			"fetchedAt": "2026-10-08T10:55:49.133Z"
+		}
+	],
+	"name": "緑地2か所を新設",
+	"category": "まちづくり",
+	"summary": "区立都市公園条例を改正し、緑地を2か所新設します。場所は旭町緑地が練馬区旭町一丁目39番2号、南大泉いこい緑地が練馬区南大泉五丁目21番17号で、施行日は公布の日です。",
+	"changes": [
+		"緑地2か所を新設する"
+	],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.881Z",
+		"inputTokens": 1045,
+		"cachedTokens": 0,
+		"outputTokens": 639,
+		"reasoningTokens": 508,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.881Z",
+		"checkedAt": "2026-10-10T07:29:38.674Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 859,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "eb9b15c7b014406c",
+		"name": "Creates two new green spaces",
+		"official": "Ordinance Partially Amending the Nerima City Urban Park Ordinance",
+		"summary": "The Nerima City Urban Park Ordinance is amended to add two green spaces. They are Asahicho Green Space at 1-39-2 Asahicho, Nerima City, and Minami-Oizumi Ikoi Green Space at 5-21-17 Minami-Oizumi, Nerima City. The ordinance takes effect on the date of promulgation.",
+		"changes": [
+			"Adds two green spaces"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.070Z",
+			"inputTokens": 553,
+			"cachedTokens": 0,
+			"outputTokens": 551,
+			"reasoningTokens": 402,
+			"batch": true
+		}
+	}
+}

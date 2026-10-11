@@ -30,10 +30,10 @@
 	],
 	"name": "住宅控除と固定資産税の基準を見直す",
 	"category": "税・手数料",
-	"summary": "現行の条例では、家屋の固定資産税の免税点は20万円、償却資産は150万円です。この議案は、住宅借入金等特別税額控除の適用期限を延ばし、免税点を家屋は30万円、償却資産は180万円に改めます。また、特定暗号資産に関する所得に市民税所得割3%を課す規定などを設けます。",
+	"summary": "現行の条例では、家屋の固定資産税の免税点は20万円、償却資産は150万円です。この議案は、住宅借入金等特別税額控除の適用期限を延ばし、家屋の免税点を土地と共通にするとともに、償却資産の免税点を180万円に改めます。また、特定暗号資産に関する所得に市民税所得割3%を課す規定などを設けます。",
 	"changes": [
 		"住宅借入金等特別税額控除の適用期限を令和7年から令和12年、令和20年度から令和25年度に延ばす",
-		"固定資産税の免税点を家屋は20万円から30万円、償却資産は150万円から180万円に引き上げる",
+		"家屋の免税点を土地と共通にし、償却資産は150万円から180万円に引き上げる",
 		"特定暗号資産に係る事業所得・譲渡所得・雑所得に市民税所得割3%を課す",
 		"公的年金等を受け取る人の市民税申告について、申告対象者や記載事項を改める"
 	],
@@ -47,54 +47,84 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:22:52.163Z",
+		"generatedAt": "2026-10-08T23:15:35.427Z",
 		"inputTokens": 6602,
 		"cachedTokens": 0,
 		"outputTokens": 2891,
-		"reasoningTokens": 2444
+		"reasoningTokens": 2444,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:15:35.427Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「免税点を家屋は30万円、償却資産は180万円に改めます。」 → 第57条の改正は家屋を土地と共通の免税点にする内容ですが、土地の免税点の金額は原文に示されておらず、家屋の改正後の金額が30万円か確認できません。",
+				"ai [check] changes/unsupported: 「固定資産税の免税点を家屋は20万円から30万円、償却資産は150万円から180万円に引き上げる」 → 第57条では家屋の20万円という規定を削除して土地と共通にしていますが、共通となる免税点の金額は原文に記載されておらず、30万円と確認できません。"
+			],
+			"inputTokens": 7320,
+			"cachedTokens": 1025,
+			"outputTokens": 1107,
+			"reasoningTokens": 654
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:22:52.163Z",
-		"checkedAt": "2026-10-08T05:10:55.612Z",
+		"draftAt": "2026-10-08T23:15:35.427Z",
+		"checkedAt": "2026-10-08T23:15:47.018Z",
 		"flags": [],
 		"issues": [
 			{
-				"field": "summary",
-				"kind": "unsupported",
-				"severity": "check",
-				"quote": "免税点を家屋は30万円、償却資産は180万円に改めます。",
-				"note": "第57条の改正は家屋を土地と共通の免税点にする内容ですが、土地の免税点の金額は原文に示されておらず、家屋の改正後の金額が30万円か確認できません。"
-			},
-			{
 				"field": "changes",
-				"kind": "unsupported",
+				"kind": "omission",
 				"severity": "check",
-				"quote": "固定資産税の免税点を家屋は20万円から30万円、償却資産は150万円から180万円に引き上げる",
-				"note": "第57条では家屋の20万円という規定を削除して土地と共通にしていますが、共通となる免税点の金額は原文に記載されておらず、30万円と確認できません。"
+				"quote": "",
+				"note": "附則第17条の2第4項で、地すべり防止区域などの災害危険区域内にある一定の土地等の譲渡を、優良住宅地等のための譲渡等から除外する変更が抜けています。"
 			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
-				"quote": "",
-				"note": "附則第17条の2第4項の新設による、災害危険区域等にある一定の土地等の譲渡を、優良住宅地等のための譲渡等から除外する変更が抜けています。"
-			},
-			{
-				"field": "changes",
-				"kind": "omission",
-				"severity": "check",
-				"quote": "",
-				"note": "附則第10条の2の割合を、3分の2から2分の1、7分の6から5分の3、4分の3から3分の2に改める変更が抜けています。適用対象の詳細は原文にありませんが、税負担に関わる主な変更の可能性があるため確認が必要です。"
+				"quote": "家屋の免税点を土地と共通にし、償却資産は150万円から180万円に引き上げる",
+				"note": "免税点の変更とは別に、附則第10条の2で割合を3分の2から2分の1、7分の6から5分の3、4分の3から3分の2へ改めています。対象の詳細は本文だけでは不明ですが、納税者に関わる主な変更として記載が必要か確認してください。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 6716,
+			"inputTokens": 6722,
 			"cachedTokens": 0,
-			"outputTokens": 748,
-			"reasoningTokens": 272
+			"outputTokens": 461,
+			"reasoningTokens": 191
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "17c2b324d7fbe4a0",
+		"name": "Revises housing tax credits and fixed asset tax thresholds",
+		"official": "Ordinance Partially Amending the Chofu City Tax Imposition and Collection Ordinance",
+		"summary": "Under the current ordinance, the fixed asset tax exemption threshold is ¥200,000 for buildings and ¥1,500,000 for depreciable assets. This bill extends the period for applying the special tax credit for housing loans, sets the exemption threshold for buildings at the same level as for land, and changes the threshold for depreciable assets to ¥1,800,000. It also establishes provisions including a 3% municipal resident tax income levy on business income, capital gains, and miscellaneous income related to specified crypto-assets.",
+		"changes": [
+			"Extends the application period for the special tax credit for housing loans from Reiwa 7 to Reiwa 12, and from fiscal year Reiwa 20 to fiscal year Reiwa 25",
+			"Sets the exemption threshold for buildings at the same level as for land, and raises the threshold for depreciable assets from ¥1,500,000 to ¥1,800,000",
+			"Imposes a 3% municipal resident tax income levy on business income, capital gains, and miscellaneous income related to specified crypto-assets",
+			"Revises who must file municipal resident tax returns and what information they must include if they receive public pensions or similar payments"
+		],
+		"who": [
+			"People who receive the special tax credit for housing loans",
+			"People who own buildings or depreciable assets",
+			"People with income related to specified crypto-assets",
+			"People who receive public pensions or similar payments and file municipal resident tax returns"
+		],
+		"why": "The city says the ordinance is being amended in response to revisions to the Local Tax Act and other laws, to extend the application period for the special tax credit for housing loans, raise the fixed asset tax exemption thresholds for buildings and depreciable assets, and make other necessary amendments.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:18:57.747Z",
+			"inputTokens": 858,
+			"cachedTokens": 0,
+			"outputTokens": 1303,
+			"reasoningTokens": 877
 		}
 	}
 }

@@ -61,5 +61,33 @@
 			"outputTokens": 47,
 			"reasoningTokens": 32
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4aac0a0748150676",
+		"name": "Changes the designation requirements for drainage equipment contractors",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Sewerage Ordinance",
+		"summary": "Currently, designation as a drainage equipment contractor requires, among other things, that a responsible technician be assigned exclusively to the contractor. This bill requires at least one responsible technician to be appointed at each business office and allows the technician to also work at another business office in Tokyo. It also creates an exception for emergencies such as disasters, allowing a person designated by the head of another local government, etc., to carry out construction work if the administrator considers it necessary.",
+		"changes": [
+			"Remove the requirement that responsible technicians be assigned exclusively to designated contractors",
+			"Require at least one responsible technician at each business office and allow them to also work at another business office in Tokyo",
+			"Create an exception allowing people designated by the heads of other local governments, etc., to carry out work in emergencies",
+			"Require responsible technicians to be registered in addition to being approved by the administrator"
+		],
+		"who": [
+			"Businesses that carry out drainage equipment construction",
+			"Responsible technicians"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:18:53.228Z",
+			"inputTokens": 721,
+			"cachedTokens": 0,
+			"outputTokens": 842,
+			"reasoningTokens": 578
+		}
 	}
 }

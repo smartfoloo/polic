@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a19d9e438654b9bc",
+		"name": "Changes the Local Autonomy Act reference in the sewerage business ordinance",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment, etc., of the Akiruno City Sewerage Business",
+		"summary": "The ordinance setting out Akiruno City's sewerage business cites Article 243-2-8, paragraph 8 of the Local Autonomy Act. This bill changes the reference to Article 243-2-9, paragraph 8 and will take effect on September 24, 2026.",
+		"changes": [
+			"Changes the cited Local Autonomy Act provision from Article 243-2-8, paragraph 8 to Article 243-2-9, paragraph 8"
+		],
+		"who": [],
+		"why": "The city says this is to adjust the provisions in connection with the enforcement of the amended Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:05.826Z",
+			"inputTokens": 614,
+			"cachedTokens": 0,
+			"outputTokens": 653,
+			"reasoningTokens": 451
+		}
 	}
 }

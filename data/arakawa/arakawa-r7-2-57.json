@@ -1,0 +1,49 @@
+{
+	"id": "arakawa-r7-2-57",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第57号",
+	"official": "荒川区公契約条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第57号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian57.html",
+			"fetchedAt": "2026-10-10T14:47:26.143Z"
+		}
+	],
+	"name": "公契約の基本方針と関係者の責務を定める",
+	"category": "行政のしくみ",
+	"summary": "この案では、公契約に関する区の基本方針を定めます。あわせて、区と受注者の責務や、公契約を結ぶ際に必要な事項を定めます。",
+	"changes": [
+		"公契約に関する基本方針を定める",
+		"区と受注者の責務を明らかにする",
+		"公契約の締結に必要な事項を定める"
+	],
+	"who": [
+		"区の公契約を受注する事業者"
+	],
+	"why": "公契約に関する基本方針を定め、区と受注者の責務を明らかにし、契約の締結に必要な事項を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.805Z",
+		"inputTokens": 1026,
+		"cachedTokens": 0,
+		"outputTokens": 692,
+		"reasoningTokens": 454,
+		"batch": true
+	}
+}

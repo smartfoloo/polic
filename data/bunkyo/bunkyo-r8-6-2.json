@@ -1,0 +1,98 @@
+{
+	"id": "bunkyo-r8-6-2",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第2号",
+	"official": "文京区特別区税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年6月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-02",
+	"sources": [
+		{
+			"label": "議案第2号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12660/2~24.pdf",
+			"fetchedAt": "2026-10-08T10:53:54.352Z"
+		},
+		{
+			"label": "令和8年6月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080625.pdf",
+			"fetchedAt": "2026-10-08T10:53:42.318Z"
+		}
+	],
+	"name": "年金申告と税の特例を見直す",
+	"category": "税・手数料",
+	"summary": "区民税や軽自動車税の特例と、公的年金を受ける人の申告手続きを改めます。住宅ローン控除などの適用期間を延ばすほか、特定の災害リスク区域内の土地譲渡を税の特例の対象外にします。",
+	"changes": [
+		"公的年金の申告書を提出する人の範囲と記載事項を改める",
+		"住宅ローン控除の対象となる居住年を令和12年まで、適用年度を令和25年度まで延ばす",
+		"軽自動車税の特例対象期間を令和7年4月1日から令和10年3月31日までに改める",
+		"土地譲渡に関する区民税の特例を令和11年度まで延ばし、特定の災害リスク区域内の土地を対象外にする"
+	],
+	"who": [
+		"区に公的年金等の申告書を提出する人",
+		"区民税の住宅ローン控除を受ける人",
+		"軽自動車税や土地譲渡に関する税の特例の対象となる人"
+	],
+	"why": "地方税法等の一部改正に伴い、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.836Z",
+		"inputTokens": 5039,
+		"cachedTokens": 0,
+		"outputTokens": 3119,
+		"reasoningTokens": 2750,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.836Z",
+		"checkedAt": "2026-10-10T07:29:38.548Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5080,
+			"cachedTokens": 0,
+			"outputTokens": 202,
+			"reasoningTokens": 187,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0579f6ff98b88450",
+		"name": "Revises pension filings and tax provisions",
+		"official": "Ordinance Partially Amending the Bunkyo City Special Ward Tax Ordinance",
+		"summary": "Revises special tax provisions for city resident tax and light motor vehicle tax, and the filing procedures for people receiving public pensions. It extends the periods for applying provisions such as the housing loan tax deduction, and excludes land transfers within certain disaster-risk areas from the special tax provisions.",
+		"changes": [
+			"Revises who must submit public pension declarations and what they must include",
+			"Extends the eligible years of residence for the housing loan tax deduction through 2030, and the applicable fiscal years through FY2043",
+			"Revises the period covered by special provisions for light motor vehicle tax to April 1, 2025, through March 31, 2028",
+			"Extends the city resident tax special provision for land transfers through FY2029, and excludes land in certain disaster-risk areas"
+		],
+		"who": [
+			"People who submit public pension declarations to the ward",
+			"People who receive the city resident tax housing loan deduction",
+			"People covered by special provisions for light motor vehicle tax or taxes on land transfers"
+		],
+		"why": "The ward says this is to update the provisions following partial amendments to the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.024Z",
+			"inputTokens": 772,
+			"cachedTokens": 0,
+			"outputTokens": 1143,
+			"reasoningTokens": 842,
+			"batch": true
+		}
+	}
+}

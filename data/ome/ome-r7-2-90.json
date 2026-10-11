@@ -60,5 +60,35 @@
 			"outputTokens": 117,
 			"reasoningTokens": 103
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2a49d27b0a75aa3d",
+		"name": "Redefines how notices are served by publication",
+		"official": "Ordinance Partially Amending the Ome City Administrative Procedure Ordinance",
+		"summary": "The ordinance sets out a method for notices about hearings or opportunities to explain to be served by publication: posting the notice details and other information on a notice board at the office. This bill makes the notice details widely accessible, then allows them to be viewed either through a posted written notice or on an electronic screen at the office. The notice is deemed to have been delivered two weeks after these measures begin.",
+		"changes": [
+			"Make the notice details accessible to an unspecified number of people using a method set by rules",
+			"Allow the written notice to be posted or the notice to be viewed on an electronic screen at the office",
+			"Deem the notice delivered two weeks after the measures begin",
+			"Replace “processing standards” with “disposition standards”"
+		],
+		"who": [
+			"People receiving notices about hearings or opportunities to explain by service by publication",
+			"People receiving notices about hearings or opportunities to explain by service by publication",
+			"People receiving notices about hearings or opportunities to explain by service by publication",
+			"People receiving notices about hearings or opportunities to explain by service by publication"
+		],
+		"why": "The city says this is to update the provisions on methods of notice by service by publication in line with a partial amendment to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:59:06.589Z",
+			"inputTokens": 745,
+			"cachedTokens": 0,
+			"outputTokens": 1311,
+			"reasoningTokens": 996
+		}
 	}
 }

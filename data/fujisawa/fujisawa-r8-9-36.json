@@ -1,0 +1,107 @@
+{
+	"id": "fujisawa-r8-9-36",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第36号",
+	"official": "藤沢市市税条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第36号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2801&Sflg=2",
+			"fetchedAt": "2026-10-08T11:18:39.575Z"
+		},
+		{
+			"label": "議案第36号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2801_e01-036.pdf",
+			"fetchedAt": "2026-10-08T11:18:46.912Z"
+		}
+	],
+	"name": "固定資産税の特例割合と軽自動車税を改正",
+	"category": "税・手数料",
+	"summary": "市税条例には、固定資産税の課税標準の特例割合や軽自動車税の特例が定められています。この議案では、固定資産税の特例割合を見直し、3輪以上の軽自動車に対する特例税率を令和9年度分と令和10年度分について定めます。改正の大半は公布日から、軽自動車税の規定は令和9年4月1日から施行します。",
+	"changes": [
+		"固定資産税の特例割合を、2分の1から3分の1、14分の11から2分の1、12分の7から2分の1、3分の1から12分の7に改める",
+		"軽自動車税の特例として、第33条の税率を1,000円、1,800円、2,700円、1,000円、1,300円に読み替える規定を加える",
+		"地方税法の条項変更に合わせて条例中の参照先を修正する"
+	],
+	"who": [
+		"固定資産税の特例対象となる設備の所有者",
+		"特例対象となる3輪以上の軽自動車の所有者"
+	],
+	"why": "地方税法等の改正を受け、固定資産税の課税標準の特例割合を定め、軽自動車税の特例を延長するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.536Z",
+		"inputTokens": 2476,
+		"cachedTokens": 0,
+		"outputTokens": 2456,
+		"reasoningTokens": 2070,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.536Z",
+			"notes": [
+				"ai [error] changes/direction: 「軽自動車税の特例税率を3,900円から1,000円、6,900円から1,800円、10,800円から2,700円、3,800円から1,000円、5,000円から1,300円に改める」 → 原文は第33条の税率自体を改めるのではなく、対象車両・年度を限定して税率を読み替える特例を附則第22項として加えるもの。"
+			],
+			"inputTokens": 3089,
+			"cachedTokens": 1025,
+			"outputTokens": 834,
+			"reasoningTokens": 433,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.848Z",
+		"checkedAt": "2026-10-10T07:29:38.575Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "error",
+				"quote": "軽自動車税の特例税率を3,900円から1,000円、6,900円から1,800円、10,800円から2,700円、3,800円から1,000円、5,000円から1,300円に改める",
+				"note": "原文は第33条の税率自体を改めるのではなく、対象車両・年度を限定して税率を読み替える特例を附則第22項として加えるもの。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "軽自動車税の特例税率を3,900円から1,000円、6,900円から1,800円、10,800円から2,700円、3,800円から1,000円、5,000円から1,300円に改める",
+				"note": "対象は、令和8年4月1日～令和9年3月31日に初めて車両番号の指定を受けた車両では令和9年度分、令和9年4月1日～令和10年3月31日に初めて指定を受けた車両では令和10年度分に限る。この適用条件がchangesにない。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "固定資産税の特例割合を、2分の1から3分の1、14分の11から2分の1、12分の7から2分の1、3分の1から12分の7に改める",
+				"note": "附則第2項では、令和6年4月1日～令和8年3月31日に新たに取得された所定の特定再生可能エネルギー発電設備への固定資産税は従前の扱いを継続するとしている。この適用上の例外がchangesにない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2555,
+			"cachedTokens": 0,
+			"outputTokens": 626,
+			"reasoningTokens": 163,
+			"batch": true
+		}
+	}
+}

@@ -80,5 +80,32 @@
 			"outputTokens": 393,
 			"reasoningTokens": 197
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "827c599e12b8b3ee",
+		"name": "Restricts building uses and size in the Takashimadaira district",
+		"official": "Ordinance on Restrictions on Buildings within the Area of the Takashimadaira 2- and 3-Chome Surrounding District Plan",
+		"summary": "The ordinance sets rules on the uses, sites and structures of buildings in the Takashimadaira 2- and 3-Chome Surrounding District. It restricts the construction of adult entertainment businesses and other establishments, and sets standards for building coverage ratios, site areas, building heights and the positions of exterior walls. The ordinance takes effect on May 31, 2026.",
+		"changes": [
+			"Prohibits the construction of adult entertainment businesses, mahjong parlours and other establishments, and in principle prohibits buildings along Keyaki Street from having residential or other uses on the ground floor",
+			"Sets a general maximum building coverage ratio of 50%, requires sites in Redevelopment District 1 to be at least 2,000 square metres in principle, and limits building height to 110 metres",
+			"Sets standards requiring exterior walls and other structures to be at least 2 metres or 4 metres from roads and neighbouring property boundaries, depending on the district",
+			"Sets fines for violations of the ordinance's restrictions"
+		],
+		"who": [
+			"People and businesses planning construction in the Takashimadaira 2- and 3-Chome Surrounding District"
+		],
+		"why": "The ward says the ordinance is intended to ensure appropriate urban functions and a healthy urban environment.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:07:29.718Z",
+			"inputTokens": 784,
+			"cachedTokens": 0,
+			"outputTokens": 912,
+			"reasoningTokens": 575
+		}
 	}
 }

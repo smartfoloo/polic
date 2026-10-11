@@ -62,5 +62,29 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "105dd50f48849e0e",
+		"name": "Sets operating standards for specified infant and other childcare attendance support",
+		"official": "Ordinance Establishing Standards for the Operation of Higashikurume City Specified Infant and Other Childcare Attendance Support Services",
+		"summary": "The ordinance sets operating standards for specified infant and other childcare attendance support services in the city. The standards follow those set out in a national Cabinet Office ordinance, and the ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Adopts the standards set out in the national Cabinet Office ordinance as the city's operating standards"
+		],
+		"who": [
+			"Businesses providing specified infant and other childcare attendance support services"
+		],
+		"why": "The city says the ordinance establishes standards for operating specified infant and other childcare attendance support services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:59:25.489Z",
+			"inputTokens": 622,
+			"cachedTokens": 0,
+			"outputTokens": 615,
+			"reasoningTokens": 434
+		}
 	}
 }

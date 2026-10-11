@@ -1,0 +1,44 @@
+{
+	"id": "kiyose-r8-1-14",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第14号",
+	"official": "清瀬市職員の勤務時間、休日及び休暇等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-16",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/950/r8.1.shicyougian.zenbu0316.pdf",
+			"fetchedAt": "2026-10-10T14:41:36.069Z"
+		}
+	],
+	"name": "市職員の休暇制度を見直し",
+	"category": "行政のしくみ",
+	"summary": "現在、介護休暇の承認期間は6か月で、介護時間を取得できるのは取得初日から連続する3年以内です。議案では、介護休暇の期間を1年に延ばし、介護時間の取得期間の制限をなくします。また、生理休暇の名称を健康管理休暇に変えます。",
+	"changes": [
+		"介護休暇の承認期間を6か月から1年に延ばす",
+		"介護時間の取得期間を取得初日から連続する3年以内に限る扱いをなくす",
+		"生理休暇の名称を健康管理休暇に変える"
+	],
+	"who": [
+		"清瀬市職員"
+	],
+	"why": "東京都人事委員会の勧告に準拠して市職員の休暇制度を見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.819Z",
+		"inputTokens": 1138,
+		"cachedTokens": 0,
+		"outputTokens": 728,
+		"reasoningTokens": 498,
+		"batch": true
+	}
+}

@@ -61,5 +61,33 @@
 			"outputTokens": 41,
 			"reasoningTokens": 26
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "93af0e4b9c327092",
+		"name": "Changes application procedures for seal registration certificates",
+		"official": "Ordinance Partially Amending the Ome City Seal Registration Ordinance",
+		"summary": "Applications for seal registration certificates are set out in the Ome City Seal Registration Ordinance. This bill revises how the scope of foreign residents is treated and the wording indicating the scope of municipalities, and adds cards that can be used when applying. The ordinance takes effect on the date of promulgation.",
+		"changes": [
+			"Revise wording about the scope of municipalities so it is not limited to within Tokyo",
+			"Include among foreign residents from non-Kanji-using countries foreign residents from Kanji-using countries whose names do not use Kanji on official identity documents issued by their home countries",
+			"Add specified residence cards and specified special permanent resident certificates to the documents that can be used when applying"
+		],
+		"who": [
+			"People applying for seal registration certificates",
+			"Foreign residents from Kanji-using countries whose names do not use Kanji on official identity documents issued by their home countries",
+			"People who hold a specified residence card or a specified special permanent resident certificate"
+		],
+		"why": "The city says it is revising the application procedures for seal registration certificates following a partial amendment to laws concerning immigration control.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:01:45.437Z",
+			"inputTokens": 770,
+			"cachedTokens": 0,
+			"outputTokens": 704,
+			"reasoningTokens": 419
+		}
 	}
 }

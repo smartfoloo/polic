@@ -60,5 +60,32 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "797ba40ee9aec553",
+		"name": "Requires daycare support providers to prevent sexual violence against children",
+		"official": "Ordinance Partially Amending the Ota City Ordinance Establishing Standards for Facilities and Operation of Infant and Other Children’s Daycare Support Services",
+		"summary": "The ordinance adds new rules to prevent sexual violence and other acts against children in infant and other children’s daycare support services. Providers must take measures such as checking the criminal records of covered workers, and must properly protect children using the service if sexual violence or similar acts occur. The ordinance takes effect on December 25, 2026.",
+		"changes": [
+			"Take necessary measures, including criminal record checks, for covered workers",
+			"Prevent sexual violence and other acts against children, and protect children using the service if such acts occur"
+		],
+		"who": [
+			"Providers of infant and other children’s daycare support services",
+			"Infants and young children using these services",
+			"Covered workers who come into contact with children using the service"
+		],
+		"why": "The ward says these rules are being established to prevent sexual violence and other acts against children, following revisions to the standards for facilities and operation of infant and other children’s daycare support services.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:09:08.413Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 777,
+			"reasoningTokens": 510
+		}
 	}
 }

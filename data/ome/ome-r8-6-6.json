@@ -25,9 +25,9 @@
 	],
 	"name": "地域活動を支援するセンターを設置",
 	"category": "福祉",
-	"summary": "市は、東青梅5丁目22番地の2に青梅市地域支援センターを設置します。社会福祉やボランティア・市民活動、保護司の活動に関する事業を行い、開館時間や休館日、利用上のルールも定めます。",
+	"summary": "市は、青梅市地域支援センターの所在地を東青梅5丁目22番地の2として設けます。社会福祉やボランティア・市民活動、保護司の活動に関する事業を行い、開館時間や休館日、利用上のルールも定めます。",
 	"changes": [
-		"東青梅5丁目22番地の2に青梅市地域支援センターを設置する",
+		"東青梅5丁目22番地の2を所在地として地域支援センターを置く",
 		"社会福祉、ボランティア・市民活動、保護司の活動などに関する事業を行う",
 		"開館時間を午前8時30分から午後5時までとし、休館日を定める",
 		"利用制限や設備変更、販売行為などのルールを定める"
@@ -40,26 +40,44 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:12:22.056Z",
+		"generatedAt": "2026-10-08T23:26:53.614Z",
 		"inputTokens": 1981,
 		"cachedTokens": 0,
 		"outputTokens": 1108,
-		"reasoningTokens": 819
+		"reasoningTokens": 819,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:26:53.614Z",
+			"notes": [
+				"code: copied from the source (28 chars): 「東青梅5丁目22番地の2に青梅市地域支援センターを設置し」",
+				"code: copied from the source (27 chars): 「東青梅5丁目22番地の2に青梅市地域支援センターを設置」"
+			],
+			"inputTokens": 2419,
+			"cachedTokens": 1025,
+			"outputTokens": 731,
+			"reasoningTokens": 442
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:12:22.056Z",
-		"checkedAt": "2026-10-08T05:43:04.810Z",
-		"flags": [
-			"copied from the source (28 chars): 「東青梅5丁目22番地の2に青梅市地域支援センターを設置し」",
-			"copied from the source (27 chars): 「東青梅5丁目22番地の2に青梅市地域支援センターを設置」"
-		],
+		"draftAt": "2026-10-08T23:26:53.614Z",
+		"checkedAt": "2026-10-08T23:27:01.083Z",
+		"flags": [],
 		"issues": [
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
+				"quote": "開館時間を午前8時30分から午後5時までとし、休館日を定める",
+				"note": "第3条の具体的な休館日（土日・祝日、1月2日・3日、12月29日～31日）が抜けている。利用者に直接関わる内容。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
 				"quote": "利用制限や設備変更、販売行為などのルールを定める",
-				"note": "利用者に直接関わる第7条の利用終了時の原状回復義務と、第8条の施設・設備・備品等を損傷した場合の損害賠償義務が抜けている。"
+				"note": "第7条の利用終了時の原状回復義務と、第8条の施設・設備・備品等を損傷した場合の賠償義務が抜けている。"
 			}
 		],
 		"ai": {
@@ -68,8 +86,35 @@
 			"promptVersion": 2,
 			"inputTokens": 1939,
 			"cachedTokens": 0,
-			"outputTokens": 229,
-			"reasoningTokens": 99
+			"outputTokens": 343,
+			"reasoningTokens": 114
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2350fcdd958c3dcb",
+		"name": "Establishes a center to support community activities",
+		"official": "Ome City Regional Support Center Ordinance",
+		"summary": "The city establishes the Ome City Regional Support Center at Higashi-Ome 5-chome 22-2. The center carries out programs related to social welfare, volunteer and civic activities, and the activities of probation officers. The city also sets the center’s opening hours, closed days, and rules for use.",
+		"changes": [
+			"Establishes the Regional Support Center at Higashi-Ome 5-chome 22-2",
+			"Carries out programs related to social welfare, volunteer and civic activities, and the activities of probation officers",
+			"Sets opening hours from 8:30 a.m. to 5 p.m. and establishes closed days",
+			"Sets rules on restricting use, changing facilities, and sales activities"
+		],
+		"who": [
+			"People who use the Ome City Regional Support Center"
+		],
+		"why": "The city says it is establishing the center to promote residents’ welfare and support community activities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:02:27.151Z",
+			"inputTokens": 687,
+			"cachedTokens": 0,
+			"outputTokens": 617,
+			"reasoningTokens": 374
 		}
 	}
 }

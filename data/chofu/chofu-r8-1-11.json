@@ -34,41 +34,66 @@
 	"changes": [
 		"政務活動費の交付額を2万5,000円から3万円に改める"
 	],
-	"who": [
-		"調布市議会の会派"
-	],
+	"who": [],
 	"why": "政務活動費の交付額を改めるためと、市は説明しています。",
 	"draft": {
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:18:14.078Z",
+		"generatedAt": "2026-10-08T23:14:12.183Z",
 		"inputTokens": 1196,
 		"cachedTokens": 0,
 		"outputTokens": 923,
-		"reasoningTokens": 756
+		"reasoningTokens": 756,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:14:12.183Z",
+			"notes": [
+				"ai [check] who/unsupported: 「調布市議会の会派」 → 原文には交付対象が会派であるとの記載がなく、対象者を確認できません。"
+			],
+			"inputTokens": 1485,
+			"cachedTokens": 1025,
+			"outputTokens": 225,
+			"reasoningTokens": 91
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:18:14.078Z",
-		"checkedAt": "2026-10-08T05:08:20.486Z",
+		"draftAt": "2026-10-08T23:14:12.183Z",
+		"checkedAt": "2026-10-08T23:14:14.629Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "who",
-				"kind": "unsupported",
-				"severity": "check",
-				"quote": "調布市議会の会派",
-				"note": "原文には交付対象が会派であるとの記載がなく、対象者を確認できません。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1031,
+			"inputTokens": 1018,
 			"cachedTokens": 0,
-			"outputTokens": 194,
-			"reasoningTokens": 129
+			"outputTokens": 12,
+			"reasoningTokens": 0
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f8f80bf8fb3a2640",
+		"name": "Sets the political activity expense grant at ¥30,000",
+		"official": "Ordinance Partially Amending the Chofu City Council Ordinance on the Granting of Political Activity Expenses",
+		"summary": "The current grant amount for political activity expenses is ¥25,000. This bill changes the amount to ¥30,000 and takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the grant amount for political activity expenses from ¥25,000 to ¥30,000"
+		],
+		"who": [],
+		"why": "The city says this is to revise the grant amount for political activity expenses.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:19.446Z",
+			"inputTokens": 566,
+			"cachedTokens": 0,
+			"outputTokens": 503,
+			"reasoningTokens": 352
 		}
 	}
 }

@@ -1,0 +1,98 @@
+{
+	"id": "bunkyo-r8-2-98",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第98号",
+	"official": "文京区介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-17",
+	"sources": [
+		{
+			"label": "議案第98号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/gian3.pdf",
+			"fetchedAt": "2026-10-08T10:53:24.287Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "給与収入に応じた介護保険料の算定特例を設ける",
+	"category": "福祉",
+	"summary": "介護保険料率は、所得などに応じて算定されています。この条例改正により、令和8年度は給与収入額に応じて所得の計算方法を調整し、一定の条件に当てはまる人を、保険料の算定上、住民税が課されている人として扱う特例を設けます。令和8年4月1日から施行します。",
+	"changes": [
+		"令和7年の給与収入が55万1,000円以上190万円未満の場合、保険料算定用の合計所得金額を収入額に応じた特例で計算する",
+		"給与収入や所得などの条件を満たす人を、保険料算定上、市町村民税が課されている人とみなす"
+	],
+	"who": [
+		"介護保険の第1号被保険者で、給与収入などの条件に該当する人"
+	],
+	"why": "介護保険法施行令の一部改正に伴い、令和8年度の保険料率の算定に関する特例を設けるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.835Z",
+		"inputTokens": 4712,
+		"cachedTokens": 0,
+		"outputTokens": 1910,
+		"reasoningTokens": 1572,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.835Z",
+		"checkedAt": "2026-10-10T07:29:38.544Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "給与収入や所得などの条件を満たす人を、保険料算定上、市町村民税が課されている人とみなす",
+				"note": "付則第十一条第一項では、被保険者本人だけでなく、同じ世帯の世帯主・世帯員が条件に該当する場合も、課税者とみなして被保険者の保険料率を算定する。この世帯単位の適用が明示されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4724,
+			"cachedTokens": 0,
+			"outputTokens": 248,
+			"reasoningTokens": 102,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "488615406579c835",
+		"name": "Sets a special method for calculating long-term care insurance premiums based on salary income",
+		"official": "Ordinance Partially Amending the Bunkyo City Long-Term Care Insurance Ordinance",
+		"summary": "Long-term care insurance premium rates are calculated based on income and other factors. Under this amendment, for FY2026, the method of calculating income will be adjusted according to salary income, and people who meet certain conditions will be treated as subject to resident tax when their premiums are calculated. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Calculate the total income amount used for premium calculations under a special method based on salary income when 2025 salary income is ¥551,000 or more and less than ¥1,900,000",
+			"Treat people who meet conditions related to salary income, income and other factors as subject to municipal resident tax when calculating premiums"
+		],
+		"who": [
+			"Category 1 insured persons under long-term care insurance who meet the conditions related to salary income and other factors"
+		],
+		"why": "The ward says this is to establish a special rule for calculating FY2026 premium rates following a partial amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.024Z",
+			"inputTokens": 743,
+			"cachedTokens": 0,
+			"outputTokens": 660,
+			"reasoningTokens": 382,
+			"batch": true
+		}
+	}
+}

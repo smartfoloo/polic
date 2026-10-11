@@ -57,5 +57,29 @@
 			"outputTokens": 52,
 			"reasoningTokens": 38
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "873fccb3c9ecdb7f",
+		"name": "Expands eligibility for two-person households",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Senior Apartment Housing",
+		"summary": "Currently, a two-person household may apply for senior housing with a certain relative, a spouse, or a partner in a partnership relationship certified by the Tokyo Metropolitan Government. This bill also makes people approved by the mayor eligible. It takes effect on March 1, 2026.",
+		"changes": [
+			"Adds people approved by the mayor as eligible partners for two-person household applications"
+		],
+		"who": [
+			"People applying for senior apartment housing as a two-person household"
+		],
+		"why": "The city says this is to expand who qualifies to use the housing.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:11:00.514Z",
+			"inputTokens": 609,
+			"cachedTokens": 0,
+			"outputTokens": 569,
+			"reasoningTokens": 395
+		}
 	}
 }

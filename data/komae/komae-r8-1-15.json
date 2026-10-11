@@ -1,0 +1,37 @@
+{
+	"id": "komae-r8-1-15",
+	"assembly": "tokyo/komae",
+	"approved": false,
+	"number": "議案第15号",
+	"official": "狛江市非常勤職員の報酬等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審査結果一覧",
+			"url": "https://www.city.komae.tokyo.jp/index.cfm/49,145713,c,html/145713/20260817-155303.pdf",
+			"fetchedAt": "2026-10-08T10:57:25.745Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "28f629ef957d61b0",
+		"official": "Ordinance Partially Amending the Komae City Ordinance Concerning Remuneration, etc. for Part-Time Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T03:41:53.886Z",
+			"inputTokens": 389,
+			"cachedTokens": 0,
+			"outputTokens": 256,
+			"reasoningTokens": 215
+		}
+	}
+}

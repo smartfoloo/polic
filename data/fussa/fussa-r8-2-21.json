@@ -1,0 +1,80 @@
+{
+	"id": "fussa-r8-2-21",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第21号",
+	"official": "福生市印鑑条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": "市民厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-19",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1021548.html",
+			"fetchedAt": "2026-10-08T10:57:07.646Z"
+		}
+	],
+	"name": "特定在留カード等で印鑑登録証明を申請可能に",
+	"category": "くらし・手続き",
+	"summary": "印鑑登録証明を申請するときは、印鑑登録証の提示が必要です。この議案では、特定在留カードなどを提示すれば、印鑑登録証を提示せずに申請できるようにします。",
+	"changes": [
+		"特定在留カード等の提示で印鑑登録証明を申請できるようにする"
+	],
+	"who": [
+		"特定在留カード等を持ち、印鑑登録証明を申請する人"
+	],
+	"why": "特定在留カード等の提示により、印鑑登録証を提示せずに申請できるようにするためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.537Z",
+		"inputTokens": 1059,
+		"cachedTokens": 0,
+		"outputTokens": 619,
+		"reasoningTokens": 405,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.537Z",
+			"notes": [
+				"ai [error] name/fact: 「在留カード等で印鑑登録証明を申請可能に」 → 原文の対象は「特定在留カード等」です。「在留カード等」では通常の在留カードも対象となるように読め、対象範囲が異なります。"
+			],
+			"inputTokens": 1423,
+			"cachedTokens": 1025,
+			"outputTokens": 512,
+			"reasoningTokens": 296,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.854Z",
+		"checkedAt": "2026-10-10T07:29:38.585Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "name",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "在留カード等で印鑑登録証明を申請可能に",
+				"note": "原文の対象は「特定在留カード等」です。「在留カード等」では通常の在留カードも対象となるように読め、対象範囲が異なります。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 940,
+			"cachedTokens": 0,
+			"outputTokens": 246,
+			"reasoningTokens": 154,
+			"batch": true
+		}
+	}
+}

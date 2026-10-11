@@ -64,5 +64,31 @@
 			"outputTokens": 52,
 			"reasoningTokens": 37
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "867406090202cc94",
+		"name": "Requires childcare support providers to prevent sexual violence",
+		"official": "Bill to Partially Amend the Kunitachi City Ordinance on Standards for Facilities and Operations of Infant and Other Childcare Support Services",
+		"summary": "The bill adds provisions to the current ordinance to prevent sexual violence against children and other such acts. Providers will be required to take necessary measures, including checking the criminal records of workers. The bill also requires providers to protect infants and toddlers using the service if such an incident occurs. The amendments will take effect on December 25, 2026.",
+		"changes": [
+			"Require criminal record checks for certain workers who interact with infants and toddlers using the service",
+			"Require measures to prevent sexual violence against children and other such acts, and to protect infants and toddlers using the service if an incident occurs"
+		],
+		"who": [
+			"Providers of infant and other childcare support services",
+			"Infants and toddlers who use infant and other childcare support services"
+		],
+		"why": "The city says it is updating the provisions to align with revisions to standards under the Child Welfare Act made in connection with the entry into force of the relevant law.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:46.149Z",
+			"inputTokens": 720,
+			"cachedTokens": 0,
+			"outputTokens": 666,
+			"reasoningTokens": 409
+		}
 	}
 }

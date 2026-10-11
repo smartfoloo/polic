@@ -1,0 +1,89 @@
+{
+	"id": "fussa-r8-1-3",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第3号",
+	"official": "福生市非常勤の特別職の職員の報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1020984.html",
+			"fetchedAt": "2026-10-08T10:57:01.728Z"
+		}
+	],
+	"name": "予防接種医などの報酬額を改定",
+	"category": "健康・医療",
+	"summary": "予防接種医、学校医、学校歯科医の報酬額は、条例で定められています。この議案では、それぞれの報酬額を改定します。",
+	"changes": [
+		"予防接種医、学校医及び学校歯科医の報酬額を改定する"
+	],
+	"who": [
+		"予防接種医",
+		"学校医",
+		"学校歯科医"
+	],
+	"why": "報酬の額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.852Z",
+		"inputTokens": 1037,
+		"cachedTokens": 0,
+		"outputTokens": 481,
+		"reasoningTokens": 332,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.852Z",
+		"checkedAt": "2026-10-10T07:29:38.583Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 882,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "806afe03b8e306d8",
+		"name": "Revises remuneration for vaccination doctors, school doctors and dentists",
+		"official": "Ordinance Partially Amending the Fussa City Ordinance on Remuneration and Expense Reimbursement for Part-Time Special-Service Employees",
+		"summary": "The remuneration for doctors who administer vaccinations, school doctors and school dentists is set by ordinance. This bill revises the remuneration for each of these roles.",
+		"changes": [
+			"Revises remuneration for doctors who administer vaccinations",
+			"Revises remuneration for school doctors",
+			"Revises remuneration for school dentists"
+		],
+		"who": [
+			"Doctors who administer vaccinations",
+			"School doctors",
+			"School dentists"
+		],
+		"why": "The city says this is to revise the remuneration amounts.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.037Z",
+			"inputTokens": 601,
+			"cachedTokens": 0,
+			"outputTokens": 631,
+			"reasoningTokens": 454,
+			"batch": true
+		}
+	}
+}

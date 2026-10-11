@@ -1,0 +1,92 @@
+{
+	"id": "kawasaki-r8-1-8",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第8号",
+	"official": "川崎市葬祭条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第8号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_8.pdf",
+			"fetchedAt": "2026-10-08T11:07:09.462Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "南部斎苑に20人用休憩室を新設",
+	"category": "くらし・手続き",
+	"summary": "かわさき南部斎苑には、50人用の休憩室があります。この議案では20人用の休憩室を新設し、使用料を2,400円と7,200円に定めます。",
+	"changes": [
+		"20人用休憩室の使用料を2,400円と7,200円に定める"
+	],
+	"who": [
+		"かわさき南部斎苑を利用する人"
+	],
+	"why": "かわさき南部斎苑に20人用の休憩室を新設するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.550Z",
+		"inputTokens": 1363,
+		"cachedTokens": 0,
+		"outputTokens": 687,
+		"reasoningTokens": 516,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.550Z",
+			"notes": [
+				"ai [check] changes/direction: 「20人用休憩室の使用料を2,400円と7,200円に定める」 → 原文の別表改正部分は改正前の「」が空で、改正後の表も分断されているため、使用料設定の変更前後を確認できません。"
+			],
+			"inputTokens": 1720,
+			"cachedTokens": 1025,
+			"outputTokens": 635,
+			"reasoningTokens": 464,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.870Z",
+		"checkedAt": "2026-10-10T07:29:38.635Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "20人用休憩室の使用料を2,400円と7,200円に定める",
+				"note": "原文の別表改正部分は改正前の「」が空で、改正後の表も分断されているため、使用料設定の変更前後を確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1228,
+			"cachedTokens": 0,
+			"outputTokens": 165,
+			"reasoningTokens": 41,
+			"batch": true
+		}
+	}
+}

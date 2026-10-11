@@ -63,5 +63,30 @@
 			"outputTokens": 141,
 			"reasoningTokens": 126
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ff887bd3ff128c21",
+		"name": "Uses personal numbers for childcare facility subsidies and fee reductions",
+		"official": "Ordinance Partially Amending the Machida City Ordinance Concerning the Use, etc. of Personal Numbers and Specific Personal Information",
+		"summary": "The city’s list of administrative procedures that use personal numbers does not include procedures related to subsidies and reductions or exemptions for costs borne by parents or guardians of children using childcare facilities. This bill adds those procedures and allows information on public assistance, local taxes, benefits for Japanese people who remained in China and others, etc., as specified by regulations, to be used in the process.",
+		"changes": [
+			"Adds procedures for subsidies and reductions or exemptions for costs collected from parents or guardians to the scope of personal number use",
+			"Adds information on public assistance, local taxes, benefits for Japanese people who remained in China and others, etc., to the information used in the process"
+		],
+		"who": [
+			"Parents or guardians of children using licensed childcare centers and similar facilities"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:13.561Z",
+			"inputTokens": 657,
+			"cachedTokens": 0,
+			"outputTokens": 706,
+			"reasoningTokens": 474
+		}
 	}
 }

@@ -1,0 +1,77 @@
+{
+	"id": "zushi-r8-3-48",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第48号",
+	"official": "逗子市景観条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-08",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1014662.html",
+			"fetchedAt": "2026-10-08T11:22:47.067Z"
+		},
+		{
+			"label": "議案第48号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/014/662/r8.48.pdf",
+			"fetchedAt": "2026-10-08T11:22:58.873Z"
+		}
+	],
+	"name": "景観条例の引用先を整理",
+	"category": "まちづくり",
+	"summary": "条例では、景観法の条項を引用しています。この議案では、引用先を「第16条第7項第11号」から「第16条第8項第12号」に改めます。",
+	"changes": [
+		"引用条項を「第16条第7項第11号」から「第16条第8項第12号」に改める"
+	],
+	"who": [],
+	"why": "都市再生特別措置法等の改正法の施行による景観法の改正に伴い、引用条項を整理する必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.563Z",
+		"inputTokens": 1240,
+		"cachedTokens": 0,
+		"outputTokens": 580,
+		"reasoningTokens": 399,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.563Z",
+			"notes": [
+				"code: reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+			],
+			"inputTokens": 1556,
+			"cachedTokens": 1025,
+			"outputTokens": 425,
+			"reasoningTokens": 240,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.893Z",
+		"checkedAt": "2026-10-10T07:29:38.750Z",
+		"flags": [
+			"reason is not attributed (should end 「…と、区は説明しています。」, 「…と、市は説明しています。」, 「…と、都知事は説明しています。」 or 「…と、提出した議員は説明しています。」)"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1091,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	}
+}

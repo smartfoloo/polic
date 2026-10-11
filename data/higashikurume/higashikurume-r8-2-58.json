@@ -60,5 +60,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3a2a53fe0c3b34ec",
+		"name": "Updates the legal basis for waiving liability",
+		"official": "Ordinance Partially Amending the Ordinance Concerning the Establishment, etc. of Higashikurume City Sewerage Business",
+		"summary": "At present, the assembly's consent is required to waive the liability for damages of sewerage business staff. This bill changes the article number of the Local Autonomy Act cited in the ordinance as the legal basis for this, and takes effect on September 24, 2026.",
+		"changes": [
+			"Changes the cited article number of the Local Autonomy Act concerning waiver of liability for damages"
+		],
+		"who": [],
+		"why": "The city says the provisions are being updated following the enforcement of the law revising the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:19.639Z",
+			"inputTokens": 601,
+			"cachedTokens": 0,
+			"outputTokens": 484,
+			"reasoningTokens": 304
+		}
 	}
 }

@@ -1,0 +1,47 @@
+{
+	"id": "sagamihara-r8-9-135",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第135号",
+	"official": "相模原市立学校体育施設使用料条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会9月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "議案第135号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900011/file_contents/2026_gian_135.pdf",
+			"fetchedAt": "2026-10-10T14:38:16.699Z"
+		},
+		{
+			"label": "令和8年定例会9月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_9_0930.pdf",
+			"fetchedAt": "2026-10-10T14:37:42.924Z"
+		}
+	],
+	"name": "学校体育施設の附属設備使用料を改正",
+	"category": "教育",
+	"summary": "学校体育施設の使用料は、条例の別表で定めています。屋内運動場の空調設備を使える学校が加わるため、附属設備の使用料に関する規定を改めます。",
+	"changes": [
+		"別表第5に記載する学校名を改める"
+	],
+	"who": [
+		"学校体育施設を利用する人や団体"
+	],
+	"why": "屋内運動場の空調設備を使える学校が加わるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.850Z",
+		"inputTokens": 2157,
+		"cachedTokens": 0,
+		"outputTokens": 1575,
+		"reasoningTokens": 1406,
+		"batch": true
+	}
+}

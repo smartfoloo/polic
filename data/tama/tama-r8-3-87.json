@@ -1,0 +1,91 @@
+{
+	"id": "tama-r8-3-87",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第87号議案",
+	"official": "多摩市立市民活動・交流センター条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第87号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "センター施設の利用料金上限を見直し",
+	"category": "まちづくり",
+	"summary": "現在の条例にある施設や附帯設備の利用料金上限額の表を改めます。利用する団体の区分などに応じた料金を定め、改正後の規定は令和10年1月1日以降の利用に適用します。",
+	"changes": [
+		"教室の1時間当たりの利用料金上限を80～1,280円の範囲で施設別に定める",
+		"体育館とグラウンドの1時間当たりの利用料金上限を、利用面積や団体の区分に応じて定める",
+		"ピアノの利用料金上限を1時間40～160円、陶芸窯を1回1,000～4,000円に定める",
+		"市内団体と営利利用の意味を定める"
+	],
+	"who": [
+		"市民活動・交流センターの施設や附帯設備を利用する団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:10:51.426Z",
+		"inputTokens": 2370,
+		"cachedTokens": 0,
+		"outputTokens": 1799,
+		"reasoningTokens": 1550
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:10:51.426Z",
+		"checkedAt": "2026-10-09T11:50:59.118Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2320,
+			"cachedTokens": 0,
+			"outputTokens": 59,
+			"reasoningTokens": 44
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7d6b5908f642a6f2",
+		"name": "Revises fee ceilings for center facilities",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Citizens' Activities and Exchange Center Ordinance",
+		"summary": "The table in the current ordinance listing the maximum fees for facilities and attached equipment will be revised. Fees will be set according to categories of user groups and other factors. The revised provisions will apply to use on or after January 1, 2028.",
+		"changes": [
+			"Set hourly maximum fees for classrooms by facility, ranging from ¥80 to ¥1,280",
+			"Set hourly maximum fees for the gymnasium and grounds according to the area used and the group category",
+			"Set maximum fees of ¥40 to ¥160 per hour for piano use and ¥1,000 to ¥4,000 per use for the pottery kiln",
+			"Define groups based in the city and for-profit use"
+		],
+		"who": [
+			"Groups using facilities and attached equipment at the Citizens' Activities and Exchange Center"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:56:10.029Z",
+			"inputTokens": 687,
+			"cachedTokens": 0,
+			"outputTokens": 797,
+			"reasoningTokens": 560
+		}
+	}
+}

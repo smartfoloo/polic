@@ -1,0 +1,105 @@
+{
+	"id": "hadano-r8-2-30",
+	"assembly": "kanagawa/hadano",
+	"approved": false,
+	"number": "議案第30号",
+	"official": "はだのスポーツビレッジ条例を制定することについて",
+	"by": "head",
+	"session": "令和8年6月第2回定例月会議",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-23",
+	"sources": [
+		{
+			"label": "令和8年6月第2回定例月会議の概要・結果",
+			"url": "https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/13553.html",
+			"fetchedAt": "2026-10-08T11:24:29.080Z"
+		},
+		{
+			"label": "議案第30号（PDF）",
+			"url": "https://www.city.hadano.kanagawa.jp/material/files/group/70/08gian30.pdf",
+			"fetchedAt": "2026-10-08T11:24:35.398Z"
+		}
+	],
+	"name": "スポーツ拠点を設置し利用料などを定める",
+	"category": "まちづくり",
+	"summary": "秦野市平沢に、多目的天然芝グラウンドやパークゴルフコースなどを備えた施設を設置します。利用料や利用時のルール、指定管理者が管理できる仕組みを定め、施設は2026年8月1日に供用を始める予定です。グラウンドの専用使用料は、利用者区分や曜日によって1時間4,000円から30,000円です。",
+	"changes": [
+		"秦野市平沢2408番地の1に施設を設け、天然芝グラウンドなどを置く",
+		"施設ごとに、共用・専用の使用料を定める",
+		"使用の申請や承認、入場制限、損害賠償などのルールを定める",
+		"指定管理者による管理を可能にし、指定や報告などの手続きを定める"
+	],
+	"who": [
+		"スポーツビレッジを利用する人"
+	],
+	"why": "渋沢丘陵一帯の活性化やにぎわいの創出につながるスポーツの拠点を設置し、その管理などを定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.857Z",
+		"inputTokens": 8261,
+		"cachedTokens": 0,
+		"outputTokens": 2230,
+		"reasoningTokens": 1888,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.857Z",
+		"checkedAt": "2026-10-10T07:29:38.600Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "施設ごとに、共用・専用の使用料を定める",
+				"note": "利用者に直接関わる無料扱いとして、第6条のグラウンド専用使用者のミーティングルーム使用料不徴収と、別表備考6の小学校就学前の者の共用使用無料が記載されていない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 8269,
+			"cachedTokens": 0,
+			"outputTokens": 244,
+			"reasoningTokens": 108,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "af7a1941b4bd7b8b",
+		"name": "Establishes a sports facility and sets user fees",
+		"official": "On the Enactment of the Hadano Sports Village Ordinance",
+		"summary": "The city will establish a facility in Hirazawa, Hadano City, with a multipurpose natural grass field, a park golf course and other facilities. The ordinance sets user fees and rules for using the facility, and allows a designated manager to manage it. The facility is scheduled to open on August 1, 2026. The fee for exclusive use of the field is ¥4,000 to ¥30,000 per hour, depending on the user category and day of the week.",
+		"changes": [
+			"Establishes a facility at 2408-1 Hirazawa, Hadano City, with a natural grass field and other facilities",
+			"Sets shared-use and exclusive-use fees for each facility",
+			"Sets rules for applications and approvals, entry restrictions, and compensation for damage",
+			"Allows a designated manager to manage the facility and sets procedures for designation and reporting"
+		],
+		"who": [
+			"People who use the Sports Village",
+			"People applying for permission to use the facilities",
+			"People whose entry may be restricted",
+			"The designated manager"
+		],
+		"why": "The city says this is to establish a sports hub that will help revitalize the Shibusawa Hills area and create a lively atmosphere, and to set rules for its management and other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.043Z",
+			"inputTokens": 744,
+			"cachedTokens": 0,
+			"outputTokens": 2445,
+			"reasoningTokens": 2124,
+			"batch": true
+		}
+	}
+}

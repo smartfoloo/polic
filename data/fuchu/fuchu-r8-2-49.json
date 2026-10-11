@@ -64,5 +64,31 @@
 			"outputTokens": 161,
 			"reasoningTokens": 147
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3c56a02bfbd6540d",
+		"name": "Allow requests for seal registration certificates using specified residence cards and certificates",
+		"official": "Ordinance Partially Amending the Fuchu City Seal Registration Ordinance and the Fuchu City Fees Ordinance",
+		"summary": "Currently, people can use an Individual Number Card to apply for a seal registration certificate at a multifunctional terminal. This bill would also allow them to use a Specified Residence Card or a Specified Special Permanent Resident Certificate, and would include these documents among those eligible for the special fee when making a request at a terminal.",
+		"changes": [
+			"Allow applicants to use a Specified Residence Card or a Specified Special Permanent Resident Certificate when applying for a seal registration certificate at a terminal",
+			"Add terminal requests made using either of these documents to the cases eligible for the special fee of ¥100 per request"
+		],
+		"who": [
+			"People who hold a Specified Residence Card",
+			"People who hold a Specified Special Permanent Resident Certificate"
+		],
+		"why": "The city says the amendment is being made in connection with the enforcement of the Act Partially Amending the Immigration Control and Refugee Recognition Act, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:22:00.222Z",
+			"inputTokens": 703,
+			"cachedTokens": 0,
+			"outputTokens": 1119,
+			"reasoningTokens": 860
+		}
 	}
 }

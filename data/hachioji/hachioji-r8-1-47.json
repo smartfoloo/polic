@@ -56,5 +56,28 @@
 			"outputTokens": 57,
 			"reasoningTokens": 43
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d98a7454b96c6b94",
+		"name": "Changes the name and location of a city-run nursery school",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Nursery School Ordinance",
+		"summary": "The current ordinance states that the Hachioji City-run Taga Nursery School is located at 3-8-16 Motohongocho, Hachioji City. The ordinance will be revised to state that, from April 1, 2026, the Hachioji City-run Seikyo Nursery School is located at 3-19-13 Motoyokoyamacho, Hachioji City.",
+		"changes": [
+			"Changes the nursery school listed in the ordinance from the Hachioji City-run Taga Nursery School to the Hachioji City-run Seikyo Nursery School",
+			"Sets the location of the Hachioji City-run Seikyo Nursery School at 3-19-13 Motoyokoyamacho, Hachioji City"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:53:51.147Z",
+			"inputTokens": 606,
+			"cachedTokens": 0,
+			"outputTokens": 707,
+			"reasoningTokens": 465
+		}
 	}
 }

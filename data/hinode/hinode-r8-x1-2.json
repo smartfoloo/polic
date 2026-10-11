@@ -1,0 +1,38 @@
+{
+	"id": "hinode-r8-x1-2",
+	"assembly": "tokyo/hinode",
+	"approved": false,
+	"number": "議案第2号",
+	"official": "日の出町組織条例の全部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回臨時会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回臨時会 議案結果",
+			"url": "https://www.town.hinode.tokyo.jp/0000004699.html",
+			"fetchedAt": "2026-10-08T11:00:02.419Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "2242afe06ff311d3",
+		"official": "Ordinance Completely Revising the Hinode Town Organization Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.514Z",
+			"inputTokens": 379,
+			"cachedTokens": 0,
+			"outputTokens": 96,
+			"reasoningTokens": 68,
+			"batch": true
+		}
+	}
+}

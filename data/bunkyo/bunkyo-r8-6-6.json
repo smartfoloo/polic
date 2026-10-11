@@ -1,0 +1,94 @@
+{
+	"id": "bunkyo-r8-6-6",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第6号",
+	"official": "文京区立少年自然の家八ケ岳高原学園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年6月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-02",
+	"sources": [
+		{
+			"label": "議案第6号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12660/2~24.pdf",
+			"fetchedAt": "2026-10-08T10:53:54.352Z"
+		},
+		{
+			"label": "令和8年6月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080625.pdf",
+			"fetchedAt": "2026-10-08T10:53:42.318Z"
+		}
+	],
+	"name": "学園を利用できる団体の条件を変更",
+	"category": "教育",
+	"summary": "現行条例では、区民や区内にある事業所に勤める人などを学園の利用対象として定めています。この議案で、団体の構成員の過半数が区内に住む、勤める、または通学する人であることを利用条件とし、「林間学校」の記載を削り、「中学校」に含まれる学校の範囲を広げます。団体の条件変更は2027年1月1日から、その他の改正は公布日から施行します。",
+	"changes": [
+		"学園の目的と利用条件から「林間学校」の記載を削る",
+		"団体の構成員の過半数が区内に在住・在勤・在学することを利用条件にする",
+		"「中学校」に義務教育学校、中等教育学校の前期課程、特別支援学校の小学部・中学部を含める"
+	],
+	"who": [
+		"学園の利用を希望する団体",
+		"義務教育学校、中等教育学校の前期課程、特別支援学校の小学部・中学部"
+	],
+	"why": "学園の使用に係る見直しを行うためと、区長は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.837Z",
+		"inputTokens": 1320,
+		"cachedTokens": 0,
+		"outputTokens": 2090,
+		"reasoningTokens": 1779,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.837Z",
+		"checkedAt": "2026-10-10T07:29:38.551Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1337,
+			"cachedTokens": 0,
+			"outputTokens": 63,
+			"reasoningTokens": 48,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a2ddd1bc02c51eec",
+		"name": "Changes eligibility requirements for groups using the facility",
+		"official": "Ordinance Partially Amending the Bunkyo City Youth Nature House Yatsugatake Kogen Gakuen Ordinance",
+		"summary": "The current ordinance says that the facility may be used by Bunkyo City residents and people who work at businesses in the city, among others. This bill makes it a condition of use that more than half of a group’s members live, work or attend school in the city. It removes the reference to “forest school” and expands the range of schools covered by the term “junior high school.” The change to the requirements for groups takes effect on January 1, 2027, and the other amendments take effect on the date of promulgation.",
+		"changes": [
+			"Remove the reference to “forest school” from the facility’s purpose and eligibility requirements",
+			"Make it a condition of use that more than half of a group’s members live, work or attend school in the city",
+			"Include compulsory education schools, the lower secondary courses of secondary education schools, and the elementary and lower secondary departments of special needs schools in the term “junior high school”"
+		],
+		"who": [
+			"Groups seeking to use the facility",
+			"Compulsory education schools, the lower secondary courses of secondary education schools, and the elementary and lower secondary departments of special needs schools"
+		],
+		"why": "The mayor says the changes are being made to review the use of the facility.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.025Z",
+			"inputTokens": 756,
+			"cachedTokens": 0,
+			"outputTokens": 882,
+			"reasoningTokens": 551,
+			"batch": true
+		}
+	}
+}

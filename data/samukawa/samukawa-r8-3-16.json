@@ -1,0 +1,94 @@
+{
+	"id": "samukawa-r8-3-16",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第16号",
+	"official": "寒川町健康管理センター条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会3月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第16号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603_gian16.pdf",
+			"fetchedAt": "2026-10-10T14:58:00.467Z"
+		}
+	],
+	"name": "健康管理センターに分室を設け、町長管理に",
+	"category": "健康・医療",
+	"summary": "現在は指定管理者が管理している健康管理センターに、宮山144番地1の分室を設けます。宮山401番地の施設は令和8年9月1日から当分の間休止し、施設の管理や利用承認などを町長が行う形に変えます。",
+	"changes": [
+		"宮山144番地1に分室を設ける",
+		"宮山401番地の施設を休止する",
+		"指定管理者による管理をやめ、町長が管理する",
+		"休館日や開館時間の変更、利用の承認や取消しなどを町長が行う"
+	],
+	"who": [
+		"健康管理センターを利用する人"
+	],
+	"why": "健康管理センターの施設整備に伴い、必要な措置を講じるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.010Z",
+		"inputTokens": 3157,
+		"cachedTokens": 0,
+		"outputTokens": 1045,
+		"reasoningTokens": 818,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.010Z",
+		"checkedAt": "2026-10-10T15:07:29.915Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3086,
+			"cachedTokens": 0,
+			"outputTokens": 93,
+			"reasoningTokens": 78,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a8538b6c7989e672",
+		"name": "Adds an annex to the health management center and places it under the mayor's management",
+		"official": "Ordinance Partially Amending the Samukawa Town Health Management Center Ordinance",
+		"summary": "An annex will be established at Miyama 144-1 for the health management center, which is currently managed by a designated manager. The facility at Miyama 401 will be closed temporarily from September 1, 2026, and the mayor will take over management of the facility and approval of its use, among other duties.",
+		"changes": [
+			"Establishes an annex at Miyama 144-1",
+			"Suspends use of the facility at Miyama 401",
+			"Ends management by the designated manager and places the facility under the mayor's management",
+			"Has the mayor change closing days and opening hours, approve or cancel use, and handle related matters"
+		],
+		"who": [
+			"People who use the health management center"
+		],
+		"why": "The town says this is to take necessary measures in connection with improvements to the health management center's facilities.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.862Z",
+			"inputTokens": 659,
+			"cachedTokens": 0,
+			"outputTokens": 764,
+			"reasoningTokens": 516,
+			"batch": true
+		}
+	}
+}

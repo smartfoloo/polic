@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-21.pdf",
 			"fetchedAt": "2026-10-05T15:58:31.265Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "561827a5eeb60b4b",
+		"official": "Ordinance Partially Amending the Higashiyamato City Ordinance Establishing Standards for the Facilities and Operation of the Infant and Other Childcare Support Business",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:02:06.346Z",
+			"inputTokens": 402,
+			"cachedTokens": 0,
+			"outputTokens": 219,
+			"reasoningTokens": 171
+		}
+	}
 }

@@ -88,5 +88,33 @@
 			"outputTokens": 444,
 			"reasoningTokens": 127
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "57bfc347d01d1f52",
+		"name": "Charges 4% city resident tax on income from certain crypto-assets",
+		"official": "Ordinance Partially Amending the Higashikurume City Tax Ordinance",
+		"summary": "The city revises how city resident tax and fixed asset tax are handled. It changes the fixed asset tax exemption thresholds for buildings and other property, extends the period for the housing loan tax credit, and establishes a system for separately taxing income from certain crypto-assets from other income.",
+		"changes": [
+			"Changes the fixed asset tax exemption threshold for buildings from under ¥200,000 to under ¥300,000, and for depreciable assets from under ¥1,500,000 to under ¥1,800,000",
+			"Extends the applicable fiscal year for the housing loan tax credit through FY 2043 (Reiwa 25), and the eligible year of residence through 2030 (Reiwa 12)",
+			"Separately taxes business income, capital gains, and miscellaneous income from certain crypto-assets from other income, applying a 4% rate to the income-based portion of city resident tax"
+		],
+		"who": [
+			"City resident taxpayers with business income, capital gains, or miscellaneous income from certain crypto-assets",
+			"People claiming the housing loan tax credit",
+			"People who own buildings or depreciable assets and are affected by the change to the fixed asset tax exemption threshold"
+		],
+		"why": "The city says the provisions need to be updated because laws including the Act Partially Amending the Local Tax Act have come into force.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:00:25.552Z",
+			"inputTokens": 774,
+			"cachedTokens": 0,
+			"outputTokens": 1338,
+			"reasoningTokens": 999
+		}
 	}
 }

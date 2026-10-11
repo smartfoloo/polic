@@ -84,5 +84,35 @@
 			"outputTokens": 544,
 			"reasoningTokens": 226
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "56ebef2bc293f423",
+		"name": "Revises the fixed asset tax exemption threshold and other rules",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Hachioji City Tax Levy and Collection Ordinance",
+		"summary": "This ordinance sets out how taxes such as municipal resident tax and fixed asset tax are imposed, as well as deductions and filing procedures. This amendment changes the threshold below which fixed asset tax is not charged and which donations qualify for a deduction, and sets out how income from specified crypto-assets is treated for municipal resident tax. It also changes the periods for tax measures such as the housing loan deduction and provisions concerning municipal resident tax returns.",
+		"changes": [
+			"Raises the exemption threshold for buildings from ¥200,000 to ¥300,000, and for depreciable assets from ¥1,500,000 to ¥1,800,000",
+			"Adds donations to public-interest trusts that the mayor recognizes as benefiting residents' welfare to the eligible deductions",
+			"Taxes income from specified crypto-assets separately from other income, at a 3% municipal resident tax income-based rate",
+			"Extends or changes the period during which tax measures such as the housing loan deduction apply"
+		],
+		"who": [
+			"People liable for fixed asset tax",
+			"People claiming a municipal resident tax donation deduction",
+			"People liable for municipal resident tax who have income from specified crypto-assets",
+			"People eligible for tax measures such as the housing loan deduction"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:56:28.268Z",
+			"inputTokens": 759,
+			"cachedTokens": 0,
+			"outputTokens": 970,
+			"reasoningTokens": 645
+		}
 	}
 }

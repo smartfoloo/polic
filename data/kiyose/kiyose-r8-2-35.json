@@ -1,0 +1,40 @@
+{
+	"id": "kiyose-r8-2-35",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第35号",
+	"official": "清瀬市営住宅条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/286/r8.2.sityou.gian2.pdf",
+			"fetchedAt": "2026-10-10T14:56:52.936Z"
+		}
+	],
+	"name": "市営中里第4住宅を別表から削除",
+	"category": "住宅",
+	"summary": "現在、条例の別表には市営中里第4住宅が載っています。この議案では、同住宅の用途廃止に伴い、別表から削ります。",
+	"changes": [
+		"別表から市営中里第4住宅を削る"
+	],
+	"who": [],
+	"why": "市営中里第4住宅の用途を廃止するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.834Z",
+		"inputTokens": 1017,
+		"cachedTokens": 0,
+		"outputTokens": 370,
+		"reasoningTokens": 252,
+		"batch": true
+	}
+}

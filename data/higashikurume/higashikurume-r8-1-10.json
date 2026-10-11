@@ -62,5 +62,29 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5671e56d255bf757",
+		"name": "Extends reduced fees for certificates obtained at convenience stores",
+		"official": "Ordinance Partially Amending the Higashikurume City Administrative Service Fee Ordinance",
+		"summary": "The reduced fees for certificates and other documents obtained through the convenience store service are currently available through March 31, 2026. The period will be extended through March 31, 2027, and the extension will take effect on April 1, 2026.",
+		"changes": [
+			"Extends the period of reduced fees for certificates and other documents obtained through the convenience store service"
+		],
+		"who": [
+			"People who obtain certificates and other documents through the convenience store service"
+		],
+		"why": "The city says the period for reduced fees on certificates and other documents obtained through the convenience store service will be extended through March 31, 2027.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:58:18.731Z",
+			"inputTokens": 623,
+			"cachedTokens": 0,
+			"outputTokens": 439,
+			"reasoningTokens": 240
+		}
 	}
 }

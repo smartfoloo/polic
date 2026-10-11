@@ -57,5 +57,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9ccd7d7534ebaccd",
+		"name": "Extends special rules on loan interest rates by 1 year",
+		"official": "Ordinance Partially Amending the Ordinance Partially Amending the Ordinance on Temporary Special Provisions for the Ome City Loan Fund Interest Subsidy Ordinance",
+		"summary": "Special measures concerning lending rates, etc. apply until March 31, 2026. This bill extends the period of application by 1 year, until March 31, 2027. The ordinance takes effect on April 1, 2026.",
+		"changes": [
+			"Extends the period for applying special measures on lending rates, etc. until March 31, 2027"
+		],
+		"who": [
+			"Small and medium-sized businesses in the city"
+		],
+		"why": "The city says this is to continue facilitating financing in light of the difficult business environment faced by small and medium-sized businesses in the city.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:58:33.817Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 621,
+			"reasoningTokens": 413
+		}
 	}
 }

@@ -65,5 +65,29 @@
 			"outputTokens": 209,
 			"reasoningTokens": 82
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cd636890eedd444c",
+		"name": "Sets cap for full-day hall use at ¥480,000",
+		"official": "On Establishing an Ordinance to Partially Amend the Hachioji City Civic Hall Ordinance",
+		"summary": "If the highest admission fee, etc. is ¥1,000 or less, or admission is free, the amount set by ordinance for full-day use of the hall is ¥320,000. This bill changes the amount that serves as the upper limit on usage fees set by the designated manager to ¥480,000.",
+		"changes": [
+			"Raises the upper limit on the fee for full-day hall use from ¥320,000 to ¥480,000 when the highest admission fee, etc. is ¥1,000 or less, or admission is free"
+		],
+		"who": [
+			"People and groups using the civic hall for a full day under these conditions"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:52:57.214Z",
+			"inputTokens": 605,
+			"cachedTokens": 0,
+			"outputTokens": 502,
+			"reasoningTokens": 296
+		}
 	}
 }

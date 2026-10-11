@@ -75,5 +75,32 @@
 			"outputTokens": 369,
 			"reasoningTokens": 97
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ca49dcae937d3f6a",
+		"name": "Adds road standards for bicycle lanes and other facilities",
+		"official": "Regarding the enactment of an ordinance partially amending the Hachioji City Ordinance on Technical Standards for Road Structures",
+		"summary": "The city sets technical standards for road structures. This bill adds standards for bicycle lanes and roads that promote pedestrian convenience, and revises which facilities are covered as traffic safety facilities.",
+		"changes": [
+			"Add requirements for when bicycle lanes may be installed and standards for their width",
+			"Add standards for providing places where pedestrians can stay, etc., on roads that promote pedestrian convenience",
+			"Add automated driving assistance facilities to the traffic safety facilities"
+		],
+		"who": [
+			"People who ride bicycles",
+			"Pedestrians"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:37:50.465Z",
+			"inputTokens": 622,
+			"cachedTokens": 0,
+			"outputTokens": 911,
+			"reasoningTokens": 732
+		}
 	}
 }

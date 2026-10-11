@@ -1,0 +1,85 @@
+{
+	"id": "fussa-r8-1-8",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第8号",
+	"official": "福生市介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "市民厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1020984.html",
+			"fetchedAt": "2026-10-08T10:57:01.728Z"
+		}
+	],
+	"name": "令和8年度の介護保険料率に特例",
+	"category": "福祉",
+	"summary": "介護保険条例では、保険料率や保険料の減免に関する規定を定めています。この議案では、令和8年度の保険料率の算定に特例を設け、減免に関する規定を整えます。",
+	"changes": [
+		"令和8年度の保険料率の算定に特例を設ける",
+		"保険料の減免に関する規定を整える"
+	],
+	"who": [
+		"介護保険の被保険者"
+	],
+	"why": "介護保険法施行令の一部改正に伴い、令和8年度の保険料率の算定に関する特例を定め、保険料の減免に関する規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.853Z",
+		"inputTokens": 1056,
+		"cachedTokens": 0,
+		"outputTokens": 756,
+		"reasoningTokens": 516,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.853Z",
+		"checkedAt": "2026-10-10T07:29:38.585Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 966,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "24e1710201c00b0a",
+		"name": "Sets special rules for FY2026 long-term care insurance premium rates",
+		"official": "Ordinance Partially Amending the Fussa City Long-Term Care Insurance Ordinance",
+		"summary": "The Long-Term Care Insurance Ordinance sets out provisions on premium rates and reductions or exemptions of premiums. This bill establishes special rules for calculating the premium rates for FY2026 and updates provisions on reductions or exemptions of premiums.",
+		"changes": [
+			"Establishes special rules for calculating the premium rates for FY2026",
+			"Updates provisions on reductions or exemptions of premiums"
+		],
+		"who": [
+			"People insured under Long-Term Care Insurance"
+		],
+		"why": "The city says this is to establish special rules for calculating the premium rates for FY2026 and update provisions on reductions or exemptions of premiums, following a partial amendment to the Order for Enforcement of the Long-Term Care Insurance Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.038Z",
+			"inputTokens": 645,
+			"cachedTokens": 0,
+			"outputTokens": 662,
+			"reasoningTokens": 457,
+			"batch": true
+		}
+	}
+}

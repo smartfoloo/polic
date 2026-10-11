@@ -1,0 +1,37 @@
+{
+	"id": "toshima-r8-1-15",
+	"assembly": "tokyo/toshima",
+	"approved": false,
+	"number": "第15号議案",
+	"official": "豊島区移動等円滑化のために必要な特定公園施設の設置に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.toshima.lg.jp/368/kuse/gikai/kekka/h28/2603191324.html",
+			"fetchedAt": "2026-10-08T10:54:55.065Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "5f39c10d1a65a239",
+		"official": "Ordinance Partially Amending the Toshima City Ordinance Establishing Standards for the Installation of Specified Park Facilities Necessary to Facilitate Movement, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:09.490Z",
+			"inputTokens": 405,
+			"cachedTokens": 0,
+			"outputTokens": 258,
+			"reasoningTokens": 211
+		}
+	}
+}

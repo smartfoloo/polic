@@ -63,5 +63,30 @@
 			"outputTokens": 54,
 			"reasoningTokens": 40
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e29cd5df8f21bc4f",
+		"name": "Revises how notices of service for city taxes are made public",
+		"official": "Ordinance Partially Amending the Higashikurume City Tax Ordinance",
+		"summary": "Until now, service of city tax documents by public notice was carried out by posting notices on notice boards. This bill adds measures to make the matters being announced publicly available for viewing by an unspecified number of people. In addition to posting them on notice boards, it establishes a method for making them viewable on computer screens installed at city offices.",
+		"changes": [
+			"Adds measures to make the matters being announced publicly available for viewing by an unspecified number of people",
+			"Adds a method of making the matters being announced publicly viewable on computer screens at city offices, in addition to posting them on notice boards"
+		],
+		"who": [
+			"People subject to service by public notice for city taxes"
+		],
+		"why": "The city says the provisions need to be adjusted following the entry into force of the law partially amending the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:58:36.535Z",
+			"inputTokens": 671,
+			"cachedTokens": 0,
+			"outputTokens": 611,
+			"reasoningTokens": 373
+		}
 	}
 }

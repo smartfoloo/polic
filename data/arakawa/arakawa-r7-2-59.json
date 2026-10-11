@@ -1,0 +1,45 @@
+{
+	"id": "arakawa-r7-2-59",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第59号",
+	"official": "荒川区組織条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第59号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian59.html",
+			"fetchedAt": "2026-10-10T14:47:38.191Z"
+		}
+	],
+	"name": "区の組織条例を一部改正",
+	"category": "行政のしくみ",
+	"summary": "区の組織を定める条例の一部を改正します。提示された原文には、具体的な改正内容は書かれていません。",
+	"changes": [
+		"区の組織条例を一部改正する"
+	],
+	"who": [],
+	"why": "区民サービスの向上と、より効果的な執行体制の整備を図るためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.808Z",
+		"inputTokens": 1014,
+		"cachedTokens": 0,
+		"outputTokens": 483,
+		"reasoningTokens": 356,
+		"batch": true
+	}
+}

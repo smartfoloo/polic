@@ -58,5 +58,30 @@
 			"outputTokens": 43,
 			"reasoningTokens": 29
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9c61c7278daf4ccc",
+		"name": "Changes the listed amounts for removed bicycles and motorized bicycles",
+		"official": "Regarding the enactment of an ordinance partially amending the Hachioji City Ordinance on Preventing the Abandonment of Bicycles and Other Vehicles",
+		"summary": "The ordinance schedule sets the amount for a bicycle at ¥3,000 and for a motorized bicycle at ¥5,000. This bill changes these amounts to ¥4,000 and ¥6,000, respectively. The new amounts apply to vehicles removed and stored on or after July 1, 2026.",
+		"changes": [
+			"Raises the amount listed for bicycles from ¥3,000 to ¥4,000",
+			"Raises the amount listed for motorized bicycles from ¥5,000 to ¥6,000"
+		],
+		"who": [
+			"Owners of removed and stored bicycles or motorized bicycles"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:56:00.512Z",
+			"inputTokens": 642,
+			"cachedTokens": 0,
+			"outputTokens": 724,
+			"reasoningTokens": 516
+		}
 	}
 }

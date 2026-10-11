@@ -1,0 +1,46 @@
+{
+	"id": "arakawa-r7-2-82",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第82号",
+	"official": "荒川区介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第82号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian82.html",
+			"fetchedAt": "2026-10-10T14:48:56.135Z"
+		}
+	],
+	"name": "介護保険料の所得計算に特例を追加",
+	"category": "健康・医療",
+	"summary": "介護保険条例を、介護保険法施行令の改正などに伴って改正します。保険料率の算定に使う所得額の計算方法に特例を設け、関連する規定を整えます。",
+	"changes": [
+		"保険料率の算定に使う所得額の計算方法に特例を設ける",
+		"関連する規定を整える"
+	],
+	"who": [],
+	"why": "介護保険法施行令の改正等に伴い、所得額の算定方法の特例などを定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.816Z",
+		"inputTokens": 1046,
+		"cachedTokens": 0,
+		"outputTokens": 692,
+		"reasoningTokens": 516,
+		"batch": true
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"id": "sagamihara-r8-6-92",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第92号",
+	"official": "相模原市立学校の設置に関する条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "こども文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第92号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "並木小学校と湘南小学校を廃止",
+	"category": "教育",
+	"summary": "条例では、並木小学校と湘南小学校が市立学校として定められています。この議案で両校を廃止し、学校体育施設の使用料条例に記載された施設名を湘南小学校から広陵小学校に改めます。",
+	"changes": [
+		"並木小学校を設置校の一覧から削る",
+		"湘南小学校を設置校の一覧から削る",
+		"学校体育施設の使用料条例の施設名を湘南小学校から広陵小学校に改める"
+	],
+	"who": [
+		"並木小学校・湘南小学校に通う児童と保護者",
+		"市立学校の体育施設を利用する人"
+	],
+	"why": "光が丘周辺地域と城山地区で学校を再編するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.847Z",
+		"inputTokens": 1717,
+		"cachedTokens": 0,
+		"outputTokens": 872,
+		"reasoningTokens": 659,
+		"batch": true
+	}
+}

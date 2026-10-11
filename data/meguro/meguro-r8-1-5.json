@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ed9ab1de6389cd00",
+		"name": "Sets the total number of Meguro City employees at 2,157",
+		"official": "Ordinance Partially Amending the Meguro City Ordinance on the Authorized Number of Employees",
+		"summary": "The ordinance sets the authorized number of City employees at a total of 2,363. This bill revises that number to a total of 2,157. The amended ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Revises the total authorized number of employees from 2,363 to 2,157",
+			"Revises the breakdown of the authorized number of employees from 1,994 to 1,916, from 14 to 17, from 190 to 145, from 134 to 39, from 7 to 12, and from 6 to 10"
+		],
+		"who": [
+			"Meguro City employees"
+		],
+		"why": "The ward says this is to revise the authorized number of employees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:13.182Z",
+			"inputTokens": 639,
+			"cachedTokens": 0,
+			"outputTokens": 619,
+			"reasoningTokens": 388
+		}
 	}
 }

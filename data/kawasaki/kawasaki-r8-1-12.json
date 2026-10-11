@@ -1,0 +1,89 @@
+{
+	"id": "kawasaki-r8-1-12",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第12号",
+	"official": "川崎市幼保連携型認定こども園の学級の編制、職員、設備及び運営の基準に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第12号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_12.pdf",
+			"fetchedAt": "2026-10-08T11:07:33.501Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "認定こども園の条文参照を改める",
+	"category": "子育て",
+	"summary": "現在、条例の第13条と第14条は、第14条第6項を参照しています。この議案では参照先を第7項に改め、2026年4月1日から施行します。",
+	"changes": [
+		"第13条と第14条の参照先を第14条第6項から第7項に改める"
+	],
+	"who": [],
+	"why": "就学前の子どもに関する教育、保育などの総合的な提供を進める法律の一部改正に伴い、必要な整備を行うためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.868Z",
+		"inputTokens": 1363,
+		"cachedTokens": 0,
+		"outputTokens": 689,
+		"reasoningTokens": 516,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.868Z",
+		"checkedAt": "2026-10-10T07:29:38.629Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1229,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6195a6975f951a38",
+		"name": "Revises article references for certified childcare centers",
+		"official": "Ordinance on the Establishment of an Ordinance Partially Amending the Kawasaki City Ordinance on Standards for Class Organization, Staff, Facilities and Operations of Integrated Centers for Early Childhood Education and Care",
+		"summary": "Articles 13 and 14 of the current ordinance refer to Article 14, paragraph 6. This bill changes the reference to paragraph 7 and takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the references in Articles 13 and 14 from Article 14, paragraph 6, to paragraph 7"
+		],
+		"who": [],
+		"why": "The city says this is necessary to make the required changes following a partial amendment to the Act on Promotion of Comprehensive Provision of Education, Childcare, and Other Services for Preschool Children.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.052Z",
+			"inputTokens": 629,
+			"cachedTokens": 0,
+			"outputTokens": 535,
+			"reasoningTokens": 337,
+			"batch": true
+		}
+	}
+}

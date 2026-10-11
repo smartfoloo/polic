@@ -56,5 +56,28 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a71a8e1a03d3a24a",
+		"name": "Abolishes committee to prevent recurrence of improper election administration",
+		"official": "Ordinance Partially Amending the Ordinance on the Establishment, etc. of Affiliated Bodies of Ota City",
+		"summary": "The Ota City Committee for Preventing Recurrence of Improper Election Administration is established by ordinance as an affiliated body of the ward. This bill abolishes the committee and removes the relevant entry from the ordinance's appended table. The ordinance takes effect on the date of promulgation.",
+		"changes": [
+			"Abolishes the Ota City Committee for Preventing Recurrence of Improper Election Administration",
+			"Removes the entry for the Election Management Committee from the ordinance's appended table"
+		],
+		"who": [],
+		"why": "The ward says it is abolishing the committee because its purpose has been achieved.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:08:02.999Z",
+			"inputTokens": 623,
+			"cachedTokens": 0,
+			"outputTokens": 779,
+			"reasoningTokens": 586
+		}
 	}
 }

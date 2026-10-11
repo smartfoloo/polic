@@ -1,0 +1,38 @@
+{
+	"id": "koto-r8-1-33",
+	"assembly": "tokyo/koto",
+	"approved": false,
+	"number": "議案第33号",
+	"official": "江東区国民健康保険高額療養費資金貸付基金条例及び江東区国民健康保険出産費資金貸付基金条例を廃止する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.koto.lg.jp/650102/documents/r8-1giketukekka.pdf",
+			"fetchedAt": "2026-10-08T10:54:31.458Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "eb096a17149e0b2d",
+		"official": "Ordinance Repealing the Koto City National Health Insurance High-Cost Medical Expense Loan Fund Ordinance and the Koto City National Health Insurance Childbirth Expense Loan Fund Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.518Z",
+			"inputTokens": 409,
+			"cachedTokens": 0,
+			"outputTokens": 337,
+			"reasoningTokens": 285,
+			"batch": true
+		}
+	}
+}

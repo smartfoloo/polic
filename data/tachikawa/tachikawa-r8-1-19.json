@@ -57,5 +57,29 @@
 			"outputTokens": 62,
 			"reasoningTokens": 47
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b7ea1f1c88dd9f0b",
+		"name": "Changes how museum closure days are set when Monday is a holiday",
+		"official": "Ordinance Partially Amending the Tachikawa City History and Folklore Museum Ordinance",
+		"summary": "The museum is closed on Mondays. If Monday is a holiday, it has until now been closed the following day. If that day falls on a specified public holiday, it has been closed the day after that. After the amendment, the museum will be closed on the nearest day after Monday that is not a holiday.",
+		"changes": [
+			"Sets the nearest day after Monday that is not a holiday as the closure day when Monday is a holiday"
+		],
+		"who": [
+			"People who use the Tachikawa City History and Folklore Museum"
+		],
+		"why": "The city says this is pursuant to Article 244-2, Paragraph 1 of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:10:14.133Z",
+			"inputTokens": 609,
+			"cachedTokens": 0,
+			"outputTokens": 429,
+			"reasoningTokens": 223
+		}
 	}
 }

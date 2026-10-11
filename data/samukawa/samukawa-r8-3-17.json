@@ -1,0 +1,107 @@
+{
+	"id": "samukawa-r8-3-17",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第17号",
+	"official": "寒川町企業等の立地促進に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会3月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第17号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603_gian17.pdf",
+			"fetchedAt": "2026-10-10T14:58:06.419Z"
+		}
+	],
+	"name": "企業立地の対象地域と税率を見直し",
+	"category": "まちづくり",
+	"summary": "企業の立地を促す奨励措置は、工業系地域などで立地する企業等を対象としています。この改正で商業系地域や国・県が認定した企業等も対象に加え、本社機能やロボット関連産業の事業所には税率を低くします。雇用奨励金の従業員要件を見直し、条例の期限を令和13年3月31日まで延ばします。",
+	"changes": [
+		"奨励措置の対象地域に商業系地域を加え、国・県が認定した企業等も対象にする",
+		"本社機能またはロボット関連産業の事業所の固定資産税率を100分の0.35、都市計画税率を100分の0.05にする",
+		"雇用奨励金の対象となる従業員の住所要件から、雇用日の1年前までの期間を外す",
+		"条例の失効日を令和8年3月31日から令和13年3月31日に変更する"
+	],
+	"who": [
+		"寒川町内で事業所を立地する企業等",
+		"本社機能またはロボット関連産業の事業所を設ける企業等",
+		"雇用日から申請日まで町内に住み続ける新たな従業員"
+	],
+	"why": "企業等の立地を一層促進するため、奨励措置を継続し、適用要件などを見直すためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.011Z",
+		"inputTokens": 4488,
+		"cachedTokens": 0,
+		"outputTokens": 2337,
+		"reasoningTokens": 1903,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.011Z",
+		"checkedAt": "2026-10-10T15:07:29.918Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "本社機能またはロボット関連産業の事業所の固定資産税率を100分の0.35、都市計画税率を100分の0.05にする",
+				"note": "新設する第2条第13号では、本社機能の要件に「常時使用する従業員の数が300人を超える」ことを含めている。税率軽減の対象を左右するこの要件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 4593,
+			"cachedTokens": 0,
+			"outputTokens": 245,
+			"reasoningTokens": 106,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6b44ee5bba2427e8",
+		"name": "Revises eligible areas and tax rates for business locations",
+		"official": "Regarding the Partial Amendment to the Samukawa Town Ordinance on Promoting the Location of Businesses, etc.",
+		"summary": "Incentive measures to encourage businesses to locate in the area apply to businesses and others locating in industrial and similar areas. This amendment also makes commercial areas and businesses certified by the national or prefectural government eligible, and lowers the tax rates for offices with headquarters functions or in robotics-related industries. It revises the employee requirements for employment incentive grants and extends the ordinance through March 31, 2031.",
+		"changes": [
+			"Adds commercial areas to the areas eligible for incentive measures and includes businesses certified by the national or prefectural government",
+			"Sets the fixed asset tax rate at 0.35% and the city planning tax rate at 0.05% for offices with headquarters functions or in robotics-related industries",
+			"Removes the period extending back to one year before the hiring date from the address requirement for employees eligible for employment incentive grants",
+			"Changes the ordinance’s expiration date from March 31, 2026, to March 31, 2031"
+		],
+		"who": [
+			"Businesses locating establishments in Samukawa Town",
+			"Businesses certified by the national or prefectural government",
+			"Businesses establishing offices with headquarters functions or in robotics-related industries",
+			"New employees who continue to live in the town from their hiring date until the application date"
+		],
+		"why": "The town says it is reviewing the eligibility requirements and other provisions while continuing the incentive measures in order to further promote business locations.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.863Z",
+			"inputTokens": 841,
+			"cachedTokens": 0,
+			"outputTokens": 1604,
+			"reasoningTokens": 1247,
+			"batch": true
+		}
+	}
+}

@@ -69,5 +69,33 @@
 			"outputTokens": 327,
 			"reasoningTokens": 171
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "dd779874a1b1284d",
+		"name": "Adds a child and childcare support contribution to the National Health Insurance tax",
+		"official": "Ordinance Partially Amending the Ome City National Health Insurance Tax Ordinance",
+		"summary": "The current National Health Insurance tax has no tax category for the child and childcare support contribution payment. This bill creates one and also revises the tax rates, per-person amounts and maximum basic tax amount. The amended provisions will apply starting with fiscal year 2026.",
+		"changes": [
+			"Creates a child and childcare support contribution portion, calculated at an income-based rate of 0.31%, ¥1,926 per insured person and ¥88 per insured person aged 18 or older, with a maximum of ¥30,000",
+			"Raises the income-based rate for the medical-care portion from 6.25% to 6.37%, for the support portion from 2.07% to 2.17%, and for the long-term care portion from 1.95% to 2.03%",
+			"Raises the per-person amount for the medical-care portion from ¥33,000 to ¥34,400, for the support portion from ¥12,000 to ¥12,700, and for the long-term care portion from ¥13,100 to ¥13,800; raises the maximum basic tax amount from ¥660,000 to ¥670,000",
+			"Introduces reductions for low-income households, preschool children, insured persons under 18, and insured persons who have given birth, for the new support portion"
+		],
+		"who": [
+			"National Health Insurance enrollees in Ome City",
+			"Heads of households with National Health Insurance enrollees"
+		],
+		"why": "The city says the provisions are being added in connection with the launch of the Child and Childcare Support Funding System, and to stabilize the finances of the city's National Health Insurance program.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:00:04.940Z",
+			"inputTokens": 850,
+			"cachedTokens": 0,
+			"outputTokens": 1282,
+			"reasoningTokens": 875
+		}
 	}
 }

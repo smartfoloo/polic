@@ -63,5 +63,30 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1834d57d5d275682",
+		"name": "Adds housing units at Corpo Mita",
+		"official": "Ordinance Partially Amending the Meguro City Elderly Welfare Housing Ordinance",
+		"summary": "The ordinance's appendix lists the figures for Corpo Mita as “13” and “5.” These figures will be changed to “14” and “6,” respectively, and the ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Changes “13” to “14” in the appendix entry for Corpo Mita",
+			"Changes “5” to “6” in the appendix entry for Corpo Mita"
+		],
+		"who": [
+			"Residents and prospective residents of Corpo Mita"
+		],
+		"why": "The ward says this is to add housing units at Corpo Mita.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:53:58.194Z",
+			"inputTokens": 598,
+			"cachedTokens": 0,
+			"outputTokens": 501,
+			"reasoningTokens": 317
+		}
 	}
 }

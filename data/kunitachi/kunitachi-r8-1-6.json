@@ -88,5 +88,33 @@
 			"outputTokens": 450,
 			"reasoningTokens": 133
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "82e3fb8acf609b56",
+		"name": "Sets operating standards for specified infant and other childcare attendance support services",
+		"official": "Draft Ordinance on Standards for the Operation of Kunitachi City Specified Infant and Other Childcare Attendance Support Services",
+		"summary": "Following a partial amendment to the Act on Child and Childcare Support, Kunitachi City will set operating standards for specified infant and other childcare attendance support services by ordinance. The standards require service operators to set user capacity, meet with guardians, explain fees, and respond to accidents, among other things. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Set user capacity per hour and per month",
+			"Meet with guardians before use begins, explain important matters, and obtain their consent",
+			"Set conditions for fees charged to users and require receipts to be issued",
+			"Set standards for responding to accidents, handling complaints, and keeping records"
+		],
+		"who": [
+			"Operators of specified infant and other childcare attendance support services",
+			"Guardians of children who use specified infant and other childcare attendance support services"
+		],
+		"why": "The city says the ordinance is intended to set operating standards for specified infant and other childcare attendance support services in the city following a partial amendment to the Act on Child and Childcare Support.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:41.206Z",
+			"inputTokens": 755,
+			"cachedTokens": 0,
+			"outputTokens": 897,
+			"reasoningTokens": 612
+		}
 	}
 }

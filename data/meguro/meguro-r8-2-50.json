@@ -65,5 +65,32 @@
 			"outputTokens": 346,
 			"reasoningTokens": 332
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "efcb2bb34d0364a1",
+		"name": "Relaxes height limits for buildings that meet certain conditions",
+		"official": "Ordinance Partially Amending the Ordinance, etc., on Restrictions on Buildings within the Area of the Jiyu-dori Avenue Yakumo District Plan",
+		"summary": "Each district plan area has a maximum building height. This bill adds a system allowing buildings that meet certain conditions to use height limits based on the district, site area, and other factors. It also raises some limits from 30 m to 33 m. The ward mayor will decide whether the system applies, after first hearing the views of the Meguro City Building Review Board.",
+		"changes": [
+			"Allows buildings that meet conditions for securing space, disaster prevention, and reducing environmental impact to use height limits set for each district",
+			"Sets height limits based on site area and consideration for the surrounding environment",
+			"Raises some height limits from 30 m to 33 m",
+			"Excludes rooftop stairwells and similar structures, up to 5 m high, from building height when conditions are met"
+		],
+		"who": [
+			"People and businesses planning construction within a district plan area"
+		],
+		"why": "The ward says this is to relax height restrictions for buildings that meet certain conditions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:57:11.373Z",
+			"inputTokens": 775,
+			"cachedTokens": 0,
+			"outputTokens": 922,
+			"reasoningTokens": 643
+		}
 	}
 }

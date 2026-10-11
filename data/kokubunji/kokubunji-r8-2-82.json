@@ -1,0 +1,84 @@
+{
+	"id": "kokubunji-r8-2-82",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第82号",
+	"official": "国分寺市印鑑条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-04",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037757.html",
+			"fetchedAt": "2026-10-08T10:58:07.901Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/037/777/062303.pdf",
+			"fetchedAt": "2026-10-08T10:58:19.897Z"
+		}
+	],
+	"name": "印鑑登録証明の申請規定を整備",
+	"category": "くらし・手続き",
+	"summary": "印鑑登録証明の申請に関する規定があります。この議案で、出入国管理及び難民認定法などの改正に合わせ、申請に関する規定を整えます。",
+	"changes": [
+		"印鑑登録証明の申請に関する規定を整える"
+	],
+	"who": [],
+	"why": "出入国管理及び難民認定法などの改正に伴い、印鑑登録証明の申請に関する規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.878Z",
+		"inputTokens": 1034,
+		"cachedTokens": 0,
+		"outputTokens": 460,
+		"reasoningTokens": 279,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.878Z",
+		"checkedAt": "2026-10-10T07:29:38.665Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 886,
+			"cachedTokens": 0,
+			"outputTokens": 41,
+			"reasoningTokens": 27,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "99ed031808bcdb1a",
+		"name": "Updates rules for applying for seal registration certificates",
+		"official": "Regarding an Ordinance to Partially Amend the Kokubunji City Seal Registration Ordinance",
+		"summary": "There are rules about applying for seal registration certificates. This bill updates those rules in line with amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"changes": [
+			"Update the rules for applying for seal registration certificates"
+		],
+		"who": [],
+		"why": "The city says it is updating the rules for applying for seal registration certificates because of amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.067Z",
+			"inputTokens": 584,
+			"cachedTokens": 0,
+			"outputTokens": 424,
+			"reasoningTokens": 278,
+			"batch": true
+		}
+	}
+}

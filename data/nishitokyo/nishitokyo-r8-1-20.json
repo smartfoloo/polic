@@ -1,0 +1,37 @@
+{
+	"id": "nishitokyo-r8-1-20",
+	"assembly": "tokyo/nishitokyo",
+	"approved": false,
+	"number": "議案第20号",
+	"official": "西東京市子供の医療費の助成に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "文教厚生委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-26",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 日程・付議案件・結果",
+			"url": "https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/kaikinainittei0801.html",
+			"fetchedAt": "2026-10-08T10:59:32.306Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "e15d3f43587e46a4",
+		"official": "Ordinance Partially Amending the Nishitokyo City Ordinance on Subsidies for Children's Medical Expenses",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:23:58.044Z",
+			"inputTokens": 389,
+			"cachedTokens": 0,
+			"outputTokens": 202,
+			"reasoningTokens": 165
+		}
+	}
+}

@@ -57,5 +57,29 @@
 			"outputTokens": 43,
 			"reasoningTokens": 28
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4dae8351f815a96a",
+		"name": "Adds the Individual Number Card as an option for single-parent medical subsidies",
+		"official": "Ordinance Partially Amending the Ota City Ordinance on Subsidies for Medical Expenses for Single-Parent Families",
+		"summary": "Currently, people must present a medical subsidy certificate to receive medical expense subsidies. After the amendment, they may also present an Individual Number Card if a hospital or similar facility can verify their eligibility for the subsidies. The amendment takes effect on April 1, 2026.",
+		"changes": [
+			"Allows people to receive medical expense subsidies by presenting an Individual Number Card when a hospital or similar facility can verify their eligibility"
+		],
+		"who": [
+			"People receiving medical expense subsidies for single-parent families"
+		],
+		"why": "The ward says this is to add presenting an Individual Number Card at a hospital or similar facility as a way to complete the procedure for receiving medical expense subsidies for single-parent families.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:06:31.894Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 745,
+			"reasoningTokens": 533
+		}
 	}
 }

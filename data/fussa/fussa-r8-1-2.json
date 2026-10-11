@@ -1,0 +1,85 @@
+{
+	"id": "fussa-r8-1-2",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第2号",
+	"official": "福生市職員の勤務時間、休日、休暇等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1020984.html",
+			"fetchedAt": "2026-10-08T10:57:01.728Z"
+		}
+	],
+	"name": "生理休暇と介護休暇の規定を改正",
+	"category": "行政のしくみ",
+	"summary": "市職員の生理休暇、介護休暇、介護時間について定めた条例を改正します。生理休暇に関する規定と、介護休暇・介護時間の対象期間に関する規定を見直します。",
+	"changes": [
+		"生理休暇に関する規定を改める",
+		"介護休暇と介護時間の対象期間に関する規定を改める"
+	],
+	"who": [
+		"福生市職員"
+	],
+	"why": "生理休暇に関する規定と、介護休暇・介護時間の対象期間に関する規定を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.852Z",
+		"inputTokens": 1034,
+		"cachedTokens": 0,
+		"outputTokens": 519,
+		"reasoningTokens": 306,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.852Z",
+		"checkedAt": "2026-10-10T07:29:38.583Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 915,
+			"cachedTokens": 0,
+			"outputTokens": 33,
+			"reasoningTokens": 18,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f28ae13e450417b9",
+		"name": "Revises rules on menstrual and caregiving leave",
+		"official": "Ordinance Partially Amending the Fussa City Ordinance on Working Hours, Holidays, Leave, etc. for Fussa City Employees",
+		"summary": "The city will amend the ordinance that sets out rules on menstrual leave, caregiving leave, and caregiving time for city employees. It will review provisions on menstrual leave and provisions on the periods covered by caregiving leave and caregiving time.",
+		"changes": [
+			"Revises provisions on menstrual leave",
+			"Revises provisions on the periods covered by caregiving leave and caregiving time"
+		],
+		"who": [
+			"Fussa City employees"
+		],
+		"why": "The city says it is making these changes to revise provisions on menstrual leave and on the periods covered by caregiving leave and caregiving time.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.037Z",
+			"inputTokens": 627,
+			"cachedTokens": 0,
+			"outputTokens": 458,
+			"reasoningTokens": 260,
+			"batch": true
+		}
+	}
+}

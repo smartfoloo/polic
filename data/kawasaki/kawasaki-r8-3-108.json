@@ -1,0 +1,98 @@
+{
+	"id": "kawasaki-r8-3-108",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第108号",
+	"official": "川崎市武道館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第108号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_108.pdf",
+			"fetchedAt": "2026-10-08T11:11:15.539Z"
+		}
+	],
+	"name": "武道館の利用料金上限額を改定",
+	"category": "まちづくり",
+	"summary": "現在の個人利用料は120円または240円です。この議案では、武道館の専用利用料を改め、個人利用料をそれぞれ130円、260円にします。令和9年4月1日から施行します。",
+	"changes": [
+		"柔道場・剣道場の専用利用料を、午前2,120円、午後1 2,510円、午後2 2,920円、夜間3,320円、全日9,970円に改める",
+		"個人利用料を120円から130円に改める",
+		"個人利用料を240円から260円に改める"
+	],
+	"who": [
+		"川崎市武道館を利用する人"
+	],
+	"why": "武道館の利用料金の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.873Z",
+		"inputTokens": 1404,
+		"cachedTokens": 0,
+		"outputTokens": 1085,
+		"reasoningTokens": 832,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.873Z",
+		"checkedAt": "2026-10-10T07:29:38.646Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "個人利用料を240円から260円に改める",
+				"note": "附則第2項では、施行時に既に利用許可を受けている人の当該許可に係る利用料金は従前どおりとされています。この経過措置が記載されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1327,
+			"cachedTokens": 0,
+			"outputTokens": 320,
+			"reasoningTokens": 217,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "98c16bdf96398542",
+		"name": "Revises the maximum fees for using the Budokan",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Budokan Ordinance",
+		"summary": "The current individual-use fees are ¥120 or ¥240. This bill revises the Budokan’s exclusive-use fees and changes the individual-use fees to ¥130 and ¥260, respectively. It will take effect on April 1, 2027.",
+		"changes": [
+			"Revises the exclusive-use fees for the judo and kendo halls to ¥2,120 in the morning, ¥2,510 in afternoon session 1, ¥2,920 in afternoon session 2, ¥3,320 in the evening, and ¥9,970 for the full day, and raises the individual-use fees from ¥120 to ¥130 and from ¥240 to ¥260"
+		],
+		"who": [
+			"People who use the Kawasaki City Budokan"
+		],
+		"why": "The city says this is to revise the maximum fees for using the Budokan.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.060Z",
+			"inputTokens": 658,
+			"cachedTokens": 0,
+			"outputTokens": 1241,
+			"reasoningTokens": 1000,
+			"batch": true
+		}
+	}
+}

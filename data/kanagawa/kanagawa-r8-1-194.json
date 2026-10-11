@@ -1,0 +1,92 @@
+{
+	"id": "kanagawa-r8-1-194",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第194号議案",
+	"official": "神奈川県県営上水道条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "定県第194号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar7.pdf",
+			"fetchedAt": "2026-10-08T11:30:57.287Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "非常時に他の水道事業者も工事可能に",
+	"category": "防災",
+	"summary": "給水装置工事は、条例で定める事業者が行うことになっています。改正後は、災害などの非常時に管理者が必要と認めた場合、ほかの水道事業者やその指定を受けた者も工事を行えます。関連する規定でも、これらの者を対象に含めます。",
+	"changes": [
+		"災害などの非常時に、管理者が必要と認めた場合、ほかの水道事業者などが給水装置工事を行えるようにする",
+		"関連する規定の対象に、非常時の工事を行う事業者などを加える"
+	],
+	"who": [
+		"災害などの非常時に給水装置工事が必要となる県営水道の利用者",
+		"非常時に県営水道の給水装置工事を行う他の水道事業者やその指定を受けた者"
+	],
+	"why": "災害などの非常時に、管理者以外の水道事業者やその指定を受けた者が給水装置工事を行えるようにするためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.863Z",
+		"inputTokens": 1398,
+		"cachedTokens": 0,
+		"outputTokens": 1896,
+		"reasoningTokens": 1588,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.863Z",
+		"checkedAt": "2026-10-10T07:29:38.613Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1408,
+			"cachedTokens": 0,
+			"outputTokens": 74,
+			"reasoningTokens": 59,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6ffaaeab9a997b0f",
+		"name": "Allows other water utilities to carry out work during emergencies",
+		"official": "Ordinance Partially Amending the Kanagawa Prefecture-Operated Water Supply Ordinance",
+		"summary": "Water supply equipment work must be carried out by businesses specified in the ordinance. After the amendment, when the administrator deems it necessary during an emergency such as a disaster, other water utilities and persons designated by them may also carry out the work. Related provisions will also include these parties.",
+		"changes": [
+			"Allow other water utilities and others to carry out water supply equipment work during emergencies such as disasters when the administrator deems it necessary",
+			"Add businesses and others carrying out emergency work to the parties covered by related provisions"
+		],
+		"who": [
+			"Users of the prefectural water supply who need water supply equipment work during emergencies such as disasters",
+			"Other water utilities and persons designated by them who carry out water supply equipment work for the prefectural water supply during emergencies"
+		],
+		"why": "The prefecture says this is to allow water utilities other than the administrator, and persons designated by them, to carry out water supply equipment work during emergencies such as disasters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.049Z",
+			"inputTokens": 742,
+			"cachedTokens": 0,
+			"outputTokens": 620,
+			"reasoningTokens": 359,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"id": "zushi-r8-1-5",
+	"assembly": "kanagawa/zushi",
+	"approved": false,
+	"number": "議案第5号",
+	"official": "逗子市特定乳児等通園支援事業の運営に関する基準を定める条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "教育民生常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 付議案件と審議結果",
+			"url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013728/1013732.html",
+			"fetchedAt": "2026-10-08T11:21:22.893Z"
+		},
+		{
+			"label": "議案第5号（PDF）",
+			"url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/732/r8-1t-gian5.pdf",
+			"fetchedAt": "2026-10-08T11:21:28.778Z"
+		}
+	],
+	"name": "乳児等通園支援事業の運営基準を制定",
+	"category": "子育て",
+	"summary": "特定乳児等通園支援事業の運営基準を定める条例を新たに設けます。国の府令に定める基準を取り入れ、暴力団排除に関する市独自の規定も設けます。",
+	"changes": [
+		"事業の運営基準を内閣府令の基準に沿って定める",
+		"事業者と職員が暴力団や暴力団員等に該当することを認めない",
+		"市と事業者に、事業から暴力団を排除するための措置を求める",
+		"運営基準に関する必要な事項を市長が別に定める"
+	],
+	"who": [
+		"特定乳児等通園支援事業者",
+		"特定乳児等通園支援事業の職員"
+	],
+	"why": "法改正後の規定に基づき、特定乳児等通園支援事業の運営基準を定める必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.891Z",
+		"inputTokens": 1765,
+		"cachedTokens": 0,
+		"outputTokens": 1227,
+		"reasoningTokens": 949,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.891Z",
+		"checkedAt": "2026-10-10T07:29:38.745Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "事業者と職員が暴力団や暴力団員等に該当することを認めない",
+				"note": "第３条第２項は「暴力団経営支配法人等」も禁止対象として明記しています。「暴力団員等」は別の定義語であり、法人等も対象となることが要約では明示されていません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1740,
+			"cachedTokens": 0,
+			"outputTokens": 257,
+			"reasoningTokens": 139,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "92fd40c5fe6be3c5",
+		"name": "Sets operating standards for infant and other child attendance support services",
+		"official": "Establishment of the Zushi City Ordinance Prescribing Standards for the Operation of Specified Infant and Other Child Attendance Support Services",
+		"summary": "The city will establish a new ordinance setting operating standards for specified infant and other child attendance support services. It will incorporate standards set out in a Cabinet Office Order and establish city-specific provisions to exclude organized crime groups.",
+		"changes": [
+			"Set operating standards for the services in line with the standards in the Cabinet Office Order",
+			"Prohibit service providers and staff from being organized crime groups, members of organized crime groups, or otherwise falling into related categories",
+			"Require the city and service providers to take measures to exclude organized crime groups from the services",
+			"Allow the mayor to set other necessary details concerning the operating standards"
+		],
+		"who": [
+			"Specified infant and other child attendance support service providers",
+			"Staff of specified infant and other child attendance support services"
+		],
+		"why": "The city says the ordinance is needed to set operating standards for specified infant and other child attendance support services based on provisions that took effect after the law was amended.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.077Z",
+			"inputTokens": 730,
+			"cachedTokens": 0,
+			"outputTokens": 888,
+			"reasoningTokens": 624,
+			"batch": true
+		}
+	}
+}

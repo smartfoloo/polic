@@ -84,5 +84,33 @@
 			"outputTokens": 504,
 			"reasoningTokens": 184
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4ac06c4560119015",
+		"name": "Revises leave and pay for fiscal-year appointed employees",
+		"official": "Enactment of an Ordinance Partially Amending the Tama City Ordinance Concerning the Appointment and Working Conditions, etc. of Fiscal-Year Appointed Employees",
+		"summary": "The ordinance setting leave and pay rates for fiscal-year appointed employees will be amended. It will establish childcare partial leave, change the name of a type of leave, create a digitalization promotion support officer position, and revise pay rates for specialist and support staff. The amendments will take effect on April 1, 2026.",
+		"changes": [
+			"Renames “menstrual leave” as “health management leave”",
+			"Establishes childcare partial leave for eligible fiscal-year appointed employees",
+			"Creates a digitalization promotion support officer position with 30 hours per month and monthly pay of ¥105,000, and revises pay rates for specialist and support staff"
+		],
+		"who": [
+			"Fiscal-year appointed employees raising children, excluding those eligible for partial leave",
+			"Specialist and support staff whose pay rates are being revised",
+			"Digitalization promotion support officers"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:17:07.714Z",
+			"inputTokens": 728,
+			"cachedTokens": 0,
+			"outputTokens": 1479,
+			"reasoningTokens": 1218
+		}
 	}
 }

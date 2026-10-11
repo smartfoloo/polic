@@ -59,5 +59,31 @@
 			"outputTokens": 75,
 			"reasoningTokens": 61
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "73d9fc324cf4e733",
+		"name": "Establishes a council to review measures related to abuse at child facilities",
+		"official": "Tachikawa City Child Welfare Council Ordinance",
+		"summary": "Tachikawa City is proposing an ordinance to establish a council that investigates and deliberates on measures related to abuse at daycare centers and similar facilities. The council will investigate and deliberate on the details of measures reported to it and the circumstances of the children affected by them.",
+		"changes": [
+			"Establish a council to investigate and deliberate on measures related to abuse at daycare centers and similar facilities",
+			"Limit the council to no more than 5 members, appointed by the mayor from among lawyers, doctors and others",
+			"Set members’ terms at 2 years and allow them to be reappointed"
+		],
+		"who": [
+			"Children who are subject to measures related to abuse"
+		],
+		"why": "The city says this is pursuant to Article 8, Paragraph 3 of the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:15:50.977Z",
+			"inputTokens": 664,
+			"cachedTokens": 0,
+			"outputTokens": 525,
+			"reasoningTokens": 302
+		}
 	}
 }

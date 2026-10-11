@@ -35,54 +35,82 @@
 	"who": [
 		"林野火災注意報の対象区域にいる人",
 		"警報時に火の使用制限の対象区域で屋外の火を使う人",
-		"1月から5月に森林計画の対象区域で裸火を使う人"
+		"1月から5月に森林計画の対象区域で裸火を使い、火粉が周囲に飛散する行為をする人"
 	],
 	"why": "令和7年2月26日に岩手県大船渡市で林野火災が発生したことを受け、林野火災注意報と警報を設けるためと、市は説明しています。",
 	"draft": {
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:46:16.987Z",
+		"generatedAt": "2026-10-08T23:20:01.867Z",
 		"inputTokens": 4214,
 		"cachedTokens": 0,
 		"outputTokens": 2223,
-		"reasoningTokens": 1787
+		"reasoningTokens": 1787,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:20:01.867Z",
+			"notes": [
+				"ai [error] who/fact: 「1月から5月に森林計画の対象区域で裸火を使う人」 → 第60条第6号の届出対象は、裸火を使用し、かつ火粉が周囲に飛散する行為をする人です。裸火を使うだけの人まで含めています。"
+			],
+			"inputTokens": 4810,
+			"cachedTokens": 1025,
+			"outputTokens": 516,
+			"reasoningTokens": 100
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:46:16.987Z",
-		"checkedAt": "2026-10-08T05:25:00.293Z",
+		"draftAt": "2026-10-08T23:20:01.867Z",
+		"checkedAt": "2026-10-08T23:20:10.082Z",
 		"flags": [],
 		"issues": [
-			{
-				"field": "who",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "1月から5月に森林計画の対象区域で裸火を使う人",
-				"note": "第60条第6号の届出対象は、裸火を使用し、かつ火粉が周囲に飛散する行為をする人です。裸火を使うだけの人まで含めています。"
-			},
 			{
 				"field": "changes",
 				"kind": "omission",
 				"severity": "check",
 				"quote": "警報時に市長が指定する区域で、屋外の裸火を使い火粉を飛散させる行為を制限する",
-				"note": "第29条第6号は置き換えであり、旧規定の「屋内で裸火を使用するときは窓、出入口等を閉じる」という制限が削除される点が抜けています。"
-			},
-			{
-				"field": "changes",
-				"kind": "omission",
-				"severity": "check",
-				"quote": "注意報の区域内にいる人に火の使用制限を守る努力を求める",
-				"note": "第29条の2第3項で、市長が火災の危険性を勘案し、努力義務の対象区域を指定できるとする変更が抜けています。"
+				"note": "新旧対照表の第29条第6号では、従来の「屋内において裸火を使用するときは、窓、出入口等を閉じて行うこと」という制限を屋外の行為の制限に置き換えている。従来の屋内での制限が削除される点がchangesにない。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 4321,
+			"inputTokens": 4335,
 			"cachedTokens": 0,
-			"outputTokens": 566,
-			"reasoningTokens": 214
+			"outputTokens": 319,
+			"reasoningTokens": 166
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "cdad9bbf72089afd",
+		"name": "Introduces forest fire advisories, warnings and restrictions on fire use",
+		"official": "Ordinance Partially Amending the Inagi City Fire Prevention Ordinance",
+		"summary": "The current ordinance has no provisions for forest fire advisories or for designating areas subject to restrictions on fire use when a warning to prevent forest fires is issued. The bill allows the mayor to issue an advisory for areas covered by the forest plan and, when a warning is issued, to designate areas where restrictions on fire use apply. People in areas covered by an advisory will be asked to make efforts to follow restrictions on fire use. It also adds certain activities in areas covered by the forest plan from January through May to those requiring prior notification.",
+		"changes": [
+			"Set the conditions for issuing forest fire advisories and define the areas they cover",
+			"Ask people in advisory areas to make efforts to follow restrictions on fire use",
+			"Restrict activities that use outdoor open flames and scatter sparks in areas designated by the mayor when a warning is issued",
+			"Add activities involving open flames and sparks in areas covered by the forest plan from January through May to those requiring prior notification"
+		],
+		"who": [
+			"People in areas covered by a forest fire advisory",
+			"People who use outdoor fires in areas subject to fire-use restrictions when a warning is issued",
+			"People who, from January through May, carry out activities involving open flames that scatter sparks in areas covered by the forest plan"
+		],
+		"why": "The city says the bill is intended to establish forest fire advisories and warnings in response to a forest fire that occurred in Ofunato City, Iwate Prefecture, on February 26, 2025.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:03:33.692Z",
+			"inputTokens": 856,
+			"cachedTokens": 0,
+			"outputTokens": 1356,
+			"reasoningTokens": 983
 		}
 	}
 }

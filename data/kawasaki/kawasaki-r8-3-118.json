@@ -1,0 +1,110 @@
+{
+	"id": "kawasaki-r8-3-118",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第118号",
+	"official": "川崎市登録一時保護委託者の登録等の基準に関する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第118号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_118.pdf",
+			"fetchedAt": "2026-10-08T11:12:16.651Z"
+		}
+	],
+	"name": "一時保護施設の運営基準を新設",
+	"category": "福祉",
+	"summary": "登録一時保護委託者や、その施設で一時保護を受ける子どもに関する基準を定める条例を新たに設けます。子どもの権利や施設の設備、職員配置、健康管理、支援などを定めます。条例は公布日に施行し、児童対象性暴力等の防止に関する規定は2026年12月25日に施行します。",
+	"changes": [
+		"児童の権利尊重や虐待、施錠による行動制限の禁止を定める",
+		"施設の設備、夜間の職員配置、衛生管理、食事や健康管理の基準を定める",
+		"児童と接する業務のうち、支配性・継続性・閉鎖性のある環境で接する従事者について、犯罪事実確認などを定める",
+		"児童の意見を尊重した支援や教育、苦情対応、記録管理などを定める"
+	],
+	"who": [
+		"一時保護を受ける子ども",
+		"登録一時保護委託者"
+	],
+	"why": "登録一時保護委託者の登録等に関する基準を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.554Z",
+		"inputTokens": 5764,
+		"cachedTokens": 0,
+		"outputTokens": 1426,
+		"reasoningTokens": 1089,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.554Z",
+			"notes": [
+				"ai [error] changes/fact: 「児童と接する業務の従事者の犯罪事実確認などを定める」 → 第7条の対象は、児童と接する従事者のうち「支配性、継続性及び閉鎖性のある環境」で接する者に限定されている。要約では対象が広く読める。"
+			],
+			"inputTokens": 6275,
+			"cachedTokens": 1025,
+			"outputTokens": 631,
+			"reasoningTokens": 270,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.874Z",
+		"checkedAt": "2026-10-10T07:29:38.650Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "児童と接する業務の従事者の犯罪事実確認などを定める",
+				"note": "第7条の対象は、児童と接する従事者のうち「支配性、継続性及び閉鎖性のある環境」で接する者に限定されている。要約では対象が広く読める。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "施設の設備、夜間の職員配置、衛生管理、食事や健康管理の基準を定める",
+				"note": "第8条の非常災害対策・毎月1回以上の避難及び消火訓練の体制整備と、第9条の自動車乗降時の児童の所在確認が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "児童の権利尊重や虐待、施錠による行動制限の禁止を定める",
+				"note": "第11条の合理的な理由のない所持品の持込み禁止の制限や、所持品の安全な保管に関する基準が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "児童の意見を尊重した支援や教育、苦情対応、記録管理などを定める",
+				"note": "第23条の児童・家族の秘密保持義務と、退職した職員による漏えいを防ぐ措置が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 5773,
+			"cachedTokens": 0,
+			"outputTokens": 577,
+			"reasoningTokens": 193,
+			"batch": true
+		}
+	}
+}

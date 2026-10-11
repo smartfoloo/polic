@@ -1,0 +1,91 @@
+{
+	"id": "nakano-r8-3-76",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第76号議案",
+	"official": "中野区家庭的保育事業等の設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "子ども文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121",
+			"fetchedAt": "2026-10-08T15:27:51.872Z"
+		},
+		{
+			"label": "第76号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/269301878.pdf",
+			"fetchedAt": "2026-10-08T15:28:27.704Z"
+		}
+	],
+	"name": "保育の性暴力防止と3歳以上小規模保育の規定整備",
+	"category": "子育て",
+	"summary": "現在の基準に、児童対象性暴力等を防ぐための措置を加えます。また、満3歳以上限定小規模保育事業に関する規定を整えます。条例は公布日に施行されますが、性暴力等の防止に関する改正は2026年12月25日から施行されます。",
+	"changes": [
+		"児童対象性暴力等を防ぎ、発生時に利用乳幼児を保護する措置を講じる",
+		"児童等対象業務従事者の犯罪事実確認など、必要な措置を講じる",
+		"満3歳以上限定小規模保育事業に関する運営や利用定員の規定を整える"
+	],
+	"who": [
+		"家庭的保育事業等の事業者",
+		"家庭的保育事業等を利用する乳幼児と保護者"
+	],
+	"why": "家庭的保育事業等の設備及び運営に関する基準の改正に伴い、規定を整備する必要があるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:06:59.737Z",
+		"inputTokens": 2162,
+		"cachedTokens": 0,
+		"outputTokens": 1592,
+		"reasoningTokens": 1267
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:06:59.737Z",
+		"checkedAt": "2026-10-09T11:49:14.234Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2154,
+			"cachedTokens": 0,
+			"outputTokens": 129,
+			"reasoningTokens": 114
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d53cffaf1350e661",
+		"name": "Preventing sexual violence against children in childcare and updating rules for small-scale childcare for children aged 3 and over",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Standards for Equipment and Operation of Home-Based Childcare Services, etc.",
+		"summary": "The ordinance adds measures to the current standards to prevent sexual violence, etc. against children. It also sets rules for small-scale childcare services limited to children aged 3 and over. The ordinance takes effect on the date it is promulgated, but the amendments on preventing sexual violence, etc. take effect on December 25, 2026.",
+		"changes": [
+			"Take measures to prevent sexual violence, etc. against children and protect children using the service if such incidents occur",
+			"Take necessary measures, including checking the criminal records of workers in jobs involving children, etc.",
+			"Set rules on operations and capacity for small-scale childcare services limited to children aged 3 and over"
+		],
+		"who": [
+			"Providers of home-based childcare services, etc.",
+			"Infants and young children, and their guardians, who use home-based childcare services, etc."
+		],
+		"why": "The ward says the provisions need to be updated following amendments to the standards for the equipment and operation of home-based childcare services, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:53:59.697Z",
+			"inputTokens": 745,
+			"cachedTokens": 0,
+			"outputTokens": 871,
+			"reasoningTokens": 580
+		}
+	}
+}

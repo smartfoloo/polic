@@ -59,5 +59,31 @@
 			"outputTokens": 60,
 			"reasoningTokens": 46
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f917121218439299",
+		"name": "Discontinues Chikase No. 2 housing and its parking lot",
+		"official": "Ordinance Partially Amending the Ome City Municipal Housing Ordinance",
+		"summary": "The Ome City Municipal Housing Ordinance lists Ome City Chikase No. 2 Municipal Housing and its parking lot. Since the tenants have moved out, the ordinance will be amended to remove the entries for the housing and the parking lot. The ordinance will take effect on the date it is promulgated.",
+		"changes": [
+			"Remove Ome City Chikase No. 2 Municipal Housing from the ordinance",
+			"Remove the parking lot for this housing from the ordinance"
+		],
+		"who": [
+			"People wishing to move into Ome City Chikase No. 2 Municipal Housing",
+			"People using the parking lot for this housing"
+		],
+		"why": "The city says the housing will be discontinued because the Ome City Municipal Housing Long-Life Plan identified it for discontinuation of use and the tenants have moved out.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:58:39.474Z",
+			"inputTokens": 661,
+			"cachedTokens": 0,
+			"outputTokens": 524,
+			"reasoningTokens": 294
+		}
 	}
 }

@@ -1,0 +1,92 @@
+{
+	"id": "yugawara-r8-1-11",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第11号",
+	"official": "湯河原町林野等火入れに関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第11号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17144.pdf",
+			"fetchedAt": "2026-10-08T11:28:41.410Z"
+		}
+	],
+	"name": "火入れの中止条件に林野火災の注意報を追加",
+	"category": "防災",
+	"summary": "現在は、強風注意報、異常乾燥注意報、火災警報が出た場合、許可期間中でも火入れを行えません。改正後は、乾燥注意報または林野火災に関する注意報が発表された場合も火入れを中止し、火入れ中に発表された場合は速やかに消火します。",
+	"changes": [
+		"異常乾燥注意報を、乾燥注意報または林野火災に関する注意報に改める",
+		"火入れ中に乾燥注意報または林野火災に関する注意報が発表された場合も速やかに消火する"
+	],
+	"who": [
+		"火入れを行う人",
+		"火入責任者"
+	],
+	"why": "火入れの中止条件に林野火災に関する注意報を加え、文言を整理するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.889Z",
+		"inputTokens": 1756,
+		"cachedTokens": 0,
+		"outputTokens": 971,
+		"reasoningTokens": 683,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.889Z",
+		"checkedAt": "2026-10-10T07:29:38.729Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1716,
+			"cachedTokens": 0,
+			"outputTokens": 48,
+			"reasoningTokens": 34,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "397743900e7c416b",
+		"name": "Adds forest-fire advisories as a condition for stopping controlled burns",
+		"official": "Partial Amendment to the Yugawara Town Ordinance Concerning Burning in Forests and Other Areas",
+		"summary": "Currently, controlled burns are not allowed, even during the permitted period, when a strong-wind advisory, an abnormal dry-weather advisory or a fire warning has been issued. After the amendment, burning must also stop when a dry-weather advisory or an advisory concerning forest fires is issued. If either advisory is issued while a controlled burn is in progress, the fire must be extinguished promptly.",
+		"changes": [
+			"Replace the abnormal dry-weather advisory with a dry-weather advisory or an advisory concerning forest fires",
+			"Require the fire to be extinguished promptly if a dry-weather advisory or an advisory concerning forest fires is issued while a controlled burn is in progress"
+		],
+		"who": [
+			"People carrying out controlled burns",
+			"People responsible for controlled burns"
+		],
+		"why": "The town says this is to add advisories concerning forest fires to the conditions for stopping controlled burns and to clarify the wording.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.075Z",
+			"inputTokens": 698,
+			"cachedTokens": 0,
+			"outputTokens": 603,
+			"reasoningTokens": 355,
+			"batch": true
+		}
+	}
+}

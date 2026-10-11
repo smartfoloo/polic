@@ -25,7 +25,7 @@
 	],
 	"name": "都市計画税の特例割合を3分の1に",
 	"category": "税・手数料",
-	"summary": "条例の附則に、地方税法の規定に基づく市の割合を定める規定はありません。今回、割合を3分の1とし、関連する項番号や参照先も改めます。この改正は公布日から施行され、原則として令和8年度分以後の都市計画税に適用されますが、平成30年4月1日から令和8年3月31日までに対象工事が行われた施設は従前の扱いとなります。",
+	"summary": "条例の附則に、地方税法附則第15条の11第1項に基づく割合を定めます。割合を3分の1とし、関連する項番号や参照先も改めます。この改正は公布日から施行され、原則として令和8年度分以後の都市計画税に適用されますが、平成30年4月1日から令和8年3月31日までに対象工事が行われた施設は従前の扱いとなります。",
 	"changes": [
 		"条例で定める割合を3分の1とする",
 		"附則の項番号と参照先を整理する"
@@ -38,33 +38,71 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:17:49.466Z",
+		"generatedAt": "2026-10-08T23:13:59.582Z",
 		"inputTokens": 1808,
 		"cachedTokens": 0,
 		"outputTokens": 1502,
-		"reasoningTokens": 1225
+		"reasoningTokens": 1225,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:13:59.582Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「条例の附則に、地方税法の規定に基づく市の割合を定める規定はありません。」 → 原文で確認できるのは法附則第15条の11第1項に関する割合規定の新設です。現行条例の附則全体に、地方税法に基づく割合規定がないとは確認できません。"
+			],
+			"inputTokens": 2263,
+			"cachedTokens": 1025,
+			"outputTokens": 669,
+			"reasoningTokens": 393
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:17:49.466Z",
-		"checkedAt": "2026-10-08T05:07:54.563Z",
+		"draftAt": "2026-10-08T23:13:59.582Z",
+		"checkedAt": "2026-10-08T23:14:09.581Z",
 		"flags": [],
 		"issues": [
 			{
-				"field": "summary",
-				"kind": "unsupported",
+				"field": "changes",
+				"kind": "omission",
 				"severity": "check",
-				"quote": "条例の附則に、地方税法の規定に基づく市の割合を定める規定はありません。",
-				"note": "原文で確認できるのは法附則第15条の11第1項に関する割合規定の新設です。現行条例の附則全体に、地方税法に基づく割合規定がないとは確認できません。"
+				"quote": "条例で定める割合を3分の1とする",
+				"note": "原文附則第3項にある、平成30年4月1日から令和8年3月31日までに対象工事が行われた改修実演芸術公演施設は従前の扱いとする経過措置が、changesには記載されていません。"
 			}
 		],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1756,
+			"inputTokens": 1755,
 			"cachedTokens": 0,
-			"outputTokens": 362,
-			"reasoningTokens": 244
+			"outputTokens": 297,
+			"reasoningTokens": 182
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "872944b261c3b0fa",
+		"name": "Sets the special rate for city planning tax at one-third",
+		"official": "Ordinance Partially Amending the Akiruno City City Planning Tax Ordinance",
+		"summary": "The ordinance's supplementary provisions set the rate provided for under Paragraph 1 of Article 15-11 of the Supplementary Provisions of the Local Tax Act. The rate is set at one-third, and related paragraph numbers and references are also revised. The amendment takes effect on the date of promulgation and applies, in principle, to city planning tax for fiscal year 2026 onward. However, facilities where the relevant work was carried out between April 1, 2018 and March 31, 2026 will continue to be treated under the previous rules.",
+		"changes": [
+			"Sets the rate specified by the ordinance at one-third",
+			"Revises paragraph numbers and references in the supplementary provisions"
+		],
+		"who": [
+			"Owners of performing arts venues that have undergone renovation work to improve convenience, etc."
+		],
+		"why": "The city says the amendment is intended to adjust the provisions and organize necessary wording in response to amendments to the Local Tax Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:16:00.366Z",
+			"inputTokens": 681,
+			"cachedTokens": 0,
+			"outputTokens": 957,
+			"reasoningTokens": 694
 		}
 	}
 }

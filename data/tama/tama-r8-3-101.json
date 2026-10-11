@@ -1,0 +1,93 @@
+{
+	"id": "tama-r8-3-101",
+	"assembly": "tokyo/tama",
+	"approved": false,
+	"number": "第101号議案",
+	"official": "多摩市古民家の管理運営に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-10-06",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会会議結果",
+			"url": "https://www.city.tama.lg.jp/shigikai/kaigi/kekka/1019561/1021478.html",
+			"fetchedAt": "2026-10-08T16:32:12.646Z"
+		},
+		{
+			"label": "第101号議案（PDF）",
+			"url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/021/205/R8-3teirei_sicyo79-104_2.pdf",
+			"fetchedAt": "2026-10-08T16:32:24.776Z"
+		}
+	],
+	"name": "古民家施設の休館日・利用時間・料金を改定",
+	"category": "まちづくり",
+	"summary": "条例では、古民家施設の管理や利用について定めています。この議案で、旧富澤家と旧加藤家の休館日、使用時間、1時間あたりの使用料などを定め直します。改正後の規定は、令和10年1月1日以後の施設利用に適用されます。",
+	"changes": [
+		"旧富澤家は、年末年始、4月29日から5月5日まで、毎週水曜日、施設点検日を使用できない日とし、季節ごとに使用時間を定める",
+		"旧加藤家は、年末年始と毎月第2・第4月曜日を使用できない日とし、使用時間を午前9時30分から午後4時までとする。休館日が休日の場合の扱いと、旧有山家の休日の振替ルールを改める",
+		"1時間あたりの使用料を、旧富澤家は市内団体730円・市外団体7,510円・市内団体の営利使用7,510円・市外団体の営利使用15,020円、旧加藤家は市内団体760円・市外団体1,520円・市内団体の営利使用1,520円・市外団体の営利使用3,040円とする",
+		"市内団体と営利使用の意味を定め、第7条の号を1つ削って残りの表現と番号を整理する"
+	],
+	"who": [
+		"古民家施設を利用する団体",
+		"古民家施設を営利目的で利用する団体"
+	],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:08:54.465Z",
+		"inputTokens": 1917,
+		"cachedTokens": 0,
+		"outputTokens": 4114,
+		"reasoningTokens": 3695
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:08:54.465Z",
+		"checkedAt": "2026-10-09T11:50:19.107Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2039,
+			"cachedTokens": 0,
+			"outputTokens": 348,
+			"reasoningTokens": 333
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e3436a61fe9f516e",
+		"name": "Revises closure days, hours and fees at traditional houses",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Tama City Ordinance on the Management and Operation of Traditional Houses",
+		"summary": "The ordinance sets rules for managing and using the traditional-house facilities. This bill resets the closure days, hours of use and hourly fees for Old Tomizawa House and Old Kato House. The revised rules will apply to facility use on or after January 1, 2028.",
+		"changes": [
+			"Set Old Tomizawa House as unavailable for use during the year-end and New Year holidays, from April 29 through May 5, every Wednesday, and on facility inspection days, and set its hours of use by season",
+			"Set Old Kato House as unavailable for use during the year-end and New Year holidays and on the second and fourth Mondays of each month, and set its hours of use from 9:30 a.m. to 4:00 p.m.; revise how closure days that fall on holidays are handled and the rules for moving holidays for Old Ariyama House",
+			"Set the hourly fees at Old Tomizawa House at ¥730 for groups based in the city, ¥7,510 for groups based outside the city, ¥7,510 for commercial use by groups based in the city, and ¥15,020 for commercial use by groups based outside the city; set the hourly fees at Old Kato House at ¥760, ¥1,520, ¥1,520 and ¥3,040, respectively",
+			"Define “groups based in the city” and “commercial use,” remove one item from Article 7, and organize the wording and numbering of the remaining items"
+		],
+		"who": [
+			"Groups using traditional-house facilities",
+			"Groups using traditional-house facilities for commercial purposes"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:55:03.729Z",
+			"inputTokens": 861,
+			"cachedTokens": 0,
+			"outputTokens": 888,
+			"reasoningTokens": 477
+		}
+	}
+}

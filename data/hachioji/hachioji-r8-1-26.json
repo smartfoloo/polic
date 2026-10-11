@@ -58,5 +58,30 @@
 			"outputTokens": 54,
 			"reasoningTokens": 39
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "36219bc167d7af08",
+		"name": "Adds electronic viewing for service by public notice",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Hachioji City Ordinance on Medical Care for Older Senior Citizens",
+		"summary": "Until now, notices served by public notice concerning medical care for older senior citizens have been posted on a notice board at Hachioji City. After the amendment, the city will take measures to make the notice contents available for viewing by the general public. It will either post them on a notice board or make them viewable on a computer screen at a city office.",
+		"changes": [
+			"Make the contents of public notices available for viewing by the general public using a method set out in the rules",
+			"Allow a choice between posting the notice on a notice board and making it viewable on a computer screen at a city office"
+		],
+		"who": [
+			"People receiving service by public notice concerning medical care for older senior citizens"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:37:41.576Z",
+			"inputTokens": 652,
+			"cachedTokens": 0,
+			"outputTokens": 954,
+			"reasoningTokens": 729
+		}
 	}
 }

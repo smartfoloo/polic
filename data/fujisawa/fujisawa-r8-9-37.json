@@ -1,0 +1,97 @@
+{
+	"id": "fujisawa-r8-9-37",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第37号",
+	"official": "藤沢市手数料条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月定例会",
+	"committee": "総務常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-15",
+	"sources": [
+		{
+			"label": "令和8年9月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F09%2F01%2C2026%2F10%2F09%2C115",
+			"fetchedAt": "2026-10-08T11:18:21.779Z"
+		},
+		{
+			"label": "議案第37号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2802&Sflg=2",
+			"fetchedAt": "2026-10-08T11:18:52.103Z"
+		},
+		{
+			"label": "議案第37号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2802_e01-037.pdf",
+			"fetchedAt": "2026-10-08T11:18:57.426Z"
+		}
+	],
+	"name": "開発・保健衛生などの手数料を改定",
+	"category": "税・手数料",
+	"summary": "開発行為等や保健衛生に関する事務では、条例で手数料が定められています。この議案は、複数の手数料額を改め、開発行為や建築等に関する証明書の交付手数料を新たに1件700円とします。改定後の額は、2027年4月1日以降の申請や請求に適用されます。",
+	"changes": [
+		"開発行為や建築等に関する証明書の交付手数料を1件700円にする",
+		"条例別表第5に定める複数の手数料額を引き上げる"
+	],
+	"who": [
+		"開発行為や建築等に関する証明書を申請する人",
+		"保健衛生に関する手続きを申請する人"
+	],
+	"why": "手数料の受益と負担を適正化し、社会的公平性を確保するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.849Z",
+		"inputTokens": 2467,
+		"cachedTokens": 0,
+		"outputTokens": 1532,
+		"reasoningTokens": 1262,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.849Z",
+		"checkedAt": "2026-10-10T07:29:38.576Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2428,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b645b0f522048c11",
+		"name": "Revises fees for development, public health and hygiene, and other matters",
+		"official": "Regarding the Partial Amendment of the Fujisawa City Fee Ordinance",
+		"summary": "Fees for administrative procedures related to development activities and public health and hygiene are set by ordinance. This bill revises several fee amounts and newly sets the fee for issuing certificates related to development activities, building construction, and other matters at ¥700 per certificate. The revised fees will apply to applications and requests made on or after April 1, 2027.",
+		"changes": [
+			"Sets the fee for issuing certificates related to development activities, building construction, and other matters at ¥700 per certificate",
+			"Raises several fees listed in Appendix Table 5 of the ordinance"
+		],
+		"who": [
+			"People applying for certificates related to development activities, building construction, and other matters",
+			"People applying for procedures related to public health and hygiene"
+		],
+		"why": "The city says this is to properly balance the benefits and burdens of the fees and ensure social fairness.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.034Z",
+			"inputTokens": 698,
+			"cachedTokens": 0,
+			"outputTokens": 720,
+			"reasoningTokens": 482,
+			"batch": true
+		}
+	}
+}

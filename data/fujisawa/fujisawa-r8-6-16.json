@@ -1,0 +1,93 @@
+{
+	"id": "fujisawa-r8-6-16",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第16号",
+	"official": "藤沢市公共下水道事業の受益者負担金等に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年6月定例会",
+	"committee": "建設経済常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年6月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F06%2F04%2C2026%2F06%2F25%2C114",
+			"fetchedAt": "2026-10-08T11:17:24.442Z"
+		},
+		{
+			"label": "議案第16号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2765&Sflg=2",
+			"fetchedAt": "2026-10-08T11:17:45.299Z"
+		},
+		{
+			"label": "議案第16号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2765_e01-016.pdf",
+			"fetchedAt": "2026-10-08T11:17:51.392Z"
+		}
+	],
+	"name": "新産業の森第二地区に負担区と額を設定",
+	"category": "税・手数料",
+	"summary": "新産業の森第二地区の下水道事業に伴い、受益者負担金の負担区と額を新たに定めます。負担区は「東部第五」、額は150円です。",
+	"changes": [
+		"負担区「東部第五」と額150円を定める"
+	],
+	"who": [
+		"新産業の森第二地区で下水道事業受益者負担金を負担する人"
+	],
+	"why": "新産業の森第二地区で下水道事業を実施し、受益者負担金を賦課・徴収するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.847Z",
+		"inputTokens": 1370,
+		"cachedTokens": 0,
+		"outputTokens": 880,
+		"reasoningTokens": 674,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.847Z",
+		"checkedAt": "2026-10-10T07:29:38.573Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1238,
+			"cachedTokens": 0,
+			"outputTokens": 13,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ff937c3eaf1636b3",
+		"name": "Sets the contribution district and amount for the New Industrial Forest Second District",
+		"official": "Partial Amendment to the Fujisawa City Ordinance on Beneficiary Contributions, etc. for Public Sewerage Projects",
+		"summary": "In connection with the sewerage project in the New Industrial Forest Second District, the city will newly set a district and amount for beneficiary contributions. The district is “East No. 5,” and the amount is ¥150.",
+		"changes": [
+			"Sets the “East No. 5” contribution district and an amount of ¥150"
+		],
+		"who": [
+			"People responsible for beneficiary contributions for the sewerage project in the New Industrial Forest Second District"
+		],
+		"why": "The city says this is to carry out the sewerage project in the New Industrial Forest Second District and assess and collect beneficiary contributions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.033Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 650,
+			"reasoningTokens": 456,
+			"batch": true
+		}
+	}
+}

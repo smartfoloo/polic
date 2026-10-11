@@ -1,0 +1,89 @@
+{
+	"id": "nakano-r8-3-78",
+	"assembly": "tokyo/nakano",
+	"approved": false,
+	"number": "第78号議案",
+	"official": "中野区幼保連携型認定こども園の学級の編制、職員、設備及び運営の基準に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": "子ども文教委員会",
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": "2026-09-24",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議案一覧",
+			"url": "https://kugikai-nakano.jp/honkaigi.html?nen=2026&gian_id=121",
+			"fetchedAt": "2026-10-08T15:27:51.872Z"
+		},
+		{
+			"label": "第78号議案（PDF）",
+			"url": "https://kugikai-nakano.jp/gian/2693018734.pdf",
+			"fetchedAt": "2026-10-08T15:28:39.686Z"
+		}
+	],
+	"name": "こども園に性暴力防止の措置を義務付け",
+	"category": "子育て",
+	"summary": "この議案は、条例の第19条を改めるものです。こども園の設置者に、園児と接する特定の業務従事者の犯罪事実確認などを求め、性暴力の防止や発生時の園児の保護を定めます。施行日は2026年12月25日です。",
+	"changes": [
+		"園児への性暴力を防ぎ、発生した場合に園児を適切に保護する",
+		"園児と接する業務のうち特定の環境で接する人について、犯罪事実確認など必要な措置を講じる"
+	],
+	"who": [
+		"幼保連携型認定こども園の設置者",
+		"園児"
+	],
+	"why": "幼保連携型認定こども園の運営基準の改正に伴い、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-09T09:07:28.256Z",
+		"inputTokens": 1640,
+		"cachedTokens": 0,
+		"outputTokens": 1226,
+		"reasoningTokens": 947
+	},
+	"checks": {
+		"draftAt": "2026-10-09T09:07:28.256Z",
+		"checkedAt": "2026-10-09T11:49:28.414Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1586,
+			"cachedTokens": 0,
+			"outputTokens": 57,
+			"reasoningTokens": 42
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0ec05fd0e9f6ca86",
+		"name": "Requires childcare centers to take measures to prevent sexual violence",
+		"official": "Ordinance Partially Amending the Nakano City Ordinance on Standards for Class Organization, Staff, Facilities and Operation of Integrated-Type Certified Centers for Early Childhood Education and Care",
+		"summary": "The bill amends Article 19 of the ordinance. It requires operators of certified centers for early childhood education and care to conduct criminal history checks, among other measures, on certain workers who come into contact with children. It also sets out measures to prevent sexual violence and protect children if it occurs. It takes effect on December 25, 2026.",
+		"changes": [
+			"Prevent sexual violence against children and appropriately protect them if it occurs",
+			"Take necessary measures, including criminal history checks, for people who come into contact with children in certain settings while performing work involving contact with children"
+		],
+		"who": [
+			"Operators of integrated-type certified centers for early childhood education and care",
+			"Children enrolled at the centers"
+		],
+		"why": "The ward says this is to make the necessary changes to the provisions following amendments to the operating standards for integrated-type certified centers for early childhood education and care.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T11:54:20.732Z",
+			"inputTokens": 712,
+			"cachedTokens": 0,
+			"outputTokens": 903,
+			"reasoningTokens": 640
+		}
+	}
+}

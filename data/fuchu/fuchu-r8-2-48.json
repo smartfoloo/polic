@@ -33,8 +33,8 @@
 	"summary": "現在の市立宮町図書館は、府中市宮町3丁目1番地にあります。この議案では、名称を「府中市立ふるさと文庫」に変え、位置を府中市宮西町2丁目24番地に移し、開館時間と休館日も改めます。変更は令和9年1月4日からです。",
 	"changes": [
 		"名称と位置を府中市立宮町図書館・府中市宮町3丁目1番地から、府中市立ふるさと文庫・府中市宮西町2丁目24番地に変更する",
-		"開館時間を午前9時から午後7時までから、午前9時から午後5時までに変更する",
-		"休館日を月曜日（休日の場合はその後で最も近い休日でない日）、1月1日から3日、5月3日から5日、12月29日から31日から、1月1日から3日に変更する"
+		"開館時間を午前9時から午後5時までから、午前9時から午後7時までに変更する",
+		"休館日を月曜日（休日の場合はその後で最も近い休日でない日）、1月1日から3日、5月3日から5日、12月29日から31日から、1月1日から3日及び12月29日から31日に変更する"
 	],
 	"who": [
 		"府中市立宮町図書館の利用者"
@@ -44,40 +44,65 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T03:27:09.155Z",
+		"generatedAt": "2026-10-08T23:16:04.178Z",
 		"inputTokens": 1631,
 		"cachedTokens": 0,
 		"outputTokens": 1996,
-		"reasoningTokens": 1655
+		"reasoningTokens": 1655,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:16:04.178Z",
+			"notes": [
+				"ai [error] changes/direction: 「開館時間を午前9時から午後7時までから、午前9時から午後5時までに変更する」 → 原文は改正前が午前9時から午後5時まで、改正後が午前9時から午後7時までで、変更の向きが逆。",
+				"ai [error] changes/fact: 「休館日を月曜日（休日の場合はその後で最も近い休日でない日）、1月1日から3日、5月3日から5日、12月29日から31日から、1月1日から3日に変更する」 → 原文の改正後の休館日は、1月1日から3日まで及び12月29日から31日まで。年末の休館日は廃止されない。"
+			],
+			"inputTokens": 2239,
+			"cachedTokens": 1025,
+			"outputTokens": 680,
+			"reasoningTokens": 330
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T03:27:09.155Z",
-		"checkedAt": "2026-10-08T05:13:45.465Z",
+		"draftAt": "2026-10-08T23:16:04.178Z",
+		"checkedAt": "2026-10-08T23:16:07.549Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "changes",
-				"kind": "direction",
-				"severity": "error",
-				"quote": "開館時間を午前9時から午後7時までから、午前9時から午後5時までに変更する",
-				"note": "原文は改正前が午前9時から午後5時まで、改正後が午前9時から午後7時までで、変更の向きが逆。"
-			},
-			{
-				"field": "changes",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "休館日を月曜日（休日の場合はその後で最も近い休日でない日）、1月1日から3日、5月3日から5日、12月29日から31日から、1月1日から3日に変更する",
-				"note": "原文の改正後の休館日は、1月1日から3日まで及び12月29日から31日まで。年末の休館日は廃止されない。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 1644,
+			"inputTokens": 1653,
 			"cachedTokens": 0,
-			"outputTokens": 414,
-			"reasoningTokens": 199
+			"outputTokens": 76,
+			"reasoningTokens": 62
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "582fdc2585ed00f4",
+		"name": "Changes Miyamachi Library’s name, location and opening hours",
+		"official": "Ordinance Partially Amending the Fuchu City Library Ordinance",
+		"summary": "The current Fuchu City Miyamachi Library is at 3-chome, 1 Miyamachi, Fuchu City. This bill changes its name to Fuchu City Hometown Library and moves it to 2-chome, 24 Miyanishicho, Fuchu City. It also changes the opening hours and closing days. The changes take effect on January 4, 2027.",
+		"changes": [
+			"Changes the name and location from Fuchu City Miyamachi Library, 3-chome, 1 Miyamachi, Fuchu City, to Fuchu City Hometown Library, 2-chome, 24 Miyanishicho, Fuchu City",
+			"Changes the opening hours from 9 a.m.–5 p.m. to 9 a.m.–7 p.m.",
+			"Changes the closing days from Mondays (or, if Monday is a holiday, the nearest following day that is not a holiday), January 1–3, May 3–5 and December 29–31, to January 1–3 and December 29–31"
+		],
+		"who": [
+			"Users of Fuchu City Miyamachi Library"
+		],
+		"why": "The city says the necessary changes are being made because the name and location of the city-run Miyamachi Library are changing.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:51.943Z",
+			"inputTokens": 757,
+			"cachedTokens": 0,
+			"outputTokens": 979,
+			"reasoningTokens": 640
 		}
 	}
 }

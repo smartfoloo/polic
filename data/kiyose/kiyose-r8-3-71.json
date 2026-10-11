@@ -1,0 +1,42 @@
+{
+	"id": "kiyose-r8-3-71",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第71号",
+	"official": "清瀬市立学童クラブ条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-25",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/735/r8.3.sityouteisyutu.pdf",
+			"fetchedAt": "2026-10-10T14:41:55.269Z"
+		}
+	],
+	"name": "八小第3学童クラブの定員を35人に",
+	"category": "子育て",
+	"summary": "現在、八小第3学童クラブの定員は30人です。令和9年4月1日から、定員を35人に変更します。",
+	"changes": [
+		"定員を30人から35人に変更する"
+	],
+	"who": [
+		"八小第3学童クラブの利用を希望する子どもと保護者"
+	],
+	"why": "定員の変更に伴い、規定を整備するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.836Z",
+		"inputTokens": 1045,
+		"cachedTokens": 0,
+		"outputTokens": 519,
+		"reasoningTokens": 356,
+		"batch": true
+	}
+}

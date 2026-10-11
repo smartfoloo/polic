@@ -73,5 +73,32 @@
 			"outputTokens": 324,
 			"reasoningTokens": 203
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "f8611771c9ae5de2",
+		"name": "Revises how ordinances and rules are promulgated",
+		"official": "Ordinance Partially Amending the Higashikurume City Ordinance on Promulgation",
+		"summary": "Currently, ordinances are promulgated by posting them at four locations in the city. After the amendment, ordinances will be promulgated by posting them at the notice board in front of City Hall and publishing them on the city website. The amendment also sets out measures that may replace the mayor's signature on ordinances, as well as methods for promulgating and publicizing rules and other regulations established by the mayor.",
+		"changes": [
+			"Promulgate ordinances by posting them at the notice board in front of City Hall and publishing them on the city website",
+			"Include measures prescribed by a Ministry of Internal Affairs and Communications order as alternatives to the mayor's signature on ordinances",
+			"Include a preamble, date and mayor's name when promulgating rules established by the mayor",
+			"Organize the methods for publicizing rules and regulations established by city bodies"
+		],
+		"who": [
+			"Higashikurume City residents"
+		],
+		"why": "The city says it is doing this to establish measures that may replace the mayor's signature when ordinances are promulgated and to review the methods for promulgating ordinances and rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:59:39.715Z",
+			"inputTokens": 705,
+			"cachedTokens": 0,
+			"outputTokens": 795,
+			"reasoningTokens": 496
+		}
 	}
 }

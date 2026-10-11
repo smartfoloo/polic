@@ -1,0 +1,86 @@
+{
+	"id": "ebina-r8-3-54",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第54号",
+	"official": "海老名市長等常勤の特別職の給与に関する条例の一部改正について",
+	"by": "head",
+	"session": "令和8年9月第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-08-27",
+	"sources": [
+		{
+			"label": "令和8年9月第3回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F08%2F27%2C2026%2F09%2F30%2C114",
+			"fetchedAt": "2026-10-08T11:27:23.333Z"
+		},
+		{
+			"label": "議案第54号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1518_54.pdf",
+			"fetchedAt": "2026-10-08T11:27:29.359Z"
+		}
+	],
+	"name": "市長・副市長の給料月額を一時引き下げ",
+	"category": "行政のしくみ",
+	"summary": "市長と副市長の給料月額は条例で定められています。この議案では、2026年10月1日から12月31日まで、市長は通常の給料月額から50%、副市長は10%（経済環境部を所管する副市長は30%）を差し引きます。地域手当と期末手当の算定に使う給料月額は、通常の額のままです。",
+	"changes": [
+		"給料月額の減額率を、市長は50%、副市長は10%（経済環境部を所管する副市長は30%）とする",
+		"地域手当と期末手当の算定に使う給料月額を通常額とする"
+	],
+	"who": [],
+	"why": "市長と副市長の給料月額を引き下げるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.842Z",
+		"inputTokens": 1624,
+		"cachedTokens": 0,
+		"outputTokens": 1233,
+		"reasoningTokens": 986,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.842Z",
+		"checkedAt": "2026-10-10T07:29:38.559Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1566,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c4b90a465ba7a79a",
+		"name": "Temporarily cuts the monthly salaries of the mayor and vice mayor",
+		"official": "Regarding a Partial Amendment to the Ebina City Ordinance on Salaries of Full-Time Special Officials, Including the Mayor",
+		"summary": "The monthly salaries of the mayor and vice mayor are set by ordinance. Under this bill, from October 1 through December 31, 2026, 50% of the mayor’s usual monthly salary and 10% of the vice mayor’s usual monthly salary will be deducted. For the vice mayor responsible for the Department of Economic Environment, 30% will be deducted. The monthly salary amount used to calculate the regional allowance and year-end allowance will remain at the usual amount.",
+		"changes": [
+			"Sets the reduction rate at 50% for the mayor and 10% for the vice mayor (30% for the vice mayor responsible for the Department of Economic Environment)",
+			"Keeps the monthly salary amount used to calculate the regional allowance and year-end allowance at the usual amount"
+		],
+		"who": [],
+		"why": "The city says this is to reduce the monthly salaries of the mayor and vice mayor.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.030Z",
+			"inputTokens": 681,
+			"cachedTokens": 0,
+			"outputTokens": 845,
+			"reasoningTokens": 590,
+			"batch": true
+		}
+	}
+}

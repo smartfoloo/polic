@@ -1,0 +1,97 @@
+{
+	"id": "yokohama-r8-1-116",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第116号議案",
+	"official": "横浜市営住宅条例の一部改正",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-10",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第1回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.html",
+			"fetchedAt": "2026-10-08T11:01:02.984Z"
+		},
+		{
+			"label": "市第116号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-1.files/r8_1t_si116.pdf",
+			"fetchedAt": "2026-10-08T11:01:44.852Z"
+		}
+	],
+	"name": "こまどりとサン・三ツ沢を廃止",
+	"category": "住宅",
+	"summary": "こまどりとサン・三ツ沢は、借上げによる市営住宅として条例に記載されています。この議案で両住宅を廃止し、こまどりは令和8年4月1日、サン・三ツ沢は同年5月1日から改正が施行されます。",
+	"changes": [
+		"こまどりを廃止する",
+		"サン・三ツ沢を廃止する"
+	],
+	"who": [
+		"こまどりの入居者",
+		"サン・三ツ沢の入居者"
+	],
+	"why": "こまどりとサン・三ツ沢を廃止するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.558Z",
+		"inputTokens": 1446,
+		"cachedTokens": 0,
+		"outputTokens": 843,
+		"reasoningTokens": 638,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.558Z",
+			"notes": [
+				"ai [check] changes/direction: 「こまどりを借上げによる市営住宅から廃止する」 → 内容欄には廃止とあるが、議案本文の改正箇所は「」内が空で表が崩れており、改正前後の対応を確認できない。",
+				"ai [check] changes/direction: 「サン・三ツ沢を借上げによる市営住宅から廃止する」 → 内容欄には廃止とあるが、議案本文の改正箇所は「」内が空で表が崩れており、改正前後の対応を確認できない。"
+			],
+			"inputTokens": 1918,
+			"cachedTokens": 1025,
+			"outputTokens": 930,
+			"reasoningTokens": 715,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.884Z",
+		"checkedAt": "2026-10-10T07:29:38.694Z",
+		"flags": [
+			"source has a garbled before/after table: check the direction of changes against the PDF"
+		],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "こまどりを借上げによる市営住宅から廃止する",
+				"note": "内容欄には廃止とあるが、議案本文の改正箇所は「」内が空で表が崩れており、改正前後の対応を確認できない。"
+			},
+			{
+				"field": "changes",
+				"kind": "direction",
+				"severity": "check",
+				"quote": "サン・三ツ沢を借上げによる市営住宅から廃止する",
+				"note": "内容欄には廃止とあるが、議案本文の改正箇所は「」内が空で表が崩れており、改正前後の対応を確認できない。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1357,
+			"cachedTokens": 0,
+			"outputTokens": 287,
+			"reasoningTokens": 106,
+			"batch": true
+		}
+	}
+}

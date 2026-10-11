@@ -62,5 +62,29 @@
 			"outputTokens": 42,
 			"reasoningTokens": 28
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e9c8e0997f707334",
+		"name": "Adds Minamisawa No. 17 Green Space to the city parks list",
+		"official": "Ordinance Partially Amending the Higashikurume City Parks Ordinance",
+		"summary": "The list of city parks includes Minamisawa No. 16 Green Space. This bill adds Minamisawa No. 17 Green Space, located at Minamisawa 4-chome, 149-5. The ordinance takes effect on the date of promulgation.",
+		"changes": [
+			"Adds Minamisawa No. 17 Green Space (Minamisawa 4-chome, 149-5) to the list of city parks"
+		],
+		"who": [
+			"People who use Minamisawa No. 17 Green Space"
+		],
+		"why": "The city says this is to adjust the ordinance's provisions in connection with the establishment of a city park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:35.164Z",
+			"inputTokens": 593,
+			"cachedTokens": 0,
+			"outputTokens": 494,
+			"reasoningTokens": 290
+		}
 	}
 }

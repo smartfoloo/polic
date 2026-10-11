@@ -87,5 +87,32 @@
 			"outputTokens": 765,
 			"reasoningTokens": 403
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fa021de79e2c465a",
+		"name": "Reviews how admission fees for park facilities are handled",
+		"official": "Ordinance Partially Amending the Machida City Parks Ordinance",
+		"summary": "The ordinance sets rules for things such as opening hours and fees at paid facilities in city parks. This bill changes how admission fees for landscape facilities managed by designated managers are set, reduced or waived, and handled as income. It takes effect on April 1, 2026.",
+		"changes": [
+			"Set admission fees for landscape facilities managed by designated managers within the ranges in the appended table, and treat the fees as the designated manager’s income with the mayor’s approval",
+			"Allow the mayor or a designated manager to reduce or waive admission fees in accordance with the rules",
+			"Do not refund admission fees already paid, except when there are special reasons"
+		],
+		"who": [
+			"People who use paid park facilities",
+			"Designated managers who manage paid park facilities"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:15:06.252Z",
+			"inputTokens": 670,
+			"cachedTokens": 0,
+			"outputTokens": 557,
+			"reasoningTokens": 336
+		}
 	}
 }

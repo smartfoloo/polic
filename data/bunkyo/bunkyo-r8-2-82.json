@@ -1,0 +1,104 @@
+{
+	"id": "bunkyo-r8-2-82",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第82号",
+	"official": "文京区こどもの権利に関する条例",
+	"by": "head",
+	"session": "令和8年2月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-09",
+	"sources": [
+		{
+			"label": "議案第82号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12503/01gian1.pdf",
+			"fetchedAt": "2026-10-08T10:53:12.162Z"
+		},
+		{
+			"label": "令和8年2月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080317.pdf",
+			"fetchedAt": "2026-10-08T10:53:00.099Z"
+		}
+	],
+	"name": "こどもの権利を守る仕組みを定める",
+	"category": "子育て",
+	"summary": "区内で暮らす、通学・通勤するなど、区内で生活・活動する18歳未満の人などを「こども」と定めます。こどもの権利を守る基本的な考え方や、区・保護者・地域・施設などの役割を定め、相談や救済にあたる権利擁護委員を置きます。条例は令和8年4月1日から施行し、委員に関する章は公布日から7か月以内の範囲で規則が定める日から施行します。",
+	"changes": [
+		"こどもの権利や、区・保護者・区民等・施設の役割を定める",
+		"意見表明や社会参加、居場所づくり、相談環境などの取組を定める",
+		"相談や調査、権利侵害からの救済などを担う権利擁護委員を置く"
+	],
+	"who": [
+		"区内で生活・活動する18歳未満の人など",
+		"こどもの保護者",
+		"区民、区内の事業者・団体、保育所・学校などの施設"
+	],
+	"why": "こどもの権利に関する基本理念その他基本的事項を定めるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.832Z",
+		"inputTokens": 9463,
+		"cachedTokens": 0,
+		"outputTokens": 1525,
+		"reasoningTokens": 1182,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.832Z",
+		"checkedAt": "2026-10-10T07:29:38.537Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "意見表明や社会参加、居場所づくり、相談環境などの取組を定める",
+				"note": "第14条の、誰であってもこどもへの虐待・体罰・いじめ等の権利侵害を行ってはならないという禁止規定が抜けています。住民等に直接関わる主な規定です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 9512,
+			"cachedTokens": 0,
+			"outputTokens": 287,
+			"reasoningTokens": 169,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c74c1b1935467a1d",
+		"name": "Establishes a system to protect children’s rights",
+		"official": "Bunkyo City Ordinance on the Rights of Children",
+		"summary": "The ordinance defines as “children” people under 18 and others who live or engage in activities in Bunkyo City, including those who live there or commute to school or work. It sets out basic principles for protecting children’s rights and the roles of the ward, parents, the community and facilities, and establishes children’s rights commissioners to handle consultations and provide remedies. The ordinance takes effect on April 1, 2026. The chapter on the commissioners takes effect on a date set by rules within seven months of promulgation.",
+		"changes": [
+			"Sets out children’s rights and the roles of the ward, parents, residents and others, and facilities",
+			"Sets out measures such as enabling children to express their views and participate in society, creating places for them, and providing consultation environments",
+			"Establishes children’s rights commissioners to handle consultations, investigations and remedies for violations of rights"
+		],
+		"who": [
+			"People under 18 and others who live or engage in activities in Bunkyo City",
+			"Children’s guardians",
+			"Residents, businesses and organizations in Bunkyo City, and facilities such as nursery schools and schools"
+		],
+		"why": "The ward says this is to establish basic principles and other fundamental matters concerning children’s rights.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.020Z",
+			"inputTokens": 777,
+			"cachedTokens": 0,
+			"outputTokens": 1066,
+			"reasoningTokens": 752,
+			"batch": true
+		}
+	}
+}

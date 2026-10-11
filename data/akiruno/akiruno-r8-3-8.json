@@ -75,5 +75,32 @@
 			"outputTokens": 399,
 			"reasoningTokens": 121
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7803a929fb889765",
+		"name": "Allows My Number cards to be used for children's medical expense subsidies",
+		"official": "Ordinance Partially Amending the Akiruno City Ordinance on Subsidies for Medical Expenses for Infants and Young Children, etc.",
+		"summary": "The rules for medical expense subsidies for infants and young children, single-parent households, children of compulsory school age, high school students, and others provide for using medical certificates and similar documents. In cases separately specified by the mayor, confirmation will also be possible using a My Number card. The ordinance also revises the wording for the amount paid for meals during medical treatment and the rules for cases in which a high school student applies in their own name.",
+		"changes": [
+			"Adds a My Number card as a way to confirm eligibility alongside a medical certificate when separately specified by the mayor",
+			"Standardizes the wording for the standard amount patients pay for meals during medical treatment",
+			"Revises the rules for cases in which a high school student applies in their own name"
+		],
+		"who": [
+			"Infants and young children, children, high school students, and others covered by medical expense subsidies, and their parents or guardians",
+			"Single-parent households and similar households"
+		],
+		"why": "The city says it needs to support online eligibility verification because it will begin connecting to the information-sharing platform (PMH) that links municipalities and medical institutions in April 2026.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:15:33.693Z",
+			"inputTokens": 741,
+			"cachedTokens": 0,
+			"outputTokens": 1298,
+			"reasoningTokens": 985
+		}
 	}
 }

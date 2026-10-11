@@ -1,0 +1,98 @@
+{
+	"id": "kawasaki-r8-3-113",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第113号",
+	"official": "川崎市廃棄物の処理及び再生利用等に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第113号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_113.pdf",
+			"fetchedAt": "2026-10-08T11:11:45.478Z"
+		}
+	],
+	"name": "廃棄物処理などの手数料を改定",
+	"category": "税・手数料",
+	"summary": "条例で定める、し尿や汚泥の処理、浄化槽などの清掃にかかる手数料と、不燃性固形物の処理費用を改定します。別表第1の6つの金額は4,500円から5,400円などに、別表第2の金額は11円から16円に上がります。金額の改定は2027年4月1日から、非常災害廃棄物に関する条文の改正は公布日から施行します。",
+	"changes": [
+		"別表第1の6つの金額を4,500円から5,400円、2,250円から2,700円、3,820円から5,730円、3,150円から4,720円、9,670円から14,500円、4,720円から7,080円に改める",
+		"別表第2の金額を11円から16円に改める",
+		"非常災害廃棄物の処分を再委託された者などを、生活環境影響調査結果の縦覧に関する届出者に加える",
+		"非常災害廃棄物の用語と廃棄物処理法の条文参照を改める"
+	],
+	"who": [
+		"し尿・汚泥の処理や浄化槽などの清掃を申し込む人",
+		"不燃性固形物の処理を申し込む人",
+		"非常災害廃棄物の処分を受託・再受託する事業者"
+	],
+	"why": "し尿の処理などに係る手数料と不燃性固形物の処理費用を改定し、廃棄物処理法の改正に伴って非常災害廃棄物の処理を再受託する者などを届出を行う者に加えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.873Z",
+		"inputTokens": 2039,
+		"cachedTokens": 0,
+		"outputTokens": 2327,
+		"reasoningTokens": 1801,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.873Z",
+		"checkedAt": "2026-10-10T07:29:38.648Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2235,
+			"cachedTokens": 0,
+			"outputTokens": 86,
+			"reasoningTokens": 71,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "426901c420eae910",
+		"name": "Revises fees for waste treatment and related services",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Ordinance on Waste Disposal and Recycling, etc.",
+		"summary": "The fees set by the ordinance for treating human waste and sludge and cleaning septic tanks, etc., and the cost of treating incombustible solid waste will be revised. The six amounts in Appendix Table 1 will increase from ¥4,500 to ¥5,400, from ¥2,250 to ¥2,700, from ¥3,820 to ¥5,730, from ¥3,150 to ¥4,720, from ¥9,670 to ¥14,500, and from ¥4,720 to ¥7,080. The amount in Appendix Table 2 will increase from ¥11 to ¥16. The revised amounts will take effect on April 1, 2027, and the amendments to provisions concerning waste from extraordinary disasters will take effect on the date of promulgation.",
+		"changes": [
+			"Raises the six amounts in Appendix Table 1 from ¥4,500 to ¥5,400, from ¥2,250 to ¥2,700, from ¥3,820 to ¥5,730, from ¥3,150 to ¥4,720, from ¥9,670 to ¥14,500, and from ¥4,720 to ¥7,080",
+			"Raises the amount in Appendix Table 2 from ¥11 to ¥16",
+			"Adds people entrusted or re-entrusted with disposing of waste from extraordinary disasters, among others, to those required to submit notifications concerning public inspection of the results of surveys of effects on the living environment",
+			"Revises the term for waste from extraordinary disasters and references to provisions of the Waste Management Act"
+		],
+		"who": [
+			"People applying for treatment of human waste or sludge, or cleaning of septic tanks, etc.",
+			"People applying for treatment of incombustible solid waste",
+			"Businesses entrusted or re-entrusted with disposing of waste from extraordinary disasters"
+		],
+		"why": "The city says the fees for treating human waste and related services and the cost of treating incombustible solid waste are being revised, and that, following amendments to the Waste Management Act, people re-entrusted with disposing of waste from extraordinary disasters, among others, are being added to those required to submit notifications.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.060Z",
+			"inputTokens": 945,
+			"cachedTokens": 0,
+			"outputTokens": 1250,
+			"reasoningTokens": 731,
+			"batch": true
+		}
+	}
+}

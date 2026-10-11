@@ -63,5 +63,35 @@
 			"outputTokens": 98,
 			"reasoningTokens": 83
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "40fa7de5acd8556a",
+		"name": "Reviews the response headquarters’ organization and meeting arrangements",
+		"official": "Ordinance Partially Amending the Meguro City Ordinance on the Civil Protection Countermeasures Headquarters and Emergency Response Situation Countermeasures Headquarters",
+		"summary": "The ordinance sets out the organization and operation of the Civil Protection Response Headquarters and similar bodies. The amendment revises matters such as establishing divisions and deputy division heads, and the role of headquarters meetings. It takes effect on April 1, 2026.",
+		"changes": [
+			"Establish divisions within the Civil Protection Response Headquarters as provided for by rules",
+			"Place deputy division heads in divisions designated by rules, to assist division heads and act on their behalf",
+			"Establish a headquarters meeting to deliberate on important matters",
+			"Revise how members are designated when a local response headquarters is established"
+		],
+		"who": [
+			"The Civil Protection Response Headquarters",
+			"Divisions designated by rules and their deputy division heads",
+			"The headquarters meeting",
+			"Members of a local response headquarters"
+		],
+		"why": "The ward says it is revising the organization of the Civil Protection Response Headquarters and similar bodies.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:42:26.142Z",
+			"inputTokens": 676,
+			"cachedTokens": 0,
+			"outputTokens": 1458,
+			"reasoningTokens": 1198
+		}
 	}
 }

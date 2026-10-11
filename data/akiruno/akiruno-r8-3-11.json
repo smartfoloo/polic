@@ -55,5 +55,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "6b7c2aad010ada03",
+		"name": "Repeals the Welfare Hall Ordinance",
+		"official": "Ordinance to Repeal the Akiruno City Welfare Hall Ordinance",
+		"summary": "Akiruno City has an ordinance covering its welfare hall. This bill repeals the ordinance, effective April 1, 2026.",
+		"changes": [
+			"Repeals the Akiruno City Welfare Hall Ordinance"
+		],
+		"who": [
+			"People carrying out welfare activities at the welfare hall"
+		],
+		"why": "The city says that, following the reorganization of public facilities and other changes, there is no longer any possibility of elderly people’s welfare activities or social welfare activities being carried out at the welfare hall, so there is no longer a need to keep the ordinance.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:14:40.663Z",
+			"inputTokens": 585,
+			"cachedTokens": 0,
+			"outputTokens": 690,
+			"reasoningTokens": 513
+		}
 	}
 }

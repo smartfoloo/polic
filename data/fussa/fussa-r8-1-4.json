@@ -1,0 +1,83 @@
+{
+	"id": "fussa-r8-1-4",
+	"assembly": "tokyo/fussa",
+	"approved": false,
+	"number": "議案第4号",
+	"official": "福生市会計年度任用職員の報酬等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": "総務文教委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-27",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/1020984.html",
+			"fetchedAt": "2026-10-08T10:57:01.728Z"
+		}
+	],
+	"name": "会計年度任用職員の通勤費を改定",
+	"category": "行政のしくみ",
+	"summary": "会計年度任用職員の通勤にかかる費用弁償の額が定められています。この議案では、国と東京都の改定に準じて、その額を改めます。",
+	"changes": [
+		"通勤にかかる費用弁償の額を改定する"
+	],
+	"who": [
+		"福生市の会計年度任用職員"
+	],
+	"why": "国と東京都の改定に準じて通勤にかかる費用弁償の額を改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.853Z",
+		"inputTokens": 1040,
+		"cachedTokens": 0,
+		"outputTokens": 572,
+		"reasoningTokens": 408,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.853Z",
+		"checkedAt": "2026-10-10T07:29:38.583Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 896,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "28ef896e33d7d0ad",
+		"name": "Revises commuting expense reimbursement for fiscal-year-appointed employees",
+		"official": "Ordinance Partially Amending the Fussa City Ordinance on Remuneration, etc. for Fiscal-Year-Appointed Employees",
+		"summary": "The amount of reimbursement for commuting expenses for fiscal-year-appointed employees is set. This bill revises that amount in line with revisions by the national government and the Tokyo Metropolitan Government.",
+		"changes": [
+			"Revises the amount of reimbursement for commuting expenses"
+		],
+		"who": [
+			"Fiscal-year-appointed employees of Fussa City"
+		],
+		"why": "The city says it is revising the amount of reimbursement for commuting expenses in line with revisions by the national government and the Tokyo Metropolitan Government.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.038Z",
+			"inputTokens": 603,
+			"cachedTokens": 0,
+			"outputTokens": 484,
+			"reasoningTokens": 312,
+			"batch": true
+		}
+	}
+}

@@ -57,5 +57,29 @@
 			"outputTokens": 107,
 			"reasoningTokens": 92
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "c570a1f4c824014e",
+		"name": "Adds Nishiki 6 Kita No. 3 Park to the ordinance",
+		"official": "Ordinance Partially Amending the Tachikawa City Parks Ordinance",
+		"summary": "The names and locations of city parks are listed in the ordinance. The bill adds Tachikawa City Nishiki 6 Kita No. 3 Park and its location to the list.",
+		"changes": [
+			"Adds Tachikawa City Nishiki 6 Kita No. 3 Park and its location (7-4, Nishiki-cho 6-chome, Tachikawa City) to the list"
+		],
+		"who": [
+			"Residents of Nishiki-cho 6-chome, Tachikawa City"
+		],
+		"why": "The city says this is based on Article 244-2, Paragraph 1 of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:16:28.377Z",
+			"inputTokens": 582,
+			"cachedTokens": 0,
+			"outputTokens": 596,
+			"reasoningTokens": 398
+		}
 	}
 }

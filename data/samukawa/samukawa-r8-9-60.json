@@ -1,0 +1,89 @@
+{
+	"id": "samukawa-r8-9-60",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第60号",
+	"official": "寒川町国民健康保険条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会9月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-25",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第60号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/R8-9_gian60.pdf",
+			"fetchedAt": "2026-10-10T14:59:00.461Z"
+		}
+	],
+	"name": "コロナ傷病手当金の規定を削除",
+	"category": "健康・医療",
+	"summary": "町の国民健康保険条例には、新型コロナウイルス感染症にかかった被保険者などへの傷病手当金の規定があります。この議案では、支給期間の終了に伴ってその規定を削除し、所得税法の引用に法律番号を加えます。令和8年11月10日から施行します。",
+	"changes": [
+		"新型コロナウイルス感染症に関する傷病手当金の規定を削除する",
+		"所得税法の引用に法律番号を加える"
+	],
+	"who": [],
+	"why": "支給期間が終了したことに伴い、条文を整理するためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:05:24.014Z",
+		"inputTokens": 6374,
+		"cachedTokens": 0,
+		"outputTokens": 893,
+		"reasoningTokens": 699,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:05:24.014Z",
+		"checkedAt": "2026-10-10T15:07:29.994Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6262,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ff089f6d1ff329e7",
+		"name": "Removes the COVID-19 sickness and injury allowance provision",
+		"official": "Partial Amendment to the Samukawa Town National Health Insurance Ordinance",
+		"summary": "The town’s National Health Insurance Ordinance contains provisions for sickness and injury allowance for people insured under the town’s National Health Insurance who contract COVID-19, and others. This bill deletes those provisions following the end of the payment period and adds the law number to the citation of the Income Tax Act. It takes effect on November 10, 2026.",
+		"changes": [
+			"Deletes the provision for sickness and injury allowance related to COVID-19",
+			"Adds the law number to the citation of the Income Tax Act"
+		],
+		"who": [
+			"People insured under the town’s National Health Insurance, and others",
+			"The town"
+		],
+		"why": "The town says it is tidying up the ordinance following the end of the payment period.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:10:40.866Z",
+			"inputTokens": 619,
+			"cachedTokens": 0,
+			"outputTokens": 1376,
+			"reasoningTokens": 1163,
+			"batch": true
+		}
+	}
+}

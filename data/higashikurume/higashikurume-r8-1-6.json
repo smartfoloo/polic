@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b58e1be76afa42b3",
+		"name": "Sets daily pay for school management council members at ¥1,500",
+		"official": "Ordinance Partially Amending the Ordinance on Remuneration and Expense Reimbursement for Part-Time Special-Status Employees of Higashikurume City",
+		"summary": "The current ordinance’s list of remuneration amounts does not include pay for school management council members. This bill sets their pay at ¥1,500 per day and takes effect on April 1, 2026.",
+		"changes": [
+			"Creates a pay category of ¥1,500 per day"
+		],
+		"who": [
+			"School management council members"
+		],
+		"why": "The city says it is necessary to establish the relevant provisions because school management councils will be set up from fiscal year 2026.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:59:44.616Z",
+			"inputTokens": 629,
+			"cachedTokens": 0,
+			"outputTokens": 434,
+			"reasoningTokens": 252
+		}
 	}
 }

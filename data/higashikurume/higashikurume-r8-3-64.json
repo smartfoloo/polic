@@ -60,5 +60,27 @@
 			"outputTokens": 57,
 			"reasoningTokens": 43
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fb87f0bab3e1c843",
+		"name": "Changes a reference in the waste ordinance",
+		"official": "Ordinance Partially Amending the Higashikurume City Ordinance on Waste Disposal and Reuse",
+		"summary": "A provision sets out the scope in which the mayor may give instructions concerning large amounts of business waste, including requiring a waste-reduction plan to be prepared. This amendment changes the legal provision cited there from Article 6-2, paragraph 5, to Article 6-2, paragraph 7. The effective date is the date the relevant provision of the national amendment law comes into force.",
+		"changes": [
+			"Changes the cited provision from Article 6-2, paragraph 5, to Article 6-2, paragraph 7"
+		],
+		"who": [],
+		"why": "The city says the provisions need to be adjusted because a law amending the Waste Management and Public Cleansing Act and other laws is coming into force.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:25.576Z",
+			"inputTokens": 650,
+			"cachedTokens": 0,
+			"outputTokens": 558,
+			"reasoningTokens": 346
+		}
 	}
 }

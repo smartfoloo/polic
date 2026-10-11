@@ -1,0 +1,79 @@
+{
+	"id": "kokubunji-r8-3-89",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第89号",
+	"official": "国分寺市市税賦課徴収条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-30",
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1038313.html",
+			"fetchedAt": "2026-10-08T10:58:25.915Z"
+		},
+		{
+			"label": "令和8年第3回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/038/341/09303.pdf",
+			"fetchedAt": "2026-10-08T10:58:37.914Z"
+		}
+	],
+	"name": "医療費控除の特例に関する規定を整備",
+	"category": "税・手数料",
+	"summary": "地方税法の改正に伴い、市税賦課徴収条例の一部を改正します。対象となる一般用医薬品などを買った費用に関する医療費控除の特例について、規定などを整えます。",
+	"changes": [
+		"医療費控除の特例に関する規定などを整備する"
+	],
+	"who": [
+		"特定一般用医薬品等を購入した人"
+	],
+	"why": "地方税法の改正に伴い、関連する規定などを整備するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.555Z",
+		"inputTokens": 1043,
+		"cachedTokens": 0,
+		"outputTokens": 682,
+		"reasoningTokens": 488,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.555Z",
+			"notes": [
+				"code: copied from the source (25 chars): 「購入費を支払った場合の医療費控除の特例に関する規定」"
+			],
+			"inputTokens": 1354,
+			"cachedTokens": 1025,
+			"outputTokens": 683,
+			"reasoningTokens": 490,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.878Z",
+		"checkedAt": "2026-10-10T07:29:38.665Z",
+		"flags": [
+			"copied from the source (25 chars): 「購入費を支払った場合の医療費控除の特例に関する規定」"
+		],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 909,
+			"cachedTokens": 0,
+			"outputTokens": 33,
+			"reasoningTokens": 19,
+			"batch": true
+		}
+	}
+}

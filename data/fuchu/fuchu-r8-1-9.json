@@ -65,5 +65,31 @@
 			"outputTokens": 49,
 			"reasoningTokens": 34
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "d71a806e64633cfc",
+		"name": "Changes menstrual leave to health management leave for city employees",
+		"official": "Ordinance Partially Amending the Ordinance on Working Hours, Holidays, Leave, etc. for Fuchu City Employees, and Related Ordinances",
+		"summary": "The list of special leave for Fuchu City employees includes “menstrual leave.” This bill changes its name to “health management leave.” It also sets limits on the number of days for which pay is not reduced when Fuchu City employees and Boat Race Enterprise Bureau employees take health management leave.",
+		"changes": [
+			"Renames the special leave from “menstrual leave” to “health management leave”",
+			"Sets a limit under rules on the number of days Fuchu City employees can take health management leave without a pay reduction, and a limit set by the administrator for Boat Race Enterprise Bureau employees"
+		],
+		"who": [
+			"Fuchu City employees",
+			"Fuchu City Boat Race Enterprise Bureau employees"
+		],
+		"why": "The city says it is reviewing the names of leave types and other matters.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:21:18.787Z",
+			"inputTokens": 695,
+			"cachedTokens": 0,
+			"outputTokens": 1399,
+			"reasoningTokens": 1154
+		}
 	}
 }

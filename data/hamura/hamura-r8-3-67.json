@@ -1,0 +1,89 @@
+{
+	"id": "hamura-r8-3-67",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第67号",
+	"official": "羽村市立公園条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-09-09",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "公園の有料施設使用料を改定",
+	"category": "税・手数料",
+	"summary": "公園の有料施設には、施設や利用時間に応じた使用料が定められています。この議案で、野球場や庭球場などの使用料を改定し、堰下レクリエーション広場を除く施設では、市民等以外の使用料を改定後の使用料の2倍にします。改正は令和9年4月1日からです。",
+	"changes": [
+		"野球場・ソフトボール場を1面2時間610円から1,000円に、庭球場を1面2時間600円から800円に改定する",
+		"陸上競技場・サッカー場を1面4時間2,440円から3,000円に、富士見公園クラブハウスの第1ミーティングルームを1部屋3時間510円から600円に、第2ミーティングルームを310円から400円に改定する",
+		"堰下レクリエーション広場の芝生広場を1面6時間1,830円から2,000円に、テントサイトを1張全日410円から1,000円に、営火場第1から第3を全日410円・510円・610円からそれぞれ1,000円に改定する",
+		"夜間照明料を陸上競技場は1時間1,530円から1,600円に、野球場は3,560円から3,600円に、庭球場は510円から600円に改定し、堰下レクリエーション広場を除く有料施設では市民等以外の使用料を改定後の使用料の2倍にする"
+	],
+	"who": [
+		"羽村市の公園有料施設を利用する人",
+		"堰下レクリエーション広場以外の有料施設を使う市民等以外の人"
+	],
+	"why": "羽村市使用料等審議会の答申を踏まえ、受益者負担の適正化を図るためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.860Z",
+		"inputTokens": 1435,
+		"cachedTokens": 0,
+		"outputTokens": 1765,
+		"reasoningTokens": 1261,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.860Z",
+		"checkedAt": "2026-10-10T07:29:38.608Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1644,
+			"cachedTokens": 0,
+			"outputTokens": 107,
+			"reasoningTokens": 92,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4514eb22fd28f318",
+		"name": "Revises fees for paid park facilities",
+		"official": "Ordinance Partially Amending the Hamura City Parks Ordinance",
+		"summary": "Paid facilities in parks have fees set according to the facility and length of use. This bill revises fees for baseball fields, tennis courts and other facilities. At facilities other than Sekishita Recreation Plaza, the fees for people who do not fall under “Hamura City residents, etc.” will be twice the revised fees. The changes take effect on April 1, 2027.",
+		"changes": [
+			"Raises the fee for a baseball or softball field from ¥610 to ¥1,000 per field for 2 hours, and for a tennis court from ¥600 to ¥800 per court for 2 hours; raises the fee for the athletics stadium and soccer field from ¥2,440 to ¥3,000 per field for 4 hours, Meeting Room 1 at Fujimi Park Clubhouse from ¥510 to ¥600 per room for 3 hours, and Meeting Room 2 from ¥310 to ¥400.",
+			"Raises fees at Sekishita Recreation Plaza: the lawn area from ¥1,830 to ¥2,000 per field for 6 hours, tent sites from ¥410 to ¥1,000 per tent for a full day, and Fire Areas 1–3 from ¥410, ¥510 and ¥610 to ¥1,000 each for a full day; raises night lighting fees for the athletics stadium from ¥1,530 to ¥1,600 per hour, the baseball field from ¥3,560 to ¥3,600, and the tennis court from ¥510 to ¥600; doubles fees for people who do not fall under “Hamura City residents, etc.” at paid facilities other than Sekishita Recreation Plaza."
+		],
+		"who": [
+			"People who use paid facilities in Hamura City parks",
+			"People who do not fall under “Hamura City residents, etc.” and use paid facilities other than Sekishita Recreation Plaza"
+		],
+		"why": "The city says this is to ensure that users bear an appropriate share of the costs, based on the recommendation of the Hamura City Fees and Other Charges Review Council.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.046Z",
+			"inputTokens": 938,
+			"cachedTokens": 0,
+			"outputTokens": 2997,
+			"reasoningTokens": 2520,
+			"batch": true
+		}
+	}
+}

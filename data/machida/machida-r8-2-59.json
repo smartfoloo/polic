@@ -74,5 +74,33 @@
 			"outputTokens": 275,
 			"reasoningTokens": 158
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "4a1e07d18532af87",
+		"name": "Sets a monthly base charge for sewer use",
+		"official": "Ordinance Partially Amending the Machida City Sewerage Ordinance",
+		"summary": "Sewerage charges are currently calculated according to the type and volume of wastewater. This bill sets a monthly base charge of ¥740 for general wastewater and revises the unit rates charged according to wastewater volume, as well as the method for calculating charges when service begins or ends partway through a month. The revised charges will apply to usage from January 1, 2027 onward.",
+		"changes": [
+			"Set a monthly base charge of ¥740 for general wastewater",
+			"Revise the unit rates charged according to wastewater volume",
+			"Revise the method for calculating charges for bathhouse wastewater",
+			"Halve the base charge when the number of days of use is 15 or fewer"
+		],
+		"who": [
+			"Residents and businesses that use the sewer system",
+			"Operators of public bathhouses"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:32:53.503Z",
+			"inputTokens": 666,
+			"cachedTokens": 0,
+			"outputTokens": 545,
+			"reasoningTokens": 317
+		}
 	}
 }

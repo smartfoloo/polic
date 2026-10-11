@@ -67,5 +67,31 @@
 			"outputTokens": 274,
 			"reasoningTokens": 158
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "314727761cd0f63f",
+		"name": "Adds online delivery as a way to disclose public documents",
+		"official": "Ordinance Partially Amending the Ome City Information Disclosure Ordinance",
+		"summary": "The current ordinance sets out ways to disclose public documents and the fees for doing so. This bill adds ways to view electronic records on a screen and receive them via a communications line, and sets fees for each disclosure method.",
+		"changes": [
+			"Adds the option to view electronic records on a screen or receive them via a communications line",
+			"Sets the fee for delivery via a communications line at ¥100 for each block of up to 100 pages",
+			"Sets the fee for printed copies at ¥10 per black-and-white page and ¥20 per color page, and for optical discs at ¥100 each"
+		],
+		"who": [
+			"People requesting disclosure of public documents"
+		],
+		"why": "The city says this is to add provisions on disclosing public documents in electronic form and to make other necessary provisions.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:02:56.517Z",
+			"inputTokens": 666,
+			"cachedTokens": 0,
+			"outputTokens": 732,
+			"reasoningTokens": 508
+		}
 	}
 }

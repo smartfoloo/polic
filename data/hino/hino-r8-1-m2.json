@@ -1,0 +1,38 @@
+{
+	"id": "hino-r8-1-m2",
+	"assembly": "tokyo/hino",
+	"approved": false,
+	"number": "議員提出議案第2号",
+	"official": "日野市高等学校等奨学金条例の制定について",
+	"by": "member",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "否決",
+	"date": "2026-03-30",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等審議結果一覧表",
+			"url": "https://www.city.hino.lg.jp/shigikai/gian/1030502.html",
+			"fetchedAt": "2026-10-08T10:56:25.598Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "96e57d8da77b7d18",
+		"official": "Regarding the enactment of the Hino City High School, etc. Scholarship Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.510Z",
+			"inputTokens": 380,
+			"cachedTokens": 0,
+			"outputTokens": 268,
+			"reasoningTokens": 236,
+			"batch": true
+		}
+	}
+}

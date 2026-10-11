@@ -55,5 +55,27 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "71aed33d40fa1492",
+		"name": "Repeals the long-term care insurance loan fund ordinance",
+		"official": "Regarding the Enactment of an Ordinance to Repeal the Tama City Long-Term Care Insurance High-Cost Long-Term Care Service Expenses, etc. Loan Fund Ordinance",
+		"summary": "The current Tama City Long-Term Care Insurance High-Cost Long-Term Care Service Expenses, etc. Loan Fund Ordinance will be repealed. The ordinance will be repealed effective April 1, 2026.",
+		"changes": [
+			"Repeals the loan fund ordinance"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:18:44.885Z",
+			"inputTokens": 533,
+			"cachedTokens": 0,
+			"outputTokens": 424,
+			"reasoningTokens": 281
+		}
 	}
 }

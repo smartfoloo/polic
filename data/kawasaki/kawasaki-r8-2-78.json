@@ -1,0 +1,99 @@
+{
+	"id": "kawasaki-r8-2-78",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第78号",
+	"official": "川崎市指定障害児入所施設等の人員、設備及び運営の基準等に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第78号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_78.pdf",
+			"fetchedAt": "2026-10-08T11:09:09.458Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "障害児施設で従事者の犯罪事実確認を義務化",
+	"category": "福祉",
+	"summary": "市の条例を改正し、指定福祉型障害児入所施設の設置者に、障害児と接する業務のうち、支配性・継続性・閉鎖性のある環境で接する人について、犯罪事実確認などを義務付けます。児童対象性暴力等を防ぎ、発生した場合に障害児を適切に保護するための措置です。施行日は2026年12月25日です。",
+	"changes": [
+		"児童対象性暴力等の防止と、発生時の障害児の保護に必要な措置を義務付ける",
+		"対象となる業務従事者について犯罪事実確認などを行う"
+	],
+	"who": [
+		"指定福祉型障害児入所施設の設置者",
+		"障害児と接する対象業務に従事する人",
+		"指定福祉型障害児入所施設を利用する障害児"
+	],
+	"why": "児童福祉法に基づく障害児入所施設などの人員、設備、運営に関する基準の改正に伴い、児童対象性暴力等を防止するための措置を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.870Z",
+		"inputTokens": 1666,
+		"cachedTokens": 0,
+		"outputTokens": 1371,
+		"reasoningTokens": 1008,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.870Z",
+		"checkedAt": "2026-10-10T07:29:38.636Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1702,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "9b144f12ef0d3242",
+		"name": "Requires criminal record checks for workers at facilities for children with disabilities",
+		"official": "On the Enactment of an Ordinance Partially Amending the Kawasaki City Ordinance on Standards for Staffing, Facilities, and Operation of Designated Residential Facilities for Children with Disabilities, etc.",
+		"summary": "The city will amend its ordinance to require operators of designated welfare-type residential facilities for children with disabilities to take measures including criminal record checks for people who engage in work involving contact with children with disabilities in settings marked by a power imbalance, ongoing contact, and isolation. These measures are intended to prevent sexual violence targeting children, etc., and to appropriately protect children with disabilities if it occurs. The ordinance takes effect on December 25, 2026.",
+		"changes": [
+			"Require measures to prevent sexual violence targeting children, etc., and to protect children with disabilities if it occurs",
+			"Conduct criminal record checks, etc., on people engaged in the work covered"
+		],
+		"who": [
+			"Operators of designated welfare-type residential facilities for children with disabilities",
+			"People engaged in covered work involving contact with children with disabilities",
+			"Children with disabilities who use designated welfare-type residential facilities"
+		],
+		"why": "The city says this ordinance sets out measures to prevent sexual violence targeting children, etc., in response to revisions to standards under the Child Welfare Act for staffing, facilities, and operation at residential facilities for children with disabilities, etc.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.057Z",
+			"inputTokens": 791,
+			"cachedTokens": 0,
+			"outputTokens": 1104,
+			"reasoningTokens": 791,
+			"batch": true
+		}
+	}
+}

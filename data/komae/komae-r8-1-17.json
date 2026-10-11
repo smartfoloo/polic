@@ -1,0 +1,38 @@
+{
+	"id": "komae-r8-1-17",
+	"assembly": "tokyo/komae",
+	"approved": false,
+	"number": "議案第17号",
+	"official": "狛江市介護保険条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 審査結果一覧",
+			"url": "https://www.city.komae.tokyo.jp/index.cfm/49,145713,c,html/145713/20260817-155303.pdf",
+			"fetchedAt": "2026-10-08T10:57:25.745Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "cc33a96fa0418206",
+		"official": "Ordinance Partially Amending the Komae City Long-Term Care Insurance Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.515Z",
+			"inputTokens": 381,
+			"cachedTokens": 0,
+			"outputTokens": 142,
+			"reasoningTokens": 109,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"id": "arakawa-r7-2-60",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第60号",
+	"official": "職員の給与に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和7年度定例会・2月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和7年度定例会・2月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_2gatsu_shingikekka.html",
+			"fetchedAt": "2026-10-10T14:47:08.116Z"
+		},
+		{
+			"label": "議案第60号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r7_gian60.html",
+			"fetchedAt": "2026-10-10T14:47:44.102Z"
+		}
+	],
+	"name": "区職員の給料表を改定し経過措置を廃止",
+	"category": "行政のしくみ",
+	"summary": "区職員の給与について、特別区人事委員会の勧告に基づいて見直します。給料表を改定し、特定の職員などに設けられている給料の切替えに伴う経過措置を廃止します。",
+	"changes": [
+		"給料表を改定する",
+		"特定の職員などに対する給料切替えの経過措置を廃止する"
+	],
+	"who": [],
+	"why": "職員の給与について、給料表の改定や経過措置の廃止などを行うためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.809Z",
+		"inputTokens": 1065,
+		"cachedTokens": 0,
+		"outputTokens": 679,
+		"reasoningTokens": 494,
+		"batch": true
+	}
+}

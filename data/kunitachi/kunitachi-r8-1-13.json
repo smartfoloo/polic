@@ -63,5 +63,30 @@
 			"outputTokens": 54,
 			"reasoningTokens": 39
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "467943306c04c597",
+		"name": "Allow service by public notice through electronic screens",
+		"official": "Ordinance Partially Amending the Kunitachi City Ordinance Concerning Medical Care for Older Senior Citizens",
+		"summary": "Currently, service by public notice concerning medical care for older senior citizens is carried out by posting a written notice. This bill would also allow a method in which the matters to be made public are made accessible to an unspecified number of people and can be viewed on a computer screen at a city office. The amended provisions would apply to service by public notice carried out on or after the ordinance’s effective date.",
+		"changes": [
+			"Specify measures for making the matters to be made public accessible to an unspecified number of people",
+			"Allow service by public notice to be carried out either by posting a written notice or by making the notice viewable on a computer screen at a city office"
+		],
+		"who": [
+			"People who receive service by public notice concerning medical care for older senior citizens"
+		],
+		"why": "The city says this is to establish the method of service by public notice again following a partial amendment to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:11:54.984Z",
+			"inputTokens": 708,
+			"cachedTokens": 0,
+			"outputTokens": 581,
+			"reasoningTokens": 328
+		}
 	}
 }

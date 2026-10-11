@@ -1,0 +1,79 @@
+{
+	"id": "hamura-r8-1-20",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第20号",
+	"official": "羽村市職員の勤務時間、休日、休暇等に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-10",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "生理休暇の名称を健康管理休暇に変更",
+	"category": "行政のしくみ",
+	"summary": "市職員の特別休暇には「生理休暇」という名称があります。この議案で、名称を「健康管理休暇」に改めます。施行日は令和8年4月1日です。",
+	"changes": [
+		"特別休暇の名称を「生理休暇」から「健康管理休暇」に改める"
+	],
+	"who": [],
+	"why": "職員の休暇制度の利便性を向上させるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.857Z",
+		"inputTokens": 1053,
+		"cachedTokens": 0,
+		"outputTokens": 515,
+		"reasoningTokens": 354,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.857Z",
+		"checkedAt": "2026-10-10T07:29:38.603Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 888,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "37f90034f298c9da",
+		"name": "Changes the name of menstrual leave to health management leave",
+		"official": "Ordinance Partially Amending the Ordinance Concerning the Working Hours, Holidays, Leave, etc. of Hamura City Employees",
+		"summary": "Special leave for city employees includes leave called “menstrual leave.” This bill changes its name to “health management leave.” It takes effect on April 1, 2026.",
+		"changes": [
+			"Renames special leave from “menstrual leave” to “health management leave”"
+		],
+		"who": [],
+		"why": "The city says this is to improve the convenience of the leave system for employees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.043Z",
+			"inputTokens": 575,
+			"cachedTokens": 0,
+			"outputTokens": 404,
+			"reasoningTokens": 250,
+			"batch": true
+		}
+	}
+}

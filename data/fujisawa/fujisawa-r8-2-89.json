@@ -1,0 +1,95 @@
+{
+	"id": "fujisawa-r8-2-89",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第89号",
+	"official": "藤沢市都市公園条例の一部改正について",
+	"by": "head",
+	"session": "令和8年2月定例会",
+	"committee": "建設経済常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-27",
+	"sources": [
+		{
+			"label": "令和8年2月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F12%2C2026%2F03%2F18%2C112",
+			"fetchedAt": "2026-10-08T11:13:34.985Z"
+		},
+		{
+			"label": "議案第89号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2720&Sflg=2",
+			"fetchedAt": "2026-10-08T11:14:52.946Z"
+		},
+		{
+			"label": "議案第89号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2720_e01-089.pdf",
+			"fetchedAt": "2026-10-08T11:14:58.947Z"
+		}
+	],
+	"name": "6公園の駐車場を有料化し特別期間は3倍に",
+	"category": "まちづくり",
+	"summary": "桐原公園など6公園内の自動車駐車場を有料にします。市長が指定する、混雑が予想される特別期間は、利用料を条例の表に定める上限額の3倍にします。",
+	"changes": [
+		"桐原公園など6公園の自動車駐車場を有料にする",
+		"特別期間の利用料を条例の表に定める上限額の3倍にする"
+	],
+	"who": [
+		"桐原公園、辻堂南部公園、引地川親水公園、大庭城址公園、新林公園、下土棚遊水地公園の駐車場を利用する人"
+	],
+	"why": "桐原公園ほか5公園内の自動車駐車場を有料化し、特別期間の利用料金を設けるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.845Z",
+		"inputTokens": 1714,
+		"cachedTokens": 0,
+		"outputTokens": 1468,
+		"reasoningTokens": 1214,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.845Z",
+		"checkedAt": "2026-10-10T07:29:38.564Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1656,
+			"cachedTokens": 0,
+			"outputTokens": 62,
+			"reasoningTokens": 47,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "2ebfbc90fd5fb7da",
+		"name": "Makes parking at 6 parks paid and triples fees during special periods",
+		"official": "Ordinance Partially Amending the Fujisawa City Urban Parks Ordinance",
+		"summary": "Makes parking at six parks, including Kirihara Park, subject to fees. During special periods designated by the mayor when congestion is expected, the fee will be three times the maximum amount set out in the ordinance’s table.",
+		"changes": [
+			"Charges fees for car parking at six parks, including Kirihara Park",
+			"Sets fees during special periods at three times the maximum amount listed in the ordinance’s table"
+		],
+		"who": [
+			"People who use the car parks at Kirihara Park, Tsujido Nanbu Park, Hikichigawa Shinsui Park, Oba Castle Ruins Park, Shinbayashi Park and Shimotsuchidana Yusuichi Park"
+		],
+		"why": "The city says this is to charge for car parking at Kirihara Park and five other parks and to set fees for special periods.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.032Z",
+			"inputTokens": 680,
+			"cachedTokens": 0,
+			"outputTokens": 488,
+			"reasoningTokens": 250,
+			"batch": true
+		}
+	}
+}

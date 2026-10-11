@@ -1,0 +1,88 @@
+{
+	"id": "kokubunji-r8-1-33",
+	"assembly": "tokyo/kokubunji",
+	"approved": false,
+	"number": "議案第33号",
+	"official": "国分寺市立公園条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-23",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 提出議案一覧",
+			"url": "https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/1037016.html",
+			"fetchedAt": "2026-10-08T10:57:49.996Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/1037122.html",
+			"fetchedAt": "2026-10-08T10:58:01.918Z"
+		}
+	],
+	"name": "市立公園を1件新設",
+	"category": "まちづくり",
+	"summary": "市立公園を1件新設するため、条例を改正します。改正により、市立公園が1件追加されます。",
+	"changes": [
+		"市立公園を1件新設する"
+	],
+	"who": [
+		"市立公園を利用する人"
+	],
+	"why": "市立公園を1件新設するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.877Z",
+		"inputTokens": 996,
+		"cachedTokens": 0,
+		"outputTokens": 452,
+		"reasoningTokens": 338,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.877Z",
+		"checkedAt": "2026-10-10T07:29:38.662Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 806,
+			"cachedTokens": 0,
+			"outputTokens": 32,
+			"reasoningTokens": 17,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "585fff485e90f253",
+		"name": "Adds one new city park",
+		"official": "Regarding the Ordinance to Partially Amend the Kokubunji City Parks Ordinance",
+		"summary": "The ordinance will be amended to establish one new city park. The amendment will add one city park.",
+		"changes": [
+			"Establishes one new city park"
+		],
+		"who": [
+			"People who use city parks"
+		],
+		"why": "The city says this is to establish one new city park.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.066Z",
+			"inputTokens": 542,
+			"cachedTokens": 0,
+			"outputTokens": 328,
+			"reasoningTokens": 208,
+			"batch": true
+		}
+	}
+}

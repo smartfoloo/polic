@@ -1,0 +1,96 @@
+{
+	"id": "bunkyo-r8-6-25",
+	"assembly": "tokyo/bunkyo",
+	"approved": false,
+	"number": "議案第25号",
+	"official": "文京区印鑑条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年6月定例議会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "議案第25号（PDF）",
+			"url": "https://www.city.bunkyo.lg.jp/documents/12660/25~26.pdf",
+			"fetchedAt": "2026-10-08T10:54:00.382Z"
+		},
+		{
+			"label": "令和8年6月定例議会 議決結果",
+			"url": "https://www.city.bunkyo.lg.jp/documents/6766/giketukekka080625.pdf",
+			"fetchedAt": "2026-10-08T10:53:42.318Z"
+		}
+	],
+	"name": "印鑑証明の申請に使えるカード等を追加",
+	"category": "くらし・手続き",
+	"summary": "これまでは、印鑑登録証明書の交付申請に個人番号カードを利用できました。この議案で、所定の電子証明書が記録された特定在留カードや特定特別永住者証明書、電子証明書を記録した移動端末設備も使えるようになります。",
+	"changes": [
+		"個人番号カードに加え、所定の電子証明書を記録した特定在留カードを使えるようにする",
+		"所定の電子証明書を記録した特定特別永住者証明書を使えるようにする",
+		"所定の電子証明書を記録した移動端末設備を使えるようにする"
+	],
+	"who": [
+		"特定在留カードを使って印鑑登録証明書を申請する人",
+		"特定特別永住者証明書を使って印鑑登録証明書を申請する人",
+		"移動端末設備を使って印鑑登録証明書を申請する人"
+	],
+	"why": "出入国管理及び難民認定法等の一部改正に伴い、規定を整備するためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.836Z",
+		"inputTokens": 1649,
+		"cachedTokens": 0,
+		"outputTokens": 1798,
+		"reasoningTokens": 1453,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.836Z",
+		"checkedAt": "2026-10-10T07:29:38.549Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1665,
+			"cachedTokens": 0,
+			"outputTokens": 191,
+			"reasoningTokens": 176,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ece83f93f459bb3c",
+		"name": "Adds cards and devices that can be used to apply for seal registration certificates",
+		"official": "Ordinance Partially Amending the Bunkyo City Seal Registration Ordinance",
+		"summary": "Until now, an Individual Number Card could be used to apply for a seal registration certificate. Under this bill, applicants will also be able to use specified residence cards and specified special permanent resident certificates with the prescribed electronic certificate recorded on them, as well as mobile terminal equipment with an electronic certificate recorded on it.",
+		"changes": [
+			"Allow the use of specified residence cards with the prescribed electronic certificate recorded on them, in addition to Individual Number Cards",
+			"Allow the use of specified special permanent resident certificates with the prescribed electronic certificate recorded on them",
+			"Allow the use of mobile terminal equipment with an electronic certificate recorded on it"
+		],
+		"who": [
+			"People applying for a seal registration certificate using a specified residence card",
+			"People applying for a seal registration certificate using a specified special permanent resident certificate",
+			"People applying for a seal registration certificate using mobile terminal equipment"
+		],
+		"why": "The ward says this is to update the provisions following partial amendments to the Immigration Control and Refugee Recognition Act and other laws.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.024Z",
+			"inputTokens": 746,
+			"cachedTokens": 0,
+			"outputTokens": 963,
+			"reasoningTokens": 691,
+			"batch": true
+		}
+	}
+}

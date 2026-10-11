@@ -1,0 +1,80 @@
+{
+	"id": "hamura-r8-x1-5",
+	"assembly": "tokyo/hamura",
+	"approved": false,
+	"number": "議案第5号",
+	"official": "議会の議員の議員報酬及び費用弁償に関する条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回臨時会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-02-02",
+	"sources": [
+		{
+			"label": "令和8年市長提出議案",
+			"url": "https://www.city.hamura.tokyo.jp/0000020396.html",
+			"fetchedAt": "2026-10-08T10:58:50.253Z"
+		}
+	],
+	"name": "議員の期末手当の支給月数を改定",
+	"category": "行政のしくみ",
+	"summary": "議員の期末手当の支給月数を改めるため、条例を改正します。改正は公布の日に施行し、令和7年12月1日から適用します。",
+	"changes": [
+		"議員の期末手当の支給月数を改定する"
+	],
+	"who": [
+		"議員"
+	],
+	"why": "議員の期末手当の支給月数を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.544Z",
+		"inputTokens": 1045,
+		"cachedTokens": 0,
+		"outputTokens": 959,
+		"reasoningTokens": 815,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.544Z",
+			"notes": [
+				"ai [check] who/unsupported: 「羽村市議会議員」 → 原文では対象を「議員」としており、羽村市の議員であることは確認できません。"
+			],
+			"inputTokens": 1341,
+			"cachedTokens": 1025,
+			"outputTokens": 524,
+			"reasoningTokens": 361,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.861Z",
+		"checkedAt": "2026-10-10T07:29:38.610Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "who",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "羽村市議会議員",
+				"note": "原文では対象を「議員」としており、羽村市の議員であることは確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 885,
+			"cachedTokens": 0,
+			"outputTokens": 131,
+			"reasoningTokens": 64,
+			"batch": true
+		}
+	}
+}

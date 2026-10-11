@@ -63,5 +63,30 @@
 			"outputTokens": 66,
 			"reasoningTokens": 51
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e2a23cb3efe8e7e8",
+		"name": "Changes how bicycle commuting allowances are set",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries of General-Service Employees of Machida City",
+		"summary": "At present, the allowance amounts for employees who commute by bicycle or other means are set in a table in the ordinance, according to commuting distance and employee category. This bill changes the system so that the amounts are set by city rules, and sets a monthly maximum of ¥45,600. It takes effect on April 1, 2026.",
+		"changes": [
+			"Switch to setting allowances for commuting by bicycle and other means through city rules",
+			"Set the maximum commuting allowance at ¥45,600 per month"
+		],
+		"who": [
+			"General-service employees of Machida City who commute by bicycle or other means"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:51.046Z",
+			"inputTokens": 621,
+			"cachedTokens": 0,
+			"outputTokens": 559,
+			"reasoningTokens": 364
+		}
 	}
 }

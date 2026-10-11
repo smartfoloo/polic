@@ -1,0 +1,104 @@
+{
+	"id": "samukawa-r8-3-12",
+	"assembly": "kanagawa/samukawa",
+	"approved": false,
+	"number": "議案第12号",
+	"official": "寒川町青少年問題協議会条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会3月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "令和8年 審議結果",
+			"url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html",
+			"fetchedAt": "2026-10-10T14:32:04.155Z"
+		},
+		{
+			"label": "議案第12号（PDF）",
+			"url": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603_gian12.pdf",
+			"fetchedAt": "2026-10-10T14:57:36.409Z"
+		}
+	],
+	"name": "協議会にいじめ対策を加え、委員を18人以内に",
+	"category": "行政のしくみ",
+	"summary": "現在の町の青少年問題協議会について、名称や委員の構成などを見直します。いじめ防止に関係する機関や団体の連携を調査・審議し、関係者間の連絡調整を行う役割を加えます。委員の上限は21人から18人に変わります。",
+	"changes": [
+		"協議会の名称に、いじめ問題への対策と連絡調整を担うことを示す表現を加える",
+		"いじめ防止に関係する機関・団体の連携に関する調査・審議と連絡調整を役割に加える",
+		"委員の上限を21人から18人に引き下げる",
+		"委員の区分を町・関係行政機関の職員、学識経験者、町長が必要と認める者に改める"
+	],
+	"who": [],
+	"why": "青少年を取り巻く環境の変化や多様化、青少年問題の複雑化を踏まえ、必要な措置を講じるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T15:09:36.919Z",
+		"inputTokens": 2794,
+		"cachedTokens": 0,
+		"outputTokens": 2141,
+		"reasoningTokens": 1838,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-10T15:09:36.919Z",
+			"notes": [
+				"code: copied from the source (28 chars): 「を「寒川町青少年問題・いじめ問題対策連絡協議会」に改める」"
+			],
+			"inputTokens": 3241,
+			"cachedTokens": 0,
+			"outputTokens": 665,
+			"reasoningTokens": 334,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T15:09:36.919Z",
+		"checkedAt": "2026-10-10T15:54:25.122Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2797,
+			"cachedTokens": 0,
+			"outputTokens": 46,
+			"reasoningTokens": 31,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1b7da23fa3382672",
+		"name": "Adds bullying measures to council and limits membership to 18",
+		"official": "Partial Amendment to the Samukawa Town Youth Problems Council Ordinance",
+		"summary": "The town will review the name and membership structure of its current Youth Problems Council. It will add a role for investigating and deliberating on cooperation among organizations involved in preventing bullying, and coordinating among the people involved. The membership cap will change from 21 to 18.",
+		"changes": [
+			"Add wording to the council's name to indicate its role in addressing bullying issues and coordinating among those involved",
+			"Add investigating and deliberating on cooperation among organizations involved in preventing bullying, and coordinating among those involved, to the council's duties",
+			"Lower the membership cap from 21 to 18",
+			"Revise the membership categories to include town and related government agency staff, people with academic expertise, and people the mayor considers necessary"
+		],
+		"who": [],
+		"why": "The town says it is taking necessary measures in light of changes and growing diversity in the environment surrounding young people, and the increasing complexity of youth issues.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-11T00:16:49.515Z",
+			"inputTokens": 735,
+			"cachedTokens": 0,
+			"outputTokens": 597,
+			"reasoningTokens": 351,
+			"batch": true
+		}
+	}
+}

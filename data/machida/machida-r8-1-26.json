@@ -88,5 +88,33 @@
 			"outputTokens": 513,
 			"reasoningTokens": 208
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "fd0f376ef4e432e1",
+		"name": "Sets operating standards for specified infant and toddler care services",
+		"official": "Machida City Ordinance on Standards for the Operation of Specified Infant and Toddler Attendance Support Services",
+		"summary": "The city will set operating standards for specified infant and toddler attendance support services by ordinance. The rules will cover capacity, meetings before a child's first use, fees, responses to accidents, and recordkeeping. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Sets the number of children who may use the service per hour and prohibits accepting more than that number",
+			"Requires a meeting with parents or guardians before a child's first use, an explanation of the service and its fees, and their consent",
+			"Sets the fees that may be collected from parents or guardians and requires receipts to be issued",
+			"Sets operating rules for accident prevention, handling complaints, and keeping records"
+		],
+		"who": [
+			"Providers of specified infant and toddler attendance support services",
+			"Parents or guardians of children using specified infant and toddler attendance support services"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:15:01.424Z",
+			"inputTokens": 700,
+			"cachedTokens": 0,
+			"outputTokens": 692,
+			"reasoningTokens": 446
+		}
 	}
 }

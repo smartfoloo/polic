@@ -1,0 +1,94 @@
+{
+	"id": "kawasaki-r8-3-129",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第129号",
+	"official": "川崎市有馬・野川生涯学習支援施設条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第129号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_129.pdf",
+			"fetchedAt": "2026-10-08T11:13:22.638Z"
+		}
+	],
+	"name": "有馬・野川施設の利用料上限を改定",
+	"category": "教育",
+	"summary": "有馬・野川生涯学習支援施設の施設利用料と設備利用料は、条例で上限額が定められています。この議案は、各部屋の利用料と設備利用料の上限額を改め、令和9年4月1日から適用します。施行時点ですでに利用許可を受けている場合は、従来の料金が適用されます。",
+	"changes": [
+		"集会室の利用料を午前2,940円、午後4,180円、夜間5,410円、全日12,530円に改める",
+		"和室・実習室の利用料を午前730円、午後850円、夜間1,230円、全日2,810円に改める",
+		"調理室・第1〜第3学習室の利用料を午前970円、午後1,100円、夜間1,470円、全日3,540円に改める",
+		"設備利用料の上限額を3,360円から3,690円に改める"
+	],
+	"who": [
+		"有馬・野川生涯学習支援施設を利用する人"
+	],
+	"why": "施設の利用料金の上限額を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.875Z",
+		"inputTokens": 1535,
+		"cachedTokens": 0,
+		"outputTokens": 1258,
+		"reasoningTokens": 907,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.875Z",
+		"checkedAt": "2026-10-10T07:29:38.655Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1560,
+			"cachedTokens": 0,
+			"outputTokens": 90,
+			"reasoningTokens": 76,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "72cdc0c2c0a98d34",
+		"name": "Revises fee caps for the Arima and Nogawa facilities",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Arima and Nogawa Lifelong Learning Support Facilities Ordinance",
+		"summary": "The ordinance sets maximum amounts for facility use fees and equipment use fees at the Arima and Nogawa Lifelong Learning Support Facilities. This bill revises the maximum amounts for room use fees and equipment use fees, and the new amounts will apply from April 1, 2027. If a person has already received permission to use a facility when the ordinance takes effect, the previous fees will apply.",
+		"changes": [
+			"Sets the meeting room fee at ¥2,940 for the morning, ¥4,180 for the afternoon, ¥5,410 for the evening, and ¥12,530 for the full day",
+			"Sets the Japanese-style room and practice room fees at ¥730 for the morning, ¥850 for the afternoon, ¥1,230 for the evening, and ¥2,810 for the full day",
+			"Sets the kitchen and first through third study room fees at ¥970 for the morning, ¥1,100 for the afternoon, ¥1,470 for the evening, and ¥3,540 for the full day",
+			"Raises the maximum equipment use fee from ¥3,360 to ¥3,690"
+		],
+		"who": [
+			"People who use the Arima and Nogawa Lifelong Learning Support Facilities"
+		],
+		"why": "The city says this is to revise the maximum amounts for facility use fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.062Z",
+			"inputTokens": 769,
+			"cachedTokens": 0,
+			"outputTokens": 651,
+			"reasoningTokens": 302,
+			"batch": true
+		}
+	}
+}

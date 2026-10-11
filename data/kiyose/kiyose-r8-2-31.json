@@ -1,0 +1,47 @@
+{
+	"id": "kiyose-r8-2-31",
+	"assembly": "tokyo/kiyose",
+	"approved": false,
+	"number": "議案第31号",
+	"official": "清瀬市市税条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-25",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 議決結果（PDF）",
+			"url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/286/r8.2.sityou.gian2.pdf",
+			"fetchedAt": "2026-10-10T14:56:52.936Z"
+		}
+	],
+	"name": "市税の控除期限と課税基準を変更",
+	"category": "税・手数料",
+	"summary": "地方税法等の改正のうち、まだ施行されていない内容に合わせて条例を改正します。住宅借入金等特別税額控除の適用期限を5年延長し、セルフメディケーション税制の適用期限も延長します。特定暗号資産の課税方法と、固定資産税の課税標準となる額も変更します。",
+	"changes": [
+		"住宅借入金等特別税額控除の適用期限を5年延長する",
+		"セルフメディケーション税制の適用期限を延長する",
+		"特定暗号資産に係る譲渡所得等を申告による分離課税とし、3%の所得割を課す",
+		"固定資産税の課税標準となるべき額を、家屋は30万円、償却資産は180万円に引き上げる"
+	],
+	"who": [
+		"住宅借入金等特別税額控除やセルフメディケーション税制を利用する人",
+		"特定暗号資産を譲渡する人",
+		"家屋や償却資産を所有する人"
+	],
+	"why": "地方税法等の改正のうち、未施行の規定に沿って条例を改正するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.826Z",
+		"inputTokens": 1205,
+		"cachedTokens": 0,
+		"outputTokens": 1367,
+		"reasoningTokens": 996,
+		"batch": true
+	}
+}

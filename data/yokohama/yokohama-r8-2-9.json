@@ -1,0 +1,84 @@
+{
+	"id": "yokohama-r8-2-9",
+	"assembly": "kanagawa/yokohama",
+	"approved": false,
+	"number": "市第9号議案",
+	"official": "横浜市改良住宅条例の一部改正",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-05-20",
+	"sources": [
+		{
+			"label": "議案一覧（令和8年第2回定例会）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.html",
+			"fetchedAt": "2026-10-08T11:04:14.939Z"
+		},
+		{
+			"label": "市第9号議案（PDF）",
+			"url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/gianR08-2.files/r8_2t_si09.pdf",
+			"fetchedAt": "2026-10-08T11:05:03.258Z"
+		}
+	],
+	"name": "さかえ住宅を更新住宅に追加",
+	"category": "住宅",
+	"summary": "条例では、更新住宅の名称と位置を定めています。この議案で、建替事業に伴い、横浜市港北区にさかえ住宅を更新住宅として加えます。施行日は規則で定めます。",
+	"changes": [
+		"更新住宅にさかえ住宅（横浜市港北区）を加える"
+	],
+	"who": [],
+	"why": "建替事業に伴い、更新住宅としてさかえ住宅を設置するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.888Z",
+		"inputTokens": 1295,
+		"cachedTokens": 0,
+		"outputTokens": 436,
+		"reasoningTokens": 296,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.888Z",
+		"checkedAt": "2026-10-10T07:29:38.726Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1133,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "3ac6300eb58288b2",
+		"name": "Adds Sakae Housing as renewal housing",
+		"official": "Ordinance Partially Amending the Yokohama City Improved Housing Ordinance",
+		"summary": "The ordinance sets the names and locations of renewal housing. This bill adds Sakae Housing in Kohoku Ward, Yokohama City, as renewal housing in connection with a rebuilding project. The effective date will be set by regulation.",
+		"changes": [
+			"Adds Sakae Housing in Kohoku Ward, Yokohama City, as renewal housing"
+		],
+		"who": [],
+		"why": "The city says this is to establish Sakae Housing as renewal housing in connection with a rebuilding project.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.074Z",
+			"inputTokens": 563,
+			"cachedTokens": 0,
+			"outputTokens": 527,
+			"reasoningTokens": 368,
+			"batch": true
+		}
+	}
+}

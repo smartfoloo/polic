@@ -66,5 +66,33 @@
 			"outputTokens": 94,
 			"reasoningTokens": 79
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "152678cc71db01ef",
+		"name": "Provides temporary childcare for children enrolled in kindergarten",
+		"official": "Ordinance Partially Amending the Meguro City Municipal Kindergarten Ordinance",
+		"summary": "Until now, the Meguro City kindergarten ordinance had no provisions for a temporary childcare service. After the amendment, the service will be provided for children enrolled in the kindergartens, and fees will be collected from their parents or guardians. Fees already paid will generally not be refunded, but may be refunded if the Board of Education finds that there is a special reason.",
+		"changes": [
+			"Provides temporary childcare for children enrolled in the kindergartens",
+			"Collects childcare fees from the parents or guardians of children who use the service, with the amount set in a separate ordinance",
+			"Generally does not refund fees already paid, but allows some or all of the fees to be refunded if there is a special reason",
+			"Adds failure to pay childcare fees without a valid reason to the existing provisions of the kindergarten ordinance"
+		],
+		"who": [
+			"Children enrolled in Meguro City kindergartens who use temporary childcare",
+			"Parents or guardians of children who use temporary childcare"
+		],
+		"why": "The ward says this is to start providing a new temporary childcare service.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:55:14.656Z",
+			"inputTokens": 761,
+			"cachedTokens": 0,
+			"outputTokens": 613,
+			"reasoningTokens": 334
+		}
 	}
 }

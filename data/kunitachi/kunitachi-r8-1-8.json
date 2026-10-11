@@ -64,5 +64,31 @@
 			"outputTokens": 108,
 			"reasoningTokens": 94
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8daa04b2ea91aae4",
+		"name": "Revises how notices of hearings and similar procedures are given",
+		"official": "Bill to Partially Amend the Kunitachi City Administrative Procedures Ordinance",
+		"summary": "Currently, the required information for notices of hearings and similar procedures must be posted on a notice board at the administrative agency’s office. This bill makes the information to be publicly announced widely accessible, and provides for it to be viewed either on a notice board at the office or on a computer screen at the office. Once two weeks have passed since the public notice measure began, the notice will be treated as having been delivered.",
+		"changes": [
+			"Make the information to be publicly announced accessible to an unspecified number of people",
+			"Allow the public notice information to be viewed on a notice board at the office or on a computer screen at the office",
+			"Treat the notice as having been delivered two weeks after the public notice measure begins"
+		],
+		"who": [
+			"People who may be subject to an adverse disposition and receive notice by public notice"
+		],
+		"why": "The city says this is to review how notices of hearings and similar procedures are publicly announced in response to amendments to the Administrative Procedure Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:12:50.121Z",
+			"inputTokens": 728,
+			"cachedTokens": 0,
+			"outputTokens": 520,
+			"reasoningTokens": 256
+		}
 	}
 }

@@ -1,0 +1,49 @@
+{
+	"id": "sagamihara-r8-6-91",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第91号",
+	"official": "相模原市立地域センター条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和8年定例会6月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-01",
+	"sources": [
+		{
+			"label": "議案第91号（PDF）",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026051400048/file_contents/2026_gian_65-93.pdf",
+			"fetchedAt": "2026-10-10T14:57:23.026Z"
+		},
+		{
+			"label": "令和8年定例会6月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2013120900035/file_contents/2026_kekka_6_0701-1.pdf",
+			"fetchedAt": "2026-10-10T14:34:12.992Z"
+		}
+	],
+	"name": "地域センター浴室の使用料を改定",
+	"category": "税・手数料",
+	"summary": "相模原市立西青山地域センターの浴室使用料は、現在、大人が1回330円、小人（中学生以下）が160円です。この議案で、大人は400円、小人は200円に改めます。令和9年1月1日から施行します。",
+	"changes": [
+		"浴室の大人の使用料を1回330円から400円に改める",
+		"浴室の小人（中学生以下）の使用料を1回160円から200円に改める"
+	],
+	"who": [
+		"相模原市立西青山地域センターの浴室を利用する大人",
+		"相模原市立西青山地域センターの浴室を利用する中学生以下の人"
+	],
+	"why": "受益者負担の在り方の基本方針に基づき、使用料などを見直すためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:08:15.847Z",
+		"inputTokens": 1373,
+		"cachedTokens": 0,
+		"outputTokens": 740,
+		"reasoningTokens": 504,
+		"batch": true
+	}
+}

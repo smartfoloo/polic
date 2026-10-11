@@ -1,0 +1,87 @@
+{
+	"id": "yugawara-r8-1-7",
+	"assembly": "kanagawa/yugawara",
+	"approved": false,
+	"number": "議案第7号",
+	"official": "湯河原町税条例の一部改正について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-02-24",
+	"sources": [
+		{
+			"label": "本会議審議議案（令和8年）",
+			"url": "https://www.town.yugawara.kanagawa.jp/soshiki/9/28613.html",
+			"fetchedAt": "2026-10-08T11:27:59.436Z"
+		},
+		{
+			"label": "議案第7号（PDF）",
+			"url": "https://www.town.yugawara.kanagawa.jp/uploaded/attachment/17140.pdf",
+			"fetchedAt": "2026-10-08T11:28:17.425Z"
+		}
+	],
+	"name": "入湯税を3か月ごとに申告できる特例",
+	"category": "税・手数料",
+	"summary": "現在、鉱泉浴場の経営者は入湯税を毎月申告し、納めます。町長の承認を受けた場合は、3か月分をまとめて申告・納付できる特例を設けます。改正は2026年4月1日に施行されます。",
+	"changes": [
+		"承認を受けた場合、申告・納付の期間を3か月ごとにし、各期間の翌月末を期限とする",
+		"鉱泉浴場の経営を1か月以上休止する場合、または廃止する場合は、その日までの入湯税を休止・廃止日から1か月以内に申告・納付する",
+		"承認を受けた特別徴収義務者が要件に該当しなくなった場合、町長が承認を取り消せるようにする"
+	],
+	"who": [
+		"鉱泉浴場の経営者"
+	],
+	"why": "入湯税の申告納付に特例を設けるためと、町は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.562Z",
+		"inputTokens": 2520,
+		"cachedTokens": 0,
+		"outputTokens": 915,
+		"reasoningTokens": 635,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.562Z",
+			"notes": [
+				"ai [error] changes/fact: 「鉱泉浴場を休止・廃止する場合は、その日までの入湯税を休止・廃止日から1か月以内に申告・納付する」 → 原文の第37条第3項では、休止の場合は「１月以上休止しようとする場合」に限られます。要約では休止期間の条件がなく、1か月未満の休止も対象となる記述です。"
+			],
+			"inputTokens": 3023,
+			"cachedTokens": 1025,
+			"outputTokens": 491,
+			"reasoningTokens": 172,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.890Z",
+		"checkedAt": "2026-10-10T07:29:38.735Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "fact",
+				"severity": "error",
+				"quote": "鉱泉浴場を休止・廃止する場合は、その日までの入湯税を休止・廃止日から1か月以内に申告・納付する",
+				"note": "原文の第37条第3項では、休止の場合は「１月以上休止しようとする場合」に限られます。要約では休止期間の条件がなく、1か月未満の休止も対象となる記述です。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 2498,
+			"cachedTokens": 0,
+			"outputTokens": 258,
+			"reasoningTokens": 100,
+			"batch": true
+		}
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"id": "kawasaki-r8-1-14",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第14号",
+	"official": "川崎市建築物における駐車施設の附置等に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第14号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_14.pdf",
+			"fetchedAt": "2026-10-08T11:07:45.416Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "共同住宅にも荷さばき用駐車施設を義務付け",
+	"category": "交通",
+	"summary": "現在、特定用途の床面積が一定規模を超える建築物には、荷さばき用駐車施設の設置が必要です。この議案では、規模と住戸・住室数が一定の共同住宅も対象に加え、施設のはり下の高さ基準を3メートルから3.2メートルに変えます。",
+	"changes": [
+		"駐車場整備地区・商業地域・近隣商業地域では、共同住宅部分が2,000平方メートルを超え、住戸・住室が50以上の建築物を対象に加える",
+		"周辺地区等では、共同住宅部分が3,000平方メートルを超え、住戸・住室が50以上の建築物を対象に加える",
+		"必要な施設の台数を床面積や住戸・住室数に応じて算定し、住戸・住室数が400を超える場合の換算方法を設ける",
+		"荷さばき用駐車施設のはり下の高さ基準を3メートルから3.2メートルに上げる"
+	],
+	"who": [
+		"対象区域で一定規模以上の共同住宅を新築する事業者"
+	],
+	"why": "共同住宅の用途に供する建築物に荷さばき用駐車施設を設けるための事項を定め、施設のはり下の高さ基準を改め、駐車場法施行令の改正に伴う規定を整えるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.868Z",
+		"inputTokens": 3809,
+		"cachedTokens": 0,
+		"outputTokens": 2168,
+		"reasoningTokens": 1773,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.868Z",
+		"checkedAt": "2026-10-10T07:29:38.630Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "駐車場整備地区・商業地域・近隣商業地域では、共同住宅部分が2,000平方メートルを超え、住戸・住室が50以上の建築物を対象に加える",
+				"note": "第6条の3旧第4項の改正には、住戸・住室数が基準以上となる場合も対象とする読替えの追加がある。新築以外の増築等への適用に関する変更がchangesに抜けていないか確認が必要。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3909,
+			"cachedTokens": 0,
+			"outputTokens": 551,
+			"reasoningTokens": 398,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "91913b6560829e94",
+		"name": "Requires loading and unloading parking facilities in apartment buildings too",
+		"official": "Regarding the enactment of an ordinance partially amending the Kawasaki City Ordinance on the Installation, etc. of Parking Facilities in Buildings",
+		"summary": "At present, buildings whose floor area for specified uses exceeds a certain size must have loading and unloading parking facilities. This bill also covers apartment buildings that meet specified thresholds for size and number of dwelling units or rooms, and changes the required clearance under the facility’s beams from 3 metres to 3.2 metres.",
+		"changes": [
+			"Adds buildings in parking development districts, commercial zones and neighborhood commercial zones where the apartment-building portion exceeds 2,000 square metres and there are at least 50 dwelling units or rooms",
+			"Adds buildings in surrounding districts, etc., where the apartment-building portion exceeds 3,000 square metres and there are at least 50 dwelling units or rooms",
+			"Calculates the required number of loading and unloading parking spaces based on floor area and the number of dwelling units or rooms, and sets a conversion method for cases where that number exceeds 400",
+			"Raises the required clearance under the beams of loading and unloading parking facilities from 3 metres to 3.2 metres"
+		],
+		"who": [
+			"Businesses constructing new apartment buildings of a certain size or larger in covered areas"
+		],
+		"why": "The city says this is to set rules for providing loading and unloading parking facilities in buildings used as apartment housing, revise the required clearance under the facilities’ beams, and update provisions in line with amendments to the Parking Lot Act Enforcement Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.053Z",
+			"inputTokens": 849,
+			"cachedTokens": 0,
+			"outputTokens": 1498,
+			"reasoningTokens": 1148,
+			"batch": true
+		}
+	}
+}

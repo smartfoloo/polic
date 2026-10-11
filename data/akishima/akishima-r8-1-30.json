@@ -1,0 +1,37 @@
+{
+	"id": "akishima-r8-1-30",
+	"assembly": "tokyo/akishima",
+	"approved": false,
+	"number": "議案第30号",
+	"official": "昭島市特定教育・保育施設及び特定地域型保育事業の運営に関する基準を定める条例及び昭島市放課後児童健全育成事業の設備及び運営に関する基準を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案等の議決結果",
+			"url": "https://www.city.akishima.lg.jp/gikai/honkaigi/1006709/1011604/1011609.html",
+			"fetchedAt": "2026-10-08T10:56:01.263Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "872795a8a18d6f18",
+		"official": "Ordinance Partially Amending the Akishima City Ordinance Establishing Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses and the Akishima City Ordinance Establishing Standards for the Facilities and Operation of After-School Child Healthy Development Businesses",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T03:33:19.772Z",
+			"inputTokens": 438,
+			"cachedTokens": 0,
+			"outputTokens": 527,
+			"reasoningTokens": 452
+		}
+	}
+}

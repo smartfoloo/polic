@@ -1,0 +1,38 @@
+{
+	"id": "hinode-r8-1-25",
+	"assembly": "tokyo/hinode",
+	"approved": false,
+	"number": "議案第25号",
+	"official": "日の出町青少年問題協議会条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": "2026-03-17",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 議案結果",
+			"url": "https://www.town.hinode.tokyo.jp/0000004700.html",
+			"fetchedAt": "2026-10-08T11:00:08.453Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "2967618cfb018151",
+		"official": "Ordinance Partially Amending the Hinode Town Youth Issues Council Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:24:27.512Z",
+			"inputTokens": 383,
+			"cachedTokens": 0,
+			"outputTokens": 105,
+			"reasoningTokens": 74,
+			"batch": true
+		}
+	}
+}

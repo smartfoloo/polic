@@ -1,0 +1,88 @@
+{
+	"id": "kanagawa-r8-2-54",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第54号議案",
+	"official": "指定障害児入所施設等の人員、設備及び運営に関する基準等を定める条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-07-13",
+	"sources": [
+		{
+			"label": "定県第54号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/134621/jorei_gian_8dai2_0615.pdf",
+			"fetchedAt": "2026-10-08T10:38:08.916Z"
+		},
+		{
+			"label": "令和8年第2回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai2.html",
+			"fetchedAt": "2026-10-08T10:37:44.946Z"
+		}
+	],
+	"name": "障害児施設に犯罪事実確認などを追加",
+	"category": "福祉",
+	"summary": "この条例を改正し、障害児への性暴力などを防ぐための規定を設けます。障害児と接する業務に従事する人のうち、特定の環境で接する人について、犯罪事実確認などの措置を施設の設置者に求めます。令和8年12月25日から施行します。",
+	"changes": [
+		"障害児への性暴力などを防ぎ、発生時に適切に保護するための措置を義務付ける",
+		"障害児と接する業務のうち、支配性・継続性・閉鎖性のある環境で接する従事者について犯罪事実確認などを行う"
+	],
+	"who": [
+		"指定障害児入所施設等の設置者",
+		"障害児と接する業務に従事する人",
+		"指定障害児入所施設等を利用する障害児"
+	],
+	"why": "基準の一部改正に伴い、児童等対象業務従事者の犯罪事実確認などの措置を定めるためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T02:33:29.548Z",
+		"inputTokens": 1534,
+		"cachedTokens": 0,
+		"outputTokens": 2371,
+		"reasoningTokens": 2035,
+		"batch": true,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-11T02:33:29.548Z",
+			"notes": [
+				"ai [check] summary/unsupported: 「現行の条例には、障害児への性暴力などを防ぐための犯罪事実確認に関する規定がありません。」 → 提案理由には規定を追加するとありますが、改正前の第44条や条例全体は示されておらず、現行条例に該当規定がないとの断定は確認できません。"
+			],
+			"inputTokens": 2044,
+			"cachedTokens": 1025,
+			"outputTokens": 815,
+			"reasoningTokens": 488,
+			"batch": true
+		}
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.866Z",
+		"checkedAt": "2026-10-10T07:29:38.623Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "summary",
+				"kind": "unsupported",
+				"severity": "check",
+				"quote": "現行の条例には、障害児への性暴力などを防ぐための犯罪事実確認に関する規定がありません。",
+				"note": "提案理由には規定を追加するとありますが、改正前の第44条や条例全体は示されておらず、現行条例に該当規定がないとの断定は確認できません。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1543,
+			"cachedTokens": 0,
+			"outputTokens": 231,
+			"reasoningTokens": 117,
+			"batch": true
+		}
+	}
+}

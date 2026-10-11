@@ -62,5 +62,29 @@
 			"outputTokens": 38,
 			"reasoningTokens": 23
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "aeac6fce65eecbff",
+		"name": "Changes the location of Honcho Nursery School",
+		"official": "Ordinance Partially Amending the Fuchu City Municipal Nursery School Ordinance",
+		"summary": "The municipal Honcho Nursery School is located at 3-19-3 Honcho, Fuchu City. This bill changes its location to 3-18-5 Honcho, Fuchu City. The change takes effect on December 1, 2026.",
+		"changes": [
+			"Changes the location of Honcho Nursery School from 3-19-3 Honcho, Fuchu City, to 3-18-5 Honcho, Fuchu City"
+		],
+		"who": [
+			"Children and parents who use Fuchu City Municipal Honcho Nursery School"
+		],
+		"why": "The city says this is to change the location of Honcho Nursery School.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:19:54.783Z",
+			"inputTokens": 605,
+			"cachedTokens": 0,
+			"outputTokens": 458,
+			"reasoningTokens": 257
+		}
 	}
 }

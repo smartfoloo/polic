@@ -30,7 +30,7 @@
 	],
 	"name": "職員給与条例を改正",
 	"category": "行政のしくみ",
-	"summary": "区長が提出したのは、職員の給与に関する条例を改正する議案です。提示された議案本文には内容がなく、具体的な変更点は確認できません。",
+	"summary": "職員の給与に関する条例を改正する議案です。提示された議案本文には内容がなく、具体的な変更点は確認できません。",
 	"changes": [],
 	"who": [],
 	"why": "",
@@ -38,33 +38,58 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:05:05.036Z",
+		"generatedAt": "2026-10-08T23:25:09.395Z",
 		"inputTokens": 982,
 		"cachedTokens": 0,
 		"outputTokens": 584,
-		"reasoningTokens": 498
+		"reasoningTokens": 498,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:25:09.395Z",
+			"notes": [
+				"ai [error] summary/unsupported: 「区長が提出したのは」 → 原文の議案本文は空で、提出者が区長であることは確認できません。"
+			],
+			"inputTokens": 1205,
+			"cachedTokens": 1025,
+			"outputTokens": 252,
+			"reasoningTokens": 160
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:05:05.036Z",
-		"checkedAt": "2026-10-08T05:39:13.510Z",
+		"draftAt": "2026-10-08T23:25:09.395Z",
+		"checkedAt": "2026-10-08T23:25:12.034Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "summary",
-				"kind": "unsupported",
-				"severity": "error",
-				"quote": "区長が提出したのは",
-				"note": "原文の議案本文は空で、提出者が区長であることは確認できません。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 753,
+			"inputTokens": 745,
 			"cachedTokens": 0,
-			"outputTokens": 101,
-			"reasoningTokens": 38
+			"outputTokens": 31,
+			"reasoningTokens": 16
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "79d33c96d8765f58",
+		"name": "Amends the staff salary ordinance",
+		"official": "Ordinance Partially Amending the Ordinance on Salaries for Staff",
+		"summary": "This is a bill to amend the Ordinance on Salaries for Staff. The text of the bill provided contains no details, so the specific changes cannot be confirmed.",
+		"changes": [],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:56:16.191Z",
+			"inputTokens": 496,
+			"cachedTokens": 0,
+			"outputTokens": 222,
+			"reasoningTokens": 124
 		}
 	}
 }

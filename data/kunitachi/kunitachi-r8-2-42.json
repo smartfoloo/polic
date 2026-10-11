@@ -62,5 +62,29 @@
 			"outputTokens": 12,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "e4479da1be6de3dc",
+		"name": "Updates tax law references in childcare fee ordinance",
+		"official": "Bill to Partially Amend the Kunitachi City Ordinance on User Charges for Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses",
+		"summary": "The notes in the table of the ordinance on user charges include references to provisions of the Local Tax Act. This bill updates those references to reflect a partial amendment to the Local Tax Act. The ordinance will take effect on the date it is promulgated, and some amendments will take effect on January 1, 2028.",
+		"changes": [
+			"Remove the reference to “Article 5-4, paragraph 6” from item 4 of the notes to the appended table",
+			"Change “Article 5-4-2, paragraph 5” to “Article 5-4, paragraph 5”",
+			"Change “Article 7-3, paragraph 2” to “Article 7-3, paragraph 3”"
+		],
+		"who": [],
+		"why": "The city says this is to reorganize the provisions following a partial amendment to the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:07.042Z",
+			"inputTokens": 673,
+			"cachedTokens": 0,
+			"outputTokens": 663,
+			"reasoningTokens": 408
+		}
 	}
 }

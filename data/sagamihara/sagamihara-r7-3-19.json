@@ -1,0 +1,38 @@
+{
+	"id": "sagamihara-r7-3-19",
+	"assembly": "kanagawa/sagamihara",
+	"approved": false,
+	"number": "議案第19号",
+	"official": "相模原市立市民・大学交流センター条例の一部を改正する条例について",
+	"by": "head",
+	"session": "令和7年定例会令和8年3月定例会議",
+	"committee": "市民環境経済委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-24",
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和7年定例会令和8年3月定例会議 審議結果",
+			"url": "https://www.sagamihara-shigikai.jp/doc/2026042200084/file_contents/2026_kekka_0324.pdf",
+			"fetchedAt": "2026-10-10T14:38:02.880Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "faa6fdd77d70271c",
+		"official": "Regarding an Ordinance Partially Amending the Sagamihara City Citizen and University Exchange Center Ordinance",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T15:01:15.337Z",
+			"inputTokens": 387,
+			"cachedTokens": 0,
+			"outputTokens": 233,
+			"reasoningTokens": 197,
+			"batch": true
+		}
+	}
+}

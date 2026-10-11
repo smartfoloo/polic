@@ -74,5 +74,33 @@
 			"outputTokens": 323,
 			"reasoningTokens": 201
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "07c046fb1ba3be85",
+		"name": "Sets operating standards for child attendance support providers",
+		"official": "Ordinance Establishing Standards for the Operation of Meguro City Specified Infant and Other Child Attendance Support Businesses",
+		"summary": "Following an amendment to the Child and Child-Rearing Support Act, Meguro City will set operating standards by ordinance for specified infant and other child attendance support services. The standards cover user capacity, explanations to guardians, fees, safety measures and other matters. The ordinance will take effect on April 1, 2026.",
+		"changes": [
+			"Set capacity by the hour and by the month",
+			"Meet with guardians before first use, explain the service and other matters, and obtain their consent",
+			"Define the fees that may be collected from guardians and the procedures for explaining them and obtaining consent",
+			"Set operating rules for preventing abuse, responding to accidents and complaints, and keeping records"
+		],
+		"who": [
+			"Preschool children and guardians who use specified infant and other child attendance support services",
+			"Providers of specified infant and other child attendance support services"
+		],
+		"why": "The ward says the standards are being established following an amendment to the Child and Child-Rearing Support Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:54:44.604Z",
+			"inputTokens": 739,
+			"cachedTokens": 0,
+			"outputTokens": 680,
+			"reasoningTokens": 413
+		}
 	}
 }

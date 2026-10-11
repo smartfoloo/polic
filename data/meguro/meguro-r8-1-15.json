@@ -67,5 +67,34 @@
 			"outputTokens": 85,
 			"reasoningTokens": 70
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "8ecdd9afb72350c9",
+		"name": "Bans street smoking in public places",
+		"official": "Ordinance Partially Amending the Meguro City Ordinance on Creating a Town Without Littering, etc., Together",
+		"summary": "This ordinance adds a ban on street smoking in public places throughout Meguro City. Smoking areas set up or designated by the mayor, and smoking areas managed by the managers of public places, are exempt. It also provides for guidance to people who violate the ban and for the ward to support environmental beautification activities. It takes effect on October 1, 2026.",
+		"changes": [
+			"Bans street smoking in public places",
+			"Allows guidance to be given to people who smoke on the street, telling them not to do so",
+			"Requires people who smoke outside public places to take care not to expose others to smoke or let cigarette flames come into contact with them",
+			"Requires the ward to support environmental beautification activities by residents and businesses"
+		],
+		"who": [
+			"People who smoke in public places",
+			"People who smoke outside public places",
+			"Residents and businesses that carry out environmental beautification activities"
+		],
+		"why": "The ward says this is to ban street smoking throughout Meguro City and further promote environmental beautification.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:54:06.449Z",
+			"inputTokens": 772,
+			"cachedTokens": 0,
+			"outputTokens": 797,
+			"reasoningTokens": 516
+		}
 	}
 }

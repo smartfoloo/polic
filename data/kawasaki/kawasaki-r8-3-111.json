@@ -1,0 +1,105 @@
+{
+	"id": "kawasaki-r8-3-111",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第111号",
+	"official": "川崎市平和館条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "審議中",
+	"stage": 1,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000189620.html",
+			"fetchedAt": "2026-10-08T11:10:51.475Z"
+		},
+		{
+			"label": "議案第111号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000189/189620/gian_111.pdf",
+			"fetchedAt": "2026-10-08T11:11:33.481Z"
+		}
+	],
+	"name": "平和館の施設使用料を改定",
+	"category": "まちづくり",
+	"summary": "川崎市平和館の施設には使用料が定められています。この議案では、施設ごとの使用料を改め、令和9年4月1日から施行します。",
+	"changes": [
+		"屋内広場の使用料を、午前4,470円・午後6,160円・夜間8,390円・全日19,020円に改める",
+		"第1会議室・第2会議室・第3会議室の使用料を、利用時間帯ごとに改める",
+		"研修室の使用料を、午前440円・午後670円・夜間890円・全日2,000円に改める",
+		"控室の使用料を、午前890円・午後1,230円・夜間1,670円・全日3,790円に改める"
+	],
+	"who": [
+		"川崎市平和館の施設を使う人"
+	],
+	"why": "平和館の使用料を改定するためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.873Z",
+		"inputTokens": 1417,
+		"cachedTokens": 0,
+		"outputTokens": 1191,
+		"reasoningTokens": 901,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.873Z",
+		"checkedAt": "2026-10-10T07:29:38.647Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "",
+				"note": "附則第2項にある、施行時に既に使用許可を受けている人の当該許可に係る使用料は従前の料金とする経過措置が抜けています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1377,
+			"cachedTokens": 0,
+			"outputTokens": 185,
+			"reasoningTokens": 101,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7857b827882407dc",
+		"name": "Revises Peace Museum facility-use fees",
+		"official": "Ordinance to Partially Amend the Kawasaki City Peace Museum Ordinance",
+		"summary": "The Kawasaki City Peace Museum charges fees for use of its facilities. This bill revises the fee for each facility and will take effect on April 1, 2027.",
+		"changes": [
+			"Sets the indoor plaza fee at ¥4,470 for the morning, ¥6,160 for the afternoon, ¥8,390 for the evening, and ¥19,020 for the full day",
+			"Revises the fees for Meeting Rooms 1, 2, and 3 for each time period",
+			"Sets the training room fee at ¥440 for the morning, ¥670 for the afternoon, ¥890 for the evening, and ¥2,000 for the full day",
+			"Sets the waiting room fee at ¥890 for the morning, ¥1,230 for the afternoon, ¥1,670 for the evening, and ¥3,790 for the full day"
+		],
+		"who": [
+			"People who use the indoor plaza at the Kawasaki City Peace Museum",
+			"People who use Meeting Rooms 1, 2, or 3 at the Kawasaki City Peace Museum",
+			"People who use the training room at the Kawasaki City Peace Museum",
+			"People who use the waiting room at the Kawasaki City Peace Museum"
+		],
+		"why": "The city says this is to revise the Peace Museum's facility-use fees.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.060Z",
+			"inputTokens": 695,
+			"cachedTokens": 0,
+			"outputTokens": 770,
+			"reasoningTokens": 440,
+			"batch": true
+		}
+	}
+}

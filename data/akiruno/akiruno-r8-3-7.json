@@ -55,5 +55,27 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "b290ea21be1684fa",
+		"name": "Removes Sugino-ko Nursery School from the ordinance list",
+		"official": "Ordinance Partially Amending the Akiruno City Nursery School Ordinance",
+		"summary": "The city’s Nursery School Ordinance includes an entry for Sugino-ko Nursery School. This bill deletes that entry following the school’s closure. The amendment takes effect on April 1, 2026.",
+		"changes": [
+			"Deletes the entry for Sugino-ko Nursery School from the ordinance’s attached list"
+		],
+		"who": [],
+		"why": "The city says this is to revise the provisions following the closure of Sugino-ko Nursery School.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T04:15:23.636Z",
+			"inputTokens": 573,
+			"cachedTokens": 0,
+			"outputTokens": 338,
+			"reasoningTokens": 187
+		}
 	}
 }

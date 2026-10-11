@@ -23,5 +23,20 @@
 			"url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/011/947/4-14.pdf",
 			"fetchedAt": "2026-10-05T15:57:49.297Z"
 		}
-	]
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "1764ce89e25f0f48",
+		"official": "Ordinance Partially Amending the Higashiyamato City Ordinance Concerning Remuneration, etc. for Part-Time Employees",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:01:49.204Z",
+			"inputTokens": 390,
+			"cachedTokens": 0,
+			"outputTokens": 127,
+			"reasoningTokens": 84
+		}
+	}
 }

@@ -60,5 +60,27 @@
 			"outputTokens": 44,
 			"reasoningTokens": 29
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "933a82f30b17c5c9",
+		"name": "Changes the legal provision cited for waiving liability",
+		"official": "Ordinance Partially Amending the Machida City Ordinance on the Establishment, etc. of the Sewerage Business",
+		"summary": "When waiving the liability of an employee of the sewerage business, the amount for which City Assembly approval is required remains ¥200,000 or more, as before. This bill changes the number of the Local Autonomy Act article concerning that approval from Article 243-2-8 to Article 243-2-9.",
+		"changes": [
+			"Changes the referenced Local Autonomy Act article number from Article 243-2-8 to Article 243-2-9"
+		],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:15:15.618Z",
+			"inputTokens": 596,
+			"cachedTokens": 0,
+			"outputTokens": 608,
+			"reasoningTokens": 434
+		}
 	}
 }

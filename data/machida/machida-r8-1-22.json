@@ -74,5 +74,35 @@
 			"outputTokens": 354,
 			"reasoningTokens": 197
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "607287ed8f7a1249",
+		"name": "Adds a child and child-rearing support component to the National Health Insurance tax",
+		"official": "Ordinance Partially Amending the Machida City National Health Insurance Ordinance",
+		"summary": "The National Health Insurance tax is made up of amounts based on income and the number of people enrolled, among other things. From fiscal year 2026, this bill revises the rates and amounts for each category and introduces a new child and child-rearing support contribution component. It also revises provisions for reductions relating to low-income households, preschool-age children, and insured people giving birth.",
+		"changes": [
+			"Raises the income-based rate for the basic tax amount from 6.67% to 6.77%, and the per-person amount from ¥39,300 to ¥40,200.",
+			"Raises the income-based rate for the contribution for support of people aged 75 and over, etc., from 2.25% to 2.33%, and the per-person amount from ¥13,100 to ¥13,700.",
+			"Raises the income-based rate for the long-term care contribution from 2.02% to 2.08%, and the per-person amount for each person covered from ¥15,100 to ¥15,500.",
+			"Creates a child and child-rearing support contribution component, with an income-based rate of 0.3%, a per-person amount of ¥1,855, and a per-person amount of ¥105 for insured people aged 18 and over. Revises reduction provisions relating to low-income households, preschool-age children, and insured people giving birth."
+		],
+		"who": [
+			"Machida City National Health Insurance members",
+			"Low-income households receiving tax reductions",
+			"Households with preschool-age children receiving tax reductions",
+			"Insured people giving birth who receive tax reductions"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:14:42.246Z",
+			"inputTokens": 825,
+			"cachedTokens": 0,
+			"outputTokens": 2941,
+			"reasoningTokens": 2535
+		}
 	}
 }

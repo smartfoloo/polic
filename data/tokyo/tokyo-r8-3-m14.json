@@ -1,0 +1,37 @@
+{
+	"id": "tokyo-r8-3-m14",
+	"assembly": "tokyo",
+	"approved": false,
+	"number": "議員提出議案第14号",
+	"official": "子どもの属する世帯に係る国民健康保険料又は国民健康保険税の補助に関する条例",
+	"by": "member",
+	"session": "令和8年第3回定例会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"titleOnly": true,
+	"sources": [
+		{
+			"label": "令和8年第3回定例会 提出議案と議決結果",
+			"url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-3.html",
+			"fetchedAt": "2026-10-08T14:41:41.125Z"
+		}
+	],
+	"en": {
+		"approved": false,
+		"sourceHash": "2f78e6efe2e8f185",
+		"official": "Ordinance on Subsidies for National Health Insurance Premiums or National Health Insurance Tax for Households with Children",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:19:58.915Z",
+			"inputTokens": 396,
+			"cachedTokens": 0,
+			"outputTokens": 237,
+			"reasoningTokens": 200
+		}
+	}
+}

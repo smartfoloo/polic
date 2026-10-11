@@ -61,5 +61,28 @@
 			"outputTokens": 13,
 			"reasoningTokens": 0
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "891f236d8fff850e",
+		"name": "Changes references in the seal ordinance",
+		"official": "Bill for an Ordinance Partially Amending the Kunitachi City Ordinance on Seal Registration for Authorized Neighborhood Associations",
+		"summary": "The ordinance on seal registration for authorized neighborhood associations refers to provisions of the Enforcement Regulations of the Local Autonomy Act. This bill changes those references and will take effect on October 1, 2026.",
+		"changes": [
+			"Changes the reference in Article 4, Paragraph 1 from “Article 19, Paragraph 1, Item 1(g)” to “Article 18-3, Paragraph 1, Item 7”",
+			"Changes the reference in Article 5 from “Article 21, Paragraph 2” to “Article 18-3, Paragraph 1”"
+		],
+		"who": [],
+		"why": "The city says this is to organize the provisions following a partial amendment to the Enforcement Regulations of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:13:18.602Z",
+			"inputTokens": 636,
+			"cachedTokens": 0,
+			"outputTokens": 541,
+			"reasoningTokens": 324
+		}
 	}
 }

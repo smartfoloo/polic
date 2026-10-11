@@ -1,0 +1,114 @@
+{
+	"id": "kawasaki-r8-2-85",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第85号",
+	"official": "川崎市特定教育・保育施設及び特定地域型保育事業の運営の基準に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第85号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_85.pdf",
+			"fetchedAt": "2026-10-08T11:09:51.459Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "3歳以上限定の小規模保育の定員と選考を規定",
+	"category": "子育て",
+	"summary": "市の条例では、特定教育・保育施設や地域型保育事業の運営基準を定めています。この改正で、満3歳以上限定の小規模保育事業所ごとの利用定員や、定員を超えた場合の選考方法を定めます。また、教育認定子どもに特別利用地域型保育を提供する場合の基準も定めます。",
+	"changes": [
+		"満3歳以上限定小規模保育事業所ごとに利用定員を定める",
+		"申込みと利用中の子どもの合計が定員を超えた場合、保育の必要性が高い子どもを優先して選考する",
+		"教育認定子どもに特別利用地域型保育を提供する場合の基準を設ける"
+	],
+	"who": [
+		"満3歳以上限定小規模保育事業者",
+		"その事業の利用を希望する子どもの保護者"
+	],
+	"why": "運営基準の改正に伴い、利用定員や定員超過時の選考方法などを定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.871Z",
+		"inputTokens": 6459,
+		"cachedTokens": 0,
+		"outputTokens": 1640,
+		"reasoningTokens": 1307,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.871Z",
+		"checkedAt": "2026-10-10T07:29:38.641Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "満3歳以上限定小規模保育事業所ごとに利用定員を定める",
+				"note": "新設する第42条第8項では、満3歳以上限定小規模保育事業者は、連携施設の確保に当たり同条第1項第3号の連携協力を求める必要がないとしています。この事業者に関わる変更が抜けています。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "教育認定子どもに特別利用地域型保育を提供する場合の基準を設ける",
+				"note": "新設する第51条の2第2・3項の具体的な基準が抜けています。教育認定子どもと利用中の満3歳以上保育認定子どもの総数を定員以内とし、特別利用の選考は保育の必要性による優先ではなく、抽選、申込順などの公正な方法によるとしています。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 6465,
+			"cachedTokens": 0,
+			"outputTokens": 484,
+			"reasoningTokens": 180,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "0f522368468df411",
+		"name": "Sets capacity and selection rules for small-scale childcare limited to children aged 3 and older",
+		"official": "Enactment of an Ordinance Partially Amending the Kawasaki City Ordinance on Standards for the Operation of Specified Education and Childcare Facilities and Specified Community-Based Childcare Businesses",
+		"summary": "The city’s ordinance sets operating standards for specified education and childcare facilities and community-based childcare businesses. This amendment sets the capacity at each small-scale childcare business limited to children aged 3 and older, and the selection method when applications and children already using the service exceed capacity. It also sets standards for providing special-use community-based childcare to education-certified children.",
+		"changes": [
+			"Set the capacity at each small-scale childcare business limited to children aged 3 and older",
+			"Prioritise children with a greater need for childcare when applications and children already using the service exceed capacity",
+			"Set standards for providing special-use community-based childcare to education-certified children"
+		],
+		"who": [
+			"Operators of small-scale childcare businesses limited to children aged 3 and older",
+			"Parents or guardians of children who wish to use these services"
+		],
+		"why": "The city says this is to set capacity, the selection method when capacity is exceeded, and other matters in line with the revision of the operating standards.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.058Z",
+			"inputTokens": 763,
+			"cachedTokens": 0,
+			"outputTokens": 642,
+			"reasoningTokens": 350,
+			"batch": true
+		}
+	}
+}

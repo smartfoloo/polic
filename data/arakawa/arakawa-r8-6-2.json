@@ -1,0 +1,47 @@
+{
+	"id": "arakawa-r8-6-2",
+	"assembly": "tokyo/arakawa",
+	"approved": false,
+	"number": "議案第2号",
+	"official": "荒川区家庭的保育事業等の設備及び運営の基準に関する条例等の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年度定例会・6月会議",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "提案",
+	"date": null,
+	"sources": [
+		{
+			"label": "令和8年度定例会・6月会議 議案の審議結果",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_6gatsu_kekka.html",
+			"fetchedAt": "2026-10-10T14:44:39.440Z"
+		},
+		{
+			"label": "議案第2号 提案理由",
+			"url": "https://www.city.arakawa.tokyo.jp/a053/r8_gian2.html",
+			"fetchedAt": "2026-10-10T14:46:44.185Z"
+		}
+	],
+	"name": "小規模保育事業所などの職員基準を改正",
+	"category": "子育て",
+	"summary": "小規模保育事業所A型などに置く職員の基準が定められています。この議案で、その基準などを改め、規定を整えます。",
+	"changes": [
+		"小規模保育事業所A型などに置く職員の基準を改める"
+	],
+	"who": [
+		"小規模保育事業所A型などを運営する事業者"
+	],
+	"why": "児童福祉法などの改正に伴い、職員の基準などを改め、規定を整えるためと、区は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-11T03:07:11.817Z",
+		"inputTokens": 1097,
+		"cachedTokens": 0,
+		"outputTokens": 404,
+		"reasoningTokens": 230,
+		"batch": true
+	}
+}

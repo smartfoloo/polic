@@ -1,0 +1,103 @@
+{
+	"id": "kawasaki-r8-2-77",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第77号",
+	"official": "川崎市指定通所支援の事業等の人員、設備及び運営の基準等に関する条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第77号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_77.pdf",
+			"fetchedAt": "2026-10-08T11:09:03.439Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "障害児支援で性暴力防止の措置を義務化",
+	"category": "福祉",
+	"summary": "指定通所支援の事業に関する基準を改めます。児童対象性暴力等の防止や、発生した場合の障害児の保護に向け、対象となる従事者の犯罪事実確認などを事業者に求めます。令和8年12月25日に施行します。",
+	"changes": [
+		"児童対象性暴力等の防止と発生時の障害児の保護に必要な措置を義務付ける",
+		"対象となる従事者の犯罪事実確認などを必要な措置に含める",
+		"関連する事業にも第47条の規定を適用する",
+		"「指導訓練室」を「発達支援室」に改める"
+	],
+	"who": [
+		"指定通所支援を利用する障害児",
+		"指定通所支援事業者",
+		"支配性・継続性・閉鎖性のある環境で障害児に接する業務従事者"
+	],
+	"why": "児童福祉法に基づく指定通所支援の基準改正に伴い、児童対象性暴力等の防止に必要な措置を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.870Z",
+		"inputTokens": 1807,
+		"cachedTokens": 0,
+		"outputTokens": 2294,
+		"reasoningTokens": 1936,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.870Z",
+		"checkedAt": "2026-10-10T07:29:38.636Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1838,
+			"cachedTokens": 0,
+			"outputTokens": 49,
+			"reasoningTokens": 35,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "1375cb4e215747f9",
+		"name": "Requires measures to prevent sexual violence against children receiving disability support",
+		"official": "On Enacting an Ordinance Partially Amending the Kawasaki City Ordinance on Standards for Staffing, Facilities, and Operations of Designated Day-Service Support Businesses, etc.",
+		"summary": "Revises the standards for designated day-service support businesses. It requires providers to take measures to prevent sexual violence against children and similar acts, and to protect children with disabilities if such acts occur. These measures include criminal background checks for covered workers. The ordinance takes effect on December 25, 2026.",
+		"changes": [
+			"Require measures to prevent sexual violence against children and similar acts, and to protect children with disabilities if such acts occur",
+			"Include criminal background checks for covered workers among the required measures",
+			"Apply the provisions of Article 47 to related businesses as well",
+			"Change “instruction and training room” to “developmental support room”"
+		],
+		"who": [
+			"Children with disabilities who use designated day-service support",
+			"Providers of designated day-service support",
+			"Workers whose duties involve contact with children with disabilities in settings with a power imbalance, ongoing contact, and limited openness"
+		],
+		"why": "The city says this is to establish measures needed to prevent sexual violence against children and similar acts, following revisions to the standards for designated day-service support under the Child Welfare Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.057Z",
+			"inputTokens": 787,
+			"cachedTokens": 0,
+			"outputTokens": 1181,
+			"reasoningTokens": 875,
+			"batch": true
+		}
+	}
+}

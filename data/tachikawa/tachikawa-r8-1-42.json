@@ -25,12 +25,12 @@
 	],
 	"name": "常勤監査委員の給与と旅費を定める",
 	"category": "行政のしくみ",
-	"summary": "現在の条例は、市長、副市長、教育長の給与や旅費を定めています。この議案で常勤監査委員を対象に加え、月額給料を679,000円、退職手当の割合を勤続1年につき給料月額の200/100とします。出張旅費の種類や計算方法も改め、条例は令和8年4月1日から施行します。旅費の新ルールは、同日以後に出発する出張に適用します。",
+	"summary": "現在の条例は、市長、副市長、教育長の給与や旅費を定めています。この議案で常勤監査委員を対象に加え、月額給料を679,000円、退職手当の割合を勤続1年につき給料月額の200/100とします。条例は令和8年4月1日から施行し、第5条第2項・第3項の規定は、同日以後に出発する出張に適用します。それ以前に出発した出張は、従来の扱いとなります。",
 	"changes": [
 		"常勤監査委員を給与等の対象に加え、給料を月額679,000円とする",
 		"常勤監査委員の退職手当を、勤続1年につき給料月額の200/100とする",
 		"旅費の種類や宿泊費の算定方法を改める",
-		"鉄道賃、船賃、航空賃を、指定職職員等に相当する額を上限に実費で支給する"
+		"鉄道賃、船賃、航空賃の支給額を、実費額と指定職職員等に相当する額のうち低い額とする"
 	],
 	"who": [],
 	"why": "地方自治法第204条第3項の規定に基づく改正のためと、市は説明しています。",
@@ -38,40 +38,64 @@
 		"model": "gpt-6-luna",
 		"effort": "high",
 		"promptVersion": 3,
-		"generatedAt": "2026-10-08T04:29:38.993Z",
+		"generatedAt": "2026-10-08T23:32:05.395Z",
 		"inputTokens": 3393,
 		"cachedTokens": 0,
 		"outputTokens": 2196,
-		"reasoningTokens": 1863
+		"reasoningTokens": 1863,
+		"fixed": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 1,
+			"at": "2026-10-08T23:32:05.395Z",
+			"notes": [
+				"ai [error] summary/fact: 「旅費の新ルールは、同日以後に出発する出張に適用します。」 → 附則第2項で出発日による適用を定めているのは第5条第2項・第3項のみであり、旅費の新ルール全体ではありません。",
+				"ai [check] changes/direction: 「鉄道賃、船賃、航空賃を、指定職職員等に相当する額を上限に実費で支給する」 → 原文の第5条第5項付近は空欄と条文の列の対応が崩れており、この規定が改正後に加わるものか、表から変更の向きを確認できません。"
+			],
+			"inputTokens": 3980,
+			"cachedTokens": 1025,
+			"outputTokens": 2261,
+			"reasoningTokens": 1912
+		}
 	},
 	"checks": {
-		"draftAt": "2026-10-08T04:29:38.993Z",
-		"checkedAt": "2026-10-08T05:53:15.014Z",
+		"draftAt": "2026-10-08T23:32:05.395Z",
+		"checkedAt": "2026-10-08T23:32:09.631Z",
 		"flags": [],
-		"issues": [
-			{
-				"field": "summary",
-				"kind": "fact",
-				"severity": "error",
-				"quote": "旅費の新ルールは、同日以後に出発する出張に適用します。",
-				"note": "附則第2項で出発日による適用を定めているのは第5条第2項・第3項のみであり、旅費の新ルール全体ではありません。"
-			},
-			{
-				"field": "changes",
-				"kind": "direction",
-				"severity": "check",
-				"quote": "鉄道賃、船賃、航空賃を、指定職職員等に相当する額を上限に実費で支給する",
-				"note": "原文の第5条第5項付近は空欄と条文の列の対応が崩れており、この規定が改正後に加わるものか、表から変更の向きを確認できません。"
-			}
-		],
+		"issues": [],
 		"ai": {
 			"model": "gpt-6.1-sol",
 			"effort": "medium",
 			"promptVersion": 2,
-			"inputTokens": 3392,
+			"inputTokens": 3408,
 			"cachedTokens": 0,
-			"outputTokens": 588,
-			"reasoningTokens": 383
+			"outputTokens": 112,
+			"reasoningTokens": 97
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "ffdd0ae7b9914ba6",
+		"name": "Sets the salary and travel expenses of the full-time audit commissioner",
+		"official": "Ordinance Partially Amending the Tachikawa City Ordinance on Payment of Salaries, etc., to Full-Time Special-Service Employees",
+		"summary": "The current ordinance sets the salaries and travel expenses of the mayor, deputy mayor and superintendent of education. This bill adds the full-time audit commissioner and sets the monthly salary at ¥679,000 and the retirement allowance rate at 200/100 of the monthly salary for each year of service. The ordinance will take effect on April 1, 2026. The provisions of Article 5, paragraphs 2 and 3 will apply to business trips departing on or after that date. Trips departing before then will continue to be handled under the previous rules.",
+		"changes": [
+			"Add the full-time audit commissioner to those covered by the salary and related-payment rules, with a monthly salary of ¥679,000",
+			"Set the full-time audit commissioner's retirement allowance at 200/100 of the monthly salary for each year of service",
+			"Revise the types of travel expenses and the method for calculating accommodation expenses",
+			"Set train, ship and air travel payments at the lower of the actual cost or the amount equivalent to that for employees in designated positions, etc."
+		],
+		"who": [],
+		"why": "The city says this amendment is based on Article 204, paragraph 3 of the Local Autonomy Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T07:13:42.673Z",
+			"inputTokens": 760,
+			"cachedTokens": 0,
+			"outputTokens": 831,
+			"reasoningTokens": 509
 		}
 	}
 }

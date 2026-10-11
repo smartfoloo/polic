@@ -1,0 +1,93 @@
+{
+	"id": "kawasaki-r8-1-6",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第6号",
+	"official": "川崎市市税条例の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年第1回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000183782.html",
+			"fetchedAt": "2026-10-08T11:06:15.429Z"
+		},
+		{
+			"label": "議案第6号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/gian_6.pdf",
+			"fetchedAt": "2026-10-08T11:06:57.476Z"
+		},
+		{
+			"label": "令和8年第1回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000183/183782/0318sityou.pdf",
+			"fetchedAt": "2026-10-08T11:06:21.440Z"
+		}
+	],
+	"name": "市税の告示・公告の掲示場を指定",
+	"category": "税・手数料",
+	"summary": "市税の賦課や徴収に関する告示・公告を掲示する場所を定める条例の規定を改めます。掲示場を川崎市みぞのくち市税事務所にします。",
+	"changes": [
+		"市税の賦課徴収に関する告示・公告の掲示場を川崎市みぞのくち市税事務所にする"
+	],
+	"who": [
+		"市税の賦課・徴収に関する告示・公告の対象となる人"
+	],
+	"why": "地方税法の一部改正に伴い、公示送達に係る掲示場を定めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.869Z",
+		"inputTokens": 1320,
+		"cachedTokens": 0,
+		"outputTokens": 955,
+		"reasoningTokens": 739,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.869Z",
+		"checkedAt": "2026-10-10T07:29:38.633Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1207,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "39315fa98ba3b373",
+		"name": "Designates posting location for city tax notices and public announcements",
+		"official": "Regarding the Enactment of an Ordinance Partially Amending the Kawasaki City Tax Ordinance",
+		"summary": "Amends the ordinance provision that sets where notices and public announcements about the assessment and collection of city taxes are posted. It makes the Kawasaki City Mizonokuchi Tax Office the posting location.",
+		"changes": [
+			"Sets the posting location for notices and public announcements about the assessment and collection of city taxes at the Kawasaki City Mizonokuchi Tax Office"
+		],
+		"who": [
+			"People covered by notices and public announcements concerning the assessment and collection of city taxes"
+		],
+		"why": "The city says this is to set a posting location for service by public notice following a partial revision of the Local Tax Act.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.056Z",
+			"inputTokens": 620,
+			"cachedTokens": 0,
+			"outputTokens": 539,
+			"reasoningTokens": 350,
+			"batch": true
+		}
+	}
+}

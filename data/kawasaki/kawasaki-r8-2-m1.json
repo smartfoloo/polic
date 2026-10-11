@@ -1,0 +1,69 @@
+{
+	"id": "kawasaki-r8-2-m1",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議員提出議案第1号",
+	"official": "川崎市議会議員定数及び各選挙区選出議員数に関する条例の一部を改正する条例の制定について",
+	"by": "member",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "否決",
+	"stage": 3,
+	"dateKind": "否決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議員提出議案第1号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/giin1.pdf",
+			"fetchedAt": "2026-10-08T11:10:45.467Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0618giinnteisyutugian.pdf",
+			"fetchedAt": "2026-10-08T11:08:51.443Z"
+		}
+	],
+	"name": "市議会議員の定数を60人から53人に",
+	"category": "行政のしくみ",
+	"summary": "川崎市議会の議員定数は60人です。この議案では定数を53人にし、選挙区ごとの定数のうち、9人を8人、7人を6人、10人を9人にします。変更は次の一般選挙から適用します。",
+	"changes": [
+		"議員定数を60人から53人に減らす",
+		"選挙区ごとの定数のうち、9人を8人、7人を6人、10人を9人に減らす"
+	],
+	"who": [
+		"川崎市内の各選挙区の有権者"
+	],
+	"why": "市議会議員の定数と各選挙区で選出する議員数を改めるためと、提出した議員は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.872Z",
+		"inputTokens": 1365,
+		"cachedTokens": 0,
+		"outputTokens": 837,
+		"reasoningTokens": 616,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.872Z",
+		"checkedAt": "2026-10-10T07:29:38.645Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1282,
+			"cachedTokens": 0,
+			"outputTokens": 55,
+			"reasoningTokens": 40,
+			"batch": true
+		}
+	}
+}

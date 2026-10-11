@@ -1,0 +1,95 @@
+{
+	"id": "fujisawa-r8-2-84",
+	"assembly": "kanagawa/fujisawa",
+	"approved": false,
+	"number": "議案第84号",
+	"official": "藤沢市職員定数条例の一部改正について",
+	"by": "head",
+	"session": "令和8年2月定例会",
+	"committee": "令和8年度予算等特別委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-18",
+	"sources": [
+		{
+			"label": "令和8年2月定例会 議案一覧",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F12%2C2026%2F03%2F18%2C112",
+			"fetchedAt": "2026-10-08T11:13:34.985Z"
+		},
+		{
+			"label": "議案第84号の詳細",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/g07_Giketsu_View.asp?SrchID=2713&Sflg=2",
+			"fetchedAt": "2026-10-08T11:13:52.938Z"
+		},
+		{
+			"label": "議案第84号（PDF）",
+			"url": "https://shigikai.city.fujisawa.kanagawa.jp/voices/GikaiDoc/attach/Gk/Gk2713_e01-084.pdf",
+			"fetchedAt": "2026-10-08T11:13:58.953Z"
+		}
+	],
+	"name": "市職員の定数を見直す",
+	"category": "行政のしくみ",
+	"summary": "条例の別表には、市職員の定数が定められています。この議案では、別表にある4つの定数を改め、令和8年4月1日から施行します。",
+	"changes": [
+		"定数を2,132人から2,139人に改める",
+		"定数を948人から950人に改める",
+		"定数を455人から465人に改める",
+		"定数を3,822人から3,841人に改める"
+	],
+	"who": [],
+	"why": "行政需要の増加への対応や既存業務の見直しなどに伴い、職員定数を改める必要があるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.844Z",
+		"inputTokens": 1289,
+		"cachedTokens": 0,
+		"outputTokens": 707,
+		"reasoningTokens": 516,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.844Z",
+		"checkedAt": "2026-10-10T07:29:38.562Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1165,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "db3cd3dc29850f63",
+		"name": "Revises the number of city employees",
+		"official": "Regarding the Partial Amendment to the Fujisawa City Employee Staffing Ordinance",
+		"summary": "The ordinance appendix sets the number of city employees. This bill revises four staffing numbers in the appendix and takes effect on April 1, 2026.",
+		"changes": [
+			"Changes the staffing level from 2,132 to 2,139 employees",
+			"Changes the staffing level from 948 to 950 employees",
+			"Changes the staffing level from 455 to 465 employees",
+			"Changes the staffing level from 3,822 to 3,841 employees"
+		],
+		"who": [],
+		"why": "The city says it needs to revise staffing levels to respond to increased administrative demand and review existing duties, among other reasons.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.031Z",
+			"inputTokens": 619,
+			"cachedTokens": 0,
+			"outputTokens": 570,
+			"reasoningTokens": 382,
+			"batch": true
+		}
+	}
+}

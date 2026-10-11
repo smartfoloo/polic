@@ -57,5 +57,29 @@
 			"outputTokens": 57,
 			"reasoningTokens": 42
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5862f42db0c26c1d",
+		"name": "Allows use of health insurance information in public health administration",
+		"official": "Regarding the Establishment of an Ordinance Partially Amending the Ordinance on the Use of Numbers to Identify Specific Individuals in Hachioji City Administrative Procedures and the Provision of Specific Personal Information",
+		"summary": "For certain health and sanitation work carried out by the mayor, as specified in city rules, information such as public assistance and local tax information is covered. This bill adds health insurance information to the information covered.",
+		"changes": [
+			"Adds health insurance information to the information covered"
+		],
+		"who": [
+			"People covered by health and sanitation work specified in city rules"
+		],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T05:57:25.980Z",
+			"inputTokens": 606,
+			"cachedTokens": 0,
+			"outputTokens": 542,
+			"reasoningTokens": 379
+		}
 	}
 }

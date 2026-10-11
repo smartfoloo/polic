@@ -1,0 +1,80 @@
+{
+	"id": "ebina-r8-1-11",
+	"assembly": "kanagawa/ebina",
+	"approved": false,
+	"number": "議案第11号",
+	"official": "海老名市国民健康保険税賦課徴収条例の一部改正について",
+	"by": "head",
+	"session": "令和8年3月第1回定例会",
+	"committee": "文教社会常任委員会",
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-26",
+	"sources": [
+		{
+			"label": "令和8年3月第1回定例会 議案一覧",
+			"url": "https://ebina.gijiroku.com/g07_giketsu.asp?exp=&smode=3&nenfrom=&nento=&kword1=&kword2=&bunrui=&hutaku=&kensu=100&kekka=&Sflg=2&Kmode=0&FBKEY1=&FBKEY2=&TITL=&FYY=&FMM=&FDD=&TYY=&TMM=&TDD=&iPageNum=1&kaigi=2026%2F02%2F24%2C2026%2F03%2F26%2C112",
+			"fetchedAt": "2026-10-08T11:25:11.274Z"
+		},
+		{
+			"label": "議案第11号（PDF）",
+			"url": "https://ebina.gijiroku.com/voices/GikaiDoc/attach/Gk/Gk1464_8.11.pdf",
+			"fetchedAt": "2026-10-08T11:26:05.229Z"
+		}
+	],
+	"name": "国民健康保険税のルールを一部改正",
+	"category": "税・手数料",
+	"summary": "海老名市国民健康保険税の賦課や徴収に関する条例を一部改正する議案です。原文に改正内容の説明がないため、具体的に何が変わるかは確認できません。",
+	"changes": [],
+	"who": [],
+	"why": "",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.838Z",
+		"inputTokens": 992,
+		"cachedTokens": 0,
+		"outputTokens": 441,
+		"reasoningTokens": 334,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.838Z",
+		"checkedAt": "2026-10-10T07:29:38.552Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 779,
+			"cachedTokens": 0,
+			"outputTokens": 42,
+			"reasoningTokens": 28,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "96ff473394d37aba",
+		"name": "Partially revises National Health Insurance tax rules",
+		"official": "Regarding the Partial Amendment of the Ebina City Ordinance on the Levy and Collection of National Health Insurance Tax",
+		"summary": "This is a proposal to partially amend the ordinance concerning the levy and collection of National Health Insurance tax in Ebina City. The source does not explain the amendments, so it is not possible to confirm specifically what will change.",
+		"changes": [],
+		"who": [],
+		"why": "",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.025Z",
+			"inputTokens": 530,
+			"cachedTokens": 0,
+			"outputTokens": 249,
+			"reasoningTokens": 131,
+			"batch": true
+		}
+	}
+}

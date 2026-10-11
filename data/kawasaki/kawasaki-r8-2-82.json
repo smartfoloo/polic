@@ -1,0 +1,116 @@
+{
+	"id": "kawasaki-r8-2-82",
+	"assembly": "kanagawa/kawasaki",
+	"approved": false,
+	"number": "議案第82号",
+	"official": "川崎市幼保連携型認定こども園の学級の編制、職員、設備及び運営の基準に関する条例等の一部を改正する条例の制定について",
+	"by": "head",
+	"session": "令和8年第2回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-06-18",
+	"sources": [
+		{
+			"label": "令和8年第2回定例会 会議結果",
+			"url": "https://www.city.kawasaki.jp/980/page/0000187642.html",
+			"fetchedAt": "2026-10-08T11:08:39.563Z"
+		},
+		{
+			"label": "議案第82号（PDF）",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/gian_82.pdf",
+			"fetchedAt": "2026-10-08T11:09:33.543Z"
+		},
+		{
+			"label": "令和8年第2回定例会 議決結果",
+			"url": "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000187/187642/0624shityou.pdf",
+			"fetchedAt": "2026-10-08T11:08:45.436Z"
+		}
+	],
+	"name": "認定こども園の学級・職員基準を変更",
+	"category": "子育て",
+	"summary": "現在、1学級の園児数の基準は35人です。この議案は基準を30人に改めますが、施行時点ですでにある園は令和14年3月31日まで従来の基準を適用できます。また、園児と接する職員への犯罪事実確認などを義務付け、職員配置の基準や特例も見直します。",
+	"changes": [
+		"1学級の園児数の基準を35人から30人に改める",
+		"園児と接する一部の職員について犯罪事実確認などを義務付ける",
+		"職員配置基準に主務保育教諭を加え、理学療法士等による代替を認める",
+		"職員配置基準の特例の期限や適用条件を定める"
+	],
+	"who": [
+		"幼保連携型認定こども園に通う園児と保護者",
+		"幼保連携型認定こども園の設置者や職員"
+	],
+	"why": "児童対象性暴力等の防止や、職員配置の基準などを改めるためと、市は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.871Z",
+		"inputTokens": 3313,
+		"cachedTokens": 0,
+		"outputTokens": 2425,
+		"reasoningTokens": 2116,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.871Z",
+		"checkedAt": "2026-10-10T07:29:38.638Z",
+		"flags": [],
+		"issues": [
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "職員配置基準に主務保育教諭を加え、理学療法士等による代替を認める",
+				"note": "原文第1条では、代替は一定の資格・経験等を備える者1人に限り、教育への従事制限と保育時の支援体制確保を条件としている。代替の範囲と主な条件が抜けている。"
+			},
+			{
+				"field": "changes",
+				"kind": "omission",
+				"severity": "check",
+				"quote": "職員配置基準の特例の期限や適用条件を定める",
+				"note": "原文第2条では、満3歳以上満4歳未満の配置基準の特例を令和10年3月31日までとし、満4歳以上は職員配置の状況により教育・保育の提供に支障のおそれがある場合に当分の間旧基準を適用する。対象年齢別の期限・条件が抜けている。"
+			}
+		],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 3327,
+			"cachedTokens": 0,
+			"outputTokens": 469,
+			"reasoningTokens": 170,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "5bcc0d3b01c09164",
+		"name": "Changes class-size and staffing standards at integrated certified childcare centers",
+		"official": "On the Enactment of an Ordinance Partially Amending the Kawasaki City Ordinance on Standards for Class Organization, Staff, Facilities, and Operation of Certified Centers for Early Childhood Education and Care That Integrate Kindergarten and Nursery Functions, etc.",
+		"summary": "The current standard is 35 children per class. This bill changes it to 30. However, centers already in operation when the ordinance takes effect may continue to apply the previous standard until March 31, 2032. The bill also requires criminal-record checks and other measures for some staff who interact with children, and revises staffing standards and exceptions.",
+		"changes": [
+			"Changes the standard number of children per class from 35 to 30",
+			"Requires criminal-record checks and other measures for some staff who interact with children",
+			"Adds lead childcare and education teachers to staffing standards and allows physical therapists, etc., to serve as substitutes",
+			"Sets deadlines and conditions for exceptions to staffing standards"
+		],
+		"who": [
+			"Children attending integrated certified centers for early childhood education and care, and their parents or guardians",
+			"Operators and staff of integrated certified centers for early childhood education and care"
+		],
+		"why": "The city says the ordinance is intended to prevent sexual violence against children and related harms, and to revise staffing standards and related rules.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.058Z",
+			"inputTokens": 778,
+			"cachedTokens": 0,
+			"outputTokens": 1057,
+			"reasoningTokens": 748,
+			"batch": true
+		}
+	}
+}

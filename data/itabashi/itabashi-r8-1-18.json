@@ -64,5 +64,33 @@
 			"outputTokens": 52,
 			"reasoningTokens": 38
 		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "a3c863c39c78028f",
+		"name": "Changes qualification requirements for child welfare facility heads and staff",
+		"official": "Ordinance Partially Amending the Ordinance Establishing Standards for the Equipment and Operation of Child Welfare Facilities in Itabashi City, Tokyo",
+		"summary": "The qualifications required to become a head or staff member of a child welfare facility are set out in an ordinance. This bill adds qualifications such as Child and Family Social Worker to some requirements, and removes Certified Social Worker and Certified Psychiatric Social Worker from another requirement.",
+		"changes": [
+			"Adds Child and Family Social Worker to some qualification requirements for facility heads and staff",
+			"Adds Certified Psychiatric Social Worker to two staff qualification requirements",
+			"Removes Certified Social Worker and Certified Psychiatric Social Worker from some staff qualification requirements"
+		],
+		"who": [
+			"Heads and staff of child welfare facilities, and people seeking those jobs",
+			"Staff of child welfare facilities, and people seeking those jobs",
+			"Staff of child welfare facilities, and people seeking those jobs"
+		],
+		"why": "The ward says the provisions need to be revised, including by adding qualifications to the requirements for some heads and staff of child welfare facilities, following an amendment to a Cabinet Office Order.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-09T06:06:25.387Z",
+			"inputTokens": 715,
+			"cachedTokens": 0,
+			"outputTokens": 1289,
+			"reasoningTokens": 1019
+		}
 	}
 }

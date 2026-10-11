@@ -1,0 +1,84 @@
+{
+	"id": "kanagawa-r8-1-29",
+	"assembly": "kanagawa",
+	"approved": false,
+	"number": "定県第29号議案",
+	"official": "神奈川県公益認定等審議会条例の一部を改正する条例",
+	"by": "head",
+	"session": "令和8年第1回定例会",
+	"committee": null,
+	"status": "決定",
+	"stage": 3,
+	"dateKind": "可決",
+	"date": "2026-03-25",
+	"sources": [
+		{
+			"label": "定県第29号議案（PDF）",
+			"url": "https://www.pref.kanagawa.jp/documents/132306/joreisonotar8.pdf",
+			"fetchedAt": "2026-10-08T11:00:20.568Z"
+		},
+		{
+			"label": "令和8年第1回定例会 審議結果",
+			"url": "https://www.pref.kanagawa.jp/gikai/gian_08dai1.html",
+			"fetchedAt": "2026-10-08T11:00:14.661Z"
+		}
+	],
+	"name": "審議会の規定に公益信託を追加",
+	"category": "行政のしくみ",
+	"summary": "現在、条例の第2条第2項には「公益法人」が記されています。この議案では、公益信託に関する法律で定める公益信託も加え、令和8年4月1日から施行します。",
+	"changes": [
+		"第2条第2項に公益信託を加える"
+	],
+	"who": [],
+	"why": "公益信託に関する法律の全部改正などに伴い、審議会の委員に関する規定を改めるためと、県は説明しています。",
+	"draft": {
+		"model": "gpt-6-luna",
+		"effort": "high",
+		"promptVersion": 3,
+		"generatedAt": "2026-10-10T07:24:24.864Z",
+		"inputTokens": 1202,
+		"cachedTokens": 0,
+		"outputTokens": 1001,
+		"reasoningTokens": 842,
+		"batch": true
+	},
+	"checks": {
+		"draftAt": "2026-10-10T07:24:24.864Z",
+		"checkedAt": "2026-10-10T07:29:38.616Z",
+		"flags": [],
+		"issues": [],
+		"ai": {
+			"model": "gpt-6.1-sol",
+			"effort": "medium",
+			"promptVersion": 2,
+			"inputTokens": 1054,
+			"cachedTokens": 0,
+			"outputTokens": 12,
+			"reasoningTokens": 0,
+			"batch": true
+		}
+	},
+	"en": {
+		"approved": false,
+		"sourceHash": "7649bf91c3a8d16a",
+		"name": "Adds public-interest trusts to the council ordinance",
+		"official": "Ordinance Partially Amending the Kanagawa Prefecture Ordinance on the Council for Public Interest Certification, etc.",
+		"summary": "Article 2, paragraph 2 of the current ordinance lists “public-interest corporations.” This bill also adds public-interest trusts provided for in the Act on Public-Interest Trusts. It takes effect on April 1, 2026.",
+		"changes": [
+			"Adds public-interest trusts to Article 2, paragraph 2"
+		],
+		"who": [],
+		"why": "The prefecture says this is to revise provisions on council members in connection with the complete revision of the Act on Public-Interest Trusts and other changes.",
+		"draft": {
+			"model": "gpt-6-luna",
+			"effort": "high",
+			"promptVersion": 3,
+			"generatedAt": "2026-10-10T07:53:16.049Z",
+			"inputTokens": 587,
+			"cachedTokens": 0,
+			"outputTokens": 748,
+			"reasoningTokens": 577,
+			"batch": true
+		}
+	}
+}
