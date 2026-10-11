@@ -1,6 +1,7 @@
 <script>
-	// Home page map: Kanto's municipalities from 国土数値情報 (built by scripts/map.js). Clicking Tokyo zooms in,
-	// where each covered ward or city links to its board. Uncovered places are shown but not clickable.
+	// Home page map: Kanto's municipalities from 国土数値情報 (built by scripts/map.js). Clicking a prefecture with
+	// live assemblies zooms in, where each covered ward or city links to its board. Uncovered places are shown but
+	// not clickable.
 	import map from '$lib/map/kanto.json';
 	import { t, href } from '$lib/i18n.js';
 	import Icon from './Icon.svelte';
@@ -8,22 +9,27 @@
 	/** @type {{ assemblies: import('$lib/bills.js').PublicAssembly[] }} */
 	let { assemblies } = $props();
 
-	const prefOf = (/** @type {import('$lib/bills.js').PublicAssembly} */ a) => assemblies.find((p) => p.id === a.parent)?.place ?? '';
-	const covered = $derived(new Map(assemblies.filter((a) => a.level === 'muni').map((a) => [`${prefOf(a)}/${a.place}`, a])));
-	const metro = $derived(assemblies.find((a) => a.level === 'pref' && a.place === '東京都'));
+	const covered = $derived(new Map(assemblies.filter((a) => a.level === 'muni').map((a) => [`${a.pref}/${a.place}`, a])));
+	// Prefectures that can be zoomed into: those with a live assembly, in the order the config lists them.
+	const zoomable = $derived([...new Set(assemblies.map((a) => a.pref))].map((pref) => ({ pref, prefEn: assemblies.find((a) => a.pref === pref)?.prefEn ?? pref })));
+	const prefAssembly = $derived(assemblies.find((a) => a.level === 'pref' && a.place === zoomed));
 
-	let zoomed = $state(false);
+	/** The prefecture zoomed into, or null for the whole map. */
+	let zoomed = $state(/** @type {string | null} */ (null));
 	/** @type {{ name: string, covered: boolean } | null} */
 	let hover = $state(null);
+	/** The zoomable prefecture under the pointer, lit as a whole. */
+	let hoverPref = $state(/** @type {string | null} */ (null));
 
 	const FULL = [0, 0, map.width, map.height];
-	// Zoomed frame: all of mainland Tokyo, plus 1.5 km.
-	const frame = (() => {
-		const boxes = map.shapes.filter((s) => s.pref === '東京都' && s.name).map((s) => s.box);
+	// Zoomed frame: the prefecture's mainland municipalities, plus 1.5 km.
+	function frame(/** @type {string} */ pref) {
+		const boxes = map.shapes.filter((s) => s.pref === pref && s.name).map((s) => s.box);
 		const x = Math.min(...boxes.map((b) => b[0])) - 15;
 		const y = Math.min(...boxes.map((b) => b[1])) - 15;
 		return [x, y, Math.max(...boxes.map((b) => b[0] + b[2])) + 15 - x, Math.max(...boxes.map((b) => b[1] + b[3])) + 15 - y];
-	})();
+	}
+	const canZoom = (/** @type {string} */ pref) => zoomable.some((z) => z.pref === pref);
 
 	let vb = $state(FULL);
 	/** @type {number} */
@@ -46,14 +52,15 @@
 	const nameOf = (/** @type {{ name?: string }} */ s, /** @type {import('$lib/bills.js').PublicAssembly | undefined} */ a) =>
 		a ? t(a.place, a.placeEn) : (s.name ?? '');
 
-	function zoomIn() {
-		zoomed = true;
+	function zoomIn(/** @type {string} */ pref) {
+		zoomed = pref;
 		hover = null;
-		animateTo(frame);
+		hoverPref = null;
+		animateTo(frame(pref));
 	}
 
 	function zoomOut() {
-		zoomed = false;
+		zoomed = null;
 		hover = null;
 		animateTo(FULL);
 	}
@@ -62,10 +69,14 @@
 <div class="kmap">
 	<div class="bar">
 		{#if zoomed}
-			<button type="button" class="kbtn" onclick={zoomOut}><Icon name="left" />{t('関東全体', 'All of Kanto')}</button>
-			{#if metro}<a class="kbtn" href={href(`/${metro.id}`)}>{t(metro.name, metro.nameEn)}<Icon name="right" /></a>{/if}
+			<button type="button" class="kbtn" onclick={zoomOut}><Icon name="left" />{t('全体を表示', 'Show all')}</button>
+			{#if prefAssembly}<a class="kbtn" href={href(`/${prefAssembly.id}`)}>{t(prefAssembly.name, prefAssembly.nameEn)}<Icon name="right" /></a>{/if}
 		{:else}
-			<button type="button" class="kbtn" onclick={zoomIn}>{t('東京都を拡大', 'Zoom in on Tokyo')}<Icon name="search" /></button>
+			<span class="zooms">
+				{#each zoomable as z (z.pref)}
+					<button type="button" class="kbtn" onclick={() => zoomIn(z.pref)}>{t(`${z.pref}を拡大`, `Zoom in on ${z.prefEn}`)}<Icon name="search" /></button>
+				{/each}
+			</span>
 		{/if}
 	</div>
 
@@ -89,11 +100,15 @@
 					<path
 						class="muni"
 						class:on={!!a}
-						class:tokyo={!zoomed && s.pref === '東京都'}
+						class:zoomable={!zoomed && canZoom(s.pref)}
+						class:lit={!zoomed && hoverPref === s.pref}
 						d={s.d}
-						onclick={!zoomed && s.pref === '東京都' ? zoomIn : undefined}
-						onmouseenter={() => s.name && (hover = { name: s.name, covered: !!a })}
-						onmouseleave={() => (hover = null)}
+						onclick={!zoomed && canZoom(s.pref) ? () => zoomIn(s.pref) : undefined}
+						onmouseenter={() => {
+							if (s.name) hover = { name: s.name, covered: !!a };
+							hoverPref = canZoom(s.pref) ? s.pref : null;
+						}}
+						onmouseleave={() => ((hover = null), (hoverPref = null))}
 					/>
 				{/if}
 			{/each}
@@ -105,11 +120,13 @@
 
 	<p class="caption" aria-live="polite">
 		{#if hover}
-			<b>{hover.name}</b>{hover.covered ? (zoomed ? t(' — 議案を見る', ' — see bills') : '') : t('（未対応）', ' (not covered yet)')}
+			<b>{hover.name}</b>{hover.covered ? (zoomed ? t('：議案を見る', ': see bills') : '') : t('（未対応）', ' (not covered yet)')}
 		{:else if zoomed}
 			{t('色のついた市区町村を選んでください', 'Pick a highlighted ward or city')}
 		{:else}
-			{t('東京都を選ぶと拡大します', 'Select Tokyo to zoom in')}
+			{zoomable.length === 1
+				? t(`${zoomable[0].pref}を選ぶと拡大します`, `Select ${zoomable[0].prefEn} to zoom in`)
+				: t('色のついた都県を選ぶと拡大します', 'Select a highlighted prefecture to zoom in')}
 		{/if}
 	</p>
 	<p class="credit">{t('島しょ部は省略。出典：', 'Islands omitted. Source: ')}{map.source}{t('を加工して作成', ', processed by Polic')}</p>
@@ -152,6 +169,12 @@
 		color: var(--color-primary);
 	}
 
+	.zooms {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
 	.bar :global(svg) {
 		width: 14px;
 		height: 14px;
@@ -176,11 +199,11 @@
 		fill: color-mix(in srgb, var(--color-primary) 38%, var(--color-surface-alt));
 	}
 
-	.muni.tokyo {
+	.muni.zoomable {
 		cursor: zoom-in;
 	}
 
-	.world:has(.tokyo:hover) .tokyo,
+	.muni.lit,
 	.muni.link:hover,
 	a:focus-visible .muni.link {
 		fill: var(--color-primary);

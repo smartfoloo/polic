@@ -72,15 +72,24 @@ export function parseSessionName(name) {
 	const hadano = t.match(/令和(\d+|元)年\d+月第(\d+)回(定例月|臨時)会議$/);
 	if (hadano) return { year: year(hadano[1]), n: Number(hadano[2]), kind: hadano[3] === '臨時' ? '臨時会' : '定例会' };
 	// 相模原 (year-long session from April): 「令和8年定例会6月定例会議」, 「…第1回臨時会議」, and the opening
-	// 「…開会会議」 as n 0.
-	const sagamihara = t.match(/令和(\d+|元)年定例会(?:(\d+)月定例会議|第(\d+)回臨時会議|(開会)会議)$/);
+	// 「…開会会議」 as n 0. Its March meeting falls in the next calendar year: 「令和7年定例会令和8年3月定例会議」.
+	const sagamihara = t.match(/令和(\d+|元)年定例会(?:令和(?:\d+|元)年)?(?:(\d+)月定例会議|第(\d+)回臨時会議|(開会)会議)$/);
 	if (sagamihara) return { year: year(sagamihara[1]), n: Number(sagamihara[2] ?? sagamihara[3] ?? 0), kind: sagamihara[3] ? '臨時会' : '定例会' };
 	// あきる野: a year-long 定例会 meets as 「3月定例会議」, 「第1回臨時会議」 and an opening 「開会会議」, and bill
 	// numbers run through the year. 開会会議 takes the 回 number as n (meetings are in months 3 and later).
 	const meeting = t.match(/令和(\d+|元)年第(\d+)回定例会(?:(\d+)月定例会議|第(\d+)回臨時会議|(開会)会議)$/);
 	if (meeting) return { year: year(meeting[1]), n: Number(meeting[3] ?? meeting[4] ?? meeting[2]), kind: meeting[4] ? '臨時会' : '定例会' };
+	// 荒川 (fiscal-year session): 「令和8年度定例会・6月会議」, 「…・4月緊急会議」, and the 「…・開会会議」 (n 0) and
+	// 「…・閉会会議」 (n 13, after March). Bill numbers run through the fiscal year.
+	const arakawa = t.match(/令和(\d+|元)年度定例会・(?:(\d+)月(?:緊急)?会議|(開会|閉会)会議)$/);
+	if (arakawa) return { year: year(arakawa[1]), n: arakawa[2] ? Number(arakawa[2]) : arakawa[3] === '開会' ? 0 : 13, kind: '定例会' };
+	// 寒川 (year-long session from January): 「令和8年第1回定例会3月会議」, 「…3月第2回会議」. Bill numbers run
+	// through the year, so the month is enough for n.
+	const samukawa = t.match(/令和(\d+|元)年第\d+回定例会(\d+)月(?:第\d+回)?会議$/);
+	if (samukawa) return { year: year(samukawa[1]), n: Number(samukawa[2]), kind: '定例会' };
 	// 文京 names them 「令和8年6月定例議会」 / 「令和8年7月臨時議会」.
-	const month = t.match(/令和(\d+|元)年(\d+)月(定例|臨時)(会|議会)$/);
+	// Anchored: 青梅's 「令和7年市議会定例会令和8年2月定例議会」 ends the same way but counts from 令和7年.
+	const month = t.match(/^令和(\d+|元)年(\d+)月(定例|臨時)(会|議会)$/);
 	if (month) return { year: year(month[1]), n: Number(month[2]), kind: `${month[3]}会` };
 	const y = t.match(/令和(\d+|元)年度定例会(\d+)月議会/) ?? t.match(/令和(\d+|元)年市議会定例会(?:令和\d+年)?(\d+)月(?:定例|招集|臨時)議会/);
 	return y ? { year: year(y[1]), n: Number(y[2]), kind: '定例会' } : null;

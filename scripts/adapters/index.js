@@ -1,6 +1,7 @@
 // Which adapter collects each assembly. The g07 bill database is shared by three wards, 町田市, 藤沢市 and 海老名市.
 
 import * as g07 from './g07.js';
+import * as kanagawa from './kanagawa.js';
 import * as itabashi from './itabashi.js';
 import * as katsushika from './katsushika.js';
 import * as meguro from './meguro.js';
@@ -44,10 +45,15 @@ import * as kawasaki from './kawasaki.js';
 import * as zushi from './zushi.js';
 import * as hadano from './hadano.js';
 import * as yugawara from './yugawara.js';
+import * as samukawa from './samukawa.js';
+import * as sagamihara from './sagamihara.js';
+import * as kiyose from './kiyose.js';
+import * as arakawa from './arakawa.js';
 
 /** @type {Record<string, { collect: typeof tokyo.collect }>} */
 export const adapters = {
 	tokyo,
+	kanagawa,
 	'tokyo/shinjuku': shinjuku,
 	'tokyo/taito': taito,
 	'tokyo/sumida': sumida,
@@ -95,5 +101,9 @@ export const adapters = {
 	'kanagawa/zushi': zushi,
 	'kanagawa/hadano': hadano,
 	'kanagawa/ebina': g07,
-	'kanagawa/yugawara': yugawara
+	'kanagawa/yugawara': yugawara,
+	'kanagawa/samukawa': samukawa,
+	'kanagawa/sagamihara': sagamihara,
+	'tokyo/kiyose': kiyose,
+	'tokyo/arakawa': arakawa
 };

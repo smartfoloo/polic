@@ -31,6 +31,13 @@ Goal: keep the app as simple as possible.
 | View counting | No new server: the bill page fires one beacon request (`/v/<bill-id>`) that Caddy answers `204` and logs; a nightly script counts unique (hashed IP + UA, per bill, per day) views from the log, writes `popular.json`, and rebuilds. Beacon, not page loads, because SvelteKit navigates client-side and preloads on hover. Caddy logs kept 7–14 days; only aggregates stored. Decided 2026-09-28. |
 | Region scope | **Kanto only** for the near future (茨城・栃木・群馬・埼玉・千葉・東京・神奈川). New assemblies come from there: the 23 wards first, then Tokyo cities and other Kanto cities (Tama area checked 2026-09-30, see "Tama area: source check"). The home page region search lists only Kanto (`SEARCH_PREFECTURES` in `src/lib/config/site.js`; town list from 総務省's code list via `npm run municipalities`). Decided 2026-09-30. |
 | Permission | Not legally required for this design. **Notify** each 議会事務局 once, before launch (what we crawl and publish); don't wait for a reply. Crawling may start before the notice: at our rate the load is negligible and the user-agent carries the contact address. Changed from notify-before-crawling 2026-09-30. |
+| Excluded for now | Decided 2026-10-08. **中央区** (robots.txt names AI bots; ask in the crawl notice) · **東村山市** (403 to our bot; ask in the crawl notice) · **三鷹市** (expired self-signed certificate; never skip verification) · **横須賀市** (bill texts only on Dropbox) · **二宮町** (results without bill numbers, below the publishing bar) · **新宿区** (stays held, `published: false`). |
+| Slow hosts | A per-host timeout where a host is reliably slow, as for 藤沢; **相模原** gets one for its 6 MB bundles. Decided 2026-10-08. Built 2026-10-10: 相模原 gets 120 s (its 令和8年3月 条例 bundle is 20 MB; it took about 4 s off-peak), and a limit above 30 s also lengthens the request timeout. |
+| Scanned bill texts | **Title-only**, no OCR (武蔵野, 東大和, 国立, 小金井). Decided 2026-10-08. Also 相模原's 令和8年3月 条例 bundle (all 24 bills) and 議案第83号 in its June bundle. |
+| Elections | Assembly **and** head elections hold unreviewed bills, by-elections included; `elections` list per assembly, dates from each prefecture's 選挙執行一覧. Decided 2026-10-08; see REVIEW.md. |
+| Other prefectures | Shown **the same way as Tokyo**: a prefectural assembly entry (`kanagawa`, …) with its municipalities under it; the home map zooms into any prefecture with live assemblies; the region picker groups by prefecture even before the prefectural assembly is live. Decided 2026-10-08. 埼玉・千葉: survey later, read-only and off-peak, then build easiest first. |
+| Batch API | `npm run batch` for large runs, at 50% off (decided 2026-10-09): rerun it, or `--wait`, until every step is through; each step can take up to 24 h. Skips assemblies marked `excluded`. Small runs and live bills stay on the direct commands. |
+| Unpublished session dates | Decided 2026-10-08: session `opened`/`closes` become optional and are left out where an assembly doesn't publish them (清瀬, 荒川, 寒川, 瑞穂, 狛江's 第2回定例会 and 第1回臨時会). The board and bill page then show the session name only, with no 開会中 tag. Not estimated from vote days. Adapters for 清瀬, 荒川 and 寒川 built 2026-10-10; 瑞穂's adapter is written but not configured. 荒川 publishes no vote or submission dates either, so it has the new `noDates` gap (「日付なし」). |
 
 ## Non-negotiables (from the legal briefing)
 
@@ -237,7 +244,7 @@ The 26 cities plus 瑞穂町, 日の出町, 檜原村 and 奥多摩町; the isla
 | Built, full facts: bill text, committee, vote date | 町田市 (g07) · 立川市 · 青梅市 · 八王子市 · 東久留米市 · 稲城市 |
 | Built, with gaps | 調布市 (member bills title-only) · 府中市 (no vote date; member bills title-only) · あきる野市 · 多摩市 · 国立市 (no committee published; 国立's is a scanned PDF) |
 | Built, text scanned (title-only until OCR) | 武蔵野市 · 東大和市: facts are fine, but the bill PDFs are CCITT scans with no text layer |
-| Blocked | 東村山市 (403 to our bot; ask in the crawl notice) · 三鷹市 (TLS certificate self-signed and expired, http 404s; needs a decision on skipping verification for that host) · 小平市 (bill PDFs sit on one-off press releases with no index found, and the R8 3月定例会 results page isn't linked anywhere) · 瑞穂町 (adapter written; past session dates not published) |
+| Blocked | 東村山市 (403 to our bot; ask in the crawl notice) · 三鷹市 (TLS certificate self-signed and expired, http 404s; needs a decision on skipping verification for that host) · 小平市 (bill PDFs sit on one-off press releases with no index found, and the R8 3月定例会 results page isn't linked anywhere; **2026-10-08: the city site reportedly hit by ransomware**, so don't crawl it until the city says it's restored, and re-survey then since the structure may change) · 瑞穂町 (adapter written; past session dates not published) |
 | Built 2026-10-07, not collected yet | 福生市 · 羽村市 (thin: a paragraph per bill) · 国分寺市 (one-line 提案理由) · 狛江市 (title-only; 第1回 and 第3回 only) · 日野市 · 西東京市 · 昭島市 · 日の出町 · 武蔵村山市 (title-only) |
 | Decision needed | 清瀬市 (no session dates published) |
 | Hard | 小金井市 |
@@ -324,10 +331,24 @@ Built (20): 練馬, 豊島, 文京, 江東 · 福生, 羽村, 日野, 昭島, �
 - **相模原**: bill texts are bundles up to 6 MB, which take over 10 s to download, so the slow-host stop fires. Either a per-host limit (as for 藤沢) or a size-aware limit.
 - **二宮**: results PDFs list titles without bill numbers, so matching would be by title, below the publishing bar. Also a 町議会議員選挙 falls before December.
 - **中央**: robots.txt names AI bots.
-- **文京 bill text**: the bundles are vertical text whose punctuation and small kana come out as stray CJK glyphs, so bills are title-only until a glyph map is written.
+- ~~**文京 bill text**~~ Fixed 2026-10-08: the bundles' stray CJK Extension A glyphs are mapped back (`GLYPHS` in `bunkyo.js`: 、。「」（）ー ッ っ); a bill with an unmapped one stays title-only with a warning. Head bills now have text; member bills have none published. Tested offline on 令和8年6月's 議案第2～24号 only, so watch the first collect for new glyphs.
 - **Carried-over bills** (継続審査, e.g. 昭島 議案第33号) appear once per session, as in the existing adapters.
 
 Upkeep: 羽村's 議事日程 and 江東, 川崎 and 西東京 year pages are per calendar year; 武蔵村山's results page is overwritten each session. Transient host timeouts (豊島, 練馬, 日野, 秦野, 二宮) were seen tonight; the collect run should be watched for them.
+
+## 神奈川県議会: source check and build (2026-10-08, off-peak)
+
+robots.txt allows us. Index 「提案された議案及び審議結果」 (`/gikai/p80113.html`) → a page per session (`gian_08dai2.html`).
+
+| What | Where | Notes |
+|---|---|---|
+| Results | Table on the session page: 案番号, 議案名, **議決日**, 審議結果, a column per 会派 | Filled in per vote day during the session, so decided bills show early. |
+| Bill text | 条例その他 bundles per send date (PDF, text layer) | Scrambled table of contents; each bill's pages end with a 「定県第N号議案」 tab plus its title as label lines. |
+| Pending bills | Only in the bundles | Titles from the bundle's table of contents. |
+| Committee | 議案付託表 PDFs (`gianhutyakuhyou.html`) | **Not read**: some (6月26日付託分) extract as garbled text. Gap `committee`. |
+| Session dates | 日程 pages per session (`nittei_r08dai1.html`, …) and the 日程 page (`p80280.html`) | First plenary day → 採決 day. |
+
+Built: `scripts/adapters/kanagawa.js` + the `kanagawa` entry (`published: false`). Tested offline on 令和8年第2回 (13 ordinances, 12 with text) and 第3回 (6 pending, 5 with text). A bill whose PDF text is broken (定県第45号, 71号: 「第\u0002条」 for 「第37条」) stays title-only. Member bills (議員提出議案) would be title-only; none were in scope this year. Not collected yet.
 
 ## Bill JSON format
 

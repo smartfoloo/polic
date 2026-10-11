@@ -8,6 +8,10 @@ import { assemblies } from '../../src/lib/config/assemblies.js';
 
 const today = () => new Date().toISOString().slice(0, 10);
 
+/** The assembly's election whose window (notice date through election day) contains `date`, if any. */
+export const inElection = (/** @type {string} */ assembly, date = today()) =>
+	assemblies.find((a) => a.id === assembly)?.elections.find((e) => e.notice <= date && date <= e.day);
+
 /**
  * Why an unapproved bill can't go live on its own. Empty means it can.
  * AI "omission" notes don't hold a bill: they mean incomplete, not wrong.
@@ -16,8 +20,8 @@ const today = () => new Date().toISOString().slice(0, 10);
  * @returns {string[]}
  */
 export function holdReasons(bill, date = today()) {
-	const election = assemblies.find((a) => a.id === bill.assembly)?.election;
-	if (election && election.notice <= date && date <= election.day) return ['election period: review everything'];
+	const election = inElection(bill.assembly, date);
+	if (election) return [`election period (${election.what}): review everything`];
 	if (bill.titleOnly) return [];
 	if (!bill.draft) return ['no draft yet'];
 	if (!bill.checks || bill.checks.draftAt !== bill.draft.generatedAt) return ['not checked yet (npm run verify)'];

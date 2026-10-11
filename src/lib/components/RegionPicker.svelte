@@ -14,8 +14,13 @@
 		if (!ui.pickerOpen && dialog.open) dialog.close();
 	});
 
-	const prefs = $derived(assemblies.filter((a) => a.level === 'pref'));
-	const munis = (/** @type {string} */ pref) => assemblies.filter((a) => a.parent === pref);
+	// Grouped by prefecture; a prefecture whose own assembly isn't live yet gets a plain heading.
+	const prefs = $derived([...new Set(assemblies.map((a) => a.pref))].map((pref) => ({
+		pref,
+		prefEn: assemblies.find((a) => a.pref === pref)?.prefEn ?? pref,
+		assembly: assemblies.find((a) => a.level === 'pref' && a.place === pref),
+		munis: assemblies.filter((a) => a.level === 'muni' && a.pref === pref)
+	})));
 </script>
 
 {#snippet option(/** @type {import('$lib/bills.js').PublicAssembly} */ a)}
@@ -46,9 +51,9 @@
 			<button class="icon-btn" type="button" aria-label={t('閉じる', 'Close')} onclick={() => dialog.close()}><Icon name="close" /></button>
 		</div>
 		<ul class="list">
-			{#each prefs as p (p.id)}
-				{@render option(p)}
-				{#each munis(p.id) as m (m.id)}
+			{#each prefs as p (p.pref)}
+				{#if p.assembly}{@render option(p.assembly)}{:else}<li class="opt group">{t(p.pref, p.prefEn)}</li>{/if}
+				{#each p.munis as m (m.id)}
 					{@render option(m)}
 				{/each}
 			{/each}
@@ -97,6 +102,10 @@
 	.opt:hover {
 		background: var(--color-surface-alt);
 		text-decoration: none;
+	}
+
+	.opt.group:hover {
+		background: none;
 	}
 
 	.opt.muni {

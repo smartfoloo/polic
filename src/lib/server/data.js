@@ -5,7 +5,7 @@
 import { assemblies } from '$lib/config/assemblies.js';
 import { toCard } from '$lib/bills.js';
 import kanto from '$lib/map/kanto.json';
-import { publishState } from '../../../scripts/lib/publish.js';
+import { inElection, publishState } from '../../../scripts/lib/publish.js';
 import { jaSource } from '../../../scripts/lib/prompts.js';
 
 /** @typedef {import('$lib/bills.js').PublicBill} PublicBill */
@@ -65,6 +65,10 @@ export function toPublic(/** @type {any} */ b) {
 
 const live = all.filter((b) => publishState(b, today) !== 'held').map(toPublic);
 
+// The prefecture comes from its assembly's config entry, published or not, so a municipality can go live first.
+const prefOf = (/** @type {import('$lib/config/assemblies.js').Assembly} */ a) =>
+	a.level === 'pref' ? a : assemblies.find((p) => p.id === a.parent);
+
 /** @returns {PublicAssembly} */
 const toPublicAssembly = (/** @type {import('$lib/config/assemblies.js').Assembly} */ a) => ({
 	id: a.id,
@@ -76,6 +80,8 @@ const toPublicAssembly = (/** @type {import('$lib/config/assemblies.js').Assembl
 	headEn: a.headEn,
 	level: a.level,
 	parent: a.parent,
+	pref: prefOf(a)?.place ?? '',
+	prefEn: prefOf(a)?.placeEn ?? '',
 	sessions: a.sessions,
 	gaps: a.gaps ?? []
 });
@@ -91,8 +97,7 @@ export const heldCount = (/** @type {string} */ assembly) =>
 
 /** Bill ids for the 「よく見られている」 strip; empty (strip hidden) when none qualify or in an election window. */
 export function popularIds(/** @type {string} */ assembly) {
-	const election = assemblies.find((a) => a.id === assembly)?.election;
-	if (election && election.notice <= today && today <= election.day) return [];
+	if (inElection(assembly, today)) return [];
 	const visitors = popularFile?.visitors ?? {};
 	return liveBills(assembly)
 		.filter((b) => (visitors[b.id] ?? 0) >= POPULAR_MIN)
@@ -112,8 +117,7 @@ function shapeOf(/** @type {PublicAssembly} */ a) {
 		const [x1, y1] = [Math.max(...boxes.map((b) => b[0] + b[2])), Math.max(...boxes.map((b) => b[1] + b[3]))];
 		return { d: p.d, box: [x0, y0, x1 - x0, y1 - y0] };
 	}
-	const pref = publicAssemblies.find((p) => p.id === a.parent)?.place;
-	const s = a.level === 'muni' ? kanto.shapes.find((x) => x.pref === pref && x.name === a.place) : undefined;
+	const s = kanto.shapes.find((x) => x.pref === a.pref && x.name === a.place);
 	return s ? { d: s.d, box: s.box } : null;
 }
 

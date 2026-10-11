@@ -44,6 +44,7 @@ const GAP_NOTES = {
 	afterClose: ['議案は会期が終わってから掲載されます。', 'Bills are listed only after the session ends.'],
 	resultsAfterClose: ['結果は会期が終わってから反映されます。', 'Results are added only after the session ends.'],
 	voteDate: ['採決日は公表されていません。日付は提出日です。', "Vote dates aren't published. Dates shown are submission dates."],
+	noDates: ['採決日も提出日も公表されていないため、日付は載せていません。', "Neither vote nor submission dates are published, so no dates are shown."],
 	committee: ['付託された委員会は公表されていません。', "The committee each bill goes to isn't published."],
 	scanned: ['議案の本文が画像のため、題名と結果だけを載せています。', 'Bill texts are published as images, so only titles and results are shown.'],
 	titleOnly: ['議案の本文が公開されていない、または読み取れないため、題名と結果だけを載せています。', "Bill texts aren't published or can't be read, so only titles and results are shown."]
@@ -53,6 +54,7 @@ const GAP_TAGS = {
 	titleOnly: ['本文なし', 'No bill text'],
 	scanned: ['本文が画像', 'Text is scanned'],
 	voteDate: ['採決日なし', 'No vote dates'],
+	noDates: ['日付なし', 'No dates'],
 	committee: ['委員会なし', 'No committees'],
 	afterClose: ['議案は閉会後', 'Bills after session'],
 	resultsAfterClose: ['結果は閉会後', 'Results after session']

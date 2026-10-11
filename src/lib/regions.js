@@ -25,8 +25,6 @@ export const normRegionQuery = (/** @type {string} */ q) => toHiragana(q.normali
  * @returns {Region[]}
  */
 export function buildRegions(assemblies, municipalities) {
-	const prefOf = (/** @type {import('./bills.js').PublicAssembly} */ a) => assemblies.find((p) => p.id === a.parent)?.place ?? '';
-
 	/** @type {Region[]} */
 	const prefs = prefectures.filter(([name]) => SEARCH_PREFECTURES.includes(name)).map(([name, kana, en]) => {
 		const a = assemblies.find((x) => x.level === 'pref' && x.place === name);
@@ -34,7 +32,7 @@ export function buildRegions(assemblies, municipalities) {
 	});
 
 	const munis = municipalities.map(([pref, name, kana]) => {
-		const a = assemblies.find((x) => x.level === 'muni' && x.place === name && prefOf(x) === pref);
+		const a = assemblies.find((x) => x.level === 'muni' && x.place === name && x.pref === pref);
 		return { name, nameEn: a?.placeEn ?? name, pref, kana, assembly: a?.id };
 	});
 

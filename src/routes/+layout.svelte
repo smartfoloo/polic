@@ -13,6 +13,11 @@
 
 	// The review page (/admin, dev only) is a full-screen tool without the site's header and footer.
 	const admin = $derived(page.route.id?.startsWith('/admin') ?? false);
+
+	// <html lang> is set on the server only; keep it in step when switching language without a reload (fonts key off it).
+	$effect(() => {
+		document.documentElement.lang = isEn() ? 'en' : 'ja';
+	});
 </script>
 
 <svelte:head>

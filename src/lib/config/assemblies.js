@@ -6,8 +6,15 @@
  * @typedef {object} Session
  * @property {string} name
  * @property {string} nameEn
- * @property {string} opened ISO date
- * @property {string} closes ISO date, scheduled or actual
+ * @property {string} [opened] ISO date; left out when the assembly doesn't publish it (PLAN.md, "Unpublished session dates")
+ * @property {string} [closes] ISO date, scheduled or actual; left out likewise
+ */
+
+/**
+ * @typedef {object} Election
+ * @property {string} what e.g. 区長選挙, 議会議員補欠選挙
+ * @property {string} notice ISO date of the official notice (告示日)
+ * @property {string} day ISO election day
  */
 
 /**
@@ -24,20 +31,23 @@
  * @property {string[]} hosts the fetcher refuses any other host
  * @property {{ label: string, url: string }[]} listPages entry points for the adapters
  * @property {Session[]} sessions
- * @property {{ notice: string, day: string } | null} election official notice date (告示日) through election day, ISO;
- *   no bill goes live without human review in this window. null when none is scheduled or dates aren't announced yet.
+ * @property {Election[]} elections scheduled elections for the assembly or the head (mayor, governor), by-elections
+ *   included; no bill goes live without human review from the notice date through election day. Empty when none is
+ *   scheduled or the dates aren't announced yet. Source: each prefecture's 選挙執行一覧.
  * @property {false} [published] false keeps the assembly collected and reviewable in admin but off the site:
  *   its results can't be tied to bills reliably (see PLAN.md, "Publishing bar"), it hasn't been collected yet,
  *   or it is in a prefecture the site doesn't show yet.
+ * @property {true} [excluded] left out for now (PLAN.md, "Excluded for now"): npm run batch skips its bills
  * @property {Gap[]} [gaps] what the source doesn't publish, shown on the board (wording in src/lib/i18n.js)
  */
 
 /**
  * afterClose: bills appear only once the session closes. resultsAfterClose: results appear only then.
- * voteDate: no vote dates, so dates are submission dates. committee: no committee per bill.
+ * voteDate: no vote dates, so dates are submission dates. noDates: no vote or submission dates, so none are shown.
+ * committee: no committee per bill.
  * scanned: bill texts are images, so only titles and results are shown.
  * titleOnly: bill texts aren't published (or can't be read), so only titles and results are shown.
- * @typedef {'afterClose' | 'resultsAfterClose' | 'voteDate' | 'committee' | 'scanned' | 'titleOnly'} Gap
+ * @typedef {'afterClose' | 'resultsAfterClose' | 'voteDate' | 'noDates' | 'committee' | 'scanned' | 'titleOnly'} Gap
  */
 
 /** @type {Assembly[]} */
@@ -54,8 +64,10 @@ export const assemblies = [
 		hosts: ['www.gikai.metro.tokyo.lg.jp', 'www.metro.tokyo.lg.jp'],
 		listPages: [{ label: '提出議案と議決結果', url: 'https://www.gikai.metro.tokyo.lg.jp/bill/' }],
 		// Source: /outline/archive-22.html and /schedule/plenary-session.html
-		// Next metropolitan assembly election: 2029.
-		election: null,
+		// Next metropolitan assembly election: 2029. Source: 東京都選挙管理委員会「令和８年 選挙執行一覧」, checked 2026-10-08.
+		elections: [
+			{ what: '都議会議員補欠選挙（千代田区選挙区）', notice: '2026-10-23', day: '2026-11-01' }
+		],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-27' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-09', closes: '2026-06-24' },
@@ -76,7 +88,7 @@ export const assemblies = [
 		listPages: [{ label: '議案一覧', url: 'https://gikai2.city.minato.tokyo.jp/g07_giketsu.asp?Sflg=2' }],
 		// Source: session dropdown on the 議案一覧 page (g07 bill database), checked 2026-09-30
 		// 2027 統一地方選挙 (April; assembly term ends 2027-04-30): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-18' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-16', closes: '2026-06-25' },
@@ -101,8 +113,11 @@ export const assemblies = [
 		],
 		// Source: 会期 on each session's page, checked 2026-10-03.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [
+			{ what: '区長選挙', notice: '2026-11-08', day: '2026-11-15' }
+		],
 		published: false,
+		excluded: true,
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-17', closes: '2026-03-24' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-10', closes: '2026-06-19' },
@@ -119,15 +134,17 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.bunkyo.lg.jp'],
-		listPages: [{ label: '議決結果', url: 'https://www.city.bunkyo.lg.jp/kugikai/p007042.html' }],
+		// The 議案 index is per calendar year: add the next year's in January.
+		listPages: [
+			{ label: '議決結果', url: 'https://www.city.bunkyo.lg.jp/kugikai/p007042.html' },
+			{ label: '議案（令和8年）', url: 'https://www.city.bunkyo.lg.jp/kugikai/kekka/gian/gian/r08/index.html' }
+		],
 		// Source: the 会期 in each 議決結果 link and the 議会日程 page (p007907), checked 2026-10-07. A 11月定例議会
 		// is also listed; add it when its dates are set.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
-		gaps: ['afterClose', 'voteDate', 'committee', 'titleOnly'],
+		elections: [],
+		gaps: ['afterClose', 'voteDate', 'committee'],
 		sessions: [
 			{ name: '令和8年1月臨時議会', nameEn: 'January Extraordinary Session 2026', opened: '2026-01-26', closes: '2026-01-26' },
 			{ name: '令和8年2月定例議会', nameEn: 'February Regular Session 2026', opened: '2026-02-09', closes: '2026-03-17' },
@@ -152,7 +169,7 @@ export const assemblies = [
 		listPages: [{ label: '令和8年 本会議情報', url: 'https://www.city.taito.lg.jp/kugikai/kaigi/honkaigi/r8/index.html' }],
 		// Source: the 会期 row of each session's 会議結果 page, checked 2026-09-30
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-06', closes: '2026-03-26' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-02', closes: '2026-06-25' },
@@ -180,7 +197,7 @@ export const assemblies = [
 		// Source: 会議日程 (/kugikai/kaigi_info/nittei/r8nittei.html, R7.html), checked 2026-09-30. A year-long
 		// session: each 「…月議会」 is listed as a session, first to last plenary day. The 招集議会 (May) has no ordinances.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['voteDate'],
 		sessions: [
 			{ name: '令和7年度定例会2月議会', nameEn: 'February Meeting 2026', opened: '2026-02-04', closes: '2026-03-31' },
@@ -198,14 +215,12 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.koto.lg.jp'],
 		// One index per calendar year: add the next year's in January.
 		listPages: [{ label: '令和8年 議案審議結果', url: 'https://www.city.koto.lg.jp/650102/0801giannshinngikekka.html' }],
 		// Source: each month's 議会日程 page (「令和8年第2回定例会は、6月10日…から7月1日…まで」), checked 2026-10-07.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['afterClose', 'voteDate', 'committee', 'titleOnly'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-19', closes: '2026-03-27' },
@@ -238,9 +253,10 @@ export const assemblies = [
 			{ label: 'まちづくり・公共交通推進特別委員会', url: 'https://gikai.city.shinagawa.tokyo.jp/katsudou/inkai-schedule/koukyo' }
 		],
 		// Source: 区議会の日程 (/schedule/19759, 20075, 20051, 20551.html), checked 2026-09-30; opened = first plenary day
-		// 2027 統一地方選挙 (April): fill in when the dates are announced. The 区長選挙 on 2026-11-15 isn't an
-		// assembly election, so it doesn't set this.
-		election: null,
+		// 2027 統一地方選挙 (April): add when the dates are announced. Source: 東京都選挙管理委員会「令和８年 選挙執行一覧」, checked 2026-10-08.
+		elections: [
+			{ what: '区長選挙', notice: '2026-11-08', day: '2026-11-15' }
+		],
 		gaps: ['voteDate'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-27' },
@@ -268,7 +284,7 @@ export const assemblies = [
 		],
 		// Source: first and last 議事日程 on each session's 資料 page; 3rd from its 開催 page. Checked 2026-10-03.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['afterClose'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-17', closes: '2026-03-23' },
@@ -291,7 +307,7 @@ export const assemblies = [
 		listPages: [{ label: '令和8年 本会議', url: 'https://www.city.ota.tokyo.jp/gikai/kugikai_katsudou/honkaigi/r_8/index.html' }],
 		// Source: 区議会の会議日程 (kaiginittei.html), checked 2026-10-02
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-13', closes: '2026-03-25' },
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-26', closes: '2026-05-27' },
@@ -318,7 +334,7 @@ export const assemblies = [
 		],
 		// Source: /gikai/teirei/11604.html (closed sessions) and /02030/18875.html (the current one), checked 2026-09-30
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-27' },
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-14', closes: '2026-05-20' },
@@ -344,7 +360,7 @@ export const assemblies = [
 		],
 		// Source: shibukugi.tokyo top-page notice
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['resultsAfterClose'],
 		sessions: [
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-11', closes: '2026-10-15' }
@@ -365,7 +381,7 @@ export const assemblies = [
 		listPages: [{ label: '令和8年 議案一覧', url: 'https://kugikai-nakano.jp/honkaigi.html?nen=2026' }],
 		// Source: 議会日程 (nittei.html, monthly), first to last plenary day, checked 2026-09-30
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-01-22', closes: '2026-01-22' },
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-09', closes: '2026-03-23' },
@@ -389,7 +405,7 @@ export const assemblies = [
 		],
 		// Source: /kugikai/kaigi/nittei/r08/ monthly schedules
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-05-22', closes: '2026-06-12' },
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-09', closes: '2026-10-19' }
@@ -405,14 +421,12 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.toshima.lg.jp'],
 		// One page per calendar year: add the next year's 会議結果 page when it appears.
 		listPages: [{ label: '令和8年区議会の会議結果', url: 'https://www.city.toshima.lg.jp/368/2603191322.html' }],
 		// Source: 会期 on each 会議結果 page; 第3回 from 定例会の予定 (/368/kuse/gikai/2501301054.html), checked 2026-10-07
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['afterClose', 'voteDate', 'committee', 'titleOnly'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-10', closes: '2026-03-24' },
@@ -440,7 +454,7 @@ export const assemblies = [
 		],
 		// Source: 会議の日程 (3rd), the 議案等の審査結果 link dates (1st), the 提出 date on 議案第42号 (2nd opening);
 		// checked 2026-10-03. 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['resultsAfterClose'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-13', closes: '2026-03-24' },
@@ -458,14 +472,12 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.nerima.tokyo.jp'],
 		// One page per calendar year: add the next year's index in January.
 		listPages: [{ label: '令和8年 定例会情報', url: 'https://www.city.nerima.tokyo.jp/gikai/kaigi/r8/index.html' }],
 		// Source: each session's 概要 page (「…までの19日間の会期」); 第三回 from the 区議会 top page (会期予定), checked 2026-10-07
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['voteDate'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-05', closes: '2026-03-13' },
@@ -487,7 +499,7 @@ export const assemblies = [
 		listPages: [{ label: '議案一覧', url: 'https://www.gikai-adachi.jp/g07_giketsu.asp?Sflg=2' }],
 		// Source: session dropdown on the 議案の検索 page (g07 bill database), checked 2026-09-30
 		// Not in the April unified election: the assembly term ends 2027-05-25, so the election is around May 2027.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-19', closes: '2026-03-24' },
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-06-05', closes: '2026-06-05' },
@@ -515,7 +527,7 @@ export const assemblies = [
 		// Source: 令和8年度 議会予定表 (schedule.pdf/R8schedule.pdf) and 開催予定 (20301.html), checked 2026-09-30.
 		// 第1回's schedule (R7schedule.pdf) is a scanned image: 2026-02-16 is its first recorded plenary vote, not a
 		// confirmed opening day. Assembly election: November 2029 (the last was November 2025).
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-16', closes: '2026-03-27' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-04', closes: '2026-06-22' },
@@ -536,7 +548,7 @@ export const assemblies = [
 		listPages: [{ label: '議案一覧', url: 'https://www.gikai.city.edogawa.tokyo.jp/g07_giketsu.asp?Sflg=2' }],
 		// Source: session dropdown on the 議案一覧 page (g07 bill database), checked 2026-09-30
 		// 2027 統一地方選挙 (April; assembly term ends 2027-05-01): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-17', closes: '2026-03-25' },
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-05-28', closes: '2026-06-01' },
@@ -562,7 +574,7 @@ export const assemblies = [
 			{ label: '市長が市議会に提出した議案', url: 'https://www.city.hachioji.tokyo.jp/shisei/001/001/007/002/p022474.html' }
 		],
 		// Source: 会期 on each session's page, checked 2026-10-03
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-27' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-08', closes: '2026-06-25' },
@@ -582,7 +594,7 @@ export const assemblies = [
 		hosts: ['www.gikai-machida.jp'],
 		listPages: [{ label: '議案の概要・議決結果', url: 'https://www.gikai-machida.jp/g07_giketsu.asp?Sflg=2' }],
 		// Source: session dropdown on the 議案の概要・議決結果 page (g07 bill database), checked 2026-10-01
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年1月臨時会（第1回）', nameEn: '1st Extraordinary Session 2026', opened: '2026-01-26', closes: '2026-01-26' },
 			{ name: '令和8年3月定例会（第1回）', nameEn: '1st Regular Session 2026', opened: '2026-03-09', closes: '2026-03-30' },
@@ -603,7 +615,7 @@ export const assemblies = [
 		hosts: ['www.city.tachikawa.lg.jp'],
 		listPages: [{ label: '令和8年の各定例会・臨時会の概要', url: 'https://www.city.tachikawa.lg.jp/shigikai/katsudo/1007184/1026374/index.html' }],
 		// Source: each session's 日程表 (first and last 本会議), checked 2026-10-01. Assembly elected 2026-06-21.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-18', closes: '2026-03-24' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-05-07', closes: '2026-05-28' },
@@ -627,7 +639,7 @@ export const assemblies = [
 			{ label: '令和8年議員提出議案', url: 'https://www.city.musashino.lg.jp/shigikai/gian_seigan_chinzyo/giingian/1054064.html' }
 		],
 		// Source: 令和8年会議の結果・記録 (shigikai/kaigi_kekka/teireikai_rinjikai_kekka/1053870.html), checked 2026-10-01
-		election: null,
+		elections: [],
 		gaps: ['scanned'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-27' },
@@ -650,7 +662,7 @@ export const assemblies = [
 		listPages: [{ label: '議案審議結果一覧', url: 'https://www.city.ome.tokyo.jp/site/gikai/50399.html' }],
 		// A year-long session from May; each meeting is listed as a session. Dates: first 提出日 and last
 		// 議決日 on each meeting's 議案審議結果一覧, checked 2026-10-01.
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和7年市議会定例会令和8年1月臨時議会', nameEn: '2025 Regular Session, January 2026 extraordinary meeting', opened: '2026-01-26', closes: '2026-01-26' },
 			{ name: '令和7年市議会定例会令和8年2月定例議会', nameEn: '2025 Regular Session, February 2026 meeting', opened: '2026-02-24', closes: '2026-03-26' },
@@ -677,7 +689,7 @@ export const assemblies = [
 		],
 		// Source: 会期日程 pages (gikai/shingi/gikai/), first and last 本会議, checked 2026-10-01.
 		// 第1回臨時会 only had 専決処分, so it isn't listed.
-		election: null,
+		elections: [],
 		gaps: ['resultsAfterClose', 'voteDate'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-16', closes: '2026-03-16' },
@@ -695,13 +707,11 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.akishima.lg.jp'],
 		// One page per calendar year: add the next year's 日程・審議結果等 index in January.
 		listPages: [{ label: '令和8年 日程・審議結果等', url: 'https://www.city.akishima.lg.jp/gikai/honkaigi/1006709/1011604/index.html' }],
 		// Source: the session links on the year page (「6月15日から7月1日まで17日間」), checked 2026-10-07
-		election: null,
+		elections: [],
 		gaps: ['committee', 'titleOnly'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-26' },
@@ -726,7 +736,7 @@ export const assemblies = [
 			{ label: '会議結果（令和8年）', url: 'https://www.city.chofu.lg.jp/shiseijouhou/gikai/kaigikekka/r08/index.html' }
 		],
 		// Source: 会期 on each session's 会議結果 page, checked 2026-10-01
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-27', closes: '2026-03-26' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-01', closes: '2026-06-18' },
@@ -744,12 +754,10 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.hino.lg.jp'],
 		listPages: [{ label: '議案等審議一覧表', url: 'https://www.city.hino.lg.jp/shigikai/gian/index.html' }],
 		// Source: 定例会等日程 (/shigikai/teireikai/), first to last day of each schedule table, checked 2026-10-07
-		election: null,
+		elections: [],
 		gaps: ['committee', 'titleOnly'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-03-09', closes: '2026-04-06' },
@@ -768,13 +776,11 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.fussa.tokyo.jp'],
 		// One page per calendar year: add the next year's 審議された議案 page in January.
 		listPages: [{ label: '令和8年 審議された議案', url: 'https://www.city.fussa.tokyo.jp/assembly/meeting/bill/1020868/index.html' }],
 		// Source: 会議の日程 (/assembly/meeting/schedule/1020712/), first to last day, checked 2026-10-07
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-01-20', closes: '2026-01-20' },
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-03-03', closes: '2026-03-27' },
@@ -792,17 +798,17 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.komae.tokyo.jp'],
 		listPages: [{ label: '議案、請願・陳情等審査結果一覧', url: 'https://www.city.komae.tokyo.jp/index.cfm/49,145713,404,2590,html' }],
 		// Source, checked 2026-10-07: 第1回定例会 from its 会期日程 PDF; 第3回定例会 from the 「日程（予定）」 news post.
-		// 第2回定例会 and 第1回臨時会 are left out: no schedule was published for them (their results PDFs only give
-		// 議決月日).
-		election: null,
+		// 第2回定例会 and 第1回臨時会 have no dates: no schedule was published for them (their results PDFs only give
+		// 議決月日). The 臨時会's place in the order is assumed.
+		elections: [],
 		gaps: ['afterClose', 'committee', 'titleOnly'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-20', closes: '2026-03-25' },
+			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026' },
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-08-26', closes: '2026-10-05' }
 		]
 	},
@@ -823,7 +829,7 @@ export const assemblies = [
 			{ label: '市長提出議案', url: 'https://www.city.higashikurume.lg.jp/shisei/jorei/1012538/index.html' }
 		],
 		// Source: each session's 会期日程表, checked 2026-10-03
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-26' },
 			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-06-04', closes: '2026-06-23' },
@@ -847,7 +853,7 @@ export const assemblies = [
 			{ label: '令和8年 市長提出議案', url: 'https://www.city.higashiyamato.lg.jp/shisei/gikai/1008119/1005630/1011940/index.html' }
 		],
 		// Source: the dates in each 議案等審議結果 page title, checked 2026-10-01
-		election: null,
+		elections: [],
 		gaps: ['scanned'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-20', closes: '2026-03-23' },
@@ -865,15 +871,13 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.kokubunji.tokyo.jp'],
 		listPages: [
 			{ label: '提出議案一覧', url: 'https://www.city.kokubunji.tokyo.jp/shisei/gian/1037676/index.html' },
 			{ label: '本会議 審議結果', url: 'https://www.city.kokubunji.tokyo.jp/shigikai/gikai_info_katsudou/honkaigi/index.html' }
 		],
 		// Source: the first and last 本会議 in each month's 議会日程 page, checked 2026-10-07.
-		election: null,
+		elections: [],
 		gaps: ['resultsAfterClose', 'committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-20', closes: '2026-03-23' },
@@ -895,7 +899,7 @@ export const assemblies = [
 		listPages: [{ label: '令和8年 会議日程・結果', url: 'https://www.city.kunitachi.tokyo.jp/soshiki/Dept09/Div01/Sec02/gyomu/gikai_kaigi_nittei_kekka/0304/r8/index.html' }],
 		// Source: 開会 and 閉会 in each session's 会議結果報告, checked 2026-10-03.
 		// 第1回臨時会 (2026-02-05) had no ordinance bills.
-		election: null,
+		elections: [],
 		gaps: ['resultsAfterClose', 'committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-24' },
@@ -913,13 +917,11 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.musashimurayama.lg.jp'],
 		// Overwritten every session: collect each session while it is up, and add the next one here.
 		listPages: [{ label: '議決結果（最新の定例会）', url: 'https://www.city.musashimurayama.lg.jp/shisei/shigikai/1022404/kaigi/1022506.html' }],
 		// Source: the 会議名・会議日数等 table on that page, checked 2026-10-07. Earlier sessions' dates aren't published.
-		election: null,
+		elections: [],
 		gaps: ['committee', 'titleOnly'],
 		sessions: [{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-01', closes: '2026-09-25' }]
 	},
@@ -941,7 +943,7 @@ export const assemblies = [
 		],
 		// Source: first 提出月日 and last 議決月日 on each 会議結果 page; 3rd from 市議会の日程. Checked 2026-10-03.
 		// 第1回臨時会 (2026-02-10) had no ordinance bills.
-		election: null,
+		elections: [],
 		gaps: ['afterClose', 'committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-30' },
@@ -962,7 +964,7 @@ export const assemblies = [
 		hosts: ['www.city.inagi.tokyo.jp'],
 		listPages: [{ label: '令和8年 議会の動き', url: 'https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/index.html' }],
 		// Source: first and last 本会議 in each session's 会期日程, checked 2026-10-03
-		election: null,
+		elections: [],
 		gaps: ['afterClose'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-30' },
@@ -980,8 +982,6 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.hamura.tokyo.jp'],
 		// The bills page is per calendar year: replace it with the next year's in January.
 		listPages: [
@@ -989,7 +989,7 @@ export const assemblies = [
 			{ label: '令和8年議事日程', url: 'https://www.city.hamura.tokyo.jp/category/8-15-1-23-0-0-0-0-0-0.html' }
 		],
 		// Source: each session's 議事日程 page, first to last sitting day, checked 2026-10-07
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-02-02', closes: '2026-02-02' },
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-03-03', closes: '2026-03-26' },
@@ -1011,7 +1011,7 @@ export const assemblies = [
 		listPages: [{ label: '会議開催状況', url: 'https://www.city.akiruno.tokyo.jp/0000000464.html' }],
 		// A year-long 定例会 with several meetings, each listed as a session. Source: the 日程 table on each
 		// meeting's page, checked 2026-10-01. The 開会会議 of 第1回定例会 (1月6日) had no ordinances.
-		election: null,
+		elections: [],
 		gaps: ['committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会第1回臨時会議', nameEn: '2026 1st Regular Session, 1st extraordinary meeting', opened: '2026-01-15', closes: '2026-01-15' },
@@ -1030,13 +1030,13 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.city.nishitokyo.lg.jp'],
 		listPages: [{ label: '令和8年 日程・付議案件・結果', url: 'https://www.city.nishitokyo.lg.jp/sigikai/nittei_kekka/nittei_anken/r8/index.html' }],
 		// Source: each session's 会期内日程表 PDF (first day + 会期), checked 2026-10-07. 第3回定例会 is from the
 		// 日程表（案）.
-		election: null,
+		elections: [
+			{ what: '市議会議員選挙', notice: '2026-12-20', day: '2026-12-27' }
+		],
 		gaps: ['voteDate', 'titleOnly'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-26', closes: '2026-03-27' },
@@ -1055,21 +1055,99 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'tokyo',
-		// Not collected yet: the board would be empty.
-		published: false,
 		hosts: ['www.town.hinode.tokyo.jp'],
 		listPages: [{ label: '審議結果', url: 'https://www.town.hinode.tokyo.jp/category/10-4-4-0-0-0-0-0-0-0.html' }],
 		// Source: 会期 on each 議案結果 page, checked 2026-10-07. Later 2026 sessions aren't posted yet; add them
 		// when their 議案結果 pages appear.
-		election: null,
+		elections: [],
 		gaps: ['voteDate', 'titleOnly'],
 		sessions: [
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-02-10', closes: '2026-02-10' },
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-27', closes: '2026-03-17' }
 		]
 	},
-	// 神奈川県. Kept off the site (published: false) until it is decided how to present a second prefecture:
-	// there is no 神奈川県議会 entry, and the home map only zooms into Tokyo.
+	{
+		id: 'tokyo/arakawa',
+		name: '荒川区議会',
+		nameEn: 'Arakawa City Assembly',
+		place: '荒川区',
+		placeEn: 'Arakawa',
+		head: '区長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.arakawa.tokyo.jp'],
+		// The adapter reads them in this order.
+		listPages: [
+			{ label: '議案の審議結果', url: 'https://www.city.arakawa.tokyo.jp/gikaisenkyo/kugikai/shingikekka/index.html' },
+			{ label: '可決した議案', url: 'https://www.city.arakawa.tokyo.jp/gikaisenkyo/kugikai/kaketsu/index.html' }
+		],
+		// Source: the 令和7年度 and 令和8年度定例会 審議結果 pages, checked 2026-10-10. One 定例会 per fiscal year; no
+		// session dates are published (PLAN.md, "Unpublished session dates").
+		elections: [],
+		// Not collected yet: the board would be empty.
+		published: false,
+		gaps: ['noDates', 'committee', 'afterClose'],
+		sessions: [
+			{ name: '令和7年度定例会・2月会議', nameEn: 'FY2025 Regular Session, February meeting' },
+			{ name: '令和7年度定例会・4月緊急会議', nameEn: 'FY2025 Regular Session, April emergency meeting' },
+			{ name: '令和7年度定例会・閉会会議', nameEn: 'FY2025 Regular Session, closing meeting' },
+			{ name: '令和8年度定例会・開会会議', nameEn: 'FY2026 Regular Session, opening meeting' },
+			{ name: '令和8年度定例会・6月会議', nameEn: 'FY2026 Regular Session, June meeting' },
+			{ name: '令和8年度定例会・9月会議', nameEn: 'FY2026 Regular Session, September meeting' }
+		]
+	},
+	{
+		id: 'tokyo/kiyose',
+		name: '清瀬市議会',
+		nameEn: 'Kiyose City Assembly',
+		place: '清瀬市',
+		placeEn: 'Kiyose',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'tokyo',
+		hosts: ['www.city.kiyose.lg.jp'],
+		listPages: [
+			{ label: '清瀬市議会', url: 'https://www.city.kiyose.lg.jp/sigikai/index.html' },
+			{ label: '過去の本会議の結果', url: 'https://www.city.kiyose.lg.jp/sigikai/kaigi/honkaigii/index.html' }
+		],
+		// Source: 令和8年 本会議の結果, checked 2026-10-10. No session dates are published (PLAN.md, "Unpublished
+		// session dates").
+		elections: [],
+		// Not collected yet: the board would be empty.
+		published: false,
+		gaps: ['afterClose', 'committee'],
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026' },
+			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026' }
+		]
+	},
+	// 神奈川県, shown the same way as Tokyo (decided 2026-10-08).
+	{
+		id: 'kanagawa',
+		name: '神奈川県議会',
+		nameEn: 'Kanagawa Prefectural Assembly',
+		place: '神奈川県',
+		placeEn: 'Kanagawa',
+		head: '知事',
+		headEn: 'Governor',
+		level: 'pref',
+		hosts: ['www.pref.kanagawa.jp'],
+		listPages: [{ label: '提案された議案及び審議結果', url: 'https://www.pref.kanagawa.jp/gikai/p80113.html' }],
+		// Source: the 本会議 days on each session's 日程 page (nittei_r08dai1, nittei_r08dai2) and the 日程 page (p80280)
+		// for 第3回, checked 2026-10-08; opened = first plenary day, closes = 採決 day (scheduled for 第3回).
+		// 2027 統一地方選挙 (April): add when the dates are announced (神奈川県選挙管理委員会).
+		elections: [],
+		gaps: ['committee'],
+		sessions: [
+			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-12', closes: '2026-03-25' },
+			{ name: '令和8年第2回定例会', nameEn: '2nd Regular Session 2026', opened: '2026-05-18', closes: '2026-07-13' },
+			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-09-07', closes: '2026-12-18' }
+		]
+	},
 	{
 		id: 'kanagawa/yokohama',
 		name: '横浜市会',
@@ -1080,12 +1158,11 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'kanagawa',
-		published: false,
 		hosts: ['www.city.yokohama.lg.jp'],
 		listPages: [{ label: '本会議の結果／議案', url: 'https://www.city.yokohama.lg.jp/shikai/kiroku/kekka/' }],
 		// Source: 過去の定例会の日程 (/shikai/nittei/kako/nitteir80N.html), first to last 本会議, checked 2026-10-07.
 		// 第3回's 決算 runs on after 9月25日; extend closes when the schedule says.
-		election: null,
+		elections: [],
 		gaps: ['voteDate', 'committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-01-28', closes: '2026-03-24' },
@@ -1103,14 +1180,13 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'kanagawa',
-		published: false,
 		hosts: ['www.city.kawasaki.jp'],
 		// One index per calendar year: add the next year's in January.
 		listPages: [{ label: '令和8年 定例会・臨時会の会議結果', url: 'https://www.city.kawasaki.jp/shisei/category/40-7-25-21-0-0-0-0-0-0.html' }],
 		// Source: 「令和8年 定例会・臨時会等の日程・発言要旨」 (開会 and 閉会 sittings), checked 2026-10-07; 第1回 and
 		// 第2回 match their 会議結果 PDFs.
 		// 2027 統一地方選挙 (April): fill in when the dates are announced.
-		election: null,
+		elections: [],
 		gaps: ['committee'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-12', closes: '2026-03-18' },
@@ -1128,11 +1204,10 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'kanagawa',
-		published: false,
 		hosts: ['shigikai.city.fujisawa.kanagawa.jp'],
 		listPages: [{ label: '議案の概要と議決結果', url: 'https://shigikai.city.fujisawa.kanagawa.jp/g07_giketsu.asp?Sflg=2' }],
 		// Source: session dropdown on the 議案の概要と議決結果 page (g07 bill database), checked 2026-10-07
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年2月定例会', nameEn: 'February Regular Session 2026', opened: '2026-02-12', closes: '2026-03-18' },
 			{ name: '令和8年5月臨時会', nameEn: 'May Extraordinary Session 2026', opened: '2026-05-22', closes: '2026-05-22' },
@@ -1150,7 +1225,6 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'kanagawa',
-		published: false,
 		hosts: ['www.city.zushi.kanagawa.jp'],
 		// One page per calendar year for each kind of session: add the next year's in January.
 		listPages: [
@@ -1158,7 +1232,7 @@ export const assemblies = [
 			{ label: '令和8年 臨時会の議案概要と審議結果', url: 'https://www.city.zushi.kanagawa.jp/shisei/gikai/1005359/1013727/1013733/index.html' }
 		],
 		// Source: 会議日程 (/shisei/gikai/1005216/1013693/), first 本会議 plus 会期 days, checked 2026-10-07
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-01-20', closes: '2026-01-20' },
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-05', closes: '2026-02-27' },
@@ -1177,13 +1251,12 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'kanagawa',
-		published: false,
 		hosts: ['www.city.hadano.kanagawa.jp'],
 		// One page per calendar year: add the next year's in January.
 		listPages: [{ label: '令和8年 会議の概要・結果', url: 'https://www.city.hadano.kanagawa.jp/gikai/teireikai-rinjikai/2/16_1/index.html' }],
 		// A year-long session meeting as 定例月会議 and 臨時会議. Source: the dated headings on each meeting's
 		// 概要・結果 page, first to last day, checked 2026-10-07
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年3月第1回定例月会議', nameEn: '2026 March meeting', opened: '2026-02-26', closes: '2026-03-26' },
 			{ name: '令和8年6月第2回定例月会議', nameEn: '2026 June meeting', opened: '2026-06-04', closes: '2026-06-23' },
@@ -1201,11 +1274,10 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'kanagawa',
-		published: false,
 		hosts: ['ebina.gijiroku.com'],
 		listPages: [{ label: '議案とその議決結果', url: 'https://ebina.gijiroku.com/g07_giketsu.asp?Sflg=2' }],
 		// Source: session dropdown on the 議案とその議決結果 page (g07 bill database), checked 2026-10-07
-		election: null,
+		elections: [],
 		sessions: [
 			{ name: '令和8年1月第1回臨時会', nameEn: '1st Extraordinary Session 2026', opened: '2026-01-16', closes: '2026-01-16' },
 			{ name: '令和8年3月第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-26' },
@@ -1225,17 +1297,76 @@ export const assemblies = [
 		headEn: 'Mayor',
 		level: 'muni',
 		parent: 'kanagawa',
-		published: false,
 		hosts: ['www.town.yugawara.kanagawa.jp'],
 		listPages: [{ label: '本会議審議議案', url: 'https://www.town.yugawara.kanagawa.jp/soshiki/9/24532.html' }],
 		// Source: the session headings on the 本会議審議議案（令和8年） page, checked 2026-10-07
-		election: null,
+		elections: [],
 		gaps: ['voteDate'],
 		sessions: [
 			{ name: '令和8年第1回定例会', nameEn: '1st Regular Session 2026', opened: '2026-02-24', closes: '2026-03-13' },
 			{ name: '令和8年第2回臨時会', nameEn: '2nd Extraordinary Session 2026', opened: '2026-04-02', closes: '2026-04-02' },
 			{ name: '令和8年第3回定例会', nameEn: '3rd Regular Session 2026', opened: '2026-06-09', closes: '2026-06-23' },
 			{ name: '令和8年第4回定例会', nameEn: '4th Regular Session 2026', opened: '2026-09-01', closes: '2026-09-29' }
+		]
+	},
+	{
+		id: 'kanagawa/sagamihara',
+		name: '相模原市議会',
+		nameEn: 'Sagamihara City Assembly',
+		place: '相模原市',
+		placeEn: 'Sagamihara',
+		head: '市長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'kanagawa',
+		hosts: ['www.sagamihara-shigikai.jp'],
+		// The adapter reads them by position: results, past results, bills, past bills.
+		listPages: [
+			{ label: '審議結果等', url: 'https://www.sagamihara-shigikai.jp/doc/2013120900035/' },
+			{ label: '過去の審議結果等', url: 'https://www.sagamihara-shigikai.jp/doc/2017033100025/' },
+			{ label: '提出議案・発言通告', url: 'https://www.sagamihara-shigikai.jp/doc/2013120900011/' },
+			{ label: '過去の付議事件一覧・提出議案等', url: 'https://www.sagamihara-shigikai.jp/doc/2016012500047/' }
+		],
+		// Source: the 議会日誌 (first and last 本会議) in each meeting's 審議結果 PDF, checked 2026-10-10. One 定例会
+		// a year from April; its March meeting is in the next calendar year.
+		elections: [],
+		// Not collected yet: the board would be empty.
+		published: false,
+		sessions: [
+			{ name: '令和7年定例会令和8年3月定例会議', nameEn: '2025 Regular Session, March 2026 meeting', opened: '2026-02-16', closes: '2026-03-24' },
+			{ name: '令和8年定例会開会会議', nameEn: '2026 Regular Session, opening meeting', opened: '2026-04-22', closes: '2026-04-22' },
+			{ name: '令和8年定例会第1回臨時会議', nameEn: '2026 Regular Session, 1st extraordinary meeting', opened: '2026-05-21', closes: '2026-05-21' },
+			{ name: '令和8年定例会6月定例会議', nameEn: '2026 Regular Session, June meeting', opened: '2026-05-29', closes: '2026-07-01' },
+			{ name: '令和8年定例会9月定例会議', nameEn: '2026 Regular Session, September meeting', opened: '2026-08-24', closes: '2026-09-30' }
+		]
+	},
+	{
+		id: 'kanagawa/samukawa',
+		name: '寒川町議会',
+		nameEn: 'Samukawa Town Assembly',
+		place: '寒川町',
+		placeEn: 'Samukawa',
+		head: '町長',
+		headEn: 'Mayor',
+		level: 'muni',
+		parent: 'kanagawa',
+		hosts: ['www.town.samukawa.kanagawa.jp'],
+		listPages: [{ label: '審議議案等の一覧と審議結果', url: 'https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/index.html' }],
+		// Source: the meeting headings on the 令和8年 審議結果 page, checked 2026-10-10. One 定例会 a year meets
+		// several times; no session dates are published (PLAN.md, "Unpublished session dates").
+		elections: [],
+		// Not collected yet: the board would be empty.
+		published: false,
+		gaps: ['committee'],
+		sessions: [
+			{ name: '令和8年第1回定例会1月第2回会議', nameEn: '2026 1st Regular Session, January 2nd meeting' },
+			{ name: '令和8年第1回定例会3月会議', nameEn: '2026 1st Regular Session, March meeting' },
+			{ name: '令和8年第1回定例会3月第2回会議', nameEn: '2026 1st Regular Session, March 2nd meeting' },
+			{ name: '令和8年第1回定例会4月会議', nameEn: '2026 1st Regular Session, April meeting' },
+			{ name: '令和8年第1回定例会4月第2回会議', nameEn: '2026 1st Regular Session, April 2nd meeting' },
+			{ name: '令和8年第1回定例会6月会議', nameEn: '2026 1st Regular Session, June meeting' },
+			{ name: '令和8年第1回定例会7月会議', nameEn: '2026 1st Regular Session, July meeting' },
+			{ name: '令和8年第1回定例会9月会議', nameEn: '2026 1st Regular Session, September meeting' }
 		]
 	}
 ];

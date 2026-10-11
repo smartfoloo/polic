@@ -13,9 +13,14 @@ const MIN_DELAY_MS = 6_000;
 const TIMEOUT_MS = 30_000;
 const SLOW_MS = 10_000;
 // Hosts that are always slow, not under load (港区's g07 database answers in ~15 s at any hour; 藤沢's
-// took over 10 s off-peak on 2026-10-06).
+// took over 10 s off-peak on 2026-10-06; 相模原's bill bundles run to 20 MB). A limit above TIMEOUT_MS
+// also lengthens the request timeout.
 /** @type {Record<string, number>} */
-const SLOW_MS_BY_HOST = { 'gikai2.city.minato.tokyo.jp': 25_000, 'shigikai.city.fujisawa.kanagawa.jp': 25_000 };
+const SLOW_MS_BY_HOST = {
+	'gikai2.city.minato.tokyo.jp': 25_000,
+	'shigikai.city.fujisawa.kanagawa.jp': 25_000,
+	'www.sagamihara-shigikai.jp': 120_000
+};
 const CACHE_TTL_MS = 12 * 60 * 60 * 1000;
 const CACHE_DIR = 'cache';
 
@@ -104,7 +109,7 @@ async function request(url, headers = {}) {
 	try {
 		return await fetch(url, {
 			headers: { 'User-Agent': ua, ...headers },
-			signal: AbortSignal.timeout(TIMEOUT_MS)
+			signal: AbortSignal.timeout(Math.max(TIMEOUT_MS, SLOW_MS_BY_HOST[url.host] ?? 0))
 		});
 	} catch (err) {
 		throw stopHost(url.host, `Network error for ${url}: ${/** @type {Error} */ (err).message}`);

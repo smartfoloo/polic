@@ -84,9 +84,11 @@ Editing any Japanese field later makes the English out of date: `npm run review`
 
 ## Election period
 
-Ward elections (統一地方選挙, April 2027) for Shibuya, Suginami, Shinjuku and Setagaya. Add the official notice date (告示日) and election day here once they're announced.
+Assembly **and** head (mayor, governor) elections count, by-elections included (decided 2026-10-08). Dates come from each prefecture's 選挙執行一覧 (Tokyo: 東京都選挙管理委員会「選挙執行一覧」); nothing finds them automatically, so check the list when it's updated.
 
-- Put the dates in `election` for each ward in `src/lib/config/assemblies.js`. From the notice date through election day nothing goes live without your approval, and the popular-bills strip is off.
+Set now: 東京都 (都議会議員補欠選挙, 千代田区選挙区, 10-23 → 11-01) · 品川区 and 新宿区 (区長選挙, 11-08 → 11-15) · 西東京市 (市議会議員選挙, 12-20 → 12-27). Next: 統一地方選挙, April 2027, for many wards; add the dates once announced.
+
+- Put the dates in `elections` for each assembly in `src/lib/config/assemblies.js`. From the notice date through election day nothing goes live without your approval, and the popular-bills strip is off.
 - In that window, don't approve new **member bills** (議員提出議案) for those wards. Mayor bills you've reviewed can still go live.
 - In the months before: extra care that nothing reads as favouring or criticising a member, faction or the mayor.
 

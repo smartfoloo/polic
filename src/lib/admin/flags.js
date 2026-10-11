@@ -76,7 +76,7 @@ function codeFlag(/** @type {string} */ f) {
 export function flagsOf(bill, reasons = []) {
 	/** @type {Flag[]} */
 	const flags = [];
-	if (reasons.some((r) => r.startsWith('election period'))) flags.push({ kind: 'election', note: 'The assembly’s election window is open: every bill needs your approval.' });
+	if (reasons.some((r) => r.startsWith('election period'))) flags.push({ kind: 'election', note: 'An election window is open for this assembly or its head: every bill needs your approval.' });
 	if (reasons.includes('member bill: always reviewed')) flags.push({ kind: 'member', note: 'Bills from assembly members are always checked by a person.' });
 	const dismissedFlags = new Map((bill.checks?.dismissedFlags ?? []).map((/** @type {any} */ d) => [d.flag, d]));
 	// A phrase copied twice is flagged twice by the code check: keep one flag per field.

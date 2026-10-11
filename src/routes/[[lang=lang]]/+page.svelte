@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<title>Polic — {t('地元の政策を、ふだんの言葉で', 'Local policy, in everyday words')}</title>
+	<title>Polic | {t('地元の政策を、ふだんの言葉で', 'Local policy, in everyday words')}</title>
 </svelte:head>
 
 <section class="hero">
@@ -21,7 +21,7 @@
 		<div>
 			<h1>{t('地元の議会で話し合われていることを、AIがわかりやすく要約します', 'What your local assembly is discussing, summarized in plain language by AI.')}</h1>
 			<p class="mission">
-				{t('Polic は、地元の議会への関心を広げるための、非営利プロジェクトです。', 'Polic is a non-profit project to get more people interested in their local assembly.')}
+				{t('Polic は地元の議会への関心を広げるためのプロジェクトです。', 'Polic is a non-profit project to get more people interested in their local assembly.')}
 				<span class="mission-links">
 					{#if JOIN_FORM_URL}
 						<a class="text-link" href={JOIN_FORM_URL} target="_blank" rel="noopener external">{t('参加する', 'Get involved')}<Icon name="right" /></a>
@@ -31,10 +31,7 @@
 			<div class="find">
 				<RegionSearch assemblies={data.assemblies} />
 				<p class="live">
-					{t('対応中:', 'Now covering:')}
-					{#each data.assemblies as a (a.id)}
-						<a href={href(`/${a.id}`)}>{t(a.name, a.nameEn)}</a>
-					{/each}
+					<a class="text-link" href={href('/coverage')}>{t('対応している議会', 'Supported assemblies')}<Icon name="right" /></a>
 				</p>
 			</div>
 		</div>
@@ -146,15 +143,7 @@
 
 	.live {
 		margin-top: 14px;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 4px 14px;
 		font-size: 13.5px;
-		color: var(--color-text-muted);
-	}
-
-	.live a {
-		font-weight: 700;
 	}
 
 	.band {

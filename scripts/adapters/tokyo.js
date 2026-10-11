@@ -150,14 +150,14 @@ async function pressBills(url, get) {
 }
 
 // Bills go to committee on a set plenary day (議案の常任委員会への付託の決定). The schedule page only
-// covers the current session, so past sessions count as referred.
+// covers the current session, so past sessions (and sessions without published dates) count as referred.
 /**
  * @param {import('../../src/lib/config/assemblies.js').Session} session
  * @param {Get} get
  */
 async function referralHappened(session, get) {
 	const today = new Date().toISOString().slice(0, 10);
-	if (today > session.closes) return true;
+	if (!session.opened || !session.closes || today > session.closes) return true;
 	if (today < session.opened) return false;
 
 	const res = await get(PLENARY_SCHEDULE);

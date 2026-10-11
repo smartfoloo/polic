@@ -62,7 +62,7 @@ export async function collect(assembly, session, get) {
 				if (m) results.set(Number(m[1]), { result, date });
 			}
 		}
-	} else if (session.closes < new Date().toISOString().slice(0, 10)) {
+	} else if ((session.closes ?? '') < new Date().toISOString().slice(0, 10)) {
 		return { bills, warnings: [`${session.name} has closed but its 議決結果 isn't posted yet`] };
 	}
 

@@ -1,9 +1,9 @@
 // Builds src/lib/map/kanto.json, the home page map, from 国土数値情報 行政区域データ (N03, MLIT, CC BY 4.0).
-// One-off: download the seven Kanto files (N03-20260101_08 … _14_GML.zip) from
+// One-off: download the Kanto files in PREFS (N03-20260101_11 … _14_GML.zip) from
 // https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html, unzip them into cache/map/, then
 // `node scripts/map.js`. mapshaper runs through npx so it isn't a project dependency.
 //
-// Kept: every municipality in config/municipalities.json for the seven prefectures (政令市 wards merged
+// Kept: every municipality in config/municipalities.json for the prefectures in PREFS (政令市 wards merged
 // into their city), plus mainland 所属未定地 (reclaimed land in Tokyo Bay) as unclickable land. Dropped: the
 // Tokyo islands (伊豆諸島・小笠原, codes 13360+) and specks under 0.05 km². Fails unless every listed
 // municipality ends up with exactly one shape.
@@ -11,7 +11,9 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
-const PREFS = ['08', '09', '10', '11', '12', '13', '14'];
+// 埼玉・千葉・東京・神奈川 only for now (decided 2026-10-08): 茨城 (08), 栃木 (09) and 群馬 (10) come back when work
+// starts there.
+const PREFS = ['11', '12', '13', '14'];
 const OUT = 'src/lib/map/kanto.json';
 const TMP = 'cache/map/out';
 // 平面直角座標系 IX (JGD2011), the national grid zone for Tokyo and most of Kanto: true shapes, metres.
@@ -73,7 +75,7 @@ function pathOf(/** @type {{ type: string, coordinates: any }} */ g) {
 }
 
 const municipalities = /** @type {[string, string, string][]} */ (JSON.parse(readFileSync('src/lib/config/municipalities.json', 'utf8')));
-const PREF_NAMES = ['茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県'];
+const PREF_NAMES = ['埼玉県', '千葉県', '東京都', '神奈川県'];
 // The islands dropped above (codes 13360+), by name since municipalities.json has no codes.
 const ISLANDS = ['大島町', '利島村', '新島村', '神津島村', '三宅村', '御蔵島村', '八丈町', '青ヶ島村', '小笠原村'].map((n) => `東京都/${n}`);
 const wanted = municipalities.filter(([p]) => PREF_NAMES.includes(p)).map(([p, n]) => `${p}/${n}`).filter((k) => !ISLANDS.includes(k));

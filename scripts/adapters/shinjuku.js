@@ -65,7 +65,7 @@ export async function collect(assembly, session, get) {
 		resultsSource = { label: `${session.name} 議案の概要と審議結果`, url: res.url, fetchedAt: res.fetchedAt };
 		if (results.length !== entries.length) {
 			warnings.push(`${results.length} results for ${entries.length} bills in ${res.url}; results skipped`);
-			if (session.closes < new Date().toISOString().slice(0, 10)) return { bills, warnings };
+			if ((session.closes ?? '') < new Date().toISOString().slice(0, 10)) return { bills, warnings };
 			results = [];
 		}
 	}

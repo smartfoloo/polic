@@ -66,6 +66,8 @@ export const toCard = (/** @type {PublicBill} */ b) => ({
  * @property {string} headEn
  * @property {'pref' | 'muni'} level
  * @property {string} [parent]
+ * @property {string} pref prefecture name (東京都), for prefectural and municipal assemblies alike
+ * @property {string} prefEn
  * @property {import('./config/assemblies.js').Session[]} sessions
  * @property {import('./config/assemblies.js').Gap[]} gaps
  */
@@ -108,8 +110,9 @@ export function sessionShort(/** @type {string} */ name, /** @type {PublicAssemb
 
 /** @typedef {'before' | 'open' | 'closed'} SessionState */
 
-/** @returns {SessionState} */
-export function sessionState(/** @type {{ opened: string, closes: string }} */ s, /** @type {string} */ today) {
+/** @returns {SessionState | null} null when the assembly doesn't publish the session's dates */
+export function sessionState(/** @type {{ opened?: string, closes?: string }} */ s, /** @type {string} */ today) {
+	if (!s.opened || !s.closes) return null;
 	if (today < s.opened) return 'before';
 	return today <= s.closes ? 'open' : 'closed';
 }

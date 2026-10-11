@@ -38,7 +38,7 @@ export async function collect(assembly, session, get) {
 		.toArray()
 		.find((t) => tableGrid($, t)[0]?.map(key).includes('議案番号'));
 	if (!table) {
-		if (session.closes < new Date().toISOString().slice(0, 10)) return { bills, warnings: [`${session.name} has closed but its bill table isn't posted yet`] };
+		if ((session.closes ?? '') < new Date().toISOString().slice(0, 10)) return { bills, warnings: [`${session.name} has closed but its bill table isn't posted yet`] };
 		return { bills, warnings: [`No bill table on ${page.url} yet`] };
 	}
 

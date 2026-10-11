@@ -99,10 +99,10 @@
 			{#if session}
 				{@const state = sessionState(session, today)}
 				<li>
-					<Icon name="info" />{t(
-						`${session.name}（${fmtDate(session.opened)} 〜 ${fmtDate(session.closes)}${state === 'open' ? '閉会予定' : ''}・${sessionStateLabel(state)}）`,
-						`${session.nameEn} (${fmtDate(session.opened)} – ${fmtDate(session.closes)}${state === 'open' ? ', scheduled' : ''}; ${sessionStateLabel(state)})`
-					)}
+					<Icon name="info" />{#if state && session.opened && session.closes}{t(
+							`${session.name}（${fmtDate(session.opened)} 〜 ${fmtDate(session.closes)}${state === 'open' ? '閉会予定' : ''}・${sessionStateLabel(state)}）`,
+							`${session.nameEn} (${fmtDate(session.opened)} – ${fmtDate(session.closes)}${state === 'open' ? ', scheduled' : ''}; ${sessionStateLabel(state)})`
+						)}{:else}{t(session.name, session.nameEn)}{/if}
 				</li>
 			{/if}
 		</ul>
