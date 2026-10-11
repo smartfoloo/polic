@@ -9,8 +9,7 @@ import { readFile } from 'node:fs/promises';
 import { loadBills, saveBillFile } from './lib/bills-io.js';
 import { checkDraft } from './lib/checks.js';
 import { costReport } from './lib/llm.js';
-import { checkBill, fixBill, STEPS } from './lib/pipeline.js';
-import { VERIFY_PROMPT_VERSION } from './lib/prompts.js';
+import { checkBill, checkCurrent, fixBill, STEPS } from './lib/pipeline.js';
 import { textPath } from './lib/store.js';
 
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
@@ -42,7 +41,7 @@ async function tryFix(/** @type {string} */ path, /** @type {any} */ bill, /** @
 for (const { path, bill } of await loadBills()) {
 	if (!bill.draft || bill.approved || (only.length && !only.includes(bill.id))) continue;
 	const c = bill.checks;
-	const aiCurrent = c && c.draftAt === bill.draft.generatedAt && c.ai?.promptVersion === VERIFY_PROMPT_VERSION;
+	const aiCurrent = checkCurrent(bill);
 
 	const source = await readFile(textPath(bill.id), 'utf8').catch(() => '');
 	if (!source.trim()) {
