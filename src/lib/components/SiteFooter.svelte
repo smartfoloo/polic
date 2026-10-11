@@ -12,7 +12,7 @@
 		<div class="foot-grid">
 			<div>
 				<a class="brand" href={href('/')}>Polic</a>
-				<p>{t('Polic は、地元の議会への関心を広げるための、非営利プロジェクトです。', 'Polic is a non-profit project to get more people interested in their local assembly.')}</p>
+				<p>{t('Polic は地元の議会への関心を広げるためのプロジェクトです。', 'Polic is a non-profit project to get more people interested in their local assembly.')}</p>
 			</div>
 			<nav class="foot-nav" aria-label={t('フッター', 'Footer')}>
 				<a href={href('/about')}>About</a>

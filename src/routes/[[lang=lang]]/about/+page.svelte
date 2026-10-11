@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<title>{t('Policについて', 'About Polic')} — Polic</title>
+	<title>{t('Policについて', 'About Polic')} | Polic</title>
 </svelte:head>
 
 <div class="container narrow article">
@@ -22,7 +22,7 @@
 	<section id="mission">
 		<p>
 			{t(
-				'Polic は、地元の議会への関心を広げるための、非営利プロジェクトです。広告はありません。',
+				'Polic は地元の議会への関心を広げるためのプロジェクトです。広告はありません。',
 				'Polic is a non-profit project to help people pay attention to their local assembly. There are no ads.'
 			)}
 		</p>
